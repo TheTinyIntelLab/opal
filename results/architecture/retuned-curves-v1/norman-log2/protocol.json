@@ -1,0 +1,20 @@
+{
+  "draws_sha256": "6b22a99d155e05d99a4c7e75ad95b3a788182520e41138591b5dfd99161fbb2b",
+  "evaluator_access": false,
+  "fractions": [
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "inner_folds": 3,
+  "outer_folds": 5,
+  "profiles_sha256": "fb246089a26353c88331bd6a2e72cba3fce441a989e6be8a53370f9ad56d9293",
+  "risk_rule": "first fitting/calibration split; model selection fits on fitting subset only; no outer or calibration outcomes select hyperparameters",
+  "runner_sha256": "2d6bb095a9f75496949b305293dbb2421f927d2ba8fc7dfc8805c5a373de1910",
+  "scope": "exploratory correlated resamplings; differing search budgets; no independence or frontier claim",
+  "seed": 20261008,
+  "source_hash": "b02bd1331cbc0ddd3e07f064ca856c402f8b6aade896df9ca89caeb7fdf97eff",
+  "subset_orders": 3,
+  "subset_rule": "three nested, seed-fixed training orders; full size fitted once; no validation-driven redraw"
+}
