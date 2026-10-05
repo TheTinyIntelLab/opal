@@ -1,0 +1,16 @@
+{
+  "synthetic": "configs/experiments/synthetic.json",
+  "sources": ["norman", "wessels-metadata", "wessels-counts"],
+  "datasets": ["norman-log2", "wessels-log2", "norman-count", "wessels-count", "chemical-exploratory"],
+  "biological_secondary": ["norman", "wessels"],
+  "measurement_bootstrap": ["norman", "wessels"],
+  "adapted_public_references": ["norman-log2", "wessels-log2"],
+  "experiments": [
+    "configs/experiments/norman-log2.json",
+    "configs/experiments/wessels-log2.json",
+    "configs/experiments/norman-count.json",
+    "configs/experiments/wessels-count.json",
+    "configs/experiments/chemical-exploratory.json"
+  ],
+  "scope": "Implemented internal research batch; full release evidence tracked separately in docs/progress.md"
+}

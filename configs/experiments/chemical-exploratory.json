@@ -1,0 +1,11 @@
+{
+  "dataset": "data/prepared/chemical-exploratory",
+  "output": "results/runs/chemical-exploratory",
+  "training": {
+    "embedding": 5, "epochs": 80, "ranks": [2, 4], "ridge_alpha": [1, 100],
+    "screening_seeds": [11], "finalist_seeds": [11, 29, 47, 71, 101],
+    "ensemble_seeds": [11, 29, 47, 71, 101], "finalists_per_family": 2,
+    "ablations": false, "maximum_seconds": 14400,
+    "amendment": "Original seven matched pairs, threefold CV on four development pairs, three held-out pairs. Exploratory feasibility only; does not satisfy chemical release gate. Equal-well profiles with shared plate controls."
+  }
+}

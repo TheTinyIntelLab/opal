@@ -1,0 +1,53 @@
+{
+  "input": "data/raw/counts.npz",
+  "metadata": "data/raw/metadata.json",
+  "output": "data/prepared/example",
+  "sha256": "REPLACE_WITH_VERIFIED_LOCAL_SHA256",
+  "reuse_terms": "REPLACE_WITH_SOURCE_REUSE_TERMS",
+  "count_provenance": "REPLACE_WITH_PRIMARY_SOURCE_EVIDENCE_FOR_RAW_UMIS",
+  "context": "cell-line/modality/dose/time",
+  "scale": "log2",
+  "qc": {
+    "minimum_library": 500,
+    "maximum_library": 20000,
+    "minimum_cells": 50
+  },
+  "folds": 5,
+  "split_seed": 1729,
+  "condition_map": {
+    "control": {
+      "components": [],
+      "context": "cell-line/modality/dose/time",
+      "guide_ids": []
+    },
+    "A": {
+      "components": [
+        "A"
+      ],
+      "context": "cell-line/modality/dose/time",
+      "guide_ids": [
+        "guide-A"
+      ]
+    },
+    "B": {
+      "components": [
+        "B"
+      ],
+      "context": "cell-line/modality/dose/time",
+      "guide_ids": [
+        "guide-B"
+      ]
+    },
+    "A+B": {
+      "components": [
+        "A",
+        "B"
+      ],
+      "context": "cell-line/modality/dose/time",
+      "guide_ids": [
+        "guide-A",
+        "guide-B"
+      ]
+    }
+  }
+}

@@ -1,0 +1,930 @@
+{
+  "files": [
+    {
+      "git_sha": "1977d253afc7b17b300e36ceeef85a27ad8cf24b",
+      "path": "AIDOCell/PertAdapter/gears/__init__.py",
+      "sha256": "8bc8b1e88878f6548828a470cc83bc7cbcc46a4b43ef471b9cdc606162c6e826"
+    },
+    {
+      "git_sha": "5ffad0ff50acf3ec79508a1131fa2f1a549914dc",
+      "path": "AIDOCell/PertAdapter/gears/data_utils.py",
+      "sha256": "776b41af9c8d49131d103ef54c8e0bea892a8313137e9c191fd8e74a41c05b58"
+    },
+    {
+      "git_sha": "a39fa3398d2856c11df7098cec00eaad5e698736",
+      "path": "AIDOCell/PertAdapter/gears/gears_ddp.py",
+      "sha256": "2b64e93f75947fe20facf14a82f3f8a687054603cbab19ff30af9bafd275b902"
+    },
+    {
+      "git_sha": "000a123f6dd003ab02ab2946572883c4a4a76939",
+      "path": "AIDOCell/PertAdapter/gears/gears_test.py",
+      "sha256": "dd86f974a17e20a4a2d96649cb5581ec5576fcd454f96580def840268f602043"
+    },
+    {
+      "git_sha": "fba2d54e1e47ca78d146a4c44ba7aa4770c1dc99",
+      "path": "AIDOCell/PertAdapter/gears/inference.py",
+      "sha256": "18f26d43934f5678f871de59da92a6f9449796341ad4924ab077809d98d5f9fb"
+    },
+    {
+      "git_sha": "982d828caed38fa9836dbe5a6247a2cf5f4013b6",
+      "path": "AIDOCell/PertAdapter/gears/model_new.py",
+      "sha256": "041c94e48f72ba371193dd17cd0238d779ba458b52f2565353da9ea6f7db88c8"
+    },
+    {
+      "git_sha": "2de5941125255e1db7446b0a581cd2a9b5ce1373",
+      "path": "AIDOCell/PertAdapter/gears/pertdata.py",
+      "sha256": "919cd207e3075e9b71ea18f427635e754750f2eff9bc609f55feac8cb66dabd2"
+    },
+    {
+      "git_sha": "176b29714bda0bed857d816412add15e976ff851",
+      "path": "AIDOCell/PertAdapter/gears/scfm_utils.py",
+      "sha256": "37a5d5c8bcc6cb1bd15293a27fbc0ca2983208dd164b86e10170d16923e1261d"
+    },
+    {
+      "git_sha": "95290d7b583cf2fabb63a330565c1af2d78a2b68",
+      "path": "AIDOCell/PertAdapter/gears/utils.py",
+      "sha256": "ea6643e90f582676614edc22a3a5797e1f8cfbfdabad13954b9427cdc701d27c"
+    },
+    {
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "AIDOCell/PertAdapter/modelgenerator/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_sha": "4231e2e1323a2c33aadf0e02c14a1deefa360258",
+      "path": "AIDOCell/PertAdapter/modelgenerator/adapters/__init__.py",
+      "sha256": "204050ed21e24b839d005455cc7ff3ad82bf48cc69e3893f68864dd63b1aade0"
+    },
+    {
+      "git_sha": "c35f6654ae071498eb554ed3d3210ab648716c6a",
+      "path": "AIDOCell/PertAdapter/modelgenerator/adapters/adapters.py",
+      "sha256": "cc7a99f23f22b41238f2472d57eab0f197d3e1523858db565b363884b4d68914"
+    },
+    {
+      "git_sha": "4db61b27462249b587ee0a93a485b35b4db1ce2b",
+      "path": "AIDOCell/PertAdapter/modelgenerator/adapters/base.py",
+      "sha256": "2f68252e7d73832f0099ff3193deda0c9fec7efea83058f84fcdb953fee3a27f"
+    },
+    {
+      "git_sha": "a1c818a291d7cdca2c877df5f5d7096b17beeee9",
+      "path": "AIDOCell/PertAdapter/modelgenerator/adapters/fusion.py",
+      "sha256": "9a5ae5bbd572ee28791d719fea4f9d2ff44e490aa09abde9ef646ce7b3624aeb"
+    },
+    {
+      "git_sha": "ea13e844920139e9ef1319194c3979c27309cb4b",
+      "path": "AIDOCell/PertAdapter/modelgenerator/backbones/__init__.py",
+      "sha256": "c09644372b09809c55470a313c6bca6e8b25ea0f1e682a503c7fe2e82d3ceec9"
+    },
+    {
+      "git_sha": "c082fa6751a1c2585adfdfdc3f235b4e95a62f44",
+      "path": "AIDOCell/PertAdapter/modelgenerator/backbones/backbones.py",
+      "sha256": "dc5ea2359bf4d45b1a63fe7f7559ed46e3269fa92f73c3cd7dd5ae0a87fdf4f0"
+    },
+    {
+      "git_sha": "d629cd2ee30a2aae2f817989a2a183673d6516fc",
+      "path": "AIDOCell/PertAdapter/modelgenerator/backbones/base.py",
+      "sha256": "9f9f10c0758963519d4bfae5ad0dbc75b6027adb0609e408890ee5ff0d9e99e5"
+    },
+    {
+      "git_sha": "32957a8ca2fd50a00589041ac750b916b2aaed38",
+      "path": "AIDOCell/PertAdapter/modelgenerator/callbacks.py",
+      "sha256": "c84e668361a37b920b0b1fdd1ec47b385532df73bd3aacb5f830e0c6443b5f47"
+    },
+    {
+      "git_sha": "b88d2971a22c65d2ab70bdd13e3272a568351ed7",
+      "path": "AIDOCell/PertAdapter/modelgenerator/cell/utils.py",
+      "sha256": "85a7edfef5a54c8130260e5f18b7737f05f77dadac0ce0f7e417b52cfd368ada"
+    },
+    {
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "AIDOCell/PertAdapter/modelgenerator/distributed/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "AIDOCell/PertAdapter/modelgenerator/distributed/fsdp/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_sha": "bf4f650244083577eb34f89e783aad0cf8a35393",
+      "path": "AIDOCell/PertAdapter/modelgenerator/distributed/fsdp/wrap.py",
+      "sha256": "42927df46a587ce5a3c9bc28ac00f93c4bda89d132c2516ec0d2edb6f26e5aa6"
+    },
+    {
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_sha": "c9c0ad0eb574e3f8d2449cacc8a69a2040f5a2aa",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/borzoi_pytorch/__init__.py",
+      "sha256": "ed8a5821d7299ad57eb3daae39ea6bfa2c6beaaabdb9a4bec8deb8e3688fe898"
+    },
+    {
+      "git_sha": "d19f1ecdb26f751789ad7c45be9919f7f62d03ea",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/borzoi_pytorch/config_borzoi.py",
+      "sha256": "32074fd4487ef6f91e56030559b30374bccd2f1067f3d60a6abb9ff197583c97"
+    },
+    {
+      "git_sha": "01140674ee87ff63a2398cbf3cd61a0e07e9d61f",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/borzoi_pytorch/gene_utils.py",
+      "sha256": "d42f28b66696145a2547a992ab3f7b51f292b73f8b28b7d924f8f6d07d64d4cd"
+    },
+    {
+      "git_sha": "e8c12077c07e61f29e4c2c898ef032f5c304a596",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/borzoi_pytorch/pytorch_borzoi_helpers.py",
+      "sha256": "218df6419e2bff53f23c43ebffd8b9d4c883ad2a2e0f1ba2740d7fe2eb748cca"
+    },
+    {
+      "git_sha": "64093d1e8b38724e10e504bbe4c2bc3f5412905c",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/borzoi_pytorch/pytorch_borzoi_model.py",
+      "sha256": "951738ed94ec0d6fccd5da488ea835bd5fb2126bbeecbb981c6bab7c868bd644"
+    },
+    {
+      "git_sha": "2ca37cf65a8147e9b1fd2a22ea58de4bdbe88161",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/borzoi_pytorch/pytorch_borzoi_transformer.py",
+      "sha256": "b5642049d722404e38d17701555094c79088b2995c9663634798efb3dfab60d0"
+    },
+    {
+      "git_sha": "894a2666f61dd99572464b9b22b2daced5118e1f",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/borzoi_pytorch/pytorch_borzoi_utils.py",
+      "sha256": "3ee47da4eee25af4105179b6a92f90f6f448a87f92b79323388706fc410a4e45"
+    },
+    {
+      "git_sha": "12ab4f0adbf0b20198b41b0617fa8fe77a65d9cd",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/cellfoundation/__init__.py",
+      "sha256": "6fb47cb89a5f8f43b30261ce8ddfbef68c22908b1ca381bd63e1dda6efdbeee8"
+    },
+    {
+      "git_sha": "ae8fc3dbd72254d6bd302d1e30e69262b1343ac9",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/cellfoundation/configuration_cellfoundation.py",
+      "sha256": "3bc433454eea5d57ec5b372fbdb380497c423dd0e37a84b3bd0c3bade09aa003"
+    },
+    {
+      "git_sha": "90de166383df372264e72d4a64d14fa8ad92a525",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/cellfoundation/modeling_cellfoundation.py",
+      "sha256": "8cb825f36728a8857dd4a67eadb1d9a666220d234f78769c8138b8820a5f42a2"
+    },
+    {
+      "git_sha": "b46ad25df97d80b7e7384cb9e7e996dce146080b",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/cellspatialfoundation/__init__.py",
+      "sha256": "777934031d5f990095caff9cf5474b2ee4f746c6275d4231a04eeeb3d7a3cade"
+    },
+    {
+      "git_sha": "dc5e62e2551901aae0c1ab92786bb37628f9b604",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/cellspatialfoundation/configuration_cellspatialfoundation.py",
+      "sha256": "a5714437b923d151e398e2336ea22e872483efc2e52255205105a91cccff2c1c"
+    },
+    {
+      "git_sha": "e5924dc9866df04fccd2007d10bfc6eeaf25e22e",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/cellspatialfoundation/modeling_cellspatialfoundation.py",
+      "sha256": "6ed4a8f3c35d6c468e90cda9b921cfd84c5b60eeb987e7a31781eaaf19387e39"
+    },
+    {
+      "git_sha": "cc97fec0e0dc22e639f62b8615b01eeb14fbb33a",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/cellspatialfoundation/positional_embeddings.py",
+      "sha256": "8bd7531774d38da8e3f31517b20969d58cb92e7bef4f41d5ff02173ccdfa9671"
+    },
+    {
+      "git_sha": "ad8010ebdf2331e926cd0f504d0cbb704b240873",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/enformer_pytorch/__init__.py",
+      "sha256": "b8d4ff3c2588b3c025512660cd7492ed7cb45f0315a9bddb030ee528ff36739f"
+    },
+    {
+      "git_sha": "9ff35223540c886057a3e211be493012212d256d",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/enformer_pytorch/config_enformer.py",
+      "sha256": "715f799e2a55f0b7f991b434197a17718694a4e85e2bc7c47c5486114db2193a"
+    },
+    {
+      "git_sha": "6f914fbe2a300725bdb5f195af550dc236ef2cc6",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/enformer_pytorch/data.py",
+      "sha256": "aa2e9dd8f05467cb9bdc39cf7bec8f9ee21821e1e4a4511c7a8f450a506b401f"
+    },
+    {
+      "git_sha": "8a5b98f24fbd997ca9a45d0b92d2bf12d98b21c5",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/enformer_pytorch/finetune.py",
+      "sha256": "33e79776d1e1f782ae2fccb267183f96c9a208942915a54844f74848e1d02d20"
+    },
+    {
+      "git_sha": "a75378bc81461780b0c7d7483392f353a74521d1",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/enformer_pytorch/metrics.py",
+      "sha256": "e97d454871ccd7e2fab28e943612a63bd0a27b75c9a5b8a7c22bb9d44ea4b37c"
+    },
+    {
+      "git_sha": "a551c002f2cbe8d0253b4db4a3b931fcbe19c05c",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/enformer_pytorch/modeling_enformer.py",
+      "sha256": "b62ffdf15088721be7b4ba13bb5e9ba1aeffad52fabf90fec82b93e5e9b9eecb"
+    },
+    {
+      "git_sha": "3778a47683b6cf03be78e3515b502ba7f9690355",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/fm4bio/__init__.py",
+      "sha256": "f8bc201ffeea703e16c0a56e1bf3636713b4d286e641f212c3c62ef9bdfb38f9"
+    },
+    {
+      "git_sha": "6c9e09fe3d0f5fd8ac746688dcec1a1778896a42",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/fm4bio/configuration_fm4bio.py",
+      "sha256": "45d44af4250a0383614bf76f6c75ea97d10c89351ab2bec91af5a9bd7c0fc2e7"
+    },
+    {
+      "git_sha": "1e11724e799e2b2871af3d7ae127245ba0b30caa",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/fm4bio/convert_fm4bio_checkpoint.py",
+      "sha256": "05c7a19aa24709626c408f42a0360ff9aeff4b90e79e4d54b23671f11ced093d"
+    },
+    {
+      "git_sha": "71d9a299c9ea4f926f74457938558df136de53a3",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/fm4bio/modeling_fm4bio.py",
+      "sha256": "36a5f7e46d26dfafedc6627325ff951c944caf0427dba377bbcb16e59cd57028"
+    },
+    {
+      "git_sha": "3ef530a3fb12661ee117aa1bf4accff535fa95b0",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/fm4bio/tokenization_fm4bio.py",
+      "sha256": "d9a9b5f82204ee112244f3de4fb59d8cc3004121dea04f747682baca48628a41"
+    },
+    {
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/genbio/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_sha": "97ceb58b7a104574b7f36d6740c05f5dbc3e2bf3",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/genbio/modeling_genbio.py",
+      "sha256": "d764d2f89f1f09a31312f2d63e81ad3b89e86ebf961ff2ced3026c756478adbc"
+    },
+    {
+      "git_sha": "1f7b0ca908b2286594fbf22e6d785b1161263556",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/geneformer/__init__.py",
+      "sha256": "fa60220153a97d40cd012894a7ef5f74df7a57e4a521c8d5398c86f8639c801c"
+    },
+    {
+      "git_sha": "413d28ff9d4f4d16e28d597d30ef738657498d2b",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/geneformer/perturber_utils.py",
+      "sha256": "bba990805b71acaba8852f2c3302f42679994894e0b87bfb0f063b7aa4521638"
+    },
+    {
+      "git_sha": "efb7bda87725c916fc868873c995be6d57782182",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/geneformer/tokenizer.py",
+      "sha256": "3e0d4256b89a1733c9e12968188df661b0507b6487617dbead57a81ba7fcaea4"
+    },
+    {
+      "git_sha": "cf1390974340adaf7987e6b94d49bdeb97aad82c",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/rnabert/__init__.py",
+      "sha256": "c3d0e7e021e42d5411b76dca35da17444603a2b2d6bf68c16327f1e6b763c010"
+    },
+    {
+      "git_sha": "6c5a657e2ae9e1b5240e040c5faf5b0d887a0bde",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/rnabert/configuration_rnabert.py",
+      "sha256": "545f8bc0327a0d6886f899a674784a86a32b4b80e3d8677064aab592739117f4"
+    },
+    {
+      "git_sha": "2ef8c8e40b26734f292571dbbf63291ab770494b",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/rnabert/convert_rnabert_checkpoint.py",
+      "sha256": "44ff6f07685618733bd49e081bb28c375de3e05d566b17e094cad0bae0ee52f9"
+    },
+    {
+      "git_sha": "eba8b73b9204563c9f43008263fe24eef1f9acf3",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/rnabert/modeling_rnabert.py",
+      "sha256": "82bc46ec835019a7fd3c3d6da6e2cdd891183b644d2f779030bcc422783e125f"
+    },
+    {
+      "git_sha": "5d2b46e67531a6b2f8e3946a6e4c47e976267b8a",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/rnabert/tokenization_rnabert.py",
+      "sha256": "b9825fe7c05902fa399cced183f6e732570efe5caafdf7c85a39b7b06887e882"
+    },
+    {
+      "git_sha": "0b459cf8de5d8c2564d24df2e57f91b48758c603",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/scfoundation/load_scfoundation.py",
+      "sha256": "fff72ba770ef767ef45996cfbb1fc64ea9596763d34402188dc32937fcf5fd75"
+    },
+    {
+      "git_sha": "7a7f9347148dced0acfa31302415b0bd413dbabe",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/scfoundation/pretrainmodels/__init__.py",
+      "sha256": "b91f9193c90e5fae5ec069388b34df0814e9aa6c97481f165e10a87c5dbbbb74"
+    },
+    {
+      "git_sha": "953b4c9151cc3765552e64923474e5ad77970edf",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/scfoundation/pretrainmodels/mae_autobin.py",
+      "sha256": "b68161adf0f6b5be8a0353f8d6f3c00519689498e5cf7a62e4e762a67854ca8f"
+    },
+    {
+      "git_sha": "82c9ae3038645e02b29b8ace513686a7170c28e6",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/scfoundation/pretrainmodels/performer.py",
+      "sha256": "cf1b0eeffe3f68fa8b4357d81f80a3e4092cc72398e62902bc778f0a6773d041"
+    },
+    {
+      "git_sha": "48890d1d8c3e23eef7086eb221d0a4bf9d5b8626",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/scfoundation/pretrainmodels/pytorchTransformer.py",
+      "sha256": "83d0bfad5a500059034355fdf729df39fa91d2089d1c835ee719ac87461ed2a3"
+    },
+    {
+      "git_sha": "11fa00b799a6b3da08f5698875af47d9377ab0c1",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/scfoundation/pretrainmodels/reversible.py",
+      "sha256": "bd4673f38bdb15f644167880fce9cd134ab7a337855b9285e048de69a44f1ed4"
+    },
+    {
+      "git_sha": "d2a781e69e13498b4f07222f60c2b3b3715ff06d",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/scfoundation/pretrainmodels/select_model.py",
+      "sha256": "8eae9694a34d26bbdab86336d18bf24ce90203e1035544a2911d9b104bfafcb7"
+    },
+    {
+      "git_sha": "f7ee5b9eb1b5f1613011569ee671410428260c67",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/scfoundation/pretrainmodels/transformer.py",
+      "sha256": "dfa1b30e6da09bb25f7c1c05c9d5f41a4a26799f8b250b87f0d187c4373b286c"
+    },
+    {
+      "git_sha": "03b6a2936cdaa3376441bfa6a3996ad8d9da3e27",
+      "path": "AIDOCell/PertAdapter/modelgenerator/huggingface_models/utils.py",
+      "sha256": "f11335d98123af70e0dc2b20634a9caed79b799f4705f3987afaaf91747077e6"
+    },
+    {
+      "git_sha": "ed8e2d7f937ba4439a0528f107bebd51579e9d67",
+      "path": "AIDOCell/PertAdapter/modelgenerator/lr_schedulers.py",
+      "sha256": "d6ba159711812833298f150867a7ac5c2d5a396424f3c6b66b380b1be3c44bfb"
+    },
+    {
+      "git_sha": "59e33a3b34ff465f33a165a89329860111ed81c0",
+      "path": "AIDOCell/PertAdapter/modelgenerator/main.py",
+      "sha256": "74e978022c5072128a450f98057e63d5c68fa53ad8da0a8b7926f89ef41b97ff"
+    },
+    {
+      "git_sha": "11f6b1e75c992f7cf3a33d8eee002b18717004b9",
+      "path": "AIDOCell/PertAdapter/modelgenerator/metrics.py",
+      "sha256": "e124fe8d55dd9bde78494c807caca52db9a7bda16e90cef0694dfa4cfb5717f0"
+    },
+    {
+      "git_sha": "974a26bcdc1c23c10588af2e9f7b7091ef092ddb",
+      "path": "AIDOCell/PertAdapter/modelgenerator/prot_inv_fold/adapter.py",
+      "sha256": "a74ca0c785eedeb16649311fda220cad60367fee2e70c80f1a6b196716d489dc"
+    },
+    {
+      "git_sha": "d2c2f57cf00258a8f5a3484b0ff53f6c1283489a",
+      "path": "AIDOCell/PertAdapter/modelgenerator/prot_inv_fold/data_inverse_folding/datamodule.py",
+      "sha256": "c058cbaed4468336e4439fb9fcf7cdeec9b1ae9cbe8d77031f3ebc97f37446c6"
+    },
+    {
+      "git_sha": "96c62cc8f7610a4ee8e79c019c14f3e7fd3fe603",
+      "path": "AIDOCell/PertAdapter/modelgenerator/prot_inv_fold/data_inverse_folding/dataset.py",
+      "sha256": "1a8c4d8b04459656fc90772b58e988d640faa5867b1c0740d995e1daa67179a3"
+    },
+    {
+      "git_sha": "713ea57dbb1d9a19e23a2d9223faa5fc84fb8d9d",
+      "path": "AIDOCell/PertAdapter/modelgenerator/prot_inv_fold/extra_utils.py",
+      "sha256": "05b66522992ad998a9eddc216732b3c45bf88e1fe8c7eac9aeecaffb2f28851d"
+    },
+    {
+      "git_sha": "0fccc08b23440889bd7322f5f516ae82af187978",
+      "path": "AIDOCell/PertAdapter/modelgenerator/prot_inv_fold/pif_task.py",
+      "sha256": "5c5f3515cca48e8ab7c067eb90f0be3641035939fc8e279b43f253a16f95acce"
+    },
+    {
+      "git_sha": "68051d31a3cf1a051a3a41d9cc62d7e7f3789685",
+      "path": "AIDOCell/PertAdapter/modelgenerator/prot_inv_fold/proteinMPNN/proteinMPNN.py",
+      "sha256": "42b12bf1f0b9994aeef1e27ae3214f0569b01b1930bdc39916694e0c47044e89"
+    },
+    {
+      "git_sha": "c0e7d73b16135b794cb489023eb925bcfc771ee7",
+      "path": "AIDOCell/PertAdapter/modelgenerator/prot_inv_fold/proteinMPNN/proteinMPNN_data_utils.py",
+      "sha256": "eb6827f57f539a3f0a928ee61c00b42d5eb76893d15c5db5850c6ebdc1097476"
+    },
+    {
+      "git_sha": "96d23b3ce16976723b67267de9dda7327ab0ad65",
+      "path": "AIDOCell/PertAdapter/modelgenerator/prot_inv_fold/proteinMPNN/proteinMPNN_decoder.py",
+      "sha256": "5b05d4094537fdc25d79d19d9e3592c5c344a8d0175cabb638018350486960e5"
+    },
+    {
+      "git_sha": "58b20f02cb3c1bdd8d3bfb87cfe371e6a45bb736",
+      "path": "AIDOCell/PertAdapter/modelgenerator/prot_inv_fold/proteinMPNN/proteinMPNN_encoder.py",
+      "sha256": "22eb864f8b70d486398b61548157beaa06a430a2e15ba7172c3a671ef1976bf8"
+    },
+    {
+      "git_sha": "1cc18708e3d3fcf9b108fc90c43a60019a8d70f6",
+      "path": "AIDOCell/PertAdapter/modelgenerator/prot_inv_fold/proteinMPNN/proteinMPNN_features.py",
+      "sha256": "b17e12fcccf231cee3780d555801960e6f81ce2cbc3e75d3e165e7b1eb279d2a"
+    },
+    {
+      "git_sha": "b45648a10ee85633e52e184fe2355b60aeb9181d",
+      "path": "AIDOCell/PertAdapter/modelgenerator/prot_inv_fold/proteinMPNN/proteinMPNN_model_utils.py",
+      "sha256": "b824c9cb0a347be1431b5b423ec8f6a39f6166638a0546d05f333b85d2774062"
+    },
+    {
+      "git_sha": "ed4a3822c1b399c9aaffad64d4d76c9eaff89ba0",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/adapter.py",
+      "sha256": "385bbea64e260753a8135228d42e7f039fd4fbf3461335a6aa8cceda260fbec9"
+    },
+    {
+      "git_sha": "d95bc6adefdbaff01fa49ba70052030ab9105c05",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/data_inverse_folding/datamodule.py",
+      "sha256": "bb150c2d179b0016ce07d6e8807f1f7307ee2bd97237ebead52f2b84098a07ae"
+    },
+    {
+      "git_sha": "679ac982f85e83f0be9b9c1cdc8892d28f780475",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/data_inverse_folding/dataset.py",
+      "sha256": "6abd5ed10e557c984d3d3217f60b9c0466b26d4061e39c853fce43a310da3efd"
+    },
+    {
+      "git_sha": "fef07aae8cdc1aa3599ceda7acc0c28e7d9c398e",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/gRNAde_structure_encoder/gRNAde.py",
+      "sha256": "02de65f75cc5d5991f4a7c4cce5ade97b992e260e0a8854ed3934f39d845096c"
+    },
+    {
+      "git_sha": "cc5b37ad7cb10fcf69b087c4aa7ab19c636a3ba5",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/gRNAde_structure_encoder/main.py",
+      "sha256": "25bd1a3f8b566ece26101b103a9ef24d8dada72f82a6c302404db4a023804afd"
+    },
+    {
+      "git_sha": "11ed23f4fef7cf882687e93644c59858f5475a67",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/gRNAde_structure_encoder/main_encoder_only.py",
+      "sha256": "d688018475032719482c6fea108e893b85f1fbb115246177fdbc082e6be8ac04"
+    },
+    {
+      "git_sha": "9b75bc9a8997395ba97f411dbf8daa9484615aad",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/gRNAde_structure_encoder/plot.py",
+      "sha256": "9bcb20cacfd359777fa15c4e0df98634607dab395ccbc3079182759f2a087ca3"
+    },
+    {
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/gRNAde_structure_encoder/src/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_sha": "e9c2d675538776b4285c4fe5c8db1cf20689fbda",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/gRNAde_structure_encoder/src/constants.py",
+      "sha256": "4ee94771417274423031de6046992d72adba01e91cbe7041bbb9a00bd8688e72"
+    },
+    {
+      "git_sha": "55378dd5c2982f47ccebdf17aa1a7b40511e84f6",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/gRNAde_structure_encoder/src/evaluator.py",
+      "sha256": "31787c8085be2206c0543edaf1a78f0c6edb1622b2d250536352c63c839cc610"
+    },
+    {
+      "git_sha": "8a1a226e3a96488837654686f6419a9a981fe222",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/gRNAde_structure_encoder/src/evaluator_encoder_only.py",
+      "sha256": "bf6905511dc0f6100f6dfedc9a779ae9c029212ea8b522d0eaf8ed15b4bc7604"
+    },
+    {
+      "git_sha": "f2f8bffd43cfae26ff71dbce12eba4e6138ecbde",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/gRNAde_structure_encoder/src/layers.py",
+      "sha256": "6cef62fa01d4fd2682bab3ce72a0a785c1cf9eadd77c4e26ec0cc1105b5d6e11"
+    },
+    {
+      "git_sha": "1eda001bc04908af09615d3ee2c7148951a4957a",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/gRNAde_structure_encoder/src/models.py",
+      "sha256": "78caf26feb65915c79f6d06b7ea84b21cb562d41ee0089fbd21db1e99afa5fcd"
+    },
+    {
+      "git_sha": "e9d4c01b541014e5e4723396fd795937f7aa3703",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/gRNAde_structure_encoder/src/models_encoder_only.py",
+      "sha256": "3b1874b34ff1b391cbd39a1ee61bd25c741df5dacb9577e695150079387bf377"
+    },
+    {
+      "git_sha": "3540c4bbd74dc723f7e6c0b40dbda1b368d3e034",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/gRNAde_structure_encoder/src/trainer.py",
+      "sha256": "91bde03a1acec461c3bc855fadfe2f9ee783adfcf67b26fb63fb33372f5e30ae"
+    },
+    {
+      "git_sha": "c81a2b0ff4f202032870eedca130bed5f8102637",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/gRNAde_structure_encoder/src/trainer_encoder_only.py",
+      "sha256": "9595de54186e7cb724c2a5775a1bf9f3d64463efd3b42d09889a3713c97903f0"
+    },
+    {
+      "git_sha": "20bf601bd0b7ec2aa050a4d3798898c3b6dc721b",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/layers.py",
+      "sha256": "d297dfb55d01853658338f2da840a5252b5b32c2d556d8be45d21eea7145c19f"
+    },
+    {
+      "git_sha": "9d748cdcaf71910db0836c851dcafab9dd38af5e",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_inv_fold/rif_task.py",
+      "sha256": "e8527618ccf9f74ad520c8a039b748cf4da5da83beb7401d38a62e3746e5e6d3"
+    },
+    {
+      "git_sha": "0fc545f4cad3e3012d954334a3850d4c7f539818",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_ss/rna_ss_data.py",
+      "sha256": "7a8430d5af175ba2d18fc781a56b53344612c9efe77cf29f66cc938156ea8172"
+    },
+    {
+      "git_sha": "bd4db3d689c207ede181863fa63fbc8354b10cb4",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_ss/rna_ss_task.py",
+      "sha256": "d63a16e2376058d5bec8b8d5eebea391da5687839e4b20f7085505763a117c91"
+    },
+    {
+      "git_sha": "254c1dc1a72416530b850ced4ec082347a704b84",
+      "path": "AIDOCell/PertAdapter/modelgenerator/rna_ss/rna_ss_utils.py",
+      "sha256": "6b52fe13e99dcc0eed8868dd537008e2d8c2f23969dfb77a8a2f1fd4c303fb01"
+    },
+    {
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_sha": "aaa6d945ef8ea524f94b22abbd02a2b2815c8b09",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/callbacks/__init__.py",
+      "sha256": "b741c2936183559545faafd0579a816cf1b8eeecf8433fd2e91eb9fc7c02e2f2"
+    },
+    {
+      "git_sha": "a7aabef807d66db9cbec0ef54ce545ba12822d6a",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/callbacks/struct_tokens_callback.py",
+      "sha256": "9b86c903d34c3a12b9008a2895d56d3569350a3b8ab5292c0738ac5e946ad147"
+    },
+    {
+      "git_sha": "b387d2640678ece89df18e94aa25d1254019ea51",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/callbacks/writer_pdb_callback.py",
+      "sha256": "ea850300e25b164f5867187f4b6cf3eb263ec7762a8f32fe2dddfc6043f4dbce"
+    },
+    {
+      "git_sha": "2c070b7b5517ca8c20bec498b176e80b68b18dab",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/configs/__init__.py",
+      "sha256": "6ecf69ff30e16eced61e46d3f5441c4ac339c448d38937121ec2f6ac95f7f82b"
+    },
+    {
+      "git_sha": "846fd924cf5a6e87c068819d553965d860c682e2",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/configs/data_configs.py",
+      "sha256": "df4e8d7f7c7d726966f781bdf1856334771c12119ecaf6c28fd936642fee23a4"
+    },
+    {
+      "git_sha": "2c9e30c83fb7577db052d774b950909e30d40733",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/configs/lightning_configs.py",
+      "sha256": "d5ebc5cd0c9aa646eff271c78194fb2f9674a06a52e54c4f23b8eace507e2d95"
+    },
+    {
+      "git_sha": "110f4048389b6c47ce8d2dda5ead7658df7f1d89",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/configs/models_configs.py",
+      "sha256": "663ddb0c94762508c81a44a91edff911c01ad703c372e8d4aaa6a78fb3756efa"
+    },
+    {
+      "git_sha": "4721831e88f6e8f80dca21b86981dfa92af74fb5",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/datasets/__init__.py",
+      "sha256": "35d9f3409fbfe82ea0ac588693e68bb1f8db69e8c9bfcb8b58cdc7cb845e19ee"
+    },
+    {
+      "git_sha": "2dbe71297a32bd761e1c62202b7b43abcf0d1831",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/datasets/protein.py",
+      "sha256": "46eb1c35704ebefbc0daa8fd1273690fb53d2d70201481f7042b7c27ac3bb32f"
+    },
+    {
+      "git_sha": "125d0c435bf5cfc867228d806e338a4863303893",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/datasets/protein_dataset.py",
+      "sha256": "522d145856dabd7d0eefeaf3be7ddd4dcd0cefa569f2cc422981b34d4f6a9a5f"
+    },
+    {
+      "git_sha": "f81cc667b8f24ce2cfb8158d201ac714e98c293f",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/datasets/protein_lightning_datamodule.py",
+      "sha256": "a91e15d269fc5159e26927b3aa845866cc618261d9df4f92d826976f1cd1784c"
+    },
+    {
+      "git_sha": "8b9b47a9b83685fb24cb17849ce21ff640d4f536",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/datasets/struct_tokens_dataset.py",
+      "sha256": "3cd2cfc41067fecb19a9448d46b9656846423d202e382fb40f598d4b8cb166f3"
+    },
+    {
+      "git_sha": "5eac04acc6e28d6642bd2e1c4f2032bd6c216713",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/datasets/struct_tokens_lightning_datamodule.py",
+      "sha256": "7e63c532408e098cf43a1aa1c7a93fbd145ea51a0faec59af2df0e893c30c238"
+    },
+    {
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/layers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/layers/equivariant/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_sha": "d6d96ec56d64275a0ab3e0732124a780ae0fde2c",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/layers/equivariant/embedding.py",
+      "sha256": "4f91173bcc450c3d8deede71918aaf1acad57220d0f3db8810c98a04ccfaede0"
+    },
+    {
+      "git_sha": "edb6516d0a7caf5accc29a44a6061d12634188dc",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/layers/equivariant/equiformer.py",
+      "sha256": "a6ce62f8cab65bb97db798b8f45260b1e3b1b6e4ad3f2ec918e20c73f40a954b"
+    },
+    {
+      "git_sha": "33363bc3a6ae22af2bdce205eff384589b51cb1d",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/layers/equivariant/irreps.py",
+      "sha256": "62560ab79a7e0ac0ed83c30a64eb45117eacb61bcef62639543cfc0530654cdc"
+    },
+    {
+      "git_sha": "d8ba4f391dd3fb19b5075ae1f656f6b361fe77dc",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/layers/equivariant/primitives.py",
+      "sha256": "4228ee6d54f05a117f4f31ba24aa678687ec904d7de8d239cce7969082d7d309"
+    },
+    {
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/layers/esmfold/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_sha": "aedff861c8568d9b6389ab2ab57aa50040543f25",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/layers/esmfold/categorical_mixture.py",
+      "sha256": "aef274881a57744cae03f2c6802872563efdb127f76ba8463aa35446bfc00710"
+    },
+    {
+      "git_sha": "a2d6435909c80589068b1127feb4e88d3b17482f",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/layers/esmfold/misc.py",
+      "sha256": "b396bfdc8d43fb076815afd2fb0021d2246c30afc690d52aa769db79905bcb41"
+    },
+    {
+      "git_sha": "2aa7e614bd538854aeedabb7d4a22fc3fcac0d3d",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/layers/esmfold/tri_self_attn_block.py",
+      "sha256": "7dec52058cfae644e182043b9057cbe1ebb48715440a16b2d3c620c2bc5295f9"
+    },
+    {
+      "git_sha": "37bf06ac49bed55ec904811a90dd61366adc3531",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/layers/esmfold/trunk.py",
+      "sha256": "2fd68b5298401078bf6fe526c855794be38d7c3e401c1aa95434d8d357b73821"
+    },
+    {
+      "git_sha": "c09a38680a076976f6a875c706b47e35c4405d29",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/layers/quantize.py",
+      "sha256": "ec5209895523d8de6c316c8c5591cdc0841f276268b8ac9d1af74b8ef2f700da"
+    },
+    {
+      "git_sha": "45b13681dd35d30e9e820c6fc6121ef750d344c9",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/models/__init__.py",
+      "sha256": "a7a6ef149e031f23bad3f4826dd6d701b08705e53f1df6196dfac0f8e90ae0a9"
+    },
+    {
+      "git_sha": "86cb37ddc3373a5aff683fb377f741ab1e71b422",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/models/equiformer_encoder.py",
+      "sha256": "f8d012a20a069e76d30dbf103bf5872440c101a85ac5b9faf49795ece514f6f6"
+    },
+    {
+      "git_sha": "3d71d2ffb6080dee90a123cb03063ce0702e7705",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/models/esmfold_decoder.py",
+      "sha256": "a8a37de28fadf27e8b348ce5f4cc7eb73f5b47b1d1f163a810f65a2da1ba8ad8"
+    },
+    {
+      "git_sha": "5d885afc23095a3985fd895f38bba3a7961a1feb",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/models/structure_tokenizer.py",
+      "sha256": "f486eb82a314459ca1186921804b180e9faf635d4c400c6c61217f2eb4640733"
+    },
+    {
+      "git_sha": "e202329daa4d4ae8f861d4808db5ea706c5c8d72",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/models/structure_tokenizer_lightning.py",
+      "sha256": "9a62d3cbc2bd7f784a58983c14bd321621c0106944d8fcfd50990e7d1facc745"
+    },
+    {
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/utils/constants/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_sha": "5c382fc27ebe769fca733b8c81f7e07ca828e183",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/utils/constants/residue_constants.py",
+      "sha256": "30c4a90ad9c7d5c880d86104d44995e03e064d2886b12d5d177e5e5a63428b8d"
+    },
+    {
+      "git_sha": "ae4f10a25fae5fc061ef07d972d2117eb2a57f1d",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/utils/constants/structure_tokenizer.py",
+      "sha256": "15b391960fa87d432146f748ff5d048a4ab6cdcc29c90768391fbcf5e7ca3784"
+    },
+    {
+      "git_sha": "2702ebbf5b7b4a203da5f0a4dafa20b56daba53d",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/utils/data_parsing.py",
+      "sha256": "c4f2d2f315762f192d867edc7a59a61d96e9e7d5a64b7548839f4eb5c20d451b"
+    },
+    {
+      "git_sha": "efdb51b4b31053e940320cb393659dbc5d4cba26",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/utils/distributed.py",
+      "sha256": "1302429d329b6ed151bd033d5befabff3a1dc224b966ff2a31d9b88db1ea30b4"
+    },
+    {
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/utils/geometry/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_sha": "cd54db59a1218d695c3e8192e6092f0c56dbc7e1",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/utils/geometry/kabsch.py",
+      "sha256": "64133f34710215b8611a4c58fb80b079535f9cc0030533e171842e5c1e9ec67e"
+    },
+    {
+      "git_sha": "9c4ecd25fa0b63ff58a7cda01b5a14b0e1dd87a2",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/utils/geometry/so3.py",
+      "sha256": "147184526c12f7f876eed4b4f5b512c614ca6086f14b5a83b221804357a0f9bb"
+    },
+    {
+      "git_sha": "c8a2ea5b1c04679f13fb663aec52c3c37a75da0d",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/utils/init_params.py",
+      "sha256": "7c34518e6a84c8c42fab8cbb76daed37824d28e5bb1b11fe3c4581cb14dbc0c4"
+    },
+    {
+      "git_sha": "3c3df59a6fb8d3d6094c7c7b55a8200224e1a812",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/utils/misc.py",
+      "sha256": "dd14acb417862bb04ca60eccb62d9723593b3638e617652a40009db831ba09e3"
+    },
+    {
+      "git_sha": "b81aa2e1497c4c8900733e23f83437fb68b21380",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/utils/shape_utils.py",
+      "sha256": "5178ad83025931e405b81c9d1f312f8e22993040dfc8dd2923573c14e44332a5"
+    },
+    {
+      "git_sha": "38989c091756c08b5b8bcc6e31a253fc10f639c4",
+      "path": "AIDOCell/PertAdapter/modelgenerator/structure_tokenizer/utils/types.py",
+      "sha256": "46c467b8e8bfba45cdfc2c1756af54b3b0a88dc8113e90bf0923fd7653554a40"
+    },
+    {
+      "git_sha": "1df5c658f3dc452b8696f7ae7b01ccd51750f4c7",
+      "path": "AIDOCell/PertAdapter/modelgenerator/tasks/__init__.py",
+      "sha256": "f05ad53143c003739ea49a429643dffd5e1b4535c59252335bfde0bbfa01b14d"
+    },
+    {
+      "git_sha": "c4fb142853ef43090e5f678887fd381e6ca574b3",
+      "path": "AIDOCell/PertAdapter/modelgenerator/tasks/base.py",
+      "sha256": "c54e5e12e4c32ed5d4380ba65d59ffa7f917fc407c2356e725fe6ea82db26623"
+    },
+    {
+      "git_sha": "5b5d68ef23ba41be1451c74b9c133cee6b2472bf",
+      "path": "AIDOCell/PertAdapter/modelgenerator/tasks/tasks.py",
+      "sha256": "f902c1176a9ae3bfd5a22931598ae52b6662efab8b647f5ae1794e2b5040b52b"
+    },
+    {
+      "git_sha": "8ff4e7aa65e30fba1058db4e7fe11e2da98ef320",
+      "path": "AIDOCell/PertAdapter/post_test.py",
+      "sha256": "34695d606b889d358055908556dae8f002fc7cd078effa22d16eb127563f8c9b"
+    },
+    {
+      "git_sha": "6593e686a753b71568b1ba041cebaec55a768617",
+      "path": "AIDOCell/PertAdapter/train_ddp.py",
+      "sha256": "f384373b31211a38c926a43b056aafb23da49f804ccef76d461da901a6302842"
+    },
+    {
+      "git_sha": "5f3c8f49993b476ca45825b8b24b3747e49bc552",
+      "path": "README.md",
+      "sha256": "240388665eebae5cce78d8199401f1c9e5ad4adf6a6ba45adc6f2e582023ceb4"
+    },
+    {
+      "git_sha": "c154541d670389674edfaef6d3ad1aed46072660",
+      "path": "preprocess/preprocess.py",
+      "sha256": "d406b8146b1b155bb2ee13946448c45e43495ac34fc7499de76f77d93968b9f5"
+    },
+    {
+      "git_sha": "e97bff02a97aae007b60d3a1e0646fb7df1a0312",
+      "path": "preprocess/scRNA_workflow.py",
+      "sha256": "19779585fecadca54145881c939a778042f4857292195261fe482ecfbc0f1168"
+    },
+    {
+      "git_sha": "b806c1a52d4ace4827b06fe36473d1c1621fba41",
+      "path": "results_process/GSEA_pathway_analysis.py",
+      "sha256": "dcd2f252ee8e64500dbfa4d295eb5b3d32feb7d7f6aa35aa8fedf5ab6cab0c1e"
+    },
+    {
+      "git_sha": "76c404f713a7e65ab92fb3a5b3469fdbeb447d0f",
+      "path": "results_process/go_stats_fig.py",
+      "sha256": "ecac86fa96aa83528681e5993c2c031a3a7539ddc705390e938bfd4950b9157b"
+    },
+    {
+      "git_sha": "edb73145c5e51aad6c00f5db3747cc0fef88490d",
+      "path": "results_process/magnitude_dcor_mse_plot.py",
+      "sha256": "5dfbc06f029e4a1e20282dd5cbd012662972f303ab9865e471ff1d4b739abf00"
+    },
+    {
+      "git_sha": "a064feb05bb838ded56636817e9338f078a1bb2d",
+      "path": "results_process/more_pathway_analysis.py",
+      "sha256": "09361a54c97e00acd2fbf483ba440ae21b90a803830a85152c2c05fb2e98d89e"
+    },
+    {
+      "git_sha": "a509b8ea0d72ced1bc3249862e3f01988cac808f",
+      "path": "results_process/numGO_geneMSE_plot.py",
+      "sha256": "c09f75bec4cc9fb26117beeb28d0f9bd5c118e71b9622af3b14e8c12ca17cb4b"
+    },
+    {
+      "git_sha": "f431703d6af55fafed287f9ebd1ae4717f37126b",
+      "path": "results_process/scaling_trend_plot.py",
+      "sha256": "18effa67d746593766c7b31485d2cedbfb0644972fdd986c1ef7c597d7592a2f"
+    },
+    {
+      "git_sha": "0998c7c7e790ce0d84849c404427d6c6bb6e7664",
+      "path": "scFoundation/PertAdapter/gears/__init__.py",
+      "sha256": "5e996988fd73a5a682ce258869ce637ec67f9f469033e542a891e43c40a83d9a"
+    },
+    {
+      "git_sha": "5ffad0ff50acf3ec79508a1131fa2f1a549914dc",
+      "path": "scFoundation/PertAdapter/gears/data_utils.py",
+      "sha256": "776b41af9c8d49131d103ef54c8e0bea892a8313137e9c191fd8e74a41c05b58"
+    },
+    {
+      "git_sha": "3c8a313451472db7deced481b4cbf060bc3943ae",
+      "path": "scFoundation/PertAdapter/gears/gears_ddp.py",
+      "sha256": "e992cb517d5a558a2907bacdd35339fcecd731f08c4a4dfdc61ecc3dd0e95274"
+    },
+    {
+      "git_sha": "fba2d54e1e47ca78d146a4c44ba7aa4770c1dc99",
+      "path": "scFoundation/PertAdapter/gears/inference.py",
+      "sha256": "18f26d43934f5678f871de59da92a6f9449796341ad4924ab077809d98d5f9fb"
+    },
+    {
+      "git_sha": "8c722a0c08bad86b982502b512c8a027d29d54a8",
+      "path": "scFoundation/PertAdapter/gears/model_new.py",
+      "sha256": "9f8386b6704f1d323e9f9742547b7cc23b7a028665d7b431a4a2d97593cef034"
+    },
+    {
+      "git_sha": "4de2cd3c1131b3b35abdd05cc6c2e60bfd156252",
+      "path": "scFoundation/PertAdapter/gears/pertdata.py",
+      "sha256": "aec46a93fb67549df2c763896534b91e30766f6576c8d032eadfcdb7dfe3ec61"
+    },
+    {
+      "git_sha": "176b29714bda0bed857d816412add15e976ff851",
+      "path": "scFoundation/PertAdapter/gears/scfm_utils.py",
+      "sha256": "37a5d5c8bcc6cb1bd15293a27fbc0ca2983208dd164b86e10170d16923e1261d"
+    },
+    {
+      "git_sha": "a238f111f1f88cd978964cb041dacbf99bfd9a22",
+      "path": "scFoundation/PertAdapter/gears/utils.py",
+      "sha256": "5a0745da2b025f4523a8762c0614db6f93cbbe63b5c91a1c4da2c3875037b4a5"
+    },
+    {
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "scFoundation/PertAdapter/modules/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "git_sha": "337352fbda52bb36e4bc96f2ab8f876d46d3e789",
+      "path": "scFoundation/PertAdapter/modules/attention.py",
+      "sha256": "bbd5cafc0df6f3673d50f5340979062092e26a91ea978690a2b7390152013d1a"
+    },
+    {
+      "git_sha": "bb5aa2c92b1acbbc44ff4b38f1dce3cad5ff7db4",
+      "path": "scFoundation/PertAdapter/modules/encoders.py",
+      "sha256": "89ebe5c8b535c86e52cea95371d4f2064497f6eeaaa63c379ba23f57fcc03bfd"
+    },
+    {
+      "git_sha": "fd4ee9d407a24d460e39513b3e891a9ec725759c",
+      "path": "scFoundation/PertAdapter/modules/mae_autobin.py",
+      "sha256": "3f6e855495c58bce45c76a39bd3e9637e14b99f9bef12c402d262e5c9da8a593"
+    },
+    {
+      "git_sha": "f2c69d7bb82fccfa85b92822ea5870c7819450f5",
+      "path": "scFoundation/PertAdapter/modules/mae_autobin_old_8-21.py",
+      "sha256": "7119e4076aff869d441a4979df2d3b0a7db9c5c33a8ff40c795ce90a06ba3533"
+    },
+    {
+      "git_sha": "9ffb1e6bd81af1d116deed55f44f2841dd546780",
+      "path": "scFoundation/PertAdapter/modules/performer_module.py",
+      "sha256": "078e94df89393b75edfaf2a9db991e2eaf60a9f743d0c949c4f351cd5b9caf5d"
+    },
+    {
+      "git_sha": "00b3913c462d832817d06fd63bd527b59e015a8a",
+      "path": "scFoundation/PertAdapter/modules/reversible.py",
+      "sha256": "4891031194801dcc781f83a939b2ef46be0a12e0babf4b2708863a63f1d871e2"
+    },
+    {
+      "git_sha": "7280606270c8070f68d8f2295ffa2a205a983571",
+      "path": "scFoundation/PertAdapter/modules/transformer.py",
+      "sha256": "35a46bc1eca9936b2b2182071be46636c607c293a9a7fd4695939e8f0b1af98b"
+    },
+    {
+      "git_sha": "4108773632ef0bac61b9ccd39e4cb1e4fcdcac24",
+      "path": "scFoundation/PertAdapter/train_ddp.py",
+      "sha256": "3b91d769b2867e206d3fb2ba5528caf4933ace9dc6ee26fd3ea7e67bffef7653"
+    },
+    {
+      "git_sha": "fe26ae0b16dc524395865393c6d3ae0cfb62d9ae",
+      "path": "scFoundation/model/load.py",
+      "sha256": "6cd804545f80ad737c215339bd420f3e3e6d4d4ca47197a72dcd25b027d013f5"
+    },
+    {
+      "git_sha": "f147901f46e3a033689dd94bfb5729bc5ad17522",
+      "path": "scFoundation/model/pretrainmodels/__init__.py",
+      "sha256": "e7d125b0bb339be3d3d82d7612ac771bdbc677cfa124d442455c512c52f4af1e"
+    },
+    {
+      "git_sha": "953b4c9151cc3765552e64923474e5ad77970edf",
+      "path": "scFoundation/model/pretrainmodels/mae_autobin.py",
+      "sha256": "b68161adf0f6b5be8a0353f8d6f3c00519689498e5cf7a62e4e762a67854ca8f"
+    },
+    {
+      "git_sha": "500679d1cfae43c47a65ee008fd66410fa5bf475",
+      "path": "scFoundation/model/pretrainmodels/performer.py",
+      "sha256": "c4021e1b0e2f3b6d0a9fee407bbd927fe3aea06f325975883e877a7680024187"
+    },
+    {
+      "git_sha": "48890d1d8c3e23eef7086eb221d0a4bf9d5b8626",
+      "path": "scFoundation/model/pretrainmodels/pytorchTransformer.py",
+      "sha256": "83d0bfad5a500059034355fdf729df39fa91d2089d1c835ee719ac87461ed2a3"
+    },
+    {
+      "git_sha": "11fa00b799a6b3da08f5698875af47d9377ab0c1",
+      "path": "scFoundation/model/pretrainmodels/reversible.py",
+      "sha256": "bd4673f38bdb15f644167880fce9cd134ab7a337855b9285e048de69a44f1ed4"
+    },
+    {
+      "git_sha": "d2a781e69e13498b4f07222f60c2b3b3715ff06d",
+      "path": "scFoundation/model/pretrainmodels/select_model.py",
+      "sha256": "8eae9694a34d26bbdab86336d18bf24ce90203e1035544a2911d9b104bfafcb7"
+    },
+    {
+      "git_sha": "f7ee5b9eb1b5f1613011569ee671410428260c67",
+      "path": "scFoundation/model/pretrainmodels/transformer.py",
+      "sha256": "dfa1b30e6da09bb25f7c1c05c9d5f41a4a26799f8b250b87f0d187c4373b286c"
+    }
+  ],
+  "revision": "63882d609e4dc4fb81c9663356857facc1204f7b"
+}

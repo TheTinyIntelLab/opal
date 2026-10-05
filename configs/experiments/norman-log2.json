@@ -1,0 +1,38 @@
+{
+  "dataset": "data/prepared/norman-log2",
+  "output": "results/runs/norman-log2-primary",
+  "training": {
+    "ablations": true,
+    "amendment": "CPU development batch, two ranks and two ridge penalties registered before test access; narrower capacity search than full release protocol.",
+    "embedding": 32,
+    "ensemble_seeds": [
+      11,
+      29,
+      47,
+      71,
+      101
+    ],
+    "epochs": 80,
+    "finalist_seeds": [
+      11,
+      29,
+      47,
+      71,
+      101
+    ],
+    "finalists_per_family": 2,
+    "maximum_seconds": 14400,
+    "ranks": [
+      2,
+      8
+    ],
+    "ridge_alpha": [
+      1,
+      100
+    ],
+    "scope": "Internal-method development; complete roadmap also requires public adapters and full research diagnostics.",
+    "screening_seeds": [
+      11
+    ]
+  }
+}

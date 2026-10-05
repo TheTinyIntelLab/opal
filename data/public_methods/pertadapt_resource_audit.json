@@ -1,0 +1,293 @@
+{
+  "backbones": {
+    "cell": {
+      "model": "mae_autobin",
+      "model_config": {
+        "bin_alpha": 1.0,
+        "bin_num": 100,
+        "decoder": {
+          "depth": 6,
+          "dim_head": 64,
+          "heads": 8,
+          "hidden_dim": 512,
+          "module_type": "performer",
+          "norm_first": false,
+          "seq_len": 19266
+        },
+        "encoder": {
+          "depth": 12,
+          "dim_head": 64,
+          "heads": 12,
+          "hidden_dim": 768,
+          "module_type": "transformer",
+          "norm_first": false,
+          "seq_len": 19266
+        },
+        "gene_num": 19266,
+        "mask_gene_name": false,
+        "mask_token_id": 102,
+        "model": "mae_autobin",
+        "n_class": 104,
+        "pad_token_id": 103,
+        "rawcount": true,
+        "seq_len": 19266
+      },
+      "position_embedding_shape": [
+        19267,
+        768
+      ],
+      "tensor_elements": 119354430
+    },
+    "gene": {
+      "model": "mae_autobin",
+      "model_config": {
+        "bin_alpha": 1.0,
+        "bin_num": 100,
+        "decoder": {
+          "depth": 6,
+          "dim_head": 64,
+          "heads": 8,
+          "hidden_dim": 512,
+          "module_type": "performer",
+          "norm_first": false,
+          "seq_len": 19266
+        },
+        "encoder": {
+          "depth": 12,
+          "dim_head": 64,
+          "heads": 12,
+          "hidden_dim": 768,
+          "module_type": "transformer",
+          "norm_first": false,
+          "seq_len": 19266
+        },
+        "gene_num": 19266,
+        "mask_gene_name": false,
+        "mask_token_id": 102,
+        "model": "mae_autobin",
+        "n_class": 104,
+        "pad_token_id": 103,
+        "rawcount": true,
+        "seq_len": 19266
+      },
+      "position_embedding_shape": [
+        19267,
+        768
+      ],
+      "tensor_elements": 119354430
+    },
+    "rde": {
+      "model": "mae_autobin",
+      "model_config": {
+        "bin_alpha": 1.0,
+        "bin_num": 100,
+        "decoder": {
+          "depth": 6,
+          "dim_head": 64,
+          "heads": 8,
+          "hidden_dim": 512,
+          "module_type": "performer",
+          "norm_first": false,
+          "seq_len": 19266
+        },
+        "encoder": {
+          "depth": 12,
+          "dim_head": 64,
+          "heads": 12,
+          "hidden_dim": 768,
+          "module_type": "transformer",
+          "norm_first": false,
+          "seq_len": 19266
+        },
+        "gene_num": 19266,
+        "mask_gene_name": false,
+        "mask_token_id": 102,
+        "model": "mae_autobin",
+        "n_class": 104,
+        "pad_token_id": 103,
+        "rawcount": true,
+        "seq_len": 19266
+      },
+      "position_embedding_shape": [
+        19267,
+        768
+      ],
+      "tensor_elements": 119354430
+    }
+  },
+  "checkpoint": {
+    "cell": {
+      "config": {
+        "entries": 18,
+        "first_keys": [
+          "config_version",
+          "training",
+          "trainer",
+          "evaluation",
+          "model_config",
+          "dataset_config",
+          "datasets",
+          "model",
+          "config",
+          "run_type",
+          "optimizer",
+          "scheduler"
+        ],
+        "type": "dict"
+      },
+      "state_dict": {
+        "entries": 265,
+        "first_keys": [
+          "model.token_emb.mlp.weight",
+          "model.token_emb.mlp.bias",
+          "model.token_emb.mlp2.weight",
+          "model.token_emb.mlp2.bias",
+          "model.token_emb.emb.weight",
+          "model.token_emb.emb_mask.weight",
+          "model.token_emb.emb_pad.weight",
+          "model.pos_emb.weight",
+          "model.decoder_embed.weight",
+          "model.decoder_embed.bias",
+          "model.norm.weight",
+          "model.norm.bias"
+        ],
+        "type": "dict"
+      }
+    },
+    "gene": {
+      "config": {
+        "entries": 18,
+        "first_keys": [
+          "config_version",
+          "training",
+          "trainer",
+          "evaluation",
+          "model_config",
+          "dataset_config",
+          "datasets",
+          "model",
+          "config",
+          "run_type",
+          "optimizer",
+          "scheduler"
+        ],
+        "type": "dict"
+      },
+      "state_dict": {
+        "entries": 265,
+        "first_keys": [
+          "model.token_emb.mlp.weight",
+          "model.token_emb.mlp.bias",
+          "model.token_emb.mlp2.weight",
+          "model.token_emb.mlp2.bias",
+          "model.token_emb.emb.weight",
+          "model.token_emb.emb_mask.weight",
+          "model.token_emb.emb_pad.weight",
+          "model.pos_emb.weight",
+          "model.decoder_embed.weight",
+          "model.decoder_embed.bias",
+          "model.norm.weight",
+          "model.norm.bias"
+        ],
+        "type": "dict"
+      }
+    },
+    "rde": {
+      "config": {
+        "entries": 18,
+        "first_keys": [
+          "config_version",
+          "training",
+          "trainer",
+          "evaluation",
+          "model_config",
+          "dataset_config",
+          "datasets",
+          "model",
+          "config",
+          "run_type",
+          "optimizer",
+          "scheduler"
+        ],
+        "type": "dict"
+      },
+      "state_dict": {
+        "entries": 265,
+        "first_keys": [
+          "model.token_emb.mlp.weight",
+          "model.token_emb.mlp.bias",
+          "model.token_emb.mlp2.weight",
+          "model.token_emb.mlp2.bias",
+          "model.token_emb.emb.weight",
+          "model.token_emb.emb_mask.weight",
+          "model.token_emb.emb_pad.weight",
+          "model.pos_emb.weight",
+          "model.decoder_embed.weight",
+          "model.decoder_embed.bias",
+          "model.norm.weight",
+          "model.norm.bias"
+        ],
+        "type": "dict"
+      }
+    }
+  },
+  "cuda_available": false,
+  "files": {
+    "go.csv": {
+      "bytes": 875369345,
+      "sha256": "049ac41cc5e6ebceb57558999883767242cba8cd2868e02755b373ae87e0c486"
+    },
+    "go_mask_19264.npz": {
+      "bytes": 63763472,
+      "sha256": "3c315caf2b78d1abf3515c1e3bd13233b475daf92a9d06f2adfc43377eeca39c"
+    },
+    "models.ckpt": {
+      "bytes": 1432587886,
+      "sha256": "9f40bf324d3d0084c4b288d06f5af4fddd12206e2a3f022551d12e89e33a0ea9"
+    },
+    "scfoundation_genes.txt": {
+      "bytes": 123741,
+      "sha256": "6037e1bc9b3b48a5112ffdc29261383f747a3c3f8b568a8899b0c69d13565df8"
+    }
+  },
+  "genes": {
+    "count": 19264,
+    "empty": 0,
+    "unique": 19264
+  },
+  "go": {
+    "columns": [
+      "source",
+      "target",
+      "importance"
+    ],
+    "first_rows": [
+      {
+        "importance": "1.0",
+        "source": "A1BG",
+        "target": "A1BG"
+      },
+      {
+        "importance": "0.18181818181818182",
+        "source": "A1BG",
+        "target": "A2M"
+      },
+      {
+        "importance": "0.14285714285714285",
+        "source": "A1BG",
+        "target": "A2ML1"
+      }
+    ]
+  },
+  "mask": {
+    "dtype": "float32",
+    "finite": true,
+    "nonzeros": 30119336,
+    "shape": [
+      19264,
+      19264
+    ]
+  },
+  "safe_load": "passed",
+  "upstream_compatibility": "not yet established"
+}

@@ -1,0 +1,652 @@
+{
+  "sha": "5a7e9ade5d0a6b6331e6dbc81181450605047bcc",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "3eaf59a30d6a1b128b4b4b20635a3ba3840ce48d",
+      "size": 5176,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/3eaf59a30d6a1b128b4b4b20635a3ba3840ce48d"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "80a7a800c22e063f30afe6e3df75be4525305ef6",
+      "size": 1069,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/80a7a800c22e063f30afe6e3df75be4525305ef6"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "fd44036e899806ca8132ccda1af47b42bb8f84e3",
+      "size": 14222,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/fd44036e899806ca8132ccda1af47b42bb8f84e3"
+    },
+    {
+      "mode": "100644",
+      "path": "REPRODUCE.md",
+      "sha": "9ce160f9080d96c42ae7076b9690a88939828f8a",
+      "size": 28523,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/9ce160f9080d96c42ae7076b9690a88939828f8a"
+    },
+    {
+      "mode": "040000",
+      "path": "data",
+      "sha": "5badb9d617167bc709730cd814e7fb8cca7818a7",
+      "type": "tree",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/trees/5badb9d617167bc709730cd814e7fb8cca7818a7"
+    },
+    {
+      "mode": "100644",
+      "path": "data/gene_string_embeddings.v0.3.h5",
+      "sha": "8282fd198c2713f6d0a823c88211b6d76308a7df",
+      "size": 19502608,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/8282fd198c2713f6d0a823c88211b6d76308a7df"
+    },
+    {
+      "mode": "100644",
+      "path": "data/norman_test_genes.json",
+      "sha": "0764ab30caffcda306e013f464def55bb320a67d",
+      "size": 1649,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/0764ab30caffcda306e013f464def55bb320a67d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/norman_val_genes.json",
+      "sha": "a42a3394f869c98dbfa9a8fe09a9c47574ae62f1",
+      "size": 535,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/a42a3394f869c98dbfa9a8fe09a9c47574ae62f1"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "fecffe9519b72048d64593be9280807696df1fe6",
+      "size": 539,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/fecffe9519b72048d64593be9280807696df1fe6"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts",
+      "sha": "b2a4718b41f87a5b92434e6724317d1c65e6a648",
+      "type": "tree",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/trees/b2a4718b41f87a5b92434e6724317d1c65e6a648"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/README.md",
+      "sha": "5aa82fba32046bc5384182260b3a34a8f14b1c93",
+      "size": 2762,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/5aa82fba32046bc5384182260b3a34a8f14b1c93"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts/ablation",
+      "sha": "eb0ddb4d8a177de1c7ed6006305ed8fac7ebf7a2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/trees/eb0ddb4d8a177de1c7ed6006305ed8fac7ebf7a2"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/ablation/combo_hp_sweep.py",
+      "sha": "a978a5e6fa7c6755ce26cedf89ee2817a6ae0a70",
+      "size": 2438,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/a978a5e6fa7c6755ce26cedf89ee2817a6ae0a70"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/ablation/combo_two_models_lambda_sweep.py",
+      "sha": "01c0b1517b7de0773696e51d2be51181ac9c1982",
+      "size": 4950,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/01c0b1517b7de0773696e51d2be51181ac9c1982"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/ablation/hp_sweep.py",
+      "sha": "af3d12638b030cb218f6fc86e507d6bb6acb7cbb",
+      "size": 2829,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/af3d12638b030cb218f6fc86e507d6bb6acb7cbb"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/ablation/train_sample_sweep.py",
+      "sha": "4e1e66e5e741e5602ae88fc6df123743620e60c0",
+      "size": 3970,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/4e1e66e5e741e5602ae88fc6df123743620e60c0"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts/data_prep",
+      "sha": "bba1f5fa6d40faf3aec10e8af6f15160df5dd029",
+      "type": "tree",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/trees/bba1f5fa6d40faf3aec10e8af6f15160df5dd029"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/data_prep/data_process.py",
+      "sha": "c85ea3ca48349867596388996a548aa99c680569",
+      "size": 1960,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/c85ea3ca48349867596388996a548aa99c680569"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/data_prep/enrichment_analysis.py",
+      "sha": "fe946c88a7830c72093c1c18d98c6ed47dea7760",
+      "size": 5805,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/fe946c88a7830c72093c1c18d98c6ed47dea7760"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/data_prep/export_split_genes.py",
+      "sha": "2bdef1d8ca28ce0897527d9e877837d7b4b932e9",
+      "size": 3524,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/2bdef1d8ca28ce0897527d9e877837d7b4b932e9"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts/eval",
+      "sha": "070fbf54ea55ca56d1a830e73fce97e1703b54b3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/trees/070fbf54ea55ca56d1a830e73fce97e1703b54b3"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/eval/profile_slim_memory.py",
+      "sha": "feab9810f5d8041c015446f1cae78d01c5aeb957",
+      "size": 14828,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/feab9810f5d8041c015446f1cae78d01c5aeb957"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/eval/rescale_from_cells.py",
+      "sha": "0cc452df72090c14552513b0468aad44c2f82a81",
+      "size": 8095,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/0cc452df72090c14552513b0468aad44c2f82a81"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/eval/run_eval.py",
+      "sha": "777531451315b3e111c44b429729dd970f04cf2e",
+      "size": 4056,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/777531451315b3e111c44b429729dd970f04cf2e"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts/models",
+      "sha": "3ad754e3ca3e11f8faace80dbb99d89f77456857",
+      "type": "tree",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/trees/3ad754e3ca3e11f8faace80dbb99d89f77456857"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/find_uncovered_genes.py",
+      "sha": "4d018b70b9db97f7dc8b1266efd39f7d2b067450",
+      "size": 3982,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/4d018b70b9db97f7dc8b1266efd39f7d2b067450"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/gene_index.py",
+      "sha": "a49f03d1768ae9641c9858def23fcf43e72768fa",
+      "size": 1508,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/a49f03d1768ae9641c9858def23fcf43e72768fa"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_autoencoder.py",
+      "sha": "502b7a77fa8ebefd34998c2f5356dafec0be693a",
+      "size": 14205,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/502b7a77fa8ebefd34998c2f5356dafec0be693a"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_autoencoder_shift.py",
+      "sha": "0d53ab42c08373c0e2a77947158a0749efc0c94c",
+      "size": 14391,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/0d53ab42c08373c0e2a77947158a0749efc0c94c"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_cpa.py",
+      "sha": "94379c085ff38e875072d87e73bfb31d2166154d",
+      "size": 6234,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/94379c085ff38e875072d87e73bfb31d2166154d"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_gears.py",
+      "sha": "2747e688e163b5f424f4c6139a97f7ed16d0efaf",
+      "size": 7757,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/2747e688e163b5f424f4c6139a97f7ed16d0efaf"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_linear.py",
+      "sha": "3f629896efced68ea4e3616df274149bc1e3a4f7",
+      "size": 10993,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/3f629896efced68ea4e3616df274149bc1e3a4f7"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_linear_combo.py",
+      "sha": "1e8055c8a937d41ba9b6f8e0790368c67327d423",
+      "size": 11822,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/1e8055c8a937d41ba9b6f8e0790368c67327d423"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_mlp.py",
+      "sha": "ed18fefdb019fa2874fd202b5e3bbfd82475a315",
+      "size": 13027,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/ed18fefdb019fa2874fd202b5e3bbfd82475a315"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_ridge.py",
+      "sha": "ac5e42f74b7d833a3acaf51fa6953308331ae1cc",
+      "size": 9808,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/ac5e42f74b7d833a3acaf51fa6953308331ae1cc"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_ridge_combo.py",
+      "sha": "75f3351ea79f959620245c793210377125f2d6cc",
+      "size": 10550,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/75f3351ea79f959620245c793210377125f2d6cc"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_scgpt.py",
+      "sha": "db92992c029ca5659bf61db165cbd220463e0ccc",
+      "size": 20953,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/db92992c029ca5659bf61db165cbd220463e0ccc"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_sclambda.py",
+      "sha": "a20bfb71b5900490cec0c886e8f08328cdda8da1",
+      "size": 5968,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/a20bfb71b5900490cec0c886e8f08328cdda8da1"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_slim.py",
+      "sha": "9a88c054e75770b3fd41de9443fd4fa89c0f3330",
+      "size": 4106,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/9a88c054e75770b3fd41de9443fd4fa89c0f3330"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_slim_combo.py",
+      "sha": "f5fc07e375688e8375f149e74a28708d202b8d99",
+      "size": 4243,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/f5fc07e375688e8375f149e74a28708d202b8d99"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_slim_concat.py",
+      "sha": "a2bd7eaa1b40787ba4aa7d2ce74a5d8faf6917a5",
+      "size": 6993,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/a2bd7eaa1b40787ba4aa7d2ce74a5d8faf6917a5"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_trainmean.py",
+      "sha": "d41ff3bb510445d94fa1bd711f979ea64107301d",
+      "size": 6242,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/d41ff3bb510445d94fa1bd711f979ea64107301d"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/run_trainmean_combo.py",
+      "sha": "04300d396772ee2dbdde5cd8389306af207f1060",
+      "size": 7246,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/04300d396772ee2dbdde5cd8389306af207f1060"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/show_dataset_stats.py",
+      "sha": "1241aa8d80344daaf1e92b8fd4719c839839bef8",
+      "size": 6043,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/1241aa8d80344daaf1e92b8fd4719c839839bef8"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/models/show_hvg_coverage.py",
+      "sha": "ba78d26b019fde40c184c1384a50c4413ad3e659",
+      "size": 5179,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/ba78d26b019fde40c184c1384a50c4413ad3e659"
+    },
+    {
+      "mode": "040000",
+      "path": "scripts/plotting",
+      "sha": "0e381f7128f891dd920c58a50178f8c2f81df96d",
+      "type": "tree",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/trees/0e381f7128f891dd920c58a50178f8c2f81df96d"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/plotting/make_figures.py",
+      "sha": "88c751bb1a4ab906069222880b19e8f7100b6f61",
+      "size": 36340,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/88c751bb1a4ab906069222880b19e8f7100b6f61"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/plotting/make_figures_dist.py",
+      "sha": "6c065164d79b7953969724cd7dd2d35b118eb1b5",
+      "size": 37450,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/6c065164d79b7953969724cd7dd2d35b118eb1b5"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/plotting/make_figures_ridge.py",
+      "sha": "ef6b1ca8a08ae3880b9a663f792f2240addf5622",
+      "size": 5152,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/ef6b1ca8a08ae3880b9a663f792f2240addf5622"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/plotting/plot_embeddings.py",
+      "sha": "ea76261d0d6e0432329d031a8eeeba304f9eb445",
+      "size": 3163,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/ea76261d0d6e0432329d031a8eeeba304f9eb445"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/plotting/plot_embeddings_dist.py",
+      "sha": "4cfbfb2426a57d6a7e54c1a0008eb9784c76c4d8",
+      "size": 3459,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/4cfbfb2426a57d6a7e54c1a0008eb9784c76c4d8"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/plotting/plot_hp_robustness.py",
+      "sha": "9fec20a0f69f8fb46b8c64a4c9b90a9ebd41828d",
+      "size": 7986,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/9fec20a0f69f8fb46b8c64a4c9b90a9ebd41828d"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/plotting/plot_hp_robustness_norman.py",
+      "sha": "2c51318a356a80b3b89466294a702a05e92d6c66",
+      "size": 8530,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/2c51318a356a80b3b89466294a702a05e92d6c66"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/plotting/plot_slim_vs_ridge.py",
+      "sha": "9a10c0b9abff4b45c54300541cc288debe880343",
+      "size": 3052,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/9a10c0b9abff4b45c54300541cc288debe880343"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/plotting/plot_train_samples.py",
+      "sha": "b914d8b8989dd4186fe8bc30ae55cc934230ea89",
+      "size": 7034,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/b914d8b8989dd4186fe8bc30ae55cc934230ea89"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/plotting/plot_umap_embeddings.py",
+      "sha": "0d613febccabdb2dca02f07feb708b86dc5fd139",
+      "size": 17307,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/0d613febccabdb2dca02f07feb708b86dc5fd139"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/plotting/plot_umap_embeddings_combined.py",
+      "sha": "ec4a01642f2bffdc3604cf3901b5e338ef9d87db",
+      "size": 8423,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/ec4a01642f2bffdc3604cf3901b5e338ef9d87db"
+    },
+    {
+      "mode": "100644",
+      "path": "scripts/plotting/plot_umap_norman.py",
+      "sha": "6cc181e76659d64d8aea8fe6a5f4407be83a9531",
+      "size": 5777,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/6cc181e76659d64d8aea8fe6a5f4407be83a9531"
+    },
+    {
+      "mode": "100644",
+      "path": "slim-overview.png",
+      "sha": "838ba11b753ada7665ed52ceccefb752bdcaa1da",
+      "size": 227543,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/838ba11b753ada7665ed52ceccefb752bdcaa1da"
+    },
+    {
+      "mode": "040000",
+      "path": "src",
+      "sha": "ff5366b5b486438217392240fa68a715e547e9b2",
+      "type": "tree",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/trees/ff5366b5b486438217392240fa68a715e547e9b2"
+    },
+    {
+      "mode": "040000",
+      "path": "src/slim",
+      "sha": "344f3ed29b493371fb9f849976692351a7878ae6",
+      "type": "tree",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/trees/344f3ed29b493371fb9f849976692351a7878ae6"
+    },
+    {
+      "mode": "100644",
+      "path": "src/slim/__init__.py",
+      "sha": "8d89baad8560f65b2fc7a8cc1af969c8fb373f59",
+      "size": 1505,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/8d89baad8560f65b2fc7a8cc1af969c8fb373f59"
+    },
+    {
+      "mode": "100644",
+      "path": "src/slim/basis.py",
+      "sha": "d8663c0da548bd7605b167e7fc8783e3b71f6a77",
+      "size": 4683,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/d8663c0da548bd7605b167e7fc8783e3b71f6a77"
+    },
+    {
+      "mode": "100644",
+      "path": "src/slim/bias.py",
+      "sha": "b3616fe6a0ec4708765fe51d7795533789e3f07f",
+      "size": 1120,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/b3616fe6a0ec4708765fe51d7795533789e3f07f"
+    },
+    {
+      "mode": "100644",
+      "path": "src/slim/condition_utils.py",
+      "sha": "50dfb049c6b843e75af98b0bf76e427b282aa9ba",
+      "size": 1349,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/50dfb049c6b843e75af98b0bf76e427b282aa9ba"
+    },
+    {
+      "mode": "100644",
+      "path": "src/slim/config.py",
+      "sha": "fa33c42d231343f4757026a891f74108be03e7ce",
+      "size": 1697,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/fa33c42d231343f4757026a891f74108be03e7ce"
+    },
+    {
+      "mode": "040000",
+      "path": "src/slim/datasets",
+      "sha": "7fc4fc367c0b0f343462b987840c8f85eef40879",
+      "type": "tree",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/trees/7fc4fc367c0b0f343462b987840c8f85eef40879"
+    },
+    {
+      "mode": "100644",
+      "path": "src/slim/datasets/__init__.py",
+      "sha": "060cfdf347979105198d19a5f97546b5bda39e5b",
+      "size": 888,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/060cfdf347979105198d19a5f97546b5bda39e5b"
+    },
+    {
+      "mode": "100644",
+      "path": "src/slim/datasets/base.py",
+      "sha": "e0d917ee53fe3be974527b7b3b8da0afc97f31e2",
+      "size": 3803,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/e0d917ee53fe3be974527b7b3b8da0afc97f31e2"
+    },
+    {
+      "mode": "100644",
+      "path": "src/slim/datasets/gears_adapter.py",
+      "sha": "88eca3cde28ba6dece753598f7ee922a92b34940",
+      "size": 6108,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/88eca3cde28ba6dece753598f7ee922a92b34940"
+    },
+    {
+      "mode": "100644",
+      "path": "src/slim/embeddings.py",
+      "sha": "ce37fc8763caddecef763a6935e2e538634f12a6",
+      "size": 5209,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/ce37fc8763caddecef763a6935e2e538634f12a6"
+    },
+    {
+      "mode": "100644",
+      "path": "src/slim/eval.py",
+      "sha": "82a03600e39162945cd21eadb117384f0efeaa0a",
+      "size": 3561,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/82a03600e39162945cd21eadb117384f0efeaa0a"
+    },
+    {
+      "mode": "100644",
+      "path": "src/slim/model.py",
+      "sha": "95863f2b8d632b398ace4f67e126c8edafbdd67a",
+      "size": 9128,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/95863f2b8d632b398ace4f67e126c8edafbdd67a"
+    },
+    {
+      "mode": "100644",
+      "path": "src/slim/model_combo.py",
+      "sha": "424ab1406465e411636a3dc06f5b1c2b39e55732",
+      "size": 7741,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/424ab1406465e411636a3dc06f5b1c2b39e55732"
+    },
+    {
+      "mode": "100644",
+      "path": "src/slim/pipeline.py",
+      "sha": "0850c5e71f196a0beb7281c6617b7c51c5a0f907",
+      "size": 2076,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/0850c5e71f196a0beb7281c6617b7c51c5a0f907"
+    },
+    {
+      "mode": "100644",
+      "path": "src/slim/scaffold.py",
+      "sha": "e1fdcffefbf321708dd6ccf812c248a2ad512152",
+      "size": 4738,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/e1fdcffefbf321708dd6ccf812c248a2ad512152"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "9819159f2d06805fbd26b234cd4ef55beaef07d3",
+      "type": "tree",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/trees/9819159f2d06805fbd26b234cd4ef55beaef07d3"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/conftest.py",
+      "sha": "4b7be66704b9f48ba4d78cef675079dc003bd287",
+      "size": 2266,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/4b7be66704b9f48ba4d78cef675079dc003bd287"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_dataset_adapters.py",
+      "sha": "647f832ed5eb7b90c061a4b7bec547ffe8441534",
+      "size": 2205,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/647f832ed5eb7b90c061a4b7bec547ffe8441534"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_embeddings.py",
+      "sha": "9f7128fe147ba1254c005440d22eb7be17453ed1",
+      "size": 3511,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/9f7128fe147ba1254c005440d22eb7be17453ed1"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_scaffold.py",
+      "sha": "acd82e55f6609e7f98c843e6aaac264d5857dca3",
+      "size": 1770,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/acd82e55f6609e7f98c843e6aaac264d5857dca3"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_solve_w.py",
+      "sha": "ee62fd1d2ac90d804fa1aaf5db30cc44edc3f69d",
+      "size": 670,
+      "type": "blob",
+      "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/blobs/ee62fd1d2ac90d804fa1aaf5db30cc44edc3f69d"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/RasmussenLab/SLIM/git/trees/5a7e9ade5d0a6b6331e6dbc81181450605047bcc"
+}

@@ -1,0 +1,419 @@
+{
+  "sha": "fbd7c0250edc23eff003a10c99655579c53afd63",
+  "tree": [
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha": "b6e47617de110dea7ca47e087ff1347cc2646eda",
+      "size": 1799,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/b6e47617de110dea7ca47e087ff1347cc2646eda"
+    },
+    {
+      "mode": "100644",
+      "path": ".readthedocs.yml",
+      "sha": "6487c0aa9f2bb589a10e92c6aaf07e3c4a7c3710",
+      "size": 269,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/6487c0aa9f2bb589a10e92c6aaf07e3c4a7c3710"
+    },
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "20b42949d39d31e74eb8ec42023b7223db2444e1",
+      "size": 1537,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/20b42949d39d31e74eb8ec42023b7223db2444e1"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha": "489b3ec6cfc0afef083b31dc54998875cbc12f21",
+      "size": 8886,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/489b3ec6cfc0afef083b31dc54998875cbc12f21"
+    },
+    {
+      "mode": "040000",
+      "path": "cpa",
+      "sha": "62c87a70ef2588af03e20c8110a1659996c065ee",
+      "type": "tree",
+      "url": "https://api.github.com/repos/theislab/cpa/git/trees/62c87a70ef2588af03e20c8110a1659996c065ee"
+    },
+    {
+      "mode": "100644",
+      "path": "cpa/__init__.py",
+      "sha": "22d9e8212ca5a97bbe22fa7b4d92f58394e2794f",
+      "size": 391,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/22d9e8212ca5a97bbe22fa7b4d92f58394e2794f"
+    },
+    {
+      "mode": "100644",
+      "path": "cpa/_api.py",
+      "sha": "9cc7609064ca40514e059dda14795190a0821927",
+      "size": 44350,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/9cc7609064ca40514e059dda14795190a0821927"
+    },
+    {
+      "mode": "100644",
+      "path": "cpa/_data.py",
+      "sha": "6e4c15db4bde944b3e440231de596c5a8b98c7dc",
+      "size": 2296,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/6e4c15db4bde944b3e440231de596c5a8b98c7dc"
+    },
+    {
+      "mode": "100644",
+      "path": "cpa/_metrics.py",
+      "sha": "58934f2bd02db6e9473061297d59d67eb11681bd",
+      "size": 2691,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/58934f2bd02db6e9473061297d59d67eb11681bd"
+    },
+    {
+      "mode": "100644",
+      "path": "cpa/_model.py",
+      "sha": "866f10142f130ea5e3455a14b33a8ffa860363c4",
+      "size": 38493,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/866f10142f130ea5e3455a14b33a8ffa860363c4"
+    },
+    {
+      "mode": "100644",
+      "path": "cpa/_module.py",
+      "sha": "9f642965449f7f7f4f156eb7f6d04ae05a5167d3",
+      "size": 19354,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/9f642965449f7f7f4f156eb7f6d04ae05a5167d3"
+    },
+    {
+      "mode": "100644",
+      "path": "cpa/_plotting.py",
+      "sha": "acbc66544e0a77a9e41edb9054257170638c812a",
+      "size": 42085,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/acbc66544e0a77a9e41edb9054257170638c812a"
+    },
+    {
+      "mode": "100644",
+      "path": "cpa/_task.py",
+      "sha": "750c7f7c6b360437ca6bdaa7c3516c30c35ea435",
+      "size": 27718,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/750c7f7c6b360437ca6bdaa7c3516c30c35ea435"
+    },
+    {
+      "mode": "100644",
+      "path": "cpa/_tuner.py",
+      "sha": "c989356d647384dc08170874e6381f1a1bf3e00b",
+      "size": 28300,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/c989356d647384dc08170874e6381f1a1bf3e00b"
+    },
+    {
+      "mode": "100644",
+      "path": "cpa/_utils.py",
+      "sha": "7a0655f4576c4014967da2def1257ed64f8edfb8",
+      "size": 8447,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/7a0655f4576c4014967da2def1257ed64f8edfb8"
+    },
+    {
+      "mode": "040000",
+      "path": "docs",
+      "sha": "fb4a881e6fe4d307c36d82e552ea8f779cd6fa20",
+      "type": "tree",
+      "url": "https://api.github.com/repos/theislab/cpa/git/trees/fb4a881e6fe4d307c36d82e552ea8f779cd6fa20"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/Makefile",
+      "sha": "bdbf6f5d97df72418d9e58af51f3a9ea2efa0911",
+      "size": 609,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/bdbf6f5d97df72418d9e58af51f3a9ea2efa0911"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/_static",
+      "sha": "7f7015de0c877ec55410bc058ba7510c0cd39bde",
+      "type": "tree",
+      "url": "https://api.github.com/repos/theislab/cpa/git/trees/7f7015de0c877ec55410bc058ba7510c0cd39bde"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/_static/css",
+      "sha": "c161865430ff8c865d549f90d511b4fea7e853a5",
+      "type": "tree",
+      "url": "https://api.github.com/repos/theislab/cpa/git/trees/c161865430ff8c865d549f90d511b4fea7e853a5"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/_static/css/custom.css",
+      "sha": "711c1b8356aa799c370c39d467465d4ac4282341",
+      "size": 1578,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/711c1b8356aa799c370c39d467465d4ac4282341"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/_static/css/gallery.css",
+      "sha": "2e82557bfc1497d72e3de164564f3cc89cf9a14e",
+      "size": 544,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/2e82557bfc1497d72e3de164564f3cc89cf9a14e"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/_templates",
+      "sha": "12b2ed794f3982dd146ab663989440692d91446b",
+      "type": "tree",
+      "url": "https://api.github.com/repos/theislab/cpa/git/trees/12b2ed794f3982dd146ab663989440692d91446b"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/_templates/autosummary",
+      "sha": "79d9885077190bd8a9028d37f53bfea5821bccde",
+      "type": "tree",
+      "url": "https://api.github.com/repos/theislab/cpa/git/trees/79d9885077190bd8a9028d37f53bfea5821bccde"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/_templates/autosummary/class.rst",
+      "sha": "e1547a340fce8feeec00bc356f71c53859a41996",
+      "size": 661,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/e1547a340fce8feeec00bc356f71c53859a41996"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/_templates/class_no_inherited.rst",
+      "sha": "c4e50483cbd0c8f163d3db8424574f5b17c52779",
+      "size": 465,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/c4e50483cbd0c8f163d3db8424574f5b17c52779"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/api",
+      "sha": "6932683594b07d59ef72031118785a3a8929ad77",
+      "type": "tree",
+      "url": "https://api.github.com/repos/theislab/cpa/git/trees/6932683594b07d59ef72031118785a3a8929ad77"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/api/index.rst",
+      "sha": "4bcb509fe315e7b69842f7df12588794e6a24e39",
+      "size": 325,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/4bcb509fe315e7b69842f7df12588794e6a24e39"
+    },
+    {
+      "mode": "100755",
+      "path": "docs/conf.py",
+      "sha": "603b807b58db62460f05f44da7f3564138557403",
+      "size": 6994,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/603b807b58db62460f05f44da7f3564138557403"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/extensions",
+      "sha": "b3bbb12aed84b5f4273d8dae6a3e5a9e7056055f",
+      "type": "tree",
+      "url": "https://api.github.com/repos/theislab/cpa/git/trees/b3bbb12aed84b5f4273d8dae6a3e5a9e7056055f"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/extensions/typed_returns.py",
+      "sha": "d4e1d2671fe9afabbbe4aeee10c9caaf5ab26790",
+      "size": 886,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/d4e1d2671fe9afabbbe4aeee10c9caaf5ab26790"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/index.rst",
+      "sha": "7e774079b7b624f245d26e81cdd13c978f91fbc4",
+      "size": 1394,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/7e774079b7b624f245d26e81cdd13c978f91fbc4"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/installation.rst",
+      "sha": "cc3bf8e22b039762638488fefd96d85c78cc7830",
+      "size": 2169,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/cc3bf8e22b039762638488fefd96d85c78cc7830"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/make.bat",
+      "sha": "663918cb3dd1e02677907ee689db02ebf51a560b",
+      "size": 766,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/663918cb3dd1e02677907ee689db02ebf51a560b"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/references.rst",
+      "sha": "faf1c0539fe84b8806b96c2e1df35c8a3abcde8f",
+      "size": 513,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/faf1c0539fe84b8806b96c2e1df35c8a3abcde8f"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/release_notes",
+      "sha": "aa5560845d215d86a034188f59003aa429cf0594",
+      "type": "tree",
+      "url": "https://api.github.com/repos/theislab/cpa/git/trees/aa5560845d215d86a034188f59003aa429cf0594"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/release_notes/index.rst",
+      "sha": "8c989e3df4bb46058bc3e3c276de2e66105a4bb2",
+      "size": 331,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/8c989e3df4bb46058bc3e3c276de2e66105a4bb2"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/release_notes/v0.1.0.rst",
+      "sha": "5fe383a0e2a67565a738a2394c8e7115fb330770",
+      "size": 122,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/5fe383a0e2a67565a738a2394c8e7115fb330770"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/release_notes/v0.1.1.rst",
+      "sha": "e704a859737383639065415502e3482ed63cfe69",
+      "size": 76,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/e704a859737383639065415502e3482ed63cfe69"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/release_notes/v0.8.6.rst",
+      "sha": "150dcadcac229592b4f9f860efc3c0fbb0ea548a",
+      "size": 1337,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/150dcadcac229592b4f9f860efc3c0fbb0ea548a"
+    },
+    {
+      "mode": "040000",
+      "path": "docs/tutorials",
+      "sha": "fca0c9f203d7b433a0c00429fb3d3ef48cefd225",
+      "type": "tree",
+      "url": "https://api.github.com/repos/theislab/cpa/git/trees/fca0c9f203d7b433a0c00429fb3d3ef48cefd225"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/tutorials/Batch_correction_in_expression_space.ipynb",
+      "sha": "56d95741c1dd15f71d0fcff227c45eef6e331118",
+      "size": 5621755,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/56d95741c1dd15f71d0fcff227c45eef6e331118"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/tutorials/Kang.ipynb",
+      "sha": "d7748dc0b6b3848c412f639e3f88e63d6f25524f",
+      "size": 1700968,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/d7748dc0b6b3848c412f639e3f88e63d6f25524f"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/tutorials/Norman.ipynb",
+      "sha": "60dfcaeee7d5062e95804b0a57acf1365409160b",
+      "size": 2738683,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/60dfcaeee7d5062e95804b0a57acf1365409160b"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/tutorials/combosciplex.ipynb",
+      "sha": "3f5f9e22a486b0befb506ea480b671f9c27dbe75",
+      "size": 4877005,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/3f5f9e22a486b0befb506ea480b671f9c27dbe75"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/tutorials/combosciplex_Rdkit_embeddings.ipynb",
+      "sha": "ba0f80747945f6f46fef0e17cfaa632aa255d56b",
+      "size": 5270226,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/ba0f80747945f6f46fef0e17cfaa632aa255d56b"
+    },
+    {
+      "mode": "100644",
+      "path": "docs/tutorials/index.rst",
+      "sha": "4ea10c25ea5d6b6599723b31857a0a57e4a60970",
+      "size": 1246,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/4ea10c25ea5d6b6599723b31857a0a57e4a60970"
+    },
+    {
+      "mode": "040000",
+      "path": "examples",
+      "sha": "82bd73379f0df594e9c04af73ffc0d914f89b398",
+      "type": "tree",
+      "url": "https://api.github.com/repos/theislab/cpa/git/trees/82bd73379f0df594e9c04af73ffc0d914f89b398"
+    },
+    {
+      "mode": "100644",
+      "path": "examples/tune_script.py",
+      "sha": "254aaff8b596499ea334255f039b0a46e364a400",
+      "size": 5476,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/254aaff8b596499ea334255f039b0a46e364a400"
+    },
+    {
+      "mode": "100644",
+      "path": "pyproject.toml",
+      "sha": "e926b58ce75a286767489c9ceeee0edc5220b432",
+      "size": 1438,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/e926b58ce75a286767489c9ceeee0edc5220b432"
+    },
+    {
+      "mode": "100644",
+      "path": "setup.py",
+      "sha": "1f34ba98fbcf5b0bd6ea4a08d9fd8010fb4c2d04",
+      "size": 201,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/1f34ba98fbcf5b0bd6ea4a08d9fd8010fb4c2d04"
+    },
+    {
+      "mode": "040000",
+      "path": "tests",
+      "sha": "d5c7c8ee8a2b9109cee4e469936d8a1712e712ba",
+      "type": "tree",
+      "url": "https://api.github.com/repos/theislab/cpa/git/trees/d5c7c8ee8a2b9109cee4e469936d8a1712e712ba"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/__init__.py",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "mode": "100644",
+      "path": "tests/test_cpa.py",
+      "sha": "a87c49e4d3705196af6e7ba218913d4d6984136a",
+      "size": 1749,
+      "type": "blob",
+      "url": "https://api.github.com/repos/theislab/cpa/git/blobs/a87c49e4d3705196af6e7ba218913d4d6984136a"
+    }
+  ],
+  "truncated": false,
+  "url": "https://api.github.com/repos/theislab/cpa/git/trees/fbd7c0250edc23eff003a10c99655579c53afd63"
+}

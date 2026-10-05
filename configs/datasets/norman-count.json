@@ -1,0 +1,2822 @@
+{
+  "cell_filters": {
+    "good_coverage": {
+      "equals": true
+    },
+    "number_of_cells": {
+      "equals": 1
+    }
+  },
+  "condition_column": "perturbation",
+  "condition_map": {
+    "AHR": {
+      "components": [
+        "AHR"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "AHR_NegCtrl0;AHR_NegCtrl0"
+      ]
+    },
+    "AHR_FEV": {
+      "components": [
+        "AHR",
+        "FEV"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "AHR_FEV;AHR_FEV"
+      ]
+    },
+    "AHR_KLF1": {
+      "components": [
+        "AHR",
+        "KLF1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "AHR_KLF1;AHR_KLF1"
+      ]
+    },
+    "ARID1A": {
+      "components": [
+        "ARID1A"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ARID1A_NegCtrl0;ARID1A_NegCtrl0"
+      ]
+    },
+    "ARRDC3": {
+      "components": [
+        "ARRDC3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ARRDC3_NegCtrl0;ARRDC3_NegCtrl0"
+      ]
+    },
+    "ATL1": {
+      "components": [
+        "ATL1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ATL1_NegCtrl0;ATL1_NegCtrl0"
+      ]
+    },
+    "BAK1": {
+      "components": [
+        "BAK1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "BAK1_NegCtrl0;BAK1_NegCtrl0",
+        "NegCtrl0_BAK1;NegCtrl0_BAK1"
+      ]
+    },
+    "BCL2L11": {
+      "components": [
+        "BCL2L11"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "BCL2L11_NegCtrl0;BCL2L11_NegCtrl0"
+      ]
+    },
+    "BCL2L11_BAK1": {
+      "components": [
+        "BCL2L11",
+        "BAK1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "BCL2L11_BAK1;BCL2L11_BAK1"
+      ]
+    },
+    "BCL2L11_TGFBR2": {
+      "components": [
+        "BCL2L11",
+        "TGFBR2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "BCL2L11_TGFBR2;BCL2L11_TGFBR2"
+      ]
+    },
+    "BCORL1": {
+      "components": [
+        "BCORL1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "BCORL1_NegCtrl0;BCORL1_NegCtrl0"
+      ]
+    },
+    "BPGM": {
+      "components": [
+        "BPGM"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "BPGM_NegCtrl0;BPGM_NegCtrl0"
+      ]
+    },
+    "BPGM_SAMD1": {
+      "components": [
+        "BPGM",
+        "SAMD1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "BPGM_SAMD1;BPGM_SAMD1"
+      ]
+    },
+    "BPGM_ZBTB1": {
+      "components": [
+        "BPGM",
+        "ZBTB1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "BPGM_ZBTB1;BPGM_ZBTB1"
+      ]
+    },
+    "C19orf26": {
+      "components": [
+        "C19orf26"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "C19orf26_NegCtrl0;C19orf26_NegCtrl0",
+        "NegCtrl0_C19orf26;NegCtrl0_C19orf26"
+      ]
+    },
+    "C3orf72": {
+      "components": [
+        "C3orf72"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "C3orf72_NegCtrl0;C3orf72_NegCtrl0"
+      ]
+    },
+    "C3orf72_FOXL2": {
+      "components": [
+        "C3orf72",
+        "FOXL2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "C3orf72_FOXL2;C3orf72_FOXL2"
+      ]
+    },
+    "CBFA2T3": {
+      "components": [
+        "CBFA2T3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CBFA2T3_NegCtrl0;CBFA2T3_NegCtrl0",
+        "NegCtrl0_CBFA2T3;NegCtrl0_CBFA2T3"
+      ]
+    },
+    "CBL": {
+      "components": [
+        "CBL"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CBL_NegCtrl0;CBL_NegCtrl0"
+      ]
+    },
+    "CBL_CNN1": {
+      "components": [
+        "CBL",
+        "CNN1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CBL_CNN1;CBL_CNN1"
+      ]
+    },
+    "CBL_PTPN12": {
+      "components": [
+        "CBL",
+        "PTPN12"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CBL_PTPN12;CBL_PTPN12"
+      ]
+    },
+    "CBL_PTPN9": {
+      "components": [
+        "CBL",
+        "PTPN9"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CBL_PTPN9;CBL_PTPN9"
+      ]
+    },
+    "CBL_TGFBR2": {
+      "components": [
+        "CBL",
+        "TGFBR2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CBL_TGFBR2;CBL_TGFBR2"
+      ]
+    },
+    "CBL_UBASH3A": {
+      "components": [
+        "CBL",
+        "UBASH3A"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CBL_UBASH3A;CBL_UBASH3A"
+      ]
+    },
+    "CBL_UBASH3B": {
+      "components": [
+        "CBL",
+        "UBASH3B"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CBL_UBASH3B;CBL_UBASH3B"
+      ]
+    },
+    "CDKN1A": {
+      "components": [
+        "CDKN1A"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CDKN1A_NegCtrl0;CDKN1A_NegCtrl0",
+        "NegCtrl0_CDKN1A;NegCtrl0_CDKN1A"
+      ]
+    },
+    "CDKN1B": {
+      "components": [
+        "CDKN1B"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CDKN1B_NegCtrl0;CDKN1B_NegCtrl0",
+        "NegCtrl0_CDKN1B;NegCtrl0_CDKN1B"
+      ]
+    },
+    "CDKN1B_CDKN1A": {
+      "components": [
+        "CDKN1B",
+        "CDKN1A"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CDKN1B_CDKN1A;CDKN1B_CDKN1A"
+      ]
+    },
+    "CDKN1C": {
+      "components": [
+        "CDKN1C"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CDKN1C_NegCtrl0;CDKN1C_NegCtrl0"
+      ]
+    },
+    "CDKN1C_CDKN1A": {
+      "components": [
+        "CDKN1C",
+        "CDKN1A"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CDKN1C_CDKN1A;CDKN1C_CDKN1A"
+      ]
+    },
+    "CDKN1C_CDKN1B": {
+      "components": [
+        "CDKN1C",
+        "CDKN1B"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CDKN1C_CDKN1B;CDKN1C_CDKN1B"
+      ]
+    },
+    "CEBPA": {
+      "components": [
+        "CEBPA"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CEBPA_NegCtrl0;CEBPA_NegCtrl0",
+        "NegCtrl0_CEBPA;NegCtrl0_CEBPA"
+      ]
+    },
+    "CEBPB": {
+      "components": [
+        "CEBPB"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CEBPB_NegCtrl0;CEBPB_NegCtrl0",
+        "NegCtrl0_CEBPB;NegCtrl0_CEBPB"
+      ]
+    },
+    "CEBPB_CEBPA": {
+      "components": [
+        "CEBPB",
+        "CEBPA"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CEBPB_CEBPA;CEBPB_CEBPA"
+      ]
+    },
+    "CEBPB_MAPK1": {
+      "components": [
+        "CEBPB",
+        "MAPK1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CEBPB_MAPK1;CEBPB_MAPK1"
+      ]
+    },
+    "CEBPB_OSR2": {
+      "components": [
+        "CEBPB",
+        "OSR2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CEBPB_OSR2;CEBPB_OSR2"
+      ]
+    },
+    "CEBPB_PTPN12": {
+      "components": [
+        "CEBPB",
+        "PTPN12"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CEBPB_PTPN12;CEBPB_PTPN12"
+      ]
+    },
+    "CEBPE": {
+      "components": [
+        "CEBPE"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CEBPE_NegCtrl0;CEBPE_NegCtrl0",
+        "NegCtrl0_CEBPE;NegCtrl0_CEBPE"
+      ]
+    },
+    "CEBPE_CEBPA": {
+      "components": [
+        "CEBPE",
+        "CEBPA"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CEBPE_CEBPA;CEBPE_CEBPA"
+      ]
+    },
+    "CEBPE_CEBPB": {
+      "components": [
+        "CEBPE",
+        "CEBPB"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CEBPE_CEBPB;CEBPE_CEBPB"
+      ]
+    },
+    "CEBPE_CNN1": {
+      "components": [
+        "CEBPE",
+        "CNN1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CEBPE_CNN1;CEBPE_CNN1"
+      ]
+    },
+    "CEBPE_KLF1": {
+      "components": [
+        "CEBPE",
+        "KLF1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CEBPE_KLF1;CEBPE_KLF1"
+      ]
+    },
+    "CEBPE_PTPN12": {
+      "components": [
+        "CEBPE",
+        "PTPN12"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CEBPE_PTPN12;CEBPE_PTPN12"
+      ]
+    },
+    "CEBPE_RUNX1T1": {
+      "components": [
+        "CEBPE",
+        "RUNX1T1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CEBPE_RUNX1T1;CEBPE_RUNX1T1"
+      ]
+    },
+    "CEBPE_SPI1": {
+      "components": [
+        "CEBPE",
+        "SPI1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CEBPE_SPI1;CEBPE_SPI1"
+      ]
+    },
+    "CELF2": {
+      "components": [
+        "CELF2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CELF2_NegCtrl0;CELF2_NegCtrl0"
+      ]
+    },
+    "CITED1": {
+      "components": [
+        "CITED1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CITED1_NegCtrl0;CITED1_NegCtrl0"
+      ]
+    },
+    "CKS1B": {
+      "components": [
+        "CKS1B"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CKS1B_NegCtrl0;CKS1B_NegCtrl0"
+      ]
+    },
+    "CLDN6": {
+      "components": [
+        "CLDN6"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CLDN6_NegCtrl0;CLDN6_NegCtrl0",
+        "NegCtrl0_CLDN6;NegCtrl0_CLDN6"
+      ]
+    },
+    "CNN1": {
+      "components": [
+        "CNN1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CNN1_NegCtrl0;CNN1_NegCtrl0",
+        "NegCtrl0_CNN1;NegCtrl0_CNN1"
+      ]
+    },
+    "CNN1_MAPK1": {
+      "components": [
+        "CNN1",
+        "MAPK1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CNN1_MAPK1;CNN1_MAPK1"
+      ]
+    },
+    "CNN1_UBASH3A": {
+      "components": [
+        "CNN1",
+        "UBASH3A"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CNN1_UBASH3A;CNN1_UBASH3A"
+      ]
+    },
+    "CNNM4": {
+      "components": [
+        "CNNM4"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CNNM4_NegCtrl0;CNNM4_NegCtrl0"
+      ]
+    },
+    "COL1A1": {
+      "components": [
+        "COL1A1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "COL1A1_NegCtrl0;COL1A1_NegCtrl0"
+      ]
+    },
+    "COL2A1": {
+      "components": [
+        "COL2A1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "COL2A1_NegCtrl0;COL2A1_NegCtrl0",
+        "NegCtrl0_COL2A1;NegCtrl0_COL2A1"
+      ]
+    },
+    "CSRNP1": {
+      "components": [
+        "CSRNP1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "CSRNP1_NegCtrl0;CSRNP1_NegCtrl0"
+      ]
+    },
+    "DLX2": {
+      "components": [
+        "DLX2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "DLX2_NegCtrl0;DLX2_NegCtrl0",
+        "NegCtrl0_DLX2;NegCtrl0_DLX2"
+      ]
+    },
+    "DUSP9": {
+      "components": [
+        "DUSP9"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "DUSP9_NegCtrl0;DUSP9_NegCtrl0"
+      ]
+    },
+    "DUSP9_ETS2": {
+      "components": [
+        "DUSP9",
+        "ETS2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "DUSP9_ETS2;DUSP9_ETS2"
+      ]
+    },
+    "DUSP9_IGDCC3": {
+      "components": [
+        "DUSP9",
+        "IGDCC3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "DUSP9_IGDCC3;DUSP9_IGDCC3"
+      ]
+    },
+    "DUSP9_KLF1": {
+      "components": [
+        "DUSP9",
+        "KLF1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "DUSP9_KLF1;DUSP9_KLF1"
+      ]
+    },
+    "DUSP9_MAPK1": {
+      "components": [
+        "DUSP9",
+        "MAPK1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "DUSP9_MAPK1;DUSP9_MAPK1"
+      ]
+    },
+    "DUSP9_PRTG": {
+      "components": [
+        "DUSP9",
+        "PRTG"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "DUSP9_PRTG;DUSP9_PRTG"
+      ]
+    },
+    "DUSP9_SNAI1": {
+      "components": [
+        "DUSP9",
+        "SNAI1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "DUSP9_SNAI1;DUSP9_SNAI1"
+      ]
+    },
+    "EGR1": {
+      "components": [
+        "EGR1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "EGR1_NegCtrl0;EGR1_NegCtrl0"
+      ]
+    },
+    "ELMSAN1": {
+      "components": [
+        "ELMSAN1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ELMSAN1_NegCtrl0;ELMSAN1_NegCtrl0",
+        "NegCtrl0_ELMSAN1;NegCtrl0_ELMSAN1"
+      ]
+    },
+    "ETS2": {
+      "components": [
+        "ETS2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ETS2_NegCtrl0;ETS2_NegCtrl0",
+        "NegCtrl0_ETS2;NegCtrl0_ETS2"
+      ]
+    },
+    "ETS2_CEBPE": {
+      "components": [
+        "ETS2",
+        "CEBPE"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ETS2_CEBPE;ETS2_CEBPE"
+      ]
+    },
+    "ETS2_CNN1": {
+      "components": [
+        "ETS2",
+        "CNN1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ETS2_CNN1;ETS2_CNN1"
+      ]
+    },
+    "ETS2_IGDCC3": {
+      "components": [
+        "ETS2",
+        "IGDCC3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ETS2_IGDCC3;ETS2_IGDCC3"
+      ]
+    },
+    "ETS2_IKZF3": {
+      "components": [
+        "ETS2",
+        "IKZF3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ETS2_IKZF3;ETS2_IKZF3"
+      ]
+    },
+    "ETS2_MAP7D1": {
+      "components": [
+        "ETS2",
+        "MAP7D1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ETS2_MAP7D1;ETS2_MAP7D1"
+      ]
+    },
+    "ETS2_MAPK1": {
+      "components": [
+        "ETS2",
+        "MAPK1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ETS2_MAPK1;ETS2_MAPK1"
+      ]
+    },
+    "ETS2_PRTG": {
+      "components": [
+        "ETS2",
+        "PRTG"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ETS2_PRTG;ETS2_PRTG"
+      ]
+    },
+    "FEV": {
+      "components": [
+        "FEV"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FEV_NegCtrl0;FEV_NegCtrl0",
+        "NegCtrl0_FEV;NegCtrl0_FEV"
+      ]
+    },
+    "FEV_CBFA2T3": {
+      "components": [
+        "FEV",
+        "CBFA2T3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FEV_CBFA2T3;FEV_CBFA2T3"
+      ]
+    },
+    "FEV_ISL2": {
+      "components": [
+        "FEV",
+        "ISL2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FEV_ISL2;FEV_ISL2"
+      ]
+    },
+    "FEV_MAP7D1": {
+      "components": [
+        "FEV",
+        "MAP7D1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FEV_MAP7D1;FEV_MAP7D1"
+      ]
+    },
+    "FOSB": {
+      "components": [
+        "FOSB"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOSB_NegCtrl0;FOSB_NegCtrl0"
+      ]
+    },
+    "FOSB_CEBPB": {
+      "components": [
+        "FOSB",
+        "CEBPB"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOSB_CEBPB;FOSB_CEBPB"
+      ]
+    },
+    "FOSB_CEBPE": {
+      "components": [
+        "FOSB",
+        "CEBPE"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOSB_CEBPE;FOSB_CEBPE"
+      ]
+    },
+    "FOSB_IKZF3": {
+      "components": [
+        "FOSB",
+        "IKZF3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOSB_IKZF3;FOSB_IKZF3"
+      ]
+    },
+    "FOSB_OSR2": {
+      "components": [
+        "FOSB",
+        "OSR2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOSB_OSR2;FOSB_OSR2"
+      ]
+    },
+    "FOSB_PTPN12": {
+      "components": [
+        "FOSB",
+        "PTPN12"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOSB_PTPN12;FOSB_PTPN12"
+      ]
+    },
+    "FOSB_UBASH3B": {
+      "components": [
+        "FOSB",
+        "UBASH3B"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOSB_UBASH3B;FOSB_UBASH3B"
+      ]
+    },
+    "FOXA1": {
+      "components": [
+        "FOXA1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXA1_NegCtrl0;FOXA1_NegCtrl0",
+        "NegCtrl0_FOXA1;NegCtrl0_FOXA1"
+      ]
+    },
+    "FOXA1_FOXF1": {
+      "components": [
+        "FOXA1",
+        "FOXF1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXA1_FOXF1;FOXA1_FOXF1"
+      ]
+    },
+    "FOXA1_FOXL2": {
+      "components": [
+        "FOXA1",
+        "FOXL2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXA1_FOXL2;FOXA1_FOXL2"
+      ]
+    },
+    "FOXA1_HOXB9": {
+      "components": [
+        "FOXA1",
+        "HOXB9"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXA1_HOXB9;FOXA1_HOXB9"
+      ]
+    },
+    "FOXA3": {
+      "components": [
+        "FOXA3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXA3_NegCtrl0;FOXA3_NegCtrl0"
+      ]
+    },
+    "FOXA3_FOXA1": {
+      "components": [
+        "FOXA3",
+        "FOXA1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXA3_FOXA1;FOXA3_FOXA1"
+      ]
+    },
+    "FOXA3_FOXF1": {
+      "components": [
+        "FOXA3",
+        "FOXF1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXA3_FOXF1;FOXA3_FOXF1"
+      ]
+    },
+    "FOXA3_FOXL2": {
+      "components": [
+        "FOXA3",
+        "FOXL2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXA3_FOXL2;FOXA3_FOXL2"
+      ]
+    },
+    "FOXA3_HOXB9": {
+      "components": [
+        "FOXA3",
+        "HOXB9"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXA3_HOXB9;FOXA3_HOXB9"
+      ]
+    },
+    "FOXF1": {
+      "components": [
+        "FOXF1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXF1_NegCtrl0;FOXF1_NegCtrl0",
+        "NegCtrl0_FOXF1;NegCtrl0_FOXF1"
+      ]
+    },
+    "FOXF1_FOXL2": {
+      "components": [
+        "FOXF1",
+        "FOXL2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXF1_FOXL2;FOXF1_FOXL2"
+      ]
+    },
+    "FOXF1_HOXB9": {
+      "components": [
+        "FOXF1",
+        "HOXB9"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXF1_HOXB9;FOXF1_HOXB9"
+      ]
+    },
+    "FOXL2": {
+      "components": [
+        "FOXL2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXL2_NegCtrl0;FOXL2_NegCtrl0",
+        "NegCtrl0_FOXL2;NegCtrl0_FOXL2"
+      ]
+    },
+    "FOXL2_HOXB9": {
+      "components": [
+        "FOXL2",
+        "HOXB9"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXL2_HOXB9;FOXL2_HOXB9"
+      ]
+    },
+    "FOXL2_MEIS1": {
+      "components": [
+        "FOXL2",
+        "MEIS1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXL2_MEIS1;FOXL2_MEIS1"
+      ]
+    },
+    "FOXO4": {
+      "components": [
+        "FOXO4"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "FOXO4_NegCtrl0;FOXO4_NegCtrl0"
+      ]
+    },
+    "GLB1L2": {
+      "components": [
+        "GLB1L2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "GLB1L2_NegCtrl0;GLB1L2_NegCtrl0"
+      ]
+    },
+    "HES7": {
+      "components": [
+        "HES7"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "HES7_NegCtrl0;HES7_NegCtrl0"
+      ]
+    },
+    "HK2": {
+      "components": [
+        "HK2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "HK2_NegCtrl0;HK2_NegCtrl0"
+      ]
+    },
+    "HNF4A": {
+      "components": [
+        "HNF4A"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "HNF4A_NegCtrl0;HNF4A_NegCtrl0"
+      ]
+    },
+    "HOXA13": {
+      "components": [
+        "HOXA13"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "HOXA13_NegCtrl0;HOXA13_NegCtrl0"
+      ]
+    },
+    "HOXB9": {
+      "components": [
+        "HOXB9"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "HOXB9_NegCtrl0;HOXB9_NegCtrl0",
+        "NegCtrl0_HOXB9;NegCtrl0_HOXB9"
+      ]
+    },
+    "HOXC13": {
+      "components": [
+        "HOXC13"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "HOXC13_NegCtrl0;HOXC13_NegCtrl0_1",
+        "HOXC13_NegCtrl0;HOXC13_NegCtrl0_2",
+        "NegCtrl0_HOXC13;NegCtrl0_HOXC13"
+      ]
+    },
+    "IER5L": {
+      "components": [
+        "IER5L"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "IER5L_NegCtrl0;IER5L_NegCtrl0",
+        "NegCtrl0_IER5L;NegCtrl0_IER5L"
+      ]
+    },
+    "IGDCC3": {
+      "components": [
+        "IGDCC3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "IGDCC3_NegCtrl0;IGDCC3_NegCtrl0",
+        "NegCtrl0_IGDCC3;NegCtrl0_IGDCC3"
+      ]
+    },
+    "IGDCC3_MAPK1": {
+      "components": [
+        "IGDCC3",
+        "MAPK1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "IGDCC3_MAPK1;IGDCC3_MAPK1"
+      ]
+    },
+    "IGDCC3_PRTG": {
+      "components": [
+        "IGDCC3",
+        "PRTG"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "IGDCC3_PRTG;IGDCC3_PRTG"
+      ]
+    },
+    "IGDCC3_ZBTB25": {
+      "components": [
+        "IGDCC3",
+        "ZBTB25"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "IGDCC3_ZBTB25;IGDCC3_ZBTB25"
+      ]
+    },
+    "IKZF3": {
+      "components": [
+        "IKZF3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "IKZF3_NegCtrl0;IKZF3_NegCtrl0",
+        "NegCtrl0_IKZF3;NegCtrl0_IKZF3"
+      ]
+    },
+    "IRF1": {
+      "components": [
+        "IRF1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "IRF1_NegCtrl0;IRF1_NegCtrl0"
+      ]
+    },
+    "IRF1_SET": {
+      "components": [
+        "IRF1",
+        "SET"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "IRF1_SET;IRF1_SET"
+      ]
+    },
+    "ISL2": {
+      "components": [
+        "ISL2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ISL2_NegCtrl0;ISL2_NegCtrl0",
+        "NegCtrl0_ISL2;NegCtrl0_ISL2"
+      ]
+    },
+    "JUN": {
+      "components": [
+        "JUN"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "JUN_NegCtrl0;JUN_NegCtrl0"
+      ]
+    },
+    "JUN_CEBPA": {
+      "components": [
+        "JUN",
+        "CEBPA"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "JUN_CEBPA;JUN_CEBPA"
+      ]
+    },
+    "JUN_CEBPB": {
+      "components": [
+        "JUN",
+        "CEBPB"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "JUN_CEBPB;JUN_CEBPB"
+      ]
+    },
+    "KIAA1804": {
+      "components": [
+        "KIAA1804"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "KIAA1804_NegCtrl0;KIAA1804_NegCtrl0"
+      ]
+    },
+    "KIF18B": {
+      "components": [
+        "KIF18B"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "KIF18B_NegCtrl0;KIF18B_NegCtrl0"
+      ]
+    },
+    "KIF18B_KIF2C": {
+      "components": [
+        "KIF18B",
+        "KIF2C"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "KIF18B_KIF2C;KIF18B_KIF2C"
+      ]
+    },
+    "KIF2C": {
+      "components": [
+        "KIF2C"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "KIF2C_NegCtrl0;KIF2C_NegCtrl0",
+        "NegCtrl0_KIF2C;NegCtrl0_KIF2C"
+      ]
+    },
+    "KLF1": {
+      "components": [
+        "KLF1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "KLF1_NegCtrl0;KLF1_NegCtrl0",
+        "NegCtrl0_KLF1;NegCtrl0_KLF1"
+      ]
+    },
+    "KLF1_BAK1": {
+      "components": [
+        "KLF1",
+        "BAK1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "KLF1_BAK1;KLF1_BAK1"
+      ]
+    },
+    "KLF1_CEBPA": {
+      "components": [
+        "KLF1",
+        "CEBPA"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "KLF1_CEBPA;KLF1_CEBPA"
+      ]
+    },
+    "KLF1_CLDN6": {
+      "components": [
+        "KLF1",
+        "CLDN6"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "KLF1_CLDN6;KLF1_CLDN6"
+      ]
+    },
+    "KLF1_COL2A1": {
+      "components": [
+        "KLF1",
+        "COL2A1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "KLF1_COL2A1;KLF1_COL2A1"
+      ]
+    },
+    "KLF1_FOXA1": {
+      "components": [
+        "KLF1",
+        "FOXA1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "KLF1_FOXA1;KLF1_FOXA1"
+      ]
+    },
+    "KLF1_MAP2K6": {
+      "components": [
+        "KLF1",
+        "MAP2K6"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "KLF1_MAP2K6;KLF1_MAP2K6"
+      ]
+    },
+    "KLF1_TGFBR2": {
+      "components": [
+        "KLF1",
+        "TGFBR2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "KLF1_TGFBR2;KLF1_TGFBR2"
+      ]
+    },
+    "KMT2A": {
+      "components": [
+        "KMT2A"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "KMT2A_NegCtrl0;KMT2A_NegCtrl0"
+      ]
+    },
+    "LHX1": {
+      "components": [
+        "LHX1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "LHX1_NegCtrl0;LHX1_NegCtrl0"
+      ]
+    },
+    "LHX1_ELMSAN1": {
+      "components": [
+        "LHX1",
+        "ELMSAN1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "LHX1_ELMSAN1;LHX1_ELMSAN1"
+      ]
+    },
+    "LYL1": {
+      "components": [
+        "LYL1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "LYL1_NegCtrl0;LYL1_NegCtrl0"
+      ]
+    },
+    "LYL1_CEBPB": {
+      "components": [
+        "LYL1",
+        "CEBPB"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "LYL1_CEBPB;LYL1_CEBPB"
+      ]
+    },
+    "LYL1_IER5L": {
+      "components": [
+        "LYL1",
+        "IER5L"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "LYL1_IER5L;LYL1_IER5L"
+      ]
+    },
+    "MAML2": {
+      "components": [
+        "MAML2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAML2_NegCtrl0;MAML2_NegCtrl0"
+      ]
+    },
+    "MAP2K3": {
+      "components": [
+        "MAP2K3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAP2K3_NegCtrl0;MAP2K3_NegCtrl0"
+      ]
+    },
+    "MAP2K3_ELMSAN1": {
+      "components": [
+        "MAP2K3",
+        "ELMSAN1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAP2K3_ELMSAN1;MAP2K3_ELMSAN1"
+      ]
+    },
+    "MAP2K3_IKZF3": {
+      "components": [
+        "MAP2K3",
+        "IKZF3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAP2K3_IKZF3;MAP2K3_IKZF3"
+      ]
+    },
+    "MAP2K3_MAP2K6": {
+      "components": [
+        "MAP2K3",
+        "MAP2K6"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAP2K3_MAP2K6;MAP2K3_MAP2K6"
+      ]
+    },
+    "MAP2K3_SLC38A2": {
+      "components": [
+        "MAP2K3",
+        "SLC38A2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAP2K3_SLC38A2;MAP2K3_SLC38A2"
+      ]
+    },
+    "MAP2K6": {
+      "components": [
+        "MAP2K6"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAP2K6_NegCtrl0;MAP2K6_NegCtrl0",
+        "NegCtrl0_MAP2K6;NegCtrl0_MAP2K6"
+      ]
+    },
+    "MAP2K6_ELMSAN1": {
+      "components": [
+        "MAP2K6",
+        "ELMSAN1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAP2K6_ELMSAN1;MAP2K6_ELMSAN1"
+      ]
+    },
+    "MAP2K6_IKZF3": {
+      "components": [
+        "MAP2K6",
+        "IKZF3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAP2K6_IKZF3;MAP2K6_IKZF3"
+      ]
+    },
+    "MAP2K6_SPI1": {
+      "components": [
+        "MAP2K6",
+        "SPI1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAP2K6_SPI1;MAP2K6_SPI1"
+      ]
+    },
+    "MAP4K3": {
+      "components": [
+        "MAP4K3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAP4K3_NegCtrl0;MAP4K3_NegCtrl0"
+      ]
+    },
+    "MAP4K5": {
+      "components": [
+        "MAP4K5"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAP4K5_NegCtrl0;MAP4K5_NegCtrl0"
+      ]
+    },
+    "MAP7D1": {
+      "components": [
+        "MAP7D1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAP7D1_NegCtrl0;MAP7D1_NegCtrl0",
+        "NegCtrl0_MAP7D1;NegCtrl0_MAP7D1"
+      ]
+    },
+    "MAPK1": {
+      "components": [
+        "MAPK1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAPK1_NegCtrl0;MAPK1_NegCtrl0",
+        "NegCtrl0_MAPK1;NegCtrl0_MAPK1"
+      ]
+    },
+    "MAPK1_IKZF3": {
+      "components": [
+        "MAPK1",
+        "IKZF3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAPK1_IKZF3;MAPK1_IKZF3"
+      ]
+    },
+    "MAPK1_PRTG": {
+      "components": [
+        "MAPK1",
+        "PRTG"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAPK1_PRTG;MAPK1_PRTG"
+      ]
+    },
+    "MAPK1_TGFBR2": {
+      "components": [
+        "MAPK1",
+        "TGFBR2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MAPK1_TGFBR2;MAPK1_TGFBR2"
+      ]
+    },
+    "MEIS1": {
+      "components": [
+        "MEIS1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MEIS1_NegCtrl0;MEIS1_NegCtrl0",
+        "NegCtrl0_MEIS1;NegCtrl0_MEIS1"
+      ]
+    },
+    "MIDN": {
+      "components": [
+        "MIDN"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "MIDN_NegCtrl0;MIDN_NegCtrl0"
+      ]
+    },
+    "NCL": {
+      "components": [
+        "NCL"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NCL_NegCtrl0;NCL_NegCtrl0"
+      ]
+    },
+    "NIT1": {
+      "components": [
+        "NIT1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NIT1_NegCtrl0;NIT1_NegCtrl0"
+      ]
+    },
+    "OSR2": {
+      "components": [
+        "OSR2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_OSR2;NegCtrl0_OSR2",
+        "OSR2_NegCtrl0;OSR2_NegCtrl0"
+      ]
+    },
+    "PLK4": {
+      "components": [
+        "PLK4"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "PLK4_NegCtrl0;PLK4_NegCtrl0"
+      ]
+    },
+    "PLK4_STIL": {
+      "components": [
+        "PLK4",
+        "STIL"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "PLK4_STIL;PLK4_STIL"
+      ]
+    },
+    "POU3F2": {
+      "components": [
+        "POU3F2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "POU3F2_NegCtrl0;POU3F2_NegCtrl0"
+      ]
+    },
+    "POU3F2_CBFA2T3": {
+      "components": [
+        "POU3F2",
+        "CBFA2T3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "POU3F2_CBFA2T3;POU3F2_CBFA2T3"
+      ]
+    },
+    "POU3F2_FOXL2": {
+      "components": [
+        "POU3F2",
+        "FOXL2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "POU3F2_FOXL2;POU3F2_FOXL2"
+      ]
+    },
+    "PRDM1": {
+      "components": [
+        "PRDM1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "PRDM1_NegCtrl0;PRDM1_NegCtrl0"
+      ]
+    },
+    "PRDM1_CBFA2T3": {
+      "components": [
+        "PRDM1",
+        "CBFA2T3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "PRDM1_CBFA2T3;PRDM1_CBFA2T3"
+      ]
+    },
+    "PRTG": {
+      "components": [
+        "PRTG"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_PRTG;NegCtrl0_PRTG",
+        "PRTG_NegCtrl0;PRTG_NegCtrl0"
+      ]
+    },
+    "PTPN1": {
+      "components": [
+        "PTPN1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "PTPN1_NegCtrl0;PTPN1_NegCtrl0"
+      ]
+    },
+    "PTPN12": {
+      "components": [
+        "PTPN12"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_PTPN12;NegCtrl0_PTPN12",
+        "PTPN12_NegCtrl0;PTPN12_NegCtrl0"
+      ]
+    },
+    "PTPN12_OSR2": {
+      "components": [
+        "PTPN12",
+        "OSR2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "PTPN12_OSR2;PTPN12_OSR2"
+      ]
+    },
+    "PTPN12_PTPN9": {
+      "components": [
+        "PTPN12",
+        "PTPN9"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "PTPN12_PTPN9;PTPN12_PTPN9"
+      ]
+    },
+    "PTPN12_SNAI1": {
+      "components": [
+        "PTPN12",
+        "SNAI1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "PTPN12_SNAI1;PTPN12_SNAI1"
+      ]
+    },
+    "PTPN12_UBASH3A": {
+      "components": [
+        "PTPN12",
+        "UBASH3A"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "PTPN12_UBASH3A;PTPN12_UBASH3A"
+      ]
+    },
+    "PTPN12_ZBTB25": {
+      "components": [
+        "PTPN12",
+        "ZBTB25"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "PTPN12_ZBTB25;PTPN12_ZBTB25"
+      ]
+    },
+    "PTPN13": {
+      "components": [
+        "PTPN13"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "PTPN13_NegCtrl0;PTPN13_NegCtrl0"
+      ]
+    },
+    "PTPN9": {
+      "components": [
+        "PTPN9"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_PTPN9;NegCtrl0_PTPN9",
+        "PTPN9_NegCtrl0;PTPN9_NegCtrl0"
+      ]
+    },
+    "RHOXF2": {
+      "components": [
+        "RHOXF2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "RHOXF2_NegCtrl0;RHOXF2_NegCtrl0"
+      ]
+    },
+    "RHOXF2_SET": {
+      "components": [
+        "RHOXF2",
+        "SET"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "RHOXF2_SET;RHOXF2_SET"
+      ]
+    },
+    "RHOXF2_ZBTB25": {
+      "components": [
+        "RHOXF2",
+        "ZBTB25"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "RHOXF2_ZBTB25;RHOXF2_ZBTB25"
+      ]
+    },
+    "RREB1": {
+      "components": [
+        "RREB1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "RREB1_NegCtrl0;RREB1_NegCtrl0"
+      ]
+    },
+    "RUNX1T1": {
+      "components": [
+        "RUNX1T1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_RUNX1T1;NegCtrl0_RUNX1T1",
+        "RUNX1T1_NegCtrl0;RUNX1T1_NegCtrl0"
+      ]
+    },
+    "S1PR2": {
+      "components": [
+        "S1PR2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "S1PR2_NegCtrl0;S1PR2_NegCtrl0"
+      ]
+    },
+    "SAMD1": {
+      "components": [
+        "SAMD1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_SAMD1;NegCtrl0_SAMD1",
+        "SAMD1_NegCtrl0;SAMD1_NegCtrl0"
+      ]
+    },
+    "SAMD1_PTPN12": {
+      "components": [
+        "SAMD1",
+        "PTPN12"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "SAMD1_PTPN12;SAMD1_PTPN12"
+      ]
+    },
+    "SAMD1_TGFBR2": {
+      "components": [
+        "SAMD1",
+        "TGFBR2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "SAMD1_TGFBR2;SAMD1_TGFBR2"
+      ]
+    },
+    "SAMD1_UBASH3B": {
+      "components": [
+        "SAMD1",
+        "UBASH3B"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "SAMD1_UBASH3B;SAMD1_UBASH3B"
+      ]
+    },
+    "SAMD1_ZBTB1": {
+      "components": [
+        "SAMD1",
+        "ZBTB1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "SAMD1_ZBTB1;SAMD1_ZBTB1"
+      ]
+    },
+    "SET": {
+      "components": [
+        "SET"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_SET;NegCtrl0_SET",
+        "SET_NegCtrl0;SET_NegCtrl0"
+      ]
+    },
+    "SET_CEBPE": {
+      "components": [
+        "SET",
+        "CEBPE"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "SET_CEBPE;SET_CEBPE"
+      ]
+    },
+    "SET_KLF1": {
+      "components": [
+        "SET",
+        "KLF1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "SET_KLF1;SET_KLF1"
+      ]
+    },
+    "SGK1": {
+      "components": [
+        "SGK1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "SGK1_NegCtrl0;SGK1_NegCtrl0"
+      ]
+    },
+    "SGK1_S1PR2": {
+      "components": [
+        "SGK1",
+        "S1PR2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "SGK1_S1PR2;SGK1_S1PR2"
+      ]
+    },
+    "SGK1_TBX2": {
+      "components": [
+        "SGK1",
+        "TBX2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "SGK1_TBX2;SGK1_TBX2"
+      ]
+    },
+    "SGK1_TBX3": {
+      "components": [
+        "SGK1",
+        "TBX3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "SGK1_TBX3;SGK1_TBX3"
+      ]
+    },
+    "SLC38A2": {
+      "components": [
+        "SLC38A2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_SLC38A2;NegCtrl0_SLC38A2"
+      ]
+    },
+    "SLC4A1": {
+      "components": [
+        "SLC4A1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "SLC4A1_NegCtrl0;SLC4A1_NegCtrl0"
+      ]
+    },
+    "SLC6A9": {
+      "components": [
+        "SLC6A9"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "SLC6A9_NegCtrl0;SLC6A9_NegCtrl0"
+      ]
+    },
+    "SNAI1": {
+      "components": [
+        "SNAI1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_SNAI1;NegCtrl0_SNAI1",
+        "SNAI1_NegCtrl0;SNAI1_NegCtrl0"
+      ]
+    },
+    "SNAI1_DLX2": {
+      "components": [
+        "SNAI1",
+        "DLX2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "SNAI1_DLX2;SNAI1_DLX2"
+      ]
+    },
+    "SNAI1_UBASH3B": {
+      "components": [
+        "SNAI1",
+        "UBASH3B"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "SNAI1_UBASH3B;SNAI1_UBASH3B"
+      ]
+    },
+    "SPI1": {
+      "components": [
+        "SPI1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_SPI1;NegCtrl0_SPI1",
+        "SPI1_NegCtrl0;SPI1_NegCtrl0"
+      ]
+    },
+    "STIL": {
+      "components": [
+        "STIL"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_STIL;NegCtrl0_STIL",
+        "STIL_NegCtrl0;STIL_NegCtrl0"
+      ]
+    },
+    "TBX2": {
+      "components": [
+        "TBX2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_TBX2;NegCtrl0_TBX2",
+        "TBX2_NegCtrl0;TBX2_NegCtrl0"
+      ]
+    },
+    "TBX3": {
+      "components": [
+        "TBX3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_TBX3;NegCtrl0_TBX3",
+        "TBX3_NegCtrl0;TBX3_NegCtrl0"
+      ]
+    },
+    "TBX3_TBX2": {
+      "components": [
+        "TBX3",
+        "TBX2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "TBX3_TBX2;TBX3_TBX2"
+      ]
+    },
+    "TGFBR2": {
+      "components": [
+        "TGFBR2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_TGFBR2;NegCtrl0_TGFBR2",
+        "TGFBR2_NegCtrl0;TGFBR2_NegCtrl0"
+      ]
+    },
+    "TGFBR2_C19orf26": {
+      "components": [
+        "TGFBR2",
+        "C19orf26"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "TGFBR2_C19orf26;TGFBR2_C19orf26"
+      ]
+    },
+    "TGFBR2_ETS2": {
+      "components": [
+        "TGFBR2",
+        "ETS2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "TGFBR2_ETS2;TGFBR2_ETS2"
+      ]
+    },
+    "TGFBR2_IGDCC3": {
+      "components": [
+        "TGFBR2",
+        "IGDCC3"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "TGFBR2_IGDCC3;TGFBR2_IGDCC3_1",
+        "TGFBR2_IGDCC3;TGFBR2_IGDCC3_2"
+      ]
+    },
+    "TGFBR2_PRTG": {
+      "components": [
+        "TGFBR2",
+        "PRTG"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "TGFBR2_PRTG;TGFBR2_PRTG"
+      ]
+    },
+    "TMSB4X": {
+      "components": [
+        "TMSB4X"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "TMSB4X_NegCtrl0;TMSB4X_NegCtrl0"
+      ]
+    },
+    "TMSB4X_BAK1": {
+      "components": [
+        "TMSB4X",
+        "BAK1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "TMSB4X_BAK1;TMSB4X_BAK1"
+      ]
+    },
+    "TP73": {
+      "components": [
+        "TP73"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "TP73_NegCtrl0;TP73_NegCtrl0"
+      ]
+    },
+    "TSC22D1": {
+      "components": [
+        "TSC22D1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "TSC22D1_NegCtrl0;TSC22D1_NegCtrl0"
+      ]
+    },
+    "UBASH3A": {
+      "components": [
+        "UBASH3A"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_UBASH3A;NegCtrl0_UBASH3A",
+        "UBASH3A_NegCtrl0;UBASH3A_NegCtrl0"
+      ]
+    },
+    "UBASH3B": {
+      "components": [
+        "UBASH3B"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_UBASH3B;NegCtrl0_UBASH3B",
+        "UBASH3B_NegCtrl0;UBASH3B_NegCtrl0"
+      ]
+    },
+    "UBASH3B_CNN1": {
+      "components": [
+        "UBASH3B",
+        "CNN1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "UBASH3B_CNN1;UBASH3B_CNN1"
+      ]
+    },
+    "UBASH3B_OSR2": {
+      "components": [
+        "UBASH3B",
+        "OSR2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "UBASH3B_OSR2;UBASH3B_OSR2"
+      ]
+    },
+    "UBASH3B_PTPN12": {
+      "components": [
+        "UBASH3B",
+        "PTPN12"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "UBASH3B_PTPN12;UBASH3B_PTPN12"
+      ]
+    },
+    "UBASH3B_PTPN9": {
+      "components": [
+        "UBASH3B",
+        "PTPN9"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "UBASH3B_PTPN9;UBASH3B_PTPN9"
+      ]
+    },
+    "UBASH3B_UBASH3A": {
+      "components": [
+        "UBASH3B",
+        "UBASH3A"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "UBASH3B_UBASH3A;UBASH3B_UBASH3A"
+      ]
+    },
+    "UBASH3B_ZBTB25": {
+      "components": [
+        "UBASH3B",
+        "ZBTB25"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "UBASH3B_ZBTB25;UBASH3B_ZBTB25"
+      ]
+    },
+    "ZBTB1": {
+      "components": [
+        "ZBTB1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_ZBTB1;NegCtrl0_ZBTB1",
+        "ZBTB1_NegCtrl0;ZBTB1_NegCtrl0"
+      ]
+    },
+    "ZBTB10": {
+      "components": [
+        "ZBTB10"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ZBTB10_NegCtrl0;ZBTB10_NegCtrl0_1",
+        "ZBTB10_NegCtrl0;ZBTB10_NegCtrl0_2"
+      ]
+    },
+    "ZBTB10_DLX2": {
+      "components": [
+        "ZBTB10",
+        "DLX2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ZBTB10_DLX2;ZBTB10_DLX2"
+      ]
+    },
+    "ZBTB10_ELMSAN1": {
+      "components": [
+        "ZBTB10",
+        "ELMSAN1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ZBTB10_ELMSAN1;ZBTB10_ELMSAN1"
+      ]
+    },
+    "ZBTB10_PTPN12": {
+      "components": [
+        "ZBTB10",
+        "PTPN12"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ZBTB10_PTPN12;ZBTB10_PTPN12"
+      ]
+    },
+    "ZBTB10_SNAI1": {
+      "components": [
+        "ZBTB10",
+        "SNAI1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ZBTB10_SNAI1;ZBTB10_SNAI1"
+      ]
+    },
+    "ZBTB25": {
+      "components": [
+        "ZBTB25"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_ZBTB25;NegCtrl0_ZBTB25",
+        "ZBTB25_NegCtrl0;ZBTB25_NegCtrl0"
+      ]
+    },
+    "ZC3HAV1": {
+      "components": [
+        "ZC3HAV1"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ZC3HAV1_NegCtrl0;ZC3HAV1_NegCtrl0"
+      ]
+    },
+    "ZC3HAV1_CEBPA": {
+      "components": [
+        "ZC3HAV1",
+        "CEBPA"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ZC3HAV1_CEBPA;ZC3HAV1_CEBPA"
+      ]
+    },
+    "ZC3HAV1_CEBPE": {
+      "components": [
+        "ZC3HAV1",
+        "CEBPE"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ZC3HAV1_CEBPE;ZC3HAV1_CEBPE"
+      ]
+    },
+    "ZC3HAV1_HOXC13": {
+      "components": [
+        "ZC3HAV1",
+        "HOXC13"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ZC3HAV1_HOXC13;ZC3HAV1_HOXC13"
+      ]
+    },
+    "ZNF318": {
+      "components": [
+        "ZNF318"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ZNF318_NegCtrl0;ZNF318_NegCtrl0"
+      ]
+    },
+    "ZNF318_FOXL2": {
+      "components": [
+        "ZNF318",
+        "FOXL2"
+      ],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "ZNF318_FOXL2;ZNF318_FOXL2"
+      ]
+    },
+    "control": {
+      "components": [],
+      "construct_warning": "Target-level profile retains all listed variants; control-guide burden may differ.",
+      "context": "K562/CRISPRa/Norman2019",
+      "exclude": false,
+      "guide_ids": [
+        "NegCtrl0_NegCtrl0;NegCtrl0_NegCtrl0",
+        "NegCtrl10_NegCtrl0;NegCtrl10_NegCtrl0",
+        "NegCtrl11_NegCtrl0;NegCtrl11_NegCtrl0",
+        "NegCtrl1_NegCtrl0;NegCtrl1_NegCtrl0"
+      ]
+    }
+  },
+  "context": "K562/CRISPRa/Norman2019",
+  "count_location": "X",
+  "count_provenance": "scPerturb processing notebook loads original Norman counts.mtx.gz with scipy.mmread, subsets barcodes, and writes X without normalization; original GEO GSE133344.",
+  "folds": 5,
+  "gene_column": "ensemble_id",
+  "input": "data/raw/NormanWeissman2019_filtered.h5ad",
+  "output": "data/prepared/norman-count",
+  "qc": {
+    "maximum_library": 20000,
+    "minimum_cells": 50,
+    "minimum_library": 500
+  },
+  "reuse_terms": "CC-BY-4.0, Zenodo 7278143 v1.1",
+  "scale": "count",
+  "sha256": "efde6f5301fe256725dce1d980f37bd96a13481a9a16135515897368e631affc",
+  "split_seed": 1729,
+  "stratum_columns": [
+    "gemgroup"
+  ],
+  "target_pair_aggregation": "equal-condition"
+}

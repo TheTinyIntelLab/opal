@@ -1,0 +1,20 @@
+{
+  "output": "results/synthetic",
+  "outer_seed": 1729,
+  "secondary_studies": true,
+  "generator": {"seed": 23, "targets": 24, "genes": 96, "latent": 8, "rank": 4, "noise": 0.015},
+  "scenarios": ["additive_log", "additive_count", "low_rank", "cross_coordinate", "high_rank", "global_distortion", "emergent", "noisy_controls"],
+  "training": {
+    "embedding": 16,
+    "epochs": 80,
+    "ranks": [2, 8],
+    "ridge_alpha": [1, 100],
+    "screening_seeds": [11],
+    "finalist_seeds": [11, 29],
+    "ensemble_seeds": [11, 29, 47, 71, 101],
+    "finalists_per_family": 2,
+    "ablations": true,
+    "maximum_seconds": 7200,
+    "amendment": "Synthetic engineering suite uses two finalist seeds; biological confirmatory protocol requires five. Artificial encoder noise is not independent measurement denoising."
+  }
+}

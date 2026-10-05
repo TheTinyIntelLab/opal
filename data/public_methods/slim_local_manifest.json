@@ -1,0 +1,330 @@
+{
+  "files": [
+    {
+      "git_sha": "80a7a800c22e063f30afe6e3df75be4525305ef6",
+      "path": "LICENSE",
+      "sha256": "3cee82319bcd8beddbfeaa29f21f7e611ac0c62d4526c9a337f71de9095bf249"
+    },
+    {
+      "git_sha": "fd44036e899806ca8132ccda1af47b42bb8f84e3",
+      "path": "README.md",
+      "sha256": "6e8d10d4c0b7e37e3a67a26a127c4cb2a21ebec701aad537a5b5b670453f8e75"
+    },
+    {
+      "git_sha": "8282fd198c2713f6d0a823c88211b6d76308a7df",
+      "path": "data/gene_string_embeddings.v0.3.h5",
+      "sha256": "789416877b8701ef6f800106d26bf7bb97ea8e72744e6ab93e24933a717f247d"
+    },
+    {
+      "git_sha": "fecffe9519b72048d64593be9280807696df1fe6",
+      "path": "pyproject.toml",
+      "sha256": "89c9bc4089aff9f9885a5f7e973fa96e91ae8241ef5844383ff634017c7c40ad"
+    },
+    {
+      "git_sha": "a978a5e6fa7c6755ce26cedf89ee2817a6ae0a70",
+      "path": "scripts/ablation/combo_hp_sweep.py",
+      "sha256": "0d9525fa4db55ec2af87ec481a2853e08989f4533315ba1de77fbf5f10ee5406"
+    },
+    {
+      "git_sha": "01c0b1517b7de0773696e51d2be51181ac9c1982",
+      "path": "scripts/ablation/combo_two_models_lambda_sweep.py",
+      "sha256": "fea680da475ac259b15cb93b026ba1e62dfac60dc4a57676adf08aebebff8e4f"
+    },
+    {
+      "git_sha": "af3d12638b030cb218f6fc86e507d6bb6acb7cbb",
+      "path": "scripts/ablation/hp_sweep.py",
+      "sha256": "4c268a141a9df366b6873478b3aff4f1b54f3be3d0e33ba93c192acff682d7d6"
+    },
+    {
+      "git_sha": "4e1e66e5e741e5602ae88fc6df123743620e60c0",
+      "path": "scripts/ablation/train_sample_sweep.py",
+      "sha256": "44558bbd6dde6b30c42bef1be78fb99f076026153132a56808636ef613e0be53"
+    },
+    {
+      "git_sha": "c85ea3ca48349867596388996a548aa99c680569",
+      "path": "scripts/data_prep/data_process.py",
+      "sha256": "e213d730cc1adf0dde651c9977132f6a4ce230946841228c4936518d1074db54"
+    },
+    {
+      "git_sha": "fe946c88a7830c72093c1c18d98c6ed47dea7760",
+      "path": "scripts/data_prep/enrichment_analysis.py",
+      "sha256": "e665b145170e49882c9294356c00b7a4527d6d555945776856b4a47361f3a977"
+    },
+    {
+      "git_sha": "2bdef1d8ca28ce0897527d9e877837d7b4b932e9",
+      "path": "scripts/data_prep/export_split_genes.py",
+      "sha256": "ed3709ee3b2b497a4c7e76070f61affdbe6296228dc31c7d53dac8db52a0197c"
+    },
+    {
+      "git_sha": "feab9810f5d8041c015446f1cae78d01c5aeb957",
+      "path": "scripts/eval/profile_slim_memory.py",
+      "sha256": "538794d97110ace0184b11493e80076c6bfc0f9dbeb6e82ef931a2b48f89ab43"
+    },
+    {
+      "git_sha": "0cc452df72090c14552513b0468aad44c2f82a81",
+      "path": "scripts/eval/rescale_from_cells.py",
+      "sha256": "7730d2cc2ab3232595d9289891e0193dc9d30cb0ff0a360789dda64e7cc384d4"
+    },
+    {
+      "git_sha": "777531451315b3e111c44b429729dd970f04cf2e",
+      "path": "scripts/eval/run_eval.py",
+      "sha256": "b6d5c00d1446bb107d811f5541c5771d947812db15f7e57c0163801c5a7ec3dc"
+    },
+    {
+      "git_sha": "4d018b70b9db97f7dc8b1266efd39f7d2b067450",
+      "path": "scripts/models/find_uncovered_genes.py",
+      "sha256": "ebe344e3c770f3585ddeb543c9c9639947ea0f44041e7891b8abd904fec100ce"
+    },
+    {
+      "git_sha": "a49f03d1768ae9641c9858def23fcf43e72768fa",
+      "path": "scripts/models/gene_index.py",
+      "sha256": "0cc00280aa61304276ecf220a67627345e6e8729c6538e2f8973b7f24683812a"
+    },
+    {
+      "git_sha": "502b7a77fa8ebefd34998c2f5356dafec0be693a",
+      "path": "scripts/models/run_autoencoder.py",
+      "sha256": "2e31acacbbbf3cb995511f349a4b85fe92958726f789fd878a80a1887ec995ce"
+    },
+    {
+      "git_sha": "0d53ab42c08373c0e2a77947158a0749efc0c94c",
+      "path": "scripts/models/run_autoencoder_shift.py",
+      "sha256": "ee69e7e8f2a28a95ca2ad4e6ae1cb135f6a046eb199c148a72f78640ea94580a"
+    },
+    {
+      "git_sha": "94379c085ff38e875072d87e73bfb31d2166154d",
+      "path": "scripts/models/run_cpa.py",
+      "sha256": "0d9ca559f46999fb2c1528fa71497d74868325e3930d392c3072a3d2cf4a7baf"
+    },
+    {
+      "git_sha": "2747e688e163b5f424f4c6139a97f7ed16d0efaf",
+      "path": "scripts/models/run_gears.py",
+      "sha256": "4d350c61a73fb5d1f011e0d78b010fe20e0ad51d9391cbc28af6f70db366314e"
+    },
+    {
+      "git_sha": "3f629896efced68ea4e3616df274149bc1e3a4f7",
+      "path": "scripts/models/run_linear.py",
+      "sha256": "fb3f36fec03445394d5d008eec8c92ffbc0b90c6b55745b94f93a67edb3607f7"
+    },
+    {
+      "git_sha": "1e8055c8a937d41ba9b6f8e0790368c67327d423",
+      "path": "scripts/models/run_linear_combo.py",
+      "sha256": "e89653dec058d55d5e28ef0bff69afcdb03e205ff60aa44ab9c9cf7c94042d42"
+    },
+    {
+      "git_sha": "ed18fefdb019fa2874fd202b5e3bbfd82475a315",
+      "path": "scripts/models/run_mlp.py",
+      "sha256": "ab8c434438242bcaf3d8da7ef4bf9904761322ff926ca3ab09ea3638d058a0c6"
+    },
+    {
+      "git_sha": "ac5e42f74b7d833a3acaf51fa6953308331ae1cc",
+      "path": "scripts/models/run_ridge.py",
+      "sha256": "fd8edec76764817c2435550a10d1f2b21969ded706990a3f4d4a3fbdbed7246a"
+    },
+    {
+      "git_sha": "75f3351ea79f959620245c793210377125f2d6cc",
+      "path": "scripts/models/run_ridge_combo.py",
+      "sha256": "b20754942e39b30f8c331d45bbd073d99031b157489d87c1033d830823e9f8dc"
+    },
+    {
+      "git_sha": "db92992c029ca5659bf61db165cbd220463e0ccc",
+      "path": "scripts/models/run_scgpt.py",
+      "sha256": "9262ac88a017aa0486dffcc31784e365d2c796c751e083a0f927575a7597f40a"
+    },
+    {
+      "git_sha": "a20bfb71b5900490cec0c886e8f08328cdda8da1",
+      "path": "scripts/models/run_sclambda.py",
+      "sha256": "5a1f8e5d2dd8d357e6d9f71c2c24072b5cb583b60566a446bfeebb9ed973248a"
+    },
+    {
+      "git_sha": "9a88c054e75770b3fd41de9443fd4fa89c0f3330",
+      "path": "scripts/models/run_slim.py",
+      "sha256": "b479e085653d61c0fc18fa80a33e13c1ece64a1f8637c2db4d52c852f28b8c19"
+    },
+    {
+      "git_sha": "f5fc07e375688e8375f149e74a28708d202b8d99",
+      "path": "scripts/models/run_slim_combo.py",
+      "sha256": "d81800658bb7ea8d54ea9760a0746da2de251e8d81c8e0e7d1554144ac384510"
+    },
+    {
+      "git_sha": "a2bd7eaa1b40787ba4aa7d2ce74a5d8faf6917a5",
+      "path": "scripts/models/run_slim_concat.py",
+      "sha256": "aac5247019c84723c883f3bd9115dc3f2b59546b81780ed067419e6562f389c1"
+    },
+    {
+      "git_sha": "d41ff3bb510445d94fa1bd711f979ea64107301d",
+      "path": "scripts/models/run_trainmean.py",
+      "sha256": "2649566151b03ec683d2fd8cb56216a12d6f578c1aa363e1765b8f061291afe8"
+    },
+    {
+      "git_sha": "04300d396772ee2dbdde5cd8389306af207f1060",
+      "path": "scripts/models/run_trainmean_combo.py",
+      "sha256": "87962abbce4eb547a83850d164fa0728ca41ada24edb55acdfb7998ce3d7da8d"
+    },
+    {
+      "git_sha": "1241aa8d80344daaf1e92b8fd4719c839839bef8",
+      "path": "scripts/models/show_dataset_stats.py",
+      "sha256": "b3578729b966ad1369ca9077a48e7a6c9edc8ea9d3a6c9feb4971c7730750ed9"
+    },
+    {
+      "git_sha": "ba78d26b019fde40c184c1384a50c4413ad3e659",
+      "path": "scripts/models/show_hvg_coverage.py",
+      "sha256": "961040e7824710e2b6cc708863cf803f21487770d1635b567a2682315da91d31"
+    },
+    {
+      "git_sha": "88c751bb1a4ab906069222880b19e8f7100b6f61",
+      "path": "scripts/plotting/make_figures.py",
+      "sha256": "646b133f28d0a3ba3e3eda80b93adf29b2ee5ecd1306f7b2c4a7de45b471471a"
+    },
+    {
+      "git_sha": "6c065164d79b7953969724cd7dd2d35b118eb1b5",
+      "path": "scripts/plotting/make_figures_dist.py",
+      "sha256": "ec721bcf013f26cfd3b6baa1861ad06e5420e992badc0ca347b429fc9fd5bcde"
+    },
+    {
+      "git_sha": "ef6b1ca8a08ae3880b9a663f792f2240addf5622",
+      "path": "scripts/plotting/make_figures_ridge.py",
+      "sha256": "d02de7103b533b462b73ec3d83ed28dae14e035af8c628dec010f36ff21712ee"
+    },
+    {
+      "git_sha": "ea76261d0d6e0432329d031a8eeeba304f9eb445",
+      "path": "scripts/plotting/plot_embeddings.py",
+      "sha256": "6d13fbc4dbe5fbf19554c6e3696ef2f399ea5cc68ea21be1b3c844e25b022e0e"
+    },
+    {
+      "git_sha": "4cfbfb2426a57d6a7e54c1a0008eb9784c76c4d8",
+      "path": "scripts/plotting/plot_embeddings_dist.py",
+      "sha256": "c5ef19d81f2ff70024082af918cdeabe30bd6009f3e393392fc9afe5e444f877"
+    },
+    {
+      "git_sha": "9fec20a0f69f8fb46b8c64a4c9b90a9ebd41828d",
+      "path": "scripts/plotting/plot_hp_robustness.py",
+      "sha256": "38b3f9f8f95957692b5ff8c6c8844972ba7d425664fd78dc6aff8972dcc6bd1d"
+    },
+    {
+      "git_sha": "2c51318a356a80b3b89466294a702a05e92d6c66",
+      "path": "scripts/plotting/plot_hp_robustness_norman.py",
+      "sha256": "64e2d3ebb3533b1ae2b119936545c994f8a87acacb3db3f6492d019988b8d4de"
+    },
+    {
+      "git_sha": "9a10c0b9abff4b45c54300541cc288debe880343",
+      "path": "scripts/plotting/plot_slim_vs_ridge.py",
+      "sha256": "d64e293387dccbdfcd6a52ae06f4477c775f836b5556d7124e727f651c40744a"
+    },
+    {
+      "git_sha": "b914d8b8989dd4186fe8bc30ae55cc934230ea89",
+      "path": "scripts/plotting/plot_train_samples.py",
+      "sha256": "1c632267668c6be92314cea008ef1c995c01f8f1d0329db5672b6f89db3d31e2"
+    },
+    {
+      "git_sha": "0d613febccabdb2dca02f07feb708b86dc5fd139",
+      "path": "scripts/plotting/plot_umap_embeddings.py",
+      "sha256": "138716f32ec89a4e195d139956e5f289b28490416d991f0d0504b89f4e2a59ba"
+    },
+    {
+      "git_sha": "ec4a01642f2bffdc3604cf3901b5e338ef9d87db",
+      "path": "scripts/plotting/plot_umap_embeddings_combined.py",
+      "sha256": "a550c6714563d0c97f372f183e5222c256fd6c5d99d01237ef716fbb2e7db418"
+    },
+    {
+      "git_sha": "6cc181e76659d64d8aea8fe6a5f4407be83a9531",
+      "path": "scripts/plotting/plot_umap_norman.py",
+      "sha256": "663ff7490bbc0292c9279a8bb56494079a60e215ae49381fe85063f07253d0da"
+    },
+    {
+      "git_sha": "8d89baad8560f65b2fc7a8cc1af969c8fb373f59",
+      "path": "src/slim/__init__.py",
+      "sha256": "8707e7b79816a32177d827b098b094b451b60da098fadbb58366f72e6ed05ef8"
+    },
+    {
+      "git_sha": "d8663c0da548bd7605b167e7fc8783e3b71f6a77",
+      "path": "src/slim/basis.py",
+      "sha256": "6fb396e99c8b1f3413abf39d858f8b08065fde1b818c6b6113b0e16cd9acc1fb"
+    },
+    {
+      "git_sha": "b3616fe6a0ec4708765fe51d7795533789e3f07f",
+      "path": "src/slim/bias.py",
+      "sha256": "efde0d5af56906c2bdbef0473b888b735f3ee53bf2b5e8717d21f5a24d64a23b"
+    },
+    {
+      "git_sha": "50dfb049c6b843e75af98b0bf76e427b282aa9ba",
+      "path": "src/slim/condition_utils.py",
+      "sha256": "8d7484f2674a1beddbde284a6f9f2c2350be30350e0bfba6a95c6462999b06d7"
+    },
+    {
+      "git_sha": "fa33c42d231343f4757026a891f74108be03e7ce",
+      "path": "src/slim/config.py",
+      "sha256": "118eb1ece5e6dffaeffd38d2f277b20f34abc16c503b4a78ce32f78b9123742c"
+    },
+    {
+      "git_sha": "060cfdf347979105198d19a5f97546b5bda39e5b",
+      "path": "src/slim/datasets/__init__.py",
+      "sha256": "9574836b7d5bbae85f25b861c27d715db7ea044395b50b7ecd96e06d32df746a"
+    },
+    {
+      "git_sha": "e0d917ee53fe3be974527b7b3b8da0afc97f31e2",
+      "path": "src/slim/datasets/base.py",
+      "sha256": "fcb6e852e489123534265754f792222f6e5efe3f216ce1deb885bb0bf6e09b5a"
+    },
+    {
+      "git_sha": "88eca3cde28ba6dece753598f7ee922a92b34940",
+      "path": "src/slim/datasets/gears_adapter.py",
+      "sha256": "644b24bf033014f3a0cfeca7bd5230486f7507a79718f99f37da8e657062ef5a"
+    },
+    {
+      "git_sha": "ce37fc8763caddecef763a6935e2e538634f12a6",
+      "path": "src/slim/embeddings.py",
+      "sha256": "4f24cc4f26a5664f3f875a6568c2a4381d604d1c2a23f0e61fd88232bb2ef1df"
+    },
+    {
+      "git_sha": "82a03600e39162945cd21eadb117384f0efeaa0a",
+      "path": "src/slim/eval.py",
+      "sha256": "bd08ae0435b55267c7942fa86062b9baf9b86e0429690b45b9f3f7db2cdfed4d"
+    },
+    {
+      "git_sha": "95863f2b8d632b398ace4f67e126c8edafbdd67a",
+      "path": "src/slim/model.py",
+      "sha256": "0f025d59707cbf737201d1a73fd490dfa4917995327d9f3fe2561ef06958296e"
+    },
+    {
+      "git_sha": "424ab1406465e411636a3dc06f5b1c2b39e55732",
+      "path": "src/slim/model_combo.py",
+      "sha256": "f6f5447ad3b8d035f4e5bef29b18f6aa5048028e0ac000e894a9c8f92170bfd5"
+    },
+    {
+      "git_sha": "0850c5e71f196a0beb7281c6617b7c51c5a0f907",
+      "path": "src/slim/pipeline.py",
+      "sha256": "088adbb32fc8e80a8d8e3afa59ca6b9bff9ba43dbcc457acab00543372563c07"
+    },
+    {
+      "git_sha": "e1fdcffefbf321708dd6ccf812c248a2ad512152",
+      "path": "src/slim/scaffold.py",
+      "sha256": "d9d632685d24af7d52ad0cd90f42a79016ed90217c70d62e00f845b33dd172ac"
+    },
+    {
+      "git_sha": "4b7be66704b9f48ba4d78cef675079dc003bd287",
+      "path": "tests/conftest.py",
+      "sha256": "8a431f2edfeffa6e92974fa889691b99748faf6b99e3fcbc9989d1d7565d4ccc"
+    },
+    {
+      "git_sha": "647f832ed5eb7b90c061a4b7bec547ffe8441534",
+      "path": "tests/test_dataset_adapters.py",
+      "sha256": "08e9d27c1d752bd5c474811a1bb9ca4331b693b131b70793444b2e4f5cbe2cd7"
+    },
+    {
+      "git_sha": "9f7128fe147ba1254c005440d22eb7be17453ed1",
+      "path": "tests/test_embeddings.py",
+      "sha256": "9319642347b88ce8dc11fc7940bc8ab234aeebed0e8fe0cbc8b49eab545d50dd"
+    },
+    {
+      "git_sha": "acd82e55f6609e7f98c843e6aaac264d5857dca3",
+      "path": "tests/test_scaffold.py",
+      "sha256": "e8f5cf47b03b536e2f39868cc931d986b5e856eedee77c061e665df56a5706d0"
+    },
+    {
+      "git_sha": "ee62fd1d2ac90d804fa1aaf5db30cc44edc3f69d",
+      "path": "tests/test_solve_w.py",
+      "sha256": "499e7966d6acecf7aa57f727dedb34df580f5e0c21645e8776c569959860ca5b"
+    }
+  ],
+  "revision": "5a7e9ade5d0a6b6331e6dbc81181450605047bcc"
+}

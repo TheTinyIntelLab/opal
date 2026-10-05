@@ -1,0 +1,51 @@
+{
+  "environment": {
+    "packages": {
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.8",
+      "numpy": "2.4.0",
+      "pytest": "9.0.2",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.16.3",
+      "torch": "2.9.1"
+    },
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python": "3.14.0"
+  },
+  "methods": {
+    "CPA": {
+      "declared_python": ">=3.9,<3.11 (pinned upstream pyproject)",
+      "diagnostic": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    import sys; sys.path.insert(0, 'C:\\\\Users\\\\USER\\\\Desktop\\\\code\\\\thetinyintellab\\\\opal\\\\tools\\\\external\\\\CPA'); import cpa\n                                                                                                                   ^^^^^^^^^^\n  File \"C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\external\\CPA\\cpa\\__init__.py\", line 5, in <module>\n    from ._model import CPA\n  File \"C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\external\\CPA\\cpa\\_model.py\", line 7, in <module>\n    from rdkit import Chem\nModuleNotFoundError: No module named 'rdkit'\n",
+      "native_import_exit_code": 1,
+      "revision": "fbd7c0250edc23eff003a10c99655579c53afd63",
+      "scores": null,
+      "status": "native_not_run"
+    },
+    "GEARS": {
+      "additional_work": "isolated legacy environment and fold-safe raw-cell/graph adapter; dependencies alone do not establish protocol compatibility",
+      "diagnostic": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    import sys; sys.path.insert(0, 'C:\\\\Users\\\\USER\\\\Desktop\\\\code\\\\thetinyintellab\\\\opal\\\\tools\\\\external\\\\GEARS'); import gears\n                                                                                                                     ^^^^^^^^^^^^\n  File \"C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\external\\GEARS\\gears\\__init__.py\", line 1, in <module>\n    from .gears import GEARS\n  File \"C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\external\\GEARS\\gears\\gears.py\", line 10, in <module>\n    from .model import GEARS_Model\n  File \"C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\external\\GEARS\\gears\\model.py\", line 6, in <module>\n    from torch_geometric.nn import SGConv\nModuleNotFoundError: No module named 'torch_geometric'\n",
+      "native_import_exit_code": 1,
+      "revision": "f374e43e197b295016d80395d7a54ddb81cc6769",
+      "scores": null,
+      "status": "native_not_run"
+    },
+    "PertAdapt": {
+      "cuda_available": false,
+      "required_files": [
+        "model.ckpt",
+        "go.csv",
+        "go_mask_19264.npz",
+        "scfoundation_genes.txt"
+      ],
+      "resource_probe": {
+        "direct_model_download": false,
+        "error": "HTTPError: HTTP Error 401: Unauthorized"
+      },
+      "revision": "63882d609e4dc4fb81c9663356857facc1204f7b",
+      "scores": null,
+      "source": "pinned README and scFoundation adapter scripts",
+      "status": "native_not_run"
+    }
+  }
+}
