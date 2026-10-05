@@ -1,0 +1,7741 @@
+{
+  "partner": {
+    "caveat": "Dependent folds; no independent replication or frontier claim.",
+    "covered_pairs": 40,
+    "gain_over_shared_global": 7.296887750812657e-05,
+    "mse_averaged_predictions": {
+      "adaptive": 0.007942468856389611,
+      "additive": 0.014171394591662913,
+      "shared_global": 0.007781851429654318
+    },
+    "mse_per_holdout_occurrence": {
+      "adaptive": 0.009876916624333928,
+      "additive": 0.0140744580506767,
+      "shared_global": 0.009949885501842054
+    },
+    "records": [
+      {
+        "adaptive": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1,
+            "kind": "global_plus_pair"
+          },
+          "index": 39,
+          "mse": 0.01041729334050618
+        },
+        "adaptive_mse": 0.009837980163248649,
+        "additive_mse": 0.015168365599421378,
+        "fold": 0,
+        "inner_splits": [
+          {
+            "train": [
+              4,
+              6,
+              14,
+              16,
+              17,
+              32,
+              36,
+              37,
+              38
+            ],
+            "validation": [
+              1,
+              3,
+              5,
+              11,
+              13,
+              15,
+              19,
+              20,
+              21,
+              28,
+              29,
+              30,
+              31,
+              34,
+              35,
+              39
+            ]
+          },
+          {
+            "train": [
+              1,
+              3,
+              5,
+              20,
+              21,
+              29,
+              30,
+              34,
+              36,
+              39
+            ],
+            "validation": [
+              4,
+              6,
+              11,
+              13,
+              14,
+              15,
+              16,
+              17,
+              19,
+              28,
+              31,
+              32,
+              35,
+              37,
+              38
+            ]
+          },
+          {
+            "train": [
+              11,
+              13,
+              14,
+              15,
+              17,
+              19,
+              28,
+              29,
+              31,
+              35
+            ],
+            "validation": [
+              1,
+              3,
+              4,
+              5,
+              6,
+              16,
+              20,
+              21,
+              30,
+              32,
+              34,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ],
+        "search": [
+          {
+            "config": {
+              "alpha": 1.0,
+              "kind": "shared_offset"
+            },
+            "index": 0,
+            "mse": 0.013283218763784193
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "kind": "global"
+            },
+            "index": 1,
+            "mse": 0.010750544760290182
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "kind": "global"
+            },
+            "index": 2,
+            "mse": 0.010704319712898418
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "kind": "global"
+            },
+            "index": 3,
+            "mse": 0.010467417303542456
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "kind": "global"
+            },
+            "index": 4,
+            "mse": 0.010780846746394098
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "kind": "global"
+            },
+            "index": 5,
+            "mse": 0.012568131305493828
+          },
+          {
+            "config": {
+              "alpha": 100,
+              "kind": "global"
+            },
+            "index": 6,
+            "mse": 0.013196557925628854
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 7,
+            "mse": 0.010827476856373952
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 8,
+            "mse": 0.010750961671094714
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 9,
+            "mse": 0.010493863074937071
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 10,
+            "mse": 0.011392214231089005
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 11,
+            "mse": 0.012919401559656134
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 12,
+            "mse": 0.012775768488411374
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 13,
+            "mse": 0.012783514884199987
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 14,
+            "mse": 0.012849713500274253
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 15,
+            "mse": 0.013096863570237673
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 16,
+            "mse": 0.01325542217006546
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 17,
+            "mse": 0.01044928323039481
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 18,
+            "mse": 0.010453809309545451
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 19,
+            "mse": 0.01050240960269127
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 20,
+            "mse": 0.011025230078013357
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 21,
+            "mse": 0.012575905002171978
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 22,
+            "mse": 0.011813731278143691
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 23,
+            "mse": 0.011815350836885003
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 24,
+            "mse": 0.011831356588983443
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 25,
+            "mse": 0.011974400265637257
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 26,
+            "mse": 0.012626493453294592
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 27,
+            "mse": 0.010883868373313647
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 28,
+            "mse": 0.01076447998904287
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 29,
+            "mse": 0.010552222287614942
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 30,
+            "mse": 0.01182070493234209
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 31,
+            "mse": 0.013047919682367902
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 32,
+            "mse": 0.010899147838070814
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 33,
+            "mse": 0.01091680495332198
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 34,
+            "mse": 0.011102198516464013
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 35,
+            "mse": 0.012146286710412579
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 36,
+            "mse": 0.013090688974614908
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 37,
+            "mse": 0.010451365221165259
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 38,
+            "mse": 0.010445272208712024
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.01041729334050618
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 40,
+            "mse": 0.010778641110939
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 41,
+            "mse": 0.012453221771747373
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 42,
+            "mse": 0.010675927783908985
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 43,
+            "mse": 0.010677041819282395
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 44,
+            "mse": 0.010688634497998862
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 45,
+            "mse": 0.010827236624307558
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 46,
+            "mse": 0.01184445477925128
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 47,
+            "mse": 0.01108599084766562
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 48,
+            "mse": 0.010805527302861963
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 49,
+            "mse": 0.010972363808944818
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 50,
+            "mse": 0.01258552345927619
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 51,
+            "mse": 0.013196798211161738
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 52,
+            "mse": 0.01079395894393427
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 53,
+            "mse": 0.010731761084862002
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 54,
+            "mse": 0.010879390349035591
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 55,
+            "mse": 0.012315877200815159
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 56,
+            "mse": 0.01314738174502872
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 57,
+            "mse": 0.010692136421644086
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 58,
+            "mse": 0.010649636462013643
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 59,
+            "mse": 0.01048541069015564
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 60,
+            "mse": 0.010727844696911714
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 61,
+            "mse": 0.012482201554211049
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 62,
+            "mse": 0.010707436908575882
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 63,
+            "mse": 0.010696948316611702
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 64,
+            "mse": 0.010627593107371736
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.010609324483721478
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 66,
+            "mse": 0.011926797097742716
+          }
+        ],
+        "shared_global": {
+          "config": {
+            "alpha": 0.1,
+            "kind": "global"
+          },
+          "index": 3,
+          "mse": 0.010467417303542456
+        },
+        "shared_global_mse": 0.009881695588877477,
+        "train": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "validation": [
+          0,
+          2,
+          7,
+          8,
+          9,
+          10,
+          12,
+          18,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          33
+        ]
+      },
+      {
+        "adaptive": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 0.25,
+            "kind": "single_sum"
+          },
+          "index": 9,
+          "mse": 0.011311139895605482
+        },
+        "adaptive_mse": 0.00917331183819978,
+        "additive_mse": 0.013573230619753752,
+        "fold": 1,
+        "inner_splits": [
+          {
+            "train": [
+              0,
+              1,
+              3,
+              7,
+              11,
+              13,
+              16,
+              20,
+              30
+            ],
+            "validation": [
+              2,
+              6,
+              8,
+              10,
+              12,
+              17,
+              18,
+              22,
+              25,
+              26,
+              31,
+              39
+            ]
+          },
+          {
+            "train": [
+              18,
+              20,
+              22,
+              25,
+              26,
+              30,
+              31,
+              39
+            ],
+            "validation": [
+              0,
+              1,
+              2,
+              3,
+              6,
+              7,
+              8,
+              10,
+              11,
+              12,
+              13,
+              16,
+              17
+            ]
+          },
+          {
+            "train": [
+              0,
+              2,
+              6,
+              8,
+              10,
+              12,
+              17,
+              26,
+              39
+            ],
+            "validation": [
+              1,
+              3,
+              7,
+              11,
+              13,
+              16,
+              18,
+              20,
+              22,
+              25,
+              30,
+              31
+            ]
+          }
+        ],
+        "search": [
+          {
+            "config": {
+              "alpha": 1.0,
+              "kind": "shared_offset"
+            },
+            "index": 0,
+            "mse": 0.014281550252612766
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "kind": "global"
+            },
+            "index": 1,
+            "mse": 0.011674152833898869
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "kind": "global"
+            },
+            "index": 2,
+            "mse": 0.01164026913374236
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "kind": "global"
+            },
+            "index": 3,
+            "mse": 0.011418584531326534
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "kind": "global"
+            },
+            "index": 4,
+            "mse": 0.011710652286756688
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "kind": "global"
+            },
+            "index": 5,
+            "mse": 0.013577363984489537
+          },
+          {
+            "config": {
+              "alpha": 100,
+              "kind": "global"
+            },
+            "index": 6,
+            "mse": 0.014197292813103458
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 7,
+            "mse": 0.011599716253649367
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 8,
+            "mse": 0.011544627708517035
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 9,
+            "mse": 0.011311139895605482
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 10,
+            "mse": 0.012329120505179052
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 11,
+            "mse": 0.013920566159309897
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 12,
+            "mse": 0.013694674710814926
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 13,
+            "mse": 0.013703967365521416
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 14,
+            "mse": 0.013782950392115769
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 15,
+            "mse": 0.014071098127160822
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 16,
+            "mse": 0.014250518907993046
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 17,
+            "mse": 0.011346732216653027
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 18,
+            "mse": 0.01135107549900197
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 19,
+            "mse": 0.01139955665148717
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 20,
+            "mse": 0.011963048973881136
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 21,
+            "mse": 0.013581693021543464
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 22,
+            "mse": 0.012745128217782073
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 23,
+            "mse": 0.01274689125119153
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 24,
+            "mse": 0.012764306535331844
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 25,
+            "mse": 0.012919261246326405
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 26,
+            "mse": 0.013609943117370347
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 27,
+            "mse": 0.011790476548595613
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 28,
+            "mse": 0.011693298978801517
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 29,
+            "mse": 0.011429176549883086
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 30,
+            "mse": 0.012769841415439308
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 31,
+            "mse": 0.014042170524398831
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 32,
+            "mse": 0.011692211481890756
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 33,
+            "mse": 0.011707670493437187
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 34,
+            "mse": 0.011894429854033177
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 35,
+            "mse": 0.01305595605674033
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 36,
+            "mse": 0.014078222898330627
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 37,
+            "mse": 0.011408091635503465
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 38,
+            "mse": 0.011397140563409257
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.011336391007833508
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 40,
+            "mse": 0.011678836816181447
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 41,
+            "mse": 0.013450281404298142
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 42,
+            "mse": 0.011516500872694155
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 43,
+            "mse": 0.011517205015049024
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 44,
+            "mse": 0.01152512630812787
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 45,
+            "mse": 0.011652471591936338
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 46,
+            "mse": 0.012761565382041984
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 47,
+            "mse": 0.012058393441526144
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 48,
+            "mse": 0.011800162665676262
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 49,
+            "mse": 0.011878455810355308
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 50,
+            "mse": 0.013561410153684157
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 51,
+            "mse": 0.014192910969758239
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 52,
+            "mse": 0.011842126967599105
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 53,
+            "mse": 0.011724042110845002
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 54,
+            "mse": 0.011761013347057576
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 55,
+            "mse": 0.013270518199462494
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 56,
+            "mse": 0.014141023853404214
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 57,
+            "mse": 0.0117149329128758
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 58,
+            "mse": 0.011638742670028785
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 59,
+            "mse": 0.011437255736535461
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 60,
+            "mse": 0.01164394159508642
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 61,
+            "mse": 0.013485469735777645
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 62,
+            "mse": 0.011750261267053502
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 63,
+            "mse": 0.011732945841506047
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 64,
+            "mse": 0.011621308583492121
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.011505589834579574
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 66,
+            "mse": 0.012886594110396474
+          }
+        ],
+        "shared_global": {
+          "config": {
+            "alpha": 0.1,
+            "kind": "global"
+          },
+          "index": 3,
+          "mse": 0.011418584531326534
+        },
+        "shared_global_mse": 0.00927814836252549,
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          20,
+          22,
+          25,
+          26,
+          30,
+          31,
+          39
+        ],
+        "validation": [
+          4,
+          5,
+          9,
+          14,
+          15,
+          19,
+          21,
+          23,
+          24,
+          27,
+          28,
+          29,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ]
+      },
+      {
+        "adaptive": {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25,
+            "kind": "global_plus_pair"
+          },
+          "index": 17,
+          "mse": 0.011788080572208936
+        },
+        "adaptive_mse": 0.008608632013439577,
+        "additive_mse": 0.012952283624306754,
+        "fold": 2,
+        "inner_splits": [
+          {
+            "train": [
+              0,
+              1,
+              5,
+              6,
+              7,
+              9,
+              10,
+              21,
+              35,
+              37,
+              38
+            ],
+            "validation": [
+              2,
+              4,
+              8,
+              18,
+              19,
+              20,
+              23,
+              24,
+              25,
+              26,
+              27,
+              32,
+              33,
+              34,
+              36
+            ]
+          },
+          {
+            "train": [
+              8,
+              9,
+              10,
+              23,
+              24,
+              25,
+              26,
+              32,
+              33,
+              34,
+              35
+            ],
+            "validation": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              18,
+              19,
+              20,
+              21,
+              27,
+              36,
+              37,
+              38
+            ]
+          },
+          {
+            "train": [
+              1,
+              2,
+              4,
+              18,
+              19,
+              20,
+              21,
+              23,
+              25,
+              27,
+              32,
+              36
+            ],
+            "validation": [
+              0,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              24,
+              26,
+              33,
+              34,
+              35,
+              37,
+              38
+            ]
+          }
+        ],
+        "search": [
+          {
+            "config": {
+              "alpha": 1.0,
+              "kind": "shared_offset"
+            },
+            "index": 0,
+            "mse": 0.014728819581761442
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "kind": "global"
+            },
+            "index": 1,
+            "mse": 0.012014989081775207
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "kind": "global"
+            },
+            "index": 2,
+            "mse": 0.011991334735289365
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "kind": "global"
+            },
+            "index": 3,
+            "mse": 0.011844861724557832
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "kind": "global"
+            },
+            "index": 4,
+            "mse": 0.012035240709823121
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "kind": "global"
+            },
+            "index": 5,
+            "mse": 0.013853209316724626
+          },
+          {
+            "config": {
+              "alpha": 100,
+              "kind": "global"
+            },
+            "index": 6,
+            "mse": 0.014618561515851336
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 7,
+            "mse": 0.012047798583081087
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 8,
+            "mse": 0.011998140689352068
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 9,
+            "mse": 0.011798271234217355
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 10,
+            "mse": 0.01259796629492893
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 11,
+            "mse": 0.014291319618724253
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 12,
+            "mse": 0.014203345540857792
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 13,
+            "mse": 0.01421125041256952
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 14,
+            "mse": 0.014278968408042497
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 15,
+            "mse": 0.014534154536262738
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 16,
+            "mse": 0.014699663884547144
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 17,
+            "mse": 0.011788080572208936
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 18,
+            "mse": 0.011790785742363408
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 19,
+            "mse": 0.011821831285432394
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 20,
+            "mse": 0.012244356422601936
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 21,
+            "mse": 0.013866062885879256
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 22,
+            "mse": 0.013052570625196715
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 23,
+            "mse": 0.013054281115448372
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 24,
+            "mse": 0.01307120392520801
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 25,
+            "mse": 0.013223890283890096
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 26,
+            "mse": 0.013950189230255216
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 27,
+            "mse": 0.012351769628024978
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 28,
+            "mse": 0.01226228609587985
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 29,
+            "mse": 0.01199377322484178
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 30,
+            "mse": 0.01299781663177053
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 31,
+            "mse": 0.014419592768721661
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 32,
+            "mse": 0.012364242413964556
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 33,
+            "mse": 0.01237018357111253
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 34,
+            "mse": 0.012476107191499412
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 35,
+            "mse": 0.013431673336773085
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 36,
+            "mse": 0.014493768943675857
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 37,
+            "mse": 0.011916972194214136
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 38,
+            "mse": 0.011906313836462514
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.011846169420031081
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 40,
+            "mse": 0.012054632004628028
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 41,
+            "mse": 0.013726897038308417
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 42,
+            "mse": 0.012138370885218045
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 43,
+            "mse": 0.012138380950687444
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 44,
+            "mse": 0.012139382845936008
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 45,
+            "mse": 0.012202285647979427
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 46,
+            "mse": 0.01309740899034753
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 47,
+            "mse": 0.012741126916899275
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 48,
+            "mse": 0.012511024276171291
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 49,
+            "mse": 0.012345062663306155
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 50,
+            "mse": 0.01382239190345778
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 51,
+            "mse": 0.0146075184281433
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 52,
+            "mse": 0.012612340377617846
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 53,
+            "mse": 0.012478762470367806
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 54,
+            "mse": 0.012337649571033693
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 55,
+            "mse": 0.013536271772836088
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 56,
+            "mse": 0.014543792770251368
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 57,
+            "mse": 0.012170831747776915
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 58,
+            "mse": 0.012078264631450347
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 59,
+            "mse": 0.011896143436444774
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 60,
+            "mse": 0.012007553868203336
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 61,
+            "mse": 0.01374722027517027
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 62,
+            "mse": 0.012385967145730098
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 63,
+            "mse": 0.012367112578329516
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 64,
+            "mse": 0.012247195864795097
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.01206716543269431
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 66,
+            "mse": 0.01312466649965441
+          }
+        ],
+        "shared_global": {
+          "config": {
+            "alpha": 0.1,
+            "kind": "global"
+          },
+          "index": 3,
+          "mse": 0.011844861724557832
+        },
+        "shared_global_mse": 0.008700665634415308,
+        "train": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "validation": [
+          3,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          22,
+          28,
+          29,
+          30,
+          31,
+          39
+        ]
+      },
+      {
+        "adaptive": {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25,
+            "kind": "global_plus_pair"
+          },
+          "index": 17,
+          "mse": 0.010635087000698606
+        },
+        "adaptive_mse": 0.011210819136451014,
+        "additive_mse": 0.015564643715590595,
+        "fold": 3,
+        "inner_splits": [
+          {
+            "train": [
+              3,
+              4,
+              5,
+              6,
+              28,
+              29,
+              31,
+              33,
+              35,
+              37
+            ],
+            "validation": [
+              0,
+              2,
+              8,
+              9,
+              10,
+              12,
+              13,
+              14,
+              15,
+              17,
+              22,
+              23,
+              24,
+              26,
+              27,
+              39
+            ]
+          },
+          {
+            "train": [
+              0,
+              2,
+              5,
+              8,
+              9,
+              12,
+              15,
+              24,
+              27,
+              33,
+              39
+            ],
+            "validation": [
+              3,
+              4,
+              6,
+              10,
+              13,
+              14,
+              17,
+              22,
+              23,
+              26,
+              28,
+              29,
+              31,
+              35,
+              37
+            ]
+          },
+          {
+            "train": [
+              8,
+              10,
+              12,
+              13,
+              14,
+              17,
+              22,
+              23,
+              26,
+              28,
+              31
+            ],
+            "validation": [
+              0,
+              2,
+              3,
+              4,
+              5,
+              6,
+              9,
+              15,
+              24,
+              27,
+              29,
+              33,
+              35,
+              37,
+              39
+            ]
+          }
+        ],
+        "search": [
+          {
+            "config": {
+              "alpha": 1.0,
+              "kind": "shared_offset"
+            },
+            "index": 0,
+            "mse": 0.013448844125671388
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "kind": "global"
+            },
+            "index": 1,
+            "mse": 0.011047398723050932
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "kind": "global"
+            },
+            "index": 2,
+            "mse": 0.011007913199719513
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "kind": "global"
+            },
+            "index": 3,
+            "mse": 0.010758083028333988
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "kind": "global"
+            },
+            "index": 4,
+            "mse": 0.01091759416124256
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "kind": "global"
+            },
+            "index": 5,
+            "mse": 0.012661729049437962
+          },
+          {
+            "config": {
+              "alpha": 100,
+              "kind": "global"
+            },
+            "index": 6,
+            "mse": 0.013350121664345911
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 7,
+            "mse": 0.011138490542781656
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 8,
+            "mse": 0.011069375869282251
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 9,
+            "mse": 0.010776607238942658
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 10,
+            "mse": 0.011538983740771294
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 11,
+            "mse": 0.013063804327570065
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 12,
+            "mse": 0.012972934799712366
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 13,
+            "mse": 0.012980257501533378
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 14,
+            "mse": 0.013042739174617
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 15,
+            "mse": 0.013274754339694009
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 16,
+            "mse": 0.01342290245257952
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 17,
+            "mse": 0.010635087000698606
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 18,
+            "mse": 0.010638215338624123
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 19,
+            "mse": 0.01067435831868222
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 20,
+            "mse": 0.011136141556993396
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 21,
+            "mse": 0.012673257429941931
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 22,
+            "mse": 0.011915948318347776
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 23,
+            "mse": 0.011917582223141418
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 24,
+            "mse": 0.011933733792201836
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 25,
+            "mse": 0.012078425212577256
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 26,
+            "mse": 0.012748427905588989
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 27,
+            "mse": 0.011172732707848824
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 28,
+            "mse": 0.011054819333548344
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 29,
+            "mse": 0.010725847721568932
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 30,
+            "mse": 0.011832570283931742
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 31,
+            "mse": 0.013163986013733591
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 32,
+            "mse": 0.011001437166842223
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 33,
+            "mse": 0.011015561021782954
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 34,
+            "mse": 0.011180798332031361
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 35,
+            "mse": 0.012220951888949425
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 36,
+            "mse": 0.013229879252412757
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 37,
+            "mse": 0.010740097837836244
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 38,
+            "mse": 0.010728848774006091
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.010660874385296745
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 40,
+            "mse": 0.010908979755736386
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 41,
+            "mse": 0.012541077961015574
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 42,
+            "mse": 0.010825303468064922
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 43,
+            "mse": 0.010825909245084933
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 44,
+            "mse": 0.010832671667507824
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 45,
+            "mse": 0.010940214984244091
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 46,
+            "mse": 0.011918302507737944
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 47,
+            "mse": 0.011459728922170996
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 48,
+            "mse": 0.011147984887403145
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 49,
+            "mse": 0.011051546600164523
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 50,
+            "mse": 0.012592267146449189
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 51,
+            "mse": 0.013334235506692852
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 52,
+            "mse": 0.011143435793625412
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 53,
+            "mse": 0.011028691996013152
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 54,
+            "mse": 0.010981795988099575
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 55,
+            "mse": 0.01231480186841083
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 56,
+            "mse": 0.013273739395889191
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 57,
+            "mse": 0.01108917413343893
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 58,
+            "mse": 0.011019615665679772
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 59,
+            "mse": 0.010782015328361766
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 60,
+            "mse": 0.010865780265146186
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 61,
+            "mse": 0.012559706094282952
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 62,
+            "mse": 0.01108417119980335
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 63,
+            "mse": 0.011069184686196283
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 64,
+            "mse": 0.010961233848333517
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.01078450677011623
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 66,
+            "mse": 0.011948007307877784
+          }
+        ],
+        "shared_global": {
+          "config": {
+            "alpha": 0.1,
+            "kind": "global"
+          },
+          "index": 3,
+          "mse": 0.010758083028333988
+        },
+        "shared_global_mse": 0.011256884120528991,
+        "train": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          17,
+          22,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          31,
+          33,
+          35,
+          37,
+          39
+        ],
+        "validation": [
+          1,
+          7,
+          11,
+          16,
+          18,
+          19,
+          20,
+          21,
+          25,
+          30,
+          32,
+          34,
+          36,
+          38
+        ]
+      },
+      {
+        "adaptive": {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25,
+            "kind": "global_plus_pair"
+          },
+          "index": 17,
+          "mse": 0.01090940786774934
+        },
+        "adaptive_mse": 0.010807908569741764,
+        "additive_mse": 0.013214640237587446,
+        "fold": 4,
+        "inner_splits": [
+          {
+            "train": [
+              7,
+              9,
+              11,
+              13,
+              15,
+              16,
+              20,
+              29,
+              30,
+              34
+            ],
+            "validation": [
+              8,
+              12,
+              14,
+              18,
+              19,
+              21,
+              22,
+              23,
+              24,
+              25,
+              27,
+              28,
+              32,
+              33,
+              36,
+              38
+            ]
+          },
+          {
+            "train": [
+              18,
+              19,
+              21,
+              22,
+              23,
+              24,
+              27,
+              28,
+              29,
+              33
+            ],
+            "validation": [
+              7,
+              8,
+              9,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              20,
+              25,
+              30,
+              32,
+              34,
+              36,
+              38
+            ]
+          },
+          {
+            "train": [
+              8,
+              12,
+              14,
+              16,
+              23,
+              25,
+              27,
+              32,
+              36,
+              38
+            ],
+            "validation": [
+              7,
+              9,
+              11,
+              13,
+              15,
+              18,
+              19,
+              20,
+              21,
+              22,
+              24,
+              28,
+              29,
+              30,
+              33,
+              34
+            ]
+          }
+        ],
+        "search": [
+          {
+            "config": {
+              "alpha": 1.0,
+              "kind": "shared_offset"
+            },
+            "index": 0,
+            "mse": 0.013601335668765974
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "kind": "global"
+            },
+            "index": 1,
+            "mse": 0.011504356382599243
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "kind": "global"
+            },
+            "index": 2,
+            "mse": 0.01145496082093434
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "kind": "global"
+            },
+            "index": 3,
+            "mse": 0.011133264827202128
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "kind": "global"
+            },
+            "index": 4,
+            "mse": 0.011124174083411984
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "kind": "global"
+            },
+            "index": 5,
+            "mse": 0.01282295727100509
+          },
+          {
+            "config": {
+              "alpha": 100,
+              "kind": "global"
+            },
+            "index": 6,
+            "mse": 0.013504025115639714
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 7,
+            "mse": 0.011511526823604202
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 8,
+            "mse": 0.011413990542692333
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 9,
+            "mse": 0.010993818803529266
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 10,
+            "mse": 0.011660861513745681
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 11,
+            "mse": 0.013208279186014776
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 12,
+            "mse": 0.013155666086715014
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 13,
+            "mse": 0.013162735487457083
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 14,
+            "mse": 0.013222818971767976
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 15,
+            "mse": 0.01344181338670477
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 16,
+            "mse": 0.013577845259796177
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 17,
+            "mse": 0.01090940786774934
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 18,
+            "mse": 0.010910948673966595
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 19,
+            "mse": 0.010932918963382469
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 20,
+            "mse": 0.011333688150940205
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 21,
+            "mse": 0.012835660062193872
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 22,
+            "mse": 0.012102496005819294
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 23,
+            "mse": 0.012104078212263484
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 24,
+            "mse": 0.012119725809820634
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 25,
+            "mse": 0.012260409524470918
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 26,
+            "mse": 0.012917577723370157
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 27,
+            "mse": 0.011775382387631012
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 28,
+            "mse": 0.011621089791880946
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 29,
+            "mse": 0.011110010649714808
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 30,
+            "mse": 0.01202093258851595
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 31,
+            "mse": 0.0133231817337342
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 32,
+            "mse": 0.011367088600185588
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 33,
+            "mse": 0.01137099156875271
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 34,
+            "mse": 0.0114666570131731
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 35,
+            "mse": 0.012400125046147825
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 36,
+            "mse": 0.013389980596067405
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 37,
+            "mse": 0.011141100395045707
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 38,
+            "mse": 0.011123724033808942
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.011014668585007785
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 40,
+            "mse": 0.011132772266936208
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 41,
+            "mse": 0.012705088591229402
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 42,
+            "mse": 0.01119717643382323
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 43,
+            "mse": 0.011196833339755165
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 44,
+            "mse": 0.011194527532212811
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 45,
+            "mse": 0.01123840495987861
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 46,
+            "mse": 0.012099064142083659
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 47,
+            "mse": 0.012112367537165469
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 48,
+            "mse": 0.011719342154390957
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 49,
+            "mse": 0.011356378743536582
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 50,
+            "mse": 0.012779482020057227
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 51,
+            "mse": 0.013492518883526946
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 52,
+            "mse": 0.011765887596971369
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 53,
+            "mse": 0.011580950966186688
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 54,
+            "mse": 0.011334346038819706
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 55,
+            "mse": 0.012509072045084356
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 56,
+            "mse": 0.013435101827896883
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 57,
+            "mse": 0.011632090678135469
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 58,
+            "mse": 0.011501948580274752
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 59,
+            "mse": 0.011170656414438972
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 60,
+            "mse": 0.01108833828910811
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 61,
+            "mse": 0.012725195113123172
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 62,
+            "mse": 0.011657528824114763
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 63,
+            "mse": 0.011631380154094068
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 64,
+            "mse": 0.01145903964040354
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.011127913258351683
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 66,
+            "mse": 0.01213798467448089
+          }
+        ],
+        "shared_global": {
+          "config": {
+            "alpha": 1,
+            "kind": "global"
+          },
+          "index": 4,
+          "mse": 0.011124174083411984
+        },
+        "shared_global_mse": 0.010876810632116391,
+        "train": [
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          34,
+          36,
+          38
+        ],
+        "validation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10,
+          17,
+          26,
+          31,
+          35,
+          37,
+          39
+        ]
+      }
+    ],
+    "skill": 0.2982382278045125
+  },
+  "random": {
+    "caveat": "Dependent folds; no independent replication or frontier claim.",
+    "covered_pairs": 40,
+    "gain_over_shared_global": 8.723098977075124e-05,
+    "mse_averaged_predictions": {
+      "adaptive": 0.005218711223052186,
+      "additive": 0.014171394591662913,
+      "shared_global": 0.0053059422128229365
+    },
+    "mse_per_holdout_occurrence": {
+      "adaptive": 0.005218711223052185,
+      "additive": 0.014171394591662913,
+      "shared_global": 0.0053059422128229365
+    },
+    "records": [
+      {
+        "adaptive": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 0.25,
+            "kind": "single_sum"
+          },
+          "index": 9,
+          "mse": 0.006141195438591139
+        },
+        "adaptive_mse": 0.004637049728826136,
+        "additive_mse": 0.015087263146086166,
+        "fold": 0,
+        "inner_splits": [
+          {
+            "train": [
+              0,
+              4,
+              8,
+              10,
+              12,
+              15,
+              18,
+              20,
+              21,
+              23,
+              24,
+              25,
+              27,
+              28,
+              29,
+              31,
+              32,
+              33,
+              34,
+              35,
+              39
+            ],
+            "validation": [
+              2,
+              6,
+              7,
+              14,
+              17,
+              19,
+              22,
+              26,
+              36,
+              37,
+              38
+            ]
+          },
+          {
+            "train": [
+              2,
+              6,
+              7,
+              12,
+              14,
+              15,
+              17,
+              19,
+              21,
+              22,
+              23,
+              25,
+              26,
+              28,
+              29,
+              32,
+              34,
+              35,
+              36,
+              37,
+              38
+            ],
+            "validation": [
+              0,
+              4,
+              8,
+              10,
+              18,
+              20,
+              24,
+              27,
+              31,
+              33,
+              39
+            ]
+          },
+          {
+            "train": [
+              0,
+              2,
+              4,
+              6,
+              7,
+              8,
+              10,
+              14,
+              17,
+              18,
+              19,
+              20,
+              22,
+              24,
+              26,
+              27,
+              31,
+              33,
+              36,
+              37,
+              38,
+              39
+            ],
+            "validation": [
+              12,
+              15,
+              21,
+              23,
+              25,
+              28,
+              29,
+              32,
+              34,
+              35
+            ]
+          }
+        ],
+        "search": [
+          {
+            "config": {
+              "alpha": 1.0,
+              "kind": "shared_offset"
+            },
+            "index": 0,
+            "mse": 0.011943518896870705
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "kind": "global"
+            },
+            "index": 1,
+            "mse": 0.007334100005129317
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "kind": "global"
+            },
+            "index": 2,
+            "mse": 0.007182023473258366
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "kind": "global"
+            },
+            "index": 3,
+            "mse": 0.006382468456741972
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "kind": "global"
+            },
+            "index": 4,
+            "mse": 0.006832714722792349
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "kind": "global"
+            },
+            "index": 5,
+            "mse": 0.010343260409959198
+          },
+          {
+            "config": {
+              "alpha": 100,
+              "kind": "global"
+            },
+            "index": 6,
+            "mse": 0.011739185003956818
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 7,
+            "mse": 0.007308611599277605
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 8,
+            "mse": 0.0070150070623085075
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 9,
+            "mse": 0.006141195438591139
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 10,
+            "mse": 0.007894428932844071
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 11,
+            "mse": 0.011084780955404666
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 12,
+            "mse": 0.010910043804769176
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 13,
+            "mse": 0.010926092090126318
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 14,
+            "mse": 0.011062750542339562
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 15,
+            "mse": 0.011566973315710258
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 16,
+            "mse": 0.011887442394925233
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 17,
+            "mse": 0.00616764005851597
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 18,
+            "mse": 0.0061760300603163915
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 19,
+            "mse": 0.006268701808240967
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 20,
+            "mse": 0.007288396265472919
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 21,
+            "mse": 0.010364117364070322
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 22,
+            "mse": 0.008818059394478087
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 23,
+            "mse": 0.008821361066312967
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 24,
+            "mse": 0.0088539945623166
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 25,
+            "mse": 0.009146058620287733
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 26,
+            "mse": 0.010500460024777577
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 27,
+            "mse": 0.007311610566890605
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 28,
+            "mse": 0.0068806601799216785
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 29,
+            "mse": 0.006153626990555514
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 30,
+            "mse": 0.008726312636852737
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 31,
+            "mse": 0.01136655766840236
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 32,
+            "mse": 0.00675293635869874
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 33,
+            "mse": 0.0067877987942961005
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 34,
+            "mse": 0.0072005417990568905
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 35,
+            "mse": 0.009469839937092748
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 36,
+            "mse": 0.01149824398143324
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 37,
+            "mse": 0.0063850899366783495
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 38,
+            "mse": 0.006345985574033011
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.006142164485516008
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 40,
+            "mse": 0.0067749795180460015
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 41,
+            "mse": 0.01010363171414265
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 42,
+            "mse": 0.006430525051710248
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 43,
+            "mse": 0.00643164092309779
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 44,
+            "mse": 0.00644536864236119
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 45,
+            "mse": 0.006707744917572679
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 46,
+            "mse": 0.008852309574369924
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 47,
+            "mse": 0.007239584765521724
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 48,
+            "mse": 0.0064407561740003425
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 49,
+            "mse": 0.006975277006846344
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 50,
+            "mse": 0.0103231458317855
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 51,
+            "mse": 0.011725449528886555
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 52,
+            "mse": 0.006656963532484463
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 53,
+            "mse": 0.0063353937433881825
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 54,
+            "mse": 0.006686768573581423
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 55,
+            "mse": 0.009783315308946895
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 56,
+            "mse": 0.011609859397683176
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 57,
+            "mse": 0.007426967516998619
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 58,
+            "mse": 0.007097867451154007
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 59,
+            "mse": 0.0063539195372998465
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 60,
+            "mse": 0.006697487023980753
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 61,
+            "mse": 0.010155521183215669
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 62,
+            "mse": 0.00692364002300991
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 63,
+            "mse": 0.006859797601238471
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 64,
+            "mse": 0.006478924318867188
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.006253054666338095
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 66,
+            "mse": 0.009003461365512269
+          }
+        ],
+        "shared_global": {
+          "config": {
+            "alpha": 0.1,
+            "kind": "global"
+          },
+          "index": 3,
+          "mse": 0.006382468456741972
+        },
+        "shared_global_mse": 0.0046834593979461344,
+        "train": [
+          0,
+          2,
+          4,
+          6,
+          7,
+          8,
+          10,
+          12,
+          14,
+          15,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "validation": [
+          1,
+          3,
+          5,
+          9,
+          11,
+          13,
+          16,
+          30
+        ]
+      },
+      {
+        "adaptive": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1,
+            "kind": "global_plus_pair"
+          },
+          "index": 39,
+          "mse": 0.00580776192259202
+        },
+        "adaptive_mse": 0.004685701196959051,
+        "additive_mse": 0.01363511172306144,
+        "fold": 1,
+        "inner_splits": [
+          {
+            "train": [
+              0,
+              1,
+              2,
+              5,
+              9,
+              10,
+              13,
+              17,
+              20,
+              22,
+              23,
+              27,
+              30,
+              31,
+              32,
+              33,
+              34,
+              36,
+              37,
+              38,
+              39
+            ],
+            "validation": [
+              3,
+              4,
+              6,
+              7,
+              11,
+              16,
+              19,
+              25,
+              26,
+              28,
+              29
+            ]
+          },
+          {
+            "train": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              9,
+              10,
+              11,
+              16,
+              17,
+              19,
+              20,
+              25,
+              26,
+              28,
+              29,
+              30,
+              32,
+              37,
+              39
+            ],
+            "validation": [
+              0,
+              1,
+              13,
+              22,
+              23,
+              27,
+              31,
+              33,
+              34,
+              36,
+              38
+            ]
+          },
+          {
+            "train": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              7,
+              11,
+              13,
+              16,
+              19,
+              22,
+              23,
+              25,
+              26,
+              27,
+              28,
+              29,
+              31,
+              33,
+              34,
+              36,
+              38
+            ],
+            "validation": [
+              2,
+              5,
+              9,
+              10,
+              17,
+              20,
+              30,
+              32,
+              37,
+              39
+            ]
+          }
+        ],
+        "search": [
+          {
+            "config": {
+              "alpha": 1.0,
+              "kind": "shared_offset"
+            },
+            "index": 0,
+            "mse": 0.011995897523482804
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "kind": "global"
+            },
+            "index": 1,
+            "mse": 0.006772648872619002
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "kind": "global"
+            },
+            "index": 2,
+            "mse": 0.006661572932462523
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "kind": "global"
+            },
+            "index": 3,
+            "mse": 0.006042111587761224
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "kind": "global"
+            },
+            "index": 4,
+            "mse": 0.006539960245165809
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "kind": "global"
+            },
+            "index": 5,
+            "mse": 0.010227017346563779
+          },
+          {
+            "config": {
+              "alpha": 100,
+              "kind": "global"
+            },
+            "index": 6,
+            "mse": 0.011766573680873388
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 7,
+            "mse": 0.006756647645172186
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 8,
+            "mse": 0.006557748678957611
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 9,
+            "mse": 0.005858731028865027
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 10,
+            "mse": 0.007684928490937593
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 11,
+            "mse": 0.011089223578908848
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 12,
+            "mse": 0.010727394767423832
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 13,
+            "mse": 0.01074609243474388
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 14,
+            "mse": 0.010906621597832528
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 15,
+            "mse": 0.011518854172815635
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 16,
+            "mse": 0.011923810344697581
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 17,
+            "mse": 0.00587825518419911
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 18,
+            "mse": 0.005886560220292256
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 19,
+            "mse": 0.0059778503562601835
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 20,
+            "mse": 0.006996760052231686
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 21,
+            "mse": 0.010243568275092596
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 22,
+            "mse": 0.00853694492501796
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 23,
+            "mse": 0.008540410933018288
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 24,
+            "mse": 0.008574691676638364
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 25,
+            "mse": 0.008883338510404824
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 26,
+            "mse": 0.0103560490989127
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 27,
+            "mse": 0.006754762440486502
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 28,
+            "mse": 0.006437799252397335
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 29,
+            "mse": 0.005872260246130759
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 30,
+            "mse": 0.008547676078492642
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 31,
+            "mse": 0.011369970002571332
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 32,
+            "mse": 0.006496998599045244
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 33,
+            "mse": 0.006536169809151072
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 34,
+            "mse": 0.006960548624320691
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 35,
+            "mse": 0.009284323108379268
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 36,
+            "mse": 0.011496196442915078
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 37,
+            "mse": 0.0059708410671932485
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 38,
+            "mse": 0.0059439495608994775
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.00580776192259202
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 40,
+            "mse": 0.006487051651885641
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 41,
+            "mse": 0.009966173576799728
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 42,
+            "mse": 0.0061284714586672066
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 43,
+            "mse": 0.006130379821700369
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 44,
+            "mse": 0.006151198952572585
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 45,
+            "mse": 0.00644122884872057
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 46,
+            "mse": 0.008630397652660837
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 47,
+            "mse": 0.006697819138149283
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 48,
+            "mse": 0.006075104712222154
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 49,
+            "mse": 0.006705551726532312
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 50,
+            "mse": 0.010215793987825458
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 51,
+            "mse": 0.011751642712780123
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 52,
+            "mse": 0.006125494793664468
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 53,
+            "mse": 0.005932318711332983
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 54,
+            "mse": 0.006415522315861254
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 55,
+            "mse": 0.009625063293325799
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 56,
+            "mse": 0.011620790588351708
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 57,
+            "mse": 0.0067191578310207166
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 58,
+            "mse": 0.006518120440795429
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 59,
+            "mse": 0.005988627219537487
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 60,
+            "mse": 0.006407530649741961
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 61,
+            "mse": 0.01002380286363573
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 62,
+            "mse": 0.006318583995190761
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 63,
+            "mse": 0.0062772432099919406
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 64,
+            "mse": 0.006028572121896092
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.005965002713826929
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 66,
+            "mse": 0.008794757699846837
+          }
+        ],
+        "shared_global": {
+          "config": {
+            "alpha": 0.1,
+            "kind": "global"
+          },
+          "index": 3,
+          "mse": 0.006042111587761224
+        },
+        "shared_global_mse": 0.004686144189513503,
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          13,
+          16,
+          17,
+          19,
+          20,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          36,
+          37,
+          38,
+          39
+        ],
+        "validation": [
+          8,
+          12,
+          14,
+          15,
+          18,
+          21,
+          24,
+          35
+        ]
+      },
+      {
+        "adaptive": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1,
+            "kind": "global_plus_pair"
+          },
+          "index": 39,
+          "mse": 0.00537154786442923
+        },
+        "adaptive_mse": 0.006927145179202725,
+        "additive_mse": 0.015044244222265583,
+        "fold": 2,
+        "inner_splits": [
+          {
+            "train": [
+              0,
+              1,
+              3,
+              4,
+              6,
+              8,
+              9,
+              12,
+              13,
+              14,
+              17,
+              21,
+              23,
+              24,
+              25,
+              28,
+              29,
+              32,
+              33,
+              35,
+              36
+            ],
+            "validation": [
+              2,
+              5,
+              7,
+              10,
+              11,
+              15,
+              16,
+              18,
+              30,
+              31,
+              34
+            ]
+          },
+          {
+            "train": [
+              2,
+              5,
+              6,
+              7,
+              9,
+              10,
+              11,
+              12,
+              14,
+              15,
+              16,
+              17,
+              18,
+              23,
+              28,
+              30,
+              31,
+              32,
+              33,
+              34,
+              36
+            ],
+            "validation": [
+              0,
+              1,
+              3,
+              4,
+              8,
+              13,
+              21,
+              24,
+              25,
+              29,
+              35
+            ]
+          },
+          {
+            "train": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              10,
+              11,
+              13,
+              15,
+              16,
+              18,
+              21,
+              24,
+              25,
+              29,
+              30,
+              31,
+              34,
+              35
+            ],
+            "validation": [
+              6,
+              9,
+              12,
+              14,
+              17,
+              23,
+              28,
+              32,
+              33,
+              36
+            ]
+          }
+        ],
+        "search": [
+          {
+            "config": {
+              "alpha": 1.0,
+              "kind": "shared_offset"
+            },
+            "index": 0,
+            "mse": 0.011432874399431742
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "kind": "global"
+            },
+            "index": 1,
+            "mse": 0.006191504829417879
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "kind": "global"
+            },
+            "index": 2,
+            "mse": 0.006098068980411731
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "kind": "global"
+            },
+            "index": 3,
+            "mse": 0.00557436001865372
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "kind": "global"
+            },
+            "index": 4,
+            "mse": 0.0061423300375409735
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "kind": "global"
+            },
+            "index": 5,
+            "mse": 0.009686780377838503
+          },
+          {
+            "config": {
+              "alpha": 100,
+              "kind": "global"
+            },
+            "index": 6,
+            "mse": 0.011203658519402977
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 7,
+            "mse": 0.006187591972728494
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 8,
+            "mse": 0.006024822429212115
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 9,
+            "mse": 0.00543252999695238
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 10,
+            "mse": 0.007175270089413213
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 11,
+            "mse": 0.010507011552111607
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 12,
+            "mse": 0.010243836956038883
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 13,
+            "mse": 0.01026118417718642
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 14,
+            "mse": 0.010410316535154713
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 15,
+            "mse": 0.010982640706397309
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 16,
+            "mse": 0.011364584597037646
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 17,
+            "mse": 0.00549016542211346
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 18,
+            "mse": 0.005499148049243638
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 19,
+            "mse": 0.005595120864128043
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 20,
+            "mse": 0.006590559730047567
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 21,
+            "mse": 0.009706664562003961
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 22,
+            "mse": 0.008113482829141986
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 23,
+            "mse": 0.00811674487632685
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 24,
+            "mse": 0.00814901054771813
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 25,
+            "mse": 0.008439747357213352
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 26,
+            "mse": 0.009838203709823433
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 27,
+            "mse": 0.006169439682379154
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 28,
+            "mse": 0.005907458258699223
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 29,
+            "mse": 0.0054634995831249564
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 30,
+            "mse": 0.008008929118854279
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 31,
+            "mse": 0.010785133126452306
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 32,
+            "mse": 0.006162895709732217
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 33,
+            "mse": 0.00620132101259453
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 34,
+            "mse": 0.00660567981746012
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 35,
+            "mse": 0.008771013870994049
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 36,
+            "mse": 0.010922221524177454
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 37,
+            "mse": 0.005493197281417939
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 38,
+            "mse": 0.005471307911197591
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.00537154786442923
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 40,
+            "mse": 0.006098741071791549
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 41,
+            "mse": 0.009430131075245787
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 42,
+            "mse": 0.00577644412793663
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 43,
+            "mse": 0.005778537722408665
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 44,
+            "mse": 0.005800928405314336
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 45,
+            "mse": 0.006090668428942924
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 46,
+            "mse": 0.008153796194879407
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 47,
+            "mse": 0.006101250829384326
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 48,
+            "mse": 0.00558728174036276
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 49,
+            "mse": 0.006276244721893157
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 50,
+            "mse": 0.009619316124987672
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 51,
+            "mse": 0.011178358586067236
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 52,
+            "mse": 0.005636275482939011
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 53,
+            "mse": 0.005472458269157867
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 54,
+            "mse": 0.006006892875412841
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 55,
+            "mse": 0.009049300578530912
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 56,
+            "mse": 0.011043494543247531
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 57,
+            "mse": 0.006129538244918987
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 58,
+            "mse": 0.005937412077532119
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 59,
+            "mse": 0.005504514243373247
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 60,
+            "mse": 0.006012715946872027
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 61,
+            "mse": 0.009482531784820862
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 62,
+            "mse": 0.0057915724552704065
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 63,
+            "mse": 0.005753541071929955
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 64,
+            "mse": 0.00553233998632259
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.005562086756083898
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 66,
+            "mse": 0.008273022702910336
+          }
+        ],
+        "shared_global": {
+          "config": {
+            "alpha": 0.1,
+            "kind": "global"
+          },
+          "index": 3,
+          "mse": 0.00557436001865372
+        },
+        "shared_global_mse": 0.007032018903248215,
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          21,
+          23,
+          24,
+          25,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "validation": [
+          19,
+          20,
+          22,
+          26,
+          27,
+          37,
+          38,
+          39
+        ]
+      },
+      {
+        "adaptive": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1,
+            "kind": "global_plus_pair"
+          },
+          "index": 39,
+          "mse": 0.005937709982931017
+        },
+        "adaptive_mse": 0.005031258043802512,
+        "additive_mse": 0.01264768012399173,
+        "fold": 3,
+        "inner_splits": [
+          {
+            "train": [
+              1,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              15,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              24,
+              26,
+              27,
+              29,
+              30
+            ],
+            "validation": [
+              0,
+              3,
+              13,
+              14,
+              16,
+              25,
+              31,
+              35,
+              37,
+              38,
+              39
+            ]
+          },
+          {
+            "train": [
+              0,
+              1,
+              3,
+              6,
+              9,
+              10,
+              11,
+              13,
+              14,
+              15,
+              16,
+              18,
+              21,
+              25,
+              26,
+              29,
+              31,
+              35,
+              37,
+              38,
+              39
+            ],
+            "validation": [
+              5,
+              7,
+              8,
+              12,
+              17,
+              19,
+              20,
+              22,
+              24,
+              27,
+              30
+            ]
+          },
+          {
+            "train": [
+              0,
+              3,
+              5,
+              7,
+              8,
+              12,
+              13,
+              14,
+              16,
+              17,
+              19,
+              20,
+              22,
+              24,
+              25,
+              27,
+              30,
+              31,
+              35,
+              37,
+              38,
+              39
+            ],
+            "validation": [
+              1,
+              6,
+              9,
+              10,
+              11,
+              15,
+              18,
+              21,
+              26,
+              29
+            ]
+          }
+        ],
+        "search": [
+          {
+            "config": {
+              "alpha": 1.0,
+              "kind": "shared_offset"
+            },
+            "index": 0,
+            "mse": 0.012261132876830304
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "kind": "global"
+            },
+            "index": 1,
+            "mse": 0.007008002299031179
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "kind": "global"
+            },
+            "index": 2,
+            "mse": 0.006874643491029883
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "kind": "global"
+            },
+            "index": 3,
+            "mse": 0.0061631608357288325
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "kind": "global"
+            },
+            "index": 4,
+            "mse": 0.006645962901460313
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "kind": "global"
+            },
+            "index": 5,
+            "mse": 0.010404460383025772
+          },
+          {
+            "config": {
+              "alpha": 100,
+              "kind": "global"
+            },
+            "index": 6,
+            "mse": 0.012019287331363333
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 7,
+            "mse": 0.006993647722751073
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 8,
+            "mse": 0.006756922233145682
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 9,
+            "mse": 0.0059523713289874585
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 10,
+            "mse": 0.007767894371599163
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 11,
+            "mse": 0.011280704830372665
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 12,
+            "mse": 0.011079304110692956
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 13,
+            "mse": 0.011096824501866786
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 14,
+            "mse": 0.011247174724296
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 15,
+            "mse": 0.011818749266101682
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 16,
+            "mse": 0.0121944875273329
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 17,
+            "mse": 0.00599560893321259
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 18,
+            "mse": 0.006004181588720389
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 19,
+            "mse": 0.006097834448421737
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 20,
+            "mse": 0.007122607534018038
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 21,
+            "mse": 0.01042955897483808
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 22,
+            "mse": 0.008771296122584784
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 23,
+            "mse": 0.008774738425352896
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 24,
+            "mse": 0.008808789413796411
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 25,
+            "mse": 0.009115784635342166
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 26,
+            "mse": 0.010593004831068665
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 27,
+            "mse": 0.0069862299241518315
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 28,
+            "mse": 0.006618249448566385
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 29,
+            "mse": 0.005963905022059157
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 30,
+            "mse": 0.008612693930400341
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 31,
+            "mse": 0.011579445778372773
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 32,
+            "mse": 0.006735044627665233
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 33,
+            "mse": 0.006772910791612315
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 34,
+            "mse": 0.007178987033142969
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 35,
+            "mse": 0.009437617826679807
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 36,
+            "mse": 0.011729162759268554
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 37,
+            "mse": 0.00612025571960686
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 38,
+            "mse": 0.006090536068929946
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.005937709982931017
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 40,
+            "mse": 0.006613400915026059
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 41,
+            "mse": 0.010133363085361637
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 42,
+            "mse": 0.006328184327680948
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 43,
+            "mse": 0.006330084606433204
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 44,
+            "mse": 0.006350718811171872
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 45,
+            "mse": 0.00663517416243178
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 46,
+            "mse": 0.008779365838494212
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 47,
+            "mse": 0.006907908334945173
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 48,
+            "mse": 0.006198877939147468
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 49,
+            "mse": 0.006785208593343541
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 50,
+            "mse": 0.010333722307330581
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 51,
+            "mse": 0.01199547663716084
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 52,
+            "mse": 0.006343512533599104
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 53,
+            "mse": 0.006104120145593071
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 54,
+            "mse": 0.006538141227276136
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 55,
+            "mse": 0.009720733673004285
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 56,
+            "mse": 0.011854523535127098
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 57,
+            "mse": 0.007010943366361493
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 58,
+            "mse": 0.006753649006201202
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 59,
+            "mse": 0.006122792983420904
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 60,
+            "mse": 0.00651371407813096
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 61,
+            "mse": 0.010186387286116412
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 62,
+            "mse": 0.006563109733756417
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 63,
+            "mse": 0.006513094023330143
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 64,
+            "mse": 0.006208571402663218
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.0060831244335940796
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 66,
+            "mse": 0.008891015355295295
+          }
+        ],
+        "shared_global": {
+          "config": {
+            "alpha": 0.1,
+            "kind": "global"
+          },
+          "index": 3,
+          "mse": 0.0061631608357288325
+        },
+        "shared_global_mse": 0.0051941459474366255,
+        "train": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          24,
+          25,
+          26,
+          27,
+          29,
+          30,
+          31,
+          35,
+          37,
+          38,
+          39
+        ],
+        "validation": [
+          2,
+          4,
+          23,
+          28,
+          32,
+          33,
+          34,
+          36
+        ]
+      },
+      {
+        "adaptive": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1,
+            "kind": "global_plus_pair"
+          },
+          "index": 39,
+          "mse": 0.0063710970886522444
+        },
+        "adaptive_mse": 0.004812401966470506,
+        "additive_mse": 0.014442673742909657,
+        "fold": 4,
+        "inner_splits": [
+          {
+            "train": [
+              1,
+              2,
+              4,
+              9,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              22,
+              23,
+              24,
+              26,
+              27,
+              32,
+              33,
+              34,
+              36,
+              37,
+              38
+            ],
+            "validation": [
+              3,
+              5,
+              8,
+              18,
+              19,
+              20,
+              21,
+              28,
+              30,
+              35,
+              39
+            ]
+          },
+          {
+            "train": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              8,
+              9,
+              18,
+              19,
+              20,
+              21,
+              22,
+              26,
+              28,
+              30,
+              32,
+              34,
+              35,
+              36,
+              37,
+              39
+            ],
+            "validation": [
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              23,
+              24,
+              27,
+              33,
+              38
+            ]
+          },
+          {
+            "train": [
+              3,
+              5,
+              8,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              18,
+              19,
+              20,
+              21,
+              23,
+              24,
+              27,
+              28,
+              30,
+              33,
+              35,
+              38,
+              39
+            ],
+            "validation": [
+              1,
+              2,
+              4,
+              9,
+              22,
+              26,
+              32,
+              34,
+              36,
+              37
+            ]
+          }
+        ],
+        "search": [
+          {
+            "config": {
+              "alpha": 1.0,
+              "kind": "shared_offset"
+            },
+            "index": 0,
+            "mse": 0.011878692226103346
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "kind": "global"
+            },
+            "index": 1,
+            "mse": 0.007377243189238255
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "kind": "global"
+            },
+            "index": 2,
+            "mse": 0.007276138652037722
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "kind": "global"
+            },
+            "index": 3,
+            "mse": 0.006681890398437479
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "kind": "global"
+            },
+            "index": 4,
+            "mse": 0.007036006341546256
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "kind": "global"
+            },
+            "index": 5,
+            "mse": 0.010291393366021242
+          },
+          {
+            "config": {
+              "alpha": 100,
+              "kind": "global"
+            },
+            "index": 6,
+            "mse": 0.011670369610323018
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 7,
+            "mse": 0.007342894538276256
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 8,
+            "mse": 0.007147174939457225
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 9,
+            "mse": 0.006443522579921515
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 10,
+            "mse": 0.008037124190683951
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 11,
+            "mse": 0.01104656845618122
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 12,
+            "mse": 0.01078929218890886
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 13,
+            "mse": 0.010805530919934206
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 14,
+            "mse": 0.010944651807568397
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 15,
+            "mse": 0.011471286083330054
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "pair_product"
+            },
+            "index": 16,
+            "mse": 0.011817236910091136
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 17,
+            "mse": 0.006443239877569924
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 18,
+            "mse": 0.0064505616577651935
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 19,
+            "mse": 0.006531456889685085
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 20,
+            "mse": 0.007440314325722361
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 21,
+            "mse": 0.010308796337232891
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 22,
+            "mse": 0.008821841301110281
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 23,
+            "mse": 0.008824913550243719
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 24,
+            "mse": 0.008855292189140815
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 25,
+            "mse": 0.009128251060018265
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 26,
+            "mse": 0.010424448825390523
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 27,
+            "mse": 0.007369615514496985
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 28,
+            "mse": 0.007076318131636344
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 29,
+            "mse": 0.006470342995528216
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 30,
+            "mse": 0.008795921204951394
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "single_sum"
+            },
+            "index": 31,
+            "mse": 0.011299564382581454
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 32,
+            "mse": 0.006980725119925922
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 33,
+            "mse": 0.007015444619398636
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 34,
+            "mse": 0.0073938765457267925
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 35,
+            "mse": 0.009441400975014301
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "pair_product"
+            },
+            "index": 36,
+            "mse": 0.011416182081495927
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 37,
+            "mse": 0.006506206697218556
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 38,
+            "mse": 0.0064832561305078
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.0063710970886522444
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 40,
+            "mse": 0.006984436108516497
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 41,
+            "mse": 0.01005680986183302
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 42,
+            "mse": 0.0066479182572468445
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 43,
+            "mse": 0.006649648397261843
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 44,
+            "mse": 0.006668552694512983
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 45,
+            "mse": 0.006931794127067536
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 46,
+            "mse": 0.008872531045307917
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 47,
+            "mse": 0.0073494686476568835
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 48,
+            "mse": 0.006760167994876419
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 49,
+            "mse": 0.007203836535268309
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 50,
+            "mse": 0.010268488489495714
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "single_sum"
+            },
+            "index": 51,
+            "mse": 0.011650342109446859
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 52,
+            "mse": 0.006697130310265324
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 53,
+            "mse": 0.006516005898629279
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 54,
+            "mse": 0.00694125915687095
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 55,
+            "mse": 0.00975018336579998
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "pair_product"
+            },
+            "index": 56,
+            "mse": 0.011528599009684544
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 57,
+            "mse": 0.007249737726964984
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 58,
+            "mse": 0.007051059227045598
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 59,
+            "mse": 0.0066063052063203235
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 60,
+            "mse": 0.00692018272480344
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 61,
+            "mse": 0.010108369772540308
+          },
+          {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 62,
+            "mse": 0.00686260201884009
+          },
+          {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 63,
+            "mse": 0.006821706302484937
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 64,
+            "mse": 0.0065914818756156865
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.006537999097800872
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 66,
+            "mse": 0.009024755855641982
+          }
+        ],
+        "shared_global": {
+          "config": {
+            "alpha": 0.1,
+            "kind": "global"
+          },
+          "index": 3,
+          "mse": 0.006681890398437479
+        },
+        "shared_global_mse": 0.004933942625970204,
+        "train": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          26,
+          27,
+          28,
+          30,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "validation": [
+          0,
+          6,
+          7,
+          10,
+          17,
+          25,
+          29,
+          31
+        ]
+      }
+    ],
+    "skill": 0.6317432847348436
+  },
+  "seconds": 0.8258411000001615
+}

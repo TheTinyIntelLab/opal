@@ -1,0 +1,35 @@
+{
+  "scope": "Frozen positional table only; no native or contextual backbone inference",
+  "seed": 20261005,
+  "evaluator_access": false,
+  "rows": [
+    {
+      "dataset": "norman-log2",
+      "protocol": "random",
+      "measured_single_mse": 0.006292297271566333,
+      "foundation_mse": 0.006292297271566333,
+      "shuffled_mse": 0.006292297271566333
+    },
+    {
+      "dataset": "norman-log2",
+      "protocol": "partner",
+      "measured_single_mse": 0.007181290522760591,
+      "foundation_mse": 0.007181290522760591,
+      "shuffled_mse": 0.007181290522760591
+    },
+    {
+      "dataset": "wessels-log2",
+      "protocol": "random",
+      "measured_single_mse": 0.005031838714990312,
+      "foundation_mse": 0.005015163598935663,
+      "shuffled_mse": 0.005008835495198399
+    },
+    {
+      "dataset": "wessels-log2",
+      "protocol": "partner",
+      "measured_single_mse": 0.00986759724020191,
+      "foundation_mse": 0.009875654021736777,
+      "shuffled_mse": 0.009864477871738156
+    }
+  ]
+}

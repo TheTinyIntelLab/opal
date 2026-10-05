@@ -1,0 +1,343 @@
+{
+  "candidate_count": 67,
+  "configurations": [
+    {
+      "alpha": 1.0,
+      "kind": "shared_offset"
+    },
+    {
+      "alpha": 0.001,
+      "kind": "global"
+    },
+    {
+      "alpha": 0.01,
+      "kind": "global"
+    },
+    {
+      "alpha": 0.1,
+      "kind": "global"
+    },
+    {
+      "alpha": 1,
+      "kind": "global"
+    },
+    {
+      "alpha": 10,
+      "kind": "global"
+    },
+    {
+      "alpha": 100,
+      "kind": "global"
+    },
+    {
+      "alpha": 0.001,
+      "bandwidth": 0.25,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 0.01,
+      "bandwidth": 0.25,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 0.1,
+      "bandwidth": 0.25,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 1,
+      "bandwidth": 0.25,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 10,
+      "bandwidth": 0.25,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 0.001,
+      "bandwidth": 0.25,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 0.01,
+      "bandwidth": 0.25,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 0.1,
+      "bandwidth": 0.25,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 1,
+      "bandwidth": 0.25,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 10,
+      "bandwidth": 0.25,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 0.001,
+      "bandwidth": 0.25,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 0.01,
+      "bandwidth": 0.25,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 0.1,
+      "bandwidth": 0.25,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 1,
+      "bandwidth": 0.25,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 10,
+      "bandwidth": 0.25,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 0.001,
+      "bandwidth": 0.25,
+      "kind": "global_plus_pair_10"
+    },
+    {
+      "alpha": 0.01,
+      "bandwidth": 0.25,
+      "kind": "global_plus_pair_10"
+    },
+    {
+      "alpha": 0.1,
+      "bandwidth": 0.25,
+      "kind": "global_plus_pair_10"
+    },
+    {
+      "alpha": 1,
+      "bandwidth": 0.25,
+      "kind": "global_plus_pair_10"
+    },
+    {
+      "alpha": 10,
+      "bandwidth": 0.25,
+      "kind": "global_plus_pair_10"
+    },
+    {
+      "alpha": 0.001,
+      "bandwidth": 1,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 0.01,
+      "bandwidth": 1,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 0.1,
+      "bandwidth": 1,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 1,
+      "bandwidth": 1,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 10,
+      "bandwidth": 1,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 0.001,
+      "bandwidth": 1,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 0.01,
+      "bandwidth": 1,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 0.1,
+      "bandwidth": 1,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 1,
+      "bandwidth": 1,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 10,
+      "bandwidth": 1,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 0.001,
+      "bandwidth": 1,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 0.01,
+      "bandwidth": 1,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 0.1,
+      "bandwidth": 1,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 1,
+      "bandwidth": 1,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 10,
+      "bandwidth": 1,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 0.001,
+      "bandwidth": 1,
+      "kind": "global_plus_pair_10"
+    },
+    {
+      "alpha": 0.01,
+      "bandwidth": 1,
+      "kind": "global_plus_pair_10"
+    },
+    {
+      "alpha": 0.1,
+      "bandwidth": 1,
+      "kind": "global_plus_pair_10"
+    },
+    {
+      "alpha": 1,
+      "bandwidth": 1,
+      "kind": "global_plus_pair_10"
+    },
+    {
+      "alpha": 10,
+      "bandwidth": 1,
+      "kind": "global_plus_pair_10"
+    },
+    {
+      "alpha": 0.001,
+      "bandwidth": 4,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 0.01,
+      "bandwidth": 4,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 0.1,
+      "bandwidth": 4,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 1,
+      "bandwidth": 4,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 10,
+      "bandwidth": 4,
+      "kind": "single_sum"
+    },
+    {
+      "alpha": 0.001,
+      "bandwidth": 4,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 0.01,
+      "bandwidth": 4,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 0.1,
+      "bandwidth": 4,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 1,
+      "bandwidth": 4,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 10,
+      "bandwidth": 4,
+      "kind": "pair_product"
+    },
+    {
+      "alpha": 0.001,
+      "bandwidth": 4,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 0.01,
+      "bandwidth": 4,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 0.1,
+      "bandwidth": 4,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 1,
+      "bandwidth": 4,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 10,
+      "bandwidth": 4,
+      "kind": "global_plus_pair"
+    },
+    {
+      "alpha": 0.001,
+      "bandwidth": 4,
+      "kind": "global_plus_pair_10"
+    },
+    {
+      "alpha": 0.01,
+      "bandwidth": 4,
+      "kind": "global_plus_pair_10"
+    },
+    {
+      "alpha": 0.1,
+      "bandwidth": 4,
+      "kind": "global_plus_pair_10"
+    },
+    {
+      "alpha": 1,
+      "bandwidth": 4,
+      "kind": "global_plus_pair_10"
+    },
+    {
+      "alpha": 10,
+      "bandwidth": 4,
+      "kind": "global_plus_pair_10"
+    }
+  ],
+  "endpoint": "equal-pair all-gene MSE",
+  "evaluator_access": false,
+  "inner_folds": 3,
+  "negative_result_policy": "Record both random and partner protocols and all candidate choices.",
+  "outer_folds": 5,
+  "profiles_sha256": "fb246089a26353c88331bd6a2e72cba3fce441a989e6be8a53370f9ad56d9293",
+  "scope": "Exploratory nested development only; historical test outcomes previously known.",
+  "script_sha256": "b095a1531f9bfbd181b0593d4a8c93a76f29889c74c27409828f773f855fb459",
+  "seed": 20261007,
+  "source_hash": "267cfc8704401a11739d4973e0a3a557b90b748b36c2ed6663a1ccaf3f3d7734"
+}

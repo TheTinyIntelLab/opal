@@ -1,0 +1,4407 @@
+{
+  "configurations": [
+    {
+      "family": "mean_residual"
+    },
+    {
+      "alpha": 0.01,
+      "family": "global",
+      "rank": 4
+    },
+    {
+      "alpha": 0.1,
+      "family": "global",
+      "rank": 4
+    },
+    {
+      "alpha": 1,
+      "family": "global",
+      "rank": 4
+    },
+    {
+      "alpha": 10,
+      "family": "global",
+      "rank": 4
+    },
+    {
+      "alpha": 100,
+      "family": "global",
+      "rank": 4
+    },
+    {
+      "alpha": 1000,
+      "family": "global",
+      "rank": 4
+    },
+    {
+      "alpha": 10000,
+      "family": "global",
+      "rank": 4
+    },
+    {
+      "alpha": 100000,
+      "family": "global",
+      "rank": 4
+    },
+    {
+      "alpha": 0.01,
+      "family": "ridge",
+      "rank": 4
+    },
+    {
+      "alpha": 0.1,
+      "family": "ridge",
+      "rank": 4
+    },
+    {
+      "alpha": 1,
+      "family": "ridge",
+      "rank": 4
+    },
+    {
+      "alpha": 10,
+      "family": "ridge",
+      "rank": 4
+    },
+    {
+      "alpha": 100,
+      "family": "ridge",
+      "rank": 4
+    },
+    {
+      "alpha": 1000,
+      "family": "ridge",
+      "rank": 4
+    },
+    {
+      "alpha": 10000,
+      "family": "ridge",
+      "rank": 4
+    },
+    {
+      "alpha": 100000,
+      "family": "ridge",
+      "rank": 4
+    },
+    {
+      "alpha": 0.01,
+      "family": "reduced_rank",
+      "rank": 4
+    },
+    {
+      "alpha": 0.1,
+      "family": "reduced_rank",
+      "rank": 4
+    },
+    {
+      "alpha": 1,
+      "family": "reduced_rank",
+      "rank": 4
+    },
+    {
+      "alpha": 10,
+      "family": "reduced_rank",
+      "rank": 4
+    },
+    {
+      "alpha": 100,
+      "family": "reduced_rank",
+      "rank": 4
+    },
+    {
+      "alpha": 1000,
+      "family": "reduced_rank",
+      "rank": 4
+    },
+    {
+      "alpha": 10000,
+      "family": "reduced_rank",
+      "rank": 4
+    },
+    {
+      "alpha": 100000,
+      "family": "reduced_rank",
+      "rank": 4
+    }
+  ],
+  "datasets": {
+    "norman-log2": {
+      "partner": {
+        "averaged_linear_predictions_mse": 0.007088819786070473,
+        "kernel_mse": 0.007428811857693929,
+        "kernel_relative_mse_reduction": 0.011250138228321438,
+        "nested_linear_mse": 0.0075133379481669,
+        "records": [
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.00816151084882681
+            },
+            "fold": 0,
+            "outer_mse": 0.006788395472618216,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.008669586484654383
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012547620528516842
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012545994249070729
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012529824939865463
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012376949376915138
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01139652784142566
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.009460585861804996
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.00816151084882681
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.00816814511944471
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.061599163594863136
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.052425818656584376
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.03028673254616564
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.013322581554360035
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.008679700931020542
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.008525811432513082
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.00865020200620127
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.008667586006134582
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01569496335173352
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01447548612693948
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.011624308388933469
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.009370947522103247
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008457461501170709
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008548718832892441
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.00865387472625014
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008667970083185353
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.006382533851489976
+            },
+            "fold": 1,
+            "outer_mse": 0.01011671408764848,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.006644849487581049
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01010924205570662
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.010108086103141045
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.010096572970234332
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.009985897970911251
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.009194771428818097
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007429113414175461
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006382533851489976
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.0064403356360112725
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.1611590899147035
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.14204115783735446
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.07556675134138598
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.018725956806458294
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.007503232745942557
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.006587577294488335
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.006632995364086092
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.006643583315029214
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.035070525203340426
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.03266568115724376
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.02118078043741972
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010242471508118026
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.007142681017373613
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.0066286539825298725
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.006639611376022922
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.006644276192445161
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.007508717444491623
+            },
+            "fold": 2,
+            "outer_mse": 0.007590303263630795,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.008507925094032455
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011696167824894617
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011695215640973743
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011685726424394506
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01159397277020478
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.010902212441311017
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.008920946819872646
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007508717444491623
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007779775702622309
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.10764937203163431
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.0912060496747328
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.046140511949507516
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.01682668530841752
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.00881823752077572
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.00834098159375022
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.008483821785725555
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.008505420497250175
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.021725526155155106
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.020085363076863608
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.014333389642046696
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.00972397794393515
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008359540978563765
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008353998341219521
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.00848668765762792
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008505725784824674
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 100000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.008210627281538199
+            },
+            "fold": 3,
+            "outer_mse": 0.006663120981813829,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.008654077276239383
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.013056593985073901
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.013055466039137348
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.013044225685278802
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012935594934413677
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012125362184102468
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01000022213650328
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.008389265466687763
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.008210627281538199
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.07539963580893437
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.05942461946239196
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.02885272357155969
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.012981781598738378
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.008568326261813825
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.008460397212022183
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.008627442178613606
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.008651319145109039
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.019622723239643418
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01729048009989709
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01262935321269154
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.009916228545039946
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.00844017385185632
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008489684335924532
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008631847378782476
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008651778824965034
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.008422956037735062
+            },
+            "fold": 4,
+            "outer_mse": 0.006517728383443715,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.009091149707025667
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.015224353529609467
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.015218851480126623
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01516460242403814
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.014688758510460252
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012535372423207056
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.009693736443242054
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.008422956037735062
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.00852154281329508
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.11141501708782654
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.08160500629905622
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.03392593265231548
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.014276955733125228
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.0091640259826836
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.00895079164960187
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.009071684433433593
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.009089133756818689
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.02471988100147866
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.02171755057669414
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.015371215049417358
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010677758218647276
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008953576088486122
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008974514302446538
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.009075573364305771
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.00908954194097362
+              }
+            ]
+          }
+        ]
+      },
+      "random": {
+        "averaged_linear_predictions_mse": 0.00651919743466794,
+        "kernel_mse": 0.006368853894405613,
+        "kernel_relative_mse_reduction": 0.02306166391936937,
+        "nested_linear_mse": 0.00651919743466794,
+        "records": [
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.0064510943060761316
+            },
+            "fold": 0,
+            "outer_mse": 0.007296297659906581,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.008052527472222246
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.014652430257384634
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.014647994215351698
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.014603966939203697
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.014194442469959344
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01179387795848675
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007918594239764232
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.0064510943060761316
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007107949792008289
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.2064034056886355
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.06498307359536262
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.021747841816686375
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.009947702276300995
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.007293465286774546
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.007698993386458497
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.00800530459226271
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.008047646240936587
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.0447921391108648
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01567590707077473
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010518585628501767
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008093007818339664
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.007331920221266862
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.007781951234368593
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008017027970549739
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.00804886482141293
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.007084510204917998
+            },
+            "fold": 1,
+            "outer_mse": 0.005784936480204221,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.008184123529094232
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.015583749468132813
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.015581176932341229
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.015555537059582205
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.015307410782414948
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01344601662416831
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.009017376555072568
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007084510204917998
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007371166247938889
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.41108243491913593
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.14364605691715868
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.03606054924696637
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.013030164824036747
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.00801243946671287
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.007836319236745116
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.00813300140694642
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.008178783118725002
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.04069505864778262
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.020649879868957527
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.011083050172129252
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008859300932822849
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.007809410170654764
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.007900193130293017
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008142694020574931
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008179796229549697
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.0063033260359326194
+            },
+            "fold": 2,
+            "outer_mse": 0.007500185909117042,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.0074830758907367834
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.015241666575001275
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.015228854762225102
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.015104138756234934
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.014122379709452872
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011093564290715736
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007638082592290453
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.0063033260359326194
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006807887421376453
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.38065429836626213
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.1564166798035999
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.035847939686433204
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.012901741428554955
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.007343491099924158
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.007183700004146952
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.007440561127133709
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.0074786532365810785
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.099359120326976
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.044989600716204836
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01032699838748403
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008638248988151881
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.007097029348249268
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.00725245654018488
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.007451409176308348
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.007479791131830899
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.007339043878662497
+            },
+            "fold": 3,
+            "outer_mse": 0.004721449410944444,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.008493453878923625
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.017218051358854583
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.017209857826091413
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.017129045561551426
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01641794426007555
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.0131674872017625
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.009148763065622671
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007339043878662497
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007609698463441309
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.4425197266741102
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.15363769081451956
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.039312147515736355
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.013357101154430484
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.008476338173610761
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.008201379075241499
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.00845047962892162
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.00848896906126491
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.07956008141554584
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.03183154027516277
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.012848544258392445
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.009272727537687651
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008318046960853455
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008302408566384678
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008465307783641256
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.008490513705163967
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.0064249567471085425
+            },
+            "fold": 4,
+            "outer_mse": 0.007232892551683645,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.00800859051000046
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.016567468390553636
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.016551929860418535
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.016400396533340467
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.015191097892649524
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011465617718556372
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.00790909396102342
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.0064249567471085425
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006969073777770019
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.3402741439705495
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.10051786573940719
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.02909301456335229
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.010598198120154521
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.007208211525654726
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.007635408696469766
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.00795909450395055
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.00800347649753836
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.043773718173029476
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.018665964102697895
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01076058110754223
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.007761466225500417
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.00714478640326789
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.007696994517227242
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.007967734231597398
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.00800437278087173
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "wessels-log2": {
+      "partner": {
+        "averaged_linear_predictions_mse": 0.008500212618624391,
+        "kernel_mse": 0.009876916624333928,
+        "kernel_relative_mse_reduction": 0.009266392368950882,
+        "nested_linear_mse": 0.0099692960330181,
+        "records": [
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.010510534640207698
+            },
+            "fold": 0,
+            "outer_mse": 0.009962649632635712,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.013283218763784193
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.010824542300139805
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01082451605780755
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.010824253724631005
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.010821639420520439
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.010796372952135485
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.010611357454189785
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.010510534640207698
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012249669975383279
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.014641006988113651
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.014610111896714451
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.014337467293036404
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.013170913542943084
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.012493163831486154
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.013076275643943367
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.013259506147676767
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.013280813355296447
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.012981619217813335
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.012976693604234351
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01293274406712902
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.012715344581786055
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.012566343129684186
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.013098007159236891
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.013261962375836335
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.013281062082930301
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.011429385380045327
+            },
+            "fold": 1,
+            "outer_mse": 0.00928593164271962,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.014281550252612766
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01172868653817164
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011728666048296308
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01172846119636297
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011726417369582848
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01170644139424217
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011546784811546057
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011429385380045327
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01325617145905245
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.01711660059269349
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.017068140189157064
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.01663747528249798
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.01468501419436769
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.013345015679848622
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.014041988646759282
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.01425445770047722
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.014278806178920864
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.015124036522400677
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.015106097870099788
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.014945637105888638
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01416498827470721
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.013515176347087564
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.014083812781414257
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.014259097853849493
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.014279275152644945
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.011871503941447849
+            },
+            "fold": 2,
+            "outer_mse": 0.008708841603499766,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.014728819581761442
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012085697052952081
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012085682216414125
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012085533892407003
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012084054768602597
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012069665775361928
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011958459646880843
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011871503941447849
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.013525618826782574
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.04099131749206594
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.04029802343296937
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.03496083217950351
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.021328997069784528
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.014682647863475218
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.014537027248355388
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.01470491318715207
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.014726374763560162
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01757769542220797
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.017540055469601218
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.017225772753112947
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01592714113992999
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01437594688294495
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01455709330554903
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01470793387207642
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.014726687947314788
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.010679375446441467
+            },
+            "fold": 3,
+            "outer_mse": 0.011315362275266822,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.013448844125671388
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011104484762680566
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011104461478400081
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011104228694565028
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011101906768420823
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011079267231847576
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.010901195931621139
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.010679375446441467
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012301133039867152
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.017313642451337975
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.01723940423124822
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.016611512553922462
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.014180685353790036
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.012633636554348807
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.01322850730351767
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.01342368912587114
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.013446293621384987
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01366416349248899
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.013651423717145506
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.013540022069366912
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.013014643624261244
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.012664435038089257
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01325343263159056
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.013426609752016753
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01344659038154604
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.01095082621818399
+            },
+            "fold": 4,
+            "outer_mse": 0.01081822846467392,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.013601335668765974
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011592429190299606
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011592401482817769
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01159212447076953
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011589360667939292
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01156234263493467
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.011344293448373366
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.01095082621818399
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.012505719688518388
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.017244737317277437
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.017199431465800535
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.016793845811354603
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.014824530643494718
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.013008849591592478
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.013416869683832933
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.013580100633844632
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.013599180999200112
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.014196748065486195
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01418865829297089
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.014111922211165522
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.013601278175977458
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.012980278675462802
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.013436265436694038
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.013582510055677302
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.013599427137536757
+              }
+            ]
+          }
+        ]
+      },
+      "random": {
+        "averaged_linear_predictions_mse": 0.005378660936796317,
+        "kernel_mse": 0.005218711223052185,
+        "kernel_relative_mse_reduction": 0.029737831706380335,
+        "nested_linear_mse": 0.005378660936796316,
+        "records": [
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.006459480812732437
+            },
+            "fold": 0,
+            "outer_mse": 0.004944717684145624,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.011943518896870705
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007370648405523363
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007370540862635626
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007369465972157506
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007358770669833028
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.00725695699228098
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.00659744269311001
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006459480812732437
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.009949971350801765
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.02047396505708396
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.019151381401983296
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.014304545047273465
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.00946879716853709
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.009652947573583499
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.011460053340845553
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.01188931388361135
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.01193803199146259
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010737626201163482
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010695106672196943
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.0105430687645213
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010389840394539822
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010825198947930253
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.011691532073862027
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.011914877349052628
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01194061530970664
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 1000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.006190717343083395
+            },
+            "fold": 1,
+            "outer_mse": 0.0047190329215734215,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.011995897523482804
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006794571820897596
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006794489593407026
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.0067936677030228255
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006785487154966963
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006707371668822749
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006190717343083395
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006203350791006834
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.00985862515838491
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.01627572814448939
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.015623088766079051
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.012329447658350923
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.009009666523730066
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.009671010091493633
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.011516920061359449
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.011942460779059938
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.011990491370694124
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010265162652819172
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010217864062498014
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010028918462780218
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010028496869397302
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01072463873001886
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01172820245165708
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.011965832476251244
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.011992853555932027
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 1000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.005713240881916192
+            },
+            "fold": 2,
+            "outer_mse": 0.00710492243770781,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.01143287439943174
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006202266136561363
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006202202076331785
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006201561736240233
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006195184494453405
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006133947205025353
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.005713240881916192
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.005745008416010598
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.009242152358442446
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.01491218313727978
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.014391586544314371
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.011547025092872969
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.0082242021422867
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.008895496485201122
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.010893295283670945
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.011372158985974457
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.011426725814480785
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010135309896218025
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01012046971584084
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010041110013975512
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.009968484501133645
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010337840917029405
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.011174018733266023
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.011403184059613122
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.011429861494026364
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.006275876086626962
+            },
+            "fold": 3,
+            "outer_mse": 0.005070347381487048,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.012261132876830307
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007038318847740018
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.0070382229846372895
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007037264834359529
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007027731235577766
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.0069369849931771
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006348851264720454
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006275876086626962
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.009982153527044565
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.017078487242777357
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.01635073222009867
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.012808573427142785
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.009011895700255894
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.00967960869284614
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.011727589900120428
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.012201622429381442
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.012255112566241877
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.0101500426942623
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010138764623330397
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010108392536626598
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.0102247871265256
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010877715855846045
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.011953932587055245
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.012226400754657332
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.012257614111590315
+              }
+            ]
+          },
+          {
+            "chosen": {
+              "config": {
+                "alpha": 10000,
+                "family": "global",
+                "rank": 4
+              },
+              "mse": 0.006695311868780716
+            },
+            "fold": 4,
+            "outer_mse": 0.0050542842590676805,
+            "search": [
+              {
+                "config": {
+                  "family": "mean_residual"
+                },
+                "mse": 0.011878692226103344
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007406080842430775
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007406010675950238
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.00740530928227944
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007398322326551372
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.007331069375958862
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006857715546209793
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.006695311868780716
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "global",
+                  "rank": 4
+                },
+                "mse": 0.0099096823436201
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.015524987450778606
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.014883213299325654
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.012029714756883015
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.009324332067301783
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.009872990619977514
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.011457443942159154
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.011831451047760124
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "ridge",
+                  "rank": 4
+                },
+                "mse": 0.011873910014806323
+              },
+              {
+                "config": {
+                  "alpha": 0.01,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010648705708269385
+              },
+              {
+                "config": {
+                  "alpha": 0.1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.01063463914103399
+              },
+              {
+                "config": {
+                  "alpha": 1,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010567806588937427
+              },
+              {
+                "config": {
+                  "alpha": 10,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010521092155060155
+              },
+              {
+                "config": {
+                  "alpha": 100,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.010914770078427612
+              },
+              {
+                "config": {
+                  "alpha": 1000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.011657072339487564
+              },
+              {
+                "config": {
+                  "alpha": 10000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.011853393439734555
+              },
+              {
+                "config": {
+                  "alpha": 100000,
+                  "family": "reduced_rank",
+                  "rank": 4
+                },
+                "mse": 0.011876126289264379
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "evaluator_access": false,
+  "script_sha256": "c56c8e831390b9a4717f6d8180a426a650b4517898cf10d6571ce2cb09ad8db3"
+}

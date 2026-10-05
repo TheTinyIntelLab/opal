@@ -1,0 +1,70 @@
+{
+  "norman-log2": {
+    "partner": {
+      "caveat": "Dependent folds; no independent replication or frontier claim.",
+      "covered_pairs": 88,
+      "gain_over_shared_global": -4.1883955177964005e-05,
+      "mse_averaged_predictions": {
+        "adaptive": 0.007063681204189605,
+        "additive": 0.008278601565980637,
+        "shared_global": 0.00700053061745485
+      },
+      "mse_per_holdout_occurrence": {
+        "adaptive": 0.007428811857693929,
+        "additive": 0.008430551862977977,
+        "shared_global": 0.007386927902515965
+      },
+      "skill": 0.11882258973853188
+    },
+    "random": {
+      "caveat": "Dependent folds; no independent replication or frontier claim.",
+      "covered_pairs": 88,
+      "gain_over_shared_global": 0.0001259127622890285,
+      "mse_averaged_predictions": {
+        "adaptive": 0.006368853894405613,
+        "additive": 0.008278601565980637,
+        "shared_global": 0.006494766656694642
+      },
+      "mse_per_holdout_occurrence": {
+        "adaptive": 0.006368853894405613,
+        "additive": 0.008278601565980637,
+        "shared_global": 0.006494766656694641
+      },
+      "skill": 0.23068481510485717
+    }
+  },
+  "wessels-log2": {
+    "partner": {
+      "caveat": "Dependent folds; no independent replication or frontier claim.",
+      "covered_pairs": 40,
+      "gain_over_shared_global": 7.296887750812657e-05,
+      "mse_averaged_predictions": {
+        "adaptive": 0.007942468856389611,
+        "additive": 0.014171394591662913,
+        "shared_global": 0.007781851429654318
+      },
+      "mse_per_holdout_occurrence": {
+        "adaptive": 0.009876916624333928,
+        "additive": 0.0140744580506767,
+        "shared_global": 0.009949885501842054
+      },
+      "skill": 0.2982382278045125
+    },
+    "random": {
+      "caveat": "Dependent folds; no independent replication or frontier claim.",
+      "covered_pairs": 40,
+      "gain_over_shared_global": 8.723098977075124e-05,
+      "mse_averaged_predictions": {
+        "adaptive": 0.005218711223052186,
+        "additive": 0.014171394591662913,
+        "shared_global": 0.0053059422128229365
+      },
+      "mse_per_holdout_occurrence": {
+        "adaptive": 0.005218711223052185,
+        "additive": 0.014171394591662913,
+        "shared_global": 0.0053059422128229365
+      },
+      "skill": 0.6317432847348436
+    }
+  }
+}
