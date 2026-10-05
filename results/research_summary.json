@@ -1,0 +1,402 @@
+[
+  {
+    "comparisons": {
+      "additive": {
+        "conditional_pair_bootstrap_95": [
+          0.0006450672353945354,
+          0.002189059600964064
+        ],
+        "draws": 2000,
+        "interpretation": "descriptive conditional sensitivity; shared controls and biological replication not captured",
+        "paired_mean_improvement": 0.0013458536838018766,
+        "target_product_weight_bootstrap_95": [
+          0.00022284530787792048,
+          0.003382627803801657
+        ]
+      },
+      "development_selected_simpler": {
+        "conditional_pair_bootstrap_95": [
+          -0.00023974622558296167,
+          0.00039352204878543553
+        ],
+        "draws": 2000,
+        "interpretation": "descriptive conditional sensitivity; shared controls and biological replication not captured",
+        "paired_mean_improvement": 9.899735238153151e-05,
+        "target_product_weight_bootstrap_95": [
+          -0.0004777752341936998,
+          0.0006914078068835838
+        ]
+      }
+    },
+    "run": "norman-log2-primary",
+    "selected": {
+      "component_panel_mse": 0.1298342464130421,
+      "component_panel_rule": "single effect / (control SD + 0.1), stable gene-ID ties",
+      "cosine": 0.33124521483786057,
+      "cosine_defined_pairs": 38,
+      "ensemble_spread_mean": 0.007793414924235674,
+      "fit_seconds": 2.3539367000012135,
+      "mae": 0.05880317730461847,
+      "members": 5,
+      "mse": 0.007169186632866119,
+      "pairs": 38,
+      "parameters_per_member": 41053,
+      "pearson": 0.7910956119937738,
+      "residual_norm_error": 5.172477093955482,
+      "single_member_mse": 0.007194791771504386,
+      "skill_additive": 0.15805598025054057,
+      "trainable_parameters_per_member": 37693
+    },
+    "selected_config": {
+      "depth": 1,
+      "embedding": 32,
+      "epochs": 80,
+      "family": "network",
+      "features": 16,
+      "id": "3befd53d8495",
+      "lr": 0.01,
+      "offset": true,
+      "rank": 2,
+      "weight_decay": 0.01,
+      "width": 64
+    },
+    "simpler": {
+      "component_panel_mse": 0.13599517281721,
+      "component_panel_rule": "single effect / (control SD + 0.1), stable gene-ID ties",
+      "cosine": 0.32692955554415937,
+      "cosine_defined_pairs": 38,
+      "ensemble_spread_mean": 0.0,
+      "fit_seconds": 0.11295659999814234,
+      "mae": 0.059261514127224954,
+      "members": 1,
+      "mse": 0.007268183985247651,
+      "pairs": 38,
+      "parameters_per_member": 2072862,
+      "pearson": 0.7938967561483213,
+      "residual_norm_error": 5.614953033852713,
+      "single_member_mse": 0.007268183985247651,
+      "skill_additive": 0.14642980379886994,
+      "trainable_parameters_per_member": null
+    }
+  },
+  {
+    "comparisons": {
+      "additive": {
+        "conditional_pair_bootstrap_95": [
+          0.007091394585997343,
+          0.009964819041233508
+        ],
+        "draws": 2000,
+        "interpretation": "descriptive conditional sensitivity; shared controls and biological replication not captured",
+        "paired_mean_improvement": 0.008513353906661277,
+        "target_product_weight_bootstrap_95": [
+          0.0057016060502445625,
+          0.011494294009060045
+        ]
+      },
+      "development_selected_simpler": {
+        "conditional_pair_bootstrap_95": [
+          -0.00155316947097019,
+          -0.0009182856017985088
+        ],
+        "draws": 2000,
+        "interpretation": "descriptive conditional sensitivity; shared controls and biological replication not captured",
+        "paired_mean_improvement": -0.0012086096671495477,
+        "target_product_weight_bootstrap_95": [
+          -0.0018910372175735507,
+          -0.0007045128752352191
+        ]
+      }
+    },
+    "run": "wessels-log2-primary",
+    "selected": {
+      "component_panel_mse": 0.052457804429063955,
+      "component_panel_rule": "single effect / (control SD + 0.1), stable gene-ID ties",
+      "cosine": 0.7721172072328732,
+      "cosine_defined_pairs": 18,
+      "ensemble_spread_mean": 0.026320680600169875,
+      "fit_seconds": 1.8059989000030328,
+      "mae": 0.05319020610992633,
+      "members": 5,
+      "mse": 0.005423558221834981,
+      "pairs": 18,
+      "parameters_per_member": 98046,
+      "pearson": 0.7892682349958351,
+      "residual_norm_error": 2.6505910582519494,
+      "single_member_mse": 0.006654226176683478,
+      "skill_additive": 0.6108493637736551,
+      "trainable_parameters_per_member": 97806
+    },
+    "selected_config": {
+      "depth": 1,
+      "embedding": 16,
+      "epochs": 80,
+      "family": "sum_network",
+      "features": 16,
+      "id": "f718fed1f77b",
+      "lr": 0.01,
+      "offset": true,
+      "rank": 8,
+      "weight_decay": 0.01,
+      "width": 64
+    },
+    "simpler": {
+      "component_panel_mse": 0.03820686943690807,
+      "component_panel_rule": "single effect / (control SD + 0.1), stable gene-ID ties",
+      "cosine": 0.8393013165086228,
+      "cosine_defined_pairs": 18,
+      "ensemble_spread_mean": 0.0,
+      "fit_seconds": 0.04843710000204737,
+      "mae": 0.04621524865839998,
+      "members": 1,
+      "mse": 0.0042149485546854335,
+      "pairs": 18,
+      "parameters_per_member": 1938210,
+      "pearson": 0.8296601426593581,
+      "residual_norm_error": 0.8469102869313068,
+      "single_member_mse": 0.004214948554685433,
+      "skill_additive": 0.6975694102234243,
+      "trainable_parameters_per_member": null
+    }
+  },
+  {
+    "comparisons": {
+      "additive": {
+        "conditional_pair_bootstrap_95": [
+          0.010582654455044638,
+          0.4330838922772352
+        ],
+        "draws": 2000,
+        "interpretation": "descriptive conditional sensitivity; shared controls and biological replication not captured",
+        "paired_mean_improvement": 0.20693637751557184,
+        "target_product_weight_bootstrap_95": [
+          -0.13523018064962888,
+          0.5460895154313824
+        ]
+      },
+      "development_selected_simpler": {
+        "conditional_pair_bootstrap_95": [
+          -0.06229010419368175,
+          0.5379078055311693
+        ],
+        "draws": 2000,
+        "interpretation": "descriptive conditional sensitivity; shared controls and biological replication not captured",
+        "paired_mean_improvement": 0.22032490105234975,
+        "target_product_weight_bootstrap_95": [
+          -0.2601196603305495,
+          0.8500042937845027
+        ]
+      }
+    },
+    "run": "norman-count-sensitivity",
+    "selected": {
+      "component_panel_mse": 315.17278535452203,
+      "component_panel_rule": "single effect / (control SD + 0.1), stable gene-ID ties",
+      "cosine": 0.4113837662829548,
+      "cosine_defined_pairs": 38,
+      "ensemble_spread_mean": 0.04577167859726492,
+      "fit_seconds": 3.3168022999998357,
+      "mae": 0.1221183965224576,
+      "members": 5,
+      "mse": 1.0391124908731497,
+      "pairs": 38,
+      "parameters_per_member": 103639,
+      "pearson": 0.8896875134788997,
+      "residual_norm_error": 53.71440565646558,
+      "single_member_mse": 1.0810798334330005,
+      "skill_additive": 0.1660740521831907,
+      "trainable_parameters_per_member": 100279
+    },
+    "selected_config": {
+      "depth": 1,
+      "embedding": 32,
+      "epochs": 80,
+      "family": "sum_network",
+      "features": 16,
+      "id": "8f3857709358",
+      "lr": 0.01,
+      "offset": true,
+      "rank": 8,
+      "weight_decay": 0.01,
+      "width": 64
+    },
+    "simpler": {
+      "component_panel_mse": 384.55758087536213,
+      "component_panel_rule": "single effect / (control SD + 0.1), stable gene-ID ties",
+      "cosine": 0.405035963727357,
+      "cosine_defined_pairs": 38,
+      "ensemble_spread_mean": 0.0,
+      "fit_seconds": 0.04100569999718573,
+      "mae": 0.11915232326209677,
+      "members": 1,
+      "mse": 1.2594373919254993,
+      "pairs": 38,
+      "parameters_per_member": 2072862,
+      "pearson": 0.9001770120520758,
+      "residual_norm_error": 53.66684749732177,
+      "single_member_mse": 1.2594373919255,
+      "skill_additive": -0.010744774990502526,
+      "trainable_parameters_per_member": null
+    }
+  },
+  {
+    "comparisons": {
+      "additive": {
+        "conditional_pair_bootstrap_95": [
+          0.028413661004363874,
+          0.10667906541097172
+        ],
+        "draws": 2000,
+        "interpretation": "descriptive conditional sensitivity; shared controls and biological replication not captured",
+        "paired_mean_improvement": 0.06438281117303105,
+        "target_product_weight_bootstrap_95": [
+          0.013123203383227615,
+          0.140837302586777
+        ]
+      },
+      "development_selected_simpler": {
+        "conditional_pair_bootstrap_95": [
+          -0.045493150416500254,
+          -0.011417291338364981
+        ],
+        "draws": 2000,
+        "interpretation": "descriptive conditional sensitivity; shared controls and biological replication not captured",
+        "paired_mean_improvement": -0.027717951010990304,
+        "target_product_weight_bootstrap_95": [
+          -0.06137932165518019,
+          -0.000724899504907751
+        ]
+      }
+    },
+    "run": "wessels-count-sensitivity",
+    "selected": {
+      "component_panel_mse": 40.56363444490099,
+      "component_panel_rule": "single effect / (control SD + 0.1), stable gene-ID ties",
+      "cosine": 0.514557833800741,
+      "cosine_defined_pairs": 18,
+      "ensemble_spread_mean": 0.04552792064734124,
+      "fit_seconds": 1.5531109999974433,
+      "mae": 0.10203133219508409,
+      "members": 5,
+      "mse": 0.1968441864368281,
+      "pairs": 18,
+      "parameters_per_member": 98046,
+      "pearson": 0.9094202446229838,
+      "residual_norm_error": 21.88084698698481,
+      "single_member_mse": 0.20923325875120713,
+      "skill_additive": 0.24646308292064967,
+      "trainable_parameters_per_member": 97806
+    },
+    "selected_config": {
+      "depth": 1,
+      "embedding": 16,
+      "epochs": 80,
+      "family": "sum_network",
+      "features": 16,
+      "id": "f718fed1f77b",
+      "lr": 0.01,
+      "offset": true,
+      "rank": 8,
+      "weight_decay": 0.01,
+      "width": 64
+    },
+    "simpler": {
+      "component_panel_mse": 36.905903525989714,
+      "component_panel_rule": "single effect / (control SD + 0.1), stable gene-ID ties",
+      "cosine": 0.6413910886980907,
+      "cosine_defined_pairs": 18,
+      "ensemble_spread_mean": 0.0,
+      "fit_seconds": 0.02362870000069961,
+      "mae": 0.0958402621691447,
+      "members": 1,
+      "mse": 0.16912623542583777,
+      "pairs": 18,
+      "parameters_per_member": 605760,
+      "pearson": 0.9244560563069998,
+      "residual_norm_error": 24.453712419498796,
+      "single_member_mse": 0.1691262354258378,
+      "skill_additive": 0.35256984548577663,
+      "trainable_parameters_per_member": null
+    }
+  },
+  {
+    "comparisons": {
+      "additive": {
+        "conditional_pair_bootstrap_95": [
+          -4.391742400856619e-05,
+          0.0032229034346175738
+        ],
+        "draws": 2000,
+        "interpretation": "descriptive conditional sensitivity; shared controls and biological replication not captured",
+        "paired_mean_improvement": 0.0015793790483930295,
+        "target_product_weight_bootstrap_95": [
+          -4.391742400856619e-05,
+          0.0032229034346175738
+        ]
+      },
+      "development_selected_simpler": {
+        "conditional_pair_bootstrap_95": [
+          -0.003190085973601011,
+          -0.001034424617056627
+        ],
+        "draws": 2000,
+        "interpretation": "descriptive conditional sensitivity; shared controls and biological replication not captured",
+        "paired_mean_improvement": -0.002286163818832371,
+        "target_product_weight_bootstrap_95": [
+          -0.003190085973601011,
+          -0.001034424617056627
+        ]
+      }
+    },
+    "run": "chemical-exploratory",
+    "selected": {
+      "component_panel_mse": 0.3313394512641216,
+      "component_panel_rule": "absolute single effect, stable ID ties",
+      "cosine": 0.4565582130903734,
+      "cosine_defined_pairs": 3,
+      "ensemble_spread_mean": 0.015389462048937898,
+      "fit_seconds": 0.06739419999939855,
+      "mae": 0.06350470396701968,
+      "members": 5,
+      "mse": 0.012229572850076814,
+      "pairs": 3,
+      "parameters_per_member": 18058,
+      "pearson": 0.7729905598413973,
+      "residual_norm_error": 4.832881070216185,
+      "single_member_mse": 0.01695426865200993,
+      "skill_additive": 0.11437356433749624,
+      "trainable_parameters_per_member": 18028
+    },
+    "selected_config": {
+      "depth": 1,
+      "embedding": 5,
+      "epochs": 80,
+      "family": "bilinear",
+      "features": 16,
+      "id": "4d161c1bd37c",
+      "lr": 0.01,
+      "offset": true,
+      "rank": 2,
+      "weight_decay": 0.01,
+      "width": 64
+    },
+    "simpler": {
+      "component_panel_mse": 0.22249265399308618,
+      "component_panel_rule": "absolute single effect, stable ID ties",
+      "cosine": 0.6076038967193632,
+      "cosine_defined_pairs": 3,
+      "ensemble_spread_mean": 0.0,
+      "fit_seconds": 0.0020556000017677434,
+      "mae": 0.056123244822837946,
+      "members": 1,
+      "mse": 0.009943409031244443,
+      "pairs": 3,
+      "parameters_per_member": 41834,
+      "pearson": 0.8126123713919883,
+      "residual_norm_error": 3.250306440411677,
+      "single_member_mse": 0.009943409031244441,
+      "skill_additive": 0.2799302145193031,
+      "trainable_parameters_per_member": null
+    }
+  }
+]
