@@ -17,9 +17,9 @@ def export_members(members, data, output, metadata):
     np.savez_compressed(output / "references.npz", **reference)
     configs = []
     for i, member in enumerate(members):
-        if member['type'] == 'noise_kernel':
+        if member['type'] in {'noise_kernel','covariance_kernel'}:
             arrays = member['model'].state()
-            config = {'type': 'noise_kernel', 'config': member['config'], 'seed': member['seed']}
+            config = {'type': member['type'], 'config': member['config'], 'seed': member['seed']}
         elif member['type'] == 'prior_kernel':
             arrays = member['model'].state()
             config = {'type': 'prior_kernel', 'config': member['config'], 'seed': member['seed']}
@@ -66,7 +66,11 @@ class Predictor:
         self.members = []
         for i, config in enumerate(self.manifest["members"]):
             arrays = load_npz(path / f"member_{i}.npz")
-            if config['type'] == 'noise_kernel':
+            if config['type'] == 'covariance_kernel':
+                from opal.models.covariance_kernel import CovarianceKernel
+                model=CovarianceKernel(self.reference['singles'],config['config']).restore(arrays)
+                fitted={'type':'covariance_kernel','model':model}
+            elif config['type'] == 'noise_kernel':
                 from opal.models.noise_kernel import NoiseAwareKernel
                 model = NoiseAwareKernel(self.reference['singles'], config['config']).restore(arrays)
                 fitted = {'type': 'noise_kernel', 'model': model}

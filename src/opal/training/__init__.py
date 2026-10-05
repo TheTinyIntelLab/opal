@@ -84,7 +84,7 @@ def fit(config, singles, pairs, doubles, seed=0, validation=None, single_partiti
 
 
 def predict(fitted, pairs):
-    if fitted['type'] == 'noise_kernel':
+    if fitted['type'] in {'noise_kernel','covariance_kernel'}:
         return fitted['model'].predict(pairs)
     if fitted['type'] == 'prior_kernel':
         return fitted['model'].predict(pairs)
