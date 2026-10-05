@@ -1,0 +1,2295 @@
+{
+  "partner": {
+    "covered_pairs": 88,
+    "mse_averaged_predictions": {
+      "GP": 0.007385031785815954,
+      "kernel": 0.006678823381662369,
+      "linear_mse_bounded": 0.007783603388816118,
+      "linear_weighted_bounded": 0.007879498414695263,
+      "retrieval": 0.008017649874091148,
+      "selected_transfer": 0.007783603388816118
+    },
+    "mse_per_occurrence": {
+      "GP": 0.0077152433657383225,
+      "kernel": 0.007181290522760591,
+      "linear_mse_bounded": 0.008810111800537158,
+      "linear_weighted_bounded": 0.008947377235957146,
+      "retrieval": 0.008679262053261342,
+      "selected_transfer": 0.008810111800537158
+    },
+    "records": [
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.00856948688751374
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.008401259615148128
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.008344262026044474
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008602893567691366
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.008466048832194917
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.00840925122792915
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008662553266205126
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.008620536040701796
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.008609958568543612
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.008344262026044474
+        },
+        "conditional_GP_interval_empirical_coverage": 0.8019677144218235,
+        "fold": 0,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.007038438957587971,
+          "kernel": 0.006719528860313009,
+          "linear_mse_bounded": 0.00838020952291393,
+          "linear_weighted_bounded": 0.008532504416129493,
+          "retrieval": 0.007349352688481858,
+          "selected_transfer": 0.00838020952291393
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.013229751612745769,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.009466274450170863,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.008913515392793286,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          4,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          31,
+          37,
+          40,
+          41,
+          42,
+          43,
+          44,
+          47,
+          48,
+          50,
+          51,
+          53,
+          54,
+          55,
+          56,
+          57,
+          61,
+          62,
+          64,
+          65,
+          66,
+          67,
+          69,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          80,
+          82,
+          83
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.009109887462543265
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.00919548151458247
+          }
+        ],
+        "validation": [
+          1,
+          2,
+          3,
+          7,
+          10,
+          17,
+          26,
+          29,
+          30,
+          32,
+          33,
+          34,
+          35,
+          36,
+          38,
+          39,
+          45,
+          46,
+          49,
+          52,
+          58,
+          59,
+          60,
+          63,
+          68,
+          70,
+          71,
+          79,
+          81,
+          84,
+          85,
+          86,
+          87
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.006778622537410162
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.006608972738802557
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.006550494935477825
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.006821425384407366
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.006671761792132218
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.006639784229121456
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.006902929172722784
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.006846218699233592
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.0068530192982205
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.006550494935477825
+        },
+        "conditional_GP_interval_empirical_coverage": 0.7776522639555681,
+        "fold": 1,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.010099939561275802,
+          "kernel": 0.009336015315905229,
+          "linear_mse_bounded": 0.01063349024315198,
+          "linear_weighted_bounded": 0.010791494609411019,
+          "retrieval": 0.012013409571653892,
+          "selected_transfer": 0.01063349024315198
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.01082660888749163,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.007935872780031382,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.007367919703741612,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          1,
+          3,
+          7,
+          8,
+          9,
+          10,
+          16,
+          17,
+          21,
+          22,
+          23,
+          27,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          42,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          54,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          68,
+          70,
+          71,
+          73,
+          74,
+          75,
+          78,
+          79,
+          80,
+          81,
+          82,
+          86,
+          87
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.006912607182705763
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.006962410301572983
+          }
+        ],
+        "validation": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          11,
+          12,
+          13,
+          14,
+          15,
+          18,
+          19,
+          20,
+          24,
+          25,
+          26,
+          28,
+          41,
+          43,
+          44,
+          53,
+          55,
+          63,
+          64,
+          65,
+          66,
+          67,
+          69,
+          72,
+          76,
+          77,
+          83,
+          84,
+          85
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.00921981848179272
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.009049045625506699
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.009051410458437239
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.00925351884558018
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.009113952948215206
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.009096400980434785
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.009317091994819362
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.00927312524390267
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.009274774399017046
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1
+          },
+          "mse": 0.009049045625506699
+        },
+        "conditional_GP_interval_empirical_coverage": 0.9374030177976576,
+        "fold": 2,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.006537522422985372,
+          "kernel": 0.006474081453259993,
+          "linear_mse_bounded": 0.008032117757190132,
+          "linear_weighted_bounded": 0.008195949832061348,
+          "retrieval": 0.0075031543896666945,
+          "selected_transfer": 0.008032117757190132
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.013923389372242094,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.010331449300742571,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.009842549805071684,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          32,
+          33,
+          34,
+          38,
+          39,
+          40,
+          42,
+          43,
+          44,
+          45,
+          46,
+          49,
+          50,
+          53,
+          54,
+          56,
+          57,
+          58,
+          59,
+          60,
+          63,
+          64,
+          67,
+          68,
+          69,
+          70,
+          72,
+          73,
+          74,
+          76,
+          77,
+          84,
+          85,
+          86,
+          87
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.009241570604331242
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.009278758856931447
+          }
+        ],
+        "validation": [
+          0,
+          3,
+          9,
+          19,
+          22,
+          27,
+          28,
+          29,
+          30,
+          31,
+          35,
+          36,
+          37,
+          41,
+          47,
+          48,
+          51,
+          52,
+          55,
+          61,
+          62,
+          65,
+          66,
+          71,
+          75,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008397726770318135
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.00826156707127276
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.00830874433236329
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008403198811402418
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.00828933145810286
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.008292547713683138
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008441053219637727
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.008402892564495721
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.008405870524933343
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1
+          },
+          "mse": 0.00826156707127276
+        },
+        "conditional_GP_interval_empirical_coverage": 0.9411714690886785,
+        "fold": 3,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.007263336405772539,
+          "kernel": 0.006599346130208454,
+          "linear_mse_bounded": 0.008171990595247678,
+          "linear_weighted_bounded": 0.008276640999497856,
+          "retrieval": 0.00815769610802507,
+          "selected_transfer": 0.008171990595247678
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.012762442477069572,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.009464731188084677,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.00891101708853475,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          11,
+          13,
+          15,
+          19,
+          26,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          37,
+          39,
+          41,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          51,
+          52,
+          53,
+          54,
+          55,
+          58,
+          59,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          73,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          83,
+          84,
+          85,
+          86,
+          87
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.008739825367595764
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.008800055638891127
+          }
+        ],
+        "validation": [
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          14,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          33,
+          38,
+          40,
+          42,
+          49,
+          50,
+          56,
+          57,
+          60,
+          62,
+          72,
+          74,
+          82
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008278733109755241
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.008162653758494828
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.008120556184409987
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008313712258354672
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.008210704970695168
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.008167495660625246
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008378533912815794
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.008341476288404159
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.008335026388548586
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.008120556184409987
+        },
+        "conditional_GP_interval_empirical_coverage": 0.8686497850575795,
+        "fold": 4,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.007465950632555536,
+          "kernel": 0.006634055650563236,
+          "linear_mse_bounded": 0.008691671825397594,
+          "linear_weighted_bounded": 0.008798222242256796,
+          "retrieval": 0.00816877342556846,
+          "selected_transfer": 0.008691671825397594
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.013142660204623157,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.009614387251970637,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.008945743089497088,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          12,
+          14,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          35,
+          36,
+          38,
+          40,
+          41,
+          48,
+          49,
+          51,
+          52,
+          55,
+          56,
+          57,
+          59,
+          60,
+          62,
+          63,
+          65,
+          66,
+          70,
+          71,
+          72,
+          77,
+          78,
+          79,
+          81,
+          82,
+          83,
+          84,
+          85
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.00900906295416879
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.009020823961290662
+          }
+        ],
+        "validation": [
+          1,
+          5,
+          8,
+          11,
+          13,
+          15,
+          16,
+          23,
+          34,
+          37,
+          39,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          50,
+          53,
+          54,
+          58,
+          61,
+          64,
+          67,
+          68,
+          69,
+          73,
+          74,
+          75,
+          76,
+          80,
+          86,
+          87
+        ]
+      }
+    ]
+  },
+  "random": {
+    "covered_pairs": 88,
+    "mse_averaged_predictions": {
+      "GP": 0.006870710756629705,
+      "kernel": 0.006292297039180994,
+      "linear_mse_bounded": 0.008189969696104527,
+      "linear_weighted_bounded": 0.008412550203502178,
+      "retrieval": 0.007512340787798166,
+      "selected_transfer": 0.008189969696104527
+    },
+    "mse_per_occurrence": {
+      "GP": 0.006870710829122265,
+      "kernel": 0.0062922972715663324,
+      "linear_mse_bounded": 0.008189969247177645,
+      "linear_weighted_bounded": 0.0084125502521596,
+      "retrieval": 0.007512340862620439,
+      "selected_transfer": 0.008189969247177645
+    },
+    "records": [
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007347961356812051
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.006932012351284387
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.006817082187531725
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007440309188126656
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.007086452082725452
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.0070369074142326024
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007609367195883994
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.007484304801669718
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.007500012501370246
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.006817082187531725
+        },
+        "conditional_GP_interval_empirical_coverage": 0.7521729580470049,
+        "fold": 0,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.00820394171051356,
+          "kernel": 0.007183031809562914,
+          "linear_mse_bounded": 0.00854066105600368,
+          "linear_weighted_bounded": 0.008643714475719594,
+          "retrieval": 0.008958161354783115,
+          "selected_transfer": 0.00854066105600368
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.010610359956006982,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.00771763723892713,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.007429770544711531,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          24,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          36,
+          37,
+          38,
+          39,
+          40,
+          42,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          53,
+          54,
+          55,
+          56,
+          60,
+          61,
+          62,
+          63,
+          65,
+          66,
+          68,
+          69,
+          71,
+          73,
+          74,
+          75,
+          76,
+          77,
+          79,
+          81,
+          83,
+          84,
+          85,
+          86,
+          87
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.007656537767369135
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.007738031226601616
+          }
+        ],
+        "validation": [
+          7,
+          12,
+          23,
+          25,
+          35,
+          41,
+          43,
+          52,
+          57,
+          58,
+          59,
+          64,
+          67,
+          70,
+          72,
+          78,
+          80,
+          82
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007733002508611315
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.007226657029861537
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.007169846769838121
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007846406393539415
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.007421400191138298
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.007392810615172261
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.0080525723500677
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.007902451032590707
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.00792197683816361
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.007169846769838121
+        },
+        "conditional_GP_interval_empirical_coverage": 0.8454715658895269,
+        "fold": 1,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.006772342420774275,
+          "kernel": 0.00633596559289581,
+          "linear_mse_bounded": 0.008620590237553422,
+          "linear_weighted_bounded": 0.00895263104832873,
+          "retrieval": 0.007107457591319953,
+          "selected_transfer": 0.008620590237553422
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.011110157398873624,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.00806913974968726,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.007806858505359722,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          1,
+          3,
+          5,
+          7,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          28,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          56,
+          57,
+          58,
+          59,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          74,
+          75,
+          78,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.008170925506213617
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.00824600873467162
+          }
+        ],
+        "validation": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          9,
+          16,
+          22,
+          27,
+          29,
+          37,
+          48,
+          55,
+          60,
+          73,
+          76,
+          77,
+          79
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007745688465396788
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.007281515895625745
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.007239026569952546
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007843304324263146
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.007458891587829951
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.0074336976915936135
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008021643815025712
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.007890647271925576
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.007903116945617072
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.007239026569952546
+        },
+        "conditional_GP_interval_empirical_coverage": 0.8351742027257418,
+        "fold": 2,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.006343174471710818,
+          "kernel": 0.005332956922884138,
+          "linear_mse_bounded": 0.007073134870620109,
+          "linear_weighted_bounded": 0.007363473974651124,
+          "retrieval": 0.00647259497866808,
+          "selected_transfer": 0.007073134870620109
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.011463448142468781,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.008482460654175489,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.00794992722367949,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          32,
+          35,
+          36,
+          37,
+          39,
+          40,
+          41,
+          43,
+          44,
+          45,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          67,
+          68,
+          70,
+          71,
+          72,
+          73,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.008197115856962055
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.008294500446456191
+          }
+        ],
+        "validation": [
+          3,
+          5,
+          11,
+          17,
+          20,
+          21,
+          31,
+          33,
+          34,
+          38,
+          42,
+          46,
+          53,
+          54,
+          66,
+          69,
+          74,
+          87
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008049963719398702
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.0075997184553267105
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.007573688986769422
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008142951897413545
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.007760198818659009
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.0077413708812811115
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.0083173871908931
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.008180851022579783
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.008195392922563086
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.007573688986769422
+        },
+        "conditional_GP_interval_empirical_coverage": 0.806202966925262,
+        "fold": 3,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.006262268372488435,
+          "kernel": 0.0062361490835887825,
+          "linear_mse_bounded": 0.008436641026665413,
+          "linear_weighted_bounded": 0.008608036800542422,
+          "retrieval": 0.006996939804534707,
+          "selected_transfer": 0.008436641026665413
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.012221598708885551,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.008603767693143215,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.008268921995569922,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          25,
+          27,
+          29,
+          30,
+          31,
+          33,
+          34,
+          35,
+          37,
+          38,
+          39,
+          41,
+          42,
+          43,
+          45,
+          46,
+          47,
+          48,
+          49,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          62,
+          64,
+          66,
+          67,
+          69,
+          70,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          87
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.008432290965304604
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.00851946391272133
+          }
+        ],
+        "validation": [
+          1,
+          15,
+          19,
+          24,
+          26,
+          28,
+          32,
+          36,
+          40,
+          44,
+          50,
+          61,
+          63,
+          65,
+          68,
+          71,
+          86
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007793642815452377
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.007416640131885292
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.007364845257574251
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007897456454242812
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.007558391232706672
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.00753280082813676
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008106492073886118
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.007969423853378994
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.007994934331548239
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.007364845257574251
+        },
+        "conditional_GP_interval_empirical_coverage": 0.8096416764955064,
+        "fold": 4,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.006730219751557664,
+          "kernel": 0.006374849860038617,
+          "linear_mse_bounded": 0.008298555608419463,
+          "linear_weighted_bounded": 0.008511237976719621,
+          "retrieval": 0.00802648050515458,
+          "selected_transfer": 0.008298555608419463
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.011713783188899306,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.008556651376221766,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.008165197184851787,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          40,
+          41,
+          42,
+          43,
+          44,
+          46,
+          48,
+          50,
+          52,
+          53,
+          54,
+          55,
+          57,
+          58,
+          59,
+          60,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          76,
+          77,
+          78,
+          79,
+          80,
+          82,
+          86,
+          87
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.007980365154605887
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted_bounded",
+              "linear": true,
+              "linear_clip": 8,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.008060817356686649
+          }
+        ],
+        "validation": [
+          10,
+          13,
+          14,
+          18,
+          30,
+          39,
+          45,
+          47,
+          49,
+          51,
+          56,
+          62,
+          75,
+          81,
+          83,
+          84,
+          85
+        ]
+      }
+    ]
+  },
+  "seconds": 239.2306779999999
+}

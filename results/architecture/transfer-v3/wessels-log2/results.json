@@ -1,0 +1,2441 @@
+{
+  "partner": {
+    "covered_pairs": 40,
+    "mse_averaged_predictions": {
+      "GP": 0.011543273610642196,
+      "kernel": 0.008102638310389822,
+      "linear_mse": 0.008977862077419938,
+      "linear_weighted": 0.00897816118726662,
+      "no_transfer": 0.011580603564114283,
+      "retrieval": 0.009865777101418893,
+      "selected_transfer": 0.008977862077419938,
+      "transfer_both": 0.012149517916484656,
+      "transfer_decoder": 0.012181236585998663,
+      "transfer_encoder": 0.01174940351025216
+    },
+    "mse_per_occurrence": {
+      "GP": 0.011882704391018777,
+      "kernel": 0.009867597240200135,
+      "linear_mse": 0.010943301970192644,
+      "linear_weighted": 0.011010682261984688,
+      "no_transfer": 0.016088530713857154,
+      "retrieval": 0.011692129361920852,
+      "selected_transfer": 0.010943301970192644,
+      "transfer_both": 0.01644748389076136,
+      "transfer_decoder": 0.016792260613454565,
+      "transfer_encoder": 0.015757365084110745
+    },
+    "records": [
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.013228726739201996
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.012934693662594058
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.012609223801835146
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.013285969501696415
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.013069673670128719
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.01285833623188919
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.01340088900599843
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.013341320785665451
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.013299303175645184
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.012609223801835146
+        },
+        "conditional_GP_interval_empirical_coverage": 0.8511299968523764,
+        "fold": 0,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.01209386654278884,
+          "kernel": 0.009858901992686714,
+          "linear_mse": 0.010806442088545008,
+          "linear_weighted": 0.010881917055429827,
+          "no_transfer": 0.013741721347086311,
+          "retrieval": 0.011335954670868514,
+          "selected_transfer": 0.010806442088545008,
+          "transfer_both": 0.01981662390919187,
+          "transfer_decoder": 0.015284092936974256,
+          "transfer_encoder": 0.020076484378306784
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.01673064358017364,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.012592007481807778,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.012357654879659159,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "no_transfer",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.01621084505796043
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_encoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_encoder": true,
+              "width": 32
+            },
+            "mse": 0.016709165127015427
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_decoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_decoder": true,
+              "width": 32
+            },
+            "mse": 0.01807247821075455
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_both",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer": true,
+              "width": 32
+            },
+            "mse": 0.019337003724902085
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.011878075432103528
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.011889061602432886
+          }
+        ],
+        "validation": [
+          0,
+          2,
+          7,
+          8,
+          9,
+          10,
+          12,
+          18,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          33
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.014240704897165488
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.014024353389253473
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.013672138083313932
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.014295069148604596
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.014136843398507725
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.01390587440265497
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.014403924966069787
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.014360987931736367
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.014313625723622
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.013672138083313932
+        },
+        "conditional_GP_interval_empirical_coverage": 0.9310223149942846,
+        "fold": 1,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.01181405090482771,
+          "kernel": 0.009188951228913498,
+          "linear_mse": 0.01052893102683363,
+          "linear_weighted": 0.010674554403202705,
+          "no_transfer": 0.018303596074350652,
+          "retrieval": 0.012640032326416114,
+          "selected_transfer": 0.01052893102683363,
+          "transfer_both": 0.016960963891356623,
+          "transfer_decoder": 0.01889703115047587,
+          "transfer_encoder": 0.015213802631314005
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.01767400446673667,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.013628430935692156,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.013657164002523002,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          20,
+          22,
+          25,
+          26,
+          30,
+          31,
+          39
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "no_transfer",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.018824704953791106
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_encoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_encoder": true,
+              "width": 32
+            },
+            "mse": 0.020012376575429314
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_decoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_decoder": true,
+              "width": 32
+            },
+            "mse": 0.020647562101396427
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_both",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer": true,
+              "width": 32
+            },
+            "mse": 0.020718697821362726
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.01308366971612606
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.01308402548862651
+          }
+        ],
+        "validation": [
+          4,
+          5,
+          9,
+          14,
+          15,
+          19,
+          21,
+          23,
+          24,
+          27,
+          28,
+          29,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.0144383577651259
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.014115205697982252
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.01387972890995821
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.014500482199576708
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.014259947888911429
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.014113674502915953
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.014624693844335363
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.014556844505462607
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.014531932865528185
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.01387972890995821
+        },
+        "conditional_GP_interval_empirical_coverage": 0.8873937677053825,
+        "fold": 2,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.010084723922557895,
+          "kernel": 0.00817093836184063,
+          "linear_mse": 0.009322317431170754,
+          "linear_weighted": 0.009375460472052372,
+          "no_transfer": 0.01352013323647412,
+          "retrieval": 0.00931867451700229,
+          "selected_transfer": 0.009322317431170754,
+          "transfer_both": 0.01366665621505745,
+          "transfer_decoder": 0.014210872456977521,
+          "transfer_encoder": 0.012798443389886938
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.017873768358363604,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.014277519393097867,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.013946177050439676,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          39
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "no_transfer",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.022243871658190032
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_encoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_encoder": true,
+              "width": 32
+            },
+            "mse": 0.020001986358118833
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_decoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_decoder": true,
+              "width": 32
+            },
+            "mse": 0.024415704292345776
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_both",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer": true,
+              "width": 32
+            },
+            "mse": 0.02347496993921741
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.012958337019970439
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.012977314368508366
+          }
+        ],
+        "validation": [
+          3,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          22,
+          28,
+          29,
+          30,
+          31,
+          38
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.013383164125963751
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.01323573011426949
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.012957250991485777
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.013441184992279835
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.013333648861825616
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.013150747157636332
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.013557283927844832
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.013528025284385814
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.013489257775869614
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.012957250991485777
+        },
+        "conditional_GP_interval_empirical_coverage": 0.8128288142452449,
+        "fold": 3,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.012136661688523216,
+          "kernel": 0.01080790856973453,
+          "linear_mse": 0.011591852562385175,
+          "linear_weighted": 0.011559117778861329,
+          "no_transfer": 0.019273006283338834,
+          "retrieval": 0.011738764259013108,
+          "selected_transfer": 0.011591852562385175,
+          "transfer_both": 0.015242727842152123,
+          "transfer_decoder": 0.019775390029380988,
+          "transfer_encoder": 0.015124712602064699
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.016887178132599826,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.012957452918992198,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.01280537638791364,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          34,
+          36,
+          38
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "no_transfer",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.019515402418727623
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_encoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_encoder": true,
+              "width": 32
+            },
+            "mse": 0.019664539940876857
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_decoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_decoder": true,
+              "width": 32
+            },
+            "mse": 0.02288390743720081
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_both",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer": true,
+              "width": 32
+            },
+            "mse": 0.021279546779307323
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.012242154082731922
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.0122574053091146
+          }
+        ],
+        "validation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10,
+          17,
+          26,
+          31,
+          35,
+          37,
+          39
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.012965984856519364
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.012678769074137279
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.012425587425421276
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.013022748744718433
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.012807668840374742
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.01264304761869993
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.013137270852732868
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.013075930861660624
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.013044526060854003
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.012425587425421276
+        },
+        "conditional_GP_interval_empirical_coverage": 0.8332996087953595,
+        "fold": 4,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.013293654987766601,
+          "kernel": 0.011554280712392916,
+          "linear_mse": 0.012624732070488844,
+          "linear_weighted": 0.012691604778981838,
+          "no_transfer": 0.014980731096914668,
+          "retrieval": 0.013114125312631083,
+          "selected_transfer": 0.012624732070488844,
+          "transfer_both": 0.016126409023091082,
+          "transfer_decoder": 0.015149938992848024,
+          "transfer_encoder": 0.015459003345394696
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.01665237236426389,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.012505878436440434,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.012420156645390173,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          17,
+          22,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          31,
+          33,
+          35,
+          37,
+          38
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "no_transfer",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.017928469287451673
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_encoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_encoder": true,
+              "width": 32
+            },
+            "mse": 0.019724126725121385
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_decoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_decoder": true,
+              "width": 32
+            },
+            "mse": 0.02074127755622095
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_both",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer": true,
+              "width": 32
+            },
+            "mse": 0.019964525702011852
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.011546617737205268
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.011564245723446949
+          }
+        ],
+        "validation": [
+          1,
+          7,
+          11,
+          16,
+          18,
+          19,
+          20,
+          21,
+          25,
+          30,
+          32,
+          34,
+          36,
+          39
+        ]
+      }
+    ]
+  },
+  "random": {
+    "covered_pairs": 40,
+    "mse_averaged_predictions": {
+      "GP": 0.008566189232049944,
+      "kernel": 0.005031838714990339,
+      "linear_mse": 0.006618344682169252,
+      "linear_weighted": 0.006678273242308319,
+      "no_transfer": 0.007193411622355216,
+      "retrieval": 0.00832337138404631,
+      "selected_transfer": 0.006618344682169252,
+      "transfer_both": 0.007398091207353931,
+      "transfer_decoder": 0.007774760141847349,
+      "transfer_encoder": 0.007258687638758564
+    },
+    "mse_per_occurrence": {
+      "GP": 0.008566189232049944,
+      "kernel": 0.00503183871499034,
+      "linear_mse": 0.006618344682169252,
+      "linear_weighted": 0.0066782732423083194,
+      "no_transfer": 0.007193411622355217,
+      "retrieval": 0.00832337138404631,
+      "selected_transfer": 0.006618344682169252,
+      "transfer_both": 0.00739809120735393,
+      "transfer_decoder": 0.00777476014184735,
+      "transfer_encoder": 0.007258687638758565
+    },
+    "records": [
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.011508265236308681
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.010007823487360727
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.00960665487300752
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.011671297971786839
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.010564228571175109
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.010387234156119031
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.0119796282992159
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.011671983072383294
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.011677823892489085
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.00960665487300752
+        },
+        "conditional_GP_interval_empirical_coverage": 0.824704910292729,
+        "fold": 0,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.010421117635537944,
+          "kernel": 0.007280373366438729,
+          "linear_mse": 0.00870065870664501,
+          "linear_weighted": 0.00878169783201261,
+          "no_transfer": 0.010480301935964165,
+          "retrieval": 0.010560180756384256,
+          "selected_transfer": 0.00870065870664501,
+          "transfer_both": 0.009608219091543647,
+          "transfer_decoder": 0.012689670974952194,
+          "transfer_encoder": 0.009585828596672254
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.015433147876119085,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.008871848709707145,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.008539596415684247,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          35,
+          37,
+          38
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "no_transfer",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.007757682114269837
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_encoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_encoder": true,
+              "width": 32
+            },
+            "mse": 0.008475844196644742
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_decoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_decoder": true,
+              "width": 32
+            },
+            "mse": 0.0080245302695097
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_both",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer": true,
+              "width": 32
+            },
+            "mse": 0.008973827225436468
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.007192391275517825
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.007232929366614669
+          }
+        ],
+        "validation": [
+          0,
+          2,
+          8,
+          13,
+          26,
+          33,
+          36,
+          39
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.01168906068376398
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.010240428192249917
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.00994467693319932
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.011848660433957204
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.010770258059478581
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.01066159756853389
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.012148892814487146
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.011842680628052844
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.011864531965632048
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.00994467693319932
+        },
+        "conditional_GP_interval_empirical_coverage": 0.888833805476865,
+        "fold": 1,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.007145285344252953,
+          "kernel": 0.003990969276309022,
+          "linear_mse": 0.0055802767613627,
+          "linear_weighted": 0.005670136051445938,
+          "no_transfer": 0.005814807140290641,
+          "retrieval": 0.006361559476376051,
+          "selected_transfer": 0.0055802767613627,
+          "transfer_both": 0.006698642126384953,
+          "transfer_decoder": 0.00578867403900699,
+          "transfer_encoder": 0.006428402105599127
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.015129772430630371,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.010000694075840824,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.009375736855237475,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          17,
+          18,
+          19,
+          21,
+          24,
+          25,
+          26,
+          27,
+          29,
+          30,
+          32,
+          33,
+          36,
+          37,
+          38,
+          39
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "no_transfer",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.00941411868866569
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_encoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_encoder": true,
+              "width": 32
+            },
+            "mse": 0.009817690606813846
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_decoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_decoder": true,
+              "width": 32
+            },
+            "mse": 0.009927257218546556
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_both",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer": true,
+              "width": 32
+            },
+            "mse": 0.010179780995861068
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.008246701763866503
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.008289564349738479
+          }
+        ],
+        "validation": [
+          16,
+          20,
+          22,
+          23,
+          28,
+          31,
+          34,
+          35
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.011307912761711747
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.009815160825165503
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.009598969243605492
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.01147436821650089
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.010341027656878138
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.010289778096348016
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.011794442360701197
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.011459057124945734
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.011501913604806591
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.009598969243605492
+        },
+        "conditional_GP_interval_empirical_coverage": 0.8483120868744098,
+        "fold": 2,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.008725687984243799,
+          "kernel": 0.005087894402333677,
+          "linear_mse": 0.007217853125282353,
+          "linear_weighted": 0.007257050890268757,
+          "no_transfer": 0.007380634872041631,
+          "retrieval": 0.008721380838955838,
+          "selected_transfer": 0.007217853125282353,
+          "transfer_both": 0.007538809790496937,
+          "transfer_decoder": 0.007330556464501079,
+          "transfer_encoder": 0.007788634103679408
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.015115829438078345,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.009797053449061533,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.008965115920024228,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          13,
+          16,
+          17,
+          18,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26,
+          28,
+          29,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "no_transfer",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.009245323293064978
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_encoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_encoder": true,
+              "width": 32
+            },
+            "mse": 0.009062979802228767
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_decoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_decoder": true,
+              "width": 32
+            },
+            "mse": 0.009652975827888524
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_both",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer": true,
+              "width": 32
+            },
+            "mse": 0.009304790828746445
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.007591535482338432
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.0076216526305962345
+          }
+        ],
+        "validation": [
+          10,
+          11,
+          12,
+          14,
+          15,
+          21,
+          27,
+          30
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.010939115553930763
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.00960650977781035
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.00933376708657429
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.011081974266866116
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.010089551622067271
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.009986491421596485
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.011353944625246557
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.01107322549265997
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.011091515774914061
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.00933376708657429
+        },
+        "conditional_GP_interval_empirical_coverage": 0.822415014164306,
+        "fold": 3,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.009364624126445398,
+          "kernel": 0.004857553818276068,
+          "linear_mse": 0.006395031425214531,
+          "linear_weighted": 0.006422856044146438,
+          "no_transfer": 0.006408603226617427,
+          "retrieval": 0.009256918090160956,
+          "selected_transfer": 0.006395031425214531,
+          "transfer_both": 0.006702083318189184,
+          "transfer_decoder": 0.006806351140773162,
+          "transfer_encoder": 0.006455988059845236
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.014907263704335542,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.009462151455679042,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.008563981639762333,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          2,
+          3,
+          4,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          26,
+          27,
+          28,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "no_transfer",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.010298441049524385
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_encoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_encoder": true,
+              "width": 32
+            },
+            "mse": 0.009180779997590219
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_decoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_decoder": true,
+              "width": 32
+            },
+            "mse": 0.0111573298331031
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_both",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer": true,
+              "width": 32
+            },
+            "mse": 0.009718334562335543
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.007852888520133675
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.00788957690261097
+          }
+        ],
+        "validation": [
+          1,
+          5,
+          6,
+          7,
+          9,
+          18,
+          25,
+          29
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.011751679930803186
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.010204466821455392
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.009851479240324743
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.011927582956860057
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.010757981773487107
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.010602878729681646
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.01226461510397955
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.01192603788370264
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.011939146827296626
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.009851479240324743
+        },
+        "conditional_GP_interval_empirical_coverage": 0.8782459867799811,
+        "fold": 4,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.007174231069769622,
+          "kernel": 0.0039424027115942005,
+          "linear_mse": 0.005197903392341663,
+          "linear_weighted": 0.005259625393667853,
+          "no_transfer": 0.005882710936862222,
+          "retrieval": 0.006716817758354446,
+          "selected_transfer": 0.005197903392341663,
+          "transfer_both": 0.006442701710154929,
+          "transfer_decoder": 0.006258548090003325,
+          "transfer_encoder": 0.006034585327996798
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.015642514962191552,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.010055479768439764,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.009041615166715814,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          33,
+          34,
+          35,
+          36,
+          39
+        ],
+        "transfer_search": [
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "no_transfer",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.00925386523255416
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_encoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_encoder": true,
+              "width": 32
+            },
+            "mse": 0.008802050396649613
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_decoder",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer_decoder": true,
+              "width": 32
+            },
+            "mse": 0.008889394046532748
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "transfer_both",
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "transfer": true,
+              "width": 32
+            },
+            "mse": 0.00906241149539696
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_mse",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 0,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.008025067066560072
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "epochs": 120,
+              "label": "linear_weighted",
+              "linear": true,
+              "noise": true,
+              "priors": true,
+              "rank": 8,
+              "signal_loss": 1,
+              "structured": true,
+              "width": 32
+            },
+            "mse": 0.008064977451080044
+          }
+        ],
+        "validation": [
+          3,
+          4,
+          17,
+          19,
+          24,
+          32,
+          37,
+          38
+        ]
+      }
+    ]
+  },
+  "seconds": 522.0258307999993
+}
