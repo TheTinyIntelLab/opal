@@ -1,0 +1,36 @@
+{
+  "covariance_checks": [
+    {
+      "dataset": "norman-log2",
+      "maximum_absolute_difference": 8.881784197001252e-16,
+      "query_responses_read": false
+    },
+    {
+      "dataset": "wessels-log2",
+      "maximum_absolute_difference": 1.7763568394002505e-15,
+      "query_responses_read": false
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "maximum_absolute_difference": 4.4853010194856324e-14,
+      "query_responses_read": false
+    }
+  ],
+  "dependencies": "existing pinned scientific environment",
+  "environment": {
+    "packages": {
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.8",
+      "numpy": "2.4.0",
+      "pytest": "9.0.2",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.16.3",
+      "torch": "2.9.1"
+    },
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python": "3.14.0"
+  },
+  "isolated_package_import": true,
+  "wheel_sha256": "68d8b7f6becfee624cb3fce9ae0be2f14d8ee462d30f939e0d302a134ad1640b"
+}

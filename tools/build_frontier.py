@@ -48,6 +48,7 @@ def main(argv=None):
         stage('common-condition coverage','results/architecture/common-coverage-held-v1/results.json','tools/study_coverage.py','--partner-policy','held','--output','results/architecture/common-coverage-held-v1')
         for version,seed in [(2,20261006),(3,20261007)]:
             stage('common-condition coverage seed '+str(seed),f'results/architecture/common-coverage-held-v{version}/results.json','tools/study_coverage.py','--seed',str(seed),'--partner-policy','held','--output',f'results/architecture/common-coverage-held-v{version}')
+        run('main.py','ceiling','--skip-paper','--skip-tests')
         run('-m','pytest','tests','-q','-p','no:cacheprovider','--basetemp','.pytest-final-architecture-tmp')
         run('tools/report_architecture.py',*(['--allow-partial'] if args.skip_transfer or args.skip_tabular else []))
         if not args.skip_paper:run('tools/build_paper.py')

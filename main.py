@@ -9,6 +9,9 @@ if __name__ == "__main__":
     if len(sys.argv) == 1 or sys.argv[1] == "research":
         from tools.run_research import main as research_main
         research_main(sys.argv[2:] if len(sys.argv) > 1 else [])
+    elif sys.argv[1] == 'ceiling':
+        from tools.build_ceiling import main as ceiling_main
+        ceiling_main(sys.argv[2:])
     elif sys.argv[1] == 'frontier':
         from tools.build_frontier import main as frontier_main
         frontier_main(sys.argv[2:])

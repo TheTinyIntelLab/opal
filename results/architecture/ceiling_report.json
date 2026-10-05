@@ -1,0 +1,2468 @@
+{
+  "amendments": [
+    "retuned-curves-v1 retained; v2 restores identical full-size inner partitions by canonical pair order"
+  ],
+  "covariance_scores": [
+    {
+      "dataset": "norman-log2",
+      "model": "correlated",
+      "mse": 0.006202035207238444,
+      "protocol": "random",
+      "reduction_percent": 0.9710330513350351,
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "diagonal",
+      "mse": 0.0061841347530232045,
+      "protocol": "random",
+      "reduction_percent": 1.2568526943416036,
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "permuted_covariance",
+      "mse": 0.006275600440615265,
+      "protocol": "random",
+      "reduction_percent": -0.2035957311880887,
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "unweighted",
+      "mse": 0.00626284954628829,
+      "protocol": "random",
+      "reduction_percent": 0.0,
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "correlated",
+      "mse": 0.0070120137998383085,
+      "protocol": "partner",
+      "reduction_percent": 1.3000181986847714,
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "diagonal",
+      "mse": 0.007016714221079642,
+      "protocol": "partner",
+      "reduction_percent": 1.2338558230504226,
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "permuted_covariance",
+      "mse": 0.007104366550088502,
+      "protocol": "partner",
+      "reduction_percent": 7.56958326353363e-05,
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "unweighted",
+      "mse": 0.007104371927801986,
+      "protocol": "partner",
+      "reduction_percent": 0.0,
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "correlated",
+      "mse": 0.006126650994815605,
+      "protocol": "random",
+      "reduction_percent": 1.4514861471283669,
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "diagonal",
+      "mse": 0.006126644845594501,
+      "protocol": "random",
+      "reduction_percent": 1.4515850586873325,
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "permuted_covariance",
+      "mse": 0.006226367629790633,
+      "protocol": "random",
+      "reduction_percent": -0.1524776157028951,
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "unweighted",
+      "mse": 0.006216888266790518,
+      "protocol": "random",
+      "reduction_percent": 0.0,
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "correlated",
+      "mse": 0.007141589472086146,
+      "protocol": "partner",
+      "reduction_percent": 0.7739118086448671,
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "diagonal",
+      "mse": 0.007135401916407573,
+      "protocol": "partner",
+      "reduction_percent": 0.8598824385516624,
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "permuted_covariance",
+      "mse": 0.00718627638568848,
+      "protocol": "partner",
+      "reduction_percent": 0.15302654949688188,
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "unweighted",
+      "mse": 0.007197290150463013,
+      "protocol": "partner",
+      "reduction_percent": 0.0,
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "correlated",
+      "mse": 0.006214226323687826,
+      "protocol": "random",
+      "reduction_percent": 1.4680725586452503,
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "diagonal",
+      "mse": 0.006213228448532753,
+      "protocol": "random",
+      "reduction_percent": 1.4838947313911,
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "permuted_covariance",
+      "mse": 0.006306814943193386,
+      "protocol": "random",
+      "reduction_percent": 0.0,
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "unweighted",
+      "mse": 0.006306814943193386,
+      "protocol": "random",
+      "reduction_percent": 0.0,
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "correlated",
+      "mse": 0.007031382874659874,
+      "protocol": "partner",
+      "reduction_percent": 1.1195228716658234,
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "diagonal",
+      "mse": 0.0070189940676549266,
+      "protocol": "partner",
+      "reduction_percent": 1.2937433869665615,
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "permuted_covariance",
+      "mse": 0.007110992057141918,
+      "protocol": "partner",
+      "reduction_percent": 0.0,
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "model": "unweighted",
+      "mse": 0.007110992057141918,
+      "protocol": "partner",
+      "reduction_percent": 0.0,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "correlated",
+      "mse": 0.004969909836506374,
+      "protocol": "random",
+      "reduction_percent": 0.35778566753416063,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "diagonal",
+      "mse": 0.004969909836506374,
+      "protocol": "random",
+      "reduction_percent": 0.35778566753416063,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "permuted_covariance",
+      "mse": 0.0049890457956279395,
+      "protocol": "random",
+      "reduction_percent": -0.025873071351267818,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "unweighted",
+      "mse": 0.004987755310137721,
+      "protocol": "random",
+      "reduction_percent": 0.0,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "correlated",
+      "mse": 0.009588501068537833,
+      "protocol": "partner",
+      "reduction_percent": -0.08018498625728121,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "diagonal",
+      "mse": 0.009588175709413243,
+      "protocol": "partner",
+      "reduction_percent": -0.07678904343544346,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "permuted_covariance",
+      "mse": 0.009579166082461166,
+      "protocol": "partner",
+      "reduction_percent": 0.01724913057901123,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "unweighted",
+      "mse": 0.00958081869038761,
+      "protocol": "partner",
+      "reduction_percent": 0.0,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "correlated",
+      "mse": 0.0050254059020539395,
+      "protocol": "random",
+      "reduction_percent": 0.6586201081065335,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "diagonal",
+      "mse": 0.005039040563619442,
+      "protocol": "random",
+      "reduction_percent": 0.3890924081206726,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "permuted_covariance",
+      "mse": 0.005058723673380368,
+      "protocol": "random",
+      "reduction_percent": 0.0,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "unweighted",
+      "mse": 0.005058723673380368,
+      "protocol": "random",
+      "reduction_percent": 0.0,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "correlated",
+      "mse": 0.009777251765720116,
+      "protocol": "partner",
+      "reduction_percent": -0.4215259688127748,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "diagonal",
+      "mse": 0.009777257483919529,
+      "protocol": "partner",
+      "reduction_percent": -0.4215847000722972,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "permuted_covariance",
+      "mse": 0.00973692603809607,
+      "protocol": "partner",
+      "reduction_percent": -0.007343006069859825,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "unweighted",
+      "mse": 0.00973621110752347,
+      "protocol": "partner",
+      "reduction_percent": 0.0,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "correlated",
+      "mse": 0.004995891856051539,
+      "protocol": "random",
+      "reduction_percent": 1.0613405900675943,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "diagonal",
+      "mse": 0.00498370369272087,
+      "protocol": "random",
+      "reduction_percent": 1.3027150183681169,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "permuted_covariance",
+      "mse": 0.005050600616952767,
+      "protocol": "random",
+      "reduction_percent": -0.022111897998078334,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "unweighted",
+      "mse": 0.005049484080183528,
+      "protocol": "random",
+      "reduction_percent": 0.0,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "correlated",
+      "mse": 0.009722604812625543,
+      "protocol": "partner",
+      "reduction_percent": -0.06522676597453536,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "diagonal",
+      "mse": 0.009722604853591558,
+      "protocol": "partner",
+      "reduction_percent": -0.06522718759751633,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "permuted_covariance",
+      "mse": 0.009719270235843612,
+      "protocol": "partner",
+      "reduction_percent": -0.03090724067416062,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "model": "unweighted",
+      "mse": 0.009716267205753784,
+      "protocol": "partner",
+      "reduction_percent": 0.0,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "correlated",
+      "mse": 0.007213161758441751,
+      "protocol": "random",
+      "reduction_percent": 0.5555673080709145,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "diagonal",
+      "mse": 0.007258077996238584,
+      "protocol": "random",
+      "reduction_percent": -0.06367151339794486,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "permuted_covariance",
+      "mse": 0.007252219141538459,
+      "protocol": "random",
+      "reduction_percent": 0.017101731593605063,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "unweighted",
+      "mse": 0.007253459608731995,
+      "protocol": "random",
+      "reduction_percent": 0.0,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "correlated",
+      "mse": 0.016106483188778577,
+      "protocol": "partner",
+      "reduction_percent": -0.28280513585061673,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "diagonal",
+      "mse": 0.01608708026663776,
+      "protocol": "partner",
+      "reduction_percent": -0.16199791572020228,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "permuted_covariance",
+      "mse": 0.01606176375354426,
+      "protocol": "partner",
+      "reduction_percent": -0.004371268144920393,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "unweighted",
+      "mse": 0.016061061681471242,
+      "protocol": "partner",
+      "reduction_percent": 0.0,
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "correlated",
+      "mse": 0.006816542379783486,
+      "protocol": "random",
+      "reduction_percent": 0.895540468931233,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "diagonal",
+      "mse": 0.006816542379783486,
+      "protocol": "random",
+      "reduction_percent": 0.895540468931233,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "permuted_covariance",
+      "mse": 0.006880565430302564,
+      "protocol": "random",
+      "reduction_percent": -0.03527892097552332,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "unweighted",
+      "mse": 0.006878138897116464,
+      "protocol": "random",
+      "reduction_percent": 0.0,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "correlated",
+      "mse": 0.01616967215784368,
+      "protocol": "partner",
+      "reduction_percent": -0.4128069416438507,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "diagonal",
+      "mse": 0.016159645833513044,
+      "protocol": "partner",
+      "reduction_percent": -0.3505439990486803,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "permuted_covariance",
+      "mse": 0.016103276005371436,
+      "protocol": "partner",
+      "reduction_percent": -0.0004903544686962746,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "unweighted",
+      "mse": 0.016103197042625136,
+      "protocol": "partner",
+      "reduction_percent": 0.0,
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "correlated",
+      "mse": 0.00704395268513401,
+      "protocol": "random",
+      "reduction_percent": 0.2937637384601066,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "diagonal",
+      "mse": 0.007026561108660913,
+      "protocol": "random",
+      "reduction_percent": 0.5399392467719255,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "permuted_covariance",
+      "mse": 0.0070647062302672675,
+      "protocol": "random",
+      "reduction_percent": 0.0,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "unweighted",
+      "mse": 0.0070647062302672675,
+      "protocol": "random",
+      "reduction_percent": 0.0,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "correlated",
+      "mse": 0.016284954452127905,
+      "protocol": "partner",
+      "reduction_percent": -0.9564020157132092,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "diagonal",
+      "mse": 0.01619415949894548,
+      "protocol": "partner",
+      "reduction_percent": -0.39353081939339507,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "permuted_covariance",
+      "mse": 0.016130429125367895,
+      "protocol": "partner",
+      "reduction_percent": 0.0015571272400261016,
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "model": "unweighted",
+      "mse": 0.016130680300584857,
+      "protocol": "partner",
+      "reduction_percent": 0.0,
+      "version": 3
+    }
+  ],
+  "dependency_hashes": {
+    "tools\\improve_residual_model.py": "b095a1531f9bfbd181b0593d4a8c93a76f29889c74c27409828f773f855fb459",
+    "tools\\prepare_architecture.py": "80ad073c32b1612096e091dc3f9f1ee24de3979d30831d027b49355281384d94"
+  },
+  "inputs": {
+    "results\\architecture\\joint-uncertainty-v1\\norman-log2\\protocol.json": "34826844df993e35d51d1cbfde95006c37bd0145972dac22f3cf83705431272c",
+    "results\\architecture\\joint-uncertainty-v1\\norman-log2\\results.json": "bb1211d9a59c74a992db8dbdc96e137ff700a884ba11f29a32b78e6274b3aa36",
+    "results\\architecture\\joint-uncertainty-v1\\norman-log2\\source_snapshot.zip": "5da43661c5fa092ca5ce223944341aa682984475619e4ee939be4e2ba7a1af72",
+    "results\\architecture\\joint-uncertainty-v1\\wessels-expanded-protected-log2\\protocol.json": "2a90f6ee984157c429bc094b16a6fd9f657589c661e65744e324773c01510173",
+    "results\\architecture\\joint-uncertainty-v1\\wessels-expanded-protected-log2\\results.json": "2cd5572521ea679cdfcdb0b9ecf5c53e1581f345197fb050686673f7dc6f82ac",
+    "results\\architecture\\joint-uncertainty-v1\\wessels-expanded-protected-log2\\source_snapshot.zip": "5da43661c5fa092ca5ce223944341aa682984475619e4ee939be4e2ba7a1af72",
+    "results\\architecture\\joint-uncertainty-v1\\wessels-log2\\protocol.json": "cb36ea3f2b63c6ff08113393f79f911634e8eae02a0ce0065b091e5ed5947cc1",
+    "results\\architecture\\joint-uncertainty-v1\\wessels-log2\\results.json": "d8cbd8499d96d0f1afd4c9aef021ce91e2e98630fd3510bff26e5373838d6964",
+    "results\\architecture\\joint-uncertainty-v1\\wessels-log2\\source_snapshot.zip": "5da43661c5fa092ca5ce223944341aa682984475619e4ee939be4e2ba7a1af72",
+    "results\\architecture\\joint-uncertainty-v2\\norman-log2\\protocol.json": "cbd8fdaa70ad8f7fda7d22f880410ce5f525bd2cd8a4d9e04caeba0966832d2d",
+    "results\\architecture\\joint-uncertainty-v2\\norman-log2\\results.json": "8656231a5fe947f033eb3501050054d705f45185a3391addbad17701f8a90f13",
+    "results\\architecture\\joint-uncertainty-v2\\norman-log2\\source_snapshot.zip": "575a4bac3ddf265d4aeee176be98c4e0fd372238c907cfed5fcff60f3c417f19",
+    "results\\architecture\\joint-uncertainty-v2\\wessels-expanded-protected-log2\\protocol.json": "6d9fb18a82b0adecc54ac2e7809694550ba636aeae488bb2f3f81d867369835d",
+    "results\\architecture\\joint-uncertainty-v2\\wessels-expanded-protected-log2\\results.json": "e5b9db636308937b7aece7d61b02e9f9997db66ce0eff4d22eda76deee11b7bc",
+    "results\\architecture\\joint-uncertainty-v2\\wessels-expanded-protected-log2\\source_snapshot.zip": "575a4bac3ddf265d4aeee176be98c4e0fd372238c907cfed5fcff60f3c417f19",
+    "results\\architecture\\joint-uncertainty-v2\\wessels-log2\\protocol.json": "9067a0d47808211c370588b958bbc7657513669413aec11f3f28441571d15d22",
+    "results\\architecture\\joint-uncertainty-v2\\wessels-log2\\results.json": "7605d26c95651f9d689fe739e6fe281412a91a571fae156476105b8b8341c745",
+    "results\\architecture\\joint-uncertainty-v2\\wessels-log2\\source_snapshot.zip": "575a4bac3ddf265d4aeee176be98c4e0fd372238c907cfed5fcff60f3c417f19",
+    "results\\architecture\\joint-uncertainty-v3\\norman-log2\\protocol.json": "efbe229e192508aeb9ef84687b03209aed14a9dc20b89d51f447807985d1c07f",
+    "results\\architecture\\joint-uncertainty-v3\\norman-log2\\results.json": "d8b73d21dd3a85dd35964809c7e7d6f0fbc62d36bc7c92dddfee1cc8e141c8b3",
+    "results\\architecture\\joint-uncertainty-v3\\norman-log2\\source_snapshot.zip": "575a4bac3ddf265d4aeee176be98c4e0fd372238c907cfed5fcff60f3c417f19",
+    "results\\architecture\\joint-uncertainty-v3\\wessels-expanded-protected-log2\\protocol.json": "622dcd26ca93b5130844bc6669bcb6a107ec458b700f3992849f2bbc491d1ea2",
+    "results\\architecture\\joint-uncertainty-v3\\wessels-expanded-protected-log2\\results.json": "068a92383fc5b3bcae61c4abcd72f40b0fbabb683c9a563139371c7532bf6826",
+    "results\\architecture\\joint-uncertainty-v3\\wessels-expanded-protected-log2\\source_snapshot.zip": "575a4bac3ddf265d4aeee176be98c4e0fd372238c907cfed5fcff60f3c417f19",
+    "results\\architecture\\joint-uncertainty-v3\\wessels-log2\\protocol.json": "0db6e88cc6fde10b524eb957711b70595450f1998e0045737144c5ee5f14631c",
+    "results\\architecture\\joint-uncertainty-v3\\wessels-log2\\results.json": "6ad08a8c416c7b9912e88d529f8be15217e3dabea776e7dee248845648abda3d",
+    "results\\architecture\\joint-uncertainty-v3\\wessels-log2\\source_snapshot.zip": "575a4bac3ddf265d4aeee176be98c4e0fd372238c907cfed5fcff60f3c417f19",
+    "results\\architecture\\retuned-curves-v2\\norman-log2\\protocol.json": "741ee9214f1a3025eb8f93c073ae3f633a3b16a07722da5e17026d88a7b385af",
+    "results\\architecture\\retuned-curves-v2\\norman-log2\\results.json": "020006de34b7fe27b42ecd6baabfa83660484d5829eb1914e32c09093c96f062",
+    "results\\architecture\\retuned-curves-v2\\norman-log2\\source_snapshot.zip": "6fcab38ec3dca65efc4172fb9ded73472a5178ae4bae1367699f4fee3cc66e37",
+    "results\\architecture\\retuned-curves-v2\\wessels-expanded-protected-log2\\protocol.json": "d675658c50851a3bbba341c8dea01f6e23910a7a6511fac8663b03adba21f294",
+    "results\\architecture\\retuned-curves-v2\\wessels-expanded-protected-log2\\results.json": "5fce5454ebc6a467ca643759cc98b791c9c6440ee354d2dbd6a65b74114e8d86",
+    "results\\architecture\\retuned-curves-v2\\wessels-expanded-protected-log2\\source_snapshot.zip": "6fcab38ec3dca65efc4172fb9ded73472a5178ae4bae1367699f4fee3cc66e37",
+    "results\\architecture\\retuned-curves-v2\\wessels-log2\\protocol.json": "c642206bf2787cb71d4f76145b6aadb28c0bcbc07e41fa436f706bbc888e9267",
+    "results\\architecture\\retuned-curves-v2\\wessels-log2\\results.json": "3765059247b4e97f7c5a59f33e653f92d5f97cbe18144b0d09dd1ec6bfc33659",
+    "results\\architecture\\retuned-curves-v2\\wessels-log2\\source_snapshot.zip": "6fcab38ec3dca65efc4172fb9ded73472a5178ae4bae1367699f4fee3cc66e37"
+  },
+  "learning_curves": {
+    "norman-log2": {
+      "partner": {
+        "0.25": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.008123538612077633,
+            "frozen_full_size_kernel": 0.00809441710676488,
+            "retuned_correlated": 0.008132006202339934,
+            "retuned_diagonal": 0.008141052860177928,
+            "retuned_unweighted": 0.008209955368175969
+          },
+          "training_pairs_range": [
+            13,
+            14
+          ]
+        },
+        "0.5": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.008123538612077633,
+            "frozen_full_size_kernel": 0.007503845532661347,
+            "retuned_correlated": 0.007577934466648457,
+            "retuned_diagonal": 0.007575549897032216,
+            "retuned_unweighted": 0.007589782594417837
+          },
+          "training_pairs_range": [
+            27,
+            28
+          ]
+        },
+        "0.75": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.008123538612077633,
+            "frozen_full_size_kernel": 0.007266947930876254,
+            "retuned_correlated": 0.007257409203075291,
+            "retuned_diagonal": 0.007264634359456356,
+            "retuned_unweighted": 0.007285965768233812
+          },
+          "training_pairs_range": [
+            40,
+            42
+          ]
+        },
+        "1": {
+          "fits": 5,
+          "mse_per_occurrence": {
+            "additive": 0.008123538612077633,
+            "frozen_full_size_kernel": 0.007104371927801986,
+            "retuned_correlated": 0.0070120137998383085,
+            "retuned_diagonal": 0.007016714221079642,
+            "retuned_unweighted": 0.007104371927801986
+          },
+          "training_pairs_range": [
+            54,
+            57
+          ]
+        }
+      },
+      "random": {
+        "0.25": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.008278601813468744,
+            "frozen_full_size_kernel": 0.0077243748363819585,
+            "retuned_correlated": 0.007802487992490816,
+            "retuned_diagonal": 0.007818524866453054,
+            "retuned_unweighted": 0.007835487529659745
+          },
+          "training_pairs_range": [
+            17,
+            17
+          ]
+        },
+        "0.5": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.008278601813468744,
+            "frozen_full_size_kernel": 0.007017080660659839,
+            "retuned_correlated": 0.006993488404029538,
+            "retuned_diagonal": 0.00699272154892657,
+            "retuned_unweighted": 0.0070711124413896645
+          },
+          "training_pairs_range": [
+            35,
+            35
+          ]
+        },
+        "0.75": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.008278601813468744,
+            "frozen_full_size_kernel": 0.0065378451028424815,
+            "retuned_correlated": 0.006558793418930244,
+            "retuned_diagonal": 0.006544405760963778,
+            "retuned_unweighted": 0.00660756043498256
+          },
+          "training_pairs_range": [
+            52,
+            53
+          ]
+        },
+        "1": {
+          "fits": 5,
+          "mse_per_occurrence": {
+            "additive": 0.008278601813468744,
+            "frozen_full_size_kernel": 0.00626284954628829,
+            "retuned_correlated": 0.006202035207238444,
+            "retuned_diagonal": 0.0061841347530232045,
+            "retuned_unweighted": 0.00626284954628829
+          },
+          "training_pairs_range": [
+            70,
+            71
+          ]
+        }
+      }
+    },
+    "wessels-expanded-protected-log2": {
+      "partner": {
+        "0.25": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.024638496754102134,
+            "frozen_full_size_kernel": 0.019373817431434105,
+            "retuned_correlated": 0.019485218363020272,
+            "retuned_diagonal": 0.019421185372597814,
+            "retuned_unweighted": 0.01939652833383664
+          },
+          "training_pairs_range": [
+            16,
+            17
+          ]
+        },
+        "0.5": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.024638496754102134,
+            "frozen_full_size_kernel": 0.017384847236069142,
+            "retuned_correlated": 0.017388555420593147,
+            "retuned_diagonal": 0.01738476387651253,
+            "retuned_unweighted": 0.017401970686618872
+          },
+          "training_pairs_range": [
+            33,
+            35
+          ]
+        },
+        "0.75": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.024638496754102134,
+            "frozen_full_size_kernel": 0.016568805503416963,
+            "retuned_correlated": 0.01657449846316514,
+            "retuned_diagonal": 0.016563510760417618,
+            "retuned_unweighted": 0.016570159095094492
+          },
+          "training_pairs_range": [
+            50,
+            53
+          ]
+        },
+        "1": {
+          "fits": 5,
+          "mse_per_occurrence": {
+            "additive": 0.024638496754102134,
+            "frozen_full_size_kernel": 0.016061061681471242,
+            "retuned_correlated": 0.016106483188778577,
+            "retuned_diagonal": 0.01608708026663776,
+            "retuned_unweighted": 0.016061061681471242
+          },
+          "training_pairs_range": [
+            67,
+            71
+          ]
+        }
+      },
+      "random": {
+        "0.25": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.02469173347258911,
+            "frozen_full_size_kernel": 0.013494802200584724,
+            "retuned_correlated": 0.013500486285038317,
+            "retuned_diagonal": 0.013502449958583766,
+            "retuned_unweighted": 0.01353193297989485
+          },
+          "training_pairs_range": [
+            22,
+            22
+          ]
+        },
+        "0.5": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.02469173347258911,
+            "frozen_full_size_kernel": 0.009548464840470627,
+            "retuned_correlated": 0.009498054346442467,
+            "retuned_diagonal": 0.009498052207599158,
+            "retuned_unweighted": 0.009577022943353502
+          },
+          "training_pairs_range": [
+            44,
+            44
+          ]
+        },
+        "0.75": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.02469173347258911,
+            "frozen_full_size_kernel": 0.008043822878732189,
+            "retuned_correlated": 0.008001270115855247,
+            "retuned_diagonal": 0.008001270115855247,
+            "retuned_unweighted": 0.008043822878732189
+          },
+          "training_pairs_range": [
+            66,
+            66
+          ]
+        },
+        "1": {
+          "fits": 5,
+          "mse_per_occurrence": {
+            "additive": 0.02469173347258911,
+            "frozen_full_size_kernel": 0.007253459608731995,
+            "retuned_correlated": 0.007213161758441751,
+            "retuned_diagonal": 0.007258077996238584,
+            "retuned_unweighted": 0.007253459608731995
+          },
+          "training_pairs_range": [
+            88,
+            88
+          ]
+        }
+      }
+    },
+    "wessels-log2": {
+      "partner": {
+        "0.25": {
+          "fits": 4,
+          "mse_per_occurrence": {
+            "additive": 0.014230008060483716,
+            "frozen_full_size_kernel": 0.01280513705297321,
+            "retuned_correlated": 0.012912877111545935,
+            "retuned_diagonal": 0.01280862813441098,
+            "retuned_unweighted": 0.012827264147538714
+          },
+          "training_pairs_range": [
+            6,
+            6
+          ]
+        },
+        "0.5": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.014057563898612,
+            "frozen_full_size_kernel": 0.010642506806096515,
+            "retuned_correlated": 0.010681482271482887,
+            "retuned_diagonal": 0.010647191921951236,
+            "retuned_unweighted": 0.010658387783615574
+          },
+          "training_pairs_range": [
+            10,
+            13
+          ]
+        },
+        "0.75": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.014057563898612,
+            "frozen_full_size_kernel": 0.010008927725518906,
+            "retuned_correlated": 0.010045549783503164,
+            "retuned_diagonal": 0.010019159948509198,
+            "retuned_unweighted": 0.010031344560356424
+          },
+          "training_pairs_range": [
+            15,
+            19
+          ]
+        },
+        "1": {
+          "fits": 5,
+          "mse_per_occurrence": {
+            "additive": 0.014057563898612005,
+            "frozen_full_size_kernel": 0.00958081869038761,
+            "retuned_correlated": 0.009588501068537833,
+            "retuned_diagonal": 0.009588175709413243,
+            "retuned_unweighted": 0.00958081869038761
+          },
+          "training_pairs_range": [
+            21,
+            26
+          ]
+        }
+      },
+      "random": {
+        "0.25": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.014171394591662912,
+            "frozen_full_size_kernel": 0.009852706713039195,
+            "retuned_correlated": 0.009955398489172023,
+            "retuned_diagonal": 0.009944840487404717,
+            "retuned_unweighted": 0.009884731653630928
+          },
+          "training_pairs_range": [
+            8,
+            8
+          ]
+        },
+        "0.5": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.014171394591662912,
+            "frozen_full_size_kernel": 0.0070696430235369844,
+            "retuned_correlated": 0.007071794611012678,
+            "retuned_diagonal": 0.007071928860754622,
+            "retuned_unweighted": 0.007070537444069853
+          },
+          "training_pairs_range": [
+            16,
+            16
+          ]
+        },
+        "0.75": {
+          "fits": 15,
+          "mse_per_occurrence": {
+            "additive": 0.014171394591662912,
+            "frozen_full_size_kernel": 0.005669386836776356,
+            "retuned_correlated": 0.0056557928462047016,
+            "retuned_diagonal": 0.005654812958599737,
+            "retuned_unweighted": 0.005694286001426049
+          },
+          "training_pairs_range": [
+            24,
+            24
+          ]
+        },
+        "1": {
+          "fits": 5,
+          "mse_per_occurrence": {
+            "additive": 0.014171394591662913,
+            "frozen_full_size_kernel": 0.004987755310137721,
+            "retuned_correlated": 0.004969909836506374,
+            "retuned_diagonal": 0.004969909836506374,
+            "retuned_unweighted": 0.004987755310137721
+          },
+          "training_pairs_range": [
+            32,
+            32
+          ]
+        }
+      }
+    }
+  },
+  "report_environment": {
+    "packages": {
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.8",
+      "numpy": "2.4.0",
+      "pytest": "9.0.2",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.16.3",
+      "torch": "2.9.1"
+    },
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python": "3.14.0"
+  },
+  "resources": {
+    "norman-log2": {
+      "covariance": "sample covariance across bootstrap draws, averaged over frozen output genes",
+      "dataset": "norman-log2",
+      "draws": 16,
+      "draws_sha256": "6b22a99d155e05d99a4c7e75ad95b3a788182520e41138591b5dfd99161fbb2b",
+      "evaluator_access": false,
+      "maximum_absolute_correlation": 0.5047457382814361,
+      "minimum_covariance_eigenvalue": 0.0008276331981135403,
+      "profiles_sha256": "fb246089a26353c88331bd6a2e72cba3fce441a989e6be8a53370f9ad56d9293",
+      "scope": "technical sampling only; frozen QC, gene universe and normalizer; shared single/control draws",
+      "seed": 90317
+    },
+    "wessels-expanded-protected-log2": {
+      "covariance": "sample covariance across bootstrap draws, averaged over frozen output genes",
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "draws_sha256": "9e68a311321576f1459a9f2a08f5eb44044ddb58b5b56de926847ccd4f92e6bc",
+      "evaluator_access": false,
+      "maximum_absolute_correlation": 0.768888193112304,
+      "minimum_covariance_eigenvalue": 0.0006272736414811829,
+      "profiles_sha256": "9cfb0393e303c3f201132aca5e6db6e5bac21d05e4083c0f501d6f0e842d9415",
+      "scope": "technical sampling only; frozen QC, gene universe and normalizer; shared single/control draws",
+      "seed": 90317
+    },
+    "wessels-log2": {
+      "covariance": "sample covariance across bootstrap draws, averaged over frozen output genes",
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "draws_sha256": "371f3e555dffab52ca72621ee5423e194651ec175c1059c962436228a9062075",
+      "evaluator_access": false,
+      "maximum_absolute_correlation": 0.6779633432814295,
+      "minimum_covariance_eigenvalue": 0.0007487432126537727,
+      "profiles_sha256": "4bf69cefb71006d210b39a2c38441703d3143c9951d623855d4748d97963d20f",
+      "scope": "technical sampling only; frozen QC, gene universe and normalizer; shared single/control draws",
+      "seed": 90317
+    }
+  },
+  "risk_diagnostics": [
+    {
+      "calibration_size_range": [
+        14,
+        15
+      ],
+      "completed_folds": 5,
+      "dataset": "norman-log2",
+      "finite_folds": 5,
+      "infeasible_folds": 0,
+      "mean_radius": 0.09818505173665856,
+      "nominal_coverage": 0.8,
+      "observed_coverage": 0.8181818181818182,
+      "protocol": "random"
+    },
+    {
+      "calibration_size_range": [
+        14,
+        15
+      ],
+      "completed_folds": 5,
+      "dataset": "norman-log2",
+      "finite_folds": 5,
+      "infeasible_folds": 0,
+      "mean_radius": 0.12700118123515997,
+      "nominal_coverage": 0.9,
+      "observed_coverage": 0.9431818181818182,
+      "protocol": "random"
+    },
+    {
+      "calibration_size_range": [
+        20,
+        22
+      ],
+      "completed_folds": 5,
+      "dataset": "norman-log2",
+      "finite_folds": 5,
+      "infeasible_folds": 0,
+      "mean_radius": 0.11949158679061209,
+      "nominal_coverage": 0.8,
+      "observed_coverage": 0.8703703703703703,
+      "protocol": "partner"
+    },
+    {
+      "calibration_size_range": [
+        20,
+        22
+      ],
+      "completed_folds": 5,
+      "dataset": "norman-log2",
+      "finite_folds": 5,
+      "infeasible_folds": 0,
+      "mean_radius": 0.13333319520916143,
+      "nominal_coverage": 0.9,
+      "observed_coverage": 0.9444444444444444,
+      "protocol": "partner"
+    },
+    {
+      "calibration_size_range": [
+        7,
+        7
+      ],
+      "completed_folds": 5,
+      "dataset": "wessels-log2",
+      "finite_folds": 5,
+      "infeasible_folds": 0,
+      "mean_radius": 0.10051338425769937,
+      "nominal_coverage": 0.8,
+      "observed_coverage": 0.85,
+      "protocol": "random"
+    },
+    {
+      "calibration_size_range": [
+        7,
+        7
+      ],
+      "completed_folds": 5,
+      "dataset": "wessels-log2",
+      "finite_folds": 0,
+      "infeasible_folds": 0,
+      "mean_radius": null,
+      "nominal_coverage": 0.9,
+      "observed_coverage": null,
+      "protocol": "random"
+    },
+    {
+      "calibration_size_range": [
+        7,
+        11
+      ],
+      "completed_folds": 5,
+      "dataset": "wessels-log2",
+      "finite_folds": 5,
+      "infeasible_folds": 0,
+      "mean_radius": 0.11054569219628925,
+      "nominal_coverage": 0.8,
+      "observed_coverage": 0.717948717948718,
+      "protocol": "partner"
+    },
+    {
+      "calibration_size_range": [
+        7,
+        11
+      ],
+      "completed_folds": 5,
+      "dataset": "wessels-log2",
+      "finite_folds": 4,
+      "infeasible_folds": 0,
+      "mean_radius": 0.12388744916960265,
+      "nominal_coverage": 0.9,
+      "observed_coverage": 0.847457627118644,
+      "protocol": "partner"
+    },
+    {
+      "calibration_size_range": [
+        18,
+        18
+      ],
+      "completed_folds": 5,
+      "dataset": "wessels-expanded-protected-log2",
+      "finite_folds": 5,
+      "infeasible_folds": 0,
+      "mean_radius": 0.10226819906250917,
+      "nominal_coverage": 0.8,
+      "observed_coverage": 0.7636363636363637,
+      "protocol": "random"
+    },
+    {
+      "calibration_size_range": [
+        18,
+        18
+      ],
+      "completed_folds": 5,
+      "dataset": "wessels-expanded-protected-log2",
+      "finite_folds": 5,
+      "infeasible_folds": 0,
+      "mean_radius": 0.13743505579206028,
+      "nominal_coverage": 0.9,
+      "observed_coverage": 0.9,
+      "protocol": "random"
+    },
+    {
+      "calibration_size_range": [
+        24,
+        27
+      ],
+      "completed_folds": 5,
+      "dataset": "wessels-expanded-protected-log2",
+      "finite_folds": 5,
+      "infeasible_folds": 0,
+      "mean_radius": 0.16037520432934405,
+      "nominal_coverage": 0.8,
+      "observed_coverage": 0.7673267326732673,
+      "protocol": "partner"
+    },
+    {
+      "calibration_size_range": [
+        24,
+        27
+      ],
+      "completed_folds": 5,
+      "dataset": "wessels-expanded-protected-log2",
+      "finite_folds": 5,
+      "infeasible_folds": 0,
+      "mean_radius": 0.17082295036227915,
+      "nominal_coverage": 0.9,
+      "observed_coverage": 0.8366336633663366,
+      "protocol": "partner"
+    }
+  ],
+  "scope": "Late exploratory dependent development resamplings. No independent confirmation, calibrated abstention or frontier-quality claim. Fixed-QC technical refitting omits model selection and biological variation.",
+  "source_reference": "https://jmlr.org/papers/v9/shafer08a.html",
+  "status": "complete",
+  "technical_refitting": [
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.03307308957676616,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.005576025803003823,
+        0.005647656120680281,
+        0.005763387465826104
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.03315340381638518,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007430660969929612,
+        0.0075277581189667556,
+        0.007650953644992183
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.03059678154385043,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007050421979935212,
+        0.007148076279817829,
+        0.0072269910719708775
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.03855150319604367,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.009615435469426318,
+        0.009781948206452881,
+        0.01001872204062201
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.03501874309566398,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.008053509002789306,
+        0.008172644027942454,
+        0.00822739414327188
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.03777449985484755,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.008425890474331647,
+        0.008484492049513494,
+        0.008612563624005755
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.03875269577696656,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.009989333361896512,
+        0.010134900833045347,
+        0.010668557025187483
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.03917428010643981,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.008651503382585744,
+        0.008725450265999135,
+        0.00889386192125909
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.038844921804587186,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007931161924318635,
+        0.00804068211437547,
+        0.008136962580121778
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.039321129681580136,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.008561025815141586,
+        0.00868518481150359,
+        0.008789024849342198
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.036082508619973704,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.008922878810869433,
+        0.009011377619237362,
+        0.009140195086780229
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.033673102603219054,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007826078211286568,
+        0.007919068900031277,
+        0.008043730251777516
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.03341988813863591,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.0069620378823953616,
+        0.00699771718120855,
+        0.007087754325257174
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.031711149022418714,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.006555881581770695,
+        0.006654740415382705,
+        0.006715229062634757
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.03295335373223288,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.006775364582734891,
+        0.006891277838243462,
+        0.006944576344505079
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.042933634449204214,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.010061724140544069,
+        0.010136477124015301,
+        0.010308382214800047
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.03753523979980946,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.010947297776193632,
+        0.011151744292986088,
+        0.011528074899907027
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.037038354559913646,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007457889641002307,
+        0.007562631876854279,
+        0.007666372183890515
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.03521802623818991,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007205698821415479,
+        0.007292232585787475,
+        0.007398592306563613
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.03829370691338717,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.008403840779869132,
+        0.008487916749109498,
+        0.008550966499967635
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.03482082553540979,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.006886045365277883,
+        0.006951235418214566,
+        0.007014900784987884
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.034321878039604375,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.006426373346282001,
+        0.0065572612757966225,
+        0.0066887588246844
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.03379640472699184,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.008155130089170513,
+        0.00826923239983631,
+        0.008402782183021585
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.03318822935428701,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.008488300741770743,
+        0.008624209573400378,
+        0.008797092335943706
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.031746990120753354,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007626390137423806,
+        0.007691428957491319,
+        0.0077761837626210955
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.042299377043382796,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.012368470367705216,
+        0.012479021270013999,
+        0.012786732418993382
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.037686743075732054,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007503452084217451,
+        0.007602036750130598,
+        0.007718167190063463
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.03988601478457039,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.00960409185720182,
+        0.009685373785785548,
+        0.00990152754942926
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.03734539672264178,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007236012112350938,
+        0.007337243135809329,
+        0.007420405879224509
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "norman-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.03631379607112334,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.0067545698482439935,
+        0.0068406115558752095,
+        0.006916873952401995
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.04426868350163856,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007679093202342652,
+        0.007973079920275442,
+        0.008660930389228919
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.04411506201539134,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.008004806977981624,
+        0.008252564884790219,
+        0.008498465601788024
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.04555027309440452,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.0076916052295060286,
+        0.008074604938730103,
+        0.008687397637008655
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.0401590661117216,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.005467404354154693,
+        0.005614564206105389,
+        0.005808531731891265
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.04014192481250606,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.006155036627709709,
+        0.006298128246671824,
+        0.006425865448236782
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.07166248683126414,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.014149913213886372,
+        0.015227349149385526,
+        0.01645545393088901
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.07020651222785047,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.013775915339359634,
+        0.014759343255316814,
+        0.015895739266201695
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.06342456972531318,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.011255879219696828,
+        0.01211954891647154,
+        0.013073805553115676
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.07736271848263616,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.016237386478998007,
+        0.017552982604551823,
+        0.01907275263714378
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.07331118633828208,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.016073750563585648,
+        0.017335492553518704,
+        0.019400950486424103
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.041618319367758415,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.005751303706667998,
+        0.005935428617747681,
+        0.006172310775684553
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.0434189939388755,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007159992295652861,
+        0.0073561138087868995,
+        0.007669391082593756
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.046719697481145836,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007762873215410277,
+        0.008196863488404805,
+        0.008831319643917594
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.04233095328768896,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.00689734437666482,
+        0.007001310216923347,
+        0.007360019204774576
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.044234582432391985,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.00805805719805868,
+        0.008370757752851463,
+        0.008836877302907767
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.07312775750357571,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.015020372659698786,
+        0.015904646235241612,
+        0.017680807714429814
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.06985429548155515,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.01369163181673681,
+        0.014682170373743433,
+        0.015865888845982296
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.06451736375989355,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.012679886889570708,
+        0.014068401747484156,
+        0.015408635093213576
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.07740298887445458,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.016241014091953467,
+        0.017578282997422617,
+        0.019091358647372707
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.07328215637842356,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.014918636208386026,
+        0.016225550607698785,
+        0.018921916600563964
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.038429012169448495,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.005408907911761175,
+        0.005529466245675424,
+        0.005669308789954333
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.047672835801116115,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.00836117413868271,
+        0.008834643749312712,
+        0.009458925559288263
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.044701855878124135,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.00836702308401839,
+        0.008670872805747703,
+        0.00910952004564311
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.040158444838625816,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.005882999823261039,
+        0.006091521834329141,
+        0.006235596199997146
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.04318608202972039,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007112671598151986,
+        0.00732243217487318,
+        0.00762504586886134
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.07166412026591333,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.014887932414264504,
+        0.01569612753721903,
+        0.017261912956487258
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.07020651222785047,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.013775915339359634,
+        0.014759343255316814,
+        0.015895739266201695
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.07547805758087,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.016041193188193557,
+        0.018003229699506296,
+        0.018876463072712138
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.07583075372941844,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.016739996791218886,
+        0.01793795906286748,
+        0.019143843871553403
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.06421339812648638,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.011573937008574772,
+        0.012468780603834764,
+        0.013364782355741194
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.04262593323898785,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.01012264712502863,
+        0.010332436103343362,
+        0.010656637132604712
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.0407547468876738,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007412126939869296,
+        0.007584956649112145,
+        0.007801318068329319
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.03994768514170335,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007305172101745205,
+        0.007405015875287411,
+        0.00755712501260832
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.04145636518627878,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.010911014863713259,
+        0.011081387949941523,
+        0.011295071455472693
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.0548259033362112,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.011369848328450522,
+        0.011778734597176582,
+        0.012216201255024496
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.08439589781940555,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.021680246635481248,
+        0.02255893008953219,
+        0.023608269780296943
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.09386734473484815,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.033864055667795795,
+        0.0369757608847807,
+        0.04157084962357102
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.07285149834053481,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.017156967815778433,
+        0.018149903081799257,
+        0.018956646397867247
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.0833087320365044,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.023364017052019456,
+        0.02463231381524549,
+        0.026399576244507308
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.07257970967574388,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.017322595502904502,
+        0.01802125771081831,
+        0.019215064190264752
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 1
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.041447694031419534,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.008447503528640286,
+        0.008566566019233012,
+        0.008797213160024672
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.043567584047258204,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.008563184978812685,
+        0.008724774168427582,
+        0.008890598899813005
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.04441269184995497,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.009709711262257375,
+        0.009901238991032933,
+        0.010144552996296546
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.04314551247307004,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.009073424658420228,
+        0.00916808468617484,
+        0.009298414212528316
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.03881052307189915,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.008270306446136253,
+        0.008386916020465462,
+        0.00856234988793883
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.08439589781940555,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.021680246635481248,
+        0.02255893008953219,
+        0.023608269780296943
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.09481160337861495,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.034180955744997334,
+        0.03753238304005176,
+        0.041457012639231135
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.07160131801980298,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.016148597275448488,
+        0.017322981575023495,
+        0.01847711677071751
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.07921233398894686,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.021168995266586346,
+        0.02246498455456159,
+        0.023504836074399627
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.07749871304636595,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.019516934512019024,
+        0.02095291309334825,
+        0.022230206031230167
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 2
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.041189497807599874,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.007208899409704497,
+        0.007361705892663339,
+        0.007541458042317613
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.04228542961170911,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.008597772753959513,
+        0.008783203960430124,
+        0.009029967182002474
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.04170699489863792,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.009856452250241586,
+        0.010003667454939618,
+        0.010145912762214404
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.045836868706236766,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.009858883141824083,
+        0.010188856065664005,
+        0.010406405497058747
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.04394814884142247,
+      "protocol": "random",
+      "refitted_bootstrap_mse_percentiles": [
+        0.009951960846426028,
+        0.01010619220635864,
+        0.01034393622884507
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 0,
+      "mean_gene_prediction_sd": 0.08150387621367551,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.021056797067004567,
+        0.02206015585645896,
+        0.02299825465314812
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 1,
+      "mean_gene_prediction_sd": 0.08789526825843474,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.030917320819470667,
+        0.034250155736683704,
+        0.03757998334900664
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 2,
+      "mean_gene_prediction_sd": 0.07307630181393206,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.01649565698774986,
+        0.0183711108386286,
+        0.01952272305169383
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 3,
+      "mean_gene_prediction_sd": 0.0883922885884644,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.024406328849188006,
+        0.026339907576114034,
+        0.028850133714760622
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    },
+    {
+      "dataset": "wessels-expanded-protected-log2",
+      "draws": 16,
+      "fold": 4,
+      "mean_gene_prediction_sd": 0.07698898576103841,
+      "protocol": "partner",
+      "refitted_bootstrap_mse_percentiles": [
+        0.019452986027473085,
+        0.020322856089839508,
+        0.02182907776729124
+      ],
+      "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty",
+      "version": 3
+    }
+  ]
+}

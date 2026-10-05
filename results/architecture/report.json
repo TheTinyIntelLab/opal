@@ -1107,36 +1107,36 @@
   "inference": [
     {
       "artifact_bytes": 11739054,
-      "cold_load_ms": 213.77579999898444,
+      "cold_load_ms": 207.7988999990339,
       "dataset": "norman-log2",
       "machine": "Windows-10-10.0.19045-SP0",
       "repeats": 100,
       "role": "unscored query inference, not held-out evaluation",
       "threads": 1,
-      "warm_median_ms": 0.27425000098446617,
-      "warm_p95_ms": 0.36730500005432976
+      "warm_median_ms": 0.2960500005428912,
+      "warm_p95_ms": 0.4716400002507726
     },
     {
       "artifact_bytes": 5002261,
-      "cold_load_ms": 25.829300000623334,
+      "cold_load_ms": 24.118599998473655,
       "dataset": "wessels-log2",
       "machine": "Windows-10-10.0.19045-SP0",
       "repeats": 100,
       "role": "unscored query inference, not held-out evaluation",
       "threads": 1,
-      "warm_median_ms": 0.172450000718527,
-      "warm_p95_ms": 0.180525001087517
+      "warm_median_ms": 0.14910000027157366,
+      "warm_p95_ms": 0.16786499900263152
     },
     {
       "artifact_bytes": 11650701,
-      "cold_load_ms": 52.20430000008491,
+      "cold_load_ms": 51.06879999948433,
       "dataset": "wessels-expanded-protected-log2",
       "machine": "Windows-10-10.0.19045-SP0",
       "repeats": 100,
       "role": "unscored query inference, not held-out evaluation",
       "threads": 1,
-      "warm_median_ms": 0.286299999061157,
-      "warm_p95_ms": 0.4717349998827558
+      "warm_median_ms": 0.25585000003047753,
+      "warm_p95_ms": 0.3105200003119534
     }
   ],
   "input_sha256": {
