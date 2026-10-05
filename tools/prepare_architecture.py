@@ -56,7 +56,7 @@ def symbol_mapping():
     return result
 
 
-def joint_reference_draws(name,data,draws,seed):
+def joint_reference_draws(name,data,draws,seed,return_draws=False):
     base=name
     config=read_json(ROOT/f'configs/datasets/{base}.json')
     dataset=ROOT/'data/prepared'/name
@@ -97,6 +97,7 @@ def joint_reference_draws(name,data,draws,seed):
     singles=np.stack([sampled[single_labels[t]] for t in data['targets']],axis=1).astype(np.float32)
     doubles=np.stack([np.mean([sampled[l] for l in group],axis=0) for group in development_groups],axis=1).astype(np.float32)
     residual=doubles-singles[:,data['pairs'][:,0]]-singles[:,data['pairs'][:,1]]
+    if return_draws:return singles,doubles,residual
     return singles, doubles.var(0,ddof=1), residual.var(0,ddof=1)
 
 
