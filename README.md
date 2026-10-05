@@ -133,3 +133,9 @@ in `paper/build_manifest.json`. Rendered pages were inspected for layout.
 See `docs/protocol_amendments.md` for changes from the initial specification and
 `docs/progress.md` for evidence-based completion status. The MIT software license
 does not relicense source datasets or external methods.
+
+## Joint uncertainty and retuned learning curves
+
+`.venv/Scripts/python.exe main.py ceiling` reproduces the shared-reference covariance extension, three nested split seeds, technical refitting sensitivity, subset-retuned learning curves, isolated error-radius diagnostics, tests, evidence figures and the paper. `main.py frontier` also includes these stages. Completed studies validate their input hashes and seed before reuse; choose a new output folder for changed experimental protocols.
+
+The covariance extension does not consistently beat diagonal weighting, and partner transfer remains weak. Its error-radius diagnostics are empirical and do not establish calibrated abstention. See [the measured extension](docs/ceiling_experiments.md) for results and limitations. Large joint bootstrap arrays and checkpoints stay local; their hashes, source snapshots and compact numerical records are versioned.

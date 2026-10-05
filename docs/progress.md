@@ -144,3 +144,12 @@ expanded-partner errors in the converged linear controls motivate a separately
 registered bounded-feature sensitivity; the original unfavorable results remain
 available. Exact fitting sources are saved as compact source archives with
 protocol fingerprints.
+
+
+## Joint uncertainty extension
+
+Implemented and executed full shared-reference covariance kernels with safe checkpoint loading, three additional nested split seeds and identically searched covariance permutations. Sixteen technical draws per outer fit now recompute reference kernels and response coefficients. Subset-retuned learning curves and fitting/calibration/outer-validation error-radius diagnostics are complete on Norman, original Wessels and protected Wessels. Full-size controls share identical inner partitions in the corrected v2 curve track; the original reordered v1 remains preserved. Calibration-label intervention tests verify that calibration outcomes cannot select or fit the risk model.
+
+These experiments expose limits rather than establishing frontier quality: covariance does not consistently beat diagonal weighting, both noise families worsen Wessels partner error on the new seeds, and protected partner 90% radii attain 83.7% observed coverage. Fixed-QC technical refitting still omits model selection and biological uncertainty. See `docs/ceiling_experiments.md` and `results/architecture/ceiling_report.json`.
+
+The final extension passes 75 tests. The built wheel loads covariance checkpoints from an isolated package directory and matches current fitting predictions within 4.5e-14 absolute error on unscored query identities. The full `main.py frontier --skip-paper` build completes with the new stages included.
