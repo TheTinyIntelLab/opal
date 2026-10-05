@@ -1,0 +1,530 @@
+{
+  "norman-log2": {
+    "partner": {
+      "adaptive_neural": {
+        "bounded_signal_mse_per_occurrence": 0.010914356208491488,
+        "mse_averaged_predictions": 0.0072253764969461435,
+        "mse_per_occurrence": 0.007538248923338799
+      },
+      "additive": {
+        "bounded_signal_mse_per_occurrence": 0.012654215787295942,
+        "mse_averaged_predictions": 0.00827860157062382,
+        "mse_per_occurrence": 0.008511614554596168
+      },
+      "competitive": {
+        "bounded_signal_mse_per_occurrence": 0.010354417730963556,
+        "mse_averaged_predictions": 0.006678823701460355,
+        "mse_per_occurrence": 0.007181290522760591
+      },
+      "full": {
+        "bounded_signal_mse_per_occurrence": 0.011228055432920037,
+        "mse_averaged_predictions": 0.007385057189338788,
+        "mse_per_occurrence": 0.007753136360581185
+      },
+      "kernel": {
+        "bounded_signal_mse_per_occurrence": 0.010354417730963556,
+        "mse_averaged_predictions": 0.006678823701460355,
+        "mse_per_occurrence": 0.007181290522760591
+      },
+      "larger_global_rank": {
+        "bounded_signal_mse_per_occurrence": 0.011119445894868758,
+        "mse_averaged_predictions": 0.0072672116895097505,
+        "mse_per_occurrence": 0.007754012200156491
+      },
+      "noise_only": {
+        "bounded_signal_mse_per_occurrence": 0.011101286545852719,
+        "mse_averaged_predictions": 0.0073071186317219886,
+        "mse_per_occurrence": 0.007660183260308281
+      },
+      "prior_attention": {
+        "bounded_signal_mse_per_occurrence": 0.011017542672766318,
+        "mse_averaged_predictions": 0.007266437419647834,
+        "mse_per_occurrence": 0.007586425820845552
+      },
+      "prior_mean_pool": {
+        "bounded_signal_mse_per_occurrence": 0.011032485107323329,
+        "mse_averaged_predictions": 0.007275989054056383,
+        "mse_per_occurrence": 0.007605385610183923
+      },
+      "prior_noise": {
+        "bounded_signal_mse_per_occurrence": 0.010960560982423165,
+        "mse_averaged_predictions": 0.00723316947883946,
+        "mse_per_occurrence": 0.007555358504769539
+      },
+      "prior_ridge": {
+        "bounded_signal_mse_per_occurrence": 0.012012658139323496,
+        "mse_averaged_predictions": 0.007879722032014511,
+        "mse_per_occurrence": 0.008144975888419654
+      },
+      "response_mlp": {
+        "bounded_signal_mse_per_occurrence": 0.011231187060857576,
+        "mse_averaged_predictions": 0.007321248342461932,
+        "mse_per_occurrence": 0.007725578577396981
+      },
+      "shuffled_prior": {
+        "bounded_signal_mse_per_occurrence": 0.011170389758209517,
+        "mse_averaged_predictions": 0.007332521375092631,
+        "mse_per_occurrence": 0.007696394081891053
+      },
+      "signal_loss": {
+        "bounded_signal_mse_per_occurrence": 0.010912630287436468,
+        "mse_averaged_predictions": 0.007232287317835123,
+        "mse_per_occurrence": 0.0075384169462138625
+      },
+      "stronger_expert": {
+        "bounded_signal_mse_per_occurrence": 0.011844729102457412,
+        "mse_averaged_predictions": 0.007764570652913476,
+        "mse_per_occurrence": 0.0081116282758383
+      },
+      "stronger_shrinkage": {
+        "bounded_signal_mse_per_occurrence": 0.01093741566245578,
+        "mse_averaged_predictions": 0.0072148748282385685,
+        "mse_per_occurrence": 0.0075536186825452285
+      },
+      "structured": {
+        "bounded_signal_mse_per_occurrence": 0.011236818594793394,
+        "mse_averaged_predictions": 0.0073786612924563845,
+        "mse_per_occurrence": 0.00773992386215324
+      }
+    },
+    "random": {
+      "adaptive_neural": {
+        "bounded_signal_mse_per_occurrence": 0.009835381081931976,
+        "mse_averaged_predictions": 0.006809262405966936,
+        "mse_per_occurrence": 0.006809262405966937
+      },
+      "additive": {
+        "bounded_signal_mse_per_occurrence": 0.012310979623262856,
+        "mse_averaged_predictions": 0.00827860157062382,
+        "mse_per_occurrence": 0.008278601776427504
+      },
+      "competitive": {
+        "bounded_signal_mse_per_occurrence": 0.009060724630686532,
+        "mse_averaged_predictions": 0.006292297271566333,
+        "mse_per_occurrence": 0.0062922972715663324
+      },
+      "full": {
+        "bounded_signal_mse_per_occurrence": 0.009912500839752229,
+        "mse_averaged_predictions": 0.006877720792434387,
+        "mse_per_occurrence": 0.006877720792434385
+      },
+      "kernel": {
+        "bounded_signal_mse_per_occurrence": 0.009060724630686532,
+        "mse_averaged_predictions": 0.006292297271566333,
+        "mse_per_occurrence": 0.0062922972715663324
+      },
+      "larger_global_rank": {
+        "bounded_signal_mse_per_occurrence": 0.010074990401555484,
+        "mse_averaged_predictions": 0.007023237657963574,
+        "mse_per_occurrence": 0.007023237657963575
+      },
+      "noise_only": {
+        "bounded_signal_mse_per_occurrence": 0.009963994791303677,
+        "mse_averaged_predictions": 0.0068829878226339195,
+        "mse_per_occurrence": 0.006882987822633919
+      },
+      "prior_attention": {
+        "bounded_signal_mse_per_occurrence": 0.009857614242575518,
+        "mse_averaged_predictions": 0.0068266140758210265,
+        "mse_per_occurrence": 0.006826614075821026
+      },
+      "prior_mean_pool": {
+        "bounded_signal_mse_per_occurrence": 0.009900591284725523,
+        "mse_averaged_predictions": 0.006838321721025837,
+        "mse_per_occurrence": 0.006838321721025837
+      },
+      "prior_noise": {
+        "bounded_signal_mse_per_occurrence": 0.009881481723774933,
+        "mse_averaged_predictions": 0.00683702590759195,
+        "mse_per_occurrence": 0.00683702590759195
+      },
+      "prior_ridge": {
+        "bounded_signal_mse_per_occurrence": 0.010651493624413666,
+        "mse_averaged_predictions": 0.0073900486680382035,
+        "mse_per_occurrence": 0.007390048668038204
+      },
+      "response_mlp": {
+        "bounded_signal_mse_per_occurrence": 0.009943670735122177,
+        "mse_averaged_predictions": 0.006863873669664047,
+        "mse_per_occurrence": 0.006863873669664047
+      },
+      "shuffled_prior": {
+        "bounded_signal_mse_per_occurrence": 0.01001334835519423,
+        "mse_averaged_predictions": 0.006918560878586994,
+        "mse_per_occurrence": 0.006918560878586994
+      },
+      "signal_loss": {
+        "bounded_signal_mse_per_occurrence": 0.009706825991982693,
+        "mse_averaged_predictions": 0.006745570337920208,
+        "mse_per_occurrence": 0.0067455703379202085
+      },
+      "stronger_expert": {
+        "bounded_signal_mse_per_occurrence": 0.010667113697868947,
+        "mse_averaged_predictions": 0.007338192847249749,
+        "mse_per_occurrence": 0.00733819284724975
+      },
+      "stronger_shrinkage": {
+        "bounded_signal_mse_per_occurrence": 0.009756516715477302,
+        "mse_averaged_predictions": 0.006787043218638593,
+        "mse_per_occurrence": 0.006787043218638592
+      },
+      "structured": {
+        "bounded_signal_mse_per_occurrence": 0.010004360444187439,
+        "mse_averaged_predictions": 0.006930660550589202,
+        "mse_per_occurrence": 0.006930660550589202
+      }
+    }
+  },
+  "wessels-expanded-log2": {
+    "partner": {
+      "adaptive_neural": {
+        "bounded_signal_mse_per_occurrence": 0.021354011001505652,
+        "mse_averaged_predictions": 0.016372763742536555,
+        "mse_per_occurrence": 0.016805153328770008
+      },
+      "additive": {
+        "bounded_signal_mse_per_occurrence": 0.02769542471133172,
+        "mse_averaged_predictions": 0.02242057925988723,
+        "mse_per_occurrence": 0.02221859899606711
+      },
+      "competitive": {
+        "bounded_signal_mse_per_occurrence": 0.018472172285800326,
+        "mse_averaged_predictions": 0.012116186943302678,
+        "mse_per_occurrence": 0.01446662390010758
+      },
+      "full": {
+        "bounded_signal_mse_per_occurrence": 0.021668160758516204,
+        "mse_averaged_predictions": 0.016593832221806038,
+        "mse_per_occurrence": 0.017046100548659553
+      },
+      "kernel": {
+        "bounded_signal_mse_per_occurrence": 0.018472172285800326,
+        "mse_averaged_predictions": 0.012116186943302678,
+        "mse_per_occurrence": 0.01446662390010758
+      },
+      "larger_global_rank": {
+        "bounded_signal_mse_per_occurrence": 0.022002779467282463,
+        "mse_averaged_predictions": 0.016633954073432693,
+        "mse_per_occurrence": 0.017378552850433878
+      },
+      "noise_only": {
+        "bounded_signal_mse_per_occurrence": 0.02159703856117652,
+        "mse_averaged_predictions": 0.01657734929902338,
+        "mse_per_occurrence": 0.016998367590497176
+      },
+      "prior_attention": {
+        "bounded_signal_mse_per_occurrence": 0.021464601808112365,
+        "mse_averaged_predictions": 0.016471958893135446,
+        "mse_per_occurrence": 0.016908752693134646
+      },
+      "prior_mean_pool": {
+        "bounded_signal_mse_per_occurrence": 0.02149964441104614,
+        "mse_averaged_predictions": 0.016499177309699815,
+        "mse_per_occurrence": 0.016930304719910565
+      },
+      "prior_noise": {
+        "bounded_signal_mse_per_occurrence": 0.02139018180776214,
+        "mse_averaged_predictions": 0.0163860275681132,
+        "mse_per_occurrence": 0.016844132735955027
+      },
+      "prior_ridge": {
+        "bounded_signal_mse_per_occurrence": 0.027321038237723222,
+        "mse_averaged_predictions": 0.020133429930095682,
+        "mse_per_occurrence": 0.02174008001251796
+      },
+      "response_mlp": {
+        "bounded_signal_mse_per_occurrence": 0.0219251263771752,
+        "mse_averaged_predictions": 0.016753914433683972,
+        "mse_per_occurrence": 0.017241727052106474
+      },
+      "shuffled_prior": {
+        "bounded_signal_mse_per_occurrence": 0.021682086037684095,
+        "mse_averaged_predictions": 0.016583531892154467,
+        "mse_per_occurrence": 0.017044481102645084
+      },
+      "signal_loss": {
+        "bounded_signal_mse_per_occurrence": 0.021352993812067553,
+        "mse_averaged_predictions": 0.01636560339830485,
+        "mse_per_occurrence": 0.016807257940088336
+      },
+      "stronger_expert": {
+        "bounded_signal_mse_per_occurrence": 0.0244451612156801,
+        "mse_averaged_predictions": 0.0191214079578243,
+        "mse_per_occurrence": 0.019182836175704376
+      },
+      "stronger_shrinkage": {
+        "bounded_signal_mse_per_occurrence": 0.021500364087576853,
+        "mse_averaged_predictions": 0.016504434898301442,
+        "mse_per_occurrence": 0.016947682030535597
+      },
+      "structured": {
+        "bounded_signal_mse_per_occurrence": 0.021894701576315016,
+        "mse_averaged_predictions": 0.016716737266576166,
+        "mse_per_occurrence": 0.017169968252370358
+      }
+    },
+    "random": {
+      "adaptive_neural": {
+        "bounded_signal_mse_per_occurrence": 0.013827303401814262,
+        "mse_averaged_predictions": 0.010522770813766043,
+        "mse_per_occurrence": 0.010522770813766043
+      },
+      "additive": {
+        "bounded_signal_mse_per_occurrence": 0.02797562211472483,
+        "mse_averaged_predictions": 0.02242057925988723,
+        "mse_per_occurrence": 0.022420579259887226
+      },
+      "competitive": {
+        "bounded_signal_mse_per_occurrence": 0.008949917659602468,
+        "mse_averaged_predictions": 0.006471043148117108,
+        "mse_per_occurrence": 0.006471043148117109
+      },
+      "full": {
+        "bounded_signal_mse_per_occurrence": 0.014298379973497762,
+        "mse_averaged_predictions": 0.010945305719635992,
+        "mse_per_occurrence": 0.010945305719635992
+      },
+      "kernel": {
+        "bounded_signal_mse_per_occurrence": 0.008949917659602468,
+        "mse_averaged_predictions": 0.006471043148117108,
+        "mse_per_occurrence": 0.006471043148117109
+      },
+      "larger_global_rank": {
+        "bounded_signal_mse_per_occurrence": 0.014500880118768232,
+        "mse_averaged_predictions": 0.011063356028767605,
+        "mse_per_occurrence": 0.011063356028767603
+      },
+      "noise_only": {
+        "bounded_signal_mse_per_occurrence": 0.01427608086102811,
+        "mse_averaged_predictions": 0.010931721675417285,
+        "mse_per_occurrence": 0.010931721675417285
+      },
+      "prior_attention": {
+        "bounded_signal_mse_per_occurrence": 0.013944894934756162,
+        "mse_averaged_predictions": 0.010623041711234559,
+        "mse_per_occurrence": 0.010623041711234557
+      },
+      "prior_mean_pool": {
+        "bounded_signal_mse_per_occurrence": 0.014108025625577692,
+        "mse_averaged_predictions": 0.010718849030665759,
+        "mse_per_occurrence": 0.01071884903066576
+      },
+      "prior_noise": {
+        "bounded_signal_mse_per_occurrence": 0.013827303401814262,
+        "mse_averaged_predictions": 0.010522770813766043,
+        "mse_per_occurrence": 0.010522770813766043
+      },
+      "prior_ridge": {
+        "bounded_signal_mse_per_occurrence": 0.018048633663423148,
+        "mse_averaged_predictions": 0.014240862386277852,
+        "mse_per_occurrence": 0.01424086238627785
+      },
+      "response_mlp": {
+        "bounded_signal_mse_per_occurrence": 0.015153674733478754,
+        "mse_averaged_predictions": 0.011655134959390438,
+        "mse_per_occurrence": 0.011655134959390436
+      },
+      "shuffled_prior": {
+        "bounded_signal_mse_per_occurrence": 0.014455601167904305,
+        "mse_averaged_predictions": 0.010985317380280078,
+        "mse_per_occurrence": 0.01098531738028008
+      },
+      "signal_loss": {
+        "bounded_signal_mse_per_occurrence": 0.014081579270935592,
+        "mse_averaged_predictions": 0.010749170847213288,
+        "mse_per_occurrence": 0.010749170847213288
+      },
+      "stronger_expert": {
+        "bounded_signal_mse_per_occurrence": 0.016024723406191977,
+        "mse_averaged_predictions": 0.01249407815818181,
+        "mse_per_occurrence": 0.012494078158181808
+      },
+      "stronger_shrinkage": {
+        "bounded_signal_mse_per_occurrence": 0.014001396324937758,
+        "mse_averaged_predictions": 0.010713761954609175,
+        "mse_per_occurrence": 0.010713761954609175
+      },
+      "structured": {
+        "bounded_signal_mse_per_occurrence": 0.01384585439403743,
+        "mse_averaged_predictions": 0.010530692624937549,
+        "mse_per_occurrence": 0.01053069262493755
+      }
+    }
+  },
+  "wessels-log2": {
+    "partner": {
+      "adaptive_neural": {
+        "bounded_signal_mse_per_occurrence": 0.014392616877890244,
+        "mse_averaged_predictions": 0.010686857396964962,
+        "mse_per_occurrence": 0.01124860466773115
+      },
+      "additive": {
+        "bounded_signal_mse_per_occurrence": 0.017579658225968676,
+        "mse_averaged_predictions": 0.014171394591662915,
+        "mse_per_occurrence": 0.0140744580506767
+      },
+      "competitive": {
+        "bounded_signal_mse_per_occurrence": 0.012748392591395092,
+        "mse_averaged_predictions": 0.008102638310389822,
+        "mse_per_occurrence": 0.009867597240200135
+      },
+      "full": {
+        "bounded_signal_mse_per_occurrence": 0.014552620879583538,
+        "mse_averaged_predictions": 0.010776346785100088,
+        "mse_per_occurrence": 0.011364493793018732
+      },
+      "kernel": {
+        "bounded_signal_mse_per_occurrence": 0.012748392591395092,
+        "mse_averaged_predictions": 0.008102638310389822,
+        "mse_per_occurrence": 0.009867597240200135
+      },
+      "larger_global_rank": {
+        "bounded_signal_mse_per_occurrence": 0.014898773966035351,
+        "mse_averaged_predictions": 0.010885331164429156,
+        "mse_per_occurrence": 0.011617807145959953
+      },
+      "noise_only": {
+        "bounded_signal_mse_per_occurrence": 0.014549999204096714,
+        "mse_averaged_predictions": 0.010788464078151847,
+        "mse_per_occurrence": 0.011315527121238277
+      },
+      "prior_attention": {
+        "bounded_signal_mse_per_occurrence": 0.014481473908291645,
+        "mse_averaged_predictions": 0.010782344675411469,
+        "mse_per_occurrence": 0.011361846769245901
+      },
+      "prior_mean_pool": {
+        "bounded_signal_mse_per_occurrence": 0.014760964302504115,
+        "mse_averaged_predictions": 0.010857603412358361,
+        "mse_per_occurrence": 0.011508502752810137
+      },
+      "prior_noise": {
+        "bounded_signal_mse_per_occurrence": 0.014351217124454599,
+        "mse_averaged_predictions": 0.0106772108254411,
+        "mse_per_occurrence": 0.011224382076066014
+      },
+      "prior_ridge": {
+        "bounded_signal_mse_per_occurrence": 0.016028331460029552,
+        "mse_averaged_predictions": 0.011413619740423028,
+        "mse_per_occurrence": 0.012596706524708515
+      },
+      "response_mlp": {
+        "bounded_signal_mse_per_occurrence": 0.014424725562462099,
+        "mse_averaged_predictions": 0.010715050240461255,
+        "mse_per_occurrence": 0.011297915730281216
+      },
+      "shuffled_prior": {
+        "bounded_signal_mse_per_occurrence": 0.014751576223956864,
+        "mse_averaged_predictions": 0.010893477029994984,
+        "mse_per_occurrence": 0.011480275328778057
+      },
+      "signal_loss": {
+        "bounded_signal_mse_per_occurrence": 0.014378881626062604,
+        "mse_averaged_predictions": 0.010675266105177666,
+        "mse_per_occurrence": 0.011235776849193453
+      },
+      "stronger_expert": {
+        "bounded_signal_mse_per_occurrence": 0.015472834716497682,
+        "mse_averaged_predictions": 0.011696073282483264,
+        "mse_per_occurrence": 0.012131385231127693
+      },
+      "stronger_shrinkage": {
+        "bounded_signal_mse_per_occurrence": 0.014826741666082636,
+        "mse_averaged_predictions": 0.010944346170279848,
+        "mse_per_occurrence": 0.011526025288729152
+      },
+      "structured": {
+        "bounded_signal_mse_per_occurrence": 0.014662675084689004,
+        "mse_averaged_predictions": 0.010860890736390927,
+        "mse_per_occurrence": 0.011443853369119883
+      }
+    },
+    "random": {
+      "adaptive_neural": {
+        "bounded_signal_mse_per_occurrence": 0.009215882081763197,
+        "mse_averaged_predictions": 0.006989686009240919,
+        "mse_per_occurrence": 0.00698968600924092
+      },
+      "additive": {
+        "bounded_signal_mse_per_occurrence": 0.017733166778506598,
+        "mse_averaged_predictions": 0.014171394591662915,
+        "mse_per_occurrence": 0.014171394591662913
+      },
+      "competitive": {
+        "bounded_signal_mse_per_occurrence": 0.006779305442940323,
+        "mse_averaged_predictions": 0.005031838714990339,
+        "mse_per_occurrence": 0.00503183871499034
+      },
+      "full": {
+        "bounded_signal_mse_per_occurrence": 0.010402628913921975,
+        "mse_averaged_predictions": 0.00794580989388039,
+        "mse_per_occurrence": 0.00794580989388039
+      },
+      "kernel": {
+        "bounded_signal_mse_per_occurrence": 0.006779305442940323,
+        "mse_averaged_predictions": 0.005031838714990339,
+        "mse_per_occurrence": 0.00503183871499034
+      },
+      "larger_global_rank": {
+        "bounded_signal_mse_per_occurrence": 0.010005484095961213,
+        "mse_averaged_predictions": 0.0076196252227753005,
+        "mse_per_occurrence": 0.007619625222775301
+      },
+      "noise_only": {
+        "bounded_signal_mse_per_occurrence": 0.009121196488157164,
+        "mse_averaged_predictions": 0.0069123272441344585,
+        "mse_per_occurrence": 0.00691232724413446
+      },
+      "prior_attention": {
+        "bounded_signal_mse_per_occurrence": 0.009444855306313837,
+        "mse_averaged_predictions": 0.007117439887928283,
+        "mse_per_occurrence": 0.007117439887928283
+      },
+      "prior_mean_pool": {
+        "bounded_signal_mse_per_occurrence": 0.010008092416803668,
+        "mse_averaged_predictions": 0.007512921762427952,
+        "mse_per_occurrence": 0.007512921762427953
+      },
+      "prior_noise": {
+        "bounded_signal_mse_per_occurrence": 0.009177987206590089,
+        "mse_averaged_predictions": 0.006941495510151785,
+        "mse_per_occurrence": 0.006941495510151786
+      },
+      "prior_ridge": {
+        "bounded_signal_mse_per_occurrence": 0.009802962345304225,
+        "mse_averaged_predictions": 0.007489934361128517,
+        "mse_per_occurrence": 0.007489934361128515
+      },
+      "response_mlp": {
+        "bounded_signal_mse_per_occurrence": 0.010189261008008845,
+        "mse_averaged_predictions": 0.007740060479177003,
+        "mse_per_occurrence": 0.007740060479177002
+      },
+      "shuffled_prior": {
+        "bounded_signal_mse_per_occurrence": 0.010429749853333205,
+        "mse_averaged_predictions": 0.007952513181615637,
+        "mse_per_occurrence": 0.007952513181615637
+      },
+      "signal_loss": {
+        "bounded_signal_mse_per_occurrence": 0.00903794722557041,
+        "mse_averaged_predictions": 0.006834573649780523,
+        "mse_per_occurrence": 0.006834573649780523
+      },
+      "stronger_expert": {
+        "bounded_signal_mse_per_occurrence": 0.010099058315440371,
+        "mse_averaged_predictions": 0.007707550079049296,
+        "mse_per_occurrence": 0.007707550079049297
+      },
+      "stronger_shrinkage": {
+        "bounded_signal_mse_per_occurrence": 0.009844757538249541,
+        "mse_averaged_predictions": 0.007427650713328446,
+        "mse_per_occurrence": 0.007427650713328446
+      },
+      "structured": {
+        "bounded_signal_mse_per_occurrence": 0.011480049195784705,
+        "mse_averaged_predictions": 0.00851339691891223,
+        "mse_per_occurrence": 0.008513396918912227
+      }
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "configurations": [
+    {
+      "alpha": 10,
+      "decay": 0.01,
+      "epochs": 120,
+      "expert": "global",
+      "label": "response_mlp",
+      "rank": 8,
+      "width": 32
+    },
+    {
+      "alpha": 10,
+      "decay": 0.01,
+      "epochs": 120,
+      "expert": "global",
+      "label": "noise_only",
+      "noise": true,
+      "rank": 8,
+      "width": 32
+    },
+    {
+      "alpha": 10,
+      "decay": 0.01,
+      "epochs": 120,
+      "expert": "global",
+      "label": "prior_attention",
+      "priors": true,
+      "rank": 8,
+      "width": 32
+    },
+    {
+      "alpha": 10,
+      "attention": false,
+      "decay": 0.01,
+      "epochs": 120,
+      "expert": "global",
+      "label": "prior_mean_pool",
+      "priors": true,
+      "rank": 8,
+      "width": 32
+    },
+    {
+      "alpha": 10,
+      "decay": 0.01,
+      "epochs": 120,
+      "expert": "global",
+      "label": "prior_noise",
+      "noise": true,
+      "priors": true,
+      "rank": 8,
+      "width": 32
+    },
+    {
+      "alpha": 10,
+      "decay": 0.01,
+      "epochs": 120,
+      "expert": "global",
+      "label": "structured",
+      "noise": true,
+      "priors": true,
+      "rank": 8,
+      "structured": true,
+      "width": 32
+    },
+    {
+      "alpha": 10,
+      "decay": 0.01,
+      "epochs": 120,
+      "expert": "global",
+      "label": "signal_loss",
+      "noise": true,
+      "priors": true,
+      "rank": 8,
+      "signal_loss": 1,
+      "width": 32
+    },
+    {
+      "alpha": 10,
+      "decay": 0.01,
+      "epochs": 120,
+      "expert": "global",
+      "label": "full",
+      "noise": true,
+      "priors": true,
+      "rank": 8,
+      "signal_loss": 1,
+      "structured": true,
+      "width": 32
+    },
+    {
+      "alpha": 10,
+      "decay": 0.01,
+      "epochs": 120,
+      "expert": "global",
+      "label": "shuffled_prior",
+      "noise": true,
+      "priors": true,
+      "rank": 8,
+      "shuffle": true,
+      "signal_loss": 1,
+      "structured": true,
+      "width": 32
+    },
+    {
+      "alpha": 10,
+      "decay": 0.01,
+      "epochs": 120,
+      "expert": "global",
+      "label": "larger_global_rank",
+      "rank": 16,
+      "width": 32
+    },
+    {
+      "alpha": 10,
+      "coefficient_penalty": 0.1,
+      "decay": 0.01,
+      "epochs": 120,
+      "expert": "global",
+      "label": "stronger_shrinkage",
+      "noise": true,
+      "priors": true,
+      "rank": 8,
+      "signal_loss": 1,
+      "structured": true,
+      "width": 32
+    },
+    {
+      "alpha": 100,
+      "decay": 0.01,
+      "epochs": 120,
+      "expert": "global",
+      "label": "stronger_expert",
+      "noise": true,
+      "priors": true,
+      "rank": 8,
+      "signal_loss": 1,
+      "structured": true,
+      "width": 32
+    }
+  ],
+  "endpoint": "equal-pair all-gene MSE; bounded-signal metric secondary, evaluation truth used only after prediction",
+  "evaluator_access": false,
+  "inner_folds": 3,
+  "kernel_candidate_count": 67,
+  "mixtures": [
+    0.25,
+    1.0
+  ],
+  "negative_result_policy": "All ablations and both split protocols recorded; no model family forced",
+  "outer_folds": 5,
+  "prior_ridge_penalties": [
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "profiles_sha256": "8d85a6a209c947828f201f9b831ce8b4b30ba57697a76350ddae148ea0d08ce5",
+  "resource_sha256": "5530ae5014c98cd93bf2fdd7fd12c8c88378764ce2a04b7fabf7a0cc470f6692",
+  "runner_sha256": "7c1c039e0cd549bdaa776d063f82c0951e4851a681e05c0ae5517f6943c87c59",
+  "scope": "Exploratory nested development only; historical test outcomes known",
+  "seed": 20261005,
+  "source_hash": "970f16f4e17fb6005f3b0e780911af0c62df644989950ae3f1391cf61e332eaa"
+}
