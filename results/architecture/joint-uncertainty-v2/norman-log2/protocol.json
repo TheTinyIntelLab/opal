@@ -1,0 +1,8345 @@
+{
+  "candidate_counts": {
+    "correlated": 469,
+    "diagonal": 201,
+    "permuted_covariance": 469,
+    "unweighted": 67
+  },
+  "configurations": {
+    "correlated": [
+      {
+        "alpha": 1.0,
+        "correlation": 0,
+        "kind": "shared_offset",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1.0,
+        "correlation": 0,
+        "kind": "shared_offset",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1.0,
+        "correlation": 0.5,
+        "kind": "shared_offset",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1.0,
+        "correlation": 1,
+        "kind": "shared_offset",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1.0,
+        "correlation": 0,
+        "kind": "shared_offset",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1.0,
+        "correlation": 0.5,
+        "kind": "shared_offset",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1.0,
+        "correlation": 1,
+        "kind": "shared_offset",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 100,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 100,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 100,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 100,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 100,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 100,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 100,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      }
+    ],
+    "diagonal": [
+      {
+        "alpha": 1.0,
+        "correlation": 0,
+        "kind": "shared_offset",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1.0,
+        "correlation": 0,
+        "kind": "shared_offset",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1.0,
+        "correlation": 0,
+        "kind": "shared_offset",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 100,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 100,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 100,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      }
+    ],
+    "permuted_covariance": [
+      {
+        "alpha": 1.0,
+        "correlation": 0,
+        "kind": "shared_offset",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1.0,
+        "correlation": 0,
+        "kind": "shared_offset",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1.0,
+        "correlation": 0.5,
+        "kind": "shared_offset",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1.0,
+        "correlation": 1,
+        "kind": "shared_offset",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1.0,
+        "correlation": 0,
+        "kind": "shared_offset",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1.0,
+        "correlation": 0.5,
+        "kind": "shared_offset",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1.0,
+        "correlation": 1,
+        "kind": "shared_offset",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 100,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 100,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 100,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 100,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 100,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 100,
+        "correlation": 0.5,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 100,
+        "correlation": 1,
+        "kind": "global",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "single_sum",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "pair_product",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0.5
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0.5,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 1,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 1
+      }
+    ],
+    "unweighted": [
+      {
+        "alpha": 1.0,
+        "correlation": 0,
+        "kind": "shared_offset",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 100,
+        "correlation": 0,
+        "kind": "global",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 0.25,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 1,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "single_sum",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "pair_product",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.001,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.01,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 0.1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 1,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      },
+      {
+        "alpha": 10,
+        "bandwidth": 4,
+        "correlation": 0,
+        "kind": "global_plus_pair_10",
+        "noise_strength": 0
+      }
+    ]
+  },
+  "draws_sha256": "6b22a99d155e05d99a4c7e75ad95b3a788182520e41138591b5dfd99161fbb2b",
+  "evaluator_access": false,
+  "inner_folds": 3,
+  "outer_folds": 5,
+  "placebo": "training covariance rows and columns jointly permuted; identical correlated search budget",
+  "profiles_sha256": "fb246089a26353c88331bd6a2e72cba3fce441a989e6be8a53370f9ad56d9293",
+  "runner_sha256": "6397c9c913f2da4abac22aab023f70ad79082d2a542fb4c64afaa3186c8e96ff",
+  "scope": "late exploratory development sensitivity; historical outcomes known",
+  "seed": 20261009,
+  "selection": "inner-only; train covariance blocks only; first random outer fold inner selection freezes export",
+  "source_hash": "b02bd1331cbc0ddd3e07f064ca856c402f8b6aade896df9ca89caeb7fdf97eff"
+}
