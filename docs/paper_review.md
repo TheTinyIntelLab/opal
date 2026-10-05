@@ -20,7 +20,7 @@ The manuscript is a substantive internal methods-and-results draft, not submissi
 | Reliability has been assessed | Split-half residual cosine 0.2891/0.0838, emergent-panel, spread/error, retrieval, examples, and CPU measurements | Diagnostics are complete but do not establish biological replication, extended-output coverage, or calibrated abstention. |
 | Norman scale sensitivity establishes a structural advantage | Count sum-network MSE 1.03911249 versus selected ridge 1.25943739, both descriptive difference intervals cross zero | Inconclusive, with no multiplicative-feature selection. |
 | Chemical transfer is validated | Seven-pair exploratory run uses four development and three held-out pairs; bilinear MSE 0.01222957 versus mean residual 0.00994341 | Negative exploratory comparison; too few pairs for the intended chemical validation gate. |
-| Opal outperforms public methods | No aligned CPA, GEARS, SLIM, PertAdapt, or compatible NAIAD results | No ranking or state-of-the-art claim. |
+| Opal outperforms public methods | Native CPA and GEARS aggregate adaptations are now recorded; canonical cell-level matching remains incomplete | No ranking or state-of-the-art claim. |
 | The full v1 protocol is complete | Internal CPU batch, synthetic secondary studies, primary Wessels test | Unsupported; completion gates remain explicitly listed. |
 
 ## Method checks
@@ -31,7 +31,7 @@ The bounded rank and ridge search is an implementation amendment, not the comple
 
 ## Citation and integrity checks
 
-All eight cited keys occur in `paper/references.bib` and were checked against `docs/source_audit.md`. Dataset, model, and evaluation claims cite the appropriate primary sources. SLIM remains explicitly a preprint. Published comparison scores are not imported into the result tables. No invented references, author identities, affiliations, funding, conflicts, ethics approvals, public archive identifiers, or chemical results are supplied.
+All historical cited keys occur in `paper/references.bib` and were checked against `docs/source_audit.md`. Dataset, model, and evaluation claims cite the appropriate primary sources. SLIM remains explicitly a preprint. Published comparison scores are not imported into the result tables. No invented references, author identities, affiliations, funding, conflicts, ethics approvals, public archive identifiers, or chemical results are supplied.
 
 The bibliography still requires final author-level metadata inspection before submission, particularly online-versus-issue dates and PertAdapt's issue placement. The focused implementation bibliography is not represented as a systematic review. A Chinese abstract from the general academic-paper skill is omitted because the requested manuscript is an English technical research artifact and no translated audience or venue is specified.
 
@@ -40,3 +40,24 @@ The bibliography still requires final author-level metadata inspection before su
 The strongest part of the draft is the separation between synthetic recovery and biological evidence, including the inconclusive Norman and negative Wessels comparisons. Methodological scope is adequate for an internal reproducibility report. Evidence sufficiency blocks a full-v1 or comparative submission claim because independent chemical validation, aligned public-method benchmarks, and measurement/replication-aware uncertainty are missing.
 
 Before submission, execute registered biological robustness studies, resolve the chemical source amendment, and run compatible public comparisons with disclosed external resources. Expand capacity and rank evidence before claiming efficiency or low-dimensional biology. Responsible authors must complete CRediT, affiliation, funding, conflict, archive, license, and venue-specific AI declarations. Build verification and generated tables/figures are handled by the parent implementation task; this review does not certify successful PDF compilation.
+
+## Context-transfer amendment review, 6 October 2026
+
+The revised paper preserves the primary results and adds EmeraldBay, D-SPIN,
+native CPA/GEARS and estimated-single studies under separate contracts. CPA's
+aggregate-input chemical score beats the kernel; GEARS wins Wessels partner
+folds under its disclosed graph adaptation, so a universal kernel-best claim is
+removed. The D-SPIN independent procedure test is complete and negative, with
+34.3% coverage for a nominal 90% source radius. Independent biological
+replication and calibrated transfer uncertainty remain gates.
+
+Per-cell log transformation before averaging in the new chemical tracks differs
+from transform-after-condition-mean in the historical track; their raw MSEs must
+not be ranked across tasks. Whole-lineage source selection prevents batch-level
+leakage in D-SPIN, but post-treatment lineage assignments and shared dose grids
+limit the interpretation. Estimated-single results are reported separately
+because main-effect and residual errors cancel substantially. The new evidence
+table is generated from saved scores with source checksums, without reopening
+evaluator outcomes. The earlier review statements describe the historical cutoff;
+this dated amendment supersedes its statements that native execution and a larger
+chemical source are entirely absent.

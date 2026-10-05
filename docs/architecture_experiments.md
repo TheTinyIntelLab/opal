@@ -59,3 +59,13 @@ A late separate control clips training-standardized features at magnitude eight 
 - Wessels protected partner: bounded ordinary MSE=0.019325; bounded weighted MSE=0.019807; kernel MSE=0.016063.
 - Wessels original random: bounded ordinary MSE=0.006615; bounded weighted MSE=0.006675; kernel MSE=0.005032.
 - Wessels original partner: bounded ordinary MSE=0.010921; bounded weighted MSE=0.010985; kernel MSE=0.009868.
+
+## Scope update, 6 October 2026
+
+The kernel-best conclusion above concerns the historical architecture batch.
+Later native aggregate-input CPA has chemical pilot MSE 0.157098 versus kernel
+0.172218, and adapted native GEARS beats the kernel on Wessels partner folds.
+The frozen kernel procedure fails independent D-SPIN improvement and uncertainty
+gates. These new comparisons prevent extending the historical ranking to every
+source or protocol. See docs/next_cycle.md for exact adaptation and exposure
+limits, and the paper's context-transfer amendment for saved-score evidence.

@@ -1,0 +1,60 @@
+{
+  "biological_replication_claim": false,
+  "config": {
+    "calibration_fraction": 0.2,
+    "frozen_predictor": {
+      "alpha": 0.01,
+      "bandwidth": 4.0,
+      "kind": "pooled_sum"
+    },
+    "gene_reference": "data/prepared/emeraldbay-pilot-v1/references.npz",
+    "held_lineages": [
+      "Myeloid",
+      "NK"
+    ],
+    "minimum_cells": 20,
+    "publisher_md5": "3aedeecc18b8acb54c7a97ffc3943ef7",
+    "raw_path": "D:/opal-research-data/dspin/dosage_combination_raw_counts.h5ad",
+    "scope": "Independent-study evaluation of the frozen predictor procedure, not transfer of fitted EmeraldBay weights. Coarse published cell annotations are post-treatment; batches are not claimed as biological replicates.",
+    "seed": 20261005,
+    "sha256": "9cdff701a44a23e0032f6ab3fe75177b2e23d1808698f5cbcd6f4788dbce53c8",
+    "source": "https://data.caltech.edu/records/2cjss-wgh69",
+    "stimulated_only": true
+  },
+  "config_sha256": "9273642f1ec4caa3c045e6a093102ebab2f63b37328e3af93b9b0072328ebe82",
+  "contexts": [
+    "B_cell@COMB-DOS1",
+    "B_cell@COMB-DOS2",
+    "CD4 T@COMB-DOS1",
+    "CD4 T@COMB-DOS2",
+    "CD8 T@COMB-DOS1",
+    "CD8 T@COMB-DOS2",
+    "Myeloid@COMB-DOS1",
+    "Myeloid@COMB-DOS2",
+    "NK@COMB-DOS1",
+    "NK@COMB-DOS2"
+  ],
+  "coverage": {
+    "B_cell@COMB-DOS1": 30,
+    "B_cell@COMB-DOS2": 25,
+    "CD4 T@COMB-DOS1": 30,
+    "CD4 T@COMB-DOS2": 25,
+    "CD8 T@COMB-DOS1": 30,
+    "CD8 T@COMB-DOS2": 25,
+    "Myeloid@COMB-DOS1": 30,
+    "Myeloid@COMB-DOS2": 25,
+    "NK@COMB-DOS1": 30,
+    "NK@COMB-DOS2": 23
+  },
+  "genes": 1011,
+  "held_contexts": [
+    "Myeloid@COMB-DOS1",
+    "Myeloid@COMB-DOS2",
+    "NK@COMB-DOS1",
+    "NK@COMB-DOS2"
+  ],
+  "matched_control": "Same CD3 status, lineage and batch",
+  "post_treatment_lineage_annotations": true,
+  "source_cells": 173412,
+  "source_sha256": "9cdff701a44a23e0032f6ab3fe75177b2e23d1808698f5cbcd6f4788dbce53c8"
+}

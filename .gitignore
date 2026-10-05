@@ -50,8 +50,23 @@ results/architecture/noise-kernels-v*/summary.json
 results/architecture/transfer-v*/summary.json
 results/*.log
 
+# Next-cycle arrays and source archives stay local; compact evidence is versioned.
+results/next/**/*.npz
+results/next/**/*.zip
+results/next/**/*.whl
+.pytest-next-*/
+
 results/architecture/linear-bounded-v1/summary.json
 
 .pytest-joint-tmp/
 results/architecture/joint-uncertainty-v*/summary.json
 results/architecture/retuned-curves-v*/summary.json
+.venv-gpu/
+.venv-cpa/
+
+# Private local preview artifacts are outside the research release.
+/web/next/
+/tools/build_evidence_demo.py
+/results/next/demo-v1/
+/results/next/local-release-v1/
+/results/next/local-release-v2/

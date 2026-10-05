@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "seeds": [20261005, 20261006, 20261007],
+  "initial_labels": 5,
+  "budgets": [5, 10, 20, 40],
+  "validation_fraction": 0.25,
+  "policies": ["uniform", "target_balance", "diversity", "kernel_variance"],
+  "scope": "Retrospective development simulations with dependent seeds; no prospective discovery claim"
+}

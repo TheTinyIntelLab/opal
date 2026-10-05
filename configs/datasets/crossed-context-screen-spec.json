@@ -1,0 +1,15 @@
+{
+  "status": "proposed_design_not_observed_data",
+  "modality": "CRISPRi",
+  "pilot_context_count": 3,
+  "confirmation": "additional blinded experiment or context; pilot alone does not establish broad transfer",
+  "interventions": "select a shared target panel from qualified single-effect coverage and biological effect diversity",
+  "initial_target_count_proposal": 12,
+  "maximum_unordered_pairs_for_12_targets": 66,
+  "time_and_reagent_policy": "same declared intervention conditions across contexts; record guide assignment and efficacy",
+  "required_conditions": ["matched control", "each single", "registered pair subset"],
+  "replication": "prospective precision/power calculation; independent biological cultures and randomized batches",
+  "required_metadata": ["canonical target", "reagent", "modality", "dose", "time", "biological state", "assay", "study", "source", "replicate", "batch"],
+  "selection_policy": "metadata/reference-only panel selection before combination outcomes; preserve a sealed confirmation block",
+  "not_authorized_by_this_specification": ["contacting collaborators", "purchasing compute", "commissioning experiments"]
+}

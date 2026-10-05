@@ -62,3 +62,27 @@ Norman filters 20,277 cells through metadata eligibility rules before numerical 
 The chemical original count file has SHA-256 `95d5dc4b28eb407449b8976f79e89000ec89eee620e5f3b819c8d68aa454dc6e`. Its cell and gene metadata hashes are `67593f3785759bf9f2089cd369ab6f3d5aca76555fa1a31fd7ba781a79b20765` and `5beab60fb97830d1fcc11276c3f200e96a93bbb96bccd65186784f928fa81bdd`. Preparation retains 62,891 cells, uses equal well weighting within conditions and an equal control-well plate reference, and stores a threefold exploratory development amendment. This amendment enables pipeline testing on seven matched pairs; it does not satisfy the planned chemical confirmatory benchmark.
 
 For exact exclusions, source versions, condition maps and normalization settings, use each track's `source_manifest.json`, `qc_report.json`, `preprocessing.json`, `gene_schema.json` and `splits.json` under `data/prepared/`. The registry stores their preparation manifest SHA-256 alongside source count hashes. The audit accepts source construction for these local protocols; unresolved source redistribution terms, guide efficacy differences, limited chemical coverage and the remaining release validation requirements still apply.
+
+## New chemical sources, 6 October 2026
+
+[EmeraldBay](https://huggingface.co/datasets/tahoebio/EmeraldBay) is pinned at
+revision f2a0be6b02f731553657f0115c345b20bb020ede under CC BY 4.0. The pilot reads
+six verified shards (2,585,018,634 bytes, 94,746 cells), selects eight eligible
+cell lines by condition coverage, and retains 17 exact-dose pair conditions
+and 99 context/pair rows. Its 1,024-gene panel uses vehicle variation only.
+Controls and each query's measured singles are allowed; this exposed subset
+supports exploratory evaluation rather than new independent confirmation.
+
+The independent [D-SPIN release](https://data.caltech.edu/records/2cjss-wgh69)
+provides 173,412 cells and a 772,564,529-byte count matrix. Publisher MD5 is
+3aedeecc18b8acb54c7a97ffc3943ef7; recorded SHA256 is
+9cdff701a44a23e0032f6ab3fe75177b2e23d1808698f5cbcd6f4788dbce53c8.
+The dosage-combination task uses stimulated controls, 55 exact-dose pairs,
+five lineage labels across two batches and 1,011 genes intersecting the frozen
+pilot vocabulary. Whole-lineage holdouts cover 108 of 273 pair/context rows.
+Published lineage assignments are post-treatment; batch copies and dose-grid
+rows are not independent biological replication. One shared endpoint supports
+no time-transfer claim. The independent procedure test was negative.
+The [primary Cell paper](https://doi.org/10.1016/j.cell.2026.04.028) describes
+the source experiments; configs/datasets/dspin-confirmation-v1.json records
+matching and raw storage, and tools/download_dspin.py verifies both checksums.

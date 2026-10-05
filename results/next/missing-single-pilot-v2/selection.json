@@ -1,0 +1,113 @@
+{
+  "query_singles_used": false,
+  "search": [
+    {
+      "config": {
+        "kind": "target_mean"
+      },
+      "mse": 0.06754603101148866,
+      "predicted_singles": 101,
+      "unsupported_singles": 0
+    },
+    {
+      "config": {
+        "alpha": 0.01,
+        "bandwidth": 0.25,
+        "kind": "control_kernel"
+      },
+      "mse": 0.06768028021911324,
+      "predicted_singles": 101,
+      "unsupported_singles": 0
+    },
+    {
+      "config": {
+        "alpha": 0.01,
+        "bandwidth": 1.0,
+        "kind": "control_kernel"
+      },
+      "mse": 0.0679317809798774,
+      "predicted_singles": 101,
+      "unsupported_singles": 0
+    },
+    {
+      "config": {
+        "alpha": 0.01,
+        "bandwidth": 4.0,
+        "kind": "control_kernel"
+      },
+      "mse": 0.06785568805644605,
+      "predicted_singles": 101,
+      "unsupported_singles": 0
+    },
+    {
+      "config": {
+        "alpha": 1.0,
+        "bandwidth": 0.25,
+        "kind": "control_kernel"
+      },
+      "mse": 0.06761183661281317,
+      "predicted_singles": 101,
+      "unsupported_singles": 0
+    },
+    {
+      "config": {
+        "alpha": 1.0,
+        "bandwidth": 1.0,
+        "kind": "control_kernel"
+      },
+      "mse": 0.06760434013831453,
+      "predicted_singles": 101,
+      "unsupported_singles": 0
+    },
+    {
+      "config": {
+        "alpha": 1.0,
+        "bandwidth": 4.0,
+        "kind": "control_kernel"
+      },
+      "mse": 0.06723195947060948,
+      "predicted_singles": 101,
+      "unsupported_singles": 0
+    },
+    {
+      "config": {
+        "alpha": 100.0,
+        "bandwidth": 0.25,
+        "kind": "control_kernel"
+      },
+      "mse": 0.06754729496270324,
+      "predicted_singles": 101,
+      "unsupported_singles": 0
+    },
+    {
+      "config": {
+        "alpha": 100.0,
+        "bandwidth": 1.0,
+        "kind": "control_kernel"
+      },
+      "mse": 0.06754578986272482,
+      "predicted_singles": 101,
+      "unsupported_singles": 0
+    },
+    {
+      "config": {
+        "alpha": 100.0,
+        "bandwidth": 4.0,
+        "kind": "control_kernel"
+      },
+      "mse": 0.06754068216338271,
+      "predicted_singles": 101,
+      "unsupported_singles": 0
+    }
+  ],
+  "winner": {
+    "config": {
+      "alpha": 1.0,
+      "bandwidth": 4.0,
+      "kind": "control_kernel"
+    },
+    "mse": 0.06723195947060948,
+    "predicted_singles": 101,
+    "unsupported_singles": 0
+  }
+}

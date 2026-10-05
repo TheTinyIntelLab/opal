@@ -1,0 +1,9 @@
+# Isolated Windows Python 3.14 environment used for EmeraldBay preprocessing.
+# Install torch first from https://download.pytorch.org/whl/cu126.
+torch==2.9.1+cu126
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.6
+pyarrow==25.0.1
+threadpoolctl==3.7.0
+psutil==7.2.2

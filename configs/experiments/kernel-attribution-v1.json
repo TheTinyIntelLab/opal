@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "datasets": ["norman-log2", "wessels-log2"],
+  "seed": 20261005,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "alphas": [0.01, 0.1, 1.0, 10.0, 100.0],
+  "bandwidths": [0.25, 1.0, 4.0],
+  "neighborhood_removal_fraction": 0.1,
+  "families": ["shared_offset", "global", "single_sum", "pair_product", "global_plus_pair", "shuffled_pair"],
+  "scope": "Exploratory development attribution; historical outcomes known; no evaluator responses accessed"
+}

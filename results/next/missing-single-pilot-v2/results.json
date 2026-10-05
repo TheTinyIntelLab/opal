@@ -1,0 +1,26 @@
+{
+  "additive_estimated_single_mse": 0.15722540765277462,
+  "error_cross_term": -0.25586800995765097,
+  "export_maximum_absolute_error": 4.440892098500626e-15,
+  "formal_coverage_guarantee": false,
+  "learned_representation_gate": "not established by this simple-model study",
+  "main_effect_mse": 0.1653587745594543,
+  "mse": 0.09282916015067742,
+  "oracle_single_mse": 0.17260029730938448,
+  "residual_mse": 0.18333839554887413,
+  "retrospective": true,
+  "skill_over_source_target_mean": 0.004649740868205354,
+  "source_selected_imputer": {
+    "config": {
+      "alpha": 1.0,
+      "bandwidth": 4.0,
+      "kind": "control_kernel"
+    },
+    "mse": 0.06723195947060948,
+    "predicted_singles": 101,
+    "unsupported_singles": 0
+  },
+  "status": "complete",
+  "supported_queries": 27,
+  "unsupported_queries": []
+}

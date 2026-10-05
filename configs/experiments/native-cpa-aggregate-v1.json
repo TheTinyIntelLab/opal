@@ -1,0 +1,12 @@
+{
+  "dataset": "data/prepared/emeraldbay-pilot-v1",
+  "revision": "fbd7c0250edc23eff003a10c99655579c53afd63",
+  "seed": 20261005,
+  "candidates": [
+    {"width": 64, "latent": 16, "epochs": 60},
+    {"width": 128, "latent": 32, "epochs": 120}
+  ],
+  "selection": "Leave one fitting context out; calibration and evaluator responses are unavailable to selection.",
+  "final_validation": "Reserve four allowed single/control reference rows by deterministic identity; never combination calibration/evaluator outcomes.",
+  "scope": "Native CPA implementation with population-mean Gaussian inputs, not the canonical cell-level CPA benchmark. Same permitted observed references and source combination outcomes as the kernel."
+}

@@ -1,0 +1,64 @@
+{
+  "scope": "Source discovery registry; acceptance is specific to the task and protocol.",
+  "sources": [
+    {
+      "combination_transfer_accepted": false,
+      "name": "Replogle K562/RPE1",
+      "remaining_audit": [
+        "overlap and exact releases",
+        "intervention time/reagent matching",
+        "source preprocessing and permissions",
+        "prior benchmark exposure"
+      ],
+      "role": "single-effect representation transfer",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9380471/"
+    },
+    {
+      "combination_transfer_accepted": false,
+      "name": "Nadig Jurkat/HepG2",
+      "remaining_audit": [
+        "count matrix and metadata acquisition",
+        "matched intervention coverage",
+        "replication",
+        "preprocessing and permissions"
+      ],
+      "role": "single-effect context diversity",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11244993/"
+    },
+    {
+      "combination_transfer_accepted": false,
+      "name": "ComboSciPlex",
+      "reason": "Local source audit establishes only seven matched-single combinations and one context.",
+      "role": "single-context chemical feasibility",
+      "url": "https://cpa-tools.readthedocs.io/en/latest/tutorials/combosciplex.html"
+    },
+    {
+      "combination_transfer_accepted": false,
+      "name": "PDGrapher intervention datasets",
+      "reason": "The primary article describes single-gene genetic interventions and compounds targeting multiple genes. A compound's target set is not a measured co-treatment with its constituent single interventions.",
+      "role": "related inverse-design work; rejected as immediate pair-response corpus",
+      "url": "https://www.nature.com/articles/s41551-025-01481-x"
+    },
+    {
+      "combination_transfer_accepted": true,
+      "genetic_transfer_evidence": false,
+      "independent_confirmation": false,
+      "name": "Tahoe Bio EmeraldBay",
+      "registered_pilot": "configs/datasets/emeraldbay-pilot-v1.json",
+      "results": "results/next/emeraldbay-pilot-v1/results.json",
+      "results_sha256": "90ec8364d15bbc1abd84f2d199d26c743d428c875eed82c003a1832492b11fa1",
+      "revision": "f2a0be6b02f731553657f0115c345b20bb020ede",
+      "role": "observed-single chemical context-transfer pilot",
+      "status": "downloaded_prepared_evaluated_exploratory",
+      "url": "https://huggingface.co/datasets/tahoebio/EmeraldBay"
+    },
+    {
+      "combination_transfer_accepted": false,
+      "name": "Adamson UPR epistasis GSE90546 GSM2406677",
+      "reason": "Downloaded cell identities do not declare chemical context directly. Barcode suffixes cannot establish biological contexts; publisher condition mapping is required before any transfer claim.",
+      "role": "combinatorial genetic source discovery",
+      "status": "original_matrix_and_identity_files_downloaded",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90546"
+    }
+  ]
+}

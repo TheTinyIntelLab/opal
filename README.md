@@ -4,13 +4,16 @@ Opal predicts population-mean effects of an unmeasured unordered intervention
 pair from measured singles. It adds a learned symmetric correction to the
 observed additive prediction. This repository implements the research workflow
 in [roadmap.md](roadmap.md); biological Opal v1 validation is still in progress.
-The Hugging Face model repo and Space are separate projects.
+
+The next-cycle implementation, commands and evidence are in [the next-cycle guide](docs/next_cycle.md).
+It covers the v1 closeout, crossed-context data requirements, contextual models,
+evaluation gates and release work without changing the historical protocol.
 
 The latest architecture batch adds joint reference uncertainty, GO/Hallmark/
 GenePT/ESM2 priors, structured decoders, signal-weighted objectives, independent
-single-screen transfer, and kernel/GP/retrieval/TabICLv2 comparisons. The strong
-kernel remains the best tested family; extra training coverage and measurement
-weighting give the useful gains. These are exploratory development results, and
+single-screen transfer, and kernel/GP/retrieval/TabICLv2 comparisons. Within that historical architecture batch, the residual kernel gives the best
+aggregate scores; extra training coverage and measurement weighting give the
+useful gains. These are exploratory development results, and
 frontier quality hasn't been established. Exact scores and exposure limits are in
 [the architecture study](docs/architecture_experiments.md).
 
@@ -28,6 +31,42 @@ ignored by Git. PRESAGE-derived semantic weights retain CC BY-NC 4.0 terms.
 
 The working layout is `data/`, `paper/`, `results/`, `src/`, `tests/`, and `tools/`,
 with registered dataset and experiment contracts under `configs/`.
+
+## Current context-transfer results
+
+The contextual pipeline is implemented with exact intervention/dose matching,
+separate fitting, grouped calibration and evaluation artifacts, and safe inference
+exports. The EmeraldBay chemical pilot's selected kernel MSE is 0.172218 versus
+0.210239 for additivity; native CPA on aggregate inputs improves it to 0.157098.
+This pilot is exploratory. On independent D-SPIN data, the frozen kernel
+procedure has MSE 0.034025 versus 0.033108 for the source-selected simple
+reference, failing the registered 5% improvement gate. Its nominal 90% empirical
+source radius covers only 34.3% of held conditions, so transfer validation and
+calibrated abstention remain unresolved.
+
+Native GEARS development runs use aggregate observations and reference-derived
+graphs. GEARS beats the kernel on Wessels partner folds and loses on its random
+folds; the kernel wins both Norman protocols. These adapted comparisons do not
+establish canonical public-method rankings. Estimated-single inference has a
+separate experimental contract: its favorable pilot error includes substantial
+main-effect/residual error cancellation and does not establish reliable transfer.
+
+Use `python main.py next --output results/next/new-cycle` for the integrated
+registered extension. Inference can run without PyTorch:
+
+```powershell
+.venv/Scripts/python.exe main.py context-predict --checkpoint results/next/portable-checkpoints-v1/emeraldbay --context CVCL_1478 --pair "Gemcitabine@10uM:5d" "Paclitaxel@0.5uM:5d" --output tmp/chemical-prediction.npz
+```
+
+Large checkpoints and datasets remain local; a fresh checkout must reproduce or
+restore the documented artifacts before running this example. The [next-cycle
+guide](docs/next_cycle.md) records download, GPU environment, training and
+estimated-single commands. The [model card](docs/model_card_next.md) defines
+supported inputs and limitations; `results/next/research-ledger-v2` and
+`results/next/cycle-v7` retain the compact evidence. The suite currently passes
+104 tests, and installed-wheel checks reproduce observed and estimated
+predictions within `7e-15`. The [manuscript](paper/main.tex) and its
+[compiled PDF](paper/main.pdf) include the new findings as a separate amendment.
 
 ## Install and run
 

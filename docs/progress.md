@@ -153,3 +153,25 @@ Implemented and executed full shared-reference covariance kernels with safe chec
 These experiments expose limits rather than establishing frontier quality: covariance does not consistently beat diagonal weighting, both noise families worsen Wessels partner error on the new seeds, and protected partner 90% radii attain 83.7% observed coverage. Fixed-QC technical refitting still omits model selection and biological uncertainty. See `docs/ceiling_experiments.md` and `results/architecture/ceiling_report.json`.
 
 The final extension passes 75 tests. The built wheel loads covariance checkpoints from an isolated package directory and matches current fitting predictions within 4.5e-14 absolute error on unscored query identities. The full `main.py frontier --skip-paper` build completes with the new stages included.
+
+## 6 October 2026: context-transfer implementation and evaluation
+
+The registered next-cycle extensions are complete as research software:
+contextual residual families, attribution and acquisition controls, exact-dose
+contracts, isolated fitting/calibration/evaluation, safe observed and estimated
+inference, and compact evidence packaging. The suite passes 104 tests; installed
+wheel checks agree within 7e-15 without importing PyTorch. State version 3 stores
+fitted numerical normalizations. The integrated cycle-v7 uses saved results;
+the disk-full cycle-v6 remains preserved as an interrupted run.
+
+The RTX 4060 runs native CPA and GEARS in an isolated Python 3.10 environment.
+CPA's aggregate chemical pilot MSE is 0.157098 versus kernel 0.172218. GEARS has
+mixed development comparisons, including a Wessels partner-fold advantage.
+PertAdapt's recorded full-gene feasibility probe exhausts GPU memory; it has no
+biological score. D-SPIN independent procedure evaluation is negative: frozen
+MSE 0.034025 versus reference 0.033108, with 34.3% nominal-90% radius coverage.
+These outcomes close execution gaps but leave positive transfer confirmation,
+biological replication and transferable uncertainty unresolved. Estimated-single
+inference remains experimental because its pilot gains include error cancellation.
+The paper, README, model card and source/protocol documentation now report these
+limits. See docs/next_cycle.md and results/next/research-ledger-v2.

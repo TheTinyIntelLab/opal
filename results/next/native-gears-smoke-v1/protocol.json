@@ -1,0 +1,17 @@
+{
+  "config": {
+    "batch_size": 8,
+    "epochs": 2,
+    "hidden_size": 16,
+    "lr": 0.001
+  },
+  "evaluator_access": false,
+  "gene_selection": "all prepared genes; no outcome-selected subset",
+  "graphs": "positive cosine nearest-three from allowed measured singles, no external ontology",
+  "input_sha256": "4bf69cefb71006d210b39a2c38441703d3143c9951d623855d4748d97963d20f",
+  "native_loss_sha256": "89d1da79df60d14d929aed05ec904b4ef2664855abe89b5bce5112b88f80395a",
+  "native_model_sha256": "07fee864bc5020807c90ed5443ff17530116f47f257332466243c233ef2bc857",
+  "scope": "Native GEARS architecture/loss on aggregates with reference-derived graphs.\n\nThis is an information-aligned development adaptation, not canonical GEARS\nwith external gene ontology and individual cells. Historical tests stay closed.\n",
+  "seed": 20261005,
+  "smoke_only": true
+}

@@ -31,7 +31,7 @@ def main(argv=None):
     log = result.stdout + result.stderr
     (ROOT / "paper/build.log").write_text(log, encoding="utf-8")
     manifest = {"compiler": binary, "return_code": result.returncode,
-                "inputs": {str(f.relative_to(ROOT / "paper")): sha256(f) for pattern in ["*.tex", "*.bib", "evidence/*.tex", "evidence/*.pdf"] for f in (ROOT / "paper").glob(pattern)},
+                "inputs": {str(f.relative_to(ROOT / "paper")): sha256(f) for pattern in ["*.tex", "*.bib", "evidence/*.tex", "evidence/*.pdf", "evidence/next_cycle_manifest.json"] for f in (ROOT / "paper").glob(pattern)},
                 "pdf_sha256": sha256(ROOT / "paper/main.pdf") if result.returncode == 0 and (ROOT / "paper/main.pdf").exists() else None}
     write_json(ROOT / "paper/build_manifest.json", manifest)
     print(log)

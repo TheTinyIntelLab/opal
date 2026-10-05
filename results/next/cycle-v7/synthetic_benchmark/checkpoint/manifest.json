@@ -1,0 +1,61 @@
+{
+  "checkpoint_state_version": 3,
+  "combination_outcomes_included": false,
+  "config": {
+    "alpha": 0.01,
+    "bandwidth": 1.0,
+    "context_bandwidth": 1.0,
+    "context_weight": 1.0,
+    "global_weight": 1.0,
+    "kind": "pooled_pair"
+  },
+  "files": {
+    "calibration.json": "cafb671a2f773604454d06b7af5137827c058c0c2221e388d1bb8bfef5c4468b",
+    "fitted.npz": "47624035d7040e081a683911933f7485d5fee804dd4f33ea1864ca2a11b33769",
+    "references.json": "dfc0d296ab0712b364b15501344d0896f416ea5ba260a60495087e67ef2b6fba",
+    "references.npz": "865edf0ffe7cf0ffcce2f83c89049e878578e3f1cb69b8e7b5ed9817cba0d311"
+  },
+  "gene_order": [
+    "G0000",
+    "G0001",
+    "G0002",
+    "G0003",
+    "G0004",
+    "G0005",
+    "G0006",
+    "G0007",
+    "G0008",
+    "G0009",
+    "G0010",
+    "G0011",
+    "G0012",
+    "G0013",
+    "G0014",
+    "G0015",
+    "G0016",
+    "G0017",
+    "G0018",
+    "G0019",
+    "G0020",
+    "G0021",
+    "G0022",
+    "G0023",
+    "G0024",
+    "G0025",
+    "G0026",
+    "G0027",
+    "G0028",
+    "G0029",
+    "G0030",
+    "G0031"
+  ],
+  "population_mean_only": true,
+  "provenance": {
+    "dataset_protocol_sha256": "5c4e16fffc7de272347d0c54eb0f857fecb18a2b47a87921f2c2a4bb9e7bb6c8",
+    "selection_sha256": "894ada5a08fca4dbda2f56a9a9c8e943490d0e7996d290247030664e40f4ecea"
+  },
+  "reference_hash": "77278b2cc7d097f946f772bf77ef86e5320c5995201582758d80d25b295276f8",
+  "reliability": "diagnostic_only_no_coverage_guarantee",
+  "schema": "opal-contextual-observed-singles-v2",
+  "synthetic": true
+}

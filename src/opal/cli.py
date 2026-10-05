@@ -75,8 +75,53 @@ def main(argv=None):
     p.add_argument("--output", required=True)
     p = sub.add_parser("report")
     p.add_argument("--results", default="results/synthetic")
+    p = sub.add_parser("context-prepare", help="Prepare an explicitly declared measured-single contextual dataset")
+    p.add_argument("--config", required=True)
+    p = sub.add_parser("context-benchmark", help="Select on fitting contexts; save predictions before held-context outcomes")
+    p.add_argument("--dataset", required=True)
+    p.add_argument("--output", required=True)
+    p = sub.add_parser("context-predict", help="Predict using a safe contextual checkpoint")
+    p.add_argument("--checkpoint", required=True)
+    p.add_argument("--context", required=True)
+    p.add_argument("--estimated-singles", action="store_true", help="Use the separate experimental estimated-single checkpoint")
+    route = p.add_mutually_exclusive_group(required=True)
+    route.add_argument("--pair", nargs=2)
+    route.add_argument("--single")
+    route.add_argument("--control", action="store_true")
+    p.add_argument("--output", required=True)
     args = parser.parse_args(argv)
-    if args.command == "reproduce":
+    if args.command == "context-prepare":
+        from opal.contextual import ReferenceBank, prepare_dataset
+        config = config_file(args.config)
+        bank = ReferenceBank.load(config["references"])
+        data = load_npz(config["combinations"])
+        result = str(prepare_dataset(config["output"], bank, data["pairs"], data["contexts"], data["responses"],
+                                    held_contexts=config["held_contexts"], calibration_fraction=config.get("calibration_fraction", .2),
+                                    seed=config.get("seed", 1729)))
+    elif args.command == "context-benchmark":
+        from opal.contextual.benchmark import run_benchmark
+        from threadpoolctl import threadpool_limits
+        with threadpool_limits(limits=1):
+            result = run_benchmark(args.dataset, args.output)
+    elif args.command == "context-predict":
+        from opal.contextual import ContextPredictor
+        if args.estimated_singles:
+            if args.pair is None:
+                raise ValueError('The estimated-single route requires a pair query')
+            from opal.contextual import load_estimated_checkpoint
+            prediction = load_estimated_checkpoint(args.checkpoint).predict(*args.pair, context=args.context)
+        else:
+            prediction = ContextPredictor(args.checkpoint).predict(*(args.pair or [args.single, None]), context=args.context)
+        destination = Path(args.output)
+        sidecar = destination.with_suffix(destination.suffix + ".json")
+        if destination.exists() or sidecar.exists():
+            raise FileExistsError("Prediction destination already exists")
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        with destination.open("xb") as handle:
+            np.savez_compressed(handle, **{k: v for k, v in prediction.items() if isinstance(v, np.ndarray)})
+        result = {k: v for k, v in prediction.items() if not isinstance(v, np.ndarray)}
+        write_json(sidecar, result)
+    elif args.command == "reproduce":
         config = config_file(args.config)
         if args.output:
             config["output"] = args.output

@@ -83,3 +83,32 @@ The neural search compares measured-response, noise, source attention, mean pool
 After the diagonal-noise architecture studies, new exploratory seeds 20261008, 20261009 and 20261010 compare 67 unweighted, 201 diagonal and 469 correlated candidates. A 469-candidate training-covariance permutation controls the correlated search budget. Covariance uses only joint technical cell-bootstrap residuals and training blocks, with the historical fixed gene/QC/normalizer schema. Sixteen refits condition on chosen configurations and covariance; no biological or model-selection uncertainty is claimed.
 
 Learning curves retune each subset, preserving infeasible small subsets rather than redrawing them. `retuned-curves-v1` reordered even the full-size pairs and hence changed its inner partition. `retuned-curves-v2` restores canonical order at full size, verifies equality with the frozen full-size unweighted comparator and retains v1. Fitting-only tuning precedes untouched calibration-label quantiles. Requested finite ranks above calibration sample counts are unavailable, not clipped; pair dependence prevents guaranteed coverage claims. No new historical query response access is authorized or performed.
+
+## Context-transfer amendment, 6 October 2026
+
+The historical same-context evaluator is unchanged. New chemical source adapters
+normalize counts to 10,000, transform log2 per cell, then average; the historical
+track transforms after condition averaging. Exact intervention, dose and endpoint
+identities determine single/pair matching. Missing storage zeros carry false
+availability flags and never stand in for observed zero effects. Fitting,
+group-max calibration, query identities and evaluator responses live in distinct
+artifacts. Six residual families are selected using source contexts only.
+
+EmeraldBay is an exposed exploratory pilot with 54 fitting, 18 calibration and
+27 evaluation rows. The D-SPIN independent study freezes EmeraldBay's pooled-sum
+procedure (alpha 0.01, bandwidth 4), then refits on source D-SPIN contexts; it
+does not transfer fitted weights across assays. Myeloid and NK are withheld
+across both batches, and inner selection holds out entire lineages. The frozen
+procedure fails the registered 5% improvement gate; no later holdout tuning
+replaces that result. A source-calibrated empirical radius has no out-of-context
+coverage guarantee, as the observed 34.3% coverage demonstrates.
+
+Estimated singles use a separate schema and mask all query singles from fitting
+and imputation references. Exact intervention sources are disclosed and absent
+sources trigger abstention. Its reported total, main, residual and cross-term
+errors expose cancellation. Native CPA and GEARS retain upstream architecture
+and loss while adapting aggregate observations; GEARS graphs derive only from
+allowed singles. These are not canonical cell-level comparisons. Acquisition
+policies share fixed validation sets and dependent seeds, so their results do not
+establish a universal prospective policy. New runs use new directories and
+retain protocol/source fingerprints; cycle-v6's disk-full failure is preserved.

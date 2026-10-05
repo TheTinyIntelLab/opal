@@ -1,0 +1,15 @@
+{
+  "adapter_gene_tokens": 19264,
+  "backbone_gene_order_verified_against_prepared_expression": false,
+  "biological_inputs_used": false,
+  "cuda_available": true,
+  "model_sha256": "9f8386b6704f1d323e9f9742547b7cc23b7a028665d7b431a4a2d97593cef034",
+  "native_score": null,
+  "nccl_available": false,
+  "remaining": [
+    "Native distributed launcher requires NCCL, unavailable on this Windows build",
+    "Foundation gene symbols must be matched to full measured expression before a scored run",
+    "Backbone pretraining exposure and external graph access require a matched protocol"
+  ],
+  "scope": "Only a default float32 native adapter forward/backward feasibility probe"
+}
