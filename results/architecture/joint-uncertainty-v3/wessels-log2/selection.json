@@ -1,0 +1,10 @@
+{
+  "config": {
+    "alpha": 0.1,
+    "bandwidth": 1,
+    "correlation": 0,
+    "kind": "single_sum",
+    "noise_strength": 1
+  },
+  "rule": "first random fold inner CV; never outer scores"
+}
