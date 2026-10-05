@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-05",
+  "audit_scope": "metadata and existing QC retention counts only; no expression matrices or evaluator responses read",
+  "full_matching_audit_completed": false,
+  "models_fitted": false,
+  "historical_preparation_changed": false,
+  "coverage_rule": "nonexcluded condition, retained cell count meets threshold, both observed single targets available; exact stratum and construct matching still required",
+  "source_files": {
+    "data\\prepared\\wessels-log2\\qc_report.json": "b894684c957bbcf9f587a5975d0aee1603302554de97e5e921c0ba1167d5c958",
+    "data\\prepared\\wessels-log2\\source_manifest.json": "cc0cb71f8c5d286a29053ef0b1567c41210cb830233bed2233aee759414b9a85"
+  },
+  "registered_coverage": {
+    "single_targets": 16,
+    "target_pairs": 58
+  },
+  "threshold_scenarios": [
+    {
+      "minimum_cells": 15,
+      "potential_single_targets": 28,
+      "potential_target_pairs": 158,
+      "potential_pair_conditions": 158
+    },
+    {
+      "minimum_cells": 25,
+      "potential_single_targets": 27,
+      "potential_target_pairs": 142,
+      "potential_pair_conditions": 142
+    },
+    {
+      "minimum_cells": 50,
+      "potential_single_targets": 16,
+      "potential_target_pairs": 58,
+      "potential_pair_conditions": 58
+    }
+  ],
+  "singles_excluded_at_50_cells": [
+    {
+      "target": "CD14",
+      "condition": "CD14_NT",
+      "retained_cells": 40
+    },
+    {
+      "target": "GATA2",
+      "condition": "GATA2_NT",
+      "retained_cells": 47
+    },
+    {
+      "target": "IKZF1",
+      "condition": "IKZF1_NT",
+      "retained_cells": 45
+    },
+    {
+      "target": "KDM1A",
+      "condition": "KDM1A_NT",
+      "retained_cells": 39
+    },
+    {
+      "target": "MED13L",
+      "condition": "MED13L_NT",
+      "retained_cells": 27
+    },
+    {
+      "target": "MED14",
+      "condition": "MED14_NT",
+      "retained_cells": 49
+    },
+    {
+      "target": "MED19",
+      "condition": "MED19_NT",
+      "retained_cells": 48
+    },
+    {
+      "target": "MED22",
+      "condition": "MED22_NT",
+      "retained_cells": 49
+    },
+    {
+      "target": "MYB",
+      "condition": "MYB_NT",
+      "retained_cells": 15
+    },
+    {
+      "target": "SSRP1",
+      "condition": "NT_SSRP1",
+      "retained_cells": 32
+    },
+    {
+      "target": "SUPT6H",
+      "condition": "NT_SUPT6H",
+      "retained_cells": 33
+    },
+    {
+      "target": "VPRBP",
+      "condition": "NT_VPRBP",
+      "retained_cells": 30
+    }
+  ]
+}

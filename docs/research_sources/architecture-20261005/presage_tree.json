@@ -1,0 +1,216 @@
+{
+  "sha": "2c7b231c60cf110c4aab0acf8ecd2c2b3268fffb",
+  "url": "https://api.github.com/repos/Genentech/PRESAGE/git/trees/2c7b231c60cf110c4aab0acf8ecd2c2b3268fffb",
+  "tree": [
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cef2050a983daad0d066dba4c00dc10ba4dfb554",
+      "size": 10550,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/cef2050a983daad0d066dba4c00dc10ba4dfb554"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22cc8c5b07fa2c04ef5af398fadf8af60e49c257",
+      "size": 6473,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/22cc8c5b07fa2c04ef5af398fadf8af60e49c257"
+    },
+    {
+      "path": "environment.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e8ca0f502066544fe1a43e9abe4f69917a39bf3",
+      "size": 11484,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/5e8ca0f502066544fe1a43e9abe4f69917a39bf3"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d6fdff37b03618bb8218c0b9db4c1d02b99b9d5",
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/trees/5d6fdff37b03618bb8218c0b9db4c1d02b99b9d5"
+    },
+    {
+      "path": "notebooks/EvaluateFromPredictions.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c22065fc8c28344d68a97570ce656b6f781e48b",
+      "size": 8044,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/8c22065fc8c28344d68a97570ce656b6f781e48b"
+    },
+    {
+      "path": "notebooks/PRESAGE_example.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb3b834ceec9427a9769a2565225fcd2a456ffab",
+      "size": 9570,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/cb3b834ceec9427a9769a2565225fcd2a456ffab"
+    },
+    {
+      "path": "notebooks/cache",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31d734e7d1cb753233de56d24ee634c36c00fe9e",
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/trees/31d734e7d1cb753233de56d24ee634c36c00fe9e"
+    },
+    {
+      "path": "notebooks/cache/pathway_embeddings",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "27bd10c6cced3571cc109f74dbc9cfb0a7851ec0",
+      "size": 31,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/27bd10c6cced3571cc109f74dbc9cfb0a7851ec0"
+    },
+    {
+      "path": "sample_files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ac0a03fb22f63d4e2f14ef65d96a62cca38eaac7",
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/trees/ac0a03fb22f63d4e2f14ef65d96a62cca38eaac7"
+    },
+    {
+      "path": "sample_files/prior_files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2552a749bec7fa1ab335861ca64e13c3de949f15",
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/trees/2552a749bec7fa1ab335861ca64e13c3de949f15"
+    },
+    {
+      "path": "sample_files/prior_files/sample.knowledge_experimental.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02fd37fc20cecdd61adfb0a48677e6da72e6ba76",
+      "size": 2281,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/02fd37fc20cecdd61adfb0a48677e6da72e6ba76"
+    },
+    {
+      "path": "shell_scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dc160c58cf3fbcc38e17fc518efc185059653fec",
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/trees/dc160c58cf3fbcc38e17fc518efc185059653fec"
+    },
+    {
+      "path": "shell_scripts/run_presage.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b17bfc84e7b9f3e51e7d623216f5cbf893a894a6",
+      "size": 589,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/b17bfc84e7b9f3e51e7d623216f5cbf893a894a6"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e0c58dcc831f08d5e2485e954c3f8d5e68ee35c",
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/trees/7e0c58dcc831f08d5e2485e954c3f8d5e68ee35c"
+    },
+    {
+      "path": "src/datamodule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19039493fa323de42cc3eab33511325b044835a6",
+      "size": 25467,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/19039493fa323de42cc3eab33511325b044835a6"
+    },
+    {
+      "path": "src/evaluator.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e410523c32412694f9550f882eb76b53a5ffbf24",
+      "size": 59333,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/e410523c32412694f9550f882eb76b53a5ffbf24"
+    },
+    {
+      "path": "src/model_harness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f0ba5335a36800995d6a21a1517995dc7e14bf5",
+      "size": 12744,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/8f0ba5335a36800995d6a21a1517995dc7e14bf5"
+    },
+    {
+      "path": "src/prep_dataset_utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6cabe2eab2586bec53c11ae0f15887a3901a1a91",
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/trees/6cabe2eab2586bec53c11ae0f15887a3901a1a91"
+    },
+    {
+      "path": "src/prep_dataset_utils/PrepNadig.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3959fb8116e3dc49d7626e96a3c16abbd4e28fe4",
+      "size": 1854,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/3959fb8116e3dc49d7626e96a3c16abbd4e28fe4"
+    },
+    {
+      "path": "src/prep_dataset_utils/TransformscPerturbdatasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d0509a05b60765981459537725e8f7c4e5d2c41",
+      "size": 239,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/7d0509a05b60765981459537725e8f7c4e5d2c41"
+    },
+    {
+      "path": "src/prep_dataset_utils/download_datasets.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f4fde183d815b649e5b9c3d58f13c9a04c59d00e",
+      "size": 1293,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/f4fde183d815b649e5b9c3d58f13c9a04c59d00e"
+    },
+    {
+      "path": "src/prep_dataset_utils/prep_naidg.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c5ef9847a52effe9ed11e09f8e94d7acaf7e6881",
+      "size": 105,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/c5ef9847a52effe9ed11e09f8e94d7acaf7e6881"
+    },
+    {
+      "path": "src/prep_dataset_utils/unpack_cache.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9478edea6a52656bdf5ca6517b587a5f8a08fa11",
+      "size": 170,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/9478edea6a52656bdf5ca6517b587a5f8a08fa11"
+    },
+    {
+      "path": "src/presage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4333c1ab57bfd5de37be4704b1191e2f1c02a0cd",
+      "size": 32142,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/4333c1ab57bfd5de37be4704b1191e2f1c02a0cd"
+    },
+    {
+      "path": "src/presage_datamodule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cf1fe8a46d185e6f98a13e8ba58bbc906de3125",
+      "size": 8015,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/5cf1fe8a46d185e6f98a13e8ba58bbc906de3125"
+    },
+    {
+      "path": "src/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f05af70cdbb62e9fea06720293e5aeee2a960d41",
+      "size": 13120,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/f05af70cdbb62e9fea06720293e5aeee2a960d41"
+    },
+    {
+      "path": "src/train_presage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bd693e5d0f4ce6952bf349e1bc2d9c1c9702fbf",
+      "size": 22378,
+      "url": "https://api.github.com/repos/Genentech/PRESAGE/git/blobs/2bd693e5d0f4ce6952bf349e1bc2d9c1c9702fbf"
+    }
+  ],
+  "truncated": false
+}

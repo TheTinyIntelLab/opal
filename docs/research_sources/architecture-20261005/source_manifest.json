@@ -1,0 +1,45 @@
+{
+  "accessed": "2026-10-05",
+  "purpose": "Architecture research only; cached code is upstream evidence, not integrated implementation",
+  "repository": "https://github.com/Genentech/PRESAGE",
+  "revision": "2c7b231c60cf110c4aab0acf8ecd2c2b3268fffb",
+  "license_file": "LICENSE.txt",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "upstream_path": "LICENSE.txt",
+      "git_blob_sha1": "cef2050a983daad0d066dba4c00dc10ba4dfb554",
+      "sha256": "a73800e50b371bb289ed5343489368bdc6158842c9ea9b16b60e2597b30d2860"
+    },
+    {
+      "path": "model_harness.py",
+      "upstream_path": "src/model_harness.py",
+      "git_blob_sha1": "8f0ba5335a36800995d6a21a1517995dc7e14bf5",
+      "sha256": "0d00abf8e1afd1816928a230c1604b916732a215dcef995e2aee9fac2e8b2412"
+    },
+    {
+      "path": "presage.py",
+      "upstream_path": "src/presage.py",
+      "git_blob_sha1": "4333c1ab57bfd5de37be4704b1191e2f1c02a0cd",
+      "sha256": "2c2a253708b63f1c02c6b8a8af0829c0973f5735e61a9ff27a5f59a438fd93d1"
+    },
+    {
+      "path": "datamodule.py",
+      "upstream_path": "src/datamodule.py",
+      "git_blob_sha1": "19039493fa323de42cc3eab33511325b044835a6",
+      "sha256": "d6252ec271e0733187140d1dfaeb2dd8c1909f9e1fd6c54bbc7478520cc19691"
+    },
+    {
+      "path": "presage_datamodule.py",
+      "upstream_path": "src/presage_datamodule.py",
+      "git_blob_sha1": "5cf1fe8a46d185e6f98a13e8ba58bbc906de3125",
+      "sha256": "a6851d0c049bc1d377e9e930e5981841c5692cb2e01882443d61be8b1a00a261"
+    },
+    {
+      "path": "TransformscPerturbdatasets.py",
+      "upstream_path": "src/prep_dataset_utils/TransformscPerturbdatasets.py",
+      "git_blob_sha1": "7d0509a05b60765981459537725e8f7c4e5d2c41",
+      "sha256": "a7a1d015e8cb8cecc577bdb8a6f74f31c9a06b76af15e43d6a61517ee096b7ae"
+    }
+  ]
+}
