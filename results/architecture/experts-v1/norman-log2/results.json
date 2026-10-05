@@ -1,0 +1,1923 @@
+{
+  "partner": {
+    "covered_pairs": 88,
+    "mse_averaged_predictions": {
+      "GP": 0.0075396583415567875,
+      "kernel": 0.006678823381662369,
+      "retrieval": 0.008037541061639786
+    },
+    "mse_per_occurrence": {
+      "GP": 0.007878020422709943,
+      "kernel": 0.007181290522760591,
+      "retrieval": 0.008662250332989563
+    },
+    "records": [
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008552660701316755
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.008403262362385453
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.008378578222166071
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008588425864960848
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.008451445380824488
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.008428212050560114
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008657856321222946
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.008605855436785928
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.008609985734426413
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.008378578222166071
+        },
+        "conditional_GP_interval_empirical_coverage": 0.6916410646995228,
+        "fold": 0,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.0071423864869994734,
+          "kernel": 0.006719528860313009,
+          "retrieval": 0.007437087446213893
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.012882197878183349,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.009327672565488106,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.008769394263162365,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          4,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          31,
+          37,
+          40,
+          41,
+          42,
+          43,
+          44,
+          47,
+          48,
+          50,
+          51,
+          53,
+          54,
+          55,
+          56,
+          57,
+          61,
+          62,
+          64,
+          65,
+          66,
+          67,
+          69,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          80,
+          82,
+          83
+        ],
+        "transfer_search": [],
+        "validation": [
+          1,
+          2,
+          3,
+          7,
+          10,
+          17,
+          26,
+          29,
+          30,
+          32,
+          33,
+          34,
+          35,
+          36,
+          38,
+          39,
+          45,
+          46,
+          49,
+          52,
+          58,
+          59,
+          60,
+          63,
+          68,
+          70,
+          71,
+          79,
+          81,
+          84,
+          85,
+          86,
+          87
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.006692065839515988
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.006623966132078794
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.006593368910841815
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.006738445602256594
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.006655804808361289
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.006653719856103388
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.0068700001244819285
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.006819450271685017
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.006847420740458907
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.006593368910841815
+        },
+        "conditional_GP_interval_empirical_coverage": 0.7629920649423283,
+        "fold": 1,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.010221228785794147,
+          "kernel": 0.009336015315905229,
+          "retrieval": 0.01160532860129654
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.01080107493718667,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.007911515446207797,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.00741516441736124,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          1,
+          3,
+          7,
+          8,
+          9,
+          10,
+          16,
+          17,
+          21,
+          22,
+          23,
+          27,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          42,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          54,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          68,
+          70,
+          71,
+          73,
+          74,
+          75,
+          78,
+          79,
+          80,
+          81,
+          82,
+          86,
+          87
+        ],
+        "transfer_search": [],
+        "validation": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          11,
+          12,
+          13,
+          14,
+          15,
+          18,
+          19,
+          20,
+          24,
+          25,
+          26,
+          28,
+          41,
+          43,
+          44,
+          53,
+          55,
+          63,
+          64,
+          65,
+          66,
+          67,
+          69,
+          72,
+          76,
+          77,
+          83,
+          84,
+          85
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.009163951413685202
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.009162507323543519
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.009216027788747796
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.009194859096750592
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.00915959588451943
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.00917662962287534
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.009294108770623416
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.009262590893695112
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.0092871296586893
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1
+          },
+          "mse": 0.00915959588451943
+        },
+        "conditional_GP_interval_empirical_coverage": 0.9126454163668,
+        "fold": 2,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.006563204922401139,
+          "kernel": 0.006474081453259993,
+          "retrieval": 0.007614127070718179
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.014541525536514973,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.010557274260384764,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.009976056438459129,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          32,
+          33,
+          34,
+          38,
+          39,
+          40,
+          42,
+          43,
+          44,
+          45,
+          46,
+          49,
+          50,
+          53,
+          54,
+          56,
+          57,
+          58,
+          59,
+          60,
+          63,
+          64,
+          67,
+          68,
+          69,
+          70,
+          72,
+          73,
+          74,
+          76,
+          77,
+          84,
+          85,
+          86,
+          87
+        ],
+        "transfer_search": [],
+        "validation": [
+          0,
+          3,
+          9,
+          19,
+          22,
+          27,
+          28,
+          29,
+          30,
+          31,
+          35,
+          36,
+          37,
+          41,
+          47,
+          48,
+          51,
+          52,
+          55,
+          61,
+          62,
+          65,
+          66,
+          71,
+          75,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008407904801678972
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.008352022643469405
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.008486805552604003
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008378375432349218
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.008315817128892957
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.008372889475554778
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008421459595413747
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.008389400697554771
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.008412697190817484
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1
+          },
+          "mse": 0.008315817128892957
+        },
+        "conditional_GP_interval_empirical_coverage": 0.9239568434893247,
+        "fold": 3,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.0074570834370009526,
+          "kernel": 0.006599346130208454,
+          "retrieval": 0.008217474397162352
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.012799655892917034,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.009506327750834542,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.008969703762294046,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          11,
+          13,
+          15,
+          19,
+          26,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          37,
+          39,
+          41,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          51,
+          52,
+          53,
+          54,
+          55,
+          58,
+          59,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          73,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          83,
+          84,
+          85,
+          86,
+          87
+        ],
+        "transfer_search": [],
+        "validation": [
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          14,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          33,
+          38,
+          40,
+          42,
+          49,
+          50,
+          56,
+          57,
+          60,
+          62,
+          72,
+          74,
+          82
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.00822708594189993
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.008207496324848582
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.008200441465763472
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008265976312576204
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.00820412500063305
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.00818142226507651
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008360948563668638
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.008320652051375457
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.00832725978738897
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 4
+          },
+          "mse": 0.00818142226507651
+        },
+        "conditional_GP_interval_empirical_coverage": 0.8735676448187039,
+        "fold": 4,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.007829995046956433,
+          "kernel": 0.006634055650563236,
+          "retrieval": 0.008257571220329446
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.013303343132501217,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.009541617984779496,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.008894037879153651,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7,
+          9,
+          10,
+          12,
+          14,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          35,
+          36,
+          38,
+          40,
+          41,
+          48,
+          49,
+          51,
+          52,
+          55,
+          56,
+          57,
+          59,
+          60,
+          62,
+          63,
+          65,
+          66,
+          70,
+          71,
+          72,
+          77,
+          78,
+          79,
+          81,
+          82,
+          83,
+          84,
+          85
+        ],
+        "transfer_search": [],
+        "validation": [
+          1,
+          5,
+          8,
+          11,
+          13,
+          15,
+          16,
+          23,
+          34,
+          37,
+          39,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          50,
+          53,
+          54,
+          58,
+          61,
+          64,
+          67,
+          68,
+          69,
+          73,
+          74,
+          75,
+          76,
+          80,
+          86,
+          87
+        ]
+      }
+    ]
+  },
+  "random": {
+    "covered_pairs": 88,
+    "mse_averaged_predictions": {
+      "GP": 0.0070116459392011166,
+      "kernel": 0.006292297039180994,
+      "retrieval": 0.007767173927277327
+    },
+    "mse_per_occurrence": {
+      "GP": 0.007011645830590023,
+      "kernel": 0.0062922972715663324,
+      "retrieval": 0.0077671735460663645
+    },
+    "records": [
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007259322363669052
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.006976317382670491
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.006917490649470118
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007337282648097379
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.007082235723317877
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.00709012170523723
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007556131701223913
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.007453315791059131
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.007500655626989389
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.006917490649470118
+        },
+        "conditional_GP_interval_empirical_coverage": 0.678036127061826,
+        "fold": 0,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.008354653655299674,
+          "kernel": 0.007183031809562914,
+          "retrieval": 0.009444539385195
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.011398766222144108,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.008103253093436168,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.007719668156342818,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          24,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          36,
+          37,
+          38,
+          39,
+          40,
+          42,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          53,
+          54,
+          55,
+          56,
+          60,
+          61,
+          62,
+          63,
+          65,
+          66,
+          68,
+          69,
+          71,
+          73,
+          74,
+          75,
+          76,
+          77,
+          79,
+          81,
+          83,
+          84,
+          85,
+          86,
+          87
+        ],
+        "transfer_search": [],
+        "validation": [
+          7,
+          12,
+          23,
+          25,
+          35,
+          41,
+          43,
+          52,
+          57,
+          58,
+          59,
+          64,
+          67,
+          70,
+          72,
+          78,
+          80,
+          82
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007644159063761245
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.007381279832772033
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.007399574355926278
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007733501032637051
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.007498374043540068
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.0075225226275532
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.00798685944021388
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.00789482942833329
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.0079439053750564
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1
+          },
+          "mse": 0.007381279832772033
+        },
+        "conditional_GP_interval_empirical_coverage": 0.9208530756116184,
+        "fold": 1,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.006731137806048615,
+          "kernel": 0.00633596559289581,
+          "retrieval": 0.0070948341973289895
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.011957873728653787,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.00864961258201924,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.008319874103304916,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          1,
+          3,
+          5,
+          7,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          28,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          56,
+          57,
+          58,
+          59,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          74,
+          75,
+          78,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87
+        ],
+        "transfer_search": [],
+        "validation": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          9,
+          16,
+          22,
+          27,
+          29,
+          37,
+          48,
+          55,
+          60,
+          73,
+          76,
+          77,
+          79
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.0076521360896051405
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.007293659813759395
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.0073074024634949926
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007745818155261574
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.007441030358358799
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.0074635228011379765
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007976482079529083
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.007861354541664662
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.007898265878239814
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1
+          },
+          "mse": 0.007293659813759395
+        },
+        "conditional_GP_interval_empirical_coverage": 0.8937420900143295,
+        "fold": 2,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.006783943434113316,
+          "kernel": 0.005332956922884138,
+          "retrieval": 0.006816496008965762
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.01181431388349149,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.008491539133918768,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.008137974033722933,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          32,
+          35,
+          36,
+          37,
+          39,
+          40,
+          41,
+          43,
+          44,
+          45,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          67,
+          68,
+          70,
+          71,
+          72,
+          73,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86
+        ],
+        "transfer_search": [],
+        "validation": [
+          3,
+          5,
+          11,
+          17,
+          20,
+          21,
+          31,
+          33,
+          34,
+          38,
+          42,
+          46,
+          53,
+          54,
+          66,
+          69,
+          74,
+          87
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007973363754326234
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.007730836205971346
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.007759302540762759
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008046810611000222
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.007807614357148388
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.007840935919382858
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008264499873996587
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.008155974110002365
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.008204171992127326
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1
+          },
+          "mse": 0.007730836205971346
+        },
+        "conditional_GP_interval_empirical_coverage": 0.8894518552973293,
+        "fold": 3,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.006209389256308706,
+          "kernel": 0.0062361490835887825,
+          "retrieval": 0.00704429296529877
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.01194184592739665,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.008967816474432424,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.008454612547351177,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          25,
+          27,
+          29,
+          30,
+          31,
+          33,
+          34,
+          35,
+          37,
+          38,
+          39,
+          41,
+          42,
+          43,
+          45,
+          46,
+          47,
+          48,
+          49,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          62,
+          64,
+          66,
+          67,
+          69,
+          70,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          87
+        ],
+        "transfer_search": [],
+        "validation": [
+          1,
+          15,
+          19,
+          24,
+          26,
+          28,
+          32,
+          36,
+          40,
+          44,
+          50,
+          61,
+          63,
+          65,
+          68,
+          71,
+          86
+        ]
+      },
+      {
+        "GP_search": [
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007706726159630386
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1
+            },
+            "mse": 0.007523782843118486
+          },
+          {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 4
+            },
+            "mse": 0.007503338913174809
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 0.25
+            },
+            "mse": 0.007779532856402416
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 1
+            },
+            "mse": 0.007605107360544529
+          },
+          {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4
+            },
+            "mse": 0.007606439634018714
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 0.25
+            },
+            "mse": 0.008031578093497638
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 1
+            },
+            "mse": 0.007945547531033407
+          },
+          {
+            "config": {
+              "alpha": 10,
+              "bandwidth": 4
+            },
+            "mse": 0.0079992798299511
+          }
+        ],
+        "GP_selection": {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.007503338913174809
+        },
+        "conditional_GP_interval_empirical_coverage": 0.7488246922604116,
+        "fold": 4,
+        "interval_interpretation": "diagnostic only; excludes query measurement variance and selection uncertainty",
+        "metrics": {
+          "GP": 0.006929999271550892,
+          "kernel": 0.006374849860038617,
+          "retrieval": 0.008432508176290909
+        },
+        "retrieval_search": [
+          {
+            "mse": 0.011821464933795782,
+            "neighbors": 1
+          },
+          {
+            "mse": 0.008797673581703571,
+            "neighbors": 3
+          },
+          {
+            "mse": 0.008385132714748424,
+            "neighbors": 5
+          }
+        ],
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          40,
+          41,
+          42,
+          43,
+          44,
+          46,
+          48,
+          50,
+          52,
+          53,
+          54,
+          55,
+          57,
+          58,
+          59,
+          60,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          76,
+          77,
+          78,
+          79,
+          80,
+          82,
+          86,
+          87
+        ],
+        "transfer_search": [],
+        "validation": [
+          10,
+          13,
+          14,
+          18,
+          30,
+          39,
+          45,
+          47,
+          49,
+          51,
+          56,
+          62,
+          75,
+          81,
+          83,
+          84,
+          85
+        ]
+      }
+    ]
+  },
+  "seconds": 7.3785477000001265
+}
