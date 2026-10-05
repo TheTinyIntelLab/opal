@@ -1,0 +1,1118 @@
+{
+  "export_verification": {
+    "maximum_absolute_difference": 0.0,
+    "query_scored": false
+  },
+  "partner": {
+    "dependent_folds": true,
+    "mse_per_occurrence": {
+      "correlated": 0.009588501068537833,
+      "diagonal": 0.009588175709413243,
+      "permuted_covariance": 0.009579166082461166,
+      "unweighted": 0.00958081869038761
+    },
+    "records": [
+      {
+        "choices": {
+          "correlated": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 277,
+            "mse": 0.011062772473912881
+          },
+          "diagonal": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 119,
+            "mse": 0.011062772473912881
+          },
+          "permuted_covariance": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0
+            },
+            "index": 273,
+            "mse": 0.011081223167740566
+          },
+          "unweighted": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0
+            },
+            "index": 39,
+            "mse": 0.011081223167740566
+          }
+        },
+        "fold": 0,
+        "mse": {
+          "correlated": 0.009441723789920262,
+          "diagonal": 0.009441723789920262,
+          "permuted_covariance": 0.009456481303823615,
+          "unweighted": 0.009456481303823615
+        },
+        "technical_refitting": {
+          "draws": 16,
+          "mean_gene_prediction_sd": 0.07166248683126414,
+          "refitted_bootstrap_mse_percentiles": [
+            0.014149913213886372,
+            0.015227349149385526,
+            0.01645545393088901
+          ],
+          "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty"
+        },
+        "train": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          39
+        ],
+        "validation": [
+          0,
+          2,
+          7,
+          8,
+          9,
+          10,
+          12,
+          18,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          38
+        ]
+      },
+      {
+        "choices": {
+          "correlated": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 277,
+            "mse": 0.011443883025533255
+          },
+          "diagonal": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 119,
+            "mse": 0.011443883025533255
+          },
+          "permuted_covariance": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0.5
+            },
+            "index": 274,
+            "mse": 0.011454557400227737
+          },
+          "unweighted": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0
+            },
+            "index": 39,
+            "mse": 0.011454886166610098
+          }
+        },
+        "fold": 1,
+        "mse": {
+          "correlated": 0.009251982011919069,
+          "diagonal": 0.009251982011919069,
+          "permuted_covariance": 0.009259704849556781,
+          "unweighted": 0.009266624697991482
+        },
+        "technical_refitting": {
+          "draws": 16,
+          "mean_gene_prediction_sd": 0.07020651222785047,
+          "refitted_bootstrap_mse_percentiles": [
+            0.013775915339359634,
+            0.014759343255316814,
+            0.015895739266201695
+          ],
+          "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty"
+        },
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          20,
+          22,
+          25,
+          26,
+          30,
+          31,
+          39
+        ],
+        "validation": [
+          4,
+          5,
+          9,
+          14,
+          15,
+          19,
+          21,
+          23,
+          24,
+          27,
+          28,
+          29,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ]
+      },
+      {
+        "choices": {
+          "correlated": {
+            "config": {
+              "alpha": 0.01,
+              "bandwidth": 0.25,
+              "correlation": 1,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 132,
+            "mse": 0.011563143489522486
+          },
+          "diagonal": {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 53,
+            "mse": 0.011563619780501976
+          },
+          "permuted_covariance": {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0
+            },
+            "index": 119,
+            "mse": 0.011563790979785066
+          },
+          "unweighted": {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0
+            },
+            "index": 17,
+            "mse": 0.011563790979785066
+          }
+        },
+        "fold": 2,
+        "mse": {
+          "correlated": 0.007510241265969398,
+          "diagonal": 0.007508549398521523,
+          "permuted_covariance": 0.007508658742430311,
+          "unweighted": 0.007508658742430311
+        },
+        "technical_refitting": {
+          "draws": 16,
+          "mean_gene_prediction_sd": 0.06342456972531318,
+          "refitted_bootstrap_mse_percentiles": [
+            0.011255879219696828,
+            0.01211954891647154,
+            0.013073805553115676
+          ],
+          "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty"
+        },
+        "train": [
+          7,
+          8,
+          9,
+          10,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "validation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          33
+        ]
+      },
+      {
+        "choices": {
+          "correlated": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 277,
+            "mse": 0.011000657990866547
+          },
+          "diagonal": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 119,
+            "mse": 0.011000657990866547
+          },
+          "permuted_covariance": {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "correlation": 1,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 125,
+            "mse": 0.01100709634997872
+          },
+          "unweighted": {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0
+            },
+            "index": 17,
+            "mse": 0.011007300095569548
+          }
+        },
+        "fold": 3,
+        "mse": {
+          "correlated": 0.010480018765420276,
+          "diagonal": 0.010480018765420276,
+          "permuted_covariance": 0.010470350565284019,
+          "unweighted": 0.010470442067239571
+        },
+        "technical_refitting": {
+          "draws": 16,
+          "mean_gene_prediction_sd": 0.07736271848263616,
+          "refitted_bootstrap_mse_percentiles": [
+            0.016237386478998007,
+            0.017552982604551823,
+            0.01907275263714378
+          ],
+          "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty"
+        },
+        "train": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          17,
+          18,
+          19,
+          21,
+          23,
+          24,
+          26,
+          27,
+          33,
+          35,
+          37,
+          38
+        ],
+        "validation": [
+          3,
+          13,
+          16,
+          20,
+          22,
+          25,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          36,
+          39
+        ]
+      },
+      {
+        "choices": {
+          "correlated": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 277,
+            "mse": 0.010531699917205898
+          },
+          "diagonal": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 119,
+            "mse": 0.010531699917205898
+          },
+          "permuted_covariance": {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "correlation": 1,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 125,
+            "mse": 0.01053896855934505
+          },
+          "unweighted": {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0
+            },
+            "index": 17,
+            "mse": 0.01053906823509106
+          }
+        },
+        "fold": 4,
+        "mse": {
+          "correlated": 0.011407712437683988,
+          "diagonal": 0.011407712437683988,
+          "permuted_covariance": 0.011345236912173798,
+          "unweighted": 0.011344979930215502
+        },
+        "technical_refitting": {
+          "draws": 16,
+          "mean_gene_prediction_sd": 0.07331118633828208,
+          "refitted_bootstrap_mse_percentiles": [
+            0.016073750563585648,
+            0.017335492553518704,
+            0.019400950486424103
+          ],
+          "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty"
+        },
+        "train": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9,
+          12,
+          13,
+          14,
+          15,
+          16,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          34,
+          36,
+          38
+        ],
+        "validation": [
+          1,
+          6,
+          7,
+          10,
+          11,
+          17,
+          18,
+          19,
+          20,
+          21,
+          26,
+          31,
+          35,
+          37,
+          39
+        ]
+      }
+    ]
+  },
+  "random": {
+    "dependent_folds": true,
+    "mse_per_occurrence": {
+      "correlated": 0.004969909836506374,
+      "diagonal": 0.004969909836506374,
+      "permuted_covariance": 0.0049890457956279395,
+      "unweighted": 0.004987755310137721
+    },
+    "records": [
+      {
+        "choices": {
+          "correlated": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "correlation": 0,
+              "kind": "single_sum",
+              "noise_strength": 1
+            },
+            "index": 67,
+            "mse": 0.00567891586485461
+          },
+          "diagonal": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "correlation": 0,
+              "kind": "single_sum",
+              "noise_strength": 1
+            },
+            "index": 29,
+            "mse": 0.00567891586485461
+          },
+          "permuted_covariance": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0.5
+            },
+            "index": 274,
+            "mse": 0.005728525618371477
+          },
+          "unweighted": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0
+            },
+            "index": 39,
+            "mse": 0.005729401656862827
+          }
+        },
+        "fold": 0,
+        "mse": {
+          "correlated": 0.005527549475363036,
+          "diagonal": 0.005527549475363036,
+          "permuted_covariance": 0.005510799353349693,
+          "unweighted": 0.00550935840733544
+        },
+        "technical_refitting": {
+          "draws": 16,
+          "mean_gene_prediction_sd": 0.04426868350163856,
+          "refitted_bootstrap_mse_percentiles": [
+            0.007679093202342652,
+            0.007973079920275442,
+            0.008660930389228919
+          ],
+          "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty"
+        },
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          37,
+          38,
+          39
+        ],
+        "validation": [
+          10,
+          12,
+          13,
+          14,
+          19,
+          33,
+          35,
+          36
+        ]
+      },
+      {
+        "choices": {
+          "correlated": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 277,
+            "mse": 0.0053026457523891075
+          },
+          "diagonal": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 119,
+            "mse": 0.0053026457523891075
+          },
+          "permuted_covariance": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0.5
+            },
+            "index": 274,
+            "mse": 0.005320572281151978
+          },
+          "unweighted": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0
+            },
+            "index": 39,
+            "mse": 0.005321764004021339
+          }
+        },
+        "fold": 1,
+        "mse": {
+          "correlated": 0.0058950727797498735,
+          "diagonal": 0.0058950727797498735,
+          "permuted_covariance": 0.005924627000342918,
+          "unweighted": 0.005919395977982448
+        },
+        "technical_refitting": {
+          "draws": 16,
+          "mean_gene_prediction_sd": 0.04411506201539134,
+          "refitted_bootstrap_mse_percentiles": [
+            0.008004806977981624,
+            0.008252564884790219,
+            0.008498465601788024
+          ],
+          "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty"
+        },
+        "train": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          17,
+          19,
+          20,
+          21,
+          22,
+          23,
+          26,
+          28,
+          29,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          39
+        ],
+        "validation": [
+          2,
+          16,
+          18,
+          24,
+          25,
+          27,
+          30,
+          38
+        ]
+      },
+      {
+        "choices": {
+          "correlated": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "single_sum",
+              "noise_strength": 1
+            },
+            "index": 207,
+            "mse": 0.005547983853657112
+          },
+          "diagonal": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "single_sum",
+              "noise_strength": 1
+            },
+            "index": 89,
+            "mse": 0.005547983853657112
+          },
+          "permuted_covariance": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0
+            },
+            "index": 273,
+            "mse": 0.005599798324135829
+          },
+          "unweighted": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0
+            },
+            "index": 39,
+            "mse": 0.005599798324135829
+          }
+        },
+        "fold": 2,
+        "mse": {
+          "correlated": 0.0052629530765948415,
+          "diagonal": 0.0052629530765948415,
+          "permuted_covariance": 0.0052788085667450505,
+          "unweighted": 0.0052788085667450505
+        },
+        "technical_refitting": {
+          "draws": 16,
+          "mean_gene_prediction_sd": 0.04555027309440452,
+          "refitted_bootstrap_mse_percentiles": [
+            0.0076916052295060286,
+            0.008074604938730103,
+            0.008687397637008655
+          ],
+          "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty"
+        },
+        "train": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          24,
+          25,
+          26,
+          27,
+          28,
+          30,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "validation": [
+          6,
+          9,
+          22,
+          23,
+          29,
+          31,
+          32,
+          39
+        ]
+      },
+      {
+        "choices": {
+          "correlated": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "single_sum",
+              "noise_strength": 1
+            },
+            "index": 207,
+            "mse": 0.005962371519481209
+          },
+          "diagonal": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "single_sum",
+              "noise_strength": 1
+            },
+            "index": 89,
+            "mse": 0.005962371519481209
+          },
+          "permuted_covariance": {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "correlation": 1,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 125,
+            "mse": 0.006006649815787569
+          },
+          "unweighted": {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0
+            },
+            "index": 17,
+            "mse": 0.006006745025016086
+          }
+        },
+        "fold": 3,
+        "mse": {
+          "correlated": 0.0037158500168136648,
+          "diagonal": 0.0037158500168136648,
+          "permuted_covariance": 0.0037631722748186322,
+          "unweighted": 0.0037631531772624287
+        },
+        "technical_refitting": {
+          "draws": 16,
+          "mean_gene_prediction_sd": 0.0401590661117216,
+          "refitted_bootstrap_mse_percentiles": [
+            0.005467404354154693,
+            0.005614564206105389,
+            0.005808531731891265
+          ],
+          "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty"
+        },
+        "train": [
+          0,
+          1,
+          2,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          17,
+          18,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "validation": [
+          3,
+          4,
+          5,
+          7,
+          15,
+          21,
+          26,
+          34
+        ]
+      },
+      {
+        "choices": {
+          "correlated": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "single_sum",
+              "noise_strength": 1
+            },
+            "index": 207,
+            "mse": 0.005932405357493923
+          },
+          "diagonal": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "correlation": 0,
+              "kind": "single_sum",
+              "noise_strength": 1
+            },
+            "index": 89,
+            "mse": 0.005932405357493923
+          },
+          "permuted_covariance": {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "correlation": 1,
+              "kind": "global_plus_pair",
+              "noise_strength": 1
+            },
+            "index": 125,
+            "mse": 0.0060142200849410766
+          },
+          "unweighted": {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "correlation": 0,
+              "kind": "global_plus_pair",
+              "noise_strength": 0
+            },
+            "index": 17,
+            "mse": 0.006014271527039679
+          }
+        },
+        "fold": 4,
+        "mse": {
+          "correlated": 0.004448123834010456,
+          "diagonal": 0.004448123834010456,
+          "permuted_covariance": 0.004467821782883405,
+          "unweighted": 0.004468060421363239
+        },
+        "technical_refitting": {
+          "draws": 16,
+          "mean_gene_prediction_sd": 0.04014192481250606,
+          "refitted_bootstrap_mse_percentiles": [
+            0.006155036627709709,
+            0.006298128246671824,
+            0.006425865448236782
+          ],
+          "scope": "fitting and input-reference sampling, conditional on selected configuration, covariance, QC and normalizer; no biological or selection uncertainty"
+        },
+        "train": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          38,
+          39
+        ],
+        "validation": [
+          0,
+          1,
+          8,
+          11,
+          17,
+          20,
+          28,
+          37
+        ]
+      }
+    ]
+  }
+}
