@@ -1,0 +1,15 @@
+\begin{table}[htbp]\centering\scriptsize\resizebox{\linewidth}{!}{\begin{tabular}{llllllll}
+\toprule
+Dataset & Fold & No transfer & Encoder & Decoder & Both & Linear MSE & Linear weighted \\
+\midrule
+Norman & random & 0.008892 & 0.008549 & 0.008895 & 0.008613 & 0.008281 & 0.008517 \\
+Norman & partner & 0.010484 & 0.010785 & 0.011279 & 0.010869 & 0.009534 & 0.009743 \\
+Wessels expanded & random & 0.010658 & 0.011229 & 0.010621 & 0.011237 & 0.023141 & 0.028550 \\
+Wessels expanded & partner & 0.019227 & 0.022255 & 0.019632 & 0.023492 & 0.415128 & 0.479667 \\
+Wessels protected & random & 0.012031 & 0.012413 & 0.012093 & 0.012512 & 0.027270 & 0.031739 \\
+Wessels protected & partner & 0.021088 & 0.022368 & 0.021576 & 0.023081 & 2.346815 & 2.903400 \\
+Wessels original & random & 0.007193 & 0.007259 & 0.007775 & 0.007398 & 0.006618 & 0.006678 \\
+Wessels original & partner & 0.016089 & 0.015757 & 0.016792 & 0.016447 & 0.010943 & 0.011011 \\
+\bottomrule
+\end{tabular}
+}\caption{Corrected transfer and convex objective controls on development folds. Linear heads solve a regularized gene-space quadratic on frozen standardized features; neural heads use joint reference augmentation. These are different fitting procedures, and none uses historical query responses.}\end{table}

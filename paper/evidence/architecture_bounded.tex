@@ -1,0 +1,15 @@
+\begin{table}[htbp]\centering\scriptsize\resizebox{\linewidth}{!}{\begin{tabular}{llllll}
+\toprule
+Dataset & Fold & Kernel & Linear MSE & Bounded MSE & Bounded weighted \\
+\midrule
+Norman & random & 0.006292 & 0.008281 & 0.008190 & 0.008413 \\
+Norman & partner & 0.007181 & 0.009534 & 0.008810 & 0.008947 \\
+Wessels expanded & random & 0.006471 & 0.023141 & 0.010730 & 0.011126 \\
+Wessels expanded & partner & 0.014467 & 0.415128 & 0.017244 & 0.017678 \\
+Wessels protected & random & 0.007360 & 0.027270 & 0.012413 & 0.012865 \\
+Wessels protected & partner & 0.016063 & 2.346815 & 0.019325 & 0.019807 \\
+Wessels original & random & 0.005032 & 0.006618 & 0.006615 & 0.006675 \\
+Wessels original & partner & 0.009868 & 0.010943 & 0.010921 & 0.010985 \\
+\bottomrule
+\end{tabular}
+}\caption{Late exploratory bounded-feature controls after observing expanded-fold extrapolation. The standardized feature map clips at magnitude eight during training and prediction; the regularized gene-space objectives are solved to convergence. This is a separate amendment, not a replacement of the unfavorable unbounded controls.}\end{table}
