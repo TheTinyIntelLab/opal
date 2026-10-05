@@ -1,0 +1,900 @@
+{
+  "partner": {
+    "mse_per_occurrence": {
+      "extra_pairs": 0.009732970667349366,
+      "extra_pairs_noise": 0.009738339863011406,
+      "extra_singles": 0.009905401653074348,
+      "original": 0.00986759724020191
+    },
+    "records": [
+      {
+        "fold": 0,
+        "mse": {
+          "extra_pairs": 0.00987549704911365,
+          "extra_pairs_noise": 0.009847920211447562,
+          "extra_singles": 0.00988656371180382,
+          "original": 0.00985890199268711
+        },
+        "old_train": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "old_validation": [
+          0,
+          2,
+          7,
+          8,
+          9,
+          10,
+          12,
+          18,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          33
+        ],
+        "selections": {
+          "extra_pairs": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 9,
+            "mse": 0.010379346393330663,
+            "strength": 0,
+            "training_pairs": 44
+          },
+          "extra_pairs_noise": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 9,
+            "mse": 0.01036369779834438,
+            "strength": 0.5,
+            "training_pairs": 44
+          },
+          "extra_singles": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 9,
+            "mse": 0.010802640935772233,
+            "strength": 0,
+            "training_pairs": 25
+          }
+        }
+      },
+      {
+        "fold": 1,
+        "mse": {
+          "extra_pairs": 0.009113738833653367,
+          "extra_pairs_noise": 0.009113738833653367,
+          "extra_singles": 0.009321978228052532,
+          "original": 0.00918895122891655
+        },
+        "old_train": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          20,
+          22,
+          25,
+          26,
+          30,
+          31,
+          39
+        ],
+        "old_validation": [
+          4,
+          5,
+          9,
+          14,
+          15,
+          19,
+          21,
+          23,
+          24,
+          27,
+          28,
+          29,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "selections": {
+          "extra_pairs": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.01091945953487113,
+            "strength": 0,
+            "training_pairs": 40
+          },
+          "extra_pairs_noise": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.01091945953487113,
+            "strength": 0,
+            "training_pairs": 40
+          },
+          "extra_singles": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.011526529315512,
+            "strength": 0,
+            "training_pairs": 21
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "mse": {
+          "extra_pairs": 0.008167838349520612,
+          "extra_pairs_noise": 0.008167838349520612,
+          "extra_singles": 0.008142174293057861,
+          "original": 0.008170938361839032
+        },
+        "old_train": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          39
+        ],
+        "old_validation": [
+          3,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          22,
+          28,
+          29,
+          30,
+          31,
+          38
+        ],
+        "selections": {
+          "extra_pairs": {
+            "config": {
+              "alpha": 0.1,
+              "kind": "global"
+            },
+            "index": 3,
+            "mse": 0.011188759967893012,
+            "strength": 0,
+            "training_pairs": 52
+          },
+          "extra_pairs_noise": {
+            "config": {
+              "alpha": 0.1,
+              "kind": "global"
+            },
+            "index": 3,
+            "mse": 0.011188759967893012,
+            "strength": 0,
+            "training_pairs": 52
+          },
+          "extra_singles": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 0.25,
+              "kind": "single_sum"
+            },
+            "index": 9,
+            "mse": 0.01171922793270006,
+            "strength": 0,
+            "training_pairs": 26
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "mse": {
+          "extra_pairs": 0.010279995738746104,
+          "extra_pairs_noise": 0.010338689412696547,
+          "extra_singles": 0.010769923257992345,
+          "original": 0.010807908569741764
+        },
+        "old_train": [
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          34,
+          36,
+          38
+        ],
+        "old_validation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          10,
+          17,
+          26,
+          31,
+          35,
+          37,
+          39
+        ],
+        "selections": {
+          "extra_pairs": {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 17,
+            "mse": 0.010537727629039604,
+            "strength": 0,
+            "training_pairs": 47
+          },
+          "extra_pairs_noise": {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair"
+            },
+            "index": 60,
+            "mse": 0.01052588967375148,
+            "strength": 1,
+            "training_pairs": 47
+          },
+          "extra_singles": {
+            "config": {
+              "alpha": 0.001,
+              "bandwidth": 0.25,
+              "kind": "global_plus_pair"
+            },
+            "index": 17,
+            "mse": 0.010982003226468884,
+            "strength": 0,
+            "training_pairs": 26
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "mse": {
+          "extra_pairs": 0.011438757136192796,
+          "extra_pairs_noise": 0.011438757136192796,
+          "extra_singles": 0.01161607985063516,
+          "original": 0.011554280712392348
+        },
+        "old_train": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          17,
+          22,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          31,
+          33,
+          35,
+          37,
+          38
+        ],
+        "old_validation": [
+          1,
+          7,
+          11,
+          16,
+          18,
+          19,
+          20,
+          21,
+          25,
+          30,
+          32,
+          34,
+          36,
+          39
+        ],
+        "selections": {
+          "extra_pairs": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.010005485506520402,
+            "strength": 0,
+            "training_pairs": 47
+          },
+          "extra_pairs_noise": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.010005485506520402,
+            "strength": 0,
+            "training_pairs": 47
+          },
+          "extra_singles": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.0104669260011873,
+            "strength": 0,
+            "training_pairs": 26
+          }
+        }
+      }
+    ]
+  },
+  "random": {
+    "mse_per_occurrence": {
+      "extra_pairs": 0.004224058719064502,
+      "extra_pairs_noise": 0.004089386469059497,
+      "extra_singles": 0.0050303646369527985,
+      "original": 0.005031838714990312
+    },
+    "records": [
+      {
+        "fold": 0,
+        "mse": {
+          "extra_pairs": 0.004976201583700625,
+          "extra_pairs_noise": 0.004866263786207898,
+          "extra_singles": 0.007279017667502696,
+          "original": 0.007280373366438376
+        },
+        "old_train": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          34,
+          35,
+          37,
+          38
+        ],
+        "old_validation": [
+          0,
+          2,
+          8,
+          13,
+          26,
+          33,
+          36,
+          39
+        ],
+        "selections": {
+          "extra_pairs": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.004407940509360268,
+            "strength": 0,
+            "training_pairs": 102
+          },
+          "extra_pairs_noise": {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.004207673300315637,
+            "strength": 1,
+            "training_pairs": 102
+          },
+          "extra_singles": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.005441570942628056,
+            "strength": 0,
+            "training_pairs": 32
+          }
+        }
+      },
+      {
+        "fold": 1,
+        "mse": {
+          "extra_pairs": 0.0035536291581933412,
+          "extra_pairs_noise": 0.003384634510820172,
+          "extra_singles": 0.00397783890617067,
+          "original": 0.003990969276310835
+        },
+        "old_train": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          17,
+          18,
+          19,
+          21,
+          24,
+          25,
+          26,
+          27,
+          29,
+          30,
+          32,
+          33,
+          36,
+          37,
+          38,
+          39
+        ],
+        "old_validation": [
+          16,
+          20,
+          22,
+          23,
+          28,
+          31,
+          34,
+          35
+        ],
+        "selections": {
+          "extra_pairs": {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.004698415584054624,
+            "strength": 0,
+            "training_pairs": 102
+          },
+          "extra_pairs_noise": {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.004570083096780121,
+            "strength": 1,
+            "training_pairs": 102
+          },
+          "extra_singles": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.006317681583058956,
+            "strength": 0,
+            "training_pairs": 32
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "mse": {
+          "extra_pairs": 0.004694358875458946,
+          "extra_pairs_noise": 0.004561085716630962,
+          "extra_singles": 0.00509110708178749,
+          "original": 0.005087894402337547
+        },
+        "old_train": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          13,
+          16,
+          17,
+          18,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26,
+          28,
+          29,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "old_validation": [
+          10,
+          11,
+          12,
+          14,
+          15,
+          21,
+          27,
+          30
+        ],
+        "selections": {
+          "extra_pairs": {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.00436585904723904,
+            "strength": 0,
+            "training_pairs": 102
+          },
+          "extra_pairs_noise": {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.004240816262132392,
+            "strength": 1,
+            "training_pairs": 102
+          },
+          "extra_singles": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.005818072632784518,
+            "strength": 0,
+            "training_pairs": 32
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "mse": {
+          "extra_pairs": 0.004343045502110654,
+          "extra_pairs_noise": 0.004212204952245946,
+          "extra_singles": 0.004866208068577883,
+          "original": 0.0048575538182694285
+        },
+        "old_train": [
+          0,
+          2,
+          3,
+          4,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          26,
+          27,
+          28,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "old_validation": [
+          1,
+          5,
+          6,
+          7,
+          9,
+          18,
+          25,
+          29
+        ],
+        "selections": {
+          "extra_pairs": {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.004438666218030043,
+            "strength": 0,
+            "training_pairs": 102
+          },
+          "extra_pairs_noise": {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.004285686000132762,
+            "strength": 1,
+            "training_pairs": 102
+          },
+          "extra_singles": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.005920403557359939,
+            "strength": 0,
+            "training_pairs": 32
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "mse": {
+          "extra_pairs": 0.0035530584758589443,
+          "extra_pairs_noise": 0.0034227433793925085,
+          "extra_singles": 0.003937651460725255,
+          "original": 0.0039424027115953705
+        },
+        "old_train": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          33,
+          34,
+          35,
+          36,
+          39
+        ],
+        "old_validation": [
+          3,
+          4,
+          17,
+          19,
+          24,
+          32,
+          37,
+          38
+        ],
+        "selections": {
+          "extra_pairs": {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.004699031637102504,
+            "strength": 0,
+            "training_pairs": 102
+          },
+          "extra_pairs_noise": {
+            "config": {
+              "alpha": 1,
+              "bandwidth": 4,
+              "kind": "global_plus_pair_10"
+            },
+            "index": 65,
+            "mse": 0.004575457651424105,
+            "strength": 1,
+            "training_pairs": 102
+          },
+          "extra_singles": {
+            "config": {
+              "alpha": 0.1,
+              "bandwidth": 1,
+              "kind": "global_plus_pair"
+            },
+            "index": 39,
+            "mse": 0.006170494977190119,
+            "strength": 0,
+            "training_pairs": 32
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "interpretation": "Completed registered exploratory build; no frontier or independent-confirmation claim implied",
+  "scope": "expanded exploratory architecture research; preserves historical tests",
+  "stages": [
+    {
+      "artifact": "data\\architecture_resources\\hallmark.txt",
+      "sha256": "4275592957a1587652092bb398cf77216fde5b8daa2aedaa0e016f7d10bbdb81",
+      "stage": "public pathways"
+    },
+    {
+      "artifact": "results\\architecture\\v1\\summary.json",
+      "sha256": "94456700d050285c9bc7c89663d3f585a7031a7578f715796040c27cdd2f0e90",
+      "stage": "nested architecture ablations"
+    },
+    {
+      "artifact": "results\\architecture\\protected-v1\\summary.json",
+      "sha256": "8fb6d9a871eb12fcfdd593af018631802087fc1b0ced71ac47ca4b6c93ef1b09",
+      "stage": "protected architecture ablations"
+    },
+    {
+      "artifact": "results\\architecture\\experts-v1\\summary.json",
+      "sha256": "155ba964067579a4145d8d29114320374fb5a6f47af58ff5027c77f5fdf68f88",
+      "stage": "GP and retrieval"
+    },
+    {
+      "artifact": "results\\architecture\\tabular-v1\\summary.json",
+      "sha256": "40128d3d390bc3d01699a157283c026f2bd71290cdbee68284c25c2c96fad45d",
+      "stage": "frozen tabular comparator"
+    },
+    {
+      "artifact": "data\\architecture_resources\\presage_cache.tar.gz",
+      "sha256": "725729e62c279fc7b0c7ac222f871db829c311b4a00c882a76b4ee43922a3af7",
+      "stage": "verified external archive"
+    },
+    {
+      "artifact": "data\\architecture_resources\\ReplogleWeissman2022_K562_essential.h5ad",
+      "sha256": "412fd0df8c4ccea9f4db91cd88033c49200838b29d40945e48574be588b48789",
+      "stage": "verified independent screen"
+    },
+    {
+      "artifact": "data\\architecture_resources\\enriched-wessels-expanded-log2\\manifest.json",
+      "sha256": "af44c8b6a33088b37fb4e44e667eefb56d5d4cdf736e0582c6b550189fe6d178",
+      "stage": "independent transfer preparation"
+    },
+    {
+      "artifact": "results\\architecture\\transfer-v3\\summary.json",
+      "sha256": "1cd775f6135c214b3053c8be93261648a43ae975dd57a9d177bd4db90e4f82c0",
+      "stage": "transfer and linear-loss controls"
+    },
+    {
+      "artifact": "results\\architecture\\linear-bounded-v1\\summary.json",
+      "sha256": "797ea9ce4bfc27f306231f8681a4cb5eef55cbe07aac7a63f89007d98df5ba14",
+      "stage": "bounded linear extrapolation control"
+    },
+    {
+      "artifact": "data\\architecture_resources\\semantic-only-wessels-expanded-protected-log2\\manifest.json",
+      "sha256": "5c95faa84ddf7c4797693d1c35448f33f8df4d26d7b6048a410dc7d491d40dad",
+      "stage": "semantic prior preparation"
+    },
+    {
+      "artifact": "results\\architecture\\prior-kernels-v1\\summary.json",
+      "sha256": "22ac12383eaef566174243c3b125f3b16885e83a5942e02d0309f9d3f6473ecb",
+      "stage": "matched prior controls"
+    },
+    {
+      "artifact": "results\\architecture\\noise-kernels-v1\\summary.json",
+      "sha256": "bd55b00094ae835bd8e67f30679bc326874910def0d21746828ba7a70e47ce53",
+      "stage": "measurement weighting seed 20261005"
+    },
+    {
+      "artifact": "results\\architecture\\noise-kernels-v2\\summary.json",
+      "sha256": "a4fa8801cf7c5a7c6ddadb257c9e78c619b46ae01534ddf7bb31785c7e4b0ead",
+      "stage": "measurement weighting seed 20261006"
+    },
+    {
+      "artifact": "results\\architecture\\noise-kernels-v3\\summary.json",
+      "sha256": "3b507f5a0ddfa2ba27356d0f84a7d21bd24c33c936c5cd03e15765a956b338f5",
+      "stage": "measurement weighting seed 20261007"
+    },
+    {
+      "artifact": "results\\architecture\\common-coverage-held-v1\\results.json",
+      "sha256": "b2e119897ccec40501a8ee3cf60ed5880e5377b6e4e60bda23eb7a419c2f0a10",
+      "stage": "common-condition coverage"
+    },
+    {
+      "artifact": "results\\architecture\\common-coverage-held-v2\\results.json",
+      "sha256": "b59b1916dd4ed892cd79aa5c4760e7e36b2414adb78205e2a9a6bb0f297c603c",
+      "stage": "common-condition coverage seed 20261006"
+    },
+    {
+      "artifact": "results\\architecture\\common-coverage-held-v3\\results.json",
+      "sha256": "c973deaec5617b5359e6443595fbe98a1de53cf7ba4af4177329fdc1f8ad9c6e",
+      "stage": "common-condition coverage seed 20261007"
+    }
+  ],
+  "status": "complete"
+}
