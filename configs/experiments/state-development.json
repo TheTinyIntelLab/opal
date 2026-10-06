@@ -1,0 +1,22 @@
+{
+  "experiment_id": "state-development-20261006",
+  "schema": "opal-state-benchmark-v1",
+  "population": "All supported condition means in each declared source, fixed across models; no cell-count weighting",
+  "primary_metric": "equal-condition mean squared error over the frozen gene vocabulary",
+  "material_improvement": 0.05,
+  "comparison": "paired errors on identical outer biological-group folds; source-only inner selection; descriptive group bootstrap",
+  "confirmation": "none; existing pilot is exposed and new public single source is development",
+  "main_references": [{"kind":"mean"}, {"kind":"ridge","alpha":0.1}, {"kind":"ridge","alpha":10.0}, {"kind":"ridge","alpha":1000.0}, {"kind":"kernel","alpha":0.1}, {"kind":"kernel","alpha":10.0}, {"kind":"kernel","alpha":1000.0}],
+  "learned_candidates": [{"epochs":80,"alpha":0.01}, {"epochs":160,"alpha":0.1}],
+  "learned_width": 16,
+  "response_rank": 16,
+  "seeds": [41, 73],
+  "ablations": ["identity", "effect", "descriptor", "combined", "no_state", "shuffled_descriptors", "shuffled_state"],
+  "combination_constructions": ["sum_difference", "product"],
+  "combination_epochs": 120,
+  "joint_single_loss_weight": 1.0,
+  "reliability": {"target":"gene-vector RMSE", "nominal":0.9, "minimum_accepted_fraction":0.5, "maximum_rmse":0.25, "required_coverage":0.9, "status":"experimental; requires separate risk-fit, calibration and fresh evaluation groups"},
+  "capacity": "No scaling or routing unless a learned candidate improves the strongest matched simple reference by at least 5% on development",
+  "pretraining": "No external expression or descriptor pretraining; downstream source singles pretrain staged encoders; no-pretraining and frozen/fine-tuned comparisons retain the same labels",
+  "extensions": "Dose, identity-only unknown interventions, higher-order and temporal claims are unsupported unless separately source-qualified"
+}
