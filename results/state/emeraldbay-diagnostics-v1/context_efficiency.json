@@ -1,0 +1,636 @@
+{
+  "cells_per_condition": "not varied; independent measurement precision unavailable",
+  "cost_units": "one condition assay equals one unit, including each control; hypothetical, not observed monetary costs",
+  "curves": [
+    {
+      "evaluation_conditions": 35,
+      "measurement_cost_units": 35,
+      "mse": 0.09250119697162891,
+      "search": [
+        {
+          "conditions": 30,
+          "config": {
+            "kind": "mean"
+          },
+          "mse": 0.14222117724976924
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 0.1,
+            "kind": "ridge"
+          },
+          "mse": 0.14222117724976924
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 10.0,
+            "kind": "ridge"
+          },
+          "mse": 0.14222117724976924
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "ridge"
+          },
+          "mse": 0.14222117724976924
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 0.1,
+            "kind": "kernel"
+          },
+          "mse": 0.14222117724976924
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 10.0,
+            "kind": "kernel"
+          },
+          "mse": 0.14222117724976924
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "kernel"
+          },
+          "mse": 0.14222117724976924
+        }
+      ],
+      "seconds": 0.014210699999239296,
+      "seed": 41,
+      "selected": {
+        "kind": "mean"
+      },
+      "source_contexts": 2,
+      "source_single_conditions": 33
+    },
+    {
+      "evaluation_conditions": 35,
+      "measurement_cost_units": 70,
+      "mse": 0.07395982973647072,
+      "search": [
+        {
+          "conditions": 66,
+          "config": {
+            "kind": "mean"
+          },
+          "mse": 0.08569436182789046
+        },
+        {
+          "conditions": 66,
+          "config": {
+            "alpha": 0.1,
+            "kind": "ridge"
+          },
+          "mse": 0.08821684744317901
+        },
+        {
+          "conditions": 66,
+          "config": {
+            "alpha": 10.0,
+            "kind": "ridge"
+          },
+          "mse": 0.08568826481746165
+        },
+        {
+          "conditions": 66,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "ridge"
+          },
+          "mse": 0.08569184875042565
+        },
+        {
+          "conditions": 66,
+          "config": {
+            "alpha": 0.1,
+            "kind": "kernel"
+          },
+          "mse": 0.08842928743828916
+        },
+        {
+          "conditions": 66,
+          "config": {
+            "alpha": 10.0,
+            "kind": "kernel"
+          },
+          "mse": 0.0856593991311404
+        },
+        {
+          "conditions": 66,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "kernel"
+          },
+          "mse": 0.08569381674754242
+        }
+      ],
+      "seconds": 0.0372131000040099,
+      "seed": 41,
+      "selected": {
+        "alpha": 10.0,
+        "kind": "kernel"
+      },
+      "source_contexts": 4,
+      "source_single_conditions": 66
+    },
+    {
+      "evaluation_conditions": 35,
+      "measurement_cost_units": 107,
+      "mse": 0.06817591970345764,
+      "search": [
+        {
+          "conditions": 101,
+          "config": {
+            "kind": "mean"
+          },
+          "mse": 0.06754603101148866
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 0.1,
+            "kind": "ridge"
+          },
+          "mse": 0.06972025128855179
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 10.0,
+            "kind": "ridge"
+          },
+          "mse": 0.06752748460312583
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "ridge"
+          },
+          "mse": 0.06754001471083206
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 0.1,
+            "kind": "kernel"
+          },
+          "mse": 0.06954272069791301
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 10.0,
+            "kind": "kernel"
+          },
+          "mse": 0.0674915753141847
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "kernel"
+          },
+          "mse": 0.0675453031754641
+        }
+      ],
+      "seconds": 0.07550130000163335,
+      "seed": 41,
+      "selected": {
+        "alpha": 10.0,
+        "kind": "kernel"
+      },
+      "source_contexts": 6,
+      "source_single_conditions": 101
+    },
+    {
+      "evaluation_conditions": 35,
+      "measurement_cost_units": 35,
+      "mse": 0.08507492697599069,
+      "search": [
+        {
+          "conditions": 30,
+          "config": {
+            "kind": "mean"
+          },
+          "mse": 0.12704255933583014
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 0.1,
+            "kind": "ridge"
+          },
+          "mse": 0.12704255933583014
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 10.0,
+            "kind": "ridge"
+          },
+          "mse": 0.12704255933583014
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "ridge"
+          },
+          "mse": 0.12704255933583014
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 0.1,
+            "kind": "kernel"
+          },
+          "mse": 0.12704255933583014
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 10.0,
+            "kind": "kernel"
+          },
+          "mse": 0.12704255933583014
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "kernel"
+          },
+          "mse": 0.12704255933583014
+        }
+      ],
+      "seconds": 0.011940300013520755,
+      "seed": 73,
+      "selected": {
+        "kind": "mean"
+      },
+      "source_contexts": 2,
+      "source_single_conditions": 33
+    },
+    {
+      "evaluation_conditions": 35,
+      "measurement_cost_units": 70,
+      "mse": 0.07615140312445615,
+      "search": [
+        {
+          "conditions": 66,
+          "config": {
+            "kind": "mean"
+          },
+          "mse": 0.08214604756400283
+        },
+        {
+          "conditions": 66,
+          "config": {
+            "alpha": 0.1,
+            "kind": "ridge"
+          },
+          "mse": 0.08222270015534995
+        },
+        {
+          "conditions": 66,
+          "config": {
+            "alpha": 10.0,
+            "kind": "ridge"
+          },
+          "mse": 0.08186727439834925
+        },
+        {
+          "conditions": 66,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "ridge"
+          },
+          "mse": 0.0821412443840066
+        },
+        {
+          "conditions": 66,
+          "config": {
+            "alpha": 0.1,
+            "kind": "kernel"
+          },
+          "mse": 0.08233861822613174
+        },
+        {
+          "conditions": 66,
+          "config": {
+            "alpha": 10.0,
+            "kind": "kernel"
+          },
+          "mse": 0.08205782689908377
+        },
+        {
+          "conditions": 66,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "kernel"
+          },
+          "mse": 0.08214503129085575
+        }
+      ],
+      "seconds": 0.03727539999817964,
+      "seed": 73,
+      "selected": {
+        "alpha": 10.0,
+        "kind": "ridge"
+      },
+      "source_contexts": 4,
+      "source_single_conditions": 66
+    },
+    {
+      "evaluation_conditions": 35,
+      "measurement_cost_units": 107,
+      "mse": 0.06817591970345764,
+      "search": [
+        {
+          "conditions": 101,
+          "config": {
+            "kind": "mean"
+          },
+          "mse": 0.06754603101148866
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 0.1,
+            "kind": "ridge"
+          },
+          "mse": 0.06972025128855179
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 10.0,
+            "kind": "ridge"
+          },
+          "mse": 0.06752748460312583
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "ridge"
+          },
+          "mse": 0.06754001471083206
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 0.1,
+            "kind": "kernel"
+          },
+          "mse": 0.06954272069791301
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 10.0,
+            "kind": "kernel"
+          },
+          "mse": 0.0674915753141847
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "kernel"
+          },
+          "mse": 0.0675453031754641
+        }
+      ],
+      "seconds": 0.07565180001256522,
+      "seed": 73,
+      "selected": {
+        "alpha": 10.0,
+        "kind": "kernel"
+      },
+      "source_contexts": 6,
+      "source_single_conditions": 101
+    },
+    {
+      "evaluation_conditions": 35,
+      "measurement_cost_units": 35,
+      "mse": 0.09250119697162891,
+      "search": [
+        {
+          "conditions": 30,
+          "config": {
+            "kind": "mean"
+          },
+          "mse": 0.14222117724976924
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 0.1,
+            "kind": "ridge"
+          },
+          "mse": 0.14222117724976924
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 10.0,
+            "kind": "ridge"
+          },
+          "mse": 0.14222117724976924
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "ridge"
+          },
+          "mse": 0.14222117724976924
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 0.1,
+            "kind": "kernel"
+          },
+          "mse": 0.14222117724976924
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 10.0,
+            "kind": "kernel"
+          },
+          "mse": 0.14222117724976924
+        },
+        {
+          "conditions": 30,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "kernel"
+          },
+          "mse": 0.14222117724976924
+        }
+      ],
+      "seconds": 0.013663699995959178,
+      "seed": 101,
+      "selected": {
+        "kind": "mean"
+      },
+      "source_contexts": 2,
+      "source_single_conditions": 33
+    },
+    {
+      "evaluation_conditions": 35,
+      "measurement_cost_units": 72,
+      "mse": 0.07404298505896952,
+      "search": [
+        {
+          "conditions": 68,
+          "config": {
+            "kind": "mean"
+          },
+          "mse": 0.07433649453091604
+        },
+        {
+          "conditions": 68,
+          "config": {
+            "alpha": 0.1,
+            "kind": "ridge"
+          },
+          "mse": 0.07438853132741297
+        },
+        {
+          "conditions": 68,
+          "config": {
+            "alpha": 10.0,
+            "kind": "ridge"
+          },
+          "mse": 0.07410462818305512
+        },
+        {
+          "conditions": 68,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "ridge"
+          },
+          "mse": 0.07433251073548969
+        },
+        {
+          "conditions": 68,
+          "config": {
+            "alpha": 0.1,
+            "kind": "kernel"
+          },
+          "mse": 0.07443944657381761
+        },
+        {
+          "conditions": 68,
+          "config": {
+            "alpha": 10.0,
+            "kind": "kernel"
+          },
+          "mse": 0.07425543002899812
+        },
+        {
+          "conditions": 68,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "kernel"
+          },
+          "mse": 0.07433556465570501
+        }
+      ],
+      "seconds": 0.03792040000553243,
+      "seed": 101,
+      "selected": {
+        "alpha": 10.0,
+        "kind": "ridge"
+      },
+      "source_contexts": 4,
+      "source_single_conditions": 68
+    },
+    {
+      "evaluation_conditions": 35,
+      "measurement_cost_units": 107,
+      "mse": 0.06817591970345764,
+      "search": [
+        {
+          "conditions": 101,
+          "config": {
+            "kind": "mean"
+          },
+          "mse": 0.06754603101148866
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 0.1,
+            "kind": "ridge"
+          },
+          "mse": 0.06972025128855179
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 10.0,
+            "kind": "ridge"
+          },
+          "mse": 0.06752748460312583
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "ridge"
+          },
+          "mse": 0.06754001471083206
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 0.1,
+            "kind": "kernel"
+          },
+          "mse": 0.06954272069791301
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 10.0,
+            "kind": "kernel"
+          },
+          "mse": 0.0674915753141847
+        },
+        {
+          "conditions": 101,
+          "config": {
+            "alpha": 1000.0,
+            "kind": "kernel"
+          },
+          "mse": 0.0675453031754641
+        }
+      ],
+      "seconds": 0.0695838000101503,
+      "seed": 101,
+      "selected": {
+        "alpha": 10.0,
+        "kind": "kernel"
+      },
+      "source_contexts": 6,
+      "source_single_conditions": 101
+    }
+  ],
+  "pair_label_efficiency": "existing retuned curves preserved, not rerun",
+  "scope": "Retrospective nested context budgets with fixed query population; orders share labels and are dependent",
+  "status": "complete_development"
+}
