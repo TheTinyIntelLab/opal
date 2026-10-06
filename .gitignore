@@ -66,7 +66,19 @@ results/architecture/retuned-curves-v*/summary.json
 
 # Private local preview artifacts are outside the research release.
 /web/next/
+/web/
 /tools/build_evidence_demo.py
 /results/next/demo-v1/
 /results/next/local-release-v1/
 /results/next/local-release-v2/
+
+# State-model datasets, resumable optimizers and prediction banks stay local.
+results/state/**/*.npz
+results/state/**/*.pt
+results/state/**/checkpoint/
+results/state/**/resume/
+results/state/**/clean-install/
+results/state/**/exports/
+results/state/**/*.whl
+results/state/**/*.zip
+.pytest-state-*/
