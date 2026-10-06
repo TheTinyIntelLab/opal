@@ -1,5 +1,5 @@
 """Opal research implementation. No biological checkpoint is bundled."""
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 def load_model(path):
     from pathlib import Path

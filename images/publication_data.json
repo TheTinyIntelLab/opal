@@ -1,0 +1,38 @@
+{
+  "primary": {
+    "norman-log2": {
+      "Additive": 0.008515039458870888,
+      "Selected neural": 0.007169186632866119,
+      "Selected simple": 0.007268183985247651
+    },
+    "wessels-log2": {
+      "Additive": 0.013936912128496256,
+      "Selected neural": 0.005423558221834981,
+      "Selected simple": 0.0042149485546854335
+    }
+  },
+  "state": {
+    "EmeraldBay": {
+      "Selected simple": 0.06467956197186767,
+      "Learned state": 0.07367761297641706
+    },
+    "sci-Plex 3": {
+      "Selected simple": 0.07490550525416811,
+      "Learned state": 0.091868418940232
+    }
+  },
+  "dspin": {
+    "Source-selected pooled-pair": 0.033107516878383245,
+    "Frozen pooled-sum procedure": 0.03402465783819793
+  },
+  "scope": "Historical primary, independent procedure evaluation, and state development are separate populations. No new selection or fitting.",
+  "source_sha256": {
+    "results/runs/norman-log2-primary/test_results.json": "2dbd2e3e9e20fb08bb85869f27c0be3b19083290f8ff496505d1090f0075c202",
+    "results/runs/norman-log2-primary/selection.json": "ef52a8d296560c7cff0fae316ad2d73dffe958d88a9c83ab6cf8fb9011b442b8",
+    "results/runs/wessels-log2-primary/test_results.json": "9480dae424f13ba0e6de6df8b45630badc1df8c5400959ac4d70541a551573a4",
+    "results/runs/wessels-log2-primary/selection.json": "2c0a3c4b09b8d0536b993d9fce2c49610f51ad6cf19777596918f6e6d141196b",
+    "results/next/dspin-confirmation-v1/results.json": "291abb786447a6f19294f76ca8e8c0bda2ee3e62a95f34261c34eb2d788ed021",
+    "results/state/emeraldbay-main-v2/main/results.json": "3b855441f43952d40901c642ac4527ca6e631b3f4fa7e75192212eb3ec65dd3c",
+    "results/state/sciplex-state-v1/main/results.json": "6a92219c2399a87a75e6df3cba65281142716ba63d416451a7e5f0e17e8186f9"
+  }
+}

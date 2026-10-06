@@ -25,12 +25,12 @@ def run(output, skip_attribution=False):
     output.mkdir(parents=True)
     started = time.perf_counter()
     config_path = ROOT / "configs/experiments/kernel-attribution-v1.json"
-    code_paths = sorted((ROOT / "src/opal").rglob("*.py")) + [ROOT / "main.py", ROOT / "pyproject.toml"]
+    code_paths = sorted((ROOT / "src").rglob("*.py")) + [ROOT / "main.py", ROOT / "pyproject.toml"]
     code_paths += [ROOT / "tools" / name for name in ["run_next.py", "next_audit.py", "study_kernel_attribution.py",
                     "study_acquisition.py", "improve_residual_model.py", "report_ceiling.py", "prepare_dspin.py",
                     "evaluate_confirmation.py", "study_main_effects.py", "study_native_cpa.py", "study_native_gears.py",
                     "probe_native_pertadapt.py", "package_native_cpa.py", "predict_native_cpa.py",
-                    "download_dspin.py", "repackage_contextual.py", "report_next.py"]]
+                    "download_dspin.py", "report_next.py"]]
     with zipfile.ZipFile(output / "source_snapshot.zip", "w", zipfile.ZIP_DEFLATED) as archive:
         for path in code_paths:
             archive.write(path, path.relative_to(ROOT).as_posix())

@@ -3,10 +3,13 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 from opal.artifacts import read_json, write_json
 
 
-def main():
+def summarize():
     root = Path('results/improvements')
     studies = ['residual-kernel-v1', 'residual-kernel-seed-20261006', 'residual-kernel-seed-20261007']
     rows = []
@@ -69,9 +72,31 @@ def main():
         'The next decisive evidence is an information-aligned native comparison and an independent',
         'confirmation dataset or genuinely untouched experimental conditions. Additional seeds drawn from',
         'these same development pairs do not supply that independence.', '']
-    Path('docs/improvement_study.md').write_text('\n'.join(lines), encoding='utf-8')
+    Path('results/improvements/report.md').write_text('\n'.join(lines), encoding='utf-8')
     print('\n'.join(str(g) for g in groups))
 
 
+
+def plot():
+    record = read_json('results/improvements/summary.json')
+    fig, ax = plt.subplots(figsize=(7, 3.2), constrained_layout=True)
+    labels = []
+    for i, group in enumerate(record['groups']):
+        values = [100 * r['kernel_relative_mse_reduction'] for r in record['rows']
+                  if r['dataset'] == group['dataset'] and r['protocol'] == group['protocol']]
+        ax.scatter([i-.12, i, i+.12], values, s=35, color='#22577A')
+        labels.append(group['dataset'].replace('-log2', '').capitalize() + '\n' + group['protocol'])
+    ax.axhline(0, color='#888888', linewidth=.8)
+    ax.set_xticks(range(4), labels)
+    ax.set_ylabel('Relative MSE reduction (%)')
+    ax.set_title('Nested development results, three seeds per protocol', fontsize=11)
+    ax.spines[['top', 'right']].set_visible(False)
+    fig.savefig('results/improvements/relative_gain.pdf')
+    fig.savefig('results/improvements/relative_gain.png', dpi=180)
+    fig.savefig('paper/evidence/improvement-relative-gain.pdf')
+
+
+
 if __name__ == '__main__':
-    main()
+    summarize()
+    plot()

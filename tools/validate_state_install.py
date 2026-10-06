@@ -21,7 +21,7 @@ def main():
     # A source snapshot uses an allowlist, so private files cannot enter the archive.
     import zipfile
     snapshot = args.output / 'source.zip'
-    source_files = sorted((ROOT / 'src/opal').rglob('*.py')) + sorted((ROOT / 'tools').glob('*state*.py'))
+    source_files = sorted((ROOT / 'src').rglob('*.py')) + sorted((ROOT / 'tools').glob('*state*.py'))
     with zipfile.ZipFile(snapshot, 'w', zipfile.ZIP_DEFLATED) as archive:
         for file in source_files:
             archive.write(file, file.relative_to(ROOT).as_posix())

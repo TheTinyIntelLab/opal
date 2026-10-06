@@ -1,213 +1,178 @@
-# Opal research
+<div align="center">
+  <img src="images/logo.png" width="160" alt="Opal logo" />
+  <h1>Opal</h1>
+  <p>Observed-single combinatorial response prediction</p>
+</div>
 
-Opal v1 is an experimental research release for predicting population-mean pair responses from measured single effects plus a symmetric residual correction. Kernels are the strongest tested development family. Independent transferable superiority, robust biological interaction learning, and calibrated OOD abstention remain unestablished.
 
-Download package, models, manuscript, evidence, and checksums from [v0.1.0](https://github.com/TheTinyIntelLab/opal/releases/tag/v0.1.0). Read the [model guide](docs/release_models.md), [evidence summary](docs/release_evidence.md), [data notices](THIRD_PARTY_NOTICES.md), and [publication instructions](release.md). Original code is MIT; the two data-derived reference exports carry CC BY 4.0 terms. Raw data and external pretrained resources aren't bundled.
+<div align="center">
+  <a href="https://thetinyintelligencelab.vercel.app/"><img src="images/lab_badge.svg" alt="The Tiny Intelligence Lab" /></a>
+  <img src="images/status_badge.svg" alt="Publication paused" />
+  <a href="paper/main.pdf"><img src="images/paper_badge.svg" alt="Research preprint draft" /></a>
+  <a href="LICENSE"><img src="images/license_badge.svg" alt="Code license: MIT" /></a>
+</div>
 
-Install the downloaded wheel with `python -m pip install opal_research-0.1.0-py3-none-any.whl`, then run `opal --help`. With the source archive extracted, run `opal reproduce --config configs/experiments/release_quickstart.json --output results/synthetic/my-quickstart` for a small synthetic execution check. This doesn't reproduce the biological results. Full scientific reproduction requires separately obtained sources and track-specific environments.
+<p align="center">
+  <a href="#2-model-downloads">Models</a> ·
+  <a href="#3-evaluation-results">Evaluation</a> ·
+  <a href="#5-quick-start">Quick start</a> ·
+  <a href="#8-license">License</a> ·
+  <a href="#9-citation">Citation</a>
+</p>
 
-Author: Arjun Vijay Prakash, an independent high school student at City Montessori School, with no institutional research affiliation. No funding was received; the author declares no competing interests. AI assistance is disclosed in the [manuscript](paper/main.pdf). Cite this version using [CITATION.cff](CITATION.cff).
+<p align="center"><a href="paper/main.pdf">Read the preprint draft</a></p>
 
-Opal predicts population-mean effects of an unmeasured unordered intervention
-pair from measured singles. It adds a learned symmetric correction to the
-observed additive prediction. This repository implements the research workflow
-in [roadmap.md](roadmap.md); independent biological validation remains unresolved.
+**Publication is paused.** This repository prepares Opal **0.1.1**. The existing private `v0.1.0` tag and draft contain an earlier snapshot; don't publish their assets as this revision. There is no public model release or arXiv identifier yet.
 
-The new [state-response benchmark](docs/state_benchmark.md) tests baseline-only
-main-effect transfer before expanding the model. It includes a compact state
-encoder, separate intervention input paths, symmetric residuals, staged and joint
-training, and NumPy inference for compatible new baselines. On EmeraldBay and a
-publisher-checksum-verified corrected sci-Plex 3 source, selected simple state
-models improve on target averaging by only 0.12% and 0.01%; learned models are
-14% and 23% worse than those references. No representation scaling is justified.
-The new pair development comparison also favors the matched residual kernel.
-These are development results, with no new independent confirmation or reliable
-intervals. See the [capability ledger](results/state/capability_ledger.json),
-[completed results](docs/state_results.md), [architecture](docs/state_architecture.md)
-and [confirmation design](docs/state_confirmation_design.md).
+## 1. Introduction
 
-The next-cycle implementation, commands and evidence are in [the next-cycle guide](docs/next_cycle.md).
-It covers the historical closeout, crossed-context data requirements, contextual models,
-evaluation gates and release work without changing the historical protocol.
+Opal predicts the population-mean effect of an unmeasured intervention pair from measurements of each intervention on its own. The primary task requires both singles in the same biological setting and predicts their sum plus a symmetric correction:
 
-The latest architecture batch adds joint reference uncertainty, GO/Hallmark/
-GenePT/ESM2 priors, structured decoders, signal-weighted objectives, independent
-single-screen transfer, and kernel/GP/retrieval/TabICLv2 comparisons. Within that historical architecture batch, the residual kernel gives the best
-aggregate scores; extra training coverage and measurement weighting give the
-useful gains. These are exploratory development results, and
-frontier quality hasn't been established. Exact scores and exposure limits are in
-[the architecture study](docs/architecture_experiments.md).
-
-Run `python main.py frontier` to reproduce the architecture batch. It downloads
-verified public resources, trains the independent encoder, repeats nested
-ablations and controls, checks exports and tests, and regenerates the paper.
-Install the optional frozen tabular comparator with `python -m pip install -r
-requirements-tabular-lock.txt`, or pass `--skip-tabular`. `--skip-transfer` omits
-expression pretraining but retains semantic-prior comparisons; skipped stages
-produce an explicitly partial report. The GO graph and gene dictionary currently
-come from the supplied `OneDrive_1_10-5-2026/` resources. Keep those files locally;
-the public archive doesn't contain a replacement expression matrix or this exact
-GO input. Large data, model weights, caches and generated prediction banks are
-ignored by Git. PRESAGE-derived semantic weights retain CC BY-NC 4.0 terms.
-
-The working layout is `data/`, `paper/`, `results/`, `src/`, `tests/`, and `tools/`,
-with registered dataset and experiment contracts under `configs/`.
-
-## Current context-transfer results
-
-The contextual pipeline is implemented with exact intervention/dose matching,
-separate fitting, grouped calibration and evaluation artifacts, and safe inference
-exports. The EmeraldBay chemical pilot's selected kernel MSE is 0.172218 versus
-0.210239 for additivity; native CPA on aggregate inputs improves it to 0.157098.
-This pilot is exploratory. On independent D-SPIN data, the frozen kernel
-procedure has MSE 0.034025 versus 0.033108 for the source-selected simple
-reference, failing the registered 5% improvement gate. Its nominal 90% empirical
-source radius covers only 34.3% of held conditions, so transfer validation and
-calibrated abstention remain unresolved.
-
-Native GEARS development runs use aggregate observations and reference-derived
-graphs. GEARS beats the kernel on Wessels partner folds and loses on its random
-folds; the kernel wins both Norman protocols. These adapted comparisons do not
-establish canonical public-method rankings. Estimated-single inference has a
-separate experimental contract: its favorable pilot error includes substantial
-main-effect/residual error cancellation and does not establish reliable transfer.
-
-Use `python main.py next --output results/next/new-cycle` for the integrated
-registered extension. Inference can run without PyTorch:
-
-```powershell
-.venv/Scripts/python.exe main.py context-predict --checkpoint results/next/portable-checkpoints-v1/emeraldbay --context CVCL_1478 --pair "Gemcitabine@10uM:5d" "Paclitaxel@0.5uM:5d" --output tmp/chemical-prediction.npz
+```text
+predicted pair effect = measured effect A + measured effect B + correction(A, B)
+correction(A, B) = correction(B, A)
 ```
 
-Large checkpoints and datasets remain local; a fresh checkout must reproduce or
-restore the documented artifacts before running this example. The [next-cycle
-guide](docs/next_cycle.md) records download, GPU environment, training and
-estimated-single commands. The [model card](docs/model_card_next.md) defines
-supported inputs and limitations; `results/next/research-ledger-v2` and
-`results/next/cycle-v7` retain the compact evidence. The suite currently passes
-the historical 104-test suite, and installed-wheel checks reproduce observed and estimated
-predictions within `7e-15`. The [manuscript](paper/main.tex) and its
-[compiled PDF](paper/main.pdf) include the new findings as a separate amendment.
+<img src="images/opal_overview.svg" alt="Measured singles feed an additive reference and a symmetric residual correction, producing a population-mean pair prediction." width="100%" />
 
-## Install and run
+The project implements neural heads, classical regression, residual kernels, and explicit reference controls. Kernels are the strongest tested family in exploratory development comparisons. Historical neural gains over additivity don't establish robust pair-specific biological interaction learning, and independent context-transfer superiority remains unestablished.
 
-Use Python 3.11–3.14 with a CPU-compatible PyTorch installation. The recorded
-experiments use Python 3.14.0 and the versions in `requirements.txt`.
+This is independent research by **Arjun Vijay Prakash**, a high school student at City Montessori School, with no institutional research affiliation, funding, or competing interests. [The Tiny Intelligence Lab](https://thetinyintelligencelab.vercel.app/) is the project's independent research identity. AI assistance and author responsibility are disclosed in the manuscript.
+
+## 2. Model downloads
+
+The planned release includes these two kernel references. Downloads will become public after a new frozen commit, rebuilt assets, and explicit publication; the old draft isn't a current download channel.
+
+| Reference | Inputs and output | Validation scope | Availability |
+| --- | --- | --- | --- |
+| Norman residual kernel | Registered K562 single-effect profiles; fixed-gene population-mean pair effect | Exploratory development-selected refit, distinct from the historical primary neural result | Prepared locally |
+| EmeraldBay contextual kernel | Registered exact-dose singles and controls in supported contexts | Chemical pilot; its transferred procedure failed the independent D-SPIN superiority gate | Prepared locally |
+
+The [model guide](docs/models.md) explains supported queries, reference access, gene order, and diagnostic metadata. Raw datasets, Wessels/D-SPIN weights, external embedding banks, and native CPA/GEARS weights aren't redistributed. Dataset-derived reference content has CC BY 4.0 terms in [the notices](THIRD_PARTY_NOTICES.md).
+
+## 3. Evaluation results
+
+### Historical primary biological results
+
+These are equal-pair MSEs on the original frozen held-out sets. The selected neural and simpler reference were chosen on development data; a test-best candidate isn't retrospectively promoted.
+
+| Dataset | Held pairs | Additive | Selected neural | Selected simple reference | Neural gain over additivity |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Norman | 38 | 0.008515040 | 0.007169187 | 0.007268184, reduced-rank | 15.81% |
+| Wessels | 18 | 0.013936912 | 0.005423558 | 0.004214949, global correction | 61.08% |
+
+The Norman advantage over its selected reference is inconclusive. Wessels favors a global correction, so its additive gain is compatible with shared distortion. MSEs from different datasets, scales, and output panels aren't directly comparable.
+
+<img src="images/opal_results.svg" alt="Historical additive comparisons and the separate D-SPIN transfer test, normalized within each evaluation population." width="100%" />
+
+### Development and independent transfer
+
+| Evidence class | Result | Consequence |
+| --- | --- | --- |
+| Exploratory architecture comparisons | Kernels selected in all 40 competitive outer folds and beat the tested neural additions in aggregate | Strong development reference; larger capacity remains under-tested. |
+| Wessels coverage development | Extra pair labels improve random/partner MSE by 16.05%/4.92%; extra singles give about +0.03%/-0.38% | Pair coverage was more useful in this expansion. |
+| EmeraldBay observed-single pilot | Kernel 0.172217529; additive 0.210238543; adapted aggregate CPA 0.157097856 | Native CPA wins this pilot; this isn't a canonical cell-level benchmark. |
+| Independent D-SPIN procedure evaluation | Frozen pooled-sum kernel 0.034024658; source-selected pooled-pair kernel 0.033107517 | Frozen procedure is 2.77% worse and fails the registered 5% superiority gate. |
+| D-SPIN uncertainty diagnostic | A nominal 90% empirical source radius covers 34.3% of held conditions | No validated OOD coverage or abstention guarantee. |
+| Baseline-only state development | Tested learned models are 13.91% and 22.65% worse than simple references on EmeraldBay and sci-Plex 3 | These builds don't justify learned-state adoption or scaling. |
+
+<img src="images/opal_state.svg" alt="The tested learned state models have higher MSE than the selected simple references on both development sources." width="85%" />
+
+D-SPIN uses a different study with whole Myeloid and NK lineage holdouts across batches. Its procedure is source-refitted and uses explicitly permitted measured held-context singles for reference normalization, so it isn't zero-shot context prediction. Native GEARS comparisons are mixed. Main-effect/residual error cancellation prevents interpreting favorable missing-single total error as reliable interaction recovery.
+
+[The evidence guide](docs/evidence.md), [capability ledger](results/state/capability_ledger.json), and [manuscript](paper/main.pdf) preserve negative results, interrupted runs, and corrections.
+
+## 4. Training and reproduction details
+
+The historical genetic benchmark fits residual corrections on matched population means, with source preparation, split identities, reference-only gene selection, and development-selected hyperparameters recorded separately from held-out outcomes. Later amendments use nested development comparisons; D-SPIN is the independent procedure evaluation. Cells and technical strata aren't automatically biological replicates.
+
+Install source-data dependencies with `python -m pip install -e ".[data,dev]"` before biological preparation. Full reproduction needs separate dataset downloads, optional external resources, and track-specific CPU/GPU environments. Follow [the detailed reproduction guide](docs/reproduction.md), the recorded dataset/experiment configs and [evidence summary](docs/evidence.md), rather than running every study as an installation check.
+
+Recreate README plots and manuscript PDFs from compact saved records with:
+
+```powershell
+python tools/generate_publication_figures.py
+python tools/report_state.py
+python tools/report_next_paper.py
+python tools/build_paper.py
+```
+
+The public plot record lets the first command run without the full local prediction banks. The figure code performs no fitting and opens no held-out expression outcomes. Compilation needs an existing Tectonic installation or `--tectonic PATH`.
+
+## 5. Quick start
+
+### Installation
+
+Use Python 3.11 through 3.14. From this checkout:
 
 ```powershell
 python -m venv .venv
-.venv/Scripts/python.exe -m pip install -r requirements.txt
-.venv/Scripts/python.exe -m pip install -e ".[data,dev]"
-.venv/Scripts/python.exe -m pytest -q --basetemp=.pytest-tmp
-.venv/Scripts/python.exe main.py
-.venv/Scripts/python.exe main.py reproduce --config configs/experiments/synthetic.json
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -e ".[dev]"
+.\.venv\Scripts\opal.exe --help
 ```
 
-`requirements-lock.txt` records the full scientific/data dependency closure from
-this Windows CPU environment; local `+cpu` PyTorch builds can use the PyTorch CPU
-wheel index. Other Python/platform combinations require compatible wheels and
-have not been exhaustively tested.
+On Linux/macOS, use `.venv/bin/python` and `.venv/bin/opal`. The package's normal installation includes PyTorch and other declared dependencies; its download size isn't the size of the fitted kernel head.
 
-`main.py` with no arguments runs the registered synthetic and genetic experiments,
-count sensitivities, chemical feasibility run, biological split studies,
-technical bootstraps, adapted SLIM references, diagnostics, the architecture amendment and paper build. Use `--skip-architecture` to run only the historical batch. `main.py research
---development-only` stops before opening tests; `--skip-synthetic` uses the real
-pipeline directly. `--skip-secondary` runs the primary batch, and `--skip-paper`
-preserves the source without requiring a compiler. The full CPU batch can take substantial time. Completed
-stages are preserved and fingerprinted, and interrupted evaluations require an
-explicit corrected run rather than silently reopening tests.
-
-The synthetic suite exercises eight known response generators, five registered
-outer random-pair seeds on the low-rank generator, five partner holdouts, neural
-and classical controls, and nested fixed-hyperparameter learning curves.
-Generated outputs are explicitly synthetic. Existing frozen run directories are
-preserved; choose a new `--output` directory for another reproduction.
-
-## Real data
-
-Source identities, original URLs, licenses and acceptance limitations are in
-`data/source_registry.json` and `docs/source_audit.md`. Raw caches are ignored by
-Git. Downloads stream to disk and record checksums; data acceptance additionally
-requires count provenance, matching singles, controls and context metadata.
+### Synthetic execution check
 
 ```powershell
-.venv/Scripts/python.exe tools/download.py norman
-.venv/Scripts/python.exe tools/download.py wessels-metadata
-.venv/Scripts/python.exe tools/download.py wessels-counts
-.venv/Scripts/python.exe tools/prepare_sources.py norman
-.venv/Scripts/python.exe tools/prepare_sources.py wessels
-.venv/Scripts/python.exe main.py audit --dataset data/prepared/norman-log2
-.venv/Scripts/python.exe main.py benchmark --config configs/experiments/norman-log2.json --stage development
-.venv/Scripts/python.exe main.py benchmark --config configs/experiments/norman-log2.json --stage final
+.\.venv\Scripts\opal.exe reproduce --config configs/experiments/release_quickstart.json --output results/synthetic/my-quickstart
+.\.venv\Scripts\python.exe -m pytest -q
 ```
 
-Original expression data for all three sources downloaded successfully. The Wessels prepared download used by some benchmarks lacks singles and is
-rejected. The original ComboSciPlex source supports only seven matched pairs,
-so chemical release validation requires an explicit amendment or a qualified
-replacement. It is not silently trained with missing singles.
+This runs two small synthetic scenarios and the software checks. It doesn't establish biological accuracy. Use a new output directory for each run; existing evidence isn't overwritten. `main.py` without arguments starts a much larger research workflow.
 
-Preparation preserves sparse counts, freezes normalization and gene selection
-from controls/singles, matches control strata, and separates test responses in an
-`evaluator/` directory. Development writes fivefold out-of-fold predictions and
-a frozen selection manifest. Final execution checks source and fitting-data
-fingerprints, saves predictions before accessing test responses, and refuses a
-second test access. Each run saves a source snapshot and environment record.
+### Reference inference
 
-## Predictions and manuscript
+After the new release is published, extract its model ZIP, then:
 
-```powershell
-.venv/Scripts/python.exe main.py predict --checkpoint results/runs/norman-log2-primary/checkpoint --pair CBL CNN1 --output results/prediction.npz
-.venv/Scripts/python.exe main.py evaluate --run results/runs/norman-log2-primary
+```python
+from opal import load_model
+
+model = load_model("models/norman-kernel")
+prediction = model.predict("AHR", "KLF1")
+effect, genes = prediction["effect"], prediction["genes"]
 ```
 
-Use `import opal; model = opal.load_model(path)` and
-`model.predict(target_a, target_b, context=...)` for local inference. Outputs
-include effects, additive terms, residuals and uncalibrated ensemble spread.
-Checkpoints contain only observed-single references and development-fitted
-weights, stored as safe NumPy arrays with JSON manifests. Controls and singles
-have explicit routes; unsupported contexts, repeated targets and missing
-profiles are rejected. Checkpoint gene order is immutable.
-New exports report whether a query is a development combination, registered test
-combination, or another pair in the supported context, using identities only.
-Historical exports that lack test identities report the broader third category;
-they do not infer source coverage or calibrated reliability.
+The output follows the fixed gene order and effect scale in the manifest. EmeraldBay uses `model.predict(a, b, context=context)` with registered contexts and both measured singles available. Check support metadata before interpreting a query.
 
-`paper/main.tex`, `paper/references.bib` and generated `paper/main.pdf` form the
-research report. Result tables and figures are generated from saved artifacts;
-source-level feasibility, negative findings and incomplete comparisons remain
-visible. The draft is not submission-ready while author declarations and
-required biological evidence remain unresolved.
+## 6. FAQ
 
-For the baseline-conditioned route, `opal.state.StatePredictor` accepts a
-processed matched baseline, exact gene order, assay and scale. `opal state-predict`
-reads those fields from an NPZ, with an exact single or pair identity and optional
-explicit measured-single effects. The two-seed exports under
-`results/state/portable-v3/{emeraldbay,sciplex}/checkpoint` and
-`results/state/portable-v3/pair/checkpoint` stay local. The pair export restores
-the scored last development fold, rather than a model chosen on its outer score.
-Unknown interventions, unsupported doses, incompatible assays and repeated
-targets are rejected. Clean NumPy-only installations reproduce the exported
-predictions exactly outside this checkout. Model variation is uncalibrated,
-and inference reliability remains explicitly unavailable.
+**Why is the package called `opal-research`, but imports use `opal`?** Distribution names and Python import names serve different purposes. The source lives directly in `src/`; setuptools maps that directory to the installed `opal` package, preserving a distinct import namespace.
 
-The manuscript uses the app's built-in source editor. A multi-file PDF build can
-also use an existing Tectonic executable:
+**Why 0.1.1 rather than v1?** A `0.x` version conventionally signals an evolving API. The earlier private `v0.1.0` tag is preserved, while these revisions prepare a new patch version. Scientific maturity is assessed by experiments, not the version number.
 
-```powershell
-.venv/Scripts/python.exe tools/build_paper.py --tectonic PATH/TO/tectonic.exe
-.venv/Scripts/python.exe main.py research --tectonic PATH/TO/tectonic.exe
+**Does the model learn biological interactions?** Insufficient evidence. A residual contains measurement error and shared distortion as well as potential pair-specific structure, and simple references explain much of the observed improvement.
+
+**Can it predict unmeasured singles or arbitrary contexts?** The main release contract requires measured singles. Separate missing-single/state experiments are exploratory and don't establish general-purpose transfer.
+
+## 7. Limitations
+
+The biological pair sets are small, residual technical reproducibility is weak, and the capacity comparison isn't exhaustive. Repeated splits share data. D-SPIN has only two held lineage groups, treatment-assigned lineage labels, and no established biological replication. The tested state encoders lose to simple anchors; other representations remain untested. External priors and native adaptations don't establish general superiority.
+
+Uncertainty outputs are diagnostic, not validated confidence percentages. Synthetic recovery, safe exports, passing tests, and CPU/GPU execution checks don't establish biological mechanisms or prospective experimental usefulness. This is a comparative research framework, with no frontier or clinical-use claim.
+
+## 8. License
+
+Original Opal code is [MIT](LICENSE). Dataset-derived Norman and EmeraldBay reference content retains CC BY 4.0 terms; [third-party notices](THIRD_PARTY_NOTICES.md) document attribution and exclusions. Template provenance and permission are recorded in the third-party notices. An Opal code license doesn't relicense external sources or pretrained resources.
+
+## 9. Citation
+
+The preprint hasn't been submitted to arXiv. Until an identifier exists, don't cite a fabricated arXiv number or describe it as peer reviewed. The following citation identifies the prepared software revision; use it when that revision is published:
+
+```bibtex
+@software{prakash_opal_2026,
+  author = {Prakash, Arjun Vijay},
+  title = {Opal: observed-single combinatorial response prediction},
+  year = {2026},
+  version = {0.1.1},
+  url = {https://github.com/TheTinyIntelLab/opal}
+}
 ```
 
-The first build retrieves TeX resources into a workspace cache; later builds reuse
-them. No system TeX installation is performed. Compiler input and PDF hashes are
-in `paper/build_manifest.json`. Rendered pages were inspected for layout.
+[CITATION.cff](CITATION.cff) supplies structured software metadata. Add the actual arXiv identifier and archival DOI only after they're assigned.
 
-See `docs/protocol_amendments.md` for changes from the initial specification and
-`docs/progress.md` for evidence-based completion status. The MIT software license
-does not relicense source datasets or external methods.
+## 10. Contact
 
-## Joint uncertainty and retuned learning curves
-
-`.venv/Scripts/python.exe main.py ceiling` reproduces the shared-reference covariance extension, three nested split seeds, technical refitting sensitivity, subset-retuned learning curves, isolated error-radius diagnostics, tests, evidence figures and the paper. `main.py frontier` also includes these stages. Completed studies validate their input hashes and seed before reuse; choose a new output folder for changed experimental protocols.
-
-The covariance extension does not consistently beat diagonal weighting, and partner transfer remains weak. Its error-radius diagnostics are empirical and do not establish calibrated abstention. See [the measured extension](docs/ceiling_experiments.md) for results and limitations. Large joint bootstrap arrays and checkpoints stay local; their hashes, source snapshots and compact numerical records are versioned.
+Read [The Tiny Intelligence Lab](https://thetinyintelligencelab.vercel.app/) for project updates. Once the repository is public, use [GitHub issues](https://github.com/TheTinyIntelLab/opal/issues) for reproducible code or evidence problems.

@@ -88,7 +88,7 @@ def study(name,root,seed,epochs,outer_count,inner_count):
         'negative_result_policy':'All ablations and both split protocols recorded; no model family forced'}
     write_json(output/'protocol.json',protocol)
     with zipfile.ZipFile(output/'source_snapshot.zip','w',zipfile.ZIP_DEFLATED) as archive:
-        for file in sorted((ROOT/'src/opal').rglob('*.py')):archive.write(file,str(file.relative_to(ROOT)))
+        for file in sorted((ROOT/'src').rglob('*.py')):archive.write(file,str(file.relative_to(ROOT)))
         for file in ['tools/study_architecture.py','tools/improve_residual_model.py','tools/prepare_architecture.py']:
             archive.write(ROOT/file,file)
     all_results={}

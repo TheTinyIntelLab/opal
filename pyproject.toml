@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "opal-research"
-version = "0.1.0"
+version = "0.1.1"
 description = "Auditable observed-single combinatorial response prediction"
 authors = [{name = "Arjun Vijay Prakash"}]
 license = {file = "LICENSE"}
@@ -25,5 +25,8 @@ Repository = "https://github.com/TheTinyIntelLab/opal"
 Releases = "https://github.com/TheTinyIntelLab/opal/releases"
 Issues = "https://github.com/TheTinyIntelLab/opal/issues"
 
-[tool.setuptools.packages.find]
-where = ["src"]
+[tool.setuptools]
+packages = ["opal", "opal.baselines", "opal.contextual", "opal.data", "opal.evaluation", "opal.inference", "opal.models", "opal.profiles", "opal.representations", "opal.splits", "opal.state", "opal.training"]
+
+[tool.setuptools.package-dir]
+opal = "src"

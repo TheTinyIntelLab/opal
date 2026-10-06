@@ -26,6 +26,9 @@ def main():
     parser.add_argument('--assets', type=Path, required=True)
     args = parser.parse_args()
     assets = args.assets.resolve()
+    manifest = json.loads(next(assets.glob('opal-*-manifest.json')).read_text())
+    version = manifest['version']
+    prefix = 'opal-' + version
     for line in (assets / 'SHA256SUMS.txt').read_text().splitlines():
         checksum, name = line.split('  ', 1)
         assert Path(name).name == name and sha(assets / name) == checksum, name
@@ -42,16 +45,16 @@ def main():
         for name in names:
             parts = Path(name).parts
             assert not Path(name).is_absolute() and '..' not in parts
-            assert Path(name).name not in {'plan.md', 'opal_next_master_plan.md', 'build_evidence_demo.py'}
+            assert Path(name).name not in {'plan.md', 'outreach.md', 'context.md', 'roadmap.md', 'opal_next_master_plan.md', 'build_evidence_demo.py'}
             assert not {'web', 'external', 'vendor', 'raw', 'prepared'} & set(parts), name
     outside = Path(tempfile.mkdtemp(prefix='opal-v1-verify-'))
     installed = outside / 'installed'
-    wheel = assets / 'opal_research-0.1.0-py3-none-any.whl'
+    wheel = assets / f'opal_research-{version}-py3-none-any.whl'
     subprocess.run([sys.executable, '-m', 'pip', 'install', '--no-deps', '--target', str(installed), str(wheel)],
                    check=True, capture_output=True, text=True)
-    with zipfile.ZipFile(assets / 'opal-v1-reference-models.zip') as archive:
+    with zipfile.ZipFile(assets / (prefix + '-reference-models.zip')) as archive:
         archive.extractall(outside)
-    with zipfile.ZipFile(assets / 'opal-v1-research-source.zip') as archive:
+    with zipfile.ZipFile(assets / (prefix + '-research-source.zip')) as archive:
         archive.extractall(outside / 'source')
     import numpy as np
     nm = json.loads((outside / 'models/norman-kernel/manifest.json').read_text())
@@ -87,13 +90,14 @@ for label in ['norman','emerald']:
     np.testing.assert_allclose(predictions,q[label+'_expected'],rtol=1e-7,atol=1e-8)
     np.testing.assert_allclose(left,right,atol=1e-10)
     results.append({'model':label,'saved_predictions_replayed':len(predictions),'maximum_absolute_error':float(np.max(np.abs(predictions-q[label+'_expected'])))})
-print(json.dumps({'models':results,'installed_module':opal.__file__,'dependencies_reused':True,'outside_checkout':True}))
+print(json.dumps({'models':results,'installed_module':opal.__file__,'dependencies_reused':True,'outside_checkout':True,'version':opal.__version__}))
 ''', encoding='utf-8')
     env = dict(os.environ)
     env.pop('PYTHONPATH', None)
     checked = subprocess.run([sys.executable, str(script), str(outside)], cwd=outside, env=env,
                              capture_output=True, text=True, check=True)
     report = json.loads(checked.stdout)
+    assert report['version'] == version, 'Installed wheel version mismatch'
     quickstart = subprocess.run([sys.executable, '-c',
         f"import sys;sys.path.insert(0,{str(installed)!r});from opal.cli import main;main()",
         'reproduce', '--config', str(outside / 'source/configs/experiments/release_quickstart.json'),

@@ -8,11 +8,11 @@ spec.loader.exec_module(module)
 
 
 def test_source_rejects_private_and_external_inputs():
-    for name in ['plan.md', 'docs/opal_next_master_plan.md', 'web/index.html',
+    for name in ['plan.md', 'docs/outreach.md', 'context.md', 'roadmap.md', 'docs/opal_next_master_plan.md', 'web/index.html',
                  'tools/external/CPA/model.py', 'tools/vendor/key.json',
                  'data/raw/source.json', 'results/state/model.npz', '../README.md']:
         assert not module.allowed_source(name), name
-    for name in ['README.md', 'src/opal/cli.py', 'configs/releases/v0.1.0.json', 'paper/main.pdf']:
+    for name in ['README.md', 'src/cli.py', 'configs/releases/v0.1.0.json', 'paper/main.pdf']:
         assert module.allowed_source(name), name
 
 

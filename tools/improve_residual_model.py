@@ -75,7 +75,7 @@ def study(dataset, output, seed=20261005):
         'negative_result_policy': 'Record both random and partner protocols and all candidate choices.'})
     with zipfile.ZipFile(output / 'source_snapshot.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
         archive.write(__file__, 'tools/improve_residual_model.py')
-        for file in sorted(Path('src/opal').rglob('*.py')):
+        for file in sorted(Path('src').rglob('*.py')):
             archive.write(file, file.as_posix())
     results = {}
     for kind in ['random', 'partner']:

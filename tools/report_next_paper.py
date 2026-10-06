@@ -25,7 +25,7 @@ def main():
         ('EmeraldBay', 'Selected pooled-sum kernel', pilot['mse']['selected']),
         ('EmeraldBay', 'Native CPA, aggregate inputs', cpa['mse']),
         ('D-SPIN', 'Observed additive', independent['mse']['additive']),
-        ('D-SPIN', 'Source-selected simple reference', independent['mse'][independent['development_selected_simple_reference']]),
+        ('D-SPIN', 'Source-selected pooled-pair kernel', independent['mse'][independent['development_selected_simple_reference']]),
         ('D-SPIN', 'Frozen kernel procedure', independent['mse']['selected']),
         ('EmeraldBay, masked singles', 'Estimated additive', missing['additive_estimated_single_mse']),
         ('EmeraldBay, masked singles', 'Estimated singles plus residual', missing['mse']),

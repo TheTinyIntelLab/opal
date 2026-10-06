@@ -52,7 +52,7 @@ def main():
     report += 'The next scientific step is a replicated crossed-context screen or an independently qualified corpus, followed by a fresh sealed confirmation. Conditional learned encoders, higher-order interventions, sequential treatment and mechanistic claims remain outside the demonstrated release.\n'
     (args.output / 'report.md').write_text(report, encoding='utf-8')
     with zipfile.ZipFile(args.output / 'source_snapshot.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
-        paths = list((ROOT / 'src/opal').rglob('*.py'))
+        paths = list((ROOT / 'src').rglob('*.py'))
         paths += [ROOT / 'tools' / name for name in ['report_next.py', 'evaluate_confirmation.py',
                     'study_main_effects.py', 'study_native_cpa.py', 'study_native_gears.py',
                     'probe_native_pertadapt.py', 'package_native_cpa.py', 'predict_native_cpa.py']]

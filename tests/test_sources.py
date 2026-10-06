@@ -1,3 +1,35 @@
+import pytest
+from tools.prepare_emeraldbay import condition
+
+
+def test_dose_and_unit_are_part_of_treatment_identity():
+    a = condition("[('A', 1, 'uM'), ('B', 2, 'uM')]")
+    assert a == condition("[('B', 2, 'uM'), ('A', 1.0, 'uM')]")
+    assert a != condition("[('A', 0.1, 'uM'), ('B', 2, 'uM')]")
+    singles = {condition("[('A', 1, 'uM')]")[0], condition("[('B', 0.2, 'uM')]")[0]}
+    assert not all(s in singles for s in a)
+
+
+@pytest.mark.parametrize('value', ["[('A', -1, 'uM')]", "[('A', 1, 'nM')]", "[('A', 1, 'uM'), ('A', 2, 'uM')]", "[]", "__import__('os').getcwd()"])
+def test_invalid_source_treatments_are_rejected(value):
+    with pytest.raises((ValueError, SyntaxError)):
+        condition(value)
+
+
+import pytest
+from tools.prepare_dspin import treatment
+
+
+def test_exact_dose_matching_and_control_activation():
+    assert treatment('CONTROL_CD3_2') == ()
+    assert treatment('Dasatinib_0p1_Halcinonide_0_CD3_1') == (('Dasatinib', .1),)
+    assert treatment('Dasatinib_1000_Halcinonide_1000_CD3_2') == (('Dasatinib', 1000.), ('Halcinonide', 1000.))
+    with pytest.raises(ValueError, match='Unmapped'):
+        treatment('CONTROL_1')
+    with pytest.raises(ValueError, match='Unmapped'):
+        treatment('ambiguous_treatment')
+
+
 import sys
 import numpy as np
 import pandas as pd

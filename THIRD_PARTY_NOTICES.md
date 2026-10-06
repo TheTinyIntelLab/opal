@@ -11,3 +11,7 @@ Wessels GSE213957, D-SPIN, and other original deposits are identified in source 
 CPA and GEARS are optional external dependencies, not vendored implementations in this release. CPA uses BSD 3-Clause and GEARS uses MIT; retain their upstream notices when downloading them. External GenePT, ESM2, PRESAGE, STRING, GO, Hallmark, PertAdapt, and TabICL resources aren't bundled. Their upstream terms and resource costs apply separately.
 
 The manuscript and original documentation use the repository's MIT terms; this doesn't relicense cited works or source data. Predictions have no clinical-use validation.
+
+The requested preprint style is George Kour's unmodified `arxiv.sty`, pinned at revision `920514696f6e7270cab0558fd97c44515c63b4c4` of [arxiv-style](https://github.com/kourgeorge/arxiv-style), as used by the [Overleaf template](https://www.overleaf.com/latex/templates/style-and-template-for-preprints-arxiv-bio-arxiv/fxsnsrzpnvwc). Upstream's README General Notes permits use and redistribution and disclaims responsibility; no separate LICENSE is present at that revision. The style is based on NeurIPS 2018. Opal's MIT license doesn't relabel this external style.
+
+Source-inspection excerpts under `data/source_audits/architecture-20261005/` retain their recorded source manifest and original `LICENSE.txt`.

@@ -147,14 +147,15 @@ def main():
             for kind in ['random','partner']:
                 m=result[kind]['mse_per_occurrence']
                 lines.append(f"- {LABELS[name]} {kind}: bounded ordinary MSE={m['linear_mse_bounded']:.6f}; bounded weighted MSE={m['linear_weighted_bounded']:.6f}; kernel MSE={m['kernel']:.6f}.")
-    (ROOT/'docs/architecture_experiments.md').write_text('\n'.join(lines)+'\n')
+    scope_update = '''\n## Scope update, 6 October 2026\n\nThe kernel-best conclusion above concerns the historical architecture batch.\nLater native aggregate-input CPA has chemical pilot MSE 0.157098 versus kernel\n0.172218, and adapted native GEARS beats the kernel on Wessels partner folds.\nThe frozen kernel procedure fails independent D-SPIN improvement and uncertainty\ngates. These new comparisons prevent extending the historical ranking to every\nsource or protocol. See docs/evidence.md for exact adaptation and exposure\nlimits, and the paper's context-transfer amendment for saved-score evidence.\n'''
+    (ROOT/'results/architecture/report.md').write_text('\n'.join(lines)+'\n'+scope_update)
     if transfer:
         transfer_rows=[]
         for name,result in transfer.items():
             for kind in ['random','partner']:
                 m=result[kind]['mse_per_occurrence']
                 transfer_rows.append([LABELS[name],kind]+[f'{m[k]:.6f}' for k in ['no_transfer','transfer_encoder','transfer_decoder','transfer_both','linear_mse','linear_weighted']])
-        text='\\begin{table}[htbp]\\centering\\scriptsize\\resizebox{\\linewidth}{!}{'+table(['Dataset','Fold','No transfer','Encoder','Decoder','Both','Linear MSE','Linear weighted'],transfer_rows)+'}\\caption{Corrected transfer and convex objective controls on development folds. Linear heads solve a regularized gene-space quadratic on frozen standardized features; neural heads use joint reference augmentation. These are different fitting procedures, and none uses historical query responses.}\\end{table}\n'
+        text='\\begin{table}[htbp]\\centering\\normalsize'+table(['Dataset','Fold','No transfer','Encoder','Decoder','Both','Linear MSE','Linear weighted'],transfer_rows)+'\\caption{Corrected transfer and convex objective controls on development folds. Linear heads solve a regularized gene-space quadratic on frozen standardized features; neural heads use joint reference augmentation. These are different fitting procedures, and none uses historical query responses.}\\end{table}\n'
         (evidence/'architecture_transfer.tex').write_text(text)
     bounded=studies.get('linear-bounded-v1',{})
     if bounded:
@@ -163,7 +164,7 @@ def main():
             for kind in ['random','partner']:
                 m=result[kind]['mse_per_occurrence'];old=transfer[name][kind]['mse_per_occurrence'] if name in transfer else {}
                 bounded_rows.append([LABELS[name],kind,f"{m['kernel']:.6f}",f"{old.get('linear_mse',float('nan')):.6f}",f"{m['linear_mse_bounded']:.6f}",f"{m['linear_weighted_bounded']:.6f}"])
-        text=r'\begin{table}[htbp]\centering\scriptsize\resizebox{\linewidth}{!}{'+table(['Dataset','Fold','Kernel','Linear MSE','Bounded MSE','Bounded weighted'],bounded_rows)+r'}\caption{Late exploratory bounded-feature controls after observing expanded-fold extrapolation. The standardized feature map clips at magnitude eight during training and prediction; the regularized gene-space objectives are solved to convergence. This is a separate amendment, not a replacement of the unfavorable unbounded controls.}\end{table}'+'\n'
+        text=r'\begin{table}[htbp]\centering\normalsize'+table(['Dataset','Fold','Kernel','Linear MSE','Bounded MSE','Bounded weighted'],bounded_rows)+r'\caption{Late exploratory bounded-feature controls after observing expanded-fold extrapolation. The standardized feature map clips at magnitude eight during training and prediction; the regularized gene-space objectives are solved to convergence. This is a separate amendment, not a replacement of the unfavorable unbounded controls.}\end{table}'+'\n'
         (evidence/'architecture_bounded.tex').write_text(text)
     print('Architecture report',report['status'],'coverage gains',coverage_gains,'exposure',exposure)
 

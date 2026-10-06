@@ -72,7 +72,7 @@ def study(dataset, output, config):
                "feature_permutation": permutation.tolist(), "attribution_is_not_causal_mechanism": True})
     root = Path(__file__).resolve().parents[1]
     with zipfile.ZipFile(output / "source_snapshot.zip", "w", zipfile.ZIP_DEFLATED) as archive:
-        for path in sorted((root / "src/opal").rglob("*.py")):
+        for path in sorted((root / "src").rglob("*.py")):
             archive.write(path, path.relative_to(root).as_posix())
         for path in [Path(__file__), root / "tools/improve_residual_model.py"]:
             archive.write(path, path.relative_to(root).as_posix())
