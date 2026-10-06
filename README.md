@@ -3,10 +3,23 @@
 Opal predicts population-mean effects of an unmeasured unordered intervention
 pair from measured singles. It adds a learned symmetric correction to the
 observed additive prediction. This repository implements the research workflow
-in [roadmap.md](roadmap.md); biological Opal v1 validation is still in progress.
+in [roadmap.md](roadmap.md); independent biological validation remains unresolved.
+
+The new [state-response benchmark](docs/state_benchmark.md) tests baseline-only
+main-effect transfer before expanding the model. It includes a compact state
+encoder, separate intervention input paths, symmetric residuals, staged and joint
+training, and NumPy inference for compatible new baselines. On EmeraldBay and a
+publisher-checksum-verified corrected sci-Plex 3 source, selected simple state
+models improve on target averaging by only 0.12% and 0.01%; learned models are
+14% and 23% worse than those references. No representation scaling is justified.
+The new pair development comparison also favors the matched residual kernel.
+These are development results, with no new independent confirmation or reliable
+intervals. See the [capability ledger](results/state/capability_ledger.json),
+[completed results](docs/state_results.md), [architecture](docs/state_architecture.md)
+and [confirmation design](docs/state_confirmation_design.md).
 
 The next-cycle implementation, commands and evidence are in [the next-cycle guide](docs/next_cycle.md).
-It covers the v1 closeout, crossed-context data requirements, contextual models,
+It covers the historical closeout, crossed-context data requirements, contextual models,
 evaluation gates and release work without changing the historical protocol.
 
 The latest architecture batch adds joint reference uncertainty, GO/Hallmark/
@@ -64,7 +77,7 @@ guide](docs/next_cycle.md) records download, GPU environment, training and
 estimated-single commands. The [model card](docs/model_card_next.md) defines
 supported inputs and limitations; `results/next/research-ledger-v2` and
 `results/next/cycle-v7` retain the compact evidence. The suite currently passes
-104 tests, and installed-wheel checks reproduce observed and estimated
+the historical 104-test suite, and installed-wheel checks reproduce observed and estimated
 predictions within `7e-15`. The [manuscript](paper/main.tex) and its
 [compiled PDF](paper/main.pdf) include the new findings as a separate amendment.
 
@@ -156,6 +169,18 @@ research report. Result tables and figures are generated from saved artifacts;
 source-level feasibility, negative findings and incomplete comparisons remain
 visible. The draft is not submission-ready while author declarations and
 required biological evidence remain unresolved.
+
+For the baseline-conditioned route, `opal.state.StatePredictor` accepts a
+processed matched baseline, exact gene order, assay and scale. `opal state-predict`
+reads those fields from an NPZ, with an exact single or pair identity and optional
+explicit measured-single effects. The two-seed exports under
+`results/state/portable-v3/{emeraldbay,sciplex}/checkpoint` and
+`results/state/portable-v3/pair/checkpoint` stay local. The pair export restores
+the scored last development fold, rather than a model chosen on its outer score.
+Unknown interventions, unsupported doses, incompatible assays and repeated
+targets are rejected. Clean NumPy-only installations reproduce the exported
+predictions exactly outside this checkout. Model variation is uncalibrated,
+and inference reliability remains explicitly unavailable.
 
 The manuscript uses the app's built-in source editor. A multi-file PDF build can
 also use an existing Tectonic executable:

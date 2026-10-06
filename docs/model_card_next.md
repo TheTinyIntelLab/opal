@@ -1,6 +1,38 @@
-# Opal next-cycle model card
+# Opal model card
 
 This is a local research preview. The code implements observed-single and separately identified estimated-single prediction, but biological context-transfer confirmation and reliable uncertainty under context shift are not established.
+
+## Baseline-conditioned experimental route
+
+The state-response implementation accepts a processed compatible new baseline
+without a context ID. It predicts exact interventions already supported by source
+responses, using separate identity, numeric-dose/mask and source-effect encoders.
+Encoder ablations retain a source-mean output anchor; descriptor-only unknown
+interventions remain unsupported. Explicit measured-single inputs use relative
+effects, and absolute reconstruction adds the baseline once. Two-seed NumPy
+exports preserve all fitted preprocessing and heads without evaluator labels.
+
+New main-effect development holds whole cell lines out. EmeraldBay MSE is
+0.064758 for target means, 0.064680 for selected simple state references and
+0.073678 for learned state. Corrected sci-Plex 3 MSE is 0.074913, 0.074906 and
+0.091868 respectively on 144 plate-matched single condition means, 24 exact
+1-micromolar/24-hour interventions and 512 human genes. The three lines remain
+three biological groups despite 24 plate strata. Both 5% material gates fail.
+These metrics have different populations and vocabularies from the pair pilot.
+
+On 54 EmeraldBay source-development pair rows, the matched selected kernel has
+MSE 0.094605, staged state residual 0.112389, fine-tuned joint 0.101485 and
+no-neural-pretraining joint 0.095165. Main/residual cross terms are large and
+negative. The historical evaluator was not reopened. These comparisons close
+the neural combination-contribution gate; they do not establish a universal
+kernel ranking or biological interaction recovery.
+
+Risk fitting, group calibration and evaluation are separated development
+diagnostics. Finite 90% group radii are unavailable and the registered
+risk/accepted-coverage criteria fail. Exports return support distances and source
+reference-stratum counts as diagnostics, uncalibrated model variation and an
+explicit unavailable interval. Canonical native methods, unknown identities,
+unseen doses, higher-order and time-resolved tasks remain unvalidated.
 
 ## Supported inputs and outputs
 
