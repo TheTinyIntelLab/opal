@@ -82,3 +82,8 @@ results/state/**/exports/
 results/state/**/*.whl
 results/state/**/*.zip
 .pytest-state-*/
+
+# Keep the next-cycle research plan local.
+/plan.md
+!configs/releases/
+!configs/releases/*.json

@@ -1,0 +1,17 @@
+include README.md LICENSE CITATION.cff CHANGELOG.md THIRD_PARTY_NOTICES.md
+include release.md
+recursive-include src *.py
+recursive-include configs *.json *.yaml *.yml
+recursive-include docs *.md
+recursive-include tools *.py
+recursive-include tests *.py
+exclude plan.md
+exclude docs/opal_next_master_plan.md
+exclude tools/build_evidence_demo.py
+prune tools/vendor
+prune tools/external
+prune web
+prune data
+prune results
+prune releases
+global-exclude __pycache__ *.py[cod]

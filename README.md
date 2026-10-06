@@ -1,5 +1,13 @@
 # Opal research
 
+Opal v1 is an experimental research release for predicting population-mean pair responses from measured single effects plus a symmetric residual correction. Kernels are the strongest tested development family. Independent transferable superiority, robust biological interaction learning, and calibrated OOD abstention remain unestablished.
+
+Download package, models, manuscript, evidence, and checksums from [v0.1.0](https://github.com/TheTinyIntelLab/opal/releases/tag/v0.1.0). Read the [model guide](docs/release_models.md), [evidence summary](docs/release_evidence.md), [data notices](THIRD_PARTY_NOTICES.md), and [publication instructions](release.md). Original code is MIT; the two data-derived reference exports carry CC BY 4.0 terms. Raw data and external pretrained resources aren't bundled.
+
+Install the downloaded wheel with `python -m pip install opal_research-0.1.0-py3-none-any.whl`, then run `opal --help`. With the source archive extracted, run `opal reproduce --config configs/experiments/release_quickstart.json --output results/synthetic/my-quickstart` for a small synthetic execution check. This doesn't reproduce the biological results. Full scientific reproduction requires separately obtained sources and track-specific environments.
+
+Author: Arjun Vijay Prakash, an independent high school student at City Montessori School, with no institutional research affiliation. No funding was received; the author declares no competing interests. AI assistance is disclosed in the [manuscript](paper/main.pdf). Cite this version using [CITATION.cff](CITATION.cff).
+
 Opal predicts population-mean effects of an unmeasured unordered intervention
 pair from measured singles. It adds a learned symmetric correction to the
 observed additive prediction. This repository implements the research workflow

@@ -1,0 +1,13 @@
+{
+  "output": "results/synthetic/release-quickstart",
+  "outer_seed": 1729,
+  "secondary_studies": false,
+  "generator": {"seed": 23, "targets": 12, "genes": 24, "latent": 4, "rank": 2, "noise": 0.015},
+  "scenarios": ["additive_log", "low_rank"],
+  "training": {
+    "embedding": 4, "epochs": 10, "ranks": [2], "ridge_alpha": [1],
+    "screening_seeds": [11], "finalist_seeds": [11], "ensemble_seeds": [11],
+    "finalists_per_family": 1, "ablations": false, "maximum_seconds": 300,
+    "amendment": "Release execution smoke test only; no biological or performance validation."
+  }
+}
