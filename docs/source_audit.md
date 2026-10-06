@@ -1,5 +1,18 @@
 # Source and citation audit
 
+The state build adds the task-specific [source registry](../data/state_source_registry.json)
+and a publisher-MD5-verified corrected sci-Plex 3 count release. Metadata
+qualification excludes 36,522 unassigned cells and the 72-hour A549 block.
+The 24-hour task uses 24 exact 1,000-nM interventions and 144 single condition
+means with line/plate-matched vehicles. All plates and replicate labels of each
+line stay together, leaving three biological state groups. Human-gene library
+normalization and a 512-gene controls-only panel are explicit query-reference
+adaptations; source-fold PCA and response bases never use query treatments.
+Counts, exact exposure, control coverage and hashes are recorded in
+`results/state/sciplex-source-v1/source_audit.json`. Original culture/sample and
+catalog mappings are removed by the harmonizer, so this remains development
+with disclosed replication limits, not independent-study confirmation.
+
 Audit date: 4 October 2026. Norman and original Wessels counts have been downloaded, checked and prepared on log2 and normalized-count effect scales. Original ComboSciPlex counts have been prepared for a restricted exploratory protocol. These are source and preparation acceptance decisions, not completion of biological Opal v1 validation. Checksums, source manifests, gene schemas, QC reports and split artifacts are recorded locally and indexed in `data/source_registry.json`.
 
 **Norman.** The original study is a K562 CRISPR activation experiment. GEO accession GSE133344 and the authors' analysis repository provide the original route. Original matrix filenames were verified through the GEO text endpoint after the HTML listing presented a browser challenge; local experiments use the pinned secondary count release. [Original study](https://pubmed.ncbi.nlm.nih.gov/31395745/), [author code](https://github.com/thomasmaxwellnorman/Perturbseq_GI), [BioProject](https://www.ncbi.nlm.nih.gov/bioproject/551220).

@@ -1,0 +1,137 @@
+{
+  "schema": "opal-task-source-registry-v1",
+  "scope": "Task-specific qualification; access and checksums do not establish biological confirmation",
+  "sources": [
+    {
+      "accepted_tasks": [
+        "main_context_development",
+        "observed_single_pair_context_development",
+        "estimated_single_pair_context_development"
+      ],
+      "assay": "MOSAIC scRNA-seq; per-cell 10000-library log2 transform then matched-control-relative mean",
+      "baseline": "matched vehicle means; fixed cell-line identities, not treatment-derived clusters",
+      "confounding": "shared study; line identity and baseline state associated; no independently randomized cross-study mapping",
+      "contexts": "eight cell lines; one study/assay; source-cell pooling is not culture replication",
+      "download_access": "public; six previously verified shards retained",
+      "exposure": "all pilot single and held pair results previously exposed; new folds are development only",
+      "gene_panel": "1024 control-selected Ensembl identifiers; declared query-control adaptation",
+      "id": "emeraldbay-pilot",
+      "interventions": "18 exact compound/dose/5-day single identities; 17 genuine pair identities; no efficacy assay supplied",
+      "license": "CC-BY-4.0",
+      "matching": "exact doses and endpoint; controls, singles and pairs matched within line",
+      "pretraining": "none in new models",
+      "rejected_claims": [
+        "independent confirmation",
+        "independent culture precision",
+        "intervention identity transfer",
+        "sequential dynamics"
+      ],
+      "revision": "f2a0be6b02f731553657f0115c345b20bb020ede",
+      "source": "https://huggingface.co/datasets/tahoebio/EmeraldBay",
+      "source_audit": "data/prepared/emeraldbay-pilot-v1/source_audit.json"
+    },
+    {
+      "accepted_tasks": [
+        "main_context_development"
+      ],
+      "assay": "sci-RNA-seq3; sparse raw UMI matrix constructed by documented harmonizer",
+      "baseline": "line/plate-matched vehicle; baseline uses known cell line, never response-derived cell labels",
+      "baseline_reference_strata": 24,
+      "biological_groups": 3,
+      "condition_means": 144,
+      "confounding": "three cell lines in one study; cannot attribute cross-study assay differences to biology",
+      "download_access": "public publisher file; verify MD5 and length before acceptance",
+      "excluded_metadata_cells": 118632,
+      "exposure": "New to local Opal result inventory, already widely used by public methods. All new scores are development.",
+      "id": "sciplex3-corrected",
+      "interventions": "188 drugs at four doses in primary source; bounded new panel uses 24 lexicographically selected shared exact 1000 nM conditions at one endpoint",
+      "license": "CC-BY-4.0",
+      "metadata_limits": "Catalog/reagent identifiers and culture mapping removed; chemical name/dose/time retained. Efficacy is not supplied.",
+      "prepared_cells": 799317,
+      "pretraining": "no external pretrained weights or expression examples",
+      "primary_publication": "https://doi.org/10.1126/science.aax6234",
+      "processing": "https://github.com/sanderlab/scPerturb/blob/master/dataset_processing/scripts/SrivatsanTrapnell2020.py",
+      "publisher_md5": "c9e70629505d98c7ca1a837f62b14e89",
+      "qualification_artifact": "data/prepared/sciplex-state-v1/source_audit.json",
+      "qualification_status": "accepted_development",
+      "qualified_audit": "results/state/sciplex-source-v1/source_audit.json",
+      "rejected_tasks": [
+        "genuine combinations",
+        "independent-study confirmation",
+        "higher order",
+        "sequential treatment"
+      ],
+      "replication": "Rep1/rep2 and well/plate labels preserved; original culture and sample mapping removed. Whole line holdouts group both replicate labels. Nominal duplicate-well sensitivity is measured, without independent-culture precision claims.",
+      "revision": "scPerturb 1.4 corrected release; older 1.3 file not used",
+      "source": "https://zenodo.org/records/13350497",
+      "source_sha256": "603ed16c5e25401c8a7f5bb0b2b045179701017d65dcfc6aeea71722a66cd10a"
+    },
+    {
+      "accepted_tasks": [
+        "previous frozen observed-single procedure test",
+        "exposed diagnostics"
+      ],
+      "aggregation_alternative": "Whole-population versus baseline-defined lineage effects require original phenotype and sorting metadata; current exposed label-conditioned results remain restricted.",
+      "exposure": "Frozen procedure and source-radius tests already exposed and failed; not reopened in this build",
+      "id": "dspin",
+      "publisher_md5": "3aedeecc18b8acb54c7a97ffc3943ef7",
+      "reason": "Published labels are post-treatment. Conditioning on a treatment-dependent lineage can change the population, and batch copies do not create biological replication.",
+      "rejected_claims": [
+        "new independent confirmation",
+        "unbiased pretreatment lineage states",
+        "independent batch replication",
+        "source-radius OOD guarantee"
+      ],
+      "source": "https://data.caltech.edu/records/2cjss-wgh69",
+      "terms": "Local derivatives; public redistribution not cleared"
+    },
+    {
+      "accepted_tasks": [],
+      "exposure": "Widely public benchmark; no local new scores",
+      "id": "kang-ifnb",
+      "inspected_access": "https://exampledata.scverse.org/pertpy/kang_2018.h5ad returned HTTP 403",
+      "labels": "Post-treatment cell-type labels require conditioning review; donor-genotype grouping can avoid that definition",
+      "potential_task": "one-intervention donor main-effect diagnostic",
+      "reason": "Eight pooled lupus donors and one IFN-beta intervention cannot assess diverse intervention representations or combinations. Selected convenience file unavailable; no data accepted.",
+      "source": "https://doi.org/10.1038/nbt.4042"
+    },
+    {
+      "accepted_tasks": [],
+      "checksum_available": true,
+      "exposure": "Existing public benchmark; no local scores",
+      "id": "scperturbench-subset",
+      "reason": "Small processed context benchmark with selected effective perturbations and gene panels; response-dependent selection/preprocessing scope is not qualified for the new raw-count contract. Use corrected raw sci-Plex instead.",
+      "source": "https://zenodo.org/records/14607156"
+    },
+    {
+      "accepted_tasks": [],
+      "confirmation": "not qualified",
+      "id": "replogle-nadig",
+      "potential_task": "genetic single-response context development",
+      "reason": "Existing discovery records do not qualify exact overlapping reagent, exposure, assay and biological-unit contracts across studies. No incompatible-study pooled benchmark constructed.",
+      "remaining": [
+        "pin releases and checksums",
+        "exact guide/target/time overlap",
+        "matched controls and culture records",
+        "external graph and pretraining exposure",
+        "license audit"
+      ],
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9380471/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11244993/"
+      ]
+    },
+    {
+      "accepted_tasks": [
+        "Norman and Wessels existing single-context pair tasks"
+      ],
+      "exposure": "Existing genetic development and held outcomes retained; no old evaluator reopening",
+      "id": "legacy-combination-candidates",
+      "rejected_sources": {
+        "Adamson": "Downloaded original identities lack qualified biological-state mapping; barcode suffixes cannot provide it",
+        "ComboSciPlex": "Only seven locally matched pairs in one context; insufficient crossed-context task",
+        "PDGrapher target sets": "Multitarget compound annotation is not a genuine measured combination of constituent interventions"
+      }
+    }
+  ]
+}
