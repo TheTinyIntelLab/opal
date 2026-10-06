@@ -1,0 +1,259 @@
+[
+  {
+    "held_group": "A549",
+    "learned": {
+      "alpha": 0.01,
+      "epochs": 80
+    },
+    "learned_search": [
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 0.01,
+          "epochs": 80
+        },
+        "mse": 0.10544469773688964
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 0.1,
+          "epochs": 160
+        },
+        "mse": 0.1076783301698256
+      }
+    ],
+    "simple": {
+      "kind": "mean"
+    },
+    "simple_search": [
+      {
+        "conditions": 96,
+        "config": {
+          "kind": "mean"
+        },
+        "mse": 0.09025939454058884
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 0.1,
+          "kind": "ridge"
+        },
+        "mse": 0.13143126816546816
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 10.0,
+          "kind": "ridge"
+        },
+        "mse": 0.09613441632515095
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 1000.0,
+          "kind": "ridge"
+        },
+        "mse": 0.09028061212029097
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 0.1,
+          "kind": "kernel"
+        },
+        "mse": 0.09035807175255073
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 10.0,
+          "kind": "kernel"
+        },
+        "mse": 0.09026182799167078
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 1000.0,
+          "kind": "kernel"
+        },
+        "mse": 0.09025941700637093
+      }
+    ]
+  },
+  {
+    "held_group": "K562",
+    "learned": {
+      "alpha": 0.01,
+      "epochs": 80
+    },
+    "learned_search": [
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 0.01,
+          "epochs": 80
+        },
+        "mse": 0.10965598217038802
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 0.1,
+          "epochs": 160
+        },
+        "mse": 0.11335539690511427
+      }
+    ],
+    "simple": {
+      "alpha": 10.0,
+      "kind": "kernel"
+    },
+    "simple_search": [
+      {
+        "conditions": 96,
+        "config": {
+          "kind": "mean"
+        },
+        "mse": 0.09653257464552174
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 0.1,
+          "kind": "ridge"
+        },
+        "mse": 0.11992617756852224
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 10.0,
+          "kind": "ridge"
+        },
+        "mse": 0.09923240084556963
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 1000.0,
+          "kind": "ridge"
+        },
+        "mse": 0.09653628957981598
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 0.1,
+          "kind": "kernel"
+        },
+        "mse": 0.09688089613193947
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 10.0,
+          "kind": "kernel"
+        },
+        "mse": 0.09647953611630496
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 1000.0,
+          "kind": "kernel"
+        },
+        "mse": 0.09653195121023699
+      }
+    ]
+  },
+  {
+    "held_group": "MCF7",
+    "learned": {
+      "alpha": 0.01,
+      "epochs": 80
+    },
+    "learned_search": [
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 0.01,
+          "epochs": 80
+        },
+        "mse": 0.1124337211693165
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 0.1,
+          "epochs": 160
+        },
+        "mse": 0.11512842607144602
+      }
+    ],
+    "simple": {
+      "alpha": 10.0,
+      "kind": "kernel"
+    },
+    "simple_search": [
+      {
+        "conditions": 96,
+        "config": {
+          "kind": "mean"
+        },
+        "mse": 0.09692470586950368
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 0.1,
+          "kind": "ridge"
+        },
+        "mse": 0.12033297874206615
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 10.0,
+          "kind": "ridge"
+        },
+        "mse": 0.0998668644233049
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 1000.0,
+          "kind": "ridge"
+        },
+        "mse": 0.09691683946812535
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 0.1,
+          "kind": "kernel"
+        },
+        "mse": 0.09770051809539877
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 10.0,
+          "kind": "kernel"
+        },
+        "mse": 0.09690015300758976
+      },
+      {
+        "conditions": 96,
+        "config": {
+          "alpha": 1000.0,
+          "kind": "kernel"
+        },
+        "mse": 0.0969243843665788
+      }
+    ]
+  }
+]
