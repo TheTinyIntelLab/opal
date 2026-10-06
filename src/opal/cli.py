@@ -70,6 +70,15 @@ def main(argv=None):
     p.add_argument("--context")
     p.add_argument("--batch", help="CSV with target_a,target_b columns")
     p.add_argument("--output", required=True)
+    p = sub.add_parser("state-predict", help="Experimental baseline-conditioned exact-intervention inference")
+    p.add_argument("--checkpoint", required=True)
+    p.add_argument("--baseline", required=True, help="NPZ with baseline, genes, assay and scale")
+    route = p.add_mutually_exclusive_group(required=True)
+    route.add_argument("--pair", nargs=2)
+    route.add_argument("--single")
+    route.add_argument("--control", action="store_true")
+    p.add_argument("--measured-singles", help="NPZ keyed by exact intervention identities; relative effects")
+    p.add_argument("--output", required=True)
     p = sub.add_parser("export")
     p.add_argument("--run", required=True)
     p.add_argument("--output", required=True)
@@ -90,7 +99,25 @@ def main(argv=None):
     route.add_argument("--control", action="store_true")
     p.add_argument("--output", required=True)
     args = parser.parse_args(argv)
-    if args.command == "context-prepare":
+    if args.command == "state-predict":
+        from opal.state import StatePredictor
+        baseline = load_npz(args.baseline)
+        if set(baseline) != {'baseline', 'genes', 'assay', 'scale'}:
+            raise ValueError('Baseline bundle requires baseline, genes, assay and scale only')
+        prediction = StatePredictor(args.checkpoint).predict(*(args.pair or [args.single, None]),
+            baseline=baseline['baseline'], genes=baseline['genes'], assay=str(baseline['assay'].item()),
+            scale=str(baseline['scale'].item()),
+            measured_singles=load_npz(args.measured_singles) if args.measured_singles else None)
+        destination = Path(args.output)
+        sidecar = destination.with_suffix(destination.suffix + '.json')
+        if destination.exists() or sidecar.exists():
+            raise FileExistsError('Prediction destination exists')
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        with destination.open('xb') as f:
+            np.savez_compressed(f, **{k: v for k, v in prediction.items() if isinstance(v, np.ndarray)})
+        result = {k: v for k, v in prediction.items() if not isinstance(v, np.ndarray)}
+        write_json(sidecar, result)
+    elif args.command == "context-prepare":
         from opal.contextual import ReferenceBank, prepare_dataset
         config = config_file(args.config)
         bank = ReferenceBank.load(config["references"])
