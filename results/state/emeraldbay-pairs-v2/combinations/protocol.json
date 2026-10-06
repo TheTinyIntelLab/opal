@@ -1,0 +1,92 @@
+{
+  "config": {
+    "ablations": [
+      "identity",
+      "effect",
+      "descriptor",
+      "combined",
+      "no_state",
+      "shuffled_descriptors",
+      "shuffled_state"
+    ],
+    "capacity": "No scaling or routing unless a learned candidate improves the strongest matched simple reference by at least 5% on development",
+    "combination_constructions": [
+      "sum_difference",
+      "product"
+    ],
+    "combination_epochs": 120,
+    "comparison": "paired errors on identical outer biological-group folds; source-only inner selection; descriptive group bootstrap",
+    "confirmation": "none; existing pilot is exposed and new public single source is development",
+    "experiment_id": "state-development-20261006",
+    "extensions": "Dose, identity-only unknown interventions, higher-order and temporal claims are unsupported unless separately source-qualified",
+    "joint_single_loss_weight": 1.0,
+    "learned_candidates": [
+      {
+        "alpha": 0.01,
+        "epochs": 80
+      },
+      {
+        "alpha": 0.1,
+        "epochs": 160
+      }
+    ],
+    "learned_width": 16,
+    "main_references": [
+      {
+        "kind": "mean"
+      },
+      {
+        "alpha": 0.1,
+        "kind": "ridge"
+      },
+      {
+        "alpha": 10.0,
+        "kind": "ridge"
+      },
+      {
+        "alpha": 1000.0,
+        "kind": "ridge"
+      },
+      {
+        "alpha": 0.1,
+        "kind": "kernel"
+      },
+      {
+        "alpha": 10.0,
+        "kind": "kernel"
+      },
+      {
+        "alpha": 1000.0,
+        "kind": "kernel"
+      }
+    ],
+    "material_improvement": 0.05,
+    "population": "All supported condition means in each declared source, fixed across models; no cell-count weighting",
+    "pretraining": "No external expression or descriptor pretraining; downstream source singles pretrain staged encoders; no-pretraining and frozen/fine-tuned comparisons retain the same labels",
+    "primary_metric": "equal-condition mean squared error over the frozen gene vocabulary",
+    "reliability": {
+      "maximum_rmse": 0.25,
+      "minimum_accepted_fraction": 0.5,
+      "nominal": 0.9,
+      "required_coverage": 0.9,
+      "status": "experimental; requires separate risk-fit, calibration and fresh evaluation groups",
+      "target": "gene-vector RMSE"
+    },
+    "response_rank": 16,
+    "schema": "opal-state-benchmark-v1",
+    "seeds": [
+      41,
+      73
+    ]
+  },
+  "fresh_confirmation": false,
+  "joint_loss": "equal gene-vector pair MSE plus single MSE with weight one",
+  "main_route": "Source singles only; query controls allowed, query singles evaluator-only unless observed route",
+  "pair_identity_holdout": false,
+  "pairs_used": 54,
+  "pretraining": "staged source-single supervision; no external pretrained examples",
+  "reference_hash": "34d33569ffbabb20051376d9fe101ef33f9bb26aba7bfcc7d7cac2446d88abf3",
+  "residual_target": "measured pair effect minus measured constituent effects",
+  "scope": "Retrospective source-development pair/context transfer; no historic evaluator opened",
+  "selection": "main epochs source-context nested; residual configurations preregistered bounded diagnostics"
+}

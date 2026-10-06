@@ -1,0 +1,16 @@
+{
+  "schema": "opal-state-protocol-amendments-v1",
+  "preserve_all_prior_files": true,
+  "amendments": [
+    {
+      "run": "emeraldbay-state-v1/main",
+      "correction": "The legacy gene panel used all declared vehicle controls, including query contexts. The new protocol text records this, but its information_contract query_reference_adaptation flag was false. Treat it as true for gene-panel selection only. All fitted PCA, scaling, single response means and response bases remain source-fold-only.",
+      "score_status": "valid development under explicitly amended query-control panel contract; no treatment-outcome preprocessing leakage"
+    },
+    {
+      "run": "emeraldbay-state-v1/combinations",
+      "correction": "Inner residual kernel selection permitted measured validation singles while outer inference used estimated singles. These scores are retained as an information-mismatched diagnostic and are superseded by emeraldbay-pairs-v2, which masks inner query singles and selects with estimated singles.",
+      "score_status": "excluded from final matched comparison"
+    }
+  ]
+}
