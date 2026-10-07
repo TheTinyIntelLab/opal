@@ -1,0 +1,97 @@
+{
+  "fit_executed": false,
+  "globally_held_pair_identities": [
+    [
+      "Adagrasib@0.005uM:5d",
+      "Galunisertib@0.5uM:5d"
+    ],
+    [
+      "Capecitabine@5uM:5d",
+      "Gemcitabine@1uM:5d"
+    ],
+    [
+      "Gemcitabine@10uM:5d",
+      "Paclitaxel@0.5uM:5d"
+    ],
+    [
+      "RMC-6236@0.01uM:5d",
+      "Vociprotafib@0.01uM:5d"
+    ]
+  ],
+  "guard_rows": [
+    2,
+    5,
+    11,
+    15,
+    16,
+    20,
+    24,
+    28,
+    30,
+    32,
+    33,
+    40,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  ],
+  "held_groups": [
+    "CVCL_1098"
+  ],
+  "missing_for_confirmation": [
+    "multiple sealed pretreatment states",
+    "globally held pair outcomes",
+    "independent culture provenance",
+    "declared query reference adaptation",
+    "power at biological state/culture units"
+  ],
+  "outcome_access": false,
+  "query_reference_adaptation": "Legacy gene panel used all declared control contexts; query controls and exact singles permitted",
+  "query_rows": [
+    53
+  ],
+  "reason": "Exposed one-study source; sparse joint query. This is software isolation, not independent confirmation.",
+  "sealed": false,
+  "source_rows": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    29,
+    31,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    41,
+    42,
+    43
+  ],
+  "status": "metadata_qualified_exploratory_manifest_only",
+  "task": "joint_pair_context"
+}
