@@ -1,0 +1,30 @@
+{
+  "id": "identity-reference-20261007-v1",
+  "evidence_level": "exposed development; no independent confirmation",
+  "hypothesis": "Publisher target/pathway annotations add inductive predictive information for wholly held compound identities beyond known-state/dose response means",
+  "source": "Corrected CC-BY-4.0 sciPlex release, existing exact four-dose prepared bank; same 24 lexicographic compounds, three known lines, 24h and 512 genes",
+  "qualification": "Metadata-only constancy/missingness audit, checksum, release license and publisher processing provenance before new candidate scores. Target/pathway fields are inherited from primary pData, not expression-derived annotations.",
+  "features": ["comma-separated publisher target classes", "pathway_level_1", "pathway_level_2"],
+  "limits": "Annotations are permitted external information, not verified biochemical mechanisms or chemical structures. No scaffold holdout or unseen biological state claim.",
+  "allowed_information": "Known line and exact dose, source compound single effects, query vehicle controls for fixed panel/subtraction, query intervention annotation; every held compound response at every dose/state excluded from fitting, scaling, selection, pretraining and calibration",
+  "preprocessing": "Reuse declared per-cell normalization and matched-plate subtraction; equal available plate means within line; source-only categorical vocabulary and feature scaling, explicit unknown/missing masks; no query effects",
+  "splits": {
+    "identity": "four identity folds, lexicographically sorted compounds assigned modulo four; inner whole identity folds",
+    "target_class": "connected components of overlapping comma-separated target annotation tokens; components greedily balanced into four folds using metadata only; inner whole component folds"
+  },
+  "candidate_menu": {
+    "simple": ["zero", "known_line_dose_mean", "pooled_line_dose_mean"],
+    "annotation_class_mean_alpha": [0.001, 0.01, 0.1, 1, 10, 100],
+    "ridge_alpha": [0.001, 0.01, 0.1, 1, 10, 100],
+    "kernel_alpha": [0.001, 0.01, 0.1, 1, 10, 100],
+    "kernel_bandwidth": [0.25, 1, 4],
+    "shuffled_annotation": "same complete 24-model ridge/kernel search, fixed metadata permutation; no enlargement"
+  },
+  "seeds": {"fitting": "deterministic", "descriptor_shuffle": 20261008, "compound_bootstrap": 20261009},
+  "endpoint": "Equal condition gene MSE on common 288 profiles per track; paired differences against source-selected simple/class mean",
+  "uncertainty": "2,000 whole-compound conditional bootstrap draws preserving each compound's three line/four dose profiles; shared controls fixed, no biological/refitting/multiplicity guarantee",
+  "decision_rule": "At least 5% relative MSE improvement and positive diagnostic 95% lower bound; descriptor advantage also assessed against matched shuffled search. Identity and target-class gates separate.",
+  "budget": {"seconds_per_track": 600, "rss_bytes": 8589934592, "cpu_threads": 1},
+  "replication_audit": "Primary metadata downloads used for condition/culture provenance only. Distinguish independently treated wells from independently initiated cultures; never infer culture replication from barcode aliases.",
+  "publication": "local only; no external publication, communication or paid compute"
+}
