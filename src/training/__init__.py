@@ -1,6 +1,7 @@
 """Full-batch condition-balanced fitting; evaluators are never imported here."""
 import numpy as np
 import torch
+import time
 from threadpoolctl import threadpool_limits
 from opal.representations import fit_representation
 from opal.models import ResidualNetwork
@@ -45,7 +46,10 @@ def fit(config, singles, pairs, doubles, seed=0, validation=None, single_partiti
     best_state, best_error, best_epoch = None, float("inf"), 0
     epochs = config.get("epochs", 120)
     curve = []
+    started = time.perf_counter()
     for epoch in range(epochs):
+        if time.perf_counter() - started > config.get("maximum_fit_seconds", float("inf")):
+            raise TimeoutError("Registered per-fit time budget exhausted")
         model.train()
         prediction = model(tx)
         loss = (prediction - ty).square().mean()
@@ -73,7 +77,8 @@ def fit(config, singles, pairs, doubles, seed=0, validation=None, single_partiti
         else:
             best_epoch = epoch + 1
         if epoch % 10 == 0 or epoch == epochs - 1:
-            curve.append({"epoch": epoch + 1, "loss": float(loss.detach()), "single_reconstruction": float(reconstruction.detach())})
+            curve.append({"epoch": epoch + 1, "loss": float(loss.detach()), "single_reconstruction": float(reconstruction.detach()),
+                          "validation_mse": error if validation is not None else None})
     if best_state is not None:
         model.load_state_dict(best_state)
     model.eval()

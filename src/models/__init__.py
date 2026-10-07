@@ -24,7 +24,9 @@ class ResidualNetwork(nn.Module):
             self.coefficient = nn.Linear(k, k, bias=False, dtype=torch.float64)
         elif self.family == "network" or self.family == "sum_network":
             width = config.get("width", 64)
-            inputs = 2 * m + (h if self.family == "network" else 0)
+            inputs = (m if config.get("shared_only", False) else 2 * m) + (h if self.family == "network" else 0)
+            if config.get("shared_only", False) and self.family != "sum_network":
+                raise ValueError("Shared-only correction must use sum_network")
             layers = [nn.Linear(inputs, width, dtype=torch.float64), nn.Tanh()]
             for _ in range(config.get("depth", 1) - 1):
                 layers += [nn.Linear(width, width, dtype=torch.float64), nn.Tanh()]
@@ -52,7 +54,7 @@ class ResidualNetwork(nn.Module):
             # Averaging evaluates identical arithmetic under pair reversal.
             features = (torch.einsum("ni,kij,nj->nk", a, w, b) + torch.einsum("ni,kij,nj->nk", b, w, a)) / 2
         elif self.family in ["network", "sum_network"]:
-            parts = [a + b, torch.abs(a - b)]
+            parts = [a + b] if self.config.get("shared_only", False) else [a + b, torch.abs(a - b)]
             if self.family == "network":
                 parts.append(self.projection(a) * self.projection(b))
             features = self.hidden(torch.cat(parts, dim=1))
