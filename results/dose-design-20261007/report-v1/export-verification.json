@@ -1,0 +1,26 @@
+[
+  {
+    "config": {
+      "alpha": 10,
+      "degree": 1,
+      "kind": "ridge"
+    },
+    "held_dose_nM": 100,
+    "maximum_absolute_error": 0.0,
+    "profiles": 72,
+    "reference_bytes": 846899,
+    "warm_batch_seconds": 0.0037998000043444335
+  },
+  {
+    "config": {
+      "alpha": 0.001,
+      "bandwidth": 1,
+      "kind": "kernel"
+    },
+    "held_dose_nM": 1000,
+    "maximum_absolute_error": 0.0,
+    "profiles": 72,
+    "reference_bytes": 846713,
+    "warm_batch_seconds": 0.005042500008130446
+  }
+]

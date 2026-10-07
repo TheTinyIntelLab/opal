@@ -1,0 +1,39 @@
+{
+  "all_plan_scientific_requirements_complete": false,
+  "baseline": "84de7e36eae20531e815be9de5a4cb2fa9b94ce9",
+  "commands": [
+    "python -m tools.run_dose_design --qualify-raw RAW --output QUALIFICATION",
+    "python -m tools.prepare_state_source --raw RAW --output PREPARED --doses 10 100 1000 10000 --maximum-interventions 24 --genes 512",
+    "python -m tools.run_dose_design --prepared PREPARED --qualification QUALIFICATION/qualification.json --output DOSE_V2",
+    "python -m tools.run_dose_design --power-only --output PRECISION",
+    "python -m tools.report_dose_design --cycle CYCLE --prepared PREPARED --output REPORT --exports EXPORTS",
+    "python -m pytest -q",
+    "python -m build --outdir releases/dose-design-build-v2",
+    "python -m tools.verify_stage1_build --data-root ORIGINAL/data --cycle results/stage1-20261007 --dose-exports CYCLE/exports-v1 --dist-directory releases/dose-design-build-v2 --output VERIFICATION",
+    "python tools/build_paper.py --tectonic TECTONIC --cache-directory CACHE",
+    "python tools/build_arxiv_submission.py --config configs/releases/v0.1.2-dev2.json --tectonic TECTONIC --cache-directory CACHE --output SOURCE_ZIP"
+  ],
+  "missing_requirements": [
+    "Independent cultures with exact shared control/single/pair mapping",
+    "Multiple sealed pretreatment states with globally held pairs",
+    "Empirical variance for biological-unit power",
+    "Licensed verified inductive intervention descriptors",
+    "Fresh risk calibration/evaluation under the claimed shift",
+    "Qualified genuine higher-order responses"
+  ],
+  "next": "Recover primary sample/culture mapping, qualify crossed independent states/pairs, estimate covariance, and freeze a procedure before any sealed evaluation",
+  "stage0": "complete; baseline and original deletions preserved",
+  "stage1": "complete for qualified local development; three studies and all registered menus executed",
+  "stage2": "no learned pair/state expansion earned; later dose interpolation supports a narrow fixed-curve main-effect reference",
+  "stage3": {
+    "dose": "four global holdouts completed; both interpolation gates pass, both extrapolation gates fail",
+    "higher_order": "not qualified; inventory only",
+    "identity": "unevaluable without qualified inductive descriptors and source-family/scaffold metadata",
+    "joint": "claim isolation implemented; sparse exposed metadata only, no independent confirmation",
+    "seen_partner_context": "existing exposed development completed"
+  },
+  "stage4": "prospective specification corrected; 320 hypothetical precision designs executed; empirical biological covariance and multiple sealed states/global pairs missing",
+  "stage5": "not earned: useful independently evaluated calibration/abstention and prospective acquisition data absent",
+  "stage6": "not earned: no supported neural capacity bottleneck; bounded dose export costs profiled, no paid compute",
+  "successor_version": "0.1.2.dev2"
+}
