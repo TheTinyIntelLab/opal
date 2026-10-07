@@ -35,3 +35,15 @@ The baseline-conditioned state route accepts a processed compatible baseline, ex
 Estimated-single inference has a separate schema and reports whether each single was measured or estimated, with its source contexts. It abstains when the exact intervention/dose has no source reference. Observed-single calibration doesn't apply to this route, and error cancellation limits interpretation of its pilot gains.
 
 Native CPA exports require their separate recorded Python 3.10/CUDA environment and `tools/predict_native_cpa.py`; they aren't bundled in the main release. Resource costs include references, dependencies, external graphs, and pretrained resources, rather than only the fitted head. No route supplies validated OOD abstention, unseen-dose prediction, higher-order composition, single-cell distributions, or a mechanistic explanation.
+
+## Experimental dose interpolation
+
+Version 0.1.2.dev2 adds a fixed log-dose reference within the existing state module. It predicts a population-mean single effect for an exact known compound and biological line at 24 hours, on the registered 512-gene sci-Plex schema. It has no learned state encoder. The two scored interpolation exports preserve source-selected ridge and kernel configurations, respectively; they are engineering replays, not newly validated release models.
+
+```python
+import opal
+model = opal.load_model("results/dose-design-20261007/exports-v1/dose-100")
+result = model.predict("A549", "(+)-JQ1", 100, endpoint_hours=24)
+```
+
+Dose values are explicitly nM. Unknown compounds/states, changed endpoints and extrapolation outside source support raise errors. Missing profiles cannot become zero effects. Outputs contain gene order, source doses and a development evidence label; intervals are unavailable. Source effects already include matched vehicle subtraction, so the model returns an effect and does not add a baseline. Safe exports verify schema/checksum and restore every scored interpolation prediction exactly. Each reference is about 0.85 MB; measured batches of 72 predictions take 3.80 and 5.04 milliseconds on the reused CPU environment. This route does not infer chemical identity, new state effects or combinations.

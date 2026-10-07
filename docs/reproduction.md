@@ -2,7 +2,7 @@
 
 ## Executed Stage 1 successor
 
-The historical reference is `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`; this cycle uses clean branch `research/stage1-20261007`. Verified data and dependency caches are reused from the original checkout; its 170 tracked result deletions are untouched. Implementation lives directly in `src/`, installed as `opal`. Baseline verification passed 117 tests in 12 files; the successor passes 127 tests in 13 files.
+The historical reference is `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`; this cycle uses clean branch `research/stage1-20261007`. Verified data and dependency caches are reused from the original checkout; its 170 tracked result deletions are untouched. Implementation lives directly in `src/`, installed as `opal`. Baseline verification passed 117 tests in 12 files; the successor passes 131 tests in 14 files.
 
 Install `.[data,dev,research]`. The execution reused Python 3.14, CPU float64 PyTorch 2.9.1 for pair fitting and the existing CPU environment for main fitting and verification. An RTX 4060 with 8 GB was available but unused for fitting. The grid, synthetic profile, information contracts, preprocessing, seeds, 90-minute per-genetic-dataset budget and stopping rule are registered in `configs/experiments/stage1-20261007.json`; the explicit identity-control/main-track amendment is adjacent.
 
@@ -248,3 +248,19 @@ Use new output directories for new fits. The frozen D-SPIN procedure and its fai
 Implementation files live directly in `src/`, mapped by setuptools to the installed `opal` namespace. Install the checkout before running tools. Root `main.py` dispatches research workflows, while the installed `opal` command handles preparation, fitting, exports, and prediction. `tools/` contains experiment adapters and report/build utilities; frozen source snapshots retain historical paths.
 
 The maintained documentation is this reproduction guide, [model contracts](models.md), and [evidence and limitations](evidence.md). Source-inspection provenance lives in `data/source_audits/`; numerical results, unsuccessful comparisons, and interrupted-run records remain in `results/`. Release figures use SVG in the README and PDF in the manuscript.
+
+## Dose development and prospective precision
+
+The corrected source is reused from the original checkout, with checksum and CC-BY-4.0 qualification in `results/dose-design-20261007/qualification-v1/`. Run these commands from the successor with the existing CPU environment; `RAW` is the original `data/raw/state` directory. New directories are immutable.
+
+```powershell
+python -m tools.run_dose_design --qualify-raw RAW --output results/dose-design-20261007/qualification-v1
+python -m tools.prepare_state_source --raw RAW --output data/prepared/sciplex-dose-20261007-v1 --doses 10 100 1000 10000 --maximum-interventions 24 --genes 512
+python -m tools.run_dose_design --prepared data/prepared/sciplex-dose-20261007-v1 --qualification results/dose-design-20261007/qualification-v1/qualification.json --output results/dose-design-20261007/dose-v2
+python -m tools.run_dose_design --power-only --output results/dose-design-20261007/precision-v1
+python -m tools.report_dose_design --cycle results/dose-design-20261007 --prepared data/prepared/sciplex-dose-20261007-v1 --output results/dose-design-20261007/report-v1 --exports results/dose-design-20261007/exports-v1
+```
+
+The initial `dose-v1` stopped on plate-specific missingness before scores; the registered amendment pools matched-control plate effects within biological lines. All 288 common line/compound/dose profiles remain. The 33 configurations use three inner dose folds in each of four outer folds; controls have three structural candidates and smooth curves have 30, so search budgets differ explicitly. No grid enlargement occurred. Preparation used 60.19 seconds and final RSS 444.39 MB, fitting 1.78 seconds and final RSS 201.47 MB; these are completion working sets, not measured peaks. Power sensitivity used 0.025 seconds for 320 designs with 2,000 draws each. Raw counts, prepared arrays, prediction banks and dose reference exports remain local.
+
+Build `0.1.2.dev2` with `python -m build`, then run `tools.verify_stage1_build` with the existing Stage 1 data/cycle, a fresh output, and `--dose-exports results/dose-design-20261007/exports-v1`. It checks installed restoration of all eight genetic ensembles and both dose interpolation folds, and runs the synthetic CLI outside the checkout. Dependencies are reused, not freshly resolved. Compile the updated paper and extracted source bundle using `configs/releases/v0.1.2-dev2.json`; preserve the earlier dev1 artifacts.

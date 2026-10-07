@@ -1,5 +1,22 @@
 # What Opal establishes
 
+## Registered dose extension and screen precision, 7 October 2026
+
+A metadata-only audit qualifies 24 lexicographic compounds at 10, 100, 1,000 and 10,000 nM across three known sci-Plex lines, at 24 hours. The source is already exposed. Doses occur on different plates, so initial `dose-v1` fails before scoring; its explicit amendment averages matched-control plate effects within each line, retaining all 288 profiles and 512 control-selected genes. Global outer doses are excluded from every response-consuming fitting stage. Query controls remain permitted for panel adaptation and subtraction.
+
+| Held dose | Shift | Selected reference MSE | Selected smooth MSE | Relative gain | Conditional paired MSE-reduction interval |
+| --- | --- | ---: | ---: | ---: | --- |
+| 10 nM | Extrapolation | 0.037673629 | 0.050863012 | -35.01% | [-0.022821391, -0.000753637] |
+| 100 nM | Interpolation | 0.028908891 | 0.026544325 | 8.18% | [0.000883218, 0.004364479] |
+| 1,000 nM | Interpolation | 0.052404940 | 0.028458716 | 45.69% | [0.005018283, 0.047922299] |
+| 10,000 nM | Extrapolation | 0.060991197 | 0.068714681 | -12.66% | [-0.021094536, 0.009770566] |
+
+Both interior doses earn a narrow fixed-curve development route; neither endpoint dose passes. The 100 nM curve is ridge degree 1, alpha 10; the 1,000 nM curve is kernel bandwidth 1, alpha 0.001, selected solely on inner source doses. The simple comparator selects among zero, mean and nearest; the smoother selects among 30 configurations. Compound bootstraps preserve each compound's three line profiles but condition on shared controls and states. They exclude refitting/selection and biological uncertainty, with no multiplicity-adjusted confirmation claim. Replayed interpolation exports match scored predictions exactly. Costs, full candidate searches, fold arrays and the retained failure are under [`results/dose-design-20261007/`](../results/dose-design-20261007/).
+
+The prospective screen now specifies four development states and three independently initiated cultures per state as a variance pilot, a separately sealed fifth state for a narrow claim, and multiple sealed states for broader transfer. A 320-design sensitivity simulation preserves crossed state/culture/target/pair/shared-control effects under declared hypothetical variances. It uses a known-variance Gaussian lower bound and supplies no empirical sample-size recommendation. More cells reduce mean noise but cannot eliminate shared biological variance. Primary culture/sample mapping, state-level variance, shared-reference covariance and an independently frozen positive procedure are still required for powered confirmation.
+
+Source discovery is bounded and incomplete. GSE213957 is the already exposed Wessels source, not a new confirmation source. GSE146194 remains pending exact release, replicate/control/state coverage and license qualification; its GEO/PMC metadata viewers were blocked during this audit. No response matrix was examined and no claim that all public candidates were exhausted is made. Existing EmeraldBay joint partitions remain sparse and exposed. Unseen intervention identity, biological pair attribution, sealed joint transfer, useful independent calibration/acquisition and scaling remain unavailable or conditional.
+
 ## Registered Stage 1 successor, 7 October 2026
 
 All supported preregistered studies finished, and no new component passed the 5% development screen with a positive paired diagnostic lower bound. This closes the bounded menus, not residual prediction or neural modeling universally. The baseline remains `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`; every reused source is exposed development.

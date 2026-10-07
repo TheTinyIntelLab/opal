@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2.dev2, local dose and precision successor
+
+Qualifies and executes four global sci-Plex dose holdouts with a preserved missingness failure and registered pooling amendment. Both interior doses pass the development screen, both extrapolation doses fail. Adds safe known-compound/state interpolation to the existing state module, exact restored fold exports, and a hypothetical biological-unit precision sensitivity study. Corrects the prospective four-state culture pilot specification. No new pair/state encoder, independent confirmation, calibrated risk or scaling claim is made.
+
 ## 0.1.2.dev1, local research successor
 
 Executes registered information-value, measurement attribution and bounded neural audits on exposed development data. Adds a pure-sum option to the existing neural head, response-source isolation across fitting stages, matched fixed-feature and pair-kernel comparisons, baseline-only main comparisons, technical cross-reference accounting, and source-derived tables/figures. No new component passes the development gate; independent cultures, sealed joint transfer and chemical identity descriptors remain missing. Historical 0.1.1 assets and scores remain intact.
