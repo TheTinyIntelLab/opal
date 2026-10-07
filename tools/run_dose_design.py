@@ -17,32 +17,7 @@ CONFIG = ROOT / 'configs/experiments/dose-design-20261007.json'
 AMENDMENT = ROOT / 'configs/experiments/dose-design-amendment-20261007.json'
 
 
-def dose_predict(x, y, query, config):
-    """Fit one known-compound/context curve using source doses only."""
-    x, y = np.asarray(x, float), np.asarray(y, float)
-    if len(x) != len(y) or not len(x) or np.any(x <= 0) or query <= 0 or not np.isfinite(y).all():
-        raise ValueError('Dose curve requires available finite source effects and positive nM doses')
-    kind = config['kind']
-    if kind == 'zero':
-        return np.zeros(y.shape[1])
-    if kind == 'mean':
-        return y.mean(0)
-    if kind == 'nearest':
-        return y[np.argmin(np.abs(np.log10(x) - np.log10(query)))]
-    center, scale = np.log10(x).mean(), max(np.log10(x).std(), 1e-8)
-    z, q = (np.log10(x) - center) / scale, (np.log10(query) - center) / scale
-    ym = y.mean(0)
-    if kind == 'ridge':
-        features = np.column_stack([z ** d for d in range(1, config['degree'] + 1)])
-        fm = features.mean(0); features -= fm
-        cross = np.array([q ** d for d in range(1, config['degree'] + 1)]) - fm
-        return ym + cross @ np.linalg.solve(features.T @ features + config['alpha'] * np.eye(features.shape[1]), features.T @ (y - ym))
-    if kind != 'kernel':
-        raise ValueError('Unknown registered dose model')
-    k = np.exp(-(z[:, None] - z[None]) ** 2 / config['bandwidth'])
-    km = k.mean(0); kc = k - km[None] - km[:, None] + k.mean()
-    cross = np.exp(-(z - q) ** 2 / config['bandwidth'])
-    return ym + (cross - km - cross.mean() + km.mean()) @ np.linalg.solve(kc + config['alpha'] * np.eye(len(x)), y - ym)
+from opal.state.models import dose_response as dose_predict
 
 
 def precision_variance(sd, states, cultures, pairs, cells):

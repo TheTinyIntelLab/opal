@@ -1,6 +1,7 @@
 import numpy as np
 import pytest
 from tools.run_dose_design import dose_predict, precision_variance
+from opal.state.models import DoseReference
 
 
 def test_dose_curve_has_no_query_response_argument():
@@ -30,3 +31,22 @@ def test_target_imbalance_preserves_crossed_covariance():
     balanced = precision_variance(sd, 1, 1, [[0, 1], [2, 3], [4, 5]], 100)
     incident = precision_variance(sd, 1, 1, [[0, 1], [0, 2], [0, 3]], 100)
     assert incident > balanced
+
+
+def test_dose_export_restores_and_rejects_unsupported_queries(tmp_path):
+    m = DoseReference(dict(kind='ridge', degree=1, alpha=.01)).fit(
+        ['A', 'A'], ['drug', 'drug'], [10, 1000], [[1., 2.], [3., 4.]], ['g1', 'g2'],
+        dict(endpoint_hours=24, assay='test', normalization='matched control', source_sha256='test', license='test'))
+    expected = m.predict('A', 'drug', 100, endpoint_hours=24)['effect']
+    path = tmp_path / 'model'; m.save(path)
+    from opal import load_model
+    restored = load_model(path)
+    np.testing.assert_array_equal(restored.predict('A', 'drug', 100, endpoint_hours=24)['effect'], expected)
+    for state, compound, dose, endpoint in [('B', 'drug', 100, 24), ('A', 'unknown', 100, 24),
+                                            ('A', 'drug', 10000, 24), ('A', 'drug', 100, 72)]:
+        with pytest.raises(ValueError):
+            restored.predict(state, compound, dose, endpoint_hours=endpoint)
+    with (path / 'references.npz').open('ab') as f:
+        f.write(b'changed')
+    with pytest.raises(ValueError):
+        DoseReference.load(path)

@@ -3,6 +3,97 @@ import numpy as np
 from scipy.linalg import solve
 
 
+def dose_response(x, y, query, config):
+    """Fixed log-dose main-effect curve; source responses only, known intervention."""
+    x, y = np.asarray(x, float), np.asarray(y, float)
+    if x.ndim != 1 or y.ndim != 2 or len(x) != len(y) or not len(x) or np.any(x <= 0) or query <= 0 or not np.isfinite(x).all() or not np.isfinite(query) or not np.isfinite(y).all():
+        raise ValueError('Dose curve requires available finite source effects and positive nM doses')
+    kind = config['kind']
+    if kind == 'zero':
+        return np.zeros(y.shape[1])
+    if kind == 'mean':
+        return y.mean(0)
+    if kind == 'nearest':
+        return y[np.argmin(np.abs(np.log10(x) - np.log10(query)))].copy()
+    if config['alpha'] <= 0 or not np.isfinite(config['alpha']):
+        raise ValueError('Positive finite regularization required')
+    center, scale = np.log10(x).mean(), max(np.log10(x).std(), 1e-8)
+    z, q = (np.log10(x) - center) / scale, (np.log10(query) - center) / scale
+    ym = y.mean(0)
+    if kind == 'ridge':
+        if config['degree'] not in {1, 2}:
+            raise ValueError('Registered fixed degree required')
+        features = np.column_stack([z ** d for d in range(1, config['degree'] + 1)])
+        fm = features.mean(0); features -= fm
+        cross = np.array([q ** d for d in range(1, config['degree'] + 1)]) - fm
+        return ym + cross @ np.linalg.solve(features.T @ features + config['alpha'] * np.eye(features.shape[1]), features.T @ (y - ym))
+    if kind != 'kernel' or config['bandwidth'] <= 0 or not np.isfinite(config['bandwidth']):
+        raise ValueError('Unknown dose model or invalid bandwidth')
+    k = np.exp(-(z[:, None] - z[None]) ** 2 / config['bandwidth'])
+    km = k.mean(0); kc = k - km[None] - km[:, None] + k.mean()
+    cross = np.exp(-(z - q) ** 2 / config['bandwidth'])
+    return ym + (cross - km - cross.mean() + km.mean()) @ np.linalg.solve(kc + config['alpha'] * np.eye(len(x)), y - ym)
+
+
+class DoseReference:
+    """Experimental interpolation of known-compound/state main effects in nM.
+
+    Profiles must already have exact endpoint, assay and matched-control alignment.
+    No chemical identity, context transfer, pair prediction or interval is inferred.
+    """
+    def __init__(self, config):
+        self.config = dict(config)
+
+    def fit(self, states, compounds, doses_nM, effects, genes, provenance):
+        self.states = np.array(states, dtype=str, copy=True); self.compounds = np.array(compounds, dtype=str, copy=True)
+        self.doses = np.array(doses_nM, dtype=float, copy=True); self.effects = np.array(effects, dtype=float, copy=True)
+        self.genes = np.array(genes, dtype=str, copy=True); self.provenance = dict(provenance)
+        if self.states.ndim != 1 or self.genes.ndim != 1 or not len(self.states) or not len(self.genes) or self.states.shape != self.compounds.shape or self.states.shape != self.doses.shape or self.effects.shape != (len(self.states), len(self.genes)):
+            raise ValueError('Aligned exact source profiles and gene schema required')
+        if len(set(zip(self.states, self.compounds, self.doses))) != len(self.states) or len(set(self.genes)) != len(self.genes):
+            raise ValueError('Duplicate source conditions or genes')
+        if not {'endpoint_hours', 'assay', 'normalization', 'source_sha256', 'license'} <= self.provenance.keys():
+            raise ValueError('Exact endpoint, assay, normalization and source provenance required')
+        for state, compound in set(zip(self.states, self.compounds)):
+            selected = (self.states == state) & (self.compounds == compound)
+            if selected.sum() < 2:
+                raise ValueError('Interpolation requires at least two source doses')
+            dose_response(self.doses[selected], self.effects[selected], self.doses[selected][0], self.config)
+        return self
+
+    def predict(self, state, compound, dose_nM, *, endpoint_hours):
+        if endpoint_hours != self.provenance['endpoint_hours']:
+            raise ValueError('Endpoint mismatch')
+        selected = (self.states == state) & (self.compounds == compound)
+        if not selected.any():
+            raise ValueError('Unknown compound/state has no source support')
+        x = self.doses[selected]
+        if not np.isfinite(dose_nM) or dose_nM < x.min() or dose_nM > x.max():
+            raise ValueError('Extrapolation unavailable: development gate failed')
+        return {'effect': dose_response(x, self.effects[selected], dose_nM, self.config),
+                'genes': self.genes.copy(), 'interval': None, 'evidence_level': 'exposed dose development',
+                'source_doses_nM': x.copy(), 'state': state, 'compound': compound}
+
+    def save(self, path):
+        from pathlib import Path
+        from opal.artifacts import write_json, sha256
+        path = Path(path); path.mkdir(parents=True, exist_ok=False)
+        np.savez_compressed(path / 'references.npz', states=self.states, compounds=self.compounds,
+                            doses_nM=self.doses, effects=self.effects, genes=self.genes)
+        write_json(path / 'manifest.json', dict(schema='opal-dose-reference-v1', config=self.config,
+                    provenance=self.provenance, arrays_sha256=sha256(path / 'references.npz')))
+
+    @classmethod
+    def load(cls, path):
+        from pathlib import Path
+        from opal.artifacts import read_json, sha256
+        path = Path(path); m = read_json(path / 'manifest.json')
+        if m['schema'] != 'opal-dose-reference-v1' or sha256(path / 'references.npz') != m['arrays_sha256']:
+            raise ValueError('Dose export schema or checksum mismatch')
+        with np.load(path / 'references.npz', allow_pickle=False) as f:
+            return cls(m['config']).fit(f['states'], f['compounds'], f['doses_nM'], f['effects'], f['genes'], m['provenance'])
+
+
 def basis(x, rank):
     x = np.asarray(x, dtype=float)
     _, s, vt = np.linalg.svd(x, full_matrices=False)
