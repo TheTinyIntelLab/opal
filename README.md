@@ -22,7 +22,7 @@
 
 <p align="center"><a href="paper/main.pdf">Read the preprint draft</a></p>
 
-This branch is Opal **0.1.2.dev5**, a research successor to the preserved **0.1.1** preparation at `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`. Stage 1 and qualified dose, identity, joint, scale and panel studies are executed, with no pair/state component passing its primary gate. Dose evidence supports an experimental interpolation reference for known compounds and states; extrapolation and independent joint confirmation remain unsupported. There is no public model release or arXiv identifier.
+This branch is Opal **0.1.2.dev6**, a research successor to the preserved **0.1.1** preparation at `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`. Stage 1 and qualified dose, identity, joint, scale and panel studies are executed, with no pair/state component passing its primary gate. Dose evidence supports an experimental interpolation reference for known compounds and states; extrapolation and independent joint confirmation remain unsupported. There is no public model release or arXiv identifier.
 
 ## 1. Introduction
 
@@ -81,7 +81,7 @@ Publisher target/pathway annotations were qualified before a separate identity e
 
 <img src="images/identity_results.svg" alt="Publisher annotations fail the identity and shared-target holdout development gates." width="100%" />
 
-The primary-metadata audit matches all 799,317 cells without condition or annotation discrepancies. Every assigned 24-hour cell's culture label matches its existing plate stratum; original labels don't add independent biological units. GSE146194 metadata describes one K562 line and sequencing/platform variants, so it doesn't qualify sealed biological-state transfer. The higher-order inventory finds no qualified triple corpus. [The remaining requirements](results/identity-reference-20261007/report-v1/decision.json) still include independent culture/pair provenance, multiple sealed states, empirical covariance for power, and independently evaluated risk.
+The primary-metadata audit matches all 799,317 cells without condition or annotation discrepancies. Every assigned 24-hour cell's culture label matches its existing plate stratum; original labels don't add independent biological units. GSE146194 metadata describes one K562 line and sequencing/platform variants, so it doesn't qualify sealed biological-state transfer. The earlier bounded inventory excluded Adamson. The newly qualified local Adamson source contains one genuine triple identity across three drug backgrounds, which remains inventory-only. [The remaining requirements](results/identity-reference-20261007/report-v1/decision.json) still include independent culture/pair provenance, multiple sealed states, empirical covariance for power, and independently evaluated risk.
 
 ### Registered joint pair/state development
 
@@ -96,6 +96,9 @@ The fixed search takes **1.98 elapsed seconds**, with completion RSS **276.31 MB
 Twelve additional genetic count-scale folds reuse the exact log2 development identities and source partitions. Norman mixed correction gains **9.19%** on random folds, with paired MSE-reduction interval **[-0.011700, 0.273082]**; pair-product correction gains **9.18%** on partner folds, with interval **[-0.113894, 0.496702]**. Direction changes from the log2 findings, but every count primary gate fails uncertainty. Wessels count results remain unfavorable; raw MSEs across the two scales aren't comparable.
 
 <img src="images/panel_scale_results.svg" alt="Norman count-scale point gains fail uncertainty gates; Wessels count comparisons remain unfavorable." width="100%" />
+
+The local Adamson UPR transfer pilot freezes Norman-selected predictions before scoring nine matched pair/background conditions over 10,423 genes. Mixed correction gains 9.37% over the source-selected correction, but its diagnostic MSE-reduction interval [-0.00015503, 0.00067825] includes zero. Additivity is stronger: MSE 0.00184324 versus 0.00292072 for the selected correction. No transfer component advances; chemical backgrounds alias capture libraries and independent cultures are unverified. [Saved comparisons and decision](results/adamson-transfer-20261007/report-v1/decision.json) preserve all competitors.
+
 
 Source-selected strong and low-single residual-enriched panels retain all comparisons, including favorable Norman count partner subset gains of 12.49% and 9.23%. These diagnostic masks don't use query labels or validate emergent biology, and can't replace the all-gene endpoint. Partner reporting now separates one/two held targets and exposes repeated-query coverage: Norman has 148 occurrences from 88 pairs; Wessels has 69 from 40. [Every comparison, interval and subset](results/panel-scale-20261007/run-v1/comparisons.csv) and [the decision](results/panel-scale-20261007/report-v1/decision.json) are preserved. The fitting and diagnostic runner takes **37.89 elapsed seconds**, with **243.76 MB completion RSS**, not a measured peak.
 
@@ -188,7 +191,7 @@ The output follows the fixed gene order and effect scale in the manifest. Emeral
 
 **Why is the package called `opal-research`, but imports use `opal`?** Distribution names and Python import names serve different purposes. The source lives directly in `src/`; setuptools maps that directory to the installed `opal` package, preserving a distinct import namespace.
 
-**Why a development version?** `0.1.2.dev5` separates this executed cycle from the historical 0.1.1 preparation. The new results do not justify a public successor model release.
+**Why a development version?** `0.1.2.dev6` separates this executed cycle from the historical 0.1.1 preparation. The new results do not justify a public successor model release.
 
 **Does the model learn biological interactions?** Insufficient evidence. A residual contains measurement error and shared distortion as well as potential pair-specific structure, and simple references explain much of the observed improvement.
 
@@ -213,7 +216,7 @@ The preprint hasn't been submitted to arXiv. Until an identifier exists, don't c
   author = {Prakash, Arjun Vijay},
   title = {Opal: observed-single combinatorial response prediction},
   year = {2026},
-  version = {0.1.2.dev5},
+  version = {0.1.2.dev6},
   url = {https://github.com/TheTinyIntelLab/opal}
 }
 ```
