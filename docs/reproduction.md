@@ -62,7 +62,7 @@ Install the optional frozen tabular comparator with `python -m pip install -r
 requirements-tabular-lock.txt`, or pass `--skip-tabular`. `--skip-transfer` omits
 expression pretraining but retains semantic-prior comparisons; skipped stages
 produce an explicitly partial report. The GO graph and gene dictionary currently
-come from the supplied `OneDrive_1_10-5-2026/` resources. Keep those files locally;
+come from the supplied `data/architecture_resources/OneDrive_1_10-5-2026/` resources. Keep those files locally;
 the public archive doesn't contain a replacement expression matrix or this exact
 GO input. Large data, model weights, caches and generated prediction banks are
 ignored by Git. PRESAGE-derived semantic weights retain CC BY-NC 4.0 terms.

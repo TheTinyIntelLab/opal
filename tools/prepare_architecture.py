@@ -111,8 +111,8 @@ def resources(name,draws=16,seed=90317):
     dataset=ROOT/'data/prepared'/name;data=load_npz(dataset/'profiles.npz')
     mapping=symbol_mapping()
     symbols=np.array([mapping.get(str(g).split('.')[0],'') for g in data['genes']])
-    gene_list=np.loadtxt(ROOT/'OneDrive_1_10-5-2026/scfoundation_genes.txt',dtype=str)
-    go=sparse.load_npz(ROOT/'OneDrive_1_10-5-2026/go_mask_19264.npz').tocsr()
+    gene_list=np.loadtxt(ROOT/'data/architecture_resources/OneDrive_1_10-5-2026/scfoundation_genes.txt',dtype=str)
+    go=sparse.load_npz(ROOT/'data/architecture_resources/OneDrive_1_10-5-2026/go_mask_19264.npz').tocsr()
     if go.shape!=(len(gene_list),len(gene_list)):raise ValueError('GO schema mismatch')
     rng=np.random.default_rng(4147)
     projection=rng.normal(size=(len(gene_list),16))/4
@@ -150,7 +150,7 @@ def resources(name,draws=16,seed=90317):
     np.savez_compressed(folder/'resources.npz',**arrays)
     write_json(folder/'manifest.json',{'dataset':name,'seed':seed,'draws':draws,
         'resources_sha256':sha256(folder/'resources.npz'),'profiles_sha256':sha256(dataset/'profiles.npz'),
-        'source_hashes':{str(p.relative_to(ROOT)):sha256(p) for p in [ROOT/'data/architecture_resources/hallmark.txt',ROOT/'OneDrive_1_10-5-2026/go_mask_19264.npz',ROOT/'OneDrive_1_10-5-2026/scfoundation_genes.txt']},
+        'source_hashes':{str(p.relative_to(ROOT)):sha256(p) for p in [ROOT/'data/architecture_resources/hallmark.txt',ROOT/'data/architecture_resources/OneDrive_1_10-5-2026/go_mask_19264.npz',ROOT/'data/architecture_resources/OneDrive_1_10-5-2026/scfoundation_genes.txt']},
         'matched_target_graph':int(target_known.sum()),'matched_output_graph':int(gene_known.sum()),
         'output_genes':len(symbols),'source_policy':'GO and Hallmark contain annotations only; expression features and bases use allowed singles',
         'bootstrap_policy':'controls/singles and DEVELOPMENT doubles only; no query double construction or evaluator read',

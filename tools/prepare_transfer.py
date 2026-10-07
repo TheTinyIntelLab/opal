@@ -63,8 +63,8 @@ def extract():
 
 
 def graph_bank():
-    genes=np.loadtxt(ROOT/'OneDrive_1_10-5-2026/scfoundation_genes.txt',dtype=str)
-    graph=sparse.load_npz(ROOT/'OneDrive_1_10-5-2026/go_mask_19264.npz')
+    genes=np.loadtxt(ROOT/'data/architecture_resources/OneDrive_1_10-5-2026/scfoundation_genes.txt',dtype=str)
+    graph=sparse.load_npz(ROOT/'data/architecture_resources/OneDrive_1_10-5-2026/go_mask_19264.npz')
     random=np.random.default_rng(4147).normal(size=(len(genes),16))/4
     embedding=np.asarray(graph@random)/np.sqrt(np.maximum(np.asarray(graph.sum(1)),1))
     embedding=(embedding-embedding.mean(0))/np.maximum(embedding.std(0),1e-6)

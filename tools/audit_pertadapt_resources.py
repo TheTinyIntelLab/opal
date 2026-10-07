@@ -12,7 +12,7 @@ from opal.artifacts import sha256, write_json
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--resources', type=Path, default=Path('OneDrive_1_10-5-2026'))
+    parser.add_argument('--resources', type=Path, default=Path('data/architecture_resources/OneDrive_1_10-5-2026'))
     args = parser.parse_args()
     root = args.resources
     names = ['models.ckpt', 'go.csv', 'go_mask_19264.npz', 'scfoundation_genes.txt']

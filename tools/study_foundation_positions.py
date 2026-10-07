@@ -14,7 +14,7 @@ import improve_residual_model as base
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--resources", type=Path, default=Path("OneDrive_1_10-5-2026"))
+    parser.add_argument("--resources", type=Path, default=Path("data/architecture_resources/OneDrive_1_10-5-2026"))
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--shuffle-seed", type=int)
     args = parser.parse_args()

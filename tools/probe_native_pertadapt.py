@@ -20,7 +20,7 @@ def main():
     args.output.mkdir(parents=True)
     import torch
     import torch.distributed as dist
-    resources = ROOT / 'OneDrive_1_10-5-2026'
+    resources = ROOT / 'data/architecture_resources/OneDrive_1_10-5-2026'
     code = ROOT / 'tools/external/PertAdapt/scFoundation/PertAdapter/gears'
     audit = read_json(ROOT / 'data/public_methods/pertadapt_resource_audit.json')
     for name in ['go_mask_19264.npz', 'scfoundation_genes.txt', 'models.ckpt']:
