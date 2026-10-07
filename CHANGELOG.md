@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2.dev1, local research successor
+
+Executes registered information-value, measurement attribution and bounded neural audits on exposed development data. Adds a pure-sum option to the existing neural head, response-source isolation across fitting stages, matched fixed-feature and pair-kernel comparisons, baseline-only main comparisons, technical cross-reference accounting, and source-derived tables/figures. No new component passes the development gate; independent cultures, sealed joint transfer and chemical identity descriptors remain missing. Historical 0.1.1 assets and scores remain intact.
+
+The successor includes local fitted-weight export verification, wheel/source builds and a revised manuscript. Interrupted and superseded artifacts remain recorded. No tag, public release, arXiv submission or external communication is made.
+
 ## 0.1.1, unreleased research preview
 
 Publication is paused. This local revision adopts the requested preprint template, corrects citation metadata and context-transfer scope, defines the released kernels mathematically, moves the final state experiments before discussion, and adds source-generated publication figures. It flattens the repository source into `src/` while preserving the installed `opal` namespace. No saved scientific score is changed. A standalone arXiv source bundle and author-operated submission guide are prepared; no arXiv identifier or public release is claimed.
