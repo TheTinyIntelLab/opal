@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2.dev5, local scale and panel successor
+
+Executes twelve matched genetic count-scale folds with unchanged source splits and a fixed kernel menu, and source-selected strong/residual-enriched diagnostics on nine protocols. Recovers one/two-held-target categories and partner-fold overlap. Norman point gains change direction across scales, but all count primary uncertainty gates fail; favorable panel subsets remain explicit diagnostics. Opposite technical-half accounting preserves shared references. No new model component or biological confirmation is claimed.
+
 ## 0.1.2.dev4, local joint development successor
 
 Executes a preregistered metadata-balanced global chemical-pair/whole-state test, with nested joint selection and exact query single references. All 54 exposed conditions are queried once; pair-product and mixed kernels fail the development gate. Preserves the earlier sparse feasibility assessment and all results, and updates evidence, manuscript and local builds. No independent confirmation or new inference route is claimed.

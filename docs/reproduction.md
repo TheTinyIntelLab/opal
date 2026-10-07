@@ -2,7 +2,7 @@
 
 ## Executed Stage 1 successor
 
-The historical reference is `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`. Experiments were executed in the clean `research/stage1-20261007` worktree, then fast-forwarded onto `main` in the original `opal` directory at the user's request. Local experiment outputs, fitted exports and prepared artifacts are also available there; its 170 tracked result deletions remain untouched. The reused environment now imports this original checkout. Implementation lives directly in `src/`, installed as `opal`. Baseline verification passed 117 tests in 12 files; the successor passes 135 tests in 16 files, including verification after the move.
+The historical reference is `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`. Initial experiments were executed in the clean `research/stage1-20261007` worktree, then fast-forwarded onto `main` in the original `opal` directory at the user's request. Subsequent work runs directly there. Local experiment outputs, fitted exports and prepared artifacts are also available there; its 170 tracked result deletions remain untouched. The reused environment now imports this original checkout. Implementation lives directly in `src/`, installed as `opal`. Baseline verification passed 117 tests in 12 files; the dev5 successor passes 137 tests in 17 files.
 
 Install `.[data,dev,research]`. The execution reused Python 3.14, CPU float64 PyTorch 2.9.1 for pair fitting and the existing CPU environment for main fitting and verification. An RTX 4060 with 8 GB was available but unused for fitting. The grid, synthetic profile, information contracts, preprocessing, seeds, 90-minute per-genetic-dataset budget and stopping rule are registered in `configs/experiments/stage1-20261007.json`; the explicit identity-control/main-track amendment is adjacent.
 
@@ -108,7 +108,7 @@ predictions within `7e-15`. The [manuscript](../paper/main.tex) and its
 
 ## Install and run
 
-Use Python 3.11â€“3.14 with a CPU-compatible PyTorch installation. The recorded
+Use Python 3.11Ã¢â‚¬â€œ3.14 with a CPU-compatible PyTorch installation. The recorded
 experiments use Python 3.14.0 and the versions in `requirements.txt`.
 
 ```powershell
@@ -288,4 +288,22 @@ python tools/build_paper.py --tectonic TECTONIC --cache-directory CACHE
 python tools/build_arxiv_submission.py --config configs/releases/v0.1.2-dev4.json --tectonic TECTONIC --cache-directory CACHE --output releases/joint-development-0.1.2-dev4-source-v1.zip
 ```
 
-Twelve outer joint folds and 9â€“14 inner joint folds per source retain all 54 query conditions. Each family has a frozen budget: mean residual one setting; global correction 24 ridge/RBF settings; single-sum, pair-product and mixed kernels 18 each. Selected-simple family choice uses inner scores only. Two thousand crossed state/intervention bootstrap draws condition on fixed profiles and shared references. The run uses 1.98 elapsed seconds and 276.31 MB completion RSS on the reused CPU environment. Previous outputs and local builds remain preserved; exposed partitions are not independent confirmation.
+Twelve outer joint folds and 9Ã¢â‚¬â€œ14 inner joint folds per source retain all 54 query conditions. Each family has a frozen budget: mean residual one setting; global correction 24 ridge/RBF settings; single-sum, pair-product and mixed kernels 18 each. Selected-simple family choice uses inner scores only. Two thousand crossed state/intervention bootstrap draws condition on fixed profiles and shared references. The run uses 1.98 elapsed seconds and 276.31 MB completion RSS on the reused CPU environment. Previous outputs and local builds remain preserved; exposed partitions are not independent confirmation.
+
+
+## Count scale, source panels and partner coverage
+
+Run from the original checkout on `main`, with the existing CPU environment and data. Qualification inspects identity/provenance before new count scores, and verifies saved log2/EmeraldBay prediction fingerprints. Choose new immutable output directories for additional execution.
+
+```powershell
+python -m tools.run_panel_scale --data-root data --cycle results/stage1-20261007 --qualify-only --output results/panel-scale-20261007/qualification-v1
+python -m tools.run_panel_scale --data-root data --cycle results/stage1-20261007 --qualification results/panel-scale-20261007/qualification-v1/qualification.json --output results/panel-scale-20261007/run-v1
+python -m tools.report_panel_scale --cycle results/panel-scale-20261007 --output results/panel-scale-20261007/report-v1
+python -m pytest -q
+python -m build --outdir releases/panel-scale-build-v1
+python -m tools.verify_stage1_build --data-root data --cycle results/stage1-20261007 --dose-exports results/dose-design-20261007/exports-v1 --dist-directory releases/panel-scale-build-v1 --output results/panel-scale-20261007/build-verification-v1
+python tools/build_paper.py --tectonic TECTONIC --cache-directory CACHE
+python tools/build_arxiv_submission.py --config configs/releases/v0.1.2-dev5.json --tectonic TECTONIC --cache-directory CACHE --output releases/panel-scale-0.1.2-dev5-source-v1.zip
+```
+
+The adapter reuses existing state/kernel code and the exact original source folds. Source-only diagnostic masks, explicit held-target sets, partner intersection matrices and technical-half accounting are saved. No neural candidate is added or refit. Count fitting takes 14.39 elapsed seconds; all fitting/scoring takes 37.89 seconds. All nine protocols and three panels remain, including favorable subsets. Every count primary gate fails, and no biological independence or new inference route follows. `TECTONIC` and `CACHE` must be absolute paths to the existing executable and cache.

@@ -1,5 +1,24 @@
 # What Opal establishes
 
+## Registered scale and panel sensitivity, 7 October 2026
+
+Metadata qualification verifies identical count/log2 targets, genes, pair identities, development/query roles, raw-source hashes, normalizers and QC. Twelve count folds reuse the original genetic random/partner outer and inner partitions. The fixed menu retains additivity and inner-selected mean/global/summed-single references, with pair-product and mixed alternatives. Every primary count paired interval includes zero, so none passes the registered materiality and positive-lower-bound gate.
+
+| Count-scale track | Selected simple MSE | Pair-product MSE | Mixed MSE | Pair / mixed gains |
+| --- | ---: | ---: | ---: | --- |
+| Norman random | 1.099781955 | 1.054090567 | 0.998685378 | 4.15% / 9.19% |
+| Norman partner | 1.846123850 | 1.676694624 | 1.704123542 | 9.18% / 7.69% |
+| Wessels random | 0.187987182 | 0.198707646 | 0.195646826 | -5.70% / -4.07% |
+| Wessels partner | 0.242346788 | 0.269093249 | 0.267866455 | -11.04% / -10.53% |
+
+Norman random mixed reduction has diagnostic interval [-0.011699588, 0.273081982]; Norman partner pair reduction has [-0.113894212, 0.496701944]. Point directions are scale-sensitive, so the unfavorable log2 finding doesn't establish universal pair-kernel inferiority. Raw count/log MSE units cannot be compared directly, and no scale replaces the primary endpoint.
+
+Nine protocols also score fold-specific source-selected panels. Strong genes are the top 10% by source pair magnitude; a low-single residual proxy ranks source residuals among genes below the source single-magnitude median. Query labels never select masks. Norman count partner proxy gains of 12.49% and 9.23% have positive conditional lower bounds, but remain diagnostic subset findings under the registered rule. The top source-selected strong genes account for about 99% of Norman count reference error. These aren't independently validated emergent gene sets.
+
+Partner metadata separates 120 one-held-target/28 two-held-target Norman occurrences and 58/11 on Wessels. Sixty Norman pairs and 29 Wessels pairs recur across two folds; full intersections and coverage counts are saved. Opposite technical-half residual error, cosine and main/residual/cross-term accounting retain whole shared single/control matrices. Frozen QC, full-reference configuration selection and fixed source masks exclude biological/refitting uncertainty.
+
+Count fitting uses 14.39 elapsed seconds; the complete runner uses 37.89 seconds and 243.76 MB completion RSS, not measured peak RAM. [`results/panel-scale-20261007/`](../results/panel-scale-20261007/) retains every model, panel, held-target category, technical diagnostic and source fingerprint. No new pair component earns advancement; independent cultures and sealed states/pairs remain missing.
+
 ## Registered joint development, 7 October 2026
 
 The earlier single-query lexicographic partition did not establish that useful exposed joint partitions were infeasible. A new metadata-only registration balances seven canonical chemical pairs into two global panels, crossed with all six whole cell lines. All doses of held pairs are excluded from source responses; twelve folds query the 54 existing fitting conditions once, with unused guard rows. Inner state/pair holdouts exclude the same claim units, retaining only registered metadata-feasible folds. Query singles must match exact doses, and legacy query-control gene-panel adaptation is declared.
