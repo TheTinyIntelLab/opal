@@ -1,0 +1,19 @@
+{
+  "id": "adamson-transfer-20261007-v1",
+  "hypothesis": "A Norman-source-selected observed-single correction transfers without target-label fitting to local Adamson UPR genetic pairs across three declared drug backgrounds",
+  "evidence_level": "external-source feasibility; first local Opal score on this source, widely published data; not powered independent joint confirmation",
+  "source": "Norman88 exposed development pairs, original count-preserving log2 preparation; no historic evaluator access",
+  "query": "Original GEO GSE90546 GSM2406677 counts and guide metadata already local; three canonical pair identities in three backgrounds. A real triple exists but remains inventory-only because only one triple identity exists.",
+  "context_mapping": "Publisher methods p29: gemgroup1 tunicamycin4ug/mL, gemgroup2 thapsigargin100nM, gemgroup3 DMSO. Context and capture library are confounded; barcode suffixes alone are not proof of biology or culture independence.",
+  "information": "Measured exact construct singles and matched three-guide negative controls within each query drug background. Query pair labels forbidden in gene selection, fitting, preprocessing, model selection, pretraining and calibration; no external pretrained weights.",
+  "qualification": "Verify all original file hashes against download manifests; full barcode joins, good coverage and singlet calls, exact eight factorial genetic conditions, original raw-count provenance, source/query Ensembl overlap and declared GEO local-reuse/no-redistribution terms before scores.",
+  "preprocessing": "Keep full barcodes including gemgroup. Canonical aliases ATF6,PERK=EIF2AK3,IRE1=ERN1; exact author constructs, unknown labels excluded. Use frozen Norman library normalizer14048; log2 of normalized condition mean relative to matched same-background controls. QC minimum library500, upper99.5percentile of permitted query controls/singles, minimum50 cells/condition. Gene panel is source-selected Norman genes intersecting query metadata only; no query response/DE gene selection.",
+  "source_selection": "Three random source-only folds, seed20261007; fixed mean/global/summed-single/pair-product/mixed menu reused. Choose strongest simple and strongest pair families by source-only validation MSE, then refit source88 pairs. Freeze predictions and hashes before opening prepared evaluator responses.",
+  "menu": {"families": ["mean_residual","global_correction","single_sum","pair_product","mixed"], "alphas": [0.001,0.01,0.1,1,10,100], "bandwidths": [0.25,1,4]},
+  "endpoint": "Equal-condition all-aligned-gene total MSE over nine exact pair/background means, with each family retained and per-pair/background errors. Do not compare raw MSE to old datasets with different gene panels.",
+  "seeds": {"split": 20261007, "bootstrap": 20261012, "fitting": "deterministic"},
+  "uncertainty": "2000 crossed background/target diagnostic bootstrap draws, fixed shared reference means and source selection; no independent cultures or biological-confidence claim",
+  "decision": "5percent relative MSE improvement and positive diagnostic lower bound are development materiality only. Report failures and smaller effects; no post-query family replacement. No automatic context encoder, higher-order model, calibration, acquisition or scaling advancement.",
+  "budget": {"preparation_seconds": 600,"fitting_seconds": 300,"rss_bytes": 8589934592,"cpu_threads": 1},
+  "missing_for_flagship": ["Multiple sealed independent pretreatment states","Independent culture provenance","Biological covariance and state-level power","Globally held pair panels with adequate independent identity coverage"]
+}
