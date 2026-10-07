@@ -1,0 +1,7026 @@
+{
+  "canonical_pairs": [
+    [
+      "Galunisertib",
+      "Sotorasib"
+    ],
+    [
+      "Gemcitabine",
+      "Paclitaxel"
+    ],
+    [
+      "Gemcitabine",
+      "Paclitaxel"
+    ],
+    [
+      "LY3200882",
+      "Sotorasib"
+    ],
+    [
+      "RMC-6236",
+      "Vociprotafib"
+    ],
+    [
+      "RMC-6236",
+      "Vociprotafib"
+    ],
+    [
+      "Adagrasib",
+      "LY3200882"
+    ],
+    [
+      "Adagrasib",
+      "LY3200882"
+    ],
+    [
+      "Galunisertib",
+      "Sotorasib"
+    ],
+    [
+      "Galunisertib",
+      "Sotorasib"
+    ],
+    [
+      "Gemcitabine",
+      "Paclitaxel"
+    ],
+    [
+      "Gemcitabine",
+      "Paclitaxel"
+    ],
+    [
+      "LY3200882",
+      "Sotorasib"
+    ],
+    [
+      "LY3200882",
+      "Sotorasib"
+    ],
+    [
+      "RMC-6236",
+      "Vociprotafib"
+    ],
+    [
+      "RMC-6236",
+      "Vociprotafib"
+    ],
+    [
+      "Adagrasib",
+      "Galunisertib"
+    ],
+    [
+      "Adagrasib",
+      "LY3200882"
+    ],
+    [
+      "Adagrasib",
+      "LY3200882"
+    ],
+    [
+      "Capecitabine",
+      "Gemcitabine"
+    ],
+    [
+      "Capecitabine",
+      "Gemcitabine"
+    ],
+    [
+      "Galunisertib",
+      "Sotorasib"
+    ],
+    [
+      "Galunisertib",
+      "Sotorasib"
+    ],
+    [
+      "Gemcitabine",
+      "Paclitaxel"
+    ],
+    [
+      "Gemcitabine",
+      "Paclitaxel"
+    ],
+    [
+      "LY3200882",
+      "Sotorasib"
+    ],
+    [
+      "LY3200882",
+      "Sotorasib"
+    ],
+    [
+      "RMC-6236",
+      "Vociprotafib"
+    ],
+    [
+      "RMC-6236",
+      "Vociprotafib"
+    ],
+    [
+      "Gemcitabine",
+      "Paclitaxel"
+    ],
+    [
+      "Gemcitabine",
+      "Paclitaxel"
+    ],
+    [
+      "RMC-6236",
+      "Vociprotafib"
+    ],
+    [
+      "RMC-6236",
+      "Vociprotafib"
+    ],
+    [
+      "Adagrasib",
+      "Galunisertib"
+    ],
+    [
+      "Adagrasib",
+      "LY3200882"
+    ],
+    [
+      "Adagrasib",
+      "LY3200882"
+    ],
+    [
+      "Capecitabine",
+      "Gemcitabine"
+    ],
+    [
+      "Galunisertib",
+      "Sotorasib"
+    ],
+    [
+      "Galunisertib",
+      "Sotorasib"
+    ],
+    [
+      "Gemcitabine",
+      "Paclitaxel"
+    ],
+    [
+      "Gemcitabine",
+      "Paclitaxel"
+    ],
+    [
+      "LY3200882",
+      "Sotorasib"
+    ],
+    [
+      "LY3200882",
+      "Sotorasib"
+    ],
+    [
+      "RMC-6236",
+      "Vociprotafib"
+    ],
+    [
+      "RMC-6236",
+      "Vociprotafib"
+    ],
+    [
+      "Adagrasib",
+      "LY3200882"
+    ],
+    [
+      "Adagrasib",
+      "LY3200882"
+    ],
+    [
+      "Galunisertib",
+      "Sotorasib"
+    ],
+    [
+      "Galunisertib",
+      "Sotorasib"
+    ],
+    [
+      "Gemcitabine",
+      "Paclitaxel"
+    ],
+    [
+      "LY3200882",
+      "Sotorasib"
+    ],
+    [
+      "LY3200882",
+      "Sotorasib"
+    ],
+    [
+      "RMC-6236",
+      "Vociprotafib"
+    ],
+    [
+      "RMC-6236",
+      "Vociprotafib"
+    ]
+  ],
+  "conditions": 54,
+  "folds": [
+    {
+      "guard": [
+        0,
+        1,
+        2,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        31,
+        32,
+        33,
+        36,
+        41,
+        42,
+        43,
+        44,
+        50,
+        51,
+        52,
+        53
+      ],
+      "held_pairs": [
+        [
+          "RMC-6236",
+          "Vociprotafib"
+        ],
+        [
+          "LY3200882",
+          "Sotorasib"
+        ],
+        [
+          "Capecitabine",
+          "Gemcitabine"
+        ],
+        [
+          "Adagrasib",
+          "Galunisertib"
+        ]
+      ],
+      "held_panel": 0,
+      "held_state": "CVCL_0320",
+      "inner": [
+        {
+          "guard": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            14,
+            15,
+            20,
+            21
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            0,
+            1
+          ],
+          "train": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            16,
+            17,
+            18,
+            19,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "guard": [
+            0,
+            1,
+            4,
+            5,
+            8,
+            9,
+            16,
+            17,
+            22,
+            23
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            2,
+            3
+          ],
+          "train": [
+            6,
+            7,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19,
+            20,
+            21,
+            24
+          ]
+        },
+        {
+          "guard": [
+            0,
+            1,
+            2,
+            3,
+            10,
+            11,
+            12,
+            13,
+            18,
+            19,
+            24
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            4,
+            5
+          ],
+          "train": [
+            6,
+            7,
+            8,
+            9,
+            14,
+            15,
+            16,
+            17,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "guard": [
+            0,
+            1,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            20,
+            21
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            6,
+            7
+          ],
+          "train": [
+            2,
+            3,
+            4,
+            5,
+            12,
+            13,
+            16,
+            17,
+            18,
+            19,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "guard": [
+            2,
+            3,
+            6,
+            7,
+            10,
+            11,
+            16,
+            17,
+            22,
+            23
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            8,
+            9
+          ],
+          "train": [
+            0,
+            1,
+            4,
+            5,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19,
+            20,
+            21,
+            24
+          ]
+        },
+        {
+          "guard": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            18,
+            19,
+            24
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            10,
+            11
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            14,
+            15,
+            16,
+            17,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "guard": [
+            4,
+            5,
+            10,
+            11,
+            18,
+            19,
+            24
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0950",
+          "query": [
+            12,
+            13
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            14,
+            15,
+            16,
+            17,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "guard": [
+            0,
+            1,
+            6,
+            7,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            14,
+            15
+          ],
+          "train": [
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "guard": [
+            2,
+            3,
+            8,
+            9,
+            14,
+            15,
+            18,
+            19,
+            22,
+            23
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            16,
+            17
+          ],
+          "train": [
+            0,
+            1,
+            4,
+            5,
+            6,
+            7,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            24
+          ]
+        },
+        {
+          "guard": [
+            4,
+            5,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            24
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            18,
+            19
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "guard": [
+            0,
+            1,
+            6,
+            7,
+            14,
+            15,
+            22,
+            23,
+            24
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            20,
+            21
+          ],
+          "train": [
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            2,
+            3,
+            8,
+            9,
+            16,
+            17,
+            20,
+            21,
+            24
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            22,
+            23
+          ],
+          "train": [
+            0,
+            1,
+            4,
+            5,
+            6,
+            7,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            4,
+            5,
+            10,
+            11,
+            12,
+            13,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            24
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "inner_exclusions": [
+        {
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        }
+      ],
+      "query": [
+        3,
+        4,
+        5
+      ],
+      "train": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        29,
+        30,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "guard": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        29,
+        30,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "held_pairs": [
+        [
+          "Gemcitabine",
+          "Paclitaxel"
+        ],
+        [
+          "Galunisertib",
+          "Sotorasib"
+        ],
+        [
+          "Adagrasib",
+          "LY3200882"
+        ]
+      ],
+      "held_panel": 1,
+      "held_state": "CVCL_0320",
+      "inner": [
+        {
+          "guard": [
+            2,
+            3,
+            7,
+            8,
+            15,
+            16,
+            19,
+            20
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            0,
+            1
+          ],
+          "train": [
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            17,
+            18,
+            21,
+            22
+          ]
+        },
+        {
+          "guard": [
+            0,
+            1,
+            9,
+            10,
+            11,
+            12,
+            17,
+            18,
+            21,
+            22
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            2,
+            3
+          ],
+          "train": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            13
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            4
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ]
+        },
+        {
+          "guard": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            14
+          ],
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            5,
+            6
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            11,
+            12,
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ]
+        },
+        {
+          "guard": [
+            0,
+            1,
+            4,
+            5,
+            6,
+            9,
+            10,
+            15,
+            16,
+            19,
+            20
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            7,
+            8
+          ],
+          "train": [
+            2,
+            3,
+            11,
+            12,
+            13,
+            14,
+            17,
+            18,
+            21,
+            22
+          ]
+        },
+        {
+          "guard": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            17,
+            18,
+            21,
+            22
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            9,
+            10
+          ],
+          "train": [
+            0,
+            1,
+            13,
+            14,
+            15,
+            16,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            2,
+            3,
+            9,
+            10,
+            17,
+            18,
+            21,
+            22
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0950",
+          "query": [
+            11,
+            12
+          ],
+          "train": [
+            0,
+            1,
+            4,
+            5,
+            6,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            4,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            13
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            19,
+            20,
+            21,
+            22
+          ]
+        },
+        {
+          "guard": [
+            5,
+            6,
+            13,
+            15,
+            16,
+            17,
+            18
+          ],
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            14
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            19,
+            20,
+            21,
+            22
+          ]
+        },
+        {
+          "guard": [
+            0,
+            1,
+            7,
+            8,
+            13,
+            14,
+            17,
+            18,
+            19,
+            20
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            15,
+            16
+          ],
+          "train": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22
+          ]
+        },
+        {
+          "guard": [
+            2,
+            3,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            21,
+            22
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            17,
+            18
+          ],
+          "train": [
+            0,
+            1,
+            4,
+            5,
+            6,
+            7,
+            8,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            0,
+            1,
+            7,
+            8,
+            15,
+            16,
+            21,
+            22
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            19,
+            20
+          ],
+          "train": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            17,
+            18
+          ]
+        },
+        {
+          "guard": [
+            2,
+            3,
+            9,
+            10,
+            11,
+            12,
+            17,
+            18,
+            19,
+            20
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            21,
+            22
+          ],
+          "train": [
+            0,
+            1,
+            4,
+            5,
+            6,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      ],
+      "inner_exclusions": [
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0459",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0459",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_1098",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_1098",
+          "reason": "empty metadata query"
+        }
+      ],
+      "query": [
+        0,
+        1,
+        2
+      ],
+      "train": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        31,
+        32,
+        33,
+        36,
+        41,
+        42,
+        43,
+        44,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "guard": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        16,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        31,
+        32,
+        33,
+        36,
+        41,
+        42,
+        43,
+        44,
+        50,
+        51,
+        52,
+        53
+      ],
+      "held_pairs": [
+        [
+          "RMC-6236",
+          "Vociprotafib"
+        ],
+        [
+          "LY3200882",
+          "Sotorasib"
+        ],
+        [
+          "Capecitabine",
+          "Gemcitabine"
+        ],
+        [
+          "Adagrasib",
+          "Galunisertib"
+        ]
+      ],
+      "held_panel": 0,
+      "held_state": "CVCL_0459",
+      "inner": [
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            13,
+            14,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            0
+          ],
+          "train": [
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            7,
+            8,
+            9,
+            10,
+            15,
+            16,
+            21
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            1,
+            2
+          ],
+          "train": [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            17,
+            18
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            3,
+            4
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            9,
+            10,
+            13,
+            14,
+            15,
+            16,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            3,
+            4,
+            7,
+            8,
+            13,
+            14,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            5,
+            6
+          ],
+          "train": [
+            1,
+            2,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            21
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            15,
+            16,
+            21
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            7,
+            8
+          ],
+          "train": [
+            0,
+            11,
+            12,
+            13,
+            14,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            15,
+            16,
+            21
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0950",
+          "query": [
+            9,
+            10
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            3,
+            4,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            11,
+            12
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            11,
+            12,
+            15,
+            16,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            13,
+            14
+          ],
+          "train": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            17,
+            18,
+            21
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            21
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            15,
+            16
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            3,
+            4,
+            11,
+            12,
+            19,
+            20,
+            21
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            17,
+            18
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            13,
+            14,
+            17,
+            18,
+            21
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            19,
+            20
+          ],
+          "train": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            9,
+            10,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            21
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "inner_exclusions": [
+        {
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        }
+      ],
+      "query": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "train": [
+        0,
+        1,
+        2,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        29,
+        30,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "guard": [
+        0,
+        1,
+        2,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        29,
+        30,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "held_pairs": [
+        [
+          "Gemcitabine",
+          "Paclitaxel"
+        ],
+        [
+          "Galunisertib",
+          "Sotorasib"
+        ],
+        [
+          "Adagrasib",
+          "LY3200882"
+        ]
+      ],
+      "held_panel": 1,
+      "held_state": "CVCL_0459",
+      "inner": [
+        {
+          "guard": [
+            1,
+            2,
+            6,
+            7,
+            14,
+            15,
+            18,
+            19
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            0
+          ],
+          "train": [
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            16,
+            17,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            8,
+            9,
+            10,
+            11,
+            16,
+            17,
+            20,
+            21
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            1,
+            2
+          ],
+          "train": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            12
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            3
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            10,
+            11,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            3,
+            6,
+            7,
+            8,
+            9,
+            13
+          ],
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            4,
+            5
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            3,
+            4,
+            5,
+            8,
+            9,
+            14,
+            15,
+            18,
+            19
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            6,
+            7
+          ],
+          "train": [
+            1,
+            2,
+            10,
+            11,
+            12,
+            13,
+            16,
+            17,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            11,
+            16,
+            17,
+            20,
+            21
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            8,
+            9
+          ],
+          "train": [
+            0,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            8,
+            9,
+            16,
+            17,
+            20,
+            21
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0950",
+          "query": [
+            10,
+            11
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            3,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            12
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            4,
+            5,
+            12,
+            14,
+            15,
+            16,
+            17
+          ],
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            13
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            6,
+            7,
+            12,
+            13,
+            16,
+            17,
+            18,
+            19
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            14,
+            15
+          ],
+          "train": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            20,
+            21
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            16,
+            17
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            0,
+            6,
+            7,
+            14,
+            15,
+            20,
+            21
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            18,
+            19
+          ],
+          "train": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            16,
+            17
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            8,
+            9,
+            10,
+            11,
+            16,
+            17,
+            18,
+            19
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            20,
+            21
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ],
+      "inner_exclusions": [
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_1098",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_1098",
+          "reason": "empty metadata query"
+        }
+      ],
+      "query": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "train": [
+        3,
+        4,
+        5,
+        16,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        31,
+        32,
+        33,
+        36,
+        41,
+        42,
+        43,
+        44,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "guard": [
+        3,
+        4,
+        5,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        31,
+        32,
+        33,
+        36,
+        41,
+        42,
+        43,
+        44,
+        50,
+        51,
+        52,
+        53
+      ],
+      "held_pairs": [
+        [
+          "RMC-6236",
+          "Vociprotafib"
+        ],
+        [
+          "LY3200882",
+          "Sotorasib"
+        ],
+        [
+          "Capecitabine",
+          "Gemcitabine"
+        ],
+        [
+          "Adagrasib",
+          "Galunisertib"
+        ]
+      ],
+      "held_panel": 0,
+      "held_state": "CVCL_0546",
+      "inner": [
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            13,
+            14,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            0
+          ],
+          "train": [
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            7,
+            8,
+            9,
+            10,
+            15,
+            16,
+            21
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            1,
+            2
+          ],
+          "train": [
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            17,
+            18
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            3,
+            4
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            9,
+            10,
+            13,
+            14,
+            15,
+            16,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            3,
+            4,
+            7,
+            8,
+            13,
+            14,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            5,
+            6
+          ],
+          "train": [
+            1,
+            2,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            21
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            15,
+            16,
+            21
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            7,
+            8
+          ],
+          "train": [
+            0,
+            11,
+            12,
+            13,
+            14,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            15,
+            16,
+            21
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0950",
+          "query": [
+            9,
+            10
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            3,
+            4,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            11,
+            12
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            11,
+            12,
+            15,
+            16,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            13,
+            14
+          ],
+          "train": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            17,
+            18,
+            21
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            21
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            15,
+            16
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            3,
+            4,
+            11,
+            12,
+            19,
+            20,
+            21
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            17,
+            18
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            13,
+            14,
+            17,
+            18,
+            21
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            19,
+            20
+          ],
+          "train": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            9,
+            10,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            21
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            11,
+            12,
+            13,
+            14
+          ]
+        }
+      ],
+      "inner_exclusions": [
+        {
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        }
+      ],
+      "query": [
+        16,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28
+      ],
+      "train": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        29,
+        30,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "guard": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        16,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "held_pairs": [
+        [
+          "Gemcitabine",
+          "Paclitaxel"
+        ],
+        [
+          "Galunisertib",
+          "Sotorasib"
+        ],
+        [
+          "Adagrasib",
+          "LY3200882"
+        ]
+      ],
+      "held_panel": 1,
+      "held_state": "CVCL_0546",
+      "inner": [
+        {
+          "guard": [
+            1,
+            2,
+            3,
+            4,
+            11,
+            12,
+            15,
+            16
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            0
+          ],
+          "train": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            17,
+            18
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            7,
+            8,
+            13,
+            14,
+            17,
+            18
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            1,
+            2
+          ],
+          "train": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            11,
+            12,
+            15,
+            16
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            3,
+            4
+          ],
+          "train": [
+            1,
+            2,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            17,
+            18
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            13,
+            14,
+            17,
+            18
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            5,
+            6
+          ],
+          "train": [
+            0,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            13,
+            14,
+            17,
+            18
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0950",
+          "query": [
+            7,
+            8
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16
+          ]
+        },
+        {
+          "guard": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            9
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        {
+          "guard": [
+            9,
+            11,
+            12,
+            13,
+            14
+          ],
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            10
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        {
+          "guard": [
+            0,
+            3,
+            4,
+            11,
+            12,
+            17,
+            18
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            15,
+            16
+          ],
+          "train": [
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            17,
+            18
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "inner_exclusions": [
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0459",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0459",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1055",
+          "reason": "registered metadata minimum not met"
+        },
+        {
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_1055",
+          "reason": "registered metadata minimum not met"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_1098",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_1098",
+          "reason": "empty metadata query"
+        }
+      ],
+      "query": [
+        17,
+        18,
+        21,
+        22,
+        23,
+        24
+      ],
+      "train": [
+        3,
+        4,
+        5,
+        12,
+        13,
+        14,
+        15,
+        31,
+        32,
+        33,
+        36,
+        41,
+        42,
+        43,
+        44,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "guard": [
+        3,
+        4,
+        5,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        33,
+        36,
+        41,
+        42,
+        43,
+        44,
+        50,
+        51,
+        52,
+        53
+      ],
+      "held_pairs": [
+        [
+          "RMC-6236",
+          "Vociprotafib"
+        ],
+        [
+          "LY3200882",
+          "Sotorasib"
+        ],
+        [
+          "Capecitabine",
+          "Gemcitabine"
+        ],
+        [
+          "Adagrasib",
+          "Galunisertib"
+        ]
+      ],
+      "held_panel": 0,
+      "held_state": "CVCL_0950",
+      "inner": [
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            11,
+            12,
+            17,
+            18,
+            23,
+            24
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            0
+          ],
+          "train": [
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            15,
+            16,
+            19,
+            20,
+            21,
+            22,
+            25
+          ]
+        },
+        {
+          "guard": [
+            0,
+            7,
+            8,
+            13,
+            14,
+            19,
+            20,
+            25
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            1,
+            2
+          ],
+          "train": [
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "guard": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            15,
+            16,
+            21,
+            22
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            3,
+            4
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            11,
+            12,
+            13,
+            14,
+            17,
+            18,
+            19,
+            20,
+            23,
+            24,
+            25
+          ]
+        },
+        {
+          "guard": [
+            0,
+            3,
+            4,
+            7,
+            8,
+            11,
+            12,
+            17,
+            18,
+            23,
+            24
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            5,
+            6
+          ],
+          "train": [
+            1,
+            2,
+            9,
+            10,
+            13,
+            14,
+            15,
+            16,
+            19,
+            20,
+            21,
+            22,
+            25
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            13,
+            14,
+            19,
+            20,
+            25
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            7,
+            8
+          ],
+          "train": [
+            0,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "guard": [
+            3,
+            4,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            21,
+            22
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            9,
+            10
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            17,
+            18,
+            19,
+            20,
+            23,
+            24,
+            25
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14,
+            17,
+            18,
+            23,
+            24
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            11,
+            12
+          ],
+          "train": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            15,
+            16,
+            19,
+            20,
+            21,
+            22,
+            25
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            19,
+            20,
+            25
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            13,
+            14
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            15,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "guard": [
+            3,
+            4,
+            9,
+            10,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            15,
+            16
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            23,
+            24,
+            25
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            11,
+            12,
+            15,
+            16,
+            19,
+            20,
+            23,
+            24
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            17,
+            18
+          ],
+          "train": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            21,
+            22,
+            25
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            25
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            19,
+            20
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            21,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "guard": [
+            3,
+            4,
+            9,
+            10,
+            15,
+            16,
+            23,
+            24,
+            25
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            21,
+            22
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            11,
+            12,
+            17,
+            18,
+            21,
+            22,
+            25
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            23,
+            24
+          ],
+          "train": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            15,
+            16,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            13,
+            14,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            25
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16,
+            17,
+            18
+          ]
+        }
+      ],
+      "inner_exclusions": [
+        {
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        }
+      ],
+      "query": [
+        31,
+        32
+      ],
+      "train": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "guard": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        31,
+        32,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "held_pairs": [
+        [
+          "Gemcitabine",
+          "Paclitaxel"
+        ],
+        [
+          "Galunisertib",
+          "Sotorasib"
+        ],
+        [
+          "Adagrasib",
+          "LY3200882"
+        ]
+      ],
+      "held_panel": 1,
+      "held_state": "CVCL_0950",
+      "inner": [
+        {
+          "guard": [
+            1,
+            2,
+            3,
+            4,
+            10,
+            11,
+            16,
+            17,
+            20,
+            21
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            0
+          ],
+          "train": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19,
+            22,
+            23
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            12,
+            13,
+            18,
+            19,
+            22,
+            23
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            1,
+            2
+          ],
+          "train": [
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            17,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            10,
+            11,
+            16,
+            17,
+            20,
+            21
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            3,
+            4
+          ],
+          "train": [
+            1,
+            2,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19,
+            22,
+            23
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            3,
+            4,
+            12,
+            13,
+            18,
+            19,
+            22,
+            23
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            5,
+            6
+          ],
+          "train": [
+            0,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            17,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            7
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "guard": [
+            7,
+            10,
+            11,
+            12,
+            13,
+            15
+          ],
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            8,
+            9
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            14,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "guard": [
+            0,
+            3,
+            4,
+            7,
+            8,
+            9,
+            12,
+            13,
+            16,
+            17,
+            20,
+            21
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            10,
+            11
+          ],
+          "train": [
+            1,
+            2,
+            5,
+            6,
+            14,
+            15,
+            18,
+            19,
+            22,
+            23
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            18,
+            19,
+            22,
+            23
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            12,
+            13
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            14,
+            15,
+            16,
+            17,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            7,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            14
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "guard": [
+            8,
+            9,
+            14,
+            16,
+            17,
+            18,
+            19
+          ],
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            15
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "guard": [
+            0,
+            3,
+            4,
+            10,
+            11,
+            14,
+            15,
+            18,
+            19,
+            20,
+            21
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            16,
+            17
+          ],
+          "train": [
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            22,
+            23
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            22,
+            23
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            18,
+            19
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            3,
+            4,
+            10,
+            11,
+            16,
+            17,
+            22,
+            23
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            20,
+            21
+          ],
+          "train": [
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            12,
+            13,
+            18,
+            19,
+            20,
+            21
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            22,
+            23
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "inner_exclusions": [
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0459",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0459",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_1098",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_1098",
+          "reason": "empty metadata query"
+        }
+      ],
+      "query": [
+        29,
+        30
+      ],
+      "train": [
+        3,
+        4,
+        5,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        33,
+        36,
+        41,
+        42,
+        43,
+        44,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "guard": [
+        3,
+        4,
+        5,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        31,
+        32,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        50,
+        51,
+        52,
+        53
+      ],
+      "held_pairs": [
+        [
+          "RMC-6236",
+          "Vociprotafib"
+        ],
+        [
+          "LY3200882",
+          "Sotorasib"
+        ],
+        [
+          "Capecitabine",
+          "Gemcitabine"
+        ],
+        [
+          "Adagrasib",
+          "Galunisertib"
+        ]
+      ],
+      "held_panel": 0,
+      "held_state": "CVCL_1055",
+      "inner": [
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            11,
+            12,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            0
+          ],
+          "train": [
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16,
+            21
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            1,
+            2
+          ],
+          "train": [
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            17,
+            18
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            3,
+            4
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            3,
+            4,
+            7,
+            8,
+            11,
+            12,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            5,
+            6
+          ],
+          "train": [
+            1,
+            2,
+            9,
+            10,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            21
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            13,
+            14,
+            15,
+            16,
+            21
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            7,
+            8
+          ],
+          "train": [
+            0,
+            9,
+            10,
+            11,
+            12,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            3,
+            4,
+            11,
+            12,
+            13,
+            14,
+            17,
+            18
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            9,
+            10
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            15,
+            16,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            11,
+            12
+          ],
+          "train": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            15,
+            16,
+            17,
+            18,
+            21
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16,
+            21
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            13,
+            14
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            13,
+            14,
+            21
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0950",
+          "query": [
+            15,
+            16
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            3,
+            4,
+            9,
+            10,
+            19,
+            20,
+            21
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            17,
+            18
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            11,
+            12,
+            17,
+            18,
+            21
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            19,
+            20
+          ],
+          "train": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            21
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "inner_exclusions": [
+        {
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        }
+      ],
+      "query": [
+        33,
+        36,
+        41,
+        42,
+        43,
+        44
+      ],
+      "train": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        29,
+        30,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "guard": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        29,
+        30,
+        33,
+        36,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "held_pairs": [
+        [
+          "Gemcitabine",
+          "Paclitaxel"
+        ],
+        [
+          "Galunisertib",
+          "Sotorasib"
+        ],
+        [
+          "Adagrasib",
+          "LY3200882"
+        ]
+      ],
+      "held_panel": 1,
+      "held_state": "CVCL_1055",
+      "inner": [
+        {
+          "guard": [
+            1,
+            2,
+            3,
+            4,
+            10,
+            11,
+            16,
+            17
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            0
+          ],
+          "train": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            1,
+            2
+          ],
+          "train": [
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11,
+            16,
+            17
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            10,
+            11,
+            16,
+            17
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            3,
+            4
+          ],
+          "train": [
+            1,
+            2,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            3,
+            4,
+            12,
+            13,
+            14,
+            15,
+            18,
+            19
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            5,
+            6
+          ],
+          "train": [
+            0,
+            7,
+            8,
+            9,
+            10,
+            11,
+            16,
+            17
+          ]
+        },
+        {
+          "guard": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            7
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            7,
+            10,
+            11,
+            12,
+            13
+          ],
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            8,
+            9
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            12,
+            13,
+            18,
+            19
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0950",
+          "query": [
+            14,
+            15
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11,
+            16,
+            17
+          ]
+        },
+        {
+          "guard": [
+            0,
+            3,
+            4,
+            10,
+            11,
+            18,
+            19
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            16,
+            17
+          ],
+          "train": [
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_1098",
+          "query": [
+            18,
+            19
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ],
+      "inner_exclusions": [
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0459",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0459",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0546",
+          "reason": "registered metadata minimum not met"
+        },
+        {
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0546",
+          "reason": "registered metadata minimum not met"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_1098",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_1098",
+          "reason": "empty metadata query"
+        }
+      ],
+      "query": [
+        34,
+        35,
+        37,
+        38,
+        39,
+        40
+      ],
+      "train": [
+        3,
+        4,
+        5,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        31,
+        32,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "guard": [
+        3,
+        4,
+        5,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        31,
+        32,
+        33,
+        36,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "held_pairs": [
+        [
+          "RMC-6236",
+          "Vociprotafib"
+        ],
+        [
+          "LY3200882",
+          "Sotorasib"
+        ],
+        [
+          "Capecitabine",
+          "Gemcitabine"
+        ],
+        [
+          "Adagrasib",
+          "Galunisertib"
+        ]
+      ],
+      "held_panel": 0,
+      "held_state": "CVCL_1098",
+      "inner": [
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            11,
+            12,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            0
+          ],
+          "train": [
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            21,
+            22
+          ]
+        },
+        {
+          "guard": [
+            0,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16,
+            21,
+            22
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            1,
+            2
+          ],
+          "train": [
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            17,
+            18
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            3,
+            4
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            19,
+            20,
+            21,
+            22
+          ]
+        },
+        {
+          "guard": [
+            0,
+            3,
+            4,
+            7,
+            8,
+            11,
+            12,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            5,
+            6
+          ],
+          "train": [
+            1,
+            2,
+            9,
+            10,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            21,
+            22
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            13,
+            14,
+            15,
+            16,
+            21,
+            22
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            7,
+            8
+          ],
+          "train": [
+            0,
+            9,
+            10,
+            11,
+            12,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            3,
+            4,
+            11,
+            12,
+            13,
+            14,
+            17,
+            18
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            9,
+            10
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            15,
+            16,
+            19,
+            20,
+            21,
+            22
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            9,
+            10,
+            13,
+            14,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            11,
+            12
+          ],
+          "train": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            15,
+            16,
+            17,
+            18,
+            21,
+            22
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16,
+            21,
+            22
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            13,
+            14
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            13,
+            14,
+            21,
+            22
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_0950",
+          "query": [
+            15,
+            16
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "guard": [
+            3,
+            4,
+            9,
+            10,
+            19,
+            20,
+            21,
+            22
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            17,
+            18
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            11,
+            12,
+            17,
+            18,
+            21,
+            22
+          ],
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            19,
+            20
+          ],
+          "train": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "held_pair": [
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            21,
+            22
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "inner_exclusions": [
+        {
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "LY3200882"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Galunisertib",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        }
+      ],
+      "query": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "train": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        29,
+        30,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "guard": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        17,
+        18,
+        21,
+        22,
+        23,
+        24,
+        29,
+        30,
+        34,
+        35,
+        37,
+        38,
+        39,
+        40,
+        50,
+        51,
+        52,
+        53
+      ],
+      "held_pairs": [
+        [
+          "Gemcitabine",
+          "Paclitaxel"
+        ],
+        [
+          "Galunisertib",
+          "Sotorasib"
+        ],
+        [
+          "Adagrasib",
+          "LY3200882"
+        ]
+      ],
+      "held_panel": 1,
+      "held_state": "CVCL_1098",
+      "inner": [
+        {
+          "guard": [
+            1,
+            2,
+            3,
+            4,
+            10,
+            11,
+            18,
+            19
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            0
+          ],
+          "train": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            12,
+            13,
+            14,
+            15,
+            20,
+            21
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0320",
+          "query": [
+            1,
+            2
+          ],
+          "train": [
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            0,
+            5,
+            6,
+            10,
+            11,
+            18,
+            19
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            3,
+            4
+          ],
+          "train": [
+            1,
+            2,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            3,
+            4,
+            12,
+            13,
+            14,
+            15,
+            20,
+            21
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0459",
+          "query": [
+            5,
+            6
+          ],
+          "train": [
+            0,
+            7,
+            8,
+            9,
+            10,
+            11,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            16
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            7
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            14,
+            15,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            7,
+            10,
+            11,
+            12,
+            13,
+            17
+          ],
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            8,
+            9
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            14,
+            15,
+            16,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            0,
+            3,
+            4,
+            7,
+            8,
+            9,
+            12,
+            13,
+            18,
+            19
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            10,
+            11
+          ],
+          "train": [
+            1,
+            2,
+            5,
+            6,
+            14,
+            15,
+            16,
+            17,
+            20,
+            21
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            20,
+            21
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0546",
+          "query": [
+            12,
+            13
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            12,
+            13,
+            20,
+            21
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_0950",
+          "query": [
+            14,
+            15
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "guard": [
+            7,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            16
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "guard": [
+            8,
+            9,
+            16,
+            18,
+            19,
+            20,
+            21
+          ],
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            17
+          ],
+          "train": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "guard": [
+            0,
+            3,
+            4,
+            10,
+            11,
+            16,
+            17,
+            20,
+            21
+          ],
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            18,
+            19
+          ],
+          "train": [
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "guard": [
+            1,
+            2,
+            5,
+            6,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "held_pair": [
+            "RMC-6236",
+            "Vociprotafib"
+          ],
+          "held_state": "CVCL_1055",
+          "query": [
+            20,
+            21
+          ],
+          "train": [
+            0,
+            3,
+            4,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ],
+      "inner_exclusions": [
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0320",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0459",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0459",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Adagrasib",
+            "Galunisertib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "Capecitabine",
+            "Gemcitabine"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        },
+        {
+          "held_pair": [
+            "LY3200882",
+            "Sotorasib"
+          ],
+          "held_state": "CVCL_0950",
+          "reason": "empty metadata query"
+        }
+      ],
+      "query": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "train": [
+        3,
+        4,
+        5,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        31,
+        32,
+        33,
+        36,
+        41,
+        42,
+        43,
+        44
+      ]
+    }
+  ],
+  "global_pair_scope": "chemical identities across all doses",
+  "groups": [
+    "CVCL_0320",
+    "CVCL_0320",
+    "CVCL_0320",
+    "CVCL_0320",
+    "CVCL_0320",
+    "CVCL_0320",
+    "CVCL_0459",
+    "CVCL_0459",
+    "CVCL_0459",
+    "CVCL_0459",
+    "CVCL_0459",
+    "CVCL_0459",
+    "CVCL_0459",
+    "CVCL_0459",
+    "CVCL_0459",
+    "CVCL_0459",
+    "CVCL_0546",
+    "CVCL_0546",
+    "CVCL_0546",
+    "CVCL_0546",
+    "CVCL_0546",
+    "CVCL_0546",
+    "CVCL_0546",
+    "CVCL_0546",
+    "CVCL_0546",
+    "CVCL_0546",
+    "CVCL_0546",
+    "CVCL_0546",
+    "CVCL_0546",
+    "CVCL_0950",
+    "CVCL_0950",
+    "CVCL_0950",
+    "CVCL_0950",
+    "CVCL_1055",
+    "CVCL_1055",
+    "CVCL_1055",
+    "CVCL_1055",
+    "CVCL_1055",
+    "CVCL_1055",
+    "CVCL_1055",
+    "CVCL_1055",
+    "CVCL_1055",
+    "CVCL_1055",
+    "CVCL_1055",
+    "CVCL_1055",
+    "CVCL_1098",
+    "CVCL_1098",
+    "CVCL_1098",
+    "CVCL_1098",
+    "CVCL_1098",
+    "CVCL_1098",
+    "CVCL_1098",
+    "CVCL_1098",
+    "CVCL_1098"
+  ],
+  "license": "CC-BY-4.0; attribute Tahoe Bio EmeraldBay",
+  "missing_for_confirmation": [
+    "Unexposed sealed outcomes",
+    "Independently initiated cultures with aligned references",
+    "State/culture power and variance model"
+  ],
+  "outcome_access": false,
+  "protocol_sha256": "7991a3c323f2414211673962d7ea1201c1087cbb2af1c184dc50a87afdd58bbc",
+  "query_reference_adaptation": "Legacy control-selected gene panel and exact measured query singles/controls permitted",
+  "references_sha256": "8737c509252ab545ab7b3c9186892f41b9bc941a98617a5247f167850c20b577",
+  "sealed": false,
+  "source_sha256": "ce544e6705ed1dbfbb8d7391f6c19c7b5dd43db848c1a87b0667d42d8d186d57",
+  "status": "qualified_exposed_joint_development"
+}

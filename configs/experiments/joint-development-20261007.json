@@ -1,0 +1,19 @@
+{
+  "id": "joint-development-20261007-v1",
+  "hypothesis": "Pair-specific kernels add transferable correction beyond tuned shared distortion when whole states and canonical chemical pairs are held together",
+  "evidence_level": "exposed development only; prior outcomes cannot become sealed confirmation",
+  "source": "Existing qualified CC-BY-4.0 EmeraldBay fitting population, 54 exact-dose pair/state conditions, six lines and 1024 genes; original evaluator/calibration blocks excluded",
+  "information": "Query controls and both exact matched singles allowed. No query pair response in fitting/preprocessing/selection/pretraining/calibration. No previous weights or external priors reused.",
+  "pair_identity": "Canonical unordered chemical names across all doses, stricter than exact-dose pair IDs. Exact-dose matching remains mandatory for constituent references.",
+  "preprocessing": "Reuse declared query-control gene-panel adaptation and original mean-after-cell transform. All correction feature scales fit source rows only.",
+  "outer": "Canonical pair classes sorted by descending metadata row coverage then lexical key, greedily balanced into two panels. Cross each global panel with each whole biological state, yielding up to12 nonempty folds. Every original row is queried once; guard rows unused.",
+  "inner": "For each outer source, cross each remaining state with each remaining canonical pair class. Hold both globally within the inner source. Keep only metadata-feasible folds: at least5 fitting rows,3 fitting states,2 fitting pair classes, and1 query. Require at least2 feasible inner folds; otherwise fail without redraw.",
+  "menu": {"families": ["mean_residual", "global_correction", "single_sum", "pair_product", "mixed"], "alphas": [0.001,0.01,0.1,1,10,100], "bandwidths": [0.25,1,4], "shared_kernels": ["ridge","rbf"]},
+  "reference": "Additivity retained. Strong source-selected reference selects mean residual/global correction/summed-single kernel by inner MSE. Pair product and mixed families use their own fixed inner search.",
+  "seeds": {"fitting": "deterministic", "bootstrap": 20261010},
+  "endpoint": "Equal-condition total response MSE across all54 rows, per-state and canonical pair errors",
+  "uncertainty": "2000 crossed state/intervention-weight bootstrap draws; fixed profiles, shared controls and model selection. Diagnostic, not biological confidence or calibration.",
+  "decision": "Pair-specific family needs at least5% gain over the source-selected simple reference and positive diagnostic lower bound; no independent confirmation claim even if it passes",
+  "budget": {"fitting_seconds": 600, "rss_bytes": 8589934592, "cpu_threads": 1},
+  "conditional_stages": "No neural grid enlargement, learned encoder, risk policy, acquisition or scaling triggered by a development partition alone"
+}
