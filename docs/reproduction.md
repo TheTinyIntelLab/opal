@@ -2,7 +2,7 @@
 
 ## Executed Stage 1 successor
 
-The historical reference is `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`; this cycle uses clean branch `research/stage1-20261007`. Verified data and dependency caches are reused from the original checkout; its 170 tracked result deletions are untouched. Implementation lives directly in `src/`, installed as `opal`. Baseline verification passed 117 tests in 12 files; the successor passes 135 tests in 16 files.
+The historical reference is `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`. Experiments were executed in the clean `research/stage1-20261007` worktree, then fast-forwarded onto `main` in the original `opal` directory at the user's request. Local experiment outputs, fitted exports and prepared artifacts are also available there; its 170 tracked result deletions remain untouched. The reused environment now imports this original checkout. Implementation lives directly in `src/`, installed as `opal`. Baseline verification passed 117 tests in 12 files; the successor passes 135 tests in 16 files, including verification after the move.
 
 Install `.[data,dev,research]`. The execution reused Python 3.14, CPU float64 PyTorch 2.9.1 for pair fitting and the existing CPU environment for main fitting and verification. An RTX 4060 with 8 GB was available but unused for fitting. The grid, synthetic profile, information contracts, preprocessing, seeds, 90-minute per-genetic-dataset budget and stopping rule are registered in `configs/experiments/stage1-20261007.json`; the explicit identity-control/main-track amendment is adjacent.
 
