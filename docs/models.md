@@ -34,7 +34,7 @@ The baseline-conditioned state route accepts a processed compatible baseline, ex
 
 Estimated-single inference has a separate schema and reports whether each single was measured or estimated, with its source contexts. It abstains when the exact intervention/dose has no source reference. Observed-single calibration doesn't apply to this route, and error cancellation limits interpretation of its pilot gains.
 
-Native CPA exports require their separate recorded Python 3.10/CUDA environment and `tools/predict_native_cpa.py`; they aren't bundled in the main release. Resource costs include references, dependencies, external graphs, and pretrained resources, rather than only the fitted head. No route supplies validated OOD abstention, unseen-dose prediction, higher-order composition, single-cell distributions, or a mechanistic explanation.
+Native CPA exports require their separate recorded Python 3.10/CUDA environment and `tools/predict_native_cpa.py`; they aren't bundled in the main release. Resource costs include references, dependencies, external graphs, and pretrained resources, rather than only the fitted head. No route supplies validated OOD abstention, dose extrapolation, higher-order composition, single-cell distributions, or a mechanistic explanation. The narrow dose interpolation route below has separate support restrictions.
 
 ## Experimental dose interpolation
 

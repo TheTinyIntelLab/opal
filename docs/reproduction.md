@@ -2,7 +2,7 @@
 
 ## Executed Stage 1 successor
 
-The historical reference is `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`; this cycle uses clean branch `research/stage1-20261007`. Verified data and dependency caches are reused from the original checkout; its 170 tracked result deletions are untouched. Implementation lives directly in `src/`, installed as `opal`. Baseline verification passed 117 tests in 12 files; the successor passes 133 tests in 15 files.
+The historical reference is `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`; this cycle uses clean branch `research/stage1-20261007`. Verified data and dependency caches are reused from the original checkout; its 170 tracked result deletions are untouched. Implementation lives directly in `src/`, installed as `opal`. Baseline verification passed 117 tests in 12 files; the successor passes 135 tests in 16 files.
 
 Install `.[data,dev,research]`. The execution reused Python 3.14, CPU float64 PyTorch 2.9.1 for pair fitting and the existing CPU environment for main fitting and verification. An RTX 4060 with 8 GB was available but unused for fitting. The grid, synthetic profile, information contracts, preprocessing, seeds, 90-minute per-genetic-dataset budget and stopping rule are registered in `configs/experiments/stage1-20261007.json`; the explicit identity-control/main-track amendment is adjacent.
 
@@ -108,7 +108,7 @@ predictions within `7e-15`. The [manuscript](../paper/main.tex) and its
 
 ## Install and run
 
-Use Python 3.11–3.14 with a CPU-compatible PyTorch installation. The recorded
+Use Python 3.11â€“3.14 with a CPU-compatible PyTorch installation. The recorded
 experiments use Python 3.14.0 and the versions in `requirements.txt`.
 
 ```powershell
@@ -271,7 +271,7 @@ The `identity-reference-20261007` protocol reuses the dose bank and its fixed po
 
 Primary GEO metadata was downloaded separately for provenance only, with source URL, hash, size and download cost in `qualification-v1/primary-metadata-resource.json`; it isn't redistributed. `python -m tools.audit_sciplex_provenance --primary PRIMARY_PDATA_GZ --harmonized RAW/SrivatsanTrapnell2020_sciplex3.h5ad --output PROVENANCE` reproduces metadata matching and plate-alias checks. The first failed audit and subsequent revisions are retained. `python -m tools.inventory_higher_order --data-root ORIGINAL/data --output INVENTORY` inventories declared order without outcomes. `python -m tools.report_identity_reference --cycle results/identity-reference-20261007 --output REPORT` regenerates evidence from saved scores and the completed provenance audit, without refitting.
 
-For the current dev3 artifacts, use `python -m build --outdir releases/identity-reference-build-v1` and the existing installed verification command with `--dist-directory releases/identity-reference-build-v1`, both dose exports and a fresh output directory. Compile the manuscript/source bundle with `configs/releases/v0.1.2-dev3.json`. Existing dev1/dev2 builds, bundles and manifests remain historical local preparations.
+For the preserved dev3 artifacts, use `python -m build --outdir releases/identity-reference-build-v1` and the existing installed verification command with `--dist-directory releases/identity-reference-build-v1`, both dose exports and a fresh output directory. Compile the manuscript/source bundle with `configs/releases/v0.1.2-dev3.json`. Existing dev1/dev2 builds, bundles and manifests remain historical local preparations.
 
 ## Joint chemical-pair and whole-state development
 
@@ -288,4 +288,4 @@ python tools/build_paper.py --tectonic TECTONIC --cache-directory CACHE
 python tools/build_arxiv_submission.py --config configs/releases/v0.1.2-dev4.json --tectonic TECTONIC --cache-directory CACHE --output releases/joint-development-0.1.2-dev4-source-v1.zip
 ```
 
-Twelve outer joint folds and 9–14 inner joint folds per source retain all 54 query conditions. Each family has a frozen budget: mean residual one setting; global correction 24 ridge/RBF settings; single-sum, pair-product and mixed kernels 18 each. Selected-simple family choice uses inner scores only. Two thousand crossed state/intervention bootstrap draws condition on fixed profiles and shared references. The run uses 1.98 elapsed seconds and 276.31 MB completion RSS on the reused CPU environment. Previous outputs and local builds remain preserved; exposed partitions are not independent confirmation.
+Twelve outer joint folds and 9â€“14 inner joint folds per source retain all 54 query conditions. Each family has a frozen budget: mean residual one setting; global correction 24 ridge/RBF settings; single-sum, pair-product and mixed kernels 18 each. Selected-simple family choice uses inner scores only. Two thousand crossed state/intervention bootstrap draws condition on fixed profiles and shared references. The run uses 1.98 elapsed seconds and 276.31 MB completion RSS on the reused CPU environment. Previous outputs and local builds remain preserved; exposed partitions are not independent confirmation.
