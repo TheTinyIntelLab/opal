@@ -1,0 +1,32 @@
+{
+  "id": "dose-design-20261007-v1",
+  "evidence_level": "exposed dose development and hypothetical prospective design",
+  "qualification": "Corrected sciPlex source checksum, CC-BY-4.0, metadata-only exact 24 hour nM grid and line/plate controls before response access",
+  "selection": "First 24 lexicographic compounds present at all four doses in A549, K562 and MCF7; no response-based selection",
+  "doses_nM": [10, 100, 1000, 10000],
+  "hypothesis": "A source-selected smooth log-dose response map improves over dose-independent means and nearest-dose transfer",
+  "allowed_information": "Known compounds and states, other-dose single outcomes, exact dose, query vehicle controls; held-dose responses excluded globally from fitting, scaling, selection and pretraining",
+  "preprocessing": "512 control-selected human genes; per-cell human UMI normalization to 10000 and log2(1+x), equal well means, matched line/plate vehicle subtraction; query-control gene adaptation declared",
+  "splits": "Four global outer dose holdouts; leave-one-dose-out inner selection on remaining three doses, pooled over line/plate/compound profiles; 100 and 1000 nM interpolation, 10 and 10000 nM extrapolation",
+  "menu": {
+    "reference": ["zero", "mean", "nearest"],
+    "ridge": {"degree": [1, 2], "alpha": [0.001, 0.01, 0.1, 1, 10, 100]},
+    "kernel": {"bandwidth": [0.25, 1, 4], "alpha": [0.001, 0.01, 0.1, 1, 10, 100]}
+  },
+  "seeds": {"fitting": "deterministic", "diagnostic_bootstrap": 20261007, "power": 20261007},
+  "endpoint": "Equal-profile gene MSE, paired reduction against source-selected zero/mean/nearest; interpolation and extrapolation reported separately",
+  "decision_rule": "5% relative MSE reduction and positive conditional compound-bootstrap 95% lower bound; development only, no state or culture confirmation",
+  "budget": {"preparation_seconds": 1800, "fitting_seconds": 600, "rss_bytes": 8589934592, "cpu_threads": 1},
+  "power_simulation": {
+    "scope": "Sensitivity only; no variance fitted from technical halves, no empirical sample size recommendation",
+    "states": [1, 3, 5, 8, 12], "cultures": [3, 6], "pairs": [12, 24],
+    "normalized_gains": [0, 0.03, 0.05, 0.1], "draws": 2000,
+    "variance_scenarios": {
+      "low": {"state": 0.03, "culture": 0.03, "target": 0.02, "pair": 0.02, "shared_control": 0.02, "cell": 0.1},
+      "high": {"state": 0.1, "culture": 0.06, "target": 0.06, "pair": 0.05, "shared_control": 0.04, "cell": 0.2}
+    },
+    "cells_per_condition": [50, 200],
+    "sampling": "Crossed random effects in paired normalized loss differences, shared control within state/culture, globally shared intervention and pair effects; known-variance Gaussian lower bound for sensitivity only",
+    "gate": "Observed normalized mean >=0.05 and one-sided 95% lower bound >0; broad-state claim also requires multiple sealed states"
+  }
+}
