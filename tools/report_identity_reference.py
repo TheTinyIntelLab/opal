@@ -12,9 +12,10 @@ ROOT = Path(__file__).resolve().parents[1]
 def main():
     p = argparse.ArgumentParser(description=__doc__); p.add_argument('--cycle', type=Path, required=True)
     p.add_argument('--output', type=Path, required=True)
+    p.add_argument('--provenance', type=Path, help='Reuse a preserved metadata audit when regenerating a score report')
     args = p.parse_args(); args.output.mkdir(parents=True, exist_ok=False)
     studies = {t: read_json(args.cycle / f'run-v1/{t}/results.json') for t in ['identity', 'target_class']}
-    provenance = read_json(args.cycle / 'provenance-v2/audit.json')
+    provenance = read_json(args.provenance or args.cycle / 'provenance-v2/audit.json')
     fig, axes = plt.subplots(1, 2, figsize=(8, 3.3), sharey=True)
     for ax, (track, record) in zip(axes, studies.items()):
         labels = ['simple', 'annotation', 'shuffled']; metrics = record['comparisons']
