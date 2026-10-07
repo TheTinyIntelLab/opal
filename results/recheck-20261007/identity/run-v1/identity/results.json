@@ -1,0 +1,84 @@
+{
+  "annotation_vs_shuffled_mse_reduction": 0.0014648106767227581,
+  "comparisons": {
+    "annotation": {
+      "gate": false,
+      "mse": 0.046109564534314175,
+      "paired_lower": -0.0018930405932727707,
+      "paired_upper": 0.003979284700355141,
+      "relative_gain": 0.0210707908873351
+    },
+    "shuffled": {
+      "gate": false,
+      "mse": 0.04757437521103693,
+      "paired_lower": -0.002469144137397355,
+      "paired_upper": 0.0018264220662324,
+      "relative_gain": -0.010027875338342929
+    },
+    "simple": {
+      "gate": false,
+      "mse": 0.04710204180760882,
+      "paired_lower": 0.0,
+      "paired_upper": 0.0,
+      "relative_gain": 0.0
+    }
+  },
+  "completion_rss_bytes": 93720576,
+  "compounds": 24,
+  "configurations": {
+    "annotation": 24,
+    "shuffled": 24,
+    "simple": 9
+  },
+  "elapsed_seconds": 1.3295474000042304,
+  "environment": {
+    "packages": {
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.8",
+      "numpy": "2.4.0",
+      "pytest": "9.0.2",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.16.3",
+      "torch": "2.9.1"
+    },
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python": "3.14.0"
+  },
+  "evidence_level": "exposed development",
+  "exclusions": [],
+  "groups": [
+    0,
+    1,
+    2,
+    3,
+    0,
+    1,
+    2,
+    3,
+    0,
+    1,
+    2,
+    3,
+    0,
+    1,
+    2,
+    3,
+    0,
+    1,
+    2,
+    3,
+    0,
+    1,
+    2,
+    3
+  ],
+  "information": "Known line and exact dose, source compound single effects, query vehicle controls for fixed panel/subtraction, query intervention annotation; every held compound response at every dose/state excluded from fitting, scaling, selection, pretraining and calibration",
+  "prepared_sha256": "8a53d77e4a08bc1ef8b2b63d17c481409406cba47d213c322b448d9998fc27c2",
+  "profiles": 288,
+  "protocol_sha256": "e02b120fc880d8a98893587d16e4aabcbdb8cea0ff85ba595ec01c6c91133ac3",
+  "qualifier_sha256": "a90a65863ada986faa4b5e9b2834591d89c7f3fc4618e67a8eca4db6acb1c9b7",
+  "status": "completed",
+  "track": "identity",
+  "uncertainty": "2,000 whole-compound conditional bootstrap draws preserving each compound's three line/four dose profiles; shared controls fixed, no biological/refitting/multiplicity guarantee"
+}
