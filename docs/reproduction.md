@@ -272,3 +272,20 @@ The `identity-reference-20261007` protocol reuses the dose bank and its fixed po
 Primary GEO metadata was downloaded separately for provenance only, with source URL, hash, size and download cost in `qualification-v1/primary-metadata-resource.json`; it isn't redistributed. `python -m tools.audit_sciplex_provenance --primary PRIMARY_PDATA_GZ --harmonized RAW/SrivatsanTrapnell2020_sciplex3.h5ad --output PROVENANCE` reproduces metadata matching and plate-alias checks. The first failed audit and subsequent revisions are retained. `python -m tools.inventory_higher_order --data-root ORIGINAL/data --output INVENTORY` inventories declared order without outcomes. `python -m tools.report_identity_reference --cycle results/identity-reference-20261007 --output REPORT` regenerates evidence from saved scores and the completed provenance audit, without refitting.
 
 For the current dev3 artifacts, use `python -m build --outdir releases/identity-reference-build-v1` and the existing installed verification command with `--dist-directory releases/identity-reference-build-v1`, both dose exports and a fresh output directory. Compile the manuscript/source bundle with `configs/releases/v0.1.2-dev3.json`. Existing dev1/dev2 builds, bundles and manifests remain historical local preparations.
+
+## Joint chemical-pair and whole-state development
+
+The dev4 registration uses the previously qualified EmeraldBay fitting bank only; `ORIGINAL` denotes the protected original checkout. Qualification reads identities and provenance before opening response matrices. New output directories must not already exist.
+
+```powershell
+python -m tools.run_joint_development --data-root ORIGINAL/data --qualify-only --output results/joint-development-20261007/qualification-v1
+python -m tools.run_joint_development --data-root ORIGINAL/data --qualification results/joint-development-20261007/qualification-v1/qualification.json --output results/joint-development-20261007/run-v1
+python -m tools.report_joint_development --cycle results/joint-development-20261007 --output results/joint-development-20261007/report-v1
+python -m pytest -q
+python -m build --outdir releases/joint-development-build-v1
+python -m tools.verify_stage1_build --data-root ORIGINAL/data --cycle results/stage1-20261007 --dose-exports results/dose-design-20261007/exports-v1 --dist-directory releases/joint-development-build-v1 --output results/joint-development-20261007/build-verification-v1
+python tools/build_paper.py --tectonic TECTONIC --cache-directory CACHE
+python tools/build_arxiv_submission.py --config configs/releases/v0.1.2-dev4.json --tectonic TECTONIC --cache-directory CACHE --output releases/joint-development-0.1.2-dev4-source-v1.zip
+```
+
+Twelve outer joint folds and 9–14 inner joint folds per source retain all 54 query conditions. Each family has a frozen budget: mean residual one setting; global correction 24 ridge/RBF settings; single-sum, pair-product and mixed kernels 18 each. Selected-simple family choice uses inner scores only. Two thousand crossed state/intervention bootstrap draws condition on fixed profiles and shared references. The run uses 1.98 elapsed seconds and 276.31 MB completion RSS on the reused CPU environment. Previous outputs and local builds remain preserved; exposed partitions are not independent confirmation.

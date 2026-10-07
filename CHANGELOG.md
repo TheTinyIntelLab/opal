@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2.dev4, local joint development successor
+
+Executes a preregistered metadata-balanced global chemical-pair/whole-state test, with nested joint selection and exact query single references. All 54 exposed conditions are queried once; pair-product and mixed kernels fail the development gate. Preserves the earlier sparse feasibility assessment and all results, and updates evidence, manuscript and local builds. No independent confirmation or new inference route is claimed.
+
 ## 0.1.2.dev3, local annotation and provenance successor
 
 Executes qualified publisher-annotation identity and transitive shared-target holdouts with matched shuffled searches. Both gates fail; no new encoder or inference route advances. Recovers and verifies primary sci-Plex metadata, audits one-state GSE146194 coverage, and inventories higher-order metadata without scoring outcomes. Updates the manuscript, evidence and builds while preserving prior scores, failed audits and dev1/dev2 artifacts.

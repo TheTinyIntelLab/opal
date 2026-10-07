@@ -1,5 +1,23 @@
 # What Opal establishes
 
+## Registered joint development, 7 October 2026
+
+The earlier single-query lexicographic partition did not establish that useful exposed joint partitions were infeasible. A new metadata-only registration balances seven canonical chemical pairs into two global panels, crossed with all six whole cell lines. All doses of held pairs are excluded from source responses; twelve folds query the 54 existing fitting conditions once, with unused guard rows. Inner state/pair holdouts exclude the same claim units, retaining only registered metadata-feasible folds. Query singles must match exact doses, and legacy query-control gene-panel adaptation is declared.
+
+| Model | Total MSE | Gain over selected simple | Diagnostic paired reduction interval |
+| --- | ---: | ---: | --- |
+| Selected simple | 0.175075515 | 0% | [0, 0] |
+| Additivity | 0.192365451 | -9.88% | [-0.040296667, 0.008861515] |
+| Mean residual | 0.201446556 | -15.06% | [-0.047645060, -0.011048879] |
+| Tuned global correction | 0.174661899 | 0.24% | [0, 0.002410766] |
+| Summed-single kernel | 0.175103198 | -0.02% | [-0.004653184, 0.004812648] |
+| Pair-product kernel | 0.176599048 | -0.87% | [-0.010852314, 0.005217399] |
+| Mixed kernel | 0.175353284 | -0.16% | [-0.006765569, 0.006064839] |
+
+No new pair component passes the 5% and positive-lower-bound screen. The source-selected reference chooses mean, global or summed-single correction by inner MSE; no outer-best candidate replaces it. The registered 2,000 crossed state/intervention-weight draws yield 1,965 nonempty draws, preserving repeated states/interventions while conditioning on shared profiles and model selection. They exclude biological and refitting uncertainty. Fitting takes 1.98 elapsed seconds on one CPU thread; completion RSS is 276.31 MB, not a measured peak. Full searches, predictions, per-condition/state/pair errors and source hashes are under [`results/joint-development-20261007/`](../results/joint-development-20261007/).
+
+All outcomes remain exposed. Feasible development isolation does not satisfy independent confirmation, independent culture attribution, biological covariance/power or fresh risk evaluation. The next justified step remains qualification of the specified crossed screen, rather than a larger architecture.
+
 ## Registered annotation identity continuation, 7 October 2026
 
 The corrected CC-BY-4.0 sci-Plex metadata inherits target/pathway annotations from primary pData. Their constancy was qualified before new candidate scores; a later primary audit verifies zero annotation/condition discrepancies over all 799,317 cells. They remain publisher annotations, with possible mechanism inconsistencies, and supply no structural/scaffold representation. Four global identity folds and four transitive shared-target component folds exclude every query compound outcome at every dose and line from all response-consuming fitting stages.
@@ -77,7 +95,7 @@ Software tests cover split isolation, exports, symmetry, and restoration. Releas
 
 ## Verification and remaining gaps
 
-The revised source passes 117 tests. A 0.1.1 wheel installed outside the checkout reproduces 38 saved Norman and 27 EmeraldBay predictions with maximum errors of 2.03e-15 and 1.33e-15. The package dependencies were reused from the host; this wasn't a fresh installation of the dependency closure. The synthetic CLI and pair-order checks pass. The 27-page manuscript and extracted TeX sources compile locally; arXiv server compilation and moderation are untested.
+The historical baseline passes 117 tests in 12 files. Its 0.1.1 wheel installed outside the checkout reproduces 38 saved Norman and 27 EmeraldBay predictions with maximum errors of 2.03e-15 and 1.33e-15. The successor adds focused invariant tests and separate dev4 build checks recorded in `results/joint-development-20261007/verification/`. Package dependencies are reused from the host, rather than freshly installed. The synthetic CLI, pair-order checks, manuscript and extracted TeX sources are verified locally; arXiv server compilation and moderation are untested.
 
 The original full roadmap isn't complete. Hosting was explicitly moved to separate projects. A PertAdapt biological score, extended-output training, fuller biological-replicate analysis, canonical cell-level native comparisons, and prospective experiment-selection validation remain unestablished. Failed transfer and encoder gates are completed experiments, not missing positive results.
 

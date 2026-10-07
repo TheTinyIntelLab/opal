@@ -22,7 +22,7 @@
 
 <p align="center"><a href="paper/main.pdf">Read the preprint draft</a></p>
 
-This branch is Opal **0.1.2.dev3**, a local research successor to the preserved **0.1.1** preparation at `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`. Stage 1 is executed, with no pair/state component passing its gate. A subsequent registered dose study supports an experimental interpolation reference for known compounds and states; extrapolation and independent joint confirmation remain unsupported. There is no public model release or arXiv identifier.
+This branch is Opal **0.1.2.dev4**, a local research successor to the preserved **0.1.1** preparation at `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`. Stage 1 and qualified dose, identity and joint development studies are executed, with no pair/state component passing its gate. Dose evidence supports an experimental interpolation reference for known compounds and states; extrapolation and independent joint confirmation remain unsupported. There is no public model release or arXiv identifier.
 
 ## 1. Introduction
 
@@ -82,6 +82,14 @@ Publisher target/pathway annotations were qualified before a separate identity e
 <img src="images/identity_results.svg" alt="Publisher annotations fail the identity and shared-target holdout development gates." width="100%" />
 
 The primary-metadata audit matches all 799,317 cells without condition or annotation discrepancies. Every assigned 24-hour cell's culture label matches its existing plate stratum; original labels don't add independent biological units. GSE146194 metadata describes one K562 line and sequencing/platform variants, so it doesn't qualify sealed biological-state transfer. The higher-order inventory finds no qualified triple corpus. [The remaining requirements](results/identity-reference-20261007/report-v1/decision.json) still include independent culture/pair provenance, multiple sealed states, empirical covariance for power, and independently evaluated risk.
+
+### Registered joint pair/state development
+
+A metadata-balanced partition globally holds canonical chemical pairs across all doses and whole cell lines together. Twelve frozen outer folds query all 54 exposed EmeraldBay fitting conditions once, with inner joint holdouts and unused guard rows. Exact measured query singles and legacy query-control gene-panel adaptation are declared. The selected simple reference has MSE **0.175075515**; pair-product and mixed kernels have **0.176599048** and **0.175353284**, worsening error by 0.87% and 0.16%. Both diagnostic intervals span zero and both gates fail. This resolves the earlier sparse partition's development coverage gap, without supplying sealed confirmation.
+
+<img src="images/joint_results.svg" alt="Pair-specific kernels fail the globally held chemical-pair and whole-state development gate." width="100%" />
+
+The fixed search takes **1.98 elapsed seconds**, with completion RSS **276.31 MB**, not a measured peak. [Comparisons and crossed state/intervention diagnostic intervals](results/joint-development-20261007/report-v1/comparisons.csv), per-state/pair errors, frozen splits and full selections are retained. [The decision](results/joint-development-20261007/report-v1/decision.json) keeps shared corrections and the narrow dose route; independent cultures, multiple sealed states and globally held pair panels remain required.
 
 ### Historical primary biological results
 
@@ -172,7 +180,7 @@ The output follows the fixed gene order and effect scale in the manifest. Emeral
 
 **Why is the package called `opal-research`, but imports use `opal`?** Distribution names and Python import names serve different purposes. The source lives directly in `src/`; setuptools maps that directory to the installed `opal` package, preserving a distinct import namespace.
 
-**Why a development version?** `0.1.2.dev3` separates this executed cycle from the historical 0.1.1 preparation. The new results do not justify a public successor model release.
+**Why a development version?** `0.1.2.dev4` separates this executed cycle from the historical 0.1.1 preparation. The new results do not justify a public successor model release.
 
 **Does the model learn biological interactions?** Insufficient evidence. A residual contains measurement error and shared distortion as well as potential pair-specific structure, and simple references explain much of the observed improvement.
 
@@ -197,7 +205,7 @@ The preprint hasn't been submitted to arXiv. Until an identifier exists, don't c
   author = {Prakash, Arjun Vijay},
   title = {Opal: observed-single combinatorial response prediction},
   year = {2026},
-  version = {0.1.2.dev3},
+  version = {0.1.2.dev4},
   url = {https://github.com/TheTinyIntelLab/opal}
 }
 ```
