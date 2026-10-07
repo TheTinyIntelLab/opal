@@ -22,7 +22,7 @@
 
 <p align="center"><a href="paper/main.pdf">Read the preprint draft</a></p>
 
-**Publication is paused.** This repository prepares Opal **0.1.1**. The existing private `v0.1.0` tag and draft contain an earlier snapshot; don't publish their assets as this revision. There is no public model release or arXiv identifier yet.
+This branch is Opal **0.1.2.dev1**, a local research successor to the preserved **0.1.1** preparation at `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`. The registered Stage 1 studies are executed. No new component passed the development gate, and no independent joint confirmation was available. There is no public model release or arXiv identifier.
 
 ## 1. Introduction
 
@@ -51,6 +51,21 @@ The planned release includes these two kernel references. Downloads will become 
 The [model guide](docs/models.md) explains supported queries, reference access, gene order, and diagnostic metadata. Raw datasets, Wessels/D-SPIN weights, external embedding banks, and native CPA/GEARS weights aren't redistributed. Dataset-derived reference content has CC BY 4.0 terms in [the notices](THIRD_PARTY_NOTICES.md).
 
 ## 3. Evaluation results
+
+### Registered successor development
+
+The new batch retains tuned linear/nonlinear shared corrections and single kernels, tests fixed context/identity/dose features and pair kernels, cross-fits technical references, and audits 16 configurations each for pure-sum shared and symmetric pair neural heads. Two seeds form the ensemble in both inner selection and outer scoring; the original schedules remain controls. All reused sources are exposed development.
+
+| Observed-single random-pair development | Selected simple MSE | Shared neural MSE | Pair neural MSE |
+| --- | ---: | ---: | ---: |
+| Norman, 88 pairs | 0.006563816 | 0.007403584 | 0.007407056 |
+| Wessels, 40 pairs | 0.005469709 | 0.006332205 | 0.006761126 |
+
+EmeraldBay identity features improve on the selected shared correction by **4.06%**, below the registered 5% screen; pretreatment control features worsen it by 0.53%. Pair-product and mixed kernels do not pass on random, partner, or context folds. Separately, learned baseline-only main models are 10.40% worse than simple references on EmeraldBay and 15.30% worse on sci-Plex. No state encoder, larger pair model, calibrated risk policy, or scaling stage earned advancement.
+
+<img src="images/stage1_results.svg" alt="Registered development gains compared with the five percent screen across genetic pair and chemical context protocols." width="100%" />
+
+The studies consumed **631.67 aggregate study seconds**, with peak process working set **1.06 GB**, on reused CPU float64 dependencies; the available RTX 4060 was not used for fitting. Exact comparisons, paired diagnostic intervals, exclusions, component accounting, training trajectories and costs are in [comparisons.csv](results/stage1-20261007/report-v2/comparisons.csv) and [the decision](results/stage1-20261007/report-v2/decision.json). Technical halves are not independent cultures, dose features are not chemical descriptors, and baseline-only predictions are a separate information contract. The next justified work is qualifying crossed-state data with independent cultures and sealed globally held pairs, using [the screen specification](configs/datasets/crossed-context-screen-spec.json).
 
 ### Historical primary biological results
 
@@ -141,7 +156,7 @@ The output follows the fixed gene order and effect scale in the manifest. Emeral
 
 **Why is the package called `opal-research`, but imports use `opal`?** Distribution names and Python import names serve different purposes. The source lives directly in `src/`; setuptools maps that directory to the installed `opal` package, preserving a distinct import namespace.
 
-**Why 0.1.1 rather than v1?** A `0.x` version conventionally signals an evolving API. The earlier private `v0.1.0` tag is preserved, while these revisions prepare a new patch version. Scientific maturity is assessed by experiments, not the version number.
+**Why a development version?** `0.1.2.dev1` separates this executed cycle from the historical 0.1.1 preparation. The new results do not justify a public successor model release.
 
 **Does the model learn biological interactions?** Insufficient evidence. A residual contains measurement error and shared distortion as well as potential pair-specific structure, and simple references explain much of the observed improvement.
 
@@ -166,7 +181,7 @@ The preprint hasn't been submitted to arXiv. Until an identifier exists, don't c
   author = {Prakash, Arjun Vijay},
   title = {Opal: observed-single combinatorial response prediction},
   year = {2026},
-  version = {0.1.1},
+  version = {0.1.2.dev1},
   url = {https://github.com/TheTinyIntelLab/opal}
 }
 ```

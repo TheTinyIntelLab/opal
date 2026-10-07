@@ -1,5 +1,28 @@
 # Detailed research reproduction
 
+## Executed Stage 1 successor
+
+The historical reference is `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`; this cycle uses clean branch `research/stage1-20261007`. Verified data and dependency caches are reused from the original checkout; its 170 tracked result deletions are untouched. Implementation lives directly in `src/`, installed as `opal`. Baseline verification passed 117 tests in 12 files; the successor passes 127 tests in 13 files.
+
+Install `.[data,dev,research]`. The execution reused Python 3.14, CPU float64 PyTorch 2.9.1 for pair fitting and the existing CPU environment for main fitting and verification. An RTX 4060 with 8 GB was available but unused for fitting. The grid, synthetic profile, information contracts, preprocessing, seeds, 90-minute per-genetic-dataset budget and stopping rule are registered in `configs/experiments/stage1-20261007.json`; the explicit identity-control/main-track amendment is adjacent.
+
+From this checkout, with `DATA_ROOT` replaced by the verified original `data/` directory:
+
+```powershell
+python main.py stage1 --data-root DATA_ROOT --output results/stage1-20261007/qualification --qualify-only
+python main.py stage1 --data-root DATA_ROOT --output results/stage1-20261007/run-v1
+python -m tools.stage1_information_supplement --data-root DATA_ROOT --output results/stage1-20261007/main-v1 --original results/stage1-20261007/run-v1 --main-only
+python -m tools.stage1_information_supplement --data-root DATA_ROOT --output results/stage1-20261007/identity-control-v1 --original results/stage1-20261007/run-v1 --controls-only
+python -m tools.report_stage1 --cycle results/stage1-20261007 --data-root DATA_ROOT
+python -m tools.export_stage1 --data-root DATA_ROOT --run results/stage1-20261007/run-v1 --output results/stage1-20261007/exports-v2
+python -m pytest -q
+python -m build
+```
+
+Qualification must precede fitting. Completed directories refuse reuse; use a new cycle directory with sibling qualification for another execution. Reports use saved results and development identities without historical evaluator outcomes. Interrupted `report-v1` and dtype-mismatched `exports-v1` are retained beside corrected outputs. Arrays/checkpoints/source snapshots remain local; compact results, checksums, tables and SVG/PDF figures are versioned.
+
+Compile with `python tools/build_paper.py --tectonic PATH --cache-directory CACHE`. Build and compile an extracted local source bundle with `python tools/build_arxiv_submission.py --config configs/releases/v0.1.2-dev1.json --tectonic PATH --cache-directory CACHE --output releases/stage1-local-source.zip`. These commands do not submit or publish anything.
+
 These instructions preserve the registered scientific workflows. Release-specific status is governed by the root README; historical counts and audit paths identify their original cutoffs. Install this checkout first so the flattened source resolves as the `opal` package.
 
 Opal predicts population-mean effects of an unmeasured unordered intervention
@@ -79,7 +102,7 @@ guide](evidence.md) records download, GPU environment, training and
 estimated-single commands. The [model card](evidence.md) defines
 supported inputs and limitations; `results/next/research-ledger-v2` and
 `results/next/cycle-v7` retain the compact evidence. The suite currently passes
-the historical 104-test suite, and installed-wheel checks reproduce observed and estimated
+the historical 117-test baseline, and installed-wheel checks reproduce observed and estimated
 predictions within `7e-15`. The [manuscript](../paper/main.tex) and its
 [compiled PDF](../paper/main.pdf) include the new findings as a separate amendment.
 
@@ -91,7 +114,7 @@ experiments use Python 3.14.0 and the versions in `requirements.txt`.
 ```powershell
 python -m venv .venv
 .venv/Scripts/python.exe -m pip install -r requirements.txt
-.venv/Scripts/python.exe -m pip install -e ".[data,dev]"
+.venv/Scripts/python.exe -m pip install -e ".[data,dev,research]"
 .venv/Scripts/python.exe -m pytest -q --basetemp=.pytest-tmp
 .venv/Scripts/python.exe main.py
 .venv/Scripts/python.exe main.py reproduce --config configs/experiments/synthetic.json
@@ -196,8 +219,7 @@ The first build retrieves TeX resources into a workspace cache; later builds reu
 them. No system TeX installation is performed. Compiler input and PDF hashes are
 in `paper/build_manifest.json`. Rendered pages were inspected for layout.
 
-See `docs/protocol_amendments.md` for changes from the initial specification and
-`docs/progress.md` for evidence-based completion status. The MIT software license
+See `docs/evidence.md` for amendments and evidence-based completion status. The MIT software license
 does not relicense source datasets or external methods.
 
 ## Joint uncertainty and retuned learning curves

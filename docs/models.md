@@ -1,5 +1,9 @@
 # Prepared model references
 
+The 0.1.2.dev1 successor adds a pure-sum option to the existing neural correction and response-source exclusion checks across fitting, preprocessing, pretraining and calibration. It retains the state/context implementations and original schedules. None of the new pair or learned-state components passed the matched development gate, so historical reference models remain the practical references.
+
+Local `results/stage1-20261007/exports-v2/` contains last-outer-fold inner-selected shared/pair audit ensembles for engineering verification, not newly validated models. Scored predictions replay exactly after matching float64 preprocessing; fitted-weight restoration agrees within `4.45e-16`. `exports-v1` remains as the superseded float32 replay with Norman drift around `2.44e-7`. These genetic exports and their reference banks remain local. No chemical identity transfer, independent joint context transfer, biological interaction recovery or calibrated OOD interval is established.
+
 The planned 0.1.1 references are residual kernels. Publication is paused; current local exports are for review. They predict population-mean effects from measured singles on the fixed assay scale and exact gene order in their manifests. They don't support arbitrary unseen interventions or arbitrary biological states.
 
 | Directory in model archive | Scope | Data terms |
