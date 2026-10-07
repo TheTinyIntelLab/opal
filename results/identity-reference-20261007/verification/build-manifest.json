@@ -1,0 +1,36 @@
+{
+  "all_plan_scientific_requirements_complete": false,
+  "annotation_gates": "identity and target class both failed",
+  "artifacts": {
+    "paper/main.pdf": {
+      "bytes": 455788,
+      "sha256": "d8bcb7d0307bf1fc84f4f714405b82c594bb46a4e8ecdf3b98b885ed11a4f42a"
+    },
+    "releases/identity-reference-0.1.2-dev3-source-v1.zip": {
+      "bytes": 404714,
+      "sha256": "5914c557db74bd3fb8e1d481bed98c10e8ee34de4fa07bd4bc6fc1bb7a693457"
+    },
+    "releases/identity-reference-build-v1/opal_research-0.1.2.dev3-py3-none-any.whl": {
+      "bytes": 96725,
+      "sha256": "6d6d5cd5145e0c8209d9a37cef6526ce4649f938bbd73137eabc0bef28b8c3f6"
+    },
+    "releases/identity-reference-build-v1/opal_research-0.1.2.dev3.tar.gz": {
+      "bytes": 353548,
+      "sha256": "a38e3c5f91e89f01daa210ff88260f592f889b49428b1052115cd7f57b6be8a7"
+    },
+    "results/identity-reference-20261007/verification/frozen-identity-code.zip": {
+      "bytes": 7987,
+      "sha256": "ffecfe0228a7a6e345239dac6c8e5aa945d64ce3b87d68d69798684887db7b04"
+    }
+  },
+  "installed": "ten restored models and synthetic CLI outside checkout; dependencies reused",
+  "paper": "32 pages rendered and inspected; extracted 54-file source bundle compiled",
+  "scientific_code_commit": "bfaeef7",
+  "tests": {
+    "files": 15,
+    "passed": 133,
+    "seconds": 11.49
+  },
+  "verified_input_commit": "dc9d835da693297ed97131814bd881418df06999",
+  "version": "0.1.2.dev3"
+}
