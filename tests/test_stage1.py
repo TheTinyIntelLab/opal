@@ -53,3 +53,18 @@ def test_cross_reference_component_accounting():
     main, measured, response, residual = rng.normal(size=(4, 5, 3))
     r = error_decomposition(main + residual, main, measured, response)
     assert r['total_mse'] == pytest.approx(r['main_effect_mse'] + r['residual_mse'] + r['error_cross_term'])
+
+
+def test_shared_only_export_restores_fitted_weights(tmp_path):
+    from opal.training import fit, predict
+    from opal.inference import export_members, Predictor
+    rng = np.random.default_rng(8)
+    singles = rng.normal(size=(5, 7))
+    pairs = np.array([[0, 1], [0, 2], [1, 3], [2, 4]])
+    response = singles[pairs].sum(1) + .1
+    model = fit(dict(family='sum_network', shared_only=True, width=4, rank=2, embedding=3, epochs=3), singles, pairs, response)
+    data = dict(singles=singles, pairs=pairs, targets=np.array(list('ABCDE')), genes=np.array([f'g{i}' for i in range(7)]), control=np.zeros(7))
+    export_members([model], data, tmp_path, dict(context='source', scale='log2'))
+    restored = Predictor(tmp_path)
+    np.testing.assert_array_equal(restored.predict('A', 'B')['effect'], predict(model, pairs[:1])[0])
+    np.testing.assert_array_equal(restored.predict('A', 'B')['effect'], restored.predict('B', 'A')['effect'])

@@ -17,9 +17,11 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--tectonic')
+    parser.add_argument('--config', type=Path, default=ROOT / 'configs/releases/v0.1.1.json')
+    parser.add_argument('--cache-directory', type=Path)
     args = parser.parse_args()
     paper = ROOT / 'paper'
-    config = json.loads((ROOT / 'configs/releases/v0.1.1.json').read_text())
+    config = json.loads(args.config.read_text())
     needed = {'main.tex', 'arxiv.sty', 'references.bib', 'main.bbl'}
     for name in ['main.tex', *[p.relative_to(paper).as_posix() for p in (paper / 'evidence').glob('*.tex')]]:
         text = (paper / name).read_text()
@@ -49,7 +51,7 @@ def main():
         archive.extractall(outside)
     binary = args.tectonic or shutil.which('tectonic') or str(ROOT / 'tools/vendor/tectonic.exe')
     env = dict(os.environ)
-    env['TECTONIC_CACHE_DIR'] = str(ROOT / 'tools/vendor/tectonic-cache')
+    env['TECTONIC_CACHE_DIR'] = str(args.cache_directory or ROOT / 'tools/vendor/tectonic-cache')
     compiled = subprocess.run([binary, '--untrusted', '--keep-logs', 'main.tex'], cwd=outside,
                               env=env, capture_output=True, text=True)
     if compiled.returncode:

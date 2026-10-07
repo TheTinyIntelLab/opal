@@ -20,6 +20,8 @@ def main_track(bank, output):
     seeds = [11, 29]; all_pred = {}; ys, cis, tis, searches, exclusions = [], [], [], [], []
     permutation = np.random.default_rng(20261008).permutation(len(groups))
     for held in np.unique(groups):
+        if time.perf_counter() - started > 1800 or psutil.Process().memory_info().rss > 8 * 1024 ** 3:
+            raise RuntimeError('Frozen main wall-time or memory cap exceeded')
         source, query = np.flatnonzero(groups != held), np.flatnonzero(groups == held)
         validate_isolation(source, query, groups)
         ci, ti = query_rows(a['available'], source, query)
@@ -95,6 +97,8 @@ def identity_control(data, output, kind, config, original):
         x = np.concatenate(blocks, 1) * np.sqrt(sum(v.shape[1] for v in blocks))
         return feature_candidates(x, train, config, standardized=True)
     for f, (train, query) in enumerate(splits(data, kind, config)):
+        if time.perf_counter() - started > 1800 or psutil.Process().memory_info().rss > 8 * 1024 ** 3:
+            raise RuntimeError('Frozen control wall-time or memory cap exceeded')
         inner = inner_splits(data, train, kind, config, f); scores = []
         for candidate, _ in menu(train):
             errors, sizes = [], []
@@ -124,13 +128,14 @@ def identity_control(data, output, kind, config, original):
 
 def main():
     p = argparse.ArgumentParser(); p.add_argument('--data-root', type=Path, required=True); p.add_argument('--output', type=Path, required=True)
-    p.add_argument('--original', type=Path, required=True); p.add_argument('--main-only', action='store_true'); args = p.parse_args()
+    p.add_argument('--original', type=Path, required=True); mode = p.add_mutually_exclusive_group()
+    mode.add_argument('--main-only', action='store_true'); mode.add_argument('--controls-only', action='store_true'); args = p.parse_args()
     args.output.mkdir(parents=True, exist_ok=False)
     write_json(args.output / 'protocol.json', {'registration_sha256': sha256(ROOT / 'configs/experiments/stage1-information-supplement-20261007.json')})
     import json
     config = json.loads((ROOT / 'configs/experiments/stage1-20261007.json').read_text())
     with threadpool_limits(limits=1):
-        for name in ['emeraldbay-pilot-v1', 'sciplex-state-v1']:
+        for name in ([] if args.controls_only else ['emeraldbay-pilot-v1', 'sciplex-state-v1']):
             bank = ReferenceBank.load(args.data_root / 'prepared' / name)
             main_track(bank, args.output / name / 'main')
         if not args.main_only:

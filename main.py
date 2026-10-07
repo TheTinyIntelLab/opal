@@ -12,6 +12,10 @@ if __name__ == "__main__":
     elif sys.argv[1] == 'next':
         from tools.run_next import main as next_main
         next_main(sys.argv[2:])
+    elif sys.argv[1] == 'stage1':
+        from tools.run_stage1 import main as stage1_main
+        sys.argv = [sys.argv[0], *sys.argv[2:]]
+        stage1_main()
     elif sys.argv[1] == 'ceiling':
         from tools.build_ceiling import main as ceiling_main
         ceiling_main(sys.argv[2:])
