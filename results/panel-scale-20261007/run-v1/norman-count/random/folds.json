@@ -1,0 +1,2559 @@
+[
+  {
+    "fold": 0,
+    "inner": [
+      {
+        "query": [
+          5,
+          8,
+          10,
+          11,
+          13,
+          15,
+          19,
+          24,
+          26,
+          27,
+          30,
+          34,
+          39,
+          41,
+          42,
+          46,
+          47,
+          52,
+          57,
+          64,
+          65,
+          66,
+          68,
+          69,
+          70,
+          74,
+          78,
+          79,
+          87
+        ],
+        "train": [
+          0,
+          2,
+          3,
+          4,
+          12,
+          14,
+          17,
+          18,
+          20,
+          21,
+          22,
+          28,
+          29,
+          32,
+          33,
+          48,
+          50,
+          53,
+          54,
+          55,
+          59,
+          60,
+          72,
+          73,
+          77,
+          81,
+          83,
+          85,
+          86
+        ]
+      },
+      {
+        "query": [
+          0,
+          2,
+          3,
+          4,
+          12,
+          14,
+          17,
+          18,
+          20,
+          21,
+          22,
+          28,
+          29,
+          32,
+          33,
+          48,
+          50,
+          53,
+          54,
+          55,
+          59,
+          60,
+          72,
+          73,
+          77,
+          81,
+          83,
+          85,
+          86
+        ],
+        "train": [
+          5,
+          8,
+          10,
+          11,
+          13,
+          15,
+          19,
+          24,
+          26,
+          27,
+          30,
+          34,
+          39,
+          41,
+          42,
+          46,
+          47,
+          52,
+          57,
+          64,
+          65,
+          66,
+          68,
+          69,
+          70,
+          74,
+          78,
+          79,
+          87
+        ]
+      }
+    ],
+    "query": [
+      1,
+      6,
+      7,
+      9,
+      16,
+      23,
+      25,
+      31,
+      35,
+      36,
+      37,
+      38,
+      40,
+      43,
+      44,
+      45,
+      49,
+      51,
+      56,
+      58,
+      61,
+      62,
+      63,
+      67,
+      71,
+      75,
+      76,
+      80,
+      82,
+      84
+    ],
+    "search": {
+      "global_correction": [
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 2.5379265484207547
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 1.917066095876084
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 1.1568318176091659
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 0.9817313359828606
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 1.3170904393158382
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 1.4660742979124302
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 1.3653171756959244
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 1.3661898296475845
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 1.3743008443625713
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 1.4203065873720082
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 1.4762751532368639
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 1.488797005466698
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 0.9971498789926727
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 0.9989329016125823
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 1.0198352493856901
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 1.18599025182503
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 1.4233166942525248
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 1.4826755482468057
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 1.1050203316197018
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 1.0618793620306797
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 0.9643986854445366
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 1.1759550635247953
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 1.4304661546912647
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 1.4836820966897541
+        }
+      ],
+      "mean_residual": [
+        {
+          "config": {
+            "alpha": 1.0
+          },
+          "mse": 1.4903645276348094
+        }
+      ],
+      "mixed": [
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25
+          },
+          "mse": 1.3937136741929637
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 0.25
+          },
+          "mse": 1.394427118857253
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 0.25
+          },
+          "mse": 1.4010262042183181
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 0.25
+          },
+          "mse": 1.4374912057947251
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 0.25
+          },
+          "mse": 1.4799699222986735
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 0.25
+          },
+          "mse": 1.4892139178627932
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1
+          },
+          "mse": 1.0406438967601788
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1
+          },
+          "mse": 1.0429276069615974
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1
+          },
+          "mse": 1.0658982390875587
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1
+          },
+          "mse": 1.2200098678490532
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1
+          },
+          "mse": 1.4313679367114263
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1
+          },
+          "mse": 1.4836146490171185
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 4
+          },
+          "mse": 0.9969445482148586
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 4
+          },
+          "mse": 0.9756583640434469
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.9393621514781773
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 4
+          },
+          "mse": 1.1775642279933363
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 4
+          },
+          "mse": 1.4310413485309965
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 4
+          },
+          "mse": 1.4837328613152327
+        }
+      ],
+      "pair_product": [
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25
+          },
+          "mse": 1.460950281919056
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 0.25
+          },
+          "mse": 1.4611917926677611
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 0.25
+          },
+          "mse": 1.4634058250654218
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 0.25
+          },
+          "mse": 1.4750455396454263
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 0.25
+          },
+          "mse": 1.4874859937340812
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 0.25
+          },
+          "mse": 1.490048958127948
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1
+          },
+          "mse": 1.1592001875068123
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1
+          },
+          "mse": 1.1611443586707209
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1
+          },
+          "mse": 1.17966842142493
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1
+          },
+          "mse": 1.293355499741362
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1
+          },
+          "mse": 1.4469934653932215
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1
+          },
+          "mse": 1.4853844740067996
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 4
+          },
+          "mse": 0.9443451700035169
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 4
+          },
+          "mse": 0.9353401029991655
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.9353062793815744
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 4
+          },
+          "mse": 1.1837245188869523
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 4
+          },
+          "mse": 1.432036376065326
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 4
+          },
+          "mse": 1.4838074232327048
+        }
+      ],
+      "single_sum": [
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25
+          },
+          "mse": 2.1224637959069717
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 0.25
+          },
+          "mse": 1.7315280170817142
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 0.25
+          },
+          "mse": 1.1522907361513814
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 0.25
+          },
+          "mse": 1.0854743147702874
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 0.25
+          },
+          "mse": 1.3879760525795348
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 0.25
+          },
+          "mse": 1.478344137826362
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1
+          },
+          "mse": 2.080443075391549
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1
+          },
+          "mse": 1.5730314727887482
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1
+          },
+          "mse": 1.0237323330911867
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1
+          },
+          "mse": 1.083058042296882
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1
+          },
+          "mse": 1.399242701778868
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1
+          },
+          "mse": 1.479822396381409
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 4
+          },
+          "mse": 1.9275312654852375
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 4
+          },
+          "mse": 1.2626008793039074
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 0.904811544236204
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 4
+          },
+          "mse": 1.2108297539913335
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 4
+          },
+          "mse": 1.4444982706029823
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 4
+          },
+          "mse": 1.485403160377874
+        }
+      ]
+    },
+    "selected_simple_family": "single_sum",
+    "selection": {
+      "global_correction": {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 4,
+          "kernel": "rbf"
+        },
+        "mse": 0.9643986854445366
+      },
+      "mean_residual": {
+        "config": {
+          "alpha": 1.0
+        },
+        "mse": 1.4903645276348094
+      },
+      "mixed": {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 4
+        },
+        "mse": 0.9393621514781773
+      },
+      "pair_product": {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 4
+        },
+        "mse": 0.9353062793815744
+      },
+      "single_sum": {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 4
+        },
+        "mse": 0.904811544236204
+      }
+    },
+    "train": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30,
+      32,
+      33,
+      34,
+      39,
+      41,
+      42,
+      46,
+      47,
+      48,
+      50,
+      52,
+      53,
+      54,
+      55,
+      57,
+      59,
+      60,
+      64,
+      65,
+      66,
+      68,
+      69,
+      70,
+      72,
+      73,
+      74,
+      77,
+      78,
+      79,
+      81,
+      83,
+      85,
+      86,
+      87
+    ]
+  },
+  {
+    "fold": 1,
+    "inner": [
+      {
+        "query": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          10,
+          16,
+          23,
+          25,
+          29,
+          30,
+          31,
+          32,
+          35,
+          39,
+          42,
+          44,
+          47,
+          49,
+          51,
+          53,
+          59,
+          67,
+          68,
+          70,
+          72,
+          73,
+          77,
+          82,
+          83
+        ],
+        "train": [
+          5,
+          8,
+          9,
+          18,
+          19,
+          20,
+          28,
+          36,
+          37,
+          38,
+          40,
+          43,
+          45,
+          46,
+          56,
+          57,
+          58,
+          61,
+          62,
+          63,
+          69,
+          71,
+          74,
+          75,
+          76,
+          78,
+          79,
+          80,
+          84
+        ]
+      },
+      {
+        "query": [
+          5,
+          8,
+          9,
+          18,
+          19,
+          20,
+          28,
+          36,
+          37,
+          38,
+          40,
+          43,
+          45,
+          46,
+          56,
+          57,
+          58,
+          61,
+          62,
+          63,
+          69,
+          71,
+          74,
+          75,
+          76,
+          78,
+          79,
+          80,
+          84
+        ],
+        "train": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          10,
+          16,
+          23,
+          25,
+          29,
+          30,
+          31,
+          32,
+          35,
+          39,
+          42,
+          44,
+          47,
+          49,
+          51,
+          53,
+          59,
+          67,
+          68,
+          70,
+          72,
+          73,
+          77,
+          82,
+          83
+        ]
+      }
+    ],
+    "query": [
+      0,
+      2,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      21,
+      22,
+      24,
+      26,
+      27,
+      33,
+      34,
+      41,
+      48,
+      50,
+      52,
+      54,
+      55,
+      60,
+      64,
+      65,
+      66,
+      81,
+      85,
+      86,
+      87
+    ],
+    "search": {
+      "global_correction": [
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 2.366798917229086
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 2.2723671270498382
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 1.8987564807692503
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 1.4012484106650727
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 1.2937357715641529
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 1.336860271948743
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 1.3027177767060627
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 1.3030133277601774
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 1.3057671288481694
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 1.3215754075060897
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 1.3410716081634024
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 1.3454495519218719
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 1.2801523655377804
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 1.279215096598801
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 1.2725128972239117
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 1.2700790186227846
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 1.3218582396477172
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 1.3430306137082364
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 1.6095588898475577
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 1.581382806607345
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 1.4442532381652506
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 1.2853489232240494
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 1.3231686921834183
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 1.3432615757077322
+        }
+      ],
+      "mean_residual": [
+        {
+          "config": {
+            "alpha": 1.0
+          },
+          "mse": 1.345997656893735
+        }
+      ],
+      "mixed": [
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25
+          },
+          "mse": 1.3125062928431113
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 0.25
+          },
+          "mse": 1.3127525868784982
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 0.25
+          },
+          "mse": 1.31503228840183
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 0.25
+          },
+          "mse": 1.327665552790879
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 0.25
+          },
+          "mse": 1.3423994000094863
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 0.25
+          },
+          "mse": 1.345599603059095
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1
+          },
+          "mse": 1.265093938275811
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1
+          },
+          "mse": 1.2647323318681738
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1
+          },
+          "mse": 1.2623447122221538
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1
+          },
+          "mse": 1.270921845774729
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1
+          },
+          "mse": 1.3235780139454592
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1
+          },
+          "mse": 1.3432691332039735
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 4
+          },
+          "mse": 1.5647490896146372
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 4
+          },
+          "mse": 1.5451240259520864
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 1.438223471369247
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 4
+          },
+          "mse": 1.2931752694063094
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 4
+          },
+          "mse": 1.3232314307913433
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 4
+          },
+          "mse": 1.3432060498712837
+        }
+      ],
+      "pair_product": [
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25
+          },
+          "mse": 1.3366976815652796
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 0.25
+          },
+          "mse": 1.33677600369179
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 0.25
+          },
+          "mse": 1.3374923982043858
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 0.25
+          },
+          "mse": 1.3412124244487291
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 0.25
+          },
+          "mse": 1.3451076107561328
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 0.25
+          },
+          "mse": 1.3459002830451197
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1
+          },
+          "mse": 1.2612131739785724
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1
+          },
+          "mse": 1.261296980585063
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1
+          },
+          "mse": 1.2624249027272212
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1
+          },
+          "mse": 1.2793456760949478
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1
+          },
+          "mse": 1.3271618737549071
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1
+          },
+          "mse": 1.3437220263228886
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 4
+          },
+          "mse": 1.53731750130852
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 4
+          },
+          "mse": 1.5231396585525625
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 1.439808318345244
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 4
+          },
+          "mse": 1.3077714011293096
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 4
+          },
+          "mse": 1.3237110874729778
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 4
+          },
+          "mse": 1.3431344824968403
+        }
+      ],
+      "single_sum": [
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25
+          },
+          "mse": 2.142131508411315
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 0.25
+          },
+          "mse": 2.057257657336798
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 0.25
+          },
+          "mse": 1.673517665201209
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 0.25
+          },
+          "mse": 1.2798902984325342
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 0.25
+          },
+          "mse": 1.3089820104571128
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 0.25
+          },
+          "mse": 1.341333788850685
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1
+          },
+          "mse": 2.204512126783555
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1
+          },
+          "mse": 2.094930503975634
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1
+          },
+          "mse": 1.6633054196501893
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1
+          },
+          "mse": 1.2653492683243115
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1
+          },
+          "mse": 1.3021470192229685
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1
+          },
+          "mse": 1.3403595970581197
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 4
+          },
+          "mse": 2.3574632385243732
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 4
+          },
+          "mse": 2.1016792604956134
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 1.5503607538666007
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 4
+          },
+          "mse": 1.2771829729843056
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 4
+          },
+          "mse": 1.3256260235224193
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 4
+          },
+          "mse": 1.343659928298285
+        }
+      ]
+    },
+    "selected_simple_family": "single_sum",
+    "selection": {
+      "global_correction": {
+        "config": {
+          "alpha": 1,
+          "bandwidth": 1,
+          "kernel": "rbf"
+        },
+        "mse": 1.2700790186227846
+      },
+      "mean_residual": {
+        "config": {
+          "alpha": 1.0
+        },
+        "mse": 1.345997656893735
+      },
+      "mixed": {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1
+        },
+        "mse": 1.2623447122221538
+      },
+      "pair_product": {
+        "config": {
+          "alpha": 0.001,
+          "bandwidth": 1
+        },
+        "mse": 1.2612131739785724
+      },
+      "single_sum": {
+        "config": {
+          "alpha": 1,
+          "bandwidth": 1
+        },
+        "mse": 1.2653492683243115
+      }
+    },
+    "train": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      16,
+      18,
+      19,
+      20,
+      23,
+      25,
+      28,
+      29,
+      30,
+      31,
+      32,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      49,
+      51,
+      53,
+      56,
+      57,
+      58,
+      59,
+      61,
+      62,
+      63,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      82,
+      83,
+      84
+    ]
+  },
+  {
+    "fold": 2,
+    "inner": [
+      {
+        "query": [
+          0,
+          2,
+          6,
+          7,
+          13,
+          15,
+          16,
+          17,
+          21,
+          22,
+          23,
+          25,
+          26,
+          27,
+          33,
+          35,
+          38,
+          44,
+          50,
+          55,
+          56,
+          64,
+          65,
+          66,
+          71,
+          80,
+          81,
+          82,
+          84,
+          85
+        ],
+        "train": [
+          1,
+          9,
+          11,
+          12,
+          14,
+          24,
+          31,
+          34,
+          36,
+          37,
+          40,
+          41,
+          43,
+          45,
+          48,
+          49,
+          51,
+          52,
+          54,
+          58,
+          60,
+          61,
+          62,
+          63,
+          67,
+          75,
+          76,
+          86,
+          87
+        ]
+      },
+      {
+        "query": [
+          1,
+          9,
+          11,
+          12,
+          14,
+          24,
+          31,
+          34,
+          36,
+          37,
+          40,
+          41,
+          43,
+          45,
+          48,
+          49,
+          51,
+          52,
+          54,
+          58,
+          60,
+          61,
+          62,
+          63,
+          67,
+          75,
+          76,
+          86,
+          87
+        ],
+        "train": [
+          0,
+          2,
+          6,
+          7,
+          13,
+          15,
+          16,
+          17,
+          21,
+          22,
+          23,
+          25,
+          26,
+          27,
+          33,
+          35,
+          38,
+          44,
+          50,
+          55,
+          56,
+          64,
+          65,
+          66,
+          71,
+          80,
+          81,
+          82,
+          84,
+          85
+        ]
+      }
+    ],
+    "query": [
+      3,
+      4,
+      5,
+      8,
+      10,
+      18,
+      19,
+      20,
+      28,
+      29,
+      30,
+      32,
+      39,
+      42,
+      46,
+      47,
+      53,
+      57,
+      59,
+      68,
+      69,
+      70,
+      72,
+      73,
+      74,
+      77,
+      78,
+      79,
+      83
+    ],
+    "search": {
+      "global_correction": [
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 2.9983617876595146
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 2.6361758619943507
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 2.039811348842034
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 1.9075161125274984
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 1.9991207682358338
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1.0,
+            "kernel": "ridge"
+          },
+          "mse": 2.083280669267981
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 2.063368732132632
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 2.0636495542046713
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 2.0662420282192158
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 2.0803388628935338
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 2.096115691233601
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 0.25,
+            "kernel": "rbf"
+          },
+          "mse": 2.099443403528872
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 1.9881853677738444
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 1.9876379032922291
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 1.986996149322811
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 2.0173431713473806
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 2.079365370646003
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1,
+            "kernel": "rbf"
+          },
+          "mse": 2.0974491083527247
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 2.092499231085763
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 2.0568779079286394
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 1.9762124728550061
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 1.97667411528254
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 2.0691793933158014
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 4,
+            "kernel": "rbf"
+          },
+          "mse": 2.096268736443667
+        }
+      ],
+      "mean_residual": [
+        {
+          "config": {
+            "alpha": 1.0
+          },
+          "mse": 2.099854840311629
+        }
+      ],
+      "mixed": [
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25
+          },
+          "mse": 2.073110566647243
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 0.25
+          },
+          "mse": 2.0733261575489492
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 0.25
+          },
+          "mse": 2.075306819201502
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 0.25
+          },
+          "mse": 2.085824675994397
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 0.25
+          },
+          "mse": 2.0972065905882094
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 0.25
+          },
+          "mse": 2.0995642923327464
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1
+          },
+          "mse": 2.008793243100316
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1
+          },
+          "mse": 2.0088139848788327
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1
+          },
+          "mse": 2.010460757517487
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1
+          },
+          "mse": 2.0363188813887563
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1
+          },
+          "mse": 2.084817365806868
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1
+          },
+          "mse": 2.0981174765095756
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 4
+          },
+          "mse": 2.0367959227543944
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 4
+          },
+          "mse": 2.0219355028941055
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 1.9869744090981174
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 4
+          },
+          "mse": 1.9984414809471696
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 4
+          },
+          "mse": 2.073746733996703
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 4
+          },
+          "mse": 2.096766920551432
+        }
+      ],
+      "pair_product": [
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25
+          },
+          "mse": 2.0950696904457877
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 0.25
+          },
+          "mse": 2.095111219393244
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 0.25
+          },
+          "mse": 2.0954900641739655
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 0.25
+          },
+          "mse": 2.0974286599886094
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 0.25
+          },
+          "mse": 2.099409124588114
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 0.25
+          },
+          "mse": 2.099806198615865
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1
+          },
+          "mse": 2.0640203968872153
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1
+          },
+          "mse": 2.064154261855355
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1
+          },
+          "mse": 2.065650274659976
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1
+          },
+          "mse": 2.0778778200177146
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1
+          },
+          "mse": 2.095473645074073
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1
+          },
+          "mse": 2.099372762866742
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 4
+          },
+          "mse": 2.0202744164514335
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 4
+          },
+          "mse": 2.015273647766191
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 2.0060782731528506
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 4
+          },
+          "mse": 2.0253461809756987
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 4
+          },
+          "mse": 2.080017715368586
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 4
+          },
+          "mse": 2.0974597614227175
+        }
+      ],
+      "single_sum": [
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 0.25
+          },
+          "mse": 2.461487600796686
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 0.25
+          },
+          "mse": 2.292044333511234
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 0.25
+          },
+          "mse": 1.949762036055913
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 0.25
+          },
+          "mse": 1.9190324737884035
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 0.25
+          },
+          "mse": 2.047095270603922
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 0.25
+          },
+          "mse": 2.0934562177508047
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 1
+          },
+          "mse": 2.6430367302662185
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 1
+          },
+          "mse": 2.379051284708588
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1
+          },
+          "mse": 2.0111989865949176
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 1
+          },
+          "mse": 1.955495207032623
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 1
+          },
+          "mse": 2.057146040284103
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 1
+          },
+          "mse": 2.0946812944313766
+        },
+        {
+          "config": {
+            "alpha": 0.001,
+            "bandwidth": 4
+          },
+          "mse": 2.7340222093949724
+        },
+        {
+          "config": {
+            "alpha": 0.01,
+            "bandwidth": 4
+          },
+          "mse": 2.236184717602158
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 4
+          },
+          "mse": 1.9734378548666345
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "bandwidth": 4
+          },
+          "mse": 1.986904165911407
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "bandwidth": 4
+          },
+          "mse": 2.075890344011238
+        },
+        {
+          "config": {
+            "alpha": 100,
+            "bandwidth": 4
+          },
+          "mse": 2.0971574232219106
+        }
+      ]
+    },
+    "selected_simple_family": "global_correction",
+    "selection": {
+      "global_correction": {
+        "config": {
+          "alpha": 1,
+          "bandwidth": 1.0,
+          "kernel": "ridge"
+        },
+        "mse": 1.9075161125274984
+      },
+      "mean_residual": {
+        "config": {
+          "alpha": 1.0
+        },
+        "mse": 2.099854840311629
+      },
+      "mixed": {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 4
+        },
+        "mse": 1.9869744090981174
+      },
+      "pair_product": {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 4
+        },
+        "mse": 2.0060782731528506
+      },
+      "single_sum": {
+        "config": {
+          "alpha": 1,
+          "bandwidth": 0.25
+        },
+        "mse": 1.9190324737884035
+      }
+    },
+    "train": [
+      0,
+      1,
+      2,
+      6,
+      7,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      31,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      40,
+      41,
+      43,
+      44,
+      45,
+      48,
+      49,
+      50,
+      51,
+      52,
+      54,
+      55,
+      56,
+      58,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      71,
+      75,
+      76,
+      80,
+      81,
+      82,
+      84,
+      85,
+      86,
+      87
+    ]
+  }
+]
