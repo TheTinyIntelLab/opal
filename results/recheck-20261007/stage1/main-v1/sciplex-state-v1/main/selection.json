@@ -1,0 +1,510 @@
+[
+  {
+    "held": "A549",
+    "learned": {
+      "config": {
+        "alpha": 0.01,
+        "epochs": 40,
+        "rank": 16,
+        "width": 16
+      },
+      "mse": 0.10012666591648021
+    },
+    "query": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "search": [
+      {
+        "config": {
+          "kind": "mean"
+        },
+        "mse": 0.09025939454058884
+      },
+      {
+        "config": {
+          "alpha": 0.001,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.17464334345645902
+      },
+      {
+        "config": {
+          "alpha": 0.01,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.17411663411249942
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.1691343875744498
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.13772884405851904
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.09608204197259235
+      },
+      {
+        "config": {
+          "alpha": 100,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.09053585156753297
+      },
+      {
+        "config": {
+          "alpha": 0.001,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.09126241081877147
+      },
+      {
+        "config": {
+          "alpha": 0.01,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.0912359858687913
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.09102213601337472
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.0904360050847932
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.09026900816024137
+      },
+      {
+        "config": {
+          "alpha": 100,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.09026011042021842
+      },
+      {
+        "config": {
+          "alpha": 0.01,
+          "epochs": 40,
+          "rank": 16,
+          "width": 16
+        },
+        "mse": 0.10012666591648021
+      },
+      {
+        "config": {
+          "alpha": 0.01,
+          "epochs": 80,
+          "rank": 16,
+          "width": 16
+        },
+        "mse": 0.10264917414758479
+      }
+    ],
+    "simple": {
+      "config": {
+        "kind": "mean"
+      },
+      "mse": 0.09025939454058884
+    },
+    "source": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "held": "K562",
+    "learned": {
+      "config": {
+        "alpha": 0.01,
+        "epochs": 40,
+        "rank": 16,
+        "width": 16
+      },
+      "mse": 0.10409988956506527
+    },
+    "query": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "search": [
+      {
+        "config": {
+          "kind": "mean"
+        },
+        "mse": 0.09653257464552174
+      },
+      {
+        "config": {
+          "alpha": 0.001,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.18624936639397646
+      },
+      {
+        "config": {
+          "alpha": 0.01,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.1853636565890613
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.17740659010143697
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.13794853233304769
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.10037759093259728
+      },
+      {
+        "config": {
+          "alpha": 100,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.09670248764058433
+      },
+      {
+        "config": {
+          "alpha": 0.001,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.09838844838557304
+      },
+      {
+        "config": {
+          "alpha": 0.01,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.09832218552165217
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.09779689761979256
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.0965609373544802
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.0964799774304496
+      },
+      {
+        "config": {
+          "alpha": 100,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.09652604168277763
+      },
+      {
+        "config": {
+          "alpha": 0.01,
+          "epochs": 40,
+          "rank": 16,
+          "width": 16
+        },
+        "mse": 0.10409988956506527
+      },
+      {
+        "config": {
+          "alpha": 0.01,
+          "epochs": 80,
+          "rank": 16,
+          "width": 16
+        },
+        "mse": 0.10631436135152776
+      }
+    ],
+    "simple": {
+      "config": {
+        "alpha": 10,
+        "kind": "kernel",
+        "rank": 3
+      },
+      "mse": 0.0964799774304496
+    },
+    "source": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "held": "MCF7",
+    "learned": {
+      "config": {
+        "alpha": 0.01,
+        "epochs": 40,
+        "rank": 16,
+        "width": 16
+      },
+      "mse": 0.10536082451192774
+    },
+    "query": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "search": [
+      {
+        "config": {
+          "kind": "mean"
+        },
+        "mse": 0.09692470586950368
+      },
+      {
+        "config": {
+          "alpha": 0.001,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.14811865134786847
+      },
+      {
+        "config": {
+          "alpha": 0.01,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.14777730700280686
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.1445614221905294
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.12471367530557866
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.09959782098409171
+      },
+      {
+        "config": {
+          "alpha": 100,
+          "kind": "ridge",
+          "rank": 3
+        },
+        "mse": 0.09693840243099329
+      },
+      {
+        "config": {
+          "alpha": 0.001,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.09826571300060101
+      },
+      {
+        "config": {
+          "alpha": 0.01,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.09822201970443635
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.09787369915687144
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.09701712991101619
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.09690366589713335
+      },
+      {
+        "config": {
+          "alpha": 100,
+          "kind": "kernel",
+          "rank": 3
+        },
+        "mse": 0.09692187927629548
+      },
+      {
+        "config": {
+          "alpha": 0.01,
+          "epochs": 40,
+          "rank": 16,
+          "width": 16
+        },
+        "mse": 0.10536082451192774
+      },
+      {
+        "config": {
+          "alpha": 0.01,
+          "epochs": 80,
+          "rank": 16,
+          "width": 16
+        },
+        "mse": 0.10705475927881174
+      }
+    ],
+    "simple": {
+      "config": {
+        "alpha": 10,
+        "kind": "kernel",
+        "rank": 3
+      },
+      "mse": 0.09690366589713335
+    },
+    "source": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  }
+]

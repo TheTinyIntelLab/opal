@@ -1,0 +1,363 @@
+{
+  "baseline": "84de7e36eae20531e815be9de5a4cb2fa9b94ce9",
+  "capabilities": {
+    "demonstrated": [
+      "historical predictive corrections and exposed development only"
+    ],
+    "implemented": [
+      "state models",
+      "context kernels",
+      "claim-specific splits",
+      "safe exports"
+    ],
+    "unestablished": [
+      "independent joint transfer",
+      "interaction recovery",
+      "calibrated OOD risk"
+    ]
+  },
+  "dependencies_reused": true,
+  "environment": {
+    "packages": {
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.8",
+      "numpy": "2.4.0",
+      "pytest": "9.0.2",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.16.3",
+      "torch": "2.9.1"
+    },
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python": "3.14.0"
+  },
+  "genetic_protocols": {
+    "chemical-exploratory": {
+      "acceptance_scope": "exploratory_small_matched_suite_not_chemical_release_validation",
+      "context": "A549/chemical/1uM_each/24h/GSE206741",
+      "development_pairs": 4,
+      "eligible_pairs": 7,
+      "normalizer": 1957.0,
+      "outer_seed": 1729,
+      "output_genes": 5972,
+      "qc_report": "data/prepared/chemical-exploratory/qc_report.json",
+      "reuse_terms": "GEO scientific reuse with attribution; raw redistribution terms unspecified",
+      "scale": "log2",
+      "singles": 6,
+      "source_cells": 63430,
+      "source_count_sha256": "95d5dc4b28eb407449b8976f79e89000ec89eee620e5f3b819c8d68aa454dc6e",
+      "source_manifest": "data/prepared/chemical-exploratory/source_manifest.json",
+      "source_manifest_sha256": "c80ee9c97db9d01fe06c0ead63927a26b4f6a5753578d2e5b0bdee8da68679d8",
+      "test_pairs": 3
+    },
+    "norman-count": {
+      "acceptance_scope": "count_derived_observed_single_local_protocol",
+      "context": "K562/CRISPRa/Norman2019",
+      "development_pairs": 88,
+      "eligible_pairs": 126,
+      "normalizer": 14048.0,
+      "outer_seed": 1729,
+      "output_genes": 10623,
+      "qc_report": "data/prepared/norman-count/qc_report.json",
+      "reuse_terms": "CC-BY-4.0, Zenodo 7278143 v1.1",
+      "scale": "count",
+      "singles": 105,
+      "source_cells": 111445,
+      "source_count_sha256": "efde6f5301fe256725dce1d980f37bd96a13481a9a16135515897368e631affc",
+      "source_manifest": "data/prepared/norman-count/source_manifest.json",
+      "source_manifest_sha256": "b5af05c4253bd3e0c2e1ad5e53204815089a45267689ff25343aeef53f0b4760",
+      "test_pairs": 38
+    },
+    "norman-log2": {
+      "acceptance_scope": "count_derived_observed_single_local_protocol",
+      "context": "K562/CRISPRa/Norman2019",
+      "development_pairs": 88,
+      "eligible_pairs": 126,
+      "normalizer": 14048.0,
+      "outer_seed": 1729,
+      "output_genes": 10623,
+      "qc_report": "data/prepared/norman-log2/qc_report.json",
+      "reuse_terms": "CC-BY-4.0, Zenodo 7278143 v1.1",
+      "scale": "log2",
+      "singles": 105,
+      "source_cells": 111445,
+      "source_count_sha256": "efde6f5301fe256725dce1d980f37bd96a13481a9a16135515897368e631affc",
+      "source_manifest": "data/prepared/norman-log2/source_manifest.json",
+      "source_manifest_sha256": "2877749fcf5b7836d82abf1dcb3a6f5dc38aa6927fc89b82dd50719491bf4d43",
+      "test_pairs": 38
+    },
+    "wessels-count": {
+      "acceptance_scope": "count_derived_observed_single_local_protocol",
+      "context": "THP1/Cas13d/Wessels2023",
+      "development_pairs": 40,
+      "eligible_pairs": 58,
+      "normalizer": 10167.0,
+      "outer_seed": 1729,
+      "output_genes": 10590,
+      "qc_report": "data/prepared/wessels-count/qc_report.json",
+      "reuse_terms": "GEO public scientific reuse with original attribution; original deposit redistribution license not specified, do not redistribute raw files.",
+      "scale": "count",
+      "singles": 16,
+      "source_cells": 30707,
+      "source_count_sha256": "8dd92310769c79c352700b6519ae66da28bec717b17006fa6fe3a1197b43a66a",
+      "source_manifest": "data/prepared/wessels-count/source_manifest.json",
+      "source_manifest_sha256": "79131fd9ba21344a70c0928841325837322f7e272f61cf00ebf2379c36bcb2bc",
+      "test_pairs": 18
+    },
+    "wessels-log2": {
+      "acceptance_scope": "count_derived_observed_single_local_protocol",
+      "context": "THP1/Cas13d/Wessels2023",
+      "development_pairs": 40,
+      "eligible_pairs": 58,
+      "normalizer": 10167.0,
+      "outer_seed": 1729,
+      "output_genes": 10590,
+      "qc_report": "data/prepared/wessels-log2/qc_report.json",
+      "reuse_terms": "GEO public scientific reuse with original attribution; original deposit redistribution license not specified, do not redistribute raw files.",
+      "scale": "log2",
+      "singles": 16,
+      "source_cells": 30707,
+      "source_count_sha256": "8dd92310769c79c352700b6519ae66da28bec717b17006fa6fe3a1197b43a66a",
+      "source_manifest": "data/prepared/wessels-log2/source_manifest.json",
+      "source_manifest_sha256": "cc0cb71f8c5d286a29053ef0b1567c41210cb830233bed2233aee759414b9a85",
+      "test_pairs": 18
+    }
+  },
+  "hardware": {
+    "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "fit_device": "cpu; CUDA is available but historical float64 implementation is CPU",
+    "gpu": null,
+    "logical_cores": 28,
+    "platform": "Windows-10-10.0.19045-SP0",
+    "ram_bytes": 34115923968
+  },
+  "resource_exclusions": "No unresolved-license external priors or raw datasets redistributed",
+  "source_order": "qualification completed before successor candidate fitting",
+  "sources": [
+    {
+      "accepted": [
+        "development observed-single pairs"
+      ],
+      "available": true,
+      "exposure": "all previous outcomes exposed; development only",
+      "files": {
+        "preprocessing.json": "e2853656d891e72ca111174dfa068f90b0576c25369034f8eaa06b2e0e642a53",
+        "profile_uncertainty.npz": "15ab8a9ee3890ed57f366876849603c8888f5b6562f43bbdaa36b1b30bc2c410",
+        "profiles.npz": "fb246089a26353c88331bd6a2e72cba3fce441a989e6be8a53370f9ad56d9293",
+        "source_manifest.json": "2877749fcf5b7836d82abf1dcb3a6f5dc38aa6927fc89b82dd50719491bf4d43"
+      },
+      "id": "norman-log2",
+      "independent_cultures_verified": false,
+      "license": "CC-BY-4.0",
+      "missing": [
+        "independent culture mapping",
+        "sealed joint pair/context outcomes",
+        "qualified chemical identity descriptors"
+      ],
+      "sealed_confirmation": false
+    },
+    {
+      "accepted": [
+        "development observed-single pairs"
+      ],
+      "available": true,
+      "exposure": "all previous outcomes exposed; development only",
+      "files": {
+        "preprocessing.json": "3a796710b8f107376dd21b9d619ccde5e0e8b8ffa247716a328304b073d00d93",
+        "profile_uncertainty.npz": "acf3923786a80ec1e08fa7e5f4b9a1af0f504cf04eb6d894c2f30c65a94d49c4",
+        "profiles.npz": "4bf69cefb71006d210b39a2c38441703d3143c9951d623855d4748d97963d20f",
+        "source_manifest.json": "cc0cb71f8c5d286a29053ef0b1567c41210cb830233bed2233aee759414b9a85"
+      },
+      "id": "wessels-log2",
+      "independent_cultures_verified": false,
+      "license": "GEO public scientific reuse; raw redistribution unspecified",
+      "missing": [
+        "independent culture mapping",
+        "sealed joint pair/context outcomes",
+        "qualified chemical identity descriptors"
+      ],
+      "sealed_confirmation": false
+    },
+    {
+      "accepted": [
+        "development observed-single pairs"
+      ],
+      "available": true,
+      "exposure": "all previous outcomes exposed; development only",
+      "files": {
+        "profiles.npz": "ce544e6705ed1dbfbb8d7391f6c19c7b5dd43db848c1a87b0667d42d8d186d57",
+        "protocol.json": "3e6c574c7d57964a9fdbde563eee54cd43fc4abf3b75b4f1b0a9f3ac3b7a49c7",
+        "references.json": "74a19e43e03ab89688691da8ef1b57e7c0e6b22761e60b58cddffe1159450357",
+        "references.npz": "8737c509252ab545ab7b3c9186892f41b9bc941a98617a5247f167850c20b577",
+        "source_audit.json": "843b9c89fb57988afb882bbbe680f82de543edb49e1a3fafcc770873c6a6bf4d"
+      },
+      "id": "emeraldbay-pilot-v1",
+      "independent_cultures_verified": false,
+      "license": "CC-BY-4.0",
+      "missing": [
+        "independent culture mapping",
+        "sealed joint pair/context outcomes",
+        "qualified chemical identity descriptors"
+      ],
+      "sealed_confirmation": false
+    },
+    {
+      "accepted": [
+        "development baseline-only singles"
+      ],
+      "available": true,
+      "exposure": "all previous outcomes exposed; development only",
+      "files": {
+        "references.json": "cd234d5385acac64446ddc9ab9d8570501c3ae36d84a83eee8330da610cbf108",
+        "references.npz": "11d129fc6da5695eb71a3c64034ce1215dc4753012663156634f413f2652e63e",
+        "source_audit.json": "7853574c51ca1b5910efb811f8d225484ba80a35344e8cc10d80bd56e3b97bd5"
+      },
+      "id": "sciplex-state-v1",
+      "independent_cultures_verified": false,
+      "license": "CC-BY-4.0",
+      "missing": [
+        "independent culture mapping",
+        "sealed joint pair/context outcomes",
+        "qualified chemical identity descriptors"
+      ],
+      "sealed_confirmation": false
+    }
+  ],
+  "state_registry": {
+    "schema": "opal-task-source-registry-v1",
+    "scope": "Task-specific qualification; access and checksums do not establish biological confirmation",
+    "sources": [
+      {
+        "accepted_tasks": [
+          "main_context_development",
+          "observed_single_pair_context_development",
+          "estimated_single_pair_context_development"
+        ],
+        "assay": "MOSAIC scRNA-seq; per-cell 10000-library log2 transform then matched-control-relative mean",
+        "baseline": "matched vehicle means; fixed cell-line identities, not treatment-derived clusters",
+        "confounding": "shared study; line identity and baseline state associated; no independently randomized cross-study mapping",
+        "contexts": "eight cell lines; one study/assay; source-cell pooling is not culture replication",
+        "download_access": "public; six previously verified shards retained",
+        "exposure": "all pilot single and held pair results previously exposed; new folds are development only",
+        "gene_panel": "1024 control-selected Ensembl identifiers; declared query-control adaptation",
+        "id": "emeraldbay-pilot",
+        "interventions": "18 exact compound/dose/5-day single identities; 17 genuine pair identities; no efficacy assay supplied",
+        "license": "CC-BY-4.0",
+        "matching": "exact doses and endpoint; controls, singles and pairs matched within line",
+        "pretraining": "none in new models",
+        "rejected_claims": [
+          "independent confirmation",
+          "independent culture precision",
+          "intervention identity transfer",
+          "sequential dynamics"
+        ],
+        "revision": "f2a0be6b02f731553657f0115c345b20bb020ede",
+        "source": "https://huggingface.co/datasets/tahoebio/EmeraldBay",
+        "source_audit": "data/prepared/emeraldbay-pilot-v1/source_audit.json"
+      },
+      {
+        "accepted_tasks": [
+          "main_context_development"
+        ],
+        "assay": "sci-RNA-seq3; sparse raw UMI matrix constructed by documented harmonizer",
+        "baseline": "line/plate-matched vehicle; baseline uses known cell line, never response-derived cell labels",
+        "baseline_reference_strata": 24,
+        "biological_groups": 3,
+        "condition_means": 144,
+        "confounding": "three cell lines in one study; cannot attribute cross-study assay differences to biology",
+        "download_access": "public publisher file; verify MD5 and length before acceptance",
+        "excluded_metadata_cells": 118632,
+        "exposure": "New to local Opal result inventory, already widely used by public methods. All new scores are development.",
+        "id": "sciplex3-corrected",
+        "interventions": "188 drugs at four doses in primary source; bounded new panel uses 24 lexicographically selected shared exact 1000 nM conditions at one endpoint",
+        "license": "CC-BY-4.0",
+        "metadata_limits": "Catalog/reagent identifiers and culture mapping removed; chemical name/dose/time retained. Efficacy is not supplied.",
+        "prepared_cells": 799317,
+        "pretraining": "no external pretrained weights or expression examples",
+        "primary_publication": "https://doi.org/10.1126/science.aax6234",
+        "processing": "https://github.com/sanderlab/scPerturb/blob/master/dataset_processing/scripts/SrivatsanTrapnell2020.py",
+        "publisher_md5": "c9e70629505d98c7ca1a837f62b14e89",
+        "qualification_artifact": "data/prepared/sciplex-state-v1/source_audit.json",
+        "qualification_status": "accepted_development",
+        "qualified_audit": "results/state/sciplex-source-v1/source_audit.json",
+        "rejected_tasks": [
+          "genuine combinations",
+          "independent-study confirmation",
+          "higher order",
+          "sequential treatment"
+        ],
+        "replication": "Rep1/rep2 and well/plate labels preserved; original culture and sample mapping removed. Whole line holdouts group both replicate labels. Nominal duplicate-well sensitivity is measured, without independent-culture precision claims.",
+        "revision": "scPerturb 1.4 corrected release; older 1.3 file not used",
+        "source": "https://zenodo.org/records/13350497",
+        "source_sha256": "603ed16c5e25401c8a7f5bb0b2b045179701017d65dcfc6aeea71722a66cd10a"
+      },
+      {
+        "accepted_tasks": [
+          "previous frozen observed-single procedure test",
+          "exposed diagnostics"
+        ],
+        "aggregation_alternative": "Whole-population versus baseline-defined lineage effects require original phenotype and sorting metadata; current exposed label-conditioned results remain restricted.",
+        "exposure": "Frozen procedure and source-radius tests already exposed and failed; not reopened in this build",
+        "id": "dspin",
+        "publisher_md5": "3aedeecc18b8acb54c7a97ffc3943ef7",
+        "reason": "Published labels are post-treatment. Conditioning on a treatment-dependent lineage can change the population, and batch copies do not create biological replication.",
+        "rejected_claims": [
+          "new independent confirmation",
+          "unbiased pretreatment lineage states",
+          "independent batch replication",
+          "source-radius OOD guarantee"
+        ],
+        "source": "https://data.caltech.edu/records/2cjss-wgh69",
+        "terms": "Local derivatives; public redistribution not cleared"
+      },
+      {
+        "accepted_tasks": [],
+        "exposure": "Widely public benchmark; no local new scores",
+        "id": "kang-ifnb",
+        "inspected_access": "https://exampledata.scverse.org/pertpy/kang_2018.h5ad returned HTTP 403",
+        "labels": "Post-treatment cell-type labels require conditioning review; donor-genotype grouping can avoid that definition",
+        "potential_task": "one-intervention donor main-effect diagnostic",
+        "reason": "Eight pooled lupus donors and one IFN-beta intervention cannot assess diverse intervention representations or combinations. Selected convenience file unavailable; no data accepted.",
+        "source": "https://doi.org/10.1038/nbt.4042"
+      },
+      {
+        "accepted_tasks": [],
+        "checksum_available": true,
+        "exposure": "Existing public benchmark; no local scores",
+        "id": "scperturbench-subset",
+        "reason": "Small processed context benchmark with selected effective perturbations and gene panels; response-dependent selection/preprocessing scope is not qualified for the new raw-count contract. Use corrected raw sci-Plex instead.",
+        "source": "https://zenodo.org/records/14607156"
+      },
+      {
+        "accepted_tasks": [],
+        "confirmation": "not qualified",
+        "id": "replogle-nadig",
+        "potential_task": "genetic single-response context development",
+        "reason": "Existing discovery records do not qualify exact overlapping reagent, exposure, assay and biological-unit contracts across studies. No incompatible-study pooled benchmark constructed.",
+        "remaining": [
+          "pin releases and checksums",
+          "exact guide/target/time overlap",
+          "matched controls and culture records",
+          "external graph and pretraining exposure",
+          "license audit"
+        ],
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9380471/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11244993/"
+        ]
+      },
+      {
+        "accepted_tasks": [
+          "Norman and Wessels existing single-context pair tasks"
+        ],
+        "exposure": "Existing genetic development and held outcomes retained; no old evaluator reopening",
+        "id": "legacy-combination-candidates",
+        "rejected_sources": {
+          "Adamson": "Downloaded original identities lack qualified biological-state mapping; barcode suffixes cannot provide it",
+          "ComboSciPlex": "Only seven locally matched pairs in one context; insufficient crossed-context task",
+          "PDGrapher target sets": "Multitarget compound annotation is not a genuine measured combination of constituent interventions"
+        }
+      }
+    ]
+  }
+}
