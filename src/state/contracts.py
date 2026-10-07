@@ -131,3 +131,39 @@ def registered_split(task, groups, *, pairs=None, interventions=None, doses=None
     if not source.any() or not query.any() or np.any(source & query):
         raise ValueError('Empty or overlapping registered split')
     return np.flatnonzero(source), np.flatnonzero(query), np.flatnonzero(~(source | query))
+
+
+def validate_response_sources(task, stages, *, held_groups=(), held_pairs=(), held_interventions=(),
+                              held_doses=()):
+    """Apply claim-specific exclusions to every response-consuming fitting stage.
+
+    Rows contain biological_group, interventions, dose and response_kind.
+    Query controls and measured singles for observed-reference contracts are
+    explicitly separate from fitting/pretraining/calibration response labels.
+    This validates isolation, not source qualification or sealed exposure.
+    """
+    if task not in TASKS:
+        raise ValueError('Unknown task')
+    pair_keys = {tuple(sorted(p)) for p in held_pairs}
+    observed = task in {'unseen_pair_observed', 'held_partner', 'pair_context_observed', 'joint_pair_context'}
+    for stage, rows in stages.items():
+        if stage not in {'fitting', 'preprocessing', 'pretraining', 'calibration', 'query_references'}:
+            raise ValueError('Undeclared response access stage')
+        for row in rows:
+            identities = tuple(row['interventions'])
+            kind = row['response_kind']
+            if kind not in {'control', 'single', 'pair'} or len(identities) != {'control': 0, 'single': 1, 'pair': 2}[kind]:
+                raise ValueError('Response kind and identities disagree')
+            if stage == 'query_references':
+                if kind == 'control' or (observed and kind == 'single'):
+                    continue
+                raise ValueError('Query response forbidden by information contract')
+            if task in {'main_context', 'pair_context_observed', 'joint_pair_context'} and row['biological_group'] in held_groups:
+                raise ValueError('Held biological state enters response-consuming stage')
+            if task in {'unseen_pair_observed', 'joint_pair_context'} and kind == 'pair' and tuple(sorted(identities)) in pair_keys:
+                raise ValueError('Globally held pair enters response-consuming stage')
+            if task in {'held_partner', 'intervention_identity'} and set(identities) & set(held_interventions):
+                if task == 'intervention_identity' or kind == 'pair':
+                    raise ValueError('Held intervention enters response-consuming stage')
+            if task == 'dose' and row['dose'] in held_doses and kind != 'control':
+                raise ValueError('Held exact dose enters response-consuming stage')
