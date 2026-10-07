@@ -1,0 +1,4 @@
+{
+  "reason": "First guard compared baseline to working tree rather than HEAD; the170 pre-existing unstaged deletions caused an assertion. Corrected audit compares committed trees and separately verifies identical deletion snapshot. No model fits, scores or historical files were changed.",
+  "status": "interrupted_manifest_audit"
+}
