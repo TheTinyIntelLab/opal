@@ -1,0 +1,10 @@
+{
+  "id": "dose-design-20261007-v2",
+  "parent_protocol": "configs/experiments/dose-design-20261007.json",
+  "reason": "Plate-specific curves unavailable: doses randomized across different plates. Initial dose-v1 failed on missingness before candidate scores or outer outcomes.",
+  "amendment": "For each of three cell lines, compound and exact dose, average available plate effect means after each plate's matched vehicle subtraction. Equal plate weights; no unavailable effect becomes zero. Evaluate the common 24-compound four-dose population, 72 profiles per outer dose, 288 total.",
+  "information_contract": "Known compound and biological line, source doses only. Held doses globally excluded. Query vehicle controls remain permitted; shared plate-control dependence is fixed in the conditional compound bootstrap.",
+  "selection_budget_and_menu": "Unchanged from parent; no outer score informed this amendment",
+  "missingness_rule": "Require every selected compound at all four doses in every line; abort rather than silently remove missing query conditions",
+  "confirmation": false
+}

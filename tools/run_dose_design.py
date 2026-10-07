@@ -14,6 +14,7 @@ from opal.state.contracts import registered_split, validate_response_sources
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / 'configs/experiments/dose-design-20261007.json'
+AMENDMENT = ROOT / 'configs/experiments/dose-design-amendment-20261007.json'
 
 
 def dose_predict(x, y, query, config):
@@ -89,6 +90,17 @@ def qualify(raw, output):
 
 def dose_study(prepared, output, qualification):
     started = time.perf_counter(); config = read_json(CONFIG); a = ReferenceBank.load(prepared).arrays
+    source_bank = ReferenceBank.load(prepared)
+    groups = np.array([source_bank.metadata['context_records'][str(c)]['biological_state'] for c in a['contexts']])
+    pooled, available = [], []
+    for group in np.unique(groups):
+        members = np.flatnonzero(groups == group)
+        counts = a['available'][members].sum(0)
+        pooled.append(np.sum(a['singles'][members] * a['available'][members, :, None], axis=0) / np.maximum(counts[:, None], 1))
+        available.append(counts > 0)
+    a = dict(a, singles=np.asarray(pooled), available=np.asarray(available), contexts=np.unique(groups))
+    if not a['available'].all():
+        raise ValueError('Registered common line/compound/dose population has missing effects')
     names = [str(t).split('@')[0] for t in a['targets']]
     doses = np.array([float(str(t).split('@')[1].split('nM')[0]) for t in a['targets']])
     compounds = sorted(set(names)); grid = config['doses_nM']
@@ -149,7 +161,8 @@ def dose_study(prepared, output, qualification):
         writer = csv.DictWriter(f, fieldnames=list(rows[0])); writer.writeheader(); writer.writerows(rows)
     write_json(output / 'results.json', dict(status='completed', evidence_level='exposed development', comparisons=rows,
         elapsed_seconds=time.perf_counter() - started, rss_bytes=psutil.Process().memory_info().rss, configurations=len(menu),
-        protocol_sha256=sha256(CONFIG), qualification_sha256=sha256(qualification), environment=environment(),
+        protocol_sha256=sha256(CONFIG), amendment_sha256=sha256(AMENDMENT), qualification_sha256=sha256(qualification),
+        prepared_arrays_sha256=sha256(prepared / 'references.npz'), environment=environment(),
         uncertainty='Conditional compound bootstrap, fixed shared controls and states; not biological confirmation',
         exclusions=[], query_reference_adaptation='All declared vehicle controls used for gene panel and subtraction; no held-dose effects used in fitting',
         scope='Known compounds and states, estimated main effects at held global doses; no pair, identity or context OOD claim'))
