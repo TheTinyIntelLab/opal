@@ -1,5 +1,20 @@
 # What Opal establishes
 
+## Registered annotation identity continuation, 7 October 2026
+
+The corrected CC-BY-4.0 sci-Plex metadata inherits target/pathway annotations from primary pData. Their constancy was qualified before new candidate scores; a later primary audit verifies zero annotation/condition discrepancies over all 799,317 cells. They remain publisher annotations, with possible mechanism inconsistencies, and supply no structural/scaffold representation. Four global identity folds and four transitive shared-target component folds exclude every query compound outcome at every dose and line from all response-consuming fitting stages.
+
+| Track | Selected simple/class reference MSE | Annotation MSE | Shuffled annotation MSE | Annotation gain | Conditional paired reduction interval |
+| --- | ---: | ---: | ---: | ---: | --- |
+| Compound identity | 0.047102042 | 0.046109565 | 0.047574375 | 2.11% | [-0.001893041, 0.003979285] |
+| Shared target class | 0.047502815 | 0.049027947 | 0.049366706 | -3.21% | [-0.006883099, 0.003308850] |
+
+Neither passes the materiality/positive-lower-bound gate. Nine simple/class-mean candidates and 24 ridge/kernel maps use inner whole-identity/component selection; the shuffled control receives the same 24-map budget. Unknown annotation tokens are explicit, and query effects cannot affect fitted vocabularies or coefficients. All 288 profiles remain per track. Fitting costs 1.16 and 0.96 CPU seconds, with completion working sets 93.36 and 97.24 MB. Compound bootstrap intervals fix shared controls and known lines, excluding biological and selection uncertainty. Saved full searches, condition errors, arrays and decisions are in [`results/identity-reference-20261007/`](../results/identity-reference-20261007/).
+
+Primary pData recovery finds one sample identifier, two replicate labels per line and 48 line/culture control strata. All 680,685 assigned 24-hour cells have culture labels equal to existing plate labels. This identifies randomized treatment-well provenance, not additional independently initiated cultures. The categorical metadata parsing failure is retained in `provenance-v1`; corrected audits are separately versioned. GSE146194 SOFT metadata is now accessible through FTP, replacing the earlier access limitation: all eleven samples are K562 and protocol/sequencing differences don't qualify new pretreatment states. Its separate pair track still needs exact reagent/reference and resource qualification. Local higher-order metadata contains Norman orders zero through two and Wessels two-slot arrays; no genuine triple study is qualified.
+
+The plan's learned component, sealed joint confirmation, empirical biological power, useful risk, active discovery and scaling gates remain closed or unavailable. The next work needs a qualified crossed pair/state corpus or the prospective screen, with independently initiated cultures and sealed outcomes; public source discovery remains bounded, not exhaustive.
+
 ## Registered dose extension and screen precision, 7 October 2026
 
 A metadata-only audit qualifies 24 lexicographic compounds at 10, 100, 1,000 and 10,000 nM across three known sci-Plex lines, at 24 hours. The source is already exposed. Doses occur on different plates, so initial `dose-v1` fails before scoring; its explicit amendment averages matched-control plate effects within each line, retaining all 288 profiles and 512 control-selected genes. Global outer doses are excluded from every response-consuming fitting stage. Query controls remain permitted for panel adaptation and subtraction.

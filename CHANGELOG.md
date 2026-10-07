@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2.dev3, local annotation and provenance successor
+
+Executes qualified publisher-annotation identity and transitive shared-target holdouts with matched shuffled searches. Both gates fail; no new encoder or inference route advances. Recovers and verifies primary sci-Plex metadata, audits one-state GSE146194 coverage, and inventories higher-order metadata without scoring outcomes. Updates the manuscript, evidence and builds while preserving prior scores, failed audits and dev1/dev2 artifacts.
+
 ## 0.1.2.dev2, local dose and precision successor
 
 Qualifies and executes four global sci-Plex dose holdouts with a preserved missingness failure and registered pooling amendment. Both interior doses pass the development screen, both extrapolation doses fail. Adds safe known-compound/state interpolation to the existing state module, exact restored fold exports, and a hypothetical biological-unit precision sensitivity study. Corrects the prospective four-state culture pilot specification. No new pair/state encoder, independent confirmation, calibrated risk or scaling claim is made.

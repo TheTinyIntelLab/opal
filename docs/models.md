@@ -47,3 +47,5 @@ result = model.predict("A549", "(+)-JQ1", 100, endpoint_hours=24)
 ```
 
 Dose values are explicitly nM. Unknown compounds/states, changed endpoints and extrapolation outside source support raise errors. Missing profiles cannot become zero effects. Outputs contain gene order, source doses and a development evidence label; intervals are unavailable. Source effects already include matched vehicle subtraction, so the model returns an effect and does not add a baseline. Safe exports verify schema/checksum and restore every scored interpolation prediction exactly. Each reference is about 0.85 MB; measured batches of 72 predictions take 3.80 and 5.04 milliseconds on the reused CPU environment. This route does not infer chemical identity, new state effects or combinations.
+
+The dev3 annotation study is research tooling, not an additional inference model. Neither identity nor shared-target transfer passes the development screen; publisher annotations do not authorize unsupported compound queries through the dose model. Its support checks and unavailable intervals remain in force.
