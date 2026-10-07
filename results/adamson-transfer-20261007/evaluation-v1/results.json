@@ -1,0 +1,117 @@
+{
+  "aligned_genes": 10423,
+  "backgrounds": 3,
+  "bootstrap_nonempty_draws": 1773,
+  "caveat": "Drug backgrounds alias capture libraries; only three pair identities; modality/study/chemical-background shifts confounded. First local score does not supply powered or sealed pretreatment-state confirmation.",
+  "conditions": 9,
+  "evaluator_sha256": "e9d13f28f72587996d21f5d4230f61fb0ec6125f28cb14d1b243f4b68ff84ac0",
+  "freeze_sha256": "f496c3dbd992363064e05ba00dc82c1dc908c5868c1e83e5fe1a7c57533bfd22",
+  "frozen_selection": {
+    "pair": "mixed",
+    "simple": "global_correction"
+  },
+  "independent_cultures": false,
+  "independent_joint_confirmation": false,
+  "models": {
+    "additive": {
+      "by_background": {
+        "DMSO": 0.001532689297137707,
+        "thapsigargin100nM": 0.0018349538611796051,
+        "tunicamycin4ug-mL": 0.0021620873687671154
+      },
+      "diagnostic_materiality": true,
+      "mse": 0.0018432435090281424,
+      "paired_lower": 0.0008924739935848846,
+      "paired_upper": 0.0012504786851972698,
+      "relative_gain": 0.3689068516252233
+    },
+    "global_correction": {
+      "by_background": {
+        "DMSO": 0.0024642659094284837,
+        "thapsigargin100nM": 0.003083860379150614,
+        "tunicamycin4ug-mL": 0.0032140200622803156
+      },
+      "diagnostic_materiality": false,
+      "mse": 0.002920715450286471,
+      "paired_lower": 0.0,
+      "paired_upper": 0.0,
+      "relative_gain": 0.0
+    },
+    "mean_residual": {
+      "by_background": {
+        "DMSO": 0.0020004576649735317,
+        "thapsigargin100nM": 0.0023654542634394165,
+        "tunicamycin4ug-mL": 0.0026702415759221475
+      },
+      "diagnostic_materiality": true,
+      "mse": 0.002345384501445032,
+      "paired_lower": 0.00029731935203105626,
+      "paired_upper": 0.0007969093448918783,
+      "relative_gain": 0.1969828826649337
+    },
+    "mixed": {
+      "by_background": {
+        "DMSO": 0.002161536800939855,
+        "thapsigargin100nM": 0.0027747240942543557,
+        "tunicamycin4ug-mL": 0.003004631486317931
+      },
+      "diagnostic_materiality": false,
+      "mse": 0.0026469641271707144,
+      "paired_lower": -0.00015502752724448968,
+      "paired_upper": 0.0006782498370519158,
+      "relative_gain": 0.09372748827308941
+    },
+    "pair_product": {
+      "by_background": {
+        "DMSO": 0.002622064536797775,
+        "thapsigargin100nM": 0.0030058361448880486,
+        "tunicamycin4ug-mL": 0.003069026841265272
+      },
+      "diagnostic_materiality": false,
+      "mse": 0.0028989758409836983,
+      "paired_lower": -0.00036911676236562105,
+      "paired_upper": 0.0005781916771598092,
+      "relative_gain": 0.007443247955099541
+    },
+    "selected_pair": {
+      "by_background": {
+        "DMSO": 0.002161536800939855,
+        "thapsigargin100nM": 0.0027747240942543557,
+        "tunicamycin4ug-mL": 0.003004631486317931
+      },
+      "diagnostic_materiality": false,
+      "mse": 0.0026469641271707144,
+      "paired_lower": -0.00015502752724448968,
+      "paired_upper": 0.0006782498370519158,
+      "relative_gain": 0.09372748827308941
+    },
+    "selected_simple": {
+      "by_background": {
+        "DMSO": 0.0024642659094284837,
+        "thapsigargin100nM": 0.003083860379150614,
+        "tunicamycin4ug-mL": 0.0032140200622803156
+      },
+      "diagnostic_materiality": false,
+      "mse": 0.002920715450286471,
+      "paired_lower": 0.0,
+      "paired_upper": 0.0,
+      "relative_gain": 0.0
+    },
+    "single_sum": {
+      "by_background": {
+        "DMSO": 0.002308394756458627,
+        "thapsigargin100nM": 0.002456699988961395,
+        "tunicamycin4ug-mL": 0.002817084408571404
+      },
+      "diagnostic_materiality": false,
+      "mse": 0.0025273930513304756,
+      "paired_lower": -0.00012731352847915553,
+      "paired_upper": 0.000862502990259184,
+      "relative_gain": 0.13466645609637085
+    }
+  },
+  "prediction_sha256": "b39d7cc559a7b6edb537ed66692683aad672c66134865fbadb2bc99cf6c67e16",
+  "status": "completed_external_factorial_feasibility",
+  "uncertainty": "2000 crossed background/target diagnostic bootstrap draws, fixed shared reference means and source selection; no independent cultures or biological-confidence claim",
+  "unique_pairs": 3
+}
