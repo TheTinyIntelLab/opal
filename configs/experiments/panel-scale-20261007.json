@@ -1,0 +1,19 @@
+{
+  "id": "panel-scale-20261007-v1",
+  "hypothesis": "The unfavorable pair-specific development comparison is stable to matched count-scale preparation and source-selected strong/residual-enriched gene panels",
+  "evidence_level": "post-outcome exploratory development; no fresh confirmation",
+  "sources": "Existing qualified genetic count/log2 banks, and saved Stage1 genetic/EmeraldBay fitting predictions. Historical evaluators and calibration blocks excluded.",
+  "information": "Measured exact matched singles, source pair responses for fitting and diagnostic panel selection; query pair responses only for final diagnostic scoring. No external priors or additional neural candidates.",
+  "qualification": "Before candidate scores, verify common target, pair, gene and original development/query identities; matching raw-source hashes, normalizers, QC and control/single gene selection; preserve raw data and unresolved redistribution terms.",
+  "splits": "Reuse the exact three random and three partner Stage1 outer/inner genetic partitions, with seed20261007. Six count folds per source. Existing log2 and EmeraldBay models are not refit or reselected.",
+  "count_menu": {"families": ["mean_residual", "global_correction", "single_sum", "pair_product", "mixed"], "alphas": [0.001,0.01,0.1,1,10,100], "bandwidths": [0.25,1,4]},
+  "reference": "Retain additivity. Source-inner-selected simple chooses mean residual/global correction/summed-single kernel. Count and log raw MSEs are not numerically comparable.",
+  "panels": "For each outer fold, all genes; strong: top ceiling(10% of genes) by mean absolute source pair effect; residual-enriched low-single proxy: source single mean absolute magnitude at or below the gene median, then top ceiling(10% of genes) by mean absolute source residual. Deterministic gene-index tie breaking; no query effect in panel selection. No claim of validated emergent biology.",
+  "technical": "Reconstruct the original full-reference-selected global correction on each disjoint technical half, evaluate against the opposite half on each fixed source panel. Preserve whole shared single/control reference matrices. Report residual error, direction cosine and main/residual/cross-term accounting; frozen QC and full-reference selection prevent biological independence claims.",
+  "partner_reporting": "Recover explicit held target sets from identity-only partner_splits with the original seed; verify saved folds exactly. Separate one/two held-target occurrences, counts, pairwise fold intersection and repeated-query coverage. No average-prediction replacement of the per-occurrence endpoint.",
+  "seeds": {"split": 20261007, "bootstrap": 20261011, "fitting": "deterministic"},
+  "endpoint": "Equal-condition per-occurrence panel MSE, paired crossed-target or whole-state diagnostic intervals; total-gene endpoint remains primary. Count gate at least5% relative improvement and positive diagnostic lower bound, separately per scale/split; panel findings cannot override a primary failure.",
+  "uncertainty": "2000 paired crossed-target/whole-state draws, fixed panels/profiles/shared references and selections; no biological, panel-selection or refitting confidence",
+  "budget": {"seconds_per_count_source": 300, "seconds_total": 900, "rss_bytes": 8589934592, "cpu_threads": 1},
+  "decision": "Report all scales/panels and effects. A favorable count-only development result remains experimental and must survive independent confirmation; no neural grid enlargement or automatic state/risk/scaling advancement."
+}
