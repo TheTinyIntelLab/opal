@@ -1,0 +1,90 @@
+{
+  "all_plan_scientific_requirements_complete": false,
+  "artifacts": {
+    "data/prepared/sciplex-dose-20261007-v1/references.npz": {
+      "bytes": 2676454,
+      "sha256": "8a53d77e4a08bc1ef8b2b63d17c481409406cba47d213c322b448d9998fc27c2"
+    },
+    "paper/main.pdf": {
+      "bytes": 442000,
+      "sha256": "037228c3cd831accceb39cd8c04d8007b04354f56db46cc0de50e0d764c82bdc"
+    },
+    "releases/dose-design-0.1.2-dev2-source-v2.zip": {
+      "bytes": 393537,
+      "sha256": "c2527e199de172fe74cd65548aabc6bb0fc11f511defe7a6ecf138eeb6dcc61f"
+    },
+    "releases/dose-design-build-v2/opal_research-0.1.2.dev2-py3-none-any.whl": {
+      "bytes": 96211,
+      "sha256": "4cd03c495b663e94b9825defd468c7abed85f85a7ac3e74f691314950de4486d"
+    },
+    "releases/dose-design-build-v2/opal_research-0.1.2.dev2.tar.gz": {
+      "bytes": 335824,
+      "sha256": "fd5684bce20420c7ed6d47ec3e4d8265ada9ccf6d55cdfd2c40dd4c247c582f7"
+    },
+    "results/dose-design-20261007/verification/frozen-dose-code.zip": {
+      "bytes": 12716,
+      "sha256": "136d0675eefb73a034477f4008eedabe4ce9328c473f232f996b74d104d9899e"
+    }
+  },
+  "baseline": "84de7e36eae20531e815be9de5a4cb2fa9b94ce9",
+  "build": {
+    "dependencies": "host reuse disclosed",
+    "extracted_source": "52 files compiled locally",
+    "installed_inference": "8 genetic ensembles and 2 dose folds passed",
+    "paper": "30 pages compiled",
+    "sdist": "passed",
+    "svg": "XML and MuPDF rendering checked",
+    "synthetic_cli": "passed outside checkout",
+    "warnings": "Underfull boxes and local Fontconfig configuration; no overfull boxes",
+    "wheel": "passed"
+  },
+  "fitted_exports": "results/dose-design-20261007/report-v1/export-verification.json",
+  "frozen_scientific_code_commit": "0230337",
+  "gates": {
+    "empirical_power": "biological variances missing; hypothetical sensitivity complete",
+    "extrapolation": "both endpoint gates failed",
+    "interpolation": "both interior dose development gates passed",
+    "sealed_joint_confirmation": "unevaluable"
+  },
+  "inputs": {
+    "CITATION.cff": "13dadfd747edd1627e629d414f35cbad9c4e98ff04d1ffc38cdaf4628353536f",
+    "README.md": "fa0409f44021bd77b2081422c54ed3faf4ba8d7dd05188fb1d9beb84ca5216b0",
+    "configs/experiments/dose-design-20261007.json": "9d52dbb8e0db07d3a723939f6c37261c18d5a7c248374426963cf4c80d435f3f",
+    "configs/experiments/dose-design-amendment-20261007.json": "2dfbc9e9c0fe9d0fb5e216f7d3eda67da90a72ca8ce0d8de0b7f045b8dcb67b1",
+    "docs/evidence.md": "837c796e827284cdb39d7d51e61aed4ca0128d6455fd256dc59dd720870917d5",
+    "docs/models.md": "1d5f2d3be7d74a539293884755f3c46907bf6abfb2296d85254ddfb2e0a64987",
+    "docs/reproduction.md": "f776f8970c990fba4469d8b254469dd5b1bf2002e21412c016d07b030ddd496c",
+    "paper/main.tex": "1c47194139197775e2b7c1e7671439ac16d839e7b8f42101d5c81778581ba9b5",
+    "paper/references.bib": "ee5f9e2234c8e5e772f16d5f3694a320630c0e336dec3a1de083a60fc91fa2e1",
+    "pyproject.toml": "c6937c4af727719e0a41d197cf8a8d88a875aab1882a566bc99b3cd1e2d01126",
+    "src/__init__.py": "8f55eff0376b9cbb0477ec43034f244a0fe378055adc6511131af6faa9093a6c",
+    "src/state/models.py": "21f62a13bc2d4b1920ecf4e586429821c0d4cba7c47891e09ef3a70b60e54d2f",
+    "tools/prepare_state_source.py": "2250e9d36ec728477b75e606bcf40073bcd76395ec5ab22ee0dd572d33e853f3",
+    "tools/report_dose_design.py": "046c1f18fd7f053d2e8a74b33872e68c7b84b9bd00194947ca6a073dd8ba4c9f",
+    "tools/run_dose_design.py": "7a1e7f29621a09d9c5168d56b2e3072ace183a442c853242390af60a00eb37a4",
+    "tools/verify_stage1_build.py": "9c888fcd6c9918649d7d29eab3f0cee07a4e2f60728ce52d0ee89334440e47a6"
+  },
+  "installed_verification": "results/dose-design-20261007/build-verification-v2/verification.json",
+  "original_status_sha256": "238d828a11a4044f38d619e2a2cadfa0eaf95f597a8229e1dd06f55287f5cfeb",
+  "original_tracked_deletions": 170,
+  "preservation": "historical numerical records unchanged; initial missingness failure, earlier builds, source bundles, and Stage 1 outputs retained",
+  "release_status": "local_only; no main rewrite, tag movement, publication, submission or messages sent",
+  "resources": {
+    "cpu_threads": 1,
+    "fitting_completion_rss_bytes": 201465856,
+    "fitting_seconds": 1.783447800000431,
+    "paid_compute": false,
+    "peak_rss": "not measured for dose extension",
+    "precision_seconds": 0.024985199997900054,
+    "preparation_completion_rss_bytes": 444391424,
+    "preparation_seconds": 60.18981139999232
+  },
+  "tests": {
+    "command": "python -m pytest -q",
+    "files": 14,
+    "passed": 131,
+    "seconds": 13.17
+  },
+  "verified_input_commit": "ec727e8c03a875f7b22414b496b8bae52e1c8241",
+  "version": "0.1.2.dev2"
+}
