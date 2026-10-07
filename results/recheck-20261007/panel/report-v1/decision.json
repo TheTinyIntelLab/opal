@@ -1,0 +1,147 @@
+{
+  "all_plan_scientific_requirements_complete": false,
+  "completion_rss_bytes": 244072448,
+  "components_advanced": [],
+  "concentration": {
+    "norman-count/partner": 0.9943448821948051,
+    "norman-count/random": 0.9917241473982665,
+    "wessels-count/partner": 0.959370747342643,
+    "wessels-count/random": 0.9693086601243047
+  },
+  "elapsed_seconds": 41.82569510000758,
+  "favorable_diagnostic_subsets": [
+    {
+      "lower": 0.0003104265155870174,
+      "model": "pair_product",
+      "mse": 0.00460286046198985,
+      "occurrences": 148,
+      "panel": "residual_proxy",
+      "primary_gate": false,
+      "relative_gain": 0.12489875311523402,
+      "study": "norman-count/partner",
+      "subset": "all_occurrences",
+      "upper": 0.0010650829414581358
+    },
+    {
+      "lower": 0.000163014263275501,
+      "model": "mixed",
+      "mse": 0.0047745463693133665,
+      "occurrences": 148,
+      "panel": "residual_proxy",
+      "primary_gate": false,
+      "relative_gain": 0.09225762640456237,
+      "study": "norman-count/partner",
+      "subset": "all_occurrences",
+      "upper": 0.0008913080970655074
+    }
+  ],
+  "independent_confirmation": false,
+  "interpretation": "Norman point gains change with scale; all count primary gates fail uncertainty. Favorable residual-proxy subsets remain diagnostic and cannot replace primary failures.",
+  "next": "Independent culture/reference measurements and sealed crossed state/pair data; no neural enlargement from panel sensitivities",
+  "partner_coverage": {
+    "norman-count/partner": {
+      "coverage_histogram": {
+        "1": 28,
+        "2": 60
+      },
+      "intersections": [
+        [
+          51,
+          22,
+          21
+        ],
+        [
+          22,
+          49,
+          17
+        ],
+        [
+          21,
+          17,
+          48
+        ]
+      ],
+      "occurrences": 148,
+      "unique_conditions": 88
+    },
+    "norman-log2/partner": {
+      "coverage_histogram": {
+        "1": 28,
+        "2": 60
+      },
+      "intersections": [
+        [
+          51,
+          22,
+          21
+        ],
+        [
+          22,
+          49,
+          17
+        ],
+        [
+          21,
+          17,
+          48
+        ]
+      ],
+      "occurrences": 148,
+      "unique_conditions": 88
+    },
+    "wessels-count/partner": {
+      "coverage_histogram": {
+        "1": 11,
+        "2": 29
+      },
+      "intersections": [
+        [
+          23,
+          9,
+          10
+        ],
+        [
+          9,
+          23,
+          10
+        ],
+        [
+          10,
+          10,
+          23
+        ]
+      ],
+      "occurrences": 69,
+      "unique_conditions": 40
+    },
+    "wessels-log2/partner": {
+      "coverage_histogram": {
+        "1": 11,
+        "2": 29
+      },
+      "intersections": [
+        [
+          23,
+          9,
+          10
+        ],
+        [
+          9,
+          23,
+          10
+        ],
+        [
+          10,
+          10,
+          23
+        ]
+      ],
+      "occurrences": 69,
+      "unique_conditions": 40
+    }
+  },
+  "primary_count_gates": [],
+  "report_code_sha256": "f8af54dc8c4b81417e1943b59e5609558c97e86f782db7e1878e415d64070cd2",
+  "result_sha256": "8e8ce21410f0d5d929516adc041e90eccf1beb77bee6e1e47aecaa75d6be409f",
+  "status": "completed_scale_panels_and_partner_reporting"
+}
