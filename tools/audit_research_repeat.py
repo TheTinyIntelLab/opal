@@ -58,9 +58,19 @@ def main():
     raw=subprocess.check_output(['git','status','--porcelain','-z'],cwd=root,stderr=subprocess.DEVNULL)
     initial=(root/'tmp/pre-main-transfer-status.bin').read_bytes()
     deletions=lambda s:sorted(x for x in s.split(b'\0') if x.startswith(b' D '))
-    assert deletions(raw)==deletions(initial)
+    restoration=root/'results/consolidation-20261008/transfer.json'
+    restored=[]
+    if deletions(raw)!=deletions(initial):
+        # The later user-requested consolidation replaces broken external
+        # junctions with the original, Git-identical historical reports.
+        if deletions(raw) or not restoration.is_file():raise ValueError('Unregistered historical deletion change')
+        restored=read_json(restoration)['historical_reports_restored']
+        expected={x.decode()[3:] for x in deletions(initial)}
+        if {r['path'] for r in restored}!=expected:raise ValueError('Restoration does not cover original missing reports')
+        if any(sha256(root/r['path'])!=r['sha256'] for r in restored):raise ValueError('Restored historical contents changed')
     write_json(args.output/'audit.json',dict(status='passed_identity_accounting_and_unchanged_gates',arrays=arrays,metrics=metrics,
         current_code_sha256=sha256(__file__),protected_deletions=len(deletions(raw)),historical_baseline='84de7e36eae20531e815be9de5a4cb2fa9b94ce9',
+        historical_reports_restored=len(restored),restoration_manifest_sha256=sha256(restoration) if restored else None,
         numerical_environments={k:read_json(root/path)['environment'] for k,path in [('original','results/stage1-20261007/qualification/qualification.json'),('rerun','results/recheck-20261007/stage1/qualification/qualification.json')]},
         upr_independent_score_accounting=True,upr_gate=False,upr_additivity_stronger=True,
         interpretation='Reruns preserve identities and scientific gates, with every numerical drift retained. Retraining is not promised to be bitwise identical. Reruns are exposed development, not additional independent samples. Diagnostic bounds hold reference means and selection fixed; biological confirmation remains unevaluable.'))
