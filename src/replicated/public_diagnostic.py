@@ -5,7 +5,7 @@ import json
 import numpy as np
 
 
-def processing_diagnostic(rows, counts, genes, library_target=10000., pseudocount=1.):
+def nominal_panel(rows, counts, genes, library_target=10000., pseudocount=1.):
     """Keep run labels and nominal references; never assert dose qualification.
 
     Input counts have one row per original treatment barcode. Technical variants
@@ -33,7 +33,7 @@ def processing_diagnostic(rows, counts, genes, library_target=10000., pseudocoun
     normalized[valid] = x[valid] / totals[valid, None] * library_target
     all_pairs = {tuple(sorted((r['Drug1'], r['Drug2']))) for r in rows
                  if 'DMSO' not in (r['Drug1'], r['Drug2']) and r['Drug1'] != r['Drug2']}
-    effects, singles, lineage, exclusions = {}, {}, {}, []
+    effects, singles, references, lineage, exclusions = {}, {}, {}, {}, []
     for run in runs:
         index = [i for i, r in enumerate(rows) if r['Run'] == run]
         controls = [i for i in index if rows[i]['Drug1'] == rows[i]['Drug2'] == 'DMSO' and valid[i]]
@@ -42,7 +42,7 @@ def processing_diagnostic(rows, counts, genes, library_target=10000., pseudocoun
             a, b = rows[i]['Drug1'], rows[i]['Drug2']
             if (a == 'DMSO') != (b == 'DMSO') and valid[i]:
                 refs.setdefault(b if a == 'DMSO' else a, []).append(i)
-        effects[run], singles[run], lineage[run] = {}, {}, {}
+        effects[run], singles[run], references[run], lineage[run] = {}, {}, {}, {}
         for pair in sorted(all_pairs):
             pair_rows = [i for i in index if tuple(sorted((rows[i]['Drug1'], rows[i]['Drug2']))) == pair and valid[i]]
             reason = None
@@ -61,6 +61,7 @@ def processing_diagnostic(rows, counts, genes, library_target=10000., pseudocoun
             effect = (np.log2(pseudocount + normalized[pair_rows]) - control).mean(axis=0)
             effects[run][pair] = effect
             singles[run][pair] = a + b
+            references[run][pair] = np.stack([a, b])
             lineage[run][json.dumps(pair, separators=(',', ':'))] = {
                 'pair_rows': [ids[i] for i in pair_rows],
                 'controls': [ids[i] for i in controls],
@@ -72,6 +73,17 @@ def processing_diagnostic(rows, counts, genes, library_target=10000., pseudocoun
         raise ValueError('No complete nominal-reference pair panel across runs')
     y = np.asarray([[effects[r][p] for p in complete] for r in runs])
     additive = np.asarray([[singles[r][p] for p in complete] for r in runs])
+    return {'responses': y, 'singles': np.asarray([[references[r][p] for p in complete] for r in runs]),
+            'runs': runs, 'pairs': complete, 'lineage': lineage, 'exclusions': exclusions,
+            'all_pairs': all_pairs, 'zero_library_ids': [ids[i] for i in np.flatnonzero(~valid)]}
+
+
+def processing_diagnostic(rows, counts, genes, library_target=10000., pseudocount=1.):
+    """Describe processing agreement without model selection or biological inference."""
+    panel = nominal_panel(rows, counts, genes, library_target, pseudocount)
+    y, runs, complete = panel['responses'], panel['runs'], panel['pairs']
+    additive = panel['singles'].sum(axis=2)
+    lineage, exclusions, all_pairs = panel['lineage'], panel['exclusions'], panel['all_pairs']
     residual = y - additive
     departures, per_run = [], []
     for i, run in enumerate(runs):
@@ -108,7 +120,7 @@ def processing_diagnostic(rows, counts, genes, library_target=10000., pseudocoun
             'nominal_pair_count_before_read_qc': len(all_pairs),
             'complete_nominal_pair_count': len(complete), 'complete_pairs': [list(p) for p in complete],
             'excluded_from_complete_panel': [list(p) for p in sorted(all_pairs - set(complete))],
-            'zero_library_source_rows': [ids[i] for i in np.flatnonzero(~valid)],
+            'zero_library_source_rows': panel['zero_library_ids'],
             'per_run_losses': per_run, 'cross_run_cosines': agreement,
             'reference_matches': lineage, 'exclusions': exclusions,
             'scope': 'Reported processing runs, source-provided gene universe and nominal drug identities only. '

@@ -8,3 +8,7 @@
 
 # Downloaded CI reports retain the bytes hashed in their provenance ledger.
 results/replicated_fixed_state_v1/ci-*/**/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Retrospective evidence preserves bytes bound by scope and verification hashes.
+results/replicated_fixed_state_v1/retrospective-combi-*/**/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+results/replicated_fixed_state_v1/retrospective-combi-*/code_snapshot/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
