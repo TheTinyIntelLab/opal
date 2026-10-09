@@ -8,9 +8,9 @@ spec.loader.exec_module(module)
 
 
 def test_source_rejects_private_and_external_inputs():
-    for name in ['plan.md', 'docs/outreach.md', 'context.md', 'roadmap.md', 'docs/opal_next_master_plan.md', 'web/index.html',
+    for name in ['plan.md', 'PLAN.md', 'docs/Plan.MD', 'docs/OUTREACH.md', 'docs/outreach.md', 'context.md', 'roadmap.md', 'docs/opal_next_master_plan.md', 'web/index.html',
                  'tools/external/CPA/model.py', 'tools/vendor/key.json',
-                 'data/raw/source.json', 'results/state/model.npz', '../README.md']:
+                 'data/raw/source.json', 'results/state/model.npz', '../README.md', 'C:/README.md', 'src/../README.md', 'src\\cli.py']:
         assert not module.allowed_source(name), name
     for name in ['README.md', 'src/cli.py', 'configs/releases/v0.1.0.json', 'paper/main.pdf']:
         assert module.allowed_source(name), name
@@ -18,9 +18,9 @@ def test_source_rejects_private_and_external_inputs():
 
 def test_evidence_keeps_negative_reports_but_excludes_banks():
     for name in ['results/next/dspin-confirmation-v1/results.json', 'results/state/capability_ledger.json',
-                 'data/source_registry.json']:
+                 'data/source_registry.json', 'results/stage1-20261007/report-v2/comparisons.csv']:
         assert module.allowed_evidence(name), name
     for name in ['data/raw/measurement.json', 'data/prepared/source/profiles.npz',
                  'results/state/resume/optimizer.pt', 'results/next/demo-v1/summary.json',
-                 '../results/test.json']:
+                 '../results/test.json', 'results/PLAN.md', 'results/raw/summary.json','results/measurements.csv']:
         assert not module.allowed_evidence(name), name

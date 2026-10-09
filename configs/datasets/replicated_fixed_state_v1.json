@@ -1,0 +1,16 @@
+{
+  "schema": "opal-aggregate-read-contract-v1",
+  "source_id": "unqualified",
+  "assay": "aggregate_reads",
+  "normalization": "library_total",
+  "library_target": 10000,
+  "transform": "log2_after_reference_mean",
+  "pseudocount": 1,
+  "scale": "log2_aggregate_read_effect",
+  "units": "log2",
+  "confirmation_cultures": [],
+  "aliases": {},
+  "gene_selection": "frozen_development_reference_universe",
+  "culture_provenance": "required_for_biological_claims",
+  "status": "draft_requires_assay_qualification"
+}

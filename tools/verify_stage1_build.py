@@ -13,6 +13,8 @@ from opal.artifacts import read_json, write_json, load_npz, sha256, environment
 from opal import __version__
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from tools.release_policy import public_name
 
 
 def main():
@@ -29,7 +31,7 @@ def main():
         source_names = t.getnames()
     for name in wheel_names + source_names:
         path = Path(name)
-        if path.is_absolute() or '..' in path.parts or path.name in {'plan.md', 'context.md', 'roadmap.md', 'outreach.md'}:
+        if not public_name(name.rstrip('/')):
             raise ValueError('Private or unsafe archive path: ' + name)
         if set(path.parts) & {'raw', 'prepared', 'vendor', 'external', 'results'}:
             raise ValueError('Dataset/resource leaked into package: ' + name)

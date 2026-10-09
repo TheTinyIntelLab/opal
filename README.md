@@ -22,7 +22,7 @@
 
 <p align="center"><a href="paper/main.pdf">Read the preprint draft</a></p>
 
-This branch is Opal **0.1.2.dev6**, a research successor to the preserved **0.1.1** preparation at `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`. Stage 1 and qualified dose, identity, joint, scale and panel studies are executed, with no pair/state component passing its primary gate. Dose evidence supports an experimental interpolation reference for known compounds and states; extrapolation and independent joint confirmation remain unsupported. There is no public model release or arXiv identifier.
+This branch prepares Opal **0.1.2**, a consolidated comparative research release to the preserved **0.1.1** preparation at `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`. Stage 1 and qualified dose, identity, joint, scale and panel studies are executed, with no pair/state component passing its primary gate. Dose evidence supports an experimental interpolation reference for known compounds and states; extrapolation and independent joint confirmation remain unsupported. There is no public model release or arXiv identifier.
 
 ## 1. Introduction
 
@@ -191,7 +191,7 @@ The output follows the fixed gene order and effect scale in the manifest. Emeral
 
 **Why is the package called `opal-research`, but imports use `opal`?** Distribution names and Python import names serve different purposes. The source lives directly in `src/`; setuptools maps that directory to the installed `opal` package, preserving a distinct import namespace.
 
-**Why a development version?** `0.1.2.dev6` separates this executed cycle from the historical 0.1.1 preparation. The new results do not justify a public successor model release.
+**What does 0.1.2 release?** The consolidated code and comparative evidence follow the historical 0.1.1 preparation. This version does not claim a newly validated biological predictor. Publication remains paused for owner review.
 
 **Does the model learn biological interactions?** Insufficient evidence. A residual contains measurement error and shared distortion as well as potential pair-specific structure, and simple references explain much of the observed improvement.
 
@@ -216,7 +216,7 @@ The preprint hasn't been submitted to arXiv. Until an identifier exists, don't c
   author = {Prakash, Arjun Vijay},
   title = {Opal: observed-single combinatorial response prediction},
   year = {2026},
-  version = {0.1.2.dev6},
+  version = {0.1.2},
   url = {https://github.com/TheTinyIntelLab/opal}
 }
 ```
@@ -226,3 +226,7 @@ The preprint hasn't been submitted to arXiv. Until an identifier exists, don't c
 ## 10. Contact
 
 Read [The Tiny Intelligence Lab](https://thetinyintelligencelab.vercel.app/) for project updates. Once the repository is public, use [GitHub issues](https://github.com/TheTinyIntelLab/opal/issues) for reproducible code or evidence problems.
+
+## Release closeout and replicated-study workflow
+
+The [closeout record](docs/next_cycle/execution_status.md) distinguishes verified software from outstanding scientific and publication dependencies. [The fixed-state protocol](docs/next_cycle/analysis_protocol.md) documents metadata qualification, aggregate-read preparation, bounded selection, prediction freezing, independent evaluation, and synthetic rehearsal. Original Stage 1 runs are canonical; the changed-environment recheck is a named reproducibility sensitivity. Neither expression banks nor historical fits are reopened by the reporting-only closeout.

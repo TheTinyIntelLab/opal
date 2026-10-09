@@ -1,0 +1,46 @@
+[
+  {
+    "id": "proper_sra_search",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=SUB15796302&retmode=json",
+    "bytes": 351,
+    "sha256": "abbad3518da1cdf40c767b327aab605fd692017622bfea88b39a109f8cae4c51",
+    "result": {
+      "header": {
+        "type": "esearch",
+        "version": "0.3"
+      },
+      "esearchresult": {
+        "count": "0",
+        "retmax": "0",
+        "retstart": "0",
+        "idlist": [],
+        "translationset": [],
+        "querytranslation": "(SUB15796302[All Fields])",
+        "errorlist": {
+          "phrasesnotfound": [
+            "SUB15796302"
+          ],
+          "fieldsnotfound": []
+        },
+        "warninglist": {
+          "phrasesignored": [],
+          "quotedphrasesnotfound": [],
+          "outputmessages": [
+            "No items found."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "statin_repository",
+    "url": "https://api.github.com/repos/bwh784/BooleanModeling/git/trees/main?recursive=1",
+    "bytes": 656,
+    "sha256": "1d2001149559ae14f6977d8b0b96f3cc4d1326a71302191fd90dfebe52243a40",
+    "paths": [
+      "BooleanAssociation.py",
+      "BooleanFunctions.txt"
+    ],
+    "truncated": false
+  }
+]

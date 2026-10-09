@@ -13,8 +13,11 @@ import sys
 import tarfile
 import tempfile
 import zipfile
+import stat
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from tools.release_policy import public_name
 
 
 def sha(path):
@@ -36,17 +39,21 @@ def main():
         if path.suffix in {'.zip', '.whl'}:
             with zipfile.ZipFile(path) as archive:
                 assert archive.testzip() is None
+                assert not any(stat.S_ISLNK(i.external_attr >> 16) for i in archive.infolist()), 'Archive symlink'
                 names = archive.namelist()
         elif path.name.endswith('.tar.gz'):
             with tarfile.open(path) as archive:
+                assert all(m.isfile() or m.isdir() for m in archive.getmembers()), 'Unsafe tar member type'
                 names = archive.getnames()
         else:
             continue
         for name in names:
-            parts = Path(name).parts
-            assert not Path(name).is_absolute() and '..' not in parts
-            assert Path(name).name not in {'plan.md', 'outreach.md', 'context.md', 'roadmap.md', 'opal_next_master_plan.md', 'build_evidence_demo.py'}
-            assert not {'web', 'external', 'vendor', 'raw', 'prepared'} & set(parts), name
+            assert public_name(name.rstrip('/')), name
+    for archive_name,field in [(prefix+'-research-source.zip','source_files'),(prefix+'-evidence.zip','evidence_files'),(prefix+'-reference-models.zip','model_files')]:
+        with zipfile.ZipFile(assets/archive_name) as archive:
+            assert set(archive.namelist())==set(manifest[field]), 'Archive membership differs from manifest'
+            for name,digest in manifest[field].items():
+                assert hashlib.sha256(archive.read(name)).hexdigest()==digest, 'Per-file hash mismatch'
     outside = Path(tempfile.mkdtemp(prefix='opal-v1-verify-'))
     installed = outside / 'installed'
     wheel = assets / f'opal_research-{version}-py3-none-any.whl'
@@ -89,7 +96,19 @@ for label in ['norman','emerald']:
         left=model.predict(a,b,context=c)['effect'];right=model.predict(b,a,context=c)['effect']
     np.testing.assert_allclose(predictions,q[label+'_expected'],rtol=1e-7,atol=1e-8)
     np.testing.assert_allclose(left,right,atol=1e-10)
-    results.append({'model':label,'saved_predictions_replayed':len(predictions),'maximum_absolute_error':float(np.max(np.abs(predictions-q[label+'_expected'])))})
+    genes=model.reference['genes'] if label=='norman' else model.bank.arrays['genes']
+    kwargs={} if label=='norman' else {'context':c}
+    for bad_kwargs in [{'context':'__unsupported__'},dict(kwargs,genes=genes[::-1])]:
+        try:model.predict(a,b,**bad_kwargs)
+        except ValueError:pass
+        else:raise AssertionError('Unsupported context/gene order was accepted')
+    try:model.predict('__unknown__',b,**kwargs)
+    except ValueError:pass
+    else:raise AssertionError('Missing single was accepted')
+    result=model.predict(a,b,**kwargs)
+    assert result['genes'].tolist()==model.manifest['gene_order']
+    assert result.get('units',result.get('scale'))
+    results.append({'model':label,'saved_predictions_replayed':len(predictions),'maximum_absolute_error':float(np.max(np.abs(predictions-q[label+'_expected']))),'gene_order_scale_support_guards':'passed'})
 print(json.dumps({'models':results,'installed_module':opal.__file__,'dependencies_reused':True,'outside_checkout':True,'version':opal.__version__}))
 ''', encoding='utf-8')
     env = dict(os.environ)

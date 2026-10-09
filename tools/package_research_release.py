@@ -12,6 +12,8 @@ import subprocess
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
+import sys
+sys.path.insert(0, str(ROOT))
 
 
 def digest(path):
@@ -22,33 +24,13 @@ def digest(path):
     return h.hexdigest()
 
 
-def allowed_source(name):
-    path = PurePosixPath(name)
-    if path.is_absolute() or '..' in path.parts:
-        return False
-    if any(part in {'web', 'vendor', 'external', '__pycache__'} for part in path.parts):
-        return False
-    if path.name in {'plan.md', 'outreach.md', 'context.md', 'roadmap.md', 'opal_next_master_plan.md', 'build_evidence_demo.py'}:
-        return False
-    if len(path.parts) == 1:
-        return path.suffix in {'.md', '.toml', '.cff', '.in', '.py'} or name in {'LICENSE', '.gitignore', '.gitattributes', 'pytest.ini'} or (path.name.startswith('requirements') and path.suffix == '.txt')
-    return path.parts[0] in {'src', 'tools', 'tests', 'configs', 'docs', 'paper', 'images'} and path.suffix in {
-        '.py', '.json', '.yaml', '.yml', '.md', '.tex', '.bib', '.sty', '.pdf', '.txt', '.png', '.svg'}
-
-
-def allowed_evidence(name):
-    path = PurePosixPath(name)
-    return (not path.is_absolute() and '..' not in path.parts and
-            path.parts[0] in {'results', 'data', 'paper'} and
-            path.suffix in {'.json', '.md', '.tex', '.pdf'} and
-            not any(part in {'raw', 'prepared', 'demo-v1', 'local-release-v1',
-                             'local-release-v2', 'local-release-v3', 'local-release-v4'}
-                    for part in path.parts))
-
+from tools.release_policy import allowed_source, allowed_evidence, safe_archive_name
 
 def archive(output, entries):
     with zipfile.ZipFile(output, 'x', zipfile.ZIP_DEFLATED) as z:
         for name, path in sorted(entries.items()):
+            if not safe_archive_name(name) or Path(path).is_symlink():
+                raise ValueError('Unsafe archive path')
             z.write(path, name)
     with zipfile.ZipFile(output) as z:
         if z.testzip() is not None:
@@ -59,7 +41,7 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--dist', type=Path, default=ROOT / 'dist')
-    p.add_argument('--config', type=Path, default=ROOT / 'configs/releases/v0.1.1.json')
+    p.add_argument('--config', type=Path, default=ROOT / 'configs/releases/v0.1.2.json')
     p.add_argument('--allow-dirty', action='store_true', help='Local validation only; never upload these assets')
     args = p.parse_args()
     dirty = subprocess.check_output(['git', 'status', '--porcelain'], cwd=ROOT, text=True).strip()
@@ -75,20 +57,28 @@ def main():
     for name in ['LICENSE', 'THIRD_PARTY_NOTICES.md', 'docs/evidence.md']:
         evidence[name] = ROOT / name
     config = json.loads(args.config.read_text())
+    import tomllib
+    project=tomllib.loads((ROOT/'pyproject.toml').read_text())['project']
+    if config['version']!=project['version'] or config['tag']!='v'+config['version']:
+        raise ValueError('Release recipe/package/tag version mismatch')
     prefix = 'opal-' + config['version']
     models = {n: ROOT / n for n in ['LICENSE', 'THIRD_PARTY_NOTICES.md', 'docs/models.md']}
     for label, directory in config['models'].items():
-        directory = ROOT / directory
+        if not safe_archive_name(label) or '/' in label:raise ValueError('Unsafe model label')
+        directory = (ROOT / directory).resolve()
+        if not directory.is_relative_to(ROOT):raise ValueError('Model directory escapes repository')
         manifest = json.loads((directory / 'manifest.json').read_text())
         files = {'manifest.json', *manifest['files']}
         for name in files:
-            if Path(name).name != name or Path(name).suffix not in {'.npz', '.json'}:
+            if not safe_archive_name(name) or Path(name).name != name or Path(name).suffix not in {'.npz', '.json'}:
                 raise ValueError('Unexpected model export file')
             path = directory / name
             if name != 'manifest.json' and digest(path) != manifest['files'][name]:
                 raise ValueError('Model export hash mismatch')
             models[f'models/{label}/{name}'] = path
     assets = args.output
+    for path in [*source.values(),*evidence.values(),*models.values()]:
+        if not path.resolve().is_relative_to(ROOT) or path.is_symlink():raise ValueError('Release input escapes repository')
     archive(assets / (prefix + '-research-source.zip'), source)
     archive(assets / (prefix + '-evidence.zip'), evidence)
     archive(assets / (prefix + '-reference-models.zip'), models)

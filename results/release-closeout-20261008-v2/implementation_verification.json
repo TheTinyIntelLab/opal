@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "command": ".venv/Scripts/python.exe -m pytest -q",
+  "tests_passed": 166,
+  "elapsed_seconds": 15.77,
+  "source_sha256": {
+    "src/replicated/contracts.py": "18ad1d7397cbb39c9099d8414ad5084e46c40108e6de74ec04e579a26be35ccd",
+    "src/replicated/data.py": "4fc3ac26ac7853f63903c9faab45f87421106938f7ab02fe929cefc84e06b1cd",
+    "src/replicated/diagnostics.py": "ae6f6c2cc6bcb4a94e7d5e1fe3a45d09a586d1325de6d1ceff5c5691efa9debc",
+    "src/replicated/evaluation.py": "48d9d16eddbde2cb5786fb5714c2d24b30e256e3ef5618d7feea8dd0e3976fdd",
+    "src/replicated/models.py": "cd77e6dd5c2a59fc2de908ecbb1bc17d2c1962bf3f4bf2e56eccf414ba0e6b9e",
+    "src/replicated/workflow.py": "fc1f8f146dcedfdac679a9519e72968f37df91ca0b3a77dd23d36d6f95a9817f",
+    "src/replicated/__init__.py": "8e2cbbfdeeded9a1b39dfc6a5c369b05c0da735da841cfdf7f195e4c85260640",
+    "tests/test_replicated.py": "191b73fd3e9e684f88d003730972a660063b3b5352475c04e30699b4f9ebb5d1",
+    "tests/test_release_packaging.py": "7d756083db3c92d26e59e591463eb4820ce1cf77df0104777cfcf368beb99d0e"
+  },
+  "synthetic_workflow": "tmp/replicated-demo-final/engineering_verification.json",
+  "historical_refits": false,
+  "historical_evaluator_expression_access": false,
+  "new_source_expression_access": false,
+  "uncommitted": true
+}

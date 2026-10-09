@@ -1,0 +1,52 @@
+{
+  "source_sha256": "ffb4083bcff9e8cb283c89817d7d4e534f753c075b94f5ffa90d8de8dc6fed9c",
+  "script_sha256": "77d8f219f0969c7f6348d7fc08676e53e5e75188bc0605e1b5dbf9b3bba59e19",
+  "expression_matrix_accessed": false,
+  "biological_initiation_established": false,
+  "semantics": "Authors' Notebook_1_cds_cleanup: plate, trametinib dose, named compound, compound dose, replicate label",
+  "geo_description_conflicts_with_author_code": true,
+  "rows": 384,
+  "replicate_labels": [
+    "rep1",
+    "rep2"
+  ],
+  "plate_by_replicate_label": {
+    "plate6/rep1": 96,
+    "plate9/rep2": 96,
+    "plate10/rep1": 95,
+    "plate10/rep2": 1,
+    "plate11/rep2": 96
+  },
+  "support": [
+    {
+      "replicate_label": "rep1",
+      "barcode_rows": 191,
+      "control_barcodes": 8,
+      "compound_single_conditions": 88,
+      "trametinib_single_doses": [
+        0.01,
+        0.1,
+        1.0,
+        10.0
+      ],
+      "pair_conditions": 87,
+      "pairs_missing_reference_labels": []
+    },
+    {
+      "replicate_label": "rep2",
+      "barcode_rows": 193,
+      "control_barcodes": 8,
+      "compound_single_conditions": 88,
+      "trametinib_single_doses": [
+        0.01,
+        0.1,
+        1.0,
+        10.0
+      ],
+      "pair_conditions": 88,
+      "pairs_missing_reference_labels": []
+    }
+  ],
+  "primary_confirmation_qualified": false,
+  "boundary": "Two replicate labels do not establish six independent culture blocks. Barcode support is design support, not evidence of measured cells, independent initiation, precision, or power. No labels are repaired."
+}

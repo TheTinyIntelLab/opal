@@ -2,16 +2,16 @@
 
 The 0.1.2.dev1 successor adds a pure-sum option to the existing neural correction and response-source exclusion checks across fitting, preprocessing, pretraining and calibration. It retains the state/context implementations and original schedules. None of the new pair or learned-state components passed the matched development gate, so historical reference models remain the practical references.
 
-Local `results/stage1-20261007/exports-v2/` contains last-outer-fold inner-selected shared/pair audit ensembles for engineering verification, not newly validated models. Scored predictions replay exactly after matching float64 preprocessing; fitted-weight restoration agrees within `4.45e-16`. `exports-v1` remains as the superseded float32 replay with Norman drift around `2.44e-7`. These genetic exports and their reference banks remain local. No chemical identity transfer, independent joint context transfer, biological interaction recovery or calibrated OOD interval is established.
+Local `results/stage1-20261007/exports-v2/` contains last-outer-fold inner-selected shared/pair audit ensembles for engineering verification, not newly validated models. Scored predictions replay exactly after matching float64 preprocessing; fitted-weight restoration agrees within `4.44e-16`, rounded from the [saved verification](../results/stage1-20261007/exports-v2/verification.json). `exports-v1` remains as the superseded float32 replay with Norman drift around `2.44e-7`. These genetic exports and their reference banks remain local. No chemical identity transfer, independent joint context transfer, biological interaction recovery or calibrated OOD interval is established.
 
-The planned 0.1.1 references are residual kernels. Publication is paused; current local exports are for review. They predict population-mean effects from measured singles on the fixed assay scale and exact gene order in their manifests. They don't support arbitrary unseen interventions or arbitrary biological states.
+The 0.1.2 reference package contains residual kernels. Publication is paused; current local exports are for review. They predict population-mean effects from measured singles on the fixed assay scale and exact gene order in their manifests. They don't support arbitrary unseen interventions or arbitrary biological states.
 
 | Directory in model archive | Scope | Data terms |
 | --- | --- | --- |
 | `models/norman-kernel` | Frozen exploratory development selection refitted on Norman development pairs. Its 38 query predictions were exported without scoring or fitting their held-out outcomes. It isn't the historical primary neural checkpoint. | Derived scPerturb v1.1 content, CC BY 4.0 |
 | `models/emeraldbay-kernel` | Development-selected contextual chemical kernel using registered measured controls/singles and persisted fitted scales. Independent D-SPIN transfer failed against its source-selected reference. | Derived EmeraldBay content, CC BY 4.0 |
 
-Unzip `opal-0.1.1-reference-models.zip`. With the package installed, run:
+Unzip `opal-0.1.2-reference-models.zip`. With the package installed, run:
 
 ```python
 from opal import load_model
@@ -53,3 +53,7 @@ The dev3 annotation study is research tooling, not an additional inference model
 The dev4 global chemical-pair/whole-state study also adds research tooling rather than an inference route. Pair-product and mixed kernels fail against the source-selected shared/single references; no new pair head or encoder is adopted. Global pair identity includes every dose, while each permitted measured query single still requires its exact matching dose. Development query-reference adaptation is explicit, and the study supplies no calibrated intervals or independent confirmation.
 
 The dev5 count-scale and panel sensitivity keeps the same inference contracts and adds no advertised model route. Some Norman count point estimates and residual-proxy subsets favor pair kernels, but all all-gene count uncertainty gates fail. Source-derived reporting masks select genes without query labels; they aren't gene discovery or biological validation. Existing log2 and dose exports remain separate and are restored without changing their scores or schemas.
+
+## 0.1.2 closeout scope
+
+The release candidate reuses the scoped Norman and EmeraldBay kernel exports under their existing source attribution and CC BY 4.0 derivative terms. It does not replace historical selections or promote the replicated-study workflow as a biological model. The new fixed-state checkpoints are source-qualified research artifacts only after culture, dose, endpoint, precision and custody gates pass. Their loader checks exact genes, units, query membership and file/code hashes; unsupported schemas are rejected.

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2, comparative-study closeout candidate
+
+Consolidates release metadata, restores original Stage 1 reporting as canonical, retains the changed-environment rerun as a named sensitivity, and shortens the manuscript with full continuation evidence in the supplement. Adds portable private-file/archive guards, selected compact CSV exports, clean dependency-install checks and a Windows/Linux CI matrix. Implements metadata qualification, aggregate-read preparation, global pair splits, shared/component/pair references, development diagnostics, fixed-panel power sensitivity, frozen predictions and custodian evaluation. Combi-seq metadata is inventoried without expression access; dose, culture and terms qualification remain unresolved. No publication, biological confirmation or new predictor capability is claimed.
+
 ## 0.1.2.dev5, local scale and panel successor
 
 Executes twelve matched genetic count-scale folds with unchanged source splits and a fixed kernel menu, and source-selected strong/residual-enriched diagnostics on nine protocols. Recovers one/two-held-target categories and partner-fold overlap. Norman point gains change direction across scales, but all count primary uncertainty gates fail; favorable panel subsets remain explicit diagnostics. Opposite technical-half accounting preserves shared references. No new model component or biological confirmation is claimed.

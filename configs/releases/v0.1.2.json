@@ -1,0 +1,17 @@
+{
+  "version": "0.1.2",
+  "tag": "v0.1.2",
+  "scope": "experimental_research",
+  "models": {
+    "norman-kernel": "results/improvements/residual-kernel-v1/norman-log2/checkpoint-cached-kernel",
+    "emeraldbay-kernel": "results/next/portable-checkpoints-v1/emeraldbay"
+  },
+  "model_data_license": "CC-BY-4.0",
+  "raw_data_included": false,
+  "independent_transfer_gate": "failed",
+  "uncertainty": "diagnostic_only",
+  "publication_status": "paused_owner_review",
+  "claim_run_policy": "original_canonical_recheck_sensitivity",
+  "private_plan_policy": "exclude_case_insensitive",
+  "prepared_baseline": "84de7e36eae20531e815be9de5a4cb2fa9b94ce9"
+}

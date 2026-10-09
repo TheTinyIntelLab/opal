@@ -1,0 +1,118 @@
+{
+  "schema": "opal-sensitivity-verification-v1",
+  "tests": {
+    "passed": 200,
+    "seconds": 26.54
+  },
+  "synthetic_evaluator": "tmp/replicated-demo-sensitivity-final/evaluation/results.json",
+  "synthetic_restoration": {
+    "restoration_pass": true,
+    "synthetic_only": true,
+    "scientific_gates_passed": false
+  },
+  "power_summary": "results/replicated_fixed_state_v1/power/procedure_variance_summary_v1.json",
+  "publication": false,
+  "committed": false,
+  "scientific_confirmation": false,
+  "prior_manuscript_sha256": "9ddb3cd457fae2e2639f487a3cb3935b1331cb8b03c4c74914e087c2b781fe79",
+  "prior_rendered_manuscript_changed": false,
+  "installed_validation": {
+    "python311": {
+      "reference_restoration": {
+        "models": [
+          {
+            "model": "norman",
+            "saved_predictions_replayed": 38,
+            "maximum_absolute_error": 2.0261570199409107e-15,
+            "gene_order_scale_support_guards": "passed"
+          },
+          {
+            "model": "emerald",
+            "saved_predictions_replayed": 27,
+            "maximum_absolute_error": 1.3322676295501878e-15,
+            "gene_order_scale_support_guards": "passed"
+          }
+        ],
+        "installed_module": "C:\\Users\\USER\\AppData\\Local\\Temp\\opal-v1-verify-xzxzzfj9\\installed\\opal\\__init__.py",
+        "dependencies_reused": true,
+        "outside_checkout": true,
+        "version": "0.1.2",
+        "asset_hashes_verified": true,
+        "private_files_excluded": true,
+        "synthetic_quickstart": "passed",
+        "wheel_sha256": "60a6c1f300dd52ba0929ee4b78ae17b3faabaa2c6a0dcd9033f64a86f62303a7",
+        "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+        "temporary_validation_directory": "C:\\Users\\USER\\AppData\\Local\\Temp\\opal-v1-verify-xzxzzfj9"
+      },
+      "replicated_cycle": {
+        "installed_module": "C:\\Users\\USER\\AppData\\Local\\Temp\\opal-v1-verify-xzxzzfj9\\installed\\opal\\__init__.py",
+        "version": "0.1.2",
+        "engineering": {
+          "restoration_pass": true,
+          "synthetic_only": true,
+          "scientific_gates_passed": false
+        },
+        "deletion_diagnostics": "passed",
+        "outside_checkout": true,
+        "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]"
+      },
+      "dependency_closure_source": "results/release-closeout-ceiling-20261008/clean-python311/report.json",
+      "new_dependency_install_for_this_rebuild": false,
+      "dependency_environment": "freshly installed closure from prior same-session build, reused for latest wheel"
+    },
+    "python314": {
+      "reference_restoration": {
+        "models": [
+          {
+            "model": "norman",
+            "saved_predictions_replayed": 38,
+            "maximum_absolute_error": 2.0261570199409107e-15,
+            "gene_order_scale_support_guards": "passed"
+          },
+          {
+            "model": "emerald",
+            "saved_predictions_replayed": 27,
+            "maximum_absolute_error": 1.3322676295501878e-15,
+            "gene_order_scale_support_guards": "passed"
+          }
+        ],
+        "installed_module": "C:\\Users\\USER\\AppData\\Local\\Temp\\opal-v1-verify-7pbfx1oz\\installed\\opal\\__init__.py",
+        "dependencies_reused": true,
+        "outside_checkout": true,
+        "version": "0.1.2",
+        "asset_hashes_verified": true,
+        "private_files_excluded": true,
+        "synthetic_quickstart": "passed",
+        "wheel_sha256": "60a6c1f300dd52ba0929ee4b78ae17b3faabaa2c6a0dcd9033f64a86f62303a7",
+        "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+        "temporary_validation_directory": "C:\\Users\\USER\\AppData\\Local\\Temp\\opal-v1-verify-7pbfx1oz"
+      },
+      "replicated_cycle": {
+        "installed_module": "C:\\Users\\USER\\AppData\\Local\\Temp\\opal-v1-verify-7pbfx1oz\\installed\\opal\\__init__.py",
+        "version": "0.1.2",
+        "engineering": {
+          "restoration_pass": true,
+          "synthetic_only": true,
+          "scientific_gates_passed": false
+        },
+        "deletion_diagnostics": "passed",
+        "outside_checkout": true,
+        "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]"
+      },
+      "dependency_closure_source": "results/release-closeout-ceiling-20261008/clean-python314/report.json",
+      "new_dependency_install_for_this_rebuild": false,
+      "dependency_environment": "freshly installed closure from prior same-session build, reused for latest wheel"
+    }
+  },
+  "release_directory": "releases\\local-review-0.1.2-sensitivity",
+  "release_manifest_sha256": "c2335d52c7a55192a0053e1ffc8ff9edfea3985289d9a0db5adc4073afd4c220",
+  "head": "99ef6e99318fcf23e38a133123f3cea78356b91e",
+  "linux_validation": "configured for CI, not executed locally",
+  "reporting_checks": {
+    "canonical_claims": 2400,
+    "grounded_decimal_literals": 737,
+    "status": "passed",
+    "semantic_limits_preserved": true
+  },
+  "scientific_acceptance": "Still blocked on culture/dose provenance, empirical precision, registration and custody"
+}

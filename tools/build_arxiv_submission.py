@@ -17,7 +17,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--tectonic')
-    parser.add_argument('--config', type=Path, default=ROOT / 'configs/releases/v0.1.1.json')
+    parser.add_argument('--config', type=Path, default=ROOT / 'configs/releases/v0.1.2.json')
     parser.add_argument('--cache-directory', type=Path)
     args = parser.parse_args()
     paper = ROOT / 'paper'

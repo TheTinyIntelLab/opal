@@ -1,0 +1,29 @@
+{
+  "completed_utc": "2026-10-08T17:51:59.714970+00:00",
+  "commit": "99ef6e99318fcf23e38a133123f3cea78356b91e",
+  "commits_created": false,
+  "dirty_review_only": true,
+  "full_test_suite": {
+    "passed": 206,
+    "seconds": 35.51
+  },
+  "new_tests": 4,
+  "wheel_sha256": "226af837ff9651b87c36dbf18a72ec2d9bd9ce9076ad970a18ec9c6ab955eb95",
+  "package": "releases/local-review-0.1.2-public-diagnostic",
+  "package_manifest_sha256": "ae9f4a2f072e34e82d40a4bbd6145dd6a4e420ed46b73b2f59539d77381169ee",
+  "artifacts": {
+    "scope_before_expression_access.json": "23e161c582c92664f1ef971a5509aa2df7866a5feffc1bef017b7b0e7abbaf1d",
+    "expression_access.json": "9032ba3a3d0cd93e031a019e8b4391a35ef8b0946f858831a1943bc1d6527b27",
+    "report.json": "5c753b0d075e12be5b15778be26566ac0b397a5a8fb567298b0917dafde760e0",
+    "exposure_ledger.json": "94784d86455bc16ee656b45f643a7a56c651d6e36b32a09bf862cc2d642bb4c6",
+    "post_access_source_qa.json": "2eb8fac4af2a0f7ab70f4e154f04cc1e838a28aa79de36cc8ce923dee1a23a82",
+    "build_report.json": "ffac096774bf8dc4631179da8a31f3405a41e33a7d9ac943923a6b779011eea6",
+    "public_number_check.json": "e7d1de9396f90f139fc44ec35c39ac38a29059e12d9468d5f11dcbfe1d23160b",
+    "python311_installed_replay.json": "73de5a96b6b92658559ff8b43daf2df36dfb62aaa2e2bea76466eac47fe1d496",
+    "python314_installed_replay.json": "725411521e996bea7a62ca945a7aefc0e2b909490bf363a7088d6e321d581ef7",
+    "python311_release_validation.json": "56b9b94d456dbd7e86b22386183130dd5b5bfd083a5f8db471d275e31a15807b",
+    "python314_release_validation.json": "517de4e3983208feb8b9da1b867ad6d9e280a8bbaf51cab079f3d62901343836"
+  },
+  "qualification": "Nominal public processing diagnostic only. Biological/confirmation gates not passed. No architecture search or confidence intervals. All Combi-seq large-screen outcomes now exposed.",
+  "validation_scope": "Windows Python 3.11/3.14 installed wheel, actual public processing replay, 65 saved reference predictions and synthetic quickstart. Prior fresh dependency closures reused. Linux not locally executed. Archive snapshot preserved; final verification records accompany it."
+}

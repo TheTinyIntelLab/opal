@@ -1,0 +1,143 @@
+{
+  "schema": "opal-replicated-protocol-v1",
+  "status": "draft_not_registered",
+  "data_role": "unqualified",
+  "confirmation_cultures": [],
+  "menu": [
+    {
+      "id": "additive",
+      "kind": "additive",
+      "role": "reference",
+      "alpha": 1
+    },
+    {
+      "id": "shared_offset-0.1",
+      "kind": "shared_offset",
+      "role": "reference",
+      "alpha": 0.1,
+      "bandwidth": 1.0
+    },
+    {
+      "id": "shared_offset-1.0",
+      "kind": "shared_offset",
+      "role": "reference",
+      "alpha": 1.0,
+      "bandwidth": 1.0
+    },
+    {
+      "id": "shared_offset-10.0",
+      "kind": "shared_offset",
+      "role": "reference",
+      "alpha": 10.0,
+      "bandwidth": 1.0
+    },
+    {
+      "id": "global-0.1",
+      "kind": "global",
+      "role": "reference",
+      "alpha": 0.1,
+      "bandwidth": 1.0
+    },
+    {
+      "id": "global-1.0",
+      "kind": "global",
+      "role": "reference",
+      "alpha": 1.0,
+      "bandwidth": 1.0
+    },
+    {
+      "id": "global-10.0",
+      "kind": "global",
+      "role": "reference",
+      "alpha": 10.0,
+      "bandwidth": 1.0
+    },
+    {
+      "id": "single_sum-0.1",
+      "kind": "single_sum",
+      "role": "reference",
+      "alpha": 0.1,
+      "bandwidth": 1.0
+    },
+    {
+      "id": "single_sum-1.0",
+      "kind": "single_sum",
+      "role": "reference",
+      "alpha": 1.0,
+      "bandwidth": 1.0
+    },
+    {
+      "id": "single_sum-10.0",
+      "kind": "single_sum",
+      "role": "reference",
+      "alpha": 10.0,
+      "bandwidth": 1.0
+    },
+    {
+      "id": "component_additive-0.1",
+      "kind": "component_additive",
+      "role": "reference",
+      "alpha": 0.1,
+      "bandwidth": 1.0
+    },
+    {
+      "id": "component_additive-1.0",
+      "kind": "component_additive",
+      "role": "reference",
+      "alpha": 1.0,
+      "bandwidth": 1.0
+    },
+    {
+      "id": "component_additive-10.0",
+      "kind": "component_additive",
+      "role": "reference",
+      "alpha": 10.0,
+      "bandwidth": 1.0
+    },
+    {
+      "id": "global_plus_pair-0.1",
+      "kind": "global_plus_pair",
+      "role": "candidate",
+      "alpha": 0.1,
+      "bandwidth": 1.0
+    },
+    {
+      "id": "global_plus_pair-1.0",
+      "kind": "global_plus_pair",
+      "role": "candidate",
+      "alpha": 1.0,
+      "bandwidth": 1.0
+    },
+    {
+      "id": "global_plus_pair-10.0",
+      "kind": "global_plus_pair",
+      "role": "candidate",
+      "alpha": 10.0,
+      "bandwidth": 1.0
+    }
+  ],
+  "shuffle_seeds": [
+    1729,
+    2718,
+    3141
+  ],
+  "materiality": 0.05,
+  "maximum_seconds": 300,
+  "primary_endpoint": "equal_culture_pair_gene_mse",
+  "missingness": "balanced_complete_block",
+  "inference": "paired_culture_t_fixed_panel",
+  "final_refit": "train_plus_validation",
+  "secondary_endpoints": [
+    "mae",
+    "residual_norm",
+    "independent_reference_accounting"
+  ],
+  "stopping": "fixed_sample_size_no_outcome_peeking",
+  "query_adaptation": "matched_controls_and_exact_dose_singles_only",
+  "aliases": {},
+  "registration_url": null,
+  "secondary_panel_fraction": 0.1,
+  "secondary_gene_weighting": "normalized development mean squared response, diagnostic only",
+  "primary_population": "fixed held-pair panel in independently initiated cultures of the same state",
+  "power_scope": "fixed fitted predictor; procedure-wide reselection power needs a separately qualified simulator"
+}

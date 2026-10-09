@@ -1,0 +1,404 @@
+{
+  "retrieval_utc": "2026-10-08T13:59:36.537715+00:00",
+  "source": "Combi-seq",
+  "source_files": {
+    "article": {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9343464/fullTextXML",
+      "sha256": "7c507c3bf310fc584510c792a5ef26fd18ad7ea08055d9b88722639c63725751",
+      "bytes": 154240
+    },
+    "41467_2022_32197_MOESM1_ESM.pdf": {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-32197-0/MediaObjects/41467_2022_32197_MOESM1_ESM.pdf",
+      "sha256": "ab6bcea106a1a9d3fd888965584df1e657a26607639d3392bcc763decd121747",
+      "bytes": 5489370
+    },
+    "41467_2022_32197_MOESM2_ESM.pdf": {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-32197-0/MediaObjects/41467_2022_32197_MOESM2_ESM.pdf",
+      "sha256": "ff5406b9c32e34e535439212fa37241bf6c1472b66c437cc69cf6ecabe007808",
+      "bytes": 330849
+    },
+    "41467_2022_32197_MOESM4_ESM.xlsx": {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-32197-0/MediaObjects/41467_2022_32197_MOESM4_ESM.xlsx",
+      "sha256": "7fe9ee4531b774f0e94acfb5b3681727165736ee12a6f350df3e6c4e3914f4d5",
+      "bytes": 12160
+    }
+  },
+  "supplement_inventory": [],
+  "retrieval_failures": [],
+  "article_license_links": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "expression_matrices_downloaded_or_opened": false,
+  "published_methods_and_conclusions_inspected": true,
+  "replication_evidence": "Primary methods describe three repetitions of the complete screen workflow.",
+  "published_biological_replicates_reported": 3,
+  "reporting_summary_review": "Page 2 reports three biological replicates for each small/large-screen combination. It reports no randomization; drug allocation was based on GR35.",
+  "independent_culture_initiation_verified": false,
+  "independence_limit": "Separate initiation, passage and culture-to-run records are not established by a repeated-workflow statement.",
+  "dose_evidence": "Methods identify single-drug GR35 calibration; supplementary assignments require explicit mapping before eligibility.",
+  "analysis_warning": "Published analysis includes z-scoring and ComBat across replicates; that corrected representation must not be used as independent-culture raw measurement evidence.",
+  "data_derivative_terms": "Article/supplement license does not automatically establish GEO count or fitted-export redistribution terms.",
+  "analysis_code_license": "GPL-3.0 in the primary repository; no upstream code copied",
+  "supplement_metadata_cells": {
+    "xl/worksheets/sheet1.xml": [
+      {
+        "A1": "Supplementary Data"
+      },
+      {
+        "A2": "Drug",
+        "B2": "GR35",
+        "C2": "logD value",
+        "D2": "Drug Class",
+        "E2": "Targets",
+        "F2": "ChEMBL ID",
+        "G2": "Provider"
+      },
+      {
+        "A3": "10Z-Hymenialdisine",
+        "B3": "4.6100000000000003",
+        "C3": "0.2",
+        "D3": "Kinase-Inhibitor",
+        "E3": "MEK1",
+        "F3": "CHEMBL361708",
+        "G3": "TOCRIS"
+      },
+      {
+        "A4": "5-Iodotubercidine",
+        "B4": "6.65",
+        "C4": "0.2",
+        "D4": "Anti-metabolite",
+        "E4": "ADK/INSR/ PKA/CK1",
+        "F4": "CHEMBL99203",
+        "G4": "Selleckchem"
+      },
+      {
+        "A5": "AT9283",
+        "B5": "0.17",
+        "C5": "-0.99",
+        "D5": "Kinase-Inhibitor",
+        "E5": "AURKA/AURKB/JAK2/JAK3",
+        "F5": "CHEMBL495727",
+        "G5": "Selleckchem"
+      },
+      {
+        "A6": "Baricitinib",
+        "B6": "1.5",
+        "C6": "0.46",
+        "D6": "Kinase-Inhibitor",
+        "E6": "JAK1/JAK2",
+        "F6": "CHEMBL2105759",
+        "G6": "Selleckchem"
+      },
+      {
+        "A7": "Blebbistatin",
+        "B7": "89.95",
+        "C7": "1.0900000000000001",
+        "D7": "Cytoskelleton",
+        "E7": "MYH2",
+        "F7": "CHEMBL1328324",
+        "G7": "Selleckchem"
+      },
+      {
+        "A8": "Clofarabine",
+        "B8": "0.89",
+        "C8": "0.45",
+        "D8": "Anti-metabolite",
+        "E8": "RRM1 / DNA Polymerase",
+        "F8": "CHEMBL1750",
+        "G8": "Selleckchem"
+      },
+      {
+        "A9": "Cytarabine",
+        "B9": "100",
+        "C9": "-0.81",
+        "D9": "Anti-metabolite",
+        "E9": "DNA / RNA Polymerase",
+        "F9": "CHEMBL803",
+        "G9": "Selleckchem"
+      },
+      {
+        "A10": "Dacarbazine",
+        "B10": "3.58",
+        "C10": "0.03",
+        "D10": "Alkylating Agent",
+        "E10": "DNA",
+        "F10": "CHEMBL476",
+        "G10": "Selleckchem"
+      },
+      {
+        "A11": "Decitabine",
+        "B11": "1.66",
+        "C11": "-1.87",
+        "D11": "Anti-metabolite",
+        "E11": "DNMT1",
+        "F11": "CHEMBL1201129",
+        "G11": "Selleckchem"
+      },
+      {
+        "A12": "Dovitinib",
+        "B12": "0.16",
+        "C12": "0.8",
+        "D12": "Kinase-Inhibitor",
+        "E12": "FLT3/c-Kit/FGFR1/FGFR3",
+        "F12": "CHEMBL522892",
+        "G12": "Selleckchem"
+      },
+      {
+        "A13": "Doxorubicin",
+        "B13": "0.53",
+        "C13": "-1.47",
+        "D13": "Anthracycline",
+        "E13": "TOP2",
+        "F13": "CHEMBL53463",
+        "G13": "Selleckchem"
+      },
+      {
+        "A14": "Epirubicin",
+        "B14": "0.12",
+        "C14": "-1.47",
+        "D14": "Anthracycline",
+        "E14": "TOP2",
+        "F14": "CHEMBL1200981",
+        "G14": "Selleckchem"
+      },
+      {
+        "A15": "Fludarabine Phosphate",
+        "B15": "100",
+        "C15": "-7.62",
+        "D15": "Anti-metabolite",
+        "E15": "DNA",
+        "F15": "CHEMBL1096882",
+        "G15": "Selleckchem"
+      },
+      {
+        "A16": "Fluoruracil",
+        "B16": "7.85",
+        "C16": "-1.64",
+        "D16": "Anti-metabolite",
+        "E16": "TYMS",
+        "F16": "CHEMBL185",
+        "G16": "Selleckchem"
+      },
+      {
+        "A17": "Gemcitabine",
+        "B17": "4.3999999999999997E-2",
+        "C17": "-2.2200000000000002",
+        "D17": "Anti-metabolite",
+        "E17": "DNA",
+        "F17": "CHEMBL888",
+        "G17": "Selleckchem"
+      },
+      {
+        "A18": "Gimeracil",
+        "B18": "100",
+        "C18": "-2.56",
+        "D18": "",
+        "E18": "DPYD",
+        "F18": "CHEMBL1730601",
+        "G18": "Selleckchem"
+      },
+      {
+        "A19": "H-7 dihydrochloride",
+        "B19": "75.650000000000006",
+        "C19": "NA",
+        "D19": "Kinase-Inhibitor",
+        "E19": "PRKC/PKG/PKA",
+        "F19": "",
+        "G19": "TOCRIS"
+      },
+      {
+        "A20": "Hematoxylin",
+        "B20": "2.59",
+        "C20": "-0.18",
+        "D20": "",
+        "E20": "EGFR/ERBB2/c-MET/c-KIT/SRC",
+        "F20": "CHEMBL477197",
+        "G20": "Selleckchem"
+      },
+      {
+        "A21": "Imatininb",
+        "B21": "0.24",
+        "C21": "2.4900000000000002",
+        "D21": "Kinase-Inhibitor",
+        "E21": "BCR-ABL",
+        "F21": "CHEMBL941",
+        "G21": "Selleckchem"
+      },
+      {
+        "A22": "Methotrexat",
+        "B22": "100",
+        "C22": "-5.0999999999999996",
+        "D22": "Kinase-Inhibitor",
+        "E22": "DHFR",
+        "F22": "CHEMBL34259",
+        "G22": "Selleckchem"
+      },
+      {
+        "A23": "Mitomycin C",
+        "B23": "0.95",
+        "C23": "-0.3",
+        "D23": "DNA-crosslinker",
+        "E23": "DNA Synthesis",
+        "F23": "CHEMBL105",
+        "G23": "Selleckchem"
+      },
+      {
+        "A24": "NMS1286937 (Onvansertib)",
+        "B24": "0.12",
+        "C24": "-1.19",
+        "D24": "Kinase-Inhibitor",
+        "E24": "PLK1",
+        "F24": "CHEMBL1094408",
+        "G24": "Selleckchem"
+      },
+      {
+        "A25": "Olomoucine",
+        "B25": "4.97",
+        "C25": "-0.2",
+        "D25": "Kinase-Inhibitor",
+        "E25": "CDK2/MAPK3",
+        "F25": "CHEMBL280074",
+        "G25": "TOCRIS"
+      },
+      {
+        "A26": "Oxaliplatin",
+        "B26": "10.14",
+        "C26": "-0.47*",
+        "D26": "Alkylating Agent",
+        "E26": "DNA",
+        "F26": "CHEMBL414804",
+        "G26": "Selleckchem"
+      },
+      {
+        "A27": "PF-562271",
+        "B27": "8.23",
+        "C27": "0.75",
+        "D27": "",
+        "E27": "FAK",
+        "F27": "CHEMBL1084546",
+        "G27": "Selleckchem"
+      },
+      {
+        "A28": "Razoxane",
+        "B28": "13.81",
+        "C28": "-0.91",
+        "D28": "Anthracycline",
+        "E28": "TOP2",
+        "F28": "CHEMBL1738",
+        "G28": "Selleckchem"
+      },
+      {
+        "A29": "SB747651A",
+        "B29": "0.87",
+        "C29": "-2.2400000000000002",
+        "D29": "Kinase-Inhibitor",
+        "E29": "MSK1/MSK2",
+        "F29": "CHEMBL188434",
+        "G29": "TOCRIS"
+      },
+      {
+        "A30": "SF-1126",
+        "B30": "3.29",
+        "C30": "-2.87**",
+        "D30": "Kinase-Inhibitor",
+        "E30": "PI3K/mTOR",
+        "F30": "CHEMBL2326966",
+        "G30": "Santa Cruz"
+      },
+      {
+        "A31": "Sonolisib",
+        "B31": "4.75",
+        "C31": "-0.95",
+        "D31": "Kinase-Inhibitor",
+        "E31": "PI3K",
+        "F31": "CHEMBL411907",
+        "G31": "Abcam"
+      },
+      {
+        "A32": "Streptozotocin",
+        "B32": "100",
+        "C32": "-1.25",
+        "D32": "",
+        "E32": "DNA",
+        "F32": "CHEMBL1603",
+        "G32": "Selleckchem"
+      },
+      {
+        "A33": "Sunitinib Malate",
+        "B33": "7.81",
+        "C33": "0.44",
+        "D33": "Kinase-Inhibitor",
+        "E33": "VEGFR2/PDGFRb",
+        "F33": "CHEMBL1567",
+        "G33": "Selleckchem"
+      },
+      {
+        "A34": "Tabloid (Thioguanine)",
+        "B34": "0.95",
+        "C34": "-1.5",
+        "D34": "Anti-metabolite",
+        "E34": "DNMT1",
+        "F34": "CHEMBL727",
+        "G34": "Selleckchem"
+      },
+      {
+        "A35": "Trametinib",
+        "B35": "0.21",
+        "C35": "2.54",
+        "D35": "Kinase-Inhibitor",
+        "E35": "MEK1/2",
+        "F35": "CHEMBL2103875",
+        "G35": "Selleckchem"
+      },
+      {
+        "A36": "Triciribine",
+        "B36": "8.3000000000000007",
+        "C36": "-7.22",
+        "D36": "Kinase-Inhibitor",
+        "E36": "AKT1/AKT2/AKT3",
+        "F36": "CHEMBL462018",
+        "G36": "Selleckchem"
+      },
+      {
+        "A37": "Wortmannin",
+        "B37": "1.55",
+        "C37": "-1.64",
+        "D37": "Kinase-Inhibitor",
+        "E37": "PI3K",
+        "F37": "CHEMBL428496",
+        "G37": "Selleckchem"
+      },
+      {
+        "A38": "YM155",
+        "B38": "2.9999999999999997E-4",
+        "C38": "-1.45",
+        "D38": "",
+        "E38": "BIRC5",
+        "F38": "CHEMBL2110734",
+        "G38": "Selleckchem"
+      },
+      {
+        "A39": "Targets according to the manufactures information"
+      },
+      {
+        "A40": "LogD pH 7.4: ACD_LogD pH 7.4 values at given by ChEMBL database using ACD software v12.01"
+      },
+      {
+        "A41": "* LogD value from DrugBank"
+      },
+      {
+        "A42": "** ALogD value ChEMBL: Atomic LogD value (Ghose and Crippen, 1987)"
+      },
+      {
+        "A43": ""
+      },
+      {
+        "A44": ""
+      },
+      {
+        "A45": ""
+      }
+    ]
+  },
+  "accepted_for_confirmation": false
+}

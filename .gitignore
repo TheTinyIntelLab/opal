@@ -6,6 +6,7 @@ __pycache__/
 .pytest-harden-tmp/
 tmp/
 dist/
+dist-public-diagnostic/
 build/
 .venv/
 *.egg-info/
@@ -121,3 +122,8 @@ results/recheck-*/**/*.npz
 results/recheck-*/**/*.zip
 results/recheck-*/verification/*.png
 results/recheck-*/**/exports-*/
+
+# Replicated-study response banks and custodian storage remain local.
+/PLAN.md
+results/replicated_fixed_state_v1/**/*.npz
+data/source_audits/replicated_fixed_state_v1/source_snapshots/

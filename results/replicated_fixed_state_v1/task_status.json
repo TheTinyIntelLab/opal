@@ -1,0 +1,102 @@
+{
+  "R1": {
+    "status": "complete with evidence path",
+    "evidence_path": "results/release-closeout-ceiling-20261008/canonical-v1/canonical_claims.json",
+    "acceptance_boundary": "2,400 canonical source-hashed claims and 737 grounded public decimal claims; decimal matching is not universal semantic certification."
+  },
+  "R2": {
+    "status": "complete with evidence path",
+    "evidence_path": "configs/releases/v0.1.2.json",
+    "acceptance_boundary": "Local dirty-input review candidate; immutable public release requires a future committed baseline."
+  },
+  "R3": {
+    "status": "complete with evidence path",
+    "evidence_path": "tests/test_release_packaging.py",
+    "acceptance_boundary": "Privacy and traversal membership checks; raw sources remain excluded."
+  },
+  "R4": {
+    "status": "complete with evidence path",
+    "evidence_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\completed_verification.json",
+    "acceptance_boundary": "Windows 3.11 and 3.14 tested; Linux configured but untested locally."
+  },
+  "D1": {
+    "status": "complete with evidence path",
+    "evidence_path": "results/replicated_fixed_state_v1/qualification-primary-final/primary_methods.json",
+    "acceptance_boundary": "Explicit unqualified source decision with metadata counts and outstanding dependencies.",
+    "additional_public_search_evidence": "results/replicated_fixed_state_v1/public-search-20261009-v1/qualification_decisions.json"
+  },
+  "D2": {
+    "status": "blocked on named dependency",
+    "evidence_path": "src/replicated/data.py",
+    "acceptance_boundary": "Assay adapter and count-to-evaluation CLI route verified on original synthetic integer reads; real banks still require accepted dose/source and permitted access."
+  },
+  "D3": {
+    "status": "complete with evidence path",
+    "evidence_path": "src/replicated/contracts.py",
+    "acceptance_boundary": "Split constructor and isolation verified; scientific allocation awaits qualified power."
+  },
+  "M1": {
+    "status": "blocked on named dependency",
+    "evidence_path": "results/replicated_fixed_state_v1/rehearsal-v2/summary.json",
+    "acceptance_boundary": "Technical rehearsal complete; independent-culture measurement acceptance needs qualified cultures.",
+    "additional_processing_evidence": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\report.json"
+  },
+  "M2": {
+    "status": "complete with evidence path",
+    "evidence_path": "src/replicated/models.py",
+    "acceptance_boundary": "Centered incidence reference and unsupported-component behavior verified."
+  },
+  "M3": {
+    "status": "complete with evidence path",
+    "evidence_path": "results/release-closeout-assay-20261008/synthetic_assay_verification.json",
+    "acceptance_boundary": "Synthetic selection, freeze and restoration complete; scientific freeze remains provenance-gated."
+  },
+  "S1": {
+    "status": "blocked on named dependency",
+    "evidence_path": "results/replicated_fixed_state_v1/power/procedure_variance_summary_v1.json",
+    "acceptance_boundary": "3,000 synthetic full-procedure studies cover variance multipliers 1, 2.25 and 4 without pooling shared draws. Biological independent-unit power and coverage review remain required."
+  },
+  "E1": {
+    "status": "complete with evidence path",
+    "evidence_path": "src/replicated/workflow.py",
+    "acceptance_boundary": "Custodian scoring, membership, code/hash rejection and one-score receipt verified."
+  },
+  "E2": {
+    "status": "complete with evidence path",
+    "evidence_path": "results/replicated_fixed_state_v1/report/decision.json",
+    "acceptance_boundary": "Report/interpretation machinery and honest unqualified branch exist; no scientific confirmation score invented."
+  },
+  "publication": {
+    "status": "blocked on named dependency",
+    "evidence_path": "docs/next_cycle/release_review.md",
+    "acceptance_boundary": "Git commits and pushes authorized on 9 October. External release upload, archival identifiers and manuscript submission remain under the separate publication pause."
+  },
+  "collaboration": {
+    "status": "blocked on named dependency",
+    "evidence_path": "docs/next_cycle/collaboration_brief.md",
+    "acceptance_boundary": "Reviewable brief complete; actual correspondence and laboratory agreement require owner actions."
+  },
+  "registration": {
+    "status": "blocked on named dependency",
+    "evidence_path": "docs/next_cycle/analysis_protocol.md",
+    "acceptance_boundary": "Real accepted data/design and external timestamped registration are unavailable."
+  },
+  "crossed_state_successor": {
+    "status": "blocked on named dependency",
+    "evidence_path": "results/replicated_fixed_state_v1/report/decision.json",
+    "acceptance_boundary": "No fixed-state advancement gate passed."
+  },
+  "public_processing_diagnostic": {
+    "status": "complete with real public counts",
+    "evidence_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\report.json",
+    "acceptance_boundary": "All 374 pairs across three runs analyzed descriptively with nominal references. Exact physical-dose/vehicle and culture qualification unresolved. Source outcomes now exposed; no biological gate or architecture search.",
+    "verification_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\completed_verification.json"
+  },
+  "public_dataset_search": {
+    "latest_decisions": "results/replicated_fixed_state_v1/public-search-20261009-v1/qualification_decisions.json",
+    "latest_metadata_support": "results/replicated_fixed_state_v1/public-search-20261009-v1/sciplex4_support_audit.json",
+    "primary_confirmation_qualified": false,
+    "new_expression_access_this_search": false,
+    "boundary": "New public access leads and exact source conflicts documented; existing biological acceptance gates retained."
+  }
+}
