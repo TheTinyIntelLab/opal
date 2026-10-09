@@ -1,0 +1,16 @@
+{
+  "role": "bounded_sample_metadata_review_not_confirmation",
+  "expression_accessed": false,
+  "primary_confirmation_qualified": false,
+  "source_hashes": "sample_design_counts.json and retrieval.json",
+  "decisions": [
+    {"accession": "GSE269905", "decision": "Proliferation readout from pooled SLC knockout screens; 129 samples are not joint expression profiles."},
+    {"accession": "GSE190785", "decision": "One FLT3/LSD1 pair, three reported repeats per line or primary AML context, mixed RNA and chromatin assays. The 289 total records do not form a broad fixed-state pair bank."},
+    {"accession": "GSE193489", "decision": "Mixed chromatin and RNA superseries; chemical and silencer-deletion comparisons cover single pairs with two repeat labels. Different times and assays cannot be pooled as independent cultures."},
+    {"accession": "GSE266011", "decision": "36 RNA records: three four-arm comparisons with three explicitly reported independent experiments each. Two proteasome-inhibitor/SHP1705 pairs, with one repeated at another time, do not provide a broad held-pair graph or six fixed-state panels."},
+    {"accession": "GSE179514", "decision": "Mixed fission-yeast assays; eight total-RNA records cover WT, ago1, fkbp39 and double mutant with two repeat labels. One pair and a different organism require a new contract."},
+    {"accession": "GSE234689", "decision": "69 mixed RNA interaction, modification, total/small RNA and ribosome records. The HEK293 total-RNA WT/SNORD97/SNORD133/double comparison has two repeats per arm and one canonical pair."},
+    {"accession": "GSE243223", "decision": "52 RNA records for one adenovirus/ONC201 pair: three complete four-arm repeats in CHLA03, SJGBM2 and DIPGIV, four in TP54. Cell lines cannot be treated as same-state cultures."},
+    {"accession": "GSE119585", "decision": "164 tuberculosis drug-response records across subseries and doses; reviewed sample labels encode individual drug treatments. Combination prediction or viability experiments do not establish deposited joint-expression panels."}
+  ]
+}

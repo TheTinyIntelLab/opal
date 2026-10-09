@@ -19,6 +19,15 @@ PAIR_TERMS = ('drug combination', 'combinatorial perturb', 'double knockout', 'd
 REPEAT_TERMS = ('biological replic', 'independent cultures', 'independently cultured', 'independent experiment')
 
 
+def validate_queries(queries):
+    if (not isinstance(queries, list) or not 1 <= len(queries) <= 4
+            or any(not isinstance(q, str) or not q.strip() or len(q) > 4000
+                   or 'gse[etyp]' not in q.lower() for q in queries)
+            or len(set(queries)) != len(queries)):
+        raise ValueError('Require one through four unique bounded GEO series queries')
+    return queries
+
+
 def search_ids(payload):
     result = payload.get('esearchresult', {})
     if result.get('errorlist') or payload.get('error') or not result.get('querytranslation'):
@@ -64,12 +73,16 @@ def main():
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--snapshots', type=Path, required=True)
     p.add_argument('--limit-per-query', type=int, default=150)
+    p.add_argument('--query-file', type=Path, help='JSON list of one through four explicit GEO series queries')
     args = p.parse_args()
     if not 1 <= args.limit_per_query <= 150:
         raise ValueError('Fixed query budget is 1 through 150 records')
+    selected_queries = validate_queries(json.loads(args.query_file.read_text(encoding='utf-8'))
+                                        if args.query_file else QUERIES)
     args.output.mkdir(parents=True, exist_ok=False)
     args.snapshots.mkdir(parents=True, exist_ok=False)
-    scope = {'fixed_utc': datetime.now(timezone.utc).isoformat(), 'queries': QUERIES,
+    scope = {'fixed_utc': datetime.now(timezone.utc).isoformat(), 'queries': selected_queries,
+             'query_file_sha256': hashlib.sha256(args.query_file.read_bytes()).hexdigest() if args.query_file else None,
              'limit_per_query': args.limit_per_query, 'sort': 'NCBI default, no unsupported sort parameter',
              'role': 'metadata_only_discovery', 'published_narratives_may_be_encountered': True,
              'expression_or_weights_downloaded': False, 'maximum_total_bytes': 80_000_000,
@@ -102,7 +115,7 @@ def main():
                 time.sleep(2 ** (attempt + 1))
 
     queries, identifiers = [], set()
-    for i, query in enumerate(QUERIES):
+    for i, query in enumerate(selected_queries):
         payload = fetch('esearch.fcgi', {'db': 'gds', 'term': query, 'retmode': 'json',
                         'retmax': args.limit_per_query, 'tool': 'opal-source-audit'}, f'search-{i}.json')
         ids = search_ids(payload)

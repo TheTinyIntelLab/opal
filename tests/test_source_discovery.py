@@ -32,6 +32,14 @@ def test_query_and_incomplete_summary_errors_reject():
         module.summarize({'result': {'uids': ['1'], '1': {'accession': 'GSM1'}}})
 
 
+def test_custom_queries_require_bounded_unique_series_scope():
+    for queries in ([], ['single drug'], ['x AND gse[ETYP]'] * 2,
+                    ['x AND gse[ETYP]'] * 5, [None]):
+        with pytest.raises(ValueError, match='queries'):
+            module.validate_queries(queries)
+    assert module.validate_queries(['old studies AND gse[ETYP]']) == ['old studies AND gse[ETYP]']
+
+
 def test_family_design_counts_do_not_pool_or_infer_cultures(tmp_path):
     audit_spec = importlib.util.spec_from_file_location('family_audit',
         Path(__file__).parents[1] / 'tools/audit_geo_family_design.py')
@@ -59,3 +67,23 @@ def test_brief_metadata_rejects_html_and_embedded_expression_tables():
     with pytest.raises(ValueError, match='Expected GEO'):
         brief.validate_brief(b'<html>Checking your browser</html>', 'SAMPLE')
     assert brief.validate_brief(b'^SAMPLE = GSM1\n!Sample_title = control', 'SAMPLE').startswith('^SAMPLE')
+
+
+def test_biostudies_sample_audit_deduplicates_assays_without_inventing_cultures():
+    spec = importlib.util.spec_from_file_location('biostudies',
+        Path(__file__).parents[1] / 'tools/fetch_biostudies_metadata.py')
+    biostudies = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(biostudies)
+    data = (b'Source Name\tComment[ENA_SAMPLE]\tFactor Value[treatment]\n'
+            b's1\tERS1\tcontrol\ns1\tERS1\tcontrol\ns2\tERS2\tpair\n')
+    result = biostudies.summarize_sdrf(data)
+    assert result['assay_row_count'] == 3
+    assert result['unique_source_count'] == 2
+    assert result['unique_source_factor_counts'] == {'Factor Value[treatment]': {'control': 1, 'pair': 1}}
+    assert not result['independent_cultures_inferred']
+    with pytest.raises(ValueError, match='Conflicting'):
+        biostudies.summarize_sdrf(data.replace(b's1\tERS1\tcontrol\ns2', b's1\tERS1\tpair\ns2'))
+    with pytest.raises(ValueError, match='Unexpected'):
+        biostudies.validate_study(b'{"accno":"E-MTAB-1","section":{}}', 'E-MTAB-2')
+    with pytest.raises(ValueError, match='rectangular'):
+        biostudies.validate_sdrf(b'<html>error</html>')

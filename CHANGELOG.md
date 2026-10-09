@@ -4,6 +4,8 @@
 
 Adds source-processed single-pair donor diagnostics, complete-arm metadata validation, query-donor exclusion for same-pair residual transfer, bounded GEO brief metadata retrieval and source reviews. GSE78083 retains 18 donors after two pre-expression metadata-conflict exclusions, with exact installed-wheel replay. No original confirmation gate advances, and published v0.1.2 assets remain unchanged.
 
+Extends discovery with bounded custom GEO queries and BioStudies study/SDRF retrieval. An additional 296-series inventory yields 280 new summaries and eight sample-level reviews; the ArrayExpress TBX2/MYCN lead has six reported biological replicates per condition but one canonical pair. SDRF audits distinguish unique sources from technical assay rows and reject conflicting within-source factors. Full local suite: 223 passes; the preceding donor implementation passes all four CI jobs.
+
 ## 0.1.2, GitHub research release, 9 October 2026
 
 Published the nine clean-commit research assets from `53d6e83` after explicit owner approval and successful Windows/Linux Python 3.11/3.14 CI. All nine uploaded assets were downloaded and hash-verified. The repository remains private; public access, Zenodo archival and arXiv submission are separate. Full local suite: 213 passes; each CI environment passes 106 integrity tests, clean CPU dependency installation and the synthetic assay rehearsal.

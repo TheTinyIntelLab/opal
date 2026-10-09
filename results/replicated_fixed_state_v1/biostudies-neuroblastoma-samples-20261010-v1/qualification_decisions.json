@@ -1,0 +1,31 @@
+{
+  "role": "sample_metadata_review_not_confirmation",
+  "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6242972/",
+  "expression_accessed": false,
+  "primary_confirmation_qualified": false,
+  "source_hashes": "sample_design_counts.json and retrieval.json",
+  "decisions": [
+    {
+      "accession": "E-MTAB-6568",
+      "unique_sources": 36,
+      "assay_rows": 144,
+      "reported_biological_replicates_per_condition": 6,
+      "decision": "Six RNA-interference conditions each have six unique sources; four assay rows per source are technical sequencing records. Two TBX2 shRNAs share MYCN as partner and represent one canonical gene pair. Sequential TBX2 transduction and doxycycline-induced MYCN depletion have different initiation times. No explicit matched independent-initiation block map appears in SDRF; source numbering is not accepted as such a map. This is a useful replicated single-pair lead, not a broad held-pair confirmation bank.",
+      "processed_matrix_located_in_study_api": false,
+      "raw_fastq_followed": false
+    },
+    {
+      "accession": "E-MTAB-7025",
+      "unique_sources": 16,
+      "assay_rows": 64,
+      "reported_biological_replicates_per_condition": 4,
+      "decision": "Four-arm THZ1 35 nM/JQ1 1 uM comparison at 10 hours with four reported biological repeats. Four assay rows per source do not increase biological replication; one canonical pair and four repeats fail the original bank requirements.",
+      "raw_fastq_followed": false
+    }
+  ],
+  "other_study_metadata": {
+    "E-MTAB-6562": "ATAC-seq by title and protocol despite misleading RNA study-type metadata; not joint expression.",
+    "E-MTAB-6567": "Single TBX2 knockdown with two shRNAs and three repeats; no MYCN pair.",
+    "E-MTAB-6570": "ChIP-seq binding-site assays; not joint expression."
+  }
+}
