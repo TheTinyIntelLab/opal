@@ -11,10 +11,15 @@ def audit(path):
     raw = path.read_bytes()
     if len(raw) > 2_000_000:
         raise ValueError('Compressed metadata exceeds budget')
-    with gzip.open(path, 'rb') as stream:
-        decoded = stream.read(20_000_001)
+    if path.suffix == '.gz':
+        with gzip.open(path, 'rb') as stream:
+            decoded = stream.read(20_000_001)
+    else:
+        decoded = raw
     if len(decoded) > 20_000_000:
         raise ValueError('Decompressed metadata exceeds budget')
+    if b'!sample_table_begin' in decoded.lower():
+        raise ValueError('Expression table is not metadata-only input')
     samples, current = [], None
     for line in decoded.decode('utf-8').splitlines():
         if line.startswith('^SAMPLE = '):
@@ -43,7 +48,9 @@ def main():
     parser.add_argument('--snapshots', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
     args = parser.parse_args()
-    records = [audit(path) for path in sorted(args.snapshots.glob('GSE*.soft.gz'))]
+    paths = [path for path in sorted(args.snapshots.glob('GSE*.soft*'))
+             if '-self.soft' not in path.name]
+    records = [audit(path) for path in paths]
     if not records:
         raise ValueError('No SOFT metadata found')
     with args.output.open('x', encoding='utf-8') as stream:

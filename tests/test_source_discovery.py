@@ -47,3 +47,15 @@ def test_family_design_counts_do_not_pool_or_infer_cultures(tmp_path):
     path.write_bytes(gzip.compress(b'^SAMPLE = GSM1\n^SAMPLE = GSM1\n'))
     with pytest.raises(ValueError, match='duplicated'):
         audit_module.audit(path)
+
+
+def test_brief_metadata_rejects_html_and_embedded_expression_tables():
+    brief_spec = importlib.util.spec_from_file_location('brief_metadata',
+        Path(__file__).parents[1] / 'tools/fetch_geo_brief_metadata.py')
+    brief = importlib.util.module_from_spec(brief_spec)
+    brief_spec.loader.exec_module(brief)
+    with pytest.raises(ValueError, match='Expression table'):
+        brief.validate_brief(b'^SAMPLE = GSM1\n!sample_table_begin\n', 'SAMPLE')
+    with pytest.raises(ValueError, match='Expected GEO'):
+        brief.validate_brief(b'<html>Checking your browser</html>', 'SAMPLE')
+    assert brief.validate_brief(b'^SAMPLE = GSM1\n!Sample_title = control', 'SAMPLE').startswith('^SAMPLE')

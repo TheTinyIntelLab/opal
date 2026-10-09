@@ -94,12 +94,15 @@
     "verification_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\completed_verification.json"
   },
   "public_dataset_search": {
-    "latest_decisions": "results/replicated_fixed_state_v1/public-discovery-followup-20261009-v1/qualification_decisions.json",
-    "latest_metadata_support": "results/replicated_fixed_state_v1/public-discovery-followup-20261009-v1/sample_design_counts.json",
+    "latest_decisions": "results/replicated_fixed_state_v1/public-brief-search-20261010-v1/qualification_decisions.json",
+    "latest_metadata_support": "results/replicated_fixed_state_v1/arts-brief-metadata-20261010-v1/sample_design_and_decision.json",
     "primary_confirmation_qualified": false,
-    "new_expression_access_this_search": false,
-    "boundary": "296 series indexed; nine sample-level followups remain unqualified. No expression or weights accessed in this search; original gates retained.",
-    "metadata_inventory": "results/replicated_fixed_state_v1/public-discovery-20261009-v1/inventory.json"
+    "new_expression_access_this_search": true,
+    "boundary": "Eight additional source designs checked via family/brief metadata, with a 944-sample ARTexpress dose-matched panel retained as an unqualified lead. GSE78083 expression inspected under a separate pre-access descriptive donor scope. Original held-pair bank still unqualified.",
+    "metadata_inventory": "results/replicated_fixed_state_v1/public-discovery-20261009-v1/inventory.json",
+    "new_expression_sources": [
+      "GSE78083"
+    ]
   },
   "RETRO1": {
     "status": "complete with evidence path",
@@ -120,5 +123,11 @@
     "evidence_path": "results/replicated_fixed_state_v1/github-release-v0.1.2/verification.json",
     "url": "https://github.com/TheTinyIntelLab/opal/releases/tag/v0.1.2",
     "acceptance_boundary": "Owner-approved GitHub publication and exact asset downloads verified; repository remains private."
+  },
+  "donor_processing_diagnostic": {
+    "status": "complete with evidence path",
+    "evidence_path": "results/replicated_fixed_state_v1/donor-monocyte-diagnostic-20261010-v2/report.json",
+    "verification_path": "results/replicated_fixed_state_v1/donor-monocyte-diagnostic-20261010-v2/verification.json",
+    "acceptance_boundary": "18 complete primary donors after two metadata-conflict exclusions fixed before expression access. One pair and all 47,299 deposited probes; same-pair donor transfer is not held-pair prediction. No original gate, biological culture-reliability or fresh-confirmation claim."
   }
 }

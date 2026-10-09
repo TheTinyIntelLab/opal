@@ -1,0 +1,39 @@
+{
+  "role": "brief_sample_metadata_review",
+  "earlier_budget_failures_retained": true,
+  "decisions": [
+    {
+      "accession": "GSE11452",
+      "source_sha256": "6225e93926faeb44ecb3759bb04af490bc43e4fddd07b9f12a62f2b59eda7ee6",
+      "sample_count": 170,
+      "primary_record": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE11452",
+      "decision": "not_qualified_for_original_confirmation",
+      "reason": "Yeast chemostat compendium of differing culture conditions and environmental axes; biological units and assay require a new contract. Mostly three reported repeats, no complete six-culture fixed-pair panel established.",
+      "expression_accessed": false
+    },
+    {
+      "accession": "GSE254052",
+      "source_sha256": "67954b3dd5504d44bd1cc788254a9c652f247b2103aa408e2a4767ae339cf59f",
+      "sample_count": 4,
+      "primary_record": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE254052",
+      "decision": "not_qualified_for_original_confirmation",
+      "reason": "Four array sample records, one capsaicin/mitoxantrone pair. Protocol describes three independent wells per group, without separate expression records for each well or six complete culture panels.",
+      "expression_accessed": false
+    },
+    {
+      "accession": "GSE337988",
+      "source_sha256": "192bdaf9c79ec502bfea9a767be48ec91376465443cbdab422328a82b190635a",
+      "sample_count": 48,
+      "primary_record": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE337988",
+      "decision": "not_qualified_for_original_confirmation",
+      "reason": "DLD-1 CRISPRi pools vary MOI, mix pilot and scaled libraries and split material across many droplet channels. Three library modalities and channel counts do not establish independent culture initiation or matched complete pair panels.",
+      "expression_accessed": false
+    },
+    {
+      "accession": "GSE314659",
+      "decision": "not_qualified_for_original_confirmation",
+      "detailed_followup": "results/replicated_fixed_state_v1/arts-brief-metadata-20261010-v1/sample_design_and_decision.json",
+      "expression_accessed": false
+    }
+  ]
+}
