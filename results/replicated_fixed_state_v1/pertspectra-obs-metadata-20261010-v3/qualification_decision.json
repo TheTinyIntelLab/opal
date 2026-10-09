@@ -1,0 +1,22 @@
+{
+  "role": "remote_observation_metadata_qualification",
+  "source": "https://pert-spectra.s3.amazonaws.com/data/inhouse.h5ad",
+  "author_data_location": "https://github.com/insitro/PertSpectra/tree/main/data/inhouse",
+  "source_object_bytes": 3142132144,
+  "metadata_range_bytes_received": 1245184,
+  "expression_values_decoded": false,
+  "adjacent_expression_bytes_may_have_arrived_uninterpreted": true,
+  "model_weights_accessed": false,
+  "observation_rows": 73015,
+  "paper_reported_filtered_cells": 65648,
+  "paper_to_deposit_filtering_reconciled": false,
+  "source_sample_index_labels": 8,
+  "sample_index_labels_per_tnf_context": 4,
+  "literal_distinct_two_target_labels_per_stratum_range": [264, 269],
+  "literal_single_target_labels_per_stratum_excluding_intergenic": 30,
+  "literal_pair_single_label_support_complete": true,
+  "molecular_guide_control_and_dose_equivalence_verified": false,
+  "source_index_to_independent_culture_map_verified": false,
+  "primary_confirmation_qualified": false,
+  "decision": "Useful broad pair-label support within four sample-index strata per TNF context. SampleIndex is not a verified initiation-block identity, contexts cannot be pooled to manufacture replication, and literal gene-label support does not establish matched guide/reagent references. Retain as a metadata-resolved external-development lead without decoding expression or accepting the original confirmation bank."
+}

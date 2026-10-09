@@ -18,7 +18,8 @@
     "status": "complete with evidence path",
     "evidence_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\completed_verification.json",
     "acceptance_boundary": "213 full local tests; four Windows/Linux 3.11/3.14 CI environments each pass fresh CPU dependency installation, 106 integrity tests and standalone synthetic assay rehearsal on 53d6e83. Software verification only.",
-    "additional_ci_evidence": "results/replicated_fixed_state_v1/ci-53d6e83/verification.json"
+    "additional_ci_evidence": "results/replicated_fixed_state_v1/ci-0e1a915/verification.json",
+    "latest_local_tests_passed": 231
   },
   "D1": {
     "status": "complete with evidence path",
@@ -94,11 +95,11 @@
     "verification_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\completed_verification.json"
   },
   "public_dataset_search": {
-    "latest_decisions": "results/replicated_fixed_state_v1/public-brief-search-20261010-v1/qualification_decisions.json",
-    "latest_metadata_support": "results/replicated_fixed_state_v1/arts-brief-metadata-20261010-v1/sample_design_and_decision.json",
+    "latest_decisions": "results/replicated_fixed_state_v1/pertspectra-obs-metadata-20261010-v3/qualification_decision.json",
+    "latest_metadata_support": "results/replicated_fixed_state_v1/pertspectra-obs-metadata-20261010-v3/verification.json",
     "primary_confirmation_qualified": false,
-    "new_expression_access_this_search": true,
-    "boundary": "Eight additional source designs checked via family/brief metadata, with a 944-sample ARTexpress dose-matched panel retained as an unqualified lead. GSE78083 expression inspected under a separate pre-access descriptive donor scope. Original held-pair bank still unqualified.",
+    "new_expression_access_this_search": false,
+    "boundary": "Author-hosted H5AD observation metadata decoded via bounded ranges; four sample indices per TNF context do not establish independent cultures. Adjacent expression bytes may arrive uninterpreted, but no expression values or weights decoded. Dryad cytokine primary design also reviewed; original bank remains unqualified.",
     "metadata_inventory": "results/replicated_fixed_state_v1/public-discovery-20261009-v1/inventory.json",
     "new_expression_sources": [
       "GSE78083"
@@ -129,5 +130,17 @@
     "evidence_path": "results/replicated_fixed_state_v1/donor-monocyte-diagnostic-20261010-v2/report.json",
     "verification_path": "results/replicated_fixed_state_v1/donor-monocyte-diagnostic-20261010-v2/verification.json",
     "acceptance_boundary": "18 complete primary donors after two metadata-conflict exclusions fixed before expression access. One pair and all 47,299 deposited probes; same-pair donor transfer is not held-pair prediction. No original gate, biological culture-reliability or fresh-confirmation claim."
+  },
+  "unmatched_array_diagnostic": {
+    "status": "complete with evidence path",
+    "evidence_path": "results/replicated_fixed_state_v1/lncap-array-unmatched-20261010-v1/report.json",
+    "verification_path": "results/replicated_fixed_state_v1/lncap-array-unmatched-20261010-v1/installed_verification.json",
+    "acceptance_boundary": "GSE56188 three-pair, six-repeat processed assay diagnostics use control/single arm means without matching repeat numbers. Exact installed replay; no original gate or biological confidence intervals."
+  },
+  "remote_metadata_audit": {
+    "status": "complete with evidence path",
+    "evidence_path": "results/replicated_fixed_state_v1/pertspectra-obs-metadata-20261010-v3/report.json",
+    "verification_path": "results/replicated_fixed_state_v1/pertspectra-obs-metadata-20261010-v3/verification.json",
+    "acceptance_boundary": "Selected metadata columns only; verified ranges and exact local reparse. Sample indices, row counts and nominal pair labels do not establish accepted culture units or matched molecular references."
   }
 }

@@ -1,0 +1,26 @@
+{
+  "fixed_utc": "2026-10-09T19:28:37.054388+00:00",
+  "url": "https://pert-spectra.s3.amazonaws.com/data/inhouse.h5ad",
+  "role": "selected_obs_metadata_only",
+  "allowed_columns": [
+    "batch",
+    "biological_replicate",
+    "condition",
+    "culture",
+    "culture_id",
+    "donor",
+    "plate",
+    "rep",
+    "replicate",
+    "sample",
+    "sample_id",
+    "treatment"
+  ],
+  "expression_values_decoded": false,
+  "model_weights_accessed": false,
+  "maximum_range_bytes": 32000000,
+  "cache_block_bytes": 65536,
+  "adjacent_expression_bytes_may_arrive_uninterpreted_in_cached_blocks": true,
+  "unknown_columns_and_expression_datasets_not_read": true,
+  "runner_sha256": "737a691baee7bd91d850be2072e04e99bc269fc4e1bbeca31516e5ade64cd65d"
+}

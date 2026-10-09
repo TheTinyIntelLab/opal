@@ -8,6 +8,8 @@ Extends discovery with bounded custom GEO queries and BioStudies study/SDRF retr
 
 Adds a continuous-assay diagnostic that uses control/single arm means without matching replicate numbers. The executed GSE56188 panel includes three canonical pairs, six source-labeled biological repeats per arm and 33,297 deposited probes. A whole-held-pair mean-offset baseline improves over additivity descriptively; matched initiation, vehicle fraction and biological confirmation remain unqualified. Pre-2021 discovery adds 300 new series summaries and ten sample-level reviews. Full local suite: 226 passes, with exact outside-checkout installed-wheel replay; previous discovery CI passes all four jobs.
 
+Adds bounded, ETag-checked remote H5AD metadata reads and context-specific pair/single-label audits. PertSpectra's 3.14 GB source is inspected with 1.25 MB of ranges and no expression decoding; its eight sample indices split four per TNF context and remain unverified culture units. CINEMA-OT's public Dryad deposit is located and reviewed at the primary-design level. All 231 local tests pass, cached metadata replay is exact, and the preceding array-diagnostic commit passes all four CI jobs.
+
 ## 0.1.2, GitHub research release, 9 October 2026
 
 Published the nine clean-commit research assets from `53d6e83` after explicit owner approval and successful Windows/Linux Python 3.11/3.14 CI. All nine uploaded assets were downloaded and hash-verified. The repository remains private; public access, Zenodo archival and arXiv submission are separate. Full local suite: 213 passes; each CI environment passes 106 integrity tests, clean CPU dependency installation and the synthetic assay rehearsal.
