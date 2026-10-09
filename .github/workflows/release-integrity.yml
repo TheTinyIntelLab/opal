@@ -20,7 +20,7 @@ jobs:
       - run: python -m build --outdir dist-ci
       - run: python tools/check_clean_install.py --wheel dist-ci/opal_research-0.1.2-py3-none-any.whl --output clean-validation --torch-index-url https://download.pytorch.org/whl/cpu
       - run: python -m pip install dist-ci/opal_research-0.1.2-py3-none-any.whl
-      - run: python -m pytest tests/test_release_packaging.py tests/test_replicated.py tests/test_replicated_assay.py tests/test_replicated_sensitivity.py tests/test_replicated_power.py tests/test_replicated_protocol.py tests/test_replicated_planning.py tests/test_public_processing_diagnostic.py tests/test_retrospective.py tests/test_bulk_diagnostic.py tests/test_public_numbers.py tests/test_preparation_integrity.py tests/test_contracts.py -q
+      - run: python -m pytest tests/test_release_packaging.py tests/test_replicated.py tests/test_replicated_assay.py tests/test_replicated_sensitivity.py tests/test_replicated_power.py tests/test_replicated_protocol.py tests/test_replicated_planning.py tests/test_public_processing_diagnostic.py tests/test_retrospective.py tests/test_bulk_diagnostic.py tests/test_public_numbers.py tests/test_preparation_integrity.py tests/test_contracts.py tests/test_source_discovery.py -q
       - run: python tools/rehearse_replicated_assay.py --output assay-validation
       - uses: actions/upload-artifact@v4
         if: always()

@@ -1,0 +1,327 @@
+{
+  "role": "sample_metadata_counts_not_culture_qualification",
+  "sources": [
+    {
+      "source_file": "GSE264728.soft.gz",
+      "source_sha256": "c9012b1d42623217afd2a4ee835fccafd1f2802a71ff39502e26efc90cf0b1b1",
+      "compressed_bytes": 16557,
+      "sample_count": 144,
+      "characteristic_value_counts": {
+        "cell line": {
+          "HCl-003": 12,
+          "HCl-018": 12,
+          "MCF7": 90,
+          "T47D": 30
+        },
+        "cell type": {
+          "cell line": 84,
+          "organoid": 24
+        },
+        "guiderna": {
+          "sgKAT6A": 6,
+          "sgKAT6B": 6,
+          "sgLuciferase": 6,
+          "sgMEN1": 12,
+          "sgMEN1,sgKAT6A": 3,
+          "sgMEN1,sgKAT6B": 3
+        },
+        "time": {
+          "10 days": 12,
+          "4 days": 60,
+          "48 hours": 6,
+          "7 days": 12,
+          "8 hours": 6,
+          "96 hours": 6
+        },
+        "treatment": {
+          "200nM SNDX-5613": 9,
+          "50 nM PF-9363": 27,
+          "50 nM PF-9363,200nM SNDX-5613": 9,
+          "DMSO": 9,
+          "Estrogen starvation, 200nM SNDX-5613, DMSO": 6,
+          "Estrogen starvation, 200nM SNDX-5613,E2": 6,
+          "Estrogen starvation, 50 nM PF-9363, DMSO": 6,
+          "Estrogen starvation, 50 nM PF-9363, E2": 6,
+          "Estrogen starvation, 50 nM PF-9363,200nM SNDX-5613, DMSO": 6,
+          "Estrogen starvation, 50 nM PF-9363,200nM SNDX-5613, E2": 6,
+          "Estrogen starvation, DMSO, DMSO": 6,
+          "Estrogen starvation, DMSO, E2": 6
+        }
+      },
+      "expression_accessed": false,
+      "independent_cultures_inferred": false
+    },
+    {
+      "source_file": "GSE272885.soft.gz",
+      "source_sha256": "fc2306d9444bc2ea39b055cf6db81ae84c216085b738ce8655b75229b55d3481",
+      "compressed_bytes": 4986,
+      "sample_count": 48,
+      "characteristic_value_counts": {
+        "cell type": {
+          "CAR-T cell": 48
+        },
+        "genotype": {
+          "GTC_Control": 12,
+          "NR4A1_SKO": 12,
+          "NR4A1_SOCS3_DKO": 12,
+          "SOCS3_SKO": 12
+        },
+        "treatment": {
+          "06hr Cancer co-culture": 12,
+          "24hr Cancer co-culture": 12,
+          "72hr Cancer co-culture": 12,
+          "No cancer co-culture": 12
+        }
+      },
+      "expression_accessed": false,
+      "independent_cultures_inferred": false
+    },
+    {
+      "source_file": "GSE281604.soft.gz",
+      "source_sha256": "c30559f2ad68d910bbb30dbb1265402d446bd7d0d658864a721da666171bb376",
+      "compressed_bytes": 6139,
+      "sample_count": 74,
+      "characteristic_value_counts": {
+        "genotype": {
+          "KT": 9,
+          "KT_H11_Cas9": 45,
+          "KT_H11_LSL-Cas9": 20
+        },
+        "tissue": {
+          "lung": 74
+        }
+      },
+      "expression_accessed": false,
+      "independent_cultures_inferred": false
+    },
+    {
+      "source_file": "GSE282705.soft.gz",
+      "source_sha256": "893771ce307eb42f827b07f0c4e9f1c0b56ee7237a7d256bc66b4d66377253cf",
+      "compressed_bytes": 7406,
+      "sample_count": 90,
+      "characteristic_value_counts": {
+        "tissue": {
+          "patient-derived xenograft": 90
+        },
+        "treatment": {
+          "BLU-222: 100 mg/kg; BID, oral": 14,
+          "BLU-222: 50 mg/kg; BID, oral": 17,
+          "BLU-222: 50 mg/kg; BID, oral; palbociclib: 50 mg/kg; QD, oral": 14,
+          "BLU-222: 60 mg/kg; BID, oral": 2,
+          "BLU-222: 60 mg/kg; BID, oral; palbociclib: 50 mg/kg; QD, oral": 3,
+          "Palbociclib: 50 mg/kg; QD, oral": 16,
+          "Vehicle: BID, oral": 24
+        }
+      },
+      "expression_accessed": false,
+      "independent_cultures_inferred": false
+    },
+    {
+      "source_file": "GSE288795.soft.gz",
+      "source_sha256": "51f96a7743f439b13326c16921859360a43334bbd0dbcd35d42b2eed086544ee",
+      "compressed_bytes": 7993,
+      "sample_count": 111,
+      "characteristic_value_counts": {
+        "age": {
+          "24 months": 111
+        },
+        "genotype": {
+          "C3B6F1 wild type": 111
+        },
+        "sex": {
+          "Female": 58,
+          "Male": 53
+        },
+        "tissue": {
+          "Kidney": 37,
+          "Muscle": 36,
+          "Spleen": 38
+        },
+        "treatment": {
+          "Control": 11,
+          "control": 20,
+          "rapamycin": 26,
+          "rapamycin/trametinib": 26,
+          "trametinib": 28
+        }
+      },
+      "expression_accessed": false,
+      "independent_cultures_inferred": false
+    },
+    {
+      "source_file": "GSE298247.soft.gz",
+      "source_sha256": "355a209eced159cb73245ffba1a84797aeafe2553611e1e7b2db68606497f2f0",
+      "compressed_bytes": 5532,
+      "sample_count": 36,
+      "characteristic_value_counts": {
+        "cell type": {
+          "fetal liver-derived alveolar-like macrophages": 36
+        },
+        "concentration": {
+          "0": 4,
+          "10": 8,
+          "100": 8,
+          "100; 10": 8,
+          "20": 8
+        },
+        "concentration unit": {
+          "nM": 12,
+          "nM; uM": 8,
+          "ng/ml": 8,
+          "uM": 8
+        },
+        "timepoint": {
+          "4": 20,
+          "8": 16
+        },
+        "timepoint unit": {
+          "hours": 36
+        },
+        "treatment": {
+          "Dexamethasone": 8,
+          "Dexamethasone; docosahexaenoic acid": 8,
+          "Docosahexaenoic acid": 8,
+          "Lipopolysaccharide": 8,
+          "Vehicle": 4
+        }
+      },
+      "expression_accessed": false,
+      "independent_cultures_inferred": false
+    },
+    {
+      "source_file": "GSE305378.soft.gz",
+      "source_sha256": "72d029e7c12ac57f6da2203dd1127aa04f44bae4e8e342fac8ab3a3b47c08394",
+      "compressed_bytes": 7667,
+      "sample_count": 108,
+      "characteristic_value_counts": {
+        "batch": {
+          "D1": 36,
+          "D2": 36,
+          "D3": 36
+        },
+        "cell line": {
+          "SUDHL4": 54,
+          "WSUDLCL2": 54
+        },
+        "tissue": {
+          "cell line": 108
+        },
+        "treatment": {
+          "BMS158_1.25": 18,
+          "BMS158_1.25_CC282_5": 9,
+          "BMS158_1.25_CC282_50": 9,
+          "BMS158_2.5": 18,
+          "BMS158_2.5_CC282_5": 9,
+          "BMS158_2.5_CC282_50": 9,
+          "CC282_5": 9,
+          "CC282_50": 9,
+          "DMSO": 18
+        }
+      },
+      "expression_accessed": false,
+      "independent_cultures_inferred": false
+    },
+    {
+      "source_file": "GSE315341.soft.gz",
+      "source_sha256": "67a0e9e0d7f691f959b201aaa6f182215ea0b1a16fe67c95d83bc173bab466f8",
+      "compressed_bytes": 6430,
+      "sample_count": 60,
+      "characteristic_value_counts": {
+        "cell line": {
+          "MV4-11": 4,
+          "MV4-11-MITR": 4,
+          "OCI-AML3": 4,
+          "OCI-AML3-MITR": 4,
+          "Primary AML Blast": 44
+        },
+        "cell type": {
+          "AML cell line": 16,
+          "Leukemia": 44
+        },
+        "genotype": {
+          "Acute myeloid leukemia": 60
+        },
+        "tissue": {
+          "cell line": 60
+        },
+        "treatment": {
+          "500 nM SNDX-50469": 30,
+          "DMSO Control": 30
+        }
+      },
+      "expression_accessed": false,
+      "independent_cultures_inferred": false
+    },
+    {
+      "source_file": "GSE334500.soft.gz",
+      "source_sha256": "f65dcf96975443f73314d1e20bad3d100e2f04589cc305b820d4b0f068c98f77",
+      "compressed_bytes": 10680,
+      "sample_count": 96,
+      "characteristic_value_counts": {
+        "batch": {
+          "Pool-1": 48,
+          "Pool-2": 48
+        },
+        "cell line": {
+          "human iPSC (CytoTune Sendai-reprogrammed dermal fibroblasts)": 96
+        },
+        "cell type": {
+          "cardiac organoid": 48,
+          "retinal organoid": 48
+        },
+        "tissue": {
+          "iPSC-derived cardiac organoid": 48,
+          "iPSC-derived retinal organoid": 48
+        },
+        "treatment": {
+          "No_drug 5 uM, 24 h": 2,
+          "No_drug 5 uM, 24 h; adrenaline": 2,
+          "No_drug 5 uM, 24 h; dopamine": 2,
+          "No_drug 5 uM, 24 h; histamine": 2,
+          "No_drug 5 uM, 24 h; retinoic acid": 2,
+          "No_drug 5 uM, 24 h; serotonin": 2,
+          "aripiprazole 5 uM, 24 h": 2,
+          "aripiprazole 5 uM, 24 h; adrenaline": 2,
+          "aripiprazole 5 uM, 24 h; dopamine": 2,
+          "aripiprazole 5 uM, 24 h; histamine": 2,
+          "aripiprazole 5 uM, 24 h; retinoic acid": 2,
+          "aripiprazole 5 uM, 24 h; serotonin": 2,
+          "loxapine 5 uM, 24 h": 2,
+          "loxapine 5 uM, 24 h; adrenaline": 2,
+          "loxapine 5 uM, 24 h; dopamine": 2,
+          "loxapine 5 uM, 24 h; histamine": 2,
+          "loxapine 5 uM, 24 h; retinoic acid": 2,
+          "loxapine 5 uM, 24 h; serotonin": 2,
+          "quetiapine 5 uM, 24 h": 2,
+          "quetiapine 5 uM, 24 h; adrenaline": 2,
+          "quetiapine 5 uM, 24 h; dopamine": 2,
+          "quetiapine 5 uM, 24 h; histamine": 2,
+          "quetiapine 5 uM, 24 h; retinoic acid": 2,
+          "quetiapine 5 uM, 24 h; serotonin": 2,
+          "sertraline 5 uM, 24 h": 2,
+          "sertraline 5 uM, 24 h; adrenaline": 2,
+          "sertraline 5 uM, 24 h; dopamine": 2,
+          "sertraline 5 uM, 24 h; histamine": 2,
+          "sertraline 5 uM, 24 h; retinoic acid": 2,
+          "sertraline 5 uM, 24 h; serotonin": 2,
+          "vehicle/chemical control: 10 uM NaCl": 2,
+          "vehicle/chemical control: 10 uM NaNO2": 2,
+          "vehicle/chemical control: 2 mg ml k Carrageenan": 4,
+          "vehicle/chemical control: 2 uM C8H16NaO8": 4,
+          "vehicle/chemical control: 2 uM Na4P2O7": 4,
+          "vehicle/chemical control: 2 uM NaCl": 2,
+          "vehicle/chemical control: 2 uM NaNO2": 2,
+          "vehicle/chemical control: No drug": 4,
+          "xanomeline 5 uM, 24 h": 2,
+          "xanomeline 5 uM, 24 h; adrenaline": 2,
+          "xanomeline 5 uM, 24 h; dopamine": 2,
+          "xanomeline 5 uM, 24 h; histamine": 2,
+          "xanomeline 5 uM, 24 h; retinoic acid": 2,
+          "xanomeline 5 uM, 24 h; serotonin": 2
+        }
+      },
+      "expression_accessed": false,
+      "independent_cultures_inferred": false
+    }
+  ]
+}

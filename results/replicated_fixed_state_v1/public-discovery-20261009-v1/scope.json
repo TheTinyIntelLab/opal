@@ -1,0 +1,18 @@
+{
+  "fixed_utc": "2026-10-09T17:54:54.569882+00:00",
+  "queries": [
+    "(combinatorial[Title] OR \"drug combination\"[Title] OR \"double knockout\"[Title] OR \"double mutant\"[Title]) AND gse[ETYP]",
+    "(\"genetic interaction\" OR \"combination treatment\" OR \"co-treatment\") AND (\"RNA-seq\" OR \"transcriptome\") AND gse[ETYP]"
+  ],
+  "limit_per_query": 150,
+  "sort": "NCBI default, no unsupported sort parameter",
+  "role": "metadata_only_discovery",
+  "published_narratives_may_be_encountered": true,
+  "expression_or_weights_downloaded": false,
+  "maximum_total_bytes": 80000000,
+  "per_response_bytes": 12000000,
+  "minimum_request_spacing_seconds": 0.5,
+  "priority_rule": "3 per matched pair-text phrase plus 2 per replication-text phrase; ties by sample count then accession",
+  "qualification_boundary": "Text signals and sample counts never establish independent cultures, matching references or assay fit",
+  "runner_sha256": "cf488e9acc01a70178ccb314c7ffc0d7f3fe20a9799e4e74f888e4452aa72641"
+}
