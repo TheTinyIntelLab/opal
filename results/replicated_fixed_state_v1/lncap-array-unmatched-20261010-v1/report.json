@@ -1,0 +1,179 @@
+{
+  "role": "exposed_unmatched_repeat_processed_assay_diagnostic",
+  "samples": 42,
+  "source_probe_count": 33297,
+  "canonical_pairs": 3,
+  "endpoint": "all deposited finite unique source probes",
+  "reference_policy": "all control and constituent-single means, no cross-arm repeat matching",
+  "equal_pair_mean_mse": {
+    "zero": 0.08217730328021751,
+    "additive": 0.07283059909152423,
+    "same_pair_other_samples": 0.048445024369421434,
+    "other_pair_mean_offset": 0.053743739440874495
+  },
+  "pair_diagnostics": [
+    {
+      "components": [
+        "17-AAG",
+        "bicalutamide"
+      ],
+      "joint_samples": 6,
+      "mean_mse": {
+        "zero": 0.06902861098401132,
+        "additive": 0.07784891458371083,
+        "same_pair_other_samples": 0.04975612051152777,
+        "other_pair_mean_offset": 0.05434852049135144
+      },
+      "sample_loss_values": {
+        "zero": [
+          0.07161320720349523,
+          0.06223729127057133,
+          0.06472873102481146,
+          0.06466545310774387,
+          0.08938010495344767,
+          0.06154687834399838
+        ],
+        "additive": [
+          0.07740515353914341,
+          0.06145642384303266,
+          0.06730541360329534,
+          0.056506597126459585,
+          0.12050862962277557,
+          0.08391126976755839
+        ],
+        "same_pair_other_samples": [
+          0.05388362992308508,
+          0.03996647051237349,
+          0.04097659664549971,
+          0.04575992019738871,
+          0.06900815963212698,
+          0.04894194615869262
+        ],
+        "other_pair_mean_offset": [
+          0.059242054429917985,
+          0.050013362394334696,
+          0.04765437667419875,
+          0.04583379293593103,
+          0.0736722198589051,
+          0.04967531665482113
+        ]
+      },
+      "residual_cosine_count": 15,
+      "residual_cosine_median": 0.4690359543437522,
+      "undefined_residual_cosines": 0
+    },
+    {
+      "components": [
+        "17-AAG",
+        "vorinostat"
+      ],
+      "joint_samples": 6,
+      "mean_mse": {
+        "zero": 0.09017243148121727,
+        "additive": 0.0709093957041546,
+        "same_pair_other_samples": 0.051519646062968195,
+        "other_pair_mean_offset": 0.05466361950567414
+      },
+      "sample_loss_values": {
+        "zero": [
+          0.08720789170780893,
+          0.09779291382506575,
+          0.0974222003160429,
+          0.07409523205242956,
+          0.10907235177192581,
+          0.0754439992140307
+        ],
+        "additive": [
+          0.06862278995406919,
+          0.04342657017834264,
+          0.07645934675798245,
+          0.06755248258774789,
+          0.1093240106627216,
+          0.06007117408406388
+        ],
+        "same_pair_other_samples": [
+          0.04511619168438273,
+          0.05170787634120012,
+          0.052419811628384896,
+          0.0458541080832266,
+          0.07376360091826688,
+          0.04025628772234796
+        ],
+        "other_pair_mean_offset": [
+          0.0591458960231849,
+          0.049619978809181134,
+          0.047755796948270736,
+          0.04598432630036352,
+          0.08528556999019295,
+          0.04019014896285163
+        ]
+      },
+      "residual_cosine_count": 15,
+      "residual_cosine_median": 0.4041986971562105,
+      "undefined_residual_cosines": 0
+    },
+    {
+      "components": [
+        "bicalutamide",
+        "vorinostat"
+      ],
+      "joint_samples": 6,
+      "mean_mse": {
+        "zero": 0.08733086737542396,
+        "additive": 0.06973348698670725,
+        "same_pair_other_samples": 0.04405930653376833,
+        "other_pair_mean_offset": 0.052219078325597905
+      },
+      "sample_loss_values": {
+        "zero": [
+          0.07862990178863304,
+          0.09849174636861821,
+          0.10771172439583489,
+          0.07883813581978197,
+          0.07798336006666508,
+          0.08233033581301061
+        ],
+        "additive": [
+          0.05475171525490777,
+          0.07227603470837506,
+          0.0906407953837502,
+          0.06381272564241015,
+          0.06031642494308688,
+          0.07660322598771352
+        ],
+        "same_pair_other_samples": [
+          0.04334815442749088,
+          0.04631700249129628,
+          0.05963460385058846,
+          0.04026101459589957,
+          0.03352577105632015,
+          0.04126929278101463
+        ],
+        "other_pair_mean_offset": [
+          0.03868600624959731,
+          0.05896123863300022,
+          0.07757870197482881,
+          0.046473282272484255,
+          0.04078088719924293,
+          0.050834353624433885
+        ]
+      },
+      "residual_cosine_count": 15,
+      "residual_cosine_median": 0.4707294189972392,
+      "undefined_residual_cosines": 0
+    }
+  ],
+  "same_pair_transfer_query_sample_excluded": true,
+  "same_pair_transfer_eligible_for_original_held_pair_protocol": false,
+  "other_pair_offset_excludes_all_query_pair_repeats": true,
+  "shared_reference_dependence_present": true,
+  "source_normalization_refit": false,
+  "feature_selection_performed": false,
+  "model_menu_searched": false,
+  "confidence_intervals_computed": false,
+  "independent_culture_blocks_inferred": false,
+  "biological_measurement_gate_pass": false,
+  "fresh_confirmation": false,
+  "source_matrix_sha256": "a730941c27e56376465e0b91420532da2b4f80ecfb3766b4eebf355506356965",
+  "metadata_sha256": "e21c40c73e162803ef85491a1c644471a2149e97f0e7de067c76b789cdc2cf47"
+}

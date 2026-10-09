@@ -1,0 +1,14 @@
+{
+  "role": "sample_metadata_review_not_confirmation",
+  "source_hashes": "sample_design_counts.json and retrieval.json",
+  "primary_confirmation_qualified": false,
+  "decisions": [
+    {"accession": "GSE56188", "expression_status": "indexed GSM expression snippets encountered before scope; full matrix subsequently opened under separate diagnostic scope", "decision": "42 profiles, seven arms with six source-labeled biological repeats each, three canonical pairs at source-matched doses and six hours. No independent-initiation block map or vehicle fraction established. Accepted only for an unmatched-arm descriptive processed-assay diagnostic."},
+    {"accession": "GSE138256", "expression_accessed": false, "decision": "238 yeast profiles across dose gradients and varying growth rates for six nominal pairs of four growth inhibitors. These are not six complete fixed-dose independent culture panels; a different organism and dose/growth contract would be required."},
+    {"accession": "GSE45587", "expression_accessed": false, "decision": "One ATRA/VPA pair at three times with three repeats, and a missing 72-hour control repeat. Times cannot be counted as independent same-state panels."},
+    {"accession": "GSE11550", "expression_accessed": false, "decision": "One elesclomol/paclitaxel pair, with two explicitly technical repeats per condition. Untreated zero-hour profiles are not six-hour vehicle controls."},
+    {"accession": "GSE43452", "expression_accessed": false, "decision": "One Y15/temozolomide pair in U87 with two repeats; DBTRG has only Y15. Series design states temozolomide 100 uM while sample titles state 20 uM, so physical-dose provenance is also unresolved."},
+    {"accession": "GSE33366", "expression_accessed": false, "decision": "12 xenograft profiles, six arms with two biological repeat labels and two BMS-754807-centered pairs. Tumor-bearing mice are not the original fixed-culture assay."},
+    {"accession": "GSE6914", "expression_accessed": false, "decision": "One gemcitabine/bexarotene pair in acquired-resistant Calu3 cultures after ten treatment cycles. Four RNA repeat labels and a differing parental state do not establish the original six fixed-state panels."}
+  ]
+}

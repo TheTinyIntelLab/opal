@@ -1,0 +1,19 @@
+{
+  "fixed_utc": "2026-10-09T19:16:06.454109+00:00",
+  "queries": [
+    "(\"drug combination\" OR \"combination treatment\" OR \"combined treatment\" OR \"co-treatment\") AND gse[ETYP] AND (\"1900/01/01\"[PDAT] : \"2020/12/31\"[PDAT])",
+    "(\"genetic interaction\" OR \"dual perturbation\" OR \"double knockout\" OR \"double knockdown\") AND gse[ETYP] AND (\"1900/01/01\"[PDAT] : \"2020/12/31\"[PDAT])"
+  ],
+  "query_file_sha256": "7da933958dc6ab9a76c66766935fd8abcffffd5d5de18e634c26649a7bb37bb0",
+  "limit_per_query": 150,
+  "sort": "NCBI default, no unsupported sort parameter",
+  "role": "metadata_only_discovery",
+  "published_narratives_may_be_encountered": true,
+  "expression_or_weights_downloaded": false,
+  "maximum_total_bytes": 80000000,
+  "per_response_bytes": 12000000,
+  "minimum_request_spacing_seconds": 0.5,
+  "priority_rule": "3 per matched pair-text phrase plus 2 per replication-text phrase; ties by sample count then accession",
+  "qualification_boundary": "Text signals and sample counts never establish independent cultures, matching references or assay fit",
+  "runner_sha256": "8e5d1619cf2661d7de0a954f5337367d9995f7e316ee60714cb8a92a4989d6e0"
+}
