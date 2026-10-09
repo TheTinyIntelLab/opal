@@ -1,6 +1,6 @@
 # Public dataset search, 8 October 2026
 
-The [9 October continuation](public_dataset_search_20261009.md) checks eight candidate/alias decisions, establishes the public PertSpectra data endpoint and audits the sci-Plex-GxE combination barcode design, including a dose-field documentation conflict.
+The [9 October continuation](public_dataset_search_20261009.md) checks nine candidate/alias decisions, establishes the public PertSpectra data endpoint and audits the sci-Plex-GxE combination barcode design, including a dose-field documentation conflict.
 
 Subsequent execution: the [Combi-seq public-count diagnostic](public_combi_diagnostic.md) has now downloaded and consumed GSE174695 expression. Unopened-matrix statements below describe this earlier metadata search; they no longer describe current Combi-seq exposure. The new exposure ledger and diagnostic scope are preserved separately.
 

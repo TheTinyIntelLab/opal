@@ -2,7 +2,7 @@
   "schema_version": 1,
   "audited_at_utc": "2026-10-09T10:48:51.086974+00:00",
   "scope": "Bounded primary-source metadata, published methods, source code and availability search. No new expression matrices or model weights consumed. Published narrative/results were encountered; no whole-outcome-unseen claim.",
-  "candidate_count": 8,
+  "candidate_count": 9,
   "accepted_primary_confirmation_sources": 0,
   "candidates": [
     {
@@ -226,7 +226,42 @@
         "Time points cannot be pooled as extra fixed-state replicates.",
         "Pairs selected after prior synergy screening constrain generalization and source selection."
       ],
-      "prior_exposure": "Published narrative encountered; prior local source identity unresolved.",
+      "prior_exposure": "Already metadata audited as El Diaz in docs/next_cycle/data_candidates.md and tools/qualify_replicated_sources.py; published narrative encountered. No new response matrix opened.",
+      "primary_confirmation_qualified": false,
+      "expression_matrix_accessed_this_search": false
+    },
+    {
+      "name": "Fission yeast RNA processing double mutants",
+      "accessions": [
+        "PRJEB7403",
+        "E-MTAB-1824",
+        "E-MTAB-2237",
+        "E-MTAB-708",
+        "E-MTAB-1154"
+      ],
+      "primary_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6097657/",
+        "https://www.ebi.ac.uk/ena/browser/view/PRJEB7403"
+      ],
+      "decision": "Independent cultures documented, but deposited double-mutant groups have only two samples; not six disjoint culture blocks",
+      "evidence": {
+        "independent_cultures_documented": true,
+        "ENA_read_run_rows": 63,
+        "ENA_unique_samples": 63,
+        "double_mutant_alias_sample_counts": {
+          "rrp6_dcr1": 2,
+          "exo2_dcr1": 2,
+          "dis3L2_lsm1": 2,
+          "dis3L2_ski2": 2
+        },
+        "ArrayExpress_metadata_only": "Four SDRF tables inspected. Libraries include different assay fractions, ChIP and growth conditions; they cannot be merged as same-state repeats."
+      },
+      "unresolved": [
+        "Only two samples per inspected double-mutant alias group, not six complete replicated panels.",
+        "Exact genotype, mating type, media and RNA-fraction compatibility still require source-specific matching.",
+        "Different organism, perturbation and RNA processing assay require a source-specific contract."
+      ],
+      "prior_exposure": "Published methods and narrative encountered; no expression or FASTQ body opened.",
       "primary_confirmation_qualified": false,
       "expression_matrix_accessed_this_search": false
     }

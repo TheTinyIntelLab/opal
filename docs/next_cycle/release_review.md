@@ -24,7 +24,7 @@ Saved-evidence reporting regenerates selected numerical claims and publication f
 
 Build with `python -m build --outdir dist/closeout-0.1.2`. Run `tools/closeout_reporting.py` with a new output directory and `--render`, then its `--check` route. Build the standalone source with `tools/build_arxiv_submission.py --config configs/releases/v0.1.2.json --output releases/arxiv/opal-0.1.2-arxiv-source.zip`. Package with `tools/package_research_release.py --config configs/releases/v0.1.2.json --dist dist/closeout-0.1.2 --output releases/local-review-0.1.2 --allow-dirty`; validate using `tools/validate_research_release.py --assets releases/local-review-0.1.2`.
 
-`tools/check_clean_install.py` creates a fresh dependency environment outside the checkout, verifies installed import provenance, runs the actual synthetic quickstart and checks dependency closure. The Windows/Linux Python 3.11/3.14 CI matrix is configured, but Linux checks are not claimed until CI actually runs.
+`tools/check_clean_install.py` creates a fresh dependency environment outside the checkout, verifies installed import provenance, runs the actual synthetic quickstart and checks dependency closure. The Windows/Linux Python 3.11/3.14 CI matrix passed on commit `867f223`: clean CPU installs, 99 integrity tests per interpreter and standalone synthetic assay rehearsal. The [record](../../results/replicated_fixed_state_v1/ci-867f223/verification.json) pins successful jobs and downloaded artifact hashes.
 
 ## Owner-operated publication
 

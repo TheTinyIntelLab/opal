@@ -1,6 +1,6 @@
 {
-  "verified_at_utc": "2026-10-09T10:52:44.969361+00:00",
-  "verified_retrieval_records": 28,
+  "verified_at_utc": "2026-10-09T11:13:59.334709+00:00",
+  "verified_retrieval_records": 35,
   "checks": [
     {
       "record": "results/replicated_fixed_state_v1/public-search-20261009-v1/additional_retrieval.json",
@@ -24,6 +24,12 @@
       "record": "results/replicated_fixed_state_v1/public-search-20261009-v1/additional_retrieval.json",
       "id": "pertspectra_paper",
       "snapshot_name": "pertspectra_paper.pdf",
+      "verified": true
+    },
+    {
+      "record": "results/replicated_fixed_state_v1/public-search-20261009-v1/bulk_combination_retrieval.json",
+      "id": "GSE149428",
+      "snapshot_name": "GSE149428.txt",
       "verified": true
     },
     {
@@ -168,6 +174,42 @@
       "record": "results/replicated_fixed_state_v1/public-search-20261009-v1/sciplex4_design.json",
       "id": "sciPlex_4_hash_sample_sheet",
       "snapshot_name": "sciPlex_4_hash_sample_sheet.txt.gz",
+      "verified": true
+    },
+    {
+      "record": "results/replicated_fixed_state_v1/public-search-20261009-v1/yeast_design_retrieval.json",
+      "id": "E-MTAB-1824",
+      "snapshot_name": "E-MTAB-1824.sdrf.txt",
+      "verified": true
+    },
+    {
+      "record": "results/replicated_fixed_state_v1/public-search-20261009-v1/yeast_design_retrieval.json",
+      "id": "E-MTAB-2237",
+      "snapshot_name": "E-MTAB-2237.sdrf.txt",
+      "verified": true
+    },
+    {
+      "record": "results/replicated_fixed_state_v1/public-search-20261009-v1/yeast_design_retrieval.json",
+      "id": "E-MTAB-708",
+      "snapshot_name": "E-MTAB-708.sdrf.txt",
+      "verified": true
+    },
+    {
+      "record": "results/replicated_fixed_state_v1/public-search-20261009-v1/yeast_remaining_retrieval.json",
+      "id": "E-MTAB-1154",
+      "snapshot_name": "E-MTAB-1154.metadata.txt",
+      "verified": true
+    },
+    {
+      "record": "results/replicated_fixed_state_v1/public-search-20261009-v1/yeast_remaining_retrieval.json",
+      "id": "PRJEB7403",
+      "snapshot_name": "PRJEB7403.metadata.txt",
+      "verified": true
+    },
+    {
+      "record": "results/replicated_fixed_state_v1/public-search-20261009-v1/yeast_retrieval.json",
+      "id": "PMC6097657",
+      "snapshot_name": "PMC6097657.txt",
       "verified": true
     }
   ],

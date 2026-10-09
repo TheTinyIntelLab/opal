@@ -17,7 +17,8 @@
   "R4": {
     "status": "complete with evidence path",
     "evidence_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\completed_verification.json",
-    "acceptance_boundary": "Windows 3.11 and 3.14 tested; Linux configured but untested locally."
+    "acceptance_boundary": "Full local suite 206 passes; Windows/Linux 3.11/3.14 CI each pass clean CPU dependency installs, the 99-test integrity subset and synthetic count-to-evaluation rehearsal on pushed commit 867f223. These are software checks, not biological confirmation.",
+    "additional_ci_evidence": "results/replicated_fixed_state_v1/ci-867f223/verification.json"
   },
   "D1": {
     "status": "complete with evidence path",
