@@ -1,0 +1,52 @@
+{
+  "report_sha256": "2a5c4ada8954e24a6f14e2ed345a8765c28aea5ff837879842da61317ed6be1e",
+  "source_matrix_sha256": "a9475f8408b5a35b42e985fc4bf7b23b17611cda768f5758679d5d81a5434716",
+  "source_metadata_sha256": "a8889f64e42bab572516c3b494c442168d41b2e44165c07b96214f3ebd7ec561",
+  "genes": 15016,
+  "source_samples": 144,
+  "analyzed_pair_reference_samples": 126,
+  "excluded_triple_samples": 18,
+  "time_strata": 6,
+  "pair_repeat_cosines": [
+    {
+      "nominal_hour": 0,
+      "median_pair_repeat_residual_cosine": 0.05964416164460296,
+      "minimum_cosine": -0.03748946460679234,
+      "maximum_cosine": 0.17663685014135563
+    },
+    {
+      "nominal_hour": 3,
+      "median_pair_repeat_residual_cosine": 0.27183114055628005,
+      "minimum_cosine": 0.05707150339966791,
+      "maximum_cosine": 0.3671549585216507
+    },
+    {
+      "nominal_hour": 6,
+      "median_pair_repeat_residual_cosine": 0.22750283351398484,
+      "minimum_cosine": 0.11698815395754536,
+      "maximum_cosine": 0.45867664027899074
+    },
+    {
+      "nominal_hour": 9,
+      "median_pair_repeat_residual_cosine": 0.24020723541637345,
+      "minimum_cosine": 0.18893002289950322,
+      "maximum_cosine": 0.48805418280106855
+    },
+    {
+      "nominal_hour": 12,
+      "median_pair_repeat_residual_cosine": 0.2736151637369358,
+      "minimum_cosine": 0.11824263756663245,
+      "maximum_cosine": 0.4086402161275078
+    },
+    {
+      "nominal_hour": 24,
+      "median_pair_repeat_residual_cosine": 0.7314370014068515,
+      "minimum_cosine": 0.4853485772924872,
+      "maximum_cosine": 0.7891260280890575
+    }
+  ],
+  "role": "source_processed_measurement_only",
+  "primary_claim_pass": false,
+  "independent_culture_initiation_verified": false,
+  "full_local_tests": "213 passed"
+}

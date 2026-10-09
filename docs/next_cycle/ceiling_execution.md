@@ -70,3 +70,7 @@ Read allocation now rejects forbidden metadata before opening or converting coun
 ## Approved retrospective amendment, 9 October 2026
 
 The user approved executing the alternative retrospective design instead of making continued dataset search the sole next step. The [implemented and executed benchmark](retrospective_combi_20261009.md) covers 374 nominal pairs in three exposed processing runs, a fixed reference-derived 512-gene endpoint, globally grouped outer folds, inner menu selection and three shuffle controls. The pair candidate loses to the selected incidence reference in all runs. This completes the computational amendment while preserving the original prospective contract and its unqualified-data boundary. The current runner reproduces all saved predictions and model selections exactly; the full local suite passes 210 tests.
+
+## Continued real-data measurement execution
+
+The approved retrospective route now includes a [second source diagnostic](eldiaz_processed_diagnostic.md): processed LNCaP bulk RNA, exact source-reported constituent doses and same-vehicle references, all six nominal time strata and three repeat letters. A dedicated adapter preserves log-CPM and forbids count inversion or pooled biological inference. It uses all source genes and no architecture search. The narrow three-pair source and missing initiation map do not satisfy the original independent-culture allocation.

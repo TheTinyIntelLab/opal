@@ -106,5 +106,10 @@
     "acceptance_boundary": "Approved exposed-source nominal retrospective benchmark completed: 374 pairs, three processing runs, 512 reference-defined endpoint genes, nested existing 16-entry menu, three shuffle controls; pair candidate worse than selected incidence reference. No prospective or biological gate advanced.",
     "additional_ci_evidence": "results/replicated_fixed_state_v1/ci-f289616/verification.json",
     "additional_replay_evidence": "results/replicated_fixed_state_v1/retrospective-combi-20261009-v1/replay_verification.json"
+  },
+  "bulk_processing_diagnostic": {
+    "status": "complete with evidence path",
+    "evidence_path": "results/replicated_fixed_state_v1/eldiaz-processed-measurement-20261009-v1/report.json",
+    "acceptance_boundary": "144 LNCaP processed log-CPM samples retain three reported repeats and six separate time strata; 126 matched control/single/pair samples analyzed with published dose/vehicle metadata. Independent initiation remains unverified; no model search, biological intervals or original gate pass. Source now expression-exposed."
   }
 }
