@@ -7,7 +7,7 @@
 
 <div align="center">
   <a href="https://thetinyintelligencelab.vercel.app/"><img src="images/lab_badge.svg" alt="The Tiny Intelligence Lab" /></a>
-  <img src="images/status_badge.svg" alt="Publication paused" />
+  <img src="images/status_badge.svg" alt="Private GitHub release" />
   <a href="paper/main.pdf"><img src="images/paper_badge.svg" alt="Research preprint draft" /></a>
   <a href="LICENSE"><img src="images/license_badge.svg" alt="Code license: MIT" /></a>
 </div>
@@ -22,7 +22,7 @@
 
 <p align="center"><a href="paper/main.pdf">Read the preprint draft</a></p>
 
-This branch prepares Opal **0.1.2**, a consolidated comparative research release to the preserved **0.1.1** preparation at `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`. Stage 1 and qualified dose, identity, joint, scale and panel studies are executed, with no pair/state component passing its primary gate. Dose evidence supports an experimental interpolation reference for known compounds and states; extrapolation and independent joint confirmation remain unsupported. There is no public model release or arXiv identifier.
+Opal **0.1.2** has a [GitHub research release](https://github.com/TheTinyIntelLab/opal/releases/tag/v0.1.2) in this private repository, a consolidated comparative research release to the preserved **0.1.1** preparation at `84de7e36eae20531e815be9de5a4cb2fa9b94ce9`. Stage 1 and qualified dose, identity, joint, scale and panel studies are executed, with no pair/state component passing its primary gate. Dose evidence supports an experimental interpolation reference for known compounds and states; extrapolation and independent joint confirmation remain unsupported. There is no public model release or arXiv identifier.
 
 ## 1. Introduction
 
@@ -41,7 +41,7 @@ This is independent research by **Arjun Vijay Prakash**, a high school student a
 
 ## 2. Model downloads
 
-The planned release includes these two kernel references. Downloads will become public after a new frozen commit, rebuilt assets, and explicit publication; the old draft isn't a current download channel.
+The validated GitHub release includes these two kernel references. Its downloads require repository access; the older draft is a separate preparation snapshot.
 
 | Reference | Inputs and output | Validation scope | Availability |
 | --- | --- | --- | --- |
@@ -175,7 +175,7 @@ This runs two small synthetic scenarios and the software checks. It doesn't esta
 
 ### Reference inference
 
-After the new release is published, extract its model ZIP, then:
+Extract the reference-model ZIP from the GitHub release, then:
 
 ```python
 from opal import load_model
@@ -191,7 +191,7 @@ The output follows the fixed gene order and effect scale in the manifest. Emeral
 
 **Why is the package called `opal-research`, but imports use `opal`?** Distribution names and Python import names serve different purposes. The source lives directly in `src/`; setuptools maps that directory to the installed `opal` package, preserving a distinct import namespace.
 
-**What does 0.1.2 release?** The consolidated code and comparative evidence follow the historical 0.1.1 preparation. This version does not claim a newly validated biological predictor. Publication remains paused for owner review.
+**What does 0.1.2 release?** The consolidated code and comparative evidence follow the historical 0.1.1 preparation. This version does not claim a newly validated biological predictor. Its GitHub release is published in a private repository; public access, Zenodo and arXiv remain separate.
 
 **Does the model learn biological interactions?** Insufficient evidence. A residual contains measurement error and shared distortion as well as potential pair-specific structure, and simple references explain much of the observed improvement.
 
@@ -209,7 +209,7 @@ Original Opal code is [MIT](LICENSE). Dataset-derived Norman and EmeraldBay refe
 
 ## 9. Citation
 
-The preprint hasn't been submitted to arXiv. Until an identifier exists, don't cite a fabricated arXiv number or describe it as peer reviewed. The following citation identifies the prepared software revision; use it when that revision is published:
+The preprint hasn't been submitted to arXiv. Until an identifier exists, don't cite a fabricated arXiv number or describe it as peer reviewed. The following citation identifies the released software revision:
 
 ```bibtex
 @software{prakash_opal_2026,

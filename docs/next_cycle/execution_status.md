@@ -68,3 +68,7 @@ Implementation commit `f289616` passes [all four Windows/Linux Python 3.11/3.14 
 ## Second public measurement source
 
 The [GSE149428 LNCaP diagnostic](eldiaz_processed_diagnostic.md) now executes on source-provided log-CPM with literal sample joins, published constituent-dose/vehicle checks and separate time/repeat strata. It retains all 15,016 genes, analyzes 126 matched references/pairs and excludes 18 triple samples. No models are fitted or selected. Repeat residual agreement is stronger at 24 hours, but the repeated-pair measurement control is forbidden prediction input. Culture initiation is still unverified, so the original biological gates remain open. Source expression exposure is recorded before any future test proposal.
+
+## Executed release closeout
+
+The [current GitHub release](https://github.com/TheTinyIntelLab/opal/releases/tag/v0.1.2) is published after owner approval. All nine assets from clean commit `53d6e83` passed download/hash verification. The repository remains private. All four Windows/Linux Python 3.11/3.14 CI environments pass fresh CPU dependency installation, 106 integrity tests and the standalone synthetic assay rehearsal, with [pinned evidence](../../results/replicated_fixed_state_v1/ci-53d6e83/verification.json). Full local suite: 213 passes. Actual source-processed bulk output reproduces exactly from the installed wheel outside the checkout. Public access, Zenodo, arXiv, culture-initiation provenance, biological precision and prospective confirmation remain open requirements.

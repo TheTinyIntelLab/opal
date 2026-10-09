@@ -1,8 +1,10 @@
 # Changelog
 
-## 0.1.2, comparative-study closeout candidate
+## 0.1.2, GitHub research release, 9 October 2026
 
-Consolidates release metadata, restores original Stage 1 reporting as canonical, retains the changed-environment rerun as a named sensitivity, and shortens the manuscript with full continuation evidence in the supplement. Adds portable private-file/archive guards, selected compact CSV exports, clean dependency-install checks and a Windows/Linux CI matrix. Implements metadata qualification, aggregate-read preparation, global pair splits, shared/component/pair references, development diagnostics, fixed-panel power sensitivity, frozen predictions and custodian evaluation. Combi-seq metadata is inventoried without expression access; dose, culture and terms qualification remain unresolved. No publication, biological confirmation or new predictor capability is claimed.
+Published the nine clean-commit research assets from `53d6e83` after explicit owner approval and successful Windows/Linux Python 3.11/3.14 CI. All nine uploaded assets were downloaded and hash-verified. The repository remains private; public access, Zenodo archival and arXiv submission are separate. Full local suite: 213 passes; each CI environment passes 106 integrity tests, clean CPU dependency installation and the synthetic assay rehearsal.
+
+Consolidates canonical reporting, permitted reference exports, archive/privacy guards and replicated-study preparation, splitting, selection, power, freeze and evaluator tooling. The exposed Combi-seq retrospective pair-kernel candidate loses to the selected incidence reference. A second, source-processed LNCaP bulk measurement diagnostic preserves matched reported doses/vehicle and separate time/repeat strata, without fitting a model. Source exposure and the post-access descriptive cosine amendment are recorded. No biological confirmation or new validated predictor capability is claimed.
 
 ## 0.1.2.dev5, local scale and panel successor
 

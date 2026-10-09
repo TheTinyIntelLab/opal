@@ -1,6 +1,6 @@
 # Opal 0.1.2 release review
 
-The package consolidates the comparative study. Original frozen Stage 1 runs are canonical; the changed-environment rerun is a reproducibility sensitivity. Publication remains paused for owner review. Dirty-workspace packages are local review candidates, not immutable public releases.
+The package consolidates the comparative study. Original frozen Stage 1 runs are canonical; the changed-environment rerun is a reproducibility sensitivity. The owner approved GitHub publication on 9 October, and the nine validated assets are released in the private repository. Public repository access, Zenodo and arXiv remain separate. Dirty-workspace packages remain local review candidates.
 
 ## Asset policy
 
@@ -31,3 +31,7 @@ Build with `python -m build --outdir dist/closeout-0.1.2`. Run `tools/closeout_r
 Review the exact manifest, assets, manuscript, model cards and logs, then resolve the existing publication pause. On 9 October the owner authorized committing and pushing the implementation, superseding the earlier no-commit instruction. Git publication of this work is now authorized; external release uploads, Zenodo archival, actual DOI insertion, arXiv submission and identifier updates remain separately pending. Earlier dirty-input package records retain their historical scope. No invented DOI, preprint identifier, registration or collaborator commitment is used.
 
 Suggested wording: Opal evaluates population-mean pair-response prediction when matched single effects are observed. Its controlled comparisons show that improvement over additivity can occur without demonstrated incremental pair-specific learning. The release includes scoped simple references, reproducible comparative records, and unresolved transfer and measurement findings.
+
+## Executed GitHub publication
+
+[Release v0.1.2](https://github.com/TheTinyIntelLab/opal/releases/tag/v0.1.2) points to clean, CI-tested commit `53d6e83`. All nine uploaded assets were downloaded and hash-verified against the approved candidate. The [publication verification](../../results/replicated_fixed_state_v1/github-release-v0.1.2/verification.json) binds tag, asset IDs, hashes and publication time. The repo is private and its visibility was retained. Historical pause statements describe their earlier snapshots; no Zenodo upload, DOI, arXiv submission or biological confirmation is claimed. The later companion evidence explicitly records the processed-bulk cosine summaries as a post-access descriptive amendment.

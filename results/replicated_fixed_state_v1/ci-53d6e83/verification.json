@@ -1,0 +1,61 @@
+{
+  "commit": "53d6e83fc251b789e90fbd2a95c050cd3e200592",
+  "run_url": "https://github.com/TheTinyIntelLab/opal/actions/runs/37955608011",
+  "recorded_at_utc": "2026-10-09T16:09:00.128276+00:00",
+  "jobs": [
+    {
+      "job_id": 113905216463,
+      "job_url": "https://github.com/TheTinyIntelLab/opal/actions/runs/37955608011/job/113905216463",
+      "os": "ubuntu-latest",
+      "python": "311",
+      "status": "success",
+      "test_summary": [
+        "106 passed in 26.96s"
+      ],
+      "job_log_sha256": "4975d3fe3ecd21c8134797eacc269051a0548a17c279d30fbd87cd1c7688c6f3",
+      "clean_install_sha256": "fba77fa24069605b2a257c67fb93d10b35c83297f2a64edb96e611a2fa4fd4d4",
+      "assay_verification_sha256": "0023c6b6ccd5b1f61c16159819072c967056a5cc72d1f0339db720f3c67aaec8"
+    },
+    {
+      "job_id": 113905216580,
+      "job_url": "https://github.com/TheTinyIntelLab/opal/actions/runs/37955608011/job/113905216580",
+      "os": "ubuntu-latest",
+      "python": "314",
+      "status": "success",
+      "test_summary": [
+        "106 passed in 37.23s"
+      ],
+      "job_log_sha256": "c19a01993f54fae542f82120ffec51f7a1b7614a97fe4707bf3b1832f6c14665",
+      "clean_install_sha256": "617fb88b08896f4d6e62291177d393c74befba81a288fc70e0779a7ada5a9700",
+      "assay_verification_sha256": "0023c6b6ccd5b1f61c16159819072c967056a5cc72d1f0339db720f3c67aaec8"
+    },
+    {
+      "job_id": 113905216756,
+      "job_url": "https://github.com/TheTinyIntelLab/opal/actions/runs/37955608011/job/113905216756",
+      "os": "windows-latest",
+      "python": "311",
+      "status": "success",
+      "test_summary": [
+        "106 passed in 54.17s"
+      ],
+      "job_log_sha256": "4e2f80bea34e6c34cb3580acef9522bea2bfac39103cf0dedb9f197192798436",
+      "clean_install_sha256": "aef73447f6c5a112224d03cb186044a6b0721d63549fe7a87868c0e94a7122df",
+      "assay_verification_sha256": "89555ff1ba7641645f30dbe132be1d0adb883625c9b9684466227461b9821e3c"
+    },
+    {
+      "job_id": 113905216874,
+      "job_url": "https://github.com/TheTinyIntelLab/opal/actions/runs/37955608011/job/113905216874",
+      "os": "windows-latest",
+      "python": "314",
+      "status": "success",
+      "test_summary": [
+        "106 passed in 52.62s"
+      ],
+      "job_log_sha256": "517944f425c3d17176740d141f3364179ee517f5d2549def5298f3331d6f1329",
+      "clean_install_sha256": "6565e9dd33754746335f69e8e4b1bfd711aa25a5420e7cb4a4d425ece081e4e9",
+      "assay_verification_sha256": "89555ff1ba7641645f30dbe132be1d0adb883625c9b9684466227461b9821e3c"
+    }
+  ],
+  "overall_conclusion": "success",
+  "biological_confirmation_claimed": false
+}

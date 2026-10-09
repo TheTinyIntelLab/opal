@@ -6,8 +6,8 @@
   },
   "R2": {
     "status": "complete with evidence path",
-    "evidence_path": "results/replicated_fixed_state_v1/committed-release-20261009-v1/verification.json",
-    "acceptance_boundary": "Clean committed package built from pushed commit 4a4cb9e; public release upload and archival identifiers remain separate."
+    "evidence_path": "results/replicated_fixed_state_v1/committed-release-20261009-53d6e83/verification.json",
+    "acceptance_boundary": "Clean nine-asset package built from pushed 53d6e83, installed/reference/archive validation passed, explicitly approved GitHub publication completed and all nine uploaded assets downloaded/hash verified. Repository remains private; archival identifiers and manuscript submission are separate."
   },
   "R3": {
     "status": "complete with evidence path",
@@ -17,8 +17,8 @@
   "R4": {
     "status": "complete with evidence path",
     "evidence_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\completed_verification.json",
-    "acceptance_boundary": "Full local suite 206 passes; Windows/Linux 3.11/3.14 CI each pass clean CPU dependency installs, the 99-test integrity subset and synthetic count-to-evaluation rehearsal on pushed commit 867f223. These are software checks, not biological confirmation.",
-    "additional_ci_evidence": "results/replicated_fixed_state_v1/ci-867f223/verification.json"
+    "acceptance_boundary": "213 full local tests; four Windows/Linux 3.11/3.14 CI environments each pass fresh CPU dependency installation, 106 integrity tests and standalone synthetic assay rehearsal on 53d6e83. Software verification only.",
+    "additional_ci_evidence": "results/replicated_fixed_state_v1/ci-53d6e83/verification.json"
   },
   "D1": {
     "status": "complete with evidence path",
@@ -70,7 +70,7 @@
   "publication": {
     "status": "blocked on named dependency",
     "evidence_path": "docs/next_cycle/release_review.md",
-    "acceptance_boundary": "Git commits and pushes authorized on 9 October. External release upload, archival identifiers and manuscript submission remain under the separate publication pause."
+    "acceptance_boundary": "GitHub release completed after explicit owner authorization; repository public access, Zenodo archival and arXiv submission remain separately pending. No DOI or submission identifier invented."
   },
   "collaboration": {
     "status": "blocked on named dependency",
@@ -110,6 +110,14 @@
   "bulk_processing_diagnostic": {
     "status": "complete with evidence path",
     "evidence_path": "results/replicated_fixed_state_v1/eldiaz-processed-measurement-20261009-v1/report.json",
-    "acceptance_boundary": "144 LNCaP processed log-CPM samples retain three reported repeats and six separate time strata; 126 matched control/single/pair samples analyzed with published dose/vehicle metadata. Independent initiation remains unverified; no model search, biological intervals or original gate pass. Source now expression-exposed."
+    "acceptance_boundary": "144 LNCaP processed log-CPM samples retain three reported repeats and six separate time strata; 126 matched control/single/pair samples analyzed with published dose/vehicle metadata. Independent initiation remains unverified; no model search, biological intervals or original gate pass. Source now expression-exposed.",
+    "additional_ci_evidence": "results/replicated_fixed_state_v1/ci-53d6e83/verification.json",
+    "additional_replay_evidence": "results/replicated_fixed_state_v1/eldiaz-processed-measurement-20261009-v1/installed_replay_verification.json"
+  },
+  "github_release": {
+    "status": "complete with evidence path",
+    "evidence_path": "results/replicated_fixed_state_v1/github-release-v0.1.2/verification.json",
+    "url": "https://github.com/TheTinyIntelLab/opal/releases/tag/v0.1.2",
+    "acceptance_boundary": "Owner-approved GitHub publication and exact asset downloads verified; repository remains private."
   }
 }
