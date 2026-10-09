@@ -5,3 +5,6 @@
 *.npz binary
 *.pdf binary
 *.zip binary
+
+# Downloaded CI reports retain the bytes hashed in their provenance ledger.
+results/replicated_fixed_state_v1/ci-*/**/*.json -text
