@@ -25,3 +25,5 @@ Simulated cells, technical partitions, imputed combination responses and borrowe
 ## Work ordering
 
 Proceed with metadata qualification and a retrospective measurement study while continuing targeted source searches. Preserve a separate external-validation proposal until source compatibility and independent units are established. Reserve the original confirmation claim for an accepted empirical design. No primary gate, source exposure history or registration status is changed by this document, and no new expression file or fitted model was consumed while preparing it.
+
+The owner approved the immediate retrospective path on 9 October. The [completed Combi-seq benchmark](retrospective_combi_20261009.md) now provides nested globally held-pair predictions and three shuffle controls on an explicitly reference-derived endpoint. Its pair candidate loses to the selected incidence reference in every run. The executed workstream is complete; qualifying an external source remains a distinct dependency for any new-study claim.
