@@ -1,6 +1,6 @@
 # Continued public-source qualification, 9 October 2026
 
-Public data access is available for additional combination-expression sources. This search established more access paths and checked their design metadata, but did not establish a source meeting the current independent-culture development/confirmation contract. The [seven candidate decisions](../../results/replicated_fixed_state_v1/public-search-20261009-v1/qualification_decisions.json) distinguish access, scientific fit and prior exposure. This is a bounded search, not proof that no suitable public source exists.
+Public data access is available for additional combination-expression sources. This search established more access paths and checked their design metadata, but did not establish a source meeting the current independent-culture development/confirmation contract. The [eight candidate decisions](../../results/replicated_fixed_state_v1/public-search-20261009-v1/qualification_decisions.json) distinguish access, scientific fit and prior exposure. This is a bounded search, not proof that no suitable public source exists.
 
 ## Matched-dose glioblastoma combinations
 
@@ -33,6 +33,9 @@ The inspected methods and repository metadata do not establish an independent cu
 | [ComboSciPlex / GSE206741](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE206741) | GEO reports triplicate treatment. The repository already records a seven-matched-pair exploratory study in `configs/experiments/chemical-exploratory.json`; this is an exposed source, not fresh confirmation. |
 | [CaRPool-seq / GSE213957](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213957) | Accession matching identifies the already exposed Wessels dataset. The paper name was a new search hit, but the source is historical. No response bank was reopened. |
 | [Dual Perturb-seq / GSE229505](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE229505) | “Dual” denotes host-and-parasite profiling rather than two simultaneous matched perturbations. It does not supply the required pair-response intervention design. |
+| [Bulk combination time course / GSE149428](https://pmc.ncbi.nlm.nih.gov/articles/PMC7546737/) | GEO lists 282 samples across two cell lines, six time points, singles and three pair combinations per line, with triplicate treatment. More libraries and time points do not create six same-state culture blocks. Public supplementary expression is log-CPM, which also requires an appropriate scale contract rather than the integer-count adapter. |
+
+The [expanded search record](../../results/replicated_fixed_state_v1/public-search-20261009-v1/search_queries.json) also screens provider sample data, aspen combination cultures and Worm Perturb-seq. The provider describes two replicate libraries for a small Huh7 combination design. Aspen metadata report six cultures generated but only two expression replicates used. Worm Perturb-seq's six controls accompany triplicate intervention conditions. None establishes six complete same-state pair-response panels; none of their expression files was downloaded.
 
 ## Verification and exposure boundary
 
@@ -40,4 +43,4 @@ Retrieval artifacts record successful source bytes and hashes, plus failed reque
 
 No new expression matrices, checkpoints or fitted models were consumed in this search. Published narrative results were encountered, so these sources are not described as wholly outcome-unseen. The earlier Combi-seq diagnostic has already exposed its measured pair outcomes; its separate exposure ledger remains authoritative. Public availability and private diagnostic access are distinct from permission to redistribute derivative data.
 
-The source hashes and metadata-only audit were verified locally. Runtime implementation is unchanged; the previously completed 206-test suite and installed-package checks belong to the earlier software snapshot. This metadata update does not claim a new release build, biological gate, power estimate, preregistration or confirmation experiment. No commit was made.
+The initial seven-candidate audit and 28 retrieved source records were verified before commit `4a4cb9e`. The eighth candidate and wider screening record were added afterward. Runtime implementation is unchanged, and all 206 tests were rerun successfully before that commit. The owner subsequently authorized commits and pushes; the implementation is now pushed to `main`. A clean committed package was built and validated separately, with its own evidence record. Source qualification does not claim a biological gate, power estimate, preregistration or confirmation experiment.

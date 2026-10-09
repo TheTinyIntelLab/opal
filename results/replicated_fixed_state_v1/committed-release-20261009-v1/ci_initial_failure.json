@@ -1,0 +1,10 @@
+{
+  "run_url": "https://github.com/TheTinyIntelLab/opal/actions/runs/37920319994",
+  "commit": "4a4cb9eb194a9672769c630cf555fa96c14e45af",
+  "observed_at_utc": "2026-10-09T10:58:10.090304+00:00",
+  "job": "installed-wheel (ubuntu-latest, 3.14)",
+  "job_id": 113786414553,
+  "failure": "Default PyPI torch CUDA dependency closure consumed runner disk during the second host-environment install. OSError: [Errno 28] No space left on device.",
+  "fix": "Install CPU torch from the official index in both host and isolated validation environments, then resolve and pip-check the full wheel dependency closure.",
+  "primary_install_reference": "https://pytorch.org/get-started/locally/"
+}

@@ -6,8 +6,8 @@
   },
   "R2": {
     "status": "complete with evidence path",
-    "evidence_path": "configs/releases/v0.1.2.json",
-    "acceptance_boundary": "Local dirty-input review candidate; immutable public release requires a future committed baseline."
+    "evidence_path": "results/replicated_fixed_state_v1/committed-release-20261009-v1/verification.json",
+    "acceptance_boundary": "Clean committed package built from pushed commit 4a4cb9e; public release upload and archival identifiers remain separate."
   },
   "R3": {
     "status": "complete with evidence path",

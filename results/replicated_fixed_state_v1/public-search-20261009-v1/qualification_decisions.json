@@ -2,7 +2,7 @@
   "schema_version": 1,
   "audited_at_utc": "2026-10-09T10:48:51.086974+00:00",
   "scope": "Bounded primary-source metadata, published methods, source code and availability search. No new expression matrices or model weights consumed. Published narrative/results were encountered; no whole-outcome-unseen claim.",
-  "candidate_count": 7,
+  "candidate_count": 8,
   "accepted_primary_confirmation_sources": 0,
   "candidates": [
     {
@@ -204,6 +204,29 @@
         "Does not establish two matched constituent perturbations plus paired treatment."
       ],
       "prior_exposure": "not established; public narrative encountered",
+      "primary_confirmation_qualified": false,
+      "expression_matrix_accessed_this_search": false
+    },
+    {
+      "name": "Bulk MCF7/LNCaP drug-combination time course",
+      "accessions": [
+        "GSE149428"
+      ],
+      "primary_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7546737/",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149428"
+      ],
+      "decision": "triplicate time-course diagnostic lead; not six same-state culture blocks",
+      "evidence": {
+        "article_statement": "Samples collected in triplicate for each treatment and time point.",
+        "geo_sample_count": 282
+      },
+      "unresolved": [
+        "No disjoint six-culture allocation established.",
+        "Time points cannot be pooled as extra fixed-state replicates.",
+        "Pairs selected after prior synergy screening constrain generalization and source selection."
+      ],
+      "prior_exposure": "Published narrative encountered; prior local source identity unresolved.",
       "primary_confirmation_qualified": false,
       "expression_matrix_accessed_this_search": false
     }
