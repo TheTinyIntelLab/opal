@@ -1,0 +1,75 @@
+{
+  "code_sha256": {
+    "src\\replicated\\models.py": "cd77e6dd5c2a59fc2de908ecbb1bc17d2c1962bf3f4bf2e56eccf414ba0e6b9e",
+    "src\\replicated\\public_diagnostic.py": "2fd481921927b80249c989e774ca8befa9b99c1ffec48d52273a2bcb774217ad",
+    "src\\replicated\\retrospective.py": "4e847e5f4d4765e4409af826d3e89a500ca908013b410005df8620b7c6054d2d",
+    "src\\series.py": "32591eba3bcd3ed0ee3001c4f92d252bb4cad41bee747415b2039a8971c3fde2",
+    "tools\\diagnose_public_combi.py": "63e3137aeccebf14226803ef8877a3b804fd898f348834bd21d22fd033cf7bcb",
+    "tools\\run_model_series.py": "a3298aad22453c8bab37e3adb1397746dd72144e4e27afc2070c960a098a84a2"
+  },
+  "config_sha256": "d29d829dffb4eaa4aee47a7a4e140f7e394ad88c4788c6f46c9cc75a52d177cc",
+  "configuration": {
+    "activation": "tanh",
+    "budget_count": "floor(fraction * unique development pairs); fitting and validation both included",
+    "budgets": [
+      0.0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "checkpoint_role": "frozen outer evaluation only; no all-development deployment refit",
+    "claim_scope": "Exposed-source retrospective observed-single nominal-pair prediction. No biological gate, interaction discovery, noise ceiling, calibrated uncertainty, prospective assay savings or independent-culture confirmation.",
+    "crossfit_folds": 3,
+    "dtype": "float64",
+    "epoch_cap": 60,
+    "frozen_date": "2026-10-10",
+    "gate_epoch_cap": 120,
+    "gate_regularization": [
+      0.01,
+      0.1
+    ],
+    "hidden_width": 64,
+    "interaction_width": 16,
+    "learning_rate": 0.003,
+    "local_artifact_bytes_cap": 1500000000,
+    "minimum_improvement": 1e-06,
+    "minimum_pairs": 12,
+    "minimum_partition_pairs": 4,
+    "optimizer": "Adam",
+    "orders": [
+      "uniform",
+      "target-balanced"
+    ],
+    "outer_seed": 20261009,
+    "patience": 8,
+    "regularization": [
+      0.01,
+      0.1
+    ],
+    "replay_atol": 1e-10,
+    "rss_bytes_cap": 4000000000,
+    "sampling_seeds": [
+      11,
+      29,
+      47
+    ],
+    "selection": "Base/historical candidate reuse unchanged 16-entry menu and rotating historical inner folds. Neural penalty/epoch selected on development only, then refit for selected epoch. Guard uses three grouped OOF expert fits, each with its own nested selection; gate penalty/epoch selected on a separate deterministic partition of OOF development predictions, then refit.",
+    "source": "GSE174695",
+    "target_balancing": "Greedily minimize (maximum endpoint acquired degree, sum endpoint acquired degrees, seeded lexical-rank tie breaker). Update both endpoint degrees after each acquisition. No outcomes inspected.",
+    "threads": 1,
+    "training_seed": 20261010,
+    "unavailable": "Zero: pair-supervised models unavailable. Positive: fewer than 12 unique acquired pairs or fewer than four identities in any required inner train/validation partition is unavailable; no extra labels or replacement seed.",
+    "version": "opal-model-series-v1",
+    "wall_seconds_cap": 7200
+  },
+  "expert_reuse": "One final Guard fit produces identical fitted Base and Interaction experts for all three variants; each variant has its own inference and checkpoint. All cross-fit and selection attempts preserved.",
+  "exposure": "Combi outcomes already exposed; this is a bounded new model-development cycle",
+  "historical_report_sha256": "d11e1294ad67d3cb8721c43097766778012577fdc7cb6aa3a752cedc8ce1ee17",
+  "matrix_sha256": "5524623316ae773d4d1d6ea03818934614db3a0ab3763eabc3b0e0aef5d65367",
+  "memory_available_bytes": 16452255744,
+  "menu_sha256": "06738e3beab2be45e4bfd2c3f5e0d297fa09a9f6d9b40843aa979c2a20af23d3",
+  "metadata_sha256": "0854604900885b71ac706eca3a03a14a286935fe4ca3045f078a98636a6a5a6d",
+  "role": "frozen evaluation checkpoints, not all-development deployment refits",
+  "storage_free_bytes": 2218680320,
+  "utc": "2026-10-10T10:22:46.414555+00:00"
+}

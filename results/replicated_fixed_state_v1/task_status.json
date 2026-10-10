@@ -1,159 +1,115 @@
 {
-  "R1": {
-    "status": "complete with evidence path",
-    "evidence_path": "results/release-closeout-ceiling-20261008/canonical-v1/canonical_claims.json",
-    "acceptance_boundary": "2,400 canonical source-hashed claims and 737 grounded public decimal claims; decimal matching is not universal semantic certification."
-  },
-  "R2": {
-    "status": "complete with evidence path",
-    "evidence_path": "results/replicated_fixed_state_v1/committed-release-20261009-53d6e83/verification.json",
-    "acceptance_boundary": "Clean nine-asset package built from pushed 53d6e83, installed/reference/archive validation passed, explicitly approved GitHub publication completed and all nine uploaded assets downloaded/hash verified. Repository remains private; archival identifiers and manuscript submission are separate."
-  },
-  "R3": {
-    "status": "complete with evidence path",
-    "evidence_path": "tests/test_release_packaging.py",
-    "acceptance_boundary": "Privacy and traversal membership checks; raw sources remain excluded."
-  },
-  "R4": {
-    "status": "complete with evidence path",
-    "evidence_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\completed_verification.json",
-    "acceptance_boundary": "213 full local tests; four Windows/Linux 3.11/3.14 CI environments each pass fresh CPU dependency installation, 106 integrity tests and standalone synthetic assay rehearsal on 53d6e83. Software verification only.",
-    "additional_ci_evidence": "results/replicated_fixed_state_v1/ci-ae76a96/verification.json",
-    "latest_local_tests_passed": 234
-  },
   "D1": {
-    "status": "complete with evidence path",
-    "evidence_path": "results/replicated_fixed_state_v1/qualification-primary-final/primary_methods.json",
     "acceptance_boundary": "Explicit unqualified source decision with metadata counts and outstanding dependencies.",
-    "additional_public_search_evidence": "results/replicated_fixed_state_v1/public-search-20261009-v1/qualification_decisions.json"
+    "additional_public_search_evidence": "results/replicated_fixed_state_v1/public-search-20261009-v1/qualification_decisions.json",
+    "evidence_path": "results/replicated_fixed_state_v1/qualification-primary-final/primary_methods.json",
+    "status": "complete with evidence path"
   },
   "D2": {
-    "status": "blocked on named dependency",
+    "acceptance_boundary": "Assay adapter and count-to-evaluation CLI route verified on original synthetic integer reads; real banks still require accepted dose/source and permitted access.",
     "evidence_path": "src/replicated/data.py",
-    "acceptance_boundary": "Assay adapter and count-to-evaluation CLI route verified on original synthetic integer reads; real banks still require accepted dose/source and permitted access."
+    "status": "blocked on named dependency"
   },
   "D3": {
-    "status": "complete with evidence path",
+    "acceptance_boundary": "Split constructor and isolation verified; scientific allocation awaits qualified power.",
     "evidence_path": "src/replicated/contracts.py",
-    "acceptance_boundary": "Split constructor and isolation verified; scientific allocation awaits qualified power."
-  },
-  "M1": {
-    "status": "blocked on named dependency",
-    "evidence_path": "results/replicated_fixed_state_v1/rehearsal-v2/summary.json",
-    "acceptance_boundary": "Technical rehearsal complete; independent-culture measurement acceptance needs qualified cultures.",
-    "additional_processing_evidence": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\report.json"
-  },
-  "M2": {
-    "status": "complete with evidence path",
-    "evidence_path": "src/replicated/models.py",
-    "acceptance_boundary": "Centered incidence reference and unsupported-component behavior verified."
-  },
-  "M3": {
-    "status": "complete with evidence path",
-    "evidence_path": "results/release-closeout-assay-20261008/synthetic_assay_verification.json",
-    "acceptance_boundary": "Synthetic selection, freeze and restoration complete; scientific freeze remains provenance-gated."
-  },
-  "S1": {
-    "status": "blocked on named dependency",
-    "evidence_path": "results/replicated_fixed_state_v1/power/procedure_variance_summary_v1.json",
-    "acceptance_boundary": "3,000 synthetic full-procedure studies cover variance multipliers 1, 2.25 and 4 without pooling shared draws. Biological independent-unit power and coverage review remain required."
+    "status": "complete with evidence path"
   },
   "E1": {
-    "status": "complete with evidence path",
+    "acceptance_boundary": "Custodian scoring, membership, code/hash rejection and one-score receipt verified.",
     "evidence_path": "src/replicated/workflow.py",
-    "acceptance_boundary": "Custodian scoring, membership, code/hash rejection and one-score receipt verified."
+    "status": "complete with evidence path"
   },
   "E2": {
-    "status": "complete with evidence path",
+    "acceptance_boundary": "Report/interpretation machinery and honest unqualified branch exist; no scientific confirmation score invented.",
     "evidence_path": "results/replicated_fixed_state_v1/report/decision.json",
-    "acceptance_boundary": "Report/interpretation machinery and honest unqualified branch exist; no scientific confirmation score invented."
+    "status": "complete with evidence path"
   },
-  "publication": {
-    "status": "blocked on named dependency",
-    "evidence_path": "docs/next_cycle/release_review.md",
-    "acceptance_boundary": "GitHub release completed after explicit owner authorization; repository public access, Zenodo archival and arXiv submission remain separately pending. No DOI or submission identifier invented."
+  "M1": {
+    "acceptance_boundary": "Technical rehearsal complete; independent-culture measurement acceptance needs qualified cultures.",
+    "additional_processing_evidence": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\report.json",
+    "evidence_path": "results/replicated_fixed_state_v1/rehearsal-v2/summary.json",
+    "status": "blocked on named dependency"
   },
-  "collaboration": {
-    "status": "blocked on named dependency",
-    "evidence_path": "docs/next_cycle/collaboration_brief.md",
-    "acceptance_boundary": "Reviewable brief complete; actual correspondence and laboratory agreement require owner actions."
+  "M2": {
+    "acceptance_boundary": "Centered incidence reference and unsupported-component behavior verified.",
+    "evidence_path": "src/replicated/models.py",
+    "status": "complete with evidence path"
   },
-  "registration": {
-    "status": "blocked on named dependency",
-    "evidence_path": "docs/next_cycle/analysis_protocol.md",
-    "acceptance_boundary": "Real accepted data/design and external timestamped registration are unavailable."
+  "M3": {
+    "acceptance_boundary": "Synthetic selection, freeze and restoration complete; scientific freeze remains provenance-gated.",
+    "evidence_path": "results/release-closeout-assay-20261008/synthetic_assay_verification.json",
+    "status": "complete with evidence path"
   },
-  "crossed_state_successor": {
-    "status": "blocked on named dependency",
-    "evidence_path": "results/replicated_fixed_state_v1/report/decision.json",
-    "acceptance_boundary": "No fixed-state advancement gate passed."
+  "R1": {
+    "acceptance_boundary": "2,400 canonical source-hashed claims and 737 grounded public decimal claims; decimal matching is not universal semantic certification.",
+    "evidence_path": "results/release-closeout-ceiling-20261008/canonical-v1/canonical_claims.json",
+    "status": "complete with evidence path"
   },
-  "public_processing_diagnostic": {
-    "status": "complete with real public counts",
-    "evidence_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\report.json",
-    "acceptance_boundary": "All 374 pairs across three runs analyzed descriptively with nominal references. Exact physical-dose/vehicle and culture qualification unresolved. Source outcomes now exposed; no biological gate or architecture search.",
-    "verification_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\completed_verification.json"
+  "R2": {
+    "acceptance_boundary": "Clean nine-asset package built from pushed 53d6e83, installed/reference/archive validation passed, explicitly approved GitHub publication completed and all nine uploaded assets downloaded/hash verified. Repository remains private; archival identifiers and manuscript submission are separate.",
+    "evidence_path": "results/replicated_fixed_state_v1/committed-release-20261009-53d6e83/verification.json",
+    "status": "complete with evidence path"
   },
-  "public_dataset_search": {
-    "latest_decisions": "results/replicated_fixed_state_v1/public-pre2013-followup-20261010-v1/qualification_decisions.json",
-    "latest_metadata_support": "results/replicated_fixed_state_v1/public-pre2013-followup-20261010-v1/verification.json",
-    "primary_confirmation_qualified": false,
-    "new_expression_access_this_search": false,
-    "boundary": "Four bounded inventories contain 1,048 distinct series identities, not 1,048 deeply audited designs. Eight further sample-level reviews remain unqualified; six Ramos arrays per arm span two clone states. No new expression outcomes were consumed in this search. Prior source-specific diagnostics and remote metadata audits remain separately recorded.",
-    "metadata_inventory": "results/replicated_fixed_state_v1/public-discovery-20261009-v1/inventory.json",
-    "new_expression_sources": [
-      "GSE78083"
-    ],
-    "metadata_coverage": "results/replicated_fixed_state_v1/public-discovery-pre2013-20261010-v1/coverage.json",
-    "unique_summary_identities": 1048
+  "R3": {
+    "acceptance_boundary": "Privacy and traversal membership checks; raw sources remain excluded.",
+    "evidence_path": "tests/test_release_packaging.py",
+    "status": "complete with evidence path"
+  },
+  "R4": {
+    "acceptance_boundary": "213 full local tests; four Windows/Linux 3.11/3.14 CI environments each pass fresh CPU dependency installation, 106 integrity tests and standalone synthetic assay rehearsal on 53d6e83. Software verification only.",
+    "additional_ci_evidence": "results/replicated_fixed_state_v1/ci-ae76a96/verification.json",
+    "evidence_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\completed_verification.json",
+    "latest_local_tests_passed": 234,
+    "status": "complete with evidence path"
   },
   "RETRO1": {
-    "status": "complete with evidence path",
-    "evidence_path": "results/replicated_fixed_state_v1/retrospective-combi-20261009-v1/verification.json",
     "acceptance_boundary": "Approved exposed-source nominal retrospective benchmark completed: 374 pairs, three processing runs, 512 reference-defined endpoint genes, nested existing 16-entry menu, three shuffle controls; pair candidate worse than selected incidence reference. No prospective or biological gate advanced.",
     "additional_ci_evidence": "results/replicated_fixed_state_v1/ci-f289616/verification.json",
-    "additional_replay_evidence": "results/replicated_fixed_state_v1/retrospective-combi-20261009-v1/replay_verification.json"
+    "additional_replay_evidence": "results/replicated_fixed_state_v1/retrospective-combi-20261009-v1/replay_verification.json",
+    "evidence_path": "results/replicated_fixed_state_v1/retrospective-combi-20261009-v1/verification.json",
+    "status": "complete with evidence path"
+  },
+  "S1": {
+    "acceptance_boundary": "3,000 synthetic full-procedure studies cover variance multipliers 1, 2.25 and 4 without pooling shared draws. Biological independent-unit power and coverage review remain required.",
+    "evidence_path": "results/replicated_fixed_state_v1/power/procedure_variance_summary_v1.json",
+    "status": "blocked on named dependency"
   },
   "bulk_processing_diagnostic": {
-    "status": "complete with evidence path",
-    "evidence_path": "results/replicated_fixed_state_v1/eldiaz-processed-measurement-20261009-v1/report.json",
     "acceptance_boundary": "144 LNCaP processed log-CPM samples retain three reported repeats and six separate time strata; 126 matched control/single/pair samples analyzed with published dose/vehicle metadata. Independent initiation remains unverified; no model search, biological intervals or original gate pass. Source now expression-exposed.",
     "additional_ci_evidence": "results/replicated_fixed_state_v1/ci-53d6e83/verification.json",
-    "additional_replay_evidence": "results/replicated_fixed_state_v1/eldiaz-processed-measurement-20261009-v1/installed_replay_verification.json"
+    "additional_replay_evidence": "results/replicated_fixed_state_v1/eldiaz-processed-measurement-20261009-v1/installed_replay_verification.json",
+    "evidence_path": "results/replicated_fixed_state_v1/eldiaz-processed-measurement-20261009-v1/report.json",
+    "status": "complete with evidence path"
   },
-  "github_release": {
-    "status": "complete with evidence path",
-    "evidence_path": "results/replicated_fixed_state_v1/github-release-v0.1.2/verification.json",
-    "url": "https://github.com/TheTinyIntelLab/opal/releases/tag/v0.1.2",
-    "acceptance_boundary": "Owner-approved GitHub publication and exact asset downloads verified; repository remains private."
+  "collaboration": {
+    "acceptance_boundary": "Reviewable brief complete; actual correspondence and laboratory agreement require owner actions.",
+    "evidence_path": "docs/next_cycle/collaboration_brief.md",
+    "status": "blocked on named dependency"
+  },
+  "crossed_state_successor": {
+    "acceptance_boundary": "No fixed-state advancement gate passed.",
+    "evidence_path": "results/replicated_fixed_state_v1/report/decision.json",
+    "status": "blocked on named dependency"
   },
   "donor_processing_diagnostic": {
-    "status": "complete with evidence path",
+    "acceptance_boundary": "18 complete primary donors after two metadata-conflict exclusions fixed before expression access. One pair and all 47,299 deposited probes; same-pair donor transfer is not held-pair prediction. No original gate, biological culture-reliability or fresh-confirmation claim.",
     "evidence_path": "results/replicated_fixed_state_v1/donor-monocyte-diagnostic-20261010-v2/report.json",
-    "verification_path": "results/replicated_fixed_state_v1/donor-monocyte-diagnostic-20261010-v2/verification.json",
-    "acceptance_boundary": "18 complete primary donors after two metadata-conflict exclusions fixed before expression access. One pair and all 47,299 deposited probes; same-pair donor transfer is not held-pair prediction. No original gate, biological culture-reliability or fresh-confirmation claim."
-  },
-  "unmatched_array_diagnostic": {
     "status": "complete with evidence path",
-    "evidence_path": "results/replicated_fixed_state_v1/lncap-array-unmatched-20261010-v1/report.json",
-    "verification_path": "results/replicated_fixed_state_v1/lncap-array-unmatched-20261010-v1/installed_verification.json",
-    "acceptance_boundary": "GSE56188 three-pair, six-repeat processed assay diagnostics use control/single arm means without matching repeat numbers. Exact installed replay; no original gate or biological confidence intervals."
+    "verification_path": "results/replicated_fixed_state_v1/donor-monocyte-diagnostic-20261010-v2/verification.json"
   },
-  "remote_metadata_audit": {
+  "github_release": {
+    "acceptance_boundary": "Owner-approved GitHub publication and exact asset downloads verified; repository remains private.",
+    "evidence_path": "results/replicated_fixed_state_v1/github-release-v0.1.2/verification.json",
     "status": "complete with evidence path",
-    "evidence_path": "results/replicated_fixed_state_v1/pertspectra-obs-metadata-20261010-v3/report.json",
-    "verification_path": "results/replicated_fixed_state_v1/pertspectra-obs-metadata-20261010-v3/verification.json",
-    "acceptance_boundary": "Selected metadata columns only; verified ranges and exact local reparse. Sample indices, row counts and nominal pair labels do not establish accepted culture units or matched molecular references."
+    "url": "https://github.com/TheTinyIntelLab/opal/releases/tag/v0.1.2"
   },
   "model_series": {
-    "status": "not started",
+    "acceptance_boundary": "Three functional variants, actual source-specific trained checkpoints, shared API/CLI, fixed held-pair evaluation and label-budget study, model cards, installed replay and CI; writing the amendment does not implement the series. Original biological gates remain conditional.",
     "active_direction": "Build and train Opal-Base, Opal-Interaction and Opal-Guard with shared inference and checkpoint contracts.",
-    "planning_status": "complete with evidence path",
-    "protocol_path": "docs/next_cycle/model_series_protocol.md",
-    "implementation_handoff": "docs/next_cycle/agent_prompt_model_series.md",
-    "private_plan_updated": true,
-    "actual_model_implementations_complete": false,
-    "actual_model_checkpoints_complete": false,
+    "actual_model_checkpoints_complete": true,
+    "actual_model_implementations_complete": true,
+    "backlog_audit": "results/opal_model_series_v1/original_backlog_audit.json",
     "backlog_ids": [
       "MS1",
       "MS2",
@@ -164,6 +120,76 @@
       "MS7",
       "MS8"
     ],
-    "acceptance_boundary": "Three functional variants, actual source-specific trained checkpoints, shared API/CLI, fixed held-pair evaluation and label-budget study, model cards, installed replay and CI; writing the amendment does not implement the series. Original biological gates remain conditional."
+    "budget_checkpoints": 1296,
+    "config_path": "configs/experiments/opal_model_series_v1.json",
+    "evidence_path": "results/opal_model_series_v1/series_registry.json",
+    "externally_deferred": [
+      "Qualified independent cultures, matched-dose/reference provenance and empirical biological precision/power.",
+      "Actual external registration, independent custody, collaboration/contact and laboratory execution.",
+      "Source-term authorization for weight publication; publication, visibility changes, Zenodo/arXiv remain unauthorized.",
+      "Unseen singles, state/dose extrapolation, calibrated uncertainty and prospective acquisition validation.",
+      "New remote CI needs owner-authorized commit/push; prior successful CI remains tied to its original HEAD."
+    ],
+    "implementation_handoff": "docs/next_cycle/agent_prompt_model_series.md",
+    "installed_verification": "results/opal_model_series_v1/installed_verification.json",
+    "local_full_suite": {
+      "log": "E:\\opal-model-series-20261010\\tests-final255.log",
+      "passed": 255,
+      "python": "3.14"
+    },
+    "new_remote_ci": "Not run: owner explicitly prohibits commit and push.",
+    "original_biological_gates_passed": false,
+    "planning_status": "complete with evidence path",
+    "private_plan_updated": true,
+    "protocol_path": "docs/next_cycle/model_series_protocol.md",
+    "results_path": "docs/next_cycle/opal_model_series.md",
+    "sample_label_transport_checkpoints": 72,
+    "status": "complete locally; new remote CI deferred by owner no-push instruction",
+    "training_sources": [
+      "GSE174695 Combi-seq",
+      "PertSpectra TNFA-positive",
+      "PertSpectra TNFA-negative"
+    ]
+  },
+  "public_dataset_search": {
+    "boundary": "Four bounded inventories contain 1,048 distinct series identities, not 1,048 deeply audited designs. Eight further sample-level reviews remain unqualified; six Ramos arrays per arm span two clone states. No new expression outcomes were consumed in this search. Prior source-specific diagnostics and remote metadata audits remain separately recorded.",
+    "latest_decisions": "results/replicated_fixed_state_v1/public-pre2013-followup-20261010-v1/qualification_decisions.json",
+    "latest_metadata_support": "results/replicated_fixed_state_v1/public-pre2013-followup-20261010-v1/verification.json",
+    "metadata_coverage": "results/replicated_fixed_state_v1/public-discovery-pre2013-20261010-v1/coverage.json",
+    "metadata_inventory": "results/replicated_fixed_state_v1/public-discovery-20261009-v1/inventory.json",
+    "new_expression_access_this_search": false,
+    "new_expression_sources": [
+      "GSE78083"
+    ],
+    "primary_confirmation_qualified": false,
+    "unique_summary_identities": 1048
+  },
+  "public_processing_diagnostic": {
+    "acceptance_boundary": "All 374 pairs across three runs analyzed descriptively with nominal references. Exact physical-dose/vehicle and culture qualification unresolved. Source outcomes now exposed; no biological gate or architecture search.",
+    "evidence_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\report.json",
+    "status": "complete with real public counts",
+    "verification_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\completed_verification.json"
+  },
+  "publication": {
+    "acceptance_boundary": "GitHub release completed after explicit owner authorization; repository public access, Zenodo archival and arXiv submission remain separately pending. No DOI or submission identifier invented.",
+    "evidence_path": "docs/next_cycle/release_review.md",
+    "status": "blocked on named dependency"
+  },
+  "registration": {
+    "acceptance_boundary": "Real accepted data/design and external timestamped registration are unavailable.",
+    "evidence_path": "docs/next_cycle/analysis_protocol.md",
+    "status": "blocked on named dependency"
+  },
+  "remote_metadata_audit": {
+    "acceptance_boundary": "Selected metadata columns only; verified ranges and exact local reparse. Sample indices, row counts and nominal pair labels do not establish accepted culture units or matched molecular references.",
+    "evidence_path": "results/replicated_fixed_state_v1/pertspectra-obs-metadata-20261010-v3/report.json",
+    "status": "complete with evidence path",
+    "verification_path": "results/replicated_fixed_state_v1/pertspectra-obs-metadata-20261010-v3/verification.json"
+  },
+  "unmatched_array_diagnostic": {
+    "acceptance_boundary": "GSE56188 three-pair, six-repeat processed assay diagnostics use control/single arm means without matching repeat numbers. Exact installed replay; no original gate or biological confidence intervals.",
+    "evidence_path": "results/replicated_fixed_state_v1/lncap-array-unmatched-20261010-v1/report.json",
+    "status": "complete with evidence path",
+    "verification_path": "results/replicated_fixed_state_v1/lncap-array-unmatched-20261010-v1/installed_verification.json"
   }
 }

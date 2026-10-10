@@ -1,0 +1,28 @@
+{
+  "all_development_refit": false,
+  "checkpoint_role": "frozen outer-evaluation fits",
+  "sources": [
+    {
+      "default": "Opal-Base",
+      "manifest": "results\\opal_model_series_v1\\combi-seq\\all_budget_checkpoint_manifest.json",
+      "manifest_sha256": "aa498821135e53134f13d579fec3a4049a3a721d8c66adbd5327fdc9eb066615",
+      "selection_receipts": 153,
+      "source_version": "opal-model-series-v1/GSE174695/20261010"
+    },
+    {
+      "default": "Opal-Base",
+      "manifest": "results\\opal_model_series_v1\\pertspectra\\TNFA-positive\\checkpoint_manifest.json",
+      "manifest_sha256": "11e4547738d354ea290f3a9fd897c9c49e30c6d4bbf4f322726e8a1e885ade62",
+      "selection_receipts": 204,
+      "source_version": "opal-model-series-v1/PertSpectra/TNFA-positive/20261010"
+    },
+    {
+      "default": "no-change",
+      "manifest": "results\\opal_model_series_v1\\pertspectra\\TNFA-negative\\checkpoint_manifest.json",
+      "manifest_sha256": "8694f2ddd531026fa749400624fff39482249d7379b195e2b7991ddbda5fe0ec",
+      "selection_receipts": 204,
+      "source_version": "opal-model-series-v1/PertSpectra/TNFA-negative/20261010"
+    }
+  ],
+  "universal_cross_assay_weights": false
+}

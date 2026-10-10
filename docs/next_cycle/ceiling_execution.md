@@ -1,5 +1,7 @@
 # Final execution ceiling, 8 October 2026
 
+Current model-cycle update, 10 October 2026: the owner authorized a separate three-model development cycle, superseding the historical architecture/search ordering only for that scope, then instructed that all work remain local. The trainable series and Combi-seq execution are documented in [the model cards](opal_model_series.md) and `results/opal_model_series_v1/`. The original study, gates and release assets are preserved. Its completed software backlog is audited separately from independent cultures, empirical biological power, registration, correspondence and unapproved publication. No new commit or push is authorized.
+
 The dated record below describes the 8 October execution. The [9 October search](public_dataset_search_20261009.md) adds primary metadata qualification. The owner's later instruction authorizes commits and pushes, superseding the earlier no-commit restriction; historical no-commit/package statements remain descriptions of their original snapshots.
 
 The repository-supported implementation and local publication assets are built. The plan's scientific gates still prevent new architecture search or a biological confirmation claim. No commits, correspondence, purchases or external publication were performed.

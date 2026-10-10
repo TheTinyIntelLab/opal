@@ -1,5 +1,7 @@
 # Opal model-series development amendment
 
+Execution update, 10 October 2026: the Combi-seq model series, actual source-specific checkpoints, shared inference/CLI, all declared budget conditions and exact replay are implemented. The finite configuration is [opal_model_series_v1.json](../../configs/experiments/opal_model_series_v1.json), fixed before fitting. [Model cards and results](opal_model_series.md) separate the recommended Base reference from experimental Interaction and Guard. The latest owner instruction prohibits commits and pushes; earlier authorization statements below are historical and superseded for this local build. The new four-environment integrity jobs are configured locally, but remote CI for unpushed changes cannot be claimed.
+
 The owner requested a change from indefinite confirmation-dataset searching and clarified that the deliverable must be a trainable model series. This amendment makes Opal-Base, Opal-Interaction and Opal-Guard the active computational workstream. It authorizes a bounded new development cycle while preserving the original study, architecture comparisons, source exposure history and biological gates. The complete implementation instructions are in [the agent handoff](agent_prompt_model_series.md); the local private `PLAN.md` has the same active direction and an MS1–MS8 backlog.
 
 ## Model contract
