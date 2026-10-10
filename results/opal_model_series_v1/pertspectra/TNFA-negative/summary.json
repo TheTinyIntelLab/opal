@@ -1,0 +1,4027 @@
+{
+  "claims": "Retrospective source-conditional prediction only; no biological interaction discovery, noise ceiling, prospective assay savings, calibrated uncertainty or independent culture confirmation.",
+  "conditions_sha256": "2de6736143d03785f1df67c8b2606da2be71bb04b206229dfd18fa6a83be517e",
+  "default": "no-change",
+  "equal_stratum_summaries": [
+    {
+      "budget": 0.0,
+      "maximum_acquired_pairs": 0,
+      "mean_acquired_pairs": 0.0,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 0,
+      "order": "target-balanced",
+      "seed": 11,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "maximum_acquired_pairs": 9,
+      "mean_acquired_pairs": 8.333333333333334,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 8,
+      "order": "target-balanced",
+      "seed": 11,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "maximum_acquired_pairs": 18,
+      "mean_acquired_pairs": 17.0,
+      "metrics": {
+        "Opal-Base": 0.09444332327574022,
+        "Opal-Interaction": 0.09642443714552237,
+        "additivity": 0.09444332327574022,
+        "historical-candidate": 0.08909567344945142,
+        "historical-reference": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 16,
+      "order": "target-balanced",
+      "seed": 11,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "maximum_acquired_pairs": 37,
+      "mean_acquired_pairs": 34.666666666666664,
+      "metrics": {
+        "Opal-Base": 0.08227939996581157,
+        "Opal-Guard": 0.08265076611335742,
+        "Opal-Interaction": 0.08354522883317506,
+        "additivity": 0.09444332327574022,
+        "fixed-half-gate": 0.08259095774304015,
+        "historical-candidate": 0.08205586687979091,
+        "historical-reference": 0.08227939996581157,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 33,
+      "order": "target-balanced",
+      "seed": 11,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "maximum_acquired_pairs": 0,
+      "mean_acquired_pairs": 0.0,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 0,
+      "order": "target-balanced",
+      "seed": 29,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "maximum_acquired_pairs": 9,
+      "mean_acquired_pairs": 8.333333333333334,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 8,
+      "order": "target-balanced",
+      "seed": 29,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "maximum_acquired_pairs": 18,
+      "mean_acquired_pairs": 17.0,
+      "metrics": {
+        "Opal-Base": 0.09444332327574022,
+        "Opal-Interaction": 0.09641809454000513,
+        "additivity": 0.09444332327574022,
+        "historical-candidate": 0.08936268467038733,
+        "historical-reference": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 16,
+      "order": "target-balanced",
+      "seed": 29,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "maximum_acquired_pairs": 37,
+      "mean_acquired_pairs": 34.666666666666664,
+      "metrics": {
+        "Opal-Base": 0.08227939996581157,
+        "Opal-Guard": 0.08265076611335742,
+        "Opal-Interaction": 0.08354522883317506,
+        "additivity": 0.09444332327574022,
+        "fixed-half-gate": 0.08259095774304015,
+        "historical-candidate": 0.08205586687979091,
+        "historical-reference": 0.08227939996581157,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 33,
+      "order": "target-balanced",
+      "seed": 29,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "maximum_acquired_pairs": 0,
+      "mean_acquired_pairs": 0.0,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 0,
+      "order": "target-balanced",
+      "seed": 47,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "maximum_acquired_pairs": 9,
+      "mean_acquired_pairs": 8.333333333333334,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 8,
+      "order": "target-balanced",
+      "seed": 47,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "maximum_acquired_pairs": 18,
+      "mean_acquired_pairs": 17.0,
+      "metrics": {
+        "Opal-Base": 0.09363836583164904,
+        "Opal-Interaction": 0.09534044700791865,
+        "additivity": 0.09444332327574022,
+        "historical-candidate": 0.08918660142221829,
+        "historical-reference": 0.09363836583164904,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 16,
+      "order": "target-balanced",
+      "seed": 47,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "maximum_acquired_pairs": 37,
+      "mean_acquired_pairs": 34.666666666666664,
+      "metrics": {
+        "Opal-Base": 0.08227939996581157,
+        "Opal-Guard": 0.08265076611335742,
+        "Opal-Interaction": 0.08354522883317506,
+        "additivity": 0.09444332327574022,
+        "fixed-half-gate": 0.08259095774304015,
+        "historical-candidate": 0.08205586687979091,
+        "historical-reference": 0.08227939996581157,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 33,
+      "order": "target-balanced",
+      "seed": 47,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "maximum_acquired_pairs": 0,
+      "mean_acquired_pairs": 0.0,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 0,
+      "order": "uniform",
+      "seed": 11,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "maximum_acquired_pairs": 9,
+      "mean_acquired_pairs": 8.333333333333334,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 8,
+      "order": "uniform",
+      "seed": 11,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "maximum_acquired_pairs": 18,
+      "mean_acquired_pairs": 17.0,
+      "metrics": {
+        "Opal-Base": 0.0896117453529633,
+        "Opal-Interaction": 0.09132476882641423,
+        "additivity": 0.09444332327574022,
+        "historical-candidate": 0.08957645072656292,
+        "historical-reference": 0.0896117453529633,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 16,
+      "order": "uniform",
+      "seed": 11,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "maximum_acquired_pairs": 37,
+      "mean_acquired_pairs": 34.666666666666664,
+      "metrics": {
+        "Opal-Base": 0.08227939996581157,
+        "Opal-Guard": 0.08265076611335742,
+        "Opal-Interaction": 0.08354522883317506,
+        "additivity": 0.09444332327574022,
+        "fixed-half-gate": 0.08259095774304015,
+        "historical-candidate": 0.08205586687979091,
+        "historical-reference": 0.08227939996581157,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 33,
+      "order": "uniform",
+      "seed": 11,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "maximum_acquired_pairs": 0,
+      "mean_acquired_pairs": 0.0,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 0,
+      "order": "uniform",
+      "seed": 29,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "maximum_acquired_pairs": 9,
+      "mean_acquired_pairs": 8.333333333333334,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 8,
+      "order": "uniform",
+      "seed": 29,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "maximum_acquired_pairs": 18,
+      "mean_acquired_pairs": 17.0,
+      "metrics": {
+        "Opal-Base": 0.09388374918391448,
+        "Opal-Interaction": 0.09553219435857854,
+        "additivity": 0.09444332327574022,
+        "historical-candidate": 0.08848677468381132,
+        "historical-reference": 0.09388374918391448,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 16,
+      "order": "uniform",
+      "seed": 29,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "maximum_acquired_pairs": 37,
+      "mean_acquired_pairs": 34.666666666666664,
+      "metrics": {
+        "Opal-Base": 0.08227939996581157,
+        "Opal-Guard": 0.08265076611335742,
+        "Opal-Interaction": 0.08354522883317506,
+        "additivity": 0.09444332327574022,
+        "fixed-half-gate": 0.08259095774304015,
+        "historical-candidate": 0.08205586687979091,
+        "historical-reference": 0.08227939996581157,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 33,
+      "order": "uniform",
+      "seed": 29,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "maximum_acquired_pairs": 0,
+      "mean_acquired_pairs": 0.0,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 0,
+      "order": "uniform",
+      "seed": 47,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "maximum_acquired_pairs": 9,
+      "mean_acquired_pairs": 8.333333333333334,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "historical-candidate": 0.09551138049250839,
+        "historical-reference": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 8,
+      "order": "uniform",
+      "seed": 47,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "maximum_acquired_pairs": 18,
+      "mean_acquired_pairs": 17.0,
+      "metrics": {
+        "Opal-Base": 0.09219135676588658,
+        "Opal-Interaction": 0.09428389441898896,
+        "additivity": 0.09444332327574022,
+        "historical-candidate": 0.08877165850603541,
+        "historical-reference": 0.09219135676588658,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 16,
+      "order": "uniform",
+      "seed": 47,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "maximum_acquired_pairs": 37,
+      "mean_acquired_pairs": 34.666666666666664,
+      "metrics": {
+        "Opal-Base": 0.08227939996581157,
+        "Opal-Guard": 0.08265076611335742,
+        "Opal-Interaction": 0.08354522883317506,
+        "additivity": 0.09444332327574022,
+        "fixed-half-gate": 0.08259095774304015,
+        "historical-candidate": 0.08205586687979091,
+        "historical-reference": 0.08227939996581157,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 33,
+      "order": "uniform",
+      "seed": 47,
+      "strata": 4,
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "maximum_acquired_pairs": 37,
+      "mean_acquired_pairs": 34.666666666666664,
+      "metrics": {
+        "Opal-Base": 0.08423030049195485,
+        "Opal-Guard": 0.08455464700262208,
+        "Opal-Interaction": 0.08535100871899118,
+        "additivity": 0.1015015160950547,
+        "fixed-half-gate": 0.08450617285390598,
+        "historical-candidate": 0.08348974683816672,
+        "historical-reference": 0.08423030049195485,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 33,
+      "order": "uniform",
+      "seed": 11,
+      "strata": 4,
+      "variant": "shuffle-11"
+    },
+    {
+      "budget": 1.0,
+      "maximum_acquired_pairs": 37,
+      "mean_acquired_pairs": 34.666666666666664,
+      "metrics": {
+        "Opal-Base": 0.08415109691973419,
+        "Opal-Guard": 0.08453744510151039,
+        "Opal-Interaction": 0.08541395288209211,
+        "additivity": 0.1004902412335023,
+        "fixed-half-gate": 0.08447769532494143,
+        "historical-candidate": 0.0842583393319314,
+        "historical-reference": 0.08415109691973419,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 33,
+      "order": "uniform",
+      "seed": 11,
+      "strata": 4,
+      "variant": "shuffle-29"
+    },
+    {
+      "budget": 1.0,
+      "maximum_acquired_pairs": 37,
+      "mean_acquired_pairs": 34.666666666666664,
+      "metrics": {
+        "Opal-Base": 0.0844820610240386,
+        "Opal-Guard": 0.08483210916807085,
+        "Opal-Interaction": 0.08564070771606364,
+        "additivity": 0.09994916235521764,
+        "fixed-half-gate": 0.08476972859710771,
+        "historical-candidate": 0.08370906841099748,
+        "historical-reference": 0.0844820610240386,
+        "no-change": 0.07509451605005321
+      },
+      "minimum_acquired_pairs": 33,
+      "order": "uniform",
+      "seed": 11,
+      "strata": 4,
+      "variant": "shuffle-47"
+    }
+  ],
+  "experimental": [
+    "Opal-Interaction",
+    "Opal-Guard",
+    "Opal-Base"
+  ],
+  "full_budget_comparison": {
+    "Opal-Base": {
+      "delta_vs_additivity": -0.012163923309928645,
+      "delta_vs_base": 0.0,
+      "mse": 0.08227939996581157,
+      "relative_gain_vs_base": 0.0
+    },
+    "Opal-Guard": {
+      "delta_vs_additivity": -0.011792557162382797,
+      "delta_vs_base": 0.0003713661475458485,
+      "mse": 0.08265076611335742,
+      "relative_gain_vs_base": -0.00451347661383239
+    },
+    "Opal-Interaction": {
+      "delta_vs_additivity": -0.010898094442565162,
+      "delta_vs_base": 0.0012658288673634832,
+      "mse": 0.08354522883317506,
+      "relative_gain_vs_base": -0.015384517484199556
+    },
+    "additivity": {
+      "delta_vs_additivity": 0.0,
+      "delta_vs_base": 0.012163923309928645,
+      "mse": 0.09444332327574022,
+      "relative_gain_vs_base": -0.14783680137413446
+    },
+    "fixed-half-gate": {
+      "delta_vs_additivity": -0.011852365532700068,
+      "delta_vs_base": 0.00031155777722857714,
+      "mse": 0.08259095774304015,
+      "relative_gain_vs_base": -0.0037865830008243506
+    },
+    "historical-candidate": {
+      "delta_vs_additivity": -0.012387456395949306,
+      "delta_vs_base": -0.0002235330860206608,
+      "mse": 0.08205586687979091,
+      "relative_gain_vs_base": 0.0027167563948393703
+    },
+    "historical-reference": {
+      "delta_vs_additivity": -0.012163923309928645,
+      "delta_vs_base": 0.0,
+      "mse": 0.08227939996581157,
+      "relative_gain_vs_base": 0.0
+    },
+    "no-change": {
+      "delta_vs_additivity": -0.019348807225687006,
+      "delta_vs_base": -0.007184883915758361,
+      "mse": 0.07509451605005321,
+      "relative_gain_vs_base": 0.08732299845093427
+    }
+  },
+  "gate_ablation": "Base is zero interaction; Interaction is gate one; fixed-half-gate is constant 0.5; Guard is learned OOF gate.",
+  "learning_curves": [
+    {
+      "budget": 0.0,
+      "mean_labels": 0.0,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "order": "uniform",
+      "seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "budget": 0.25,
+      "mean_labels": 8.333333333333334,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "order": "uniform",
+      "seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "budget": 0.5,
+      "mean_labels": 17.0,
+      "metrics": {
+        "Opal-Base": 0.09189561710092146,
+        "Opal-Interaction": 0.09371361920132726,
+        "additivity": 0.09444332327574022,
+        "historical-candidate": 0.08894496130546987,
+        "historical-reference": 0.09189561710092146,
+        "no-change": 0.07509451605005321
+      },
+      "order": "uniform",
+      "seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "budget": 1.0,
+      "mean_labels": 34.666666666666664,
+      "metrics": {
+        "Opal-Base": 0.08227939996581157,
+        "Opal-Guard": 0.08265076611335742,
+        "Opal-Interaction": 0.08354522883317506,
+        "additivity": 0.09444332327574022,
+        "fixed-half-gate": 0.08259095774304015,
+        "historical-candidate": 0.08205586687979091,
+        "historical-reference": 0.08227939996581157,
+        "no-change": 0.07509451605005321
+      },
+      "order": "uniform",
+      "seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "budget": 0.0,
+      "mean_labels": 0.0,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "order": "target-balanced",
+      "seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "budget": 0.25,
+      "mean_labels": 8.333333333333334,
+      "metrics": {
+        "additivity": 0.09444332327574022,
+        "no-change": 0.07509451605005321
+      },
+      "order": "target-balanced",
+      "seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "budget": 0.5,
+      "mean_labels": 17.0,
+      "metrics": {
+        "Opal-Base": 0.09417500412770984,
+        "Opal-Interaction": 0.09606099289781539,
+        "additivity": 0.09444332327574022,
+        "historical-candidate": 0.089214986514019,
+        "historical-reference": 0.09417500412770984,
+        "no-change": 0.07509451605005321
+      },
+      "order": "target-balanced",
+      "seeds": [
+        11,
+        29,
+        47
+      ]
+    },
+    {
+      "budget": 1.0,
+      "mean_labels": 34.666666666666664,
+      "metrics": {
+        "Opal-Base": 0.08227939996581157,
+        "Opal-Guard": 0.08265076611335742,
+        "Opal-Interaction": 0.08354522883317506,
+        "additivity": 0.09444332327574022,
+        "fixed-half-gate": 0.08259095774304015,
+        "historical-candidate": 0.08205586687979091,
+        "historical-reference": 0.08227939996581157,
+        "no-change": 0.07509451605005321
+      },
+      "order": "target-balanced",
+      "seeds": [
+        11,
+        29,
+        47
+      ]
+    }
+  ],
+  "marginal_error_changes": [
+    {
+      "added_pair_labels": 8.333333333333334,
+      "from_budget": 0.0,
+      "model": "additivity",
+      "mse_change_per_added_label": 0.0,
+      "order": "uniform",
+      "to_budget": 0.25
+    },
+    {
+      "added_pair_labels": 8.333333333333334,
+      "from_budget": 0.0,
+      "model": "no-change",
+      "mse_change_per_added_label": 0.0,
+      "order": "uniform",
+      "to_budget": 0.25
+    },
+    {
+      "added_pair_labels": 8.666666666666666,
+      "from_budget": 0.25,
+      "model": "additivity",
+      "mse_change_per_added_label": 0.0,
+      "order": "uniform",
+      "to_budget": 0.5
+    },
+    {
+      "added_pair_labels": 8.666666666666666,
+      "from_budget": 0.25,
+      "model": "no-change",
+      "mse_change_per_added_label": 0.0,
+      "order": "uniform",
+      "to_budget": 0.5
+    },
+    {
+      "added_pair_labels": 17.666666666666664,
+      "from_budget": 0.5,
+      "model": "historical-candidate",
+      "mse_change_per_added_label": -0.00038994874107616776,
+      "order": "uniform",
+      "to_budget": 1.0
+    },
+    {
+      "added_pair_labels": 17.666666666666664,
+      "from_budget": 0.5,
+      "model": "Opal-Interaction",
+      "mse_change_per_added_label": -0.0005755692661218229,
+      "order": "uniform",
+      "to_budget": 1.0
+    },
+    {
+      "added_pair_labels": 17.666666666666664,
+      "from_budget": 0.5,
+      "model": "no-change",
+      "mse_change_per_added_label": 0.0,
+      "order": "uniform",
+      "to_budget": 1.0
+    },
+    {
+      "added_pair_labels": 17.666666666666664,
+      "from_budget": 0.5,
+      "model": "historical-reference",
+      "mse_change_per_added_label": -0.0005443141774590506,
+      "order": "uniform",
+      "to_budget": 1.0
+    },
+    {
+      "added_pair_labels": 17.666666666666664,
+      "from_budget": 0.5,
+      "model": "additivity",
+      "mse_change_per_added_label": 0.0,
+      "order": "uniform",
+      "to_budget": 1.0
+    },
+    {
+      "added_pair_labels": 17.666666666666664,
+      "from_budget": 0.5,
+      "model": "Opal-Base",
+      "mse_change_per_added_label": -0.0005443141774590506,
+      "order": "uniform",
+      "to_budget": 1.0
+    },
+    {
+      "added_pair_labels": 8.333333333333334,
+      "from_budget": 0.0,
+      "model": "additivity",
+      "mse_change_per_added_label": 0.0,
+      "order": "target-balanced",
+      "to_budget": 0.25
+    },
+    {
+      "added_pair_labels": 8.333333333333334,
+      "from_budget": 0.0,
+      "model": "no-change",
+      "mse_change_per_added_label": 0.0,
+      "order": "target-balanced",
+      "to_budget": 0.25
+    },
+    {
+      "added_pair_labels": 8.666666666666666,
+      "from_budget": 0.25,
+      "model": "additivity",
+      "mse_change_per_added_label": 0.0,
+      "order": "target-balanced",
+      "to_budget": 0.5
+    },
+    {
+      "added_pair_labels": 8.666666666666666,
+      "from_budget": 0.25,
+      "model": "no-change",
+      "mse_change_per_added_label": 0.0,
+      "order": "target-balanced",
+      "to_budget": 0.5
+    },
+    {
+      "added_pair_labels": 17.666666666666664,
+      "from_budget": 0.5,
+      "model": "historical-candidate",
+      "mse_change_per_added_label": -0.0004052331868430996,
+      "order": "target-balanced",
+      "to_budget": 1.0
+    },
+    {
+      "added_pair_labels": 17.666666666666664,
+      "from_budget": 0.5,
+      "model": "Opal-Interaction",
+      "mse_change_per_added_label": -0.0007084394753570001,
+      "order": "target-balanced",
+      "to_budget": 1.0
+    },
+    {
+      "added_pair_labels": 17.666666666666664,
+      "from_budget": 0.5,
+      "model": "no-change",
+      "mse_change_per_added_label": 0.0,
+      "order": "target-balanced",
+      "to_budget": 1.0
+    },
+    {
+      "added_pair_labels": 17.666666666666664,
+      "from_budget": 0.5,
+      "model": "historical-reference",
+      "mse_change_per_added_label": -0.0006733360846357508,
+      "order": "target-balanced",
+      "to_budget": 1.0
+    },
+    {
+      "added_pair_labels": 17.666666666666664,
+      "from_budget": 0.5,
+      "model": "additivity",
+      "mse_change_per_added_label": 0.0,
+      "order": "target-balanced",
+      "to_budget": 1.0
+    },
+    {
+      "added_pair_labels": 17.666666666666664,
+      "from_budget": 0.5,
+      "model": "Opal-Base",
+      "mse_change_per_added_label": -0.0006733360846357508,
+      "order": "target-balanced",
+      "to_budget": 1.0
+    }
+  ],
+  "optimization_budget": "Base reuses the 13 reference entries in the historical 16-entry selection. Interaction has two penalties and development-selected epochs. Guard has three nested OOF expert fits, two gate penalties and gate-selected epochs. Final experts shared across variants. Budgets are unequal and disclosed.",
+  "per_stratum": [
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.09535696318061329,
+        "Opal-Interaction": 0.0982145816252499,
+        "additivity": 0.09535696318061329,
+        "historical-candidate": 0.08916651316297886,
+        "historical-reference": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.11020709084341465,
+        "Opal-Interaction": 0.11283105066578426,
+        "additivity": 0.11020709084341465,
+        "historical-candidate": 0.10423927564924601,
+        "historical-reference": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.08123710308257374,
+        "Opal-Interaction": 0.08253353909750542,
+        "additivity": 0.08123710308257374,
+        "historical-candidate": 0.07524867652464845,
+        "historical-reference": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.09097213599635919,
+        "Opal-Interaction": 0.09211857719354989,
+        "additivity": 0.09097213599635919,
+        "historical-candidate": 0.08772822846093235,
+        "historical-reference": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08170018506315431,
+        "Opal-Guard": 0.08193779914705882,
+        "Opal-Interaction": 0.08256563526804342,
+        "additivity": 0.09535696318061329,
+        "fixed-half-gate": 0.08189488251022913,
+        "historical-candidate": 0.08003047973108371,
+        "historical-reference": 0.08170018506315431,
+        "no-change": 0.07255776112796622
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "1",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.09636973204139616,
+        "Opal-Guard": 0.09692705436990612,
+        "Opal-Interaction": 0.0982967215613248,
+        "additivity": 0.11020709084341465,
+        "fixed-half-gate": 0.09684459912578666,
+        "historical-candidate": 0.09737655051156655,
+        "historical-reference": 0.09636973204139616,
+        "no-change": 0.08811667893257659
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "2",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.06883331596061046,
+        "Opal-Guard": 0.06908826606481992,
+        "Opal-Interaction": 0.0696475484213229,
+        "additivity": 0.08123710308257374,
+        "fixed-half-gate": 0.06904587891254509,
+        "historical-candidate": 0.0687100147235186,
+        "historical-reference": 0.06883331596061046,
+        "no-change": 0.06526103423379435
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "4",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08221436679808539,
+        "Opal-Guard": 0.08264994487164487,
+        "Opal-Interaction": 0.08367101008200911,
+        "additivity": 0.09097213599635919,
+        "fixed-half-gate": 0.08257847042359975,
+        "historical-candidate": 0.08210642255299476,
+        "historical-reference": 0.08221436679808539,
+        "no-change": 0.07444258990587567
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "8",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.09535696318061329,
+        "Opal-Interaction": 0.09743813359903988,
+        "additivity": 0.09535696318061329,
+        "historical-candidate": 0.0895197973009308,
+        "historical-reference": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.11020709084341465,
+        "Opal-Interaction": 0.11158113102583021,
+        "additivity": 0.11020709084341465,
+        "historical-candidate": 0.10389683166116716,
+        "historical-reference": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.08123710308257374,
+        "Opal-Interaction": 0.08376918980080898,
+        "additivity": 0.08123710308257374,
+        "historical-candidate": 0.07666677130945714,
+        "historical-reference": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.09097213599635919,
+        "Opal-Interaction": 0.09288392373434144,
+        "additivity": 0.09097213599635919,
+        "historical-candidate": 0.08736733840999422,
+        "historical-reference": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08170018506315431,
+        "Opal-Guard": 0.08193779914705882,
+        "Opal-Interaction": 0.08256563526804342,
+        "additivity": 0.09535696318061329,
+        "fixed-half-gate": 0.08189488251022913,
+        "historical-candidate": 0.08003047973108371,
+        "historical-reference": 0.08170018506315431,
+        "no-change": 0.07255776112796622
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "1",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.09636973204139616,
+        "Opal-Guard": 0.09692705436990612,
+        "Opal-Interaction": 0.0982967215613248,
+        "additivity": 0.11020709084341465,
+        "fixed-half-gate": 0.09684459912578666,
+        "historical-candidate": 0.09737655051156655,
+        "historical-reference": 0.09636973204139616,
+        "no-change": 0.08811667893257659
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "2",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.06883331596061046,
+        "Opal-Guard": 0.06908826606481992,
+        "Opal-Interaction": 0.0696475484213229,
+        "additivity": 0.08123710308257374,
+        "fixed-half-gate": 0.06904587891254509,
+        "historical-candidate": 0.0687100147235186,
+        "historical-reference": 0.06883331596061046,
+        "no-change": 0.06526103423379435
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "4",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08221436679808539,
+        "Opal-Guard": 0.08264994487164487,
+        "Opal-Interaction": 0.08367101008200911,
+        "additivity": 0.09097213599635919,
+        "fixed-half-gate": 0.08257847042359975,
+        "historical-candidate": 0.08210642255299476,
+        "historical-reference": 0.08221436679808539,
+        "no-change": 0.07444258990587567
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "8",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.09213713340424858,
+        "Opal-Interaction": 0.09422777387422249,
+        "additivity": 0.09535696318061329,
+        "historical-candidate": 0.08895746104147272,
+        "historical-reference": 0.09213713340424858,
+        "no-change": 0.07255776112796622
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.11020709084341465,
+        "Opal-Interaction": 0.11143870249128093,
+        "additivity": 0.11020709084341465,
+        "historical-candidate": 0.104319566111918,
+        "historical-reference": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.08123710308257374,
+        "Opal-Interaction": 0.08271406924951258,
+        "additivity": 0.08123710308257374,
+        "historical-candidate": 0.07586575696735255,
+        "historical-reference": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.09097213599635919,
+        "Opal-Interaction": 0.09298124241665856,
+        "additivity": 0.09097213599635919,
+        "historical-candidate": 0.08760362156812992,
+        "historical-reference": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08170018506315431,
+        "Opal-Guard": 0.08193779914705882,
+        "Opal-Interaction": 0.08256563526804342,
+        "additivity": 0.09535696318061329,
+        "fixed-half-gate": 0.08189488251022913,
+        "historical-candidate": 0.08003047973108371,
+        "historical-reference": 0.08170018506315431,
+        "no-change": 0.07255776112796622
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "1",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.09636973204139616,
+        "Opal-Guard": 0.09692705436990612,
+        "Opal-Interaction": 0.0982967215613248,
+        "additivity": 0.11020709084341465,
+        "fixed-half-gate": 0.09684459912578666,
+        "historical-candidate": 0.09737655051156655,
+        "historical-reference": 0.09636973204139616,
+        "no-change": 0.08811667893257659
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "2",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.06883331596061046,
+        "Opal-Guard": 0.06908826606481992,
+        "Opal-Interaction": 0.0696475484213229,
+        "additivity": 0.08123710308257374,
+        "fixed-half-gate": 0.06904587891254509,
+        "historical-candidate": 0.0687100147235186,
+        "historical-reference": 0.06883331596061046,
+        "no-change": 0.06526103423379435
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "4",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08221436679808539,
+        "Opal-Guard": 0.08264994487164487,
+        "Opal-Interaction": 0.08367101008200911,
+        "additivity": 0.09097213599635919,
+        "fixed-half-gate": 0.08257847042359975,
+        "historical-candidate": 0.08210642255299476,
+        "historical-reference": 0.08221436679808539,
+        "no-change": 0.07444258990587567
+      },
+      "order": "target-balanced",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "8",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.09106339234190532,
+        "Opal-Interaction": 0.0927534811655632,
+        "additivity": 0.09535696318061329,
+        "historical-candidate": 0.0898055467125829,
+        "historical-reference": 0.09106339234190532,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.10226594231428733,
+        "Opal-Interaction": 0.10435135819317862,
+        "additivity": 0.11020709084341465,
+        "historical-candidate": 0.10422650756682003,
+        "historical-reference": 0.10226594231428733,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.07538247248934157,
+        "Opal-Interaction": 0.07656467787762296,
+        "additivity": 0.08123710308257374,
+        "historical-candidate": 0.0772471737186556,
+        "historical-reference": 0.07538247248934157,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.08973517426631898,
+        "Opal-Interaction": 0.09162955806929214,
+        "additivity": 0.09097213599635919,
+        "historical-candidate": 0.08702657490819316,
+        "historical-reference": 0.08973517426631898,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08170018506315431,
+        "Opal-Guard": 0.08193779914705882,
+        "Opal-Interaction": 0.08256563526804342,
+        "additivity": 0.09535696318061329,
+        "fixed-half-gate": 0.08189488251022913,
+        "historical-candidate": 0.08003047973108371,
+        "historical-reference": 0.08170018506315431,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "1",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.09636973204139616,
+        "Opal-Guard": 0.09692705436990612,
+        "Opal-Interaction": 0.0982967215613248,
+        "additivity": 0.11020709084341465,
+        "fixed-half-gate": 0.09684459912578666,
+        "historical-candidate": 0.09737655051156655,
+        "historical-reference": 0.09636973204139616,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "2",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.06883331596061046,
+        "Opal-Guard": 0.06908826606481992,
+        "Opal-Interaction": 0.0696475484213229,
+        "additivity": 0.08123710308257374,
+        "fixed-half-gate": 0.06904587891254509,
+        "historical-candidate": 0.0687100147235186,
+        "historical-reference": 0.06883331596061046,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "4",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08221436679808539,
+        "Opal-Guard": 0.08264994487164487,
+        "Opal-Interaction": 0.08367101008200911,
+        "additivity": 0.09097213599635919,
+        "fixed-half-gate": 0.08257847042359975,
+        "historical-candidate": 0.08210642255299476,
+        "historical-reference": 0.08221436679808539,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "8",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.09535696318061329,
+        "Opal-Interaction": 0.09721053833545312,
+        "additivity": 0.09535696318061329,
+        "historical-candidate": 0.08846969330517905,
+        "historical-reference": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.11020709084341465,
+        "Opal-Interaction": 0.11165458205370367,
+        "additivity": 0.11020709084341465,
+        "historical-candidate": 0.10356681058278057,
+        "historical-reference": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.08123710308257374,
+        "Opal-Interaction": 0.08270031395463526,
+        "additivity": 0.08123710308257374,
+        "historical-candidate": 0.07530184025509791,
+        "historical-reference": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.08873383962905625,
+        "Opal-Interaction": 0.09056334309052214,
+        "additivity": 0.09097213599635919,
+        "historical-candidate": 0.08660875459218777,
+        "historical-reference": 0.08873383962905625,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08170018506315431,
+        "Opal-Guard": 0.08193779914705882,
+        "Opal-Interaction": 0.08256563526804342,
+        "additivity": 0.09535696318061329,
+        "fixed-half-gate": 0.08189488251022913,
+        "historical-candidate": 0.08003047973108371,
+        "historical-reference": 0.08170018506315431,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "1",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.09636973204139616,
+        "Opal-Guard": 0.09692705436990612,
+        "Opal-Interaction": 0.0982967215613248,
+        "additivity": 0.11020709084341465,
+        "fixed-half-gate": 0.09684459912578666,
+        "historical-candidate": 0.09737655051156655,
+        "historical-reference": 0.09636973204139616,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "2",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.06883331596061046,
+        "Opal-Guard": 0.06908826606481992,
+        "Opal-Interaction": 0.0696475484213229,
+        "additivity": 0.08123710308257374,
+        "fixed-half-gate": 0.06904587891254509,
+        "historical-candidate": 0.0687100147235186,
+        "historical-reference": 0.06883331596061046,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "4",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08221436679808539,
+        "Opal-Guard": 0.08264994487164487,
+        "Opal-Interaction": 0.08367101008200911,
+        "additivity": 0.09097213599635919,
+        "fixed-half-gate": 0.08257847042359975,
+        "historical-candidate": 0.08210642255299476,
+        "historical-reference": 0.08221436679808539,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 29,
+      "stratum": "8",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        0,
+        0,
+        0
+      ],
+      "metrics": {
+        "additivity": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-candidate": "At least one required fold unavailable; no favorable-subset average",
+        "historical-reference": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.09535696318061329,
+        "historical-candidate": 0.0958698730430616,
+        "historical-reference": 0.09535696318061329,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.11020709084341465,
+        "historical-candidate": 0.11223986889694232,
+        "historical-reference": 0.11020709084341465,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.08123710308257374,
+        "historical-candidate": 0.08159853068496871,
+        "historical-reference": 0.08123710308257374,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.25,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        9,
+        8,
+        8
+      ],
+      "metrics": {
+        "additivity": 0.09097213599635919,
+        "historical-candidate": 0.09233724934506093,
+        "historical-reference": 0.09097213599635919,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Base": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "Opal-Interaction": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.09223034344842872,
+        "Opal-Interaction": 0.09480408589173203,
+        "additivity": 0.09535696318061329,
+        "historical-candidate": 0.08800618475784008,
+        "historical-reference": 0.09223034344842872,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "1",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.10779968576787824,
+        "Opal-Interaction": 0.11068407174355806,
+        "additivity": 0.11020709084341465,
+        "historical-candidate": 0.10413544423047487,
+        "historical-reference": 0.10779968576787824,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "2",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.07964419523055853,
+        "Opal-Interaction": 0.08094831304015565,
+        "additivity": 0.08123710308257374,
+        "historical-candidate": 0.07626871096813417,
+        "historical-reference": 0.07964419523055853,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "4",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 0.5,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        18,
+        16,
+        17
+      ],
+      "metrics": {
+        "Opal-Base": 0.0890912026166808,
+        "Opal-Interaction": 0.09069910700051008,
+        "additivity": 0.09097213599635919,
+        "historical-candidate": 0.08667629406769252,
+        "historical-reference": 0.0890912026166808,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "8",
+      "unavailable": {
+        "Opal-Guard": "At least one required fold unavailable; no favorable-subset average",
+        "fixed-half-gate": "At least one required fold unavailable; no favorable-subset average"
+      },
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08170018506315431,
+        "Opal-Guard": 0.08193779914705882,
+        "Opal-Interaction": 0.08256563526804342,
+        "additivity": 0.09535696318061329,
+        "fixed-half-gate": 0.08189488251022913,
+        "historical-candidate": 0.08003047973108371,
+        "historical-reference": 0.08170018506315431,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "1",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.09636973204139616,
+        "Opal-Guard": 0.09692705436990612,
+        "Opal-Interaction": 0.0982967215613248,
+        "additivity": 0.11020709084341465,
+        "fixed-half-gate": 0.09684459912578666,
+        "historical-candidate": 0.09737655051156655,
+        "historical-reference": 0.09636973204139616,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "2",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.06883331596061046,
+        "Opal-Guard": 0.06908826606481992,
+        "Opal-Interaction": 0.0696475484213229,
+        "additivity": 0.08123710308257374,
+        "fixed-half-gate": 0.06904587891254509,
+        "historical-candidate": 0.0687100147235186,
+        "historical-reference": 0.06883331596061046,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "4",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08221436679808539,
+        "Opal-Guard": 0.08264994487164487,
+        "Opal-Interaction": 0.08367101008200911,
+        "additivity": 0.09097213599635919,
+        "fixed-half-gate": 0.08257847042359975,
+        "historical-candidate": 0.08210642255299476,
+        "historical-reference": 0.08221436679808539,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 47,
+      "stratum": "8",
+      "unavailable": {},
+      "variant": "aligned"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08215381349480394,
+        "Opal-Guard": 0.08248628080931844,
+        "Opal-Interaction": 0.08323992884243267,
+        "additivity": 0.09558523230283196,
+        "fixed-half-gate": 0.08243684247263589,
+        "historical-candidate": 0.08199061936058505,
+        "historical-reference": 0.08215381349480394,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "1",
+      "unavailable": {},
+      "variant": "shuffle-11"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.09872180145001166,
+        "Opal-Guard": 0.09898697102041046,
+        "Opal-Interaction": 0.0998108311466907,
+        "additivity": 0.12013956163277731,
+        "fixed-half-gate": 0.09895753833754005,
+        "historical-candidate": 0.09850171967690995,
+        "historical-reference": 0.09872180145001166,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "2",
+      "unavailable": {},
+      "variant": "shuffle-11"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.06997924311097058,
+        "Opal-Guard": 0.0703397785851103,
+        "Opal-Interaction": 0.07115779219303002,
+        "additivity": 0.08809705532493539,
+        "fixed-half-gate": 0.070288465882676,
+        "historical-candidate": 0.06973173335567175,
+        "historical-reference": 0.06997924311097058,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "4",
+      "unavailable": {},
+      "variant": "shuffle-11"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08606634391203324,
+        "Opal-Guard": 0.08640555759564911,
+        "Opal-Interaction": 0.08719548269381136,
+        "additivity": 0.10218421511967411,
+        "fixed-half-gate": 0.08634184472277197,
+        "historical-candidate": 0.08373491495950013,
+        "historical-reference": 0.08606634391203324,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "8",
+      "unavailable": {},
+      "variant": "shuffle-11"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08258124985475757,
+        "Opal-Guard": 0.08286661062798005,
+        "Opal-Interaction": 0.08354117762679716,
+        "additivity": 0.09861914093109991,
+        "fixed-half-gate": 0.0828258080742552,
+        "historical-candidate": 0.08247217160118968,
+        "historical-reference": 0.08258124985475757,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "1",
+      "unavailable": {},
+      "variant": "shuffle-29"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.0987177344002014,
+        "Opal-Guard": 0.0992556920122115,
+        "Opal-Interaction": 0.1003463667821416,
+        "additivity": 0.11913422723091835,
+        "fixed-half-gate": 0.09917572156293385,
+        "historical-candidate": 0.09849649880105409,
+        "historical-reference": 0.0987177344002014,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "2",
+      "unavailable": {},
+      "variant": "shuffle-29"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.07069847615901013,
+        "Opal-Guard": 0.07087296965665511,
+        "Opal-Interaction": 0.07141913329870243,
+        "additivity": 0.08717390352094187,
+        "fixed-half-gate": 0.07084070021942335,
+        "historical-candidate": 0.0704951117581434,
+        "historical-reference": 0.07069847615901013,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "4",
+      "unavailable": {},
+      "variant": "shuffle-29"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08460692726496767,
+        "Opal-Guard": 0.0851545081091949,
+        "Opal-Interaction": 0.0863491338207272,
+        "additivity": 0.09703369325104906,
+        "fixed-half-gate": 0.0850685514431533,
+        "historical-candidate": 0.08556957516733842,
+        "historical-reference": 0.08460692726496767,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "8",
+      "unavailable": {},
+      "variant": "shuffle-29"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.0834940292014868,
+        "Opal-Guard": 0.08375048763730933,
+        "Opal-Interaction": 0.08435325314202864,
+        "additivity": 0.09959909161803455,
+        "fixed-half-gate": 0.08369280144736745,
+        "historical-candidate": 0.08328704494751722,
+        "historical-reference": 0.0834940292014868,
+        "no-change": 0.07255776112796622
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "1",
+      "unavailable": {},
+      "variant": "shuffle-47"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.1005325808263481,
+        "Opal-Guard": 0.10102601144334725,
+        "Opal-Interaction": 0.10202622159662598,
+        "additivity": 0.11360744661643295,
+        "fixed-half-gate": 0.10094781437729362,
+        "historical-candidate": 0.09819807145571403,
+        "historical-reference": 0.1005325808263481,
+        "no-change": 0.08811667893257659
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "2",
+      "unavailable": {},
+      "variant": "shuffle-47"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.07000176190692134,
+        "Opal-Guard": 0.07036274051292637,
+        "Opal-Interaction": 0.07118314195636817,
+        "additivity": 0.08485125729284529,
+        "fixed-half-gate": 0.07030234575466443,
+        "historical-candidate": 0.06974262377637944,
+        "historical-reference": 0.07000176190692134,
+        "no-change": 0.06526103423379435
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "4",
+      "unavailable": {},
+      "variant": "shuffle-47"
+    },
+    {
+      "budget": 1.0,
+      "full_development_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "label_counts_by_outer": [
+        37,
+        33,
+        34
+      ],
+      "metrics": {
+        "Opal-Base": 0.08389987216139819,
+        "Opal-Guard": 0.08418919707870046,
+        "Opal-Interaction": 0.08500021416923179,
+        "additivity": 0.10173885389355772,
+        "fixed-half-gate": 0.08413595280910532,
+        "historical-candidate": 0.08360853346437924,
+        "historical-reference": 0.08389987216139819,
+        "no-change": 0.07444258990587567
+      },
+      "order": "uniform",
+      "pairs": 52,
+      "seed": 11,
+      "stratum": "8",
+      "unavailable": {},
+      "variant": "shuffle-47"
+    }
+  ],
+  "selection_rule": "Retrospective recommendation compares the fitted reference, additivity and no-change. Nonlinear variants have not earned replacement status on these sources. Complexity and tiny exposed-source differences do not warrant promotion; a zero predictor beating supervised models is disclosed.",
+  "series_default": null,
+  "weights": "Equal canonical pairs within each stratum, then equal source strata; descriptive seed averages."
+}
