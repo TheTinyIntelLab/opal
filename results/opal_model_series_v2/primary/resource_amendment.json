@@ -1,0 +1,112 @@
+{
+  "amended_configuration": {
+    "allocation_core_hours": {
+      "diagnosis_preparation": 4,
+      "models_ablations": 8,
+      "native": 8,
+      "verification_reporting": 4
+    },
+    "architecture_id": "symmetric-bilinear-nested-memory",
+    "artifact_roots": [
+      "D:/opal-model-series-20261010-v2",
+      "C:/Users/USER/Desktop/opal-model-series-20261010-v2"
+    ],
+    "bilinear_normalization": "Diagonal u_i*v_i; off diagonal (u_i*v_j+u_j*v_i)/sqrt(2), i<j",
+    "budgets": [
+      0,
+      0.25,
+      0.5,
+      1
+    ],
+    "core_hours_cap": 24,
+    "crossfit_folds": 3,
+    "dtype": "float64",
+    "epoch_cap": 100,
+    "exposure": "All reused sources retrospective development; new folds/seeds do not restore unexposed confirmation",
+    "gate_regularization": [
+      0.1,
+      1
+    ],
+    "input_pca": "Unique acquired training-single profiles, centered float64 SVD; rank unavailable if numerical support insufficient",
+    "input_ranks": [
+      4,
+      8
+    ],
+    "learning_rate": 0.01,
+    "metric_diagnostics": "MAE, no-change/reference skill, signed correction, centered Pearson with undefined reasons; squared centered profile retrieval, average tie rank",
+    "minimum_bilinear_pairs_per_feature": 2,
+    "minimum_improvement": 1e-06,
+    "minimum_pairs": 12,
+    "minimum_partition_pairs": 4,
+    "minimum_router_pairs": 24,
+    "new_artifact_bytes_cap": 2000000000,
+    "orders": [
+      "uniform",
+      "target-balanced"
+    ],
+    "outer_seed": 20261009,
+    "output_ranks": [
+      4,
+      8
+    ],
+    "patience": 10,
+    "penalties": [
+      0.1,
+      1,
+      10
+    ],
+    "primary_metric": "equal-pair within stratum, equal-stratum gene-averaged MSE",
+    "promotion": {
+      "maximum_other_panel_loss_percent": 2,
+      "minimum_gain_percent": 2,
+      "minimum_source_panels": 2,
+      "router_must_beat_constant": true
+    },
+    "readonly_volumes": [
+      "D",
+      "E"
+    ],
+    "replay_atol": 1e-10,
+    "reserve_bytes": {
+      "C": 1073741824
+    },
+    "residual_routes": [
+      "in-sample",
+      "cross-fitted"
+    ],
+    "resource_amendment": "Owner explicitly authorized 2 GB retained artifacts and spill to new C folder after D reserve stopped fitting. C retains 1 GiB reserve; existing D/E artifacts read-only. No deletion or movement of existing files. Original 1 GB attempt and freeze preserved.",
+    "retrieval_distance": "Minimum of direct and swapped mean squared distance in training-only standardized single-profile space; exclude every occurrence of query canonical pair",
+    "retrieval_k": [
+      4,
+      8
+    ],
+    "retrieval_temperature_multiplier": 1,
+    "ridge_objective": "sum normalized equal-stratum/equal-pair weights times squared response error, plus alpha times squared coefficient norm; unpenalized intercept",
+    "router_features": [
+      "minimum_degree",
+      "maximum_degree",
+      "reference_distance",
+      "context_eligibility",
+      "neighbor_distance",
+      "neighbor_dispersion"
+    ],
+    "sampling_seeds": [
+      11,
+      29,
+      47
+    ],
+    "stability_seeds": [
+      20261018,
+      20261019
+    ],
+    "threads": 1,
+    "training_seed": 20261017,
+    "transport": "Strict default; explicit same-context mode requires identical assay/source/units/genes/context contract and training-only reference support",
+    "version": "opal-model-series-v2",
+    "workers": 1
+  },
+  "authorization": "Owner explicitly replied: Allow 2 GB, spill to C:",
+  "old_artifacts_readonly": true,
+  "original_freeze_sha256": "584900709f2068639b1d22c5d900eb2ec96db32bb6b79528ef5611c6b0a0e27e",
+  "scientific_configuration_unchanged": true
+}
