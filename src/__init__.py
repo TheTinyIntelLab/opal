@@ -5,6 +5,9 @@ def load_model(path):
     from pathlib import Path
     from .artifacts import read_json
     path = Path(path)
+    if (path / 'model.json').exists() and (path / 'integrity.json').exists():
+        from .series import OpalBase
+        return OpalBase.load(path)
     schema = read_json(path / 'manifest.json').get('schema')
     if schema == 'opal-dose-reference-v1':
         from .state.models import DoseReference

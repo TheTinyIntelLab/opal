@@ -50,6 +50,20 @@ def reproduce(config):
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Opal population mean combination prediction")
     sub = parser.add_subparsers(dest="command", required=True)
+    for command in ('series-train', 'series-predict', 'series-evaluate'):
+        p = sub.add_parser(command, help='Source-specific Opal model series')
+        p.add_argument('--inputs', required=True, help='Safe NPZ development or query bundle')
+        p.add_argument('--contract', required=True, help='JSON assay/reference and split contract')
+        p.add_argument('--output', required=True)
+        if command == 'series-train':
+            p.add_argument('--model', choices=['Opal-Base', 'Opal-Interaction', 'Opal-Guard'], required=True)
+            p.add_argument('--config', required=True)
+            p.add_argument('--menu', required=True)
+        elif command == 'series-predict':
+            p.add_argument('--checkpoint', required=True)
+        else:
+            p.add_argument('--freeze', required=True)
+            p.add_argument('--outcomes', required=True, help='Evaluator-only NPZ responses')
     p = sub.add_parser("reproduce")
     p.add_argument("--config", default="configs/experiments/synthetic.json")
     p.add_argument("--output")
@@ -99,6 +113,10 @@ def main(argv=None):
     route.add_argument("--control", action="store_true")
     p.add_argument("--output", required=True)
     args = parser.parse_args(argv)
+    if args.command.startswith('series-'):
+        from opal.series import series_cli
+        print(json.dumps(series_cli(args), allow_nan=False))
+        return
     if args.command == "state-predict":
         from opal.state import StatePredictor
         baseline = load_npz(args.baseline)
@@ -202,3 +220,7 @@ def main(argv=None):
         from opal.report import render_report
         result = render_report(Path(args.results))
     print(json.dumps(result, indent=2, allow_nan=False))
+
+
+if __name__ == '__main__':
+    main()
