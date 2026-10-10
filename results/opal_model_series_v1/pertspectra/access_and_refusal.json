@@ -1,0 +1,60 @@
+{
+  "fixed_utc": "2026-10-10T10:16:06.438961+00:00",
+  "object_url": "https://pert-spectra.s3.amazonaws.com/data/inhouse.h5ad",
+  "object_bytes": 3142132144,
+  "etag": "5f6e072df69ee8383171c46e945a7fde-375",
+  "etag_is_sha256": false,
+  "full_file_downloaded": false,
+  "expression_decoded": false,
+  "prior_exposure": [
+    "selected observation metadata",
+    "adjacent uninterpreted expression bytes in cached ranges",
+    "published performance narratives",
+    "author code and notebook saved outputs inspected"
+  ],
+  "primary_code": [
+    {
+      "url": "https://raw.githubusercontent.com/insitro/PertSpectra/main/utils.py",
+      "bytes": 26268,
+      "sha256": "2b07c8219b087126c6d30b4c9a73c5959e790d5613228dfde46bda4351f75d56"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/insitro/PertSpectra/main/data/inhouse/README.md",
+      "bytes": 179,
+      "sha256": "204d99875e736f6f00ebf1071ec94b10ed2371a186531d82b02f5d4417ba7065"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/insitro/PertSpectra/main/data_preprocessing/inhouse_prior_graph_preprocessing.ipynb",
+      "bytes": 19513,
+      "sha256": "c39511808f021ca7226fdceb601c9f0aa4f45b135328118bd099e9d3077f8a66"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/insitro/PertSpectra/main/PertSpectra_training_scripts/train_PertSpectra_inhouse.py",
+      "bytes": 7056,
+      "sha256": "7f66c3d04a3177c8d245843cfc26c4c5a593c8e2f1697ad1a3756488ef459ef4"
+    }
+  ],
+  "disk_free": {
+    "C:/": 5229596672,
+    "D:/": 2065575936,
+    "E:/": 2218889216,
+    "F:/": 442945536
+  },
+  "memory_available": 16853598208,
+  "transfer_requirement_bytes": 4142132144,
+  "decision": "refuse transfer: no local volume has space for the full 3.14 GB object plus 1 GB processing reserve; no deletion of existing work, no partial expression decoding or unhashable streaming substitute",
+  "dependency": "at least 4.15 GB free on one local volume, then a new source access record and full SHA-256 before expression decoding",
+  "molecular_contract": "Gene-label-conditional averages across deposited guide mixtures; not exact matched-guide causal effects. Author utils maps intergenic/CTRL to ctrl, ctrl+ctrl to ctrl, and gene+ctrl to gene. Exclude self-pairs, nan/ambiguous calls, >2 genes and reference-unsupported strata. SampleIndex and TNF remain separate; source labels are not independent cultures.",
+  "scale": "not verified without full-file expression/layer inspection; counts must be inspected, deposited transformed scale retained otherwise; no inversion to counts",
+  "planned_endpoint": "512 variance-ranked unique reference-only single profiles, lexical ties, separately within each TNF context",
+  "QC": "finite sparse/chunked profiles; at least 10 cells per reference/condition; positive-library count normalization only if raw counts verified; no expression clusters/embeddings/archetypes",
+  "limits": {
+    "transfer_bytes": 3142132144,
+    "rss_bytes": 4000000000,
+    "chunk_rows": 1024,
+    "hours": 2
+  },
+  "unreconciled_paper_filtered_cells": 65648,
+  "deposited_rows": 73015,
+  "scope": "bounded resource refusal, not a scientific finding of source ineligibility; Combi-seq completion proceeds"
+}
