@@ -1,0 +1,241 @@
+{
+  "acquired_pair_stratum_labels": 111,
+  "acquired_unique_pairs": 37,
+  "additional_pair_labels": 0,
+  "cpu_seconds": 0.0625,
+  "kind": "transport",
+  "original_population_sha256": "5e76b1e45c432e022d4b71f4a8fe78caea7d4397b18f43d7097a1c924862b6e8",
+  "outer": 0,
+  "per_stratum": {
+    "1": {
+      "metrics": {
+        "historical-candidate": {
+          "centered_pearson_mean": 0.2273661865186882,
+          "correction_rms": 0.21408428151165265,
+          "mae": 0.24638577835337713,
+          "mse": 0.09689713174532043,
+          "retrieval_mean_rank": 6.8,
+          "retrieval_pool": 15,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": 0.006360521939086349,
+          "skill_no_change": -0.2913554441391779,
+          "skill_reference": -0.3422582026488574,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "historical-reference": {
+          "centered_pearson_mean": 0.22735360200688437,
+          "correction_rms": 0.2137718789878239,
+          "mae": 0.24619660065970536,
+          "mse": 0.0967364495147815,
+          "retrieval_mean_rank": 6.8,
+          "retrieval_pool": 15,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": 0.006204253154105494,
+          "skill_no_change": -0.2892140198323341,
+          "skill_reference": -0.34003236749691834,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "training-mean": {
+          "centered_pearson_mean": 0.16097954081140506,
+          "correction_rms": 0.027863687908308597,
+          "mae": 0.21255024511180534,
+          "mse": 0.07367420051285127,
+          "retrieval_mean_rank": 8.0,
+          "retrieval_pool": 15,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.0036110545613763853,
+          "skill_no_change": 0.018138326581926045,
+          "skill_reference": -0.020564780203074173,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        }
+      },
+      "rows": 15
+    }
+  },
+  "query_stratum": "1",
+  "selected": {
+    "candidate": {
+      "alpha": 0.1,
+      "bandwidth": 1.0,
+      "id": "global_plus_pair-0.1",
+      "kind": "global_plus_pair",
+      "role": "candidate"
+    },
+    "comparisons": [
+      {
+        "config": {
+          "alpha": 1,
+          "id": "additive",
+          "kind": "additive",
+          "role": "reference"
+        },
+        "validation_mse": 0.09287020254353087
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "shared_offset-0.1",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "validation_mse": 0.09158471409914185
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-1.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "validation_mse": 0.09158471409914185
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-10.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "validation_mse": 0.09158471409914185
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "global-0.1",
+          "kind": "global",
+          "role": "reference"
+        },
+        "validation_mse": 0.0830348191518625
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "global-1.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "validation_mse": 0.08936147541071737
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "global-10.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "validation_mse": 0.09131772079906292
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "single_sum-0.1",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "validation_mse": 0.08707424805342508
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-1.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "validation_mse": 0.09094715517307418
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-10.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "validation_mse": 0.09151817610520405
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "component_additive-0.1",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "validation_mse": 0.08987870886549584
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-1.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "validation_mse": 0.09032718617176233
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-10.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "validation_mse": 0.09141541005385102
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "global_plus_pair-0.1",
+          "kind": "global_plus_pair",
+          "role": "candidate"
+        },
+        "validation_mse": 0.0824970015326137
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "global_plus_pair-1.0",
+          "kind": "global_plus_pair",
+          "role": "candidate"
+        },
+        "validation_mse": 0.08900979287484082
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "global_plus_pair-10.0",
+          "kind": "global_plus_pair",
+          "role": "candidate"
+        },
+        "validation_mse": 0.091267053492224
+      }
+    ],
+    "final_refit": "train plus validation, all development cultures",
+    "reference": {
+      "alpha": 0.1,
+      "bandwidth": 1.0,
+      "id": "global-0.1",
+      "kind": "global",
+      "role": "reference"
+    },
+    "search_count": 16,
+    "tie_breaker": "MSE then lexical configuration ID"
+  },
+  "source": "TNFA-negative",
+  "wall_seconds": 0.07435089999989941
+}

@@ -1,0 +1,241 @@
+{
+  "acquired_pair_stratum_labels": 498,
+  "acquired_unique_pairs": 249,
+  "additional_pair_labels": 0,
+  "cpu_seconds": 0.765625,
+  "kind": "transport",
+  "original_population_sha256": "b327b416cea9d3b2196bf9bb7e75fcf88eec0b15788b8605432b83cc71dc042c",
+  "outer": 1,
+  "per_stratum": {
+    "rep2": {
+      "metrics": {
+        "historical-candidate": {
+          "centered_pearson_mean": 0.5975855460155016,
+          "correction_rms": 4.739383749417379,
+          "mae": 2.8038463561718223,
+          "mse": 11.961838789355548,
+          "retrieval_mean_rank": 49.752,
+          "retrieval_pool": 125,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.009401712154776195,
+          "skill_no_change": -0.9247871828373797,
+          "skill_reference": -0.8768793305031992,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "historical-reference": {
+          "centered_pearson_mean": 0.5957236687068884,
+          "correction_rms": 4.746545222528075,
+          "mae": 2.8126281097951704,
+          "mse": 12.049964852887147,
+          "retrieval_mean_rank": 49.808,
+          "retrieval_pool": 125,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.004307062951265396,
+          "skill_no_change": -0.9389676044720932,
+          "skill_reference": -0.8907068021849154,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "training-mean": {
+          "centered_pearson_mean": -0.2743458291118463,
+          "correction_rms": 0.18401128229170968,
+          "mae": 2.1542572412754017,
+          "mse": 6.408610880811323,
+          "retrieval_mean_rank": 63.0,
+          "retrieval_pool": 125,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": 0.009289181771555277,
+          "skill_no_change": -0.031213703879248822,
+          "skill_reference": -0.005546848711601715,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        }
+      },
+      "rows": 125
+    }
+  },
+  "query_stratum": "rep2",
+  "selected": {
+    "candidate": {
+      "alpha": 0.1,
+      "bandwidth": 1.0,
+      "id": "global_plus_pair-0.1",
+      "kind": "global_plus_pair",
+      "role": "candidate"
+    },
+    "comparisons": [
+      {
+        "config": {
+          "alpha": 1,
+          "id": "additive",
+          "kind": "additive",
+          "role": "reference"
+        },
+        "validation_mse": 8.701465984269374
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "shared_offset-0.1",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "validation_mse": 7.274560431392543
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-1.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "validation_mse": 7.274560431392543
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-10.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "validation_mse": 7.274560431392543
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "global-0.1",
+          "kind": "global",
+          "role": "reference"
+        },
+        "validation_mse": 5.341263744813055
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "global-1.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "validation_mse": 6.397885670485302
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "global-10.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "validation_mse": 7.120323347330107
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "single_sum-0.1",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "validation_mse": 6.022742149220407
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-1.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "validation_mse": 6.992584486758936
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-10.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "validation_mse": 7.242231363987299
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "component_additive-0.1",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "validation_mse": 6.217702171035486
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-1.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "validation_mse": 7.087915043631588
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-10.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "validation_mse": 7.2543728265480505
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "global_plus_pair-0.1",
+          "kind": "global_plus_pair",
+          "role": "candidate"
+        },
+        "validation_mse": 5.1584840232272295
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "global_plus_pair-1.0",
+          "kind": "global_plus_pair",
+          "role": "candidate"
+        },
+        "validation_mse": 6.317965116878664
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "global_plus_pair-10.0",
+          "kind": "global_plus_pair",
+          "role": "candidate"
+        },
+        "validation_mse": 7.096526470507717
+      }
+    ],
+    "final_refit": "train plus validation, all development cultures",
+    "reference": {
+      "alpha": 0.1,
+      "bandwidth": 1.0,
+      "id": "global-0.1",
+      "kind": "global",
+      "role": "reference"
+    },
+    "search_count": 16,
+    "tie_breaker": "MSE then lexical configuration ID"
+  },
+  "source": "combi-seq",
+  "wall_seconds": 0.7705252999999175
+}

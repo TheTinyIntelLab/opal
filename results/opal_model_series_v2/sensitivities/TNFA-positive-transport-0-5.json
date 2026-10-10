@@ -1,0 +1,111 @@
+{
+  "acquired_pair_stratum_labels": 213,
+  "acquired_unique_pairs": 71,
+  "checkpoint": {
+    "derived_variants": "Base and Interaction extracted from saved fitted Guard state, without refitting",
+    "model_sha256": "c1031890662741e4101da14523dbb1e1a7b23ee1fdc0dc6ff0c18000deeedabb",
+    "parameters_sha256": "30280c5b24648dd5bd2d974bb6049c4dac03b69ccb64b47ddf396eb587bf932c",
+    "path": "D:\\opal-model-series-20261010-v2-continuation\\sensitivity-weights\\TNFA-positive-transport-0-5\\checkpoint"
+  },
+  "cpu_seconds": 8.0625,
+  "global_pair_exclusion": true,
+  "held_unique_pairs": 37,
+  "kind": "transport",
+  "outer": 0,
+  "outer_rows": 37,
+  "per_stratum": {
+    "5": {
+      "metrics": {
+        "Opal-Base": {
+          "centered_pearson_mean": 0.5649064567490848,
+          "correction_rms": 0.0,
+          "mae": 0.2174987726284199,
+          "mse": 0.07665247452336567,
+          "retrieval_mean_rank": 12.513513513513514,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": 0.0,
+          "skill_no_change": 0.4291310561551245,
+          "skill_reference": -2.220446049250313e-16,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Guard": {
+          "centered_pearson_mean": 0.5654358524170227,
+          "correction_rms": 0.016489659736846934,
+          "mae": 0.21674980223183132,
+          "mse": 0.07620602738762094,
+          "retrieval_mean_rank": 12.27027027027027,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.0017210196688803422,
+          "skill_no_change": 0.4324559691008568,
+          "skill_reference": 0.005824301674809185,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Interaction": {
+          "centered_pearson_mean": 0.5654358524170227,
+          "correction_rms": 0.016489659736846934,
+          "mae": 0.21674980223183132,
+          "mse": 0.07620602738762094,
+          "retrieval_mean_rank": 12.27027027027027,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.0017210196688803422,
+          "skill_no_change": 0.4324559691008568,
+          "skill_reference": 0.005824301674809185,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "additivity": {
+          "centered_pearson_mean": 0.48991313387696567,
+          "correction_rms": 0.19505560271782052,
+          "mae": 0.24640052951888633,
+          "mse": 0.09805778491706241,
+          "retrieval_mean_rank": 10.18918918918919,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": 0.023996560694757103,
+          "skill_no_change": 0.2697151075754536,
+          "skill_reference": -0.27925139438482005,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "no-change": {
+          "centered_pearson_mean": null,
+          "correction_rms": 0.23281384822236026,
+          "mae": 0.27997856313886715,
+          "mse": 0.13427333077028397,
+          "retrieval_mean_rank": 19.0,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": 0.07737223321880038,
+          "skill_no_change": 4.440892098500626e-16,
+          "skill_reference": -0.7517155395857964,
+          "undefined_pearson_rows": 37,
+          "undefined_reason": "Zero centered profile norm"
+        }
+      },
+      "rows": 37
+    }
+  },
+  "query_stratum": "5",
+  "source": "TNFA-positive",
+  "support": {
+    "Opal-Base": {
+      "replay_max_abs": 0.0,
+      "unsupported_fraction": 0.13513513513513514
+    },
+    "Opal-Guard": {
+      "replay_max_abs": 0.0,
+      "unsupported_fraction": 0.13513513513513514
+    },
+    "Opal-Interaction": {
+      "replay_max_abs": 0.0,
+      "unsupported_fraction": 0.13513513513513514
+    }
+  },
+  "unavailable": {},
+  "wall_seconds": 8.105907399993157
+}

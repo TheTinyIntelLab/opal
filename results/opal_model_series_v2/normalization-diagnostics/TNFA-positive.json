@@ -1,0 +1,731 @@
+{
+  "cpu_seconds": 2.46875,
+  "normalization_order": [
+    {
+      "endpoint_difference_rms": 0.11681235307675548,
+      "extra_outcomes": "all held pair cells, evaluator-only",
+      "frozen_prediction_altered_endpoint_metrics": {
+        "Opal-Base": {
+          "centered_pearson_mean": 0.5617525767645154,
+          "correction_rms": 0.24510891365894868,
+          "mae": 0.19530034180613223,
+          "mse": 0.06304442431327252,
+          "retrieval_mean_rank": 10.91891891891892,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.081520766758694,
+          "skill_no_change": 0.3649326613702285,
+          "skill_reference": 0.3649326613702285,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Guard": {
+          "centered_pearson_mean": 0.5546426428902124,
+          "correction_rms": 0.2546276473436059,
+          "mae": 0.1980813646030824,
+          "mse": 0.06458594953672345,
+          "retrieval_mean_rank": 10.0,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07950760142828672,
+          "skill_no_change": 0.34940436792078633,
+          "skill_reference": 0.34940436792078633,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Interaction": {
+          "centered_pearson_mean": 0.5607004648871992,
+          "correction_rms": 0.23983652401046443,
+          "mae": 0.19455513844223232,
+          "mse": 0.06259940170879966,
+          "retrieval_mean_rank": 10.91891891891892,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07877015245629376,
+          "skill_no_change": 0.369415521260396,
+          "skill_reference": 0.369415521260396,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        }
+      },
+      "held_rows": 37,
+      "outer": 0,
+      "primary_preparation_max_abs": 3.552713678800501e-15,
+      "primary_scores_replaced": false,
+      "stratum": "3"
+    },
+    {
+      "endpoint_difference_rms": 0.1168908627380305,
+      "extra_outcomes": "all held pair cells, evaluator-only",
+      "frozen_prediction_altered_endpoint_metrics": {
+        "Opal-Base": {
+          "centered_pearson_mean": 0.5776236418839952,
+          "correction_rms": 0.2630500189186427,
+          "mae": 0.18973046577950325,
+          "mse": 0.059726281967674245,
+          "retrieval_mean_rank": 9.657142857142857,
+          "retrieval_pool": 35,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.0807597448100288,
+          "skill_no_change": 0.4261670879432542,
+          "skill_reference": 0.4261670879432542,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Guard": {
+          "centered_pearson_mean": 0.5699356795293699,
+          "correction_rms": 0.2686198718877744,
+          "mae": 0.1919168350721553,
+          "mse": 0.06087056669973002,
+          "retrieval_mean_rank": 9.285714285714286,
+          "retrieval_pool": 35,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.08008158359827515,
+          "skill_no_change": 0.4151731298667575,
+          "skill_reference": 0.4151731298667575,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Interaction": {
+          "centered_pearson_mean": 0.5781302877710228,
+          "correction_rms": 0.26316071305921784,
+          "mae": 0.18952365981516772,
+          "mse": 0.05956997432592237,
+          "retrieval_mean_rank": 9.6,
+          "retrieval_pool": 35,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.08066601321615742,
+          "skill_no_change": 0.42766884673834793,
+          "skill_reference": 0.42766884673834793,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        }
+      },
+      "held_rows": 35,
+      "outer": 1,
+      "primary_preparation_max_abs": 3.9968028886505635e-15,
+      "primary_scores_replaced": false,
+      "stratum": "3"
+    },
+    {
+      "endpoint_difference_rms": 0.11593935219955144,
+      "extra_outcomes": "all held pair cells, evaluator-only",
+      "frozen_prediction_altered_endpoint_metrics": {
+        "Opal-Base": {
+          "centered_pearson_mean": 0.5322226778260126,
+          "correction_rms": 0.23989362165598155,
+          "mae": 0.1900969183520314,
+          "mse": 0.061105322245600675,
+          "retrieval_mean_rank": 11.166666666666666,
+          "retrieval_pool": 36,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07200434349763601,
+          "skill_no_change": 0.3872692343471055,
+          "skill_reference": 0.3872692343471055,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Guard": {
+          "centered_pearson_mean": 0.5271489588698759,
+          "correction_rms": 0.24722762201518092,
+          "mae": 0.19214498973199998,
+          "mse": 0.06201840597940738,
+          "retrieval_mean_rank": 10.36111111111111,
+          "retrieval_pool": 36,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07148693161202324,
+          "skill_no_change": 0.37811332984058976,
+          "skill_reference": 0.37811332984058976,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Interaction": {
+          "centered_pearson_mean": 0.5322226778260126,
+          "correction_rms": 0.23989362165598155,
+          "mae": 0.1900969183520314,
+          "mse": 0.061105322245600675,
+          "retrieval_mean_rank": 11.166666666666666,
+          "retrieval_pool": 36,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07200434349763601,
+          "skill_no_change": 0.3872692343471055,
+          "skill_reference": 0.3872692343471055,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        }
+      },
+      "held_rows": 36,
+      "outer": 2,
+      "primary_preparation_max_abs": 3.552713678800501e-15,
+      "primary_scores_replaced": false,
+      "stratum": "3"
+    },
+    {
+      "endpoint_difference_rms": 0.11257676670589317,
+      "extra_outcomes": "all held pair cells, evaluator-only",
+      "frozen_prediction_altered_endpoint_metrics": {
+        "Opal-Base": {
+          "centered_pearson_mean": 0.5858674396453181,
+          "correction_rms": 0.25746885307094264,
+          "mae": 0.18890920551925766,
+          "mse": 0.05932487679276084,
+          "retrieval_mean_rank": 10.972972972972974,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07457701431147777,
+          "skill_no_change": 0.40410527923130146,
+          "skill_reference": 0.40410527923130146,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Guard": {
+          "centered_pearson_mean": 0.580337420355888,
+          "correction_rms": 0.2623210810907993,
+          "mae": 0.19105500756904986,
+          "mse": 0.06029865543423947,
+          "retrieval_mean_rank": 10.18918918918919,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07234828104733954,
+          "skill_no_change": 0.3943240612494845,
+          "skill_reference": 0.3943240612494845,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Interaction": {
+          "centered_pearson_mean": 0.5857580355211385,
+          "correction_rms": 0.2568679291738084,
+          "mae": 0.18865324497186675,
+          "mse": 0.05911860002778713,
+          "retrieval_mean_rank": 10.945945945945946,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07410499023718145,
+          "skill_no_change": 0.4061772470449806,
+          "skill_reference": 0.4061772470449806,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        }
+      },
+      "held_rows": 37,
+      "outer": 0,
+      "primary_preparation_max_abs": 3.1086244689504383e-15,
+      "primary_scores_replaced": false,
+      "stratum": "5"
+    },
+    {
+      "endpoint_difference_rms": 0.10991588037956894,
+      "extra_outcomes": "all held pair cells, evaluator-only",
+      "frozen_prediction_altered_endpoint_metrics": {
+        "Opal-Base": {
+          "centered_pearson_mean": 0.5938981694158206,
+          "correction_rms": 0.26265294458517474,
+          "mae": 0.1848007296543831,
+          "mse": 0.05675022018719947,
+          "retrieval_mean_rank": 9.17142857142857,
+          "retrieval_pool": 35,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.08292890980071359,
+          "skill_no_change": 0.45407258218406843,
+          "skill_reference": 0.45407258218406843,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Guard": {
+          "centered_pearson_mean": 0.59360128467066,
+          "correction_rms": 0.269769141951162,
+          "mae": 0.1862103787592151,
+          "mse": 0.0572176328480039,
+          "retrieval_mean_rank": 8.628571428571428,
+          "retrieval_pool": 35,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.08407674063304836,
+          "skill_no_change": 0.44957615228255077,
+          "skill_reference": 0.44957615228255077,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Interaction": {
+          "centered_pearson_mean": 0.5945332485042621,
+          "correction_rms": 0.2627731432979482,
+          "mae": 0.18456838024147879,
+          "mse": 0.05653476994808982,
+          "retrieval_mean_rank": 9.142857142857142,
+          "retrieval_pool": 35,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.08306036819544745,
+          "skill_no_change": 0.45614517665712895,
+          "skill_reference": 0.45614517665712895,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        }
+      },
+      "held_rows": 35,
+      "outer": 1,
+      "primary_preparation_max_abs": 3.1086244689504383e-15,
+      "primary_scores_replaced": false,
+      "stratum": "5"
+    },
+    {
+      "endpoint_difference_rms": 0.10788341241938423,
+      "extra_outcomes": "all held pair cells, evaluator-only",
+      "frozen_prediction_altered_endpoint_metrics": {
+        "Opal-Base": {
+          "centered_pearson_mean": 0.5667941038331529,
+          "correction_rms": 0.23668532650948493,
+          "mae": 0.17999315897875018,
+          "mse": 0.054120673268326404,
+          "retrieval_mean_rank": 10.333333333333334,
+          "retrieval_pool": 36,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07145882799816625,
+          "skill_no_change": 0.43932896479798456,
+          "skill_reference": 0.43932896479798456,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Guard": {
+          "centered_pearson_mean": 0.5640530150441347,
+          "correction_rms": 0.24635377544052448,
+          "mae": 0.18098345841785352,
+          "mse": 0.05453723774540177,
+          "retrieval_mean_rank": 9.194444444444445,
+          "retrieval_pool": 36,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07163212417621555,
+          "skill_no_change": 0.4350135041341403,
+          "skill_reference": 0.4350135041341403,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Interaction": {
+          "centered_pearson_mean": 0.5667941038331529,
+          "correction_rms": 0.23668532650948493,
+          "mae": 0.17999315897875018,
+          "mse": 0.054120673268326404,
+          "retrieval_mean_rank": 10.333333333333334,
+          "retrieval_pool": 36,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07145882799816625,
+          "skill_no_change": 0.43932896479798456,
+          "skill_reference": 0.43932896479798456,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        }
+      },
+      "held_rows": 36,
+      "outer": 2,
+      "primary_preparation_max_abs": 3.552713678800501e-15,
+      "primary_scores_replaced": false,
+      "stratum": "5"
+    },
+    {
+      "endpoint_difference_rms": 0.11759943630943237,
+      "extra_outcomes": "all held pair cells, evaluator-only",
+      "frozen_prediction_altered_endpoint_metrics": {
+        "Opal-Base": {
+          "centered_pearson_mean": 0.5644776415542468,
+          "correction_rms": 0.254231393100954,
+          "mae": 0.19897095748848181,
+          "mse": 0.06535007859453087,
+          "retrieval_mean_rank": 11.0,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.08060715181021165,
+          "skill_no_change": 0.38003501061918554,
+          "skill_reference": 0.38003501061918554,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Guard": {
+          "centered_pearson_mean": 0.5552249385567158,
+          "correction_rms": 0.2600661815535283,
+          "mae": 0.20187759028824773,
+          "mse": 0.0668749437870821,
+          "retrieval_mean_rank": 10.27027027027027,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.08073320928499306,
+          "skill_no_change": 0.36556887602166255,
+          "skill_reference": 0.36556887602166255,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Interaction": {
+          "centered_pearson_mean": 0.5640729518531066,
+          "correction_rms": 0.25394353388391105,
+          "mae": 0.19889204288443904,
+          "mse": 0.06530359070349222,
+          "retrieval_mean_rank": 10.81081081081081,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.08107402750933397,
+          "skill_no_change": 0.3804760332697158,
+          "skill_reference": 0.3804760332697158,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        }
+      },
+      "held_rows": 37,
+      "outer": 0,
+      "primary_preparation_max_abs": 3.1086244689504383e-15,
+      "primary_scores_replaced": false,
+      "stratum": "6"
+    },
+    {
+      "endpoint_difference_rms": 0.11419623067788527,
+      "extra_outcomes": "all held pair cells, evaluator-only",
+      "frozen_prediction_altered_endpoint_metrics": {
+        "Opal-Base": {
+          "centered_pearson_mean": 0.5738433537686196,
+          "correction_rms": 0.25728648699197615,
+          "mae": 0.19037665750829694,
+          "mse": 0.06014843238739371,
+          "retrieval_mean_rank": 9.685714285714285,
+          "retrieval_pool": 35,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.08552422368776476,
+          "skill_no_change": 0.41822227661771205,
+          "skill_reference": 0.41822227661771205,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Guard": {
+          "centered_pearson_mean": 0.570265033498041,
+          "correction_rms": 0.26289123706495265,
+          "mae": 0.19177535011731536,
+          "mse": 0.06071695215316589,
+          "retrieval_mean_rank": 9.028571428571428,
+          "retrieval_pool": 35,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.08612739940190217,
+          "skill_no_change": 0.41272334469379235,
+          "skill_reference": 0.41272334469379235,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Interaction": {
+          "centered_pearson_mean": 0.5737171687523723,
+          "correction_rms": 0.2572659554022002,
+          "mae": 0.19020355230464234,
+          "mse": 0.06000417478298759,
+          "retrieval_mean_rank": 9.6,
+          "retrieval_pool": 35,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.08534839811121372,
+          "skill_no_change": 0.41961758913610725,
+          "skill_reference": 0.41961758913610725,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        }
+      },
+      "held_rows": 35,
+      "outer": 1,
+      "primary_preparation_max_abs": 3.1086244689504383e-15,
+      "primary_scores_replaced": false,
+      "stratum": "6"
+    },
+    {
+      "endpoint_difference_rms": 0.11392677004098938,
+      "extra_outcomes": "all held pair cells, evaluator-only",
+      "frozen_prediction_altered_endpoint_metrics": {
+        "Opal-Base": {
+          "centered_pearson_mean": 0.5387282270692345,
+          "correction_rms": 0.23547430021940427,
+          "mae": 0.19102727542076375,
+          "mse": 0.06034769511684127,
+          "retrieval_mean_rank": 10.333333333333334,
+          "retrieval_pool": 36,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07136220632290413,
+          "skill_no_change": 0.39982332617801997,
+          "skill_reference": 0.39982332617801997,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Guard": {
+          "centered_pearson_mean": 0.5362620049015621,
+          "correction_rms": 0.24131195472753408,
+          "mae": 0.19224279872896155,
+          "mse": 0.060842545507725006,
+          "retrieval_mean_rank": 9.694444444444445,
+          "retrieval_pool": 36,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07139709190882056,
+          "skill_no_change": 0.3949018845046458,
+          "skill_reference": 0.3949018845046458,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Interaction": {
+          "centered_pearson_mean": 0.5387282270692345,
+          "correction_rms": 0.23547430021940427,
+          "mae": 0.19102727542076375,
+          "mse": 0.06034769511684127,
+          "retrieval_mean_rank": 10.333333333333334,
+          "retrieval_pool": 36,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07136220632290413,
+          "skill_no_change": 0.39982332617801997,
+          "skill_reference": 0.39982332617801997,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        }
+      },
+      "held_rows": 36,
+      "outer": 2,
+      "primary_preparation_max_abs": 3.1086244689504383e-15,
+      "primary_scores_replaced": false,
+      "stratum": "6"
+    },
+    {
+      "endpoint_difference_rms": 0.11460771015681898,
+      "extra_outcomes": "all held pair cells, evaluator-only",
+      "frozen_prediction_altered_endpoint_metrics": {
+        "Opal-Base": {
+          "centered_pearson_mean": 0.5714843195520038,
+          "correction_rms": 0.2383078324121655,
+          "mae": 0.191721779986903,
+          "mse": 0.0609714226214632,
+          "retrieval_mean_rank": 11.945945945945946,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.0680787278503617,
+          "skill_no_change": 0.37959536482305367,
+          "skill_reference": 0.37959536482305367,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Guard": {
+          "centered_pearson_mean": 0.5657566851335145,
+          "correction_rms": 0.24496724909624112,
+          "mae": 0.19399926190438646,
+          "mse": 0.061994816806001676,
+          "retrieval_mean_rank": 11.35135135135135,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.0674482360868823,
+          "skill_no_change": 0.36918198641719535,
+          "skill_reference": 0.36918198641719535,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Interaction": {
+          "centered_pearson_mean": 0.5714843195520038,
+          "correction_rms": 0.2383078324121655,
+          "mae": 0.191721779986903,
+          "mse": 0.0609714226214632,
+          "retrieval_mean_rank": 11.945945945945946,
+          "retrieval_pool": 37,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.0680787278503617,
+          "skill_no_change": 0.37959536482305367,
+          "skill_reference": 0.37959536482305367,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        }
+      },
+      "held_rows": 37,
+      "outer": 0,
+      "primary_preparation_max_abs": 3.552713678800501e-15,
+      "primary_scores_replaced": false,
+      "stratum": "7"
+    },
+    {
+      "endpoint_difference_rms": 0.11035545121201512,
+      "extra_outcomes": "all held pair cells, evaluator-only",
+      "frozen_prediction_altered_endpoint_metrics": {
+        "Opal-Base": {
+          "centered_pearson_mean": 0.6041274830503742,
+          "correction_rms": 0.2522254469171526,
+          "mae": 0.1796674720394777,
+          "mse": 0.05332952370682188,
+          "retrieval_mean_rank": 8.8,
+          "retrieval_pool": 35,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07063901737127148,
+          "skill_no_change": 0.439834346658892,
+          "skill_reference": 0.439834346658892,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Guard": {
+          "centered_pearson_mean": 0.5977060918838901,
+          "correction_rms": 0.2578311849011973,
+          "mae": 0.18202169162363435,
+          "mse": 0.05431662366392139,
+          "retrieval_mean_rank": 8.285714285714286,
+          "retrieval_pool": 35,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07049750583760908,
+          "skill_no_change": 0.4294659905599064,
+          "skill_reference": 0.4294659905599064,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Interaction": {
+          "centered_pearson_mean": 0.6041274830503742,
+          "correction_rms": 0.2522254469171526,
+          "mae": 0.1796674720394777,
+          "mse": 0.05332952370682188,
+          "retrieval_mean_rank": 8.8,
+          "retrieval_pool": 35,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.07063901737127148,
+          "skill_no_change": 0.439834346658892,
+          "skill_reference": 0.439834346658892,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        }
+      },
+      "held_rows": 35,
+      "outer": 1,
+      "primary_preparation_max_abs": 3.552713678800501e-15,
+      "primary_scores_replaced": false,
+      "stratum": "7"
+    },
+    {
+      "endpoint_difference_rms": 0.11477979923158649,
+      "extra_outcomes": "all held pair cells, evaluator-only",
+      "frozen_prediction_altered_endpoint_metrics": {
+        "Opal-Base": {
+          "centered_pearson_mean": 0.5199936103201179,
+          "correction_rms": 0.23108705740539268,
+          "mae": 0.19354115705046265,
+          "mse": 0.06256921654214762,
+          "retrieval_mean_rank": 11.416666666666666,
+          "retrieval_pool": 36,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.061172545423298086,
+          "skill_no_change": 0.3471020681975442,
+          "skill_reference": 0.3471020681975442,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Guard": {
+          "centered_pearson_mean": 0.5170535642721864,
+          "correction_rms": 0.23765919477089475,
+          "mae": 0.19493167085131732,
+          "mse": 0.06325202946864772,
+          "retrieval_mean_rank": 10.777777777777779,
+          "retrieval_pool": 36,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.06111725801741479,
+          "skill_no_change": 0.3399770445492203,
+          "skill_reference": 0.3399770445492203,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        },
+        "Opal-Interaction": {
+          "centered_pearson_mean": 0.5199936103201179,
+          "correction_rms": 0.23108705740539268,
+          "mae": 0.19354115705046265,
+          "mse": 0.06256921654214762,
+          "retrieval_mean_rank": 11.416666666666666,
+          "retrieval_pool": 36,
+          "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+          "signed_correction_mean": -0.061172545423298086,
+          "skill_no_change": 0.3471020681975442,
+          "skill_reference": 0.3471020681975442,
+          "undefined_pearson_rows": 0,
+          "undefined_reason": null
+        }
+      },
+      "held_rows": 36,
+      "outer": 2,
+      "primary_preparation_max_abs": 3.552713678800501e-15,
+      "primary_scores_replaced": false,
+      "stratum": "7"
+    }
+  ],
+  "raw_source_sha256": "7b72d474be90d3e236e9b4d7dce3fdf9806e5329f84f3eaa973ec605f52ebd12",
+  "shared_single_half_controls": [
+    {
+      "excluded": [],
+      "independent_cultures": false,
+      "pairs": 108,
+      "residual_half_reproducibility": {
+        "centered_pearson_mean": 0.043615263992013334,
+        "correction_rms": 0.45761939501146703,
+        "mae": 0.4958423797430015,
+        "mse": 0.3990731689460453,
+        "retrieval_mean_rank": 47.98148148148148,
+        "retrieval_pool": 108,
+        "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+        "signed_correction_mean": -0.05356365290735456,
+        "skill_no_change": -0.882436657259513,
+        "skill_reference": -0.882436657259513,
+        "undefined_pearson_rows": 0,
+        "undefined_reason": null
+      },
+      "single_control_draw_reuse": true,
+      "stratum": "3"
+    },
+    {
+      "excluded": [],
+      "independent_cultures": false,
+      "pairs": 108,
+      "residual_half_reproducibility": {
+        "centered_pearson_mean": 0.02507067767159509,
+        "correction_rms": 0.435987933980641,
+        "mae": 0.4797468718539655,
+        "mse": 0.37225751626940107,
+        "retrieval_mean_rank": 51.80555555555556,
+        "retrieval_pool": 108,
+        "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+        "signed_correction_mean": -0.04403935986946295,
+        "skill_no_change": -0.9226968774916937,
+        "skill_reference": -0.9226968774916937,
+        "undefined_pearson_rows": 0,
+        "undefined_reason": null
+      },
+      "single_control_draw_reuse": true,
+      "stratum": "5"
+    },
+    {
+      "excluded": [],
+      "independent_cultures": false,
+      "pairs": 108,
+      "residual_half_reproducibility": {
+        "centered_pearson_mean": 0.041389233589037795,
+        "correction_rms": 0.4519524799422231,
+        "mae": 0.4943578406831858,
+        "mse": 0.3937241636526154,
+        "retrieval_mean_rank": 47.99074074074074,
+        "retrieval_pool": 108,
+        "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+        "signed_correction_mean": -0.04093138744888885,
+        "skill_no_change": -0.885512382004819,
+        "skill_reference": -0.885512382004819,
+        "undefined_pearson_rows": 0,
+        "undefined_reason": null
+      },
+      "single_control_draw_reuse": true,
+      "stratum": "6"
+    },
+    {
+      "excluded": [
+        "[\"TAB2\",\"TRAF6\"]"
+      ],
+      "independent_cultures": false,
+      "pairs": 107,
+      "residual_half_reproducibility": {
+        "centered_pearson_mean": 0.031754393648702854,
+        "correction_rms": 0.44951727431329513,
+        "mae": 0.4893208222293049,
+        "mse": 0.38751378583469626,
+        "retrieval_mean_rank": 48.981308411214954,
+        "retrieval_pool": 107,
+        "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+        "signed_correction_mean": -0.053583368545005436,
+        "skill_no_change": -0.9116451564591548,
+        "skill_reference": -0.9116451564591548,
+        "undefined_pearson_rows": 0,
+        "undefined_reason": null
+      },
+      "single_control_draw_reuse": true,
+      "stratum": "7"
+    }
+  ],
+  "wall_seconds": 2.6746585999999297
+}
