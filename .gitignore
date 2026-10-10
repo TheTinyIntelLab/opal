@@ -126,4 +126,8 @@ results/recheck-*/**/exports-*/
 # Replicated-study response banks and custodian storage remain local.
 /PLAN.md
 results/replicated_fixed_state_v1/**/*.npz
+results/opal_model_series_v1/**/*.npz
+results/opal_model_series_v1/**/checkpoint/
+results/opal_model_series_v1/**/*.whl
+results/opal_model_series_v1/**/*.log
 data/source_audits/replicated_fixed_state_v1/source_snapshots/
