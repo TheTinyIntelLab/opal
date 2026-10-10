@@ -1,0 +1,130 @@
+{
+  "role": "sample_level_metadata_qualification_reviews",
+  "source_count": 8,
+  "decisions": [
+    {
+      "accession": "GSE2350",
+      "sample_records": 387,
+      "primary_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE2350",
+      "design": "One BCR/CD40 pair; GSM44051 through GSM44074 contain 24 arrays, four arms, two named Ramos(pinco) clones and three sample records per arm per clone.",
+      "limitations": "Six nominal arrays per arm pool two clone states. Primary CD40 paper reports six independent experiments for its CD40 comparison, but does not establish six matched same-clone control/single/joint initiation blocks in this deposited panel. Dose, duration and initiation remain unresolved.",
+      "decision": "not_qualified_for_original_confirmation",
+      "reason": "clone-state mixture and one-pair graph",
+      "expression_accessed": false,
+      "independent_cultures_inferred": false,
+      "source_sha256": {
+        "self": "2d53ec4c7a837e7e9039923124a94ce6d363c4a519230063b7d67bbb31549053",
+        "gsm": "417f51fb1d426bfda1f622507b75f6c8d4dbdcacfdc7c89b7e611c0620d875be"
+      },
+      "primary_paper": "https://ashpublications.org/blood/article/104/13/4088/18960/Tracking-CD40-signaling-during-germinal-center"
+    },
+    {
+      "accession": "GSE21571",
+      "sample_records": 24,
+      "primary_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE21571",
+      "design": "Eight yeast strains, including WT, HTZ1/SWR1/SWC2/SWC5 singles and three HTZ1-centered doubles; three reported independent biological repeats per strain.",
+      "limitations": "GSM538774 through GSM538776 use different SWR1 strain identifiers. Strain equivalence and matched initiation need review under a yeast-specific contract; three repeats do not meet the original six-culture allocation.",
+      "decision": "not_qualified_for_original_confirmation",
+      "reason": "three-repeat yeast star graph",
+      "expression_accessed": false,
+      "independent_cultures_inferred": false,
+      "source_sha256": {
+        "self": "eb61048aebf5e25922381000e0dbf75caa353aeabc0efd6aae7cfa8f656d314b",
+        "gsm": "5933a034df6503803a4decf509506227f3633f30579b57e04859d80767a46292"
+      }
+    },
+    {
+      "accession": "GSE30492",
+      "sample_records": 16,
+      "primary_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30492",
+      "design": "Four Arabidopsis genotypes, four pooled carpel biological repeats each, one SEUSS/AINTEGUMENTA pair.",
+      "limitations": "Each replicate pools 15 to 25 carpels; organ count is not independent RNA replication. Different organism and tissue contract, four repeats and one pair.",
+      "decision": "not_qualified_for_original_confirmation",
+      "reason": "pooled plant tissue and small graph",
+      "expression_accessed": false,
+      "independent_cultures_inferred": false,
+      "source_sha256": {
+        "self": "b46742ec1b117db4556030fe2bedd38f8867c5ada15fc283178b4b65ef4299db",
+        "gsm": "2f5ec2623abde3a20c4ac072d31a5f9098014becdec7ef32196799e283915e7d"
+      }
+    },
+    {
+      "accession": "GSE26599",
+      "sample_records": 60,
+      "primary_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE26599",
+      "design": "One doxorubicin/rapamycin pair across HB4a, C5.2 and SKBR3, five independent experiments per arm per line.",
+      "limitations": "Source repeat labels are 1,2,3,4,6, not six repeats. Series specifies 20/30 nM doses, while sample protocol writes hM and calls combined treatment DRC although titles use DRC for controls and DR for joint. These contradictions need resolution.",
+      "decision": "not_qualified_for_original_confirmation",
+      "reason": "five repeats, different lines and protocol contradictions",
+      "expression_accessed": false,
+      "independent_cultures_inferred": false,
+      "source_sha256": {
+        "self": "9e62fa60c8d58377d40cf8de5f22b1b341951d44b4b8f4b1dd60ab84d49495a4",
+        "gsm": "1ee3f17d6587c133fce786f355b07e01b133d1b9544ba4dacbde433c900dde92"
+      }
+    },
+    {
+      "accession": "GSE35218",
+      "sample_records": 44,
+      "primary_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE35218",
+      "design": "Twenty-two neuro-ectodermal line identities, untreated and sequential DAC/TSA combined treatment.",
+      "limitations": "No constituent single-treatment expression arms in the deposited panel; line identities are not independent same-state cultures.",
+      "decision": "not_qualified_for_original_confirmation",
+      "reason": "missing singles and changing cell states",
+      "expression_accessed": false,
+      "independent_cultures_inferred": false,
+      "source_sha256": {
+        "self": "ef5b32cf58508a544f274ddab8c9d067a37f3d6fefcafd708dd15dcfb153d935",
+        "gsm": "ce26b5a973ec99b4469f2827200e2172b74aac156e9c5bba283e2b093b469bb8"
+      }
+    },
+    {
+      "accession": "GSE35506",
+      "sample_records": 44,
+      "primary_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE35506",
+      "design": "Companion DNA methylation assay with untreated and combined DAC/TSA conditions.",
+      "limitations": "This assay measures methylation rather than the original expression endpoint and does not repair the missing expression singles.",
+      "decision": "not_qualified_for_original_confirmation",
+      "reason": "wrong endpoint",
+      "expression_accessed": false,
+      "independent_cultures_inferred": false,
+      "source_sha256": {
+        "self": "8414a75e10cee525bca383beb91849fd2bf4aadeddeb8069e7ce3a4c11f80300",
+        "gsm": "dde6caf071d05cfda80c0d001fbcfe2a5a8992ac5462aad98f75bb71d0548a9c"
+      }
+    },
+    {
+      "accession": "GSE38132",
+      "sample_records": 36,
+      "primary_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE38132",
+      "design": "ZR-75-1 hormone panel, quadruplicate labels, three estrogen-centered nominal pairs plus an additional E2s/PROG group.",
+      "limitations": "The shared protocol describes E2 and DHT only although titles also describe progesterone/MPA and E2s groups. Four repeats, unknown initiation blocks/vehicle fraction and unresolved extra-group dosing do not qualify the original bank.",
+      "decision": "not_qualified_for_original_confirmation",
+      "reason": "four repeats and incomplete treatment protocol",
+      "expression_accessed": false,
+      "independent_cultures_inferred": false,
+      "source_sha256": {
+        "self": "cca81048ccb1dcecbc089e883bdb4691f3f3c65b544d3d221f3369ae7430d652",
+        "gsm": "18d86423074429b693ec9cb660105a12fbc9fee558ff25f158f8d035cf36bf89"
+      }
+    },
+    {
+      "accession": "GSE34672",
+      "sample_records": 30,
+      "primary_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE34672",
+      "design": "HL60 and TEX ATRA/TCP four-arm panels, three sample records per arm per line; six additional HL60 shRNA records.",
+      "limitations": "ATRA doses differ by line (0.1 versus 1 micromolar), TCP is 10 micromolar and treatment lasts four days. Neither different lines nor shRNA samples create six cultures for the chemical pair.",
+      "decision": "not_qualified_for_original_confirmation",
+      "reason": "three repeats per state and one chemical pair",
+      "expression_accessed": false,
+      "independent_cultures_inferred": false,
+      "source_sha256": {
+        "self": "194f2faf868be4044069a1f77005fb970e4c60ab555d018df25d3e82a03ce9b7",
+        "gsm": "9e822b5bc470e888c87742d3abe997841bb67e680e2ff3a75d27f36b0bbb431e"
+      }
+    }
+  ],
+  "original_confirmation_qualified": false,
+  "new_expression_accessed": false,
+  "boundary": "Published result narratives were encountered; no sample expression tables or matrix bodies were accessed in this follow-up."
+}

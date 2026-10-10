@@ -2,6 +2,8 @@
 
 ## Unreleased, donor diagnostic and continued discovery
 
+Adds a source-hashed discovery coverage tool and pre-2013 search. Its 172 new series bring the inventory union to 1,048 identities; eight sample-level reviews identify clone mixing in the nominal six-array Ramos panel, five experiments despite a repeat label of six, and smaller or incompatible panels. No additional expression outcomes are opened. The preceding remote-metadata implementation passes all four CI jobs.
+
 Adds source-processed single-pair donor diagnostics, complete-arm metadata validation, query-donor exclusion for same-pair residual transfer, bounded GEO brief metadata retrieval and source reviews. GSE78083 retains 18 donors after two pre-expression metadata-conflict exclusions, with exact installed-wheel replay. No original confirmation gate advances, and published v0.1.2 assets remain unchanged.
 
 Extends discovery with bounded custom GEO queries and BioStudies study/SDRF retrieval. An additional 296-series inventory yields 280 new summaries and eight sample-level reviews; the ArrayExpress TBX2/MYCN lead has six reported biological replicates per condition but one canonical pair. SDRF audits distinguish unique sources from technical assay rows and reject conflicting within-source factors. Full local suite: 223 passes; the preceding donor implementation passes all four CI jobs.

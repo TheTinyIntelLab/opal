@@ -18,8 +18,8 @@
     "status": "complete with evidence path",
     "evidence_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\completed_verification.json",
     "acceptance_boundary": "213 full local tests; four Windows/Linux 3.11/3.14 CI environments each pass fresh CPU dependency installation, 106 integrity tests and standalone synthetic assay rehearsal on 53d6e83. Software verification only.",
-    "additional_ci_evidence": "results/replicated_fixed_state_v1/ci-0e1a915/verification.json",
-    "latest_local_tests_passed": 231
+    "additional_ci_evidence": "results/replicated_fixed_state_v1/ci-ae76a96/verification.json",
+    "latest_local_tests_passed": 234
   },
   "D1": {
     "status": "complete with evidence path",
@@ -95,15 +95,17 @@
     "verification_path": "results\\replicated_fixed_state_v1\\public-combi-processing-20261008-v1\\completed_verification.json"
   },
   "public_dataset_search": {
-    "latest_decisions": "results/replicated_fixed_state_v1/pertspectra-obs-metadata-20261010-v3/qualification_decision.json",
-    "latest_metadata_support": "results/replicated_fixed_state_v1/pertspectra-obs-metadata-20261010-v3/verification.json",
+    "latest_decisions": "results/replicated_fixed_state_v1/public-pre2013-followup-20261010-v1/qualification_decisions.json",
+    "latest_metadata_support": "results/replicated_fixed_state_v1/public-pre2013-followup-20261010-v1/verification.json",
     "primary_confirmation_qualified": false,
     "new_expression_access_this_search": false,
-    "boundary": "Author-hosted H5AD observation metadata decoded via bounded ranges; four sample indices per TNF context do not establish independent cultures. Adjacent expression bytes may arrive uninterpreted, but no expression values or weights decoded. Dryad cytokine primary design also reviewed; original bank remains unqualified.",
+    "boundary": "Four bounded inventories contain 1,048 distinct series identities, not 1,048 deeply audited designs. Eight further sample-level reviews remain unqualified; six Ramos arrays per arm span two clone states. No new expression outcomes were consumed in this search. Prior source-specific diagnostics and remote metadata audits remain separately recorded.",
     "metadata_inventory": "results/replicated_fixed_state_v1/public-discovery-20261009-v1/inventory.json",
     "new_expression_sources": [
       "GSE78083"
-    ]
+    ],
+    "metadata_coverage": "results/replicated_fixed_state_v1/public-discovery-pre2013-20261010-v1/coverage.json",
+    "unique_summary_identities": 1048
   },
   "RETRO1": {
     "status": "complete with evidence path",
