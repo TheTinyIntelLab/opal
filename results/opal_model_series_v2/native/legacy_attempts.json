@@ -1,0 +1,47 @@
+[
+  {
+    "method": "PertSpectra",
+    "python_environment": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv-cpa\\Scripts\\python.exe",
+    "stdout": "native import succeeded\n",
+    "stderr": "",
+    "return_code": 0,
+    "wall_seconds": 1.840141799999401,
+    "scores": null
+  },
+  {
+    "method": "GEARS",
+    "python_environment": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv-cpa\\Scripts\\python.exe",
+    "stdout": "native import succeeded\n",
+    "stderr": "",
+    "return_code": 0,
+    "wall_seconds": 7.7440965000132564,
+    "scores": null
+  },
+  {
+    "method": "TxPert",
+    "python_environment": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv-cpa\\Scripts\\python.exe",
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\vendor\\python\\cpython-3.10.22-windows-x86_64-none\\lib\\importlib\\__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n  File \"<frozen importlib._bootstrap>\", line 1050, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1027, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1006, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 688, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 883, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"D:\\opal-model-series-20261010-v2\\native\\TxPert\\gspp\\models\\txpert.py\", line 9, in <module>\n    from gspp.data.graphmodule import GSPGraph\n  File \"D:\\opal-model-series-20261010-v2\\native\\TxPert\\gspp\\data\\graphmodule.py\", line 2, in <module>\n    from omegaconf import DictConfig, OmegaConf\nModuleNotFoundError: No module named 'omegaconf'\n",
+    "return_code": 1,
+    "wall_seconds": 2.21461029999773,
+    "scores": null
+  },
+  {
+    "method": "PRESAGE",
+    "python_environment": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv-cpa\\Scripts\\python.exe",
+    "stdout": "native import succeeded\n",
+    "stderr": "",
+    "return_code": 0,
+    "wall_seconds": 3.853503800026374,
+    "scores": null
+  },
+  {
+    "method": "CPA",
+    "python_environment": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv-cpa\\Scripts\\python.exe",
+    "stdout": "native import succeeded\n",
+    "stderr": "Global seed set to 0\n",
+    "return_code": 0,
+    "wall_seconds": 5.059229200007394,
+    "scores": null
+  }
+]

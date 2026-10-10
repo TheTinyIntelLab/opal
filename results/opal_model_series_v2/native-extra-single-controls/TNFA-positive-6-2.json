@@ -1,0 +1,42 @@
+{
+  "acquired_pair_labels": 72,
+  "attempts": [
+    {
+      "alpha": 0.1,
+      "development_mse": 0.09260903518598834
+    },
+    {
+      "alpha": 1,
+      "development_mse": 0.09670866233470723
+    },
+    {
+      "alpha": 10,
+      "development_mse": 0.09849146925875607
+    }
+  ],
+  "control_labels": 1,
+  "cpu_seconds": 0.015625,
+  "extra_single_labels": 19,
+  "held_rows": 36,
+  "metrics": {
+    "centered_pearson_mean": 0.5182763263913849,
+    "correction_rms": 0.20738523029145076,
+    "mae": 0.23038396164975014,
+    "mse": 0.08506074092463088,
+    "retrieval_mean_rank": 12.444444444444445,
+    "retrieval_pool": 36,
+    "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+    "signed_correction_mean": -0.06478862096557783,
+    "skill_no_change": 0.3815543419306118,
+    "skill_reference": 0.3815543419306118,
+    "undefined_pearson_rows": 0,
+    "undefined_reason": null
+  },
+  "outer": 2,
+  "parameters_sha256": "8730e969f03e8000a47b8a42aa818acad1444b5655e9fcee25bf08a8f1c30bd4",
+  "replay_max_abs": 0,
+  "selected_alpha": 0.1,
+  "source": "TNFA-positive",
+  "stratum": "6",
+  "wall_seconds": 0.015062200000102166
+}

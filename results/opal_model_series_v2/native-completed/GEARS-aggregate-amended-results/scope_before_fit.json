@@ -1,0 +1,22 @@
+{
+  "classification": "protocol-adapted upstream architecture/trainer",
+  "configs": [
+    64,
+    128
+  ],
+  "epochs": 20,
+  "frontier_eligible": false,
+  "gene_panel": "unchanged primary panel",
+  "graph": "GEARS public GO Jaccard plus observed-single-only coexpression; CPA none",
+  "method": "GEARS",
+  "native_author_configuration": false,
+  "outer_labels_in_selection": false,
+  "presence_coefficients": "CPA 1.0 encodes categorical presence only; no physical-dose assertion",
+  "primary_budget": "full only; uniform acquisition seed 11",
+  "prior_asset": "native-assets/manifest.json",
+  "reference_access": "all observed source-stratum single profiles, including query singles; extra single supervision reported separately",
+  "scale": "unchanged aggregate change; zero reference, not raw counts",
+  "seed": 20261017,
+  "source": "both separate TNF contexts",
+  "stopping": "fixed epoch cap; inner grouped validation config selection"
+}

@@ -1,0 +1,29 @@
+{
+  "acquired_unique_pairs": 73,
+  "attempts": [
+    {
+      "development_mse": 0.10800581899575265,
+      "history": [],
+      "width": 64
+    },
+    {
+      "development_mse": 0.11454967342354792,
+      "history": [],
+      "width": 128
+    }
+  ],
+  "checkpoint": "D:\\opal-model-series-20261010-v2-continuation\\CPA-aggregate-weights\\TNFA-positive-5-1",
+  "classification": "protocol-adapted upstream architecture/trainer",
+  "cpu_seconds": 66.578125,
+  "fixed_epoch_training_history": [],
+  "held_rows": 35,
+  "method": "CPA",
+  "mse": 0.11537340542341233,
+  "outer": 1,
+  "parameter_count": 112650,
+  "selected_width": 64,
+  "single_profiles": 19,
+  "source": "TNFA-positive",
+  "stratum": "5",
+  "wall_seconds": 60.875
+}

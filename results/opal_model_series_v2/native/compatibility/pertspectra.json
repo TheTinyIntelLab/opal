@@ -1,0 +1,82 @@
+{
+  "code_file_hashes": [
+    {
+      "bytes": 271,
+      "path": "LICENSE",
+      "sha256": "ecdfe2fc7a9dc257028bfcaf0342c7bd4f012b70dc9e7199fb7ec04aa503b5b5"
+    },
+    {
+      "bytes": 7056,
+      "path": "PertSpectra_training_scripts/train_PertSpectra_inhouse.py",
+      "sha256": "7f66c3d04a3177c8d245843cfc26c4c5a593c8e2f1697ad1a3756488ef459ef4"
+    },
+    {
+      "bytes": 6448,
+      "path": "PertSpectra_training_scripts/train_PertSpectra_norman.py",
+      "sha256": "ee8f145ce84328eba096cf9ab4e4a1d7adea4549b8d787a67eb735fb77eb01f8"
+    },
+    {
+      "bytes": 5984,
+      "path": "PertSpectra_training_scripts/train_PertSpectra_replogle.py",
+      "sha256": "d548fc1f9c8573d0a1e6f6e8f87b7af59044daae4ecc919069e917dd7383b22d"
+    },
+    {
+      "bytes": 4753,
+      "path": "README.md",
+      "sha256": "67f23bd7c3a6331289ac5eae5f1a02509b8c52fcf10bb9a316f72df930542ce4"
+    },
+    {
+      "bytes": 186,
+      "path": "environment.yaml",
+      "sha256": "45ac344fcb8a3f8c82c74834556f6a59a3b47bd160ee8dbe380dba96914be88e"
+    },
+    {
+      "bytes": 56,
+      "path": "pyproject.toml",
+      "sha256": "e0a2168514bdc55e955ec157196b7634b61fe3c0035c72877bb2ecffb40df60c"
+    },
+    {
+      "bytes": 361,
+      "path": "requirements.txt",
+      "sha256": "9e0e70fa905ec4ec69c43adb25ea440ca392c3c1b5b8538b57b73ede789d3a9c"
+    },
+    {
+      "bytes": 54727,
+      "path": "src/Spectra/Spectra_Pert.py",
+      "sha256": "f2b2c0d76d3fcaa5a6a099c3160881091a3957b07f65d324abf9a015ac3ced0e"
+    },
+    {
+      "bytes": 12723,
+      "path": "src/Spectra/Spectra_util.py",
+      "sha256": "e8a40897b283fca80186569d8f7b051fed0dfce91416e55688531ecaeda363f0"
+    },
+    {
+      "bytes": 282,
+      "path": "src/Spectra/__init__.py",
+      "sha256": "908cfa572fec6137a138c9743c1d4268fa4d6031c8376ead58a70a56e0b53b2d"
+    },
+    {
+      "bytes": 1677,
+      "path": "src/Spectra/initialization.py",
+      "sha256": "af38b008a2085521019cfa6fe29e9dbf97ea95fbff55c22bb9352d7a666a85f8"
+    },
+    {
+      "bytes": 0,
+      "path": "src/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "compatibility_cap_seconds": 1800,
+  "maximum_configs": 2,
+  "method": "PertSpectra",
+  "primary_seed": 20261017,
+  "return_code": 1,
+  "revision": "9c4fbdacdadcb8ca559226170e93e6b61436819c",
+  "scope": "Unmodified wrapper construction; CPU core is audited separately before any claimed eligibility",
+  "scores": null,
+  "status": "native_compatibility_failed",
+  "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    import sys,importlib; sys.path.insert(0,'D:\\\\opal-model-series-20261010-v2\\\\native\\\\PertSpectra\\\\src'); module=importlib.import_module('Spectra.Spectra_Pert'); print('native import succeeded'); import numpy as np; module.SPECTRA_Model(X=np.zeros((2,4),dtype=np.float32),labels=None,L=4,pert_idx=np.array([-1,-1]),pert_labels=['ctrl','basal'],adj_matrix=np.zeros((4,4)),use_cell_types=False)\n                                                                                                                   ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\importlib\\__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1398, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1371, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1342, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 938, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 762, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 491, in _call_with_frames_removed\n  File \"D:\\opal-model-series-20261010-v2\\native\\PertSpectra\\src\\Spectra\\Spectra_Pert.py\", line 7, in <module>\n    from opt_einsum import contract\nModuleNotFoundError: No module named 'opt_einsum'\n",
+  "stdout": "",
+  "upstream_assets_modified": false,
+  "wall_seconds": 2.07979940000223
+}

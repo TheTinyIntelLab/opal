@@ -1,0 +1,122 @@
+{
+  "code_file_hashes": [
+    {
+      "bytes": 8072,
+      "path": "README.md",
+      "sha256": "0f79f4f5aa34ec3d2c797b66a3f9cbaa1fa0d65eee1cbe21ed1905e1bf9b0962"
+    },
+    {
+      "bytes": 2764,
+      "path": "data/preprocessing_utils.py",
+      "sha256": "20f0d9757013e8f66b8beff73922ad223b9d1cbc27521fd6b71053c0d8d08a93"
+    },
+    {
+      "bytes": 1763,
+      "path": "gspp/constants.py",
+      "sha256": "45d7b50496a55c63b94209e5c96c74ff48a0c26bcbd969e8c2209f1c3c936c6e"
+    },
+    {
+      "bytes": 7419,
+      "path": "gspp/data/data_utils.py",
+      "sha256": "35d94ec01756d3f2ff4ace38df1c8ec59593fc1e9962896b80a6afadbc458e0b"
+    },
+    {
+      "bytes": 27746,
+      "path": "gspp/data/datamodule.py",
+      "sha256": "dfb9c73992984630c1f8c52ea5b25c29d1a02a98a259ab10a8eaa4091fe850ae"
+    },
+    {
+      "bytes": 10553,
+      "path": "gspp/data/graphmodule.py",
+      "sha256": "018d66c58de0b7391e7da79d45e5fdf0897ee616c66d720c1323d19a0e3098d6"
+    },
+    {
+      "bytes": 2105,
+      "path": "gspp/evaluation.py",
+      "sha256": "88442580c8a545e27382f2d264fe5539a4187545cf2397cbc4e5b5c608d0eb1f"
+    },
+    {
+      "bytes": 19257,
+      "path": "gspp/metrics.py",
+      "sha256": "a8e7c34833edc3f9c9bfd575432ab77963ac2e0a22167f87581a56c3ad90b15c"
+    },
+    {
+      "bytes": 1551,
+      "path": "gspp/models/basal_state_models/mlp.py",
+      "sha256": "10094e63e727b3e59aec59c26a9e527780ff9cfcf971f2c4709f73fd58c51551"
+    },
+    {
+      "bytes": 8547,
+      "path": "gspp/models/basal_state_models/moe.py",
+      "sha256": "aef2e3862226b848026b252931ec4aceaf12e6f1568137d74f23770737608928"
+    },
+    {
+      "bytes": 2165,
+      "path": "gspp/models/basal_state_models/vae.py",
+      "sha256": "9957db8715b7416be51f6cee74cd10ee229e243e8ed6244d975610a13e900eef"
+    },
+    {
+      "bytes": 19704,
+      "path": "gspp/models/baselines.py",
+      "sha256": "91ffa5968941d67f604ccf0cb3cb5298bc2a28ce137e304e6247069937218362"
+    },
+    {
+      "bytes": 4806,
+      "path": "gspp/models/pert_models/basic_gnn.py",
+      "sha256": "ea20e7e6e3643786efbf90475e7e7d1395527f01f473ee1d03d714ccaf234525"
+    },
+    {
+      "bytes": 17634,
+      "path": "gspp/models/pert_models/exphormer.py",
+      "sha256": "bbf96278e6d727abe29fc4a4d2c213ff41bad595269387ad4ff9f819952e9560"
+    },
+    {
+      "bytes": 7466,
+      "path": "gspp/models/pert_models/hybrid_wrapper.py",
+      "sha256": "39d18e46084224a794f2dc98e1733f4b0121696f50e28e3c67d6d02d57a1e09d"
+    },
+    {
+      "bytes": 15681,
+      "path": "gspp/models/pert_models/multi_graph.py",
+      "sha256": "d69a86890bf463d11670a36299662695e0670497d2cb5349c324358a8322da07"
+    },
+    {
+      "bytes": 11058,
+      "path": "gspp/models/txpert.py",
+      "sha256": "0caefad613d2608cf221a4f5e27516da91d931bc6139dda05db1719d97731d34"
+    },
+    {
+      "bytes": 13708,
+      "path": "gspp/predictor.py",
+      "sha256": "54cb47bdf4172a5d822c3b64b35907462b4c55fb1934fee2e8562eb64ead3285"
+    },
+    {
+      "bytes": 3294,
+      "path": "gspp/utils.py",
+      "sha256": "74e7d9e13026649158e20d1dbd879507a3626505f84b24321c8bdca2cf49e211"
+    },
+    {
+      "bytes": 3427,
+      "path": "main.py",
+      "sha256": "3d5517f795ad3572742e51ec42d19ee528437e62308ecc0f556e0f7d6803c38e"
+    },
+    {
+      "bytes": 9712,
+      "path": "pyproject.toml",
+      "sha256": "8ab4a728d52604289aea540afd61270f4c0df90d10fb8b10af1946b4a2db3b95"
+    }
+  ],
+  "compatibility_cap_seconds": 1800,
+  "maximum_configs": 2,
+  "method": "TxPert",
+  "primary_seed": 20261017,
+  "return_code": 1,
+  "revision": "08d82eea86746b044cf7531f4ec8c5f60e1cb73f",
+  "scope": "Public-only graph route; proprietary graph configurations excluded; no published score copied",
+  "scores": null,
+  "status": "native_compatibility_failed",
+  "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    import sys,importlib; sys.path.insert(0,'D:\\\\opal-model-series-20261010-v2\\\\native\\\\TxPert'); module=importlib.import_module('gspp.models.txpert'); print('native import succeeded');\n                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\importlib\\__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1398, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1371, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1342, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 938, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 762, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 491, in _call_with_frames_removed\n  File \"D:\\opal-model-series-20261010-v2\\native\\TxPert\\gspp\\models\\txpert.py\", line 7, in <module>\n    from torch_geometric.nn import MLP\nModuleNotFoundError: No module named 'torch_geometric'\n",
+  "stdout": "",
+  "upstream_assets_modified": false,
+  "wall_seconds": 1.6817583999945782
+}
