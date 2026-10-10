@@ -26,7 +26,7 @@ The original Combi-seq benchmark is complete and unfavorable to the candidate: 3
 
 ## 1. Amend the plan before new computation
 
-Add a dated active amendment at the front of `PLAN.md` and a tracked protocol such as `docs/next_cycle/model_series_protocol.md`. State that this owner-requested pivot supersedes the prior search-first work ordering and authorizes the three-model development cycle and its bounded evaluation below. Preserve historical records and the original conditional study.
+The dated model-series amendment is already at the front of the local `PLAN.md`, and `docs/next_cycle/model_series_protocol.md` records its tracked scope. Read and preserve them, then add the finite training configuration and update MS1–MS8 as implementation progresses. This owner-requested pivot supersedes the prior search-first work ordering and authorizes the three-model development cycle and its bounded evaluation below. Preserve historical records and the original conditional study.
 
 Audit every original backlog item and record one of: complete with verified evidence, an executable repair to perform now, or deferred on a named external dependency. Complete genuine remaining software, packaging, claim-provenance and reproducibility repairs. Independent cultures, empirical biological power, actual registration, collaboration and unapproved publication remain deferred; do not mark them complete through simulation or edited documentation. The model cycle is explicitly authorized here; uncertainty guarantees and prospective active learning remain separate, unvalidated successors.
 

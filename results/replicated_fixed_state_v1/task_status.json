@@ -144,5 +144,26 @@
     "evidence_path": "results/replicated_fixed_state_v1/pertspectra-obs-metadata-20261010-v3/report.json",
     "verification_path": "results/replicated_fixed_state_v1/pertspectra-obs-metadata-20261010-v3/verification.json",
     "acceptance_boundary": "Selected metadata columns only; verified ranges and exact local reparse. Sample indices, row counts and nominal pair labels do not establish accepted culture units or matched molecular references."
+  },
+  "model_series": {
+    "status": "not started",
+    "active_direction": "Build and train Opal-Base, Opal-Interaction and Opal-Guard with shared inference and checkpoint contracts.",
+    "planning_status": "complete with evidence path",
+    "protocol_path": "docs/next_cycle/model_series_protocol.md",
+    "implementation_handoff": "docs/next_cycle/agent_prompt_model_series.md",
+    "private_plan_updated": true,
+    "actual_model_implementations_complete": false,
+    "actual_model_checkpoints_complete": false,
+    "backlog_ids": [
+      "MS1",
+      "MS2",
+      "MS3",
+      "MS4",
+      "MS5",
+      "MS6",
+      "MS7",
+      "MS8"
+    ],
+    "acceptance_boundary": "Three functional variants, actual source-specific trained checkpoints, shared API/CLI, fixed held-pair evaluation and label-budget study, model cards, installed replay and CI; writing the amendment does not implement the series. Original biological gates remain conditional."
   }
 }

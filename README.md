@@ -229,6 +229,8 @@ Read [The Tiny Intelligence Lab](https://thetinyintelligencelab.vercel.app/) for
 
 ## Release closeout and replicated-study workflow
 
+The active planned successor is the [Opal model series](docs/next_cycle/model_series_protocol.md): Base, Interaction and Guard, with actual trained checkpoints and a shared inference API/CLI required for completion. The [implementation handoff](docs/next_cycle/agent_prompt_model_series.md) covers model development and the remaining executable plan work. This scope is documented; the new models have not yet been implemented or trained.
+
 The [closeout record](docs/next_cycle/execution_status.md) distinguishes verified software from outstanding scientific and publication dependencies. [The fixed-state protocol](docs/next_cycle/analysis_protocol.md) documents metadata qualification, aggregate-read preparation, bounded selection, prediction freezing, independent evaluation, and synthetic rehearsal. Original Stage 1 runs are canonical; the changed-environment recheck is a named reproducibility sensitivity. Neither expression banks nor historical fits are reopened by the reporting-only closeout.
 
 The separately approved [retrospective Combi-seq workstream](docs/next_cycle/retrospective_combi_20261009.md) evaluates globally held nominal pairs on already exposed counts with nested selection. Its pair-kernel candidate loses to the selected incidence reference; this is a source-conditional exploratory result and does not clear the prospective biological gates.

@@ -1,0 +1,27 @@
+# Opal model-series development amendment
+
+The owner requested a change from indefinite confirmation-dataset searching and clarified that the deliverable must be a trainable model series. This amendment makes Opal-Base, Opal-Interaction and Opal-Guard the active computational workstream. It authorizes a bounded new development cycle while preserving the original study, architecture comparisons, source exposure history and biological gates. The complete implementation instructions are in [the agent handoff](agent_prompt_model_series.md); the local private `PLAN.md` has the same active direction and an MS1–MS8 backlog.
+
+## Model contract
+
+All variants predict an aggregate expression-change vector for an unordered pair from measured single profiles, declared intervention identities and permitted source context. The first checkpoints are source/assay-specific and support observed singles. A common training/prediction/save/load interface, registry and CLI must expose provenance and reference/support limitations.
+
+Opal-Base selects and fits the existing strong reference correction inside development. Opal-Interaction adds a compact learned residual to a frozen Base expert, using a shared single-profile encoder and the symmetric product of its two latent outputs. Its initial hidden/interaction widths are 64/16. Opal-Guard learns a scalar mixture of these experts using grouped out-of-fold development predictions and allowed support features, with a declared Base fallback. A gate weight is not a calibrated uncertainty estimate, and neither nonlinear variant is guaranteed to improve over Base.
+
+The model-series implementation and actual training are not complete at the time of this amendment. A release-ready implementation requires three distinct functional models, trained/reloadable checkpoints, model cards, inference examples, integrity tests and installed replay. Evaluation checkpoints remain distinct from later all-development refits. Parameters, gene order, units, transforms, source/split hashes, code version and seeds belong in safe checkpoint manifests.
+
+## Data and evaluation contract
+
+Use the available Combi-seq bank first. Reproduce the historical result before new fitting and retain its grouped outer pairs and reference-derived 512-gene endpoint. Its outcomes are exposed; reanalysis does not become fresh confirmation. The historical candidate's unfavorable result stays intact. A separate finite configuration must freeze new architecture/regularization comparisons, optimizer, seeds, epoch limits and development-only stopping before training.
+
+Held pair identities are excluded from fitting, configuration selection and response-derived transforms across all governed occurrences. Query controls and singles remain explicit allowed inputs. Guard uses grouped development cross-fitting, and all fitting/validation labels count toward acquisition budgets. Test outcome changes must not change fitted predictors or model selection.
+
+Evaluate no-change, additivity, the strongest historical reference, the historical pair candidate and all new variants. Run 0/25/50/100-percent nested pair-label budgets with uniform and target-balanced identity-only acquisition, three fixed sampling seeds and unchanged outer evaluation pairs. Zero budget supports no-change/additivity only. Insufficient folds or support produce prespecified unavailable records. Retain every declared run, ablation, negative comparison and failure. Report equal-pair/source-stratum descriptive MSE and label-efficiency curves without pooling incompatible assay losses or claiming biological intervals or prospective assay savings.
+
+Attempt one bounded external extension on the located PertSpectra in-house H5AD. Metadata decoding has already occurred; expression has not been decoded in the prior audit, although adjacent uninterpreted bytes and published narratives were encountered. Resolve scale, controls and guide mixtures; freeze access/QC/reference rules before expression preparation. Verify full-file identity and process in backed/chunked form. Keep SampleIndex/TNF strata separate from verified independent cultures. A concrete reference-contract refusal ends this extension and does not block the existing-data model deliverable.
+
+## Completion and original-plan boundaries
+
+MS1–MS8 cover scope/configuration, interface/checkpoints/CLI, three implementations, actual training/evaluation, label-budget study, bounded external extension, model reporting/reproducibility and remaining original executable repairs. Each needs evidence rather than a claimed status. Appropriate full-suite and Windows/Linux Python 3.11/3.14 CI checks, safe save/load parity and installed-package inference are required. Architecture/code/test work and model weights have not been produced by writing this protocol.
+
+Independent culture confirmation, empirical biological power, registration, correspondence, state/dose extrapolation, calibrated risk and prospective acquisition remain separate dependencies. The approved private GitHub v0.1.2 release is preserved; new publication or visibility changes are not authorized by this amendment. `PLAN.md`, raw contact-bearing metadata and matrices remain excluded from commits and research archives. Commit and push coherent implementation milestones and reviewable artifacts within these boundaries.
