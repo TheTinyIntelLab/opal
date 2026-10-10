@@ -1,0 +1,96 @@
+{
+  "aggregate_pair_rows": 432,
+  "all_label_roles": [
+    "selection",
+    "fit",
+    "PCA/SVD",
+    "OOF experts",
+    "router validation",
+    "stopping"
+  ],
+  "checkpoints": [
+    {
+      "array_store": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment\\array_store",
+      "checkpoint": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment\\TNFA-positive\\Opal-Base\\checkpoint",
+      "checkpoint_bytes": 405541,
+      "evaluation_score": null,
+      "expert_available": [
+        true,
+        false,
+        false
+      ],
+      "logical_numeric_values": 49152,
+      "model": "Opal-Base",
+      "model_sha256": "a85a4e0a6f9a8afa1d8be34ef92be94af6572976908abe298bbf15fe72683e4e",
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4608,
+        "fitted_response_coefficient_values": 4608,
+        "support_reference_values": 38912
+      },
+      "parameters_sha256": "22a4e44856f268bd1edeb9d65ef1cf3474aa20168072b104ac6ce13d80652b73",
+      "query_prediction_sha256": "fd3293d2721c3708a1d757cfab5c982c935a4a0af193efc3b980f8c784c6d12f",
+      "replay_max_abs": 0.0
+    },
+    {
+      "array_store": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment\\array_store",
+      "checkpoint": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment\\TNFA-positive\\Opal-Interaction\\checkpoint",
+      "checkpoint_bytes": 445789,
+      "evaluation_score": null,
+      "expert_available": [
+        true,
+        true,
+        false
+      ],
+      "logical_numeric_values": 53914,
+      "model": "Opal-Interaction",
+      "model_sha256": "c16c95ee5488d5ffc6c2e7b13c6abc75587e5297888a6627ec50bb24a2d8f635",
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 9326,
+        "fitted_response_coefficient_values": 4652,
+        "support_reference_values": 38912
+      },
+      "parameters_sha256": "47412b9af083dd00190bcea8e76ddb684a9ded2f5eb879eb1b29d7e47d3b01bb",
+      "query_prediction_sha256": "94d3f6a39e85852e8084cd694cc8b654cbfc5de4e3b9a19114ded153a46cdd6a",
+      "replay_max_abs": 0.0
+    },
+    {
+      "array_store": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment\\array_store",
+      "checkpoint": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment\\TNFA-positive\\Opal-Guard\\checkpoint",
+      "checkpoint_bytes": 4036093,
+      "evaluation_score": null,
+      "expert_available": [
+        true,
+        true,
+        true
+      ],
+      "logical_numeric_values": 718523,
+      "model": "Opal-Guard",
+      "model_sha256": "f7e17970d34453ee6d1c88b6b091afc01f6a9964a76a3945c74705bbd18aae9a",
+      "parameter_counts": {
+        "acquired_residual_memory_values": 221184,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 9338,
+        "fitted_response_coefficient_values": 4673,
+        "support_reference_values": 38912
+      },
+      "parameters_sha256": "61c6163217785cd0d4d912b944ca6f44af1bd4bc02f152a5b7d5f1d7252e8999",
+      "query_prediction_sha256": "d02ee4bdf12203a6ed09d690e3b9b305208e0c26dfb07c1209aaf0b5810b1b3d",
+      "replay_max_abs": 0.0
+    }
+  ],
+  "cpu_seconds": 21.796875,
+  "evaluation_score": null,
+  "information_tier": "all source strata, equal-stratum acquired pair aggregates",
+  "process_peak_rss_bytes": 16807186432,
+  "protected_original_query_labels": 0,
+  "recommendation": "Opal-Base; Interaction/Guard experimental",
+  "replay_query_role": "in-sample serialization check, no performance claim",
+  "source": "TNFA-positive",
+  "source_sha256": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4",
+  "unique_pair_labels": 108,
+  "wall_seconds": 21.922441200000094
+}

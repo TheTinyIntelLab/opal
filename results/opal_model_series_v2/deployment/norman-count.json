@@ -1,0 +1,96 @@
+{
+  "aggregate_pair_rows": 88,
+  "all_label_roles": [
+    "selection",
+    "fit",
+    "PCA/SVD",
+    "OOF experts",
+    "router validation",
+    "stopping"
+  ],
+  "checkpoints": [
+    {
+      "array_store": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment\\array_store",
+      "checkpoint": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment\\norman-count\\Opal-Base\\checkpoint",
+      "checkpoint_bytes": 1270142,
+      "evaluation_score": null,
+      "expert_available": [
+        true,
+        false,
+        false
+      ],
+      "logical_numeric_values": 924201,
+      "model": "Opal-Base",
+      "model_sha256": "b10cfa8b8136d1c689d218d419e0e77c74792c6a425ca96df53f664cd17c3109",
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 95607,
+        "fitted_response_coefficient_values": 95607,
+        "support_reference_values": 711741
+      },
+      "parameters_sha256": "0874987d7e357abc431bc12789c6156851a9549f1acf897056e0a0542c3a6696",
+      "query_prediction_sha256": "e5ebdde96ed00be7e185fd367256a3253afecb1af54d1d642f088d5f5704078f",
+      "replay_max_abs": 0.0
+    },
+    {
+      "array_store": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment\\array_store",
+      "checkpoint": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment\\norman-count\\Opal-Interaction\\checkpoint",
+      "checkpoint_bytes": 1271260,
+      "evaluation_score": null,
+      "expert_available": [
+        true,
+        false,
+        false
+      ],
+      "logical_numeric_values": 924201,
+      "model": "Opal-Interaction",
+      "model_sha256": "8905d90d3f8a680593332449dd7eee56e507af91fe38a311161d5fb28cb031cc",
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 95607,
+        "fitted_response_coefficient_values": 95607,
+        "support_reference_values": 711741
+      },
+      "parameters_sha256": "cd3a554b731549424218f21caca88aa21e5762ff9a3267285cb18d063dd838e8",
+      "query_prediction_sha256": "e5ebdde96ed00be7e185fd367256a3253afecb1af54d1d642f088d5f5704078f",
+      "replay_max_abs": 0.0
+    },
+    {
+      "array_store": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment\\array_store",
+      "checkpoint": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment\\norman-count\\Opal-Guard\\checkpoint",
+      "checkpoint_bytes": 9747708,
+      "evaluation_score": null,
+      "expert_available": [
+        true,
+        false,
+        true
+      ],
+      "logical_numeric_values": 3749952,
+      "model": "Opal-Guard",
+      "model_sha256": "73823bcfeaa410c4e58ca64c7717136e7365a2f543eaa267fdce7fca842dddc6",
+      "parameter_counts": {
+        "acquired_residual_memory_values": 934824,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 95619,
+        "fitted_response_coefficient_values": 95628,
+        "support_reference_values": 711741
+      },
+      "parameters_sha256": "2302bc3b5261333903081ffce74552dd64bb8b2a4de62695eff37ae296079e3b",
+      "query_prediction_sha256": "ae97d9bb97de313db194602c432edafb0ae922d1f5b2180317c6326e6d5ca144",
+      "replay_max_abs": 0.0
+    }
+  ],
+  "cpu_seconds": 51.1875,
+  "evaluation_score": null,
+  "information_tier": "historical equal-stratum development aggregate; protected query bank excluded",
+  "process_peak_rss_bytes": 16807186432,
+  "protected_original_query_labels": 0,
+  "recommendation": "Opal-Base; Interaction/Guard experimental",
+  "replay_query_role": "in-sample serialization check, no performance claim",
+  "source": "norman-count",
+  "source_sha256": "3ee0010d3307950409506f8102a1cecf04675b233e7db01f321d95a61802291c",
+  "unique_pair_labels": 88,
+  "wall_seconds": 52.00601219999999
+}

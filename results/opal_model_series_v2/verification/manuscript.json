@@ -1,0 +1,42 @@
+{
+  "build_return_code": 0,
+  "empirical_literals_checked": [
+    "0.083848",
+    "0.077882",
+    "4.988153",
+    "3.168524",
+    "0.071731",
+    "0.113226",
+    "0.079552",
+    "0.093978",
+    "0.126928",
+    "0.182326",
+    "0.070020",
+    "0.082463"
+  ],
+  "figure_inputs_verified": 99,
+  "figures_verified": 6,
+  "main_pdf_sha256": "7b5eefcb420482a1410967df0427e5e64297993da69a616ff4f9f2922adb9730",
+  "normalization": "NFKC, whitespace and hyphens removed; empirical values checked separately",
+  "pages": 42,
+  "standalone_normalized_page_text_exact": true,
+  "standalone_pdf_sha256": "eae0592f4bf49e86d5dce08a8b7e1f29c306cf0250bd08bd41449fbdc59c815d",
+  "standalone_tex_sha256": "94f9d61a234aa2d5ef64fd0258c855d86c77afd8877b2eb3a283ae1f56ea3a67",
+  "standalone_zip": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\opal-local-model-series-complete-source.zip",
+  "standalone_zip_sha256": "7db7582ecd6439362b25d33bd474f202e3869e3f294fd4b79cbf72e2c42fc351",
+  "visual_review": {
+    "findings": "Readable tables and labels; no clipping or overflow. Underfull vbox warnings retained.",
+    "method": "rendered existing PyMuPDF, inspected page montages and final cost page",
+    "pages": [
+      1,
+      13,
+      14,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "standalone_attempts": "First exact text check and second retry failed on line-wrap-only differences; both builds preserved. Final NFKC/whitespace/hyphen-normalized comparison passes all 42 pages."
+  }
+}

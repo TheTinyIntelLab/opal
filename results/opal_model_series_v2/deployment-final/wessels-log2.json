@@ -1,0 +1,96 @@
+{
+  "aggregate_pair_rows": 40,
+  "all_label_roles": [
+    "selection",
+    "fit",
+    "PCA/SVD",
+    "OOF experts",
+    "router validation",
+    "stopping"
+  ],
+  "checkpoints": [
+    {
+      "array_store": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment-final\\array_store",
+      "checkpoint": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment-final\\wessels-log2\\Opal-Base\\checkpoint",
+      "checkpoint_bytes": 1288883,
+      "evaluation_score": null,
+      "expert_available": [
+        true,
+        false,
+        false
+      ],
+      "logical_numeric_values": 370650,
+      "model": "Opal-Base",
+      "model_sha256": "5e03ba79b85356aa6b3858e36d6ea224a3b3397b886cab6e0400bdddeaafe2b1",
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 95310,
+        "fitted_response_coefficient_values": 95310,
+        "support_reference_values": 158850
+      },
+      "parameters_sha256": "85834ef2d0dfbae670dc9aebef5898d2c33487054dd047bc66b3b9d7428a8cbb",
+      "query_prediction_sha256": "cf4722aec60eb917d56d764f8e788731849a382007ce13039effff65795dd515",
+      "replay_max_abs": 0.0
+    },
+    {
+      "array_store": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment-final\\array_store",
+      "checkpoint": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment-final\\wessels-log2\\Opal-Interaction\\checkpoint",
+      "checkpoint_bytes": 2023838,
+      "evaluation_score": null,
+      "expert_available": [
+        true,
+        true,
+        false
+      ],
+      "logical_numeric_values": 466114,
+      "model": "Opal-Interaction",
+      "model_sha256": "580c4fc08be4ddeb35ddb8c71c34aa1cbd2e1926b0c24cfa101361177f622812",
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 190730,
+        "fitted_response_coefficient_values": 95354,
+        "support_reference_values": 158850
+      },
+      "parameters_sha256": "2b1eb1083ba0ab146717ae11dc47f42e152e04a1a009ff1ce566a26ed93e2984",
+      "query_prediction_sha256": "7d58489ff2697159f2f6b571cdaf16c458723a0cb78e9b95112bd1d6f0b09427",
+      "replay_max_abs": 0.0
+    },
+    {
+      "array_store": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment-final\\array_store",
+      "checkpoint": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\deployment-final\\wessels-log2\\Opal-Guard\\checkpoint",
+      "checkpoint_bytes": 8697441,
+      "evaluation_score": null,
+      "expert_available": [
+        true,
+        false,
+        true
+      ],
+      "logical_numeric_values": 1758127,
+      "model": "Opal-Guard",
+      "model_sha256": "311d3bff03af8b7427958b9f8984dc97ceedf9e35020791109b3d1e06c527af9",
+      "parameter_counts": {
+        "acquired_residual_memory_values": 423600,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 190742,
+        "fitted_response_coefficient_values": 95375,
+        "support_reference_values": 158850
+      },
+      "parameters_sha256": "6e1f812f079a0072588480a05c3425d6ebcc24697bfb57314785b97281b853f6",
+      "query_prediction_sha256": "2407023d5c567b25d26bc2aed6582c307b2c40ffb90d8aa14e2d7127f8e73d08",
+      "replay_max_abs": 0.0
+    }
+  ],
+  "cpu_seconds": 22.875,
+  "evaluation_score": null,
+  "information_tier": "historical equal-stratum development aggregate; protected query bank excluded",
+  "process_peak_rss_bytes": 16807968768,
+  "protected_original_query_labels": 0,
+  "recommendation": "Opal-Base; Interaction/Guard experimental",
+  "replay_query_role": "in-sample serialization check, no performance claim",
+  "source": "wessels-log2",
+  "source_sha256": "4bf69cefb71006d210b39a2c38441703d3143c9951d623855d4748d97963d20f",
+  "unique_pair_labels": 40,
+  "wall_seconds": 23.241536800000176
+}

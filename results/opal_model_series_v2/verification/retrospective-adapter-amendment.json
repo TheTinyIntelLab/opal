@@ -1,0 +1,229 @@
+{
+  "original_runner_sha256": "5fae3fdade56cbc992e710e084bee81eef94da5b8f2c6c3cb01f8106575bc52b",
+  "original_runner_local": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\historical-runners\\run_series_retrospective.py",
+  "amended_runner_sha256": "08e5a192a4e85d258e57a058c557db31449a0d69316193004bf7026e7191d8ed",
+  "defect": "Canonical target IDs were sorted without permuting the associated single-vector order",
+  "prediction_impact": "Symmetric fit/prediction and swapped retrieval are invariant; original full fits replayed on corrected queries in completed budget study",
+  "protected_original_queries_accessed": 0,
+  "original_scores_replaced": false,
+  "future_runs": "Correct single order and refuse changed scopes in existing result directories",
+  "actual_replay": [
+    {
+      "source": "norman-log2",
+      "fold": 0,
+      "model": "Opal-Base",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-log2",
+      "fold": 0,
+      "model": "Opal-Interaction",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-log2",
+      "fold": 0,
+      "model": "Opal-Guard",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-log2",
+      "fold": 1,
+      "model": "Opal-Base",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-log2",
+      "fold": 1,
+      "model": "Opal-Interaction",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-log2",
+      "fold": 1,
+      "model": "Opal-Guard",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-log2",
+      "fold": 2,
+      "model": "Opal-Base",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-log2",
+      "fold": 2,
+      "model": "Opal-Interaction",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-log2",
+      "fold": 2,
+      "model": "Opal-Guard",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-count",
+      "fold": 0,
+      "model": "Opal-Base",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-count",
+      "fold": 0,
+      "model": "Opal-Interaction",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-count",
+      "fold": 0,
+      "model": "Opal-Guard",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-count",
+      "fold": 1,
+      "model": "Opal-Base",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-count",
+      "fold": 1,
+      "model": "Opal-Interaction",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-count",
+      "fold": 1,
+      "model": "Opal-Guard",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-count",
+      "fold": 2,
+      "model": "Opal-Base",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-count",
+      "fold": 2,
+      "model": "Opal-Interaction",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "norman-count",
+      "fold": 2,
+      "model": "Opal-Guard",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-log2",
+      "fold": 0,
+      "model": "Opal-Base",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-log2",
+      "fold": 0,
+      "model": "Opal-Interaction",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-log2",
+      "fold": 0,
+      "model": "Opal-Guard",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-log2",
+      "fold": 1,
+      "model": "Opal-Base",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-log2",
+      "fold": 1,
+      "model": "Opal-Interaction",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-log2",
+      "fold": 1,
+      "model": "Opal-Guard",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-log2",
+      "fold": 2,
+      "model": "Opal-Base",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-log2",
+      "fold": 2,
+      "model": "Opal-Interaction",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-log2",
+      "fold": 2,
+      "model": "Opal-Guard",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-count",
+      "fold": 0,
+      "model": "Opal-Base",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-count",
+      "fold": 0,
+      "model": "Opal-Interaction",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-count",
+      "fold": 0,
+      "model": "Opal-Guard",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-count",
+      "fold": 1,
+      "model": "Opal-Base",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-count",
+      "fold": 1,
+      "model": "Opal-Interaction",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-count",
+      "fold": 1,
+      "model": "Opal-Guard",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-count",
+      "fold": 2,
+      "model": "Opal-Base",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-count",
+      "fold": 2,
+      "model": "Opal-Interaction",
+      "maximum_abs": 0.0
+    },
+    {
+      "source": "wessels-count",
+      "fold": 2,
+      "model": "Opal-Guard",
+      "maximum_abs": 0.0
+    }
+  ],
+  "count": 36
+}

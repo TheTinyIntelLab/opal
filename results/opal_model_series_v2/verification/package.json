@@ -1,0 +1,38 @@
+{
+  "version": "0.1.3.dev0",
+  "reason": "unpublished local review successor; approved 0.1.2 assets untouched",
+  "artifacts": [
+    {
+      "name": "opal_research-0.1.3.dev0-py3-none-any.whl",
+      "bytes": 159157,
+      "sha256": "492162e2ebcb6d5593a801b1a50550bef2db19ca8da3edf8af7a3498d3262069",
+      "private_data_weight_exclusions": "passed",
+      "entries": 64
+    },
+    {
+      "name": "opal_research-0.1.3.dev0.tar.gz",
+      "bytes": 666788,
+      "sha256": "5c0aa4015bdeb7094d3853073eb1ecb94d1c48cbfaa99f27980e933707425b88",
+      "private_data_weight_exclusions": "passed",
+      "entries": 367
+    }
+  ],
+  "full_suite": {
+    "passed": 265,
+    "seconds": 36.91
+  },
+  "focused": {
+    "passed": 10,
+    "seconds": 10.77
+  },
+  "historical_transport": {
+    "checkpoints_replayed": 72,
+    "maximum_absolute_difference": 0
+  },
+  "installed": [
+    "Windows Python 3.11.16 actual TNFA-positive train/predict/score/replay",
+    "Windows Python 3.14.0 actual TNFA-positive train/predict/score/replay"
+  ],
+  "dependency_closure": "existing host dependencies reused; target installs outside checkout",
+  "remote_ci": "pending; no push authorized"
+}
