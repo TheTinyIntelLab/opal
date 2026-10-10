@@ -1,0 +1,107 @@
+{
+  "version": "opal-model-series-v2",
+  "architecture_id": "symmetric-bilinear-nested-memory",
+  "training_seed": 20261017,
+  "stability_seeds": [
+    20261018,
+    20261019
+  ],
+  "sampling_seeds": [
+    11,
+    29,
+    47
+  ],
+  "outer_seed": 20261009,
+  "budgets": [
+    0,
+    0.25,
+    0.5,
+    1
+  ],
+  "orders": [
+    "uniform",
+    "target-balanced"
+  ],
+  "input_ranks": [
+    4,
+    8
+  ],
+  "output_ranks": [
+    4,
+    8
+  ],
+  "penalties": [
+    0.1,
+    1,
+    10
+  ],
+  "residual_routes": [
+    "in-sample",
+    "cross-fitted"
+  ],
+  "retrieval_k": [
+    4,
+    8
+  ],
+  "retrieval_temperature_multiplier": 1,
+  "crossfit_folds": 3,
+  "minimum_pairs": 12,
+  "minimum_partition_pairs": 4,
+  "minimum_router_pairs": 24,
+  "minimum_bilinear_pairs_per_feature": 2,
+  "router_features": [
+    "minimum_degree",
+    "maximum_degree",
+    "reference_distance",
+    "context_eligibility",
+    "neighbor_distance",
+    "neighbor_dispersion"
+  ],
+  "gate_regularization": [
+    0.1,
+    1
+  ],
+  "learning_rate": 0.01,
+  "epoch_cap": 100,
+  "patience": 10,
+  "minimum_improvement": 1e-06,
+  "dtype": "float64",
+  "threads": 1,
+  "workers": 1,
+  "replay_atol": 1e-10,
+  "core_hours_cap": 24,
+  "allocation_core_hours": {
+    "diagnosis_preparation": 4,
+    "models_ablations": 8,
+    "native": 8,
+    "verification_reporting": 4
+  },
+  "new_artifact_bytes_cap": 3000000000,
+  "reserve_bytes": {
+    "C": 1073741824
+  },
+  "readonly_volumes": [
+    "D",
+    "E"
+  ],
+  "artifact_roots": [
+    "D:/opal-model-series-20261010-v2",
+    "C:/Users/USER/Desktop/opal-model-series-20261010-v2",
+    "D:/opal-model-series-20261010-v2-continuation"
+  ],
+  "resource_amendment": "Owner explicitly authorized 2 GB retained artifacts and spill to new C folder after D reserve stopped fitting. C retains 1 GiB reserve; existing D/E artifacts read-only. No deletion or movement of existing files. Original 1 GB attempt and freeze preserved. D later recovered to 2531930112 free bytes; additional work uses a NEW D continuation folder, preserving the original D artifact tree. C writes pause whenever its reserve fails. Both writable volumes retain 1 GiB reserve. Owner subsequently explicitly authorized 3 GB and remaining runs on C after restoring 6790512640 free bytes. D/E now read-only; all original files and failed attempts retained. Corrected ledger includes every compact series result and removes overlapping physical roots.",
+  "primary_metric": "equal-pair within stratum, equal-stratum gene-averaged MSE",
+  "promotion": {
+    "minimum_gain_percent": 2,
+    "minimum_source_panels": 2,
+    "maximum_other_panel_loss_percent": 2,
+    "router_must_beat_constant": true
+  },
+  "input_pca": "Unique acquired training-single profiles, centered float64 SVD; rank unavailable if numerical support insufficient",
+  "bilinear_normalization": "Diagonal u_i*v_i; off diagonal (u_i*v_j+u_j*v_i)/sqrt(2), i<j",
+  "ridge_objective": "sum normalized equal-stratum/equal-pair weights times squared response error, plus alpha times squared coefficient norm; unpenalized intercept",
+  "retrieval_distance": "Minimum of direct and swapped mean squared distance in training-only standardized single-profile space; exclude every occurrence of query canonical pair",
+  "metric_diagnostics": "MAE, no-change/reference skill, signed correction, centered Pearson with undefined reasons; squared centered profile retrieval, average tie rank",
+  "transport": "Strict default; explicit same-context mode requires identical assay/source/units/genes/context contract and training-only reference support",
+  "exposure": "All reused sources retrospective development; new folds/seeds do not restore unexposed confirmation"
+}
