@@ -35,11 +35,40 @@ correction(A, B) = correction(B, A)
 
 <img src="images/opal_overview.svg" alt="Measured singles feed an additive reference and a symmetric residual correction, producing a population-mean pair prediction." width="100%" />
 
-The project implements neural heads, classical regression, residual kernels, and explicit reference controls. Kernels are the strongest tested family in exploratory development comparisons. Historical neural gains over additivity don't establish robust pair-specific biological interaction learning, and independent context-transfer superiority remains unestablished.
+The project implements neural heads, classical regression, residual kernels, and explicit reference controls. Kernels led the earlier exploratory comparisons; the later finite series selects stronger null, mean and shrinkage references on its primary panels. Historical neural gains over additivity don't establish robust pair-specific biological interaction learning, and independent context-transfer superiority remains unestablished.
 
 This is independent research by **Arjun Vijay Prakash**, a high school student at City Montessori School, with no institutional research affiliation, funding, or competing interests. [The Tiny Intelligence Lab](https://thetinyintelligencelab.vercel.app/) is the project's independent research identity. AI assistance and author responsibility are disclosed in the manuscript.
 
 ## 2. Model downloads
+
+The unpublished local `0.1.3.dev0` review candidate implements three trainable models. **Opal-Base** selects one of 24 main-effect/null/shrinkage references. **Opal-Interaction** adds explicit symmetric cross-coordinate bilinear features, with training-only input PCA, acquired-residual output SVD and weighted ridge. **Opal-Guard** learns a convex mixture of Base, Interaction and acquired-pair residual retrieval through fully nested honest OOF training. Unsupported experts retain their declared fallback.
+
+| Current local evaluation | Combi-seq MSE | TNF-positive MSE | TNF-negative MSE |
+| --- | ---: | ---: | ---: |
+| No change | 5.713889 | 0.137007 | 0.075095 |
+| Opal-Base | 2.111564 | 0.077789 | 0.071218 |
+| Opal-Interaction | 2.109919 | 0.077723 | 0.071218 |
+| Opal-Guard | 2.112194 | 0.078360 | 0.071218 |
+| Development-selected constant mixture | 2.107765 | 0.077688 | Unavailable on four folds |
+| Matched main-effect ablation | 2.105071 | 0.077789 | 0.071596 |
+
+Each column has different genes, units and source conditions. Scores use the unchanged v1 populations, primary MSE and outer assignments, full acquisition budget, uniform order, acquisition seed 11 and the prespecified training seed. Interaction gains only 0.078% and 0.084% over Base on the first two panels; Guard loses to constant mixing. The 2% nonlinear-default promotion criterion fails. Base is the current simple fitted recommendation; no-change is available at zero labels. TNF-negative's nonlinear experts fall back to Base, so equal predictions are an honest outcome.
+
+Pinned upstream PertSpectra, GEARS and CPA implementations completed 24 full-budget folds each under separately declared protocol adaptations. Their TNF-positive/TNF-negative MSEs are 0.182326/0.126928, 0.093978/0.079552 and 0.113226/0.071731 respectively. These use different additional inputs and optimization budgets and do not reproduce the authors' full configurations. A linear control with the same extra nineteen observed singles scores 0.082463/0.070020 and beats Base on TNF-negative. TxPert's public-only dependency closure and PRESAGE's native pair-output contract remain ineligible. This evidence establishes no frontier claim.
+
+Actual evaluation checkpoints cover Combi-seq, both separate PertSpectra contexts, and the coherent Norman/Wessels development banks on their preserved log/count scales. Norman Guard improves retrospectively by 3.17% on log and 4.99% on count; these are two scales of one exposed source. Wessels uses Base fallback. All weights remain in ignored local storage pending source-term/publication authorization, and the published 0.1.2 assets are unchanged. Evaluation checkpoints and later deployment refits have separate roles. [The current local guide](docs/next_cycle/opal_model_series_v2.md) describes provenance, availability and batch inference; [the execution plan](docs/next_cycle/model_series_v2_plan.md) records work still in progress.
+
+### Preserved first model-series evaluation
+
+The preserved first trainable series has three source-specific variants with a shared `fit`, `predict`, `save` and `load` API, a registry, and `opal series-train`, `series-predict` and `series-evaluate` commands. Actual Combi-seq checkpoints are indexed in [the checkpoint manifest](results/opal_model_series_v1/combi-seq/all_budget_checkpoint_manifest.json); weights remain local and aren't part of the published release.
+
+| Trainable model | Combi-seq full-budget MSE | Recommendation |
+| --- | ---: | --- |
+| Opal-Base | 3.872700 | Recommended fitted reference |
+| Opal-Interaction | 3.871518 | Experimental nonlinear residual |
+| Opal-Guard | 3.871571 | Experimental learned OOF mixture |
+
+The nonlinear variants reduce retrospective MSE by about 0.03% relative to Base, which is too small to warrant replacing the reference. The preserved historical pair candidate is worse at 4.388534. These are source-conditional, observed-single predictions on the unchanged 512-gene endpoint across 374 nominal pairs and three reported runs, with no independent-culture or biological interaction claim. [Model cards, actual batch examples, label-budget curves and source limits](docs/next_cycle/opal_model_series.md) explain the contract and evidence. The series has separate [scope and result records](results/opal_model_series_v1/combi-seq/); the original negative benchmark and approved v0.1.2 assets remain intact.
 
 The validated GitHub release includes these two kernel references. Its downloads require repository access; the older draft is a separate preparation snapshot.
 
@@ -49,6 +78,8 @@ The validated GitHub release includes these two kernel references. Its downloads
 | EmeraldBay contextual kernel | Registered exact-dose singles and controls in supported contexts | Chemical pilot; its transferred procedure failed the independent D-SPIN superiority gate | Prepared locally |
 
 The [model guide](docs/models.md) explains supported queries, reference access, gene order, and diagnostic metadata. Raw datasets, Wessels/D-SPIN weights, external embedding banks, and native CPA/GEARS weights aren't redistributed. Dataset-derived reference content has CC BY 4.0 terms in [the notices](THIRD_PARTY_NOTICES.md).
+
+There are **21 final all-development deployment checkpoints**, three per source, in the local C artifact root's `deployment-final/` directory. [The deployment manifest](results/opal_model_series_v2/deployment-final/manifest.json) names their exact paths, source hashes, parameter/storage counts and replay results. Evaluation weights remain at their original manifest paths. These later refits have no evaluation score; deployment batch inference is supported and retrospective scoring is refused. Weights remain local under the existing source terms. The complete grid includes 858 primary and 312 retrospective conditions, 51 sensitivities and 72 upstream adaptation folds. [Installed usage and evidence](docs/next_cycle/opal_model_series_v2.md) distinguish the review package from the published release.
 
 ## 3. Evaluation results
 
@@ -65,7 +96,7 @@ EmeraldBay identity features improve on the selected shared correction by **4.06
 
 <img src="images/stage1_results.svg" alt="Registered development gains compared with the five percent screen across genetic pair and chemical context protocols." width="100%" />
 
-The studies consumed **631.67 aggregate study seconds**, with peak process working set **1.06 GB**, on reused CPU float64 dependencies; the available RTX 4060 was not used for fitting. Exact comparisons, paired diagnostic intervals, exclusions, component accounting, training trajectories and costs are in [comparisons.csv](results/stage1-20261007/report-v2/comparisons.csv) and [the decision](results/stage1-20261007/report-v2/decision.json). Technical halves are not independent cultures, dose features are not chemical descriptors, and baseline-only predictions are a separate information contract. The next justified work is qualifying crossed-state data with independent cultures and sealed globally held pairs, using [the screen specification](configs/datasets/crossed-context-screen-spec.json).
+The studies consumed **631.67 aggregate study seconds**, with peak process working set **1.06 GB**, on reused CPU float64 dependencies; the available RTX 4060 was not used for fitting. Exact comparisons, paired diagnostic intervals, exclusions, component accounting, training trajectories and costs are in [comparisons.csv](results/stage1-20261007/report-v2/comparisons.csv) and [the decision](results/stage1-20261007/report-v2/decision.json). Technical halves are not independent cultures, dose features are not chemical descriptors, and baseline-only predictions are a separate information contract. At that study cutoff, the next justified biological work was qualifying crossed-state data with independent cultures and sealed globally held pairs, using [the screen specification](configs/datasets/crossed-context-screen-spec.json).
 
 ### Registered dose development
 
