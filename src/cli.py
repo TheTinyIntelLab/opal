@@ -61,6 +61,7 @@ def main(argv=None):
             p.add_argument('--menu', required=True)
         elif command == 'series-predict':
             p.add_argument('--checkpoint', required=True)
+            p.add_argument('--array-store', help='Relocated content-addressed array directory, when used by the checkpoint')
         else:
             p.add_argument('--freeze', required=True)
             p.add_argument('--outcomes', required=True, help='Evaluator-only NPZ responses')

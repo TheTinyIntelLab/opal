@@ -1,13 +1,13 @@
 """Opal research implementation. No biological checkpoint is bundled."""
-__version__ = "0.1.2"
+__version__ = "0.1.3.dev0"
 
-def load_model(path):
+def load_model(path, *, array_store=None):
     from pathlib import Path
     from .artifacts import read_json
     path = Path(path)
     if (path / 'model.json').exists() and (path / 'integrity.json').exists():
         from .series import OpalBase
-        return OpalBase.load(path)
+        return OpalBase.load(path, array_store=array_store)
     schema = read_json(path / 'manifest.json').get('schema')
     if schema == 'opal-dose-reference-v1':
         from .state.models import DoseReference

@@ -69,7 +69,7 @@ def validate_contract(contract, dimensions):
     if (len(contract['genes']) != dimensions or len(set(contract['genes'])) != dimensions
             or not all(isinstance(g, str) and g for g in contract['genes'])
             or contract['units'] not in {'log2_library_10000_change', 'deposited_log_change',
-                                         'synthetic_expression_change'}
+                                         'synthetic_expression_change', 'normalized_count_change'}
             or any(not contract[k] for k in required - {'genes'})):
         raise ValueError('Invalid assay scale, genes or reference contract')
     # Access declarations must already use globally canonical resolved IDs.
@@ -191,6 +191,9 @@ class OpalBase:
         return bank
 
     def fit(self, development, contract):
+        if self.settings.get('architecture_id') == 'symmetric-bilinear-nested-memory':
+            from .series_bilinear import fit
+            return fit(self, development, contract)
         bank = self._prepare(development, contract)
         self.selection = select(bank, self.menu)
         self.config = self.selection['reference']
@@ -212,9 +215,15 @@ class OpalBase:
         return x
 
     def _base(self, query):
+        if getattr(self, 'cycle', 1) == 2:
+            from .series_bilinear import predict_reference
+            return predict_reference(self.config, self.fitted['reference'], query)
         return predict_candidate(self.config, self.expert, query)
 
     def support(self, query):
+        if getattr(self, 'cycle', 1) == 2:
+            from .series_bilinear import support
+            return support(self.fitted['support'], query)
         degrees = np.asarray([[self.degrees.get(c, 0) for c in json.loads(p)]
                               for p in query['pair_ids']])
         z = (query['singles'] - self.input_mean) / self.input_scale
@@ -228,6 +237,9 @@ class OpalBase:
         return features, supported
 
     def predict(self, query, contract):
+        if getattr(self, 'cycle', 1) == 2:
+            from .series_bilinear import predict
+            return predict(self, query, contract)
         x = self._query(query, contract)
         _, supported = self.support(x)
         return self._result(x, self._base(x), supported, np.zeros(len(x['pair_ids'])))
@@ -245,6 +257,9 @@ class OpalBase:
                                'gate_is_uncertainty': False}}
 
     def save(self, directory):
+        if getattr(self, 'cycle', 1) == 2:
+            from .series_bilinear import save
+            return save(self, directory)
         path = Path(directory)
         path.mkdir(parents=True, exist_ok=False)
         arrays = {'train_profiles': self.train_profiles, 'input_mean': self.input_mean, 'input_scale': self.input_scale}
@@ -277,12 +292,15 @@ class OpalBase:
         return path
 
     @classmethod
-    def load(cls, directory):
+    def load(cls, directory, array_store=None):
         path = Path(directory)
         receipt = read_json(path / 'integrity.json')
         if receipt != {'model_sha256': sha256(path / 'model.json'), 'parameters_sha256': sha256(path / 'parameters.npz')}:
             raise ValueError('Checkpoint integrity mismatch')
         meta = read_json(path / 'model.json')
+        if meta.get('format_version') == 2 and meta.get('model') in MODEL_REGISTRY:
+            from .series_bilinear import load
+            return load(path, meta, array_store=array_store)
         if meta['format_version'] != 1 or meta['model'] not in MODEL_REGISTRY:
             raise ValueError('Unknown checkpoint format/model')
         model = MODEL_REGISTRY[meta['model']](meta['settings'], meta['menu'])
@@ -320,6 +338,9 @@ class OpalInteraction(OpalBase):
     name = 'Opal-Interaction'
 
     def fit(self, development, contract):
+        if self.settings.get('architecture_id') == 'symmetric-bilinear-nested-memory':
+            from .series_bilinear import fit
+            return fit(self, development, contract)
         bank = self._prepare(development, contract)
         train, val = check_partition(bank, self.settings['minimum_partition_pairs'])
         self.selection = select(bank, self.menu)
@@ -352,10 +373,16 @@ class OpalInteraction(OpalBase):
         return self
 
     def _interaction(self, query):
+        if getattr(self, 'cycle', 1) == 2:
+            from .series_bilinear import predict_branch
+            return predict_branch(self.fitted['branch'], self.config, self.fitted['reference'], query)
         with torch.no_grad():
             return self.branch(tensor((query['singles'] - self.input_mean) / self.input_scale)).numpy()
 
     def predict(self, query, contract):
+        if getattr(self, 'cycle', 1) == 2:
+            from .series_bilinear import predict
+            return predict(self, query, contract)
         x = self._query(query, contract)
         _, supported = self.support(x)
         residual = self._interaction(x)
@@ -377,6 +404,9 @@ class OpalGuard(OpalInteraction):
     name = 'Opal-Guard'
 
     def fit(self, development, contract):
+        if self.settings.get('architecture_id') == 'symmetric-bilinear-nested-memory':
+            from .series_bilinear import fit
+            return fit(self, development, contract)
         bank = self._prepare(development, contract)
         pairs = sorted(set(bank['pair_ids']))
         order = np.random.default_rng(self.settings['training_seed']).permutation(pairs)
@@ -461,6 +491,9 @@ class OpalGuard(OpalInteraction):
         return {'penalty': penalty, 'selected_epoch': best_epoch, 'validation_mse': best, 'history': history}
 
     def predict(self, query, contract):
+        if getattr(self, 'cycle', 1) == 2:
+            from .series_bilinear import predict
+            return predict(self, query, contract)
         x = self._query(query, contract)
         features, supported = self.support(x)
         with torch.no_grad():
@@ -498,7 +531,8 @@ def freeze_predictions(directory, model, query, contract):
     path = Path(directory)
     path.mkdir(parents=True, exist_ok=False)
     result = model.predict(query, contract)
-    if 'held_pair_ids' in model.contract:
+    deployment = model.contract.get('checkpoint_role') == 'all-development deployment refit after scoring'
+    if 'held_pair_ids' in model.contract and not deployment:
         pairs = set(result['pair_ids'])
         if (pairs - set(model.contract['held_pair_ids'])
                 or pairs & set(model.access['fitting_and_selection_pair_ids'])):
@@ -509,6 +543,11 @@ def freeze_predictions(directory, model, query, contract):
                 'contract_hash': fingerprint(contract), 'contract': contract,
                 'prediction_sha256': sha256(path / 'predictions.npz'), 'provenance': result['provenance'],
                 'status': result['status']}
+    if deployment:
+        manifest['prediction_role'] = 'deployment inference; no retrospective evaluation score'
+    for key in ('expert_weights', 'neighbor_attribution', 'expert_availability', 'reference_family', 'architecture_id'):
+        if key in result:
+            manifest[key] = result[key].tolist() if isinstance(result[key], np.ndarray) else result[key]
     write_json(path / 'freeze.json', manifest)
     return result
 
@@ -516,6 +555,11 @@ def freeze_predictions(directory, model, query, contract):
 def evaluate_predictions(directory, query, contract, outcomes):
     path = Path(directory)
     freeze = read_json(path / 'freeze.json')
+    deployment_role = 'all-development deployment refit after scoring'
+    if (freeze.get('prediction_role') == 'deployment inference; no retrospective evaluation score'
+            or contract.get('checkpoint_role') == deployment_role
+            or freeze.get('provenance', {}).get('checkpoint_role') == deployment_role):
+        raise ValueError('Deployment predictions are not frozen evaluation fits')
     if (freeze['query_hash'] != array_hash(*(np.asarray(query[k]) for k in sorted(query)))
             or freeze['contract_hash'] != fingerprint(contract)
             or freeze['prediction_sha256'] != sha256(path / 'predictions.npz')):
@@ -551,7 +595,7 @@ def series_cli(args):
         model.save(args.output)
         return {'checkpoint': str(args.output), 'model': args.model, 'fit_hash': model.fit_hash}
     if args.command == 'series-predict':
-        model = OpalBase.load(args.checkpoint)
+        model = OpalBase.load(args.checkpoint, array_store=getattr(args, 'array_store', None))
         result = freeze_predictions(args.output, model, bank, contract)
         return {'freeze': str(args.output), 'model': model.name, 'status': result['status']}
     with np.load(args.outcomes, allow_pickle=False) as file:
