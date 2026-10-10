@@ -1,0 +1,3918 @@
+{
+  "checkpoint_diagnostics": [
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 145180,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 0,
+        "fitted_response_coefficient_values": 512,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "id": "response-mean",
+        "kind": "response_mean",
+        "role": "reference"
+      },
+      "reference_family": "response_mean",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep1",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 151508,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 0,
+        "fitted_response_coefficient_values": 512,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "id": "response-mean",
+        "kind": "response_mean",
+        "role": "reference"
+      },
+      "reference_family": "response_mean",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep1",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 2097810,
+      "correction_rank": 125,
+      "correction_rms": 0.12632607198183732,
+      "correction_to_base_norm": 0.07301462707228466,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        0.7506663122318122,
+        0.0,
+        0.24933368776818807
+      ],
+      "model": "Opal-Guard",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 127488,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 12,
+        "fitted_response_coefficient_values": 533,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "id": "response-mean",
+        "kind": "response_mean",
+        "role": "reference"
+      },
+      "reference_family": "response_mean",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep1",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": 0.05788895141314789,
+      "checkpoint_bytes": 145322,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 0,
+        "fitted_response_coefficient_values": 513,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 0.1,
+        "id": "affine-0.1",
+        "kind": "affine",
+        "role": "reference"
+      },
+      "reference_family": "affine",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep1",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": 0.05788895141314789,
+      "checkpoint_bytes": 227971,
+      "correction_rank": 4,
+      "correction_rms": 0.00659758114859616,
+      "correction_to_base_norm": 0.003807956271564427,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 9758,
+        "fitted_response_coefficient_values": 557,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 0.1,
+        "id": "affine-0.1",
+        "kind": "affine",
+        "role": "reference"
+      },
+      "reference_family": "affine",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep1",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": 0.05788895141314789,
+      "checkpoint_bytes": 2172222,
+      "correction_rank": 125,
+      "correction_rms": 0.14931526738435064,
+      "correction_to_base_norm": 0.08618097997893388,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        0.7897546531550695,
+        0.0,
+        0.21024534684493063
+      ],
+      "model": "Opal-Guard",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 127488,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 9770,
+        "fitted_response_coefficient_values": 578,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 0.1,
+        "id": "affine-0.1",
+        "kind": "affine",
+        "role": "reference"
+      },
+      "reference_family": "affine",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep1",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": 0.053345569727391545,
+      "checkpoint_bytes": 145411,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 124,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 0,
+        "fitted_response_coefficient_values": 513,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 0.1,
+        "id": "affine-0.1",
+        "kind": "affine",
+        "role": "reference"
+      },
+      "reference_family": "affine",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep1",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": 0.053345569727391545,
+      "checkpoint_bytes": 423626,
+      "correction_rank": 8,
+      "correction_rms": 0.018779332936158296,
+      "correction_to_base_norm": 0.01090607033711082,
+      "held_rows": 124,
+      "mean_expert_weights": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 27244,
+        "fitted_response_coefficient_values": 809,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 0.1,
+        "id": "affine-0.1",
+        "kind": "affine",
+        "role": "reference"
+      },
+      "reference_family": "affine",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep1",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": 0.053345569727391545,
+      "checkpoint_bytes": 2285133,
+      "correction_rank": 124,
+      "correction_rms": 0.16378635211658257,
+      "correction_to_base_norm": 0.09511868619161225,
+      "held_rows": 124,
+      "mean_expert_weights": [
+        0.6876401054211788,
+        0.0,
+        0.312359894578821
+      ],
+      "model": "Opal-Guard",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 128000,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 27256,
+        "fitted_response_coefficient_values": 830,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 0.1,
+        "id": "affine-0.1",
+        "kind": "affine",
+        "role": "reference"
+      },
+      "reference_family": "affine",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep1",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": 0.053218181204420734,
+      "checkpoint_bytes": 127693,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 0,
+        "fitted_response_coefficient_values": 513,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 0.1,
+        "id": "affine-0.1",
+        "kind": "affine",
+        "role": "reference"
+      },
+      "reference_family": "affine",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep2",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": 0.053218181204420734,
+      "checkpoint_bytes": 128861,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 0,
+        "fitted_response_coefficient_values": 513,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 0.1,
+        "id": "affine-0.1",
+        "kind": "affine",
+        "role": "reference"
+      },
+      "reference_family": "affine",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep2",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": 0.053218181204420734,
+      "checkpoint_bytes": 1499758,
+      "correction_rank": 125,
+      "correction_rms": 0.09850328196124142,
+      "correction_to_base_norm": 0.0484767420015909,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        0.8131233367933234,
+        0.0,
+        0.18687666320667684
+      ],
+      "model": "Opal-Guard",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 127488,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 12,
+        "fitted_response_coefficient_values": 534,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 0.1,
+        "id": "affine-0.1",
+        "kind": "affine",
+        "role": "reference"
+      },
+      "reference_family": "affine",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep2",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": 0.05541277224943224,
+      "checkpoint_bytes": 127765,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 0,
+        "fitted_response_coefficient_values": 513,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 0.1,
+        "id": "affine-0.1",
+        "kind": "affine",
+        "role": "reference"
+      },
+      "reference_family": "affine",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep2",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": 0.05541277224943224,
+      "checkpoint_bytes": 227831,
+      "correction_rank": 8,
+      "correction_rms": 0.015777502625419635,
+      "correction_to_base_norm": 0.0077653946314787115,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 11806,
+        "fitted_response_coefficient_values": 601,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 0.1,
+        "id": "affine-0.1",
+        "kind": "affine",
+        "role": "reference"
+      },
+      "reference_family": "affine",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep2",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": 0.05541277224943224,
+      "checkpoint_bytes": 1603426,
+      "correction_rank": 125,
+      "correction_rms": 0.10161026548918675,
+      "correction_to_base_norm": 0.050010691100225435,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        0.8071937193164775,
+        0.0,
+        0.19280628068352226
+      ],
+      "model": "Opal-Guard",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 127488,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 11818,
+        "fitted_response_coefficient_values": 622,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 0.1,
+        "id": "affine-0.1",
+        "kind": "affine",
+        "role": "reference"
+      },
+      "reference_family": "affine",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep2",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 163473,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 124,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep2",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 164641,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 124,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep2",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 1667927,
+      "correction_rank": 124,
+      "correction_rms": 0.1106551317382212,
+      "correction_to_base_norm": 0.054126516360551845,
+      "held_rows": 124,
+      "mean_expert_weights": [
+        0.79106164224788,
+        0.0,
+        0.20893835775211997
+      ],
+      "model": "Opal-Guard",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 128000,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2572,
+        "fitted_response_coefficient_values": 2581,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep2",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 166583,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 205885,
+      "correction_rank": 4,
+      "correction_rms": 0.011963010352486104,
+      "correction_to_base_norm": 0.006162369577983791,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7238,
+        "fitted_response_coefficient_values": 2604,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 1524215,
+      "correction_rank": 125,
+      "correction_rms": 0.19512607893989498,
+      "correction_to_base_norm": 0.10051307967652023,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        0.6287547499634996,
+        0.0,
+        0.3712452500365002
+      ],
+      "model": "Opal-Guard",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 127488,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7250,
+        "fitted_response_coefficient_values": 2625,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 166651,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 205887,
+      "correction_rank": 4,
+      "correction_rms": 0.06109327209492763,
+      "correction_to_base_norm": 0.03119459729415166,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7238,
+        "fitted_response_coefficient_values": 2604,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 1607822,
+      "correction_rank": 125,
+      "correction_rms": 0.0977342371136874,
+      "correction_to_base_norm": 0.049903697478756226,
+      "held_rows": 125,
+      "mean_expert_weights": [
+        0.8160547893382758,
+        0.0,
+        0.1839452106617244
+      ],
+      "model": "Opal-Guard",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 127488,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7250,
+        "fitted_response_coefficient_values": 2625,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 166742,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 124,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 205995,
+      "correction_rank": 4,
+      "correction_rms": 0.06153125649431847,
+      "correction_to_base_norm": 0.03144860975389056,
+      "held_rows": 124,
+      "mean_expert_weights": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7238,
+        "fitted_response_coefficient_values": 2604,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 1727772,
+      "correction_rank": 122,
+      "correction_rms": 0.11419704959162899,
+      "correction_to_base_norm": 0.05836608339022681,
+      "held_rows": 124,
+      "mean_expert_weights": [
+        0.7808274738768342,
+        0.0,
+        0.21917252612316565
+      ],
+      "model": "Opal-Guard",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 128000,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7250,
+        "fitted_response_coefficient_values": 2625,
+        "support_reference_values": 18432
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "combi-seq",
+      "stratum": "rep3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 152830,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 37,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "3",
+      "unsupported_fraction": 0.02702702702702703
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 232687,
+      "correction_rank": 4,
+      "correction_rms": 0.013704499264811952,
+      "correction_to_base_norm": 0.05591187631748381,
+      "held_rows": 37,
+      "mean_expert_weights": [
+        0.02702702702702703,
+        0.972972972972973,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7238,
+        "fitted_response_coefficient_values": 2604,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "3",
+      "unsupported_fraction": 0.02702702702702703
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 1214314,
+      "correction_rank": 36,
+      "correction_rms": 0.041158097299560895,
+      "correction_to_base_norm": 0.16791758686030248,
+      "held_rows": 37,
+      "mean_expert_weights": [
+        0.5679726288077304,
+        0.0,
+        0.43202737119226975
+      ],
+      "model": "Opal-Guard",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 36352,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7250,
+        "fitted_response_coefficient_values": 2625,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "3",
+      "unsupported_fraction": 0.02702702702702703
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 156872,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 35,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 202293,
+      "correction_rank": 4,
+      "correction_rms": 0.004980557806249784,
+      "correction_to_base_norm": 0.018933881193866,
+      "held_rows": 35,
+      "mean_expert_weights": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7238,
+        "fitted_response_coefficient_values": 2604,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 1214222,
+      "correction_rank": 35,
+      "correction_rms": 0.03762151631773824,
+      "correction_to_base_norm": 0.143020390085484,
+      "held_rows": 35,
+      "mean_expert_weights": [
+        0.5698466393174382,
+        0.0,
+        0.4301533606825619
+      ],
+      "model": "Opal-Guard",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 37376,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7250,
+        "fitted_response_coefficient_values": 2625,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 156783,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 36,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 163458,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 36,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 1162329,
+      "correction_rank": 36,
+      "correction_rms": 0.03879474610701611,
+      "correction_to_base_norm": 0.16171645514881405,
+      "held_rows": 36,
+      "mean_expert_weights": [
+        0.6000550053690786,
+        0.0,
+        0.3999449946309215
+      ],
+      "model": "Opal-Guard",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 36864,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2572,
+        "fitted_response_coefficient_values": 2581,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "3",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 152778,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 37,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "5",
+      "unsupported_fraction": 0.02702702702702703
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 198218,
+      "correction_rank": 4,
+      "correction_rms": 0.006576702911324104,
+      "correction_to_base_norm": 0.02554368356747201,
+      "held_rows": 37,
+      "mean_expert_weights": [
+        0.02702702702702703,
+        0.972972972972973,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7238,
+        "fitted_response_coefficient_values": 2604,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "5",
+      "unsupported_fraction": 0.02702702702702703
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 1177005,
+      "correction_rank": 36,
+      "correction_rms": 0.03873680497449805,
+      "correction_to_base_norm": 0.1504523926388275,
+      "held_rows": 37,
+      "mean_expert_weights": [
+        0.5514685521701593,
+        0.0,
+        0.4485314478298408
+      ],
+      "model": "Opal-Guard",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 36352,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7250,
+        "fitted_response_coefficient_values": 2625,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "5",
+      "unsupported_fraction": 0.02702702702702703
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 156818,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 35,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "5",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 202267,
+      "correction_rank": 4,
+      "correction_rms": 0.004536942478264086,
+      "correction_to_base_norm": 0.017273526041863264,
+      "held_rows": 35,
+      "mean_expert_weights": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7238,
+        "fitted_response_coefficient_values": 2604,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "5",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 1221967,
+      "correction_rank": 35,
+      "correction_rms": 0.039785800446652676,
+      "correction_to_base_norm": 0.1514766967851399,
+      "held_rows": 35,
+      "mean_expert_weights": [
+        0.5332943812402028,
+        0.0,
+        0.46670561875979727
+      ],
+      "model": "Opal-Guard",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 37376,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7250,
+        "fitted_response_coefficient_values": 2625,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "5",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 156750,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 36,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "5",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 163427,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 36,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "5",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 1163015,
+      "correction_rank": 36,
+      "correction_rms": 0.039719639123956166,
+      "correction_to_base_norm": 0.16781622971614352,
+      "held_rows": 36,
+      "mean_expert_weights": [
+        0.5922475585836676,
+        0.0,
+        0.4077524414163324
+      ],
+      "model": "Opal-Guard",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 36864,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2572,
+        "fitted_response_coefficient_values": 2581,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "5",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 152808,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 37,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "6",
+      "unsupported_fraction": 0.02702702702702703
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 198249,
+      "correction_rank": 4,
+      "correction_rms": 0.008118465129552738,
+      "correction_to_base_norm": 0.03193336995297405,
+      "held_rows": 37,
+      "mean_expert_weights": [
+        0.02702702702702703,
+        0.972972972972973,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7238,
+        "fitted_response_coefficient_values": 2604,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "6",
+      "unsupported_fraction": 0.02702702702702703
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 1185138,
+      "correction_rank": 36,
+      "correction_rms": 0.03748329594258312,
+      "correction_to_base_norm": 0.14743771603256997,
+      "held_rows": 37,
+      "mean_expert_weights": [
+        0.5739066720848349,
+        0.0,
+        0.4260933279151652
+      ],
+      "model": "Opal-Guard",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 36352,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7250,
+        "fitted_response_coefficient_values": 2625,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "6",
+      "unsupported_fraction": 0.02702702702702703
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 156879,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 35,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "6",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 202327,
+      "correction_rank": 4,
+      "correction_rms": 0.00456778445625877,
+      "correction_to_base_norm": 0.017753689708551318,
+      "held_rows": 35,
+      "mean_expert_weights": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7238,
+        "fitted_response_coefficient_values": 2604,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "6",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 1222123,
+      "correction_rank": 35,
+      "correction_rms": 0.03642150159689723,
+      "correction_to_base_norm": 0.14156010299146832,
+      "held_rows": 35,
+      "mean_expert_weights": [
+        0.5938193140819265,
+        0.0,
+        0.40618068591807327
+      ],
+      "model": "Opal-Guard",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 37376,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 7250,
+        "fitted_response_coefficient_values": 2625,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "6",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 149177,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 36,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "6",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 150286,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 36,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "6",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 792073,
+      "correction_rank": 36,
+      "correction_rms": 0.03213457760456235,
+      "correction_to_base_norm": 0.13646745132959653,
+      "held_rows": 36,
+      "mean_expert_weights": [
+        0.6420365395029086,
+        0.0,
+        0.35796346049709127
+      ],
+      "model": "Opal-Guard",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 36864,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2572,
+        "fitted_response_coefficient_values": 2581,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "6",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 145129,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 37,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "7",
+      "unsupported_fraction": 0.02702702702702703
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 146217,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 37,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "7",
+      "unsupported_fraction": 0.02702702702702703
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 764945,
+      "correction_rank": 36,
+      "correction_rms": 0.038215440740122696,
+      "correction_to_base_norm": 0.16036166479844083,
+      "held_rows": 37,
+      "mean_expert_weights": [
+        0.5744946828151571,
+        0.0,
+        0.42550531718484297
+      ],
+      "model": "Opal-Guard",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 36352,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2572,
+        "fitted_response_coefficient_values": 2581,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "7",
+      "unsupported_fraction": 0.02702702702702703
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 149160,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 35,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "7",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 150265,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 35,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "7",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 802663,
+      "correction_rank": 35,
+      "correction_rms": 0.035471704114827945,
+      "correction_to_base_norm": 0.14063491431330155,
+      "held_rows": 35,
+      "mean_expert_weights": [
+        0.5945466598366522,
+        0.0,
+        0.40545334016334783
+      ],
+      "model": "Opal-Guard",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 37376,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2572,
+        "fitted_response_coefficient_values": 2581,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "7",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 149093,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 36,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "7",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 150186,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 36,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "7",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 792124,
+      "correction_rank": 36,
+      "correction_rms": 0.03587494754552608,
+      "correction_to_base_norm": 0.15524429601693862,
+      "held_rows": 36,
+      "mean_expert_weights": [
+        0.5987385636052891,
+        0.0,
+        0.401261436394711
+      ],
+      "model": "Opal-Guard",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 36864,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2572,
+        "fitted_response_coefficient_values": 2581,
+        "support_reference_values": 9728
+      },
+      "reference_configuration": {
+        "alpha": 1,
+        "id": "sum-pca-4-1",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-positive",
+      "stratum": "7",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 96658,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 15,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 0,
+        "fitted_response_coefficient_values": 512,
+        "support_reference_values": 8192
+      },
+      "reference_configuration": {
+        "id": "response-mean",
+        "kind": "response_mean",
+        "role": "reference"
+      },
+      "reference_family": "response_mean",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "1",
+      "unsupported_fraction": 0.2
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 97576,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 15,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 0,
+        "fitted_response_coefficient_values": 512,
+        "support_reference_values": 8192
+      },
+      "reference_configuration": {
+        "id": "response-mean",
+        "kind": "response_mean",
+        "role": "reference"
+      },
+      "reference_family": "response_mean",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "1",
+      "unsupported_fraction": 0.2
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 427670,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 15,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Guard",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 18944,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 12,
+        "fitted_response_coefficient_values": 533,
+        "support_reference_values": 8192
+      },
+      "reference_configuration": {
+        "id": "response-mean",
+        "kind": "response_mean",
+        "role": "reference"
+      },
+      "reference_family": "response_mean",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "1",
+      "unsupported_fraction": 0.2
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 100003,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 19,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 0,
+        "fitted_response_coefficient_values": 0,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "id": "null",
+        "kind": "no_change",
+        "role": "reference"
+      },
+      "reference_family": "no_change",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "1",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 100994,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 19,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 0,
+        "fitted_response_coefficient_values": 0,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "id": "null",
+        "kind": "no_change",
+        "role": "reference"
+      },
+      "reference_family": "no_change",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "1",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 101481,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 19,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Guard",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 0,
+        "fitted_response_coefficient_values": 0,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "id": "null",
+        "kind": "no_change",
+        "role": "reference"
+      },
+      "reference_family": "no_change",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "1",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 136686,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 18,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 8704
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "1",
+      "unsupported_fraction": 0.16666666666666666
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 137603,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 18,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 8704
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "1",
+      "unsupported_fraction": 0.16666666666666666
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 451374,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 18,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Guard",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 17408,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2572,
+        "fitted_response_coefficient_values": 2581,
+        "support_reference_values": 8704
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "1",
+      "unsupported_fraction": 0.16666666666666666
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 96722,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 15,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 0,
+        "fitted_response_coefficient_values": 512,
+        "support_reference_values": 8192
+      },
+      "reference_configuration": {
+        "id": "response-mean",
+        "kind": "response_mean",
+        "role": "reference"
+      },
+      "reference_family": "response_mean",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "2",
+      "unsupported_fraction": 0.2
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 97641,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 15,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 0,
+        "fitted_response_coefficient_values": 512,
+        "support_reference_values": 8192
+      },
+      "reference_configuration": {
+        "id": "response-mean",
+        "kind": "response_mean",
+        "role": "reference"
+      },
+      "reference_family": "response_mean",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "2",
+      "unsupported_fraction": 0.2
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 427632,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 15,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Guard",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 18944,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 12,
+        "fitted_response_coefficient_values": 533,
+        "support_reference_values": 8192
+      },
+      "reference_configuration": {
+        "id": "response-mean",
+        "kind": "response_mean",
+        "role": "reference"
+      },
+      "reference_family": "response_mean",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "2",
+      "unsupported_fraction": 0.2
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 140438,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 19,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "2",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 141438,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 19,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "2",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 141928,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 19,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Guard",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "2",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 168033,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 18,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4608,
+        "fitted_response_coefficient_values": 4608,
+        "support_reference_values": 8704
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "2",
+      "unsupported_fraction": 0.16666666666666666
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 168956,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 18,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4608,
+        "fitted_response_coefficient_values": 4608,
+        "support_reference_values": 8704
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "2",
+      "unsupported_fraction": 0.16666666666666666
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 482783,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 18,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Guard",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 17408,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4620,
+        "fitted_response_coefficient_values": 4629,
+        "support_reference_values": 8704
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "2",
+      "unsupported_fraction": 0.16666666666666666
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 164264,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 15,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4608,
+        "fitted_response_coefficient_values": 4608,
+        "support_reference_values": 8192
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "4",
+      "unsupported_fraction": 0.2
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 165189,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 15,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4608,
+        "fitted_response_coefficient_values": 4608,
+        "support_reference_values": 8192
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "4",
+      "unsupported_fraction": 0.2
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 494923,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 15,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Guard",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 18944,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4620,
+        "fitted_response_coefficient_values": 4629,
+        "support_reference_values": 8192
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "4",
+      "unsupported_fraction": 0.2
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 171866,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 19,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4608,
+        "fitted_response_coefficient_values": 4608,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "4",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 172864,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 19,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4608,
+        "fitted_response_coefficient_values": 4608,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "4",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 173354,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 19,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Guard",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4608,
+        "fitted_response_coefficient_values": 4608,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "4",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 168027,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 18,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4608,
+        "fitted_response_coefficient_values": 4608,
+        "support_reference_values": 8704
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "4",
+      "unsupported_fraction": 0.16666666666666666
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 168953,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 18,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4608,
+        "fitted_response_coefficient_values": 4608,
+        "support_reference_values": 8704
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "4",
+      "unsupported_fraction": 0.16666666666666666
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 482871,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 18,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Guard",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 17408,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4620,
+        "fitted_response_coefficient_values": 4629,
+        "support_reference_values": 8704
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "4",
+      "unsupported_fraction": 0.16666666666666666
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 132933,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 15,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 8192
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "8",
+      "unsupported_fraction": 0.2
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 133857,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 15,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 8192
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "8",
+      "unsupported_fraction": 0.2
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 463844,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 15,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Guard",
+      "outer": 0,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 18944,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2572,
+        "fitted_response_coefficient_values": 2581,
+        "support_reference_values": 8192
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "8",
+      "unsupported_fraction": 0.2
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 140505,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 19,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "8",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 141501,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 19,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "8",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 141991,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 19,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Guard",
+      "outer": 1,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 2560,
+        "fitted_response_coefficient_values": 2560,
+        "support_reference_values": 9216
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "8",
+      "unsupported_fraction": 0.0
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 168036,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 18,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Base",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4608,
+        "fitted_response_coefficient_values": 4608,
+        "support_reference_values": 8704
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "8",
+      "unsupported_fraction": 0.16666666666666666
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 168953,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 18,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Interaction",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 0,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4608,
+        "fitted_response_coefficient_values": 4608,
+        "support_reference_values": 8704
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "8",
+      "unsupported_fraction": 0.16666666666666666
+    },
+    {
+      "affine_gamma": null,
+      "checkpoint_bytes": 483257,
+      "correction_rank": 0,
+      "correction_rms": 0.0,
+      "correction_to_base_norm": 0.0,
+      "held_rows": 18,
+      "mean_expert_weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "model": "Opal-Guard",
+      "outer": 2,
+      "parameter_counts": {
+        "acquired_residual_memory_values": 17408,
+        "counting_rule": "Coefficient/intercept values separate from PCA/SVD/projection/scales and stored acquired references/residuals",
+        "fitted_representation_values": 4620,
+        "fitted_response_coefficient_values": 4629,
+        "support_reference_values": 8704
+      },
+      "reference_configuration": {
+        "alpha": 10,
+        "id": "sum-pca-8-10",
+        "kind": "sum_pca",
+        "rank": 8,
+        "role": "reference"
+      },
+      "reference_family": "sum_pca",
+      "shared_array_store": null,
+      "source": "TNFA-negative",
+      "stratum": "8",
+      "unsupported_fraction": 0.16666666666666666
+    }
+  ],
+  "default_promotion_passed": false,
+  "frontier_competitiveness_passed": false,
+  "missing_native_training_ram_prevents_complete_efficiency_claim": true,
+  "native_adapted": {
+    "CPA": {
+      "TNFA-negative": {
+        "classification": "protocol adaptation; not full author configuration",
+        "cpu_seconds": 428.15625,
+        "folds": 12,
+        "mse": 0.07173061894118295,
+        "parameter_count_range": [
+          239848,
+          239848
+        ],
+        "training_ram": null,
+        "wall_seconds_sum": 368.18900000004214
+      },
+      "TNFA-positive": {
+        "classification": "protocol adaptation; not full author configuration",
+        "cpu_seconds": 567.75,
+        "folds": 12,
+        "mse": 0.11322576748994725,
+        "parameter_count_range": [
+          112650,
+          112650
+        ],
+        "training_ram": null,
+        "wall_seconds_sum": 505.2830000000249
+      }
+    },
+    "GEARS": {
+      "TNFA-negative": {
+        "classification": "protocol adaptation; not full author configuration",
+        "cpu_seconds": 53.71875,
+        "folds": 12,
+        "mse": 0.07955249273080314,
+        "parameter_count_range": [
+          213952,
+          516480
+        ],
+        "training_ram": null,
+        "wall_seconds_sum": 53.79599999994389
+      },
+      "TNFA-positive": {
+        "classification": "protocol adaptation; not full author configuration",
+        "cpu_seconds": 87.9375,
+        "folds": 12,
+        "mse": 0.09397838951250367,
+        "parameter_count_range": [
+          214016,
+          214016
+        ],
+        "training_ram": null,
+        "wall_seconds_sum": 88.45300000003772
+      }
+    },
+    "PertSpectra": {
+      "TNFA-negative": {
+        "classification": "protocol adaptation; not full author configuration",
+        "cpu_seconds": 137.75,
+        "folds": 12,
+        "mse": 0.1269280529673305,
+        "parameter_count_range": [
+          11533,
+          23353
+        ],
+        "training_ram": null,
+        "wall_seconds_sum": 137.9539999999688
+      },
+      "TNFA-positive": {
+        "classification": "protocol adaptation; not full author configuration",
+        "cpu_seconds": 242.203125,
+        "folds": 12,
+        "mse": 0.18232585251208866,
+        "parameter_count_range": [
+          23393,
+          23393
+        ],
+        "training_ram": null,
+        "wall_seconds_sum": 242.65499999999884
+      }
+    }
+  },
+  "paired_changes": {
+    "TNFA-negative": {
+      "Opal-Guard": {
+        "better_fraction": 0.0,
+        "independent_pair_inference": false,
+        "quantiles": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rows": 208
+      },
+      "Opal-Interaction": {
+        "better_fraction": 0.0,
+        "independent_pair_inference": false,
+        "quantiles": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rows": 208
+      }
+    },
+    "TNFA-positive": {
+      "Opal-Guard": {
+        "better_fraction": 0.3333333333333333,
+        "independent_pair_inference": false,
+        "quantiles": [
+          -0.007041676507913347,
+          -0.000426635535393273,
+          0.0005989726082280544,
+          0.0016590777637263132,
+          0.006919072652344593
+        ],
+        "rows": 432
+      },
+      "Opal-Interaction": {
+        "better_fraction": 0.2916666666666667,
+        "independent_pair_inference": false,
+        "quantiles": [
+          -0.004051521638942832,
+          -3.0324879174554314e-05,
+          0.0,
+          0.0,
+          0.004069141829936396
+        ],
+        "rows": 432
+      }
+    },
+    "combi-seq": {
+      "Opal-Guard": {
+        "better_fraction": 0.48484848484848486,
+        "independent_pair_inference": false,
+        "quantiles": [
+          -0.13862995137390555,
+          -0.015952109742822018,
+          0.001301642957985516,
+          0.01955179193661838,
+          0.11901682067864217
+        ],
+        "rows": 1122
+      },
+      "Opal-Interaction": {
+        "better_fraction": 0.3859180035650624,
+        "independent_pair_inference": false,
+        "quantiles": [
+          -0.1807020111150186,
+          -0.0017915747688315165,
+          0.0,
+          0.0003599593073755347,
+          0.07604130088678329
+        ],
+        "rows": 1122
+      }
+    }
+  },
+  "primary": {
+    "TNFA-negative": {
+      "Opal-Base": {
+        "centered_pearson_mean": null,
+        "mae": 0.20969453155538914,
+        "mse": 0.07121801481070246,
+        "retrieval_mean_rank": 9.110576923076923
+      },
+      "Opal-Guard": {
+        "centered_pearson_mean": null,
+        "mae": 0.20969453155538914,
+        "mse": 0.07121801481070246,
+        "retrieval_mean_rank": 9.110576923076923
+      },
+      "Opal-Interaction": {
+        "centered_pearson_mean": null,
+        "mae": 0.20969453155538914,
+        "mse": 0.07121801481070246,
+        "retrieval_mean_rank": 9.110576923076923
+      },
+      "additivity": {
+        "centered_pearson_mean": 0.1978546057235407,
+        "mae": 0.2424446813872566,
+        "mse": 0.09444332327574022,
+        "retrieval_mean_rank": 7.980769230769231
+      },
+      "base-alone": {
+        "centered_pearson_mean": null,
+        "mae": null,
+        "mse": null,
+        "retrieval_mean_rank": null
+      },
+      "constant-mixture": {
+        "centered_pearson_mean": null,
+        "mae": null,
+        "mse": null,
+        "retrieval_mean_rank": null
+      },
+      "cross-factor-cross-fitted": {
+        "centered_pearson_mean": 0.21664014241236668,
+        "mae": 0.21283746936002226,
+        "mse": 0.07349238613171859,
+        "retrieval_mean_rank": 9.110576923076922
+      },
+      "cross-factor-in-sample": {
+        "centered_pearson_mean": 0.22160208185429142,
+        "mae": 0.21183173503986885,
+        "mse": 0.07278405020002712,
+        "retrieval_mean_rank": 9.057692307692307
+      },
+      "diagonal-cross-fitted": {
+        "centered_pearson_mean": 0.2259951613700672,
+        "mae": 0.2117456839952539,
+        "mse": 0.0727053640489146,
+        "retrieval_mean_rank": 9.120192307692308
+      },
+      "diagonal-in-sample": {
+        "centered_pearson_mean": 0.2282910736503525,
+        "mae": 0.21073331619522417,
+        "mse": 0.07200809794671104,
+        "retrieval_mean_rank": 9.091346153846153
+      },
+      "equal-mixture": {
+        "centered_pearson_mean": null,
+        "mae": null,
+        "mse": null,
+        "retrieval_mean_rank": null
+      },
+      "historical-candidate": {
+        "centered_pearson_mean": 0.20038115914798985,
+        "mae": 0.22543630074662013,
+        "mse": 0.08205586687979091,
+        "retrieval_mean_rank": 7.735576923076923
+      },
+      "historical-reference": {
+        "centered_pearson_mean": 0.19857999164598483,
+        "mae": 0.2257977519957206,
+        "mse": 0.08227939996581157,
+        "retrieval_mean_rank": 7.740384615384615
+      },
+      "matched-main-effect": {
+        "centered_pearson_mean": 0.24614635608705449,
+        "mae": 0.21038277552782356,
+        "mse": 0.07159599067894051,
+        "retrieval_mean_rank": 8.495192307692308
+      },
+      "no-change": {
+        "centered_pearson_mean": null,
+        "mae": 0.21474802753291555,
+        "mse": 0.07509451605005321,
+        "retrieval_mean_rank": 9.25
+      },
+      "retrieval-4": {
+        "centered_pearson_mean": 0.17827548428412193,
+        "mae": 0.23110555716797035,
+        "mse": 0.08612136285460163,
+        "retrieval_mean_rank": 8.26923076923077
+      },
+      "retrieval-8": {
+        "centered_pearson_mean": 0.20985655533382247,
+        "mae": 0.2197536194612401,
+        "mse": 0.0780132698166369,
+        "retrieval_mean_rank": 8.346153846153847
+      },
+      "training-mean": {
+        "centered_pearson_mean": 0.24165459167953893,
+        "mae": 0.20992846447210245,
+        "mse": 0.07136753502114537,
+        "retrieval_mean_rank": 9.25
+      },
+      "zero-branch": {
+        "centered_pearson_mean": null,
+        "mae": 0.20969453155538914,
+        "mse": 0.07121801481070246,
+        "retrieval_mean_rank": 9.110576923076923
+      }
+    },
+    "TNFA-positive": {
+      "Opal-Base": {
+        "centered_pearson_mean": 0.5580696562569605,
+        "mae": 0.21932433161642917,
+        "mse": 0.07778853695848228,
+        "retrieval_mean_rank": 11.032407407407408
+      },
+      "Opal-Guard": {
+        "centered_pearson_mean": 0.5533942965586943,
+        "mae": 0.2201738909420486,
+        "mse": 0.0783597516558637,
+        "retrieval_mean_rank": 10.435185185185185
+      },
+      "Opal-Interaction": {
+        "centered_pearson_mean": 0.5580617362761064,
+        "mae": 0.2192297281830899,
+        "mse": 0.07772331272924336,
+        "retrieval_mean_rank": 11.00925925925926
+      },
+      "additivity": {
+        "centered_pearson_mean": 0.48213352312271973,
+        "mae": 0.24919707838735766,
+        "mse": 0.09990425672474718,
+        "retrieval_mean_rank": 9.099537037037038
+      },
+      "base-alone": {
+        "centered_pearson_mean": 0.5580696562569605,
+        "mae": 0.21932433161642917,
+        "mse": 0.07778853695848228,
+        "retrieval_mean_rank": 11.032407407407408
+      },
+      "constant-mixture": {
+        "centered_pearson_mean": 0.5585128906959919,
+        "mae": 0.21917579088073907,
+        "mse": 0.07768780263423154,
+        "retrieval_mean_rank": 10.92361111111111
+      },
+      "cross-factor-cross-fitted": {
+        "centered_pearson_mean": 0.5522829029979024,
+        "mae": 0.21986065707071942,
+        "mse": 0.07835879701043622,
+        "retrieval_mean_rank": 10.868055555555554
+      },
+      "cross-factor-in-sample": {
+        "centered_pearson_mean": 0.5548576299288328,
+        "mae": 0.21929677163855377,
+        "mse": 0.07792432164187618,
+        "retrieval_mean_rank": 10.868055555555555
+      },
+      "diagonal-cross-fitted": {
+        "centered_pearson_mean": 0.5554709704692902,
+        "mae": 0.2191554433947844,
+        "mse": 0.07778599290245446,
+        "retrieval_mean_rank": 10.912037037037038
+      },
+      "diagonal-in-sample": {
+        "centered_pearson_mean": 0.5567491286074941,
+        "mae": 0.21884532232643145,
+        "mse": 0.07754256738344216,
+        "retrieval_mean_rank": 10.907407407407408
+      },
+      "equal-mixture": {
+        "centered_pearson_mean": 0.5506385092455358,
+        "mae": 0.22076912883667088,
+        "mse": 0.07877409422198715,
+        "retrieval_mean_rank": 10.337962962962962
+      },
+      "historical-candidate": {
+        "centered_pearson_mean": 0.5245779259808836,
+        "mae": 0.22993798550806696,
+        "mse": 0.08513338323535219,
+        "retrieval_mean_rank": 9.064814814814815
+      },
+      "historical-reference": {
+        "centered_pearson_mean": 0.5211874023670348,
+        "mae": 0.23105698939940109,
+        "mse": 0.0859289397936758,
+        "retrieval_mean_rank": 9.113425925925927
+      },
+      "matched-main-effect": {
+        "centered_pearson_mean": 0.5580696562569605,
+        "mae": 0.21932433161642917,
+        "mse": 0.07778853695848228,
+        "retrieval_mean_rank": 11.032407407407408
+      },
+      "memory-alone": {
+        "centered_pearson_mean": 0.5240818065882589,
+        "mae": 0.22778371170822348,
+        "mse": 0.08375653851024278,
+        "retrieval_mean_rank": 9.773148148148147
+      },
+      "no-change": {
+        "centered_pearson_mean": null,
+        "mae": 0.2818917656218183,
+        "mse": 0.1370069063209643,
+        "retrieval_mean_rank": 18.50925925925926
+      },
+      "retrieval-4": {
+        "centered_pearson_mean": 0.48824839137929626,
+        "mae": 0.2395714496778023,
+        "mse": 0.09263744360756312,
+        "retrieval_mean_rank": 9.75
+      },
+      "retrieval-8": {
+        "centered_pearson_mean": 0.5237930451489274,
+        "mae": 0.22785699245666932,
+        "mse": 0.0838227415687541,
+        "retrieval_mean_rank": 9.75925925925926
+      },
+      "training-mean": {
+        "centered_pearson_mean": 0.5331256181162219,
+        "mae": 0.23819102143238072,
+        "mse": 0.09213238440137277,
+        "retrieval_mean_rank": 18.50925925925926
+      },
+      "zero-branch": {
+        "centered_pearson_mean": 0.5580696562569605,
+        "mae": 0.21932433161642917,
+        "mse": 0.07778853695848228,
+        "retrieval_mean_rank": 11.032407407407408
+      }
+    },
+    "combi-seq": {
+      "Opal-Base": {
+        "centered_pearson_mean": 0.709321791113659,
+        "mae": 0.9093462045457644,
+        "mse": 2.1115636913989175,
+        "retrieval_mean_rank": 59.3716577540107
+      },
+      "Opal-Guard": {
+        "centered_pearson_mean": 0.708467682644241,
+        "mae": 0.9047770477386363,
+        "mse": 2.112193859555772,
+        "retrieval_mean_rank": 57.61942959001782
+      },
+      "Opal-Interaction": {
+        "centered_pearson_mean": 0.7094756998478485,
+        "mae": 0.9091803779084757,
+        "mse": 2.1099191584179846,
+        "retrieval_mean_rank": 59.26381461675579
+      },
+      "additivity": {
+        "centered_pearson_mean": 0.585159509664337,
+        "mae": 2.1923636948820477,
+        "mse": 8.993459578429325,
+        "retrieval_mean_rank": 49.75222816399287
+      },
+      "base-alone": {
+        "centered_pearson_mean": 0.709321791113659,
+        "mae": 0.9093462045457644,
+        "mse": 2.1115636913989175,
+        "retrieval_mean_rank": 59.3716577540107
+      },
+      "constant-mixture": {
+        "centered_pearson_mean": 0.7096709951245855,
+        "mae": 0.9071638803782484,
+        "mse": 2.107765178447909,
+        "retrieval_mean_rank": 58.721925133689844
+      },
+      "cross-factor-cross-fitted": {
+        "centered_pearson_mean": 0.7093149351795347,
+        "mae": 0.9084529793720645,
+        "mse": 2.110376957158573,
+        "retrieval_mean_rank": 59.29768270944741
+      },
+      "cross-factor-in-sample": {
+        "centered_pearson_mean": 0.7094153634304402,
+        "mae": 0.9085994029001822,
+        "mse": 2.1097157292292947,
+        "retrieval_mean_rank": 59.201426024955445
+      },
+      "diagonal-cross-fitted": {
+        "centered_pearson_mean": 0.7092916827766559,
+        "mae": 0.9088370594678093,
+        "mse": 2.1110683743878815,
+        "retrieval_mean_rank": 59.35204991087344
+      },
+      "diagonal-in-sample": {
+        "centered_pearson_mean": 0.7093622983138145,
+        "mae": 0.9090020136362353,
+        "mse": 2.110630058392363,
+        "retrieval_mean_rank": 59.31818181818181
+      },
+      "equal-mixture": {
+        "centered_pearson_mean": 0.701708156560832,
+        "mae": 0.9027745375068522,
+        "mse": 2.1502545938346986,
+        "retrieval_mean_rank": 55.898395721925134
+      },
+      "historical-candidate": {
+        "centered_pearson_mean": 0.5028387451743197,
+        "mae": 1.3708172134233092,
+        "mse": 4.388533812951274,
+        "retrieval_mean_rank": 47.67468805704099
+      },
+      "historical-reference": {
+        "centered_pearson_mean": 0.5337748324715001,
+        "mae": 1.2718712650793418,
+        "mse": 3.872699706308451,
+        "retrieval_mean_rank": 46.83244206773619
+      },
+      "matched-main-effect": {
+        "centered_pearson_mean": 0.7082782843569128,
+        "mae": 0.9008325105185442,
+        "mse": 2.105071236934865,
+        "retrieval_mean_rank": 56.35294117647059
+      },
+      "memory-alone": {
+        "centered_pearson_mean": 0.6737074152565902,
+        "mae": 0.9223520414318916,
+        "mse": 2.3377002495715224,
+        "retrieval_mean_rank": 53.38680926916221
+      },
+      "no-change": {
+        "centered_pearson_mean": null,
+        "mae": 1.772279599997371,
+        "mse": 5.71388928713326,
+        "retrieval_mean_rank": 62.83422459893048
+      },
+      "retrieval-4": {
+        "centered_pearson_mean": 0.6437732893555129,
+        "mae": 0.9466590591366084,
+        "mse": 2.5744182219558196,
+        "retrieval_mean_rank": 53.672905525846694
+      },
+      "retrieval-8": {
+        "centered_pearson_mean": 0.677906375308742,
+        "mae": 0.9190248945769977,
+        "mse": 2.309745041347755,
+        "retrieval_mean_rank": 53.259358288770045
+      },
+      "training-mean": {
+        "centered_pearson_mean": 0.708882462400112,
+        "mae": 0.9235146109391924,
+        "mse": 2.1346326332254524,
+        "retrieval_mean_rank": 62.83422459893048
+      },
+      "zero-branch": {
+        "centered_pearson_mean": 0.709321791113659,
+        "mae": 0.9093462045457644,
+        "mse": 2.1115636913989175,
+        "retrieval_mean_rank": 59.3716577540107
+      }
+    }
+  },
+  "primary_costs": {
+    "TNFA-negative": {
+      "conditions": 312,
+      "cpu_seconds": 37.328125,
+      "unique_fit_receipts": 192,
+      "wall_seconds_sum": 42.48704299959354
+    },
+    "TNFA-positive": {
+      "conditions": 312,
+      "cpu_seconds": 162.328125,
+      "unique_fit_receipts": 192,
+      "wall_seconds_sum": 172.9239844000258
+    },
+    "combi-seq": {
+      "conditions": 234,
+      "cpu_seconds": 920.015625,
+      "unique_fit_receipts": 144,
+      "wall_seconds_sum": 929.9641998000734
+    }
+  },
+  "retrospective": {
+    "norman-count": {
+      "Opal-Base": 1.4030142692780307,
+      "Opal-Guard": 1.3330297754875369,
+      "Opal-Interaction": 1.4030142692780307,
+      "additivity": 1.5579245415299277,
+      "constant-mixture": 1.3400404824090204,
+      "matched-main-effect": 1.7800032928178673,
+      "no-change": 6.720261674136406
+    },
+    "norman-log2": {
+      "Opal-Base": 0.0068303844279213825,
+      "Opal-Guard": 0.006613962059030688,
+      "Opal-Interaction": 0.0068303844279213825,
+      "additivity": 0.00827860157062382,
+      "constant-mixture": 0.00665833553496838,
+      "matched-main-effect": 0.008457156393482872,
+      "no-change": 0.020694576608336443
+    },
+    "wessels-count": {
+      "Opal-Base": 0.18686574440899745,
+      "Opal-Guard": 0.18686574440899745,
+      "Opal-Interaction": 0.18686574440899745,
+      "additivity": 0.2643098822463814,
+      "constant-mixture": null,
+      "matched-main-effect": 0.2647335730536821,
+      "no-change": 1.1063294344245995
+    },
+    "wessels-log2": {
+      "Opal-Base": 0.005159477571419738,
+      "Opal-Guard": 0.005159477571419738,
+      "Opal-Interaction": 0.005159477571419738,
+      "additivity": 0.014171394591662913,
+      "constant-mixture": null,
+      "matched-main-effect": 0.005744493052160271,
+      "no-change": 0.015238578107823022
+    }
+  },
+  "unequal_search": "Base 24 references; Interaction 24 plus zero; router 2 k values x 2 penalties and nested refits; native 2 configs plus selected refit"
+}
