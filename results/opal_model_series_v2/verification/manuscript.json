@@ -25,6 +25,7 @@
   "standalone_zip": "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\opal-local-model-series-complete-source.zip",
   "standalone_zip_sha256": "7db7582ecd6439362b25d33bd474f202e3869e3f294fd4b79cbf72e2c42fc351",
   "visual_review": {
+    "final_shifted_montage_sha256": "e31663af983270d2af9296a49979c3459a4c4e7288bdd875ab6f5a56745e4303",
     "findings": "Readable tables and labels; no clipping or overflow. Underfull vbox warnings retained.",
     "method": "rendered existing PyMuPDF, inspected page montages and final cost page",
     "pages": [
@@ -35,8 +36,13 @@
       35,
       36,
       37,
-      38
+      38,
+      39,
+      40,
+      41,
+      42
     ],
+    "shifted_original_figures": "Pages 39-42 inspected after insertion; no clipping or overflow",
     "standalone_attempts": "First exact text check and second retry failed on line-wrap-only differences; both builds preserved. Final NFKC/whitespace/hyphen-normalized comparison passes all 42 pages."
   }
 }
