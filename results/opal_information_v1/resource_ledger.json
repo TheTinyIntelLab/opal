@@ -1,0 +1,50 @@
+{
+  "artifact_bytes": 2923778684,
+  "artifact_cap_bytes": 3000000000,
+  "cpu_core_hours_cap": 24,
+  "cpu_core_hours_observed": 0.12337239583333333,
+  "cpu_seconds_observed_process_tree": 444.140625,
+  "cycle_bytes": 100382948,
+  "double_counting": "Each PID cumulative CPU counted once; embedded stage CPU is not added again. Physical overlapping roots excluded.",
+  "failed_or_incomplete_receipts": [
+    "followup-review-package-verification",
+    "installed-review-python311",
+    "installed-review-python314",
+    "preservation-corrected",
+    "preservation",
+    "reference-summary-extraction-corrected",
+    "reference-summary-extraction",
+    "replay-final-preservation",
+    "summary-extraction-final"
+  ],
+  "free_bytes": {
+    "C": 5515431936,
+    "D": 735821824,
+    "E": 635727872
+  },
+  "gpu_disclosure": "RTX4060 allocated/reserved memory peaks observed; wall time is not GPU kernel/device time.",
+  "gpu_seconds": null,
+  "historical_cpu_complete": null,
+  "historical_native_training_ram": null,
+  "maximum_new_bytes": 120000000,
+  "new_cpu_complete_certification": false,
+  "physical_roots": {
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\build": 373286,
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_information_v1": 5505339,
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_model_series_v2": 18568852,
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\src\\opal_research.egg-info": 0,
+    "C:\\Users\\USER\\Desktop\\opal-information-20261011": 94877609,
+    "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2": 1558749956,
+    "D:\\opal-model-series-20261010-v2": 966296300,
+    "D:\\opal-model-series-20261010-v2-continuation": 279407342
+  },
+  "raw_asset_classification": "Pre-existing cached input explicitly outside inherited artifact ledger; no new raw download/copy.",
+  "raw_existing_asset_bytes": 3142132144,
+  "readonly_volumes": [
+    "D",
+    "E"
+  ],
+  "receipt_count": 65,
+  "reserve_bytes": 1073741824,
+  "unknown_costs": "Bootstrap shell/tool/web work and monitor overhead have no exact CPU counters; sampled last-PID totals can miss final increments and short-lived children. Earlier incomplete launch receipts remain visible. Observed CPU is a lower bound, never a complete total."
+}

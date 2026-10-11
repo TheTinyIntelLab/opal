@@ -1,0 +1,398 @@
+{
+  "commits": "owner authorized small lowercase commits and push; git history is authoritative",
+  "scientific_program_complete": false,
+  "tasks": [
+    {
+      "attempted_actions": "Current inventory and historical evidence hashes preserved",
+      "code_config_hashes": {
+        "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
+        "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
+        "tools/prepare_information.py": "98812a5c19a8e558f44add1bde30d1ea1ad08199d60f886e784df9188dfda491",
+        "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
+      },
+      "comparison_eligible": false,
+      "dependency": "none",
+      "engineering_delivered": true,
+      "id": "P00",
+      "label_access_roles": "exposed development only; no fresh held-expression access",
+      "next_action": "retain Base; no experiment expansion",
+      "outputs": "preservation.json",
+      "owner_role": "local implementation agent",
+      "resource_allowance": {
+        "cpu_core_hours": 24,
+        "retained_bytes": 3000000000
+      },
+      "scientific_verdict": "Current inventory and historical evidence hashes preserved",
+      "source_hashes": {
+        "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"
+      },
+      "status": "complete_verified",
+      "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
+    },
+    {
+      "attempted_actions": "Finite protocol frozen; arithmetic correction documented before any fit",
+      "code_config_hashes": {
+        "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
+        "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
+        "tools/prepare_information.py": "98812a5c19a8e558f44add1bde30d1ea1ad08199d60f886e784df9188dfda491",
+        "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
+      },
+      "comparison_eligible": false,
+      "dependency": "none",
+      "engineering_delivered": true,
+      "id": "P01",
+      "label_access_roles": "exposed development only; no fresh held-expression access",
+      "next_action": "retain Base; no experiment expansion",
+      "outputs": "development/execution_freeze.json",
+      "owner_role": "local implementation agent",
+      "resource_allowance": {
+        "cpu_core_hours": 24,
+        "retained_bytes": 3000000000
+      },
+      "scientific_verdict": "Finite protocol frozen; arithmetic correction documented before any fit",
+      "source_hashes": {
+        "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"
+      },
+      "status": "complete_verified",
+      "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
+    },
+    {
+      "attempted_actions": "Bounded pinned-source/contract repairs complete; native eligibility remains blocked",
+      "code_config_hashes": {
+        "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
+        "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
+        "tools/prepare_information.py": "98812a5c19a8e558f44add1bde30d1ea1ad08199d60f886e784df9188dfda491",
+        "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
+      },
+      "comparison_eligible": false,
+      "dependency": "native_pertspectra,txpert_closure,presage_contract",
+      "engineering_delivered": true,
+      "id": "P02",
+      "label_access_roles": "exposed development only; no fresh held-expression access",
+      "next_action": "native_pertspectra,txpert_closure,presage_contract",
+      "outputs": "comparators/",
+      "owner_role": "local implementation agent",
+      "resource_allowance": {
+        "cpu_core_hours": 24,
+        "retained_bytes": 3000000000
+      },
+      "scientific_verdict": "Bounded pinned-source/contract repairs complete; native eligibility remains blocked",
+      "source_hashes": {
+        "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"
+      },
+      "status": "complete_verified",
+      "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
+    },
+    {
+      "attempted_actions": "Local cards complete; source/independent-unit qualification unavailable",
+      "code_config_hashes": {
+        "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
+        "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
+        "tools/prepare_information.py": "98812a5c19a8e558f44add1bde30d1ea1ad08199d60f886e784df9188dfda491",
+        "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
+      },
+      "comparison_eligible": false,
+      "dependency": "external_qualification",
+      "engineering_delivered": true,
+      "id": "P03",
+      "label_access_roles": "exposed development only; no fresh held-expression access",
+      "next_action": "external_qualification",
+      "outputs": "measurement/ and confirmation/",
+      "owner_role": "local implementation agent",
+      "resource_allowance": {
+        "cpu_core_hours": 24,
+        "retained_bytes": 3000000000
+      },
+      "scientific_verdict": "Local cards complete; source/independent-unit qualification unavailable",
+      "source_hashes": {
+        "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"
+      },
+      "status": "blocked_external",
+      "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
+    },
+    {
+      "attempted_actions": "Rank, shared-anchor and frozen exact/constant/shuffle controls executed; broader secondary diagnostics unexecuted",
+      "code_config_hashes": {
+        "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
+        "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
+        "tools/prepare_information.py": "98812a5c19a8e558f44add1bde30d1ea1ad08199d60f886e784df9188dfda491",
+        "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
+      },
+      "comparison_eligible": false,
+      "dependency": "none",
+      "engineering_delivered": true,
+      "id": "P04",
+      "label_access_roles": "exposed development only; no fresh held-expression access",
+      "next_action": "retain Base; no experiment expansion",
+      "outputs": "diagnostics/",
+      "owner_role": "local implementation agent",
+      "resource_allowance": {
+        "cpu_core_hours": 24,
+        "retained_bytes": 3000000000
+      },
+      "scientific_verdict": "Rank, shared-anchor and frozen exact/constant/shuffle controls executed; broader secondary diagnostics unexecuted",
+      "source_hashes": {
+        "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"
+      },
+      "status": "complete_verified",
+      "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
+    },
+    {
+      "attempted_actions": "Minimal symmetric summary/ridge heads and safe fallback/load contracts implemented",
+      "code_config_hashes": {
+        "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
+        "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
+        "tools/prepare_information.py": "98812a5c19a8e558f44add1bde30d1ea1ad08199d60f886e784df9188dfda491",
+        "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
+      },
+      "comparison_eligible": false,
+      "dependency": "none",
+      "engineering_delivered": true,
+      "id": "P05",
+      "label_access_roles": "exposed development only; no fresh held-expression access",
+      "next_action": "retain Base; no experiment expansion",
+      "outputs": "src/information.py",
+      "owner_role": "local implementation agent",
+      "resource_allowance": {
+        "cpu_core_hours": 24,
+        "retained_bytes": 3000000000
+      },
+      "scientific_verdict": "Minimal symmetric summary/ridge heads and safe fallback/load contracts implemented",
+      "source_hashes": {
+        "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"
+      },
+      "status": "complete_verified",
+      "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
+    },
+    {
+      "attempted_actions": "All96 fold records complete; reference retained; TNF-negative partner support inconclusive",
+      "code_config_hashes": {
+        "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
+        "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
+        "tools/prepare_information.py": "98812a5c19a8e558f44add1bde30d1ea1ad08199d60f886e784df9188dfda491",
+        "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
+      },
+      "comparison_eligible": false,
+      "dependency": "none",
+      "engineering_delivered": true,
+      "id": "P06",
+      "label_access_roles": "exposed development only; no fresh held-expression access",
+      "next_action": "retain Base; no experiment expansion",
+      "outputs": "development/summary.json",
+      "owner_role": "local implementation agent",
+      "resource_allowance": {
+        "cpu_core_hours": 24,
+        "retained_bytes": 3000000000
+      },
+      "scientific_verdict": "All96 fold records complete; reference retained; TNF-negative partner support inconclusive",
+      "source_hashes": {
+        "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"
+      },
+      "status": "complete_negative",
+      "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
+    },
+    {
+      "attempted_actions": "New Opal and three adaptation training/replay profiles; historical RAM still unknown",
+      "code_config_hashes": {
+        "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
+        "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
+        "tools/prepare_information.py": "98812a5c19a8e558f44add1bde30d1ea1ad08199d60f886e784df9188dfda491",
+        "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
+      },
+      "comparison_eligible": false,
+      "dependency": "native_task_matching",
+      "engineering_delivered": true,
+      "id": "P07",
+      "label_access_roles": "exposed development only; no fresh held-expression access",
+      "next_action": "native_task_matching",
+      "outputs": "profiling/ and comparators/",
+      "owner_role": "local implementation agent",
+      "resource_allowance": {
+        "cpu_core_hours": 24,
+        "retained_bytes": 3000000000
+      },
+      "scientific_verdict": "New Opal and three adaptation training/replay profiles; historical RAM still unknown",
+      "source_hashes": {
+        "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"
+      },
+      "status": "complete_verified",
+      "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
+    },
+    {
+      "attempted_actions": "No confirmation opened or scored; dependency/custody handoff complete",
+      "code_config_hashes": {
+        "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
+        "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
+        "tools/prepare_information.py": "98812a5c19a8e558f44add1bde30d1ea1ad08199d60f886e784df9188dfda491",
+        "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
+      },
+      "comparison_eligible": false,
+      "dependency": "external_qualification",
+      "engineering_delivered": true,
+      "id": "P08",
+      "label_access_roles": "exposed development only; no fresh held-expression access",
+      "next_action": "external_qualification",
+      "outputs": "confirmation/",
+      "owner_role": "local implementation agent",
+      "resource_allowance": {
+        "cpu_core_hours": 24,
+        "retained_bytes": 3000000000
+      },
+      "scientific_verdict": "No confirmation opened or scored; dependency/custody handoff complete",
+      "source_hashes": {
+        "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"
+      },
+      "status": "blocked_external",
+      "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
+    },
+    {
+      "attempted_actions": "Local pilot/power protocol delivered; actual independent cultures missing",
+      "code_config_hashes": {
+        "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
+        "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
+        "tools/prepare_information.py": "98812a5c19a8e558f44add1bde30d1ea1ad08199d60f886e784df9188dfda491",
+        "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
+      },
+      "comparison_eligible": false,
+      "dependency": "culture_pilot",
+      "engineering_delivered": true,
+      "id": "P09",
+      "label_access_roles": "exposed development only; no fresh held-expression access",
+      "next_action": "culture_pilot",
+      "outputs": "docs/next_cycle/opal_information_custody_handoff.md",
+      "owner_role": "local implementation agent",
+      "resource_allowance": {
+        "cpu_core_hours": 24,
+        "retained_bytes": 3000000000
+      },
+      "scientific_verdict": "Local pilot/power protocol delivered; actual independent cultures missing",
+      "source_hashes": {
+        "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"
+      },
+      "status": "blocked_external",
+      "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
+    },
+    {
+      "attempted_actions": "Local tests/replay/installed package verified; remote matrix awaits authorized delivery run",
+      "code_config_hashes": {
+        "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
+        "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
+        "tools/prepare_information.py": "98812a5c19a8e558f44add1bde30d1ea1ad08199d60f886e784df9188dfda491",
+        "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
+      },
+      "comparison_eligible": false,
+      "dependency": "remote_ci",
+      "engineering_delivered": true,
+      "id": "P10",
+      "label_access_roles": "exposed development only; no fresh held-expression access",
+      "next_action": "remote_ci",
+      "outputs": "verification/ and receipts/",
+      "owner_role": "local implementation agent",
+      "resource_allowance": {
+        "cpu_core_hours": 24,
+        "retained_bytes": 3000000000
+      },
+      "scientific_verdict": "Local tests/replay/installed package verified; remote matrix awaits authorized delivery run",
+      "source_hashes": {
+        "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"
+      },
+      "status": "complete_verified",
+      "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
+    },
+    {
+      "attempted_actions": "Local report/cards/README/manuscript and review package from saved evidence",
+      "code_config_hashes": {
+        "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
+        "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
+        "tools/prepare_information.py": "98812a5c19a8e558f44add1bde30d1ea1ad08199d60f886e784df9188dfda491",
+        "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
+      },
+      "comparison_eligible": false,
+      "dependency": "redistribution",
+      "engineering_delivered": true,
+      "id": "P11",
+      "label_access_roles": "exposed development only; no fresh held-expression access",
+      "next_action": "redistribution",
+      "outputs": "docs/next_cycle/opal_information_report.md",
+      "owner_role": "local implementation agent",
+      "resource_allowance": {
+        "cpu_core_hours": 24,
+        "retained_bytes": 3000000000
+      },
+      "scientific_verdict": "Local report/cards/README/manuscript and review package from saved evidence",
+      "source_hashes": {
+        "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"
+      },
+      "status": "complete_verified",
+      "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
+    },
+    {
+      "attempted_actions": "Finite local closeout; external scientific program remains open",
+      "code_config_hashes": {
+        "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
+        "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
+        "tools/prepare_information.py": "98812a5c19a8e558f44add1bde30d1ea1ad08199d60f886e784df9188dfda491",
+        "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
+      },
+      "comparison_eligible": false,
+      "dependency": "report/dependencies.json",
+      "engineering_delivered": true,
+      "id": "P12",
+      "label_access_roles": "exposed development only; no fresh held-expression access",
+      "next_action": "report/dependencies.json",
+      "outputs": "resource_ledger.json and task_status.json",
+      "owner_role": "local implementation agent",
+      "resource_allowance": {
+        "cpu_core_hours": 24,
+        "retained_bytes": 3000000000
+      },
+      "scientific_verdict": "Finite local closeout; external scientific program remains open",
+      "source_hashes": {
+        "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"
+      },
+      "status": "complete_verified",
+      "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
+    },
+    {
+      "attempted_actions": "No branch activated",
+      "code_config_hashes": {
+        "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
+        "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
+        "tools/prepare_information.py": "98812a5c19a8e558f44add1bde30d1ea1ad08199d60f886e784df9188dfda491",
+        "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
+      },
+      "comparison_eligible": false,
+      "dependency": "section15 gates",
+      "engineering_delivered": false,
+      "id": "C01",
+      "label_access_roles": "exposed development only; no fresh held-expression access",
+      "next_action": "section15 gates",
+      "outputs": "report/claims.json",
+      "owner_role": "local implementation agent",
+      "resource_allowance": {
+        "cpu_core_hours": 24,
+        "retained_bytes": 3000000000
+      },
+      "scientific_verdict": "No branch activated",
+      "source_hashes": {
+        "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"
+      },
+      "status": "conditional_not_started",
+      "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
+    }
+  ]
+}

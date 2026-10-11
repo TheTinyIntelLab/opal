@@ -1,0 +1,1034 @@
+{
+  "complete_cpu_certification": false,
+  "execution_freeze_sha256": "f918be3c4545d4f3e055f6a2090f3fe8491a13d0af4db9030f0a9b7bf415a1f3",
+  "historical_receipts_modified": false,
+  "label_ledger_sha256": "34b0fffa9d1ab82bcb72891bc06fe67b70a9d40b6013b26b9066661f34e58fbd",
+  "receipts": [
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/audit_information_dependencies.py"
+      ],
+      "end_utc": "2026-10-11T09:24:25.302520+00:00",
+      "id": "bounded-native-dependency-audit",
+      "receipt_sha256": "a99eb45b38c8dc34e3c05a7b213313ce0b19dbf65f4ea4889689ff98e3fe86aa",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:24:10.242159+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/verify_information.py"
+      ],
+      "end_utc": "2026-10-11T09:30:21.854325+00:00",
+      "id": "complete-information-replay",
+      "receipt_sha256": "59a84b13470b23b3f5f9c9b25186fcea2c7f1d26d1cdc2d9c022365ca52959b1",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:30:13.326402+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/audit_information_completion.py"
+      ],
+      "end_utc": "2026-10-11T11:43:27.702742+00:00",
+      "id": "completion-audit-followup",
+      "receipt_sha256": "326c2ff498eb12f3d50087167aa428e52f1b2d1e09bc1b4c326139d2f2a44d8b",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T11:43:24.794557+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv-cpa\\Scripts\\python.exe",
+        "tools/profile_information_comparators.py",
+        "--method",
+        "CPA",
+        "--stage",
+        "replay"
+      ],
+      "end_utc": "2026-10-11T09:24:58.934373+00:00",
+      "id": "cpa-new-replay-profile",
+      "receipt_sha256": "43ca08e239e66bb6dcd5f7433ee3caa6943d04251e373eac7ff190ebaf982944",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:24:53.561645+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv-cpa\\Scripts\\python.exe",
+        "tools/profile_information_comparators.py",
+        "--method",
+        "CPA",
+        "--stage",
+        "training"
+      ],
+      "end_utc": "2026-10-11T09:23:15.017360+00:00",
+      "id": "cpa-new-training-profile",
+      "receipt_sha256": "4bbfdc1a180d04861e2c69a16cb6a43ed21806a317d7c056a40518638e4120f4",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:22:55.657533+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/audit_information_completion.py"
+      ],
+      "end_utc": "2026-10-11T12:57:00.373874+00:00",
+      "id": "delivery-completion-audit",
+      "receipt_sha256": "77f9463a5addd5cdf1b70733c236dddd25a8c3ce7e8532fd7527b5ff41c01210",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T12:56:57.781559+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/verify_information.py"
+      ],
+      "end_utc": "2026-10-11T12:56:57.690761+00:00",
+      "id": "delivery-frozen-replay",
+      "receipt_sha256": "25e74f0f52d1692b337f37e453bb66315b5027d0f54c21d0d3869a2db026c7f3",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T12:56:40.840156+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "end_utc": "2026-10-11T12:54:41.829884+00:00",
+      "id": "delivery-full-tests",
+      "receipt_sha256": "a7d13f3edcea1c902fee7b152d580cd69a5d149dc9b56a8c883ab81edb579870",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T12:53:59.791396+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/check_information_install.py",
+        "--label",
+        "delivery311",
+        "--python",
+        "C:/Users/USER/AppData/Local/Temp/opal-clean-dependencies-q9xfw9b5/environment/Scripts/python.exe",
+        "--package-root",
+        "package-delivery"
+      ],
+      "end_utc": "2026-10-11T12:56:11.011169+00:00",
+      "id": "delivery-installed-python311",
+      "receipt_sha256": "14dedc1cce203fd015d7c42f796ccf9e89edee6786f584a6a19fa91644ec3e35",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T12:55:50.250856+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/check_information_install.py",
+        "--label",
+        "delivery314",
+        "--python",
+        ".venv/Scripts/python.exe",
+        "--package-root",
+        "package-delivery"
+      ],
+      "end_utc": "2026-10-11T12:55:50.157397+00:00",
+      "id": "delivery-installed-python314",
+      "receipt_sha256": "fd1e4f4ba0029bc2776589ece4f7ca44c6147f48fc4c832d6596fcf2a4505ef0",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T12:55:28.962235+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/verify_information_paper.py",
+        "--label",
+        "paper-review-delivery"
+      ],
+      "end_utc": "2026-10-11T12:54:43.412404+00:00",
+      "id": "delivery-manuscript-verification",
+      "receipt_sha256": "29a39003dba1836f10dbdbba371c3a50d93c364ef918f9133e96902d75e70fa7",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T12:54:38.297433+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "build",
+        "--no-isolation",
+        "--outdir",
+        "C:/Users/USER/Desktop/opal-information-20261011/package-delivery"
+      ],
+      "end_utc": "2026-10-11T12:55:18.528166+00:00",
+      "id": "delivery-package-build",
+      "receipt_sha256": "a6503e2659c83ff34f5b405fb7ed4d3e495243989b6053e9d7a67a2c0b277263",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T12:55:11.548537+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "build",
+        "--no-isolation",
+        "--outdir",
+        "C:/Users/USER/Desktop/opal-information-20261011/package-delivery-final"
+      ],
+      "end_utc": "2026-10-11T12:57:20.947076+00:00",
+      "id": "delivery-package-final-build",
+      "receipt_sha256": "13aac4365c1a21fcce93dc4acbffc8ae8ef8ca921131d0f21ac9aed89ef39b74",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T12:57:15.130617+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/close_information_verification.py",
+        "--package-root",
+        "package-delivery-final",
+        "--record",
+        "package_delivery_final"
+      ],
+      "end_utc": "2026-10-11T12:57:23.568536+00:00",
+      "id": "delivery-package-final-check",
+      "receipt_sha256": "8eddfe03f3e9ea1058b3fc0cb2447fe8b618ace979462f2e91ad04f0df1da321",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T12:57:21.033176+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/close_information_verification.py",
+        "--package-root",
+        "package-delivery",
+        "--record",
+        "package_delivery"
+      ],
+      "end_utc": "2026-10-11T12:56:40.751706+00:00",
+      "id": "delivery-package-verification",
+      "receipt_sha256": "42b6253bda83199edba1cf2aec8f9046f0fb5c5a37392503e7be21f56d751de8",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T12:56:38.132285+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/build_paper.py"
+      ],
+      "end_utc": "2026-10-11T12:54:38.208610+00:00",
+      "id": "delivery-paper-build",
+      "receipt_sha256": "166f7662ea1813ea3f98a9e4c312db4c56ace8cbf43d811e17aadc6f27129cdc",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T12:54:35.740345+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/sync_information_plan.py"
+      ],
+      "end_utc": "2026-10-11T12:55:11.463453+00:00",
+      "id": "delivery-plan-sync",
+      "receipt_sha256": "e6a9ccaad35aadc103afb99ed6cea381d9a47150b5d329caf803aeaf4f4ef195",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T12:55:11.223843+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/report_information.py"
+      ],
+      "end_utc": "2026-10-11T12:55:11.138420+00:00",
+      "id": "delivery-report-refresh",
+      "receipt_sha256": "51a5db0765779c0b12c8ab71e6dcde04f0270161cf3ac110ed01b95cf30ee2c6",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T12:55:08.028971+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/run_information.py"
+      ],
+      "end_utc": "2026-10-11T09:21:27.404290+00:00",
+      "id": "finite-development",
+      "receipt_sha256": "56e99b150bd73e7df7eb2b168ba1f0db74ae5ebebd39d3c2c79b0717c463691d",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:19:48.675835+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "tests/test_information.py",
+        "-q"
+      ],
+      "end_utc": "2026-10-11T09:47:14.436532+00:00",
+      "id": "focused-final-receipts",
+      "receipt_sha256": "98500471b51f17ef24d9404ad2338ea8442aadf79256d2d978c30ed22d039d02",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:47:11.536353+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\AppData\\Local\\Temp\\opal-clean-dependencies-q9xfw9b5\\environment\\Scripts\\python.exe",
+        "-c",
+        "import sys;sys.path.insert(0,'C:/Users/USER/Desktop/opal-information-20261011/installed311-complete/package');import pytest;raise SystemExit(pytest.main(['tests/test_information.py','tests/test_model_series.py','tests/test_model_series_bilinear.py','tests/test_replicated_power.py','-q']))"
+      ],
+      "end_utc": "2026-10-11T09:42:34.991177+00:00",
+      "id": "focused-python311",
+      "receipt_sha256": "fb9a5d6fbe6b505bcd506d3f92030aa8be217455b313161566b770b78b59d185",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:42:22.949402+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/sync_information_plan.py"
+      ],
+      "end_utc": "2026-10-11T11:44:50.202569+00:00",
+      "id": "followup-plan-paths",
+      "receipt_sha256": "cf39602cbaba539180485636d3500a8553551257cad707f89ff552ff50dc4882",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T11:44:49.996029+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/report_information.py"
+      ],
+      "end_utc": "2026-10-11T11:44:49.906816+00:00",
+      "id": "followup-report-status",
+      "receipt_sha256": "bf8479ed3dd1a539ce6c384dea767e8313058424e93e6f7c0cd6d36a2f8ec2bd",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T11:44:47.434283+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "build",
+        "--no-isolation",
+        "--outdir",
+        "C:/Users/USER/Desktop/opal-information-20261011/package-followup-corrected"
+      ],
+      "end_utc": "2026-10-11T11:45:42.037802+00:00",
+      "id": "followup-review-package-corrected",
+      "receipt_sha256": "b5d52dc904bac41d933618591756421d6f6cfd79329210f07e0b31aa960e8fba",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T11:45:36.457280+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/close_information_verification.py",
+        "--package-root",
+        "package-followup-corrected",
+        "--record",
+        "package_followup"
+      ],
+      "end_utc": "2026-10-11T11:45:44.536680+00:00",
+      "id": "followup-review-package-verification-corrected",
+      "receipt_sha256": "05c5a7935356cc0bbdc009ad5c79596441e7ff25b9358b746cdb5fa49c7395eb",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T11:45:42.122515+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/close_information_verification.py",
+        "--package-root",
+        "package-followup",
+        "--record",
+        "package_followup"
+      ],
+      "end_utc": "2026-10-11T11:44:59.247276+00:00",
+      "id": "followup-review-package-verification",
+      "receipt_sha256": "81ef4f81576f6eaf043425043468c301809dfb4d97955dabfeeff026617d6681",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T11:44:56.768308+00:00",
+      "status": "failed"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "build",
+        "--no-isolation",
+        "--outdir",
+        "C:/Users/USER/Desktop/opal-information-20261011/package-followup"
+      ],
+      "end_utc": "2026-10-11T11:44:56.685403+00:00",
+      "id": "followup-review-package",
+      "receipt_sha256": "2313f1de65de3578932b05fb6d6bd1a9c77cb28640bc755bedd73056f75ae151",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T11:44:50.285582+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "end_utc": "2026-10-11T09:31:01.411582+00:00",
+      "id": "full-python314-suite",
+      "receipt_sha256": "a33dc2e9f0a50eb018d3f2d661547ac59660f94b61b1cf08cf12aec3074d6dc0",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:30:21.931268+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv-cpa\\Scripts\\python.exe",
+        "tools/profile_information_comparators.py",
+        "--method",
+        "GEARS",
+        "--stage",
+        "replay"
+      ],
+      "end_utc": "2026-10-11T09:22:55.576490+00:00",
+      "id": "gears-new-replay-profile",
+      "receipt_sha256": "af52564cf54b641331cf861c5a0210a340c660d4bb4aa0a53e8bb8f63317d8a4",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:22:48.524898+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv-cpa\\Scripts\\python.exe",
+        "tools/profile_information_comparators.py",
+        "--method",
+        "GEARS",
+        "--stage",
+        "training"
+      ],
+      "end_utc": "2026-10-11T09:22:25.831491+00:00",
+      "id": "gears-new-training-profile",
+      "receipt_sha256": "dad71277e6dedb5122b7b61929b9b93212eda614d44fad10fe7b06dc4d2a96b0",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:22:08.000047+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "tests/test_information.py",
+        "-q"
+      ],
+      "end_utc": "2026-10-11T09:19:44.690656+00:00",
+      "id": "information-focused-tests",
+      "receipt_sha256": "39d6661d2e5a9c316f10dd74e86cd9f04213cbb42b2d3ef51fb50f8c21c4afcb",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:19:41.325374+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/check_information_install.py",
+        "--label",
+        "311-complete",
+        "--python",
+        "C:/Users/USER/AppData/Local/Temp/opal-clean-dependencies-q9xfw9b5/environment/Scripts/python.exe"
+      ],
+      "end_utc": "2026-10-11T09:41:41.978612+00:00",
+      "id": "installed-review-python311-corrected",
+      "receipt_sha256": "2633e5a5e074046d97bdace34480a61a87b638ba2bf704d973cde670c4d38987",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:41:23.115035+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/check_information_install.py",
+        "--label",
+        "311",
+        "--python",
+        "C:/Users/USER/AppData/Local/Temp/opal-clean-dependencies-q9xfw9b5/environment/Scripts/python.exe"
+      ],
+      "end_utc": "2026-10-11T09:40:24.217030+00:00",
+      "id": "installed-review-python311",
+      "receipt_sha256": "034840b6397d19eba20070f42f8a6bb489097e0d3601d0eb3486bdc36d2a22f7",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:40:21.923558+00:00",
+      "status": "failed"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/check_information_install.py",
+        "--label",
+        "314-complete",
+        "--python",
+        "C:/Python314/python.exe"
+      ],
+      "end_utc": "2026-10-11T09:41:23.039872+00:00",
+      "id": "installed-review-python314-corrected",
+      "receipt_sha256": "5851b50bc1b5cc2391b05cd12e69a791e46c0d7535769920613eac8c9c77408d",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:41:02.524590+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/check_information_install.py",
+        "--label",
+        "314",
+        "--python",
+        "C:/Python314/python.exe"
+      ],
+      "end_utc": "2026-10-11T09:40:21.847277+00:00",
+      "id": "installed-review-python314",
+      "receipt_sha256": "67c4837ce47c645eb2e50bd95ee2c402e25248aaf5ca95b46c8c993d719d1b92",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:40:19.990282+00:00",
+      "status": "failed"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "python",
+        "-c",
+        "import json, pathlib, shutil, psutil, hashlib; from tools.measure_information_process import retained; r=pathlib.Path('.'); old=json.loads((r/'results/opal_model_series_v2/verification/final_resources.json').read_text()); roots=list(old['physical_roots'])+['results/opal_information_v1']; sizes=retained(roots); print(json.dumps({'retained':sizes,'total':sum(sizes.values()),'free':{d:shutil.disk_usage(d+':/').free for d in ['C','D','E']},'ram':psutil.virtual_memory()._asdict(),'pdf_sha256':hashlib.sha256((r/'paper/main.pdf').read_bytes()).hexdigest(),'prepared':{k:{a:v for a,v in i.items() if a!='genes'} for k,i in json.loads((r/'results/opal_model_series_v1/pertspectra/access-v4/prepared.json').read_text())['contexts'].items()},'raw_bytes':(r/'data/raw/pertspectra-model-series/inhouse.h5ad').stat().st_size},indent=2))"
+      ],
+      "end_utc": "2026-10-11T09:11:54.952446+00:00",
+      "id": "kickoff-inventory",
+      "receipt_sha256": "014e1cae526140425f3d62f642e5d09353c49477061fc133290bf3946b8b6e4a",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:11:53.589092+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "build",
+        "--no-isolation",
+        "--outdir",
+        "C:/Users/USER/Desktop/opal-information-20261011/package"
+      ],
+      "end_utc": "2026-10-11T09:39:08.804642+00:00",
+      "id": "local-review-package-build",
+      "receipt_sha256": "66f31a30516bf2d9b8c594a05cd223755e91ccc6519b5d3547929d6dc32b8154",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:39:01.674144+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/update_information_paper.py"
+      ],
+      "end_utc": "2026-10-11T09:38:59.054117+00:00",
+      "id": "manuscript-addendum",
+      "receipt_sha256": "0d4a1789320283ec4f3ebb1ecfd4e1b07823af244178e2156c0545d492c6e2be",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:38:56.601974+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/build_paper.py"
+      ],
+      "end_utc": "2026-10-11T09:39:01.597208+00:00",
+      "id": "manuscript-build",
+      "receipt_sha256": "b69a204b96c5de2c748f1b29c844c4dd594132dc7bfcbef0183284e8a5e3e322",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:38:59.130417+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/verify_information_paper.py",
+        "--label",
+        "paper-review-final"
+      ],
+      "end_utc": "2026-10-11T09:46:54.477619+00:00",
+      "id": "manuscript-layout-final",
+      "receipt_sha256": "4dd5ac3660e064ba8a424d224cae4f4236feab102562c3a799b5ceadb99b41a3",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:46:50.194087+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/profile_information_head.py",
+        "--stage",
+        "replay"
+      ],
+      "end_utc": "2026-10-11T09:28:54.160543+00:00",
+      "id": "opal-new-replay-profile",
+      "receipt_sha256": "38d94a1c1f795607ebc72571a14cc4a6b99aa4c7bc9752e5762a180b9408914b",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:28:51.587391+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/profile_information_head.py",
+        "--stage",
+        "training"
+      ],
+      "end_utc": "2026-10-11T09:28:51.509104+00:00",
+      "id": "opal-new-training-profile",
+      "receipt_sha256": "6debcff93fc3890b1ccb1aeea133ec64066b28421b8ec66224db5ac4a8a06bbf",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:28:48.646385+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "build",
+        "--no-isolation",
+        "--outdir",
+        "C:/Users/USER/Desktop/opal-information-20261011/package-final-complete"
+      ],
+      "end_utc": "2026-10-11T09:51:10.591768+00:00",
+      "id": "package-complete-build",
+      "receipt_sha256": "8b551821dc116570cd295d6f5e45d858d49c1eac9b078735eaf9af63ee9af955",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:51:04.951622+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "build",
+        "--no-isolation",
+        "--outdir",
+        "C:/Users/USER/Desktop/opal-information-20261011/package-final"
+      ],
+      "end_utc": "2026-10-11T09:50:10.727200+00:00",
+      "id": "package-final-build",
+      "receipt_sha256": "d829b48ffe3c83f55ec8bf750b1f3454335ba6938b261dd9927f1679737ebe40",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:50:04.986528+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/close_information_verification.py"
+      ],
+      "end_utc": "2026-10-11T09:51:13.160239+00:00",
+      "id": "package-final-verification",
+      "receipt_sha256": "ec7963c2d0f3371d24fcb0799f5ce6260b1f035a8c70bb9d455d6bac95b35b51",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:51:10.680575+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/build_paper.py"
+      ],
+      "end_utc": "2026-10-11T09:46:47.014689+00:00",
+      "id": "paper-build-layout-final",
+      "receipt_sha256": "3a6b9ee86d563a2dd098d13b2bdf91bdd2f322ea6ae897e3f464f0235d11c116",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:46:45.839408+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv-cpa\\Scripts\\python.exe",
+        "tools/profile_information_spectra.py",
+        "--stage",
+        "replay"
+      ],
+      "end_utc": "2026-10-11T09:28:48.569925+00:00",
+      "id": "pertspectra-new-replay-profile",
+      "receipt_sha256": "3a09ffaa43c3e5d3f238b6ed7fdd1122b15fb317a60bcf706698eae71123d26e",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:28:45.027909+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv-cpa\\Scripts\\python.exe",
+        "tools/profile_information_spectra.py",
+        "--stage",
+        "training"
+      ],
+      "end_utc": "2026-10-11T09:27:42.527433+00:00",
+      "id": "pertspectra-new-training-profile",
+      "receipt_sha256": "00ab48e1433fb7e8ada785e73d97434d2f6a777bc6e02cfe8bb97c11e2007ad1",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:27:34.153825+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/inspect_information_native_contracts.py"
+      ],
+      "end_utc": "2026-10-11T09:26:19.154125+00:00",
+      "id": "pinned-graph-naiad-followup",
+      "receipt_sha256": "dcf971cf6ff7bfc2c6e47cc3b6a25f37d0c48cd87a60efb35e117daf974810e5",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:26:15.731414+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/sync_information_plan.py"
+      ],
+      "end_utc": "2026-10-11T09:50:04.901427+00:00",
+      "id": "plan-sync-closeout",
+      "receipt_sha256": "e810d479be72986ea2bcb7c95e054a4fd1413df932a25063d229d25eeaa5ca0c",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:50:04.694225+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-c",
+        "from opal.artifacts import read_json,write_json,sha256; old=read_json('results/opal_information_v1/preparation_freeze.json'); write_json('results/opal_information_v1/preparation_amendment.json',{'prior':old,'reason':'Explicit float64 before normalization fixes float32 in-place rounding caught by mandatory mean-parity check; no fits or scores opened; empty output root retained','new_extraction_sha256':sha256('tools/prepare_information.py'),'new_head_sha256':sha256('src/information.py')})"
+      ],
+      "end_utc": "2026-10-11T09:18:46.441745+00:00",
+      "id": "preparation-amendment",
+      "receipt_sha256": "a262f5c57ca8a4ada67f1e0cdcdbd7d968247027b43ebe194713e131b87afccc",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:18:46.234206+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv-cpa\\Scripts\\python.exe",
+        "tools/check_presage_information_contract.py"
+      ],
+      "end_utc": "2026-10-11T09:26:23.235818+00:00",
+      "id": "presage-pair-contract-fixtures",
+      "receipt_sha256": "250bcbd149a0d82ed424bf109ffd8121d9bc2379ded92c3adccb5cda3ebf3328",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:26:19.233754+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        ".venv/Scripts/python.exe",
+        "-c",
+        "import pathlib,json,subprocess; from opal.artifacts import sha256,write_json; out=pathlib.Path('results/opal_information_v1'); paths=list(pathlib.Path('results/opal_model_series_v1').rglob('*'))+list(pathlib.Path('results/opal_model_series_v2').rglob('*'))+list(pathlib.Path('results/architecture').rglob('*'))+[pathlib.Path('paper/main.pdf')]; records={str(p):sha256(p) for p in paths if p.is_file()}; write_json(out/'preservation.json',{'head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'branch':subprocess.check_output(['git','branch','--show-current'],text=True).strip(),'initial_user_changes':['docs/next_cycle/agent_prompt_model_series_v2.md','docs/next_cycle/model_series_v2_plan.md'],'files':records,'bootstrap_accounting':'Initial read-only shell/tool work before monitor installation has no recoverable exact CPU counter; explicitly unknown, never zero'}); write_json(out/'preparation_freeze.json',{'config_sha256':sha256('configs/experiments/opal_information_v1.json'),'protocol_sha256':sha256('docs/next_cycle/opal_information_protocol.md'),'code':{p:sha256(p) for p in ['src/information.py','tools/prepare_information.py','tools/measure_information_process.py']},'scoring_started':False})"
+      ],
+      "end_utc": null,
+      "id": "preservation-corrected",
+      "receipt_sha256": "1083a727c754bec61439887c07e62ab6adda83045a0851d0510510206cfbda0e",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:16:13.022333+00:00",
+      "status": "launched"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-c",
+        "import pathlib,subprocess; from opal.artifacts import sha256,write_json; out=pathlib.Path('results/opal_information_v1'); paths=list(pathlib.Path('results/opal_model_series_v1').rglob('*'))+list(pathlib.Path('results/opal_model_series_v2').rglob('*'))+list(pathlib.Path('results/architecture').rglob('*'))+[pathlib.Path('paper/main.pdf')]; write_json(out/'preservation.json',{'head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'branch':subprocess.check_output(['git','branch','--show-current'],text=True).strip(),'initial_user_changes':['docs/next_cycle/agent_prompt_model_series_v2.md','docs/next_cycle/model_series_v2_plan.md'],'files':{str(p):sha256(p) for p in paths if p.is_file()},'bootstrap_cpu':'unknown before monitor installation'}); write_json(out/'preparation_freeze.json',{'config_sha256':sha256('configs/experiments/opal_information_v1.json'),'protocol_sha256':sha256('docs/next_cycle/opal_information_protocol.md'),'code':{p:sha256(p) for p in ['src/information.py','tools/prepare_information.py','tools/measure_information_process.py']},'scoring_started':False})"
+      ],
+      "end_utc": "2026-10-11T09:16:37.497419+00:00",
+      "id": "preservation-final",
+      "receipt_sha256": "e9bd7da3ccd618bc2ad5f92d37e1f9e31d163ed10e2dff89f69fba4377c69de4",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:16:30.516630+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "python",
+        "-c",
+        "import pathlib,json,hashlib,subprocess; from tools.prepare_information import OUT; from opal.artifacts import sha256,write_json; paths=list(pathlib.Path('results/opal_model_series_v1').rglob('*'))+list(pathlib.Path('results/opal_model_series_v2').rglob('*'))+list(pathlib.Path('results/architecture').rglob('*'))+[pathlib.Path('paper/main.pdf')]; records={str(p):sha256(p) for p in paths if p.is_file()}; write_json(OUT/'preservation.json',{'head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'branch':subprocess.check_output(['git','branch','--show-current'],text=True).strip(),'initial_user_changes':['docs/next_cycle/agent_prompt_model_series_v2.md','docs/next_cycle/model_series_v2_plan.md'],'files':records,'bootstrap_accounting':'Initial read-only shell/tool work before monitor installation has no recoverable exact CPU counter; explicitly unknown, never zero'}); write_json(OUT/'preparation_freeze.json',{'config_sha256':sha256('configs/experiments/opal_information_v1.json'),'protocol_sha256':sha256('docs/next_cycle/opal_information_protocol.md'),'code':{p:sha256(p) for p in ['src/information.py','tools/prepare_information.py','tools/measure_information_process.py']},'scoring_started':False})"
+      ],
+      "end_utc": "2026-10-11T09:15:48.348604+00:00",
+      "id": "preservation",
+      "receipt_sha256": "9108e445ea0482e67b5b9e721a165d6445ee24153978997624a9ee6468bb4c06",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:15:47.712623+00:00",
+      "status": "failed"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        ".venv/Scripts/python.exe",
+        "tools/prepare_information.py"
+      ],
+      "end_utc": null,
+      "id": "reference-summary-extraction-corrected",
+      "receipt_sha256": "58af8af51c6270a0facb68590f39fc336c68f9850b8c6149d4e69e94728cf4c3",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:16:13.184301+00:00",
+      "status": "launched"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "python",
+        "tools/prepare_information.py"
+      ],
+      "end_utc": "2026-10-11T09:15:48.680587+00:00",
+      "id": "reference-summary-extraction",
+      "receipt_sha256": "88bb3d0cf5d15efda3df776c604e102cf8139bb373cdcc5766aa5bd9a34e9426",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:15:48.425078+00:00",
+      "status": "failed"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/verify_information.py"
+      ],
+      "end_utc": "2026-10-11T09:47:42.460356+00:00",
+      "id": "replay-final-preservation-corrected",
+      "receipt_sha256": "a7c5e8ba6918191f2dfa9b20f0960e1bb6dae8bdba18e97d3f60e2ccb4e0841d",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:47:34.980435+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/verify_information.py"
+      ],
+      "end_utc": "2026-10-11T09:47:25.923467+00:00",
+      "id": "replay-final-preservation",
+      "receipt_sha256": "1e6da93e2aa07d533acf0a5496586d2f5735c73316335e2d4117aa28582eec7e",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:47:18.353482+00:00",
+      "status": "failed"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/report_information.py"
+      ],
+      "end_utc": "2026-10-11T09:49:59.307293+00:00",
+      "id": "report-closeout",
+      "receipt_sha256": "a6ea6fc13826da3851f9f23bbc99d3e1234d17f73c4ec682ebbaa619a20f1d1a",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:49:56.751129+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/report_information.py"
+      ],
+      "end_utc": "2026-10-11T09:36:59.604097+00:00",
+      "id": "report-initial",
+      "receipt_sha256": "2ae25269521e77c987bceee461cf0469eb8a61e7ad2239b7273642213e139bc4",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:36:57.016893+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/audit_information_spectra_metadata.py"
+      ],
+      "end_utc": "2026-10-11T09:49:19.284407+00:00",
+      "id": "spectra-metadata-final",
+      "receipt_sha256": "3049e60b88bcb765b52836fa32306f93021983521ccde25334b286c2971eaf33",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:49:14.732046+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/verify_information_paper.py"
+      ],
+      "end_utc": "2026-10-11T09:42:22.873661+00:00",
+      "id": "standalone-manuscript-verification",
+      "receipt_sha256": "b875b7dc95e67a5edac92b07b89c3c70782aa13edee56470b92d852baf4dca91",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:42:18.362913+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/prepare_information.py"
+      ],
+      "end_utc": "2026-10-11T09:16:46.883733+00:00",
+      "id": "summary-extraction-final",
+      "receipt_sha256": "c9a4c17ef8bd20fc57709a42b92b96e0edcaba5b77982c39e313e604b61064a1",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:16:37.571674+00:00",
+      "status": "failed"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/prepare_information.py"
+      ],
+      "end_utc": "2026-10-11T09:18:56.173955+00:00",
+      "id": "summary-extraction-float64",
+      "receipt_sha256": "12b9ed2d5c8220bca91c138145742c8da1411be6da7320b6635b04cf665ee952",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T09:18:46.517146+00:00",
+      "status": "complete"
+    }
+  ]
+}
