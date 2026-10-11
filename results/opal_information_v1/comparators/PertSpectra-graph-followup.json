@@ -1,0 +1,57 @@
+{
+  "fully_eligible": false,
+  "large_graph_assets_downloaded": false,
+  "outcomes_accessed": false,
+  "records": [
+    {
+      "name": "inhouse-graph",
+      "references": [
+        "data_path = \"s3://pert-spectra/data/inhouse.h5ad\"",
+        "# stringdb prior",
+        "stringdb_hq = read_aws_csv(\"s3://pert-spectra/references/StringDB.HQ.txt\", sep=\"\\t\")",
+        "\"s3://pert-spectra/references/Homo_sapiens.gene_info\", sep=\"\\t\"",
+        "for index, row in stringdb_hq.iterrows():",
+        "# add genes measured in inhouse with no connections found in StringDB",
+        "adata.uns[\"sparse_gene_network\"] = sA"
+      ],
+      "sha256": "6e15fdc8f175bd4329d84131962e0c5844168de0446b5a184590729b6fa0f1ae",
+      "url": "https://raw.githubusercontent.com/insitro/PertSpectra/9c4fbdacdadcb8ca559226170e93e6b61436819c/data_preprocessing/inhouse_prior_graph_preprocessing.ipynb"
+    },
+    {
+      "name": "utils",
+      "references": [
+        "bucket_name, key = s3_url.removeprefix(\"s3://\").split(\"/\", 1)",
+        "adata = ad.read_h5ad(save_path)",
+        "bucket_name, key = s3_url.removeprefix(\"s3://\").split(\"/\", 1)",
+        "df = pd.read_csv(save_path, sep=sep, header=header)",
+        "df = pd.read_csv(",
+        "bucket_name, key = s3_url.removeprefix(\"s3://\").split(\"/\", 1)",
+        "bucket_name, key = s3_url.removeprefix(\"s3://\").split(\"/\", 1)",
+        "bucket_name, key = s3_url.removeprefix(\"s3://\").split(\"/\", 1)",
+        "bucket_name, key = s3_url.removeprefix(\"s3://\").split(\"/\", 1)",
+        "bucket_name, key = s3_url.removeprefix(\"s3://\").split(\"/\", 1)",
+        "bucket_name, key = s3_url.removeprefix(\"s3://\").split(\"/\", 1)",
+        "# Check if the string is 'nan'",
+        "# Check if the string is 'nan'",
+        "def filter_noisy_genes(adata):",
+        "adata.uns[\"sparse_gene_network\"] = sparse.csr_matrix(",
+        "adata.uns[\"sparse_gene_network\"].todense()[relevant_gene_idx][",
+        "go_to_gene = read_aws_pickle(\"s3://pert-spectra/references/GO_to_Gene.pickle\")",
+        "def retrieve_stringdb_neighbors(genes: List = []):",
+        "Use StringDB to retrieve functional neighbors for perturbations",
+        "# retrieve stringdb",
+        "stringdb_s3_url = \"s3://pert-spectra/references/StringDB.HQ.txt\"",
+        "save_path = os.path.join(PERTSPECTRA_DEFAULT_DIR, stringdb_s3_url.split(\"/\")[-1])",
+        "bucket_name, key = stringdb_s3_url.removeprefix(\"s3://\").split(\"/\", 1)",
+        "stringdb_hq = pd.read_csv(save_path, sep=\"\\t\")",
+        "for index, row in stringdb_hq.iterrows():",
+        "gene_sets = read_aws_pickle(\"s3://pert-spectra/references/GO_to_Gene.pickle\")",
+        "\"s3://pert-spectra/references/GO_terms.txt.gz\", zipped=True",
+        "benchmark_sources: list = [\"StringDB\", \"CORUM\"],",
+        "benchmark_data_dir: str = \"s3://pert-spectra/references/recall_datasets/\","
+      ],
+      "sha256": "900bda32d38bc264bacc15c5b4730915c8fa148099ab36a131e30147ee1483c3",
+      "url": "https://raw.githubusercontent.com/insitro/PertSpectra/9c4fbdacdadcb8ca559226170e93e6b61436819c/utils.py"
+    }
+  ]
+}

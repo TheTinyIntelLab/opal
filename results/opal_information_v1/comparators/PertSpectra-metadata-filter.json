@@ -1,0 +1,33 @@
+{
+  "author_50_cell_retained_rows": 65648,
+  "condition_treatment_groups": 554,
+  "deposited_rows": 73015,
+  "excluded_rows": 7367,
+  "expression_read": false,
+  "fully_eligible": false,
+  "graph_asset_head_requests": [
+    {
+      "asset": "StringDB.HQ.txt",
+      "content_length": "153319214",
+      "etag": "\"ee37997cf26b699b1f822cb5f998feb2-19\"",
+      "status": 200,
+      "url": "https://pert-spectra.s3.amazonaws.com/references/StringDB.HQ.txt"
+    },
+    {
+      "asset": "Homo_sapiens.gene_info",
+      "content_length": "34778090",
+      "etag": "\"3e7c4fbf0d65e8fcea5a875d8111b9b6-5\"",
+      "status": 200,
+      "url": "https://pert-spectra.s3.amazonaws.com/references/Homo_sapiens.gene_info"
+    }
+  ],
+  "large_assets_downloaded": false,
+  "matches_reported_filtered_rows": true,
+  "population_changed_for_frozen_study": false,
+  "recipe": "Pinned inhouse_preprocess ctrl/intergenic replacements, ctrl singleton collapse, then condition+Treatment >=50 across SampleIndex",
+  "remaining": "Exact graph asset content hashes/terms/order and author gene/normalization/input-task parity; no native score produced.",
+  "reported_filtered_rows": 65648,
+  "retained_groups": 296,
+  "train_script_sha256": "7f66c3d04a3177c8d245843cfc26c4c5a593c8e2f1697ad1a3756488ef459ef4",
+  "utils_sha256": "900bda32d38bc264bacc15c5b4730915c8fa148099ab36a131e30147ee1483c3"
+}

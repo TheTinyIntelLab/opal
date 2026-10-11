@@ -1,0 +1,39 @@
+{
+  "canonical_graph_present": false,
+  "deposited_rows": 73015,
+  "difference": 7367,
+  "failure": "No exact graph with ordered genes/construction lineage; author 50-cell perturbation-treatment filter differs from original ten-cell population and author log-cell transform differs from log-aggregate endpoint",
+  "fully_eligible": false,
+  "graph_contract_sources": [
+    {
+      "path": "D:\\opal-model-series-20261010-v2\\native\\PertSpectra\\README.md",
+      "sha256": "67f23bd7c3a6331289ac5eae5f1a02509b8c52fcf10bb9a316f72df930542ce4"
+    },
+    {
+      "path": "D:\\opal-model-series-20261010-v2\\native\\PertSpectra\\PertSpectra_training_scripts\\train_PertSpectra_inhouse.py",
+      "sha256": "7f66c3d04a3177c8d245843cfc26c4c5a593c8e2f1697ad1a3756488ef459ef4"
+    },
+    {
+      "path": "D:\\opal-model-series-20261010-v2\\native\\PertSpectra\\PertSpectra_training_scripts\\train_PertSpectra_norman.py",
+      "sha256": "ee8f145ce84328eba096cf9ab4e4a1d7adea4549b8d787a67eb735fb77eb01f8"
+    },
+    {
+      "path": "D:\\opal-model-series-20261010-v2\\native\\PertSpectra\\PertSpectra_training_scripts\\train_PertSpectra_replogle.py",
+      "sha256": "d548fc1f9c8573d0a1e6f6e8f87b7af59044daae4ecc919069e917dd7383b22d"
+    }
+  ],
+  "next_action": "Supply exact author graph and filtering/normalization manifest; verify graph construction excludes held outcomes. Existing no-graph results remain adaptations.",
+  "primary_source": "https://github.com/insitro/PertSpectra",
+  "released_graph_paths": [
+    "data_preprocessing/inhouse_prior_graph_preprocessing.ipynb",
+    "data_preprocessing/norman_prior_graph_preprocessing.ipynb",
+    "data_preprocessing/replogle_prior_graph_preprocessing.ipynb"
+  ],
+  "reported_filtered_rows": 65648,
+  "status": "blocked_external",
+  "uns_keys": [
+    "metadata",
+    "obsm_annot",
+    "varm_annot"
+  ]
+}

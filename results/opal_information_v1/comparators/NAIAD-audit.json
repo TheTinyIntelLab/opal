@@ -1,0 +1,24 @@
+{
+  "acquisition_branch": "conditional_not_started",
+  "eligibility_failure": "Pinned native heads predict one scalar phenotype; transcriptomic output requires an adaptation.",
+  "fully_eligible": false,
+  "metadata": {
+    "revision": "9207e9e855e865160a196a6989392f6db622b0d6",
+    "url": "https://api.github.com/repos/NeptuneBio/NAIAD/commits/main"
+  },
+  "model_source": {
+    "scalar_head_evidence": [
+      "nn.Linear(self.d_embed, 1)",
+      "nn.Linear(self.d_pheno_hid, 1)",
+      "nn.Linear(self.d_embed // n_heads, 1)",
+      "nn.Linear(self.d_embed, 1)"
+    ],
+    "sha256": "829064ba164f5ffb81b5a8f4d4baa0bb6c1de6d72498ca1d0c6525aa54976059",
+    "status": 200,
+    "url": "https://raw.githubusercontent.com/NeptuneBio/NAIAD/9207e9e855e865160a196a6989392f6db622b0d6/naiad/models.py"
+  },
+  "next_action": "Qualify a transcriptomic multi-output head and matched information adapter before any finite comparison; active learning waits for useful prediction and assay partner.",
+  "revision": "9207e9e855e865160a196a6989392f6db622b0d6",
+  "scores": null,
+  "status": "complete_verified"
+}

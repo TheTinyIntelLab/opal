@@ -1,0 +1,31 @@
+{
+  "fully_eligible": false,
+  "method": "TxPert",
+  "missing_cached_files": [],
+  "pin_sha256": "195c92817a75d55c176ec817f0c1a444285a1690b3859e41120d2b6b3fee50be",
+  "revision": "08d82eea86746b044cf7531f4ec8c5f60e1cb73f",
+  "upstream_modified": false,
+  "verified_cached_files": {
+    "README.md": true,
+    "data/preprocessing_utils.py": true,
+    "gspp/constants.py": true,
+    "gspp/data/data_utils.py": true,
+    "gspp/data/datamodule.py": true,
+    "gspp/data/graphmodule.py": true,
+    "gspp/evaluation.py": true,
+    "gspp/metrics.py": true,
+    "gspp/models/basal_state_models/mlp.py": true,
+    "gspp/models/basal_state_models/moe.py": true,
+    "gspp/models/basal_state_models/vae.py": true,
+    "gspp/models/baselines.py": true,
+    "gspp/models/pert_models/basic_gnn.py": true,
+    "gspp/models/pert_models/exphormer.py": true,
+    "gspp/models/pert_models/hybrid_wrapper.py": true,
+    "gspp/models/pert_models/multi_graph.py": true,
+    "gspp/models/txpert.py": true,
+    "gspp/predictor.py": true,
+    "gspp/utils.py": true,
+    "main.py": true,
+    "pyproject.toml": true
+  }
+}
