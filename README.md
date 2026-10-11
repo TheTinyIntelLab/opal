@@ -26,6 +26,8 @@ Opal **0.1.2** has a [GitHub research release](https://github.com/TheTinyIntelLa
 
 ## 1. Introduction
 
+The [measured-single information study](docs/next_cycle/opal_information_report.md) completed a frozen variance/mean/capacity/shuffle experiment on exposed PertSpectra development data. TNF-positive partner variance gains only 0.231% over Base and loses to matched mean controls; TNF-negative partner heads lack nested support and use Base fallback. The information gate failed, so Base remains the reference and no confirmation or downstream branch advances. New training/replay profiles are available for Opal and three disclosed comparator adaptations; canonical native competitiveness and independent biological confirmation remain unestablished.
+
 Opal predicts the population-mean effect of an unmeasured intervention pair from measurements of each intervention on its own. The primary task requires both singles in the same biological setting and predicts their sum plus a symmetric correction:
 
 ```text

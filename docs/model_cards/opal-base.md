@@ -1,5 +1,7 @@
 # Opal-Base
 
+The [information study](../next_cycle/opal_information_report.md) retains Base after the projected-variance arm failed its frozen development gate. Its new development and profiling checkpoints are separate from historical evaluation and deployment refits. No new native-competitiveness or biological-confirmation claim follows from these results.
+
 ## Current local training cycle
 
 Selects the strongest development-validated reference from 24 main-effect, null, affine-shrinkage and low-rank single-sum configurations. No pair-product features enter this model.
