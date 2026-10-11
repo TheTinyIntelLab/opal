@@ -1,0 +1,1694 @@
+{
+  "arms": {
+    "capacity_mean": {
+      "attempts": [
+        {
+          "config": null,
+          "failures": [],
+          "validation_mse": 0.0625727121701683
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.07203383770547346
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.06448354402193512
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.06165843715993311
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.07914645089693499
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.06643527992931125
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.061683444002737654
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.09039877736929312
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.06715174445302251
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.061756867973688456
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.1042361773251484
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.07052143243334784
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.06191578042349749
+        }
+      ],
+      "checkpoint_bytes": 26689,
+      "chosen": {
+        "alpha": 10,
+        "input_rank": 4,
+        "output_rank": 4
+      },
+      "fallback_rows": 0,
+      "numeric_values": 2148,
+      "refusal": null,
+      "replay_max_abs": 0.0
+    },
+    "mean": {
+      "attempts": [
+        {
+          "config": null,
+          "failures": [],
+          "validation_mse": 0.0625727121701683
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.06742979129047898
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.06286418671428289
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.06159467552564458
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.07250958751451032
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.06371425238557112
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.06157239888884028
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.07580452001153136
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.06381994073663906
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.061521621280680595
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.08642966009630727
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.06568095204392743
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.06155128477267713
+        }
+      ],
+      "checkpoint_bytes": 26683,
+      "chosen": {
+        "alpha": 10,
+        "input_rank": 8,
+        "output_rank": 4
+      },
+      "fallback_rows": 0,
+      "numeric_values": 2148,
+      "refusal": null,
+      "replay_max_abs": 0.0
+    },
+    "shuffle": {
+      "attempts": [
+        {
+          "config": null,
+          "failures": [],
+          "validation_mse": 0.0625727121701683
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.07325875841857803
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.06477286579272974
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.06180770752782517
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.08070671509316861
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.06638641617969704
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.061873486977472025
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.07695016459621924
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.06558283174923334
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.061624672261089225
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.09066410568582085
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.06833897397959207
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.061686508169696085
+        }
+      ],
+      "checkpoint_bytes": 27449,
+      "chosen": {
+        "alpha": 10,
+        "input_rank": 8,
+        "output_rank": 4
+      },
+      "fallback_rows": 0,
+      "numeric_values": 2244,
+      "refusal": null,
+      "replay_max_abs": 0.0
+    },
+    "variance": {
+      "attempts": [
+        {
+          "config": null,
+          "failures": [],
+          "validation_mse": 0.0625727121701683
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.06816177061938945
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.06243199636722849
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.06140031236566227
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.0775812720854151
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.06401134079620978
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.06137004223281964
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.07558638190013668
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.06510068827322057
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [],
+          "validation_mse": 0.0615969188824084
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.08889604471015894
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.06784438997931706
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [],
+          "validation_mse": 0.06168392196566588
+        }
+      ],
+      "checkpoint_bytes": 42882,
+      "chosen": {
+        "alpha": 10,
+        "input_rank": 4,
+        "output_rank": 8
+      },
+      "fallback_rows": 0,
+      "numeric_values": 4264,
+      "refusal": null,
+      "replay_max_abs": 0.0
+    }
+  },
+  "base_selection": {
+    "comparisons": [
+      {
+        "config": {
+          "alpha": 1,
+          "id": "additive",
+          "kind": "additive",
+          "role": "reference"
+        },
+        "validation_mse": 0.5992030765377359
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "shared_offset-0.1",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "validation_mse": 0.21126709186026607
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-1.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "validation_mse": 0.21126709186026607
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-10.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "validation_mse": 0.21126709186026607
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "global-0.1",
+          "kind": "global",
+          "role": "reference"
+        },
+        "validation_mse": 0.14899799330262903
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "global-1.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "validation_mse": 0.19699905462313844
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "global-10.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "validation_mse": 0.20963068741666804
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "single_sum-0.1",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "validation_mse": 0.17871078214956232
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-1.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "validation_mse": 0.20669142259028722
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-10.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "validation_mse": 0.21079037257776778
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "component_additive-0.1",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "validation_mse": 0.13803518741003148
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-1.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "validation_mse": 0.18808197808063432
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-10.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "validation_mse": 0.20835523788733176
+      },
+      {
+        "config": {
+          "id": "null",
+          "kind": "no_change",
+          "role": "reference"
+        },
+        "validation_mse": 0.05560886144423471
+      },
+      {
+        "config": {
+          "id": "response-mean",
+          "kind": "response_mean",
+          "role": "reference"
+        },
+        "validation_mse": 0.053737163255134834
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "affine-0.1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "validation_mse": 0.08061371918294331
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "affine-1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "validation_mse": 0.17437585702366987
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "affine-10",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "validation_mse": 0.2068631351383488
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-4-0.1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "validation_mse": 0.06072318992377387
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-4-1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "validation_mse": 0.058891723666833665
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-4-10",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "validation_mse": 0.05482519462964161
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-8-0.1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "validation_mse": 0.06916242638209334
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-8-1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "validation_mse": 0.06260497274340178
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-8-10",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "validation_mse": 0.05455626217225161
+      }
+    ],
+    "reference": {
+      "id": "response-mean",
+      "kind": "response_mean",
+      "role": "reference"
+    },
+    "search_count": 24,
+    "tie_breaker": "MSE then lexical configuration ID"
+  },
+  "checkpoint": "C:\\Users\\USER\\Desktop\\opal-information-20261011\\evaluation\\TNFA-negative-global_pair-1-4-precision",
+  "checkpoint_total_bytes": 511226,
+  "error_attribution": {
+    "base_error_mse": 0.062295320311142995,
+    "correction_mse": 0.00019249789986553538,
+    "same_anchor_residual_mse_is_response_mse": true,
+    "twice_error_correction": -0.0004273465842752626,
+    "variance_error_mse": 0.06206047162673327
+  },
+  "fold": 1,
+  "held_pair_ids": [
+    "[\"BIRC2\",\"TAB2\"]",
+    "[\"BIRC2\",\"UBE2N\"]",
+    "[\"BIRC3\",\"TRADD\"]",
+    "[\"CHUK\",\"TRADD\"]",
+    "[\"CUL1\",\"RIPK1\"]",
+    "[\"CUL1\",\"TRAF5\"]",
+    "[\"FBXW11\",\"RBCK1\"]",
+    "[\"FBXW11\",\"TAB2\"]",
+    "[\"FBXW11\",\"TRAF5\"]",
+    "[\"IKBKB\",\"TRAF5\"]",
+    "[\"IKBKG\",\"TAB1\"]",
+    "[\"IKBKG\",\"TRAF5\"]",
+    "[\"MAP3K7\",\"TRAF5\"]",
+    "[\"RBCK1\",\"TAB1\"]",
+    "[\"RIPK1\",\"TRADD\"]",
+    "[\"TAB1\",\"TRADD\"]",
+    "[\"TAB2\",\"UBE2N\"]"
+  ],
+  "held_pairs": 17,
+  "id": "TNFA-negative-global_pair-1-4-precision",
+  "independent_cultures": false,
+  "inner_base_selections": [
+    {
+      "comparisons": [
+        {
+          "config": {
+            "alpha": 1,
+            "id": "additive",
+            "kind": "additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.6207138572401325
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "shared_offset-0.1",
+            "kind": "shared_offset",
+            "role": "reference"
+          },
+          "validation_mse": 0.2140276301780981
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "shared_offset-1.0",
+            "kind": "shared_offset",
+            "role": "reference"
+          },
+          "validation_mse": 0.2140276301780981
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "shared_offset-10.0",
+            "kind": "shared_offset",
+            "role": "reference"
+          },
+          "validation_mse": 0.2140276301780981
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "global-0.1",
+            "kind": "global",
+            "role": "reference"
+          },
+          "validation_mse": 0.14489359261807516
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "global-1.0",
+            "kind": "global",
+            "role": "reference"
+          },
+          "validation_mse": 0.19641790121283487
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "global-10.0",
+            "kind": "global",
+            "role": "reference"
+          },
+          "validation_mse": 0.2119532765072363
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "single_sum-0.1",
+            "kind": "single_sum",
+            "role": "reference"
+          },
+          "validation_mse": 0.17582873834266072
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "single_sum-1.0",
+            "kind": "single_sum",
+            "role": "reference"
+          },
+          "validation_mse": 0.2083552354007518
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "single_sum-10.0",
+            "kind": "single_sum",
+            "role": "reference"
+          },
+          "validation_mse": 0.2134318118128017
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "component_additive-0.1",
+            "kind": "component_additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.13442883717160645
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "component_additive-1.0",
+            "kind": "component_additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.18706804919154693
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "component_additive-10.0",
+            "kind": "component_additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.21053043073848987
+        },
+        {
+          "config": {
+            "id": "null",
+            "kind": "no_change",
+            "role": "reference"
+          },
+          "validation_mse": 0.05822858411774493
+        },
+        {
+          "config": {
+            "id": "response-mean",
+            "kind": "response_mean",
+            "role": "reference"
+          },
+          "validation_mse": 0.062074925072156596
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "id": "affine-0.1",
+            "kind": "affine",
+            "role": "reference"
+          },
+          "validation_mse": 0.08781029963359922
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "id": "affine-1",
+            "kind": "affine",
+            "role": "reference"
+          },
+          "validation_mse": 0.17800344756131112
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "id": "affine-10",
+            "kind": "affine",
+            "role": "reference"
+          },
+          "validation_mse": 0.2097128240960662
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "id": "sum-pca-4-0.1",
+            "kind": "sum_pca",
+            "rank": 4,
+            "role": "reference"
+          },
+          "validation_mse": 0.07460927723450604
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "id": "sum-pca-4-1",
+            "kind": "sum_pca",
+            "rank": 4,
+            "role": "reference"
+          },
+          "validation_mse": 0.07170788720658663
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "id": "sum-pca-4-10",
+            "kind": "sum_pca",
+            "rank": 4,
+            "role": "reference"
+          },
+          "validation_mse": 0.0649628210239868
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "id": "sum-pca-8-0.1",
+            "kind": "sum_pca",
+            "rank": 8,
+            "role": "reference"
+          },
+          "validation_mse": 0.0827520363200123
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "id": "sum-pca-8-1",
+            "kind": "sum_pca",
+            "rank": 8,
+            "role": "reference"
+          },
+          "validation_mse": 0.07694402491086869
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "id": "sum-pca-8-10",
+            "kind": "sum_pca",
+            "rank": 8,
+            "role": "reference"
+          },
+          "validation_mse": 0.06542865754673395
+        }
+      ],
+      "reference": {
+        "id": "null",
+        "kind": "no_change",
+        "role": "reference"
+      },
+      "search_count": 24,
+      "tie_breaker": "MSE then lexical configuration ID"
+    },
+    {
+      "comparisons": [
+        {
+          "config": {
+            "alpha": 1,
+            "id": "additive",
+            "kind": "additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.6156722543402586
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "shared_offset-0.1",
+            "kind": "shared_offset",
+            "role": "reference"
+          },
+          "validation_mse": 0.22085522992715473
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "shared_offset-1.0",
+            "kind": "shared_offset",
+            "role": "reference"
+          },
+          "validation_mse": 0.22085522992715473
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "shared_offset-10.0",
+            "kind": "shared_offset",
+            "role": "reference"
+          },
+          "validation_mse": 0.22085522992715473
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "global-0.1",
+            "kind": "global",
+            "role": "reference"
+          },
+          "validation_mse": 0.15305812124640733
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "global-1.0",
+            "kind": "global",
+            "role": "reference"
+          },
+          "validation_mse": 0.20429768850638208
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "global-10.0",
+            "kind": "global",
+            "role": "reference"
+          },
+          "validation_mse": 0.21892741433757668
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "single_sum-0.1",
+            "kind": "single_sum",
+            "role": "reference"
+          },
+          "validation_mse": 0.18389757993491895
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "single_sum-1.0",
+            "kind": "single_sum",
+            "role": "reference"
+          },
+          "validation_mse": 0.21549674465626703
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "single_sum-10.0",
+            "kind": "single_sum",
+            "role": "reference"
+          },
+          "validation_mse": 0.22029433812925941
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "component_additive-0.1",
+            "kind": "component_additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.14200088315269183
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "component_additive-1.0",
+            "kind": "component_additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.19426148434119805
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "component_additive-10.0",
+            "kind": "component_additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.21743744057188158
+        },
+        {
+          "config": {
+            "id": "null",
+            "kind": "no_change",
+            "role": "reference"
+          },
+          "validation_mse": 0.06709396248596311
+        },
+        {
+          "config": {
+            "id": "response-mean",
+            "kind": "response_mean",
+            "role": "reference"
+          },
+          "validation_mse": 0.06664269145557714
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "id": "affine-0.1",
+            "kind": "affine",
+            "role": "reference"
+          },
+          "validation_mse": 0.09415944901249862
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "id": "affine-1",
+            "kind": "affine",
+            "role": "reference"
+          },
+          "validation_mse": 0.18535968005356598
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "id": "affine-10",
+            "kind": "affine",
+            "role": "reference"
+          },
+          "validation_mse": 0.21662503122420507
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "id": "sum-pca-4-0.1",
+            "kind": "sum_pca",
+            "rank": 4,
+            "role": "reference"
+          },
+          "validation_mse": 0.07655457876764746
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "id": "sum-pca-4-1",
+            "kind": "sum_pca",
+            "rank": 4,
+            "role": "reference"
+          },
+          "validation_mse": 0.07445120194319295
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "id": "sum-pca-4-10",
+            "kind": "sum_pca",
+            "rank": 4,
+            "role": "reference"
+          },
+          "validation_mse": 0.06878093795532036
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "id": "sum-pca-8-0.1",
+            "kind": "sum_pca",
+            "rank": 8,
+            "role": "reference"
+          },
+          "validation_mse": 0.08916317961946128
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "id": "sum-pca-8-1",
+            "kind": "sum_pca",
+            "rank": 8,
+            "role": "reference"
+          },
+          "validation_mse": 0.07824293538302585
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "id": "sum-pca-8-10",
+            "kind": "sum_pca",
+            "rank": 8,
+            "role": "reference"
+          },
+          "validation_mse": 0.0683029606317159
+        }
+      ],
+      "reference": {
+        "id": "response-mean",
+        "kind": "response_mean",
+        "role": "reference"
+      },
+      "search_count": 24,
+      "tie_breaker": "MSE then lexical configuration ID"
+    },
+    {
+      "comparisons": [
+        {
+          "config": {
+            "alpha": 1,
+            "id": "additive",
+            "kind": "additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.5992696086928169
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "shared_offset-0.1",
+            "kind": "shared_offset",
+            "role": "reference"
+          },
+          "validation_mse": 0.22146858330514008
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "shared_offset-1.0",
+            "kind": "shared_offset",
+            "role": "reference"
+          },
+          "validation_mse": 0.22146858330514008
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "shared_offset-10.0",
+            "kind": "shared_offset",
+            "role": "reference"
+          },
+          "validation_mse": 0.22146858330514008
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "global-0.1",
+            "kind": "global",
+            "role": "reference"
+          },
+          "validation_mse": 0.15672509562954523
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "global-1.0",
+            "kind": "global",
+            "role": "reference"
+          },
+          "validation_mse": 0.20643542957659447
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "global-10.0",
+            "kind": "global",
+            "role": "reference"
+          },
+          "validation_mse": 0.2197369347824703
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "single_sum-0.1",
+            "kind": "single_sum",
+            "role": "reference"
+          },
+          "validation_mse": 0.18776972436841785
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "single_sum-1.0",
+            "kind": "single_sum",
+            "role": "reference"
+          },
+          "validation_mse": 0.21668023625268598
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "single_sum-10.0",
+            "kind": "single_sum",
+            "role": "reference"
+          },
+          "validation_mse": 0.2209685410120653
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "component_additive-0.1",
+            "kind": "component_additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.14672531196045194
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "component_additive-1.0",
+            "kind": "component_additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.19786927537842108
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "component_additive-10.0",
+            "kind": "component_additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.21845563108489688
+        },
+        {
+          "config": {
+            "id": "null",
+            "kind": "no_change",
+            "role": "reference"
+          },
+          "validation_mse": 0.07208951283036001
+        },
+        {
+          "config": {
+            "id": "response-mean",
+            "kind": "response_mean",
+            "role": "reference"
+          },
+          "validation_mse": 0.068372722504875
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "id": "affine-0.1",
+            "kind": "affine",
+            "role": "reference"
+          },
+          "validation_mse": 0.09557846126564365
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "id": "affine-1",
+            "kind": "affine",
+            "role": "reference"
+          },
+          "validation_mse": 0.18635874454855308
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "id": "affine-10",
+            "kind": "affine",
+            "role": "reference"
+          },
+          "validation_mse": 0.21729069852524946
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "id": "sum-pca-4-0.1",
+            "kind": "sum_pca",
+            "rank": 4,
+            "role": "reference"
+          },
+          "validation_mse": 0.07780649273197122
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "id": "sum-pca-4-1",
+            "kind": "sum_pca",
+            "rank": 4,
+            "role": "reference"
+          },
+          "validation_mse": 0.07528945892574472
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "id": "sum-pca-4-10",
+            "kind": "sum_pca",
+            "rank": 4,
+            "role": "reference"
+          },
+          "validation_mse": 0.06971688639556103
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "id": "sum-pca-8-0.1",
+            "kind": "sum_pca",
+            "rank": 8,
+            "role": "reference"
+          },
+          "validation_mse": 0.09735126461820048
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "id": "sum-pca-8-1",
+            "kind": "sum_pca",
+            "rank": 8,
+            "role": "reference"
+          },
+          "validation_mse": 0.08395103886152501
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "id": "sum-pca-8-10",
+            "kind": "sum_pca",
+            "rank": 8,
+            "role": "reference"
+          },
+          "validation_mse": 0.06987732937243739
+        }
+      ],
+      "reference": {
+        "id": "response-mean",
+        "kind": "response_mean",
+        "role": "reference"
+      },
+      "search_count": 24,
+      "tie_breaker": "MSE then lexical configuration ID"
+    }
+  ],
+  "inner_train_validation_counts": [
+    [
+      23,
+      12
+    ],
+    [
+      23,
+      12
+    ],
+    [
+      24,
+      11
+    ]
+  ],
+  "metric_controls": {
+    "constant": {
+      "centered_pearson_mean": 0.2474127359147042,
+      "correction_rms": 2.15253582929099e-17,
+      "mae": 0.19839540243085746,
+      "mse": 0.062295320311142995,
+      "retrieval_mean_rank": 9.0,
+      "retrieval_pool": 17,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": 3.1573153108904045e-19,
+      "skill_no_change": 0.04685735630586518,
+      "skill_reference": 0.0,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    },
+    "exact": {
+      "centered_pearson_mean": 1.0,
+      "correction_rms": 0.2495903049221724,
+      "mae": 0.0,
+      "mse": 0.0,
+      "retrieval_mean_rank": 1.0,
+      "retrieval_pool": 17,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": -0.004277211953502724,
+      "skill_no_change": 1.0,
+      "skill_reference": 1.0,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    },
+    "identity_shuffle": {
+      "centered_pearson_mean": 0.09097765775970962,
+      "correction_rms": 0.2495903049221724,
+      "mae": 0.2733127297030805,
+      "mse": 0.11878107194619843,
+      "retrieval_mean_rank": 9.058823529411764,
+      "retrieval_pool": 17,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": -0.004277211953502726,
+      "skill_no_change": -0.8173966257842895,
+      "skill_reference": -0.9067414912216387,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    }
+  },
+  "metrics": {
+    "Base": {
+      "centered_pearson_mean": 0.2474127359147042,
+      "correction_rms": 0.0,
+      "mae": 0.19839540243085746,
+      "mse": 0.062295320311142995,
+      "retrieval_mean_rank": 9.0,
+      "retrieval_pool": 17,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": 0.0,
+      "skill_no_change": 0.04685735630586518,
+      "skill_reference": 0.0,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    },
+    "capacity_mean": {
+      "centered_pearson_mean": 0.24988045091524166,
+      "correction_rms": 0.01494715179776975,
+      "mae": 0.19856668502898556,
+      "mse": 0.06229637117592905,
+      "retrieval_mean_rank": 8.705882352941176,
+      "retrieval_pool": 17,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": 0.0002748394243312627,
+      "skill_no_change": 0.04684127766568258,
+      "skill_reference": -1.6869080708081796e-05,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    },
+    "mean": {
+      "centered_pearson_mean": 0.25312768054869755,
+      "correction_rms": 0.012401753179398456,
+      "mae": 0.19803860628901832,
+      "mse": 0.061999173854089026,
+      "retrieval_mean_rank": 8.588235294117647,
+      "retrieval_pool": 17,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": -0.00038073593431597294,
+      "skill_no_change": 0.05138851234755881,
+      "skill_reference": 0.004753911779806552,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    },
+    "shuffle": {
+      "centered_pearson_mean": 0.2532341343474988,
+      "correction_rms": 0.017703545553216737,
+      "mae": 0.19793152817439083,
+      "mse": 0.06193979554757211,
+      "retrieval_mean_rank": 8.588235294117647,
+      "retrieval_pool": 17,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": -0.0012944311416537844,
+      "skill_no_change": 0.05229702354501209,
+      "skill_reference": 0.005707086211213963,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    },
+    "variance": {
+      "centered_pearson_mean": 0.25233138747060607,
+      "correction_rms": 0.01387436124171255,
+      "mae": 0.19803802671325527,
+      "mse": 0.06206047162673327,
+      "retrieval_mean_rank": 8.588235294117647,
+      "retrieval_pool": 17,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": -2.840926715513117e-05,
+      "skill_no_change": 0.050450632571375276,
+      "skill_reference": 0.003769924983718531,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    }
+  },
+  "pair_representation_labels": 0,
+  "precision": true,
+  "prediction_sha256": "e1f833b677f47a2a26cf0d5543846b5cefb4c801bd25c2571453ef6aaaa1d500",
+  "source": "TNFA-negative",
+  "split": "global_pair",
+  "stratum": "4",
+  "train_pair_ids": [
+    "[\"BIRC2\",\"IKBKG\"]",
+    "[\"BIRC2\",\"TRADD\"]",
+    "[\"BIRC2\",\"TRAF5\"]",
+    "[\"BIRC3\",\"IKBKG\"]",
+    "[\"BIRC3\",\"RIPK1\"]",
+    "[\"BIRC3\",\"TRAF5\"]",
+    "[\"BIRC3\",\"UBE2N\"]",
+    "[\"CHUK\",\"TRAF5\"]",
+    "[\"CHUK\",\"UBE2N\"]",
+    "[\"CUL1\",\"TAB1\"]",
+    "[\"CUL1\",\"TRADD\"]",
+    "[\"FBXW11\",\"IKBKG\"]",
+    "[\"FBXW11\",\"NFKBIA\"]",
+    "[\"FBXW11\",\"RIPK1\"]",
+    "[\"FBXW11\",\"TAB1\"]",
+    "[\"FBXW11\",\"TNFRSF1A\"]",
+    "[\"FBXW11\",\"TRADD\"]",
+    "[\"FBXW11\",\"TRAF6\"]",
+    "[\"FBXW11\",\"UBE2N\"]",
+    "[\"IKBKB\",\"UBE2N\"]",
+    "[\"IKBKG\",\"RBCK1\"]",
+    "[\"IKBKG\",\"TAB2\"]",
+    "[\"IKBKG\",\"TRADD\"]",
+    "[\"IKBKG\",\"UBE2N\"]",
+    "[\"MAP3K7\",\"TRADD\"]",
+    "[\"NFKBIA\",\"TAB2\"]",
+    "[\"NFKBIA\",\"UBE2N\"]",
+    "[\"RIPK1\",\"TAB1\"]",
+    "[\"RIPK1\",\"TAB2\"]",
+    "[\"RIPK1\",\"TRAF5\"]",
+    "[\"TAB1\",\"TAB2\"]",
+    "[\"TAB1\",\"TRAF5\"]",
+    "[\"TAB1\",\"UBE2N\"]",
+    "[\"TNFRSF1A\",\"TRADD\"]",
+    "[\"TRADD\",\"UBE2N\"]"
+  ],
+  "training_pairs": 35,
+  "validation_labels_in_budget": true,
+  "wall_seconds": 0.29789969999546884
+}
