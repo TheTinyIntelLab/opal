@@ -1,0 +1,1354 @@
+{
+  "arms": {
+    "capacity_mean": {
+      "attempts": [
+        {
+          "config": null,
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.0797401538715947
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.22316185728183516
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.09907411748191532
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08073119380814242
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.5489460513019969
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.13202644982339468
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.0815161776571376
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.20242307176616206
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.1067319690379511
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08159565438158795
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.38640885213722576
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.1382061107334033
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08259677591506752
+        }
+      ],
+      "checkpoint_bytes": 9081,
+      "chosen": null,
+      "fallback_rows": 0,
+      "numeric_values": 0,
+      "refusal": null,
+      "replay_max_abs": 0.0
+    },
+    "mean": {
+      "attempts": [
+        {
+          "config": null,
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.0797401538715947
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.13484541424484453
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08817832199524152
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.07993314311039075
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.15000188941753112
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08969376598573209
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.0798834201126866
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.15097949642438327
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.09221642097204587
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08015429997475745
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.1777597985969252
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.09521716028738031
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08012882693891181
+        }
+      ],
+      "checkpoint_bytes": 9081,
+      "chosen": null,
+      "fallback_rows": 0,
+      "numeric_values": 0,
+      "refusal": null,
+      "replay_max_abs": 0.0
+    },
+    "shuffle": {
+      "attempts": [
+        {
+          "config": null,
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.0797401538715947
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.11878389501017017
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08494453460294094
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.07990336456955133
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.13431580214581085
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08738154690773259
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.07990664075143487
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.13988159509412476
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.09271857346354732
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08010158677202693
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.17502372438885766
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.09861613047043369
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08030081040412015
+        }
+      ],
+      "checkpoint_bytes": 9081,
+      "chosen": null,
+      "fallback_rows": 0,
+      "numeric_values": 0,
+      "refusal": null,
+      "replay_max_abs": 0.0
+    },
+    "variance": {
+      "attempts": [
+        {
+          "config": null,
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.0797401538715947
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.11914421674049859
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.09078102177881442
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08046278657923958
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.1864911352201184
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.0999288786729558
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 4,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08066187784451964
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.13125954597785836
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.09538702820690914
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 4
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08068191702453642
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.14323187047940247
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.09996577388133578
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "input_rank": 8,
+            "output_rank": 8
+          },
+          "failures": [
+            "Inner split insufficient support",
+            "Inner split insufficient support"
+          ],
+          "validation_mse": 0.08085566111902368
+        }
+      ],
+      "checkpoint_bytes": 9081,
+      "chosen": null,
+      "fallback_rows": 0,
+      "numeric_values": 0,
+      "refusal": null,
+      "replay_max_abs": 0.0
+    }
+  },
+  "base_selection": {
+    "comparisons": [
+      {
+        "config": {
+          "alpha": 1,
+          "id": "additive",
+          "kind": "additive",
+          "role": "reference"
+        },
+        "validation_mse": 0.08571778249313941
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "shared_offset-0.1",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "validation_mse": 0.08797239089246317
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-1.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "validation_mse": 0.08797239089246317
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-10.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "validation_mse": 0.08797239089246317
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "global-0.1",
+          "kind": "global",
+          "role": "reference"
+        },
+        "validation_mse": 0.08663846894156231
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "global-1.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "validation_mse": 0.0858769002383725
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "global-10.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "validation_mse": 0.08769328490412545
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "single_sum-0.1",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "validation_mse": 0.0845782082296345
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-1.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "validation_mse": 0.08726523764343389
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-10.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "validation_mse": 0.08789538473455888
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "component_additive-0.1",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "validation_mse": 0.09246602591172046
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-1.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "validation_mse": 0.08558896651060076
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-10.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "validation_mse": 0.0875790215835617
+      },
+      {
+        "config": {
+          "id": "null",
+          "kind": "no_change",
+          "role": "reference"
+        },
+        "validation_mse": 0.08017225198761659
+      },
+      {
+        "config": {
+          "id": "response-mean",
+          "kind": "response_mean",
+          "role": "reference"
+        },
+        "validation_mse": 0.07809447560572391
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "affine-0.1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "validation_mse": 0.08377526048041625
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "affine-1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "validation_mse": 0.08742481593838948
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "affine-10",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "validation_mse": 0.08791598071110739
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-4-0.1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "validation_mse": 0.08971105231178662
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-4-1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "validation_mse": 0.07845917237118981
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-4-10",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "validation_mse": 0.0770755941007534
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-8-0.1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "validation_mse": 0.09915973033077377
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-8-1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "validation_mse": 0.0799297158342225
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-8-10",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "validation_mse": 0.07685854822045589
+      }
+    ],
+    "reference": {
+      "alpha": 10,
+      "id": "sum-pca-8-10",
+      "kind": "sum_pca",
+      "rank": 8,
+      "role": "reference"
+    },
+    "search_count": 24,
+    "tie_breaker": "MSE then lexical configuration ID"
+  },
+  "checkpoint": "C:\\Users\\USER\\Desktop\\opal-information-20261011\\evaluation\\TNFA-negative-partner-0-8-original",
+  "checkpoint_total_bytes": 802097,
+  "error_attribution": {
+    "base_error_mse": 0.07076666833881744,
+    "correction_mse": 0.0,
+    "same_anchor_residual_mse_is_response_mse": true,
+    "twice_error_correction": 0.0,
+    "variance_error_mse": 0.07076666833881744
+  },
+  "fold": 0,
+  "held_pair_ids": [
+    "[\"BIRC2\",\"IKBKG\"]",
+    "[\"BIRC2\",\"TAB2\"]",
+    "[\"BIRC2\",\"TRADD\"]",
+    "[\"BIRC2\",\"TRAF5\"]",
+    "[\"BIRC2\",\"UBE2N\"]",
+    "[\"BIRC3\",\"IKBKG\"]",
+    "[\"BIRC3\",\"TRAF5\"]",
+    "[\"CHUK\",\"TRAF5\"]",
+    "[\"CUL1\",\"RIPK1\"]",
+    "[\"CUL1\",\"TAB1\"]",
+    "[\"CUL1\",\"TRADD\"]",
+    "[\"CUL1\",\"TRAF5\"]",
+    "[\"FBXW11\",\"IKBKG\"]",
+    "[\"FBXW11\",\"RBCK1\"]",
+    "[\"FBXW11\",\"TAB2\"]",
+    "[\"FBXW11\",\"TRAF5\"]",
+    "[\"IKBKB\",\"TRAF5\"]",
+    "[\"IKBKG\",\"RBCK1\"]",
+    "[\"IKBKG\",\"TAB1\"]",
+    "[\"IKBKG\",\"TAB2\"]",
+    "[\"IKBKG\",\"TRADD\"]",
+    "[\"IKBKG\",\"TRAF5\"]",
+    "[\"IKBKG\",\"UBE2N\"]",
+    "[\"MAP3K7\",\"TRAF5\"]",
+    "[\"NFKBIA\",\"TAB2\"]",
+    "[\"RBCK1\",\"TAB1\"]",
+    "[\"RIPK1\",\"TAB2\"]",
+    "[\"RIPK1\",\"TRAF5\"]",
+    "[\"TAB1\",\"TAB2\"]",
+    "[\"TAB1\",\"TRAF5\"]",
+    "[\"TAB2\",\"UBE2N\"]"
+  ],
+  "held_pairs": 31,
+  "id": "TNFA-negative-partner-0-8-original",
+  "independent_cultures": false,
+  "inner_base_selections": [
+    null,
+    {
+      "comparisons": [
+        {
+          "config": {
+            "alpha": 1,
+            "id": "additive",
+            "kind": "additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.08078436474399628
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "shared_offset-0.1",
+            "kind": "shared_offset",
+            "role": "reference"
+          },
+          "validation_mse": 0.07577613274353213
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "shared_offset-1.0",
+            "kind": "shared_offset",
+            "role": "reference"
+          },
+          "validation_mse": 0.07577613274353213
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "shared_offset-10.0",
+            "kind": "shared_offset",
+            "role": "reference"
+          },
+          "validation_mse": 0.07577613274353213
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "global-0.1",
+            "kind": "global",
+            "role": "reference"
+          },
+          "validation_mse": 0.07521517923845983
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "global-1.0",
+            "kind": "global",
+            "role": "reference"
+          },
+          "validation_mse": 0.07270373368926827
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "global-10.0",
+            "kind": "global",
+            "role": "reference"
+          },
+          "validation_mse": 0.07534429814900058
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "single_sum-0.1",
+            "kind": "single_sum",
+            "role": "reference"
+          },
+          "validation_mse": 0.07108948327113165
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "single_sum-1.0",
+            "kind": "single_sum",
+            "role": "reference"
+          },
+          "validation_mse": 0.07473816952127069
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "single_sum-10.0",
+            "kind": "single_sum",
+            "role": "reference"
+          },
+          "validation_mse": 0.07566204524176862
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "bandwidth": 1.0,
+            "id": "component_additive-0.1",
+            "kind": "component_additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.07988035744348512
+        },
+        {
+          "config": {
+            "alpha": 1.0,
+            "bandwidth": 1.0,
+            "id": "component_additive-1.0",
+            "kind": "component_additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.07222289561659778
+        },
+        {
+          "config": {
+            "alpha": 10.0,
+            "bandwidth": 1.0,
+            "id": "component_additive-10.0",
+            "kind": "component_additive",
+            "role": "reference"
+          },
+          "validation_mse": 0.07521131898415206
+        },
+        {
+          "config": {
+            "id": "null",
+            "kind": "no_change",
+            "role": "reference"
+          },
+          "validation_mse": 0.06833411736672473
+        },
+        {
+          "config": {
+            "id": "response-mean",
+            "kind": "response_mean",
+            "role": "reference"
+          },
+          "validation_mse": 0.0634527886441777
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "id": "affine-0.1",
+            "kind": "affine",
+            "role": "reference"
+          },
+          "validation_mse": 0.07224472635889602
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "id": "affine-1",
+            "kind": "affine",
+            "role": "reference"
+          },
+          "validation_mse": 0.07533968937832937
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "id": "affine-10",
+            "kind": "affine",
+            "role": "reference"
+          },
+          "validation_mse": 0.07573146065995931
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "id": "sum-pca-4-0.1",
+            "kind": "sum_pca",
+            "rank": 4,
+            "role": "reference"
+          },
+          "validation_mse": 0.099223634002197
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "id": "sum-pca-4-1",
+            "kind": "sum_pca",
+            "rank": 4,
+            "role": "reference"
+          },
+          "validation_mse": 0.0711226056036989
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "id": "sum-pca-4-10",
+            "kind": "sum_pca",
+            "rank": 4,
+            "role": "reference"
+          },
+          "validation_mse": 0.0624637546224031
+        },
+        {
+          "config": {
+            "alpha": 0.1,
+            "id": "sum-pca-8-0.1",
+            "kind": "sum_pca",
+            "rank": 8,
+            "role": "reference"
+          },
+          "unavailable": "Input PCA rank 8 requires numerical rank 8; available 7"
+        },
+        {
+          "config": {
+            "alpha": 1,
+            "id": "sum-pca-8-1",
+            "kind": "sum_pca",
+            "rank": 8,
+            "role": "reference"
+          },
+          "unavailable": "Input PCA rank 8 requires numerical rank 8; available 7"
+        },
+        {
+          "config": {
+            "alpha": 10,
+            "id": "sum-pca-8-10",
+            "kind": "sum_pca",
+            "rank": 8,
+            "role": "reference"
+          },
+          "unavailable": "Input PCA rank 8 requires numerical rank 8; available 7"
+        }
+      ],
+      "reference": {
+        "alpha": 10,
+        "id": "sum-pca-4-10",
+        "kind": "sum_pca",
+        "rank": 4,
+        "role": "reference"
+      },
+      "search_count": 24,
+      "tie_breaker": "MSE then lexical configuration ID"
+    },
+    null
+  ],
+  "inner_train_validation_counts": [
+    [
+      8,
+      13
+    ],
+    [
+      13,
+      4
+    ],
+    [
+      7,
+      4
+    ]
+  ],
+  "metric_controls": {
+    "constant": {
+      "centered_pearson_mean": 0.2124451128962337,
+      "correction_rms": 0.014842404435559503,
+      "mae": 0.20989850754521983,
+      "mse": 0.07149142859712203,
+      "retrieval_mean_rank": 16.0,
+      "retrieval_pool": 31,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": 0.0007641152057373667,
+      "skill_no_change": 0.008214948788670684,
+      "skill_reference": -0.010241548391604072,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    },
+    "exact": {
+      "centered_pearson_mean": 1.0,
+      "correction_rms": 0.2660200525126206,
+      "mae": 0.0,
+      "mse": 0.0,
+      "retrieval_mean_rank": 1.0,
+      "retrieval_pool": 31,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": -0.0010335885858461828,
+      "skill_no_change": 1.0,
+      "skill_reference": 1.0,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    },
+    "identity_shuffle": {
+      "centered_pearson_mean": 0.08557587291139292,
+      "correction_rms": 0.2674644683428628,
+      "mae": 0.28765596148339445,
+      "mse": 0.13332412007334976,
+      "retrieval_mean_rank": 15.709677419354838,
+      "retrieval_pool": 31,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": -0.0010335885858461821,
+      "skill_no_change": -0.8495765415432701,
+      "skill_reference": -0.883995999854325,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    }
+  },
+  "metrics": {
+    "Base": {
+      "centered_pearson_mean": 0.2226291092003,
+      "correction_rms": 0.0,
+      "mae": 0.20897297161420086,
+      "mse": 0.07076666833881742,
+      "retrieval_mean_rank": 15.612903225806452,
+      "retrieval_pool": 31,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": 0.0,
+      "skill_no_change": 0.018269390335073243,
+      "skill_reference": 2.220446049250313e-16,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    },
+    "capacity_mean": {
+      "centered_pearson_mean": 0.2226291092003,
+      "correction_rms": 0.0,
+      "mae": 0.20897297161420086,
+      "mse": 0.07076666833881742,
+      "retrieval_mean_rank": 15.612903225806452,
+      "retrieval_pool": 31,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": 0.0,
+      "skill_no_change": 0.018269390335073243,
+      "skill_reference": 2.220446049250313e-16,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    },
+    "mean": {
+      "centered_pearson_mean": 0.2226291092003,
+      "correction_rms": 0.0,
+      "mae": 0.20897297161420086,
+      "mse": 0.07076666833881742,
+      "retrieval_mean_rank": 15.612903225806452,
+      "retrieval_pool": 31,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": 0.0,
+      "skill_no_change": 0.018269390335073243,
+      "skill_reference": 2.220446049250313e-16,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    },
+    "shuffle": {
+      "centered_pearson_mean": 0.2226291092003,
+      "correction_rms": 0.0,
+      "mae": 0.20897297161420086,
+      "mse": 0.07076666833881742,
+      "retrieval_mean_rank": 15.612903225806452,
+      "retrieval_pool": 31,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": 0.0,
+      "skill_no_change": 0.018269390335073243,
+      "skill_reference": 2.220446049250313e-16,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    },
+    "variance": {
+      "centered_pearson_mean": 0.2226291092003,
+      "correction_rms": 0.0,
+      "mae": 0.20897297161420086,
+      "mse": 0.07076666833881742,
+      "retrieval_mean_rank": 15.612903225806452,
+      "retrieval_pool": 31,
+      "retrieval_rule": "Gene-centered squared Euclidean distance, average rank for ties, same-stratum held population",
+      "signed_correction_mean": 0.0,
+      "skill_no_change": 0.018269390335073243,
+      "skill_reference": 2.220446049250313e-16,
+      "undefined_pearson_rows": 0,
+      "undefined_reason": null
+    }
+  },
+  "pair_representation_labels": 0,
+  "precision": false,
+  "prediction_sha256": "77004b28776103a0743bcccb5bfaeb509dbddb66062773112fa1da93e91dcf29",
+  "source": "TNFA-negative",
+  "split": "partner",
+  "stratum": "8",
+  "train_pair_ids": [
+    "[\"BIRC3\",\"RIPK1\"]",
+    "[\"BIRC3\",\"TRADD\"]",
+    "[\"BIRC3\",\"UBE2N\"]",
+    "[\"CHUK\",\"TRADD\"]",
+    "[\"CHUK\",\"UBE2N\"]",
+    "[\"FBXW11\",\"NFKBIA\"]",
+    "[\"FBXW11\",\"RIPK1\"]",
+    "[\"FBXW11\",\"TAB1\"]",
+    "[\"FBXW11\",\"TNFRSF1A\"]",
+    "[\"FBXW11\",\"TRADD\"]",
+    "[\"FBXW11\",\"TRAF6\"]",
+    "[\"FBXW11\",\"UBE2N\"]",
+    "[\"IKBKB\",\"UBE2N\"]",
+    "[\"MAP3K7\",\"TRADD\"]",
+    "[\"NFKBIA\",\"UBE2N\"]",
+    "[\"RIPK1\",\"TAB1\"]",
+    "[\"RIPK1\",\"TRADD\"]",
+    "[\"TAB1\",\"TRADD\"]",
+    "[\"TAB1\",\"UBE2N\"]",
+    "[\"TNFRSF1A\",\"TRADD\"]",
+    "[\"TRADD\",\"UBE2N\"]"
+  ],
+  "training_pairs": 21,
+  "validation_labels_in_budget": true,
+  "wall_seconds": 0.16022720000182744
+}
