@@ -23,6 +23,7 @@ jobs:
       - run: python -m pytest tests/test_release_packaging.py tests/test_replicated.py tests/test_replicated_assay.py tests/test_replicated_sensitivity.py tests/test_replicated_power.py tests/test_replicated_protocol.py tests/test_replicated_planning.py tests/test_public_processing_diagnostic.py tests/test_retrospective.py tests/test_bulk_diagnostic.py tests/test_public_numbers.py tests/test_preparation_integrity.py tests/test_contracts.py tests/test_source_discovery.py tests/test_donor_diagnostic.py tests/test_unmatched_diagnostic.py tests/test_remote_metadata.py tests/test_source_search_coverage.py -q
       - run: python tools/rehearse_replicated_assay.py --output assay-validation
       - run: python -m pytest tests/test_model_series.py tests/test_model_series_bilinear.py tests/test_pertspectra_series.py -q
+      - run: python -m pytest tests/test_information.py -q
       - run: python tools/check_installed_series.py --synthetic --output series-validation
       - run: python tools/check_installed_series.py --synthetic --config configs/experiments/opal_model_series_v2.json --output series-bilinear-validation
       - uses: actions/upload-artifact@v4

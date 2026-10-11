@@ -136,3 +136,9 @@ results/opal_model_series_v2/**/checkpoint/
 results/opal_model_series_v2/**/*.log
 results/opal_model_series_v2/**/*.whl
 data/source_audits/replicated_fixed_state_v1/source_snapshots/
+
+# Information-cycle arrays, weights and local review binaries remain private.
+results/opal_information_v1/**/*.npz
+results/opal_information_v1/**/*.npy
+results/opal_information_v1/**/*.whl
+results/opal_information_v1/**/*.png
