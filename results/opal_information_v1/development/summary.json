@@ -1,0 +1,175 @@
+{
+  "aggregates": [
+    {
+      "mse": {
+        "Base": 0.07822244851303183,
+        "capacity_mean": 0.07736861318179929,
+        "mean": 0.07738170932992383,
+        "shuffle": 0.07762721989297261,
+        "variance": 0.07745757165398928
+      },
+      "precision": false,
+      "profiles": 432,
+      "source": "TNFA-positive",
+      "split": "global_pair",
+      "triage_pass": false,
+      "variance_gain_percent": {
+        "Base": 0.9778227012608998,
+        "capacity_mean": -0.11498005267454037,
+        "mean": -0.0980365059422672,
+        "shuffle": 0.2185422062225384
+      }
+    },
+    {
+      "mse": {
+        "Base": 0.0818977492923554,
+        "capacity_mean": 0.08018617592130234,
+        "mean": 0.079717982126991,
+        "shuffle": 0.07945725487090796,
+        "variance": 0.07956840523724193
+      },
+      "precision": true,
+      "profiles": 432,
+      "source": "TNFA-positive",
+      "split": "global_pair",
+      "triage_pass": false,
+      "variance_gain_percent": {
+        "Base": 2.844210097640487,
+        "capacity_mean": 0.7704204334007758,
+        "mean": 0.18763255887584984,
+        "shuffle": -0.1398869952335291
+      }
+    },
+    {
+      "mse": {
+        "Base": 0.0827597014994568,
+        "capacity_mean": 0.08253931569015639,
+        "mean": 0.08254378885072695,
+        "shuffle": 0.08260061733765071,
+        "variance": 0.08256839151962281
+      },
+      "precision": false,
+      "profiles": 432,
+      "source": "TNFA-positive",
+      "split": "partner",
+      "triage_pass": false,
+      "variance_gain_percent": {
+        "Base": 0.23116320669094303,
+        "capacity_mean": -0.03522664226531802,
+        "mean": -0.029805596809162616,
+        "shuffle": 0.03901401595605147
+      }
+    },
+    {
+      "mse": {
+        "Base": 0.08864376832615647,
+        "capacity_mean": 0.0882693745942673,
+        "mean": 0.08840127865758626,
+        "shuffle": 0.08831774610705014,
+        "variance": 0.0882433844743407
+      },
+      "precision": true,
+      "profiles": 432,
+      "source": "TNFA-positive",
+      "split": "partner",
+      "triage_pass": false,
+      "variance_gain_percent": {
+        "Base": 0.4516773816999775,
+        "capacity_mean": 0.02944409660322611,
+        "mean": 0.17861074595668658,
+        "shuffle": 0.084197837905986
+      }
+    },
+    {
+      "mse": {
+        "Base": 0.07146806848197854,
+        "capacity_mean": 0.07097175394709992,
+        "mean": 0.07101186855880609,
+        "shuffle": 0.07111462911436453,
+        "variance": 0.07104494662814849
+      },
+      "precision": false,
+      "profiles": 208,
+      "source": "TNFA-negative",
+      "split": "global_pair",
+      "triage_pass": false,
+      "variance_gain_percent": {
+        "Base": 0.5920432198846193,
+        "capacity_mean": -0.10312931127940406,
+        "mean": -0.04658104344206215,
+        "shuffle": 0.09798614867833066
+      }
+    },
+    {
+      "mse": {
+        "Base": 0.07184523570559331,
+        "capacity_mean": 0.07163497569774183,
+        "mean": 0.07145303590799595,
+        "shuffle": 0.07143073840415637,
+        "variance": 0.07142821056415218
+      },
+      "precision": true,
+      "profiles": 208,
+      "source": "TNFA-negative",
+      "split": "global_pair",
+      "triage_pass": false,
+      "variance_gain_percent": {
+        "Base": 0.5804492634000402,
+        "capacity_mean": 0.28863712394079366,
+        "mean": 0.034743581610363616,
+        "shuffle": 0.003538868644881177
+      }
+    },
+    {
+      "mse": {
+        "Base": 0.07362159099475335,
+        "capacity_mean": 0.07362159099475335,
+        "mean": 0.07362159099475335,
+        "shuffle": 0.07362159099475335,
+        "variance": 0.07362159099475335
+      },
+      "precision": false,
+      "profiles": 208,
+      "source": "TNFA-negative",
+      "split": "partner",
+      "triage_pass": false,
+      "variance_gain_percent": {
+        "Base": 0.0,
+        "capacity_mean": 0.0,
+        "mean": 0.0,
+        "shuffle": 0.0
+      }
+    },
+    {
+      "mse": {
+        "Base": 0.0739008843050256,
+        "capacity_mean": 0.0739008843050256,
+        "mean": 0.0739008843050256,
+        "shuffle": 0.0739008843050256,
+        "variance": 0.0739008843050256
+      },
+      "precision": true,
+      "profiles": 208,
+      "source": "TNFA-negative",
+      "split": "partner",
+      "triage_pass": false,
+      "variance_gain_percent": {
+        "Base": 0.0,
+        "capacity_mean": 0.0,
+        "mean": 0.0,
+        "shuffle": 0.0
+      }
+    }
+  ],
+  "candidate_configs_per_arm": 13,
+  "confirmation_executed": false,
+  "fold_records": 96,
+  "information_gate_passed": false,
+  "new_independent_cultures": 0,
+  "scientific_verdict": "complete_negative: bounded variance representation failed administrative triage",
+  "selected_procedure": "retain existing Base reference",
+  "unique_pairs": {
+    "TNFA-negative": 52,
+    "TNFA-positive": 108
+  }
+}
