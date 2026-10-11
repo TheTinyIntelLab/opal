@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\check_information_install.py", line 80, in <module>
+    a=p.parse_args();run(a.label,a.python)
+                     ~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\check_information_install.py", line 33, in run
+    if result.returncode:raise RuntimeError(result.stderr+result.stdout)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\check_installed_series.py", line 104, in <module>
+    check(parser.parse_args())
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\check_installed_series.py", line 51, in check
+    references = {row['model']: row['path'] for row in read_json(example / 'checkpoints.json')}
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\opal-information-20261011\installed311\package\opal\artifacts.py", line 13, in read_json
+    return json.loads(Path(path).read_text(encoding="utf-8"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tmp\python-runtime\cpython-3.11.16-windows-x86_64-none\Lib\pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tmp\python-runtime\cpython-3.11.16-windows-x86_64-none\Lib\pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2\\installed-final314\\real-example\\checkpoints.json'
+

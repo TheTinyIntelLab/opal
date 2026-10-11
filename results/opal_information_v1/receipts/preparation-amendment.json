@@ -1,0 +1,33 @@
+{
+  "id": "preparation-amendment",
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "-c",
+    "from opal.artifacts import read_json,write_json,sha256; old=read_json('results/opal_information_v1/preparation_freeze.json'); write_json('results/opal_information_v1/preparation_amendment.json',{'prior':old,'reason':'Explicit float64 before normalization fixes float32 in-place rounding caught by mandatory mean-parity check; no fits or scores opened; empty output root retained','new_extraction_sha256':sha256('tools/prepare_information.py'),'new_head_sha256':sha256('src/information.py')})"
+  ],
+  "start_utc": "2026-10-11T09:18:46.234206+00:00",
+  "status": "complete",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 27532,
+  "end_utc": "2026-10-11T09:18:46.441745+00:00",
+  "wall_seconds": 0.16631109999434557,
+  "cpu_seconds_observed": 0.078125,
+  "peak_tree_rss_bytes": 32145408,
+  "per_process_cpu_seconds": {
+    "27532:1791710326.2761717": 0.0,
+    "20856:1791710326.2823403": 0.078125
+  },
+  "pids": [
+    20856,
+    27532
+  ],
+  "exit_code": 0
+}

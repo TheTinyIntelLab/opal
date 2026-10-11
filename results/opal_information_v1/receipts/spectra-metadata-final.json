@@ -1,0 +1,32 @@
+{
+  "id": "spectra-metadata-final",
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "tools/audit_information_spectra_metadata.py"
+  ],
+  "start_utc": "2026-10-11T09:49:14.732046+00:00",
+  "status": "complete",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 9148,
+  "end_utc": "2026-10-11T09:49:19.284407+00:00",
+  "wall_seconds": 4.506243600000744,
+  "cpu_seconds_observed": 2.578125,
+  "peak_tree_rss_bytes": 255516672,
+  "per_process_cpu_seconds": {
+    "9148:1791712154.7786913": 0.0,
+    "44368:1791712154.7841203": 2.578125
+  },
+  "pids": [
+    9148,
+    44368
+  ],
+  "exit_code": 0
+}

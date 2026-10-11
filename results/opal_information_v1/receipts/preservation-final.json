@@ -1,0 +1,35 @@
+{
+  "id": "preservation-final",
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "-c",
+    "import pathlib,subprocess; from opal.artifacts import sha256,write_json; out=pathlib.Path('results/opal_information_v1'); paths=list(pathlib.Path('results/opal_model_series_v1').rglob('*'))+list(pathlib.Path('results/opal_model_series_v2').rglob('*'))+list(pathlib.Path('results/architecture').rglob('*'))+[pathlib.Path('paper/main.pdf')]; write_json(out/'preservation.json',{'head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'branch':subprocess.check_output(['git','branch','--show-current'],text=True).strip(),'initial_user_changes':['docs/next_cycle/agent_prompt_model_series_v2.md','docs/next_cycle/model_series_v2_plan.md'],'files':{str(p):sha256(p) for p in paths if p.is_file()},'bootstrap_cpu':'unknown before monitor installation'}); write_json(out/'preparation_freeze.json',{'config_sha256':sha256('configs/experiments/opal_information_v1.json'),'protocol_sha256':sha256('docs/next_cycle/opal_information_protocol.md'),'code':{p:sha256(p) for p in ['src/information.py','tools/prepare_information.py','tools/measure_information_process.py']},'scoring_started':False})"
+  ],
+  "start_utc": "2026-10-11T09:16:30.516630+00:00",
+  "status": "complete",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 39376,
+  "end_utc": "2026-10-11T09:16:37.497419+00:00",
+  "wall_seconds": 6.930388100001437,
+  "cpu_seconds_observed": 2.453125,
+  "peak_tree_rss_bytes": 38182912,
+  "per_process_cpu_seconds": {
+    "39376:1791710190.56718": 0.015625,
+    "35064:1791710190.5721772": 2.4375,
+    "32552:1791710190.702586": 0.0
+  },
+  "pids": [
+    32552,
+    35064,
+    39376
+  ],
+  "exit_code": 0
+}

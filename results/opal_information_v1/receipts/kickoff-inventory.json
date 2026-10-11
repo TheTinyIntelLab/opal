@@ -1,0 +1,31 @@
+{
+  "id": "kickoff-inventory",
+  "command": [
+    "python",
+    "-c",
+    "import json, pathlib, shutil, psutil, hashlib; from tools.measure_information_process import retained; r=pathlib.Path('.'); old=json.loads((r/'results/opal_model_series_v2/verification/final_resources.json').read_text()); roots=list(old['physical_roots'])+['results/opal_information_v1']; sizes=retained(roots); print(json.dumps({'retained':sizes,'total':sum(sizes.values()),'free':{d:shutil.disk_usage(d+':/').free for d in ['C','D','E']},'ram':psutil.virtual_memory()._asdict(),'pdf_sha256':hashlib.sha256((r/'paper/main.pdf').read_bytes()).hexdigest(),'prepared':{k:{a:v for a,v in i.items() if a!='genes'} for k,i in json.loads((r/'results/opal_model_series_v1/pertspectra/access-v4/prepared.json').read_text())['contexts'].items()},'raw_bytes':(r/'data/raw/pertspectra-model-series/inhouse.h5ad').stat().st_size},indent=2))"
+  ],
+  "start_utc": "2026-10-11T09:11:53.589092+00:00",
+  "status": "complete",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 42960,
+  "end_utc": "2026-10-11T09:11:54.952446+00:00",
+  "wall_seconds": 1.3117619999975432,
+  "cpu_seconds_observed": 1.09375,
+  "peak_tree_rss_bytes": 22573056,
+  "per_process_cpu_seconds": {
+    "42960:1791709913.6414304": 1.09375
+  },
+  "pids": [
+    42960
+  ],
+  "exit_code": 0
+}

@@ -1,0 +1,19 @@
+{
+  "id": "preservation-corrected",
+  "command": [
+    ".venv/Scripts/python.exe",
+    "-c",
+    "import pathlib,json,subprocess; from opal.artifacts import sha256,write_json; out=pathlib.Path('results/opal_information_v1'); paths=list(pathlib.Path('results/opal_model_series_v1').rglob('*'))+list(pathlib.Path('results/opal_model_series_v2').rglob('*'))+list(pathlib.Path('results/architecture').rglob('*'))+[pathlib.Path('paper/main.pdf')]; records={str(p):sha256(p) for p in paths if p.is_file()}; write_json(out/'preservation.json',{'head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'branch':subprocess.check_output(['git','branch','--show-current'],text=True).strip(),'initial_user_changes':['docs/next_cycle/agent_prompt_model_series_v2.md','docs/next_cycle/model_series_v2_plan.md'],'files':records,'bootstrap_accounting':'Initial read-only shell/tool work before monitor installation has no recoverable exact CPU counter; explicitly unknown, never zero'}); write_json(out/'preparation_freeze.json',{'config_sha256':sha256('configs/experiments/opal_information_v1.json'),'protocol_sha256':sha256('docs/next_cycle/opal_information_protocol.md'),'code':{p:sha256(p) for p in ['src/information.py','tools/prepare_information.py','tools/measure_information_process.py']},'scoring_started':False})"
+  ],
+  "start_utc": "2026-10-11T09:16:13.022333+00:00",
+  "status": "launched",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null
+}

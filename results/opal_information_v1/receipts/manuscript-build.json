@@ -1,0 +1,34 @@
+{
+  "id": "manuscript-build",
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "tools/build_paper.py"
+  ],
+  "start_utc": "2026-10-11T09:38:59.130417+00:00",
+  "status": "complete",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 20528,
+  "end_utc": "2026-10-11T09:39:01.597208+00:00",
+  "wall_seconds": 2.4252983999977005,
+  "cpu_seconds_observed": 1.203125,
+  "peak_tree_rss_bytes": 247218176,
+  "per_process_cpu_seconds": {
+    "20528:1791711539.1724596": 0.0,
+    "29388:1791711539.1787536": 0.125,
+    "31084:1791711539.6789513": 1.078125
+  },
+  "pids": [
+    20528,
+    29388,
+    31084
+  ],
+  "exit_code": 0
+}

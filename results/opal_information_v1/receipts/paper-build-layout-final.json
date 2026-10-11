@@ -1,0 +1,34 @@
+{
+  "id": "paper-build-layout-final",
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "tools/build_paper.py"
+  ],
+  "start_utc": "2026-10-11T09:46:45.839408+00:00",
+  "status": "complete",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 29356,
+  "end_utc": "2026-10-11T09:46:47.014689+00:00",
+  "wall_seconds": 1.1304896000001463,
+  "cpu_seconds_observed": 1.0625,
+  "peak_tree_rss_bytes": 234115072,
+  "per_process_cpu_seconds": {
+    "29356:1791712005.884873": 0.0,
+    "24840:1791712005.8894355": 0.140625,
+    "28348:1791712006.0150585": 0.921875
+  },
+  "pids": [
+    24840,
+    28348,
+    29356
+  ],
+  "exit_code": 0
+}

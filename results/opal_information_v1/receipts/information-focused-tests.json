@@ -1,0 +1,43 @@
+{
+  "id": "information-focused-tests",
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "tests/test_information.py",
+    "-q"
+  ],
+  "start_utc": "2026-10-11T09:19:41.325374+00:00",
+  "status": "complete",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 45940,
+  "end_utc": "2026-10-11T09:19:44.690656+00:00",
+  "wall_seconds": 3.3166439999986324,
+  "cpu_seconds_observed": 2.6875,
+  "peak_tree_rss_bytes": 296222720,
+  "per_process_cpu_seconds": {
+    "45940:1791710381.3746133": 0.0,
+    "21332:1791710381.3805368": 2.5,
+    "9996:1791710383.872738": 0.0,
+    "19020:1791710383.877857": 0.078125,
+    "43544:1791710383.916976": 0.0,
+    "31568:1791710383.9210484": 0.109375
+  },
+  "pids": [
+    9996,
+    19020,
+    21332,
+    31568,
+    43544,
+    45940
+  ],
+  "exit_code": 0
+}

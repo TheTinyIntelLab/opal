@@ -1,0 +1,32 @@
+{
+  "id": "delivery-frozen-replay",
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "tools/verify_information.py"
+  ],
+  "start_utc": "2026-10-11T12:56:40.840156+00:00",
+  "status": "complete",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 38688,
+  "end_utc": "2026-10-11T12:56:57.690761+00:00",
+  "wall_seconds": 16.807451100001344,
+  "cpu_seconds_observed": 7.0,
+  "peak_tree_rss_bytes": 254832640,
+  "per_process_cpu_seconds": {
+    "38688:1791723400.8839717": 0.0,
+    "28196:1791723400.8899496": 7.0
+  },
+  "pids": [
+    28196,
+    38688
+  ],
+  "exit_code": 0
+}

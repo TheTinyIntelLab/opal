@@ -1,0 +1,52 @@
+{
+  "id": "followup-review-package",
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "-m",
+    "build",
+    "--no-isolation",
+    "--outdir",
+    "C:/Users/USER/Desktop/opal-information-20261011/package-followup"
+  ],
+  "start_utc": "2026-10-11T11:44:50.285582+00:00",
+  "status": "complete",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 36464,
+  "end_utc": "2026-10-11T11:44:56.685403+00:00",
+  "wall_seconds": 6.356217499997001,
+  "cpu_seconds_observed": 4.421875,
+  "peak_tree_rss_bytes": 79028224,
+  "per_process_cpu_seconds": {
+    "36464:1791719090.329795": 0.03125,
+    "42264:1791719090.33433": 0.390625,
+    "8532:1791719090.4647472": 0.0,
+    "1048:1791719090.4694197": 1.328125,
+    "27740:1791719091.8144858": 0.015625,
+    "34008:1791719091.8199725": 1.703125,
+    "32788:1791719095.111843": 0.0,
+    "21028:1791719095.1169643": 0.40625,
+    "21168:1791719095.553592": 0.0,
+    "16508:1791719095.5587952": 0.546875
+  },
+  "pids": [
+    1048,
+    8532,
+    16508,
+    21028,
+    21168,
+    27740,
+    32788,
+    34008,
+    36464,
+    42264
+  ],
+  "exit_code": 0
+}

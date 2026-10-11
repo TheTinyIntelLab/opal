@@ -1,0 +1,18 @@
+{
+  "id": "reference-summary-extraction-corrected",
+  "command": [
+    ".venv/Scripts/python.exe",
+    "tools/prepare_information.py"
+  ],
+  "start_utc": "2026-10-11T09:16:13.184301+00:00",
+  "status": "launched",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null
+}

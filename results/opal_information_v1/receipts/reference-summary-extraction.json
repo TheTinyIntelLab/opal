@@ -1,0 +1,30 @@
+{
+  "id": "reference-summary-extraction",
+  "command": [
+    "python",
+    "tools/prepare_information.py"
+  ],
+  "start_utc": "2026-10-11T09:15:48.425078+00:00",
+  "status": "failed",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 35456,
+  "end_utc": "2026-10-11T09:15:48.680587+00:00",
+  "wall_seconds": 0.21246399999654386,
+  "cpu_seconds_observed": 0.125,
+  "peak_tree_rss_bytes": 39530496,
+  "per_process_cpu_seconds": {
+    "35456:1791710148.4687493": 0.125
+  },
+  "pids": [
+    35456
+  ],
+  "exit_code": 1
+}

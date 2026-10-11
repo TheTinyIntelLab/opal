@@ -1,0 +1,34 @@
+{
+  "id": "standalone-manuscript-verification",
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "tools/verify_information_paper.py"
+  ],
+  "start_utc": "2026-10-11T09:42:18.362913+00:00",
+  "status": "complete",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 5548,
+  "end_utc": "2026-10-11T09:42:22.873661+00:00",
+  "wall_seconds": 4.46779830000014,
+  "cpu_seconds_observed": 4.078125,
+  "peak_tree_rss_bytes": 462716928,
+  "per_process_cpu_seconds": {
+    "5548:1791711738.4063194": 0.0,
+    "26852:1791711738.4116805": 2.859375,
+    "9052:1791711740.835946": 1.21875
+  },
+  "pids": [
+    5548,
+    9052,
+    26852
+  ],
+  "exit_code": 0
+}

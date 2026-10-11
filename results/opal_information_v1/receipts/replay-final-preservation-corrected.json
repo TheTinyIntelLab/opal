@@ -1,0 +1,32 @@
+{
+  "id": "replay-final-preservation-corrected",
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "tools/verify_information.py"
+  ],
+  "start_utc": "2026-10-11T09:47:34.980435+00:00",
+  "status": "complete",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 40868,
+  "end_utc": "2026-10-11T09:47:42.460356+00:00",
+  "wall_seconds": 7.434033199999249,
+  "cpu_seconds_observed": 6.296875,
+  "peak_tree_rss_bytes": 253452288,
+  "per_process_cpu_seconds": {
+    "40868:1791712055.0266435": 0.0,
+    "6800:1791712055.0326717": 6.296875
+  },
+  "pids": [
+    6800,
+    40868
+  ],
+  "exit_code": 0
+}

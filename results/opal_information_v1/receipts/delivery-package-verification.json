@@ -1,0 +1,36 @@
+{
+  "id": "delivery-package-verification",
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "tools/close_information_verification.py",
+    "--package-root",
+    "package-delivery",
+    "--record",
+    "package_delivery"
+  ],
+  "start_utc": "2026-10-11T12:56:38.132285+00:00",
+  "status": "complete",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 19068,
+  "end_utc": "2026-10-11T12:56:40.751706+00:00",
+  "wall_seconds": 2.57563370000571,
+  "cpu_seconds_observed": 2.4375,
+  "peak_tree_rss_bytes": 237862912,
+  "per_process_cpu_seconds": {
+    "19068:1791723398.1768277": 0.0,
+    "30108:1791723398.18176": 2.4375
+  },
+  "pids": [
+    19068,
+    30108
+  ],
+  "exit_code": 0
+}

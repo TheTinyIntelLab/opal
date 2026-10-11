@@ -1,0 +1,32 @@
+{
+  "id": "followup-plan-paths",
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "tools/sync_information_plan.py"
+  ],
+  "start_utc": "2026-10-11T11:44:49.996029+00:00",
+  "status": "complete",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 41684,
+  "end_utc": "2026-10-11T11:44:50.202569+00:00",
+  "wall_seconds": 0.16344650000246475,
+  "cpu_seconds_observed": 0.109375,
+  "peak_tree_rss_bytes": 33648640,
+  "per_process_cpu_seconds": {
+    "41684:1791719090.0400567": 0.0,
+    "39476:1791719090.0455685": 0.109375
+  },
+  "pids": [
+    39476,
+    41684
+  ],
+  "exit_code": 0
+}
