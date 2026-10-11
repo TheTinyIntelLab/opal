@@ -100,6 +100,42 @@
       "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
       "command": [
         "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "build",
+        "--no-isolation",
+        "--outdir",
+        "C:/Users/USER/Desktop/opal-information-20261011/package-delivery-evidence"
+      ],
+      "end_utc": "2026-10-11T13:08:13.457486+00:00",
+      "id": "delivery-evidence-package-build",
+      "receipt_sha256": "d14a974e692678d42f11a5b17d26a8c61c8d5dece0357d83ee6e2bfb258b1725",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T13:08:07.715011+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "tools/close_information_verification.py",
+        "--package-root",
+        "package-delivery-evidence",
+        "--record",
+        "package_delivery_evidence"
+      ],
+      "end_utc": "2026-10-11T13:08:15.975923+00:00",
+      "id": "delivery-evidence-package-check",
+      "receipt_sha256": "450f1a8ecc96aee25b9367f6ab69fb13e1f92327a7f341f640119e952ac968fd",
+      "resource_values": "Original receipt is authoritative; missing values remain unknown.",
+      "source_config_label_context": "development/execution_freeze.json and development/label_accounting.json; comparator/profiling cards define native workload roles.",
+      "start_utc": "2026-10-11T13:08:13.543315+00:00",
+      "status": "complete"
+    },
+    {
+      "code_hash_scope": "Frozen scientific code hashes verified unchanged now; tooling snapshots not present in original receipts cannot be reconstructed retrospectively.",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
         "tools/verify_information.py"
       ],
       "end_utc": "2026-10-11T12:56:57.690761+00:00",

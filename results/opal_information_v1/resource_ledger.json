@@ -1,10 +1,10 @@
 {
-  "artifact_bytes": 2923778684,
+  "artifact_bytes": 2924808209,
   "artifact_cap_bytes": 3000000000,
   "cpu_core_hours_cap": 24,
-  "cpu_core_hours_observed": 0.12337239583333333,
-  "cpu_seconds_observed_process_tree": 444.140625,
-  "cycle_bytes": 100382948,
+  "cpu_core_hours_observed": 0.12514756944444444,
+  "cpu_seconds_observed_process_tree": 450.53125,
+  "cycle_bytes": 101412473,
   "double_counting": "Each PID cumulative CPU counted once; embedded stage CPU is not added again. Physical overlapping roots excluded.",
   "failed_or_incomplete_receipts": [
     "followup-review-package-verification",
@@ -18,7 +18,7 @@
     "summary-extraction-final"
   ],
   "free_bytes": {
-    "C": 5515431936,
+    "C": 5507727360,
     "D": 735821824,
     "E": 635727872
   },
@@ -30,10 +30,10 @@
   "new_cpu_complete_certification": false,
   "physical_roots": {
     "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\build": 373286,
-    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_information_v1": 5505339,
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_information_v1": 5568327,
     "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_model_series_v2": 18568852,
     "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\src\\opal_research.egg-info": 0,
-    "C:\\Users\\USER\\Desktop\\opal-information-20261011": 94877609,
+    "C:\\Users\\USER\\Desktop\\opal-information-20261011": 95844146,
     "C:\\Users\\USER\\Desktop\\opal-model-series-20261010-v2": 1558749956,
     "D:\\opal-model-series-20261010-v2": 966296300,
     "D:\\opal-model-series-20261010-v2-continuation": 279407342
@@ -44,7 +44,7 @@
     "D",
     "E"
   ],
-  "receipt_count": 65,
+  "receipt_count": 67,
   "reserve_bytes": 1073741824,
   "unknown_costs": "Bootstrap shell/tool/web work and monitor overhead have no exact CPU counters; sampled last-PID totals can miss final increments and short-lived children. Earlier incomplete launch receipts remain visible. Observed CPU is a lower bound, never a complete total."
 }

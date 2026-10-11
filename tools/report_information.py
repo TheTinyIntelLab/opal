@@ -12,6 +12,7 @@ from measure_information_process import retained
 
 def run():
     delivery_authorized=(OUT/'verification/delivery_authorization.json').exists()
+    remote_ci=read_json(OUT/'verification/remote_ci.json') if (OUT/'verification/remote_ci.json').exists() else None
     summary=read_json(OUT/'development/summary.json')
     rows=[read_json(p) for p in (OUT/'development/folds').glob('*.json')]
     receipts=[read_json(p) for p in (OUT/'receipts').glob('*.json')]
@@ -48,6 +49,8 @@ def run():
         'broader_metric_scope':'Technical-duplicate/cross-half DEG, pathway and affected-gene weighting were not in the executed finite freeze. Any future diagnostics require a separately declared design; no post-result endpoint expansion in this cycle.'}
     if delivery_authorized:
         dependencies['remote_ci']='Commit/push authorized by owner follow-up. Inspect every Windows/Linux Python3.11/3.14 on-push integrity cell on the delivered revision; no remote success inferred from local checks.'
+    if remote_ci and remote_ci['conclusion']=='success':
+        dependencies['remote_ci']='All four cells passed on '+remote_ci['headSha']+'; '+remote_ci['url']+'. Later revisions require their own on-push checks.'
     write_json(OUT/'report/dependencies.json',dependencies)
     write_json(OUT/'report/claims.json',{
         'information_gate':{'status':'complete_negative','evidence':'development/summary.json','verdict':'Administrative gate fails; TNF-positive loses to equally tuned mean/capacity controls. Retain Base.'},
@@ -75,6 +78,8 @@ def run():
         'P12':('complete_verified','resource_ledger.json and task_status.json','report/dependencies.json','Finite local closeout; external scientific program remains open'),
         'C01':('conditional_not_started','report/claims.json','section15 gates','No branch activated')}
     hashes={p:sha256(ROOT/p) for p in ['configs/experiments/opal_information_v1.json','src/information.py','tools/run_information.py','tools/prepare_information.py']}
+    if remote_ci and remote_ci['conclusion']=='success':
+        work['P10']=('complete_verified','verification/ and receipts/','none','Local tests/replay/installed package and all four remote CI cells verified on '+remote_ci['headSha'])
     tasks=[{'id':i,'status':s,'owner_role':'local implementation agent','dependency':d,'code_config_hashes':hashes,
         'source_hashes':{c['source']:c['bank_sha256'] for c in sources},'label_access_roles':'exposed development only; no fresh held-expression access',
         'resource_allowance':{'cpu_core_hours':24,'retained_bytes':3000000000},'attempted_actions':v,'outputs':o,

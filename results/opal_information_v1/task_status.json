@@ -283,7 +283,7 @@
       "verification_evidence": "receipts/, verification/, development/execution_freeze.json"
     },
     {
-      "attempted_actions": "Local tests/replay/installed package verified; remote matrix awaits authorized delivery run",
+      "attempted_actions": "Local tests/replay/installed package and all four remote CI cells verified on bf564476a0c079dad35b8c84a5165ba2324dea90",
       "code_config_hashes": {
         "configs/experiments/opal_information_v1.json": "8b9ddcfab1a39f762ef2fb62e83969035c7fbcb2b06f47a068887da3835aca51",
         "src/information.py": "6aef6e668d0af82599088479bcd76a2ff6e5f4fc164272d172d4b655ff5f128c",
@@ -291,18 +291,18 @@
         "tools/run_information.py": "a56db5967044c27f75e1dbf369678e319f6d9911625261e42eb41daae974cf67"
       },
       "comparison_eligible": false,
-      "dependency": "remote_ci",
+      "dependency": "none",
       "engineering_delivered": true,
       "id": "P10",
       "label_access_roles": "exposed development only; no fresh held-expression access",
-      "next_action": "remote_ci",
+      "next_action": "retain Base; no experiment expansion",
       "outputs": "verification/ and receipts/",
       "owner_role": "local implementation agent",
       "resource_allowance": {
         "cpu_core_hours": 24,
         "retained_bytes": 3000000000
       },
-      "scientific_verdict": "Local tests/replay/installed package verified; remote matrix awaits authorized delivery run",
+      "scientific_verdict": "Local tests/replay/installed package and all four remote CI cells verified on bf564476a0c079dad35b8c84a5165ba2324dea90",
       "source_hashes": {
         "TNFA-negative": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
         "TNFA-positive": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4"

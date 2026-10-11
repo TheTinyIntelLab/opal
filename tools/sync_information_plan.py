@@ -31,6 +31,11 @@ def run():
         'See `docs/next_cycle/opal_information_report.md` and `results/opal_information_v1/task_status.json`, `resource_ledger.json`, `report/claims.json`, `report/efficiency.json`, and `report/dependencies.json` for exact counts, measurements, roles, unknowns and remaining inputs. The follow-up `verification/completion_audit.json` verifies all96 prediction hashes and unchanged scientific code/config/protocol, with no pending_local task inside the freeze. Broader duplicate/DEG/pathway diagnostics were not executed or retrospectively added; complete new CPU certification remains unavailable. The previous PDF is preserved under the cycle local artifact root; the current manuscript has a separately verified development addendum.','']
     if delivery_authorized:
         lines=[line.replace('E08 remains `blocked_external` pending authorized exact-revision remote CI','E08 remains `blocked_external` until the owner-authorized delivery revision passes every remote CI cell') for line in lines]
+    remote_path=ROOT/'results/opal_information_v1/verification/remote_ci.json'
+    if remote_path.exists():
+        remote=read_json(remote_path)
+        if remote['conclusion']=='success':
+            lines=[line.replace('E08 remains `blocked_external` until the owner-authorized delivery revision passes every remote CI cell','E08 is `complete_verified` on revision `'+remote['headSha']+'` with all four matrix cells passing; exact evidence: `verification/remote_ci.json`') for line in lines]
     data=(active+'\n'.join(lines)+'\n'+marker+appendix).encode('utf-8')
     root.write_bytes(data);mirror.write_bytes(data)
     write_json(ROOT/'results/opal_information_v1/verification/plan_sync.json',{'byte_identical':root.read_bytes()==mirror.read_bytes(),'sha256':sha256(root),

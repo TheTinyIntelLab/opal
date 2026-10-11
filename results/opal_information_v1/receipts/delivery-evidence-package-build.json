@@ -1,0 +1,52 @@
+{
+  "id": "delivery-evidence-package-build",
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "-m",
+    "build",
+    "--no-isolation",
+    "--outdir",
+    "C:/Users/USER/Desktop/opal-information-20261011/package-delivery-evidence"
+  ],
+  "start_utc": "2026-10-11T13:08:07.715011+00:00",
+  "status": "complete",
+  "poll_seconds": 0.02,
+  "hardware": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 28,
+  "host_ram_bytes": 34115923968,
+  "python_monitor": "3.14.0",
+  "historical_cpu": "unknown partial lower bound",
+  "limitations": "Sampled RSS and last-observed per-PID CPU; short-lived children and final exit increments may be missed. No claim of exact CPU accounting.",
+  "threads": 1,
+  "gpu_seconds": null,
+  "pid": 44964,
+  "end_utc": "2026-10-11T13:08:13.457486+00:00",
+  "wall_seconds": 5.669474700000137,
+  "cpu_seconds_observed": 4.21875,
+  "peak_tree_rss_bytes": 78344192,
+  "per_process_cpu_seconds": {
+    "44964:1791724087.788819": 0.0,
+    "28244:1791724087.7934372": 0.40625,
+    "13616:1791724087.9312713": 0.0,
+    "22580:1791724087.936236": 1.234375,
+    "18832:1791724089.225954": 0.0,
+    "42872:1791724089.2309835": 1.578125,
+    "37276:1791724091.9246807": 0.0,
+    "26948:1791724091.930192": 0.375,
+    "22456:1791724092.3693588": 0.0,
+    "30320:1791724092.3747945": 0.625
+  },
+  "pids": [
+    13616,
+    18832,
+    22456,
+    22580,
+    26948,
+    28244,
+    30320,
+    37276,
+    42872,
+    44964
+  ],
+  "exit_code": 0
+}
