@@ -1,5 +1,9 @@
 # Measured-single information protocol
 
+## Current successor status, 13 October 2026
+
+The second-council `opal_context_contrast_v1` pipeline is implemented, with software checks only. The active plan/contract and [implementation guide](../frontier/context_contrast_implementation.md) supersede the historical bridge instructions below. SC01–SC08 now have executable qualification, preparation, contrast/reference/control fitting, sealed evaluation and readiness components. The fixed-context diagnostic uses both observed TNF contexts in training and no target bridges. Its numerical preparation, fitting and biological scoring require separate owner acceptance; independent confirmation remains unqualified. Frozen bridge configuration/results, old thresholds and failed attempts remain unchanged.
+
 This finite study tests projected variance as an added input for mean-response prediction on exposed PertSpectra data. It is development, with no biological confirmation claim. The immutable execution freeze records configuration, implementation and input hashes before any fit or score. An implementation defect requires a preserved amendment; it cannot justify a wider menu.
 
 Both TNF contexts retain their original ordered 512 genes, log2 aggregate library-10000 response, canonical pairs and four SampleIndex strata. SampleIndex is a technical/source stratum, with independent culture initiation unknown. Every pair identity has one role globally across strata. Partner folds partition target identities lexically into three balanced identity groups; training excludes every edge incident to held targets. Edges crossing held groups are assigned once to the lowest group index, so every pair is scored once. All incident edges remain excluded from training, including edges evaluated in another fold. Query singles are permitted measurements, so this is not unseen-intervention prediction.

@@ -125,6 +125,12 @@ results/recheck-*/**/exports-*/
 
 # Replicated-study response banks and custodian storage remain local.
 /PLAN.md
+
+# Successor numerical banks/checkpoints stay local; compact reviewed receipts only.
+results/opal_context_contrast_v1/**/*.npz
+results/opal_context_contrast_v1/**/attempts/
+results/opal_context_contrast_v1/**/inference/
+results/opal_context_contrast_v1/**/arrays/
 results/replicated_fixed_state_v1/**/*.npz
 results/opal_model_series_v1/**/*.npz
 results/opal_model_series_v1/**/checkpoint/

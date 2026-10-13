@@ -27,7 +27,7 @@ Releases = "https://github.com/TheTinyIntelLab/opal/releases"
 Issues = "https://github.com/TheTinyIntelLab/opal/issues"
 
 [tool.setuptools]
-packages = ["opal", "opal.baselines", "opal.contextual", "opal.data", "opal.evaluation", "opal.inference", "opal.models", "opal.profiles", "opal.representations", "opal.splits", "opal.state", "opal.training", "opal.replicated"]
+packages = ["opal", "opal.baselines", "opal.contextual", "opal.data", "opal.evaluation", "opal.inference", "opal.models", "opal.profiles", "opal.representations", "opal.splits", "opal.state", "opal.training", "opal.replicated", "opal.context_contrast"]
 
 [tool.setuptools.package-dir]
 opal = "src"

@@ -1,5 +1,9 @@
 # Assessment and research basis for the Opal model series
 
+## Current successor status, 13 October 2026
+
+The second-council `opal_context_contrast_v1` pipeline is implemented, with software checks only. The active plan/contract and [implementation guide](../frontier/context_contrast_implementation.md) supersede the historical bridge instructions below. SC01–SC08 now have executable qualification, preparation, contrast/reference/control fitting, sealed evaluation and readiness components. The fixed-context diagnostic uses both observed TNF contexts in training and no target bridges. Its numerical preparation, fitting and biological scoring require separate owner acceptance; independent confirmation remains unqualified. Frozen bridge configuration/results, old thresholds and failed attempts remain unchanged.
+
 Prepared 10 October 2026. This is a design assessment, not a new fitted result. The active work is in [the implementation plan](model_series_v2_plan.md), with an [implementation handoff](agent_prompt_model_series_v2.md). Public model names remain Opal-Base, Opal-Interaction and Opal-Guard. References to v1/v2 describe preserved execution cycles and internal checkpoint provenance, not additional named models.
 
 ## The current series is usable, but has not established frontier performance

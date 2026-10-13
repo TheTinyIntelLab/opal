@@ -1,5 +1,9 @@
 # Implementation prompt: execute the consolidated Opal plan
 
+## Current successor status, 13 October 2026
+
+The second-council `opal_context_contrast_v1` pipeline is implemented, with software checks only. The active plan/contract and [implementation guide](../frontier/context_contrast_implementation.md) supersede the historical bridge instructions below. SC01–SC08 now have executable qualification, preparation, contrast/reference/control fitting, sealed evaluation and readiness components. The fixed-context diagnostic uses both observed TNF contexts in training and no target bridges. Its numerical preparation, fitting and biological scoring require separate owner acceptance; independent confirmation remains unqualified. Frozen bridge configuration/results, old thresholds and failed attempts remain unchanged.
+
 Use the following prompt for the next implementation task. It supersedes the historical implementation prompt preserved at the end of this file. The active plan is the 11 October 2026 consolidated research and execution plan, not another order to rebuild the completed v2 series.
 
 ---

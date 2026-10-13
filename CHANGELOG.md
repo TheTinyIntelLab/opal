@@ -1,5 +1,9 @@
 # Changelog
 
+## Context-contrast implementation, 13 October 2026
+
+Adds the separately named `opal_context_contrast_v1` qualification, count streaming, isolated roles, nested contrast/reference/control models, safe complete inference states, sealed evaluation, five gates and confirmation-readiness checks. Small fixtures validate software only. No source preparation, scientific training, biological scoring, installation or download was run. The frozen bridge configuration, historical results and failed attempts remain unchanged; its research retirement supplies no biological failure finding. The full resource inventory and later-authorization commands are in `docs/frontier/context_contrast_implementation.md`.
+
 ## Unreleased, donor diagnostic and continued discovery
 
 Adds a source-hashed discovery coverage tool and pre-2013 search. Its 172 new series bring the inventory union to 1,048 identities; eight sample-level reviews identify clone mixing in the nominal six-array Ramos panel, five experiments despite a repeat label of six, and smaller or incompatible panels. No additional expression outcomes are opened. The preceding remote-metadata implementation passes all four CI jobs.
