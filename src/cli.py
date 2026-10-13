@@ -3,6 +3,7 @@ import argparse
 import json
 from pathlib import Path
 import shutil
+import sys
 import numpy as np
 from opal.artifacts import read_json, write_json, environment, load_npz
 
@@ -48,8 +49,13 @@ def reproduce(config):
 
 
 def main(argv=None):
+    argv = list(sys.argv[1:] if argv is None else argv)
+    if argv and argv[0] == "context-contrast":
+        from opal.context_contrast.cli import main as contrast_main
+        return contrast_main(argv[1:])
     parser = argparse.ArgumentParser(description="Opal population mean combination prediction")
     sub = parser.add_subparsers(dest="command", required=True)
+    sub.add_parser("context-contrast", help="Separately authorized fixed-context successor pipeline")
     for command in ('series-train', 'series-predict', 'series-evaluate'):
         p = sub.add_parser(command, help='Source-specific Opal model series')
         p.add_argument('--inputs', required=True, help='Safe NPZ development or query bundle')
