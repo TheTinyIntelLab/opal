@@ -222,6 +222,33 @@ def test_full_library_normalization_precedes_gene_restriction(tmp_path):
     assert counts["a"][str(keys[0])] == 10 and counts["b"][str(keys[0])] == 10
 
 
+@pytest.mark.parametrize("encoding", ["csc", "csr", "dense"])
+def test_reference_only_pass_never_decodes_pair_expression(tmp_path, encoding):
+    import h5py
+    from scipy import sparse
+    # Invalid pair expression would fail count validation if decoded. Reference
+    # preparation must work unchanged and full preparation must refuse it.
+    values = np.tile([1., 9., 90.], (40, 1))
+    values[20:] = np.nan
+    keys = [("TNFA+", "s", ())]*20+[("TNFA+", "s", ("A", "B"))]*20
+    meta = dict(keys=keys, genes=["a", "b", "c"], counts={keys[0]:20, keys[-1]:20})
+    with h5py.File(tmp_path/"reference-only.h5", "w") as file:
+        if encoding == "dense":
+            matrix = file.create_dataset("counts", data=values)
+        else:
+            matrix = file.create_group("counts")
+            data = sparse.csc_matrix(values) if encoding == "csc" else sparse.csr_matrix(values)
+            matrix.attrs["encoding-type"] = encoding+"_matrix"
+            matrix.attrs["shape"] = values.shape
+            matrix.create_dataset("data", data=data.data)
+            matrix.create_dataset("indices", data=data.indices)
+            matrix.create_dataset("indptr", data=data.indptr)
+        result, _ = aggregate(matrix, meta, np.arange(3), True, FixtureBudget(tmp_path))
+        np.testing.assert_allclose(result["primary"][keys[0]], np.log2(1+np.asarray([100.,900.,9000.])))
+        with pytest.raises(ContractError, match="integer counts"):
+            aggregate(matrix, meta, np.arange(3), False, FixtureBudget(tmp_path))
+
+
 def test_metric_null_ties_undefined_and_conditional_accounting():
     x, ids, _ = fixture(24)
     truth = x.sum(2)

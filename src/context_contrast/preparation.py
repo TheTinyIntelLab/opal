@@ -68,7 +68,7 @@ def metadata(file, review):
         rows=rows, excluded_cells=sum(p is None for p in labels))
 
 
-def columns(matrix, start, stop, rows):
+def columns(matrix, start, stop, rows, row_mask=None):
     from scipy import sparse
     encoding = matrix.attrs.get("encoding-type", "")
     if isinstance(encoding, bytes):
@@ -76,17 +76,42 @@ def columns(matrix, start, stop, rows):
     if encoding == "csc_matrix":
         ptr = matrix["indptr"][start:stop+1]
         left, right = int(ptr[0]), int(ptr[-1])
+        if row_mask is not None:
+            indices = matrix["indices"][left:right]
+            # CSC row indices are structural metadata. Read expression only
+            # at permitted reference entries, before any pair outcome decode.
+            keep = np.flatnonzero(row_mask[indices])
+            data = matrix["data"][left+keep] if len(keep) else np.empty(0)
+            gene_columns = np.repeat(np.arange(stop-start), np.diff(ptr))
+            return sparse.csc_matrix((data, (indices[keep], gene_columns[keep])), shape=(rows, stop-start))
         return sparse.csc_matrix((matrix["data"][left:right], matrix["indices"][left:right], ptr-left), shape=(rows, stop-start))
     if encoding == "csr_matrix":
         # Bounded rows for CSR, no full matrix read or densification.
         pieces = []
         for r in range(0, rows, 1024):
+            if row_mask is not None:
+                block_rows = []
+                for i in range(r, min(r+1024, rows)):
+                    if not row_mask[i]:
+                        block_rows.append(sparse.csr_matrix((1, stop-start)))
+                        continue
+                    left, right = map(int, matrix["indptr"][i:i+2])
+                    indices = matrix["indices"][left:right]
+                    keep = np.flatnonzero((indices >= start) & (indices < stop))
+                    data = matrix["data"][left+keep] if len(keep) else np.empty(0)
+                    block_rows.append(sparse.csr_matrix((data, indices[keep]-start, [0, len(keep)]), shape=(1, stop-start)))
+                pieces.append(sparse.vstack(block_rows, format="csr"))
+                continue
             ptr = matrix["indptr"][r:min(r+1024, rows)+1]
             left, right = int(ptr[0]), int(ptr[-1])
             x = sparse.csr_matrix((matrix["data"][left:right], matrix["indices"][left:right], ptr-left), shape=(len(ptr)-1, int(matrix.attrs["shape"][1])))
             pieces.append(x[:, start:stop])
         return sparse.vstack(pieces, format="csc")
     if hasattr(matrix, "shape"):
+        if row_mask is not None:
+            permitted = np.flatnonzero(row_mask)
+            values = sparse.coo_matrix(matrix[permitted, start:stop])
+            return sparse.csc_matrix((values.data, (permitted[values.row], values.col)), shape=(rows, stop-start))
         return sparse.csc_matrix(matrix[:, start:stop])
     raise ContractError("Unsupported backed count encoding")
 
@@ -95,9 +120,10 @@ def aggregate(matrix, meta, selected, references_only, budget):
     from scipy import sparse
     n, g = len(meta["keys"]), len(meta["genes"])
     library = np.zeros(n)
+    reference_rows = np.asarray([k[2] is not None and len(k[2]) < 2 for k in meta["keys"]]) if references_only else None
     for start in range(0, g, 128):
         budget.check()
-        values = columns(matrix, start, min(start+128, g), n)
+        values = columns(matrix, start, min(start+128, g), n, reference_rows)
         if not np.isfinite(values.data).all() or np.any(values.data < 0) or not np.allclose(values.data, np.rint(values.data), atol=1e-6, rtol=0):
             raise ContractError("Verified finite nonnegative integer counts required")
         library += np.asarray(values.sum(1)).ravel()
@@ -119,7 +145,7 @@ def aggregate(matrix, meta, selected, references_only, budget):
         if not len(positions):
             continue
         budget.check()
-        values = columns(matrix, start, min(start+128, g), n)[:, selected[positions]-start]
+        values = columns(matrix, start, min(start+128, g), n, reference_rows)[:, selected[positions]-start]
         for partition in means:
             means[partition][:, positions] = (matrices[partition] @ values).toarray()
     result = {}

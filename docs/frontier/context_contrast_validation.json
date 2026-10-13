@@ -3,8 +3,8 @@
   "checks": [
     {
       "command": ".venv/Scripts/python.exe -m pytest tests/test_context_contrast.py -q",
-      "elapsed_seconds": 4.04,
-      "passed": 26
+      "elapsed_seconds": 4.18,
+      "passed": 29
     },
     {
       "command": "successor plus frozen bridge qualification/model/resources/strata/readiness tests",
@@ -15,6 +15,10 @@
       "command": "compileall plus TeX input existence/brace checks",
       "limitations": "manuscript source checked; PDF not rerendered",
       "passed": true
+    },
+    {
+      "command": "successor plus frozen bridge model/qualification/resource/strata/readiness regression after reference-only decoding guard",
+      "passed": 78
     }
   ],
   "code_sha256": {
@@ -24,7 +28,7 @@
     "src/context_contrast/contracts.py": "9f87bbd149b347a506363de90a7cd772bcdbaeafa63ff00efbc3d1a2636195f8",
     "src/context_contrast/evaluation.py": "f34e592d43a4244a2b70adb2f9f9e1c24c05aa76a2082e3538c37f3cf7db0100",
     "src/context_contrast/model.py": "a6d894bfb093ef0334a6e4e63dee61704697fba85925d3d3e20c00711a43ad13",
-    "src/context_contrast/preparation.py": "a738ec43e86f119dccca23b73e32f467c7ec8cf68b6bcdb4288a2f4fc51e688a",
+    "src/context_contrast/preparation.py": "cd8ce98d7606f4666e38cc8cfcd23862b8e950b7f04509792a5c7613810f6899",
     "src/context_contrast/readiness.py": "93ba5999e927a522632be28e9f1e58649fe118a555a084140e1339d4d18cf5d2",
     "src/context_contrast/resources.py": "d12f65aff93e4b045f88c0a52fe8874ed8a9ddba0d1d214ca04a9a55eaeee2fe",
     "src/context_contrast/workflow.py": "bdeaa7776496347e4fa8086f1d7b077e63fd734cd21fb53e79b1002217de5716"
