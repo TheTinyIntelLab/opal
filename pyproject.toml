@@ -17,6 +17,7 @@ data = ["anndata>=0.11,<0.13", "pyarrow>=18,<26", "pandas>=2.2,<4", "h5py>=3.12,
 tabular = ["tabicl==2.2.0", "psutil>=7,<8"]
 dev = ["pytest>=8,<10", "psutil>=7,<8"]
 research = ["psutil>=7,<8", "threadpoolctl>=3.5,<4"]
+docs = ["Markdown>=3.7,<4"]
 
 [project.scripts]
 opal = "opal.cli:main"
@@ -27,7 +28,7 @@ Releases = "https://github.com/TheTinyIntelLab/opal/releases"
 Issues = "https://github.com/TheTinyIntelLab/opal/issues"
 
 [tool.setuptools]
-packages = ["opal", "opal.baselines", "opal.contextual", "opal.data", "opal.evaluation", "opal.inference", "opal.models", "opal.profiles", "opal.representations", "opal.splits", "opal.state", "opal.training", "opal.replicated", "opal.context_contrast"]
+packages = ["opal", "opal.baselines", "opal.contextual", "opal.data", "opal.evaluation", "opal.inference", "opal.models", "opal.profiles", "opal.representations", "opal.splits", "opal.state", "opal.training", "opal.replicated", "opal.frontier_bridge", "opal.context_contrast"]
 
 [tool.setuptools.package-dir]
 opal = "src"
