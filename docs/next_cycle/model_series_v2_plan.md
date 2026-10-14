@@ -1,5 +1,11 @@
 # Opal frontier: second strategic research council
 
+## Remaining roadmap execution, 14 October 2026
+
+Following the current-source pair refusal, the PLAN's distinct single-response/context lead has undergone a pinned, outcome-blind Tahoe metadata audit. It fetched 369,683 bytes, recorded 1,344 sample catalog rows, and remains `metadata_only_unqualified`: measured crossed edges, duration, initiation, support and an exact bounded expression subset are missing. Catalog context labels are not measured coverage. No pivot predictor or rescue pair model was fit.
+
+The collaborator crossed-repeatability pilot specification is now drafted, with exact lineage requirements, independent reference partitions and complete symbolic outcome/cost accounting. Actual cultures, partner arrangements, useful margin, power and prices remain unset. The successor confirmation readiness checker ran and returned `measurement_not_ready` across all 14 evidence gates. These are scientific dependencies, not a request for renewed owner authorization. `docs/frontier/remaining_plan_work.md` and its machine-readable ledger record each remaining deliverable, command, actual result and blocker. Independent confirmation, native frontier scores and assay-saving claims remain unrun and unestablished.
+
 ## Current execution status, 14 October 2026
 
 The owner has authorized complete execution, including numerical work. That authorization was accepted and the existing 3,142,132,144-byte cache was hash-verified without copying or downloading it. The authorized preparation attempt stopped at scientific Gate 1 before expression decoding, panel selection, fitting or biological scoring: 51 canonical pairs have nominal ten-cell coverage, but zero pairs have certified exact assignment equivalence. Dose, duration, independent initiation and validated guide-equivalence evidence are missing from the inspected source metadata and primary/supplemental methods. These are missing scientific records, not missing owner permission.
@@ -8,7 +14,7 @@ The author-posted Zenodo data deposit provides CC-BY-4.0 research rights; the up
 
 The complete SC01–SC08 software implementation is present. Independent cultures, anchors, useful margins, power and native frontier comparisons are not established. Earlier dated authorization statements below describe the historical implementation-only phase and are superseded by this section. See `docs/frontier/authorized_execution_status.md` for commands, receipts, resource scope and source references.
 
-## Active implementation status, 13 October 2026
+## Historical implementation status, 13 October 2026
 
 The owner authorized repository implementation and small-fixture software checks. The separately named `opal_context_contrast_v1` pipeline is now implemented in `src/context_contrast/`; its preparation, scientific fitting and biological scoring remain unauthorized and unrun. The frozen bridge is retired as the research default, and its configuration, historical scores, failed attempts and 207/256-gene refusal remain unchanged. Synthetic failure and source incompatibility establish no biological failure.
 

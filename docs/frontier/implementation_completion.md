@@ -1,5 +1,11 @@
 # Implementation completion, 14 October 2026
 
+## Remaining roadmap execution, 14 October 2026
+
+Following the current-source pair refusal, the PLAN's distinct single-response/context lead has undergone a pinned, outcome-blind Tahoe metadata audit. It fetched 369,683 bytes, recorded 1,344 sample catalog rows, and remains `metadata_only_unqualified`: measured crossed edges, duration, initiation, support and an exact bounded expression subset are missing. Catalog context labels are not measured coverage. No pivot predictor or rescue pair model was fit.
+
+The collaborator crossed-repeatability pilot specification is now drafted, with exact lineage requirements, independent reference partitions and complete symbolic outcome/cost accounting. Actual cultures, partner arrangements, useful margin, power and prices remain unset. The successor confirmation readiness checker ran and returned `measurement_not_ready` across all 14 evidence gates. These are scientific dependencies, not a request for renewed owner authorization. [remaining PLAN work](remaining_plan_work.md) and its machine-readable ledger record each remaining deliverable, command, actual result and blocker. Independent confirmation, native frontier scores and assay-saving claims remain unrun and unestablished.
+
 The approved second-council software implementation is present for SC01–SC08. The source/reference/evaluator separation, fixed contrast equations, fold-local Base/references/controls, complete inference serialization/replay, conditional evaluation and five gates are implemented. The active specification is the second-council section of `PLAN.md` and `experiment_contract.md`; preserved first-council bridge sections remain historical. The frozen adapter is research-retired, with its configuration, failures and original evidence retained.
 
 ## Current execution status, 14 October 2026
@@ -10,7 +16,7 @@ The author-posted Zenodo data deposit provides CC-BY-4.0 research rights; the up
 
 The complete SC01–SC08 software implementation is present. Independent cultures, anchors, useful margins, power and native frontier comparisons are not established. Earlier dated authorization statements below describe the historical implementation-only phase and are superseded by this section. See [the current execution report](authorized_execution_status.md) for commands, receipts, resource scope and source references.
 
-The project builds a wheel and source distribution with the existing environment, renders all 68 root/docs Markdown documents, and compiles the manuscript offline to 44 pages. The full suite passes 363 tests. The generated documentation is a local review build and is not published. `project_build_validation.json` records the package/manuscript/documentation hashes and test evidence. `historical_asset_inventory.json` records all original bridge files; raw/numerical banks, checkpoints, large attempt streams and generated test/code copies remain local.
+The project builds a wheel and source distribution with the existing environment, renders all 71 root/docs Markdown documents, and compiles the manuscript offline to 44 pages. The full suite passes 366 tests. The generated documentation is a local review build and is not published. `project_build_validation.json` records the package/manuscript/documentation hashes and test evidence. `historical_asset_inventory.json` records all original bridge files; raw/numerical banks, checkpoints, large attempt streams and generated test/code copies remain local.
 
 | Active work package | Software status | Scientific execution status |
 | --- | --- | --- |

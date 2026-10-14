@@ -1,0 +1,29 @@
+# Crossed repeatability pilot specification
+
+This is the PLAN's nonquery measurement-reliability pilot draft. It specifies the evidence a biological partner must produce before confirmation registration. It does not claim that a partner, cultures, assay costs, useful margin or powered design exists. Owner execution authorization is already recorded; scientific design review and measurements remain missing.
+
+## Question and measurements
+
+Estimate whether pair-by-pretreatment-context contrasts repeat after shared, affine and component-incidence adjustment, and how much apparent contrast is induced by common single/control references. Use a small nonquery crossed panel with several partners per intervention rather than a star. Select actual interventions, doses, durations and contexts with the biological reviewer before initiating cultures. Pilot identities and outcomes must remain disjoint from the sealed confirmation queries and the data used to choose the confirmation useful margin.
+
+Each outcome requires literal intervention and molecular reagent identifiers, physical dose and unit, duration and unit, simultaneous/sequential initiation, assay and endpoint scale. Record culture ID, independent initiation ID/date/provenance, pretreatment context definition and its freeze record, randomized plate/block and sample ID. Preserve actual single/control matches and QC/exclusion reasons. Different cells, SampleIndex labels, plates or aliquots do not automatically establish independent cultures.
+
+Collect two independently measured reference partitions for each culture/context. Keep their initiation and matching lineage distinct. Pair-outcome estimation remains identical across methods and reference swaps. Cross-fit all permitted adjustment estimates on pilot training identities; estimate covariance at the culture/block level while retaining the common-reference contribution shared among pairs. Compare additional reference precision with additional pair identities under actual assay cost before ordering a full screen. Technical resampling alone cannot answer this tradeoff biologically.
+
+The primary repeatability object is the context difference in pair residual response, with full response error retained as the later prediction endpoint. Inspect independent-reference agreement and nuisance-adjusted contrast covariance without choosing a model or program from favorable confirmation outcomes. A reviewer must specify meaningful effect size, covariance estimator, supported estimand and assay exclusions before the pilot analysis is treated as design evidence. The software does not supply those judgments.
+
+## Administrative topology and complete cost accounting
+
+The PLAN's illustrative 12 intervention identities have 66 unordered distinct pairs: 36 source-training identities, four bridge identities, 20 globally held query identities and six reserves. Freeze the identity allocation before response access, remove query aliases and reagent-equivalent versions from every source context, and preserve the same supported query population for every reference. These are illustrative counts, not selected reagents or a powered workload. Three source and two held contexts are an illustrative split; culture counts remain unset.
+
+Let `Ns` and `Nt` be the total independently initiated source and held-context cultures actually commissioned. With the illustrative allocation, all 12 singles and one control in each of two independently measured reference partitions cost `26*(Ns+Nt)` reference outcomes. Source-training pairs cost `36*Ns`, and the four target bridges plus 20 target queries cost `24*Nt`. Thus the illustrative base ledger is `62*Ns + 50*Nt` measured outcomes, before reserves, technical repeats, QC failures, distinct vehicle/dose matches, functional endpoints or any pilot outcomes. Multiple dose/vehicle/assay groups increase references; the formula assumes one exact matching group and must not be used if that assumption fails. Distinct bridge identities are four, while repeated bridge outcomes cost `4*Nt`. Do not equate those quantities or omit evaluator references.
+
+An actual cost ledger must enumerate every outcome and actual currency/quote, including failed wells/cultures, reference partitions, repetitions, bridges, sample processing, sequencing, storage and functional confirmation. The pilot has its own ledger and cannot be counted as free training data or silently reused as held queries.
+
+## Decisions before confirmation
+
+The biological reviewer must use the separate empirical pilot to freeze the useful response/program margin, culture count by context, functional endpoint and supported context/target population. Retain reviewed covariance, empirical power, null type-I and interval coverage checks, with explicit acceptance criteria and finite replicate counts. A wide pilot interval supports only a predeclared measurement extension; it does not authorize metric/rank tuning. No culture counts, margin or power values are filled here.
+
+The later source-conditioned contract requires at least three documented source contexts with connected crossed support, globally excluded pairs and fresh held pretreatment contexts. Four prespecified nonquery bridge identities may estimate only a shared gene intercept. Center source-predicted corrections over those bridges, provide the same labels to references and fit no target interaction operator. The exact new confirmation procedure must be registered after readiness; the fixed two-context diagnostic cannot be relabeled as held-context transfer.
+
+Use the existing successor readiness checker, whose 14 reviewed-evidence gates include context graph and transfer calibration. The actual blank-package check on 14 October returns `measurement_not_ready`. Filling an administrative design or this specification does not pass any scientific gate. See [remaining work](remaining_plan_work.md) for exact commands and missing evidence.
