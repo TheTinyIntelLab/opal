@@ -240,7 +240,7 @@ def prepare_raw(raw, review, review_root, source_identity, output, budget):
         graph = qualify_graph(meta["rows"], review, review_root)
         write_json(Path(output) / "qualification.json", dict(graph, source_identity=source_identity))
         if not graph["qualified"]:
-            raise Unsupported("Source metadata/rights qualification failed")
+            raise Unsupported("Source qualification failed: "+", ".join(graph["reasons"]))
         if "layers/counts" not in file:
             raise ContractError("Verified counts layer required; no upstream-X substitution")
         references, reference_counts = aggregate(file["layers/counts"], meta, np.arange(len(meta["genes"])), True, budget)

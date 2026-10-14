@@ -45,9 +45,7 @@ def test_protocol_frozen_and_old_refusal_preserved(tmp_path):
     with pytest.raises(ContractError):
         load_config(tmp_path/"bad.json")
     old_path = Path(__file__).parents[1]/"configs/experiments/opal_frontier_bridge_v1.json"
-    # The inherited dirty bridge checkout is deliberately not committed by
-    # this successor. Check it when present without making clean checkout
-    # validation depend on somebody else's untracked work.
+    # Preserve the frozen bridge threshold/seed independently of the successor.
     if old_path.is_file():
         old = read_json(old_path)
         assert old["minimum_common_genes"] == 256 and old["fold_seed"] == 20261011
@@ -89,6 +87,31 @@ def test_literal_graph_missing_rights_and_assignments_cannot_pass(tmp_path):
     rows.append(dict(rows[0], pair_id=json.dumps(json.loads(rows[0]["pair_id"])[::-1])))
     with pytest.raises(ContractError, match="Duplicate"):
         qualify_graph(rows, {}, tmp_path)
+
+
+def test_reviewed_assignment_refusal_is_not_missing_owner_authorization(tmp_path):
+    _, ids, _ = fixture(36)
+    rows = [dict(pair_id=p, context=c, stratum="s", control_cells=10,
+        single_a_cells=10, single_b_cells=10, pair_cells=10) for p in ids for c in PROTOCOL["contexts"]]
+    review = dict(assignments=dict(approved=False, reviewer="fixture audit", reviewed_at="2026-10-14",
+        evidence=[dict(path="source.json", sha256="fixture")]))
+    result = qualify_graph(rows, review, tmp_path)
+    assert "assignment_equivalence_unqualified" in result["reasons"]
+    assert "assignment_equivalence_unreviewed" not in result["reasons"]
+
+
+def test_authorized_source_refusal_writes_complete_gates_without_fake_results(tmp_path):
+    from opal.context_contrast.failure import record_failure
+    write_json(tmp_path/"qualification.json", dict(qualified=False,status="ineligible_graph",
+        complete_pairs=[],reasons=["inexact_assignment"]))
+    class RefusalBudget(FixtureBudget):
+        def receipt(self,status):
+            self.write_json(self.root/"resource_ledger.json", dict(status=status))
+    result = record_failure(tmp_path,"prepare",dict(approved=True),Unsupported("inexact assignment"),RefusalBudget(tmp_path))
+    assert result["status"] == "source_ineligible" and result["owner_execution_authorized"]
+    assert len(result["gates"]) == 5 and not any(g["passed"] for g in result["gates"])
+    assert result["fitting_performed"] is False and result["biological_scoring_performed"] is False
+    assert read_json(tmp_path/"predictions.json")["status"] == "not_run"
 
 
 def test_exact_features_symmetry_and_four_coordinates():
@@ -292,6 +315,24 @@ class FixtureBudget:
     def write_json(self, path, value):
         self.check(len(json.dumps(value).encode()))
         write_json(path, value)
+
+
+def test_failure_receipt_survives_stop_and_stays_in_reserved_output(tmp_path):
+    from opal.context_contrast.resources import Budget
+    budget = object.__new__(Budget)
+    budget.output = tmp_path.resolve()
+    budget.acceptance = dict(failure_reserve_bytes=20_000)
+    budget.failure_receipt_bytes = 0
+    def stopped(*args):
+        raise ContractError("CPU/RAM stop limit")
+    budget.check = stopped
+    budget.write_failure_json(tmp_path/"decision.json", dict(status="failed_partial_attempt"))
+    assert read_json(tmp_path/"decision.json")["status"] == "failed_partial_attempt"
+    with pytest.raises(ContractError, match="inside accepted output"):
+        budget.write_failure_json(tmp_path.parent/"outside.json", {})
+    budget.write_failure_json(tmp_path/"failure.json", {})
+    with pytest.raises(ContractError, match="reserve exhausted"):
+        budget.write_failure_json(tmp_path/"overflow.json", {})
 
 
 def test_separated_roles_mutation_fallback_and_evaluator_freeze(tmp_path, monkeypatch):

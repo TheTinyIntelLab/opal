@@ -148,9 +148,8 @@ def main(argv=None):
                 evaluate_run(args.input, args.output, budget, integrity)
             budget.check()
     except Exception as error:
-        write_json(args.output/"failure.json", dict(operation=operation, reason=str(error),
-            experiment_id=PROTOCOL["experiment_id"], partial_assets_retained=True, experiment_completed=False))
-        budget.receipt("failed_partial_attempt")
+        from .failure import record_failure
+        record_failure(args.output, operation, accepted, error, budget)
         raise
     budget.receipt("completed_"+operation)
     return 0

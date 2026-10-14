@@ -125,7 +125,9 @@ def qualify_graph(rows, review, root):
     if not reviewed(review.get("rights"), root) or review.get("rights", {}).get("research_use_authorized") is not True:
         reasons.append("rights_unresolved")
     if not reviewed(review.get("assignments"), root):
-        reasons.append("assignment_equivalence_unreviewed")
+        assignment = review.get("assignments", {})
+        audited = isinstance(assignment, dict) and assignment.get("reviewer") and assignment.get("reviewed_at") and assignment.get("evidence")
+        reasons.append("assignment_equivalence_unqualified" if audited else "assignment_equivalence_unreviewed")
     required = ("reagent_ids", "dose", "dose_unit", "duration", "duration_unit", "initiation_mode", "assay_id")
     signatures, support, excluded, incompatible = {}, {}, [], set()
     for row in rows:

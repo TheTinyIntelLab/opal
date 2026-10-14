@@ -92,6 +92,7 @@ class Budget:
         self.wall = time.monotonic()
         self.peak_bytes = 0
         self.peak_rss = 0
+        self.failure_receipt_bytes = 0
         self.check()
         self.output.mkdir(parents=True)
         write_json(self.output / "acceptance.json", acceptance)
@@ -127,3 +128,15 @@ class Budget:
         self.check(len(json.dumps(value, sort_keys=True, allow_nan=False).encode("utf-8"))+8192)
         write_json(path, value)
         self.check()
+
+    def write_failure_json(self, path, value):
+        """Use the already reserved receipt allowance after a stop limit fires."""
+        encoded = json.dumps(value, sort_keys=True, allow_nan=False).encode("utf-8")
+        needed = len(encoded)+8192
+        if self.failure_receipt_bytes+needed > self.acceptance["failure_reserve_bytes"]:
+            raise ContractError("Failure receipt reserve exhausted")
+        target = Path(path).resolve()
+        if not target.is_relative_to(self.output):
+            raise ContractError("Failure receipt must stay inside accepted output")
+        write_json(target, value)
+        self.failure_receipt_bytes += needed
