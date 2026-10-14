@@ -38,3 +38,7 @@ configs/experiments/opal_gxe_measurement_v1.json -text
 src/gxe_measurement.py -text
 tools/acquire_gxe_measurement.py -text
 tools/run_gxe_measurement.py -text
+
+results/opal_evidence_audit_v1/** -text whitespace=-blank-at-eof,-blank-at-eol,cr-at-eol
+src/evidence_audit.py -text
+tools/audit_research_evidence.py -text
