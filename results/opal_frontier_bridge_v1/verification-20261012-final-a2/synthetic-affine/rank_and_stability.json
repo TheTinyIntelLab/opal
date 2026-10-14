@@ -1,0 +1,2494 @@
+[
+  {
+    "arm": "candidate",
+    "bridge_permutation": null,
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 0,
+    "full_mode_rms": 0.0013240577787906778,
+    "rank": {
+      "condition_number": 1.8691140116148377,
+      "effective_rank": 2,
+      "singular_values": [
+        11.681895323464245,
+        6.249964020852621
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.9634276354926592,
+          "effective_rank": 2,
+          "singular_values": [
+            10.074160909340645,
+            5.130905120836224
+          ]
+        },
+        "eta": [
+          0.0014012479311928292,
+          -0.000463633188197363
+        ],
+        "intercept_change_rms": 0.002807937271730925,
+        "left_out": 0,
+        "mode_change_rms": 0.00014044609238115697
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.0580284762176937,
+          "effective_rank": 2,
+          "singular_values": [
+            5.600332129126337,
+            5.293177126145748
+          ]
+        },
+        "eta": [
+          0.0006917080852394985,
+          -0.00020360309463603936
+        ],
+        "intercept_change_rms": 0.0024468729404005813,
+        "left_out": 1,
+        "mode_change_rms": 0.0005628068243658003
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.2550956176026546,
+          "effective_rank": 2,
+          "singular_values": [
+            11.58274280360097,
+            5.1362535198903645
+          ]
+        },
+        "eta": [
+          0.0015758296005578699,
+          -0.00017382855161712346
+        ],
+        "intercept_change_rms": 0.002731471199775841,
+        "left_out": 2,
+        "mode_change_rms": 0.0003280666444808623
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.233534639495772,
+          "effective_rank": 2,
+          "singular_values": [
+            10.012230984746884,
+            4.48268444451221
+          ]
+        },
+        "eta": [
+          0.0010020699830050725,
+          -0.0005255036726991594
+        ],
+        "intercept_change_rms": 0.0023157374297834575,
+        "left_out": 3,
+        "mode_change_rms": 0.0003962285534010856
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "source_shuffle_20261021",
+    "direction": "TNFA+_to_TNFA-",
+    "fallback": "locked_selector_complete_population",
+    "fold": 0,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "bridge_shuffle_20261021",
+    "direction": "TNFA+_to_TNFA-",
+    "fallback": "locked_selector_complete_population",
+    "fold": 0,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "source_shuffle_20261022",
+    "direction": "TNFA+_to_TNFA-",
+    "fallback": "locked_selector_complete_population",
+    "fold": 0,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "bridge_shuffle_20261022",
+    "direction": "TNFA+_to_TNFA-",
+    "fallback": "locked_selector_complete_population",
+    "fold": 0,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "source_shuffle_20261023",
+    "direction": "TNFA+_to_TNFA-",
+    "fallback": "locked_selector_complete_population",
+    "fold": 0,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "bridge_shuffle_20261023",
+    "bridge_permutation": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 0,
+    "full_mode_rms": 0.0014244619137576114,
+    "rank": {
+      "condition_number": 1.8691140116148377,
+      "effective_rank": 2,
+      "singular_values": [
+        11.681895323464245,
+        6.249964020852621
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.9634276354926592,
+          "effective_rank": 2,
+          "singular_values": [
+            10.074160909340645,
+            5.130905120836224
+          ]
+        },
+        "eta": [
+          -0.0014130389641004342,
+          -0.0003072532236707431
+        ],
+        "intercept_change_rms": 0.002731471199775841,
+        "left_out": 0,
+        "mode_change_rms": 0.00019654873974923068
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.0580284762176937,
+          "effective_rank": 2,
+          "singular_values": [
+            5.600332129126337,
+            5.293177126145748
+          ]
+        },
+        "eta": [
+          -0.0006192262545379924,
+          -0.0006477952682834385
+        ],
+        "intercept_change_rms": 0.002315737429783459,
+        "left_out": 1,
+        "mode_change_rms": 0.0007173901322528226
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.2550956176026546,
+          "effective_rank": 2,
+          "singular_values": [
+            11.58274280360097,
+            5.1362535198903645
+          ]
+        },
+        "eta": [
+          -0.0017116119123655065,
+          -0.0005978377124809353
+        ],
+        "intercept_change_rms": 0.002807937271730926,
+        "left_out": 2,
+        "mode_change_rms": 0.0003516018601240605
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.233534639495772,
+          "effective_rank": 2,
+          "singular_values": [
+            10.012230984746884,
+            4.48268444451221
+          ]
+        },
+        "eta": [
+          -0.0012214163698388112,
+          -0.0001657274239809739
+        ],
+        "intercept_change_rms": 0.0024468729404005835,
+        "left_out": 3,
+        "mode_change_rms": 0.00036534906427756694
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "mean_feature",
+    "bridge_permutation": null,
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 0,
+    "full_mode_rms": 0.0016661674808978102,
+    "rank": {
+      "condition_number": 1.2295725630066232,
+      "effective_rank": 2,
+      "singular_values": [
+        16.590516303889544,
+        13.492913556334925
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.1526959588752095,
+          "effective_rank": 2,
+          "singular_values": [
+            15.476835319451862,
+            13.426641431582722
+          ]
+        },
+        "eta": [
+          -0.0020683395008784856,
+          -0.0014181658244160086
+        ],
+        "intercept_change_rms": 0.002807937271730925,
+        "left_out": 0,
+        "mode_change_rms": 0.0003786420036620291
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.8902726903412057,
+          "effective_rank": 2,
+          "singular_values": [
+            12.637053245398164,
+            6.685306998281343
+          ]
+        },
+        "eta": [
+          -0.0014976243710165776,
+          -0.00041024416525989814
+        ],
+        "intercept_change_rms": 0.0024468729404005813,
+        "left_out": 1,
+        "mode_change_rms": 0.0007558584024653633
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.6572962040133195,
+          "effective_rank": 2,
+          "singular_values": [
+            14.6843053385389,
+            8.860398824892792
+          ]
+        },
+        "eta": [
+          -0.0019071818460050505,
+          -0.0006918350423974981
+        ],
+        "intercept_change_rms": 0.002731471199775841,
+        "left_out": 2,
+        "mode_change_rms": 0.0005092308991120365
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.236065848662462,
+          "effective_rank": 2,
+          "singular_values": [
+            13.491301376821045,
+            10.91471088811319
+          ]
+        },
+        "eta": [
+          -0.0011682970962607132,
+          -0.0014292346129958981
+        ],
+        "intercept_change_rms": 0.0023157374297834575,
+        "left_out": 3,
+        "mode_change_rms": 0.0006240492106720952
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "candidate",
+    "direction": "TNFA+_to_TNFA-",
+    "fallback": "locked_selector_complete_population",
+    "fold": 1,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "source_shuffle_20261021",
+    "bridge_permutation": null,
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 1,
+    "full_mode_rms": 0.0011476045572049792,
+    "rank": {
+      "condition_number": 1.530157501237557,
+      "effective_rank": 2,
+      "singular_values": [
+        20.912403777443814,
+        13.666830872331985
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.5046493211909013,
+          "effective_rank": 2,
+          "singular_values": [
+            20.2596020515904,
+            13.46466699333989
+          ]
+        },
+        "eta": [
+          0.0014715089209876469,
+          0.0022555227301372122
+        ],
+        "intercept_change_rms": 0.0033067504210341314,
+        "left_out": 0,
+        "mode_change_rms": 0.0008071837290438413
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.5415440893516474,
+          "effective_rank": 2,
+          "singular_values": [
+            16.401269153954352,
+            10.639507015885938
+          ]
+        },
+        "eta": [
+          0.0010491977262866792,
+          -6.691300064305335e-05
+        ],
+        "intercept_change_rms": 0.0034518842373047567,
+        "left_out": 1,
+        "mode_change_rms": 0.0008657692732331771
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.5423899780463575,
+          "effective_rank": 2,
+          "singular_values": [
+            20.859894586711903,
+            13.524397126292106
+          ]
+        },
+        "eta": [
+          0.0014646810705554172,
+          0.0014012789624897636
+        ],
+        "intercept_change_rms": 0.0028879339447582765,
+        "left_out": 2,
+        "mode_change_rms": 0.0002503832980467819
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.579922421673951,
+          "effective_rank": 2,
+          "singular_values": [
+            7.184801831013192,
+            4.547566217460721
+          ]
+        },
+        "eta": [
+          0.0001579960767802816,
+          0.0006704265344970051
+        ],
+        "intercept_change_rms": 0.002448386324251835,
+        "left_out": 3,
+        "mode_change_rms": 0.00089231051547743
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "bridge_shuffle_20261021",
+    "bridge_permutation": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 1,
+    "full_mode_rms": 0.0014153656034881837,
+    "rank": {
+      "condition_number": 1.3541150144696135,
+      "effective_rank": 2,
+      "singular_values": [
+        14.584880893558775,
+        10.770784414698669
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.1264008864171298,
+          "effective_rank": 2,
+          "singular_values": [
+            10.75576557094472,
+            9.548790045040532
+          ]
+        },
+        "eta": [
+          -6.014524825741025e-05,
+          -0.002067895009896029
+        ],
+        "intercept_change_rms": 0.002448386324251834,
+        "left_out": 0,
+        "mode_change_rms": 0.0004406055379473593
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.2946799903904793,
+          "effective_rank": 2,
+          "singular_values": [
+            14.04591646620934,
+            6.121078549091799
+          ]
+        },
+        "eta": [
+          -0.00033845233501746656,
+          -0.0019066031923125227
+        ],
+        "intercept_change_rms": 0.0033067504210341314,
+        "left_out": 1,
+        "mode_change_rms": 0.00018567681380857596
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.2247095191543185,
+          "effective_rank": 2,
+          "singular_values": [
+            10.74416227936755,
+            8.77282499346177
+          ]
+        },
+        "eta": [
+          -7.439692563041181e-05,
+          -0.000943005224740783
+        ],
+        "intercept_change_rms": 0.0034518842373047554,
+        "left_out": 2,
+        "mode_change_rms": 0.0008935740680732874
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.2249538133540754,
+          "effective_rank": 2,
+          "singular_values": [
+            14.206350085280597,
+            6.385008983114483
+          ]
+        },
+        "eta": [
+          0.00011752688586209115,
+          -0.0022780905701641698
+        ],
+        "intercept_change_rms": 0.002887933944758276,
+        "left_out": 3,
+        "mode_change_rms": 0.00018517695274288337
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "source_shuffle_20261022",
+    "direction": "TNFA+_to_TNFA-",
+    "fallback": "locked_selector_complete_population",
+    "fold": 1,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "bridge_shuffle_20261022",
+    "bridge_permutation": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 1,
+    "full_mode_rms": 0.001372450208420987,
+    "rank": {
+      "condition_number": 1.3541150144696135,
+      "effective_rank": 2,
+      "singular_values": [
+        14.584880893558775,
+        10.770784414698669
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.1264008864171298,
+          "effective_rank": 2,
+          "singular_values": [
+            10.75576557094472,
+            9.548790045040532
+          ]
+        },
+        "eta": [
+          0.00010057941089533473,
+          0.0009447743547847259
+        ],
+        "intercept_change_rms": 0.0034518842373047537,
+        "left_out": 0,
+        "mode_change_rms": 0.0005987742908225267
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.2946799903904793,
+          "effective_rank": 2,
+          "singular_values": [
+            14.04591646620934,
+            6.121078549091799
+          ]
+        },
+        "eta": [
+          -0.0001088453548484895,
+          0.002156230970712494
+        ],
+        "intercept_change_rms": 0.002887933944758279,
+        "left_out": 1,
+        "mode_change_rms": 0.00030080869146089246
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.2247095191543185,
+          "effective_rank": 2,
+          "singular_values": [
+            10.74416227936755,
+            8.77282499346177
+          ]
+        },
+        "eta": [
+          5.18439674351608e-05,
+          0.0019653397433667644
+        ],
+        "intercept_change_rms": 0.0024483863242518358,
+        "left_out": 2,
+        "mode_change_rms": 0.0004059558254020496
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.2249538133540754,
+          "effective_rank": 2,
+          "singular_values": [
+            14.206350085280597,
+            6.385008983114483
+          ]
+        },
+        "eta": [
+          0.0003474898371828558,
+          0.0019253546613465203
+        ],
+        "intercept_change_rms": 0.003306750421034131,
+        "left_out": 3,
+        "mode_change_rms": 0.0001830757896160592
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "source_shuffle_20261023",
+    "direction": "TNFA+_to_TNFA-",
+    "fallback": "locked_selector_complete_population",
+    "fold": 1,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "bridge_shuffle_20261023",
+    "direction": "TNFA+_to_TNFA-",
+    "fallback": "locked_selector_complete_population",
+    "fold": 1,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "mean_feature",
+    "bridge_permutation": null,
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 1,
+    "full_mode_rms": 0.0030879322192654607,
+    "rank": {
+      "condition_number": 1.8606691877555261,
+      "effective_rank": 2,
+      "singular_values": [
+        25.69970766511388,
+        13.812077845022374
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.0912050940294922,
+          "effective_rank": 2,
+          "singular_values": [
+            15.071201395304438,
+            13.811520380326511
+          ]
+        },
+        "eta": [
+          -0.0016849845704401151,
+          -0.0018108097338365304
+        ],
+        "intercept_change_rms": 0.0033067504210341314,
+        "left_out": 0,
+        "mode_change_rms": 0.0013904747513943533
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.7915599781010938,
+          "effective_rank": 2,
+          "singular_values": [
+            19.092316268337978,
+            10.6568111041274
+          ]
+        },
+        "eta": [
+          -0.0010909903246492576,
+          -0.0025534915687434423
+        ],
+        "intercept_change_rms": 0.0034518842373047567,
+        "left_out": 1,
+        "mode_change_rms": 0.0009863534176495553
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.7739218087926667,
+          "effective_rank": 2,
+          "singular_values": [
+            23.538452382709103,
+            13.269160041912672
+          ]
+        },
+        "eta": [
+          -0.0015794445462446332,
+          -0.0033248097595887957
+        ],
+        "intercept_change_rms": 0.0028879339447582765,
+        "left_out": 2,
+        "mode_change_rms": 0.0006975818220963043
+      },
+      {
+        "diagnostic": {
+          "condition_number": 4.661068873493334,
+          "effective_rank": 2,
+          "singular_values": [
+            24.810284258045787,
+            5.322874416024496
+          ]
+        },
+        "eta": [
+          -0.0003013142879659695,
+          -0.0035296390794413873
+        ],
+        "intercept_change_rms": 0.002448386324251835,
+        "left_out": 3,
+        "mode_change_rms": 0.0011116959598904822
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "candidate",
+    "direction": "TNFA+_to_TNFA-",
+    "fallback": "locked_selector_complete_population",
+    "fold": 2,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "source_shuffle_20261021",
+    "direction": "TNFA+_to_TNFA-",
+    "fallback": "locked_selector_complete_population",
+    "fold": 2,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "bridge_shuffle_20261021",
+    "bridge_permutation": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 2,
+    "full_mode_rms": 0.0010929616755210795,
+    "rank": {
+      "condition_number": 1.7989690729611587,
+      "effective_rank": 2,
+      "singular_values": [
+        8.610057932525677,
+        4.786106699629503
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 2.2255635355400414,
+          "effective_rank": 2,
+          "singular_values": [
+            8.202306836130441,
+            3.685496596770993
+          ]
+        },
+        "eta": [
+          -0.0015516955259441774,
+          0.00010918882805555635
+        ],
+        "intercept_change_rms": 0.0013650212637303098,
+        "left_out": 0,
+        "mode_change_rms": 0.0004388898143364831
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.8171650409018314,
+          "effective_rank": 2,
+          "singular_values": [
+            8.464029669598565,
+            4.657821099946979
+          ]
+        },
+        "eta": [
+          -0.001330105436936606,
+          -0.0003163056212993798
+        ],
+        "intercept_change_rms": 0.0028205156280247294,
+        "left_out": 1,
+        "mode_change_rms": 0.0003025206806954496
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.2617381097166396,
+          "effective_rank": 2,
+          "singular_values": [
+            6.026288649662254,
+            4.776180257419374
+          ]
+        },
+        "eta": [
+          -0.00020447756051378534,
+          -9.44632340776403e-05
+        ],
+        "intercept_change_rms": 0.0034983883002088064,
+        "left_out": 2,
+        "mode_change_rms": 0.0009009779938220152
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.7382302705671053,
+          "effective_rank": 2,
+          "singular_values": [
+            4.738614744796619,
+            1.730539171862716
+          ]
+        },
+        "eta": [
+          -0.0008185953177794745,
+          -4.2473305896068395e-05
+        ],
+        "intercept_change_rms": 0.001671303577430289,
+        "left_out": 3,
+        "mode_change_rms": 0.00023926321118030217
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "source_shuffle_20261022",
+    "direction": "TNFA+_to_TNFA-",
+    "fallback": "locked_selector_complete_population",
+    "fold": 2,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "bridge_shuffle_20261022",
+    "bridge_permutation": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 2,
+    "full_mode_rms": 0.0007242047290783576,
+    "rank": {
+      "condition_number": 1.7989690729611587,
+      "effective_rank": 2,
+      "singular_values": [
+        8.610057932525677,
+        4.786106699629503
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 2.2255635355400414,
+          "effective_rank": 2,
+          "singular_values": [
+            8.202306836130441,
+            3.685496596770993
+          ]
+        },
+        "eta": [
+          -0.00017192261891837187,
+          -0.0004904162357302666
+        ],
+        "intercept_change_rms": 0.0034983883002088086,
+        "left_out": 0,
+        "mode_change_rms": 0.00038473182429344386
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.8171650409018314,
+          "effective_rank": 2,
+          "singular_values": [
+            8.464029669598565,
+            4.657821099946979
+          ]
+        },
+        "eta": [
+          -0.0005537282485519022,
+          -0.0008490963452973394
+        ],
+        "intercept_change_rms": 0.0016713035774302888,
+        "left_out": 1,
+        "mode_change_rms": 0.0001723040723595076
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.2617381097166396,
+          "effective_rank": 2,
+          "singular_values": [
+            6.026288649662254,
+            4.776180257419374
+          ]
+        },
+        "eta": [
+          -0.0009854113776517454,
+          -0.0008024117533056886
+        ],
+        "intercept_change_rms": 0.0013650212637303103,
+        "left_out": 2,
+        "mode_change_rms": 0.00041662683752470456
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.7382302705671053,
+          "effective_rank": 2,
+          "singular_values": [
+            4.738614744796619,
+            1.730539171862716
+          ]
+        },
+        "eta": [
+          -0.00021246368399557085,
+          -7.024830954601403e-05
+        ],
+        "intercept_change_rms": 0.0028205156280247286,
+        "left_out": 3,
+        "mode_change_rms": 0.0005311043268617882
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "source_shuffle_20261023",
+    "bridge_permutation": null,
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 2,
+    "full_mode_rms": 0.0012747385772214795,
+    "rank": {
+      "condition_number": 2.1669701833897137,
+      "effective_rank": 2,
+      "singular_values": [
+        18.48494130692145,
+        8.530316406110451
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 3.1058965928696516,
+          "effective_rank": 2,
+          "singular_values": [
+            16.571717824923518,
+            5.335566503716822
+          ]
+        },
+        "eta": [
+          -0.0023104586595898134,
+          0.00013839245775841615
+        ],
+        "intercept_change_rms": 0.0028205156280247286,
+        "left_out": 0,
+        "mode_change_rms": 0.0012086955708793144
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.1552263374589873,
+          "effective_rank": 2,
+          "singular_values": [
+            15.5936195071007,
+            7.235258420925564
+          ]
+        },
+        "eta": [
+          -0.00024094352839076222,
+          -0.00046793869559332696
+        ],
+        "intercept_change_rms": 0.003498388300208806,
+        "left_out": 1,
+        "mode_change_rms": 0.0009458840115093515
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.046865257510965,
+          "effective_rank": 2,
+          "singular_values": [
+            7.278005840462193,
+            6.952189680806139
+          ]
+        },
+        "eta": [
+          -0.0007324544808737527,
+          -0.0010538762480506647
+        ],
+        "intercept_change_rms": 0.0016713035774302892,
+        "left_out": 2,
+        "mode_change_rms": 0.0007713863315906837
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.2904118963304607,
+          "effective_rank": 2,
+          "singular_values": [
+            18.450726552251563,
+            8.055636884270484
+          ]
+        },
+        "eta": [
+          -0.0017074726177122926,
+          -0.0011475124016324066
+        ],
+        "intercept_change_rms": 0.0013650212637303116,
+        "left_out": 3,
+        "mode_change_rms": 0.0004235511433761823
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "bridge_shuffle_20261023",
+    "bridge_permutation": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 2,
+    "full_mode_rms": 0.001195476453066791,
+    "rank": {
+      "condition_number": 1.7989690729611587,
+      "effective_rank": 2,
+      "singular_values": [
+        8.610057932525677,
+        4.786106699629503
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 2.2255635355400414,
+          "effective_rank": 2,
+          "singular_values": [
+            8.202306836130441,
+            3.685496596770993
+          ]
+        },
+        "eta": [
+          0.0013111636542049345,
+          0.00033860813989297823
+        ],
+        "intercept_change_rms": 0.0016713035774302888,
+        "left_out": 0,
+        "mode_change_rms": 0.00010757625951824235
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.8171650409018314,
+          "effective_rank": 2,
+          "singular_values": [
+            8.464029669598565,
+            4.657821099946979
+          ]
+        },
+        "eta": [
+          0.0016106180958234406,
+          0.0004806010212802111
+        ],
+        "intercept_change_rms": 0.0013650212637303094,
+        "left_out": 1,
+        "mode_change_rms": 0.0004716455887619985
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.2617381097166396,
+          "effective_rank": 2,
+          "singular_values": [
+            6.026288649662254,
+            4.776180257419374
+          ]
+        },
+        "eta": [
+          0.001168990860955928,
+          0.00034222506149432025
+        ],
+        "intercept_change_rms": 0.0028205156280247303,
+        "left_out": 2,
+        "mode_change_rms": 0.0001426905410866286
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.7382302705671053,
+          "effective_rank": 2,
+          "singular_values": [
+            4.738614744796619,
+            1.730539171862716
+          ]
+        },
+        "eta": [
+          9.951879456766777e-05,
+          -0.00010736843357224526
+        ],
+        "intercept_change_rms": 0.003498388300208808,
+        "left_out": 3,
+        "mode_change_rms": 0.0011145263507014815
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "mean_feature",
+    "bridge_permutation": null,
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 2,
+    "full_mode_rms": 0.002179810678842283,
+    "rank": {
+      "condition_number": 2.117866237004476,
+      "effective_rank": 2,
+      "singular_values": [
+        26.657314459784335,
+        12.586873521100472
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.9416888929054472,
+          "effective_rank": 2,
+          "singular_values": [
+            20.108429030855095,
+            10.356153915453385
+          ]
+        },
+        "eta": [
+          -0.0026691426682770632,
+          -0.0009358416372256688
+        ],
+        "intercept_change_rms": 0.0028205156280247286,
+        "left_out": 0,
+        "mode_change_rms": 0.00092727638741842
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.1847232092476747,
+          "effective_rank": 2,
+          "singular_values": [
+            12.234264187539592,
+            10.3266856697343
+          ]
+        },
+        "eta": [
+          -0.0012622289801081283,
+          -0.0009311718027707885
+        ],
+        "intercept_change_rms": 0.003498388300208806,
+        "left_out": 1,
+        "mode_change_rms": 0.0013281908977587076
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.2324977096684973,
+          "effective_rank": 2,
+          "singular_values": [
+            25.22445885023544,
+            11.29876135639172
+          ]
+        },
+        "eta": [
+          -0.003506424234522875,
+          -0.0010885665165859552
+        ],
+        "intercept_change_rms": 0.0016713035774302892,
+        "left_out": 2,
+        "mode_change_rms": 0.0005875951520829655
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.9508555186967085,
+          "effective_rank": 2,
+          "singular_values": [
+            26.54556413604478,
+            8.995887452927226
+          ]
+        },
+        "eta": [
+          -0.003702983356556512,
+          -0.0007280406841585825
+        ],
+        "intercept_change_rms": 0.0013650212637303116,
+        "left_out": 3,
+        "mode_change_rms": 0.0004655399523502599
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "candidate",
+    "bridge_permutation": null,
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 0,
+    "full_mode_rms": 0.008122786293910614,
+    "rank": {
+      "condition_number": 1.1529945095631335,
+      "effective_rank": 2,
+      "singular_values": [
+        22.119613884363318,
+        19.184491947619403
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.1705260607537593,
+          "effective_rank": 2,
+          "singular_values": [
+            18.803005146453554,
+            16.06372192546091
+          ]
+        },
+        "eta": [
+          0.003280543665250673,
+          -0.001103812894078124
+        ],
+        "intercept_change_rms": 0.00542762543515007,
+        "left_out": 0,
+        "mode_change_rms": 0.0006857509291168682
+      },
+      {
+        "diagnostic": {
+          "condition_number": 3.0664433352736005,
+          "effective_rank": 2,
+          "singular_values": [
+            19.070625545664598,
+            6.219135154494234
+          ]
+        },
+        "eta": [
+          0.0012503454177060392,
+          -0.0008784277702032374
+        ],
+        "intercept_change_rms": 0.004729703167375914,
+        "left_out": 1,
+        "mode_change_rms": 0.004569274453884616
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.296415295654807,
+          "effective_rank": 2,
+          "singular_values": [
+            22.060808325230497,
+            17.016775719302043
+          ]
+        },
+        "eta": [
+          0.0040216007702499005,
+          -5.573961677266826e-05
+        ],
+        "intercept_change_rms": 0.005279819712690469,
+        "left_out": 2,
+        "mode_change_rms": 0.0026253431387116325
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.463791571296502,
+          "effective_rank": 2,
+          "singular_values": [
+            20.63563924731996,
+            8.375562075837863
+          ]
+        },
+        "eta": [
+          0.0026541092219204217,
+          -0.0016817087046512593
+        ],
+        "intercept_change_rms": 0.004476223703983861,
+        "left_out": 3,
+        "mode_change_rms": 0.0021415159285950902
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "source_shuffle_20261021",
+    "bridge_permutation": null,
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 0,
+    "full_mode_rms": 0.005978900124053122,
+    "rank": {
+      "condition_number": 1.1576183919030847,
+      "effective_rank": 2,
+      "singular_values": [
+        30.172892060998613,
+        26.064627404023376
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.1904713694854243,
+          "effective_rank": 2,
+          "singular_values": [
+            26.047135188891094,
+            21.879682163334888
+          ]
+        },
+        "eta": [
+          -0.0010401933099614693,
+          0.003431883078214906
+        ],
+        "intercept_change_rms": 0.00542762543515007,
+        "left_out": 0,
+        "mode_change_rms": 0.0025180788468542447
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.3533700330289167,
+          "effective_rank": 2,
+          "singular_values": [
+            22.479986991699104,
+            16.610377386137074
+          ]
+        },
+        "eta": [
+          -0.002246648934087908,
+          0.001509808354572986
+        ],
+        "intercept_change_rms": 0.004729703167375914,
+        "left_out": 1,
+        "mode_change_rms": 0.005546425205953726
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.9755989935002027,
+          "effective_rank": 2,
+          "singular_values": [
+            27.032824230727584,
+            13.683355944028431
+          ]
+        },
+        "eta": [
+          0.001664871234597006,
+          0.001837392372987307
+        ],
+        "intercept_change_rms": 0.005279819712690469,
+        "left_out": 2,
+        "mode_change_rms": 0.0033825969916089294
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.0314807260102354,
+          "effective_rank": 2,
+          "singular_values": [
+            26.70016007931164,
+            25.88527289558554
+          ]
+        },
+        "eta": [
+          0.0025095319249509402,
+          0.0034731373024224164
+        ],
+        "intercept_change_rms": 0.004476223703983861,
+        "left_out": 3,
+        "mode_change_rms": 0.004098298789770641
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "bridge_shuffle_20261021",
+    "direction": "TNFA-_to_TNFA+",
+    "fallback": "locked_selector_complete_population",
+    "fold": 0,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "source_shuffle_20261022",
+    "direction": "TNFA-_to_TNFA+",
+    "fallback": "locked_selector_complete_population",
+    "fold": 0,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "bridge_shuffle_20261022",
+    "direction": "TNFA-_to_TNFA+",
+    "fallback": "locked_selector_complete_population",
+    "fold": 0,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "source_shuffle_20261023",
+    "direction": "TNFA-_to_TNFA+",
+    "fallback": "locked_selector_complete_population",
+    "fold": 0,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "bridge_shuffle_20261023",
+    "bridge_permutation": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 0,
+    "full_mode_rms": 0.010042973107772345,
+    "rank": {
+      "condition_number": 1.1529945095631335,
+      "effective_rank": 2,
+      "singular_values": [
+        22.119613884363318,
+        19.184491947619403
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.1705260607537593,
+          "effective_rank": 2,
+          "singular_values": [
+            18.803005146453554,
+            16.06372192546091
+          ]
+        },
+        "eta": [
+          -0.003495274638374669,
+          -0.0018960822931622502
+        ],
+        "intercept_change_rms": 0.005279819712690467,
+        "left_out": 0,
+        "mode_change_rms": 0.0014655612397970644
+      },
+      {
+        "diagnostic": {
+          "condition_number": 3.0664433352736005,
+          "effective_rank": 2,
+          "singular_values": [
+            19.070625545664598,
+            6.219135154494234
+          ]
+        },
+        "eta": [
+          -0.0012020128890918515,
+          -0.0030744082835800148
+        ],
+        "intercept_change_rms": 0.0044762237039838604,
+        "left_out": 1,
+        "mode_change_rms": 0.005748715913997004
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.296415295654807,
+          "effective_rank": 2,
+          "singular_values": [
+            22.060808325230497,
+            17.016775719302043
+          ]
+        },
+        "eta": [
+          -0.004447304391683817,
+          -0.0031106565796394222
+        ],
+        "intercept_change_rms": 0.005427625435150073,
+        "left_out": 2,
+        "mode_change_rms": 0.0024376178283864926
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.463791571296502,
+          "effective_rank": 2,
+          "singular_values": [
+            20.63563924731996,
+            8.375562075837863
+          ]
+        },
+        "eta": [
+          -0.0033359003581076457,
+          -0.0006488161722977845
+        ],
+        "intercept_change_rms": 0.004729703167375916,
+        "left_out": 3,
+        "mode_change_rms": 0.0036351471077822194
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "mean_feature",
+    "bridge_permutation": null,
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 0,
+    "full_mode_rms": 0.00619647450461971,
+    "rank": {
+      "condition_number": 1.2295725630066232,
+      "effective_rank": 2,
+      "singular_values": [
+        25.922681724827417,
+        21.082677431773323
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.15269595887521,
+          "effective_rank": 2,
+          "singular_values": [
+            24.182555186643537,
+            20.979127236847997
+          ]
+        },
+        "eta": [
+          -0.004652550026614259,
+          -0.003361957661481635
+        ],
+        "intercept_change_rms": 0.00542762543515007,
+        "left_out": 0,
+        "mode_change_rms": 0.001196499133499331
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.890272690341205,
+          "effective_rank": 2,
+          "singular_values": [
+            19.745395695934622,
+            10.445792184814596
+          ]
+        },
+        "eta": [
+          -0.003623988952663926,
+          -0.0011480353850131181
+        ],
+        "intercept_change_rms": 0.004729703167375914,
+        "left_out": 1,
+        "mode_change_rms": 0.0026935627828218703
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.6572962040133192,
+          "effective_rank": 2,
+          "singular_values": [
+            22.944227091467027,
+            13.844373163894987
+          ]
+        },
+        "eta": [
+          -0.004377082565829688,
+          -0.0018431259828030236
+        ],
+        "intercept_change_rms": 0.005279819712690469,
+        "left_out": 2,
+        "mode_change_rms": 0.0017928232112844923
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.2360658486624623,
+          "effective_rank": 2,
+          "singular_values": [
+            21.08015840128288,
+            17.054235762676853
+          ]
+        },
+        "eta": [
+          -0.0029563123048314778,
+          -0.0033825193886713556
+        ],
+        "intercept_change_rms": 0.004476223703983861,
+        "left_out": 3,
+        "mode_change_rms": 0.0020163903314662696
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "candidate",
+    "direction": "TNFA-_to_TNFA+",
+    "fallback": "locked_selector_complete_population",
+    "fold": 1,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "source_shuffle_20261021",
+    "bridge_permutation": null,
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 1,
+    "full_mode_rms": 0.00601458473403186,
+    "rank": {
+      "condition_number": 1.5695878971823873,
+      "effective_rank": 2,
+      "singular_values": [
+        47.840694383666424,
+        30.479780373910017
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.5594349342526437,
+          "effective_rank": 2,
+          "singular_values": [
+            44.55117430638827,
+            28.568793303158454
+          ]
+        },
+        "eta": [
+          0.0036166933744132142,
+          0.004101899445145802
+        ],
+        "intercept_change_rms": 0.006388032187403442,
+        "left_out": 0,
+        "mode_change_rms": 0.004683266027122161
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.6271289784585676,
+          "effective_rank": 2,
+          "singular_values": [
+            41.88950174565957,
+            25.74442610280524
+          ]
+        },
+        "eta": [
+          0.0029401738982812124,
+          -0.0002717640334963315
+        ],
+        "intercept_change_rms": 0.006668403963852029,
+        "left_out": 1,
+        "mode_change_rms": 0.003376530322770062
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.5611470569152215,
+          "effective_rank": 2,
+          "singular_values": [
+            47.44894059512389,
+            30.393639333940474
+          ]
+        },
+        "eta": [
+          0.003544282382411044,
+          0.0015880827491836342
+        ],
+        "intercept_change_rms": 0.005578955967424206,
+        "left_out": 2,
+        "mode_change_rms": 0.0008182837617898833
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.2267395167857635,
+          "effective_rank": 2,
+          "singular_values": [
+            10.599338915843957,
+            8.640252287311792
+          ]
+        },
+        "eta": [
+          0.00040154588264501345,
+          1.6272384363956702e-06
+        ],
+        "intercept_change_rms": 0.004729830998744644,
+        "left_out": 3,
+        "mode_change_rms": 0.005490540970542042
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "bridge_shuffle_20261021",
+    "bridge_permutation": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 1,
+    "full_mode_rms": 0.008776697065025913,
+    "rank": {
+      "condition_number": 2.0632164122840595,
+      "effective_rank": 2,
+      "singular_values": [
+        54.754377608372515,
+        26.538358885851107
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.6152222890537524,
+          "effective_rank": 2,
+          "singular_values": [
+            41.36763495883764,
+            25.611109529123755
+          ]
+        },
+        "eta": [
+          -0.00014343539717398407,
+          -0.0061136363294395524
+        ],
+        "intercept_change_rms": 0.004729830998744642,
+        "left_out": 0,
+        "mode_change_rms": 0.005722684064192229
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.6857286289586746,
+          "effective_rank": 2,
+          "singular_values": [
+            50.122179903006646,
+            18.66241412574892
+          ]
+        },
+        "eta": [
+          -0.002003177784899854,
+          -0.0038485208680308627
+        ],
+        "intercept_change_rms": 0.006388032187403442,
+        "left_out": 1,
+        "mode_change_rms": 0.0023089370177195143
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.154143616138427,
+          "effective_rank": 2,
+          "singular_values": [
+            30.44841380452072,
+            26.381824045776952
+          ]
+        },
+        "eta": [
+          -0.0008477415870833258,
+          -0.004054498320097125
+        ],
+        "intercept_change_rms": 0.006668403963852033,
+        "left_out": 2,
+        "mode_change_rms": 0.004399701592883934
+      },
+      {
+        "diagnostic": {
+          "condition_number": 3.998686340938976,
+          "effective_rank": 2,
+          "singular_values": [
+            53.33065037311084,
+            13.337042675017036
+          ]
+        },
+        "eta": [
+          -0.0005491132070184297,
+          -0.004874088952403264
+        ],
+        "intercept_change_rms": 0.005578955967424207,
+        "left_out": 3,
+        "mode_change_rms": 0.0012403041500533014
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "source_shuffle_20261022",
+    "direction": "TNFA-_to_TNFA+",
+    "fallback": "locked_selector_complete_population",
+    "fold": 1,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "bridge_shuffle_20261022",
+    "bridge_permutation": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 1,
+    "full_mode_rms": 0.007735472659845455,
+    "rank": {
+      "condition_number": 2.0632164122840595,
+      "effective_rank": 2,
+      "singular_values": [
+        54.754377608372515,
+        26.538358885851107
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.6152222890537524,
+          "effective_rank": 2,
+          "singular_values": [
+            41.36763495883764,
+            25.611109529123755
+          ]
+        },
+        "eta": [
+          0.00019126487179867775,
+          0.0029503387575167098
+        ],
+        "intercept_change_rms": 0.006668403963852031,
+        "left_out": 0,
+        "mode_change_rms": 0.002009013897805328
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.6857286289586746,
+          "effective_rank": 2,
+          "singular_values": [
+            50.122179903006646,
+            18.66241412574892
+          ]
+        },
+        "eta": [
+          0.00018946644252776856,
+          0.004208965718631327
+        ],
+        "intercept_change_rms": 0.005578955967424205,
+        "left_out": 1,
+        "mode_change_rms": 0.0016730894203306954
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.154143616138427,
+          "effective_rank": 2,
+          "singular_values": [
+            30.44841380452072,
+            26.381824045776952
+          ]
+        },
+        "eta": [
+          0.0003499765637388332,
+          0.006909388130674946
+        ],
+        "intercept_change_rms": 0.004729830998744643,
+        "left_out": 2,
+        "mode_change_rms": 0.0045334330295075135
+      },
+      {
+        "diagnostic": {
+          "condition_number": 3.998686340938976,
+          "effective_rank": 2,
+          "singular_values": [
+            53.33065037311084,
+            13.337042675017036
+          ]
+        },
+        "eta": [
+          0.0019911589690450684,
+          0.003715306182880165
+        ],
+        "intercept_change_rms": 0.006388032187403442,
+        "left_out": 3,
+        "mode_change_rms": 0.0025668530237044377
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "source_shuffle_20261023",
+    "direction": "TNFA-_to_TNFA+",
+    "fallback": "locked_selector_complete_population",
+    "fold": 1,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "bridge_shuffle_20261023",
+    "direction": "TNFA-_to_TNFA+",
+    "fallback": "locked_selector_complete_population",
+    "fold": 1,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "mean_feature",
+    "bridge_permutation": null,
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 1,
+    "full_mode_rms": 0.009740928227588319,
+    "rank": {
+      "condition_number": 1.860669187755534,
+      "effective_rank": 2,
+      "singular_values": [
+        40.15579322674047,
+        21.58137163284739
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.091205094029499,
+          "effective_rank": 2,
+          "singular_values": [
+            23.54875218016326,
+            21.580500594260105
+          ]
+        },
+        "eta": [
+          -0.003952526344479785,
+          -0.00411275796582238
+        ],
+        "intercept_change_rms": 0.006388032187403442,
+        "left_out": 0,
+        "mode_change_rms": 0.003695093959906266
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.7915599781010974,
+          "effective_rank": 2,
+          "singular_values": [
+            29.831744169278107,
+            16.65126735019904
+          ]
+        },
+        "eta": [
+          -0.0027773841273584475,
+          -0.00526499206001854
+        ],
+        "intercept_change_rms": 0.006668403963852029,
+        "left_out": 1,
+        "mode_change_rms": 0.002925383635852526
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.7739218087926745,
+          "effective_rank": 2,
+          "singular_values": [
+            36.77883184798302,
+            20.733062565488485
+          ]
+        },
+        "eta": [
+          -0.0037574096226468167,
+          -0.0062564446947058535
+        ],
+        "intercept_change_rms": 0.005578955967424206,
+        "left_out": 2,
+        "mode_change_rms": 0.002035792533492334
+      },
+      {
+        "diagnostic": {
+          "condition_number": 4.661068873493392,
+          "effective_rank": 2,
+          "singular_values": [
+            38.766069153196575,
+            8.31699127503818
+          ]
+        },
+        "eta": [
+          -0.000865137756795144,
+          -0.006491282177766795
+        ],
+        "intercept_change_rms": 0.004729830998744644,
+        "left_out": 3,
+        "mode_change_rms": 0.0037640177492705533
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "candidate",
+    "bridge_permutation": null,
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 2,
+    "full_mode_rms": 0.008593165791184439,
+    "rank": {
+      "condition_number": 1.966519215317985,
+      "effective_rank": 2,
+      "singular_values": [
+        30.247983839190432,
+        15.381483996483276
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 2.6212682498110746,
+          "effective_rank": 2,
+          "singular_values": [
+            27.605380238030087,
+            10.531306835925593
+          ]
+        },
+        "eta": [
+          0.0023987632228473724,
+          0.0011657902500863998
+        ],
+        "intercept_change_rms": 0.005457471617386393,
+        "left_out": 0,
+        "mode_change_rms": 0.0039538021755380634
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.9147765701470683,
+          "effective_rank": 2,
+          "singular_values": [
+            28.183269600032332,
+            14.718829360789421
+          ]
+        },
+        "eta": [
+          0.0009352426239440277,
+          0.0032230469318494507
+        ],
+        "intercept_change_rms": 0.0067691008925048965,
+        "left_out": 1,
+        "mode_change_rms": 0.0039141832694039695
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.500561974479179,
+          "effective_rank": 2,
+          "singular_values": [
+            21.720164641199133,
+            14.474686824406472
+          ]
+        },
+        "eta": [
+          0.0015233660951461136,
+          0.00386782841778073
+        ],
+        "intercept_change_rms": 0.0032338384326733366,
+        "left_out": 2,
+        "mode_change_rms": 0.003211907824747093
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.094657503486282,
+          "effective_rank": 2,
+          "singular_values": [
+            20.290937585221204,
+            9.686995392540119
+          ]
+        },
+        "eta": [
+          0.005519647669510376,
+          0.0029201121800292587
+        ],
+        "intercept_change_rms": 0.002641206710545395,
+        "left_out": 3,
+        "mode_change_rms": 0.008323649817177167
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "source_shuffle_20261021",
+    "direction": "TNFA-_to_TNFA+",
+    "fallback": "locked_selector_complete_population",
+    "fold": 2,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "bridge_shuffle_20261021",
+    "bridge_permutation": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 2,
+    "full_mode_rms": 0.010756057675790177,
+    "rank": {
+      "condition_number": 1.966519215317985,
+      "effective_rank": 2,
+      "singular_values": [
+        30.247983839190432,
+        15.381483996483276
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 2.6212682498110746,
+          "effective_rank": 2,
+          "singular_values": [
+            27.605380238030087,
+            10.531306835925593
+          ]
+        },
+        "eta": [
+          -0.0057994319327230245,
+          -0.0016725451243693502
+        ],
+        "intercept_change_rms": 0.0026412067105453974,
+        "left_out": 0,
+        "mode_change_rms": 0.003583078982866368
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.9147765701470683,
+          "effective_rank": 2,
+          "singular_values": [
+            28.183269600032332,
+            14.718829360789421
+          ]
+        },
+        "eta": [
+          -0.0043742821574745735,
+          -0.0016675102142445412
+        ],
+        "intercept_change_rms": 0.005457471617386393,
+        "left_out": 1,
+        "mode_change_rms": 0.001561868948689247
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.500561974479179,
+          "effective_rank": 2,
+          "singular_values": [
+            21.720164641199133,
+            14.474686824406472
+          ]
+        },
+        "eta": [
+          -0.0009324778419728658,
+          -0.0019575385126155095
+        ],
+        "intercept_change_rms": 0.006769100892504897,
+        "left_out": 2,
+        "mode_change_rms": 0.007897792483903626
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.094657503486282,
+          "effective_rank": 2,
+          "singular_values": [
+            20.290937585221204,
+            9.686995392540119
+          ]
+        },
+        "eta": [
+          -0.003972577564575892,
+          -0.0028377845143388158
+        ],
+        "intercept_change_rms": 0.0032338384326733353,
+        "left_out": 3,
+        "mode_change_rms": 0.0021107565294933104
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "source_shuffle_20261022",
+    "direction": "TNFA-_to_TNFA+",
+    "fallback": "locked_selector_complete_population",
+    "fold": 2,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "bridge_shuffle_20261022",
+    "bridge_permutation": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 2,
+    "full_mode_rms": 0.00911301596604144,
+    "rank": {
+      "condition_number": 1.966519215317985,
+      "effective_rank": 2,
+      "singular_values": [
+        30.247983839190432,
+        15.381483996483276
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 2.6212682498110746,
+          "effective_rank": 2,
+          "singular_values": [
+            27.605380238030087,
+            10.531306835925593
+          ]
+        },
+        "eta": [
+          -0.0007376997848666456,
+          -0.0027442607745439074
+        ],
+        "intercept_change_rms": 0.0067691008925048965,
+        "left_out": 0,
+        "mode_change_rms": 0.0049822958312520805
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.9147765701470683,
+          "effective_rank": 2,
+          "singular_values": [
+            28.183269600032332,
+            14.718829360789421
+          ]
+        },
+        "eta": [
+          -0.0022620663936209593,
+          -0.0042578855299590075
+        ],
+        "intercept_change_rms": 0.0032338384326733357,
+        "left_out": 1,
+        "mode_change_rms": 0.00195769996548346
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.500561974479179,
+          "effective_rank": 2,
+          "singular_values": [
+            21.720164641199133,
+            14.474686824406472
+          ]
+        },
+        "eta": [
+          -0.005279230381758292,
+          -0.0037927753079550547
+        ],
+        "intercept_change_rms": 0.002641206710545396,
+        "left_out": 2,
+        "mode_change_rms": 0.005396496550158542
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.094657503486282,
+          "effective_rank": 2,
+          "singular_values": [
+            20.290937585221204,
+            9.686995392540119
+          ]
+        },
+        "eta": [
+          -0.0022452431362254242,
+          -0.0014189208073426194
+        ],
+        "intercept_change_rms": 0.005457471617386394,
+        "left_out": 3,
+        "mode_change_rms": 0.003803177494016339
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "source_shuffle_20261023",
+    "direction": "TNFA-_to_TNFA+",
+    "fallback": "locked_selector_complete_population",
+    "fold": 2,
+    "reason": "Leave-one-bridge mode correction is unstable",
+    "stratum": "synthetic-stratum",
+    "supported": false
+  },
+  {
+    "arm": "bridge_shuffle_20261023",
+    "bridge_permutation": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 2,
+    "full_mode_rms": 0.011134718820199514,
+    "rank": {
+      "condition_number": 1.966519215317985,
+      "effective_rank": 2,
+      "singular_values": [
+        30.247983839190432,
+        15.381483996483276
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 2.6212682498110746,
+          "effective_rank": 2,
+          "singular_values": [
+            27.605380238030087,
+            10.531306835925593
+          ]
+        },
+        "eta": [
+          0.004138368494742299,
+          0.0032510156488268576
+        ],
+        "intercept_change_rms": 0.0032338384326733357,
+        "left_out": 0,
+        "mode_change_rms": 0.0015896578109433717
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.9147765701470683,
+          "effective_rank": 2,
+          "singular_values": [
+            28.183269600032332,
+            14.718829360789421
+          ]
+        },
+        "eta": [
+          0.0057011059271515055,
+          0.0027023488123540957
+        ],
+        "intercept_change_rms": 0.0026412067105454,
+        "left_out": 1,
+        "mode_change_rms": 0.004232526573648259
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.500561974479179,
+          "effective_rank": 2,
+          "singular_values": [
+            21.720164641199133,
+            14.474686824406472
+          ]
+        },
+        "eta": [
+          0.004688342128585044,
+          0.0018824854027898355
+        ],
+        "intercept_change_rms": 0.005457471617386392,
+        "left_out": 2,
+        "mode_change_rms": 0.002010955325676
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.094657503486282,
+          "effective_rank": 2,
+          "singular_values": [
+            20.290937585221204,
+            9.686995392540119
+          ]
+        },
+        "eta": [
+          0.0006981730312909316,
+          0.0013365931416521764
+        ],
+        "intercept_change_rms": 0.006769100892504897,
+        "left_out": 3,
+        "mode_change_rms": 0.00850886074968783
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  },
+  {
+    "arm": "mean_feature",
+    "bridge_permutation": null,
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 2,
+    "full_mode_rms": 0.006755184463238273,
+    "rank": {
+      "condition_number": 2.117866237004486,
+      "effective_rank": 2,
+      "singular_values": [
+        41.65205384341306,
+        19.66698987671941
+      ]
+    },
+    "stability": [
+      {
+        "diagnostic": {
+          "condition_number": 1.9416888929054912,
+          "effective_rank": 2,
+          "singular_values": [
+            31.419420360711246,
+            16.18149049289563
+          ]
+        },
+        "eta": [
+          -0.005390015581428958,
+          -0.0024046253598670906
+        ],
+        "intercept_change_rms": 0.005457471617386393,
+        "left_out": 0,
+        "mode_change_rms": 0.0028126610391583694
+      },
+      {
+        "diagnostic": {
+          "condition_number": 1.1847232092476523,
+          "effective_rank": 2,
+          "singular_values": [
+            19.116037793030454,
+            16.135446358960014
+          ]
+        },
+        "eta": [
+          -0.0030897199447623347,
+          -0.0023944198658226844
+        ],
+        "intercept_change_rms": 0.0067691008925048965,
+        "left_out": 1,
+        "mode_change_rms": 0.0035636291951411624
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.2324977096685004,
+          "effective_rank": 2,
+          "singular_values": [
+            39.413216953492885,
+            17.654314619362044
+          ]
+        },
+        "eta": [
+          -0.006412816515446348,
+          -0.0027301666108083067
+        ],
+        "intercept_change_rms": 0.0032338384326733366,
+        "left_out": 2,
+        "mode_change_rms": 0.00164526703218636
+      },
+      {
+        "diagnostic": {
+          "condition_number": 2.950855518696743,
+          "effective_rank": 2,
+          "singular_values": [
+            41.47744396257003,
+            14.056074145198645
+          ]
+        },
+        "eta": [
+          -0.0066255646156964994,
+          -0.0019351884728228317
+        ],
+        "intercept_change_rms": 0.002641206710545395,
+        "left_out": 3,
+        "mode_change_rms": 0.0012177867691740957
+      }
+    ],
+    "stratum": "synthetic-stratum",
+    "supported": true,
+    "target_numeric_values": 258,
+    "zero_mode_branch": false
+  }
+]

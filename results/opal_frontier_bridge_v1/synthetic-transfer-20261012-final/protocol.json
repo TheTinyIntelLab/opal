@@ -1,0 +1,69 @@
+{
+  "aliases": {},
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20261031,
+  "bridge_count": 4,
+  "contexts": [
+    "TNFA+",
+    "TNFA-"
+  ],
+  "diagnostic_bridge_count": 0,
+  "experiment_id": "opal_frontier_bridge_v1",
+  "fold_seed": 20261011,
+  "inner_folds": 3,
+  "input_rank": 4,
+  "maximum_condition_number": 10000,
+  "minimum_common_genes": 256,
+  "minimum_common_pairs": 36,
+  "minimum_inner_pairs": 12,
+  "minimum_inner_queries": 4,
+  "minimum_relative_mse_gain": 0.05,
+  "minimum_source_pairs": 20,
+  "mode_rms_floor": 1e-08,
+  "outer_folds": 3,
+  "output_rank": 2,
+  "prepared_source": {
+    "path": "results/opal_model_series_v1/pertspectra/access-v4/prepared.json",
+    "sha256": "a17ca49654ce1051d7437e3a4b394af58da43170d084d7e9a5c14771564bb1fa"
+  },
+  "primary_metric": "equal_pair_equal_stratum_response_mse",
+  "rank_relative_tolerance": 1e-08,
+  "resources": {
+    "artifact_cap_bytes": 3000000000,
+    "cpu_core_hours": 24,
+    "environment_installations": false,
+    "gpu_training": false,
+    "inherited_ledger": "results/opal_information_v1/resource_ledger.json",
+    "new_retained_bytes": 60000000,
+    "raw_downloads": false,
+    "reserve_bytes": 1073741824,
+    "threads": 1,
+    "workers": 1
+  },
+  "retrieval_metric": "query_panel_centered_cosine_normalized_inverse_rank",
+  "role": "exposed_public_development",
+  "schema_version": 1,
+  "shuffle_seeds": [
+    20261021,
+    20261022,
+    20261023
+  ],
+  "source_access": {
+    "path": "results/opal_model_series_v1/pertspectra/access-v4/access.json",
+    "sha256": "9ac4c7d48bdeb20e8199bd1d6e6115440bdaadeeb8b76cc4996a9a1679b83ee2"
+  },
+  "source_penalties": [
+    0.1,
+    1,
+    10
+  ],
+  "source_registry": {
+    "path": "results/opal_model_series_v1/series_registry.json",
+    "sha256": "8c5181813cf44bd48ca97edbb355eb1ecedf37465e0e982fd69e2dc80a71410a"
+  },
+  "source_support": {
+    "path": "results/opal_model_series_v1/pertspectra/access-v4/support_and_exclusions.json",
+    "sha256": "5193c0c3803cc28735c2332dea37e5405062d2de3942f1e0039e7594205a4389"
+  },
+  "target_penalty": 1
+}

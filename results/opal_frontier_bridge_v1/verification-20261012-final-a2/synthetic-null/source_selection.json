@@ -1,0 +1,4574 @@
+[
+  {
+    "base_attempts": [
+      {
+        "config": {
+          "alpha": 1,
+          "id": "additive",
+          "kind": "additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "shared_offset-0.1",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-1.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-10.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "global-0.1",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "global-1.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "global-10.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "single_sum-0.1",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-1.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-10.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "component_additive-0.1",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-1.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-10.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "id": "null",
+          "kind": "no_change",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 5.885661882203559
+      },
+      {
+        "config": {
+          "id": "response-mean",
+          "kind": "response_mean",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 5.34929325608333
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "affine-0.1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "affine-1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "affine-10",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-4-0.1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 8.990627269260638e-07
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-4-1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 8.870936907534119e-05
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-4-10",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.007811384256905168
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-8-0.1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-8-1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-8-10",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      }
+    ],
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 0,
+    "reference_attempts": [
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "no_change",
+        "mse": 5.966159929364683
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "additive",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "frozen_base",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_offset",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      }
+    ],
+    "selected_references": {
+      "additive": {
+        "alpha": 1,
+        "failure": null,
+        "family": "additive",
+        "mse": 0.0
+      },
+      "bridge_affine": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      "bridge_incidence": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      "bridge_offset": {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_offset",
+        "mse": 0.0
+      },
+      "frozen_base": {
+        "alpha": 1,
+        "failure": null,
+        "family": "frozen_base",
+        "mse": 0.0
+      },
+      "no_change": {
+        "alpha": 1,
+        "failure": null,
+        "family": "no_change",
+        "mse": 5.966159929364683
+      },
+      "pooled_profile_kernel": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      "source_kernel_posterior": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      "target_profile_kernel": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      "target_profile_ridge": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      }
+    },
+    "selector": {
+      "alpha": 1,
+      "failure": null,
+      "family": "additive",
+      "mse": 0.0
+    },
+    "source_attempts": [],
+    "source_checkpoint": {
+      "array_assets": {},
+      "path": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_frontier_bridge_v1\\verification-20261012-final-a2\\synthetic-null\\source-1",
+      "state_sha256": "cf5d89ca2bd46f1327210ffd831e9235a239ceab8cc76872856090eae70107c8"
+    },
+    "source_failure": "No supported source penalty fit",
+    "source_label_ids": [
+      "[\"T00\",\"T04\"]",
+      "[\"T00\",\"T06\"]",
+      "[\"T00\",\"T07\"]",
+      "[\"T00\",\"T08\"]",
+      "[\"T00\",\"T10\"]",
+      "[\"T00\",\"T11\"]",
+      "[\"T00\",\"T12\"]",
+      "[\"T00\",\"T13\"]",
+      "[\"T00\",\"T14\"]",
+      "[\"T01\",\"T02\"]",
+      "[\"T01\",\"T03\"]",
+      "[\"T01\",\"T04\"]",
+      "[\"T01\",\"T06\"]",
+      "[\"T01\",\"T08\"]",
+      "[\"T01\",\"T09\"]",
+      "[\"T01\",\"T12\"]",
+      "[\"T01\",\"T13\"]",
+      "[\"T02\",\"T03\"]",
+      "[\"T02\",\"T04\"]",
+      "[\"T02\",\"T05\"]",
+      "[\"T02\",\"T06\"]",
+      "[\"T02\",\"T07\"]",
+      "[\"T02\",\"T08\"]",
+      "[\"T02\",\"T09\"]",
+      "[\"T02\",\"T10\"]",
+      "[\"T02\",\"T11\"]",
+      "[\"T02\",\"T14\"]",
+      "[\"T03\",\"T04\"]",
+      "[\"T03\",\"T05\"]",
+      "[\"T03\",\"T06\"]",
+      "[\"T03\",\"T09\"]",
+      "[\"T03\",\"T10\"]",
+      "[\"T03\",\"T11\"]",
+      "[\"T03\",\"T12\"]",
+      "[\"T03\",\"T14\"]",
+      "[\"T04\",\"T05\"]",
+      "[\"T04\",\"T09\"]",
+      "[\"T04\",\"T10\"]",
+      "[\"T04\",\"T12\"]",
+      "[\"T04\",\"T13\"]",
+      "[\"T05\",\"T07\"]",
+      "[\"T05\",\"T08\"]",
+      "[\"T05\",\"T09\"]",
+      "[\"T05\",\"T10\"]",
+      "[\"T05\",\"T11\"]",
+      "[\"T05\",\"T12\"]",
+      "[\"T05\",\"T13\"]",
+      "[\"T06\",\"T07\"]",
+      "[\"T06\",\"T08\"]",
+      "[\"T06\",\"T11\"]",
+      "[\"T06\",\"T13\"]",
+      "[\"T06\",\"T14\"]",
+      "[\"T07\",\"T08\"]",
+      "[\"T07\",\"T09\"]",
+      "[\"T07\",\"T11\"]",
+      "[\"T07\",\"T13\"]",
+      "[\"T07\",\"T14\"]",
+      "[\"T08\",\"T09\"]",
+      "[\"T08\",\"T11\"]",
+      "[\"T08\",\"T14\"]",
+      "[\"T09\",\"T10\"]",
+      "[\"T09\",\"T11\"]",
+      "[\"T09\",\"T14\"]",
+      "[\"T10\",\"T12\"]",
+      "[\"T10\",\"T13\"]",
+      "[\"T10\",\"T14\"]",
+      "[\"T11\",\"T12\"]",
+      "[\"T11\",\"T13\"]",
+      "[\"T12\",\"T14\"]",
+      "[\"T13\",\"T14\"]"
+    ],
+    "source_shuffle_mappings": {
+      "20261021": {
+        "[\"T00\",\"T04\"]": "[\"T00\",\"T06\"]",
+        "[\"T00\",\"T06\"]": "[\"T03\",\"T05\"]",
+        "[\"T00\",\"T07\"]": "[\"T09\",\"T10\"]",
+        "[\"T00\",\"T08\"]": "[\"T13\",\"T14\"]",
+        "[\"T00\",\"T10\"]": "[\"T11\",\"T13\"]",
+        "[\"T00\",\"T11\"]": "[\"T05\",\"T09\"]",
+        "[\"T00\",\"T12\"]": "[\"T09\",\"T14\"]",
+        "[\"T00\",\"T13\"]": "[\"T05\",\"T12\"]",
+        "[\"T00\",\"T14\"]": "[\"T03\",\"T12\"]",
+        "[\"T01\",\"T02\"]": "[\"T07\",\"T14\"]",
+        "[\"T01\",\"T03\"]": "[\"T01\",\"T08\"]",
+        "[\"T01\",\"T04\"]": "[\"T07\",\"T13\"]",
+        "[\"T01\",\"T06\"]": "[\"T07\",\"T09\"]",
+        "[\"T01\",\"T08\"]": "[\"T04\",\"T13\"]",
+        "[\"T01\",\"T09\"]": "[\"T01\",\"T02\"]",
+        "[\"T01\",\"T12\"]": "[\"T04\",\"T05\"]",
+        "[\"T01\",\"T13\"]": "[\"T07\",\"T08\"]",
+        "[\"T02\",\"T03\"]": "[\"T07\",\"T11\"]",
+        "[\"T02\",\"T04\"]": "[\"T04\",\"T09\"]",
+        "[\"T02\",\"T05\"]": "[\"T05\",\"T13\"]",
+        "[\"T02\",\"T06\"]": "[\"T02\",\"T03\"]",
+        "[\"T02\",\"T07\"]": "[\"T01\",\"T13\"]",
+        "[\"T02\",\"T08\"]": "[\"T00\",\"T08\"]",
+        "[\"T02\",\"T09\"]": "[\"T00\",\"T12\"]",
+        "[\"T02\",\"T10\"]": "[\"T10\",\"T12\"]",
+        "[\"T02\",\"T11\"]": "[\"T03\",\"T06\"]",
+        "[\"T02\",\"T14\"]": "[\"T02\",\"T08\"]",
+        "[\"T03\",\"T04\"]": "[\"T02\",\"T09\"]",
+        "[\"T03\",\"T05\"]": "[\"T01\",\"T03\"]",
+        "[\"T03\",\"T06\"]": "[\"T04\",\"T12\"]",
+        "[\"T03\",\"T09\"]": "[\"T03\",\"T11\"]",
+        "[\"T03\",\"T10\"]": "[\"T05\",\"T07\"]",
+        "[\"T03\",\"T11\"]": "[\"T06\",\"T14\"]",
+        "[\"T03\",\"T12\"]": "[\"T05\",\"T11\"]",
+        "[\"T03\",\"T14\"]": "[\"T00\",\"T13\"]",
+        "[\"T04\",\"T05\"]": "[\"T03\",\"T10\"]",
+        "[\"T04\",\"T09\"]": "[\"T01\",\"T06\"]",
+        "[\"T04\",\"T10\"]": "[\"T03\",\"T14\"]",
+        "[\"T04\",\"T12\"]": "[\"T05\",\"T10\"]",
+        "[\"T04\",\"T13\"]": "[\"T02\",\"T04\"]",
+        "[\"T05\",\"T07\"]": "[\"T01\",\"T09\"]",
+        "[\"T05\",\"T08\"]": "[\"T03\",\"T04\"]",
+        "[\"T05\",\"T09\"]": "[\"T00\",\"T04\"]",
+        "[\"T05\",\"T10\"]": "[\"T08\",\"T14\"]",
+        "[\"T05\",\"T11\"]": "[\"T02\",\"T10\"]",
+        "[\"T05\",\"T12\"]": "[\"T11\",\"T12\"]",
+        "[\"T05\",\"T13\"]": "[\"T06\",\"T13\"]",
+        "[\"T06\",\"T07\"]": "[\"T00\",\"T11\"]",
+        "[\"T06\",\"T08\"]": "[\"T00\",\"T07\"]",
+        "[\"T06\",\"T11\"]": "[\"T02\",\"T14\"]",
+        "[\"T06\",\"T13\"]": "[\"T05\",\"T08\"]",
+        "[\"T06\",\"T14\"]": "[\"T02\",\"T05\"]",
+        "[\"T07\",\"T08\"]": "[\"T09\",\"T11\"]",
+        "[\"T07\",\"T09\"]": "[\"T10\",\"T13\"]",
+        "[\"T07\",\"T11\"]": "[\"T02\",\"T07\"]",
+        "[\"T07\",\"T13\"]": "[\"T01\",\"T12\"]",
+        "[\"T07\",\"T14\"]": "[\"T02\",\"T11\"]",
+        "[\"T08\",\"T09\"]": "[\"T10\",\"T14\"]",
+        "[\"T08\",\"T11\"]": "[\"T02\",\"T06\"]",
+        "[\"T08\",\"T14\"]": "[\"T06\",\"T07\"]",
+        "[\"T09\",\"T10\"]": "[\"T01\",\"T04\"]",
+        "[\"T09\",\"T11\"]": "[\"T06\",\"T11\"]",
+        "[\"T09\",\"T14\"]": "[\"T08\",\"T11\"]",
+        "[\"T10\",\"T12\"]": "[\"T06\",\"T08\"]",
+        "[\"T10\",\"T13\"]": "[\"T08\",\"T09\"]",
+        "[\"T10\",\"T14\"]": "[\"T03\",\"T09\"]",
+        "[\"T11\",\"T12\"]": "[\"T00\",\"T14\"]",
+        "[\"T11\",\"T13\"]": "[\"T04\",\"T10\"]",
+        "[\"T12\",\"T14\"]": "[\"T00\",\"T10\"]",
+        "[\"T13\",\"T14\"]": "[\"T12\",\"T14\"]"
+      },
+      "20261022": {
+        "[\"T00\",\"T04\"]": "[\"T06\",\"T11\"]",
+        "[\"T00\",\"T06\"]": "[\"T06\",\"T14\"]",
+        "[\"T00\",\"T07\"]": "[\"T05\",\"T07\"]",
+        "[\"T00\",\"T08\"]": "[\"T00\",\"T07\"]",
+        "[\"T00\",\"T10\"]": "[\"T02\",\"T05\"]",
+        "[\"T00\",\"T11\"]": "[\"T06\",\"T08\"]",
+        "[\"T00\",\"T12\"]": "[\"T02\",\"T11\"]",
+        "[\"T00\",\"T13\"]": "[\"T03\",\"T09\"]",
+        "[\"T00\",\"T14\"]": "[\"T11\",\"T13\"]",
+        "[\"T01\",\"T02\"]": "[\"T00\",\"T06\"]",
+        "[\"T01\",\"T03\"]": "[\"T01\",\"T09\"]",
+        "[\"T01\",\"T04\"]": "[\"T11\",\"T12\"]",
+        "[\"T01\",\"T06\"]": "[\"T02\",\"T10\"]",
+        "[\"T01\",\"T08\"]": "[\"T01\",\"T12\"]",
+        "[\"T01\",\"T09\"]": "[\"T09\",\"T14\"]",
+        "[\"T01\",\"T12\"]": "[\"T00\",\"T08\"]",
+        "[\"T01\",\"T13\"]": "[\"T06\",\"T13\"]",
+        "[\"T02\",\"T03\"]": "[\"T01\",\"T13\"]",
+        "[\"T02\",\"T04\"]": "[\"T04\",\"T12\"]",
+        "[\"T02\",\"T05\"]": "[\"T07\",\"T09\"]",
+        "[\"T02\",\"T06\"]": "[\"T00\",\"T11\"]",
+        "[\"T02\",\"T07\"]": "[\"T04\",\"T10\"]",
+        "[\"T02\",\"T08\"]": "[\"T09\",\"T11\"]",
+        "[\"T02\",\"T09\"]": "[\"T00\",\"T14\"]",
+        "[\"T02\",\"T10\"]": "[\"T02\",\"T14\"]",
+        "[\"T02\",\"T11\"]": "[\"T04\",\"T05\"]",
+        "[\"T02\",\"T14\"]": "[\"T08\",\"T11\"]",
+        "[\"T03\",\"T04\"]": "[\"T07\",\"T08\"]",
+        "[\"T03\",\"T05\"]": "[\"T04\",\"T09\"]",
+        "[\"T03\",\"T06\"]": "[\"T03\",\"T05\"]",
+        "[\"T03\",\"T09\"]": "[\"T04\",\"T13\"]",
+        "[\"T03\",\"T10\"]": "[\"T05\",\"T10\"]",
+        "[\"T03\",\"T11\"]": "[\"T00\",\"T13\"]",
+        "[\"T03\",\"T12\"]": "[\"T09\",\"T10\"]",
+        "[\"T03\",\"T14\"]": "[\"T03\",\"T12\"]",
+        "[\"T04\",\"T05\"]": "[\"T10\",\"T14\"]",
+        "[\"T04\",\"T09\"]": "[\"T07\",\"T11\"]",
+        "[\"T04\",\"T10\"]": "[\"T02\",\"T07\"]",
+        "[\"T04\",\"T12\"]": "[\"T02\",\"T08\"]",
+        "[\"T04\",\"T13\"]": "[\"T02\",\"T06\"]",
+        "[\"T05\",\"T07\"]": "[\"T08\",\"T09\"]",
+        "[\"T05\",\"T08\"]": "[\"T02\",\"T09\"]",
+        "[\"T05\",\"T09\"]": "[\"T01\",\"T08\"]",
+        "[\"T05\",\"T10\"]": "[\"T01\",\"T03\"]",
+        "[\"T05\",\"T11\"]": "[\"T08\",\"T14\"]",
+        "[\"T05\",\"T12\"]": "[\"T05\",\"T11\"]",
+        "[\"T05\",\"T13\"]": "[\"T12\",\"T14\"]",
+        "[\"T06\",\"T07\"]": "[\"T07\",\"T14\"]",
+        "[\"T06\",\"T08\"]": "[\"T00\",\"T04\"]",
+        "[\"T06\",\"T11\"]": "[\"T06\",\"T07\"]",
+        "[\"T06\",\"T13\"]": "[\"T01\",\"T04\"]",
+        "[\"T06\",\"T14\"]": "[\"T03\",\"T04\"]",
+        "[\"T07\",\"T08\"]": "[\"T10\",\"T12\"]",
+        "[\"T07\",\"T09\"]": "[\"T02\",\"T04\"]",
+        "[\"T07\",\"T11\"]": "[\"T05\",\"T13\"]",
+        "[\"T07\",\"T13\"]": "[\"T05\",\"T08\"]",
+        "[\"T07\",\"T14\"]": "[\"T07\",\"T13\"]",
+        "[\"T08\",\"T09\"]": "[\"T01\",\"T06\"]",
+        "[\"T08\",\"T11\"]": "[\"T03\",\"T11\"]",
+        "[\"T08\",\"T14\"]": "[\"T10\",\"T13\"]",
+        "[\"T09\",\"T10\"]": "[\"T01\",\"T02\"]",
+        "[\"T09\",\"T11\"]": "[\"T13\",\"T14\"]",
+        "[\"T09\",\"T14\"]": "[\"T00\",\"T10\"]",
+        "[\"T10\",\"T12\"]": "[\"T05\",\"T12\"]",
+        "[\"T10\",\"T13\"]": "[\"T02\",\"T03\"]",
+        "[\"T10\",\"T14\"]": "[\"T03\",\"T10\"]",
+        "[\"T11\",\"T12\"]": "[\"T03\",\"T14\"]",
+        "[\"T11\",\"T13\"]": "[\"T03\",\"T06\"]",
+        "[\"T12\",\"T14\"]": "[\"T05\",\"T09\"]",
+        "[\"T13\",\"T14\"]": "[\"T00\",\"T12\"]"
+      },
+      "20261023": {
+        "[\"T00\",\"T04\"]": "[\"T08\",\"T14\"]",
+        "[\"T00\",\"T06\"]": "[\"T03\",\"T12\"]",
+        "[\"T00\",\"T07\"]": "[\"T00\",\"T10\"]",
+        "[\"T00\",\"T08\"]": "[\"T02\",\"T04\"]",
+        "[\"T00\",\"T10\"]": "[\"T09\",\"T11\"]",
+        "[\"T00\",\"T11\"]": "[\"T01\",\"T08\"]",
+        "[\"T00\",\"T12\"]": "[\"T13\",\"T14\"]",
+        "[\"T00\",\"T13\"]": "[\"T00\",\"T12\"]",
+        "[\"T00\",\"T14\"]": "[\"T00\",\"T14\"]",
+        "[\"T01\",\"T02\"]": "[\"T02\",\"T06\"]",
+        "[\"T01\",\"T03\"]": "[\"T04\",\"T05\"]",
+        "[\"T01\",\"T04\"]": "[\"T12\",\"T14\"]",
+        "[\"T01\",\"T06\"]": "[\"T09\",\"T10\"]",
+        "[\"T01\",\"T08\"]": "[\"T01\",\"T06\"]",
+        "[\"T01\",\"T09\"]": "[\"T05\",\"T09\"]",
+        "[\"T01\",\"T12\"]": "[\"T03\",\"T06\"]",
+        "[\"T01\",\"T13\"]": "[\"T03\",\"T09\"]",
+        "[\"T02\",\"T03\"]": "[\"T07\",\"T08\"]",
+        "[\"T02\",\"T04\"]": "[\"T01\",\"T13\"]",
+        "[\"T02\",\"T05\"]": "[\"T01\",\"T12\"]",
+        "[\"T02\",\"T06\"]": "[\"T11\",\"T13\"]",
+        "[\"T02\",\"T07\"]": "[\"T02\",\"T11\"]",
+        "[\"T02\",\"T08\"]": "[\"T06\",\"T14\"]",
+        "[\"T02\",\"T09\"]": "[\"T04\",\"T09\"]",
+        "[\"T02\",\"T10\"]": "[\"T02\",\"T05\"]",
+        "[\"T02\",\"T11\"]": "[\"T03\",\"T11\"]",
+        "[\"T02\",\"T14\"]": "[\"T02\",\"T09\"]",
+        "[\"T03\",\"T04\"]": "[\"T00\",\"T06\"]",
+        "[\"T03\",\"T05\"]": "[\"T03\",\"T05\"]",
+        "[\"T03\",\"T06\"]": "[\"T02\",\"T03\"]",
+        "[\"T03\",\"T09\"]": "[\"T07\",\"T13\"]",
+        "[\"T03\",\"T10\"]": "[\"T00\",\"T11\"]",
+        "[\"T03\",\"T11\"]": "[\"T01\",\"T03\"]",
+        "[\"T03\",\"T12\"]": "[\"T05\",\"T08\"]",
+        "[\"T03\",\"T14\"]": "[\"T05\",\"T07\"]",
+        "[\"T04\",\"T05\"]": "[\"T08\",\"T09\"]",
+        "[\"T04\",\"T09\"]": "[\"T06\",\"T13\"]",
+        "[\"T04\",\"T10\"]": "[\"T00\",\"T08\"]",
+        "[\"T04\",\"T12\"]": "[\"T03\",\"T04\"]",
+        "[\"T04\",\"T13\"]": "[\"T04\",\"T10\"]",
+        "[\"T05\",\"T07\"]": "[\"T02\",\"T14\"]",
+        "[\"T05\",\"T08\"]": "[\"T05\",\"T12\"]",
+        "[\"T05\",\"T09\"]": "[\"T01\",\"T04\"]",
+        "[\"T05\",\"T10\"]": "[\"T10\",\"T14\"]",
+        "[\"T05\",\"T11\"]": "[\"T10\",\"T13\"]",
+        "[\"T05\",\"T12\"]": "[\"T02\",\"T07\"]",
+        "[\"T05\",\"T13\"]": "[\"T06\",\"T08\"]",
+        "[\"T06\",\"T07\"]": "[\"T05\",\"T10\"]",
+        "[\"T06\",\"T08\"]": "[\"T06\",\"T11\"]",
+        "[\"T06\",\"T11\"]": "[\"T03\",\"T10\"]",
+        "[\"T06\",\"T13\"]": "[\"T11\",\"T12\"]",
+        "[\"T06\",\"T14\"]": "[\"T02\",\"T10\"]",
+        "[\"T07\",\"T08\"]": "[\"T01\",\"T02\"]",
+        "[\"T07\",\"T09\"]": "[\"T06\",\"T07\"]",
+        "[\"T07\",\"T11\"]": "[\"T04\",\"T13\"]",
+        "[\"T07\",\"T13\"]": "[\"T07\",\"T09\"]",
+        "[\"T07\",\"T14\"]": "[\"T08\",\"T11\"]",
+        "[\"T08\",\"T09\"]": "[\"T03\",\"T14\"]",
+        "[\"T08\",\"T11\"]": "[\"T00\",\"T13\"]",
+        "[\"T08\",\"T14\"]": "[\"T05\",\"T13\"]",
+        "[\"T09\",\"T10\"]": "[\"T00\",\"T07\"]",
+        "[\"T09\",\"T11\"]": "[\"T07\",\"T11\"]",
+        "[\"T09\",\"T14\"]": "[\"T05\",\"T11\"]",
+        "[\"T10\",\"T12\"]": "[\"T04\",\"T12\"]",
+        "[\"T10\",\"T13\"]": "[\"T01\",\"T09\"]",
+        "[\"T10\",\"T14\"]": "[\"T00\",\"T04\"]",
+        "[\"T11\",\"T12\"]": "[\"T09\",\"T14\"]",
+        "[\"T11\",\"T13\"]": "[\"T07\",\"T14\"]",
+        "[\"T12\",\"T14\"]": "[\"T02\",\"T08\"]",
+        "[\"T13\",\"T14\"]": "[\"T10\",\"T12\"]"
+      }
+    },
+    "target_outcomes_accessed": false
+  },
+  {
+    "base_attempts": [
+      {
+        "config": {
+          "alpha": 1,
+          "id": "additive",
+          "kind": "additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "shared_offset-0.1",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-1.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-10.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "global-0.1",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "global-1.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "global-10.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "single_sum-0.1",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-1.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-10.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "component_additive-0.1",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-1.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-10.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "id": "null",
+          "kind": "no_change",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 5.531186942708446
+      },
+      {
+        "config": {
+          "id": "response-mean",
+          "kind": "response_mean",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 5.04502403906214
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "affine-0.1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "affine-1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "affine-10",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-4-0.1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 8.475197103407603e-07
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-4-1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 8.372514921823253e-05
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-4-10",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.007454411441119791
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-8-0.1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-8-1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-8-10",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      }
+    ],
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 1,
+    "reference_attempts": [
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "no_change",
+        "mse": 5.502428399908265
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "additive",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "frozen_base",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_offset",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      }
+    ],
+    "selected_references": {
+      "additive": {
+        "alpha": 1,
+        "failure": null,
+        "family": "additive",
+        "mse": 0.0
+      },
+      "bridge_affine": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      "bridge_incidence": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      "bridge_offset": {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_offset",
+        "mse": 0.0
+      },
+      "frozen_base": {
+        "alpha": 1,
+        "failure": null,
+        "family": "frozen_base",
+        "mse": 0.0
+      },
+      "no_change": {
+        "alpha": 1,
+        "failure": null,
+        "family": "no_change",
+        "mse": 5.502428399908265
+      },
+      "pooled_profile_kernel": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      "source_kernel_posterior": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      "target_profile_kernel": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      "target_profile_ridge": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      }
+    },
+    "selector": {
+      "alpha": 1,
+      "failure": null,
+      "family": "additive",
+      "mse": 0.0
+    },
+    "source_attempts": [],
+    "source_checkpoint": {
+      "array_assets": {},
+      "path": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_frontier_bridge_v1\\verification-20261012-final-a2\\synthetic-null\\source-2",
+      "state_sha256": "cf5d89ca2bd46f1327210ffd831e9235a239ceab8cc76872856090eae70107c8"
+    },
+    "source_failure": "No supported source penalty fit",
+    "source_label_ids": [
+      "[\"T00\",\"T01\"]",
+      "[\"T00\",\"T02\"]",
+      "[\"T00\",\"T03\"]",
+      "[\"T00\",\"T04\"]",
+      "[\"T00\",\"T05\"]",
+      "[\"T00\",\"T07\"]",
+      "[\"T00\",\"T09\"]",
+      "[\"T00\",\"T12\"]",
+      "[\"T00\",\"T13\"]",
+      "[\"T01\",\"T05\"]",
+      "[\"T01\",\"T06\"]",
+      "[\"T01\",\"T07\"]",
+      "[\"T01\",\"T09\"]",
+      "[\"T01\",\"T10\"]",
+      "[\"T01\",\"T11\"]",
+      "[\"T01\",\"T12\"]",
+      "[\"T01\",\"T14\"]",
+      "[\"T02\",\"T04\"]",
+      "[\"T02\",\"T06\"]",
+      "[\"T02\",\"T08\"]",
+      "[\"T02\",\"T09\"]",
+      "[\"T02\",\"T10\"]",
+      "[\"T02\",\"T11\"]",
+      "[\"T02\",\"T12\"]",
+      "[\"T02\",\"T13\"]",
+      "[\"T02\",\"T14\"]",
+      "[\"T03\",\"T04\"]",
+      "[\"T03\",\"T05\"]",
+      "[\"T03\",\"T06\"]",
+      "[\"T03\",\"T07\"]",
+      "[\"T03\",\"T08\"]",
+      "[\"T03\",\"T12\"]",
+      "[\"T03\",\"T13\"]",
+      "[\"T04\",\"T05\"]",
+      "[\"T04\",\"T06\"]",
+      "[\"T04\",\"T07\"]",
+      "[\"T04\",\"T08\"]",
+      "[\"T04\",\"T09\"]",
+      "[\"T04\",\"T10\"]",
+      "[\"T04\",\"T11\"]",
+      "[\"T04\",\"T14\"]",
+      "[\"T05\",\"T06\"]",
+      "[\"T05\",\"T10\"]",
+      "[\"T05\",\"T11\"]",
+      "[\"T05\",\"T13\"]",
+      "[\"T05\",\"T14\"]",
+      "[\"T06\",\"T07\"]",
+      "[\"T06\",\"T08\"]",
+      "[\"T06\",\"T09\"]",
+      "[\"T06\",\"T10\"]",
+      "[\"T06\",\"T12\"]",
+      "[\"T07\",\"T10\"]",
+      "[\"T07\",\"T12\"]",
+      "[\"T07\",\"T13\"]",
+      "[\"T07\",\"T14\"]",
+      "[\"T08\",\"T10\"]",
+      "[\"T08\",\"T11\"]",
+      "[\"T08\",\"T12\"]",
+      "[\"T08\",\"T13\"]",
+      "[\"T08\",\"T14\"]",
+      "[\"T09\",\"T11\"]",
+      "[\"T09\",\"T12\"]",
+      "[\"T09\",\"T13\"]",
+      "[\"T09\",\"T14\"]",
+      "[\"T10\",\"T11\"]",
+      "[\"T10\",\"T13\"]",
+      "[\"T11\",\"T12\"]",
+      "[\"T11\",\"T14\"]",
+      "[\"T12\",\"T13\"]",
+      "[\"T12\",\"T14\"]"
+    ],
+    "source_shuffle_mappings": {
+      "20261021": {
+        "[\"T00\",\"T01\"]": "[\"T00\",\"T02\"]",
+        "[\"T00\",\"T02\"]": "[\"T03\",\"T06\"]",
+        "[\"T00\",\"T03\"]": "[\"T09\",\"T11\"]",
+        "[\"T00\",\"T04\"]": "[\"T12\",\"T14\"]",
+        "[\"T00\",\"T05\"]": "[\"T11\",\"T14\"]",
+        "[\"T00\",\"T07\"]": "[\"T05\",\"T10\"]",
+        "[\"T00\",\"T09\"]": "[\"T09\",\"T13\"]",
+        "[\"T00\",\"T12\"]": "[\"T05\",\"T14\"]",
+        "[\"T00\",\"T13\"]": "[\"T04\",\"T05\"]",
+        "[\"T01\",\"T05\"]": "[\"T08\",\"T11\"]",
+        "[\"T01\",\"T06\"]": "[\"T01\",\"T10\"]",
+        "[\"T01\",\"T07\"]": "[\"T08\",\"T10\"]",
+        "[\"T01\",\"T09\"]": "[\"T07\",\"T13\"]",
+        "[\"T01\",\"T10\"]": "[\"T04\",\"T11\"]",
+        "[\"T01\",\"T11\"]": "[\"T01\",\"T05\"]",
+        "[\"T01\",\"T12\"]": "[\"T04\",\"T07\"]",
+        "[\"T01\",\"T14\"]": "[\"T07\",\"T12\"]",
+        "[\"T02\",\"T04\"]": "[\"T07\",\"T14\"]",
+        "[\"T02\",\"T06\"]": "[\"T04\",\"T08\"]",
+        "[\"T02\",\"T08\"]": "[\"T06\",\"T07\"]",
+        "[\"T02\",\"T09\"]": "[\"T02\",\"T04\"]",
+        "[\"T02\",\"T10\"]": "[\"T01\",\"T14\"]",
+        "[\"T02\",\"T11\"]": "[\"T00\",\"T04\"]",
+        "[\"T02\",\"T12\"]": "[\"T00\",\"T09\"]",
+        "[\"T02\",\"T13\"]": "[\"T09\",\"T14\"]",
+        "[\"T02\",\"T14\"]": "[\"T03\",\"T07\"]",
+        "[\"T03\",\"T04\"]": "[\"T02\",\"T11\"]",
+        "[\"T03\",\"T05\"]": "[\"T02\",\"T12\"]",
+        "[\"T03\",\"T06\"]": "[\"T01\",\"T06\"]",
+        "[\"T03\",\"T07\"]": "[\"T04\",\"T10\"]",
+        "[\"T03\",\"T08\"]": "[\"T03\",\"T13\"]",
+        "[\"T03\",\"T12\"]": "[\"T04\",\"T14\"]",
+        "[\"T03\",\"T13\"]": "[\"T07\",\"T10\"]",
+        "[\"T04\",\"T05\"]": "[\"T05\",\"T13\"]",
+        "[\"T04\",\"T06\"]": "[\"T00\",\"T12\"]",
+        "[\"T04\",\"T07\"]": "[\"T03\",\"T12\"]",
+        "[\"T04\",\"T08\"]": "[\"T01\",\"T09\"]",
+        "[\"T04\",\"T09\"]": "[\"T04\",\"T06\"]",
+        "[\"T04\",\"T10\"]": "[\"T05\",\"T11\"]",
+        "[\"T04\",\"T11\"]": "[\"T02\",\"T06\"]",
+        "[\"T04\",\"T14\"]": "[\"T01\",\"T11\"]",
+        "[\"T05\",\"T06\"]": "[\"T03\",\"T05\"]",
+        "[\"T05\",\"T10\"]": "[\"T00\",\"T01\"]",
+        "[\"T05\",\"T11\"]": "[\"T08\",\"T14\"]",
+        "[\"T05\",\"T13\"]": "[\"T02\",\"T13\"]",
+        "[\"T05\",\"T14\"]": "[\"T11\",\"T12\"]",
+        "[\"T06\",\"T07\"]": "[\"T06\",\"T12\"]",
+        "[\"T06\",\"T08\"]": "[\"T00\",\"T07\"]",
+        "[\"T06\",\"T09\"]": "[\"T00\",\"T03\"]",
+        "[\"T06\",\"T10\"]": "[\"T03\",\"T04\"]",
+        "[\"T06\",\"T12\"]": "[\"T05\",\"T06\"]",
+        "[\"T07\",\"T10\"]": "[\"T02\",\"T08\"]",
+        "[\"T07\",\"T12\"]": "[\"T09\",\"T12\"]",
+        "[\"T07\",\"T13\"]": "[\"T10\",\"T11\"]",
+        "[\"T07\",\"T14\"]": "[\"T02\",\"T10\"]",
+        "[\"T08\",\"T10\"]": "[\"T01\",\"T12\"]",
+        "[\"T08\",\"T11\"]": "[\"T02\",\"T14\"]",
+        "[\"T08\",\"T12\"]": "[\"T10\",\"T13\"]",
+        "[\"T08\",\"T13\"]": "[\"T02\",\"T09\"]",
+        "[\"T08\",\"T14\"]": "[\"T06\",\"T08\"]",
+        "[\"T09\",\"T11\"]": "[\"T01\",\"T07\"]",
+        "[\"T09\",\"T12\"]": "[\"T06\",\"T10\"]",
+        "[\"T09\",\"T13\"]": "[\"T08\",\"T13\"]",
+        "[\"T09\",\"T14\"]": "[\"T06\",\"T09\"]",
+        "[\"T10\",\"T11\"]": "[\"T08\",\"T12\"]",
+        "[\"T10\",\"T13\"]": "[\"T03\",\"T08\"]",
+        "[\"T11\",\"T12\"]": "[\"T00\",\"T13\"]",
+        "[\"T11\",\"T14\"]": "[\"T04\",\"T09\"]",
+        "[\"T12\",\"T13\"]": "[\"T00\",\"T05\"]",
+        "[\"T12\",\"T14\"]": "[\"T12\",\"T13\"]"
+      },
+      "20261022": {
+        "[\"T00\",\"T01\"]": "[\"T06\",\"T10\"]",
+        "[\"T00\",\"T02\"]": "[\"T07\",\"T10\"]",
+        "[\"T00\",\"T03\"]": "[\"T04\",\"T14\"]",
+        "[\"T00\",\"T04\"]": "[\"T00\",\"T03\"]",
+        "[\"T00\",\"T05\"]": "[\"T02\",\"T08\"]",
+        "[\"T00\",\"T07\"]": "[\"T06\",\"T09\"]",
+        "[\"T00\",\"T09\"]": "[\"T02\",\"T14\"]",
+        "[\"T00\",\"T12\"]": "[\"T03\",\"T08\"]",
+        "[\"T00\",\"T13\"]": "[\"T11\",\"T14\"]",
+        "[\"T01\",\"T05\"]": "[\"T00\",\"T02\"]",
+        "[\"T01\",\"T06\"]": "[\"T01\",\"T11\"]",
+        "[\"T01\",\"T07\"]": "[\"T11\",\"T12\"]",
+        "[\"T01\",\"T09\"]": "[\"T02\",\"T13\"]",
+        "[\"T01\",\"T10\"]": "[\"T01\",\"T12\"]",
+        "[\"T01\",\"T11\"]": "[\"T09\",\"T13\"]",
+        "[\"T01\",\"T12\"]": "[\"T00\",\"T04\"]",
+        "[\"T01\",\"T14\"]": "[\"T06\",\"T12\"]",
+        "[\"T02\",\"T04\"]": "[\"T01\",\"T14\"]",
+        "[\"T02\",\"T06\"]": "[\"T04\",\"T10\"]",
+        "[\"T02\",\"T08\"]": "[\"T07\",\"T13\"]",
+        "[\"T02\",\"T09\"]": "[\"T00\",\"T07\"]",
+        "[\"T02\",\"T10\"]": "[\"T04\",\"T09\"]",
+        "[\"T02\",\"T11\"]": "[\"T09\",\"T12\"]",
+        "[\"T02\",\"T12\"]": "[\"T00\",\"T13\"]",
+        "[\"T02\",\"T13\"]": "[\"T03\",\"T04\"]",
+        "[\"T02\",\"T14\"]": "[\"T04\",\"T07\"]",
+        "[\"T03\",\"T04\"]": "[\"T08\",\"T13\"]",
+        "[\"T03\",\"T05\"]": "[\"T07\",\"T12\"]",
+        "[\"T03\",\"T06\"]": "[\"T04\",\"T08\"]",
+        "[\"T03\",\"T07\"]": "[\"T03\",\"T06\"]",
+        "[\"T03\",\"T08\"]": "[\"T04\",\"T11\"]",
+        "[\"T03\",\"T12\"]": "[\"T05\",\"T11\"]",
+        "[\"T03\",\"T13\"]": "[\"T00\",\"T12\"]",
+        "[\"T04\",\"T05\"]": "[\"T09\",\"T11\"]",
+        "[\"T04\",\"T06\"]": "[\"T04\",\"T05\"]",
+        "[\"T04\",\"T07\"]": "[\"T10\",\"T13\"]",
+        "[\"T04\",\"T08\"]": "[\"T07\",\"T14\"]",
+        "[\"T04\",\"T09\"]": "[\"T02\",\"T10\"]",
+        "[\"T04\",\"T10\"]": "[\"T02\",\"T11\"]",
+        "[\"T04\",\"T11\"]": "[\"T02\",\"T09\"]",
+        "[\"T04\",\"T14\"]": "[\"T08\",\"T12\"]",
+        "[\"T05\",\"T06\"]": "[\"T02\",\"T12\"]",
+        "[\"T05\",\"T10\"]": "[\"T01\",\"T10\"]",
+        "[\"T05\",\"T11\"]": "[\"T01\",\"T06\"]",
+        "[\"T05\",\"T13\"]": "[\"T08\",\"T14\"]",
+        "[\"T05\",\"T14\"]": "[\"T05\",\"T13\"]",
+        "[\"T06\",\"T07\"]": "[\"T12\",\"T13\"]",
+        "[\"T06\",\"T08\"]": "[\"T08\",\"T11\"]",
+        "[\"T06\",\"T09\"]": "[\"T00\",\"T01\"]",
+        "[\"T06\",\"T10\"]": "[\"T06\",\"T08\"]",
+        "[\"T06\",\"T12\"]": "[\"T01\",\"T07\"]",
+        "[\"T07\",\"T10\"]": "[\"T03\",\"T05\"]",
+        "[\"T07\",\"T12\"]": "[\"T09\",\"T14\"]",
+        "[\"T07\",\"T13\"]": "[\"T02\",\"T06\"]",
+        "[\"T07\",\"T14\"]": "[\"T06\",\"T07\"]",
+        "[\"T08\",\"T10\"]": "[\"T05\",\"T06\"]",
+        "[\"T08\",\"T11\"]": "[\"T08\",\"T10\"]",
+        "[\"T08\",\"T12\"]": "[\"T01\",\"T09\"]",
+        "[\"T08\",\"T13\"]": "[\"T03\",\"T13\"]",
+        "[\"T08\",\"T14\"]": "[\"T10\",\"T11\"]",
+        "[\"T09\",\"T11\"]": "[\"T01\",\"T05\"]",
+        "[\"T09\",\"T12\"]": "[\"T12\",\"T14\"]",
+        "[\"T09\",\"T13\"]": "[\"T00\",\"T05\"]",
+        "[\"T09\",\"T14\"]": "[\"T05\",\"T14\"]",
+        "[\"T10\",\"T11\"]": "[\"T02\",\"T04\"]",
+        "[\"T10\",\"T13\"]": "[\"T03\",\"T12\"]",
+        "[\"T11\",\"T12\"]": "[\"T04\",\"T06\"]",
+        "[\"T11\",\"T14\"]": "[\"T03\",\"T07\"]",
+        "[\"T12\",\"T13\"]": "[\"T05\",\"T10\"]",
+        "[\"T12\",\"T14\"]": "[\"T00\",\"T09\"]"
+      },
+      "20261023": {
+        "[\"T00\",\"T01\"]": "[\"T08\",\"T14\"]",
+        "[\"T00\",\"T02\"]": "[\"T04\",\"T05\"]",
+        "[\"T00\",\"T03\"]": "[\"T00\",\"T05\"]",
+        "[\"T00\",\"T04\"]": "[\"T02\",\"T06\"]",
+        "[\"T00\",\"T05\"]": "[\"T09\",\"T12\"]",
+        "[\"T00\",\"T07\"]": "[\"T01\",\"T10\"]",
+        "[\"T00\",\"T09\"]": "[\"T12\",\"T14\"]",
+        "[\"T00\",\"T12\"]": "[\"T00\",\"T09\"]",
+        "[\"T00\",\"T13\"]": "[\"T00\",\"T13\"]",
+        "[\"T01\",\"T05\"]": "[\"T02\",\"T09\"]",
+        "[\"T01\",\"T06\"]": "[\"T04\",\"T07\"]",
+        "[\"T01\",\"T07\"]": "[\"T12\",\"T13\"]",
+        "[\"T01\",\"T09\"]": "[\"T09\",\"T11\"]",
+        "[\"T01\",\"T10\"]": "[\"T01\",\"T09\"]",
+        "[\"T01\",\"T11\"]": "[\"T05\",\"T10\"]",
+        "[\"T01\",\"T12\"]": "[\"T03\",\"T07\"]",
+        "[\"T01\",\"T14\"]": "[\"T03\",\"T08\"]",
+        "[\"T02\",\"T04\"]": "[\"T07\",\"T12\"]",
+        "[\"T02\",\"T06\"]": "[\"T01\",\"T14\"]",
+        "[\"T02\",\"T08\"]": "[\"T01\",\"T12\"]",
+        "[\"T02\",\"T09\"]": "[\"T11\",\"T14\"]",
+        "[\"T02\",\"T10\"]": "[\"T02\",\"T14\"]",
+        "[\"T02\",\"T11\"]": "[\"T07\",\"T10\"]",
+        "[\"T02\",\"T12\"]": "[\"T04\",\"T08\"]",
+        "[\"T02\",\"T13\"]": "[\"T02\",\"T08\"]",
+        "[\"T02\",\"T14\"]": "[\"T03\",\"T13\"]",
+        "[\"T03\",\"T04\"]": "[\"T02\",\"T12\"]",
+        "[\"T03\",\"T05\"]": "[\"T00\",\"T02\"]",
+        "[\"T03\",\"T06\"]": "[\"T03\",\"T06\"]",
+        "[\"T03\",\"T07\"]": "[\"T02\",\"T04\"]",
+        "[\"T03\",\"T08\"]": "[\"T08\",\"T10\"]",
+        "[\"T03\",\"T12\"]": "[\"T00\",\"T07\"]",
+        "[\"T03\",\"T13\"]": "[\"T01\",\"T06\"]",
+        "[\"T04\",\"T05\"]": "[\"T05\",\"T06\"]",
+        "[\"T04\",\"T06\"]": "[\"T04\",\"T14\"]",
+        "[\"T04\",\"T07\"]": "[\"T08\",\"T12\"]",
+        "[\"T04\",\"T08\"]": "[\"T06\",\"T12\"]",
+        "[\"T04\",\"T09\"]": "[\"T00\",\"T04\"]",
+        "[\"T04\",\"T10\"]": "[\"T03\",\"T05\"]",
+        "[\"T04\",\"T11\"]": "[\"T04\",\"T09\"]",
+        "[\"T04\",\"T14\"]": "[\"T03\",\"T04\"]",
+        "[\"T05\",\"T06\"]": "[\"T05\",\"T14\"]",
+        "[\"T05\",\"T10\"]": "[\"T01\",\"T07\"]",
+        "[\"T05\",\"T11\"]": "[\"T10\",\"T13\"]",
+        "[\"T05\",\"T13\"]": "[\"T10\",\"T11\"]",
+        "[\"T05\",\"T14\"]": "[\"T02\",\"T10\"]",
+        "[\"T06\",\"T07\"]": "[\"T06\",\"T09\"]",
+        "[\"T06\",\"T08\"]": "[\"T05\",\"T11\"]",
+        "[\"T06\",\"T09\"]": "[\"T06\",\"T10\"]",
+        "[\"T06\",\"T10\"]": "[\"T03\",\"T12\"]",
+        "[\"T06\",\"T12\"]": "[\"T11\",\"T12\"]",
+        "[\"T07\",\"T10\"]": "[\"T02\",\"T13\"]",
+        "[\"T07\",\"T12\"]": "[\"T01\",\"T05\"]",
+        "[\"T07\",\"T13\"]": "[\"T06\",\"T08\"]",
+        "[\"T07\",\"T14\"]": "[\"T04\",\"T11\"]",
+        "[\"T08\",\"T10\"]": "[\"T07\",\"T13\"]",
+        "[\"T08\",\"T11\"]": "[\"T08\",\"T13\"]",
+        "[\"T08\",\"T12\"]": "[\"T04\",\"T06\"]",
+        "[\"T08\",\"T13\"]": "[\"T00\",\"T12\"]",
+        "[\"T08\",\"T14\"]": "[\"T06\",\"T07\"]",
+        "[\"T09\",\"T11\"]": "[\"T00\",\"T03\"]",
+        "[\"T09\",\"T12\"]": "[\"T07\",\"T14\"]",
+        "[\"T09\",\"T13\"]": "[\"T05\",\"T13\"]",
+        "[\"T09\",\"T14\"]": "[\"T04\",\"T10\"]",
+        "[\"T10\",\"T11\"]": "[\"T01\",\"T11\"]",
+        "[\"T10\",\"T13\"]": "[\"T00\",\"T01\"]",
+        "[\"T11\",\"T12\"]": "[\"T09\",\"T13\"]",
+        "[\"T11\",\"T14\"]": "[\"T08\",\"T11\"]",
+        "[\"T12\",\"T13\"]": "[\"T02\",\"T11\"]",
+        "[\"T12\",\"T14\"]": "[\"T09\",\"T14\"]"
+      }
+    },
+    "target_outcomes_accessed": false
+  },
+  {
+    "base_attempts": [
+      {
+        "config": {
+          "alpha": 1,
+          "id": "additive",
+          "kind": "additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "shared_offset-0.1",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-1.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-10.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "global-0.1",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "global-1.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "global-10.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "single_sum-0.1",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-1.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-10.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "component_additive-0.1",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-1.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-10.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "id": "null",
+          "kind": "no_change",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 6.5393269970660794
+      },
+      {
+        "config": {
+          "id": "response-mean",
+          "kind": "response_mean",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 5.935656546806357
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "affine-0.1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "affine-1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "affine-10",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-4-0.1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 7.658075132645937e-07
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-4-1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 7.575339361670159e-05
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-4-10",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.006824780094449636
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-8-0.1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-8-1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-8-10",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      }
+    ],
+    "direction": "TNFA+_to_TNFA-",
+    "fold": 2,
+    "reference_attempts": [
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "no_change",
+        "mse": 6.414591918338028
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "additive",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "frozen_base",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_offset",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      }
+    ],
+    "selected_references": {
+      "additive": {
+        "alpha": 1,
+        "failure": null,
+        "family": "additive",
+        "mse": 0.0
+      },
+      "bridge_affine": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      "bridge_incidence": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      "bridge_offset": {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_offset",
+        "mse": 0.0
+      },
+      "frozen_base": {
+        "alpha": 1,
+        "failure": null,
+        "family": "frozen_base",
+        "mse": 0.0
+      },
+      "no_change": {
+        "alpha": 1,
+        "failure": null,
+        "family": "no_change",
+        "mse": 6.414591918338028
+      },
+      "pooled_profile_kernel": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      "source_kernel_posterior": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      "target_profile_kernel": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      "target_profile_ridge": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      }
+    },
+    "selector": {
+      "alpha": 1,
+      "failure": null,
+      "family": "additive",
+      "mse": 0.0
+    },
+    "source_attempts": [],
+    "source_checkpoint": {
+      "array_assets": {},
+      "path": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_frontier_bridge_v1\\verification-20261012-final-a2\\synthetic-null\\source-3",
+      "state_sha256": "cf5d89ca2bd46f1327210ffd831e9235a239ceab8cc76872856090eae70107c8"
+    },
+    "source_failure": "No supported source penalty fit",
+    "source_label_ids": [
+      "[\"T00\",\"T01\"]",
+      "[\"T00\",\"T02\"]",
+      "[\"T00\",\"T03\"]",
+      "[\"T00\",\"T05\"]",
+      "[\"T00\",\"T06\"]",
+      "[\"T00\",\"T08\"]",
+      "[\"T00\",\"T09\"]",
+      "[\"T00\",\"T10\"]",
+      "[\"T00\",\"T11\"]",
+      "[\"T00\",\"T14\"]",
+      "[\"T01\",\"T02\"]",
+      "[\"T01\",\"T03\"]",
+      "[\"T01\",\"T04\"]",
+      "[\"T01\",\"T05\"]",
+      "[\"T01\",\"T07\"]",
+      "[\"T01\",\"T08\"]",
+      "[\"T01\",\"T10\"]",
+      "[\"T01\",\"T11\"]",
+      "[\"T01\",\"T13\"]",
+      "[\"T01\",\"T14\"]",
+      "[\"T02\",\"T03\"]",
+      "[\"T02\",\"T05\"]",
+      "[\"T02\",\"T07\"]",
+      "[\"T02\",\"T12\"]",
+      "[\"T02\",\"T13\"]",
+      "[\"T03\",\"T07\"]",
+      "[\"T03\",\"T08\"]",
+      "[\"T03\",\"T09\"]",
+      "[\"T03\",\"T10\"]",
+      "[\"T03\",\"T11\"]",
+      "[\"T03\",\"T13\"]",
+      "[\"T03\",\"T14\"]",
+      "[\"T04\",\"T06\"]",
+      "[\"T04\",\"T07\"]",
+      "[\"T04\",\"T08\"]",
+      "[\"T04\",\"T11\"]",
+      "[\"T04\",\"T12\"]",
+      "[\"T04\",\"T13\"]",
+      "[\"T04\",\"T14\"]",
+      "[\"T05\",\"T06\"]",
+      "[\"T05\",\"T07\"]",
+      "[\"T05\",\"T08\"]",
+      "[\"T05\",\"T09\"]",
+      "[\"T05\",\"T12\"]",
+      "[\"T05\",\"T14\"]",
+      "[\"T06\",\"T09\"]",
+      "[\"T06\",\"T10\"]",
+      "[\"T06\",\"T11\"]",
+      "[\"T06\",\"T12\"]",
+      "[\"T06\",\"T13\"]",
+      "[\"T06\",\"T14\"]",
+      "[\"T07\",\"T08\"]",
+      "[\"T07\",\"T09\"]",
+      "[\"T07\",\"T10\"]",
+      "[\"T07\",\"T11\"]",
+      "[\"T07\",\"T12\"]",
+      "[\"T08\",\"T09\"]",
+      "[\"T08\",\"T10\"]",
+      "[\"T08\",\"T12\"]",
+      "[\"T08\",\"T13\"]",
+      "[\"T09\",\"T10\"]",
+      "[\"T09\",\"T12\"]",
+      "[\"T09\",\"T13\"]",
+      "[\"T10\",\"T11\"]",
+      "[\"T10\",\"T12\"]",
+      "[\"T10\",\"T14\"]",
+      "[\"T11\",\"T13\"]",
+      "[\"T11\",\"T14\"]",
+      "[\"T12\",\"T13\"]",
+      "[\"T13\",\"T14\"]"
+    ],
+    "source_shuffle_mappings": {
+      "20261021": {
+        "[\"T00\",\"T01\"]": "[\"T00\",\"T02\"]",
+        "[\"T00\",\"T02\"]": "[\"T03\",\"T10\"]",
+        "[\"T00\",\"T03\"]": "[\"T09\",\"T10\"]",
+        "[\"T00\",\"T05\"]": "[\"T13\",\"T14\"]",
+        "[\"T00\",\"T06\"]": "[\"T11\",\"T14\"]",
+        "[\"T00\",\"T08\"]": "[\"T05\",\"T09\"]",
+        "[\"T00\",\"T09\"]": "[\"T09\",\"T13\"]",
+        "[\"T00\",\"T10\"]": "[\"T06\",\"T09\"]",
+        "[\"T00\",\"T11\"]": "[\"T04\",\"T07\"]",
+        "[\"T00\",\"T14\"]": "[\"T08\",\"T09\"]",
+        "[\"T01\",\"T02\"]": "[\"T01\",\"T05\"]",
+        "[\"T01\",\"T03\"]": "[\"T07\",\"T12\"]",
+        "[\"T01\",\"T04\"]": "[\"T07\",\"T10\"]",
+        "[\"T01\",\"T05\"]": "[\"T05\",\"T06\"]",
+        "[\"T01\",\"T07\"]": "[\"T00\",\"T14\"]",
+        "[\"T01\",\"T08\"]": "[\"T04\",\"T11\"]",
+        "[\"T01\",\"T10\"]": "[\"T07\",\"T09\"]",
+        "[\"T01\",\"T11\"]": "[\"T07\",\"T11\"]",
+        "[\"T01\",\"T13\"]": "[\"T04\",\"T12\"]",
+        "[\"T01\",\"T14\"]": "[\"T06\",\"T10\"]",
+        "[\"T02\",\"T03\"]": "[\"T01\",\"T11\"]",
+        "[\"T02\",\"T05\"]": "[\"T01\",\"T10\"]",
+        "[\"T02\",\"T07\"]": "[\"T00\",\"T05\"]",
+        "[\"T02\",\"T12\"]": "[\"T00\",\"T09\"]",
+        "[\"T02\",\"T13\"]": "[\"T10\",\"T11\"]",
+        "[\"T03\",\"T07\"]": "[\"T03\",\"T11\"]",
+        "[\"T03\",\"T08\"]": "[\"T02\",\"T07\"]",
+        "[\"T03\",\"T09\"]": "[\"T02\",\"T12\"]",
+        "[\"T03\",\"T10\"]": "[\"T01\",\"T02\"]",
+        "[\"T03\",\"T11\"]": "[\"T04\",\"T14\"]",
+        "[\"T03\",\"T13\"]": "[\"T04\",\"T06\"]",
+        "[\"T03\",\"T14\"]": "[\"T05\",\"T07\"]",
+        "[\"T04\",\"T06\"]": "[\"T07\",\"T08\"]",
+        "[\"T04\",\"T07\"]": "[\"T05\",\"T14\"]",
+        "[\"T04\",\"T08\"]": "[\"T00\",\"T10\"]",
+        "[\"T04\",\"T11\"]": "[\"T03\",\"T14\"]",
+        "[\"T04\",\"T12\"]": "[\"T01\",\"T04\"]",
+        "[\"T04\",\"T13\"]": "[\"T04\",\"T08\"]",
+        "[\"T04\",\"T14\"]": "[\"T05\",\"T12\"]",
+        "[\"T05\",\"T06\"]": "[\"T01\",\"T13\"]",
+        "[\"T05\",\"T07\"]": "[\"T01\",\"T07\"]",
+        "[\"T05\",\"T08\"]": "[\"T03\",\"T09\"]",
+        "[\"T05\",\"T09\"]": "[\"T00\",\"T01\"]",
+        "[\"T05\",\"T12\"]": "[\"T08\",\"T13\"]",
+        "[\"T05\",\"T14\"]": "[\"T02\",\"T13\"]",
+        "[\"T06\",\"T09\"]": "[\"T11\",\"T13\"]",
+        "[\"T06\",\"T10\"]": "[\"T06\",\"T14\"]",
+        "[\"T06\",\"T11\"]": "[\"T00\",\"T08\"]",
+        "[\"T06\",\"T12\"]": "[\"T00\",\"T03\"]",
+        "[\"T06\",\"T13\"]": "[\"T03\",\"T08\"]",
+        "[\"T06\",\"T14\"]": "[\"T05\",\"T08\"]",
+        "[\"T07\",\"T08\"]": "[\"T01\",\"T14\"]",
+        "[\"T07\",\"T09\"]": "[\"T09\",\"T12\"]",
+        "[\"T07\",\"T10\"]": "[\"T10\",\"T12\"]",
+        "[\"T07\",\"T11\"]": "[\"T02\",\"T05\"]",
+        "[\"T07\",\"T12\"]": "[\"T01\",\"T08\"]",
+        "[\"T08\",\"T09\"]": "[\"T03\",\"T07\"]",
+        "[\"T08\",\"T10\"]": "[\"T10\",\"T14\"]",
+        "[\"T08\",\"T12\"]": "[\"T02\",\"T03\"]",
+        "[\"T08\",\"T13\"]": "[\"T06\",\"T11\"]",
+        "[\"T09\",\"T10\"]": "[\"T01\",\"T03\"]",
+        "[\"T09\",\"T12\"]": "[\"T06\",\"T13\"]",
+        "[\"T09\",\"T13\"]": "[\"T08\",\"T12\"]",
+        "[\"T10\",\"T11\"]": "[\"T06\",\"T12\"]",
+        "[\"T10\",\"T12\"]": "[\"T08\",\"T10\"]",
+        "[\"T10\",\"T14\"]": "[\"T03\",\"T13\"]",
+        "[\"T11\",\"T13\"]": "[\"T00\",\"T11\"]",
+        "[\"T11\",\"T14\"]": "[\"T04\",\"T13\"]",
+        "[\"T12\",\"T13\"]": "[\"T00\",\"T06\"]",
+        "[\"T13\",\"T14\"]": "[\"T12\",\"T13\"]"
+      },
+      "20261022": {
+        "[\"T00\",\"T01\"]": "[\"T06\",\"T13\"]",
+        "[\"T00\",\"T02\"]": "[\"T07\",\"T08\"]",
+        "[\"T00\",\"T03\"]": "[\"T05\",\"T07\"]",
+        "[\"T00\",\"T05\"]": "[\"T00\",\"T03\"]",
+        "[\"T00\",\"T06\"]": "[\"T01\",\"T14\"]",
+        "[\"T00\",\"T08\"]": "[\"T06\",\"T12\"]",
+        "[\"T00\",\"T09\"]": "[\"T03\",\"T07\"]",
+        "[\"T00\",\"T10\"]": "[\"T03\",\"T13\"]",
+        "[\"T00\",\"T11\"]": "[\"T11\",\"T14\"]",
+        "[\"T00\",\"T14\"]": "[\"T00\",\"T02\"]",
+        "[\"T01\",\"T02\"]": "[\"T01\",\"T07\"]",
+        "[\"T01\",\"T03\"]": "[\"T11\",\"T13\"]",
+        "[\"T01\",\"T04\"]": "[\"T02\",\"T13\"]",
+        "[\"T01\",\"T05\"]": "[\"T01\",\"T08\"]",
+        "[\"T01\",\"T07\"]": "[\"T09\",\"T13\"]",
+        "[\"T01\",\"T08\"]": "[\"T00\",\"T05\"]",
+        "[\"T01\",\"T10\"]": "[\"T06\",\"T14\"]",
+        "[\"T01\",\"T11\"]": "[\"T01\",\"T10\"]",
+        "[\"T01\",\"T13\"]": "[\"T04\",\"T14\"]",
+        "[\"T01\",\"T14\"]": "[\"T07\",\"T10\"]",
+        "[\"T02\",\"T03\"]": "[\"T00\",\"T08\"]",
+        "[\"T02\",\"T05\"]": "[\"T04\",\"T13\"]",
+        "[\"T02\",\"T07\"]": "[\"T09\",\"T12\"]",
+        "[\"T02\",\"T12\"]": "[\"T00\",\"T11\"]",
+        "[\"T02\",\"T13\"]": "[\"T03\",\"T08\"]",
+        "[\"T03\",\"T07\"]": "[\"T04\",\"T11\"]",
+        "[\"T03\",\"T08\"]": "[\"T08\",\"T12\"]",
+        "[\"T03\",\"T09\"]": "[\"T07\",\"T09\"]",
+        "[\"T03\",\"T10\"]": "[\"T04\",\"T12\"]",
+        "[\"T03\",\"T11\"]": "[\"T03\",\"T10\"]",
+        "[\"T03\",\"T13\"]": "[\"T05\",\"T06\"]",
+        "[\"T03\",\"T14\"]": "[\"T05\",\"T12\"]",
+        "[\"T04\",\"T06\"]": "[\"T00\",\"T10\"]",
+        "[\"T04\",\"T07\"]": "[\"T09\",\"T10\"]",
+        "[\"T04\",\"T08\"]": "[\"T04\",\"T07\"]",
+        "[\"T04\",\"T11\"]": "[\"T10\",\"T14\"]",
+        "[\"T04\",\"T12\"]": "[\"T07\",\"T11\"]",
+        "[\"T04\",\"T13\"]": "[\"T02\",\"T05\"]",
+        "[\"T04\",\"T14\"]": "[\"T02\",\"T07\"]",
+        "[\"T05\",\"T06\"]": "[\"T02\",\"T03\"]",
+        "[\"T05\",\"T07\"]": "[\"T08\",\"T10\"]",
+        "[\"T05\",\"T08\"]": "[\"T02\",\"T12\"]",
+        "[\"T05\",\"T09\"]": "[\"T01\",\"T05\"]",
+        "[\"T05\",\"T12\"]": "[\"T01\",\"T02\"]",
+        "[\"T05\",\"T14\"]": "[\"T08\",\"T13\"]",
+        "[\"T06\",\"T09\"]": "[\"T05\",\"T14\"]",
+        "[\"T06\",\"T10\"]": "[\"T12\",\"T13\"]",
+        "[\"T06\",\"T11\"]": "[\"T08\",\"T09\"]",
+        "[\"T06\",\"T12\"]": "[\"T00\",\"T01\"]",
+        "[\"T06\",\"T13\"]": "[\"T06\",\"T11\"]",
+        "[\"T06\",\"T14\"]": "[\"T01\",\"T03\"]",
+        "[\"T07\",\"T08\"]": "[\"T03\",\"T09\"]",
+        "[\"T07\",\"T09\"]": "[\"T10\",\"T11\"]",
+        "[\"T07\",\"T10\"]": "[\"T01\",\"T13\"]",
+        "[\"T07\",\"T11\"]": "[\"T06\",\"T10\"]",
+        "[\"T07\",\"T12\"]": "[\"T05\",\"T08\"]",
+        "[\"T08\",\"T09\"]": "[\"T07\",\"T12\"]",
+        "[\"T08\",\"T10\"]": "[\"T01\",\"T04\"]",
+        "[\"T08\",\"T12\"]": "[\"T04\",\"T06\"]",
+        "[\"T08\",\"T13\"]": "[\"T10\",\"T12\"]",
+        "[\"T09\",\"T10\"]": "[\"T00\",\"T14\"]",
+        "[\"T09\",\"T12\"]": "[\"T13\",\"T14\"]",
+        "[\"T09\",\"T13\"]": "[\"T00\",\"T06\"]",
+        "[\"T10\",\"T11\"]": "[\"T06\",\"T09\"]",
+        "[\"T10\",\"T12\"]": "[\"T01\",\"T11\"]",
+        "[\"T10\",\"T14\"]": "[\"T03\",\"T14\"]",
+        "[\"T11\",\"T13\"]": "[\"T04\",\"T08\"]",
+        "[\"T11\",\"T14\"]": "[\"T03\",\"T11\"]",
+        "[\"T12\",\"T13\"]": "[\"T05\",\"T09\"]",
+        "[\"T13\",\"T14\"]": "[\"T00\",\"T09\"]"
+      },
+      "20261023": {
+        "[\"T00\",\"T01\"]": "[\"T08\",\"T13\"]",
+        "[\"T00\",\"T02\"]": "[\"T04\",\"T07\"]",
+        "[\"T00\",\"T03\"]": "[\"T00\",\"T06\"]",
+        "[\"T00\",\"T05\"]": "[\"T01\",\"T13\"]",
+        "[\"T00\",\"T06\"]": "[\"T09\",\"T12\"]",
+        "[\"T00\",\"T08\"]": "[\"T01\",\"T05\"]",
+        "[\"T00\",\"T09\"]": "[\"T13\",\"T14\"]",
+        "[\"T00\",\"T10\"]": "[\"T00\",\"T09\"]",
+        "[\"T00\",\"T11\"]": "[\"T00\",\"T11\"]",
+        "[\"T00\",\"T14\"]": "[\"T02\",\"T03\"]",
+        "[\"T01\",\"T02\"]": "[\"T04\",\"T11\"]",
+        "[\"T01\",\"T03\"]": "[\"T12\",\"T13\"]",
+        "[\"T01\",\"T04\"]": "[\"T09\",\"T10\"]",
+        "[\"T01\",\"T05\"]": "[\"T01\",\"T04\"]",
+        "[\"T01\",\"T07\"]": "[\"T05\",\"T09\"]",
+        "[\"T01\",\"T08\"]": "[\"T03\",\"T11\"]",
+        "[\"T01\",\"T10\"]": "[\"T03\",\"T13\"]",
+        "[\"T01\",\"T11\"]": "[\"T07\",\"T09\"]",
+        "[\"T01\",\"T13\"]": "[\"T01\",\"T10\"]",
+        "[\"T01\",\"T14\"]": "[\"T01\",\"T08\"]",
+        "[\"T02\",\"T03\"]": "[\"T11\",\"T14\"]",
+        "[\"T02\",\"T05\"]": "[\"T03\",\"T07\"]",
+        "[\"T02\",\"T07\"]": "[\"T07\",\"T08\"]",
+        "[\"T02\",\"T12\"]": "[\"T04\",\"T12\"]",
+        "[\"T02\",\"T13\"]": "[\"T01\",\"T14\"]",
+        "[\"T03\",\"T07\"]": "[\"T04\",\"T06\"]",
+        "[\"T03\",\"T08\"]": "[\"T02\",\"T12\"]",
+        "[\"T03\",\"T09\"]": "[\"T00\",\"T02\"]",
+        "[\"T03\",\"T10\"]": "[\"T03\",\"T10\"]",
+        "[\"T03\",\"T11\"]": "[\"T01\",\"T11\"]",
+        "[\"T03\",\"T13\"]": "[\"T07\",\"T12\"]",
+        "[\"T03\",\"T14\"]": "[\"T00\",\"T08\"]",
+        "[\"T04\",\"T06\"]": "[\"T01\",\"T02\"]",
+        "[\"T04\",\"T07\"]": "[\"T05\",\"T08\"]",
+        "[\"T04\",\"T08\"]": "[\"T05\",\"T07\"]",
+        "[\"T04\",\"T11\"]": "[\"T08\",\"T10\"]",
+        "[\"T04\",\"T12\"]": "[\"T06\",\"T14\"]",
+        "[\"T04\",\"T13\"]": "[\"T00\",\"T05\"]",
+        "[\"T04\",\"T14\"]": "[\"T03\",\"T09\"]",
+        "[\"T05\",\"T06\"]": "[\"T04\",\"T13\"]",
+        "[\"T05\",\"T07\"]": "[\"T03\",\"T08\"]",
+        "[\"T05\",\"T08\"]": "[\"T06\",\"T09\"]",
+        "[\"T05\",\"T09\"]": "[\"T01\",\"T03\"]",
+        "[\"T05\",\"T12\"]": "[\"T10\",\"T14\"]",
+        "[\"T05\",\"T14\"]": "[\"T10\",\"T12\"]",
+        "[\"T06\",\"T09\"]": "[\"T02\",\"T05\"]",
+        "[\"T06\",\"T10\"]": "[\"T06\",\"T12\"]",
+        "[\"T06\",\"T11\"]": "[\"T05\",\"T12\"]",
+        "[\"T06\",\"T12\"]": "[\"T06\",\"T13\"]",
+        "[\"T06\",\"T13\"]": "[\"T03\",\"T14\"]",
+        "[\"T06\",\"T14\"]": "[\"T11\",\"T13\"]",
+        "[\"T07\",\"T08\"]": "[\"T02\",\"T13\"]",
+        "[\"T07\",\"T09\"]": "[\"T00\",\"T14\"]",
+        "[\"T07\",\"T10\"]": "[\"T06\",\"T11\"]",
+        "[\"T07\",\"T11\"]": "[\"T05\",\"T06\"]",
+        "[\"T07\",\"T12\"]": "[\"T07\",\"T10\"]",
+        "[\"T08\",\"T09\"]": "[\"T08\",\"T12\"]",
+        "[\"T08\",\"T10\"]": "[\"T04\",\"T08\"]",
+        "[\"T08\",\"T12\"]": "[\"T00\",\"T10\"]",
+        "[\"T08\",\"T13\"]": "[\"T06\",\"T10\"]",
+        "[\"T09\",\"T10\"]": "[\"T00\",\"T03\"]",
+        "[\"T09\",\"T12\"]": "[\"T07\",\"T11\"]",
+        "[\"T09\",\"T13\"]": "[\"T05\",\"T14\"]",
+        "[\"T10\",\"T11\"]": "[\"T04\",\"T14\"]",
+        "[\"T10\",\"T12\"]": "[\"T01\",\"T07\"]",
+        "[\"T10\",\"T14\"]": "[\"T00\",\"T01\"]",
+        "[\"T11\",\"T13\"]": "[\"T09\",\"T13\"]",
+        "[\"T11\",\"T14\"]": "[\"T08\",\"T09\"]",
+        "[\"T12\",\"T13\"]": "[\"T02\",\"T07\"]",
+        "[\"T13\",\"T14\"]": "[\"T10\",\"T11\"]"
+      }
+    },
+    "target_outcomes_accessed": false
+  },
+  {
+    "base_attempts": [
+      {
+        "config": {
+          "alpha": 1,
+          "id": "additive",
+          "kind": "additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "shared_offset-0.1",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-1.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-10.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "global-0.1",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "global-1.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "global-10.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "single_sum-0.1",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-1.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-10.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "component_additive-0.1",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-1.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-10.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "id": "null",
+          "kind": "no_change",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 3.766823604610278
+      },
+      {
+        "config": {
+          "id": "response-mean",
+          "kind": "response_mean",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 3.4235476838933314
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "affine-0.1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 6.607344580486427e-32
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "affine-1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 6.607344580486427e-32
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "affine-10",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 6.607344580486427e-32
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-4-0.1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 1.4036038431566906e-06
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-4-1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.00013746137646584942
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-4-10",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.011336759812892703
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-8-0.1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-8-1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-8-10",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      }
+    ],
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 0,
+    "reference_attempts": [
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "no_change",
+        "mse": 3.8183423547933972
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "additive",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "frozen_base",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_offset",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      }
+    ],
+    "selected_references": {
+      "additive": {
+        "alpha": 1,
+        "failure": null,
+        "family": "additive",
+        "mse": 0.0
+      },
+      "bridge_affine": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      "bridge_incidence": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      "bridge_offset": {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_offset",
+        "mse": 0.0
+      },
+      "frozen_base": {
+        "alpha": 1,
+        "failure": null,
+        "family": "frozen_base",
+        "mse": 0.0
+      },
+      "no_change": {
+        "alpha": 1,
+        "failure": null,
+        "family": "no_change",
+        "mse": 3.8183423547933972
+      },
+      "pooled_profile_kernel": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      "source_kernel_posterior": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      "target_profile_kernel": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      "target_profile_ridge": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      }
+    },
+    "selector": {
+      "alpha": 1,
+      "failure": null,
+      "family": "additive",
+      "mse": 0.0
+    },
+    "source_attempts": [],
+    "source_checkpoint": {
+      "array_assets": {},
+      "path": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_frontier_bridge_v1\\verification-20261012-final-a2\\synthetic-null\\source-4",
+      "state_sha256": "cf5d89ca2bd46f1327210ffd831e9235a239ceab8cc76872856090eae70107c8"
+    },
+    "source_failure": "No supported source penalty fit",
+    "source_label_ids": [
+      "[\"T00\",\"T04\"]",
+      "[\"T00\",\"T06\"]",
+      "[\"T00\",\"T07\"]",
+      "[\"T00\",\"T08\"]",
+      "[\"T00\",\"T10\"]",
+      "[\"T00\",\"T11\"]",
+      "[\"T00\",\"T12\"]",
+      "[\"T00\",\"T13\"]",
+      "[\"T00\",\"T14\"]",
+      "[\"T01\",\"T02\"]",
+      "[\"T01\",\"T03\"]",
+      "[\"T01\",\"T04\"]",
+      "[\"T01\",\"T06\"]",
+      "[\"T01\",\"T08\"]",
+      "[\"T01\",\"T09\"]",
+      "[\"T01\",\"T12\"]",
+      "[\"T01\",\"T13\"]",
+      "[\"T02\",\"T03\"]",
+      "[\"T02\",\"T04\"]",
+      "[\"T02\",\"T05\"]",
+      "[\"T02\",\"T06\"]",
+      "[\"T02\",\"T07\"]",
+      "[\"T02\",\"T08\"]",
+      "[\"T02\",\"T09\"]",
+      "[\"T02\",\"T10\"]",
+      "[\"T02\",\"T11\"]",
+      "[\"T02\",\"T14\"]",
+      "[\"T03\",\"T04\"]",
+      "[\"T03\",\"T05\"]",
+      "[\"T03\",\"T06\"]",
+      "[\"T03\",\"T09\"]",
+      "[\"T03\",\"T10\"]",
+      "[\"T03\",\"T11\"]",
+      "[\"T03\",\"T12\"]",
+      "[\"T03\",\"T14\"]",
+      "[\"T04\",\"T05\"]",
+      "[\"T04\",\"T09\"]",
+      "[\"T04\",\"T10\"]",
+      "[\"T04\",\"T12\"]",
+      "[\"T04\",\"T13\"]",
+      "[\"T05\",\"T07\"]",
+      "[\"T05\",\"T08\"]",
+      "[\"T05\",\"T09\"]",
+      "[\"T05\",\"T10\"]",
+      "[\"T05\",\"T11\"]",
+      "[\"T05\",\"T12\"]",
+      "[\"T05\",\"T13\"]",
+      "[\"T06\",\"T07\"]",
+      "[\"T06\",\"T08\"]",
+      "[\"T06\",\"T11\"]",
+      "[\"T06\",\"T13\"]",
+      "[\"T06\",\"T14\"]",
+      "[\"T07\",\"T08\"]",
+      "[\"T07\",\"T09\"]",
+      "[\"T07\",\"T11\"]",
+      "[\"T07\",\"T13\"]",
+      "[\"T07\",\"T14\"]",
+      "[\"T08\",\"T09\"]",
+      "[\"T08\",\"T11\"]",
+      "[\"T08\",\"T14\"]",
+      "[\"T09\",\"T10\"]",
+      "[\"T09\",\"T11\"]",
+      "[\"T09\",\"T14\"]",
+      "[\"T10\",\"T12\"]",
+      "[\"T10\",\"T13\"]",
+      "[\"T10\",\"T14\"]",
+      "[\"T11\",\"T12\"]",
+      "[\"T11\",\"T13\"]",
+      "[\"T12\",\"T14\"]",
+      "[\"T13\",\"T14\"]"
+    ],
+    "source_shuffle_mappings": {
+      "20261021": {
+        "[\"T00\",\"T04\"]": "[\"T00\",\"T06\"]",
+        "[\"T00\",\"T06\"]": "[\"T03\",\"T05\"]",
+        "[\"T00\",\"T07\"]": "[\"T09\",\"T10\"]",
+        "[\"T00\",\"T08\"]": "[\"T13\",\"T14\"]",
+        "[\"T00\",\"T10\"]": "[\"T11\",\"T13\"]",
+        "[\"T00\",\"T11\"]": "[\"T05\",\"T09\"]",
+        "[\"T00\",\"T12\"]": "[\"T09\",\"T14\"]",
+        "[\"T00\",\"T13\"]": "[\"T05\",\"T12\"]",
+        "[\"T00\",\"T14\"]": "[\"T03\",\"T12\"]",
+        "[\"T01\",\"T02\"]": "[\"T07\",\"T14\"]",
+        "[\"T01\",\"T03\"]": "[\"T01\",\"T08\"]",
+        "[\"T01\",\"T04\"]": "[\"T07\",\"T13\"]",
+        "[\"T01\",\"T06\"]": "[\"T07\",\"T09\"]",
+        "[\"T01\",\"T08\"]": "[\"T04\",\"T13\"]",
+        "[\"T01\",\"T09\"]": "[\"T01\",\"T02\"]",
+        "[\"T01\",\"T12\"]": "[\"T04\",\"T05\"]",
+        "[\"T01\",\"T13\"]": "[\"T07\",\"T08\"]",
+        "[\"T02\",\"T03\"]": "[\"T07\",\"T11\"]",
+        "[\"T02\",\"T04\"]": "[\"T04\",\"T09\"]",
+        "[\"T02\",\"T05\"]": "[\"T05\",\"T13\"]",
+        "[\"T02\",\"T06\"]": "[\"T02\",\"T03\"]",
+        "[\"T02\",\"T07\"]": "[\"T01\",\"T13\"]",
+        "[\"T02\",\"T08\"]": "[\"T00\",\"T08\"]",
+        "[\"T02\",\"T09\"]": "[\"T00\",\"T12\"]",
+        "[\"T02\",\"T10\"]": "[\"T10\",\"T12\"]",
+        "[\"T02\",\"T11\"]": "[\"T03\",\"T06\"]",
+        "[\"T02\",\"T14\"]": "[\"T02\",\"T08\"]",
+        "[\"T03\",\"T04\"]": "[\"T02\",\"T09\"]",
+        "[\"T03\",\"T05\"]": "[\"T01\",\"T03\"]",
+        "[\"T03\",\"T06\"]": "[\"T04\",\"T12\"]",
+        "[\"T03\",\"T09\"]": "[\"T03\",\"T11\"]",
+        "[\"T03\",\"T10\"]": "[\"T05\",\"T07\"]",
+        "[\"T03\",\"T11\"]": "[\"T06\",\"T14\"]",
+        "[\"T03\",\"T12\"]": "[\"T05\",\"T11\"]",
+        "[\"T03\",\"T14\"]": "[\"T00\",\"T13\"]",
+        "[\"T04\",\"T05\"]": "[\"T03\",\"T10\"]",
+        "[\"T04\",\"T09\"]": "[\"T01\",\"T06\"]",
+        "[\"T04\",\"T10\"]": "[\"T03\",\"T14\"]",
+        "[\"T04\",\"T12\"]": "[\"T05\",\"T10\"]",
+        "[\"T04\",\"T13\"]": "[\"T02\",\"T04\"]",
+        "[\"T05\",\"T07\"]": "[\"T01\",\"T09\"]",
+        "[\"T05\",\"T08\"]": "[\"T03\",\"T04\"]",
+        "[\"T05\",\"T09\"]": "[\"T00\",\"T04\"]",
+        "[\"T05\",\"T10\"]": "[\"T08\",\"T14\"]",
+        "[\"T05\",\"T11\"]": "[\"T02\",\"T10\"]",
+        "[\"T05\",\"T12\"]": "[\"T11\",\"T12\"]",
+        "[\"T05\",\"T13\"]": "[\"T06\",\"T13\"]",
+        "[\"T06\",\"T07\"]": "[\"T00\",\"T11\"]",
+        "[\"T06\",\"T08\"]": "[\"T00\",\"T07\"]",
+        "[\"T06\",\"T11\"]": "[\"T02\",\"T14\"]",
+        "[\"T06\",\"T13\"]": "[\"T05\",\"T08\"]",
+        "[\"T06\",\"T14\"]": "[\"T02\",\"T05\"]",
+        "[\"T07\",\"T08\"]": "[\"T09\",\"T11\"]",
+        "[\"T07\",\"T09\"]": "[\"T10\",\"T13\"]",
+        "[\"T07\",\"T11\"]": "[\"T02\",\"T07\"]",
+        "[\"T07\",\"T13\"]": "[\"T01\",\"T12\"]",
+        "[\"T07\",\"T14\"]": "[\"T02\",\"T11\"]",
+        "[\"T08\",\"T09\"]": "[\"T10\",\"T14\"]",
+        "[\"T08\",\"T11\"]": "[\"T02\",\"T06\"]",
+        "[\"T08\",\"T14\"]": "[\"T06\",\"T07\"]",
+        "[\"T09\",\"T10\"]": "[\"T01\",\"T04\"]",
+        "[\"T09\",\"T11\"]": "[\"T06\",\"T11\"]",
+        "[\"T09\",\"T14\"]": "[\"T08\",\"T11\"]",
+        "[\"T10\",\"T12\"]": "[\"T06\",\"T08\"]",
+        "[\"T10\",\"T13\"]": "[\"T08\",\"T09\"]",
+        "[\"T10\",\"T14\"]": "[\"T03\",\"T09\"]",
+        "[\"T11\",\"T12\"]": "[\"T00\",\"T14\"]",
+        "[\"T11\",\"T13\"]": "[\"T04\",\"T10\"]",
+        "[\"T12\",\"T14\"]": "[\"T00\",\"T10\"]",
+        "[\"T13\",\"T14\"]": "[\"T12\",\"T14\"]"
+      },
+      "20261022": {
+        "[\"T00\",\"T04\"]": "[\"T06\",\"T11\"]",
+        "[\"T00\",\"T06\"]": "[\"T06\",\"T14\"]",
+        "[\"T00\",\"T07\"]": "[\"T05\",\"T07\"]",
+        "[\"T00\",\"T08\"]": "[\"T00\",\"T07\"]",
+        "[\"T00\",\"T10\"]": "[\"T02\",\"T05\"]",
+        "[\"T00\",\"T11\"]": "[\"T06\",\"T08\"]",
+        "[\"T00\",\"T12\"]": "[\"T02\",\"T11\"]",
+        "[\"T00\",\"T13\"]": "[\"T03\",\"T09\"]",
+        "[\"T00\",\"T14\"]": "[\"T11\",\"T13\"]",
+        "[\"T01\",\"T02\"]": "[\"T00\",\"T06\"]",
+        "[\"T01\",\"T03\"]": "[\"T01\",\"T09\"]",
+        "[\"T01\",\"T04\"]": "[\"T11\",\"T12\"]",
+        "[\"T01\",\"T06\"]": "[\"T02\",\"T10\"]",
+        "[\"T01\",\"T08\"]": "[\"T01\",\"T12\"]",
+        "[\"T01\",\"T09\"]": "[\"T09\",\"T14\"]",
+        "[\"T01\",\"T12\"]": "[\"T00\",\"T08\"]",
+        "[\"T01\",\"T13\"]": "[\"T06\",\"T13\"]",
+        "[\"T02\",\"T03\"]": "[\"T01\",\"T13\"]",
+        "[\"T02\",\"T04\"]": "[\"T04\",\"T12\"]",
+        "[\"T02\",\"T05\"]": "[\"T07\",\"T09\"]",
+        "[\"T02\",\"T06\"]": "[\"T00\",\"T11\"]",
+        "[\"T02\",\"T07\"]": "[\"T04\",\"T10\"]",
+        "[\"T02\",\"T08\"]": "[\"T09\",\"T11\"]",
+        "[\"T02\",\"T09\"]": "[\"T00\",\"T14\"]",
+        "[\"T02\",\"T10\"]": "[\"T02\",\"T14\"]",
+        "[\"T02\",\"T11\"]": "[\"T04\",\"T05\"]",
+        "[\"T02\",\"T14\"]": "[\"T08\",\"T11\"]",
+        "[\"T03\",\"T04\"]": "[\"T07\",\"T08\"]",
+        "[\"T03\",\"T05\"]": "[\"T04\",\"T09\"]",
+        "[\"T03\",\"T06\"]": "[\"T03\",\"T05\"]",
+        "[\"T03\",\"T09\"]": "[\"T04\",\"T13\"]",
+        "[\"T03\",\"T10\"]": "[\"T05\",\"T10\"]",
+        "[\"T03\",\"T11\"]": "[\"T00\",\"T13\"]",
+        "[\"T03\",\"T12\"]": "[\"T09\",\"T10\"]",
+        "[\"T03\",\"T14\"]": "[\"T03\",\"T12\"]",
+        "[\"T04\",\"T05\"]": "[\"T10\",\"T14\"]",
+        "[\"T04\",\"T09\"]": "[\"T07\",\"T11\"]",
+        "[\"T04\",\"T10\"]": "[\"T02\",\"T07\"]",
+        "[\"T04\",\"T12\"]": "[\"T02\",\"T08\"]",
+        "[\"T04\",\"T13\"]": "[\"T02\",\"T06\"]",
+        "[\"T05\",\"T07\"]": "[\"T08\",\"T09\"]",
+        "[\"T05\",\"T08\"]": "[\"T02\",\"T09\"]",
+        "[\"T05\",\"T09\"]": "[\"T01\",\"T08\"]",
+        "[\"T05\",\"T10\"]": "[\"T01\",\"T03\"]",
+        "[\"T05\",\"T11\"]": "[\"T08\",\"T14\"]",
+        "[\"T05\",\"T12\"]": "[\"T05\",\"T11\"]",
+        "[\"T05\",\"T13\"]": "[\"T12\",\"T14\"]",
+        "[\"T06\",\"T07\"]": "[\"T07\",\"T14\"]",
+        "[\"T06\",\"T08\"]": "[\"T00\",\"T04\"]",
+        "[\"T06\",\"T11\"]": "[\"T06\",\"T07\"]",
+        "[\"T06\",\"T13\"]": "[\"T01\",\"T04\"]",
+        "[\"T06\",\"T14\"]": "[\"T03\",\"T04\"]",
+        "[\"T07\",\"T08\"]": "[\"T10\",\"T12\"]",
+        "[\"T07\",\"T09\"]": "[\"T02\",\"T04\"]",
+        "[\"T07\",\"T11\"]": "[\"T05\",\"T13\"]",
+        "[\"T07\",\"T13\"]": "[\"T05\",\"T08\"]",
+        "[\"T07\",\"T14\"]": "[\"T07\",\"T13\"]",
+        "[\"T08\",\"T09\"]": "[\"T01\",\"T06\"]",
+        "[\"T08\",\"T11\"]": "[\"T03\",\"T11\"]",
+        "[\"T08\",\"T14\"]": "[\"T10\",\"T13\"]",
+        "[\"T09\",\"T10\"]": "[\"T01\",\"T02\"]",
+        "[\"T09\",\"T11\"]": "[\"T13\",\"T14\"]",
+        "[\"T09\",\"T14\"]": "[\"T00\",\"T10\"]",
+        "[\"T10\",\"T12\"]": "[\"T05\",\"T12\"]",
+        "[\"T10\",\"T13\"]": "[\"T02\",\"T03\"]",
+        "[\"T10\",\"T14\"]": "[\"T03\",\"T10\"]",
+        "[\"T11\",\"T12\"]": "[\"T03\",\"T14\"]",
+        "[\"T11\",\"T13\"]": "[\"T03\",\"T06\"]",
+        "[\"T12\",\"T14\"]": "[\"T05\",\"T09\"]",
+        "[\"T13\",\"T14\"]": "[\"T00\",\"T12\"]"
+      },
+      "20261023": {
+        "[\"T00\",\"T04\"]": "[\"T08\",\"T14\"]",
+        "[\"T00\",\"T06\"]": "[\"T03\",\"T12\"]",
+        "[\"T00\",\"T07\"]": "[\"T00\",\"T10\"]",
+        "[\"T00\",\"T08\"]": "[\"T02\",\"T04\"]",
+        "[\"T00\",\"T10\"]": "[\"T09\",\"T11\"]",
+        "[\"T00\",\"T11\"]": "[\"T01\",\"T08\"]",
+        "[\"T00\",\"T12\"]": "[\"T13\",\"T14\"]",
+        "[\"T00\",\"T13\"]": "[\"T00\",\"T12\"]",
+        "[\"T00\",\"T14\"]": "[\"T00\",\"T14\"]",
+        "[\"T01\",\"T02\"]": "[\"T02\",\"T06\"]",
+        "[\"T01\",\"T03\"]": "[\"T04\",\"T05\"]",
+        "[\"T01\",\"T04\"]": "[\"T12\",\"T14\"]",
+        "[\"T01\",\"T06\"]": "[\"T09\",\"T10\"]",
+        "[\"T01\",\"T08\"]": "[\"T01\",\"T06\"]",
+        "[\"T01\",\"T09\"]": "[\"T05\",\"T09\"]",
+        "[\"T01\",\"T12\"]": "[\"T03\",\"T06\"]",
+        "[\"T01\",\"T13\"]": "[\"T03\",\"T09\"]",
+        "[\"T02\",\"T03\"]": "[\"T07\",\"T08\"]",
+        "[\"T02\",\"T04\"]": "[\"T01\",\"T13\"]",
+        "[\"T02\",\"T05\"]": "[\"T01\",\"T12\"]",
+        "[\"T02\",\"T06\"]": "[\"T11\",\"T13\"]",
+        "[\"T02\",\"T07\"]": "[\"T02\",\"T11\"]",
+        "[\"T02\",\"T08\"]": "[\"T06\",\"T14\"]",
+        "[\"T02\",\"T09\"]": "[\"T04\",\"T09\"]",
+        "[\"T02\",\"T10\"]": "[\"T02\",\"T05\"]",
+        "[\"T02\",\"T11\"]": "[\"T03\",\"T11\"]",
+        "[\"T02\",\"T14\"]": "[\"T02\",\"T09\"]",
+        "[\"T03\",\"T04\"]": "[\"T00\",\"T06\"]",
+        "[\"T03\",\"T05\"]": "[\"T03\",\"T05\"]",
+        "[\"T03\",\"T06\"]": "[\"T02\",\"T03\"]",
+        "[\"T03\",\"T09\"]": "[\"T07\",\"T13\"]",
+        "[\"T03\",\"T10\"]": "[\"T00\",\"T11\"]",
+        "[\"T03\",\"T11\"]": "[\"T01\",\"T03\"]",
+        "[\"T03\",\"T12\"]": "[\"T05\",\"T08\"]",
+        "[\"T03\",\"T14\"]": "[\"T05\",\"T07\"]",
+        "[\"T04\",\"T05\"]": "[\"T08\",\"T09\"]",
+        "[\"T04\",\"T09\"]": "[\"T06\",\"T13\"]",
+        "[\"T04\",\"T10\"]": "[\"T00\",\"T08\"]",
+        "[\"T04\",\"T12\"]": "[\"T03\",\"T04\"]",
+        "[\"T04\",\"T13\"]": "[\"T04\",\"T10\"]",
+        "[\"T05\",\"T07\"]": "[\"T02\",\"T14\"]",
+        "[\"T05\",\"T08\"]": "[\"T05\",\"T12\"]",
+        "[\"T05\",\"T09\"]": "[\"T01\",\"T04\"]",
+        "[\"T05\",\"T10\"]": "[\"T10\",\"T14\"]",
+        "[\"T05\",\"T11\"]": "[\"T10\",\"T13\"]",
+        "[\"T05\",\"T12\"]": "[\"T02\",\"T07\"]",
+        "[\"T05\",\"T13\"]": "[\"T06\",\"T08\"]",
+        "[\"T06\",\"T07\"]": "[\"T05\",\"T10\"]",
+        "[\"T06\",\"T08\"]": "[\"T06\",\"T11\"]",
+        "[\"T06\",\"T11\"]": "[\"T03\",\"T10\"]",
+        "[\"T06\",\"T13\"]": "[\"T11\",\"T12\"]",
+        "[\"T06\",\"T14\"]": "[\"T02\",\"T10\"]",
+        "[\"T07\",\"T08\"]": "[\"T01\",\"T02\"]",
+        "[\"T07\",\"T09\"]": "[\"T06\",\"T07\"]",
+        "[\"T07\",\"T11\"]": "[\"T04\",\"T13\"]",
+        "[\"T07\",\"T13\"]": "[\"T07\",\"T09\"]",
+        "[\"T07\",\"T14\"]": "[\"T08\",\"T11\"]",
+        "[\"T08\",\"T09\"]": "[\"T03\",\"T14\"]",
+        "[\"T08\",\"T11\"]": "[\"T00\",\"T13\"]",
+        "[\"T08\",\"T14\"]": "[\"T05\",\"T13\"]",
+        "[\"T09\",\"T10\"]": "[\"T00\",\"T07\"]",
+        "[\"T09\",\"T11\"]": "[\"T07\",\"T11\"]",
+        "[\"T09\",\"T14\"]": "[\"T05\",\"T11\"]",
+        "[\"T10\",\"T12\"]": "[\"T04\",\"T12\"]",
+        "[\"T10\",\"T13\"]": "[\"T01\",\"T09\"]",
+        "[\"T10\",\"T14\"]": "[\"T00\",\"T04\"]",
+        "[\"T11\",\"T12\"]": "[\"T09\",\"T14\"]",
+        "[\"T11\",\"T13\"]": "[\"T07\",\"T14\"]",
+        "[\"T12\",\"T14\"]": "[\"T02\",\"T08\"]",
+        "[\"T13\",\"T14\"]": "[\"T10\",\"T12\"]"
+      }
+    },
+    "target_outcomes_accessed": false
+  },
+  {
+    "base_attempts": [
+      {
+        "config": {
+          "alpha": 1,
+          "id": "additive",
+          "kind": "additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "shared_offset-0.1",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-1.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-10.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "global-0.1",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "global-1.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "global-10.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "single_sum-0.1",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-1.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-10.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "component_additive-0.1",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-1.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-10.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "id": "null",
+          "kind": "no_change",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 3.5399596433334053
+      },
+      {
+        "config": {
+          "id": "response-mean",
+          "kind": "response_mean",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 3.22881538499977
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "affine-0.1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 6.416236249048722e-32
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "affine-1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "affine-10",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-4-0.1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 1.3232367258764072e-06
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-4-1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.00012983496215794856
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-4-10",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.01088407253070184
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-8-0.1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-8-1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-8-10",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      }
+    ],
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 1,
+    "reference_attempts": [
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "no_change",
+        "mse": 3.52155417594129
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "additive",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "frozen_base",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_offset",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      }
+    ],
+    "selected_references": {
+      "additive": {
+        "alpha": 1,
+        "failure": null,
+        "family": "additive",
+        "mse": 0.0
+      },
+      "bridge_affine": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      "bridge_incidence": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      "bridge_offset": {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_offset",
+        "mse": 0.0
+      },
+      "frozen_base": {
+        "alpha": 1,
+        "failure": null,
+        "family": "frozen_base",
+        "mse": 0.0
+      },
+      "no_change": {
+        "alpha": 1,
+        "failure": null,
+        "family": "no_change",
+        "mse": 3.52155417594129
+      },
+      "pooled_profile_kernel": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      "source_kernel_posterior": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      "target_profile_kernel": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      "target_profile_ridge": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      }
+    },
+    "selector": {
+      "alpha": 1,
+      "failure": null,
+      "family": "additive",
+      "mse": 0.0
+    },
+    "source_attempts": [],
+    "source_checkpoint": {
+      "array_assets": {},
+      "path": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_frontier_bridge_v1\\verification-20261012-final-a2\\synthetic-null\\source-5",
+      "state_sha256": "cf5d89ca2bd46f1327210ffd831e9235a239ceab8cc76872856090eae70107c8"
+    },
+    "source_failure": "No supported source penalty fit",
+    "source_label_ids": [
+      "[\"T00\",\"T01\"]",
+      "[\"T00\",\"T02\"]",
+      "[\"T00\",\"T03\"]",
+      "[\"T00\",\"T04\"]",
+      "[\"T00\",\"T05\"]",
+      "[\"T00\",\"T07\"]",
+      "[\"T00\",\"T09\"]",
+      "[\"T00\",\"T12\"]",
+      "[\"T00\",\"T13\"]",
+      "[\"T01\",\"T05\"]",
+      "[\"T01\",\"T06\"]",
+      "[\"T01\",\"T07\"]",
+      "[\"T01\",\"T09\"]",
+      "[\"T01\",\"T10\"]",
+      "[\"T01\",\"T11\"]",
+      "[\"T01\",\"T12\"]",
+      "[\"T01\",\"T14\"]",
+      "[\"T02\",\"T04\"]",
+      "[\"T02\",\"T06\"]",
+      "[\"T02\",\"T08\"]",
+      "[\"T02\",\"T09\"]",
+      "[\"T02\",\"T10\"]",
+      "[\"T02\",\"T11\"]",
+      "[\"T02\",\"T12\"]",
+      "[\"T02\",\"T13\"]",
+      "[\"T02\",\"T14\"]",
+      "[\"T03\",\"T04\"]",
+      "[\"T03\",\"T05\"]",
+      "[\"T03\",\"T06\"]",
+      "[\"T03\",\"T07\"]",
+      "[\"T03\",\"T08\"]",
+      "[\"T03\",\"T12\"]",
+      "[\"T03\",\"T13\"]",
+      "[\"T04\",\"T05\"]",
+      "[\"T04\",\"T06\"]",
+      "[\"T04\",\"T07\"]",
+      "[\"T04\",\"T08\"]",
+      "[\"T04\",\"T09\"]",
+      "[\"T04\",\"T10\"]",
+      "[\"T04\",\"T11\"]",
+      "[\"T04\",\"T14\"]",
+      "[\"T05\",\"T06\"]",
+      "[\"T05\",\"T10\"]",
+      "[\"T05\",\"T11\"]",
+      "[\"T05\",\"T13\"]",
+      "[\"T05\",\"T14\"]",
+      "[\"T06\",\"T07\"]",
+      "[\"T06\",\"T08\"]",
+      "[\"T06\",\"T09\"]",
+      "[\"T06\",\"T10\"]",
+      "[\"T06\",\"T12\"]",
+      "[\"T07\",\"T10\"]",
+      "[\"T07\",\"T12\"]",
+      "[\"T07\",\"T13\"]",
+      "[\"T07\",\"T14\"]",
+      "[\"T08\",\"T10\"]",
+      "[\"T08\",\"T11\"]",
+      "[\"T08\",\"T12\"]",
+      "[\"T08\",\"T13\"]",
+      "[\"T08\",\"T14\"]",
+      "[\"T09\",\"T11\"]",
+      "[\"T09\",\"T12\"]",
+      "[\"T09\",\"T13\"]",
+      "[\"T09\",\"T14\"]",
+      "[\"T10\",\"T11\"]",
+      "[\"T10\",\"T13\"]",
+      "[\"T11\",\"T12\"]",
+      "[\"T11\",\"T14\"]",
+      "[\"T12\",\"T13\"]",
+      "[\"T12\",\"T14\"]"
+    ],
+    "source_shuffle_mappings": {
+      "20261021": {
+        "[\"T00\",\"T01\"]": "[\"T00\",\"T02\"]",
+        "[\"T00\",\"T02\"]": "[\"T03\",\"T06\"]",
+        "[\"T00\",\"T03\"]": "[\"T09\",\"T11\"]",
+        "[\"T00\",\"T04\"]": "[\"T12\",\"T14\"]",
+        "[\"T00\",\"T05\"]": "[\"T11\",\"T14\"]",
+        "[\"T00\",\"T07\"]": "[\"T05\",\"T10\"]",
+        "[\"T00\",\"T09\"]": "[\"T09\",\"T13\"]",
+        "[\"T00\",\"T12\"]": "[\"T05\",\"T14\"]",
+        "[\"T00\",\"T13\"]": "[\"T04\",\"T05\"]",
+        "[\"T01\",\"T05\"]": "[\"T08\",\"T11\"]",
+        "[\"T01\",\"T06\"]": "[\"T01\",\"T10\"]",
+        "[\"T01\",\"T07\"]": "[\"T08\",\"T10\"]",
+        "[\"T01\",\"T09\"]": "[\"T07\",\"T13\"]",
+        "[\"T01\",\"T10\"]": "[\"T04\",\"T11\"]",
+        "[\"T01\",\"T11\"]": "[\"T01\",\"T05\"]",
+        "[\"T01\",\"T12\"]": "[\"T04\",\"T07\"]",
+        "[\"T01\",\"T14\"]": "[\"T07\",\"T12\"]",
+        "[\"T02\",\"T04\"]": "[\"T07\",\"T14\"]",
+        "[\"T02\",\"T06\"]": "[\"T04\",\"T08\"]",
+        "[\"T02\",\"T08\"]": "[\"T06\",\"T07\"]",
+        "[\"T02\",\"T09\"]": "[\"T02\",\"T04\"]",
+        "[\"T02\",\"T10\"]": "[\"T01\",\"T14\"]",
+        "[\"T02\",\"T11\"]": "[\"T00\",\"T04\"]",
+        "[\"T02\",\"T12\"]": "[\"T00\",\"T09\"]",
+        "[\"T02\",\"T13\"]": "[\"T09\",\"T14\"]",
+        "[\"T02\",\"T14\"]": "[\"T03\",\"T07\"]",
+        "[\"T03\",\"T04\"]": "[\"T02\",\"T11\"]",
+        "[\"T03\",\"T05\"]": "[\"T02\",\"T12\"]",
+        "[\"T03\",\"T06\"]": "[\"T01\",\"T06\"]",
+        "[\"T03\",\"T07\"]": "[\"T04\",\"T10\"]",
+        "[\"T03\",\"T08\"]": "[\"T03\",\"T13\"]",
+        "[\"T03\",\"T12\"]": "[\"T04\",\"T14\"]",
+        "[\"T03\",\"T13\"]": "[\"T07\",\"T10\"]",
+        "[\"T04\",\"T05\"]": "[\"T05\",\"T13\"]",
+        "[\"T04\",\"T06\"]": "[\"T00\",\"T12\"]",
+        "[\"T04\",\"T07\"]": "[\"T03\",\"T12\"]",
+        "[\"T04\",\"T08\"]": "[\"T01\",\"T09\"]",
+        "[\"T04\",\"T09\"]": "[\"T04\",\"T06\"]",
+        "[\"T04\",\"T10\"]": "[\"T05\",\"T11\"]",
+        "[\"T04\",\"T11\"]": "[\"T02\",\"T06\"]",
+        "[\"T04\",\"T14\"]": "[\"T01\",\"T11\"]",
+        "[\"T05\",\"T06\"]": "[\"T03\",\"T05\"]",
+        "[\"T05\",\"T10\"]": "[\"T00\",\"T01\"]",
+        "[\"T05\",\"T11\"]": "[\"T08\",\"T14\"]",
+        "[\"T05\",\"T13\"]": "[\"T02\",\"T13\"]",
+        "[\"T05\",\"T14\"]": "[\"T11\",\"T12\"]",
+        "[\"T06\",\"T07\"]": "[\"T06\",\"T12\"]",
+        "[\"T06\",\"T08\"]": "[\"T00\",\"T07\"]",
+        "[\"T06\",\"T09\"]": "[\"T00\",\"T03\"]",
+        "[\"T06\",\"T10\"]": "[\"T03\",\"T04\"]",
+        "[\"T06\",\"T12\"]": "[\"T05\",\"T06\"]",
+        "[\"T07\",\"T10\"]": "[\"T02\",\"T08\"]",
+        "[\"T07\",\"T12\"]": "[\"T09\",\"T12\"]",
+        "[\"T07\",\"T13\"]": "[\"T10\",\"T11\"]",
+        "[\"T07\",\"T14\"]": "[\"T02\",\"T10\"]",
+        "[\"T08\",\"T10\"]": "[\"T01\",\"T12\"]",
+        "[\"T08\",\"T11\"]": "[\"T02\",\"T14\"]",
+        "[\"T08\",\"T12\"]": "[\"T10\",\"T13\"]",
+        "[\"T08\",\"T13\"]": "[\"T02\",\"T09\"]",
+        "[\"T08\",\"T14\"]": "[\"T06\",\"T08\"]",
+        "[\"T09\",\"T11\"]": "[\"T01\",\"T07\"]",
+        "[\"T09\",\"T12\"]": "[\"T06\",\"T10\"]",
+        "[\"T09\",\"T13\"]": "[\"T08\",\"T13\"]",
+        "[\"T09\",\"T14\"]": "[\"T06\",\"T09\"]",
+        "[\"T10\",\"T11\"]": "[\"T08\",\"T12\"]",
+        "[\"T10\",\"T13\"]": "[\"T03\",\"T08\"]",
+        "[\"T11\",\"T12\"]": "[\"T00\",\"T13\"]",
+        "[\"T11\",\"T14\"]": "[\"T04\",\"T09\"]",
+        "[\"T12\",\"T13\"]": "[\"T00\",\"T05\"]",
+        "[\"T12\",\"T14\"]": "[\"T12\",\"T13\"]"
+      },
+      "20261022": {
+        "[\"T00\",\"T01\"]": "[\"T06\",\"T10\"]",
+        "[\"T00\",\"T02\"]": "[\"T07\",\"T10\"]",
+        "[\"T00\",\"T03\"]": "[\"T04\",\"T14\"]",
+        "[\"T00\",\"T04\"]": "[\"T00\",\"T03\"]",
+        "[\"T00\",\"T05\"]": "[\"T02\",\"T08\"]",
+        "[\"T00\",\"T07\"]": "[\"T06\",\"T09\"]",
+        "[\"T00\",\"T09\"]": "[\"T02\",\"T14\"]",
+        "[\"T00\",\"T12\"]": "[\"T03\",\"T08\"]",
+        "[\"T00\",\"T13\"]": "[\"T11\",\"T14\"]",
+        "[\"T01\",\"T05\"]": "[\"T00\",\"T02\"]",
+        "[\"T01\",\"T06\"]": "[\"T01\",\"T11\"]",
+        "[\"T01\",\"T07\"]": "[\"T11\",\"T12\"]",
+        "[\"T01\",\"T09\"]": "[\"T02\",\"T13\"]",
+        "[\"T01\",\"T10\"]": "[\"T01\",\"T12\"]",
+        "[\"T01\",\"T11\"]": "[\"T09\",\"T13\"]",
+        "[\"T01\",\"T12\"]": "[\"T00\",\"T04\"]",
+        "[\"T01\",\"T14\"]": "[\"T06\",\"T12\"]",
+        "[\"T02\",\"T04\"]": "[\"T01\",\"T14\"]",
+        "[\"T02\",\"T06\"]": "[\"T04\",\"T10\"]",
+        "[\"T02\",\"T08\"]": "[\"T07\",\"T13\"]",
+        "[\"T02\",\"T09\"]": "[\"T00\",\"T07\"]",
+        "[\"T02\",\"T10\"]": "[\"T04\",\"T09\"]",
+        "[\"T02\",\"T11\"]": "[\"T09\",\"T12\"]",
+        "[\"T02\",\"T12\"]": "[\"T00\",\"T13\"]",
+        "[\"T02\",\"T13\"]": "[\"T03\",\"T04\"]",
+        "[\"T02\",\"T14\"]": "[\"T04\",\"T07\"]",
+        "[\"T03\",\"T04\"]": "[\"T08\",\"T13\"]",
+        "[\"T03\",\"T05\"]": "[\"T07\",\"T12\"]",
+        "[\"T03\",\"T06\"]": "[\"T04\",\"T08\"]",
+        "[\"T03\",\"T07\"]": "[\"T03\",\"T06\"]",
+        "[\"T03\",\"T08\"]": "[\"T04\",\"T11\"]",
+        "[\"T03\",\"T12\"]": "[\"T05\",\"T11\"]",
+        "[\"T03\",\"T13\"]": "[\"T00\",\"T12\"]",
+        "[\"T04\",\"T05\"]": "[\"T09\",\"T11\"]",
+        "[\"T04\",\"T06\"]": "[\"T04\",\"T05\"]",
+        "[\"T04\",\"T07\"]": "[\"T10\",\"T13\"]",
+        "[\"T04\",\"T08\"]": "[\"T07\",\"T14\"]",
+        "[\"T04\",\"T09\"]": "[\"T02\",\"T10\"]",
+        "[\"T04\",\"T10\"]": "[\"T02\",\"T11\"]",
+        "[\"T04\",\"T11\"]": "[\"T02\",\"T09\"]",
+        "[\"T04\",\"T14\"]": "[\"T08\",\"T12\"]",
+        "[\"T05\",\"T06\"]": "[\"T02\",\"T12\"]",
+        "[\"T05\",\"T10\"]": "[\"T01\",\"T10\"]",
+        "[\"T05\",\"T11\"]": "[\"T01\",\"T06\"]",
+        "[\"T05\",\"T13\"]": "[\"T08\",\"T14\"]",
+        "[\"T05\",\"T14\"]": "[\"T05\",\"T13\"]",
+        "[\"T06\",\"T07\"]": "[\"T12\",\"T13\"]",
+        "[\"T06\",\"T08\"]": "[\"T08\",\"T11\"]",
+        "[\"T06\",\"T09\"]": "[\"T00\",\"T01\"]",
+        "[\"T06\",\"T10\"]": "[\"T06\",\"T08\"]",
+        "[\"T06\",\"T12\"]": "[\"T01\",\"T07\"]",
+        "[\"T07\",\"T10\"]": "[\"T03\",\"T05\"]",
+        "[\"T07\",\"T12\"]": "[\"T09\",\"T14\"]",
+        "[\"T07\",\"T13\"]": "[\"T02\",\"T06\"]",
+        "[\"T07\",\"T14\"]": "[\"T06\",\"T07\"]",
+        "[\"T08\",\"T10\"]": "[\"T05\",\"T06\"]",
+        "[\"T08\",\"T11\"]": "[\"T08\",\"T10\"]",
+        "[\"T08\",\"T12\"]": "[\"T01\",\"T09\"]",
+        "[\"T08\",\"T13\"]": "[\"T03\",\"T13\"]",
+        "[\"T08\",\"T14\"]": "[\"T10\",\"T11\"]",
+        "[\"T09\",\"T11\"]": "[\"T01\",\"T05\"]",
+        "[\"T09\",\"T12\"]": "[\"T12\",\"T14\"]",
+        "[\"T09\",\"T13\"]": "[\"T00\",\"T05\"]",
+        "[\"T09\",\"T14\"]": "[\"T05\",\"T14\"]",
+        "[\"T10\",\"T11\"]": "[\"T02\",\"T04\"]",
+        "[\"T10\",\"T13\"]": "[\"T03\",\"T12\"]",
+        "[\"T11\",\"T12\"]": "[\"T04\",\"T06\"]",
+        "[\"T11\",\"T14\"]": "[\"T03\",\"T07\"]",
+        "[\"T12\",\"T13\"]": "[\"T05\",\"T10\"]",
+        "[\"T12\",\"T14\"]": "[\"T00\",\"T09\"]"
+      },
+      "20261023": {
+        "[\"T00\",\"T01\"]": "[\"T08\",\"T14\"]",
+        "[\"T00\",\"T02\"]": "[\"T04\",\"T05\"]",
+        "[\"T00\",\"T03\"]": "[\"T00\",\"T05\"]",
+        "[\"T00\",\"T04\"]": "[\"T02\",\"T06\"]",
+        "[\"T00\",\"T05\"]": "[\"T09\",\"T12\"]",
+        "[\"T00\",\"T07\"]": "[\"T01\",\"T10\"]",
+        "[\"T00\",\"T09\"]": "[\"T12\",\"T14\"]",
+        "[\"T00\",\"T12\"]": "[\"T00\",\"T09\"]",
+        "[\"T00\",\"T13\"]": "[\"T00\",\"T13\"]",
+        "[\"T01\",\"T05\"]": "[\"T02\",\"T09\"]",
+        "[\"T01\",\"T06\"]": "[\"T04\",\"T07\"]",
+        "[\"T01\",\"T07\"]": "[\"T12\",\"T13\"]",
+        "[\"T01\",\"T09\"]": "[\"T09\",\"T11\"]",
+        "[\"T01\",\"T10\"]": "[\"T01\",\"T09\"]",
+        "[\"T01\",\"T11\"]": "[\"T05\",\"T10\"]",
+        "[\"T01\",\"T12\"]": "[\"T03\",\"T07\"]",
+        "[\"T01\",\"T14\"]": "[\"T03\",\"T08\"]",
+        "[\"T02\",\"T04\"]": "[\"T07\",\"T12\"]",
+        "[\"T02\",\"T06\"]": "[\"T01\",\"T14\"]",
+        "[\"T02\",\"T08\"]": "[\"T01\",\"T12\"]",
+        "[\"T02\",\"T09\"]": "[\"T11\",\"T14\"]",
+        "[\"T02\",\"T10\"]": "[\"T02\",\"T14\"]",
+        "[\"T02\",\"T11\"]": "[\"T07\",\"T10\"]",
+        "[\"T02\",\"T12\"]": "[\"T04\",\"T08\"]",
+        "[\"T02\",\"T13\"]": "[\"T02\",\"T08\"]",
+        "[\"T02\",\"T14\"]": "[\"T03\",\"T13\"]",
+        "[\"T03\",\"T04\"]": "[\"T02\",\"T12\"]",
+        "[\"T03\",\"T05\"]": "[\"T00\",\"T02\"]",
+        "[\"T03\",\"T06\"]": "[\"T03\",\"T06\"]",
+        "[\"T03\",\"T07\"]": "[\"T02\",\"T04\"]",
+        "[\"T03\",\"T08\"]": "[\"T08\",\"T10\"]",
+        "[\"T03\",\"T12\"]": "[\"T00\",\"T07\"]",
+        "[\"T03\",\"T13\"]": "[\"T01\",\"T06\"]",
+        "[\"T04\",\"T05\"]": "[\"T05\",\"T06\"]",
+        "[\"T04\",\"T06\"]": "[\"T04\",\"T14\"]",
+        "[\"T04\",\"T07\"]": "[\"T08\",\"T12\"]",
+        "[\"T04\",\"T08\"]": "[\"T06\",\"T12\"]",
+        "[\"T04\",\"T09\"]": "[\"T00\",\"T04\"]",
+        "[\"T04\",\"T10\"]": "[\"T03\",\"T05\"]",
+        "[\"T04\",\"T11\"]": "[\"T04\",\"T09\"]",
+        "[\"T04\",\"T14\"]": "[\"T03\",\"T04\"]",
+        "[\"T05\",\"T06\"]": "[\"T05\",\"T14\"]",
+        "[\"T05\",\"T10\"]": "[\"T01\",\"T07\"]",
+        "[\"T05\",\"T11\"]": "[\"T10\",\"T13\"]",
+        "[\"T05\",\"T13\"]": "[\"T10\",\"T11\"]",
+        "[\"T05\",\"T14\"]": "[\"T02\",\"T10\"]",
+        "[\"T06\",\"T07\"]": "[\"T06\",\"T09\"]",
+        "[\"T06\",\"T08\"]": "[\"T05\",\"T11\"]",
+        "[\"T06\",\"T09\"]": "[\"T06\",\"T10\"]",
+        "[\"T06\",\"T10\"]": "[\"T03\",\"T12\"]",
+        "[\"T06\",\"T12\"]": "[\"T11\",\"T12\"]",
+        "[\"T07\",\"T10\"]": "[\"T02\",\"T13\"]",
+        "[\"T07\",\"T12\"]": "[\"T01\",\"T05\"]",
+        "[\"T07\",\"T13\"]": "[\"T06\",\"T08\"]",
+        "[\"T07\",\"T14\"]": "[\"T04\",\"T11\"]",
+        "[\"T08\",\"T10\"]": "[\"T07\",\"T13\"]",
+        "[\"T08\",\"T11\"]": "[\"T08\",\"T13\"]",
+        "[\"T08\",\"T12\"]": "[\"T04\",\"T06\"]",
+        "[\"T08\",\"T13\"]": "[\"T00\",\"T12\"]",
+        "[\"T08\",\"T14\"]": "[\"T06\",\"T07\"]",
+        "[\"T09\",\"T11\"]": "[\"T00\",\"T03\"]",
+        "[\"T09\",\"T12\"]": "[\"T07\",\"T14\"]",
+        "[\"T09\",\"T13\"]": "[\"T05\",\"T13\"]",
+        "[\"T09\",\"T14\"]": "[\"T04\",\"T10\"]",
+        "[\"T10\",\"T11\"]": "[\"T01\",\"T11\"]",
+        "[\"T10\",\"T13\"]": "[\"T00\",\"T01\"]",
+        "[\"T11\",\"T12\"]": "[\"T09\",\"T13\"]",
+        "[\"T11\",\"T14\"]": "[\"T08\",\"T11\"]",
+        "[\"T12\",\"T13\"]": "[\"T02\",\"T11\"]",
+        "[\"T12\",\"T14\"]": "[\"T09\",\"T14\"]"
+      }
+    },
+    "target_outcomes_accessed": false
+  },
+  {
+    "base_attempts": [
+      {
+        "config": {
+          "alpha": 1,
+          "id": "additive",
+          "kind": "additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "shared_offset-0.1",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-1.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "shared_offset-10.0",
+          "kind": "shared_offset",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "global-0.1",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "global-1.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "global-10.0",
+          "kind": "global",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "single_sum-0.1",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-1.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "single_sum-10.0",
+          "kind": "single_sum",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "bandwidth": 1.0,
+          "id": "component_additive-0.1",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 1.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-1.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10.0,
+          "bandwidth": 1.0,
+          "id": "component_additive-10.0",
+          "kind": "component_additive",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "id": "null",
+          "kind": "no_change",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 4.185169278122291
+      },
+      {
+        "config": {
+          "id": "response-mean",
+          "kind": "response_mean",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 3.7988201899560696
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "affine-0.1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 3.951646005581176e-32
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "affine-1",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "affine-10",
+          "kind": "affine",
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.0
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-4-0.1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 1.1957592790889014e-06
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-4-1",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.00011756867332110593
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-4-10",
+          "kind": "sum_pca",
+          "rank": 4,
+          "role": "reference"
+        },
+        "failure": null,
+        "mse": 0.010027132751236286
+      },
+      {
+        "config": {
+          "alpha": 0.1,
+          "id": "sum-pca-8-0.1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      },
+      {
+        "config": {
+          "alpha": 1,
+          "id": "sum-pca-8-1",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      },
+      {
+        "config": {
+          "alpha": 10,
+          "id": "sum-pca-8-10",
+          "kind": "sum_pca",
+          "rank": 8,
+          "role": "reference"
+        },
+        "failure": "Input PCA rank 8 requires numerical rank 8; available 4",
+        "mse": null
+      }
+    ],
+    "direction": "TNFA-_to_TNFA+",
+    "fold": 2,
+    "reference_attempts": [
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "no_change",
+        "mse": 4.105338827736339
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "additive",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "frozen_base",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_offset",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      {
+        "alpha": 1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      {
+        "alpha": 10,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      }
+    ],
+    "selected_references": {
+      "additive": {
+        "alpha": 1,
+        "failure": null,
+        "family": "additive",
+        "mse": 0.0
+      },
+      "bridge_affine": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_affine",
+        "mse": 0.0
+      },
+      "bridge_incidence": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "bridge_incidence",
+        "mse": 0.0
+      },
+      "bridge_offset": {
+        "alpha": 1,
+        "failure": null,
+        "family": "bridge_offset",
+        "mse": 0.0
+      },
+      "frozen_base": {
+        "alpha": 1,
+        "failure": null,
+        "family": "frozen_base",
+        "mse": 0.0
+      },
+      "no_change": {
+        "alpha": 1,
+        "failure": null,
+        "family": "no_change",
+        "mse": 4.105338827736339
+      },
+      "pooled_profile_kernel": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "pooled_profile_kernel",
+        "mse": 0.0
+      },
+      "source_kernel_posterior": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "source_kernel_posterior",
+        "mse": 0.0
+      },
+      "target_profile_kernel": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_kernel",
+        "mse": 0.0
+      },
+      "target_profile_ridge": {
+        "alpha": 0.1,
+        "failure": null,
+        "family": "target_profile_ridge",
+        "mse": 0.0
+      }
+    },
+    "selector": {
+      "alpha": 1,
+      "failure": null,
+      "family": "additive",
+      "mse": 0.0
+    },
+    "source_attempts": [],
+    "source_checkpoint": {
+      "array_assets": {},
+      "path": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_frontier_bridge_v1\\verification-20261012-final-a2\\synthetic-null\\source-6",
+      "state_sha256": "cf5d89ca2bd46f1327210ffd831e9235a239ceab8cc76872856090eae70107c8"
+    },
+    "source_failure": "No supported source penalty fit",
+    "source_label_ids": [
+      "[\"T00\",\"T01\"]",
+      "[\"T00\",\"T02\"]",
+      "[\"T00\",\"T03\"]",
+      "[\"T00\",\"T05\"]",
+      "[\"T00\",\"T06\"]",
+      "[\"T00\",\"T08\"]",
+      "[\"T00\",\"T09\"]",
+      "[\"T00\",\"T10\"]",
+      "[\"T00\",\"T11\"]",
+      "[\"T00\",\"T14\"]",
+      "[\"T01\",\"T02\"]",
+      "[\"T01\",\"T03\"]",
+      "[\"T01\",\"T04\"]",
+      "[\"T01\",\"T05\"]",
+      "[\"T01\",\"T07\"]",
+      "[\"T01\",\"T08\"]",
+      "[\"T01\",\"T10\"]",
+      "[\"T01\",\"T11\"]",
+      "[\"T01\",\"T13\"]",
+      "[\"T01\",\"T14\"]",
+      "[\"T02\",\"T03\"]",
+      "[\"T02\",\"T05\"]",
+      "[\"T02\",\"T07\"]",
+      "[\"T02\",\"T12\"]",
+      "[\"T02\",\"T13\"]",
+      "[\"T03\",\"T07\"]",
+      "[\"T03\",\"T08\"]",
+      "[\"T03\",\"T09\"]",
+      "[\"T03\",\"T10\"]",
+      "[\"T03\",\"T11\"]",
+      "[\"T03\",\"T13\"]",
+      "[\"T03\",\"T14\"]",
+      "[\"T04\",\"T06\"]",
+      "[\"T04\",\"T07\"]",
+      "[\"T04\",\"T08\"]",
+      "[\"T04\",\"T11\"]",
+      "[\"T04\",\"T12\"]",
+      "[\"T04\",\"T13\"]",
+      "[\"T04\",\"T14\"]",
+      "[\"T05\",\"T06\"]",
+      "[\"T05\",\"T07\"]",
+      "[\"T05\",\"T08\"]",
+      "[\"T05\",\"T09\"]",
+      "[\"T05\",\"T12\"]",
+      "[\"T05\",\"T14\"]",
+      "[\"T06\",\"T09\"]",
+      "[\"T06\",\"T10\"]",
+      "[\"T06\",\"T11\"]",
+      "[\"T06\",\"T12\"]",
+      "[\"T06\",\"T13\"]",
+      "[\"T06\",\"T14\"]",
+      "[\"T07\",\"T08\"]",
+      "[\"T07\",\"T09\"]",
+      "[\"T07\",\"T10\"]",
+      "[\"T07\",\"T11\"]",
+      "[\"T07\",\"T12\"]",
+      "[\"T08\",\"T09\"]",
+      "[\"T08\",\"T10\"]",
+      "[\"T08\",\"T12\"]",
+      "[\"T08\",\"T13\"]",
+      "[\"T09\",\"T10\"]",
+      "[\"T09\",\"T12\"]",
+      "[\"T09\",\"T13\"]",
+      "[\"T10\",\"T11\"]",
+      "[\"T10\",\"T12\"]",
+      "[\"T10\",\"T14\"]",
+      "[\"T11\",\"T13\"]",
+      "[\"T11\",\"T14\"]",
+      "[\"T12\",\"T13\"]",
+      "[\"T13\",\"T14\"]"
+    ],
+    "source_shuffle_mappings": {
+      "20261021": {
+        "[\"T00\",\"T01\"]": "[\"T00\",\"T02\"]",
+        "[\"T00\",\"T02\"]": "[\"T03\",\"T10\"]",
+        "[\"T00\",\"T03\"]": "[\"T09\",\"T10\"]",
+        "[\"T00\",\"T05\"]": "[\"T13\",\"T14\"]",
+        "[\"T00\",\"T06\"]": "[\"T11\",\"T14\"]",
+        "[\"T00\",\"T08\"]": "[\"T05\",\"T09\"]",
+        "[\"T00\",\"T09\"]": "[\"T09\",\"T13\"]",
+        "[\"T00\",\"T10\"]": "[\"T06\",\"T09\"]",
+        "[\"T00\",\"T11\"]": "[\"T04\",\"T07\"]",
+        "[\"T00\",\"T14\"]": "[\"T08\",\"T09\"]",
+        "[\"T01\",\"T02\"]": "[\"T01\",\"T05\"]",
+        "[\"T01\",\"T03\"]": "[\"T07\",\"T12\"]",
+        "[\"T01\",\"T04\"]": "[\"T07\",\"T10\"]",
+        "[\"T01\",\"T05\"]": "[\"T05\",\"T06\"]",
+        "[\"T01\",\"T07\"]": "[\"T00\",\"T14\"]",
+        "[\"T01\",\"T08\"]": "[\"T04\",\"T11\"]",
+        "[\"T01\",\"T10\"]": "[\"T07\",\"T09\"]",
+        "[\"T01\",\"T11\"]": "[\"T07\",\"T11\"]",
+        "[\"T01\",\"T13\"]": "[\"T04\",\"T12\"]",
+        "[\"T01\",\"T14\"]": "[\"T06\",\"T10\"]",
+        "[\"T02\",\"T03\"]": "[\"T01\",\"T11\"]",
+        "[\"T02\",\"T05\"]": "[\"T01\",\"T10\"]",
+        "[\"T02\",\"T07\"]": "[\"T00\",\"T05\"]",
+        "[\"T02\",\"T12\"]": "[\"T00\",\"T09\"]",
+        "[\"T02\",\"T13\"]": "[\"T10\",\"T11\"]",
+        "[\"T03\",\"T07\"]": "[\"T03\",\"T11\"]",
+        "[\"T03\",\"T08\"]": "[\"T02\",\"T07\"]",
+        "[\"T03\",\"T09\"]": "[\"T02\",\"T12\"]",
+        "[\"T03\",\"T10\"]": "[\"T01\",\"T02\"]",
+        "[\"T03\",\"T11\"]": "[\"T04\",\"T14\"]",
+        "[\"T03\",\"T13\"]": "[\"T04\",\"T06\"]",
+        "[\"T03\",\"T14\"]": "[\"T05\",\"T07\"]",
+        "[\"T04\",\"T06\"]": "[\"T07\",\"T08\"]",
+        "[\"T04\",\"T07\"]": "[\"T05\",\"T14\"]",
+        "[\"T04\",\"T08\"]": "[\"T00\",\"T10\"]",
+        "[\"T04\",\"T11\"]": "[\"T03\",\"T14\"]",
+        "[\"T04\",\"T12\"]": "[\"T01\",\"T04\"]",
+        "[\"T04\",\"T13\"]": "[\"T04\",\"T08\"]",
+        "[\"T04\",\"T14\"]": "[\"T05\",\"T12\"]",
+        "[\"T05\",\"T06\"]": "[\"T01\",\"T13\"]",
+        "[\"T05\",\"T07\"]": "[\"T01\",\"T07\"]",
+        "[\"T05\",\"T08\"]": "[\"T03\",\"T09\"]",
+        "[\"T05\",\"T09\"]": "[\"T00\",\"T01\"]",
+        "[\"T05\",\"T12\"]": "[\"T08\",\"T13\"]",
+        "[\"T05\",\"T14\"]": "[\"T02\",\"T13\"]",
+        "[\"T06\",\"T09\"]": "[\"T11\",\"T13\"]",
+        "[\"T06\",\"T10\"]": "[\"T06\",\"T14\"]",
+        "[\"T06\",\"T11\"]": "[\"T00\",\"T08\"]",
+        "[\"T06\",\"T12\"]": "[\"T00\",\"T03\"]",
+        "[\"T06\",\"T13\"]": "[\"T03\",\"T08\"]",
+        "[\"T06\",\"T14\"]": "[\"T05\",\"T08\"]",
+        "[\"T07\",\"T08\"]": "[\"T01\",\"T14\"]",
+        "[\"T07\",\"T09\"]": "[\"T09\",\"T12\"]",
+        "[\"T07\",\"T10\"]": "[\"T10\",\"T12\"]",
+        "[\"T07\",\"T11\"]": "[\"T02\",\"T05\"]",
+        "[\"T07\",\"T12\"]": "[\"T01\",\"T08\"]",
+        "[\"T08\",\"T09\"]": "[\"T03\",\"T07\"]",
+        "[\"T08\",\"T10\"]": "[\"T10\",\"T14\"]",
+        "[\"T08\",\"T12\"]": "[\"T02\",\"T03\"]",
+        "[\"T08\",\"T13\"]": "[\"T06\",\"T11\"]",
+        "[\"T09\",\"T10\"]": "[\"T01\",\"T03\"]",
+        "[\"T09\",\"T12\"]": "[\"T06\",\"T13\"]",
+        "[\"T09\",\"T13\"]": "[\"T08\",\"T12\"]",
+        "[\"T10\",\"T11\"]": "[\"T06\",\"T12\"]",
+        "[\"T10\",\"T12\"]": "[\"T08\",\"T10\"]",
+        "[\"T10\",\"T14\"]": "[\"T03\",\"T13\"]",
+        "[\"T11\",\"T13\"]": "[\"T00\",\"T11\"]",
+        "[\"T11\",\"T14\"]": "[\"T04\",\"T13\"]",
+        "[\"T12\",\"T13\"]": "[\"T00\",\"T06\"]",
+        "[\"T13\",\"T14\"]": "[\"T12\",\"T13\"]"
+      },
+      "20261022": {
+        "[\"T00\",\"T01\"]": "[\"T06\",\"T13\"]",
+        "[\"T00\",\"T02\"]": "[\"T07\",\"T08\"]",
+        "[\"T00\",\"T03\"]": "[\"T05\",\"T07\"]",
+        "[\"T00\",\"T05\"]": "[\"T00\",\"T03\"]",
+        "[\"T00\",\"T06\"]": "[\"T01\",\"T14\"]",
+        "[\"T00\",\"T08\"]": "[\"T06\",\"T12\"]",
+        "[\"T00\",\"T09\"]": "[\"T03\",\"T07\"]",
+        "[\"T00\",\"T10\"]": "[\"T03\",\"T13\"]",
+        "[\"T00\",\"T11\"]": "[\"T11\",\"T14\"]",
+        "[\"T00\",\"T14\"]": "[\"T00\",\"T02\"]",
+        "[\"T01\",\"T02\"]": "[\"T01\",\"T07\"]",
+        "[\"T01\",\"T03\"]": "[\"T11\",\"T13\"]",
+        "[\"T01\",\"T04\"]": "[\"T02\",\"T13\"]",
+        "[\"T01\",\"T05\"]": "[\"T01\",\"T08\"]",
+        "[\"T01\",\"T07\"]": "[\"T09\",\"T13\"]",
+        "[\"T01\",\"T08\"]": "[\"T00\",\"T05\"]",
+        "[\"T01\",\"T10\"]": "[\"T06\",\"T14\"]",
+        "[\"T01\",\"T11\"]": "[\"T01\",\"T10\"]",
+        "[\"T01\",\"T13\"]": "[\"T04\",\"T14\"]",
+        "[\"T01\",\"T14\"]": "[\"T07\",\"T10\"]",
+        "[\"T02\",\"T03\"]": "[\"T00\",\"T08\"]",
+        "[\"T02\",\"T05\"]": "[\"T04\",\"T13\"]",
+        "[\"T02\",\"T07\"]": "[\"T09\",\"T12\"]",
+        "[\"T02\",\"T12\"]": "[\"T00\",\"T11\"]",
+        "[\"T02\",\"T13\"]": "[\"T03\",\"T08\"]",
+        "[\"T03\",\"T07\"]": "[\"T04\",\"T11\"]",
+        "[\"T03\",\"T08\"]": "[\"T08\",\"T12\"]",
+        "[\"T03\",\"T09\"]": "[\"T07\",\"T09\"]",
+        "[\"T03\",\"T10\"]": "[\"T04\",\"T12\"]",
+        "[\"T03\",\"T11\"]": "[\"T03\",\"T10\"]",
+        "[\"T03\",\"T13\"]": "[\"T05\",\"T06\"]",
+        "[\"T03\",\"T14\"]": "[\"T05\",\"T12\"]",
+        "[\"T04\",\"T06\"]": "[\"T00\",\"T10\"]",
+        "[\"T04\",\"T07\"]": "[\"T09\",\"T10\"]",
+        "[\"T04\",\"T08\"]": "[\"T04\",\"T07\"]",
+        "[\"T04\",\"T11\"]": "[\"T10\",\"T14\"]",
+        "[\"T04\",\"T12\"]": "[\"T07\",\"T11\"]",
+        "[\"T04\",\"T13\"]": "[\"T02\",\"T05\"]",
+        "[\"T04\",\"T14\"]": "[\"T02\",\"T07\"]",
+        "[\"T05\",\"T06\"]": "[\"T02\",\"T03\"]",
+        "[\"T05\",\"T07\"]": "[\"T08\",\"T10\"]",
+        "[\"T05\",\"T08\"]": "[\"T02\",\"T12\"]",
+        "[\"T05\",\"T09\"]": "[\"T01\",\"T05\"]",
+        "[\"T05\",\"T12\"]": "[\"T01\",\"T02\"]",
+        "[\"T05\",\"T14\"]": "[\"T08\",\"T13\"]",
+        "[\"T06\",\"T09\"]": "[\"T05\",\"T14\"]",
+        "[\"T06\",\"T10\"]": "[\"T12\",\"T13\"]",
+        "[\"T06\",\"T11\"]": "[\"T08\",\"T09\"]",
+        "[\"T06\",\"T12\"]": "[\"T00\",\"T01\"]",
+        "[\"T06\",\"T13\"]": "[\"T06\",\"T11\"]",
+        "[\"T06\",\"T14\"]": "[\"T01\",\"T03\"]",
+        "[\"T07\",\"T08\"]": "[\"T03\",\"T09\"]",
+        "[\"T07\",\"T09\"]": "[\"T10\",\"T11\"]",
+        "[\"T07\",\"T10\"]": "[\"T01\",\"T13\"]",
+        "[\"T07\",\"T11\"]": "[\"T06\",\"T10\"]",
+        "[\"T07\",\"T12\"]": "[\"T05\",\"T08\"]",
+        "[\"T08\",\"T09\"]": "[\"T07\",\"T12\"]",
+        "[\"T08\",\"T10\"]": "[\"T01\",\"T04\"]",
+        "[\"T08\",\"T12\"]": "[\"T04\",\"T06\"]",
+        "[\"T08\",\"T13\"]": "[\"T10\",\"T12\"]",
+        "[\"T09\",\"T10\"]": "[\"T00\",\"T14\"]",
+        "[\"T09\",\"T12\"]": "[\"T13\",\"T14\"]",
+        "[\"T09\",\"T13\"]": "[\"T00\",\"T06\"]",
+        "[\"T10\",\"T11\"]": "[\"T06\",\"T09\"]",
+        "[\"T10\",\"T12\"]": "[\"T01\",\"T11\"]",
+        "[\"T10\",\"T14\"]": "[\"T03\",\"T14\"]",
+        "[\"T11\",\"T13\"]": "[\"T04\",\"T08\"]",
+        "[\"T11\",\"T14\"]": "[\"T03\",\"T11\"]",
+        "[\"T12\",\"T13\"]": "[\"T05\",\"T09\"]",
+        "[\"T13\",\"T14\"]": "[\"T00\",\"T09\"]"
+      },
+      "20261023": {
+        "[\"T00\",\"T01\"]": "[\"T08\",\"T13\"]",
+        "[\"T00\",\"T02\"]": "[\"T04\",\"T07\"]",
+        "[\"T00\",\"T03\"]": "[\"T00\",\"T06\"]",
+        "[\"T00\",\"T05\"]": "[\"T01\",\"T13\"]",
+        "[\"T00\",\"T06\"]": "[\"T09\",\"T12\"]",
+        "[\"T00\",\"T08\"]": "[\"T01\",\"T05\"]",
+        "[\"T00\",\"T09\"]": "[\"T13\",\"T14\"]",
+        "[\"T00\",\"T10\"]": "[\"T00\",\"T09\"]",
+        "[\"T00\",\"T11\"]": "[\"T00\",\"T11\"]",
+        "[\"T00\",\"T14\"]": "[\"T02\",\"T03\"]",
+        "[\"T01\",\"T02\"]": "[\"T04\",\"T11\"]",
+        "[\"T01\",\"T03\"]": "[\"T12\",\"T13\"]",
+        "[\"T01\",\"T04\"]": "[\"T09\",\"T10\"]",
+        "[\"T01\",\"T05\"]": "[\"T01\",\"T04\"]",
+        "[\"T01\",\"T07\"]": "[\"T05\",\"T09\"]",
+        "[\"T01\",\"T08\"]": "[\"T03\",\"T11\"]",
+        "[\"T01\",\"T10\"]": "[\"T03\",\"T13\"]",
+        "[\"T01\",\"T11\"]": "[\"T07\",\"T09\"]",
+        "[\"T01\",\"T13\"]": "[\"T01\",\"T10\"]",
+        "[\"T01\",\"T14\"]": "[\"T01\",\"T08\"]",
+        "[\"T02\",\"T03\"]": "[\"T11\",\"T14\"]",
+        "[\"T02\",\"T05\"]": "[\"T03\",\"T07\"]",
+        "[\"T02\",\"T07\"]": "[\"T07\",\"T08\"]",
+        "[\"T02\",\"T12\"]": "[\"T04\",\"T12\"]",
+        "[\"T02\",\"T13\"]": "[\"T01\",\"T14\"]",
+        "[\"T03\",\"T07\"]": "[\"T04\",\"T06\"]",
+        "[\"T03\",\"T08\"]": "[\"T02\",\"T12\"]",
+        "[\"T03\",\"T09\"]": "[\"T00\",\"T02\"]",
+        "[\"T03\",\"T10\"]": "[\"T03\",\"T10\"]",
+        "[\"T03\",\"T11\"]": "[\"T01\",\"T11\"]",
+        "[\"T03\",\"T13\"]": "[\"T07\",\"T12\"]",
+        "[\"T03\",\"T14\"]": "[\"T00\",\"T08\"]",
+        "[\"T04\",\"T06\"]": "[\"T01\",\"T02\"]",
+        "[\"T04\",\"T07\"]": "[\"T05\",\"T08\"]",
+        "[\"T04\",\"T08\"]": "[\"T05\",\"T07\"]",
+        "[\"T04\",\"T11\"]": "[\"T08\",\"T10\"]",
+        "[\"T04\",\"T12\"]": "[\"T06\",\"T14\"]",
+        "[\"T04\",\"T13\"]": "[\"T00\",\"T05\"]",
+        "[\"T04\",\"T14\"]": "[\"T03\",\"T09\"]",
+        "[\"T05\",\"T06\"]": "[\"T04\",\"T13\"]",
+        "[\"T05\",\"T07\"]": "[\"T03\",\"T08\"]",
+        "[\"T05\",\"T08\"]": "[\"T06\",\"T09\"]",
+        "[\"T05\",\"T09\"]": "[\"T01\",\"T03\"]",
+        "[\"T05\",\"T12\"]": "[\"T10\",\"T14\"]",
+        "[\"T05\",\"T14\"]": "[\"T10\",\"T12\"]",
+        "[\"T06\",\"T09\"]": "[\"T02\",\"T05\"]",
+        "[\"T06\",\"T10\"]": "[\"T06\",\"T12\"]",
+        "[\"T06\",\"T11\"]": "[\"T05\",\"T12\"]",
+        "[\"T06\",\"T12\"]": "[\"T06\",\"T13\"]",
+        "[\"T06\",\"T13\"]": "[\"T03\",\"T14\"]",
+        "[\"T06\",\"T14\"]": "[\"T11\",\"T13\"]",
+        "[\"T07\",\"T08\"]": "[\"T02\",\"T13\"]",
+        "[\"T07\",\"T09\"]": "[\"T00\",\"T14\"]",
+        "[\"T07\",\"T10\"]": "[\"T06\",\"T11\"]",
+        "[\"T07\",\"T11\"]": "[\"T05\",\"T06\"]",
+        "[\"T07\",\"T12\"]": "[\"T07\",\"T10\"]",
+        "[\"T08\",\"T09\"]": "[\"T08\",\"T12\"]",
+        "[\"T08\",\"T10\"]": "[\"T04\",\"T08\"]",
+        "[\"T08\",\"T12\"]": "[\"T00\",\"T10\"]",
+        "[\"T08\",\"T13\"]": "[\"T06\",\"T10\"]",
+        "[\"T09\",\"T10\"]": "[\"T00\",\"T03\"]",
+        "[\"T09\",\"T12\"]": "[\"T07\",\"T11\"]",
+        "[\"T09\",\"T13\"]": "[\"T05\",\"T14\"]",
+        "[\"T10\",\"T11\"]": "[\"T04\",\"T14\"]",
+        "[\"T10\",\"T12\"]": "[\"T01\",\"T07\"]",
+        "[\"T10\",\"T14\"]": "[\"T00\",\"T01\"]",
+        "[\"T11\",\"T13\"]": "[\"T09\",\"T13\"]",
+        "[\"T11\",\"T14\"]": "[\"T08\",\"T09\"]",
+        "[\"T12\",\"T13\"]": "[\"T02\",\"T07\"]",
+        "[\"T13\",\"T14\"]": "[\"T10\",\"T11\"]"
+      }
+    },
+    "target_outcomes_accessed": false
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "status": "interrupted_by_correctness_review",
+  "reason": "Preparation canonicalization and readiness validation must be fixed before complete verification",
+  "terminated_processes": [
+    {
+      "pid": 48388,
+      "cpu_seconds": 45.140625,
+      "name": "python.exe"
+    },
+    {
+      "pid": 10296,
+      "cpu_seconds": 0.0,
+      "name": "python.exe"
+    },
+    {
+      "pid": 21196,
+      "cpu_seconds": 191.34375,
+      "name": "python.exe"
+    },
+    {
+      "pid": 27292,
+      "cpu_seconds": 0.015625,
+      "name": "python.exe"
+    }
+  ],
+  "observed_live_process_cpu_seconds": 236.5,
+  "cpu_accounting_complete": false,
+  "termination_scope": "entire verified suite process tree; wrapper final receipts may be absent"
+}

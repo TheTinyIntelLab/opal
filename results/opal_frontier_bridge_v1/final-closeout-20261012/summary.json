@@ -1,0 +1,1832 @@
+{
+  "cases": {
+    "affine": {
+      "configuration_hash": "ca0832ba0f09201388461901cd85d93c4cbbbe949d56f498e99f0093eb51699d",
+      "decision": {
+        "adaptation_supported": false,
+        "development_gate_passed": false,
+        "engineering_complete": true,
+        "frontier_claim": false,
+        "independent_biological_confirmation": false,
+        "next_action": "retain engineering evidence; public source qualification/independent measurement required",
+        "reason": "synthetic engineering cannot pass biological or public development gates",
+        "source_qualified_for_public_prototype": false,
+        "synthetic_gate_checks": {
+          "TNFA+_to_TNFA-": false,
+          "TNFA-_to_TNFA+": false
+        },
+        "unknown_measurements": [
+          "independent-reference attribution",
+          "procedure uncertainty",
+          "biological useful margin",
+          "historical complete CPU",
+          "GPU seconds"
+        ]
+      },
+      "direction_gates": {
+        "TNFA+_to_TNFA-": {
+          "checks": {
+            "adaptation_supported": false,
+            "control_fits_supported": false,
+            "controls_beaten": false,
+            "mse_lower_positive": true,
+            "relative_gain": true,
+            "retrieval_lower_positive": false,
+            "retrieval_point_positive": false,
+            "retrieval_qualified": true
+          },
+          "passed": false
+        },
+        "TNFA-_to_TNFA+": {
+          "checks": {
+            "adaptation_supported": false,
+            "control_fits_supported": false,
+            "controls_beaten": false,
+            "mse_lower_positive": true,
+            "relative_gain": true,
+            "retrieval_lower_positive": false,
+            "retrieval_point_positive": false,
+            "retrieval_qualified": true
+          },
+          "passed": false
+        }
+      },
+      "fallback": {
+        "TNFA+_to_TNFA-": {
+          "bridge_shuffle_20261021": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261022": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261023": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "candidate": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          },
+          "mean_feature": {
+            "fallback_fraction": 0.0,
+            "fallback_rows": 0,
+            "query_pair_stratum_rows": 105
+          },
+          "source_free": {
+            "fallback_fraction": 0.0,
+            "fallback_rows": 0,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261021": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261022": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261023": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          }
+        },
+        "TNFA-_to_TNFA+": {
+          "bridge_shuffle_20261021": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261022": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261023": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "candidate": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "mean_feature": {
+            "fallback_fraction": 0.0,
+            "fallback_rows": 0,
+            "query_pair_stratum_rows": 105
+          },
+          "source_free": {
+            "fallback_fraction": 0.0,
+            "fallback_rows": 0,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261021": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261022": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261023": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          }
+        }
+      },
+      "metrics_sha256": "e71429d8c16928988abbd695ad4fde153c4d8844d448a4ae3d7fa1cdda09fdc3",
+      "output": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_frontier_bridge_v1\\verification-20261012-final-a2\\synthetic-affine",
+      "primary_mse": {
+        "TNFA+_to_TNFA-": {
+          "additive": 0.4000433140742561,
+          "bridge_affine": 0.0006083139386264308,
+          "bridge_incidence": 0.2755242885362649,
+          "bridge_offset": 0.3138499033242941,
+          "bridge_shuffle_20261021": 0.025602267634123627,
+          "bridge_shuffle_20261022": 0.02560604642969932,
+          "bridge_shuffle_20261023": 0.02559515130376856,
+          "candidate": 0.0511058469465943,
+          "frozen_base": 0.07660163218276186,
+          "mean_feature": 7.34123765475648e-05,
+          "no_change": 1.8911341823730887,
+          "pooled_profile_kernel": 0.08469043066934073,
+          "selector": 0.07660163218276186,
+          "source_free": 0.31374753442264336,
+          "source_kernel_posterior": 0.013116809004696552,
+          "source_shuffle_20261021": 0.05111587906851323,
+          "source_shuffle_20261022": 0.07660163218276186,
+          "source_shuffle_20261023": 0.0510896244438374,
+          "target_profile_kernel": 0.11307697833281298,
+          "target_profile_ridge": 0.05277493053224802,
+          "zero_bridge": 0.0766277521163534
+        },
+        "TNFA-_to_TNFA+": {
+          "additive": 0.5745870849564817,
+          "bridge_affine": 0.0004021250933772943,
+          "bridge_incidence": 0.430506700837914,
+          "bridge_offset": 0.4903904739442094,
+          "bridge_shuffle_20261021": 0.02579760750184431,
+          "bridge_shuffle_20261022": 0.025850672276391734,
+          "bridge_shuffle_20261023": 0.02584572210378904,
+          "candidate": 0.025847637651001853,
+          "frozen_base": 0.076604887603484,
+          "mean_feature": 0.0002015688254317915,
+          "no_change": 2.9885277743265988,
+          "pooled_profile_kernel": 0.11226890801215607,
+          "selector": 0.076604887603484,
+          "source_free": 0.4900351671051043,
+          "source_kernel_posterior": 0.028850453009050068,
+          "source_shuffle_20261021": 0.02586959164316714,
+          "source_shuffle_20261022": 0.076604887603484,
+          "source_shuffle_20261023": 0.076604887603484,
+          "target_profile_kernel": 0.1764892135218579,
+          "target_profile_ridge": 0.08246082895663708,
+          "zero_bridge": 0.07687634885224469
+        }
+      },
+      "replay": {
+        "changed_code": {},
+        "checkpoints": 126,
+        "compatible_code_verification": false,
+        "evaluator_expression_reopened": false,
+        "exact_frozen_code": true,
+        "max_absolute_error": 0.0,
+        "run_manifest_sha256": "ac482a88d3f3c30affc40e4055da865ab0699471a73846d82911ad83e1727d95",
+        "separate_process": true,
+        "status": "passed",
+        "tolerance": 1e-10
+      },
+      "scientific_configuration_hash": "ecaf411cf3fd8c4f83237a5d564b2ba963a74b919d7f07d642a247fb37fdad0c"
+    },
+    "nontransfer": {
+      "configuration_hash": "1b5bf0b16b261d5de8cf2ee2d2726c79b2cb8f435db2273e2cdd44f40329be2d",
+      "decision": {
+        "adaptation_supported": false,
+        "development_gate_passed": false,
+        "engineering_complete": true,
+        "frontier_claim": false,
+        "independent_biological_confirmation": false,
+        "next_action": "retain engineering evidence; public source qualification/independent measurement required",
+        "reason": "synthetic engineering cannot pass biological or public development gates",
+        "source_qualified_for_public_prototype": false,
+        "synthetic_gate_checks": {
+          "TNFA+_to_TNFA-": false,
+          "TNFA-_to_TNFA+": false
+        },
+        "unknown_measurements": [
+          "independent-reference attribution",
+          "procedure uncertainty",
+          "biological useful margin",
+          "historical complete CPU",
+          "GPU seconds"
+        ]
+      },
+      "direction_gates": {
+        "TNFA+_to_TNFA-": {
+          "checks": {
+            "adaptation_supported": false,
+            "control_fits_supported": false,
+            "controls_beaten": false,
+            "mse_lower_positive": false,
+            "relative_gain": false,
+            "retrieval_lower_positive": false,
+            "retrieval_point_positive": false,
+            "retrieval_qualified": true
+          },
+          "passed": false
+        },
+        "TNFA-_to_TNFA+": {
+          "checks": {
+            "adaptation_supported": false,
+            "control_fits_supported": false,
+            "controls_beaten": false,
+            "mse_lower_positive": false,
+            "relative_gain": false,
+            "retrieval_lower_positive": false,
+            "retrieval_point_positive": false,
+            "retrieval_qualified": true
+          },
+          "passed": false
+        }
+      },
+      "fallback": {
+        "TNFA+_to_TNFA-": {
+          "bridge_shuffle_20261021": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261022": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261023": {
+            "fallback_fraction": 0.0,
+            "fallback_rows": 0,
+            "query_pair_stratum_rows": 105
+          },
+          "candidate": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "mean_feature": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_free": {
+            "fallback_fraction": 0.0,
+            "fallback_rows": 0,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261021": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261022": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261023": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          }
+        },
+        "TNFA-_to_TNFA+": {
+          "bridge_shuffle_20261021": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261022": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261023": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "candidate": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "mean_feature": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "source_free": {
+            "fallback_fraction": 0.0,
+            "fallback_rows": 0,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261021": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261022": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261023": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          }
+        }
+      },
+      "metrics_sha256": "7e818beb610fa7bad625ade6d16506515addfd21660b3c88f4552c11c1c56ab3",
+      "output": "E:\\opal-frontier-engineering-20261012\\verification-final-a5\\synthetic-nontransfer",
+      "primary_mse": {
+        "TNFA+_to_TNFA-": {
+          "additive": 0.42715335635515544,
+          "bridge_affine": 0.4969872694365054,
+          "bridge_incidence": 0.49762591412906143,
+          "bridge_offset": 0.4969838351390886,
+          "bridge_shuffle_20261021": 0.4518347173611419,
+          "bridge_shuffle_20261022": 0.4518347173611419,
+          "bridge_shuffle_20261023": 0.497069692305581,
+          "candidate": 0.49893950003705384,
+          "frozen_base": 0.4524618656088863,
+          "mean_feature": 0.4518347173611419,
+          "no_change": 4.241718222696421,
+          "pooled_profile_kernel": 0.4518347173611419,
+          "selector": 0.4518347173611419,
+          "source_free": 0.4957589510433992,
+          "source_kernel_posterior": 0.5111382353841355,
+          "source_shuffle_20261021": 0.44981625708838047,
+          "source_shuffle_20261022": 0.4990136953692475,
+          "source_shuffle_20261023": 0.47926060161706463,
+          "target_profile_kernel": 0.5002480942529332,
+          "target_profile_ridge": 0.8052480960322742,
+          "zero_bridge": 0.5372232697869646
+        },
+        "TNFA-_to_TNFA+": {
+          "additive": 0.4271533563551552,
+          "bridge_affine": 0.49705609048553945,
+          "bridge_incidence": 0.49762591412906126,
+          "bridge_offset": 0.49698383513908834,
+          "bridge_shuffle_20261021": 0.4903954413824192,
+          "bridge_shuffle_20261022": 0.48019252549434854,
+          "bridge_shuffle_20261023": 0.49533513843694277,
+          "candidate": 0.4973444324904818,
+          "frozen_base": 0.4840332242315819,
+          "mean_feature": 0.5080219966865822,
+          "no_change": 6.391643164603424,
+          "pooled_profile_kernel": 0.48921270373588155,
+          "selector": 0.48921270373588155,
+          "source_free": 0.48948199256167446,
+          "source_kernel_posterior": 0.5580535254407925,
+          "source_shuffle_20261021": 0.4785295810012286,
+          "source_shuffle_20261022": 0.4785194141055508,
+          "source_shuffle_20261023": 0.5064333118474841,
+          "target_profile_kernel": 0.5002483525095602,
+          "target_profile_ridge": 0.8052480960322739,
+          "zero_bridge": 1.0723502441738826
+        }
+      },
+      "replay": {
+        "changed_code": {},
+        "checkpoints": 126,
+        "compatible_code_verification": false,
+        "evaluator_expression_reopened": false,
+        "exact_frozen_code": true,
+        "max_absolute_error": 0.0,
+        "run_manifest_sha256": "9c79b6badef8c18a464ef845925b5743903cc8f669ce108b91a72d07dfba9734",
+        "separate_process": true,
+        "status": "passed",
+        "tolerance": 1e-10
+      },
+      "scientific_configuration_hash": "ecaf411cf3fd8c4f83237a5d564b2ba963a74b919d7f07d642a247fb37fdad0c"
+    },
+    "null": {
+      "configuration_hash": "ca0832ba0f09201388461901cd85d93c4cbbbe949d56f498e99f0093eb51699d",
+      "decision": {
+        "adaptation_supported": false,
+        "development_gate_passed": false,
+        "engineering_complete": true,
+        "frontier_claim": false,
+        "independent_biological_confirmation": false,
+        "next_action": "retain engineering evidence; public source qualification/independent measurement required",
+        "reason": "synthetic engineering cannot pass biological or public development gates",
+        "source_qualified_for_public_prototype": false,
+        "synthetic_gate_checks": {
+          "TNFA+_to_TNFA-": false,
+          "TNFA-_to_TNFA+": false
+        },
+        "unknown_measurements": [
+          "independent-reference attribution",
+          "procedure uncertainty",
+          "biological useful margin",
+          "historical complete CPU",
+          "GPU seconds"
+        ]
+      },
+      "direction_gates": {
+        "TNFA+_to_TNFA-": {
+          "checks": {
+            "adaptation_supported": false,
+            "control_fits_supported": false,
+            "controls_beaten": false,
+            "mse_lower_positive": false,
+            "relative_gain": false,
+            "retrieval_lower_positive": false,
+            "retrieval_point_positive": false,
+            "retrieval_qualified": true
+          },
+          "passed": false
+        },
+        "TNFA-_to_TNFA+": {
+          "checks": {
+            "adaptation_supported": false,
+            "control_fits_supported": false,
+            "controls_beaten": false,
+            "mse_lower_positive": false,
+            "relative_gain": false,
+            "retrieval_lower_positive": false,
+            "retrieval_point_positive": false,
+            "retrieval_qualified": true
+          },
+          "passed": false
+        }
+      },
+      "fallback": {
+        "TNFA+_to_TNFA-": {
+          "bridge_shuffle_20261021": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261022": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261023": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "candidate": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "mean_feature": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_free": {
+            "fallback_fraction": 0.0,
+            "fallback_rows": 0,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261021": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261022": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261023": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          }
+        },
+        "TNFA-_to_TNFA+": {
+          "bridge_shuffle_20261021": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261022": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261023": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "candidate": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "mean_feature": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_free": {
+            "fallback_fraction": 0.0,
+            "fallback_rows": 0,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261021": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261022": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261023": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          }
+        }
+      },
+      "metrics_sha256": "caae743b4d35a4d460ad176a77eba8bd4bf50f03a675153f667faea8dafb1254",
+      "output": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_frontier_bridge_v1\\verification-20261012-final-a2\\synthetic-null",
+      "primary_mse": {
+        "TNFA+_to_TNFA-": {
+          "additive": 0.0,
+          "bridge_affine": 0.0,
+          "bridge_incidence": 0.0,
+          "bridge_offset": 0.0,
+          "bridge_shuffle_20261021": 0.0,
+          "bridge_shuffle_20261022": 0.0,
+          "bridge_shuffle_20261023": 0.0,
+          "candidate": 0.0,
+          "frozen_base": 0.0,
+          "mean_feature": 0.0,
+          "no_change": 3.8306508420219916,
+          "pooled_profile_kernel": 0.0,
+          "selector": 0.0,
+          "source_free": 0.0,
+          "source_kernel_posterior": 0.0,
+          "source_shuffle_20261021": 0.0,
+          "source_shuffle_20261022": 0.0,
+          "source_shuffle_20261023": 0.0,
+          "target_profile_kernel": 0.0,
+          "target_profile_ridge": 0.0,
+          "zero_bridge": 0.0
+        },
+        "TNFA-_to_TNFA+": {
+          "additive": 0.0,
+          "bridge_affine": 0.0,
+          "bridge_incidence": 0.0,
+          "bridge_offset": 0.0,
+          "bridge_shuffle_20261021": 0.0,
+          "bridge_shuffle_20261022": 0.0,
+          "bridge_shuffle_20261023": 0.0,
+          "candidate": 0.0,
+          "frozen_base": 0.0,
+          "mean_feature": 0.0,
+          "no_change": 5.985391940659362,
+          "pooled_profile_kernel": 0.0,
+          "selector": 0.0,
+          "source_free": 0.0,
+          "source_kernel_posterior": 0.0,
+          "source_shuffle_20261021": 0.0,
+          "source_shuffle_20261022": 0.0,
+          "source_shuffle_20261023": 0.0,
+          "target_profile_kernel": 0.0,
+          "target_profile_ridge": 0.0,
+          "zero_bridge": 0.0
+        }
+      },
+      "replay": {
+        "changed_code": {},
+        "checkpoints": 126,
+        "compatible_code_verification": false,
+        "evaluator_expression_reopened": false,
+        "exact_frozen_code": true,
+        "max_absolute_error": 0.0,
+        "run_manifest_sha256": "f2a9c85d70a955a1d73cf4d7ac42697f48b5186cf2396112ae6a95dca3323221",
+        "separate_process": true,
+        "status": "passed",
+        "tolerance": 1e-10
+      },
+      "scientific_configuration_hash": "ecaf411cf3fd8c4f83237a5d564b2ba963a74b919d7f07d642a247fb37fdad0c"
+    },
+    "rank_deficient": {
+      "configuration_hash": "1b5bf0b16b261d5de8cf2ee2d2726c79b2cb8f435db2273e2cdd44f40329be2d",
+      "decision": {
+        "adaptation_supported": false,
+        "development_gate_passed": false,
+        "engineering_complete": true,
+        "frontier_claim": false,
+        "independent_biological_confirmation": false,
+        "next_action": "retain engineering evidence; public source qualification/independent measurement required",
+        "reason": "synthetic engineering cannot pass biological or public development gates",
+        "source_qualified_for_public_prototype": false,
+        "synthetic_gate_checks": {
+          "TNFA+_to_TNFA-": false,
+          "TNFA-_to_TNFA+": false
+        },
+        "unknown_measurements": [
+          "independent-reference attribution",
+          "procedure uncertainty",
+          "biological useful margin",
+          "historical complete CPU",
+          "GPU seconds"
+        ]
+      },
+      "direction_gates": {
+        "TNFA+_to_TNFA-": {
+          "checks": {
+            "adaptation_supported": false,
+            "control_fits_supported": false,
+            "controls_beaten": false,
+            "mse_lower_positive": false,
+            "relative_gain": false,
+            "retrieval_lower_positive": false,
+            "retrieval_point_positive": false,
+            "retrieval_qualified": true
+          },
+          "passed": false
+        },
+        "TNFA-_to_TNFA+": {
+          "checks": {
+            "adaptation_supported": false,
+            "control_fits_supported": false,
+            "controls_beaten": false,
+            "mse_lower_positive": false,
+            "relative_gain": false,
+            "retrieval_lower_positive": false,
+            "retrieval_point_positive": false,
+            "retrieval_qualified": true
+          },
+          "passed": false
+        }
+      },
+      "fallback": {
+        "TNFA+_to_TNFA-": {
+          "bridge_shuffle_20261021": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261022": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261023": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "candidate": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "mean_feature": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_free": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261021": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261022": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261023": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          }
+        },
+        "TNFA-_to_TNFA+": {
+          "bridge_shuffle_20261021": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261022": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261023": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "candidate": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "mean_feature": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_free": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261021": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261022": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261023": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          }
+        }
+      },
+      "metrics_sha256": "505ecc98b7d2fd47e7b29ba4977aee4c6da5bbb856b51a050160a277be12d3bd",
+      "output": "E:\\opal-frontier-engineering-20261012\\verification-final-a5\\synthetic-rank_deficient",
+      "primary_mse": {
+        "TNFA+_to_TNFA-": {
+          "additive": 1.0430335420094143,
+          "bridge_affine": 1.1790837673380536,
+          "bridge_incidence": 1.1819988738995049,
+          "bridge_offset": 1.1790842177701393,
+          "bridge_shuffle_20261021": 0.5874921891883433,
+          "bridge_shuffle_20261022": 0.5874921891883433,
+          "bridge_shuffle_20261023": 0.5874921891883433,
+          "candidate": 0.5874921891883433,
+          "frozen_base": 0.8592242973316667,
+          "mean_feature": 0.5874921891883433,
+          "no_change": 5.306334981176224,
+          "pooled_profile_kernel": 0.5874921891883433,
+          "selector": 0.5874921891883433,
+          "source_free": 0.5874921891883433,
+          "source_kernel_posterior": 0.6585607583109612,
+          "source_shuffle_20261021": 0.5874921891883433,
+          "source_shuffle_20261022": 0.5874921891883433,
+          "source_shuffle_20261023": 0.5874921891883433,
+          "target_profile_kernel": 1.1571186482487352,
+          "target_profile_ridge": 1.185490354518708,
+          "zero_bridge": 0.8592242973316667
+        },
+        "TNFA-_to_TNFA+": {
+          "additive": 0.6171796106564581,
+          "bridge_affine": 0.6976789683851109,
+          "bridge_incidence": 0.6994076176920145,
+          "bridge_offset": 0.697682969094757,
+          "bridge_shuffle_20261021": 0.3126990968021683,
+          "bridge_shuffle_20261022": 0.3126990968021683,
+          "bridge_shuffle_20261023": 0.3126990968021683,
+          "candidate": 0.3126990968021683,
+          "frozen_base": 0.5226564273005982,
+          "mean_feature": 0.3126990968021683,
+          "no_change": 7.257918354194965,
+          "pooled_profile_kernel": 0.3126990968021683,
+          "selector": 0.3126990968021683,
+          "source_free": 0.3126990968021683,
+          "source_kernel_posterior": 0.4098616428994104,
+          "source_shuffle_20261021": 0.3126990968021683,
+          "source_shuffle_20261022": 0.3126990968021683,
+          "source_shuffle_20261023": 0.3126990968021683,
+          "target_profile_kernel": 0.6846855906797248,
+          "target_profile_ridge": 0.7014735825554484,
+          "zero_bridge": 0.5226564273005982
+        }
+      },
+      "replay": {
+        "changed_code": {},
+        "checkpoints": 126,
+        "compatible_code_verification": false,
+        "evaluator_expression_reopened": false,
+        "exact_frozen_code": true,
+        "max_absolute_error": 0.0,
+        "run_manifest_sha256": "ddba594b62810c47d3ef8f56eb0b26184dc70e0766c17eb8cb90248bcf4b940b",
+        "separate_process": true,
+        "status": "passed",
+        "tolerance": 1e-10
+      },
+      "scientific_configuration_hash": "ecaf411cf3fd8c4f83237a5d564b2ba963a74b919d7f07d642a247fb37fdad0c"
+    },
+    "transfer": {
+      "configuration_hash": "1b5bf0b16b261d5de8cf2ee2d2726c79b2cb8f435db2273e2cdd44f40329be2d",
+      "decision": {
+        "adaptation_supported": true,
+        "development_gate_passed": false,
+        "engineering_complete": true,
+        "frontier_claim": false,
+        "independent_biological_confirmation": false,
+        "next_action": "retain engineering evidence; public source qualification/independent measurement required",
+        "reason": "synthetic engineering cannot pass biological or public development gates",
+        "source_qualified_for_public_prototype": false,
+        "synthetic_gate_checks": {
+          "TNFA+_to_TNFA-": false,
+          "TNFA-_to_TNFA+": false
+        },
+        "unknown_measurements": [
+          "independent-reference attribution",
+          "procedure uncertainty",
+          "biological useful margin",
+          "historical complete CPU",
+          "GPU seconds"
+        ]
+      },
+      "direction_gates": {
+        "TNFA+_to_TNFA-": {
+          "checks": {
+            "adaptation_supported": true,
+            "control_fits_supported": false,
+            "controls_beaten": true,
+            "mse_lower_positive": false,
+            "relative_gain": false,
+            "retrieval_lower_positive": false,
+            "retrieval_point_positive": false,
+            "retrieval_qualified": true
+          },
+          "passed": false
+        },
+        "TNFA-_to_TNFA+": {
+          "checks": {
+            "adaptation_supported": true,
+            "control_fits_supported": false,
+            "controls_beaten": true,
+            "mse_lower_positive": false,
+            "relative_gain": true,
+            "retrieval_lower_positive": false,
+            "retrieval_point_positive": true,
+            "retrieval_qualified": true
+          },
+          "passed": false
+        }
+      },
+      "fallback": {
+        "TNFA+_to_TNFA-": {
+          "bridge_shuffle_20261021": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261022": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261023": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "candidate": {
+            "fallback_fraction": 0.0,
+            "fallback_rows": 0,
+            "query_pair_stratum_rows": 105
+          },
+          "mean_feature": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "source_free": {
+            "fallback_fraction": 0.0,
+            "fallback_rows": 0,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261021": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261022": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261023": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          }
+        },
+        "TNFA-_to_TNFA+": {
+          "bridge_shuffle_20261021": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261022": {
+            "fallback_fraction": 1.0,
+            "fallback_rows": 105,
+            "query_pair_stratum_rows": 105
+          },
+          "bridge_shuffle_20261023": {
+            "fallback_fraction": 0.0,
+            "fallback_rows": 0,
+            "query_pair_stratum_rows": 105
+          },
+          "candidate": {
+            "fallback_fraction": 0.0,
+            "fallback_rows": 0,
+            "query_pair_stratum_rows": 105
+          },
+          "mean_feature": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "source_free": {
+            "fallback_fraction": 0.0,
+            "fallback_rows": 0,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261021": {
+            "fallback_fraction": 0.6666666666666666,
+            "fallback_rows": 70,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261022": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          },
+          "source_shuffle_20261023": {
+            "fallback_fraction": 0.3333333333333333,
+            "fallback_rows": 35,
+            "query_pair_stratum_rows": 105
+          }
+        }
+      },
+      "metrics_sha256": "9a14db96e808fa360ad4d5eade93270171f6b1fd134b888721fc20520d5d6976",
+      "output": "E:\\opal-frontier-engineering-20261012\\verification-final-a4\\synthetic-transfer",
+      "primary_mse": {
+        "TNFA+_to_TNFA-": {
+          "additive": 0.7218891722402124,
+          "bridge_affine": 0.8399713102897662,
+          "bridge_incidence": 0.8409877948781136,
+          "bridge_offset": 0.8399026813850595,
+          "bridge_shuffle_20261021": 0.694743441951246,
+          "bridge_shuffle_20261022": 0.6646605884170226,
+          "bridge_shuffle_20261023": 0.7797672654311305,
+          "candidate": 0.6620612627452119,
+          "frozen_base": 0.6739496645424979,
+          "mean_feature": 0.7832707559371348,
+          "no_change": 4.530801796554668,
+          "pooled_profile_kernel": 0.6066411915044903,
+          "selector": 0.6066411915044903,
+          "source_free": 0.8378326272633442,
+          "source_kernel_posterior": 0.7154523092607886,
+          "source_shuffle_20261021": 0.6620643365897219,
+          "source_shuffle_20261022": 0.7767541329588236,
+          "source_shuffle_20261023": 0.6779090557304728,
+          "target_profile_kernel": 0.8454192792874567,
+          "target_profile_ridge": 1.360869282294543,
+          "zero_bridge": 0.39697663663401145
+        },
+        "TNFA-_to_TNFA+": {
+          "additive": 0.4271533563551552,
+          "bridge_affine": 0.49705609048553945,
+          "bridge_incidence": 0.49762591412906126,
+          "bridge_offset": 0.49698383513908834,
+          "bridge_shuffle_20261021": 0.3962241421825286,
+          "bridge_shuffle_20261022": 0.3455295744219469,
+          "bridge_shuffle_20261023": 0.8116177447999516,
+          "candidate": 0.2557511407413713,
+          "frozen_base": 0.41926597115048797,
+          "mean_feature": 0.44672272606982044,
+          "no_change": 6.391643164603424,
+          "pooled_profile_kernel": 0.3455295744219469,
+          "selector": 0.3455295744219469,
+          "source_free": 0.48948199256167446,
+          "source_kernel_posterior": 0.4197251555950441,
+          "source_shuffle_20261021": 0.3953857932440257,
+          "source_shuffle_20261022": 0.4935343228037026,
+          "source_shuffle_20261023": 0.4023769078502038,
+          "target_profile_kernel": 0.5002483525095602,
+          "target_profile_ridge": 0.8052480960322739,
+          "zero_bridge": 0.36675749184367934
+        }
+      },
+      "replay": {
+        "changed_code": {},
+        "checkpoints": 126,
+        "compatible_code_verification": false,
+        "evaluator_expression_reopened": false,
+        "exact_frozen_code": true,
+        "max_absolute_error": 0.0,
+        "run_manifest_sha256": "3b388d5175a5866f1d2822d1127a47e2ddbde5c504b56d8454e08b9523f58919",
+        "separate_process": true,
+        "status": "passed",
+        "tolerance": 1e-10
+      },
+      "scientific_configuration_hash": "ecaf411cf3fd8c4f83237a5d564b2ba963a74b919d7f07d642a247fb37fdad0c"
+    }
+  },
+  "cpu_accounting_complete": false,
+  "current_resource_counter_compatible_replays": {
+    "affine": {
+      "asset": {
+        "path": "E:\\opal-frontier-engineering-20261012\\compatible-affine-final-a1\\replay.json",
+        "sha256": "0592d082f2bdc89b7694e93eeca20f73e739fc50e5d147b7087e3bae547b25ba"
+      },
+      "receipt": {
+        "changed_code": {
+          "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\src\\frontier_bridge\\resources.py": {
+            "current": "91c292666abd3b50e67943cf78fb195126f4d962f8bfd9eb964ff3621996aa74",
+            "frozen": "00a41b2c7075fe3c03b4673bec0b83b25d00d2c0023502378e485ef9f7959983"
+          }
+        },
+        "checkpoints": 126,
+        "compatible_code_verification": true,
+        "evaluator_expression_reopened": false,
+        "exact_frozen_code": false,
+        "max_absolute_error": 0.0,
+        "run_manifest_sha256": "ac482a88d3f3c30affc40e4055da865ab0699471a73846d82911ad83e1727d95",
+        "separate_process": true,
+        "status": "passed",
+        "tolerance": 1e-10
+      }
+    },
+    "null": {
+      "asset": {
+        "path": "E:\\opal-frontier-engineering-20261012\\compatible-null-final-a1\\replay.json",
+        "sha256": "a058b650bd170acbf9ef9d6a80792bc2b0a7176c2324254c75bce45e6cf63c32"
+      },
+      "receipt": {
+        "changed_code": {
+          "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\src\\frontier_bridge\\resources.py": {
+            "current": "91c292666abd3b50e67943cf78fb195126f4d962f8bfd9eb964ff3621996aa74",
+            "frozen": "00a41b2c7075fe3c03b4673bec0b83b25d00d2c0023502378e485ef9f7959983"
+          }
+        },
+        "checkpoints": 126,
+        "compatible_code_verification": true,
+        "evaluator_expression_reopened": false,
+        "exact_frozen_code": false,
+        "max_absolute_error": 0.0,
+        "run_manifest_sha256": "f2a9c85d70a955a1d73cf4d7ac42697f48b5186cf2396112ae6a95dca3323221",
+        "separate_process": true,
+        "status": "passed",
+        "tolerance": 1e-10
+      }
+    },
+    "transfer": {
+      "asset": {
+        "path": "E:\\opal-frontier-engineering-20261012\\compatible-transfer-final-a1\\replay.json",
+        "sha256": "8e2261cd3a27c6ecc0f5f77f9cb184d9d28dc4657b1e1cdb5da43dca505b6bec"
+      },
+      "receipt": {
+        "changed_code": {
+          "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\src\\frontier_bridge\\resources.py": {
+            "current": "91c292666abd3b50e67943cf78fb195126f4d962f8bfd9eb964ff3621996aa74",
+            "frozen": "00a41b2c7075fe3c03b4673bec0b83b25d00d2c0023502378e485ef9f7959983"
+          }
+        },
+        "checkpoints": 126,
+        "compatible_code_verification": true,
+        "evaluator_expression_reopened": false,
+        "exact_frozen_code": false,
+        "max_absolute_error": 0.0,
+        "run_manifest_sha256": "3b388d5175a5866f1d2822d1127a47e2ddbde5c504b56d8454e08b9523f58919",
+        "separate_process": true,
+        "status": "passed",
+        "tolerance": 1e-10
+      }
+    }
+  },
+  "development_gate_passed": false,
+  "engineering_complete": true,
+  "external_output_root": "E:\\opal-frontier-engineering-20261012",
+  "frontier_claim": false,
+  "independent_biological_confirmation": false,
+  "measurement_readiness": {
+    "expression_scoring_performed": false,
+    "frontier_claim": false,
+    "gates": {
+      "independent_initiation": {
+        "passed": false,
+        "reasons": [
+          "review approval missing",
+          "reviewer missing",
+          "reviewed_at missing",
+          "cultures missing",
+          "initiation_provenance_reviewed must be explicitly true",
+          "reviewed evidence files missing",
+          "cultures must be a nonempty list"
+        ],
+        "verified_evidence": []
+      },
+      "independent_references": {
+        "passed": false,
+        "reasons": [
+          "review approval missing",
+          "reviewer missing",
+          "reviewed_at missing",
+          "reference_matches missing",
+          "independently_measured must be explicitly true",
+          "shared_reference_covariance_retained must be explicitly true",
+          "reviewed evidence files missing",
+          "reference_matches must be a nonempty list"
+        ],
+        "verified_evidence": []
+      },
+      "interval_validation": {
+        "passed": false,
+        "reasons": [
+          "review approval missing",
+          "reviewer missing",
+          "reviewed_at missing",
+          "estimand missing",
+          "coverage_validation missing",
+          "null_type_i_validation missing",
+          "shared_reference_covariance_retained must be explicitly true",
+          "claim_specific_support_reviewed must be explicitly true",
+          "reviewed evidence files missing",
+          "coverage_validation needs empirical result, reviewed criterion, replicates and passed=true",
+          "null_type_i_validation needs empirical result, reviewed criterion, replicates and passed=true"
+        ],
+        "verified_evidence": []
+      },
+      "literal_interventions": {
+        "passed": false,
+        "reasons": [
+          "review approval missing",
+          "reviewer missing",
+          "reviewed_at missing",
+          "assignments missing",
+          "assignment_equivalence_reviewed must be explicitly true",
+          "reviewed evidence files missing",
+          "assignments must be a nonempty list"
+        ],
+        "verified_evidence": []
+      },
+      "measurement_counts": {
+        "passed": false,
+        "reasons": [
+          "review approval missing",
+          "reviewer missing",
+          "reviewed_at missing",
+          "counts missing",
+          "counts_supported_by_review must be explicitly true",
+          "campaign_costs missing",
+          "reviewed evidence files missing",
+          "counts.contexts must be an observed positive integer",
+          "counts.cultures must be an observed positive integer",
+          "counts.pairs must be an observed positive integer",
+          "counts.genes must be an observed positive integer",
+          "counts.control_outcomes must be an observed positive integer",
+          "counts.single_outcomes must be an observed positive integer",
+          "counts.bridge_outcomes must be an observed positive integer",
+          "campaign_costs.distinct_bridge_identities missing",
+          "campaign_costs.repeated_bridge_outcomes missing",
+          "campaign_costs.control_outcomes missing",
+          "campaign_costs.single_outcomes missing",
+          "campaign_costs.assay_cost missing",
+          "campaign_costs.currency missing"
+        ],
+        "verified_evidence": []
+      },
+      "owner_arrangements": {
+        "passed": false,
+        "reasons": [
+          "review approval missing",
+          "reviewer missing",
+          "reviewed_at missing",
+          "measurement_owner missing",
+          "laboratory_arrangements_reviewed must be explicitly true",
+          "compute_arrangements_reviewed must be explicitly true",
+          "registration_arrangements_reviewed must be explicitly true",
+          "reviewed evidence files missing"
+        ],
+        "verified_evidence": []
+      },
+      "pilot_covariance": {
+        "passed": false,
+        "reasons": [
+          "review approval missing",
+          "reviewer missing",
+          "reviewed_at missing",
+          "pilot_id missing",
+          "covariance_method missing",
+          "shared_reference_covariance_retained must be explicitly true",
+          "empirical_covariance_reviewed must be explicitly true",
+          "reviewed evidence files missing"
+        ],
+        "verified_evidence": []
+      },
+      "power_review": {
+        "passed": false,
+        "reasons": [
+          "review approval missing",
+          "reviewer missing",
+          "reviewed_at missing",
+          "useful_margin missing",
+          "margin_metric missing",
+          "functional_endpoint missing",
+          "sample_size_by_context missing",
+          "empirical_power_reviewed must be explicitly true",
+          "assay_cost_reviewed must be explicitly true",
+          "biological_collaborator missing",
+          "reviewed evidence files missing",
+          "reviewed useful margin must be finite and positive",
+          "reviewed sample size requires positive culture counts per context"
+        ],
+        "verified_evidence": []
+      },
+      "pretreatment_contexts": {
+        "passed": false,
+        "reasons": [
+          "review approval missing",
+          "reviewer missing",
+          "reviewed_at missing",
+          "contexts missing",
+          "definitions_frozen_before_treatment must be explicitly true",
+          "reviewed evidence files missing",
+          "contexts must be a nonempty list"
+        ],
+        "verified_evidence": []
+      },
+      "prospective_information": {
+        "passed": false,
+        "reasons": [
+          "review approval missing",
+          "reviewer missing",
+          "reviewed_at missing",
+          "held_query_pair_ids missing",
+          "bridge_pair_ids missing",
+          "global_exclusion_context_ids missing",
+          "allowed_query_references missing",
+          "freeze_record missing",
+          "query_outcomes_unscored must be explicitly true",
+          "reviewed evidence files missing",
+          "held_query_pair_ids must be a nonempty list",
+          "bridge_pair_ids must be a nonempty list",
+          "global_exclusion_context_ids must be a nonempty list",
+          "nonempty held query and bridge identities required"
+        ],
+        "verified_evidence": []
+      },
+      "randomization": {
+        "passed": false,
+        "reasons": [
+          "review approval missing",
+          "reviewer missing",
+          "reviewed_at missing",
+          "plate_block_assignments missing",
+          "randomized_assignment_reviewed must be explicitly true",
+          "reviewed evidence files missing"
+        ],
+        "verified_evidence": []
+      },
+      "release_rights": {
+        "passed": false,
+        "reasons": [
+          "review approval missing",
+          "reviewer missing",
+          "reviewed_at missing",
+          "license_id missing",
+          "permitted_uses missing",
+          "research_use_authorized must be explicitly true",
+          "redistribution_review_completed must be explicitly true",
+          "reviewed evidence files missing",
+          "permitted_uses must be a nonempty list"
+        ],
+        "verified_evidence": []
+      }
+    },
+    "independent_biological_confirmation": false,
+    "laboratory_execution_authorized": false,
+    "next_action": "obtain missing reviewed measurement and empirical-power evidence",
+    "package_hash": "986464eb6cf38e2b51d1c1293519f929145eb552b842dfbb05682ddc0fe04928",
+    "ready_to_draft_confirmation_contract": false,
+    "reasons": [
+      "independent_initiation: review approval missing",
+      "independent_initiation: reviewer missing",
+      "independent_initiation: reviewed_at missing",
+      "independent_initiation: cultures missing",
+      "independent_initiation: initiation_provenance_reviewed must be explicitly true",
+      "independent_initiation: reviewed evidence files missing",
+      "independent_initiation: cultures must be a nonempty list",
+      "pretreatment_contexts: review approval missing",
+      "pretreatment_contexts: reviewer missing",
+      "pretreatment_contexts: reviewed_at missing",
+      "pretreatment_contexts: contexts missing",
+      "pretreatment_contexts: definitions_frozen_before_treatment must be explicitly true",
+      "pretreatment_contexts: reviewed evidence files missing",
+      "pretreatment_contexts: contexts must be a nonempty list",
+      "randomization: review approval missing",
+      "randomization: reviewer missing",
+      "randomization: reviewed_at missing",
+      "randomization: plate_block_assignments missing",
+      "randomization: randomized_assignment_reviewed must be explicitly true",
+      "randomization: reviewed evidence files missing",
+      "literal_interventions: review approval missing",
+      "literal_interventions: reviewer missing",
+      "literal_interventions: reviewed_at missing",
+      "literal_interventions: assignments missing",
+      "literal_interventions: assignment_equivalence_reviewed must be explicitly true",
+      "literal_interventions: reviewed evidence files missing",
+      "literal_interventions: assignments must be a nonempty list",
+      "independent_references: review approval missing",
+      "independent_references: reviewer missing",
+      "independent_references: reviewed_at missing",
+      "independent_references: reference_matches missing",
+      "independent_references: independently_measured must be explicitly true",
+      "independent_references: shared_reference_covariance_retained must be explicitly true",
+      "independent_references: reviewed evidence files missing",
+      "independent_references: reference_matches must be a nonempty list",
+      "measurement_counts: review approval missing",
+      "measurement_counts: reviewer missing",
+      "measurement_counts: reviewed_at missing",
+      "measurement_counts: counts missing",
+      "measurement_counts: counts_supported_by_review must be explicitly true",
+      "measurement_counts: campaign_costs missing",
+      "measurement_counts: reviewed evidence files missing",
+      "measurement_counts: counts.contexts must be an observed positive integer",
+      "measurement_counts: counts.cultures must be an observed positive integer",
+      "measurement_counts: counts.pairs must be an observed positive integer",
+      "measurement_counts: counts.genes must be an observed positive integer",
+      "measurement_counts: counts.control_outcomes must be an observed positive integer",
+      "measurement_counts: counts.single_outcomes must be an observed positive integer",
+      "measurement_counts: counts.bridge_outcomes must be an observed positive integer",
+      "measurement_counts: campaign_costs.distinct_bridge_identities missing",
+      "measurement_counts: campaign_costs.repeated_bridge_outcomes missing",
+      "measurement_counts: campaign_costs.control_outcomes missing",
+      "measurement_counts: campaign_costs.single_outcomes missing",
+      "measurement_counts: campaign_costs.assay_cost missing",
+      "measurement_counts: campaign_costs.currency missing",
+      "release_rights: review approval missing",
+      "release_rights: reviewer missing",
+      "release_rights: reviewed_at missing",
+      "release_rights: license_id missing",
+      "release_rights: permitted_uses missing",
+      "release_rights: research_use_authorized must be explicitly true",
+      "release_rights: redistribution_review_completed must be explicitly true",
+      "release_rights: reviewed evidence files missing",
+      "release_rights: permitted_uses must be a nonempty list",
+      "prospective_information: review approval missing",
+      "prospective_information: reviewer missing",
+      "prospective_information: reviewed_at missing",
+      "prospective_information: held_query_pair_ids missing",
+      "prospective_information: bridge_pair_ids missing",
+      "prospective_information: global_exclusion_context_ids missing",
+      "prospective_information: allowed_query_references missing",
+      "prospective_information: freeze_record missing",
+      "prospective_information: query_outcomes_unscored must be explicitly true",
+      "prospective_information: reviewed evidence files missing",
+      "prospective_information: held_query_pair_ids must be a nonempty list",
+      "prospective_information: bridge_pair_ids must be a nonempty list",
+      "prospective_information: global_exclusion_context_ids must be a nonempty list",
+      "prospective_information: nonempty held query and bridge identities required",
+      "pilot_covariance: review approval missing",
+      "pilot_covariance: reviewer missing",
+      "pilot_covariance: reviewed_at missing",
+      "pilot_covariance: pilot_id missing",
+      "pilot_covariance: covariance_method missing",
+      "pilot_covariance: shared_reference_covariance_retained must be explicitly true",
+      "pilot_covariance: empirical_covariance_reviewed must be explicitly true",
+      "pilot_covariance: reviewed evidence files missing",
+      "power_review: review approval missing",
+      "power_review: reviewer missing",
+      "power_review: reviewed_at missing",
+      "power_review: useful_margin missing",
+      "power_review: margin_metric missing",
+      "power_review: functional_endpoint missing",
+      "power_review: sample_size_by_context missing",
+      "power_review: empirical_power_reviewed must be explicitly true",
+      "power_review: assay_cost_reviewed must be explicitly true",
+      "power_review: biological_collaborator missing",
+      "power_review: reviewed evidence files missing",
+      "power_review: reviewed useful margin must be finite and positive",
+      "power_review: reviewed sample size requires positive culture counts per context",
+      "interval_validation: review approval missing",
+      "interval_validation: reviewer missing",
+      "interval_validation: reviewed_at missing",
+      "interval_validation: estimand missing",
+      "interval_validation: coverage_validation missing",
+      "interval_validation: null_type_i_validation missing",
+      "interval_validation: shared_reference_covariance_retained must be explicitly true",
+      "interval_validation: claim_specific_support_reviewed must be explicitly true",
+      "interval_validation: reviewed evidence files missing",
+      "interval_validation: coverage_validation needs empirical result, reviewed criterion, replicates and passed=true",
+      "interval_validation: null_type_i_validation needs empirical result, reviewed criterion, replicates and passed=true",
+      "owner_arrangements: review approval missing",
+      "owner_arrangements: reviewer missing",
+      "owner_arrangements: reviewed_at missing",
+      "owner_arrangements: measurement_owner missing",
+      "owner_arrangements: laboratory_arrangements_reviewed must be explicitly true",
+      "owner_arrangements: compute_arrangements_reviewed must be explicitly true",
+      "owner_arrangements: registration_arrangements_reviewed must be explicitly true",
+      "owner_arrangements: reviewed evidence files missing"
+    ],
+    "schema": "frontier_bridge_measurement_readiness_v1",
+    "scope": "local evidence completeness and consistency; does not verify scientific adequacy of reviewer judgments",
+    "status": "measurement_not_ready"
+  },
+  "next_action": "independently initiated cultures with qualified references, empirical covariance/power and reviewed confirmation contract",
+  "protected_available_files_unchanged": true,
+  "qualification": {
+    "banks": {
+      "TNFA+": {
+        "current_bank_available": false,
+        "current_bank_hash_verified": false,
+        "original_genes_hash": "3eae783b9828749f7139de06002f336d00b154a2b59973ec01bf9f6ac989e3ad",
+        "path": "E:\\opal-model-series-20261010\\pertspectra-banks\\TNFA-positive\\canonical_bank.npz",
+        "scale": "log2_library_10000_change",
+        "sha256": "03e519d984008226fd831473f732af7e7f5985059c96aada364c43e7ea256bb4",
+        "strata": [
+          "3",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "TNFA-": {
+        "current_bank_available": false,
+        "current_bank_hash_verified": false,
+        "original_genes_hash": "3716f5a1059dd8f7f3ec73c20af298550440e5fba55aafa8cbcb86f9a1ef4945",
+        "path": "E:\\opal-model-series-20261010\\pertspectra-banks\\TNFA-negative\\canonical_bank.npz",
+        "scale": "log2_library_10000_change",
+        "sha256": "ca1f69eca01e92753c9af16bc76b6d83f1ed1cfa03d958a9cbef484e04d92a8b",
+        "strata": [
+          "1",
+          "2",
+          "4",
+          "8"
+        ]
+      }
+    },
+    "common_gene_count": 207,
+    "common_genes": [
+      "ABTB3",
+      "AFF1",
+      "AKAP12",
+      "AKR1B10",
+      "AKR1C1",
+      "AKR1C2",
+      "AKR1C3",
+      "ALCAM",
+      "ALDH3A1",
+      "ANKRD33B",
+      "ANTXR1",
+      "ANXA1",
+      "AREG",
+      "ARHGAP26",
+      "ASPM",
+      "ATP2A2",
+      "AXL",
+      "BCYRN1",
+      "BICC1",
+      "BIRC3",
+      "BMAL2",
+      "BTG1",
+      "C15orf48",
+      "C6orf141",
+      "CA8",
+      "CCBE1",
+      "CCND3",
+      "CD24",
+      "CDC20",
+      "CDH4",
+      "CENPP",
+      "CHST11",
+      "CITED4",
+      "CLMP",
+      "CLU",
+      "CMIP",
+      "COL4A2",
+      "COL5A2",
+      "CPLX2",
+      "CXCL5",
+      "CYP1B1",
+      "CYP24A1",
+      "DIAPH2",
+      "DOCK10",
+      "DOCK4",
+      "DOCK5",
+      "DPYD",
+      "EFHD2",
+      "ELF3",
+      "ENSG00000289839",
+      "EPB41L1",
+      "ETV6",
+      "EVA1C",
+      "EXT1",
+      "FA2H",
+      "FAT1",
+      "FGD6",
+      "FLNB",
+      "FMNL2",
+      "FNDC3B",
+      "FOSL1",
+      "FRMD5",
+      "GALNT1",
+      "GALNT10",
+      "GALNT18",
+      "GCLC",
+      "GDF15",
+      "GLIS3",
+      "GLS",
+      "GNG11",
+      "GPC6",
+      "GPR39",
+      "GPRC5A",
+      "GPX2",
+      "GRAMD1B",
+      "GRB10",
+      "GRIN2B",
+      "H4C3",
+      "HERC4",
+      "HIP1",
+      "HIPK2",
+      "HKDC1",
+      "HMGA2",
+      "HMOX1",
+      "HPGD",
+      "ID1",
+      "ID3",
+      "IGFBP7",
+      "IGFL2-AS1",
+      "IRAK2",
+      "ITGA2",
+      "ITGA3",
+      "KCNMA1",
+      "KCNQ5",
+      "KIRREL3",
+      "KRT19",
+      "KRT8",
+      "KYNU",
+      "LAMA3",
+      "LAMP1",
+      "LGR4",
+      "LIMCH1",
+      "LINC00511",
+      "LRMDA",
+      "LUCAT1",
+      "MAML2",
+      "MAML3",
+      "MAP7",
+      "MDM2",
+      "MID1",
+      "MIR4435-2HG",
+      "MKI67",
+      "MMP24OS",
+      "MORC4",
+      "MPRIP",
+      "MSN",
+      "MT2A",
+      "MTCL1",
+      "MTUS1",
+      "NAV2",
+      "NAV3",
+      "NCOA3",
+      "NCOR2",
+      "NFKBIA",
+      "NNMT",
+      "NPC1",
+      "NR5A2",
+      "NRCAM",
+      "NRG1",
+      "NTN4",
+      "OPTN",
+      "OSBPL10",
+      "PACS1",
+      "PALLD",
+      "PAPPA",
+      "PAQR5",
+      "PCDH9",
+      "PCM1",
+      "PDE7B",
+      "PDLIM5",
+      "PLAU",
+      "PLCB4",
+      "PLK2",
+      "PLS3",
+      "PMEPA1",
+      "PPP1R15A",
+      "PSME2",
+      "PTGES",
+      "PTGR1",
+      "PTPN14",
+      "PTPRJ",
+      "QKI",
+      "RAB3B",
+      "RAI14",
+      "RASA2",
+      "RASSF3",
+      "RBFOX3",
+      "RBM47",
+      "RCOR1",
+      "RELB",
+      "RHPN2",
+      "RIN2",
+      "ROBO1",
+      "ROR1",
+      "RPS6KA5",
+      "SAMD4A",
+      "SAT1",
+      "SCD",
+      "SELENOM",
+      "SERPINE1",
+      "SERPINE2",
+      "SFMBT2",
+      "SFN",
+      "SGCD",
+      "SH3KBP1",
+      "SLC7A11",
+      "SMAD3",
+      "SMURF2",
+      "SNHG7",
+      "SOX4",
+      "SPAG9",
+      "SPP1",
+      "SRGN",
+      "STK17A",
+      "SYNE1",
+      "SYT1",
+      "TAGLN",
+      "TCF7L2",
+      "TESC",
+      "TFDP2",
+      "TGFB1",
+      "TGM2",
+      "THSD4",
+      "THSD7A",
+      "TIMP2",
+      "TNFAIP8",
+      "TNFRSF10B",
+      "TNS4",
+      "TOP2A",
+      "TPX2",
+      "TRAM1",
+      "TRIML2",
+      "TSC22D1",
+      "UBASH3B",
+      "WWC1",
+      "WWOX",
+      "WWTR1"
+    ],
+    "common_pair_count": 51,
+    "common_pairs": [
+      "[\"BIRC2\",\"IKBKG\"]",
+      "[\"BIRC2\",\"TAB2\"]",
+      "[\"BIRC2\",\"TRADD\"]",
+      "[\"BIRC2\",\"TRAF5\"]",
+      "[\"BIRC2\",\"UBE2N\"]",
+      "[\"BIRC3\",\"IKBKG\"]",
+      "[\"BIRC3\",\"RIPK1\"]",
+      "[\"BIRC3\",\"TRADD\"]",
+      "[\"BIRC3\",\"TRAF5\"]",
+      "[\"BIRC3\",\"UBE2N\"]",
+      "[\"CHUK\",\"TRADD\"]",
+      "[\"CHUK\",\"TRAF5\"]",
+      "[\"CHUK\",\"UBE2N\"]",
+      "[\"CUL1\",\"RIPK1\"]",
+      "[\"CUL1\",\"TAB1\"]",
+      "[\"CUL1\",\"TRADD\"]",
+      "[\"CUL1\",\"TRAF5\"]",
+      "[\"FBXW11\",\"IKBKG\"]",
+      "[\"FBXW11\",\"NFKBIA\"]",
+      "[\"FBXW11\",\"RBCK1\"]",
+      "[\"FBXW11\",\"RIPK1\"]",
+      "[\"FBXW11\",\"TAB1\"]",
+      "[\"FBXW11\",\"TAB2\"]",
+      "[\"FBXW11\",\"TNFRSF1A\"]",
+      "[\"FBXW11\",\"TRADD\"]",
+      "[\"FBXW11\",\"TRAF5\"]",
+      "[\"FBXW11\",\"TRAF6\"]",
+      "[\"FBXW11\",\"UBE2N\"]",
+      "[\"IKBKB\",\"TRAF5\"]",
+      "[\"IKBKB\",\"UBE2N\"]",
+      "[\"IKBKG\",\"RBCK1\"]",
+      "[\"IKBKG\",\"TAB1\"]",
+      "[\"IKBKG\",\"TAB2\"]",
+      "[\"IKBKG\",\"TRADD\"]",
+      "[\"IKBKG\",\"TRAF5\"]",
+      "[\"IKBKG\",\"UBE2N\"]",
+      "[\"MAP3K7\",\"TRADD\"]",
+      "[\"MAP3K7\",\"TRAF5\"]",
+      "[\"NFKBIA\",\"TAB2\"]",
+      "[\"NFKBIA\",\"UBE2N\"]",
+      "[\"RIPK1\",\"TAB1\"]",
+      "[\"RIPK1\",\"TAB2\"]",
+      "[\"RIPK1\",\"TRADD\"]",
+      "[\"RIPK1\",\"TRAF5\"]",
+      "[\"TAB1\",\"TAB2\"]",
+      "[\"TAB1\",\"TRADD\"]",
+      "[\"TAB1\",\"TRAF5\"]",
+      "[\"TAB1\",\"UBE2N\"]",
+      "[\"TAB2\",\"UBE2N\"]",
+      "[\"TNFRSF1A\",\"TRADD\"]",
+      "[\"TRADD\",\"UBE2N\"]"
+    ],
+    "configuration_hash": "110228a4f898fa51f2cbe10e1b939e39f738b94ddc1fd12c394380084647fcee",
+    "culture_provenance_status": "SampleIndex technical/source strata; independent initiation unknown",
+    "current_bank_arrays_opened": false,
+    "current_bank_hashes_verified": false,
+    "experiment_id": "opal_frontier_bridge_v1",
+    "frontier_claim": false,
+    "genes_hash": "e39a7ff825532727604de44dac4b56a4a5b7677a5f440730703c715cf70b7a28",
+    "guide_equivalence": "unknown; assignment-level guide mixtures",
+    "historical_bank_hashes_are_expected_not_current_measurements": true,
+    "independent_biological_confirmation": false,
+    "initiation": null,
+    "metadata_hashes": {
+      "prepared_source": "a17ca49654ce1051d7437e3a4b394af58da43170d084d7e9a5c14771564bb1fa",
+      "source_access": "9ac4c7d48bdeb20e8199bd1d6e6115440bdaadeeb8b76cc4996a9a1679b83ee2",
+      "source_registry": "8c5181813cf44bd48ca97edbb355eb1ecedf37465e0e982fd69e2dc80a71410a",
+      "source_support": "5193c0c3803cc28735c2332dea37e5405062d2de3942f1e0039e7594205a4389"
+    },
+    "metadata_support_passed": false,
+    "normalization_order": [
+      "library_total_10000",
+      "condition_mean",
+      "log2_1_plus",
+      "matched_control_subtraction"
+    ],
+    "original_condition_rows": null,
+    "original_source_hash": "7b72d474be90d3e236e9b4d7dce3fdf9806e5329f84f3eaa973ec605f52ebd12",
+    "physical_dose": null,
+    "prior_exposure": "both contexts exposed in model-series and information development",
+    "qualified": false,
+    "query_expression_accessed": false,
+    "reasons": [
+      "insufficient_common_reference_selected_genes"
+    ],
+    "registry_manifests": [
+      {
+        "path": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_model_series_v1\\pertspectra\\TNFA-positive\\checkpoint_manifest.json",
+        "sha256": "11e4547738d354ea290f3a9fd897c9c49e30c6d4bbf4f322726e8a1e885ade62"
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_model_series_v1\\pertspectra\\TNFA-negative\\checkpoint_manifest.json",
+        "sha256": "8694f2ddd531026fa749400624fff39482249d7379b195e2b7991ddbda5fe0ec"
+      }
+    ],
+    "status": "infeasible_public_prototype",
+    "support_evidence_scope": "hash-verified prepared metadata and included-pair/reference support records",
+    "treatment_duration": null
+  },
+  "resource_amendment": {
+    "path": "docs/frontier/resource_amendment_20261012.json",
+    "sha256": "d03065069d883e1497c4d22d8c6cf956db90b98eaf460860b43945378ec1e01b"
+  },
+  "retained_failure_scope": [
+    "original 60 MB accounting failure",
+    "supervisor interruption",
+    "C: reserve stop",
+    "controlled byte-counter optimization boundary",
+    "250 MB full-test guard stop"
+  ],
+  "scientific_contract_hash": "ecaf411cf3fd8c4f83237a5d564b2ba963a74b919d7f07d642a247fb37fdad0c",
+  "status": "passed",
+  "tests": {
+    "failed": 0,
+    "log": {
+      "path": "E:\\opal-frontier-engineering-20261012\\verification-final-a6\\pytest.log",
+      "sha256": "2fbb34b57df27532332a9faf70bd4ffae255f3a59727d1b84cc2c8a8c49b303a"
+    },
+    "passed": 331
+  },
+  "total_replayed_checkpoints": 630,
+  "uncertainty_scope": "conditional target-incidence sensitivity; no biological confidence or procedure-refitting uncertainty",
+  "unknown_cpu_scope": "Historical CPU/GPU, interrupted child final CPU, unreceipted shell/test subprocess overhead remain unknown; known receipts are charged once",
+  "verification_asset": {
+    "path": "E:\\opal-frontier-engineering-20261012\\verification-final-a6\\verification_summary.json",
+    "sha256": "1eea5d44dc8b7e3b651d848f2fe53dcff257a68de69116a670509de93d76c5c1"
+  }
+}

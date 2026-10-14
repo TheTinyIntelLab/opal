@@ -148,3 +148,25 @@ results/opal_information_v1/**/*.npz
 results/opal_information_v1/**/*.npy
 results/opal_information_v1/**/*.whl
 results/opal_information_v1/**/*.png
+
+# Frozen bridge numerical dependencies and generated test/code copies stay local.
+results/opal_frontier_bridge_v1/**/*.npz
+results/opal_frontier_bridge_v1/**/*.npy
+results/opal_frontier_bridge_v1/**/checkpoint-*/
+results/opal_frontier_bridge_v1/**/shared_arrays/
+results/opal_frontier_bridge_v1/**/prepared/
+results/opal_frontier_bridge_v1/**/code_snapshot/
+results/opal_frontier_bridge_v1/**/source_snapshots/
+results/opal_frontier_bridge_v1/**/*.jsonl
+results/opal_frontier_bridge_v1/**/*.log
+results/opal_frontier_bridge_v1/*tests*/
+!results/opal_frontier_bridge_v1/continuation-tests-20261012-a4/
+results/opal_frontier_bridge_v1/continuation-tests-20261012-a4/*
+!results/opal_frontier_bridge_v1/continuation-tests-20261012-a4/test_cli_template_is_not_ready0/
+results/opal_frontier_bridge_v1/continuation-tests-20261012-a4/test_cli_template_is_not_ready0/*
+!results/opal_frontier_bridge_v1/continuation-tests-20261012-a4/test_cli_template_is_not_ready0/template/
+results/opal_frontier_bridge_v1/continuation-tests-20261012-a4/test_cli_template_is_not_ready0/template/*
+!results/opal_frontier_bridge_v1/continuation-tests-20261012-a4/test_cli_template_is_not_ready0/template/report.md
+# Historical compact receipts are explicitly reviewed and tracked; remaining
+# generated metadata/numerical dependencies are preserved in the local inventory.
+/results/opal_frontier_bridge_v1/**
