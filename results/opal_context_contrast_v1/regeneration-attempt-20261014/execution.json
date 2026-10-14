@@ -1,0 +1,17 @@
+{
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\opal_context_contrast.py",
+    "prepare",
+    "--input",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_context_contrast_v1\\authorized-source-audit-20261014\\source_review.json",
+    "--inventory",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_context_contrast_v1\\authorized-source-audit-20261014\\procedure_inventory.json",
+    "--acceptance",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_context_contrast_v1\\regeneration-attempt-20261014\\accepted_prepare.json",
+    "--output",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_context_contrast_v1\\regeneration-attempt-20261014\\prepare"
+  ],
+  "exit_code": 1,
+  "scope": "owner-requested regeneration attempt; actual qualification preserved"
+}

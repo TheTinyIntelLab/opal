@@ -1,0 +1,58 @@
+{
+  "archive_byte_identity_to_local_cache_recomputed": false,
+  "archive_contains": [
+    "data/",
+    "data/inhouse.h5ad"
+  ],
+  "archive_contains_additional_protocol_records": false,
+  "archive_directory_receipt_sha256": "c08ea8e09cd246847db1dc96938f4ffbc6a8cabdc46348e769c71b885d1b3fde",
+  "archive_payload_opened": false,
+  "biological_scoring_performed": false,
+  "date": "2026-10-14",
+  "earlier_methods_review": "results/opal_context_contrast_v1/authorized-source-audit-20261014/source_review.json",
+  "execution": {
+    "command": [
+      "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\opal_context_contrast.py",
+      "prepare",
+      "--input",
+      "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_context_contrast_v1\\authorized-source-audit-20261014\\source_review.json",
+      "--inventory",
+      "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_context_contrast_v1\\authorized-source-audit-20261014\\procedure_inventory.json",
+      "--acceptance",
+      "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_context_contrast_v1\\regeneration-attempt-20261014\\accepted_prepare.json",
+      "--output",
+      "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\opal_context_contrast_v1\\regeneration-attempt-20261014\\prepare"
+    ],
+    "exit_code": 1,
+    "scope": "owner-requested regeneration attempt; actual qualification preserved"
+  },
+  "fitting_performed": false,
+  "not_reconstructible_from_expression": [
+    "actual administered dose and duration",
+    "validated molecular-guide equivalence",
+    "independent culture initiation provenance",
+    "new independently measured cultures and evaluator references",
+    "empirical biological power/useful-margin/cost records"
+  ],
+  "official_source_document_paths": [
+    "data/inhouse/README.md",
+    "data/norman/README.md",
+    "data/replogle/README.md"
+  ],
+  "official_tree_oid": "9c4fbdacdadcb8ca559226170e93e6b61436819c",
+  "official_tree_receipt_sha256": "fc899991062c744f573570d8a4c9517d643bee13311f219a62d30d045cfae3ce",
+  "official_tree_url": "https://api.github.com/repos/insitro/PertSpectra/git/trees/main?recursive=1",
+  "owner_execution_authorized": true,
+  "primary_conclusion": "Preparation actually rerun and refused; rebuilding derived files cannot certify missing experimental facts. No advancement threshold changed.",
+  "qualified_pair_count": 0,
+  "regenerable_from_existing_cache": [
+    "source hash receipt",
+    "literal label/count metadata",
+    "condition support graph",
+    "exposure and role manifests after eligibility",
+    "reference aggregates and panel after eligibility"
+  ],
+  "rerun_status": "source_ineligible",
+  "schema": "opal_source_regeneration_review_v1"
+}
