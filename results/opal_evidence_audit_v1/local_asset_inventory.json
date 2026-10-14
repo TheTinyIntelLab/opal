@@ -1,0 +1,85 @@
+{
+  "schema": "opal-audit-custody-v1",
+  "files": [
+    {
+      "path": "audit-20261015/audit.json",
+      "bytes": 479774,
+      "sha256": "7ec7dc7b0a9b5ca9239ca5ee683402310d3b517ff83f142248fb8c3855794624",
+      "commit": true
+    },
+    {
+      "path": "audit-20261015/historical_custody.json",
+      "bytes": 143,
+      "sha256": "16d4294ee09d88be6ea9ff1761310702af75c5ba5e71a4746224123958375720",
+      "commit": true
+    },
+    {
+      "path": "audit-20261015/public_numbers.json",
+      "bytes": 2837893,
+      "sha256": "98f8c5aaef84ef2fddac225f6d36023bbb0c08a223ec4ba973c1688b6dff4ca7",
+      "commit": false
+    },
+    {
+      "path": "audit-20261015/resource_ledger.json",
+      "bytes": 306,
+      "sha256": "c3eee4a28056aa6f1e8f8ffeb12906e53ae63710a54f90e20866c92c1dff4b45",
+      "commit": true
+    },
+    {
+      "path": "final-reproduction-20261015/audit.json",
+      "bytes": 479785,
+      "sha256": "7a5973fab80b64ccb7b87c6914834486437ac6a41dcc9861bb3ab0e7bd986389",
+      "commit": true
+    },
+    {
+      "path": "final-reproduction-20261015/confirmation_readiness_recheck.json",
+      "bytes": 18008,
+      "sha256": "232a8a504b70b80f4507375e2b8cd8c6d3a4eaab5021412abb81e23d6e39d578",
+      "commit": true
+    },
+    {
+      "path": "final-reproduction-20261015/public_claim_map.json",
+      "bytes": 1240773,
+      "sha256": "06bedfedce248678e2738cc823e545d34040becdab1ca2b03581fc58e2e0ebd4",
+      "commit": true
+    },
+    {
+      "path": "final-reproduction-20261015/public_numbers.json",
+      "bytes": 2856693,
+      "sha256": "f7235fbc94f595e8be565cbfbcb4597b47c2d49ac1fe7e02193eb2af6a3c39bf",
+      "commit": false
+    },
+    {
+      "path": "final-reproduction-20261015/resource_ledger.json",
+      "bytes": 424,
+      "sha256": "cb96f267f781dc76cada68e6c95f7aad443a3bd4481f432f90d425f20cf1e6e5",
+      "commit": true
+    },
+    {
+      "path": "reproduction-20261015/audit.json",
+      "bytes": 479785,
+      "sha256": "718197734ad63b4115b4509e04b4615febdeb6ded34b912e73e210db21af8e3d",
+      "commit": true
+    },
+    {
+      "path": "reproduction-20261015/resource_ledger.json",
+      "bytes": 305,
+      "sha256": "bda01733e10633c4042f5ec6415b9f2819f2b6bf688ce7c447cc6774ea945f74",
+      "commit": true
+    },
+    {
+      "path": "sealed-reproduction-20261015/audit.json",
+      "bytes": 479852,
+      "sha256": "2838182d170364f7546484d9c993e4e733778e4657ed110ffd29bb937ce1283e",
+      "commit": true
+    },
+    {
+      "path": "sealed-reproduction-20261015/resource_ledger.json",
+      "bytes": 425,
+      "sha256": "ebe1c54ebb154d97b606d4f7b3e44489f471d8cf5e52db6f62d00d5708875b3d",
+      "commit": true
+    }
+  ],
+  "scope": "sealed-reproduction is authoritative; earlier iterations provisional; numerical claim map is under final-reproduction; oversized lookup remains local",
+  "total_bytes": 8874166
+}
