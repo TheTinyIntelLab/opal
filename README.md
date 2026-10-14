@@ -26,6 +26,8 @@ Opal **0.1.2** has a [GitHub research release](https://github.com/TheTinyIntelLa
 
 The current research successor is [`opal_context_contrast_v1`](docs/frontier/context_contrast_implementation.md), a fixed two-context global-pair diagnostic with reference-only shared-panel preparation, nested contrast models, strong same-information references, sealed evaluation and five evidence gates. Its software is implemented; preparation, scientific fitting and biological scoring remain unauthorized and unrun. The frozen bridge is research-retired, while its configuration, failures and original evidence remain preserved. Source incompatibility and synthetic failure establish no biological failure.
 
+The [14 October implementation closeout](docs/frontier/implementation_completion.md) records 360 passing tests, successful wheel/source builds, local Markdown documentation rendering and the offline 44-page manuscript build. Those checks complete software/build verification, while the scientific PLAN's numerical and independent-measurement milestones remain pending.
+
 ## 1. Introduction
 
 The [measured-single information study](docs/next_cycle/opal_information_report.md) completed a frozen variance/mean/capacity/shuffle experiment on exposed PertSpectra development data. TNF-positive partner variance gains only 0.231% over Base and loses to matched mean controls; TNF-negative partner heads lack nested support and use Base fallback. The information gate failed, so Base remains the reference and no confirmation or downstream branch advances. New training/replay profiles are available for Opal and three disclosed comparator adaptations; canonical native competitiveness and independent biological confirmation remain unestablished.

@@ -19,7 +19,10 @@ results/replicated_fixed_state_v1/eldiaz-*/**/*.json -text whitespace=blank-at-e
 # Frozen bridge records retain the bytes bound by their historical receipts.
 results/opal_frontier_bridge_v1/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 configs/experiments/opal_frontier_bridge_v1.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
-docs/frontier/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/frontier/resource_amendment*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/frontier/audit_manifest.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/frontier/planning_verification.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/frontier/measurement_readiness*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 docs/frontier/historical/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 src/frontier_bridge/*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 
