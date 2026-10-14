@@ -1,0 +1,776 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "candidate_contract_id": {
+      "const": "frontier_bridge_confirmation_v1"
+    },
+    "gates": {
+      "properties": {
+        "independent_initiation": {
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            },
+            "details": {
+              "properties": {
+                "cultures": {},
+                "initiation_provenance_reviewed": {}
+              },
+              "required": [
+                "cultures",
+                "initiation_provenance_reviewed"
+              ],
+              "type": "object"
+            },
+            "evidence": {
+              "items": {
+                "properties": {
+                  "path": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "pattern": "^[0-9a-f]{64}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "approved",
+            "reviewer",
+            "reviewed_at",
+            "evidence",
+            "details"
+          ],
+          "type": "object"
+        },
+        "independent_references": {
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            },
+            "details": {
+              "properties": {
+                "independently_measured": {},
+                "reference_matches": {},
+                "shared_reference_covariance_retained": {}
+              },
+              "required": [
+                "reference_matches",
+                "independently_measured",
+                "shared_reference_covariance_retained"
+              ],
+              "type": "object"
+            },
+            "evidence": {
+              "items": {
+                "properties": {
+                  "path": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "pattern": "^[0-9a-f]{64}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "approved",
+            "reviewer",
+            "reviewed_at",
+            "evidence",
+            "details"
+          ],
+          "type": "object"
+        },
+        "interval_validation": {
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            },
+            "details": {
+              "properties": {
+                "claim_specific_support_reviewed": {},
+                "coverage_validation": {},
+                "estimand": {},
+                "null_type_i_validation": {},
+                "shared_reference_covariance_retained": {}
+              },
+              "required": [
+                "estimand",
+                "coverage_validation",
+                "null_type_i_validation",
+                "shared_reference_covariance_retained",
+                "claim_specific_support_reviewed"
+              ],
+              "type": "object"
+            },
+            "evidence": {
+              "items": {
+                "properties": {
+                  "path": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "pattern": "^[0-9a-f]{64}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "approved",
+            "reviewer",
+            "reviewed_at",
+            "evidence",
+            "details"
+          ],
+          "type": "object"
+        },
+        "literal_interventions": {
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            },
+            "details": {
+              "properties": {
+                "assignment_equivalence_reviewed": {},
+                "assignments": {}
+              },
+              "required": [
+                "assignments",
+                "assignment_equivalence_reviewed"
+              ],
+              "type": "object"
+            },
+            "evidence": {
+              "items": {
+                "properties": {
+                  "path": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "pattern": "^[0-9a-f]{64}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "approved",
+            "reviewer",
+            "reviewed_at",
+            "evidence",
+            "details"
+          ],
+          "type": "object"
+        },
+        "measurement_counts": {
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            },
+            "details": {
+              "properties": {
+                "campaign_costs": {},
+                "counts": {},
+                "counts_supported_by_review": {}
+              },
+              "required": [
+                "counts",
+                "counts_supported_by_review",
+                "campaign_costs"
+              ],
+              "type": "object"
+            },
+            "evidence": {
+              "items": {
+                "properties": {
+                  "path": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "pattern": "^[0-9a-f]{64}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "approved",
+            "reviewer",
+            "reviewed_at",
+            "evidence",
+            "details"
+          ],
+          "type": "object"
+        },
+        "owner_arrangements": {
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            },
+            "details": {
+              "properties": {
+                "compute_arrangements_reviewed": {},
+                "laboratory_arrangements_reviewed": {},
+                "measurement_owner": {},
+                "registration_arrangements_reviewed": {}
+              },
+              "required": [
+                "measurement_owner",
+                "laboratory_arrangements_reviewed",
+                "compute_arrangements_reviewed",
+                "registration_arrangements_reviewed"
+              ],
+              "type": "object"
+            },
+            "evidence": {
+              "items": {
+                "properties": {
+                  "path": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "pattern": "^[0-9a-f]{64}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "approved",
+            "reviewer",
+            "reviewed_at",
+            "evidence",
+            "details"
+          ],
+          "type": "object"
+        },
+        "pilot_covariance": {
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            },
+            "details": {
+              "properties": {
+                "covariance_method": {},
+                "empirical_covariance_reviewed": {},
+                "pilot_id": {},
+                "shared_reference_covariance_retained": {}
+              },
+              "required": [
+                "pilot_id",
+                "covariance_method",
+                "shared_reference_covariance_retained",
+                "empirical_covariance_reviewed"
+              ],
+              "type": "object"
+            },
+            "evidence": {
+              "items": {
+                "properties": {
+                  "path": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "pattern": "^[0-9a-f]{64}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "approved",
+            "reviewer",
+            "reviewed_at",
+            "evidence",
+            "details"
+          ],
+          "type": "object"
+        },
+        "power_review": {
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            },
+            "details": {
+              "properties": {
+                "assay_cost_reviewed": {},
+                "biological_collaborator": {},
+                "empirical_power_reviewed": {},
+                "functional_endpoint": {},
+                "margin_metric": {},
+                "sample_size_by_context": {},
+                "useful_margin": {}
+              },
+              "required": [
+                "useful_margin",
+                "margin_metric",
+                "functional_endpoint",
+                "sample_size_by_context",
+                "empirical_power_reviewed",
+                "assay_cost_reviewed",
+                "biological_collaborator"
+              ],
+              "type": "object"
+            },
+            "evidence": {
+              "items": {
+                "properties": {
+                  "path": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "pattern": "^[0-9a-f]{64}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "approved",
+            "reviewer",
+            "reviewed_at",
+            "evidence",
+            "details"
+          ],
+          "type": "object"
+        },
+        "pretreatment_contexts": {
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            },
+            "details": {
+              "properties": {
+                "contexts": {},
+                "definitions_frozen_before_treatment": {}
+              },
+              "required": [
+                "contexts",
+                "definitions_frozen_before_treatment"
+              ],
+              "type": "object"
+            },
+            "evidence": {
+              "items": {
+                "properties": {
+                  "path": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "pattern": "^[0-9a-f]{64}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "approved",
+            "reviewer",
+            "reviewed_at",
+            "evidence",
+            "details"
+          ],
+          "type": "object"
+        },
+        "prospective_information": {
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            },
+            "details": {
+              "properties": {
+                "allowed_query_references": {},
+                "bridge_pair_ids": {},
+                "freeze_record": {},
+                "global_exclusion_context_ids": {},
+                "held_query_pair_ids": {},
+                "query_outcomes_unscored": {}
+              },
+              "required": [
+                "held_query_pair_ids",
+                "bridge_pair_ids",
+                "global_exclusion_context_ids",
+                "allowed_query_references",
+                "freeze_record",
+                "query_outcomes_unscored"
+              ],
+              "type": "object"
+            },
+            "evidence": {
+              "items": {
+                "properties": {
+                  "path": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "pattern": "^[0-9a-f]{64}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "approved",
+            "reviewer",
+            "reviewed_at",
+            "evidence",
+            "details"
+          ],
+          "type": "object"
+        },
+        "randomization": {
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            },
+            "details": {
+              "properties": {
+                "plate_block_assignments": {},
+                "randomized_assignment_reviewed": {}
+              },
+              "required": [
+                "plate_block_assignments",
+                "randomized_assignment_reviewed"
+              ],
+              "type": "object"
+            },
+            "evidence": {
+              "items": {
+                "properties": {
+                  "path": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "pattern": "^[0-9a-f]{64}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "approved",
+            "reviewer",
+            "reviewed_at",
+            "evidence",
+            "details"
+          ],
+          "type": "object"
+        },
+        "release_rights": {
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            },
+            "details": {
+              "properties": {
+                "license_id": {},
+                "permitted_uses": {},
+                "redistribution_review_completed": {},
+                "research_use_authorized": {}
+              },
+              "required": [
+                "license_id",
+                "permitted_uses",
+                "research_use_authorized",
+                "redistribution_review_completed"
+              ],
+              "type": "object"
+            },
+            "evidence": {
+              "items": {
+                "properties": {
+                  "path": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "sha256": {
+                    "pattern": "^[0-9a-f]{64}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "reviewed_at": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "approved",
+            "reviewer",
+            "reviewed_at",
+            "evidence",
+            "details"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "independent_initiation",
+        "pretreatment_contexts",
+        "randomization",
+        "literal_interventions",
+        "independent_references",
+        "measurement_counts",
+        "release_rights",
+        "prospective_information",
+        "pilot_covariance",
+        "power_review",
+        "interval_validation",
+        "owner_arrangements"
+      ],
+      "type": "object"
+    },
+    "schema": {
+      "const": "frontier_bridge_measurement_readiness_v1"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema",
+    "candidate_contract_id",
+    "gates"
+  ],
+  "title": "Frontier bridge measurement readiness package",
+  "type": "object"
+}
