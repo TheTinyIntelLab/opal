@@ -170,3 +170,6 @@ results/opal_frontier_bridge_v1/continuation-tests-20261012-a4/test_cli_template
 # Historical compact receipts are explicitly reviewed and tracked; remaining
 # generated metadata/numerical dependencies are preserved in the local inventory.
 /results/opal_frontier_bridge_v1/**
+
+# Real source metadata and downloaded methods stay local; compact receipts are explicitly staged.
+/results/opal_context_contrast_v1/**

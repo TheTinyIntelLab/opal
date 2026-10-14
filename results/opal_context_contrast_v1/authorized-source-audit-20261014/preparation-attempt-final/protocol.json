@@ -1,0 +1,40 @@
+{
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20261031,
+  "contexts": [
+    "TNFA+",
+    "TNFA-"
+  ],
+  "experiment_id": "opal_context_contrast_v1",
+  "fold_seed": 20261012,
+  "inner_folds": 3,
+  "input_rank": 4,
+  "maximum_condition_number": 10000.0,
+  "maximum_genes": 512,
+  "minimum_common_genes": 256,
+  "minimum_common_pairs": 36,
+  "minimum_relative_mse_gain": 0.05,
+  "normalization": "library_10000_mean_log2_control_subtract",
+  "outer_folds": 3,
+  "output_rank": 2,
+  "penalties": [
+    0.1,
+    1,
+    10
+  ],
+  "primary_metric": "equal_pair_context_aggregate_response_mse",
+  "rank_relative_tolerance": 1e-08,
+  "raw_bytes": 3142132144,
+  "raw_path": "data/raw/pertspectra-model-series/inhouse.h5ad",
+  "raw_sha256": "7b72d474be90d3e236e9b4d7dce3fdf9806e5329f84f3eaa973ec605f52ebd12",
+  "retrieval_permutations": 99,
+  "retrieval_seed": 20261033,
+  "role": "exposed_public_development",
+  "scale_floor": 1e-06,
+  "schema_version": 1,
+  "shuffle_seeds": [
+    20261021,
+    20261022,
+    20261023
+  ]
+}
