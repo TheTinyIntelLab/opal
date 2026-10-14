@@ -34,18 +34,56 @@
     "status": "completed_exposed_feasibility",
     "wall_seconds": 530.2828088999959
   },
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "dependencies_installed": false,
+  "gxe_acquisition": {
+    "download_bytes": 611638699,
+    "gpu_seconds": 0,
+    "installs": 0,
+    "raw_inputs_copied": false,
+    "scope": "acquisition process only",
+    "wall_seconds": 53.67295800001011
+  },
+  "gxe_interrupted_cpu_accounting_complete": false,
+  "gxe_measurement_decision": {
+    "all_declared_rows_accounted": true,
+    "counts_acquired": true,
+    "frontier_claim": false,
+    "independent_confirmation": false,
+    "phi18_nomination": false,
+    "scientific_models_fit": 0,
+    "source_36_pair_gate_passed": false,
+    "status": "completed_technical_measurement_pilot"
+  },
+  "gxe_measurement_resource": {
+    "cpu_seconds": 974.15625,
+    "gpu_seconds": 0,
+    "installs": 0,
+    "numerical_threads": 1,
+    "peak_sampled_rss_bytes": 323588096,
+    "retained_bytes": 87602,
+    "scope": "measurement process only; acquisition separately accounted",
+    "source_copied": false,
+    "wall_seconds": 975.3833486000076
+  },
+  "gxe_memory_accounting": {
+    "accepted_ram_bytes": 8589934592,
+    "continuous_peak_measured": false,
+    "reference_cube_bytes": 268868736,
+    "temporary_cubes_coexist": true
+  },
+  "historical_raw_caches_copied": false,
   "implementation_status": "SC01-SC08 software present; owner execution accepted; source scientific qualification failed",
   "independent_biological_confirmation": false,
   "local_measurement_discovery": "local_measurement_discovery.json",
   "manuscript": {
     "compiler": "tools/vendor/tectonic.exe",
     "confirmation_readiness_status": "measurement_not_ready",
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "dependencies_installed": false,
     "downloads": false,
     "executed_crossed_single_status": "completed_exposed_feasibility; spending filter failed",
+    "gxe_measurement_status": "completed technical-only pilot; no models fit or confirmation",
     "historical_pdf": {
       "path": "paper/historical/main-20261012.pdf",
       "sha256": "e8db47bfa7797d1df72028ad5af5fbbb20046a3beeaa68e168c4915b7c9faa98"
@@ -75,6 +113,7 @@
       "evidence/dose-results.pdf": "4b1434deefce3b09f6a3c9d7852e702438807781ae25606d6c02241e03b734d5",
       "evidence/dose_results.pdf": "81e8f0ba21f4c690fe47e414e1211847b5b3a044c84b79e2cc9dddd32de899b2",
       "evidence/dose_results.tex": "9222e3e805cec47ac96aee5aa7be7a77efe2ec05fe0db2d2055c474e368b6a71",
+      "evidence/gxe_measurement.tex": "4be039e5bd0ea3690392a8929c13e329fd7b43e1b071b4b58349f32c829ee0a9",
       "evidence/identity_results.pdf": "2088ee5fd4565f31f7d45e6b9475d2643efb24bd8a36a68486edda54b58fde2e",
       "evidence/identity_results.tex": "63e257263b9475bc1314f34b7b726267564cb191b5c7bd744ca905c9a61a2a3f",
       "evidence/improvement-relative-gain.pdf": "ef8913eebb6ea1fa989aa79457dccccf1c61144e21cec73ebec2bf8c7a1e2298",
@@ -123,13 +162,13 @@
       "evidence/wessels-log2-primary-residual_geometry.pdf": "d4c80dd5b7b0429cb65440300d4d446977f04f5487cbd06dc43c16d41e3e0a34",
       "evidence/wessels-log2-primary-residual_spectrum.pdf": "762f31401413435074a5c36c6a53e86cdda0f1880627a919d1b3a7582d9a0519",
       "evidence/wessels-log2-primary-sample_efficiency.pdf": "8fca9623e62b99fbd4de8e4e82fd814a1a0d46713904e05f5cfd4b933835a4de",
-      "main.tex": "f804c8077a957cae010d71d8d7931eb8b128ef3791ef6bb1993fffd7919e32e3",
+      "main.tex": "227ed2067e77f9166bcf312ca457255574a6743635eeb5f6cf11230ea9405fc6",
       "references.bib": "15a94f5a3c4e1c6f010e461dc41e50fb7d1dbbcb59ef020e82e87b1496d1b7bd"
     },
     "only_cached": true,
     "owner_execution_authorized": true,
-    "pdf_pages": 45,
-    "pdf_sha256": "cc9697f9b37c6866c08503a6a9e1af6e365ece3a16d2da2dedc8e0cffc8170e9",
+    "pdf_pages": 46,
+    "pdf_sha256": "5818790d0c7cc833f5bac5429b8a03b30d7daa6cd6c2802240b74686f80f27f6",
     "scientific_fitting": false,
     "scientific_fitting_during_compile": false,
     "single_response_qualification_status": "metadata_only_unqualified",
@@ -141,33 +180,34 @@
     ]
   },
   "markdown": {
-    "documents": 73,
-    "manifest_sha256": "52c8a1d430fe008adbe361262311c653802f271400479e842e12c4a0f01c5017",
+    "documents": 76,
+    "manifest_sha256": "f80128da6959857592d59101f2d35aff3b00a12b4502059eab05e586f7254a7b",
     "unavailable_local_links": 0
   },
   "maximum_recorded_rss_bytes": 422600704,
+  "maximum_recorded_rss_scope": "maximum prior recorded or callback-sampled value; not continuous whole-process peak",
   "owner_execution_authorized": true,
   "package": {
     "build_isolated": false,
     "checkpoint_payloads_included": false,
     "distributions": [
       {
-        "bytes": 237066,
+        "bytes": 238714,
         "name": "opal_research-0.1.3.dev0-py3-none-any.whl",
-        "sha256": "c2a159f1d46061a5eb3a1123bce523d90a67a141a7b75cb6ba7148237d1889b0"
+        "sha256": "f23bf4b18864a582c72c67860643245e41d6848a69db41aff14f9b90e6a5a8ca"
       },
       {
-        "bytes": 1057098,
+        "bytes": 1072427,
         "name": "opal_research-0.1.3.dev0.tar.gz",
-        "sha256": "d494fc4873b0adcbeae14b91b912fb6b05c770f383ce95ac6968abb013d0bec5"
+        "sha256": "cd99ccd8690b38a2e02b15814956c83d093c31938f3d3de0cdb45702d8aa7d18"
       }
     ],
-    "members": 88,
-    "wheel_bytes": 237066,
+    "members": 89,
+    "wheel_bytes": 238714,
     "wheel_import_smoke": "both pipeline modules loaded directly from wheel without installation",
-    "wheel_sha256": "c2a159f1d46061a5eb3a1123bce523d90a67a141a7b75cb6ba7148237d1889b0"
+    "wheel_sha256": "f23bf4b18864a582c72c67860643245e41d6848a69db41aff14f9b90e6a5a8ca"
   },
-  "raw_downloaded_or_copied": false,
+  "raw_downloaded_or_copied": true,
   "regeneration_attempt_ledger": {
     "acceptance_hash": "984a0f0af039df1fd8fd61d61e3a534cd8c606c35781406e4a593d6ca68e57a5",
     "cpu_accounting_complete": true,
@@ -184,7 +224,7 @@
   },
   "regeneration_attempt_status": "source_ineligible",
   "remaining_plan_work": "remaining_plan_work.json",
-  "scope": "software builds plus executed exposed crossed-single preparation/fitting/scoring; pair experiment ineligible and independent confirmation unrun",
+  "scope": "software, exposed single-response run and official chemical technical measurement pilot; pair diagnostic ineligible, independent confirmation unrun",
   "single_response_qualification_status": "metadata_only_unqualified",
   "source_attempt_ledger": {
     "acceptance_hash": "b2aa58f328063e364b4f661c43f30671c33ab68edd14ed8eefbbb99b422077ad",
@@ -203,9 +243,9 @@
   "source_preparation_status": "source_ineligible",
   "tests": {
     "current_environment": "existing Windows Python 3.14 environment; no dependency installation",
-    "elapsed_seconds": 46.54,
-    "log_sha256": "c25f7853fd15841992f990ae42d65d52bfd0c6c4e3dfe60d77006ffa508ec63d",
-    "passed": 369,
+    "elapsed_seconds": 54.6,
+    "log_sha256": "6ecd0e1b904d298bb25d5d61f29dad47ef80842d4e481ab9dfa0ecd23789df1c",
+    "passed": 373,
     "status": "passed"
   },
   "training": true

@@ -1,5 +1,11 @@
 # Active implementation handoff: second council
 
+## Official measurement acquisition, 14 October 2026
+
+The owner-directed data acquisition obtained the official GSM7056151 chemical-combination count/annotation/hash files (611,638,699 bytes) and executed a separately registered technical measurement pilot. All 66 declared pair/context rows are accounted for: 47 supported, 19 explicitly unsupported. Response-half agreement beats a zero-effect baseline on supported rows, but residual-half error does not beat zero in any of the three cell origins. No predictive model was fit or nominated. The 22 canonical trametinib-star pairs cannot meet the unchanged 36-pair diagnostic floor; doses, cells and nominal repeats are not new pair identities or cultures. The frozen genetic/TNF task remains source-ineligible.
+
+Real public dose/time/vehicle and RT assignment records were obtained; independent culture initiation, reference lineage, useful margin/power review, assay costs and prospective confirmation are still missing. The next action is an independent reference/culture precision pilot with real provenance, not a rescue architecture sweep. `docs/frontier/gxe_measurement_results.md` and the source-record request packet document actual measurements, source limits and complete failure/resource custody. The stopped third preparation attempt has incomplete CPU accounting; that uncertainty is preserved.
+
 ## Executed single-response pivot, 14 October 2026
 
 The owner-directed practical alternative `opal_crossed_single_v1` completed a separate preregistered 96-compound/512-gene sci-Plex study at 1,000 nM and 24 hours. Measured responses in two lines predict withheld compound responses in a third observed line, with permitted target training-identity calibration. All 684 logical invocations, complete predictions, exact replay and source/evaluator separation are retained. The finite development spending filter failed; its registered next action is: close finite rank-16 probe; no rescue sweep. This task does not inherit a pair, unseen-context, biological-confirmation or frontier claim. See `docs/frontier/crossed_single_feasibility_results.md` and its fixed protocol. The pair source remains ineligible, the Tahoe lead remains metadata-unqualified, and independent culture/power/utility evidence remains absent.

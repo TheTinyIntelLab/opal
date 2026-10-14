@@ -43,3 +43,7 @@ Derived software records can be rebuilt. Actual past dose/duration, molecular-gu
 ## Executed practical single-response alternative
 
 The existing sci-Plex count/primary-metadata cache supported a separately registered exposed-development single-response study. Fresh preparation, all 684 nested/final invocations, exact replay and complete scoring now ran; the spending filter failed. See [actual results](crossed_single_feasibility_results.md) and [frozen protocol](crossed_single_feasibility_protocol.md). This resolves the bounded single-response feasibility milestone without changing the pair refusal or manufacturing independent cultures. The registered next action is close finite rank-16 probe; no rescue sweep.
+
+## Official measurement source acquired
+
+The [GxE technical pilot](gxe_measurement_results.md) acquired 611,638,699 official input bytes, produced a source graph/panel and completed a measurement readout with 47 supported and 19 unsupported pair/context rows. The primary paper and barcode allocation supply real protocol records, but independently initiated cultures remain unverified and the star has only 22 canonical pairs. Technical residual agreement does not beat zero. Source/measurement qualification has advanced, while prediction nomination, biological power/margin review, independent confirmation and native/functional cost claims remain unrun. The [source-record packet](measurement_records_request.md) identifies exact remaining records; no partner message, study order or agreement is fabricated.

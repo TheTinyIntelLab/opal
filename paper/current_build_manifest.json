@@ -1,10 +1,11 @@
 {
   "compiler": "tools/vendor/tectonic.exe",
   "confirmation_readiness_status": "measurement_not_ready",
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "dependencies_installed": false,
   "downloads": false,
   "executed_crossed_single_status": "completed_exposed_feasibility; spending filter failed",
+  "gxe_measurement_status": "completed technical-only pilot; no models fit or confirmation",
   "historical_pdf": {
     "path": "paper/historical/main-20261012.pdf",
     "sha256": "e8db47bfa7797d1df72028ad5af5fbbb20046a3beeaa68e168c4915b7c9faa98"
@@ -34,6 +35,7 @@
     "evidence/dose-results.pdf": "4b1434deefce3b09f6a3c9d7852e702438807781ae25606d6c02241e03b734d5",
     "evidence/dose_results.pdf": "81e8f0ba21f4c690fe47e414e1211847b5b3a044c84b79e2cc9dddd32de899b2",
     "evidence/dose_results.tex": "9222e3e805cec47ac96aee5aa7be7a77efe2ec05fe0db2d2055c474e368b6a71",
+    "evidence/gxe_measurement.tex": "4be039e5bd0ea3690392a8929c13e329fd7b43e1b071b4b58349f32c829ee0a9",
     "evidence/identity_results.pdf": "2088ee5fd4565f31f7d45e6b9475d2643efb24bd8a36a68486edda54b58fde2e",
     "evidence/identity_results.tex": "63e257263b9475bc1314f34b7b726267564cb191b5c7bd744ca905c9a61a2a3f",
     "evidence/improvement-relative-gain.pdf": "ef8913eebb6ea1fa989aa79457dccccf1c61144e21cec73ebec2bf8c7a1e2298",
@@ -82,13 +84,13 @@
     "evidence/wessels-log2-primary-residual_geometry.pdf": "d4c80dd5b7b0429cb65440300d4d446977f04f5487cbd06dc43c16d41e3e0a34",
     "evidence/wessels-log2-primary-residual_spectrum.pdf": "762f31401413435074a5c36c6a53e86cdda0f1880627a919d1b3a7582d9a0519",
     "evidence/wessels-log2-primary-sample_efficiency.pdf": "8fca9623e62b99fbd4de8e4e82fd814a1a0d46713904e05f5cfd4b933835a4de",
-    "main.tex": "f804c8077a957cae010d71d8d7931eb8b128ef3791ef6bb1993fffd7919e32e3",
+    "main.tex": "227ed2067e77f9166bcf312ca457255574a6743635eeb5f6cf11230ea9405fc6",
     "references.bib": "15a94f5a3c4e1c6f010e461dc41e50fb7d1dbbcb59ef020e82e87b1496d1b7bd"
   },
   "only_cached": true,
   "owner_execution_authorized": true,
-  "pdf_pages": 45,
-  "pdf_sha256": "cc9697f9b37c6866c08503a6a9e1af6e365ece3a16d2da2dedc8e0cffc8170e9",
+  "pdf_pages": 46,
+  "pdf_sha256": "5818790d0c7cc833f5bac5429b8a03b30d7daa6cd6c2802240b74686f80f27f6",
   "scientific_fitting": false,
   "scientific_fitting_during_compile": false,
   "single_response_qualification_status": "metadata_only_unqualified",

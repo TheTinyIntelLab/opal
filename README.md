@@ -26,11 +26,13 @@ Opal **0.1.2** has a [GitHub research release](https://github.com/TheTinyIntelLa
 
 The current research successor is [`opal_context_contrast_v1`](docs/frontier/context_contrast_implementation.md). The complete SC01–SC08 software is implemented and execution is authorized. The real-source preparation attempt stopped before expression access: 51 nominally covered pairs yielded zero exact-assignment-qualified pairs. Fitting and biological scoring remain unrun because the approved scientific gate failed, not because permission is missing. The frozen bridge and its original evidence remain preserved. See the [authorized execution report](docs/frontier/authorized_execution_status.md) for receipts and missing source records.
 
-The [14 October implementation closeout](docs/frontier/implementation_completion.md) records 369 passing tests, successful wheel/source builds, local Markdown documentation rendering and the offline 45-page manuscript build. Those checks complete software/build verification, while the scientific PLAN's numerical and independent-measurement milestones remain pending.
+The [14 October implementation closeout](docs/frontier/implementation_completion.md) records 373 passing tests, successful wheel/source builds, local Markdown documentation rendering and the offline 46-page manuscript build. Those checks complete software/build verification, while the scientific PLAN's numerical and independent-measurement milestones remain pending.
 
 The remaining roadmap now includes an executed [single-response source qualification](docs/frontier/crossed_single_qualification.md), the [crossed-repeatability pilot draft](docs/frontier/crossed_repeatability_pilot.md), and an actual negative confirmation-readiness check. Both scientific routes remain unqualified; [remaining PLAN work](docs/frontier/remaining_plan_work.md) lists the evidence needed for each milestone.
 
 The separate [crossed-single feasibility study](docs/frontier/crossed_single_feasibility_results.md) now has actual nested training and scoring results for 96 compounds across three observed target lines. Its spending filter failed; no pair-composition, independent-confirmation or frontier claim follows.
+
+The [official GxE measurement pilot](docs/frontier/gxe_measurement_results.md) acquired real public counts and assignment records and accounted for all 66 declared pair/context rows. Its technical residual agreement did not beat a zero residual baseline; no model or independent confirmation is promoted.
 
 ## 1. Introduction
 
