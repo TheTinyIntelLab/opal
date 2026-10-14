@@ -1,8 +1,13 @@
 {
-  "cache_directory": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\vendor\\tectonic-cache",
-  "compiler": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\vendor\\tectonic.exe",
-  "historical_manifest": "paper/historical/build_manifest-20261012.json",
-  "inputs": {
+  "compiler": "tools/vendor/tectonic.exe",
+  "date": "2026-10-14",
+  "dependencies_installed": false,
+  "downloads": false,
+  "historical_pdf": {
+    "path": "paper/historical/main-20261012.pdf",
+    "sha256": "e8db47bfa7797d1df72028ad5af5fbbb20046a3beeaa68e168c4915b7c9faa98"
+  },
+  "input_sha256": {
     "arxiv.sty": "5ca551dbda41573265dd8c1e9c983ba9729f7d4070a9f1503dd8c7fd65d1dc46",
     "evidence/adamson_transfer_results.pdf": "c1278c670a39b6a3940d8ec9c84bf48d68d0e844bffdaf3b1d251cf94381d89d",
     "evidence/adamson_transfer_results.tex": "bc3e9707d2adf83a0ab4b381934f159b44cd8ec355f51706d54a8c9000d51b46",
@@ -21,7 +26,7 @@
     "evidence/ceiling_results.tex": "30eb4f784e7ec60f4837bda25d067f751cd7103b5e15be400bda58107718acd0",
     "evidence/ceiling_risk.tex": "c14d93cb377755690e55127e73ef1eb09a935b1ac5ad42aec30d7a2d31295793",
     "evidence/chemical-exploratory-baselines.pdf": "380846bda5c3e3b6fb0e39ee9c8b203c28a994a34f953ed49e4282c7d3a91f34",
-    "evidence/context_contrast_implementation.tex": "43dfcf14fb37b562c3ea07706d2254c34672be367065cd5f5f977a55ec66ad35",
+    "evidence/context_contrast_implementation.tex": "9039737d5f30e8b024cd14d86c9ea0a93b5738d38169fc2bf773ea076242dcc5",
     "evidence/coverage.pdf": "8168188f297de410b69abc140fb3d7402ee5bc44d70d53c27e9f9970d06ef2a7",
     "evidence/dose-results.pdf": "4b1434deefce3b09f6a3c9d7852e702438807781ae25606d6c02241e03b734d5",
     "evidence/dose_results.pdf": "81e8f0ba21f4c690fe47e414e1211847b5b3a044c84b79e2cc9dddd32de899b2",
@@ -74,10 +79,18 @@
     "evidence/wessels-log2-primary-residual_geometry.pdf": "d4c80dd5b7b0429cb65440300d4d446977f04f5487cbd06dc43c16d41e3e0a34",
     "evidence/wessels-log2-primary-residual_spectrum.pdf": "762f31401413435074a5c36c6a53e86cdda0f1880627a919d1b3a7582d9a0519",
     "evidence/wessels-log2-primary-sample_efficiency.pdf": "8fca9623e62b99fbd4de8e4e82fd814a1a0d46713904e05f5cfd4b933835a4de",
-    "main.tex": "925a365861c77e8687cb039783b8e347a3c5756242fe1e0f553b62c7953b8dd2",
+    "main.tex": "06d07b6b6f0da0b11ec9a49c74577ff729878b1157e531e2a49a255220563d4d",
     "references.bib": "15a94f5a3c4e1c6f010e461dc41e50fb7d1dbbcb59ef020e82e87b1496d1b7bd"
   },
   "only_cached": true,
-  "pdf_sha256": "9456493c5d8749e7b6d3a48b7860a54829964747e932cf591cc9eeb4c4ba8853",
-  "return_code": 0
+  "owner_execution_authorized": true,
+  "pdf_pages": 44,
+  "pdf_sha256": "1bd9de2061c221b657c59a6871a5d6fd99849f7c6a45690f21a5c158d703846f",
+  "scientific_fitting": false,
+  "source_preparation_status": "source_ineligible",
+  "status": "compiled_offline",
+  "warnings": [
+    "existing underfull vertical boxes",
+    "fontconfig default configuration warning; compilation succeeded"
+  ]
 }

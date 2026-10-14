@@ -4,7 +4,7 @@
   "completion": "implementation_completion.md",
   "date": "2026-10-14",
   "dependencies_installed": false,
-  "implementation_status": "SC01-SC08 software present; authorized numerical and empirical milestones pending",
+  "implementation_status": "SC01-SC08 software present; owner execution accepted; source scientific qualification failed",
   "manuscript": {
     "compiler": "tools/vendor/tectonic.exe",
     "date": "2026-10-14",
@@ -33,7 +33,7 @@
       "evidence/ceiling_results.tex": "30eb4f784e7ec60f4837bda25d067f751cd7103b5e15be400bda58107718acd0",
       "evidence/ceiling_risk.tex": "c14d93cb377755690e55127e73ef1eb09a935b1ac5ad42aec30d7a2d31295793",
       "evidence/chemical-exploratory-baselines.pdf": "380846bda5c3e3b6fb0e39ee9c8b203c28a994a34f953ed49e4282c7d3a91f34",
-      "evidence/context_contrast_implementation.tex": "43dfcf14fb37b562c3ea07706d2254c34672be367065cd5f5f977a55ec66ad35",
+      "evidence/context_contrast_implementation.tex": "9039737d5f30e8b024cd14d86c9ea0a93b5738d38169fc2bf773ea076242dcc5",
       "evidence/coverage.pdf": "8168188f297de410b69abc140fb3d7402ee5bc44d70d53c27e9f9970d06ef2a7",
       "evidence/dose-results.pdf": "4b1434deefce3b09f6a3c9d7852e702438807781ae25606d6c02241e03b734d5",
       "evidence/dose_results.pdf": "81e8f0ba21f4c690fe47e414e1211847b5b3a044c84b79e2cc9dddd32de899b2",
@@ -86,13 +86,15 @@
       "evidence/wessels-log2-primary-residual_geometry.pdf": "d4c80dd5b7b0429cb65440300d4d446977f04f5487cbd06dc43c16d41e3e0a34",
       "evidence/wessels-log2-primary-residual_spectrum.pdf": "762f31401413435074a5c36c6a53e86cdda0f1880627a919d1b3a7582d9a0519",
       "evidence/wessels-log2-primary-sample_efficiency.pdf": "8fca9623e62b99fbd4de8e4e82fd814a1a0d46713904e05f5cfd4b933835a4de",
-      "main.tex": "925a365861c77e8687cb039783b8e347a3c5756242fe1e0f553b62c7953b8dd2",
+      "main.tex": "06d07b6b6f0da0b11ec9a49c74577ff729878b1157e531e2a49a255220563d4d",
       "references.bib": "15a94f5a3c4e1c6f010e461dc41e50fb7d1dbbcb59ef020e82e87b1496d1b7bd"
     },
     "only_cached": true,
+    "owner_execution_authorized": true,
     "pdf_pages": 44,
-    "pdf_sha256": "9456493c5d8749e7b6d3a48b7860a54829964747e932cf591cc9eeb4c4ba8853",
+    "pdf_sha256": "1bd9de2061c221b657c59a6871a5d6fd99849f7c6a45690f21a5c158d703846f",
     "scientific_fitting": false,
+    "source_preparation_status": "source_ineligible",
     "status": "compiled_offline",
     "warnings": [
       "existing underfull vertical boxes",
@@ -100,37 +102,53 @@
     ]
   },
   "markdown": {
-    "documents": 67,
-    "manifest_sha256": "672ddfba1fa0ccded31c14e687ccd68e642d7634ce05cbc648d857a80ec6099f",
+    "documents": 68,
+    "manifest_sha256": "e9b215a82d01cc33268f7384bc1fab17d4b824ee0af1e4403a2f0b7302207a1f",
     "unavailable_local_links": 0
   },
+  "owner_execution_authorized": true,
   "package": {
     "build_isolated": false,
     "checkpoint_payloads_included": false,
     "distributions": [
       {
-        "bytes": 233178,
+        "bytes": 234695,
         "name": "opal_research-0.1.3.dev0-py3-none-any.whl",
-        "sha256": "280399a5e589bd81fed67359184fe80100f98c720948c57d40dd1b795588ec5a"
+        "sha256": "d8cd333636dfe64a20b372dc10b1923459c7e5354876f67bc7f5316b90c79b85"
       },
       {
-        "bytes": 1028581,
+        "bytes": 1034584,
         "name": "opal_research-0.1.3.dev0.tar.gz",
-        "sha256": "3a80b857dc58434a4ee86f26f31e317a8117a237f67e8160a513fe167a781b14"
+        "sha256": "7dd30e25505542f373843c57b21fc7587ba0e828c7c9877796bef2f468b05396"
       }
     ],
-    "members": 86,
-    "wheel_bytes": 233178,
+    "members": 87,
+    "wheel_bytes": 234695,
     "wheel_import_smoke": "both pipeline modules loaded directly from wheel without installation",
-    "wheel_sha256": "280399a5e589bd81fed67359184fe80100f98c720948c57d40dd1b795588ec5a"
+    "wheel_sha256": "d8cd333636dfe64a20b372dc10b1923459c7e5354876f67bc7f5316b90c79b85"
   },
   "raw_downloaded_or_copied": false,
-  "scope": "software, packaging and documentation only; no scientific execution",
+  "scope": "software builds and authorized real-source qualification attempt; no scientific fitting/scoring",
+  "source_attempt_ledger": {
+    "acceptance_hash": "b2aa58f328063e364b4f661c43f30671c33ab68edd14ed8eefbbb99b422077ad",
+    "cpu_accounting_complete": true,
+    "cpu_seconds": 2.84375,
+    "downloads": 0,
+    "gpu_seconds": 0,
+    "installs": 0,
+    "peak_retained_bytes": 33328435,
+    "peak_rss_bytes": 98516992,
+    "retained_bytes": 33333701,
+    "scope": "this one-thread process only; historical accounting unchanged",
+    "status": "source_ineligible",
+    "wall_seconds": 2.8454156999941915
+  },
+  "source_preparation_status": "source_ineligible",
   "tests": {
     "current_environment": "existing Windows Python 3.14 environment; no dependency installation",
-    "elapsed_seconds": 45.81,
-    "log_sha256": "ca6239d24689d0e731b655697029058c70396e733c6424808d78e3d47689d499",
-    "passed": 360,
+    "elapsed_seconds": 46.67,
+    "log_sha256": "e745ca9c850c13d2d5ebcc88caaba4647b5a7f5abfc8e92216285f35133357b3",
+    "passed": 363,
     "status": "passed"
   },
   "training": false

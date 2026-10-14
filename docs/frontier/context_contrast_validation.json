@@ -19,6 +19,12 @@
     {
       "command": "successor plus frozen bridge model/qualification/resource/strata/readiness regression after reference-only decoding guard",
       "passed": 78
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m pytest -q",
+      "date": "2026-10-14",
+      "elapsed_seconds": 46.67,
+      "passed": 363
     }
   ],
   "code_sha256": {
@@ -43,6 +49,7 @@
     "local fixtures; no installed-wheel/platform/GPU certification",
     "retained checkpoint compression and biological runtime unprofiled"
   ],
+  "owner_execution_authorized": true,
   "preserved_preexisting_dirty_work": [
     "docs/next_cycle/agent_prompt_model_series_v2.md",
     "docs/next_cycle/collaboration_brief.md",
@@ -59,5 +66,6 @@
   "source_hash": "7b72d474be90d3e236e9b4d7dce3fdf9806e5329f84f3eaa973ec605f52ebd12",
   "source_hash_reverified": true,
   "source_preparation_run": false,
+  "source_preparation_status": "source_ineligible",
   "status": "software_validation_only"
 }

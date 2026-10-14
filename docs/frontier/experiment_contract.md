@@ -1,6 +1,14 @@
 # Active council contract and frozen historical v1
 
-## Active implementation status, 13 October 2026
+## Current execution status, 14 October 2026
+
+The owner has authorized complete execution, including numerical work. That authorization was accepted and the existing 3,142,132,144-byte cache was hash-verified without copying or downloading it. The authorized preparation attempt stopped at scientific Gate 1 before expression decoding, panel selection, fitting or biological scoring: 51 canonical pairs have nominal ten-cell coverage, but zero pairs have certified exact assignment equivalence. Dose, duration, independent initiation and validated guide-equivalence evidence are missing from the inspected source metadata and primary/supplemental methods. These are missing scientific records, not missing owner permission.
+
+The author-posted Zenodo data deposit provides CC-BY-4.0 research rights; the upstream software has separate CC-BY-NC-4.0 terms and was not incorporated. Rights review passed; exact-assignment review failed. All five advancement gates remain false, with downstream stages explicitly recorded as `not_run`. This closes the current-source attempt as `source_ineligible` and establishes no biological negative. The 36-pair minimum, 256-gene minimum and historical 207-gene refusal remain unchanged. Owner authorization persists; eligible, documented assignments are needed to advance.
+
+The complete SC01–SC08 software implementation is present. Independent cultures, anchors, useful margins, power and native frontier comparisons are not established. Earlier dated authorization statements below describe the historical implementation-only phase and are superseded by this section. See [the current execution report](authorized_execution_status.md) for commands, receipts, resource scope and source references.
+
+## Historical implementation status, 13 October 2026
 
 The owner authorized repository implementation and small-fixture software checks. The separately named `opal_context_contrast_v1` pipeline is now implemented in `src/context_contrast/`; its preparation, scientific fitting and biological scoring remain unauthorized and unrun. The frozen bridge is retired as the research default, and its configuration, historical scores, failed attempts and 207/256-gene refusal remain unchanged. Synthetic failure and source incompatibility establish no biological failure.
 
