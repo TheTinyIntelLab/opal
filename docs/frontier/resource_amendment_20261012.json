@@ -1,0 +1,35 @@
+{
+  "amendment_id": "frontier-engineering-continuation-20261012",
+  "artifact_cap_bytes": 3250000000,
+  "authorization_basis": "User requested autonomous continuation after the reported 60 MB retention stop, said space had been freed, and explicitly authorized sub-agents and plan updates. The finite numerical allowances below are agent-selected implementation decisions under that delegated authorization.",
+  "authorization_quote": "go ahead and do absolutely everything you can. i have freed up some space too. do everything",
+  "cpu_core_hours": 24,
+  "environment_installations": false,
+  "experiment_id": "opal_frontier_bridge_v1",
+  "external_engineering_output_root": "E:\\opal-frontier-engineering-20261012",
+  "gpu_training": false,
+  "historical_evidence_deletion_authorized": false,
+  "new_retained_bytes": 300000000,
+  "previous_artifact_cap_bytes": 3000000000,
+  "previous_new_retained_bytes": 60000000,
+  "prior_limit_failure_preserved": true,
+  "raw_downloads": false,
+  "reserve_bytes": 1073741824,
+  "retention_closeout_revision": {
+    "cpu_thread_reserve_unchanged": true,
+    "inherited_plus_new_cap_unchanged": 3250000000,
+    "observed_retained_at_test_guard": 250169063,
+    "previous_allowance": 250000000,
+    "previous_amendment_asset": {
+      "path": "docs/frontier/resource_amendment_20261012_250mb_E.json",
+      "sha256": "647ad0f0b433ff6b420850eb4d01a6abd4c2430d2d3b4a852d65e4b35213de83"
+    },
+    "reason": "All five synthetic cases and 630 strict replay checks finished; the full repository test process then hit the 250 MB retention guard. Preserve that failed run and allow bounded final test temporaries, compatibility verification and closeout receipts. No additional scientific fitting or operator search is introduced."
+  },
+  "retention_scope": "Cumulative frontier work including preceding failed/superseded attempts, new implementation/documents, registered test/build temporary roots, and snapshots. Historical missing nonempty artifact roots remain unavailable and conservatively charged at last-known bytes.",
+  "scientific_changes": "None. Common support minima, source roles, pair folds, bridge budget, ranks, penalties, seeds, endpoints and promotion gates remain fixed. No alternate public source or expanded gene panel is authorized by this amendment.",
+  "scope": "Complete local synthetic engineering, integrity validation, replay, accounting remediation and independent-measurement preparation. Public scoring remains prohibited when the fixed source qualification fails.",
+  "storage_location_decision": "User delegated autonomous local continuation and said space was freed. C: subsequently fell below the unchanged 1 GiB reserve while E: had 3.46 GB free. A newly created engineering-only E: root is permitted under this new delegated allowance; historical D/E scientific source roots remain read-only. No historical artifact is moved or deleted. C: receives only small configuration and reserved closeout/index receipts; numerical outputs and test temporaries use the new root.",
+  "threads": 1,
+  "workers": 1
+}

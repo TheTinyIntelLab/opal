@@ -1,4 +1,4 @@
-# Opal research and execution plan
+# Opal frontier: second strategic research council
 
 ## Active implementation status, 13 October 2026
 
@@ -10,743 +10,662 @@ Read-only source hashing matches the existing 3,142,132,144-byte cache. There is
 
 The dated council proposal and historical sections below remain preserved as specifications/evidence, rather than permission to execute numerical work. Current implementation details and validation receipts take precedence for software status; the scientific equations, seeds, ranks, penalties and stopping rules remain fixed.
 
-Updated 11 October 2026, Asia/Calcutta. This is the consolidated successor to the completed model-series plan. It includes the research roadmap, all unresolved comparison and measurement requirements, external validation dependencies, conditional research branches, implementation acceptance criteria, and the complete previous plan in the historical appendix. The root `PLAN.md` remains intentionally ignored. Its tracked, byte-identical mirror is `docs/next_cycle/model_series_v2_plan.md`. The current implementation handoff is `docs/next_cycle/agent_prompt_model_series_v2.md`.
+Updated 12 October 2026, Asia/Calcutta. Status: proposed research plan, not an execution authorization. The active report is identical in root PLAN.md, docs/frontier/PLAN.md and docs/next_cycle/model_series_v2_plan.md. The preceding plan is preserved below as a superseded historical snapshot, whose original root-file SHA-256 was bb6f80d52bd8545a4b92e15c8d716ffe96b4f75c3d32ac42d507473041cbebf9. Its task lists and resource statements are not current instructions.
 
-The decision is to freeze further mean-only architectural expansion, retain current Opal as the reference and reproducibility system, and test whether additional information from measured singles improves held-partner prediction. Confidence in this research decision is 85/100. This is a judgment about research allocation, not a calibrated probability of scientific success. A larger model, broad context transfer, reliable biological uncertainty and prospective discovery savings remain objectives with separate evidence gates.
+## 1. Executive decision
 
-This planning update authorizes documentation changes only. Implementation begins when the owner invokes the implementation handoff. The handoff's executable local scope and the restrictions in section 19 govern future work. Nothing in this document authorizes remote uploads, paid resources, new storage allowances, contacting collaborators or claiming a successful scientific result. Historical authorization text in the appendix records a completed task and does not expand the current scope.
+Choose **Path C: change the information regime, with a minimal context-contrast model and strong structured references**. The capability to pursue is prediction of reproducible, globally unmeasured combinations in new pretreatment-defined biological contexts, conditional on matched measured singles and a disclosed calibration budget. The most promising scientific contribution is that capability and its independent evidence, rather than a particular neural architecture.
 
-## 1. How to use this plan and record completion
+Retire the frozen four-bridge, two-mode candidate as the lead research procedure. Keep Opal-Base, residual kernels, qualification, role isolation, safe serialization, replay, resource guards and every failed attempt. This decision rejects further routine investment in that finite adapter; it does not establish that biological composition transfer fails. The source was ineligible, its banks were unavailable, and no biological responses were scored.
 
-Read sections 1 through 21 before executing any phase. The historical appendix is preserved evidence, not a second active backlog. Do not rerun completed model-series grids merely because their original checkboxes mention training. The implementation priority is evidence repair, one bounded information experiment, then frozen external confirmation when qualified data permit it.
+The first bounded experiment is a **new fixed-context contrast diagnostic**, provisionally named `opal_context_contrast_v1`. Declare a shared reference-only gene panel under its own protocol, then compare an 18-feature rank-two contrast ridge with eight-feature contrast ridge, nuisance corrections and equally informed kernels under global pair holdout. Both TNF contexts participate in training. This can test new-pair prediction across one observed contrast; it cannot establish transfer to an unseen context. Missing assets and absent numerical authorization currently prevent execution.
 
-Each new task needs an ID, status, dependency, owner role, code/config/source hashes, permitted label-access roles, resource allowance, attempted actions, outputs, verification evidence, scientific verdict and next action. Use these statuses consistently:
+The decisive longer-term investment is a crossed pair-by-context measurement panel with independently initiated cultures, exact singles/controls and independently estimated evaluation references. A public diagnostic is one spending filter, not a compulsory prerequisite to a small measurement-reliability pilot. If a kernel wins, it can become the successor Opal. If no eligible source or concrete measurement arrangement can be secured, close this execution branch and qualify one distinct single-intervention/context task instead of repeating architecture sweeps.
 
-| Status | Meaning |
+## 2. Current-state audit and evidence limits
+
+Evidence classes throughout are **verified local**, **primary-source report**, **exploratory indication**, **proposal/estimate**, and **unknown**. Saved numerical results were inspected, not recomputed. No model fitting, tests, dataset downloads, installation or configuration changes occurred during this council. Only the seven user-listed Markdown files are edited. Reusing the contract/handoff paths changes their documentation hashes; historical hash receipts remain bound to their dated versions and must not be rebound to the new text. The two supplied engineering reports receive clearly separated council annotations; their original generated text remains intact.
+
+### Actual inputs used
+
+The available manuscript is `paper/main.pdf`, 43 pages, SHA-256 `e8db47bfa7797d1df72028ad5af5fbbb20046a3beeaa68e168c4915b7c9faa98`. We used its matching `paper/main.tex`, saved evidence tables and existing `tmp/frontier_manuscript.txt`, including the final variance addendum. TeX SHA-256 is `8cfeff0223c530e89d9f0803bb0683f89287cfe6e5db66e9d9c7251ad5c4b5f1`. This was a content audit, not a new PDF render or a bytewise inspection of every checkpoint/raw matrix. Earlier dated manuscript names were not the available input.
+
+Local HEAD is `d12db0e53ec841d234e6b7913b7584f248674ba3`. The checkout was already dirty, with existing modified next-cycle documents and pyproject.toml and untracked frontier code/configuration/tests/results. Those pre-existing changes are preserved. The public repository URL returned HTTP 404 through the web reader; that does not disprove the private repository or its recorded private release.
+
+Current primary local records include:
+
+- `results/opal_frontier_bridge_v1/final-closeout-20261012/{report.md,summary.json,resource_ledger.json,final_resource_snapshot.json}`, the qualification records and actual final-case fit-attempt files.
+- `configs/experiments/opal_frontier_bridge_v1.json`, `docs/frontier/resource_amendment_20261012.json`, current contracts and handoff.
+- `src/frontier_bridge/{contracts,preparation,model,references,evaluation,resources,readiness}.py`; `src/models/{kernel,covariance_kernel}.py`; `src/series_bilinear.py`.
+- `results/opal_model_series_v2/report/claims.json`, `results/opal_information_v1/development/summary.json`, coverage records, manuscript evidence tables and source registries.
+- Previous council reports in `docs/frontier/reviews/`, historical release verification and current deployment manifests. Previous opinions are historical evidence, not votes for this decision.
+
+The engineering configuration currently hashes to `03cb57a2c39cfba5f137569a538e93a40eb81edf392c87d3ba177919de0a7bbf`. We leave it and all numerical records unchanged. Neither that current file hash nor older scientific/configuration hashes should be substituted for one another.
+
+### Established model evidence
+
+| Finding | Inspected evidence and implication |
 | --- | --- |
-| `complete_verified` | The deliverable exists and its stated acceptance checks passed. |
-| `complete_negative` | The declared experiment finished and the scientific criterion failed. Preserve it. |
-| `complete_bounded_attempt` | The declared attempt budget was exhausted and the exact failure or refusal is recorded. It does not satisfy eligibility. |
-| `pending_local` | Work can proceed with current permitted inputs and resources. |
-| `blocked_external` | A named indispensable resource, authorization, provenance record or experimental dependency is absent. |
-| `conditional_not_started` | A later branch's activation gate has not passed. |
-| `inconclusive` | The evidence cannot distinguish no benefit from practically useful benefit. |
-| `historically_unknown` | A historical measurement cannot be recovered honestly. |
+| Historical Norman structural advantage is inconclusive | Manuscript/TeX: neural MSE 0.007169187 versus frozen reduced-rank 0.007268184; conditional intervals cross zero. Additive gain of 15.81% does not establish strong-reference superiority. |
+| Historical Wessels neural model loses to correction | Neural 0.005423558 versus global correction 0.004214949, despite 61.08% additive skill. Shared effects are a serious competing explanation. |
+| Residual kernels are strong internal references | Nested development favors economical kernels in tested comparisons. Unequal menus and exposed history prevent a general claim that neural methods cannot work. |
+| Interaction and Guard are unpromoted | Saved claims give Interaction gains 0.0778822344% on Combi-seq, 0.0838481244% on TNF-positive and zero on TNF-negative. Guard did not earn its full promotion rule; favorable retrospective Norman views are not independent confirmation. |
+| D-SPIN transfer and shifted uncertainty fail | `paper/evidence/next_cycle_results.tex`: procedure 0.03402466 versus reference 0.03310752. Manuscript records nominal-90% source-radius coverage of 34.3% under shift. Post-treatment lineage is not independent pretreatment context or culture replication. |
+| Tested context/identity/product/prior extensions have not established advancement | Preserved manuscript continuations include unfavorable results, scale-sensitive exceptions and shuffled priors matching real priors. They reject their tested components, not every source of biological information. |
+| Extra pair coverage helped one Wessels contract | Random development reduction about 16.05%; partner about 4.92%. Fixed validation population, exposure and eligibility matter; this is not a general scaling law. |
+| Variance head failed against stronger matched controls | TNF-positive partner Base 0.0827597015, variance 0.0825683915, mean 0.0825437889, capacity mean 0.0825393157. Its 0.231163% Base gain loses to both mean controls; all registered triage comparisons fail. TNF-negative partner fallback reflects inadequate nested support. |
+| Frontier evidence remains absent | No reliable shifted uncertainty, positive general transfer, independent biological confirmation, prospective assay savings or eligible native frontier superiority is established. Recorded passing tests cannot fill these scientific gaps. |
 
-Separate engineering completion, comparison eligibility and scientific success in every status record. A working implementation can lose. An upstream execution can succeed but remain a protocol adaptation. A blocked biological gate cannot be checked off by synthetic tests, cell resampling or a new split seed.
+These rows use different tasks and scales. They are not a pooled leaderboard or new calculations.
 
-New tasks below start open. Statements about completed work refer to saved records inspected during planning, not new tests run during this edit. Dates in the schedule are relative to implementation kickoff and depend on gates, not promised calendar delivery.
+### Latest synthetic closeout
 
-## 2. Baseline, preserved evidence and current claim limits
+| Case | Direction | Candidate MSE | Locked selector MSE | Fallback fraction | Gate |
+| --- | --- | ---: | ---: | ---: | --- |
+| Affine | TNF+ to TNF- | 0.051106 | 0.076602 | 66.67% | Failed |
+| Affine | TNF- to TNF+ | 0.025848 | 0.076605 | 33.33% | Failed |
+| Nontransfer | TNF+ to TNF- | 0.498940 | 0.451835 | 33.33% | Failed |
+| Nontransfer | TNF- to TNF+ | 0.497344 | 0.489213 | 33.33% | Failed |
+| Null | Both | 0 | 0 | 100% | Failed |
+| Rank deficient | Both | Ties selector | Ties selector | 100% | Failed |
+| Transfer | TNF+ to TNF- | 0.662061 | 0.606641 | 0% | Failed |
+| Transfer | TNF- to TNF+ | 0.255751 | 0.345530 | 0% | Failed |
 
-The available manuscript is the 42-page `paper/main.pdf`, SHA-256 `7b5eefcb420482a1410967df0427e5e64297993da69a616ff4f9f2922adb9730`, matching its saved build manifest during research. The requested `main(20261010-201612).pdf` was not present. Verify current hashes at implementation kickoff rather than assuming the files have stayed unchanged.
+The entire query population remains scored, including fallback. Unsupported attribution controls block advancement. Every failed/incompatible attempt remains evidence.
 
-The v2 closeout is in `results/opal_model_series_v2/task_status.json`, `results/opal_model_series_v2/report/claims.json`, `results/opal_model_series_v2/report/summary.json`, `results/opal_model_series_v2/verification/final_resources.json`, and `docs/next_cycle/opal_model_series_v2.md`. The inspected HEAD during this documentation update was `0dcf3d4 record final series review`. Re-inventory actual HEAD, branch, status and source roots at execution time. Do not use the older original HEAD as a reset target.
+D inspected the actual failure records. Affine has three candidate fold-direction leave-one-bridge instability failures; nontransfer has two. Transfer has no candidate fit failure, but 21 required control fits fail that stability rule. Null fails source residual rank zero. The case named rank-deficient collapses source single profiles to rank one and fails the required rank-four encoder before bridge adaptation. It validates source degeneracy refusal, not an isolated bridge-rank test.
 
-| Panel | Base MSE | Interaction MSE | Guard MSE | Interpretation |
-| --- | ---: | ---: | ---: | --- |
-| Combi-seq | 2.11156369 | 2.10991916 | 2.11219386 | Interaction gains 0.077882%, while the matched main-effect control reaches 2.105071 and beats it. |
-| PertSpectra TNF-positive | 0.07778854 | 0.07772331 | 0.07835975 | Interaction gains 0.083848%; Guard loses to Base and constant mixing. |
-| PertSpectra TNF-negative | 0.07121801 | 0.07121801 | 0.07121801 | Nonlinear variants use their declared Base fallback. |
+Affine contains only 0.7 times additivity plus a context gene offset. Its mean-feature errors are about 0.0000734/0.0002016 and affine-reference errors about 0.0006083/0.0004021, far below the candidate. Candidate superiority over the locked selector therefore offers no transferred-composition evidence. This does not authorize replacing the historical selector retrospectively; it does require reporting all prespecified simpler references in future scientific claims.
 
-These different assays and scales must not be averaged into one biological score. The prespecified 2% nonlinear-default promotion criterion failed. This is a completed negative experiment, not an unfinished training job. Constant mixing is unavailable in four of twelve TNF-negative folds, so its eligible-only mean is not a full-population result.
+Transfer changes singles by 1 versus 0.8 while interaction amplitude changes by 1 versus 1.3. Product-coordinate scale and fixed target ridge may help explain asymmetry, but no error decomposition was rerun. Nontransfer uses different context output modes, making source-subspace failure plausible. These are generator/estimator explanations, not biological findings.
 
-Historical neural models achieved gains over additivity of approximately 15.81% on Norman and 61.08% on Wessels under their historical contracts, without a consistent advantage over stronger simple references. Norman's selected neural loss of 0.007169 versus reduced-rank 0.007268 does not demonstrate robust superiority; the ordinary ridge value of 0.006892 is descriptive and cannot be promoted through post-test selection. On Wessels, a global reference at 0.00421495 beats the neural model at 0.00542356. Preserve these distinct contracts and numerical provenance.
+The closeout records 630 original replayed predictions. The final-counter compatible-code checks restore an overlapping 378 exactly; these counts must not be added as independent evidence. It records 331 passing tests. Complete CPU/GPU certification and empirical measurement evidence remain unavailable.
 
-Norman Guard's retrospective gains of 3.168524% on log scale and 4.988153% on count scale are two views of one exposed source, not two independent confirmations. Wessels's extra-pair coverage experiment improves the same validation comparisons by approximately 16.05% for random and 4.92% for partner splits, while the tested extra singles add little. That motivates qualified pair coverage, not a universal sample-complexity claim. Reliability weighting has small mixed gains and covariance models have not established consistent superiority over diagonal alternatives.
+### Why there are only 207 common genes
 
-D-SPIN transfer fails the registered superiority comparison: the frozen procedure has MSE 0.03402466 versus source-selected pooled-pair 0.03310752. Its nominal 90% source-derived radius covers only about 34.3% of held conditions. Post-treatment lineage labels and sample strata are not independent cultures. Known-compound dose interpolation has a narrow positive result; dose extrapolation has not succeeded. Existing GO/GenePT/ESM priors, context encoders, structured output variants, shared-target annotation transfer, reference-uncertainty models and multiple residual families retain their negative or mixed records.
+The source has 13,901 genes in the recorded original assay. `tools/prepare_pertspectra_series.py:239` computes measured-single profile variance and independently selects 512 genes within each context. `src/frontier_bridge/contracts.py` intersects those registered panels, giving 207. The failure is preprocessing/feature-contract incompatibility, alongside missing banks, rather than evidence that only 207 genes were jointly assayed.
 
-The existing implementations are substantial completed work:
+There are 51 metadata-supported common canonical pairs, but the frozen minimum remains 256 common selected genes. The registered E: bank paths are unavailable and their current hashes unverified. No public-response scoring or biological confirmation occurred. The new shared-panel proposal changes the endpoint under a new identifier; it does not lower or retrospectively pass v1's rule.
 
-- Base selects from 24 bounded null, shared-correction, main-effect and classical reference configurations.
-- Interaction already uses full symmetric cross-coordinate bilinear features, training-only PCA, output SVD, ridge, optional honest cross-fitted residual targets and main-effect projection.
-- Guard already uses acquired-pair residual memory and fully nested honest three-expert convex routing. Mixture weights are attribution records, not correctness probabilities.
-- Safe JSON/NPZ checkpoints, content-addressed shared rows, source/gene/unit/reference refusal, global pair splits, evaluator isolation, input hashes, backwards-compatible loading and separate deployment roles exist.
-- The saved closeout includes 858 primary conditions, 312 retrospective acquisition conditions, twelve retrospective ablation folds, 51 sensitivities, 72 adapted upstream folds and 21 final deployment checkpoints. These counts are not independent biological experiments.
-- Saved local verification reports 268 Python 3.14 tests and 34 focused Python 3.11 tests, plus installed-wheel verification. These are historical results; do not claim this planning edit reran them.
+## 3. The new specialist council
 
-Keep the public brand simply **Opal**. Preserve existing `OpalBase`, `OpalInteraction`, `OpalGuard`, registry keys and checkpoint loaders for compatibility. Existing variant labels can explain historical evidence; do not introduce a new public brand or marketing version for this information experiment. Internal cycle IDs, schemas and architecture identifiers provide provenance.
+Nine genuinely separate specialist roles A through I investigated the project. A/B/C worked independently initially; later roles were additionally checked in fresh-context sessions without sibling reports or this draft, including a clean adversarial review restricted to historical evidence. Those independent checks preceded their strategy-specific cross-examination; collaborative initial reports are not represented as fully blinded evidence. The environment permits only three child agents alongside the lead, so the council ran successive parallel groups, not eight simultaneous specialists. Every agent received the project request, common evidence context and permission boundaries; actual file/source inspection limits were disclosed individually. Their reports were returned through agent messages and integrated here rather than written to unauthorized new files.
 
-Current valid claims are source-specific observed-single prediction, reproducible reference selection and bounded negative results. Current invalid claims include field-wide state of the art, consistent native contemporary competitiveness, biological interaction identification, independent culture confirmation, universal weights, guide equivalence, exact physical-dose matching, unseen-single prediction, dose/state extrapolation, calibrated uncertainty and prospective acquisition savings.
-
-## 3. Complete register of outstanding requirements
-
-| ID | Requirement and current status | Work required | Acceptance evidence or permanent limit |
-| --- | --- | --- | --- |
-| E01 | Fully eligible native contemporary comparisons are missing. | Audit exact upstream configurations and run compatible native implementations with declared inputs, budgets and isolation. Preserve adapted results separately. | Method-level eligibility cards and executed matched comparisons; no competitiveness claim from adaptations alone. |
-| E02 | Canonical PertSpectra graph and matched preprocessing unresolved. | Locate the exact released graph, gene ordering, filtering and normalization recipe; audit construction for held-pair exposure. | Hashes, executable provenance and parity checks. If unavailable or incompatible, retain a named ineligibility record. |
-| E03 | Public-only TxPert import failed on missing `omegaconf`; supported environment unresolved. | Establish a pinned public dependency closure in an isolated environment, then test documented public configurations. | Reproducible import, native fit/predict/replay and public-input manifest. Proprietary graph configurations remain unavailable unless separately obtained lawfully. |
-| E04 | Native PRESAGE failed on an undefined PCA decoder, pooling signature and two-row output for one pair. | Resolve each output/API issue using upstream contracts and tests, with exact cached GenePT/ESM assets and licensing. | Documented pair aggregation semantics and safe deterministic replay. Never invent averaging to make ambiguous outputs scoreable. |
-| E05 | Native training RAM historically missing. | Run new instrumented native fits on frozen exposed-data configurations if resources permit. | New training-memory records with run IDs. Replay RAM never fills historical training RAM. |
-| E06 | Complete accuracy/time/RAM/checkpoint-size comparison incomplete. | Produce matched hardware and workload profiles, including preprocessing, inference and shared reference storage. | Eligibility-aware Pareto table with unknown fields retained and CPU/GPU differences disclosed. |
-| E07 | Complete historical CPU accounting cannot be reconstructed. | Recover existing counters where possible, classify missing costs, instrument all future process trees. | Historical measured total remains a lower-bound partial record; new cumulative ledger covers failures, audits, installs and builds. |
-| E08 | New Windows/Linux Python 3.11/3.14 remote CI pending. | Keep the matrix current and run local checks; after separate remote authorization, run and inspect exact-commit CI. | Green results on the actual implementation commit and all supported matrix cells, or explicit unsupported-environment decisions. Old green CI is insufficient. |
-| E09 | Independent culture provenance and empirical biological precision/power absent. | Qualify a pilot with independently initiated cultures and shared-reference covariance; estimate procedure-level precision and required confirmation count. | Qualified design, simulation/coverage checks and statistical review. No invented sample size, price quote or power guarantee. |
-| E10 | Matched reference, guide, control, dose and initiation records incomplete. | Build source-specific measurement records from primary metadata; refuse unsupported equivalence. | Measured assignment lineage and explicit eligibility/exclusions before outcome scoring. |
-| E11 | Independent custody, registration and laboratory confirmation outstanding. | Prepare a reviewable protocol and custody package; obtain authorized custodian/registration and qualified laboratory access. | Verifiable freeze and access chronology, independent culture outcomes and actual assay evidence. A local draft is not registration. |
-| E12 | Weight redistribution and publication authorization absent. | Audit source, graph, embedding, weight and derivative terms; prepare local release candidates only. | Separate authorization and terms before upload. Existing local weights do not imply redistribution rights. |
-| E13 | Optional new public-prior grid not run. | Preserve old prior studies; activate a finite new information-specific probe only if justified by a new hypothesis. | Matched real/shuffled controls and intervention/group holdouts. Public GO in the GEARS adaptation does not complete a new grid. |
-| E14 | Unseen-single, context/dose extrapolation, uncertainty and acquisition savings unvalidated. | Treat each as a separate gated study under section 15. | Claim-specific OOD, calibration or prospective evidence. No inheritance from a pseudobulk partner win. |
-| E15 | Storage and native runtime feasibility unresolved for the next cycle. | Re-inventory devices and existing artifacts, estimate new retention and request only an indispensable allowance if the inherited cap cannot support execution. | Resource manifest and stop-before-overflow behavior; no automatic deletion of previous work. |
-
-E01 through E08 are evidence-repair work, not permission to reopen model selection. E09 through E12 require external evidence or authorization. E13 and E14 are conditional branches. E15 gates any substantial installation, preprocessing or training. Complete every independent local task even if another task is blocked.
-
-## 4. Research basis and comparison eligibility
-
-As of 11 October 2026, the field requires task-specific comparisons, sensitive metrics and strong references. Miller et al., published 1 October 2026, examined 14 datasets and 18 metrics and found that common scores can miss perturbation-specific signal. Their technical/interpolated duplicate controls are evaluation diagnostics with held-condition information, not deployable predictors. The Wei et al. benchmark evaluates 27 methods across 29 datasets and reinforces task-dependent rankings. Neither paper selects a winning architecture for Opal. [Miller paper](https://www.nature.com/articles/s41587-026-03307-w), [official implementation](https://github.com/shiftbioscience/Perturbation-Models-Outperform-Baselines), [Wei paper](https://www.nature.com/articles/s41592-025-02980-0), [scPerturBench](https://github.com/bm2-lab/scPerturBench).
-
-| Method or direction | Status and actual capability | Opal comparison boundary | Code/asset constraint to verify |
-| --- | --- | --- | --- |
-| [GEARS](https://www.nature.com/articles/s41587-023-01905-6), [code](https://github.com/snap-stanford/GEARS) | Published genetic perturbation prediction, including combinations. | Native genetic comparator with its graph and cell-data contract; it is not a direct chemical comparator or established universal context model. | MIT code; graph and dataset terms separate. |
-| [CPA](https://pmc.ncbi.nlm.nih.gov/articles/PMC10258562/), [current code](https://github.com/theislab/cpa) | Published compositional prediction with dose and covariates. | Strong chemical-combination comparator where inputs support it; distinguish chemCPA unseen-compound information. | Current repository BSD 3-Clause; older facebookresearch repository MIT. Pin the exact implementation. |
-| [NAIAD](https://proceedings.mlr.press/v267/qin25g.html), [code](https://github.com/NeptuneBio/NAIAD) | ICML 2025 singles-informed combination prediction and adaptive discovery. | Closest acquisition/composition prior; disclose any transcriptomic adaptation and total label budget. | Apache 2.0 code; phenotype and assay compatibility still needed. |
-| [SLIM](https://www.biorxiv.org/content/10.64898/2026.08.07.743481v1), [code](https://github.com/RasmussenLab/SLIM) | August 2026 preprint; small closed-form low-rank model with single and combination implementations. | Relevant inexpensive genetic competitor. Published correlations are not Opal MSE. | MIT code; STRING and other embeddings have separate provenance and terms. |
-| [PertAdapt](https://academic.oup.com/bioinformatics/article/42/Supplement_1/btag307/8726320), [code](https://github.com/BaiDing1234/PertAdapt) | Published July 2026 adapter using cellular backbones. | Requires supported native training before judgment. Existing RTX 4060 full-gene OOM and Windows/NCCL failures are execution failures. | Top-level licensing remained unresolved in review; backbone weights and environments need audit. |
-| [PRESAGE](https://www.biorxiv.org/content/10.1101/2025.06.03.657653v1), [code](https://github.com/Genentech/PRESAGE) | Released preprint/code using biological representations, chiefly unseen interventions. | Combination evaluation must identify the exact adaptation. Cache availability does not resolve output semantics. | Genentech noncommercial code terms; distributed embeddings have separate noncommercial terms. |
-| [PertSpectra](https://psb.stanford.edu/psb-online/proceedings/psb26/chang_s.pdf), [code](https://github.com/insitro/PertSpectra) | PSB 2026 label/graph-informed factorization of single-cell data. | Held pairs must be excluded from representations; graph-free local adaptation is not canonical. | CC BY-NC 4.0 repository terms; exact graph and data derivative terms still need pinning. |
-| [TxPert](https://doi.org/10.1038/s41587-026-03113-4), [code](https://github.com/valence-labs/TxPert) | Published May 2026 context and graph-informed perturbation prediction. | Public-only runs are a distinct configuration; strongest proprietary-input results cannot be reproduced by substitution. | Audit each public resource, environment, pretrained graph and weight term. |
-| [STATE](https://github.com/ArcInstitute/state) | Released large-scale cellular representation and perturbation method. | Extra-data tier, with contamination and information-budget disclosures; synthetic copies of a mean do not create a distributional predictor. | CC BY-NC-SA code and separate weight/use terms. Reconfirm publication metadata when citing. |
-| [CellFlow](https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1), [code](https://github.com/theislab/CellFlow) | Released conditional distributional prediction. | Relevant only when output/data contracts support distributions; unpaired snapshots do not identify individual trajectories. | MIT code; training-data and model assets separate. |
-| [PHAROS](https://www.biorxiv.org/content/10.64898/2026.09.08.749477v1.full), [code](https://github.com/jbezney61/PHAROS) | September 2026 preprint concerning target-directed combination search. | Inverse search with a specified target differs from forward pair-response prediction; verify full protocol before any capability or comparison claim. | Publication status, assets and reuse terms require a pinned eligibility audit. |
-| [Strong linear baselines](https://doi.org/10.1038/s41592-025-02772-6), [code](https://github.com/const-ae/linear_perturbation_prediction-Paper) | Published evidence that simple models can be competitive. | Mandatory references; repeating this observation alone is insufficient novelty. | Audit exact preparation and split, rather than copying published values. |
-| [Systema](https://www.nature.com/articles/s41587-025-02777-8) | Prior work separating systematic changes from perturbation-specific prediction. | Limits novelty of a global-correction diagnosis; investigate before writing a new scientific claim. | Use the primary protocol and available author implementation. |
-
-The table is a research map, not a ranking. Refresh primary papers, repositories, licenses and revisions when executing, record the date, and freeze the shortlist before looking at new comparison outcomes. A newer preprint can be a serious comparator without being treated as peer-reviewed evidence.
-
-### Eligibility card required for every comparator
-
-- [ ] Record paper version, upstream commit, environment lock, installation commands, licenses, pretrained weights, graph/embedding hashes and redistribution restrictions.
-- [ ] Record genetic/chemical modality, cell type, time, dose, assay, gene universe, scale, required cells/covariates, measured-single availability and allowed pair-supervision budget.
-- [ ] Record every fitting, graph-building, representation-learning, validation and stopping access. Screen pretraining for held-pair/target/context exposure; unknown pretraining is a limitation, not assumed clean.
-- [ ] Record precise status: canonical upstream execution, upstream execution under a changed task, protocol adaptation, inspired reimplementation, patched upstream, unavailable or incompatible.
-- [ ] State whether each patch changes only execution or changes the mathematical predictor. Demonstrate parity for compatibility patches; substantive changes remain adaptations.
-- [ ] Freeze transformation back to the common response endpoint without held-label fitting. Score the same eligible rows and report extra-information tiers separately.
-- [ ] Report hyperparameter/seed budgets and source-supported native configurations. Use at most two declared configurations per method and one primary seed in the first bounded comparison; no selecting seeds afterward.
-- [ ] Record training/inference resources, safe reload/replay, refused rows and exact reasons. Ineligible methods cannot be plotted as defeated eligible competitors.
-
-Mandatory reference tier is matched means, controls and permitted acquired pairs. The richer-cell tier grants the same cells to information-matched simple baselines. Public graph/descriptor and pretrained-model tiers disclose their extra resources. Native cell-level models can be compared on pseudobulk outputs where valid, but the additional inputs remain visible.
-
-### Repair the known comparison failures
-
-- [ ] PertSpectra: reconcile the published 65,648 filtered cells/182 conditions with the local 73,015 deposited rows and actual canonical pair counts. Conditions are not all pairs. Recover the graph and filtering/normalization order, verify reference support, and prevent withheld pairs from entering graph/factorization training. If that cannot honor the Opal contract, report native author-task evidence separately from the matched adaptation.
-- [ ] GEARS: use coherent genetic inputs, author graph/coexpression rules and eligible genes. Preserve the GO-based aggregate adaptation. Never classify its existing 24 adapted folds as a full native comparison.
-- [ ] CPA: use genuine cell-level inputs and supported covariates in the pinned author implementation. Explain gene/dose handling and aggregation. Preserve its 24 adapted folds; do not create cells by repeating aggregate vectors.
-- [ ] TxPert: identify upstream supported versions and install `omegaconf` through a complete isolated dependency specification, not a sequence of unrecorded global fixes. Test a documented public-input recipe before fitting. Keep proprietary inputs unavailable rather than inventing them.
-- [ ] PRESAGE: validate PCA decoder construction, pooling API and sample/pair axes using tiny contract fixtures and upstream examples. Determine why one pair yields two rows. An author-specified reducer can be implemented and tested; unsupported averaging or row selection is forbidden. Preserve exact cached input hashes and noncommercial restrictions.
-- [ ] SLIM: reuse/audit `tools/run_slim_reference.py`, pin the combination implementation and align observed-single/held-partner contracts. Give a mean-only or descriptor-linear control the same embeddings.
-- [ ] NAIAD: establish whether its supervised outcome head supports this transcriptomic endpoint. Preserve a declared adaptation if required; keep active-learning comparisons as a separate later task.
-- [ ] PertAdapt and other backbone methods: attempt supported native execution only inside an approved measured budget/environment. An OOM or unsupported Windows backend remains a feasibility result. Do not demand every foundation model to make a narrow chemical claim.
-
-Bound each compatibility investigation to 30 minutes of active execution before a go/no-go review, plus a predeclared fit allowance within the cumulative cycle budget. Do not repeatedly install environments or expand searches because an exposed result is unfavorable. A useful narrow contemporary-comparison claim needs at least one eligible native method on its actual task; a frontier claim needs the strongest relevant accessible competitors, not just the easiest one to run.
-
-## 5. Strategy, alternatives and council arbitration
-
-The highest-value opportunity is reliable held-partner prediction beyond reference calibration. It needs fresh qualified pair labels, strong reference modeling and native-compatible comparisons. A positive result would establish useful prediction in a bounded biological domain; a precise negative would constrain that model family under the same domain, without proving biology unlearnable.
-
-The second opportunity is identifying a genuinely informative new input. Start with single-cell variance because cells are already available in an exposed development source. Existing prior studies are warnings against indiscriminate encoders. Later descriptor studies must beat information-matched linear controls and shuffles under whole-intervention and functional-group holdouts. Their contribution is an information-specific generalization result.
-
-The third opportunity is independently confirmed useful combinations per total assay budget. NAIAD and target-directed search already occupy this area. Compare complete acquisition strategies including validation cost, then test selected hits prospectively. Retrospective policy replay is development evidence.
-
-| Recommendation | Review support and disagreement | Type and evidence | Resolution experiment |
-| --- | --- | --- | --- |
-| Freeze mean-only architectural expansion | Strategy, evaluation, systems and red-team support it; architecture recognizes the major residual advances already exist. | Scientific allocation; Interaction gains are below 0.1% and shared/main-effect correction dominates. | Keep current methods as references; require a new information or qualified-label benefit before expansion. |
-| Test richer single-cell inputs | Architecture prioritizes this; strategy/data prioritize fresh external evidence. | Sequencing and feasibility, rather than disagreement that a controlled test is needed. | Seal/qualify the external source in parallel, run a bounded exposed-data information experiment, freeze the candidate before external scoring. |
-| Require independent replication | Data, evaluation and red-team agree; source access is the obstacle. | Methodological and practical; cell halves and sample labels do not supply cultures. | Pilot genuinely independent cultures and estimate procedure-level precision. |
-| Use calibrated metrics | Strategy, evaluation and red-team agree, with a warning against post-hoc replacement. | Methodological; standard metrics can dilute specific effects. | Pre-search sensitivity controls and an isolated evaluator, preserving the historical endpoint. |
-| Scale or add context | No review supplies evidence sufficient for immediate expansion. | Scientific and resource uncertainty. | Matched information/data/capacity curves or qualified crossed-context panels. |
-| Distributional outputs/acquisition | Potential later value; red-team questions data support and novelty. | Scientific target change. | Repeatable distributional effects or prospective discovery gains against task-specific controls. |
-
-The first question is fixed. Do not launch all opportunities at once or use one experiment to conflate added inputs, new output targets, new contexts, a large encoder and a new metric.
-
-## 6. Primary hypothesis and minimum executable study
-
-Primary question: **Does projected single-cell variance in measured singles improve held-partner prediction of the combination's mean response beyond equally tuned mean-only and shared-correction references?**
-
-This asks whether input heterogeneity adds predictive information. It does not claim distributional output prediction, unseen interventions, biological mechanism or cross-context generalization. Current mean-only failures leave the information question unresolved. PertSpectra is exposed development data, so any result there is a development result.
-
-- [ ] Freeze a source-specific mean-only reference procedure from the existing menu using development-only selection. Include strong global/main-effect, residual-kernel, sum-feature and pair-aware references as appropriate; distinguish the primary mean-information control from the strongest overall reference.
-- [ ] Qualify candidate external data and seal its designated held outcomes before they are opened. If no source qualifies, complete development and record confirmation blocked. Do not invent freshness through new splits.
-- [ ] Reuse the exact original mean-response endpoint, gene order, assay units and reference definition. Retain TNF contexts separately. Fit a single nominated variance-enabled family under a short frozen menu.
-- [ ] Use measured controls/singles and permitted acquired pairs only. Query pair cells, pair cell counts, post-treatment pair state annotations and outcome-derived difficulty cannot enter inference.
-- [ ] Prespecify global pair and partner splits, acquisition units, cell-support rules, matched precision checks, primary metric, useful margin or administrative triage rule, candidate selection, stopping date and missing-data fallback before scoring.
-- [ ] Freeze one candidate procedure after development and before external confirmation. A source-specific refit on designated external training labels is permitted only under that frozen procedure and budget.
-
-### Feature and model specification
-
-Let the existing single response means be `delta_A` and `delta_B`. Fit a reference-derived projection `U` only on permitted training/reference inputs. For the cells of each measured single, summarize the variance of `U^T x` as `v_A` and `v_B`. Preserve the original mean transformation instead of replacing it with a new single-cell encoder.
-
-The proposed finite starting menu is projection ranks `[4, 8]`, output ranks `[4, 8]`, and ridge penalties `[0.1, 1, 10]`, plus a zero-correction option. This gives twelve fitted nonzero configurations for the nominated arm. These are proposed design choices, not evidence that they are optimal; confirm feasibility and freeze them before scoring. Unsupported ranks are unavailable, not silently substituted.
-
-Use a symmetric feature interface consisting of the existing mean features and sums/absolute differences of the added summaries. A suitable predictor is
-
-`predicted_delta_AB = b(delta_A, delta_B) + B W^T phi(delta_A, delta_B, v_A, v_B)`.
-
-Here `b` is the strong mean-only procedure and `B` is a training-only low-rank response basis. Fit `W` with weighted ridge using the existing grouped/nested selection machinery. Reuse existing honest cross-fitting where needed; do not introduce a new target route through outcome-guided choice. Use stable solves, deterministic CPU fits, float64 for aggregate models, one BLAS thread per worker and no more than two workers initially. Record actual fitted coefficients, stored basis values and reference data separately from a nominal neural parameter count.
-
-Do not describe fitted variance effects as biological interactions. Shared-reference error, measurement precision, cell survival and sampling can contribute to the signal. The first model is intended to require thousands to modest hundreds of thousands of stored fitted values and CPU-scale training; actual dimensions and memory must be measured.
-
-### Required controls and ablations
-
-1. Mean-only models use exactly the same cells, mean transform, gene universe, output basis options and tuning budget. Include a capacity-matched mean-only head, so additional columns do not masquerade as useful information.
-2. Mean plus variance is the nominated arm. An improved projected-mean transform without variance is a separate control, not evidence for heterogeneity.
-3. Matched shuffled variance retains the means and dimensions, shuffling within compatible source/context/dose and measurement-quality strata. Record limited stratum sizes and failure to construct valid shuffles; do not pool incompatible contexts to force them.
-4. Cell-count matching or prespecified repeated subsampling checks whether unequal precision explains a gain. Reuse each control/single draw across every affected pair; preserve shared-reference covariance.
-5. A short prespecified state-occupancy-only arm and variance-plus-occupancy arm may be secondary ablations. Fit at most four reference-defined states on permitted training data. Neither becomes a second primary hypothesis or an opportunity to select whichever summary wins.
-6. Compare identical model capacity and regularization grids with real versus shuffled summaries. Freeze shuffle seeds and aggregate all declared repeats; never choose the best shuffle or training seed.
-7. Verify symmetry, source/scale refusal, zero-correction fallback and global pair exclusion. If the added summary is missing, use the frozen mean-only fallback rather than dropping unfavorable queries.
-
-Selection uses grouped development data only. Stability seeds are diagnostics, not candidate selectors. Every arm's total fitting, stopping, representation and validation label access is counted. No new architecture or metric is added after a weak result without an explicitly new, preserved protocol amendment.
-
-### Rank/conditioning and error-attribution checks
-
-- [ ] Inspect `src/series_bilinear.py` main-effect design and projection. Save weighted main-design rank, interaction rank before/after projection, singular values, retained energy, sample count and conditioning per training fold.
-- [ ] Check whether thousands of main-effect coordinates with hundreds of pairs span nearly the sample space and annihilate the interaction design. If so, report this diagnostic limitation; a near-zero branch does not establish absent biology.
-- [ ] Any changed projection is a distinct declared sensitivity on exposed development data. Do not overwrite prior results or move that change into confirmation by inspecting confirmation scores.
-- [ ] Save Base error, correction magnitude and covariance of main/residual errors. With estimated singles, cancellation can improve response error without accurate biological interaction recovery.
-- [ ] Recognize that residual MSE using the same anchor equals response MSE algebraically. It is one endpoint in different coordinates, not independent validation.
-- [ ] Mechanistic attribution or latent biological residual evaluation requires independent reference measurements and separately supported experiments. Statistical orthogonality alone does not provide it.
-
-## 7. Four architecture candidates and conditional adoption
-
-### A. Strong classical reference
-
-Use `g(delta_A + delta_B) + h(delta_A) + h(delta_B)` or existing affine/global/incidence/ridge/kernel equivalents, preserving swap symmetry. Inputs are measured singles and controls; supervision is permitted acquired pair aggregates. Fit by nested regularized regression or kernel selection and infer directly. Data needs are modest relative to deep models, but identity coefficients require supported intervention incidence. Effective capacity, coefficients and reference storage must be counted.
-
-Compare no change, training response mean, additive response, shared residual offset, affine shrinkage, component main effects, single-sum regression and existing kernels. The main failure is absorbing only systematic calibration, which can be useful but supplies no pair-specific claim. Adopt it as the default if more complex methods fail; a benchmark/reference contribution is a valid outcome.
-
-### B. Revised current-information residual model
-
-Use `b + B W^T phi_perp`, with symmetric bilinear cross-features and a training-only projection away from a specified main-effect design. Honest cross-fitted residuals are available already. Fit ridge and reuse safe existing inference. This is largely completed v2 work, not a proposed new architecture. It needs sufficient balanced pair support and a nondegenerate residual design; sparse star graphs or near-complete projection can undermine identifiability and fitting.
-
-Compare diagonal/full bilinear, zero branch, matched main effects, residual kernels and the prior neural branch under fixed budgets. Reopen this family only if qualified new labels or a precisely diagnosed conditioning issue yield a testable new hypothesis. A failure rejects the tested family in its domain, not combinatorial prediction itself.
-
-### C. Added-information model, selected first
-
-Use the small symmetric variance model in section 6. Its incremental feature dimension is at most twice the projection rank before any explicitly declared interactions. Controls, singles and acquired pair outcomes have the same roles as the mean-only benchmark. Keep the original pseudobulk output and source-specific inference contracts.
-
-Potential failure modes are batch proxies, differing cell count, survival-driven composition, transformation changes and weakly estimated variance. The real/shuffle/precision/capacity controls are required before interpreting information gain. A later descriptor version uses public target/pathway/reagent or context features with the same linear controls. Whole-intervention and functional-group holdouts are mandatory for unseen-intervention claims; observed query singles cannot be quietly retained for that task.
-
-### D. Distributional successor, conditional
-
-Only after repeatable distributional effects are established, consider a mixture model or conditional flow `dz/dt = v_theta(z,t,c_AB)`, with symmetric conditioning from singles and declared context. A bounded starting design is two or three layers of width 128 or 256 and fewer than one million trainable parameters, confirmed from the actual architecture. It predicts population distributions, not identified trajectories for individual unpaired cells.
-
-Training needs genuine cell-level pair conditions, independent repetitions, stable state definitions and a declared distributional loss. Compare empirical control/single resampling, simple state-mixture models, CPA and CellFlow where compatible. Measure actual GPU memory, batch feasibility and runtime. Generative complexity is justified only if simple distributional summaries fail despite reproducible signal, and distributional metrics improve independently of mean accuracy. GPU-hour estimates are planning caps, not measured costs.
-
-## 8. Data inventory, qualification and exposure
-
-Every source card must name intervention modality, cell/context/time, assay, exact versus nominal dose, controls, singles, unordered pairs, repeated pair-context-dose profiles, gene universe, raw/prepared hashes, transform, initiation provenance, independent unit, terms, known exposure, exclusions, role and access history. Distinguish metadata rows, measured eligible conditions and unique canonical pairs. Qualification decisions must use provenance and prespecified QC rather than favorable outcomes.
-
-| Source | Present role and support | Unresolved condition or claim limit |
-| --- | --- | --- |
-| Norman | Exposed genetic development and historical replay; original coherent task has 105 singles and 126 pairs, with 88 development/38 protected historical query pairs. | Historical test narratives have influenced later decisions. Physical nonaccess does not create independent successor confirmation. |
-| Wessels | Exposed genetic development; original coherent panel has 16 singles/58 pairs, 40 development/18 protected query pairs. | Expanded views and technical strata are not biological cultures; keep count/log contracts separate. |
-| Combi-seq | Exposed dense chemical aggregate-read development, nominally 374 pairs among 36 compounds, K562 at 12 hours and three reported runs. | Exact doses, control matching and initiation records remain unresolved. Aggregate reads are not cell distributions. |
-| PertSpectra | Exposed single-cell genetic development; local coherent TNF-positive/negative panels have 108/52 canonical pairs and four sample labels per context. | Raw/filtered count reconciliation, graph/preprocessing and guide support; sample labels do not prove four independent cultures. |
-| sci-Plex-GxE chemical validation | Conditional fresh external lead, distinct from already studied sci-Plex/state sources. | Audit all prior local accesses and derivatives before claiming freshness. Trametinib-centered graph cannot establish arbitrary pair prediction. |
-| CINEMA-OT | Donor and distribution diagnostic; PBMC three donors at day 2/day 7 with six cytokine singles and three IFN-beta-centered pairs. | Donor/day files are not six independent matched fixed-state cultures; graph too small for broad pair generalization. |
-| EmeraldBay | Exposed chemical dose/context development; earlier audit reports 94,746 cells, 17 exact-dose pairs, eight eligible lines and 99 rows. | Confirm version and actual eligible support; not untouched confirmation or evidence for general dose extrapolation. |
-| D-SPIN | Exposed transfer and uncertainty stress test. | Post-treatment lineages, shifted radius failure and sample dependence limit interpretations. |
-| Small donor/bulk panels | Measurement diagnostics, including single-pair donor panels and three-pair repeated LNCaP panels. | Too few unique pairs to train/confirm general combinatorial prediction; retain modality-specific diagnostic roles. |
-
-Primary source links are [Combi-seq](https://www.nature.com/articles/s41467-022-32197-0), [PertSpectra](https://psb.stanford.edu/psb-online/proceedings/psb26/chang_s.pdf), [sci-Plex-GxE GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7056151), [series](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225775), [analysis code](https://github.com/cole-trapnell-lab/sci-Plex-GxE), [CINEMA-OT paper](https://www.nature.com/articles/s41592-023-02040-5), [Dryad](https://datadryad.org/dataset/doi:10.5061/dryad.4xgxd25g1), and [EmeraldBay](https://huggingface.co/datasets/tahoebio/EmeraldBay).
-
-### sci-Plex-GxE qualification and sealing
-
-- [ ] Separate the chemical-validation sample GSM7056151/GSE225775 from the genetic GxE screen and other already exposed sci-Plex material. Inspect existing `public-search-20261009-v1/sciplex4_support_audit.json` and later access records without assuming its metadata-only status is still current.
-- [ ] Resolve the A172/T98G/U87MG 72-hour design, 22 trametinib partners, nominal four-dose series and vehicle using primary source assignments. GEO fields and analysis notebooks disagree in places, so nominal 0.01/0.1/1/10 micromolar values are not automatically exact matched component doses.
-- [ ] Reconcile the 384 barcode rows, nominal 87/88 pair-dose conditions per replicate label and the plate imbalance noted by the prior audit. Metadata counts are not eligible measured pair counts or culture counts.
-- [ ] Verify singles/control compatibility, actual cell support, culture initiation, batch/plate mapping and derivative terms before freezing eligible rows. Estimate file sizes for the specific sample; the approximately 12.5 GB whole archive is not its exact download requirement.
-- [ ] Freeze the algorithm family and fit only designated training partners under declared source adaptation. Hold complete partner identities across all included doses and lines out of pair training, representation fitting and selection.
-- [ ] Specify whether query singles/control measurements are available. If they are, the test is measured-single partner prediction, not unseen-intervention or zero-shot context prediction.
-- [ ] Seal outputs before held expression access, with an exposure ledger and custodian where possible. Solo software separation reduces leakage risk but is not independent human custody.
-- [ ] Use common held populations, scales and mapping rules for all comparators. Do not select a cell line, dose or QC panel because its held response is easier.
-- [ ] If qualification or freshness fails, stop the confirmation claim and retain a development-only role. A different source or genuinely new experiment is then necessary.
-
-CINEMA-OT's Dryad release is CC0, with roughly 5.28 GB total data and an integrated file around 1.16 GB in the reviewed record. PertSpectra's full local H5AD is approximately 3.142 GB. These are resource warnings to verify against actual assets, not download instructions. Existing broader public searches, animal/tissue panels, microarrays and sequential interventions can remain separate leads; changing assay/species to find replication changes the scientific contract and must not silently rescue the original cultured-cell study.
-
-## 9. Evaluation suite, calibration and information isolation
-
-### Primary endpoint
-
-Preserve the historical fixed-scale gene-averaged MSE when reproducing existing tables. For the new registered confirmation, define equal-culture, equal-pair and equal-gene loss on the frozen eligible population. For culture `c`, compute the paired difference `D_c = mean_{pair,gene}(error_reference^2 - error_candidate^2)`. Positive values favor the candidate. Use the same pair/gene population for both procedures and report absolute difference plus relative skill with an explicitly nonzero reference denominator.
-
-Select the primary reference on development data before confirmation. Report other strong comparators without selecting a new favorable reference from test scores. Different scales and assays remain separate. Undefined ratios, constant-vector correlations or unsupported conditions produce named missing values; never turn them into favorable zeros.
-
-If calibration shows that MSE cannot distinguish informative predictions on development data, revise the future study's primary endpoint before candidate search and external access, with a preserved amendment. Historical MSE stays visible. Do not switch primary metrics after observing candidate outcomes.
-
-### Complementary metrics and controls
-
-- [ ] Overall reconstruction: MSE, MAE and skill against no change and the strong reference, plus error distributions rather than one pooled average.
-- [ ] Perturbation changes: magnitude, sign, centered response correlation and an explicit goodness-of-fit endpoint. Correlation alone does not penalize scale errors; constant predictions need defined handling.
-- [ ] Perturbation specificity: retrieval/rank scores with fixed centering, distance, candidate pool, ties and chance controls. Audit the implementation name; paper NIR means normalized inverse rank and must not be confused with similarly named repository utilities.
-- [ ] Affected genes: predeclared reference-derived panels and an isolated evaluator-only weighted/DEG analysis. Freeze weights/selection algorithms in advance. Held outcomes may define scoring weights after predictions freeze, but never fitting, architecture selection or hidden feedback.
-- [ ] Biological summaries: fixed public pathway versions, signed responses and prespecified modules with coverage/exclusion rules. No mechanism claim from a pathway score alone.
-- [ ] Pair residuals: compare against declared additive/shared anchors, record main/correction errors and cancellation. Same-anchor residual MSE is not another independent endpoint.
-- [ ] Sensitivity controls: exact synthetic predictions, training-mean/common-shift predictions, identity shuffles and technical duplicates where cells permit them. Validate that an endpoint recognizes informative responses before using a null score to dismiss a direction.
-- [ ] Cross-half affected-gene analysis: if supported, keep selection and scoring halves separated and reuse shared reference draws appropriately. Technical halves measure this deposit's sampling sensitivity, not independent biology or a biological ceiling.
-
-Multiple secondary metrics are explanatory unless prespecified as co-primary with a multiplicity strategy. Do not choose whichever score, gene panel or rank definition yields a win. A full reproduction of every published benchmark is not required for a solo lab; faithfully implement the relevant endpoint and controls under the declared contract.
-
-### Leakage and custody audits
-
-- [ ] Every canonical unordered pair and alias stays in one role globally across cells, guides, strata, doses and contexts. Query identity duplicates cannot enter retrieval or graph training through an alias.
-- [ ] PCA/SVD, scalers, state definitions, hyperparameter selection, graph coexpression, kernels, nearest-neighbor temperatures and stopping use permitted training/reference data only.
-- [ ] Exclude all router-validation outcomes from every expert/transform used for router-training and router-validation rows. The v1 internal dependence defect was verified and v2 corrected; preserve both records without alleging outer-test leakage.
-- [ ] Track actual cells, unique singles, unique pairs and pair-stratum profiles accessed by each step. Validation labels and representation-learning labels count toward budgets.
-- [ ] Preserve protected historic queries, but mark architecture-level historical narrative exposure. Combi-seq and PertSpectra expressions are already exposed despite older metadata-only wording.
-- [ ] Freeze prediction, source, split, metric and checkpoint hashes before evaluation. The evaluator alone receives held outcomes and cannot refit a predictor.
-- [ ] Include mutation tests for held/unacquired/router-validation outcomes, graph membership, summary extraction, transforms and label roles; changed held outcomes must not change fitted objects.
-- [ ] Keep inference query bundles outcome-free. Essential source/units/gene/reference failures cause refusal; optional unavailable experts use a frozen fallback. Report coverage and all refused rows rather than quietly comparing only easy cases.
-- [ ] Deployment refits remain separate from evaluation checkpoints and cannot be retrospectively scored as the frozen test model. Removing a display role field must not bypass provenance checks.
-
-## 10. Task hierarchy and scientific support requirements
-
-| Task | Split and inference contract | Required support and principal confound | Current role |
-| --- | --- | --- | --- |
-| Seen singles, unseen pair | Held combination outcomes, measured component singles allowed. | Sufficient pair graph coverage; shared targets/references create dependence. | Main development contract. |
-| Partner holdout | All pair edges incident to a held target excluded; its single can remain under a measured-single contract. | Multiple held partners and balanced training support; star graphs give restricted claims. | Primary OOD target. |
-| Global pair identity | All occurrences of an unordered pair held together across context/dose/guide/stratum. | Repeated occurrences are not new independent pairs. | Mandatory exclusion rule. |
-| Unseen intervention | No fitting response involving the held intervention, including single outcomes. | Public descriptors or allowed external representation needed; pretrained exposure audited. | Separate gated information study. |
-| Held biological context | Exclude context outcomes from fitting; declare query controls/singles if available. | Crossed interventions/context and stable measurement contracts; reference adaptation can account for apparent transfer. | Conditional after qualified crossed data. |
-| Joint pair/context OOD | Globally hold pairs and contexts, with both factors varied. | Enough crossed support to separate pair novelty from context novelty. | Unresolved; no current positive claim. |
-| Dose interpolation | Known compounds and between-range doses, with identity leakage controlled. | Matched physical doses and singles/control support. | Narrow historical positive only. |
-| Dose extrapolation | Outside training dose range. | Multiple dose levels and qualified assignments; interpolation does not establish it. | Unvalidated/negative tested attempts. |
-| Higher-order composition | Held triples or greater with declared lower-order access. | Adequate ground truth and matched lower-order labels, not a few anecdotes. | Conditional inventory only. |
-
-No fixed public cell count guarantees adequate support. Use metadata qualification, graph structure and empirical precision to decide whether each claim is estimable. Unsupported tasks remain in the registry with explicit reasons rather than disappearing from reports.
-
-## 11. Measurement records, independent cultures and power
-
-### Required measurement ledger
-
-- [ ] Record independently initiated culture/donor IDs, biological source, passage/lot where relevant, seeding/initiation timestamps, randomization block, plate/well, extraction/library/run and technical resampling links.
-- [ ] Record intervention identities, reagents/guides and equivalence evidence, component dose and units, treatment order, duration, vehicle and matched monotherapy/control assignments. Nominal labels cannot prove physical matching.
-- [ ] Record control/single/pair reference reuse, cell counts, raw/count availability, QC/exclusions, assay arithmetic, aggregation, normalization order, gene mapping and missing conditions.
-- [ ] Record each reference's development/calibration/confirmation role and whether it is independently measured or shared. Sharing should be represented in uncertainty and power calculations.
-- [ ] Store compact nonprivate provenance and hashes in tracked cards; keep contact details, private raw metadata and cell/profile arrays in permitted ignored storage.
-- [ ] Reject a culture-independence claim based only on SampleIndex, donor/day file count, read split or an author-level replicate label without initiation mapping. State precisely what the source does document.
-
-### Pilot and design
-
-The existing `results/replicated_fixed_state_v1/report/decision.json` fails G1 with `source_provenance_unqualified`, architecture search frozen and confirmation not run. `power/power_report.json` says empirical biological power is false, no source qualified, final sample size null and budget quote null. Reuse the implemented workflow, but do not promote synthetic verification into biological evidence.
-
-A focused assessable skeleton is twelve interventions and all 66 unordered pairs in one fixed state, split into 34 training, twelve validation and twenty confirmation pairs with degree balance and label access fixed. A development block with 46 pair profiles, 24 repeated single profiles and two controls is 72 profiles; a confirmation block with twenty held pairs, the same 24 single profiles and two controls is 46. Four development and eight confirmation cultures would be 656 profiles. These numbers illustrate assay workload only, not a powered design, approved acquisition or quote.
-
-A separate two-intervention holdout among twelve would hold all 21 incident pairs and leave 45 other pairs. It is a different split/task and needs its own analysis, not a post-hoc substitution for the 20-pair confirmation panel. Likewise, a four-context design is a later crossed-context study, not a prerequisite to the first fixed-state hypothesis.
-
-- [ ] Obtain an empirical independent-culture pilot before choosing final development/confirmation counts.
-- [ ] Evaluate repeatability of response and residual summaries using independently measured references where attribution matters. Low technical-half cosines such as 0.2891 or 0.0838 do not identify technical noise, biological variation or irreducibility.
-- [ ] Simulate the actual fitting/selection/refit procedure, shared-reference covariance, missing conditions and null behavior. Fixed-model precision alone may understate procedure variability.
-- [ ] Define a useful absolute improvement `Delta_use` from an experimental decision or assay repeatability. An approximate independent-culture planning expression is `n ~= (z_(1-alpha/2) + z_(1-beta))^2 * sigma_D^2 / (mu_D - Delta_use)^2`, subject to empirical estimation, nonnormality and proper simulation. Do not fill unknown effect/variance with favorable guesses.
-- [ ] Check interval coverage and error rates under null and plausible alternatives, including reference uncertainty, multiple comparisons and target sampling where relevant. Obtain statistical review before promising power.
-- [ ] Freeze the culture-level primary endpoint, missing-culture rules, stopping, preregistration/custody and allocation before confirmation initiation or outcome access.
-
-Three cultures is an existing software minimum for a particular interval implementation, not adequate power. Equal culture/pair/gene loss supports inference over the declared population. A claim about newly sampled targets, contexts or laboratories additionally requires crossed/random-effects or appropriately clustered analysis and sufficient independent units; gene/cell bootstrap cannot supply those units.
-
-## 12. Scientific promotion, failure and stop rules
-
-Use a development promotion threshold only as administrative triage. The historical 2% rule and draft 5% rule remain recorded in their original protocols. A point gain of 5% plus a confidence lower bound above zero does not establish true gain above 5%. For the new confirmation, state the hypothesis, useful margin, interval direction, confidence level, comparator and multiplicity before access.
-
-| Outcome on qualified fresh confirmation | Decision |
+| Specialist | Independent finding, uncertainty and recommendation |
 | --- | --- |
-| Lower confidence bound for improvement exceeds `Delta_use` | Advance the bounded capability, subject to audits and compatible competitor evidence. |
-| Upper bound is below `Delta_use` | Reject the tested useful-superiority claim in this domain. |
-| Upper bound is at or below zero | Reject superiority of the tested procedure. |
-| Interval includes no advantage and a useful advantage | Inconclusive; do not call it a biological failure or a successful model. |
-| Useful gain appears only on an unregistered metric, selected subset or extra-input tier | Exploratory result requiring a new frozen test, not primary promotion. |
-| Audit fails, source is exposed or culture provenance unqualified | No valid confirmation regardless of score. |
+| A, prior art | Current methods already cover generic representations, compositions and context transfer. The opportunity is independently repeated global-pair/held-context prediction under a disclosed label budget. Novelty of a contrast ridge is weak; exact native few-shot competitors remain to be qualified. |
+| B, data | Traced 207 to separately selected panels; 51 common pairs are real metadata support. Shared-panel PertSpectra is the best immediate qualification lead, but adds no observations. No inspected public source satisfies the full independent-confirmation contract. |
+| C, architecture | Current code already cross-fits nuisance and residualizes products. Recommended a compact contrast model versus covariance-aware kernels on crossed data, with independent anchors to exclude subtraction-induced predictability. Input/output ranks are variance restrictions, not biological identification. |
+| D, synthetic bridge | Explained actual fallback reasons and the misleading rank-deficient-case name. Initially preferred one diagnostic, then agreed retirement is appropriate if the adapter is no longer nominated. A specific implementation discrepancy could still justify a separately authorized diagnostic. |
+| E, evaluation | Retain response error plus calibrated discrimination/program endpoints. Same-anchor residual MSE is algebraically redundant; two TNF contexts cannot validate a general operator. Independent references and cultures are necessary for composition attribution. |
+| F, capability | A scientist needs better combination decisions at a disclosed assay budget, not lower mean error alone. Prespecified program ranking and eventually blinded shortlist validation are consequential; NAIAD/BATCHIE already occupy generic active discovery. |
+| G, systems | Small aggregate fits are CPU plausible, but source access, about 30.75 MB delegated headroom and incomplete CPU accounting prevent an executable budget claim. Full references/checkpoints/failures must fit a new authorized layout. |
+| H, release | Historical v0.1.2 is a verified private prerelease, not a pending release. Dirty 0.1.3.dev0 lacks exact-current certification and distribution rights. Release maintenance should remain bounded and independent of scientific development. |
+| I, adversarial | The largest threat is calibration/reference noise masquerading as composition. Crossed graph support, independent anchors, matched tuning and a simple-model falsifier are essential. Data availability and novelty remain conditional. |
 
-For the variance development experiment, continue only if real summaries beat means-only and matched shuffled/precision controls on the prespecified held-partner analysis and remain favorable against strong shared correction. Small or imprecise effects end this bounded study without an automatic architecture escalation. A null variance representation rejects this representation, not all single-cell information.
+### Current methods and opportunities
 
-Stop further development of the tested pair-residual family only after a fresh adequately precise study places its upper improvement bound below the useful margin. If the qualified evidence repeatedly favors simple references, keep Opal as a benchmark/reference suite. If data cannot support the precision required, report the missing dependency instead of invoking futility.
+No published score below is transplanted onto Opal's different information contract.
 
-## 13. Systems, storage, resource measurement and accounting
-
-The leading bottleneck hypotheses are pair coverage/balance, measurement quality and missing informative inputs. MSE alone does not distinguish them from capacity or optimization. Preserve existing infrastructure and test these hypotheses with controlled data/capacity/precision experiments before building a new training platform.
-
-The saved v2 resource ledger records 2,822,746,578 retained bytes against a 3,000,000,000-byte cap, leaving 177,253,422 bytes. Its free-space snapshot is C 3,919,511,552 bytes, D 735,821,824 and E 635,727,872, with a 1,073,741,824-byte reserve. D/E were read-only below reserve. These are historical snapshots, not current free space. The raw full PertSpectra asset already exceeds the whole retention cap; do not silently apply the cap to only new output roots.
-
-The ledger records 1.5466232638888888 measured CPU core-hours. Missing failed/import probes, audits, installed subprocesses and document builds are not zero, so the complete historical 24-hour ceiling cannot be certified. Primary receipt peak RSS is about 3.981 GB. A cumulative deployment-process peak around 16.808 GB cannot be assigned to each individual model. Native replay memory does not substitute for native training RAM. Old approximately 0.7 ms/pair inference numbers are not current end-to-end service latency.
-
-### Required fresh profiling
-
-- [ ] Run each measured stage/model in a fresh process. Record hardware, OS, Python/library/BLAS/CUDA versions, threads, precision, batch size, dataset dimensions, graph/weights and warm/cold state.
-- [ ] Separate raw parsing, normalization, cell summaries, feature/basis construction, selection, refit, checkpoint save/load, single/batch prediction and evaluator overhead.
-- [ ] Capture process-tree user/system CPU, wall time, host RSS/peak memory and GPU allocated/reserved/device observations where relevant. State polling limitations and sampling interval. Avoid double-counting child CPU in parent cumulative totals.
-- [ ] Account for every fit attempt, failure, import, install, audit, verification, subprocess and document build. Save launch/exit/failure receipts atomically and update cumulative totals even when a process crashes or is interrupted.
-- [ ] Distinguish logical parameter count, stored fitted coefficients, complete checkpoint bytes, deduplicated shared reference rows, raw-data bytes, temporary peak bytes and incremental artifact bytes. Report both standalone deployment footprint and amortized shared storage.
-- [ ] Run frozen exposed-data native configurations anew to obtain missing training memory when allowed. Label them new profiling runs and preserve historical RAM as unknown; never imply the old run was measured.
-- [ ] Report accuracy, training wall/CPU/GPU time, memory, checkpoint/reference footprint, latency and throughput for the same actual run/config where possible. Cross-device CPU/GPU tables are disclosed observations, not equivalent-hardware Pareto proofs.
-- [ ] Bound caches by measured bytes and reuse content-hashed identical fits only when lineage matches. Do not add cache machinery or delete prior work without a measured need.
-
-### Budget scenarios and stops
-
-| Scenario | Proposed cap and allocation | Activation condition |
+| Method and primary/official evidence | Capability relevant to Opal | Comparison boundary |
 | --- | --- | --- |
-| Low-cost local cycle | 24 new CPU core-hours: 4 audit/preparation, 8 information arms, 8 native comparison/profiling, 4 verification/reporting; optional 0 to 8 GPU-hours. | Current authorized resources/storage support the frozen scope. GPU allowance is a proposal, not authorization to purchase cloud time. |
-| Higher-compute successor | 24 to 72 single-GPU hours on a planned 24 to 48 GB Linux GPU, with a separate approved storage/CPU allowance. | Incremental information helps, matched capacity curves help, and access/payment is separately authorized. Hardware size is a profiling target, not a verified native requirement. |
-| Biological program | Pilot plus powered independent-culture confirmation. | Qualified collaborator, approved assay/terms/cost and empirical power. No numeric price or final culture count exists yet. |
+| GEARS, [paper](https://doi.org/10.1038/s41587-023-01905-6), [code](https://github.com/snap-stanford/GEARS) | Graph-informed genetic identity and multigene prediction | Official README warns cross-cell-type transfer is unsupported and singles-only training cannot reliably predict combinations. Native graph/cell inputs differ from aggregate adaptations. |
+| CPA/chemCPA, [paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC10258562/), [code](https://github.com/facebookresearch/CPA) | Composition, covariates, dose and cellular distributions | Categorical CPA is not unseen compound identity prediction; chemical features change the information regime. |
+| NAIAD, [ICML paper](https://proceedings.mlr.press/v267/qin25g.html), [code](https://github.com/NeptuneBio/NAIAD) | Singles-informed phenotype prediction and combination acquisition | Primarily scalar phenotype; transcriptomic prediction is an adaptation. Generic active-learning novelty is unavailable. |
+| SLIM, [official implementation](https://github.com/RasmussenLab/SLIM) | Small embedding-based ridge/low-rank predictor, including combination protocols | Essential strong cheap competitor. External STRING inputs and author metrics must be disclosed; samples around a predicted mean are not learned heterogeneity. |
+| PertAdapt, [paper](https://doi.org/10.1093/bioinformatics/btag307), [code](https://github.com/BaiDing1234/PertAdapt) | Foundation-model perturbation adaptation | Local OOM/NCCL failures are execution limitations, not scientific defeats. Backbone assets and native full-gene task must qualify. |
+| PRESAGE, [primary preprint](https://doi.org/10.1101/2025.06.03.657653), [code](https://github.com/Genentech/PRESAGE) | Biological representations for unseen genetic effects and functional tasks | Pair pooling/decoder and noncommercial asset terms require qualification. |
+| PertSpectra, [primary proceedings](https://psb.stanford.edu/psb-online/proceedings/psb26/chang_s.pdf), [code](https://github.com/insitro/PertSpectra) | Sparse graph-guided factors and unseen combinations | Closest factor-model prior art; native graph/cell normalization differs from local no-graph means. |
+| TxPert, [paper](https://doi.org/10.1038/s41587-026-03113-4), [code](https://github.com/valence-labs/TxPert) | Basal context/knowledge-graph genetic generalization | Public weights/resources differ from proprietary strongest-input graphs. |
+| State, [paper](https://doi.org/10.1016/j.cell.2026.07.052), [code](https://github.com/ArcInstitute/state) | Population/set-conditioned response prediction across contexts | Native simultaneous pairs and target-label budget need verification; broader capability is not a same-information score. |
+| CellFlow, [primary preprint](https://doi.org/10.1101/2025.04.11.648220), [code](https://github.com/theislab/CellFlow) | Conditional flow distributions and complex/combinatorial protocols | Relevant distribution comparator; unpaired snapshots cannot identify individual trajectories. |
+| PIE, [October 2026 release](https://arcinstitute.org/news/pie), [code](https://github.com/ArcInstitute/pie) | Knowledge plus control/source response evidence under unseen contexts, identities and datasets | “Combinations” of unseen context/identity is not demonstrated simultaneous gene-pair prediction. Its availability weakens novelty of generic context-plus-prior models. |
+| Stack, [official tool](https://arcinstitute.org/tools/stack), [code](https://github.com/ArcInstitute/stack) | In-context cell-set prompting | Generated Perturb-Sapiens data cannot serve as independent measured confirmation. |
+| Pop-Corn, [September 2026 primary preprint](https://pmc.ncbi.nlm.nih.gov/articles/PMC13622295/) | Direct annotated population-proportion prediction | Relevant occupancy prior art; implementation availability was not established in this council. |
+| BATCHIE, [primary paper](https://doi.org/10.1038/s41467-024-55287-7), [code](https://github.com/tansey-lab/batchie) | Prospective Bayesian drug-combination design | Viability/discovery is a different target; it sets a serious utility standard. |
 
-The new CPU allowance does not retroactively certify the historical 24-hour ceiling. Preserve the existing artifact cap until explicitly amended; this document does not grant a new gigabyte. Check all used volumes before installations/downloads/preparation and periodically during execution. Stop projected overflow, keep at least 1 GiB free on used volumes, retain D/E read-only if still below reserve, and never reset/delete/move historical evidence automatically to create space. Continue metadata, protocol and other independent low-footprint work while a storage dependency remains unresolved.
+The [2025 linear-baseline benchmark](https://doi.org/10.1038/s41592-025-02772-6) motivates strong references. The [October 2026 calibrated-metric study](https://www.nature.com/articles/s41587-026-03307-w) motivates practical positive controls and complementary discrimination endpoints. These findings can coexist. Neither justifies rewriting Opal's frozen unfavorable MSE results or selecting a favorable new endpoint after scores are exposed. The [Systema study](https://www.nature.com/articles/s41587-025-02777-8) further motivates separating shared response from perturbation-specific value.
 
-Avoid full-field benchmark reproduction as an infrastructure requirement. The calibrated-metric official suite recommends much larger resources than this solo study, and some benchmark container images are tens of GB. Extract relevant faithful tests rather than downloading entire suites. New large weights, raw archives or redundant environments need a declared asset manifest and sufficient approved capacity first.
+Opportunity ranking is a strategic judgment, not a calibrated probability: first, reproducible new-pair prediction in new contexts at a small calibration budget; second, program/state-occupancy prediction where mean error hides useful effects; third, prospective cost-efficient combination prioritization after prediction/uncertainty qualification; fourth, unseen intervention/context prediction with response-trained or biological representations; fifth, distributional combinations beyond mean matching; sixth, stronger same-contract kernels. Closest work is identified above. The first best matches Opal's accumulated evidence while asking a scientifically consequential new question.
 
-### Data versus capacity versus precision experiment
+### Assets and native reproduction
 
-Use fixed validation partners and balanced nested acquired-pair prefixes, fit equal tuning budgets, and record target incidence. Compare increased pair coverage at fixed model capacity, increased capacity at fixed labels, and reference/cell precision changes at fixed coverage. Retune each capacity inside its permitted development partition, rather than comparing a large model's best run with an under-tuned small model. Preserve full test populations, fallback and acquisition costs.
+Official repositories supply code and preparation recipes for GEARS/CPA/NAIAD/SLIM/CellFlow. SLIM supplies embeddings; PertAdapt needs separate backbone assets; PRESAGE links author vectors; TxPert advertises public-resource checkpoints; State/PIE provide model/data recipes, with PIE pinning released dataset/split revisions. This council did not download or verify every weight. A recipe or advertised checkpoint is availability evidence, not a complete native reproduction.
 
-Spend more compute only if added inputs outperform controls and higher capacity then produces reproducible held-partner benefit. If qualified pair labels help but capacity does not, spend the experimental budget on labels. If measurement repeatability is poor, improve measurements before capacity. If only shared correction helps, keep the reference model.
+Recorded official code terms include MIT for GEARS, original CPA, SLIM and CellFlow; Apache-2.0 for NAIAD; noncommercial terms for PertSpectra/PRESAGE/State/PIE/Stack. Maintained CPA uses a separate BSD-3-Clause implementation. Exact pinned code, graph, backbone, weights and output terms must be reviewed separately; PertAdapt and TxPert's full asset permissions remain unresolved for this proposed experiment. A noncommercial competitor can be a research comparison without its assets becoming redistributable Opal components. Model-scale competitors' published budgets and inputs are disclosed, rather than equalized by comparing head parameter counts.
 
-## 14. Thirty-day and ninety-day execution schedule
+## 4. Cross-examination and unresolved disagreements
 
-| Stage | Local work and deliverables | Gate or dependency |
+The lead did not average recommendations. C challenged B's source, E challenged C's architecture, G challenged cost/execution, I attacked the leading strategy, A assessed duplication, D assessed the closeout's scientific effect, and H separated release maintenance. B, C, E, F, G, H and A answered objections to their proposals; D reconsidered the diagnostic after retirement, and I distinguished precise falsification from underpowered inconclusiveness.
+
+| Challenge | Answer and resulting decision | Cheapest settling evidence |
 | --- | --- | --- |
-| Days 1 to 7 | Inventory/hash preserved state; freeze reference, primary question, roles and budgets; rank/conditioning diagnosis; metric controls; native eligibility cards; external metadata/access qualification. | No scoring without frozen config/metrics. No outcome access to a proposed fresh test. Stop substantial work if storage violates reserve/cap. |
-| Days 8 to 21 | Execute bounded mean/variance/shuffle/precision arms using exposed data, existing split/evaluator machinery and complete resource receipts. Conduct bounded native repairs in the declared allocation. | Preserve every arm and failure. No expansion after unfavorable exposed scores. |
-| Days 22 to 30 | Produce development verdict, freeze one procedure or retain Base/reference, close resource and comparison eligibility tables, freeze prospective confirmation protocol. | Information gate passes or the tested arm ends. Confirmation remains separate. |
-| Days 31 to 60 | Complete feasible native comparisons/fresh profiling, source qualification and only justified data/capacity checks. Prepare culture pilot, custody package and empirical power workflow. | External resources/pilot may be blocked. Do not substitute technical replication. |
-| Days 61 to 90 | Score frozen external confirmation if genuinely fresh and qualified; otherwise finish the development study and exact dependency handoff. Verify package/replay/docs from saved evidence. | Fresh-source eligibility and custody govern claims; positive score alone is insufficient. |
+| C to B: shared panel repairs a feature mismatch but adds no biology | B agreed. Use two-context data only for a bounded globally held-pair diagnostic; crossed independent measurements remain the frontier dependency. | Reference-only common-schema/access manifest and exact coverage graph. |
+| E to C: two contexts cannot validate a context operator | C revised the first model to predict an explicit fixed two-context residual contrast. Both contexts are training information. Held-context work requires a separate source/target contract. | One fixed global-pair diagnostic, followed only conditionally by a fresh context. |
+| I to C: singles enter features and residuals, so noise may be predictable | C agreed cross-fitting alone cannot remove this dependence. Independent reference cultures/partitions and repeated-reference sensitivity are necessary. | Required development split-reference comparison in both swapped directions on fixed common support; biological attribution still needs independent initiation. |
+| G to lead: small head does not imply a feasible complete run | No numerical work proceeds until source paths, scratch and complete retained dependencies are budgeted separately. 30 MB/24 hours are proposed ceilings, not a funded run. | Outcome-blind size inventory and exact fit/checkpoint layout. |
+| A to lead: contrast ridge is established modeling | Accept weak architecture novelty. Potential contribution is independently repeated joint pair/context capability at a disclosed budget; native CPA/PertSpectra and eligible newer methods remain challengers. | Native task/input/asset compatibility matrix before frontier comparison. |
+| D to lead: a diagnostic could explain synthetic asymmetry | Preserve conditional disagreement. Retirement removes its immediate value; authorize one only for a specific mathematics/code discrepancy or unexpected successor positive-control failure. | Static saved-state/code audit first, not another sweep. |
+| F to lead: lower MSE may not change experiments | Freeze program/discrimination now. Prospective shortlist validation and total cost are separate requirements before an assay-saving claim. | Blinded nomination lists versus kernel/calibration lists under equal information. |
+| H to lead: release work could consume the program | Bound maintenance to receipts/rights/custody and correcting stale planning claims; do not require a publication campaign before science. | Half-day ledger/content review estimate, no new packaging in this task. |
 
-Software work available immediately includes record audits, metric tests, rank analysis, comparator environment investigation, feature summaries from cached inputs, finite training when the cap permits it, package/replay verification and local documentation. Public-data-dependent work includes qualified source retrieval and canonical native assets. Collaboration-dependent work includes independently initiated cultures, matched assays, empirical precision/power and prospective laboratory confirmation. Remote CI and publication require their own authorization.
+### Consensus and evidence matrix
 
-## 15. Six-to-twelve-month branches and their activation gates
-
-### Independent fixed-state replication, months 4 to 6
-
-Replicate the demonstrated held-partner capability in qualified independent cultures and, where feasible, a second independently generated source or laboratory. Keep one domain first. Do not add context transfer merely to broaden the abstract. If adequately precise confirmation rules out useful gains, close that family and retain the benchmark/reference system and negative study.
-
-### Richer intervention representation
-
-Activate only if there is a specific missing-information hypothesis or an observed real-versus-shuffle benefit. Use a cheap descriptor-conditioned ridge/kernel before a GPU encoder. Compare observed singles, public descriptors and matched shuffled descriptors with equal budgets. Hold complete interventions and separately functional/pathway groups out of all fitting outcomes. Verify descriptors are not training-neighborhood or screen-exposure proxies. A frozen representation that helps only random pairs with familiar targets does not establish unseen-intervention prediction.
-
-### Distributional outcomes
-
-Activate only if independently repeated conditions show reproducible prespecified variance/state-occupancy/distribution changes. Separate mean prediction from state proportions, multimodality or distribution-distance endpoints. Compare empirical resampling and simple mixtures before conditional flow, then compatible CPA/CellFlow. Cell-state changes can reflect survival, sample capture or annotation, so causal interpretation requires additional measurements. No individual-cell trajectory claim from unpaired snapshots.
-
-### Cross-context modeling
-
-Activate only with replicated crossed intervention/context panels and globally held pair identities. Distinguish fitting on source contexts, query reference adaptation and true held-state response transfer. Compare source intervention means, simple context references, measured-single adaptation and context features. A context encoder must add information beyond those controls. Joint pair/context OOD needs enough crossed support and independent units; existing negative context experiments reject their tested encoders, not all context biology.
-
-### Dose and higher-order tasks
-
-Activate dose work only with exact physical assignments, monotherapy matches and sufficient levels. Separate interpolation from extrapolation and include simple dose-response references. Preserve historical interpolation success and extrapolation failure. Higher-order models require enough independently measured triples/higher orders and explicitly budgeted lower-order access. Metadata inventory is not training support.
-
-### Calibrated uncertainty and abstention
-
-Activate after a stable predictive procedure and separate calibration/confirmation units exist. Report nominal versus observed culture-level coverage, width, interval score and prespecified subgroup behavior. Evaluate error versus accepted fraction against accept-all, accept-none and simple support baselines, counting refusals. Nominal conformal guarantees need their exchangeability assumptions; source calibration cannot be assumed valid under context shift. Guard weights, variance summaries, ensembles and low support scores are not calibrated uncertainty by themselves.
-
-### Prospective acquisition
-
-Activate after useful predictive structure and an assay partner exist. Compare uniform, target-balanced and relevant NAIAD acquisition with fixed total measured-label cost, including validation/stopping and repeated references. Use independent seeds and no future labels in retrospective policy decisions. Retrospective replay can justify a trial; prospective independently confirmed hits per assay budget establish value. Target-directed PHAROS-style inverse search has a different input contract and needs separate comparison eligibility.
-
-### Model scaling
-
-Activate only when information controls are positive, added capacity helps under equal tuning/data, resource profiles fit approved allocations, and the gain survives strong references and fresh evaluation. Consider representation pretraining only when an identified information/optimization gap supports it, with contamination/terms tracked. Parameter count is not a frontier criterion.
-
-## 16. Threats, novelty and publication decisions
-
-Five threats must remain explicit in the paper and task verdicts:
-
-1. Shared/global correction can explain most improvement. Test strong main-effect/common-shift references before calling the gain pair-specific.
-2. An insensitive endpoint can miss real information. Use prespecified calibration and complementary endpoints before treating null MSE as futility, without retrospective metric switching.
-3. Exposed development populations accumulate selection pressure even without direct test fitting. Confirmation requires a genuinely untouched source or new experiments and a frozen procedure.
-4. Shared singles, controls, targets and technical strata create dependence. Correct independent-unit uncertainty and qualified measurement records are necessary for precise claims.
-5. Composition, residual heads, biological priors, basal-state encoders and acquisition already have close prior art. New architecture names do not establish novelty.
-
-The strongest argument against better statistical references is that they may only rediscover shrinkage and shared offsets. Their low CPU cost makes them useful controls, but fresh evaluation is scarce. The falsifier is a qualified test showing pair-aware methods add no useful advantage beyond matched references.
-
-The strongest argument against added information is that descriptors or cellular summaries can encode familiar identities, batches or precision rather than generalizable biology. Real/shuffled and whole-group controls address that possibility. Failure of a cheap information test does not justify a more expensive encoder on the same inputs.
-
-The strongest argument against distributions/acquisition is that both change the scientific target and need better data. Their costs include genuine repeated cell outcomes or actual assays. Repeatability plus simple distributional references, or fixed-budget prospective acquisition comparators, are the necessary falsification tests.
-
-The two most likely six-month wastes are repeated neural residual tuning on the same exposed sources and generative context modeling before qualified crossed measurements. Also avoid rebuilding existing infrastructure, calling implementation failures scientific losses, and chasing gene panels or seeds that make a weak model look favorable.
-
-Negative findings may be publishable, but simple baselines beating deep models is already established. A stronger contribution is the exact observed-single contract, shared-reference uncertainty, scale-dependent calibration and main/residual error cancellation, demonstrated with sensitive endpoints, native-compatible comparisons and independent evaluation. Journal acceptance and novelty remain uncertain. Preserve unfavorable records and make title/abstract/conclusion fit the actual evidence.
-
-Three results would change the present recommendation:
-
-- A faithful compatible current leader produces a substantial held-partner advantage on Opal's contract, identifying a representation or optimization gap that previous adaptations missed.
-- Rich single-cell inputs beat matched shuffles, capacity/precision controls and strong means-only references, then retain the advantage on sealed external data.
-- Qualified new cultures show reproducible pair-specific effects and favorable data/capacity curves after reference uncertainty is accounted for.
-
-## 17. Standards for benchmark, specialized and frontier claims
-
-| Claim | Minimum evidence | What it does not establish |
+| Class | Statement | Disagreement or limit |
 | --- | --- | --- |
-| Reproducible benchmark/reference study | Explicit observed-single contract, strong references, exposure ledger, calibrated diagnostic endpoints, saved negative results and replayable artifacts. | New best model, biological interaction recovery or independent biological precision. |
-| Contemporary comparison under a declared contract | At least one fully eligible relevant native competitor, matched endpoint/population and declared unequal information/compute where unavoidable. | Competitiveness against unrun full published methods or the entire field. |
-| Efficient under a declared workload | Eligible accuracy comparison plus measured training/inference time, memory and complete checkpoint/reference footprint on specified hardware. | Universal hardware efficiency or completion of missing historical counters. |
-| Strong specialized model | Frozen useful superiority over strong matched references and a compatible current competitor on genuinely fresh meaningful OOD data, with correct uncertainty, sensitive endpoints and reproducibility. | Unseen-intervention/context/dose/discovery capabilities that were not tested. |
-| Frontier-level in the defined domain | Serious comparison with relevant strongest field leaders, meaningful fresh OOD, independently replicated biological confirmation, robust decision-relevant superiority and external reproducibility. Use multiple independently generated datasets, or justify a narrow domain with independent culture/laboratory confirmation. | General biology, universal mechanism or every possible transfer capability. |
+| Verified facts | v1 has 207 shared selected genes, 51 common pairs, missing registered banks and no biological scoring; synthetic gates fail; 378 final-compatible predictions replay exactly; 331 tests are recorded | No conclusion about candidate biological success/failure follows. |
+| Strong evidence | Tested additions repeatedly fail strong references; affine controls beat the frozen adapter substantially | Specific finite models/contracts are unfavorable, not all neural/compositional paradigms. |
+| Exploratory indications | Extra Wessels pairs help one development population; one planted-transfer direction improves; a shared panel is possible in principle | Neither a scaling law nor biological transfer. The raw cache exists, but its current complete hash, replacement preparation and independent-culture provenance remain unverified. |
+| Unsupported claims | Frontier superiority, general context transfer, interaction mechanism, reliable shifted uncertainty, independent culture confirmation, assay savings | Remain false/unestablished until their own evidence exists. |
+| Feasibility assumptions | CPU aggregate fitting, new shared 512-gene panel, a partner's crossed cultures, a useful program endpoint | Must be established before execution/confirmation; no current partner or quote is claimed. |
+| Unresolved disagreements | Whether independent pair/context data will expose predictable composition; whether narrow program/occupancy prediction is a better endpoint; value of synthetic error decomposition | Resolve by qualified measurement and one finite reference-first experiment, not agent vote counts. |
 
-Do not reduce frontier to an arbitrary MSE percentage, parameter count, release badge or number of tests. A narrow convincing capability is enough, but its relevant competitor and independent confirmation requirements cannot be lowered. Uncertainty, context transfer and prospective discovery need their own validated evidence whenever included in the claim.
+A favors a distinct single-intervention/context pivot when access fails; F favors a prespecified program/occupancy task where repeatability supports it. The binding alternative here is one **crossed-single representation/ridge study** if pair access fails. Occupancy replaces that alternative only if a pilot has already established repeatable, useful mixture signal. Neither is part of the primary model or a rescue of the failed pair claim.
 
-## 18. Implementation layout and deliverable specifications
+Final independent checks preserve three disagreements rather than manufacture consensus. D found saved forward transfer zero-bridge MSE 0.39697663663401145, better than adapter 0.6620612627, so calibration can hurt without fallback; shared-intercept instability is logged rather than protected by source-mode checks. A diagnostic remains conditional on a verified code or realizable-control discrepancy, not an automatic next cycle. F preferred acquisition measured as reproduced hits per cost; fixed-context deterministic ranking need not await universally calibrated probabilities, but no qualified replay/cost bank exists, and reference-allocation policies need repeatability evidence. Clean I accepted the bounded contrast probe before acquisition, while requiring disjoint-reference role swaps and a capacity-matched nonlinear mean/context control; technical partitions cannot supply biological uncertainty or the independent-confirmation kill criterion.
 
-The following paths are proposed outputs for future implementation, not files already created by this planning edit. Use `opal_information_v1` as an internal cycle identifier unless actual repository constraints require a documented pre-fit change.
+## 5. Ranked strategic paths
 
-| Deliverable | Proposed location and acceptance |
-| --- | --- |
-| Finite configuration | `configs/experiments/opal_information_v1.json`, including candidate grids, roles, seeds, ranks, fallback, endpoint, budgets, stop/gate rules and conditional arms. Validate before fits. |
-| Protocol | `docs/next_cycle/opal_information_protocol.md`, source-specific question, eligibility, splits, metric calibration, information tiers and confirmation amendment policy. |
-| Task/exposure/resource records | `results/opal_information_v1/task_status.json`, `exposure_ledger.json`, `resource_ledger.json`, append-only or versioned receipts with hashes. |
-| Preservation manifest | `results/opal_information_v1/preservation.json`, actual HEAD/status, immutable historical paths/hashes and user-change scope. |
-| Measurement cards | `results/opal_information_v1/measurement/`, compact independent-unit/reference/dose/guide/normalization cards and qualification decisions. |
-| Comparator cards | `results/opal_information_v1/comparators/`, exact upstream environment/input/patch/eligibility/run/replay/memory records. |
-| Diagnostic and calibration records | `results/opal_information_v1/diagnostics/` and `metrics/`, rank/conditioning, error attribution, calibration controls and sensitivity results. |
-| Development records | `results/opal_information_v1/development/`, frozen selections, all arms/configs/seeds/failures, paired summaries and label counts. |
-| Confirmation package | `results/opal_information_v1/confirmation/`, qualified metadata, source/split/procedure freeze, prediction hashes, evaluator results and custody/registration status. Do not place hidden arrays in tracked files. |
-| Claim register | `results/opal_information_v1/report/claims.json`, one evidence-linked verdict per capability, including negative/inconclusive/blocked statuses. |
-| Checkpoints | Existing safe local store under an approved artifact root, with compact tracked manifests. Evaluation, profiling and deployment roles are distinct. |
-| Report | `docs/next_cycle/opal_information_report.md`, executed work, negative findings, native eligibility, all resource unknowns and exact external dependencies. |
+Ratings are qualitative conditional judgments. We do not invent success percentages, price quotes or powered timelines.
 
-Reuse `src/series_bilinear.py`, `src/series.py`, `src/artifacts.py`, `src/replicated/`, existing source preparation/split/evaluator tools, `tools/qualify_metrics.py`, native audit/profiling tools and checkpoint replay where their contracts fit. Add only a small summary extraction/interface module and a finite runner/reporting path as needed. Inspect existing APIs before proposing names; do not duplicate models, source registries or evaluators.
+| Rank/path | Scientific value, novelty and likelihood | Access, cost/time and technical risk | Claim earned and decision |
+| --- | --- | --- | --- |
+| 1. C, new crossed information plus minimal contrast model | High consequential capability; architecture novelty modest. Best opportunity if pair/context signal repeats beyond references. Probability is currently dominated by data access and identifiability. | Public metadata immediate; shared-panel preparation conditional; independent cultures partner-dependent. CPU first; months for real validation, not guaranteed. | Fixed-context new-pair evidence first, then independent joint pair/context performance. Primary route. |
+| 2. B, stronger model under observed-single contract | Moderate robustness value, low new-capability novelty; a hierarchical covariance/kernel improvement is more credible than another unconstrained head. | Existing exposed aggregates where accessible; low CPU cost, weak supervision/anchor confounding risk. | Narrow same-contract performance and reliability. Mandatory reference, not sole frontier program. |
+| 3. D, a different frontier target | High possible value but strong prior art. Crossed-single identity/context task has attainable data; distribution/occupancy needs repeated labels. | New access/storage and native competitors; compact probes first, generators expensive. | A distinct task claim. Predefined access-dependent pivot, not simultaneous extra features. |
+| 4. A, qualify another source and run frozen adapter | Biological question remains unanswered, but adapter-specific upside is weakened by its controls and mixed favorable synthetic. Novelty low. | No verified replacement satisfying frozen identities/context/schema; restore/reprepare costs cannot be assumed small. | One narrowly registered biological candidate result if separately justified. Do not pursue routinely. |
+| 5. E, prospective experimental prioritization | Highest eventual utility, but NAIAD/BATCHIE constrain novelty and shifted uncertainty is unqualified; a deterministic fixed-context ranking experiment remains a conditional alternative. | Wet-lab campaigns, function assay and all-in cost measurement; longest/riskiest immediate path. | Confirmed program-directed hits per budget in new contexts. Downstream after independent prediction. |
 
-A resource receipt should contain attempt/run ID, stage, start/end, config/code/data hashes, label counts, PID/process tree, hardware/thread/precision/batch, wall/CPU/GPU observations, peak host/device memory, retained/temp/checkpoint/reference bytes, exit/failure reason, measurement limitations and cumulative budget. A comparator card should reference its eligibility rather than repeat arbitrary labels such as native or frontier. A claim record should point to its prespecified criterion, complete comparison population and actual scientific result.
+Path A would require a separately declared source contract if context identities or feature selection change. The existing implementation freezes TNF identities and metadata hashes, so another unrelated source is not a drop-in continuation. Path B remains valuable even when it falsifies our preferred model. Path D cannot inherit a pair-composition claim from a single-perturbation win.
 
-Acceptance requires real bounded execution for each feasible declared arm, not only a scaffold or synthetic success. External tasks can be finished only as an honest dependency package while unavailable; do not fabricate laboratory or remote evidence. Do not run downstream gated branches to satisfy the phrase 'implement everything.' Implement their contracts and refusal/status behavior now, and execute them only after activation criteria pass.
+## 6. One central research hypothesis
 
-## 19. Verification, documentation, CI and authorization boundaries
+**Context-induced changes in matched measured single responses encode reproducible changes in combination responses that generalize to globally unmeasured pair identities, and eventually to held pretreatment contexts, beyond equally informed shared/affine/incidence corrections and regularized residual kernels.** A small source-trained contrast decoder should exploit that information without fitting a new target interaction operator.
 
-### Meaningful verification required during implementation
+Current models have not demonstrated this because available pair/context support is sparse or exposed, many corrections are explained by shared reference geometry, and independent anchors/cultures are absent. New crossed measurements separate repeatable pair-context signal from calibration; explicit contrast supervision changes the statistical question rather than adding an encoder with no identifying labels.
 
-- [ ] Summary extraction is deterministic, train/reference-only, invariant to held outcomes and symmetric under pair swap. Test a controlled example in which the means are equal but variance differs and a held mapping is informative, plus a null example where means suffice.
-- [ ] Real/shuffled/precision/capacity arms use identical allowed means, gene/order/units and fixed populations. Shuffles obey strata and fail honestly when insufficient support exists.
-- [ ] Global pair/alias/context/dose exclusions, unacquired labels, feature transforms and nested router isolation pass mutation tests. Existing valid tests remain meaningful and are reused.
-- [ ] Zero-budget/low-support ranks, missing optional summaries and unavailable experts follow prespecified fallback. Essential source/unit/reference mismatch refuses prediction.
-- [ ] Safe historical checkpoint loading, new save/load/replay, array-store relocation and numerical tolerances pass. Do not use arbitrary executable serialization.
-- [ ] The evaluator rejects changed input/gene/unit/prediction hashes and deployment/profiling checkpoints mislabeled as evaluation. Query bundles contain no outcome fields.
-- [ ] Resource accounting records a controlled subprocess failure and child work, distinguishes training from replay memory and counts storage across roots without duplicate physical/shared rows.
-- [ ] Comparator patch fixtures validate axis, pooling and decoder semantics without selecting on hidden scores. Native output parity or substantive deviations are documented.
-- [ ] Culture/cell/technical unit checks refuse pseudo-replication; power fixtures test software only and never mark empirical biological power true without qualified inputs.
-- [ ] Run focused tests after relevant changes, then the full suite and installed-wheel examples outside the checkout when the implementation is complete. Repeat broader checks only after changes/failures justify it.
+The bounded first test measures full-response MSE for globally held pairs in both observed TNF contexts, together with prespecified contrast/discrimination diagnostics. A locked same-information selector and eight-feature contrast reference falsify the 18-feature model if they match or exceed it. Correct source-pair/contrast alignment must matter. Independent confirmation requires a frozen procedure, globally held pairs in fresh contexts, independent cultures/references and a useful margin chosen from a separate pilot.
 
-This documentation-only update needs consistency, link/path and diff checks, not training, package builds or a scientific test rerun.
+A two-context diagnostic win is permission to test this transfer hypothesis, not confirmation of its held-context clause. If it loses, close this finite 18-feature procedure. Re-enter with a different procedure only when new identifying information or a separately declared hypothesis exists.
 
-### Documentation and package closure
+## 7. Synthetic engineering decision
 
-- [ ] Update README, model cards and reports from saved immutable evidence. Clearly distinguish published 0.1.2, local 0.1.3.dev0 or a later justified development version, historical evaluation, new development, profiling and deployment refits.
-- [ ] Preserve published 0.1.2 assets. New local wheel/sdist review candidates exclude raw cells/profiles, private metadata, contacts and unauthorized weights. Use owner-set artifact roots and working-directory-independent examples.
-- [ ] Update manuscript only after new evidence exists, with exact input tiers, eligibility, scales, labels, uncertainty, compute unknowns and negative results. Generate figures from hashed saved inputs and check empirical literals.
-- [ ] When a manuscript changes, rebuild through existing tools, verify the saved numerical/figure provenance, and inspect changed rendered pages. Preserve failed build/comparison records. Do not publish or submit.
-- [ ] Keep `PLAN.md` and its tracked mirror synchronized; update task statuses with evidence and an exact pending dependency. Do not rewrite historical `task_status.json` measurements as if newly observed.
+Select option **2: retire the current candidate but retain its engineering findings**.
 
-### Remote CI
+Affine evidence favors simpler calibration; nontransfer loses; null/source-degeneracy fallback establishes safety; planted transfer is mixed and attribution controls are unsupported. No synthetic cycle has demonstrated a reason to nominate this specific adapter over references. The 207-gene failure is not the retirement rationale by itself.
 
-The current `.github/workflows/release-integrity.yml` includes Windows/Linux Python 3.11/3.14 and installed-wheel tests. Verify supported dependency versions, versioned wheel paths and artifact exclusions for the implementation. Old CI cannot verify new commits. Run local environments where available and preserve limitations. A no-push task ends with a reviewable workflow and CI marked pending. After the owner separately authorizes push or remote dispatch on the intended revision, inspect every matrix cell and record exact commit/run URLs. Do not declare remote success from local tests.
+Retain its runner/reference selection, exposure/role guards, complete fallback denominator, provenance and compatible replay. Preserve all failed runs, earlier resource-limit stops and incompatible attempts. Do not overwrite v1 configuration, amend its numerical thresholds or relabel its exposure.
 
-### Authorization and progress
+Successor correctness checks must separately isolate source rank failure and target bridge rank failure, reproduce an analytically realizable noiseless positive control, avoid composition claims on a calibration-only generator, detect nontransfer, preserve every query and replay saved predictions. Negative controls need not all fit a meaningful interaction model; unsupported attribution remains inconclusive unless a supported alternative was prespecified before scoring. A positive-control implementation failure stops biology and calls for a separately authorized diagnostic.
 
-For this turn, edit the plan, its tracked mirror and implementation handoff only, with documentation consistency checks. Do not run training, native installations, package builds, commits, pushes or publication.
+## 8. Architecture and information strategy
 
-When the owner invokes the handoff, proceed with necessary reversible local implementation, finite tests and bounded runs within actual permitted budgets. Do not ask repeatedly for routine choices already specified here. Finish independent work and a concrete reviewable dependency package before requesting an indispensable resource. New spending, large assets that exceed caps, collaborator correspondence, biological purchases, independent registration, remote push/CI upload, publication/submission, visibility changes, replacing approved assets and weight redistribution need their applicable authorization and source terms. Leave new changes reviewable; commit only if the owner separately authorizes the current implementation's commits. The old completed-cycle commit permission in the appendix is not a new authorization.
+Combine a minimal architectural change with a more informative data regime. Preserve Base as a reference/default for its established contract, not as the destination. The new procedure is closed-form and deliberately small. Its contribution must be predictive information, not extra parameter count.
 
-If an external dependency blocks one stage, complete other stages that don't depend on it. If a gate fails, stop that branch and report the negative result. Neither condition justifies silently weakening the protocol or ending before feasible local work is complete.
+### Fixed two-context prototype
 
-## 20. Execution-ready task list and final report
+For pair p = {A,B}, context c in {0,1}, let m_ic be the matched measured single effect and Delta_pc the pair effect. Aggregate matched technical strata equally, preserving stratum diagnostics, to define:
 
-- [x] P00: Inventory current state and resources; preserve historical hashes and user changes; produce the task/dependency register.
-- [x] P01: Freeze the scientific question, reference, finite arms, labels/splits, calibration, useful-margin policy and budgets.
-- [x] P02: Repair native eligibility cards and bounded upstream environments/output contracts; retain adapted/failed evidence and new measured profiling separately.
-- [ ] P03: Establish measurement/provenance cards and qualify/seal an external candidate before held outcome access.
-- [x] P04: Complete rank/conditioning, shared-reference and metric-sensitivity diagnostics on exposed development inputs.
-- [x] P05: Implement only the minimal variance summary/predictor integration with real/shuffled/precision/capacity controls and a frozen fallback.
-- [x] P06: Execute all feasible finite development arms, record every attempt/label/resource cost, select one nominated procedure and report the information verdict.
-- [x] P07: Complete fresh native training-memory and workload profiles where feasible; produce eligibility-aware efficiency tables and historical-unknown fields.
-- [ ] P08: Freeze and execute external confirmation only if source freshness, measurement, custody and algorithm gates pass. Otherwise produce an exact blocked confirmation package.
-- [ ] P09: Prepare qualified culture pilot/design, empirical power workflow and custody/registration materials locally; actual experiments remain external dependencies.
-- [x] P10: Run meaningful tests, safe replay and local installed-package verification for changed implementation; prepare remote CI without unauthorized upload.
-- [x] P11: Update reports/cards/README and, only when evidence warrants it, the paper and local review package. Keep public claims source-bounded.
-- [x] P12: Close the finite cycle with preservation checks, cumulative resources, claim register, negative/inconclusive results, blocked dependencies and synchronized plan.
-- [ ] C01: Activate only the single next branch justified by P06/P08 and independent confirmation, preserving a new protocol before new outcome access.
+```text
+r_pc = Delta_pc - m_Ac - m_Bc
+t_p  = r_p1 - r_p0
+z_ic = P^T m_ic
+d_i  = z_i1 - z_i0
+zbar_i = (z_i1 + z_i0)/2
 
-The final implementation response must state what was actually implemented and run, which sources/information tiers were used, which comparisons are fully eligible versus adapted, where evaluation/profiling/deployment checkpoints live, whether the primary useful-superiority and information gates passed, and what each result establishes. Include label/compute/storage counts, training versus replay memory, historical unknowns, test/install evidence, exact remote CI state, any authorized commit IDs, and every remaining external dependency. Do not say the whole scientific program is complete because the local task list is delivered.
-
-## 21. Coverage and historical preservation
-
-This successor covers all items raised in the owner's unfinished-requirements message: native comparisons, canonical PertSpectra inputs, TxPert closure, PRESAGE output semantics, missing native RAM, full Pareto evidence, incomplete cumulative CPU, pending exact-commit CI, failed nonlinear/default/frontier targets, qualified cultures, reference/dose/guide records, biological precision/power, custody/registration, laboratory validation, unvalidated OOD/uncertainty/acquisition claims, redistribution terms, optional prior probes and unauthorized push/publication/submission/uploads.
-
-It also carries forward the research alternatives and cautions: repeatable pair signal versus reference correction, metric calibration, actual source exposure, rank annihilation, main/residual error cancellation, richer single-cell controls, descriptor/group holdouts, balanced pair coverage, fair data/capacity/precision tests, conditional distributions/context/dose/higher-order/acquisition, independent-unit uncertainty, resource limits, novelty/prior art, publication scopes, frontier standards, arbitration and the three results that would change the decision.
-
-The previous plan is preserved verbatim below so no historical requirement or execution detail is lost. Its original SHA-256 before this update was `19d0c73f870acd9533e8476cf4e512335d0bd90d5b83743993872b4fa9d80d93` for both root and tracked mirror. The exact historical bytes can be independently checked from the pre-edit tracked Git version. Its relative links, checkboxes, model-development instructions and permissions describe that completed cycle only. Sections 1 through 21 supersede it for new work. Do not treat the appendix as an instruction to rebuild v2 or as new external authorization.
-
-## Current implementation evidence: opal_information_v1
-
-The owner invoked the implementation handoff on 11 October 2026. The following statuses refer to actual local execution; scientific eligibility and blocked external work remain separate. The historical appendix below is unchanged. No commits, uploads or remote dispatch were authorized during the initial bounded experiment. The subsequent owner instruction authorizes builds, small lowercase commits and push; see `verification/delivery_authorization.json`. Existing on-push CI must be inspected on the delivered revision. Raw assets, unpublished weights, registration and scientific publication remain outside that authorization.
-
-| Task | Status | Evidence and next action |
-| --- | --- | --- |
-| P00 | `complete_verified` | Current inventory and historical evidence hashes preserved. Evidence: `results/opal_information_v1/preservation.json`. Next: retain Base; no experiment expansion. |
-| P01 | `complete_verified` | Finite protocol frozen; arithmetic correction documented before any fit. Evidence: `results/opal_information_v1/development/execution_freeze.json`. Next: retain Base; no experiment expansion. |
-| P02 | `complete_verified` | Bounded pinned-source/contract repairs complete; native eligibility remains blocked. Evidence: `results/opal_information_v1/comparators/`. Next: native_pertspectra,txpert_closure,presage_contract. |
-| P03 | `blocked_external` | Local cards complete; source/independent-unit qualification unavailable. Evidence: `results/opal_information_v1/measurement/ and confirmation/`. Next: external_qualification. |
-| P04 | `complete_verified` | Rank, shared-anchor and frozen exact/constant/shuffle controls executed; broader secondary diagnostics unexecuted. Evidence: `results/opal_information_v1/diagnostics/`. Next: retain Base; no experiment expansion. |
-| P05 | `complete_verified` | Minimal symmetric summary/ridge heads and safe fallback/load contracts implemented. Evidence: `src/information.py`. Next: retain Base; no experiment expansion. |
-| P06 | `complete_negative` | All96 fold records complete; reference retained; TNF-negative partner support inconclusive. Evidence: `results/opal_information_v1/development/summary.json`. Next: retain Base; no experiment expansion. |
-| P07 | `complete_verified` | New Opal and three adaptation training/replay profiles; historical RAM still unknown. Evidence: `results/opal_information_v1/profiling/ and comparators/`. Next: native_task_matching. |
-| P08 | `blocked_external` | No confirmation opened or scored; dependency/custody handoff complete. Evidence: `results/opal_information_v1/confirmation/`. Next: external_qualification. |
-| P09 | `blocked_external` | Local pilot/power protocol delivered; actual independent cultures missing. Evidence: `docs/next_cycle/opal_information_custody_handoff.md`. Next: culture_pilot. |
-| P10 | `complete_verified` | Local tests/replay/installed package and all four remote CI cells verified on bf564476a0c079dad35b8c84a5165ba2324dea90. Evidence: `results/opal_information_v1/verification/ and receipts/`. Next: retain Base; no experiment expansion. |
-| P11 | `complete_verified` | Local report/cards/README/manuscript and review package from saved evidence. Evidence: `docs/next_cycle/opal_information_report.md`. Next: redistribution. |
-| P12 | `complete_verified` | Finite local closeout; external scientific program remains open. Evidence: `results/opal_information_v1/resource_ledger.json and task_status.json`. Next: report/dependencies.json. |
-| C01 | `conditional_not_started` | No branch activated. Evidence: `results/opal_information_v1/report/claims.json`. Next: section15 gates. |
-
-Evidence repair register: E01/E02/E03/E04 remain `blocked_external` for native contracts/assets/environment; E05 has new measured adaptation profiles but historical native RAM stays `historically_unknown`; E06 has a verified descriptive efficiency table with native eligibility still blocked; E07 remains `historically_unknown`, and current measured CPU is explicitly a lower bound; E08 is `complete_verified` on revision `bf564476a0c079dad35b8c84a5165ba2324dea90` with all four matrix cells passing; exact evidence: `verification/remote_ci.json`. E09/E10/E11/E12 remain `blocked_external` for independent cultures, matched provenance, custody/registration and redistribution terms. E13/E14 remain `conditional_not_started`. E15 is `complete_verified` for this bounded local cycle, while larger assets/environments need additional approved storage.
-
-The frozen 96-fold information study fails its administrative gate. TNF-positive partner variance MSE 0.08256839 versus Base 0.08275970 is a 0.231163% gain, but matched mean/capacity controls are better. TNF-negative partner nested support is unavailable and every head uses Base fallback, leaving that information question inconclusive. No further branch, external confirmation or variance deployment refit was executed. The full local Python3.14 suite passes 282 tests; new training/replay, installed verification and manuscript evidence are in the cycle verification/receipt records.
-
-See `docs/next_cycle/opal_information_report.md` and `results/opal_information_v1/task_status.json`, `resource_ledger.json`, `report/claims.json`, `report/efficiency.json`, and `report/dependencies.json` for exact counts, measurements, roles, unknowns and remaining inputs. The follow-up `verification/completion_audit.json` verifies all96 prediction hashes and unchanged scientific code/config/protocol, with no pending_local task inside the freeze. Broader duplicate/DEG/pathway diagnostics were not executed or retrospectively added; complete new CPU certification remains unavailable. The previous PDF is preserved under the cycle local artifact root; the current manuscript has a separately verified development addendum.
-
-## Historical appendix: previous model-series plan, unchanged content
-
-```markdown
-# Opal model-series implementation plan
-
-Owner-requested successor, 10 October 2026. Checkboxes below remain open until their complete evidence is verified; the execution ledger records partial and completed work. Completed v1 work is removed from this active backlog and remains in its existing evidence directories, model cards and execution records. This tracked plan mirrors the ignored local `PLAN.md`. Read [the research assessment](model_series_v2_research.md) and [the implementation prompt](agent_prompt_model_series_v2.md) with it.
-
-The goal is to build a stronger, structurally distinct, resource-bounded observed-single model series and evaluate whether it is competitive with eligible contemporary methods. Frontier performance is an objective to test, not an outcome to assume. A negative completed experiment is preferable to a favorable claim obtained by changing endpoints or repeatedly tuning against exposed evaluation results.
-
-## 1. Preserve evidence and freeze the successor
-
-- [x] Inventory HEAD, status, existing uncommitted v1 changes, checkpoints, environments and source banks. Read applicable `AGENTS.md`, the complete v1 protocol/results, original backlog audit, `docs/evidence.md`, historical preparation contracts, `results/architecture/`, `tools/study_architecture.py`, `src/models/advanced.py`, `tools/prepare_architecture.py`, existing public-method resource audits and the original prospective protocol. Reuse existing working mechanisms rather than repeating old experiments under new names.
-- [x] Verify the v1 historical replay, checkpoint integrity, input/split manifests and current 255-test result. Save a compact preservation manifest before edits. Do not overwrite v1 architecture studies, selections, source scopes, evaluation arrays or checkpoints. Explicitly list previously exposed sources and narratives. Retain unsuccessful architecture/prior/transfer experiments.
-- [x] Create separate `configs/experiments/opal_model_series_v2.json`, versioned schemas, `docs/next_cycle/model_series_v2_protocol.md` and `results/opal_model_series_v2/`. Save source/code/config hashes before each new preparation or fit. Freeze all candidate grids, exclusions, score formulas, promotion rules and resource caps before v2 scoring. Mark an amended configuration as a new experiment, preserving its predecessor.
-- [x] Verify the old private plan archive without tracking it. The preserved pre-v2 local plan is `data/source_audits/replicated_fixed_state_v1/source_snapshots/private-plan-history/PLAN-before-model-series-v2-20261010.md`, SHA-256 `1fab01a72906886ebb863fa15f653a3beceb75504a50a08b1c934db680e57873`. Do not force-stage `PLAN.md`, private metadata or ignored arrays. Keep this tracked plan current as tasks progress.
-
-The owner now authorizes the implementing agent to commit the completed work. Build, run, verify and document the whole cycle first, then create small coherent commits with short lowercase messages. This supersedes the preceding no-commit instruction for that implementation handoff. It does not authorize pushing, new release publication, changing repository visibility, replacing approved v0.1.2 assets, uploading weights, registration, paid compute or contacting anyone.
-
-## 2. Diagnose the failure modes before proposing a win
-
-- [x] Generate a saved-record diagnostic report for every v1 source and full-budget outer fold. Record selected reference, train/OOF residual norms, branch prediction norms, correction-to-Base ratios, effective output rank, parameter counts, stopping epochs, penalty choices, gradient norms where recoverable, fallback proportions and gate weight distributions. Never invent unavailable training diagnostics or retrain a historical attempt silently.
-- [x] Compare all fixed gate ablations and determine whether learned gates beat always-off, always-on and fixed-half weights. Measure variation and zero rates of each support feature. Investigate the fact that nearest-reference distances can be zero for measured query singles already present in the training reference bank.
-- [x] Audit meta-level validation isolation. A gate-validation pair must be excluded from every expert, residual basis, retrieval bank and transform used to produce any gate-training or gate-validation row in that selection comparison. Add a mutation test that changes only gate-validation outcomes and verifies gate-training fitted objects remain unchanged. Distinguish a verified internal selection-dependence defect from outer-test leakage; do not invalidate or rewrite preserved results without evidence.
-- [x] Quantify shared-reference sensitivity and guide/control mixture support from allowed source inputs. PertSpectra technical cell resampling must reuse each control/single draw across all affected pairs. Report sampling sensitivity within this deposit, without independent-culture intervals, noise ceilings or uncertainty guarantees. Query-pair cell counts, guide effects estimated from query outcomes and evaluator-derived difficulty labels cannot enter predictors.
-- [x] Explain the very poor Combi-seq additive error and TNF-negative no-change win using descriptive scale, effect-magnitude, reference-support and shrinkage diagnostics. Do not convert normalized arrays into counts, infer missing dose matches or interpret unexplained residuals as biological interactions.
-
-Deliver `diagnosis.json`, a compact explanation and saved-record figures. These diagnoses can guide prespecified implementation choices, but v1 outer scores are already exposed and cannot become fresh validation.
-
-## 3. Make the three v2 variants functionally different
-
-The only public model names are `Opal-Base`, `Opal-Interaction` and `Opal-Guard`. Do not add version suffixes to model names, classes, registry keys, CLI choices, paper labels, README tables or model-card titles. Keep the existing `OpalBase`, `OpalInteraction` and `OpalGuard` class names and the three-entry registry. Historical and new checkpoints remain distinguishable through internal architecture identifiers, storage schemas, training dates, source/split lineage and integrity hashes; preserve historical loading without advertising additional model variants. The v1/v2 directory names in this plan identify execution cycles, not model names. Different architecture capabilities must be demonstrated with controlled synthetic tasks and ablations; genuine data predictions may coincide when the conservative model wins.
-
-### Opal-Base: strong main effects with a learned null/shrinkage option
-
-- [x] Retain the thirteen historical reference configurations in an unchanged legacy module. In the new v2 selector add no-change, equal-pair training-mean response, three regularized affine-additivity configurations and six low-rank single-sum ridge configurations. The complete reference menu has 24 entries; it contains no pair-product features.
-- [x] Affine additivity predicts `gamma * (s_a + s_b) + c`, with a shared scalar `gamma` constrained to `[0, 1.5]`, a gene-vector intercept and penalties `[0.1, 1, 10]` toward `gamma = 1`. Normalize weighted squared error and penalty explicitly. Fit the intercept and scalar jointly from acquired development labels. Store actual coefficients and selected family.
-- [x] Low-rank single-sum ridge uses training-single PCA ranks `[4, 8]`, summed encodings and penalties `[0.1, 1, 10]`; fit response projection/coefficients within each inner training fold. Unsupported ranks are unavailable rather than silently changed. This is a main-effect comparator, not an interaction model.
-- [x] Select the strongest eligible reference by grouped development MSE with deterministic tie breaks. No-change is eligible inside selection at positive budgets, so the fitted series can honestly choose a null prediction on weak-signal sources. At zero acquired pairs, score zero-label controls and mark pair-supervised fitting unavailable. Preserve zero identity correction for unsupported components in component-additive references.
-
-### Opal-Interaction: explicit low-rank cross-factor interactions
-
-- [x] Build a compact symmetric bilinear residual expert with a fixed training-single PCA encoder. For `u = z_a - m` and `v = z_b - m`, use all unique entries of `(u v^T + v u^T)/2`, not only coordinatewise products. Fix the diagonal/off-diagonal normalization in the schema. Ranks `[4, 8]` give 10 or 36 explicit interaction features.
-- [x] Project development residuals into output SVD ranks `[4, 8]` and fit weighted ridge coefficients with penalties `[0.1, 1, 10]`. Reconstruct the gene-vector residual through the stored output basis and add the selected Base prediction. Every input/output basis and feature scaler is fitted inside the current training partition. No query-pair outcomes or unacquired labels fit a representation.
-- [x] Compare two declared residual-target routes: in-sample Base residuals and honest grouped cross-fitted Base residuals. There are 24 non-null configurations plus an explicit zero-branch option. Select these routes inside development; do not presume cross-fitting wins. Record the effect of smaller cross-fit training sets and the final-refit target mismatch. The final acquired-set refit repeats the selected route and its full cross-fitting procedure.
-- [x] Center and orthogonalize interaction features against the training reference's main-effect design when that design is available. Fit that projection on training rows only. For nonlinear/kernel references, report that exact main-effect orthogonality is unavailable; do not equate statistical feature projection with causal interaction identification.
-- [x] Compare the full cross-factor map with a diagonal-only ablation, a zero branch, a matched low-rank main-effect model and the v1 neural branch. Keep fixed-rank/penalty ablations separate from the selected model's search budget. Implement ridge with stable factorization/solves, avoiding explicit matrix inverses.
-
-The proposed mechanism reduces learned degrees of freedom and makes cross-coordinate composition explicit. It is a hypothesis about sample efficiency, not a new biological law or an automatic improvement over v1's expressive learned encoder.
-
-### Opal-Guard: learned mixture including local residual memory
-
-- [x] Add a genuine third expert: retrieve only acquired development pairs using symmetric profile-space distance, averaging cached honest OOF Base residuals. Use `k in [4, 8]`; an RBF temperature derived from the median training-pair distance has multiplier 1. Exclude the query canonical pair, every alias and every source occurrence when generating training OOF predictions. Store neighbor identities, source lineage and support distances.
-- [x] Predict a convex mixture of Base, bilinear Interaction and `Base + retrieved_residual`, with a small regularized affine softmax router. This is a three-expert inference mechanism rather than a renamed scalar gate. An expert unavailable in any required router-training fold has its weight fixed to zero for that fit; do not teach the router an expert that only appears after final refitting.
-- [x] Limit router features to acquired graph degrees, neighbor distance/dispersion, measured control/single support and declared assay/TNF eligibility. Pair outcomes, query-pair sampling counts, outcome-derived query groups and evaluator scores are forbidden. Use at most eight frozen features and penalties `[0.1, 1]`. The mixture weights are not calibrated uncertainty or probabilities of correctness.
-- [x] Perform honest nested meta selection: first hold out router-validation canonical pairs globally, then generate router-training expert OOF predictions using only the remaining labels, and generate router-validation expert predictions without those validation labels. Fit all router transforms on router-training inputs. After selecting the router, refit it on grouped OOF predictions from the acquired development set and refit its eligible experts on that acquired set.
-- [x] Separate immutable source/TNF eligibility from SampleIndex novelty. A missing essential reference, incompatible gene order/units/source or changed TNF contract causes refusal. A new sample label within the same declared TNF context may use measured singles if component and profile-distance support pass training-only rules; unsupported experts fall back to the selected Base. Implement this as a separate declared transport mode, retaining v1's strict mode.
-- [x] Compare learned routing with Base only, each expert alone, equal weights, the v1 scalar gate, a constant development-selected convex mixture and retrieval without learned routing. A learned router must beat constant mixing before it is recommended for extra complexity.
-
-## 4. Freeze a finite optimization and resource budget
-
-- [x] Translate the exact menus above into machine-readable configuration before scoring. Use primary training seed `20261017`, acquisition seeds `[11, 29, 47]`, inherited historical outer assignments and three grouped cross-fit folds. Additional training seeds `20261018` and `20261019` run at full label budget only, as stability diagnostics; never choose the best seed.
-- [x] Use float64 deterministic CPU fits, one BLAS/PyTorch thread per worker and at most two workers. Ridge fits have no optimization-epoch search. The router uses Adam, learning rate `0.01`, maximum 100 epochs, patience 10 and minimum improvement `1e-6`, all selected using development only. Preserve every attempted configuration, failure, stopping history and eligibility refusal.
-- [x] Require at least 12 unique acquired pairs for supervised Base fitting and at least four unique pairs in each required validation partition. A bilinear configuration requires at least twice its interaction-feature dimension in its inner training partition. Router fitting requires at least 24 acquired pairs and valid nested partitions; otherwise return a declared Base fallback after a valid Base fit. Record expert-specific unavailability without obtaining additional labels or substituting a favorable seed.
-- [x] Cap total new work at 24 CPU core-hours, with allocations of 4 for diagnosis/preparation, 8 for v2/ablation runs, 8 for native challengers and 4 for verification/reporting. Record consumed time cumulatively, including failed attempts. Reserve at least 1 GB free on each used volume and cap additional retained artifacts at 1 GB. Check actual local disk/RAM/GPU availability before work; current volumes are tight. Reuse cached raw files and dependencies, deduplicate identical fits/arrays by integrity hash and never delete old work to create space automatically.
-- [x] Bound each native-method compatibility attempt to 30 minutes before fitting, and each declared upstream fit to the remaining challenger allocation. Use at most two fixed configs per native method and one primary seed, with equal-data comparisons and disclosed unequal optimization budgets. No paid/cloud compute, new large weight downloads or expanded grids without separate authorization. Resource failure produces a specific partial-comparison record and prevents a corresponding frontier claim.
-
-A missed promotion threshold does not authorize more architectures, widths, seeds, sources or metrics. Finish the finite experiment and report the loss. A later cycle needs its own pre-fit amendment.
-
-## 5. Strengthen the data contracts without rewriting history
-
-- [x] Keep Combi-seq's exact 512-gene panel, assay arithmetic, pair population, outer assignments and three-run weighting for the primary v1-v2 comparison. Keep PertSpectra TNF-positive and TNF-negative separate with their frozen panels and source populations. Audit cached full-file hashes, raw count availability, normalization order, controls, guide mixtures and exclusions before reusing prepared arrays.
-- [x] Support two explicitly different information tiers: strict within-stratum observed singles plus acquired pair aggregates; and declared extra-information comparators using cell-level data, pooled source strata, public priors or external single-screen representations. Fit every compatible simple baseline under each tier. Do not attribute a gain from additional data to architecture alone.
-- [x] Add an equally weighted same-context multi-stratum training diagnostic using the existing runs/indices, with globally held pairs excluded everywhere. Count both unique canonical pairs and pair-stratum response profiles accessed; a four-stratum label bundle is not equivalent to one observed stratum. Freeze populations and acquisition units separately from the strict single-stratum benchmark.
-- [x] Audit and adapt existing Norman and Wessels preparations to the shared observed-single contract. Start with existing coherent banks; bounded metadata-only eligibility checks may define separate expanded-coverage sensitivities. Preserve old count/log scales and protected/exposed flags. Reusing previously scored Norman/Wessels outcomes is retrospective development, not fresh confirmation.
-- [x] On PertSpectra, prepare fixed metadata-only cell-support sensitivities at minimum 25 and 50 cells, plus a guide-compatible subset only if actual deposited guide support permits it. Refuse unsupported matching. Keep original ten-cell populations primary. Freeze every changed panel and exclude exactly the same conditions for all methods within it. Technical resampling and alternate normalization order are separate diagnostics with separate units/manifests, never a search for a more favorable primary endpoint.
-
-No universal genetic/chemical model or cross-TNF transfer is claimed. Every checkpoint names its assay, scale, ordered genes, source/context, preparation version, acquired/held labels and information tier.
-
-## 6. Run matched contemporary comparisons
-
-- [x] Pin and audit current author code, licenses, input contracts and training-data exposure for GEARS, CPA, PertSpectra, TxPert and PRESAGE. Reuse prior local audits and resources. Attempt native runs in priority order: PertSpectra on its eligible in-house panel; GEARS on coherent genetic panels; public-only TxPert; PRESAGE if its exact licensed required resources are present; CPA where cell-level covariates and preparation support it. No method may inspect globally held pair outcomes during graph construction, matrix factorization, autoencoding or fine-tuning.
-- [x] Produce a native-versus-adapted status table. An adapted aggregate module is not the published model. If a native model requires extra genes, transform raw prepared data under a separate frozen training contract and map output to the same endpoint before scoring. Log all additional inputs. A comparator that cannot honor the isolation/scale contract is ineligible, with a concrete reason.
-- [x] Preserve original upstream tasks when auditing author claims. Never compare Opal delta MSE with a published absolute-profile correlation, outcome-selected DEG endpoint or incompatible split. State/CellFlow distributional models remain optional audited context, not a mandatory rewrite of aggregate prediction. Do not create fake cells by repeating a mean prediction.
-- [x] Use an optional, bounded public-prior probe only after auditing the already executed architecture studies. Reuse licensed cached GO/STRING/pathway resources, compare a linear probe with the same information, and include identity/graph-shuffled controls. Exclude perturbation-screen embeddings contaminated by held pairs, or identify the pretraining-exposed tier explicitly and bar its fresh-holdout claim. Do not silently assume that proprietary TxPert graphs or Genentech resources are available.
-
-At least one actual eligible contemporary native combinatorial comparator is needed for a scoped contemporary-comparison claim. A frontier claim additionally needs the relevant strongest accessible comparators and a matched broad evaluation; inability to run them is a limitation, not evidence of superiority.
-
-## 7. Complete the frozen evaluation and label-budget study
-
-- [x] Reuse nested 0/25/50/100% prefixes for uniform and the exact existing identity-only target-balanced order, retaining all three acquisition seeds and every outer pair. Count every unique label used by fitting, stopping, representation fitting, residual cross-fitting and routing validation. Zero-budget supervised methods are unavailable; absent expert support yields prespecified fallback/unavailability, with no row removed from the model's test population.
-- [x] Evaluate zero change, additivity, equal-pair mean, strongest selected v2 reference, historical reference/candidate, all v1 models, all v2 models and compatible native challengers. Report equal canonical-pair losses within a stratum and equal-stratum aggregation. Keep each assay/context separate. Publish every attempted selection record and losing comparison compactly, retaining arrays locally.
-- [x] Keep gene-averaged MSE on the frozen primary panel as the primary endpoint. Add MAE, normalized skill versus no-change and strongest selected reference, signed correction magnitude, gene-centered Pearson with explicit zero-variance handling, and held-pair profile retrieval with a fixed distance/centering rule and tie handling. Fit metric scalers on development only; reference reuse and evaluation candidate-pool composition must be explicit. Undefined ratios/correlations produce missing values with reasons, never convenient zeros.
-- [x] Implement metric-sensitivity positive controls in a sealed evaluator-only route: synthetic exact predictions, constant/identity-shuffled controls, and, where deposited cells permit it, disjoint technical half-aggregates with matched reference reuse. No technical-duplicate pair labels or outcome-derived metric weights may enter fitting or model selection. Do not call cell halves independent cultures, noise ceilings, biological power or calibrated uncertainty. Published outcome-weighted protocols may be reproduced separately, with their evaluator access disclosed, while the unchanged primary endpoint remains visible.
-- [x] Report paired error changes, descriptive distributions across pairs, fixed training-seed variation and leave-target-group-out sensitivity. Pair labels share targets and references; avoid independent-pair significance claims or biological confidence intervals. Keep every unavailable source/partition visible. Assess whether full-budget improvements persist at 25/50% labels and under support/transport sensitivities.
-- [x] Freeze promotion rules: a new default needs a practically useful primary-MSE reduction, set here to at least 2% against the strongest selected eligible reference on at least two separately reported source panels, no more than 2% primary-MSE degradation on another eligible panel, and no consistent loss to constant mixing for a router recommendation. This is an engineering selection target, not a biological gate or statistical certification. If it fails, retain the simpler source-specific default or no-change.
-- [ ] Freeze the efficiency-comparison target: primary MSE within 2% of the best eligible *actually run* contemporary comparator, plus measured train/inference time, RAM and checkpoint size on declared hardware. Report a Pareto comparison, without claiming equivalent hardware efficiency from incompatible GPU/CPU measurements. Name only the methods, datasets, information tiers and budgets actually tested. Tiny exposed-source gains, new seeds and smaller weights alone cannot justify the word frontier.
-
-## 8. Deliver usable trained models and deployment refits
-
-- [x] Preserve common `fit`, `predict`, `save`, `load`, the three unversioned model names and `opal` CLI conventions. Dispatch historical versus new checkpoint architectures internally using their stored schema and architecture identifiers. Maintain an evaluation freeze and sealed scoring interface. Batch predictions must return provenance, support/fallback reason and Guard expert weights/neighbors where applicable. Query bundles cannot contain outcomes.
-- [x] Save at least one genuinely fitted, reloadable checkpoint for each v2 variant on each eligible coherent source. Save all evaluation fits needed for replay, with learned coefficients/bases/memory/router parameters, actual parameter counts, candidate menu, seeds, selection histories, source/input/split lineage and integrity hashes. Use JSON and safe array storage; prohibit arbitrary executable deserialization.
-- [x] After all evaluation is complete, produce explicitly separate all-acquired-development deployment refits for source-approved defaults and experimental variants. Their model cards must state that reported scores belong to evaluation fits, not to these later refits. Give concrete installed-wheel inference examples without dependence on the repository working directory or hardcoded E: paths. Allow the owner to set a local artifact root.
-- [x] Build a new local review wheel/sdist, choose and justify a new development version, verify private-file/raw-data/weight exclusions and source terms, and create compact checkpoint manifests. Existing approved v0.1.2 release assets stay untouched. Committing code/manifests does not authorize redistributing weights.
-
-## 9. Verify the complete pipeline and update the paper/README
-
-- [x] Add meaningful tests for outer-pair, unacquired-label and nested-router outcome mutation; every occurrence/alias/guide variant excluded globally; training-only PCA/SVD/orthogonalization/distance scaling; symmetric prediction and retrieval; source-stratum weighting; fixed outer populations/prefixes; zero budget; invalid scale/genes/reference refusal; fallback versus learned-expert availability; backwards-compatible v1 loading; and evaluator rejection of changed input, gene, unit or prediction hashes.
-- [x] Add controlled tasks that separate main effects, cross-coordinate bilinear residuals and local residual-memory behavior on held pairs. Test genuine capability and failure/fallback behavior rather than mirroring implementation formulas. Test constant-mixture and disabled-expert paths and exact safe save/load replay. Document CPU/GPU numerical tolerances explicitly.
-- [x] Run focused checks, the full local suite and installed-wheel train/predict/evaluate/replay outside the checkout. Exercise Windows Python 3.11/3.14 locally where environments permit; preserve dependency failures honestly. Extend the existing Windows/Linux 3.11/3.14 CI matrix. Since pushing is not authorized here, report new remote CI as pending unless a later explicit authorization permits it; do not call old CI evidence verification of new commits.
-- [x] Rewrite README around what the released/development models actually do: current source-specific recommendations, versioned comparison tables, allowed inputs, actual weight availability, installation/batch inference, compute costs and limitations. Separate published release, frozen v1 negative evidence, v2 evaluation and deployment refits. Do not retain obsolete current-direction language that forbids the owner-authorized model-development cycle.
-- [x] Update the manuscript with clearly separated v1 and v2 methods/results, exact data/scale/guide/QC contracts, native-versus-adapted competitors, information tiers, label counts, losses, discrimination diagnostics, ablations, compute and exposure limits. Update the related-work discussion to include both strong-baseline results and the recent metric-calibration evidence. Make abstract/title/conclusion claims follow the saved comparisons; keep original numerical provenance and unfavorable results. Use "competitive under this declared benchmark" only if the corresponding criterion passes; field-wide state-of-the-art remains unestablished otherwise.
-- [x] Generate figures from saved immutable records: learning curves, paired error differences, branch magnitude/rank, gate/mixture behavior, support/fallback coverage, source-specific model comparison and performance-versus-compute. Hash figure inputs and empirical claims. Run numerical provenance checks, rebuild PDF and standalone TeX through existing tools, and visually inspect every changed page. Do not submit the paper.
-
-## 10. Finish, commit coherent changes and record remaining dependencies
-
-- [x] Finish actual model fitting, all declared runs or bounded explicit refusals, checkpoint replay, package verification and documentation before treating the implementation as delivered. Update active tasks with evidence links and retain a source-specific verdict for every candidate, including losing/unavailable variants.
-- [x] After the full build succeeds, split all reviewable tracked work into small coherent commits. Include preserved uncommitted v1 implementation/results in logical groups before v2 changes where feasible; do not drop or relabel it. Suggested messages are `add model series v1`, `record series evaluations`, `freeze series v2 protocol`, `add shrinkage references`, `add bilinear interactions`, `add residual routing`, `add native comparisons`, `record series v2 results`, `verify installed models`, `update model docs`. Adapt boundaries to actual dependencies; messages stay short and lowercase. Avoid `git add -A`, force-staging private files and a single omnibus commit. Never commit failing partial scaffolds merely to satisfy a list of commit names.
-- [x] Inspect every staged diff for private metadata, arrays, checkpoint weights, historical-result changes and claims unsupported by evidence. Run `git diff --check`, relevant tests and final preservation checks, then record commit IDs, package hashes and pending CI honestly. Do not push under this handoff's authorization.
-- [x] Final report must identify implementations, evaluation/deployment checkpoints, exact training sources and information tiers, decisive favorable or unfavorable results, candidate attempts/refusals, label/compute costs, tests, installed verification, CI state and lowercase commits. State whether the competitive/default criteria passed. Completion means the finite work was executed and reported, not that a favorable score was manufactured.
-
-External scientific dependencies remain qualified independent cultures and matched reference/dose provenance, empirical biological precision/power, independent custody/registration and actual laboratory work. Publication, visibility changes, source-term permission for weight distribution, paid compute and correspondence remain separately authorized actions. Unseen-single prediction, dose/state extrapolation, validated uncertainty and prospective label-acquisition savings remain distinct unvalidated tasks. None is completed by this plan, a successful software test, technical cell resampling or a new benchmark seed.
-
-
-## Final local execution evidence, 11 October 2026
-
-The finite computational work is complete with negative promotion criteria and bounded native refusals. Scientific competitiveness and the complete efficiency criterion did not pass. The unchecked efficiency item depends on canonical native eligibility and unrecorded native training RAM; replay memory does not substitute for training memory. Optional new prior-grid expansion was not invoked; the existing negative architecture/prior studies are preserved, and public GO appears only in the disclosed GEARS adaptation. Biological gates remain unpassed.
-
-Original HEAD was 05bbb393b4d4b7b0e847a9accf49699ced7e5427, branch main, origin https://github.com/TheTinyIntelLab/opal.git. The initial preservation inventory hashes 1,774 files; final checks verify all 242 v1/architecture/release evidence files unchanged. The ignored private historical-plan hash remains 1fab01a72906886ebb863fa15f653a3beceb75504a50a08b1c934db680e57873. No original files were deleted, moved or reset. Private PLAN remains ignored and synchronized with this tracked equivalent.
-
-The owner explicitly authorized successive 2 GB and 3 GB artifact caps and C spill. The corrected ledger counts all three local artifact roots and every compact result once; the earlier active-output counter omitted approximately 4.9 MB at the 2 GB cutoff. Retained bytes are approximately 2.82 GB, with C above its 1 GiB reserve; the final pre-closeout snapshot is about 3.65 GiB free. D/E are read-only below reserve. The ledger reports about 1.55 measured CPU-core-hours against the 24-hour ceiling. Failed/import probes, audits, installed subprocesses and document builds lack complete cumulative CPU counters, so complete historical ceiling certification cannot be reconstructed. Native training RAM is missing; replay RAM is separately recorded. See results/opal_model_series_v2/verification/final_resources.json for exact snapshots.
-
-Implemented the finite 24-reference Base, 24-plus-zero symmetric cross-coordinate bilinear Interaction and fully nested residual-retrieval/convex Guard in src/series_bilinear.py, dispatched through the original three classes/registry. Safe content-addressed numeric-row storage supports full-gene checkpoints, relocation and file/numerical hash refusal. Source/units/genes/reference mismatches are refused. Deployment batch inference is allowed while retrospective deployment scoring is rejected.
-
-Completed 858 primary conditions: 234 Combi-seq and 312 in each separate TNF context, preserving exact primary scales, genes, populations and outer assignments. Completed all 312 retrospective acquisition conditions on Norman/Wessels log/count banks and twelve full-label retrospective ablation folds. The protected original 38/18 genetic query banks remain unopened. A canonical single-order adapter amendment is preserved with exact symmetric replay; failed/partial prefix retries remain local and completed receipts are reused read-only. Underlying full-development pair-stratum access is 704 Norman/160 Wessels profiles, not independent cultures. Every label role and unavailable zero/low-support condition is retained.
-
-All 51 pooled, same-context transport and target-group sensitivities completed; their missing historical/simple references were subsequently completed under the identical populations with zero additional pair labels. Fixed 25/50-cell support, evaluator-only exact/constant/shuffle controls, technical halves with shared reference draws and alternate normalization-order diagnostics completed. Guide equivalence remains unsupported. Technical halves are not biological noise ceilings. Saved metrics include unchanged primary MSE, MAE, centered correlation, correction magnitude and held-profile retrieval; curves, seed diagnostics and all v1 budget comparisons are compactly retained.
-
-PertSpectra, GEARS and CPA author modules completed 24 folds each under explicit protocol adaptations, not full published configurations. All 72 safe checkpoints replay within the prespecified 1e-6 float32 tolerance; Opal uses 1e-10 float64 tolerance. Their TNF-positive/negative MSEs are 0.182326/0.126928, 0.093978/0.079552 and 0.113226/0.071731. The matched extra-nineteen-single linear reference scores 0.082463/0.070020 and beats Base on TNF-negative. Exact cached PRESAGE GenePT/ESM resources were reused; native attempts fail on an undefined PCA decoder, a vector-pooling signature and two-row output for one pair. Public-only TxPert import fails on missing omegaconf and its supported closure remains unresolved; proprietary graphs are unavailable. Canonical native competitiveness is unestablished.
-
-Primary Interaction gains are 0.077882%/0.083848% over Base on Combi-seq/TNF-positive. Guard loses to Base and constant mixing there. TNF-negative nonlinear variants use Base fallback; constant mixing lacks support in four of twelve folds, so its eligible-only mean is not a full-population table value. The 2% nonlinear promotion criterion fails. Norman Guard gains 3.168524%/4.988153% on log/count scales of one exposed source, not two independent confirmations. Base remains the simple fitted primary recommendation; no-change remains available at zero labels.
-
-Collected 1,561 safe checkpoint selection histories after final refits, along with actual fitted coefficient/representation/memory/support counts, checkpoint bytes, source hashes and unavailable experts. Historical 1,296 budget and 72 transport checkpoints replay exactly. The verified v1 router meta-validation dependence is reported without replacing preserved v1 results or alleging outer leakage.
-
-After the additional references finished scoring, 21 final all-development refits were trained separately in C:/Users/USER/Desktop/opal-model-series-20261010-v2/deployment-final. The earlier deployment attempt remains preserved because additional comparisons completed afterward. Final refits have no evaluation score. Their manifest is results/opal_model_series_v2/deployment-final/manifest.json. Raw arrays and all weights remain ignored local artifacts; redistribution is unauthorized.
-
-The final Python 3.14 suite passed 268 tests in 38.85 seconds, and Python 3.11 focused tests passed 34 in 9.01 seconds. A preceding disk-full/h5py failure is retained. Final installed 0.1.3.dev0 wheel training, prediction, scoring and API/CLI replay passed on actual TNF-positive data for all three models in Windows Python 3.11/3.14 outside the checkout. Both installed deployment checks passed and refused retrospective scoring; a full 10,623-gene Norman shared-store batch example also passed. Package exclusions passed; published 0.1.2 assets are unchanged. Remote Windows/Linux Python 3.11/3.14 integrity CI remains pending because no push is authorized.
-
-README, model cards and manuscript distinguish original studies, first-cycle evidence, current evaluation and later deployment refits. Six figures are generated from saved source-hashed records. Primary, native and retrospective empirical literals are checked against saved evidence. The PDF and flattened self-contained TeX review bundle compile locally; normalized page text agrees, with discretionary line wrapping allowed. Changed pages are visually inspected. Failed overly strict standalone whitespace comparisons are preserved. No publication, upload or submission occurred.
-
-All implementation, result, verification and documentation groups now have deliberately inspected lowercase commits. The final bookkeeping record lists the preceding nineteen commits; its own ID is reported in the final response. No push is authorized. External scientific dependencies remain canonical native input/implementation contracts, qualified independent cultures and matched references/doses, biological precision/power, independent custody and laboratory validation. Source/publication authorization is required before distributing weights. Negative scientific targets remain negative.
-
+phi8(p)  = [d_A+d_B, abs(d_A-d_B)]
+phi18(p) = [phi8(p),
+            vech(sym(zbar_A d_B^T + zbar_B d_A^T))]
 ```
+
+P is rank-four PCA fitted inside each training fold to permitted reference profiles. The symmetric matrix contributes ten coordinates, with fixed sqrt(2) off-diagonal convention. All feature centering/scaling, output basis and nuisance models are fitted anew inside folds. If effective support fails, record unsupported; do not reduce ranks after query scoring.
+
+Cross-fit a pooled residual predictor k(p) for the two-context mean residual and a shared contrast nuisance h using training pairs only. Fit a rank-two source-only contrast output basis B to training contrast residuals. The candidate is:
+
+```text
+W* = argmin_W sum_p w_p ||t_p - h - B W phi18(p)||^2 / G
+                      + lambda ||W||_F^2
+t_hat(p) = h + B W* phi18(p)
+
+Delta_hat_p0 = m_A0 + m_B0 + k(p) - t_hat(p)/2
+Delta_hat_p1 = m_A1 + m_B1 + k(p) + t_hat(p)/2
+```
+
+Use cross-fitted nuisance residuals for basis/head construction, then final training-only refits. Equal canonical pair weights; genes are correlated outputs, not replicates. The head has 36 coefficients, versus 16 for phi8, plus the G-dimensional nuisance and rank-two basis. P, B, scalers, reference means, kernel fitting banks and metadata are part of the complete model.
+
+Both contexts are training data. No target bridge labels are introduced in this diagnostic. The reference envelope includes per-context and pooled symmetric kernels given both contexts' permitted references; otherwise a restrictive pooled model would be an artificially weak opponent. Direct per-context contrast ridge and equal-capacity mean-feature models test whether cross terms add value.
+
+### Later held-context procedure
+
+Use at least three distinct source contexts as a splitting feasibility floor, with connected crossed pair support and independent culture evidence; this count is not a power or identifiability guarantee. Fit source-only P/B/W, intervention centering and a pooled pair predictor. In a fresh target context, form single-reference contrasts relative to the permitted source reference center. Exactly four prespecified nonquery bridge identities provide a **shared gene intercept only**, and all references get those labels. Center the source-predicted pair correction over these bridges before adding it.
+
+No two-coefficient target operator is fitted. This tests transfer of source-learned pair-dependent prediction after calibration; it does not claim that four bridges identify target interaction structure. Bridges remain a disclosed administrative budget, not an empirically optimal biological design. A separate study would be needed to compare bridge numbers or reference precision at equal assay cost.
+
+### Actual alternatives
+
+| Candidate | Formulation, supervision and procedure | Scale/inference estimate; strongest baseline; likely failure |
+| --- | --- | --- |
+| Structured/covariance kernel | r = shared/context nuisance + K_pair C + culture error; generalized ridge with empirical shared-reference covariance from independent cultures | CPU, about nG+n^2 values plus references; cubic kernel solve. Compare existing profile kernel/affine. Covariance unidentifiable without cultures or randomized blocks. |
+| Improved present residual | Cross-fitted nuisance plus projected symmetric products, low-rank ridge/nuclear regularization | Rank-four singles give ten products and rank-two head 20 coefficients plus basis. Much is already implemented. Compare product kernel; sparse unique pairs and noise limit benefit. |
+| Learned intervention representation | z_i = E(descriptor_i), fit single-response decoder, freeze E, then symmetric pair decoder | Fixed 16-coordinate probe first, 136 products; a later 0.1-1M encoder is an estimate requiring GPU profiling. Compare descriptor ridge/SLIM and shuffled vectors. Singles alone do not identify epistasis; assay/efficacy shift and pretraining overlap matter. |
+| State-conditioned contrast model | Fixed prototype above; later source-conditioned pair correction | CPU, source-only bases and 36 coefficients. Compare phi8/per-context/pooled kernels. Batch-state alias, subtraction noise and missing target output modes are main risks. |
+| Distributional/occupancy | Fixed source/control-defined K states; multinomial/Brier objective for pair state proportions. Conditional flow matching only after occupancy qualification | Eight states and 32 inputs imply roughly 256 coefficients; CPU probe. A 1-10M flow and 8-24GB GPU are unverified estimates. Compare occupancy/mean-matched references and CPA/CellFlow. Unpaired cells do not identify trajectories. |
+| Experimental design | Bayesian low-rank pair/context tensor with culture-aware likelihood; choose batches for frozen program utility | Linear Gaussian CPU first; wet-lab campaigns dominate. Compare NAIAD/BATCHIE/random/diversity at complete cost. Miscalibrated uncertainty can select noisy anchors rather than valuable pairs. |
+
+Why simple methods win is a statistical question: common/main effects dominate many outputs while few distinct intervention pairs support added feature directions. More genes, cells or repeated folds do not increase independent pair/context/culture supervision. Ridge stabilizes a solve but does not establish biological identifiability. The older high fallback specifically reflects stability/source-rank safeguards, not proof of a fundamental incompatibility or a programming bug.
+
+The ambitious successor, only after independent contrast gains, is a low-rank context-conditioned symmetric operator:
+
+```text
+q_ABc = B sum_l v_l(h_c) (z_Ac^T M_l z_Bc),  M_l = M_l^T
+```
+
+Train it with an independently estimated culture/reference noise model. Build nonlinear conditioning only if a capacity-matched experiment shows predictable residual structure beyond tuned linear/kernel references. Attention, graphs, flows and active acquisition are not obligatory components.
+
+## 9. Data qualification and evaluation contract
+
+### Ranked data sources
+
+| Priority/source | Actual coverage and information | Rights/size/lineage limit and use |
+| --- | --- | --- |
+| 1, PertSpectra new shared-panel diagnostic | 13,901 recorded assay genes; 51 common matched pairs; two TNF states; four SampleIndex strata/state. Separate 512 panels explain old overlap. | Exposed; missing banks; guide mixtures/initiation unqualified. Existing local `data/raw/pertspectra-model-series/inhouse.h5ad` is 3,142,132,144 bytes (path/size verified, full hash/content not reverified). Stream after separate numerical authorization; no new raw download or copy is required. [Primary paper/code](https://github.com/insitro/PertSpectra). |
+| 2, sci-Plex-GxE external lead | Retained metadata audit: 88 compound singles, four trametinib doses, 87/88 pair-dose conditions across two reported labels and nominal matching references | Trametinib star; dose-description conflict and plate10 mixed labels. Counts are local metadata audit, not verified measured-cell eligibility. New expression locally, but no accepted culture confirmation. [Author code](https://github.com/cole-trapnell-lab/sci-Plex-GxE), [paper](https://cole-trapnell-lab.github.io/pdfs/papers/mcfaline-sci-plex-gxe.pdf), [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225775). |
+| 3, EmeraldBay expansion | Local exact-dose registry: 18 singles/17 genuine dose-qualified pairs over eight lines; later joint task: seven canonical pairs over six lines. These are different populations. | Exposed retained subset; full card about 57.7GB, CC BY 4.0. Wider canonical graph and culture initiation must be enumerated. [Official card](https://huggingface.co/datasets/tahoebio/EmeraldBay). |
+| 4, Combi-seq | Local audit: 374 canonical pairs, 36 compounds, three reported runs with nominal singles/controls | Aggregate barcode reads, not cell distributions; reproducibility/vehicle/dose/initiation and derivative rights unqualified. Exposed and not crossed-context confirmation. [Deposit](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174695). |
+| 5, Norman/CaRPool-seq | Local eligible panels: 105 singles/126 pairs and 16 singles/58 pairs | Historical/protected/exposed roles, one qualified setting each; technical partitions are not cultures. [Norman](https://doi.org/10.1126/science.aax4438), [CaRPool-seq](https://doi.org/10.1038/s41592-022-01705-x). |
+| Pivot, Tahoe-100M | Broad crossed single-drug contexts with matched vehicles; no matched pair screen | CC0; prior card inventory about 429GB, so use a separately byte-qualified subset only. Duplicated/repeated plates must be grouped. [Official card](https://huggingface.co/datasets/tahoebio/Tahoe-100M). |
+| Further single-context leads | 2026 challenge and PIE Jiang releases broaden single-perturbation/context support | Raw eligible graphs/replicate lineage not enumerated here; no verified combination replacement. [Challenge release](https://arcinstitute.org/news/behind-the-data-virtual-cell-challenge-2026), [PIE Jiang card](https://huggingface.co/datasets/arcinstitute/PIE_jiang). |
+
+The best immediate public source is PertSpectra **for qualification and a new fixed-contrast diagnostic**, conditional on current hash, rights and reference/assignment qualification. The best external public lead is sci-Plex-GxE **for anchor-specific chemical prediction**, not a modality-compatible confirmation of genetic TNF transfer. The best independent-confirmation source is a prospectively measured collaborator panel; none inspected is already accepted. No license, exact size or complete coverage graph is inferred from an abstract.
+
+### Outcome-blind qualification
+
+Construct a condition graph with literal intervention/reagent/dose/time vertices and pair edges indexed by context, assay, stratum and culture initiation. Retain original rows, controls, both singles, cell support, ambiguous guide mixtures, exposure history and exclusion reasons. Freeze graph-derived global folds before opening pair-response files.
+
+For the new diagnostic, keep at least 36 complete canonical pairs and at least 256 reference-eligible genes as conservative feasibility minima, while selecting up to 512 genes with one common rule. Rank genes by equal-context average within-context measured-single-effect variance, with lexical ties, using permitted controls/singles only. Require all selected genes to share literal assay identifiers and finite reference support; freeze order/hash. No pair outcomes, all-cell HVGs or test DEGs select the panel. Normalize full libraries before restricting genes, then condition means, log2(1+mean), and matched-control subtraction in the declared order.
+
+This shared rule is new, not a lowered v1 gate. Full-gene source access and reference-only preprocessing must be verified. A metadata title or historical expected hash is insufficient. Output `source_unavailable`, `ineligible_graph`, `unsupported_design` or `rights_unresolved` distinctly.
+
+Provisional diagnostic folds: three exclusive global pair folds, seed 20261012, canonical identities sorted before seeded assignment; three grouped inner folds on training identities. Remove every alias/reversal/reagent-equivalent query pair across both states. Fit P, B, scalers, pooled predictor and nuisance inside each fold. Inner source-only menu is lambda {0.1,1,10}; ranks 4 and 2 and feature families 8/18 are fixed. Enumerate numerical effective rank and unique pair support for every fit before promotion. Unsupported design produces a complete-population locked-reference fallback and no advancement. New folds do not make exposed data fresh.
+
+### References and isolation
+
+The locked selector includes no-change, observed additivity, the Base procedure refitted only on permitted training identities, shared offset, scalar affine additivity, component-incidence ridge, eight-feature contrast ridge, equal-capacity mean-feature ridge, per-context symmetric profile/product kernels, pooled kernels and joint-context contrast kernels. Where applicable each family gets the same finite penalty menu and source folds. Record every family and fitting label; fix selector tie-breaks by family ID then penalty. The candidate must additionally beat required contrast/calibration/alignment controls, not merely a poorly transporting selector.
+
+Native public methods have a separate input-tier register: native cell/graph or pretrained resources versus aggregate/same-information adaptations. For genetic pairs prioritize eligible native GEARS, PertSpectra and SLIM; for a chemical task CPA/chemCPA; qualify PertAdapt/PRESAGE/TxPert/State/PIE only when they actually support the chosen target and inputs. Scalar NAIAD is a functional-target comparison. A missing/failed native run is a comparison gap, not a win.
+
+Separate source fit, permitted references, any calibration labels and evaluator-only outcomes. Hash prediction/checkpoint/label manifests before evaluator access. Query mutation must not alter preparation, splits, bases, selection or predictions. Record public pretraining/test overlap as known, excluded or unknown; no unsupported contamination-free claim. Preserve every failure and all fallback rows. Independent source exposure is attested, not inferred from a new split.
+
+### Metrics, controls and inference
+
+Primary for the fixed-contrast pilot: first average the declared matched-stratum effects within each pair/context, then calculate gene-averaged full-response MSE and average canonical pairs, reporting the two contexts separately. Stratum-level loss is a diagnostic and cannot replace this aggregate endpoint. Do not call the two context scores transfer directions. Confirmation uses equal pair loss within independent culture, then prespecified context weighting.
+
+Freeze secondary MAE, full-pool normalized inverse retrieval rank with declared ties/undefined rows, across-perturbation gene correlation, context-residual contrast error, independently anchored departure error where available, and one source-defined/collaborator-defined program endpoint. Program weights, top-k and candidate pool are fixed before outcomes. Same-anchor residual error equals response error and is not separate composition evidence. Before nomination, qualify two disjoint measured control/single reference partitions; refit all permitted inputs inside their fold, swap which partition supplies inputs versus evaluator anchors, and retain identical query identities. Freeze pair-outcome and evaluator-control subtraction estimators consistently across methods. Require gains and attribution checks in both swaps; shared-reference draws remain coupled across affected pairs. Technical separation tests sampling dependence and cannot remove culture confounding. A program-only win cannot replace a failed primary endpoint; it can motivate a new explicitly declared target.
+
+The existing retrieval formula `(1/rank-1/N)/(1-1/N)` is floor-normalized: under uniform no-tie random ranking its expectation is `(H_N-1)/(N-1)>0`. Preserve historical v1 scores and definitions. For this successor, use 99 evaluator-only identity permutations, seed 20261033, preserving declared pool/tie/undefined rules and shared blocks, to report the empirical-null distribution before interpreting positive retrieval. These permutations calibrate the endpoint; they cannot select architecture or replace primary MSE.
+
+Metric positive controls are exact predictions for algebra plus disjoint technical-half predictions and, when available, leave-one-independent-culture-out measurements. Negatives are train mean, identity shuffle, shared-affine distortion and amplitude distortion. Qualification uses development data before candidate query ranking. If realistic positives cannot beat uninformative controls, mark that endpoint unqualified; do not search for a flattering metric.
+
+Source-pair alignment and contrast-feature alignment controls preserve context/reference/culture blocks, use fixed seeds 20261021/22/23, and keep label counts/offset freedom identical. Consistent identity renaming is not a placebo. Three shuffles are conservative controls, not a randomization-test p-value. Required unsupported attribution means no advancement.
+
+Public uncertainty is a paired 2,000-draw intervention-product-weight sensitivity, seed 20261031, pooling each held identity once and preserving reference sharing. It is conditional on exposed measurements/selected procedure, not a biological interval. Procedure-refitting uncertainty is separate and unavailable unless authorized. Genes, cells, technical strata, folds and the two TNF states are not independent studies.
+
+Confirmation resamples independently initiated cultures within prespecified contexts and preserves shared references/blocks. Inference over new contexts/targets additionally needs enough independently sampled contexts/targets and validated crossed dependence-aware coverage. Choose useful margin, culture count and any functional endpoint using a separate empirical covariance/power pilot and biological reviewer before sealed outcomes. No conformal guarantee under arbitrary shift is claimed.
+
+Global pair holds establish combination generalization conditional on measured singles. Partner holds remove all pairs touching a target, while its allowed single remains measured. Intervention holds remove its singles and outcomes too and require a new prior-information task. Context holds remove whole pretreatment contexts from tuning; calibration labels must still be counted. Post-treatment labels do not define pretreatment contexts.
+
+### Collaborator design
+
+Start with a small nonquery crossed repeatability panel, exact independently measured controls/singles and randomized plate blocks. Estimate repeatability of pair-context contrast after shared/affine/incidence adjustment and the covariance caused by common references. Compare improved reference precision with more pair identities before commissioning a full screen.
+
+Illustrative topology only: 12 intervention identities supply 66 possible distinct pairs. An identity-frozen allocation can use 36 source-training pairs, four bridge identities, 20 globally held queries and six reserves, with multiple non-star partners and a feasible partner-hold subset. Three source contexts and two held contexts illustrate splitting, not a powered design. Final culture numbers and assay costs are unknown. Independent evaluator reference partitions add measurements; they must not vanish from the budget. Qualify this graph with the actual partner before assigning arms. No collaborator contact, assay order or commitment occurred here.
+
+## 10. Execution-ready roadmap
+
+Milestones are conditional deliverables, not promises to consume unauthorized compute or fill a calendar. The next coding agent must read the updated experiment contract and handoff and obtain a separate numerical plan before fitting.
+
+| Time | Observable deliverable | Decision rule |
+| --- | --- | --- |
+| First 7 days | Close v1 as research-retired/biologically untested; source/access/common-panel/coverage/exposure/rights manifest; freeze fixed-contrast hypothesis, folds, references, metrics and exact fit/byte inventory; draft partner pilot specification | If arrays are unavailable or new budget/rights unresolved, do not fit. Keep qualification-only no-go explicit. No routine adapter diagnostic. |
+| First 30 days | After authorization, one complete fixed-context global-pair diagnostic with all controls, checkpoints, replay, failure/resource receipts and decision; otherwise a documented source/resource no-go | Pass only the declared development requirements below. A supported loss closes the 18-feature procedure; unsupported data/metrics close the execution branch as inconclusive. No extra ranks/seeds/metrics. |
+| First 90 days | If development and access succeed, nominate a frozen source-conditioned procedure, perform independent reference/culture precision pilot, and evaluate fresh eligible context/pair data only if the confirmation contract is ready | No independent cultures/useful margin means no confirmation claim. If no credible pair-data arrangement exists by this decision, switch to one byte-qualified crossed-single representation probe against simple/native references, or record access no-go. |
+| Six months | Strongest validated capability statement backed by untouched data: ideally independent new-pair prediction in new contexts after shared calibration; otherwise the narrower achieved result or closed direction | Expand architecture only for a demonstrated repeatable residual beyond tuned CPU references. A precise failure of the useful margin ends the nomination. |
+| Twelve months | Domain-specific frontier benchmark and independently repeated procedure; conditional blinded program shortlist/functional validation and complete assay-cost comparison | Claim frontier-level capability only against eligible native/strong references with independent confirmation and useful endpoint gains. If no such evidence exists, report a reference/data contribution, not frontier success. |
+
+Expected solo effort, estimates: 1-3 days metadata/access/layout qualification; 5-10 focused days for one authorized implementation/integrity review; about half a day scoped release/custody maintenance. Partner initiation, assay turnaround, power and independent review dominate longer timelines and have no measured schedule today.
+
+If the first procedure fails but independent cultures show reproducible contrast, keep the strongest kernel/reference and reconsider inputs only through a new hypothesis. If pair contrast is not resolvable, improve references/assay or change target. Neither outcome triggers endless tuning of the same candidate.
+
+## 11. Resource and compute budget
+
+| Item | Verified current state | Consequence |
+| --- | --- | --- |
+| Engineering limits | One worker/thread; 24 CPU core-hours; 1,073,741,824-byte writable reserve; 300,000,000 delegated retained bytes; 3,250,000,000 inherited-plus-new bytes; registered engineering-only E: root | Fixed. Current planning authorizes no new scientific numerical work, installation, GPU training or raw downloads. Research-agent concurrency is not numerical worker concurrency. |
+| Final snapshot/live matching inventory | Inherited charged 2,924,808,208; new 269,249,753; total 3,194,057,961 | Nominal delegated headroom 30,750,247 and total headroom 55,942,039 before council document writes. Smaller delegated limit binds. Final ledger's slightly earlier new charge is 269,241,047. |
+| CPU accounting | 4,868.03125 observed seconds, about 1.3522 core-hours; completeness false | Do not advertise 22.65 certified remaining hours. Interrupted/unreceipted CPU and historical GPU stay unknown. |
+| Live volumes during audit | C 6,592,335,872 bytes at the latest read, E 3,351,453,696 bytes, D about 2.00GB, F about 0.443GB | E has 2,277,711,872 above reserve, too little for another 3.142GB raw copy. The existing C: cache avoids that copy; streaming still needs measured scratch/output accounting. F fails reserve. Free space is volatile and not authorization. |
+| Host | i7-14700K, 28 logical processors, 34,115,923,968 RAM bytes; RTX4060 device seen | Enforce one numerical thread. Actual usable CUDA memory was not recertified by this read-only audit. |
+| Missing historical roots | 1,245,703,642 bytes conservatively retained at last-known charges | Missing files are not reclaimed budget or verified present assets. |
+
+Documentation writes are small and permitted; their exact added footprint is verified at closeout without rewriting historical ledgers. These refinements were finalized on 13 October against the 12 October evidence cutoff. The snapshot above is not a new complete CPU/retention certification.
+
+A hypothetical 51-pair by eight-stratum by 512-gene float64 effect tensor is about 1.67MB, but this excludes singles/controls, output bases, scalers, kernels, all nested states, predictions, replay, test/scratch and failed attempts. Model head size is not the complete storage cost. No claim is made that the diagnostic fits 30.75MB.
+
+Proposed future CPU stop envelope, requiring separate authorization: 24 core-hours, allocated at most four preprocessing, eight candidate/selection, four references/replay and eight failure/integrity overhead. Fit RAM target 4GB and aggregation target 8GB are estimates, not profiles. Enumerate every fit and serialization dependency before acceptance; request derived retention from the exact layout, with a proposed 25MB retained pilot ceiling only if the complete layout fits, leaving nominal failure headroom rather than spending all 30.75MB. A first stream/preparation/fit estimate of 0.5-4 CPU hours is unmeasured, not permission or a certified remaining allowance. Restore/download/scratch/environment bytes need explicit separate treatment and cannot inherit cached-input exclusions.
+
+For a larger aggregate panel, 2,000 conditions by 2,000 genes and a 2,000-square float64 kernel each occupy about 32MB per matrix, already beyond today's delegated headroom once complete copies are counted. Raw cells need external storage/partner export. Prefer rights-cleared aggregate exports when full reaggregation is unnecessary, while retaining complete lineage and reference definitions.
+
+GPU compute is justified only by a precise nonlinear-capacity hypothesis after reproducible gains/data qualification, followed by one matched small model against tuned CPU references. A one-hour compatibility profile and at most 20 GPU-hours for one model/native comparator are possible future request envelopes, not authorized budgets or measured sufficiency. Failure against references ends scaling for that hypothesis. Foundation-model pretraining has no current data/compute justification.
+
+## 12. Five hard go/no-go requirements
+
+Exactly five scientific advancement gates are defined here. Each failure is classified as supported negative, unqualified/inconclusive or access/resource failure; none silently drops difficult queries.
+
+| Gate | Exact requirement and evidence | Evaluation artifact | Pass | Fail |
+| --- | --- | --- | --- | --- |
+| 1. Eligible data and executable contract | Verified accessible source/hash/rights; exact controls/singles/pairs and declared scale; connected metadata graph supporting every exclusion; diagnostic >=36 pairs and >=256 eligible genes under its new common rule; outcome-isolated roles; complete fit/storage/scratch/CPU plan separately authorized and reserve preserved | `qualification.json`, graph/exposure/role manifests, budget/layout acceptance | Permit preparation only for the newly named contract | No fitting; preserve v1 failure. Close missing/ineligible execution branch. Do not lower minima or substitute outcomes. |
+| 2. Identifiable measurement and qualified evaluation | Fold-level input/design support and documented ranks; realizable positive control, calibration/null/nontransfer controls, isolated rank refusal, exact replay and query-mutation isolation; practical metric positives distinguish the predeclared empirical retrieval null; two disjoint reference partitions qualify identical supported query populations. Biological phase additionally has independent-initiation/reference evidence, empirical covariance, useful margin and reviewed power/coverage before sealed scoring | `rank_support.json`, `integrity.json`, `metric_qualification.json`, pilot/readiness review | Permit the scoped development or, separately, independent evaluation | No scientific advancement; distinguish code defect from unmeasurable signal. Repair prospectively under a new authorized protocol. |
+| 3. Incremental development prediction | All registered rows scored; >=5% primary MSE gain over locked same-information selector in each fixed context, positive paired conditional sensitivity lower bound, candidate better than phi8 and required capacity-matched calibration/mean/alignment controls, gains survive both disjoint-reference swaps, positive frozen qualified retrieval/program difference, no unsupported required comparison or candidate fallback | `predictions.npz`, `metrics.json`, `controls.json`, complete fallback/attempt ledger and `decision.json` | Nominate procedure for fresh-data testing; no biological/frontier claim | Supported failure retires 18-feature procedure. Ineligible/unsupported comparison is inconclusive and cannot pass by fallback. No rescue sweep. |
+| 4. Independent biological confirmation | Frozen procedure and globally unseen pairs in fresh pretreatment contexts; independent cultures/anchors and preserved shared covariance; primary gain achieves predeclared useful margin, paired culture interval excludes zero in required contexts, and qualified pair/program attribution improves beyond equally calibrated references. Context-population claims require their own validated sampling support | Sealed confirmation manifest, culture/assignment/reference lineage, frozen-margin/power record, confirmation report | Establish the precise independently repeated capability in that domain | Precision-qualified upper bound below useful margin abandons nominated strategy in the tested domain. Wide intervals allow only predeclared extra measurement, not tuning; unknown culture provenance cannot confirm. |
+| 5. Frontier and scientific utility | Eligible native comparators and strongest same-information procedure tested under pinned task/input budgets; independently repeated superiority and prespecified program relevance. Assay-saving/discovery claims additionally require blinded fixed-budget shortlist/campaign validation, complete controls/singles/bridges/failures costs and functional confirmation where claimed | Native compatibility/results matrix, independent replication, frozen shortlist/functional/cost report | Permit only the demonstrated domain-specific frontier/utility claim | Retain narrower predictor/reference/data result; abandon frontier superiority if a compatible competitor wins. Do not use tests, synthesis, parameter count or training loss as substitutes. |
+
+Five percent is a new development spending filter, not a scientific law or biological useful margin. It is not borrowed as proof of frontier success. The independent useful margin remains unknown until the separate pilot/reviewer freezes it. A fallback policy can be safe software; it cannot pass Gate 3 by letting the reference make unsupported predictions.
+
+## 13. Release and reproducibility work outside the model path
+
+Historical `v0.1.2` was published as a **private experimental GitHub prerelease** on 9 October at clean `53d6e83fc251b789e90fbd2a95c050cd3e200592`. `results/replicated_fixed_state_v1/github-release-v0.1.2/verification.json` records nine downloaded/hash-verified assets. No public Zenodo/arXiv publication or biological confirmation follows. The manuscript's pending-release language describes its cutoff and is stale as an active action list.
+
+Original code is MIT. Retained notices/registry document scoped CC BY 4.0 Norman and EmeraldBay reference exports; [EmeraldBay's official card](https://huggingface.co/datasets/tahoebio/EmeraldBay) supports its data terms. Wessels/D-SPIN/frontier banks and external graphs/backbones require separate asset/derivative review. Code licenses do not automatically license weights or outputs. Recent deployment manifests explicitly set `redistribution_authorized=false`, `local_weights_only=true`, `evaluated_deployment_scores=false`.
+
+Historical Windows/Linux 3.11/3.14 and installed-package receipts apply to their recorded revisions. Later recorded CI is also revision-scoped. Dirty current 0.1.3.dev0 and local 331-test closeout are not exact-current clean-wheel/platform/GPU certification. Reproduction outside the checkout must be verified for any nominated future release.
+
+Maintain receipts, failure preservation, source permissions and evaluation custody independently. Review archive content, not only filename exclusions: release policy excludes PLAN.md and sealed/raw stores, but other Markdown/JSON can contain private arrangements. Keep research panels and uncleared checkpoints local. This is an estimated half-day maintenance review, not a release-first research program or permission to publish.
+
+## 14. Strongest objection and exact abandonment result
+
+The strategy may be trying to model a shared assay/reference distortion with an elaborate name, while its required independent crossed data never materialize. Existing compositional methods already occupy much of the modeling space. Two TNF states and 51 concentrated pathway pairs are insufficient to claim a general biological operator, and even a real full-response gain may leave a scientist's choices unchanged.
+
+The defense is empirical and bounded: one reference-first fixed-contrast diagnostic, independent-anchor repeatability before expensive work, untouched held-context confirmation, and an equally informed simple-model falsifier. No majority vote, sunk implementation cost or synthetic win overrules those conditions.
+
+The exact decisive negative result is a **qualified, precision-reviewed independent confirmation whose upper confidence bound on primary improvement over the locked strongest equally informed reference is below the predeclared useful margin**, or whose apparent gain disappears with independent anchors/unchanged calibration controls. Retire that nominated composition-transfer strategy in the tested domain. If gain survives pair-response misalignment, stop the source-composition attribution even with favorable MSE. If a compatible native competitor wins, withdraw frontier superiority. If access fails by the scheduled day-90 decision, close the pair execution program as untested and take the qualified single-response pivot; do not call lack of data biological falsification.
+
+A kernel delivering the desired independently validated capability is a successful Opal successor. A larger model that cannot beat it is a failed architectural hypothesis. The frontier objective persists, but only new identifying evidence earns another model cycle.
+
+
+<details>
+<summary>Superseded first-council plan and original engineering closeout, retained for provenance</summary>
+
+# Opal frontier research and execution plan
+
+Updated 11 October 2026, Asia/Calcutta. Status: research decision and proposed execution program, not completed model development. This file, root `PLAN.md` and `docs/next_cycle/model_series_v2_plan.md` are byte-identical active plans. The previous plan is preserved in [historical/plan_before_frontier_20261011.md](<C:/Users/USER/Desktop/code/thetinyintellab/opal/docs/frontier/historical/plan_before_frontier_20261011.md>). Historical protocols, results, predictions and releases remain unchanged.
+
+## 1. Executive decision
+
+Build a small **few-shot combination-transfer model**, then earn the right to scale it with new crossed, independently repeated pair/context measurements. Its new input is four measured bridge pairs in the target biological context, alongside measured matched singles. Its intended capability is predicting other pair identities excluded globally from source training and target adaptation, with a demonstrable contribution beyond shared expression calibration.
+
+The dominant first experiment is `opal_frontier_bridge_v1`, specified completely in [experiment_contract.md](<C:/Users/USER/Desktop/code/thetinyintellab/opal/docs/frontier/experiment_contract.md>). Start with the exposed two-context PertSpectra banks if their common panel is feasible. Learn two source combination-response modes and fit only two pair-dependent target coefficients, plus the same gene-vector intercept given to calibration baselines. Test it against bridge-informed affine, incidence and kernel references, source-free fitting, and source/bridge alignment controls. Do not resume the failed projected-variance study, expand the present residual network, train a foundation model, or add active acquisition to this experiment.
+
+This is the highest-credible-potential route supported by the inspected evidence, conditional on obtaining appropriate measurements. It is not a calibrated probability estimate. A public prototype win is permission to test independent biology, not evidence that a frontier model already exists. The eventual claim is deliberately precise: **sample-efficient prediction of reproducible combination responses in new contexts and globally unmeasured pair identities, conditional on measured singles and a disclosed bridge budget**. The claim must state its intervention modality, assay, dose, endpoint and context population. Broad universal-cell claims are outside this program's demonstrated scope.
+
+## 2. Current-state audit
+
+Evidence labels used throughout this plan are **verified local** for inspected source/artifacts, **manuscript** for paper statements not independently recomputed here, **published** for primary-source findings, **inference** for strategy judgments, and **proposed** for unexecuted experiments. [current_state_audit.md](<C:/Users/USER/Desktop/code/thetinyintellab/opal/docs/frontier/current_state_audit.md>) and [audit_manifest.json](<C:/Users/USER/Desktop/code/thetinyintellab/opal/docs/frontier/audit_manifest.json>) provide the detailed inspection record and hashes.
+
+The actual supplied PDF is `paper/main.pdf`, 43 pages, SHA-256 `e8db47bfa7797d1df72028ad5af5fbbb20046a3beeaa68e168c4915b7c9faa98`. Its complete extracted text, including the variance addendum, was read. `main-1(1).pdf` was not found. The final user instruction names the available PDF. Local HEAD was `d12db0e53ec841d234e6b7913b7584f248674ba3`; the checkout was clean before this documentation work. The public repository URL returned 404 through the web reader, so public access was not established. The actual local implementation, results and release artifacts were accessible. This audit did not independently reprocess every raw matrix or replay every historical checkpoint.
+
+| Finding | Evidence and consequence |
+| --- | --- |
+| Observed-single contract | Actual APIs and methods require matched single effects and assay/scale/gene support. Partner holdout still permits those singles; it is not unseen intervention prediction. |
+| Original neural superiority is unresolved or negative | Norman selected neural MSE 0.007169187 vs reduced-rank 0.007268184 has conditional intervals spanning zero. Wessels neural 0.005423558 loses to global correction 0.004214949. Gains over additivity do not establish pair-specific learning. |
+| Kernels remain strong references | Nested development compares tested neural, GP, transfer and TabICL variants unfavorably against residual kernels. Unequal search and exposed histories prevent universal architecture conclusions. |
+| Interaction is not promoted | Saved v2 claims show 0.077882% Combi-seq and 0.083848% TNF-positive improvements over Base, zero TNF-negative. Combi-seq main-effect MSE 2.105071 beats Interaction 2.109919. |
+| Guard is not promoted | It loses to Base/constant mixing on responsive primary panels. Norman's retrospective log/count gains are views of one exposed source, not independent confirmations. |
+| D-SPIN transfer fails | Frozen procedure MSE 0.03402466 vs source reference 0.03310752 is worse, and the nominal-90% source radius covers 34.3% under shift. Positive procedure transfer and shifted uncertainty are unestablished. |
+| Tested context/identity/prior additions did not earn robust advancement | Small favorable subsets and scale-sensitive results survive in the record, but the primary gates fail. A single-dose descriptor shuffle is uninformative; shuffled priors sometimes match real ones. These tests do not reject all biological information. |
+| Latest variance experiment is complete negative | Verified summary: TNF-positive partner variance 0.0825683915 vs Base 0.0827597015 gains 0.231163%, but mean 0.0825437889 and capacity 0.0825393157 are better. TNF-negative partner heads use support fallback, leaving that information test inconclusive. All registered triage comparisons fail. |
+| Pair coverage helped a particular development setting | Common-population Wessels extra pairs improved random/partner errors about 16.05%/4.92%; this is exposed, contract-specific evidence, not a general scaling law. |
+| Engineering is ahead of scientific validation | Safe serialization, input guards, replay, label ledgers, installed execution and CI exist. Independent biology, causal interaction recovery, native superiority, uncertainty and prospective utility do not follow from those checks. |
+
+The numerical table uses distinct contracts and is not a pooled leaderboard. Verified local sources include `results/opal_model_series_v2/report/claims.json`, `results/opal_information_v1/development/summary.json`, its label/resource/claim/verification records, and the actual `src/series_bilinear.py`, `src/information.py`, `src/contextual/`, and `src/replicated/` implementations. Manuscript Tables 2, 9, 12, 17 and 19 supply historical numerical context. The existing fixed-state culture evaluator cannot certify a mixed-context population claim; its protocol explicitly limits the estimand.
+
+## 3. Frontier landscape and unmet capabilities
+
+The [A literature report](<C:/Users/USER/Desktop/code/thetinyintellab/opal/docs/frontier/reviews/A_landscape.md>) records primary papers, official code, assets, task boundaries and license limitations. None of the following rows compares incompatible published scores.
+
+| Method | Native capability and comparison boundary | Availability and terms |
+| --- | --- | --- |
+| GEARS [R1] | Genetic labels, control/training cells and GO/coexpression graphs predict single and multigene expression responses. Opal aggregate/altered-graph runs are adaptations. | Official code/data recipes, MIT code; graph/data assets separate. Author weights need source verification. |
+| CPA / chemCPA [R2] | Cell-level composition, covariates and dose response; categorical CPA identity differs from chemCPA molecular unseen-compound information. | Original facebookresearch code MIT, maintained theislab implementation BSD-3-Clause; pin implementation and assets separately. Aggregate training is not canonical distribution evaluation. |
+| NAIAD [R3] | Singles-informed scalar phenotype prediction, data-adaptive identity embeddings and combination discovery. Transcriptomic output is an adaptation. | Official code Apache-2.0 and preparation recipes. Already constrains single-informed acquisition novelty. |
+| SLIM [R4] | Small closed-form low-rank predictor using STRING or other embeddings, including combination routines. | MIT code and supplied embeddings/reproduction recipes; external resources separate. Opal signed-effect/PCA variants differ from native expression protocol. |
+| PertAdapt [R5] | Condition-sensitive adapters to scFoundation/AIDO.Cell genetic response representations. | Author scripts public; explicit code rights/backbone terms must be resolved. Local OOM/NCCL failures are not biological defeats. |
+| PRESAGE [R6] | Attention over biological gene representations, unseen intervention effects and functional predictions. | Official code and cached vectors available under Genentech noncommercial terms. Native decoder/pair pooling remains unresolved locally. |
+| PertSpectra [R7] | Label/graph-guided single-cell factorization, functional interpretation and unseen combinations. | Official data/code, CC BY-NC 4.0 repository; exact graph and data rights need pinning. No-graph runs are adaptations. |
+| TxPert [R8] | Knowledge graphs and basal context for genetic effects, unseen targets and held lines. | Public code and checkpoint recipes; proprietary strongest-input graphs unavailable. License PDF and asset terms require exact acceptance; public-only runs are separate. |
+| State [R9] | Set-conditioned population response prediction and pretrained expression representations across contexts. | Code CC BY-NC-SA 4.0; model/outputs have separate noncommercial terms. Native composition support must be checked. |
+| CellFlow [R10] | Conditional flow matching for treatment response distributions and compositional protocols. | Theis-lab code MIT, tutorials available; datasets/weights separate. Unpaired snapshots do not identify individual trajectories. |
+| Stack [R11] | In-context cell-set prompting and response transport, pretrained on 149 million cells in author documentation. | Code CC BY-NC-SA and separate noncommercial model/output terms. Generated Perturb-Sapiens is not measured confirmation. |
+| PIE [R12] | Released 5 October 2026; curated knowledge, control means and source response evidence predict unseen perturbations/contexts/datasets. | Code, processed datasets, pinned splits and advertised checkpoints public; CC BY-NC-SA. Joint unseen context/perturbation is not automatically simultaneous double perturbation. |
+| BATCHIE [R13] | Bayesian batch experimental design with prospective multi-line drug-combination screening and validated candidates. | Official open code/data; verify exact versions and licenses. Viability utility is not a matched transcriptomic comparator. |
+
+Published benchmarks constrain both pessimism and optimism. Ahlmann-Eltze et al. establish strong linear/additive comparisons [R14]. Miller et al. show common metrics can miss perturbation-specific information and advocate calibrated complementary endpoints [R15]. Their conclusions do not authorize rewriting Opal's failed primary MSE results or importing outcome-derived DEG information into a model. Broad benchmarking also shows task-dependent rankings [R16]. Generic representation integration, larger attention, generative cells and active combination selection are established research directions; the new claim must be the verified capability under a specific information budget.
+
+Three important capabilities remain insufficiently established together in the audited literature: independently replicated new-pair prediction under context shift; distributional combination prediction that recovers useful mixture/tail behavior beyond matching means; and prospective decision making under shift with honest uncertainty and audited assay savings. The first is the best fit for Opal because it directly tests composition information rather than competing immediately with large general single-perturbation systems. This is an inference from inspected evidence, not an exhaustive proof that no existing paper solves the exact task.
+
+## 4. Strategic comparison and weighting
+
+Scores below are ordinal judgments from 1 to 10, with 10 favorable. Cost/time means faster and cheaper; feasibility means realistic for a solo lab including external dependencies. They are not empirical success probabilities. Weighting favors important new capability and long-term frontier potential while accounting for whether an informative experiment can actually be performed.
+
+| Criterion and weight | A: same-information modeling | B: crossed information and representations | C: new distribution/identity task | D: discovery and active learning |
+| --- | ---: | ---: | ---: | ---: |
+| Scientific importance, 15% | 5 | 9 | 9 | 9 |
+| Novelty, 10% | 2 | 8 | 5 | 4 |
+| Chance of meaningful success, 15% | 5 | 6 | 4 | 4 |
+| Capability gain, 15% | 3 | 9 | 9 | 7 |
+| Available data quality, 10% | 9 | 5 | 7 | 5 |
+| Cost/time, 5% | 9 | 4 | 3 | 4 |
+| Solo feasibility, 10% | 9 | 5 | 4 | 4 |
+| Independent verification, 5% | 8 | 7 | 5 | 8 |
+| Frontier potential, 15% | 3 | 9 | 8 | 8 |
+| Weighted judgment / 10 | 5.25 | 7.30 | 6.50 | 6.10 |
+
+**Path A** remains the indispensable reference. Hierarchical measurement models, regularized kernels, shrinkage and better fitting may improve robustness, but current results repeatedly show calibration accounting for gains. Its low cost and data availability cannot compensate for a weak new-capability case. Stop treating another residual head as the default route to a frontier claim.
+
+**Path B** is dominant. Crossed pair/context data and target bridge outcomes introduce the missing supervision needed to estimate context-dependent composition. The early four-bridge prototype tests whether this new information produces more than affine/incidence calibration. Its main risk is data qualification and laboratory access, so the first expensive commitment is independent measurement, not architecture scaling.
+
+**Path C** is a conditional alternative. Distributional prediction can reveal occupancy/penetrance effects that a mean cannot represent; unseen identities require descriptors and independently crossed intervention screens. CPA, CellFlow, State, PIE and graph methods are serious competitors, and the existing variance failure neither validates nor rejects these tasks. Start with a fixed state-occupancy or frozen-representation ridge probe, not a full flow or transformer.
+
+**Path D** is the downstream utility stage. Rank reproducible movement of a prespecified transcriptomic program, then demonstrate additional confirmed hits at equal total cost. NAIAD and BATCHIE already make generic active selection insufficient novelty. Opal's failed shifted uncertainty prohibits treating uncertainty-driven acquisition as immediately trustworthy. Fixed bridge selection isolates the first unknown; acquisition is a later experiment.
+
+The chosen hybrid is B followed by D. A remains the reference, and C supplies the predefined pivot. If biological access remains absent by day 90, pursue one bounded crossed-single representation study rather than continuing residual architecture tuning or pretending a public split supplies confirmation.
+
+## 5. Central research hypothesis
+
+The research question is: **Can a small target-context pair screen identify source-learned combination-response structure that predicts globally unmeasured pairs beyond equally informed shared/main-effect calibration?** The exact first hypothesis fixes four bridge pairs, two source modes and measured matched singles, and requires a source-structure contribution on the globally excluded query population.
+
+Previous context models used query controls/singles and weak context encodings, while projected-single variance supplied no new pair outcome information. Their failures leave this hypothesis unresolved. A bridge response directly observes target-context composition, but it may only reveal shared attenuation, guide efficacy or scale distortion. The same-information calibration controls distinguish that competing explanation. A result attributable solely to shared correction is a useful reference outcome, not support for a transferred interaction model.
+
+| Contract element | Frozen requirement |
+| --- | --- |
+| Minimum prototype | Source-only rank-four single PCA, ten symmetric cross-coordinate features, two output modes, two target coefficients and a shared gene intercept. Exact normalized objective and fallback in the experiment contract. |
+| Information | Source fitting pairs; target controls/singles; exactly four nonquery target bridge outcomes. Query pair identity excluded across every context/stratum/dose/reagent-equivalent record. |
+| Public first source | Exposed PertSpectra common panel, only if >=36 matched common pairs and >=256 common reference-selected genes. Both TNF directions test one contrast. |
+| Strongest reference | Locked source-development selector over same-bridge calibration/incidence/target-only/pooled kernels, plus mandatory source-kernel posterior, mean-feature and source-free controls. |
+| Negative controls | Source pair-response misalignment, bridge assignment shuffle, equal-capacity mean modes, pure shared-affine synthetic distortion and rank-deficient bridges. |
+| Primary metric | Equal-pair/stratum gene-averaged response MSE, separately per direction. Residual/retrieval/program diagnostics have distinct claim scopes. |
+| Public uncertainty | 2,000 shared target-product-weight sensitivity draws, preserving unique pair/reference dependence, with paired absolute-difference percentile bounds. No biological confidence claim. |
+| Administrative advancement | Supported stable adaptation; >=5% MSE gain over locked selector in both directions with conditional lower bounds >0; gains beyond capacity/source-free/alignment controls and a positive conditional paired lower bound for normalized inverse retrieval-rank improvement beyond shared offset. |
+| Biological promotion | Independent culture repeatability, fresh global pair/context validation, separately measured references, meaningful endpoint margin and empirically reviewed power/coverage. These are not available now. |
+| Falsification | Precise, qualified independent evidence excludes the agreed useful margin, or matched shared/main-effect calibration reproduces the claimed transfer. Public failure stops this finite operator, not all biological context research. |
+
+The 5% prototype cutoff is a predeclared spending filter, not a biological effect threshold or the definition of frontier. Do not replace it with a favorable contrast metric after seeing results. Rank/measurement insufficiency is unqualified/inconclusive, not evidence that the entire scientific hypothesis is false.
+
+## 6. Architecture to build and alternatives to defer
+
+The first model is a closed-form source-mode adapter. Source-only mode contributions `F_l(p,c)` are normalized to unit RMS over permitted source fitting pairs and genes; target coefficients minimize bridge-weighted per-gene squared error plus a fixed unit ridge penalty. Prediction is observed additivity plus frozen source residual correction, target bridge mean correction, and the two centered source modes weighted by target coefficients. The full target fit has **G+2 numerical values**, because the shared intercept is a gene vector. Every calibration control gets the same intercept. A tiny coefficient count does not make the complete system tiny; its source modes, scalers, reference bank and learned coefficients count too.
+
+Relative singular tolerance is 1e-8, maximum bridge design condition number 1e4, with four leave-one-bridge stability checks and fixed fallback. The exact objective, scaling, symmetry and source-only selection are in [experiment_contract.md](<C:/Users/USER/Desktop/code/thetinyintellab/opal/docs/frontier/experiment_contract.md>). Four bridges across hundreds of genes remain four pair outcomes. Source inner sparse-label folds select within-source behavior, not general cross-context validation.
+
+The [C architecture investigation](<C:/Users/USER/Desktop/code/thetinyintellab/opal/docs/frontier/reviews/C_architecture.md>) specifies four distinct successor families:
+
+| Family | Scientific hypothesis and smallest justification | Required data and likely failure |
+| --- | --- | --- |
+| Hierarchical statistical response/covariance | Jointly model controls, singles, pair effects and culture covariance; justify by opposite-culture repeatability beyond shared calibration. CPU ridge/mixed-effects first. | Independent cultures and exact references. Too few cultures, context/batch aliasing and log-scale artifacts limit identification. This is chiefly a strong reference. |
+| Transferable intervention representations | Source response/descriptor encoder followed by symmetric pair decoder; a frozen ridge probe must beat descriptor-linear, shuffled and observed-single references under identity holdout. | Independent assay-compatible single screen plus combination identity holds. Pretraining contamination, efficacy/modality mismatch and class memorization are major risks. |
+| Context-conditioned composition operator | Source-learned pair modes plus sparse target adaptation; later low-rank context operators only after the first information test and independent labels pass. | Crossed pair/context outcomes. Shared calibration, rank deficiency and poor source-mode transport can explain failure. This is the preferred conditional successor. |
+| Distribution/functional endpoint | Fixed control-defined state occupancy first, then a small conditional flow only if occupancy/heterogeneity is repeatable and useful. | Repeated control/single/pair cell distributions and justified biological endpoint. Depth, cell cycle, guide penetrance and death-selection can masquerade as useful distributions. |
+
+Do not protect the current architecture. If a kernel or linear model delivers the new capability, it can be the specialized Opal successor. Build attention, graph fusion or a larger operator only when a frozen small model cannot represent a demonstrated, repeatable signal and a capacity-controlled increment passes a new held development test. No parameter count establishes scientific superiority.
+
+## 7. Data and evaluation program
+
+The single most valuable new resource is a randomized **crossed pair-by-pretreatment-context panel with matched singles/controls and independent culture initiations**. It observes composition and repeatability directly. More cells primarily improve conditional precision; they do not replace new pair/context/culture information. The [B data report](<C:/Users/USER/Desktop/code/thetinyintellab/opal/docs/frontier/reviews/B_data.md>) verifies source content and limitations against primary cards/papers and retained metadata audits, including live-access failures.
+
+Immediately usable resources are exposed Norman/Wessels references, prepared PertSpectra means, Combi-seq aggregate diagnostics, small EmeraldBay pair/context panels and independently typed public metadata. Tahoe-100M offers broad crossed single-drug contexts, not a combinatorial screen; its full roughly 429 GB release is not a local download plan [R17]. EmeraldBay is public CC BY 4.0, but the current small qualified panel has only seven canonical pair identities [R18]. sci-Plex-GxE is a fresh-expression chemical lead locally, but its trametinib-centered star, two reported repeats, dose-field conflict and incomplete lineage prevent arbitrary two-component confirmation [R19]. GEO availability alone does not resolve derivative rights or culture initiation. CIPHER/CellOT and new flow work are relevant distribution priors, not substitutes for measured combination outcomes.
+
+**Illustrative independent design, not a powered sample size.** Twelve intervention identities yield 66 possible pairs. Allocate 40 source-training pairs, six bridge-candidate pairs and 20 globally withheld query pairs by identity before outcomes; exactly four of the six serve the frozen primary bridge selection. A pilot can measure the 46 nonquery pairs across three source pretreatment contexts with three independent culture initiations each. A later confirmation can measure four bridges plus the 20 query pairs in at least two separately held contexts, with independently initiated cultures whose final number comes from empirical precision/power. Matched controls and all 12 singles are required in every relevant culture; query identities remain unseen in source outcomes. Development and confirmation assays must use matched intervention/reagent/dose/time semantics and randomized plates so context does not alias batch.
+
+This illustrative pilot is 59 conditions per culture before extra controls/technical repeats, or 531 condition assays for three source contexts times three cultures. Confirmation is 37 conditions per culture before extra controls/replication. Those quantities expose the laboratory burden; they are not a promise of affordability or enough power. A smaller selected nonquery variance pilot may estimate precision before committing to the 46-pair source panel, but it must have a separately frozen measurement contract and cannot score the sealed 20 query identities. Laboratory quote, culture count, useful margin and delivery date are currently unknown. A collaborator may choose an efficient bulk/targeted RNA assay for the mean-response claim; it would not support single-cell distribution claims.
+
+| Evaluation task | Required exclusion and permitted information | Claim |
+| --- | --- | --- |
+| Seen singles/unseen pair | Pair omitted from fitting; exact query singles measured | Composition interpolation |
+| Partner holdout | Every source/bridge pair incident to held partner omitted, singles retained | New partner structure, not unseen intervention |
+| Global pair holdout | Canonical pair omitted everywhere, aliases/doses grouped as declared | Globally new combination |
+| Held context with bridges | Whole context omitted from source selection, exactly declared target bridges allowed | Few-shot adaptation, not completely unobserved context |
+| Joint global pair/context | Both exclusions together and matched query references | Central specialized capability |
+| Unseen identities | Remove all singles and incident responses for identity, allow audited descriptors | A separate main-effect/identity task |
+| Dose interpolation/extrapolation | Global held physical dose or held range, including all equivalent records | Separate dose claims; existing interior-dose win does not certify extrapolation |
+| Higher order | Matched triples and permitted lower-order components; triple outcome globally held | Only when sufficient genuine higher-order coverage exists |
+
+All baselines receive matched source labels, reference cells, query adaptation information and bridge budgets. Additional pretrained data/graphs form a separately disclosed information tier, with matched simple probes and exposure audits. Native genetic competitors include GEARS, SLIM and PertSpectra where the exact input contract permits them; CPA/chemCPA and CellFlow belong to qualified chemical/distribution tasks. PRESAGE/PertAdapt/TxPert/State/PIE require exact pinned compatibility and license review. An incompatible or unsupported method is not a defeated competitor. Report public-only adaptations separately and do not invent a decoder to obtain a score.
+
+Metric qualification uses exact predictions, disjoint technical duplicates, zero/constant/identity-shuffled predictions and independent repeated measurements. Keep MSE as the realism endpoint, with fixed-pool retrieval, across-perturbation discrimination, independent-reference residual attribution and source-defined program metrics as complementary claims [R14–R16]. Positive outcome-based controls are evaluator-only. Pair-centered residual MSE removes a shared offset but does not rule out incidence/affine calibration. Independent-reference diagnostics are unavailable when the data cannot support them. All outputs preserve main-effect/residual/cross-term cancellation accounting.
+
+For independent biological inference, paired culture effects are reported per fixed held context and fixed pair panel. Broad target/context claims require enough independent groups, validated crossed resampling and full-procedure uncertainty where that is the estimand. Preserve shared single/control draws across every affected pair. Small culture counts or two TNF directions do not earn population confidence, and exchangeability-based uncertainty does not automatically survive shift. Metric, measurement and uncertainty qualification precede the associated claim; they are not reasons to rewrite historical outcomes.
+
+## 8. Implementation roadmap
+
+Time horizons start at the next implementation invocation. External measurements can delay scientific milestones; when a dependency is absent, the deadline produces a specific infeasibility/pivot decision rather than a fabricated success.
+
+| Horizon | Work that changes a decision | Required output and decision |
+| --- | --- | --- |
+| First 7 days | Re-inventory code/assets/storage, freeze historical hash manifest, qualify common TNF pair/gene support and exposure, freeze folds/bridges and controls, prepare exact protocol and synthetic identifiable/null cases. Verify comparator task compatibility, not full training. Prepare a reviewable independent-culture pilot and assay quantities. | `qualification.json`, frozen contract/config, resource allowance, exposure/role manifests and complete source/bridge/query splits. Decide executable public prototype versus `infeasible_public_prototype`; do not spend on raw data/GPU to rescue missing support. |
+| First 30 days | Implement and execute one finite four-bridge study with cached means, all matched controls and separate replay, then generate results from saved predictions. In parallel qualify the concrete crossed-measurement route and quote requirements without claiming collaborator agreement. | Reproducible code, frozen configurations, all arms/failures, predictions, resource ledger and go/no-go. Pass permits measurement investment. Failure closes this mode adapter; keep useful shared calibration. Infeasibility yields an honest negative feasibility record and synthetic runner, not a new scientific win. |
+| First 90 days, if first gate passes | Obtain independently initiated pilot cultures or a compatible documented external dataset, measure repeatability beyond shared affine/incidence terms, estimate biological covariance/power, and test harder partner/disjoint-component splits. Qualify and run compatible native competitors within a new storage allowance. | Independent measurement qualification, reviewed confirmation design, native/adaptation eligibility table and a frozen successor prototype. No independent cultures means no biological promotion. |
+| First 90 days, if it fails or access is absent | Execute the predefined alternative: retain simple bridge calibration as a reference and run one bounded crossed-single representation-information probe, only after a metadata/byte-qualified Tahoe or other public subset. Whole-line holds and simple low-rank/target-mean/control-kernel references are mandatory; no pair claim follows. | Separate `opal_frontier_single_transfer_v1` contract and result, or explicit source/resource infeasibility. If it fails, stop general transcriptome-transfer scaling and pursue a collaborator-defined functional/occupancy task after repeatability qualification. No indefinite metadata hunt. |
+| Six months, contingent on measurement and transfer success | Collect the crossed source panel and sealed held contexts, freeze the architecture/input budget, perform global pair/context confirmation with independent references, compare compatible current methods, and arrange an independent rerun/assay partner. | Strong specialized-model decision or a precise negative result. A controlled capacity increment is allowed only if the small model leaves demonstrably reproducible, predictable signal. No general frontier declaration from exposed public training. |
+| Twelve months, contingent on confirmation | Validate in another laboratory/source and fresh context population, freeze a prespecified transcriptomic program and shortlist, then conduct blinded fixed-policy prospective validation. Add randomized acquisition only after ranking/uncertainty gates. Release rights-cleared code/configs/weights or supported inference assets and honest total resources. | Externally reproducible narrow frontier claim if competitive evidence and useful prospective outcomes pass; otherwise retain the specialized scope or abandon the failed capability. Missing collaborator/data milestones make the frontier schedule unachieved, not completed by engineering. |
+
+The coding agent's concrete work packages and proposed CLI/output schema are in [implementation_handoff.md](<C:/Users/USER/Desktop/code/thetinyintellab/opal/docs/frontier/implementation_handoff.md>). The first phase does not require the coding agent to invent the hypothesis, splits, model, controls, budget or decision rule.
+
+## 9. Resources, dependencies and scaling decisions
+
+Verified local: the ledger records 2,924,808,209 bytes under the inherited 3,000,000,000-byte retained-artifact ceiling, leaving 75,191,791 bytes. The separately classified cached raw H5AD is 3,142,132,144 bytes. The host has about 32 GiB physical RAM and an RTX 4060 with about 8 GiB device memory; C has about 5.5 GB free, D/E less than 1 GB and remain read-only under the historical allowance. Current complete CPU/GPU cost certification is unavailable. No old artifact is deleted to manufacture space.
+
+| Stage | Proposed allowance or dependency | What justifies more spending |
+| --- | --- | --- |
+| Qualification/synthetic runner | <=2 CPU core-hours, <=10 MB inside the total study allowance; roughly 3–5 focused days | Qualified common support and frozen contract |
+| Public bridge study | <=24 CPU core-hours total including failures, one thread/worker, <=60 MB new retained artifacts, 4 GB fit/8 GB preparation target peak RAM; approximately 10–15 focused implementation days | Passing information and control gate, not the mere existence of checkpoints |
+| Independent mean-model study | Initial <=100 CPU-hours proposed; new storage sized from exact assay files, source/derived assets and retention | Qualified cultures, empirical precision and reviewed design |
+| Native comparator profiling | Initial <=1 GPU-hour feasibility per required environment, then <=20 GPU-hours aggregate proposed pilot | Exact native inputs/rights/environment and source storage qualified; comparison is scientifically needed |
+| Larger successor | Example 1–10 million parameter adapter, 24–48 GB Linux GPU profiling class, <=100 GPU-hours first capacity experiment, all unmeasured estimates | Independent signal and small-model superiority plus a capacity-controlled hypothesis; no foundation pretraining from scratch |
+| Laboratory program | Assay/culture/source quotation and collaborator agreement unknown | Repeatability/power and a scientist-defined useful margin; no invented price or guaranteed sample size |
+
+The first study uses the present CPU and cached profiles. Native graph/environment repairs exceed current artifact headroom: previous recorded graph/metadata files total about 188 MB, and a required TxPert Torch wheel alone about 204 MB. Obtain a concrete storage amendment before retrieval/installation. Broader resources need exact pinned asset sizes rather than a blanket GPU allocation. Model parameters, fitted coefficients, nontrainable buffers, complete checkpoints, reference banks, pretrained assets, raw data, intermediate arrays/environments, training/inference peaks, cold/warm latency, throughput, successful/failed fitting and all stages receive separate accounting [F report](<C:/Users/USER/Desktop/code/thetinyintellab/opal/docs/frontier/reviews/F_systems.md>).
+
+Capacity-controlled experiments keep data/reference budget, endpoint and selection effort fixed; compare zero, two-mode and equal-capacity mean-feature heads first. Data-controlled experiments keep the model fixed and vary only independently qualified source coverage or target bridge measurements under a new finite contract. Objective changes require a separate endpoint and metric qualification. Large kernels have cubic row scaling; blocked/low-rank methods need equivalence checks before thousands of rows. More compute is justified by demonstrated recoverable signal, never by the hope that a larger architecture will repair unmeasured biology.
+
+## 10. Five hard go/no-go gates
+
+| Gate | Measurable pass criterion | Predetermined failure response |
+| --- | --- | --- |
+| G1: identifiable and executable experiment | >=36 exact supported common pairs, >=256 common reference-selected genes, fixed global splits/four bridges, source and target rank/condition/stability rules, all label roles/hashes valid, <=60 MB/24 CPU-hour allowance feasible | No fitting on unsupported public data. Deliver infeasibility/synthetic runner and independent-data contract. Do not change support thresholds after scores. |
+| G2: added capability beyond calibration | In both public directions, >=5% response-MSE gain over locked same-information selector with conditional paired lower bound >0; better than source-free/mean features and fixed alignment controls; positive conditional lower bound for qualified normalized inverse retrieval-rank improvement, complete denominator and no rank/fallback-based false win | Stop this finite operator family. If simple calibration explains the gain, retain it as reference. No extra ranks, seeds, bridge budgets or rescue endpoints. Rank/noise limitations remain unqualified rather than biological falsification. |
+| G3: independently measurable target | Exact matched intervention/control/single provenance and independent initiation; repeated pair departures exceed shared affine/incidence explanation at an agreed useful margin; empirical covariance, null-error/interval-coverage and procedure-power study reviewed before final sample allocation | If precision is inadequate, perform only the predeclared precision/assay amendment. If a precise pilot excludes useful reproducible signal, abandon interaction prediction in that assay. If access is absent by day90, execute the separate single-response fallback. |
+| G4: strong specialized transfer | Fresh globally held pairs and held pretreatment contexts, disclosed bridge budget, independently repeated cultures, positive paired effect beyond the frozen biological useful margin under the reviewed procedure, advantage beyond matching/alignment controls, compatibility-qualified native comparisons and independent rerun | No specialized superiority or scaling. Preserve a narrow reference/within-context result if justified. If calibrated references match the model or the useful margin is excluded, stop the source-operator strategy in that domain. |
+| G5: frontier and discovery value | Competitive/superior native-task capability replicated externally, replayable rights-cleared evidence and complete resources; a frozen program shortlist gives more independently confirmed useful hits than the matched reference at equal total cost, with functional confirmation for functional claims | No frontier/discovery-savings claim. Retain the strongest validated specialized model; do not add active acquisition unless fixed-policy utility and its uncertainty/acquisition test pass. |
+
+G1/G2 thresholds are administrative finite-study criteria. G3/G4 require an empirical useful margin chosen before confirmation, not a cutoff reverse-engineered from public results. An inconclusive study cannot be called a precise no-effect finding. Its response is the predeclared measurement allocation or a stopped spending branch, never unlimited tuning. A deadline with absent external evidence is a failed dependency milestone, not proof of scientific impossibility.
+
+## 11. Frontier standard defined before results
+
+**Research prototype:** the fixed new information contract beats strong matched references reproducibly, passes attribution/metric controls and replays from saved assets. It may use exposed data; its claim names that limitation. The four-bridge study can reach this level.
+
+**Strong specialized model:** useful and repeated superiority on global pair/context and meaningful partner shifts, independently initiated culture confirmation, calibrated claim-specific uncertainty where claimed, and actual compatible contemporary competitors. Biological context and intervention populations are explicit. A source-specific win or two views of one source are insufficient.
+
+**Frontier-level specialized model:** competitive or superior capability on the defined important few-shot combination-transfer domain, independent external laboratory/source replication, strong same-information and relevant native comparisons, prospective usefulness where claimed, complete resource/input disclosure and externally reproducible evidence. Its strength comes from capability and depth of evidence. Parameter count, all-gene MSE alone and broad but shallow task coverage do not define it.
+
+The initial frontier aspiration includes scientist utility, so program ranking and confirmed outcomes matter. Prediction, population distributions, interaction attribution, context generalization, uncertainty and prospective savings are separate claims with separate evidence. A successful point predictor does not inherit the others.
+
+## 12. Red-team critique and preserved disagreement
+
+The strongest objection is that four target pairs will estimate an assay correction, not a transferable biological composition operator. Current Base gains and weak residual reliability make that plausible. The proposed low-rank structure may suppress important context-specific responses, and the two public TNF conditions may be too narrow or weak for informative confirmation. Even a real MSE advantage might leave a scientist's ranking unchanged. Existing CPA/PertSpectra/PIE and NAIAD/BATCHIE prior art further weakens novelty based on architecture or acquisition alone.
+
+The defense is a cheap, fixed-budget experiment with equally informed shared/incidence/affine/source-free/kernel controls, strict global pair exclusion, source-alignment destruction, numerical stability and independent-reference attribution where measurable. If calibration produces the same capability, retain the simple calibrated model and abandon the source-operator claim. If source structure helps, the next investment is a qualified crossed culture panel, not a transformer.
+
+Seven independent specialists were actually assigned, then each reviewed at least two peer reports. [cross_examination.md](<C:/Users/USER/Desktop/code/thetinyintellab/opal/docs/frontier/cross_examination.md>) records assignments, criticisms and revisions; the original recommendations remain visible. B initially favored broad Tahoe single-response transfer first, while A/C/E/F favored direct pair information; the root chooses the latter because single-response success is neither necessary nor sufficient for the composition question. G retains a legitimate alternative budget question: might the same assays spent improving independent controls/singles be more valuable than bridges? Only an equal-cost empirical design can settle it. No false consensus or numeric probability estimate substitutes for that test.
+
+## 13. Final recommendation and what would change it
+
+Build the finite, source-fixed two-mode bridge adapter and its stronger same-information references now, using exposed prepared data only within the frozen resource allowance. If it passes, obtain the independently repeated crossed measurements needed to test biological composition transfer, then choose the smallest architecture that wins under those measurements. Aim for a frontier specialized few-shot combination predictor with prospective program-ranking utility, and stop the operator when shared calibration or a precise independent negative result removes its scientific rationale.
+
+Three findings would change this course:
+
+1. A qualified public crossed-single representation probe shows substantial held-line/held-identity predictive information, survives shuffled/scaffold/linear controls and independent source transfer, while bridges add no pair-specific benefit. Move toward an explicitly single-response/identity model and test composition separately; do not inherit a pair claim.
+2. Independent cultures show little useful predictable mean-response deviation after shared/main-effect calibration, but a prespecified occupancy/functional phenotype is repeatable and predictable beyond mean/variance resampling. Pivot to that phenotype/distribution objective with CPA/CellFlow/State or appropriate functional competitors.
+3. Equal-cost independent measurements show reference precision or simple target calibration yields the same useful ranking/capability as the operator, or a current native method already solves this exact bridge regime. Use that simple/current method as the base and redirect Opal toward measurement/design or a newly justified capability, rather than continue redundant architecture development.
+
+## 14. Evidence preservation and authorization
+
+Historical fixed results, exposed development, new frozen development, external confirmation, independent biological replication and engineering tests have separate identifiers, manifests and claims. Keep protected Norman/Wessels queries and completed negative information/model-series studies fixed. Do not relabel a public source as untouched by changing its split seed, expand a historical selector or give a deployment checkpoint an evaluation score. New runs refuse overwrites and retain all failures and amendments.
+
+This request produces planning files. No successor training, paid compute, laboratory purchase, collaborator message, registration, publication, push or weight/raw redistribution occurred in this planning cycle. Later local coding work follows [implementation_handoff.md](<C:/Users/USER/Desktop/code/thetinyintellab/opal/docs/frontier/implementation_handoff.md>); external arrangements require actual owner decisions and evidence. Old restrictions and permissions describe their original cycles and do not create contradictory active backlogs. The old `tools/sync_information_plan.py` targets a historical plan layout and must not be run against this successor plan; completed historical task statuses remain in their existing results.
+
+## 15. Traceable primary reference list
+
+Literature investigated through 11 October 2026. Official current repositories can change; freeze accepted commits, assets, data versions and license text at implementation. Each specialist report provides finer task/availability evidence and live-access limitations. Some newest preprints were identified from primary abstracts/repositories without exhaustive method reproduction; none earns a superiority claim from that identification.
+
+- R1. Roohani, Huang and Leskovec. GEARS, Nature Biotechnology. [Paper](https://doi.org/10.1038/s41587-023-01905-6), [official code](https://github.com/snap-stanford/GEARS).
+- R2. Lotfollahi et al. CPA, Molecular Systems Biology 2023. [Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC10258562/), [original code](https://github.com/facebookresearch/CPA), [maintained code](https://github.com/theislab/cpa).
+- R3. Qin et al. Active Learning for Efficient Discovery of Optimal Combinatorial Perturbations, ICML 2025. [Paper](https://proceedings.mlr.press/v267/qin25g.html), [NAIAD code](https://github.com/NeptuneBio/NAIAD).
+- R4. Hu et al. SLIM, 2026 preprint. [DOI](https://doi.org/10.64898/2026.08.07.743481), [official code](https://github.com/RasmussenLab/SLIM).
+- R5. Bai et al. PertAdapt, Bioinformatics 2026. [Paper](https://doi.org/10.1093/bioinformatics/btag307), [official code](https://github.com/BaiDing1234/PertAdapt).
+- R6. PRESAGE, 2025 preprint. [Paper](https://doi.org/10.1101/2025.06.03.657653), [official code](https://github.com/Genentech/PRESAGE), [author assets](https://zenodo.org/records/15587986).
+- R7. Chang et al. PertSpectra, PSB 2026. [Primary proceedings](https://psb.stanford.edu/psb-online/proceedings/psb26/chang_s.pdf), [official code/data](https://github.com/insitro/PertSpectra).
+- R8. Wenkel et al. TxPert, Nature Biotechnology 2026. [Paper](https://doi.org/10.1038/s41587-026-03113-4), [official code](https://github.com/valence-labs/TxPert).
+- R9. State, Cell 2026. [Paper](https://doi.org/10.1016/j.cell.2026.07.052), [official code and terms](https://github.com/ArcInstitute/state).
+- R10. CellFlow, 2025 preprint and current official implementation. [Paper](https://doi.org/10.1101/2025.04.11.648220), [code](https://github.com/theislab/CellFlow), [combination tutorial](https://cellflow.readthedocs.io/en/latest/notebooks/500_combosciplex.html).
+- R11. Dong et al. Stack, 2026 preprint. [Paper](https://doi.org/10.64898/2026.01.09.698608), [official tools](https://arcinstitute.org/tools/stack), [code](https://github.com/ArcInstitute/stack).
+- R12. Verma et al. PIE, October 2026 preprint/release. [Paper](https://doi.org/10.64898/2026.10.02.756297), [official release](https://arcinstitute.org/news/pie), [code](https://github.com/ArcInstitute/pie).
+- R13. Tosh et al. BATCHIE, Nature Communications 2025. [Paper](https://doi.org/10.1038/s41467-024-55287-7).
+- R14. Ahlmann-Eltze, Huber and Anders. Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines, Nature Methods 2025. [Paper](https://doi.org/10.1038/s41592-025-02772-6).
+- R15. Miller et al. Deep learning perturbation models can outperform baselines on calibrated metrics, Nature Biotechnology 2026. [Paper](https://www.nature.com/articles/s41587-026-03307-w), [official implementation](https://github.com/shiftbioscience/Perturbation-Models-Outperform-Baselines).
+- R16. Wei et al. scPerturBench. [Primary benchmark](https://doi.org/10.1038/s41592-025-02980-0), [official code](https://github.com/bm2-lab/scPerturBench).
+- R17. Tahoe-100M. [Author release and license](https://huggingface.co/datasets/tahoebio/Tahoe-100M), [Cell resource publication](https://www.sciencedirect.com/science/article/pii/S0092867426010081).
+- R18. EmeraldBay. [Author dataset](https://huggingface.co/datasets/tahoebio/EmeraldBay). Local pinned revision and eligible panel are recorded separately from the full release.
+- R19. sci-Plex-GxE. [Primary paper](https://cole-trapnell-lab.github.io/pdfs/papers/mcfaline-sci-plex-gxe.pdf), [author code](https://github.com/cole-trapnell-lab/sci-Plex-GxE), [GEO source](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225775).
+- R20. Norman et al. Genetic interaction manifolds, Science 2019. [Paper](https://doi.org/10.1126/science.aax4438), [scPerturb release](https://zenodo.org/records/7278143).
+- R21. Wessels et al. CaRPool-seq, Nature Methods 2023. [Paper](https://doi.org/10.1038/s41592-022-01705-x), [GEO source](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213957).
+- R22. Jiang et al. D-SPIN, Cell 2026. [Paper](https://doi.org/10.1016/j.cell.2026.04.028), [original data](https://doi.org/10.22002/2cjss-wgh69).
+- R23. CellOT. [Primary paper](https://doi.org/10.1038/s41592-023-01969-x). Distribution transport does not identify individual trajectories.
+- R24. Biological pseudoreplication and selection caveats. [Primary pseudoreplication study](https://pmc.ncbi.nlm.nih.gov/articles/PMC8479118/), [Cawley and Talbot, selection bias](https://www.jmlr.org/papers/volume11/cawley10a/cawley10a.pdf).
+
+Local numerical references and their scope are in the audit and seven reports. They are reproducibility evidence for Opal's own studies, not independent scientific replication.
+
+## 16. Autonomous implementation closeout (12 October 2026)
+
+The frozen configuration, metadata qualification, role-separated preparation, source-only two-mode model, complete same-information reference selector, evaluator, safe checkpoints, independent replay and measurement-readiness validator are implemented. All five registered synthetic cases completed: affine, null, planted transfer, nontransferable modes and rank-deficient bridges. Separate-process strict replay restored all 630 saved predictions with zero error. All 331 repository tests passed. The final [closeout report](C:/Users/USER/Desktop/code/thetinyintellab/opal/results/opal_frontier_bridge_v1/final-closeout-20261012/report.md) and [machine-readable summary](C:/Users/USER/Desktop/code/thetinyintellab/opal/results/opal_frontier_bridge_v1/final-closeout-20261012/summary.json) retain the evidence and external artifact locations.
+
+No synthetic case passes the numerical gate in both directions. Null and rank-deficient cases retain complete-population reference fallback. Planted transfer has supported candidate fits, but it loses to the locked selector in one direction; unsupported controls also prevent advancement. Affine-only gains cannot establish interaction transfer. No rank, penalty, seed, bridge budget, query population or gene threshold was changed to repair a result. Source and reference fitting weight pairs and strata equally; shuffle controls preserve complete residual blocks and frozen nuisance anchors, with restricted inner mappings preventing validation leakage. Preparation canonicalizes aliases/reversed identities and reorders measured singles before writing any role files.
+
+Fresh hash-bound source metadata supports 51 common pairs and only 207 common reference-selected genes, below the frozen 256-gene requirement. Current registered E-drive prepared banks and two D-drive historical artifact roots are unavailable; current bank hashes are explicitly unverified and missing historical archives retain their last-known byte charges. Public fitting and response scoring were not performed. The panel is not unioned, the threshold is not lowered, and another exposed source is not substituted.
+
+Earlier failures remain retained: the original 60 MB accounting failure, a lost supervisor with partial transfer checkpoints, a C: reserve stop, the controlled guard-optimization boundary, and the full-test stop at the delegated 250 MB allowance. That last stop retained 250,169,063 bytes including closeout overhead, so it is not presented as compliant with the former limit. The hash-bound resource amendment now permits 300,000,000 cumulative new retained bytes; the inherited-plus-new cap remains 3,250,000,000 bytes, with one worker/thread, 24 CPU core-hours, a 1 GiB writable-volume reserve and no new raw download/environment/GPU unchanged. Immutable amendment archives preserve the preceding versions. Exact final charges are in the closeout ledger; interrupted and unreceipted CPU plus complete historical CPU/GPU costs remain unknown.
+
+C: free space changed independently of these small task writes and fell below the reserve. Under the owner's delegated autonomous continuation, new numerical outputs and test temporaries use `E:/opal-frontier-engineering-20261012`, separately from historical source stores and registered in cumulative accounting. Earlier C: outputs and historical data are not moved or deleted. The live byte walk was optimized without changing measured sizes; regression tests agree with the original walk. Three older cases retain their original strict receipts, and additional explicit compatible-code checks restore all 378 of their predictions exactly under the final guard. Only resource-counter code differs; numerical scientific code is unchanged.
+
+The remaining dependency is empirical measurement, not another model sweep. The readiness checker and blank evidence package are implemented and honestly return `measurement_not_ready`. Qualified independently initiated cultures, pretreatment context definitions, literal assignments, matched independent references, release rights, empirical shared-reference covariance, useful margins, reviewed power and interval validation are still missing. Obtain that evidence before drafting a separately reviewed confirmation contract; do not reuse the fixed-state evaluator for a broader mixed-context claim. Independent biological confirmation, development advancement and frontier claims remain false.
+
+
+</details>

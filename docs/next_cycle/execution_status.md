@@ -1,4 +1,4 @@
-# Execution record, 8 October 2026
+# Active planning update, 11 October 2026
 
 ## Active implementation status, 13 October 2026
 
@@ -9,6 +9,10 @@ The implementation guide at `docs/frontier/context_contrast_implementation.md` r
 Read-only source hashing matches the existing 3,142,132,144-byte cache. There is no new raw copy/download. At 51 pairs/512 genes, the complete primary-plus-two-swaps inventory schedules 53,280 logical fit invocations and 55,148,544 uncompressed prediction bytes across both phases. Content-addressed checkpoint retention is implemented but unprofiled; the prior 25 MB pilot proposal is not an executable budget. Separate owner acceptances must bind exact inputs, complete inventory, output roots, CPU/RAM/retained/scratch/failure reserves and one numerical worker/thread. No inherited remaining CPU or storage allowance is certified here.
 
 The dated council proposal and historical sections below remain preserved as specifications/evidence, rather than permission to execute numerical work. Current implementation details and validation receipts take precedence for software status; the scientific equations, seeds, ranks, penalties and stopping rules remain fixed.
+
+The frontier investigation produced the new [integrated plan](../frontier/PLAN.md), [experiment contract](../frontier/experiment_contract.md), [coding handoff](../frontier/implementation_handoff.md) and seven specialist reports with actual [cross-examination](../frontier/cross_examination.md). This is planning completion, not successor model training. `opal_information_v1` remains complete negative, Base remains a reference, and no new biological or frontier result is claimed. The next proposed experiment supplies four target-context bridge pair outcomes and tests globally excluded pairs against equally informed calibration references. Historical status paragraphs below retain their original snapshots and are not a second active backlog.
+
+# Historical execution record, 8 October 2026
 
 Current local model-cycle update, 10 October 2026: Opal-Base, Opal-Interaction and Opal-Guard have actual trained checkpoints on Combi-seq and both PertSpectra TNF contexts, a shared inference contract, safe serialization and installed train/predict/evaluate CLI verification on Windows Python 3.11 and 3.14. All 891 declared budget/control conditions and 1,296 saved model checkpoints replay exactly, with 72 additional sample-label transport checkpoints. The full local suite passes 255 tests. Base remains recommended for Combi-seq and TNF-positive; nonlinear gains on Combi-seq are only about 0.03%, both nonlinear variants lose to Base on PertSpectra, and no-change beats every fitted model on TNF-negative. See the [model guide](opal_model_series.md), [source registry](../../results/opal_model_series_v1/series_registry.json), [installed verification](../../results/opal_model_series_v1/installed_verification.json) and [original backlog audit](../../results/opal_model_series_v1/original_backlog_audit.json). The latest owner instruction prohibits commits and pushes. New remote CI is consequently pending, while existing CI evidence stays tied to its prior commits. Historical status paragraphs below describe their original snapshots.
 
