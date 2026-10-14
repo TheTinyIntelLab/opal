@@ -1,5 +1,13 @@
 # Active council contract and frozen historical v1
 
+## Evidence-audited current status, 15 October 2026
+
+Root `plan.md` is the sole forward-looking plan. See `docs/frontier/evidence_audit_20261015.md` for verified artifacts, bounded reproduction and remaining issues. SC01?SC08 software exists but real successor fitting/evaluation remains unrun. Crossed-single selections/predictions/statistics reproduced and its spending filter failed. GxE raw custody and row summaries verified; biological independence and processed-aggregate replay remain unestablished. The next objective is independent culture/reference precision, subject to actual records and reviewed protocol/margin/power/rights. No new scientific fitting, acquisition, acceptance file or reviewer attestation was created in this audit.
+
+## Historical status and implementation specification
+
+The dated sections below are retained snapshots. Their prior authorization statements, build counts and reports of no numerical work describe their own dates and scopes; they do not override the current plan or the executed single-response/measurement records. Frozen scientific equations and stopping rules remain unchanged.
+
 ## Current execution status, 14 October 2026
 
 The owner has authorized complete execution, including numerical work. That authorization was accepted and the existing 3,142,132,144-byte cache was hash-verified without copying or downloading it. The authorized preparation attempt stopped at scientific Gate 1 before expression decoding, panel selection, fitting or biological scoring: 51 canonical pairs have nominal ten-cell coverage, but zero pairs have certified exact assignment equivalence. Dose, duration, independent initiation and validated guide-equivalence evidence are missing from the inspected source metadata and primary/supplemental methods. These are missing scientific records, not missing owner permission.

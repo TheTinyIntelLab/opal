@@ -34,6 +34,7 @@
     "status": "completed_exposed_feasibility",
     "wall_seconds": 530.2828088999959
   },
+  "current_evidence_audit": "evidence_audit_validation.json",
   "date": "2026-10-15",
   "dependencies_installed": false,
   "gxe_acquisition": {
@@ -67,7 +68,7 @@
     "wall_seconds": 975.3833486000076
   },
   "gxe_memory_accounting": {
-    "accepted_ram_bytes": 8589934592,
+    "accepted_ram_bytes": 8000000000,
     "continuous_peak_measured": false,
     "reference_cube_bytes": 268868736,
     "temporary_cubes_coexist": true
@@ -224,7 +225,7 @@
   },
   "regeneration_attempt_status": "source_ineligible",
   "remaining_plan_work": "remaining_plan_work.json",
-  "scope": "software, exposed single-response run and official chemical technical measurement pilot; pair diagnostic ineligible, independent confirmation unrun",
+  "scope": "dated 15 October prior build receipt; current audit/build certification is evidence_audit_validation.json",
   "single_response_qualification_status": "metadata_only_unqualified",
   "source_attempt_ledger": {
     "acceptance_hash": "b2aa58f328063e364b4f661c43f30671c33ab68edd14ed8eefbbb99b422077ad",

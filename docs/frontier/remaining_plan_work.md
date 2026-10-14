@@ -1,5 +1,13 @@
 # Remaining PLAN work, 14 October 2026
 
+## Evidence-audited current status, 15 October 2026
+
+Root `plan.md` is the sole forward-looking plan. See `docs/frontier/evidence_audit_20261015.md` for verified artifacts, bounded reproduction and remaining issues. SC01?SC08 software exists but real successor fitting/evaluation remains unrun. Crossed-single selections/predictions/statistics reproduced and its spending filter failed. GxE raw custody and row summaries verified; biological independence and processed-aggregate replay remain unestablished. The next objective is independent culture/reference precision, subject to actual records and reviewed protocol/margin/power/rights. No new scientific fitting, acquisition, acceptance file or reviewer attestation was created in this audit.
+
+## Historical status and implementation specification
+
+The dated sections below are retained snapshots. Their prior authorization statements, build counts and reports of no numerical work describe their own dates and scopes; they do not override the current plan or the executed single-response/measurement records. Frozen scientific equations and stopping rules remain unchanged.
+
 The approved SC01–SC08 implementation is complete. Owner execution authorization persists. The rest of the PLAN consists of evidence-dependent scientific milestones, whose actual status is recorded in `remaining_plan_work.json`. This update performs the single-response source qualification, drafts the collaborator repeatability pilot and executes confirmation readiness checking. It does not convert missing observations into passing milestones.
 
 | PLAN deliverable | Actual status | What prevents completion |

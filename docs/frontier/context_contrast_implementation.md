@@ -1,5 +1,13 @@
 # Context-contrast implementation
 
+## Evidence-audited current status, 15 October 2026
+
+Root `plan.md` is the sole forward-looking plan. See `docs/frontier/evidence_audit_20261015.md` for verified artifacts, bounded reproduction and remaining issues. SC01?SC08 software exists but real successor fitting/evaluation remains unrun. Crossed-single selections/predictions/statistics reproduced and its spending filter failed. GxE raw custody and row summaries verified; biological independence and processed-aggregate replay remain unestablished. The next objective is independent culture/reference precision, subject to actual records and reviewed protocol/margin/power/rights. No new scientific fitting, acquisition, acceptance file or reviewer attestation was created in this audit.
+
+## Historical status and implementation specification
+
+The dated sections below are retained snapshots. Their prior authorization statements, build counts and reports of no numerical work describe their own dates and scopes; they do not override the current plan or the executed single-response/measurement records. Frozen scientific equations and stopping rules remain unchanged.
+
 ## Executed single-response pivot, 14 October 2026
 
 The owner-directed practical alternative `opal_crossed_single_v1` completed a separate preregistered 96-compound/512-gene sci-Plex study at 1,000 nM and 24 hours. Measured responses in two lines predict withheld compound responses in a third observed line, with permitted target training-identity calibration. All 684 logical invocations, complete predictions, exact replay and source/evaluator separation are retained. The finite development spending filter failed; its registered next action is: close finite rank-16 probe; no rescue sweep. This task does not inherit a pair, unseen-context, biological-confirmation or frontier claim. See `docs/frontier/crossed_single_feasibility_results.md` and its fixed protocol. The pair source remains ineligible, the Tahoe lead remains metadata-unqualified, and independent culture/power/utility evidence remains absent.

@@ -1,5 +1,11 @@
 # Crossed combination-response measurement brief
 
+## Current direction, 15 October 2026
+
+The sole forward-looking plan is [root plan.md](../../plan.md). The [evidence audit](../frontier/evidence_audit_20261015.md) and [independent precision protocol](../frontier/measurement_precision_next.md) supersede the dated program below. No predictor is nominated; the next objective is actual independent culture/reference precision, with rights, lineage, margin/power and assay-cost review still missing.
+
+## Historical program snapshot
+
 ## Current successor status, 13 October 2026
 
 The second-council `opal_context_contrast_v1` pipeline is implemented, with software checks only. The active plan/contract and [implementation guide](../frontier/context_contrast_implementation.md) supersede the historical bridge instructions below. SC01–SC08 now have executable qualification, preparation, contrast/reference/control fitting, sealed evaluation and readiness components. The fixed-context diagnostic uses both observed TNF contexts in training and no target bridges. Its numerical preparation, fitting and biological scoring require separate owner acceptance; independent confirmation remains unqualified. Frozen bridge configuration/results, old thresholds and failed attempts remain unchanged.
