@@ -33,3 +33,8 @@ results/opal_crossed_single_v1/** -text whitespace=-blank-at-eof,-blank-at-eol,c
 configs/experiments/opal_crossed_single_v1.json -text
 src/crossed_single.py -text
 tools/run_crossed_single.py -text
+results/opal_gxe_measurement_v1/** -text whitespace=-blank-at-eof,-blank-at-eol,cr-at-eol
+configs/experiments/opal_gxe_measurement_v1.json -text
+src/gxe_measurement.py -text
+tools/acquire_gxe_measurement.py -text
+tools/run_gxe_measurement.py -text
