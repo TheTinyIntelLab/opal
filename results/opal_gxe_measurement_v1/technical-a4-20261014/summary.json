@@ -1,0 +1,40 @@
+{
+  "biological_confirmation": false,
+  "contexts": {
+    "A172": {
+      "declared": 22,
+      "means": {
+        "residual_half_mse": 0.17053105025081763,
+        "response_half_mse": 0.08434010593819594,
+        "zero_residual_mse": 0.1690991821179347,
+        "zero_response_mse": 0.6320933228963472
+      },
+      "supported": 18
+    },
+    "T98G": {
+      "declared": 22,
+      "means": {
+        "residual_half_mse": 0.171432881840623,
+        "response_half_mse": 0.06960253618212639,
+        "zero_residual_mse": 0.1259410932783044,
+        "zero_response_mse": 0.2959699415884128
+      },
+      "supported": 19
+    },
+    "U87MG": {
+      "declared": 22,
+      "means": {
+        "residual_half_mse": 1.0156615964071194,
+        "response_half_mse": 0.4198379662216084,
+        "zero_residual_mse": 0.5948081935637044,
+        "zero_response_mse": 1.1162161281519039
+      },
+      "supported": 10
+    }
+  },
+  "declared_population": 66,
+  "interpretation": "technical response agreement exists; residual-half error exceeds zero residual baseline on supported rows in every context; no biological negative or nomination",
+  "models_fit": 0,
+  "supported_population": 47,
+  "unsupported_population": 19
+}

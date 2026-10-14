@@ -1,0 +1,106 @@
+{
+  "code_sha256": "b1bb58ce723c1d8a8a36bd30c9beb1c639f035c23727e0087c1e024e94549a7e",
+  "config": {
+    "accession": "GSM7056151",
+    "anchor": "Trametinib",
+    "author_commit": "63eed120697611d8baf4a207a797a147308a6674",
+    "biological_confirmation": false,
+    "budgets": {
+      "cpu_seconds": 7200,
+      "download_bytes": 700000000,
+      "gpu": false,
+      "installs": false,
+      "output_bytes": 300000000,
+      "ram_bytes": 8000000000,
+      "reserve_bytes": 1073741824,
+      "threads": 1,
+      "workers": 1
+    },
+    "contexts": [
+      "A172",
+      "T98G",
+      "U87MG"
+    ],
+    "count_format": "author makeCDS.R reads headerless 1-based gene,cell,integer-count triplets; axes supplied by original annotation files",
+    "culture_provenance": "unknown; RT origin and replicate/plate labels do not certify independently initiated cultures",
+    "dose_uM": 1.0,
+    "duration_hours": 72,
+    "experiment_id": "opal_gxe_measurement_v1",
+    "hash_table_schema": "library,cell,condition,hash-family,count; fourth field matches sample-sheet family 1, fifth field supplies counts; no header in deposited file",
+    "metrics": [
+      "technical-half response MSE",
+      "technical-half residual MSE",
+      "zero-effect comparison",
+      "complete support and exclusion accounting"
+    ],
+    "minimum_cells_per_partition": 10,
+    "minimum_genes": 256,
+    "minimum_hash_ratio": 2.5,
+    "minimum_hash_umis": 5,
+    "normalization": "full-library cell counts to 10000, condition count means, log2(1+mean), matched literal plate/line controls",
+    "pair_diagnostic_eligibility": "requires a separate >=36 canonical pair contract; dose aliases are not distinct pairs",
+    "panel_genes": 512,
+    "panel_selection": "equal-context within-context measured-single variance from controls/singles only, lexical gene ties; no pair outcomes",
+    "partition": "original count-column index modulo two; technical cell partitions, no independent culture inference",
+    "population": "all literal nonvehicle chemical-plus-Trametinib identities present in the author sheet, fixed dose/time; unsupported labels retained with reasons",
+    "purpose": "Public chemical star-screen technical measurement-reliability pilot; no prediction nomination or biological confirmation",
+    "rt_eligibility": "author cleanup retains RT wells 1 through 96; other RT origins excluded with explicit counts",
+    "stopping": "One registered measurement pilot; no architecture fitting, threshold relaxation, endpoint/rank sweep, nomination or frontier claim",
+    "vehicle_percent_v_v": 0.2
+  },
+  "config_sha256": "040ea3d224a92e3b9d676b8f43d6ef32f12293ce6cf1fbc88f1d4bb80023495d",
+  "helper_sha256": "88da4994aacaab193126feb15200564dac92a2cec8d72e5ec00f3dc5210dc508",
+  "independent_culture_initiation_verified": false,
+  "owner_execution_authorized": true,
+  "scientific_fitting": false,
+  "source_receipts": {
+    "files": [
+      {
+        "bytes": 832570,
+        "identity_scope": "official HTTPS endpoint, exact advertised size and frozen acquired SHA256; gzip CRC checked during decoding",
+        "last_modified": "Wed, 22 Feb 2023 12:59:16 GMT",
+        "path": "cells.txt.gz",
+        "publisher_checksum_available": false,
+        "sha256": "5704448d55cca51021586c593921e050dad350c2afc0329f5f7eb6a16edbf5aa",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7056nnn/GSM7056151/suppl/GSM7056151_sciPlex_4_cell.annotations.txt.gz"
+      },
+      {
+        "bytes": 430158,
+        "identity_scope": "official HTTPS endpoint, exact advertised size and frozen acquired SHA256; gzip CRC checked during decoding",
+        "last_modified": "Wed, 22 Feb 2023 12:59:16 GMT",
+        "path": "genes.txt.gz",
+        "publisher_checksum_available": false,
+        "sha256": "cbeed4e110b3593b4d8ec8fb481f66697b730cca0f9d1730cc20d5fe10a05990",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7056nnn/GSM7056151/suppl/GSM7056151_sciPlex_4_gene.annotations.txt.gz"
+      },
+      {
+        "bytes": 19793477,
+        "identity_scope": "official HTTPS endpoint, exact advertised size and frozen acquired SHA256; gzip CRC checked during decoding",
+        "last_modified": "Wed, 22 Feb 2023 12:59:22 GMT",
+        "path": "hashes.txt.gz",
+        "publisher_checksum_available": false,
+        "sha256": "3825a8db558af63a846d72e237bcd1b719b8fd1eaaeec36cc3defcf01767cd5c",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7056nnn/GSM7056151/suppl/GSM7056151_sciPlex_4_hashTable.out.txt.gz"
+      },
+      {
+        "bytes": 3335,
+        "identity_scope": "official HTTPS endpoint, exact advertised size and frozen acquired SHA256; gzip CRC checked during decoding",
+        "last_modified": "Wed, 22 Feb 2023 12:59:22 GMT",
+        "path": "sample_sheet.txt.gz",
+        "publisher_checksum_available": false,
+        "sha256": "ffb4083bcff9e8cb283c89817d7d4e534f753c075b94f5ffa90d8de8dc6fed9c",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7056nnn/GSM7056151/suppl/GSM7056151_sciPlex_4_hash_sample_sheet.txt.gz"
+      },
+      {
+        "bytes": 590579159,
+        "identity_scope": "official HTTPS endpoint, exact advertised size and frozen acquired SHA256; gzip CRC checked during decoding",
+        "last_modified": "Wed, 22 Feb 2023 12:59:15 GMT",
+        "path": "counts.mtx.gz",
+        "publisher_checksum_available": false,
+        "sha256": "1710e238558182026e0b66e05f1b8d5853fc89f941a9751def32d6dc35147455",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7056nnn/GSM7056151/suppl/GSM7056151_sciPlex_4_UMI.count.matrix.gz"
+      }
+    ],
+    "total_download_bytes": 611638699
+  }
+}

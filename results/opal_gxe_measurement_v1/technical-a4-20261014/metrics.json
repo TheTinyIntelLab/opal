@@ -1,0 +1,896 @@
+{
+  "declared_population": 66,
+  "rows": [
+    {
+      "context": "A172",
+      "drug": "AZ628",
+      "residual_half_mse": 0.15736608542178654,
+      "response_half_mse": 0.08199307585099534,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.17128347731312765,
+      "zero_response_mse": 0.7058043430471229
+    },
+    {
+      "context": "A172",
+      "drug": "AZD7762",
+      "reasons": [
+        {
+          "group": [
+            "A172",
+            "plate10",
+            "rep1",
+            "AZD7762",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        },
+        {
+          "group": [
+            "A172",
+            "plate11",
+            "rep2",
+            "AZD7762",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "A172",
+      "drug": "Alectinib",
+      "residual_half_mse": 0.20963759748823713,
+      "response_half_mse": 0.12708583902366996,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.10158428637292093,
+      "zero_response_mse": 0.6490120343327839
+    },
+    {
+      "context": "A172",
+      "drug": "BID1870",
+      "residual_half_mse": 0.11503388096932553,
+      "response_half_mse": 0.04911486146473708,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.07233116832236297,
+      "zero_response_mse": 0.6046390965299699
+    },
+    {
+      "context": "A172",
+      "drug": "BMS345541",
+      "residual_half_mse": 0.12605875775022005,
+      "response_half_mse": 0.05689411410922365,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.0848574110925448,
+      "zero_response_mse": 0.6149598517661725
+    },
+    {
+      "context": "A172",
+      "drug": "DDR1IN",
+      "residual_half_mse": 0.11787738155455707,
+      "response_half_mse": 0.05872678494234994,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.07871786523588246,
+      "zero_response_mse": 0.6534912283377039
+    },
+    {
+      "context": "A172",
+      "drug": "Doxorubicin",
+      "reasons": [
+        {
+          "group": [
+            "A172",
+            "plate6",
+            "rep1",
+            "Doxorubicin",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        },
+        {
+          "group": [
+            "A172",
+            "plate9",
+            "rep2",
+            "Doxorubicin",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "A172",
+      "drug": "GSK690693",
+      "residual_half_mse": 0.165408754601436,
+      "response_half_mse": 0.0818399976405195,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.309727579694865,
+      "zero_response_mse": 0.5815393477730482
+    },
+    {
+      "context": "A172",
+      "drug": "Infigratinib",
+      "reasons": [
+        {
+          "group": [
+            "A172",
+            "plate6",
+            "rep1",
+            "Infigratinib",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        },
+        {
+          "group": [
+            "A172",
+            "plate9",
+            "rep2",
+            "Infigratinib",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "A172",
+      "drug": "KU55933",
+      "residual_half_mse": 0.2048879956645308,
+      "response_half_mse": 0.08728502211200011,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.11636725182907977,
+      "zero_response_mse": 0.6358021960491044
+    },
+    {
+      "context": "A172",
+      "drug": "MK2206",
+      "residual_half_mse": 0.19616867703201818,
+      "response_half_mse": 0.08306796685326492,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.23497549193798475,
+      "zero_response_mse": 0.5812879415806663
+    },
+    {
+      "context": "A172",
+      "drug": "Nintedanib",
+      "residual_half_mse": 0.2176067609404056,
+      "response_half_mse": 0.10349284388528371,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.2604519152135878,
+      "zero_response_mse": 0.6703604990814411
+    },
+    {
+      "context": "A172",
+      "drug": "Nutlin3A",
+      "residual_half_mse": 0.23075792020744684,
+      "response_half_mse": 0.13258114403634558,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.157209532295608,
+      "zero_response_mse": 0.6855699576613212
+    },
+    {
+      "context": "A172",
+      "drug": "PHA767491",
+      "residual_half_mse": 0.14700582557299854,
+      "response_half_mse": 0.06973663215963759,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.28971512324803683,
+      "zero_response_mse": 0.585006483817426
+    },
+    {
+      "context": "A172",
+      "drug": "Palbociclib",
+      "residual_half_mse": 0.17326952765691894,
+      "response_half_mse": 0.08016914384239326,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.24014772677273036,
+      "zero_response_mse": 0.6566832444297663
+    },
+    {
+      "context": "A172",
+      "drug": "RIPA56",
+      "residual_half_mse": 0.12307425639803674,
+      "response_half_mse": 0.0564113357350546,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.08713353626001799,
+      "zero_response_mse": 0.612451650961561
+    },
+    {
+      "context": "A172",
+      "drug": "Roscovitine",
+      "residual_half_mse": 0.16891495615672764,
+      "response_half_mse": 0.08472711134796843,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.09582389066803558,
+      "zero_response_mse": 0.596394124443798
+    },
+    {
+      "context": "A172",
+      "drug": "Salubrinal",
+      "residual_half_mse": 0.12972220742288276,
+      "response_half_mse": 0.055660889311010486,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.07585887728201711,
+      "zero_response_mse": 0.6135950706388846
+    },
+    {
+      "context": "A172",
+      "drug": "Temozolomide",
+      "residual_half_mse": 0.18508316984747183,
+      "response_half_mse": 0.08324676019326879,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.21062907270955444,
+      "zero_response_mse": 0.5911028345375374
+    },
+    {
+      "context": "A172",
+      "drug": "Temsirolimus",
+      "residual_half_mse": 0.1972842432307133,
+      "response_half_mse": 0.11688951292127105,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.33450332001848887,
+      "zero_response_mse": 0.6592536982498822
+    },
+    {
+      "context": "A172",
+      "drug": "VE821",
+      "residual_half_mse": 0.2044009065990045,
+      "response_half_mse": 0.10919887145853271,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.12246775185597905,
+      "zero_response_mse": 0.6807262088960602
+    },
+    {
+      "context": "A172",
+      "drug": "Volasertib",
+      "reasons": [
+        {
+          "group": [
+            "A172",
+            "plate11",
+            "rep2",
+            "Volasertib",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "T98G",
+      "drug": "AZ628",
+      "reasons": [
+        {
+          "group": [
+            "T98G",
+            "plate6",
+            "rep1",
+            "AZ628",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "T98G",
+      "drug": "AZD7762",
+      "reasons": [
+        {
+          "group": [
+            "T98G",
+            "plate10",
+            "rep1",
+            "AZD7762",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        },
+        {
+          "group": [
+            "T98G",
+            "plate11",
+            "rep2",
+            "AZD7762",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "T98G",
+      "drug": "Alectinib",
+      "reasons": [
+        {
+          "group": [
+            "T98G",
+            "plate11",
+            "rep2",
+            "Alectinib",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "T98G",
+      "drug": "BID1870",
+      "residual_half_mse": 0.09809691750497725,
+      "response_half_mse": 0.048873087196718165,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.05782640770079047,
+      "zero_response_mse": 0.2760498808779339
+    },
+    {
+      "context": "T98G",
+      "drug": "BMS345541",
+      "residual_half_mse": 0.1331853801840968,
+      "response_half_mse": 0.05081643422739904,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.07521681407132354,
+      "zero_response_mse": 0.23469981920197056
+    },
+    {
+      "context": "T98G",
+      "drug": "DDR1IN",
+      "residual_half_mse": 0.1053894062516221,
+      "response_half_mse": 0.040979272532070996,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.06562279995781371,
+      "zero_response_mse": 0.24978273235325363
+    },
+    {
+      "context": "T98G",
+      "drug": "Doxorubicin",
+      "residual_half_mse": 0.2558280380340511,
+      "response_half_mse": 0.15309533222709235,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.2877134698398215,
+      "zero_response_mse": 0.636916630920639
+    },
+    {
+      "context": "T98G",
+      "drug": "GSK690693",
+      "residual_half_mse": 0.19545861441579812,
+      "response_half_mse": 0.07466483140734478,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.13001523836423395,
+      "zero_response_mse": 0.29129926274224865
+    },
+    {
+      "context": "T98G",
+      "drug": "Infigratinib",
+      "residual_half_mse": 0.13652840930961846,
+      "response_half_mse": 0.0776156112670873,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.13719471197935207,
+      "zero_response_mse": 0.3179858396357018
+    },
+    {
+      "context": "T98G",
+      "drug": "KU55933",
+      "residual_half_mse": 0.15894563286302546,
+      "response_half_mse": 0.057576924259002134,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.10873173923791,
+      "zero_response_mse": 0.2777700287731633
+    },
+    {
+      "context": "T98G",
+      "drug": "MK2206",
+      "residual_half_mse": 0.2772542374500807,
+      "response_half_mse": 0.07750802231719753,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.1966614232814926,
+      "zero_response_mse": 0.2568331884295753
+    },
+    {
+      "context": "T98G",
+      "drug": "Nintedanib",
+      "residual_half_mse": 0.25134161578007963,
+      "response_half_mse": 0.09803091391072208,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.16459859008829753,
+      "zero_response_mse": 0.29301317267280474
+    },
+    {
+      "context": "T98G",
+      "drug": "Nutlin3A",
+      "residual_half_mse": 0.2064708203448702,
+      "response_half_mse": 0.08481139077648112,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.14652315028431995,
+      "zero_response_mse": 0.35474166599077017
+    },
+    {
+      "context": "T98G",
+      "drug": "PHA767491",
+      "residual_half_mse": 0.09588765302212965,
+      "response_half_mse": 0.04047194472211732,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.06284795250655048,
+      "zero_response_mse": 0.24254014482941277
+    },
+    {
+      "context": "T98G",
+      "drug": "Palbociclib",
+      "residual_half_mse": 0.11796499984056892,
+      "response_half_mse": 0.047728687659113145,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.1042349468411333,
+      "zero_response_mse": 0.31824560571847804
+    },
+    {
+      "context": "T98G",
+      "drug": "RIPA56",
+      "residual_half_mse": 0.11245831542016038,
+      "response_half_mse": 0.04118054773550828,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.05964686157627913,
+      "zero_response_mse": 0.23616966160094632
+    },
+    {
+      "context": "T98G",
+      "drug": "Roscovitine",
+      "residual_half_mse": 0.15389991296720307,
+      "response_half_mse": 0.05233983428004564,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.08147040723072561,
+      "zero_response_mse": 0.20911622470702196
+    },
+    {
+      "context": "T98G",
+      "drug": "Salubrinal",
+      "residual_half_mse": 0.09844525416836913,
+      "response_half_mse": 0.03704404657431921,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.06059067808346194,
+      "zero_response_mse": 0.2447829897740598
+    },
+    {
+      "context": "T98G",
+      "drug": "Temozolomide",
+      "residual_half_mse": 0.18039628313692002,
+      "response_half_mse": 0.07526318366875696,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.09874434413706348,
+      "zero_response_mse": 0.20292206744242264
+    },
+    {
+      "context": "T98G",
+      "drug": "Temsirolimus",
+      "residual_half_mse": 0.19196431310183207,
+      "response_half_mse": 0.05240983084379741,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.16546222878312883,
+      "zero_response_mse": 0.39442656068598464
+    },
+    {
+      "context": "T98G",
+      "drug": "VE821",
+      "residual_half_mse": 0.20079646393620165,
+      "response_half_mse": 0.07007690464580738,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.12087713384250182,
+      "zero_response_mse": 0.22404855409084307
+    },
+    {
+      "context": "T98G",
+      "drug": "Volasertib",
+      "residual_half_mse": 0.286912487240232,
+      "response_half_mse": 0.1419613872098206,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.26890187448158404,
+      "zero_response_mse": 0.36208485973261284
+    },
+    {
+      "context": "U87MG",
+      "drug": "AZ628",
+      "residual_half_mse": 1.0096979883419908,
+      "response_half_mse": 0.3811522456554,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.567278107664038,
+      "zero_response_mse": 1.1747352032648586
+    },
+    {
+      "context": "U87MG",
+      "drug": "AZD7762",
+      "reasons": [
+        {
+          "group": [
+            "U87MG",
+            "plate11",
+            "rep2",
+            "AZD7762",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "U87MG",
+      "drug": "Alectinib",
+      "reasons": [
+        {
+          "group": [
+            "U87MG",
+            "plate11",
+            "rep2",
+            "Alectinib",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "U87MG",
+      "drug": "BID1870",
+      "residual_half_mse": 1.1858539013759009,
+      "response_half_mse": 0.44589828400910325,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.63281877562879,
+      "zero_response_mse": 1.2054944010706625
+    },
+    {
+      "context": "U87MG",
+      "drug": "BMS345541",
+      "reasons": [
+        {
+          "group": [
+            "U87MG",
+            "plate6",
+            "rep1",
+            "BMS345541",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "U87MG",
+      "drug": "DDR1IN",
+      "residual_half_mse": 0.907338863473694,
+      "response_half_mse": 0.3345301713658803,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.5177576306250415,
+      "zero_response_mse": 1.1291697757609311
+    },
+    {
+      "context": "U87MG",
+      "drug": "Doxorubicin",
+      "reasons": [
+        {
+          "group": [
+            "U87MG",
+            "plate6",
+            "rep1",
+            "Doxorubicin",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        },
+        {
+          "group": [
+            "U87MG",
+            "plate9",
+            "rep2",
+            "Doxorubicin",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "U87MG",
+      "drug": "GSK690693",
+      "reasons": [
+        {
+          "group": [
+            "U87MG",
+            "plate10",
+            "rep1",
+            "GSK690693",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        },
+        {
+          "group": [
+            "U87MG",
+            "plate11",
+            "rep2",
+            "GSK690693",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "U87MG",
+      "drug": "Infigratinib",
+      "reasons": [
+        {
+          "group": [
+            "U87MG",
+            "plate9",
+            "rep2",
+            "Infigratinib",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "U87MG",
+      "drug": "KU55933",
+      "residual_half_mse": 1.1359408379084308,
+      "response_half_mse": 0.5105905037858156,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.5445920736496817,
+      "zero_response_mse": 1.1595357961639663
+    },
+    {
+      "context": "U87MG",
+      "drug": "MK2206",
+      "residual_half_mse": 1.006928019040467,
+      "response_half_mse": 0.3247533374607417,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.5907773667483229,
+      "zero_response_mse": 1.0308701559978921
+    },
+    {
+      "context": "U87MG",
+      "drug": "Nintedanib",
+      "reasons": [
+        {
+          "group": [
+            "U87MG",
+            "plate11",
+            "rep2",
+            "Nintedanib",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "U87MG",
+      "drug": "Nutlin3A",
+      "reasons": [
+        {
+          "group": [
+            "U87MG",
+            "plate11",
+            "rep2",
+            "Nutlin3A",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "U87MG",
+      "drug": "PHA767491",
+      "reasons": [
+        {
+          "group": [
+            "U87MG",
+            "plate9",
+            "rep2",
+            "PHA767491",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "U87MG",
+      "drug": "Palbociclib",
+      "residual_half_mse": 1.049547300011893,
+      "response_half_mse": 0.5185117017528763,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.8564847406639918,
+      "zero_response_mse": 1.100443280392181
+    },
+    {
+      "context": "U87MG",
+      "drug": "RIPA56",
+      "reasons": [
+        {
+          "group": [
+            "U87MG",
+            "plate6",
+            "rep1",
+            "RIPA56",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "U87MG",
+      "drug": "Roscovitine",
+      "residual_half_mse": 0.9551050801576125,
+      "response_half_mse": 0.4145009422356046,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.5518696876935063,
+      "zero_response_mse": 1.0095277564256329
+    },
+    {
+      "context": "U87MG",
+      "drug": "Salubrinal",
+      "residual_half_mse": 1.0504481972997803,
+      "response_half_mse": 0.4278720623739803,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.5674088539191009,
+      "zero_response_mse": 1.1285722445181887
+    },
+    {
+      "context": "U87MG",
+      "drug": "Temozolomide",
+      "residual_half_mse": 0.827226458906077,
+      "response_half_mse": 0.39931654004109596,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.49604085029541356,
+      "zero_response_mse": 1.0486411265201128
+    },
+    {
+      "context": "U87MG",
+      "drug": "Temsirolimus",
+      "reasons": [
+        {
+          "group": [
+            "U87MG",
+            "plate6",
+            "rep1",
+            "Temsirolimus",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    },
+    {
+      "context": "U87MG",
+      "drug": "VE821",
+      "residual_half_mse": 1.0285293175553467,
+      "response_half_mse": 0.44125387353558565,
+      "status": "technical_support_qualified",
+      "strata": 2,
+      "zero_residual_mse": 0.6230538487491566,
+      "zero_response_mse": 1.175171541404611
+    },
+    {
+      "context": "U87MG",
+      "drug": "Volasertib",
+      "reasons": [
+        {
+          "group": [
+            "U87MG",
+            "plate10",
+            "rep1",
+            "Volasertib",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        },
+        {
+          "group": [
+            "U87MG",
+            "plate11",
+            "rep2",
+            "Volasertib",
+            1.0,
+            1.0
+          ],
+          "reason": "matched partition support below fixed minimum"
+        }
+      ],
+      "status": "unsupported"
+    }
+  ],
+  "supported_population": 47,
+  "uncertainty": "technical cell partition agreement only; no culture covariance or biological interval"
+}
