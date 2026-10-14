@@ -1,0 +1,15 @@
+\section{Executed crossed-single feasibility alternative}
+Following the pair-source refusal, a separately registered exposed single-response study predicts missing compound effects in an observed target cell line from measured effects in the other two lines and target training-identity calibration. It uses 96 lexicographically selected compounds, 1,000 nM, 24 hours and a 512-gene control-only panel. Per-cell log normalization preserves the declared single-response endpoint, distinct from the pair diagnostic. Three grouped outer and inner folds retain all nested fits; a fixed 16-coordinate ridge is compared with calibrated mean/difference profiles, a residual kernel and a matched shuffled-feature control.
+
+\begin{center}
+\begin{tabular}{lrrrr}
+\toprule
+Target & Candidate MSE & Selector MSE & Difference ridge MSE & Gain (\%) \\
+\midrule
+A549 & 0.03816697 & 0.03918590 & 0.03825730 & 2.600 \\
+K562 & 0.03316807 & 0.03556390 & 0.03478723 & 6.737 \\
+MCF7 & 0.04300216 & 0.04404643 & 0.03825636 & 2.371 \\
+\bottomrule
+\end{tabular}
+\end{center}
+All 684 logical invocations, 288 compound-by-target predictions and exact saved-state replays completed. The development spending filter failed. Whole-compound paired sensitivity is conditional on exposed measurements; it is not independent culture or refitting uncertainty. No pair-composition, unseen-context, biological-confirmation or frontier claim follows. Actual compute was 520.766 CPU seconds, with 91,827,750 retained bytes at the receipt. The registered next action is close finite rank-16 probe; no rescue sweep.

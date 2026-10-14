@@ -1,5 +1,9 @@
 # Active planning update, 11 October 2026
 
+## Executed single-response pivot, 14 October 2026
+
+The owner-directed practical alternative `opal_crossed_single_v1` completed a separate preregistered 96-compound/512-gene sci-Plex study at 1,000 nM and 24 hours. Measured responses in two lines predict withheld compound responses in a third observed line, with permitted target training-identity calibration. All 684 logical invocations, complete predictions, exact replay and source/evaluator separation are retained. The finite development spending filter failed; its registered next action is: close finite rank-16 probe; no rescue sweep. This task does not inherit a pair, unseen-context, biological-confirmation or frontier claim. See `docs/frontier/crossed_single_feasibility_results.md` and its fixed protocol. The pair source remains ineligible, the Tahoe lead remains metadata-unqualified, and independent culture/power/utility evidence remains absent.
+
 ## Remaining roadmap execution, 14 October 2026
 
 Following the current-source pair refusal, the PLAN's distinct single-response/context lead has undergone a pinned, outcome-blind Tahoe metadata audit. It fetched 369,683 bytes, recorded 1,344 sample catalog rows, and remains `metadata_only_unqualified`: measured crossed edges, duration, initiation, support and an exact bounded expression subset are missing. Catalog context labels are not measured coverage. No pivot predictor or rescue pair model was fit.

@@ -2,6 +2,15 @@
   "complete_scientific_plan": false,
   "complete_software_implementation": true,
   "date": "2026-10-14",
+  "executed_single_response_pivot": {
+    "complete_population": true,
+    "decision_sha256": "d8a673817f72aa1fe6d654eb5594fbee5193b0d78774ffe69fa1afb176ab8376",
+    "independent_confirmation": false,
+    "logical_invocations": 684,
+    "next_action": "close finite rank-16 probe; no rescue sweep",
+    "spending_filter_passed": false,
+    "status": "completed_exposed_feasibility"
+  },
   "local_measurement_discovery": {
     "path": "local_measurement_discovery.json",
     "sha256": "d0121a306304ad53b586ef8928430f68f3d3b84f6c0b47b20ec6044ad8b086e3",
@@ -104,7 +113,7 @@
     "wall_seconds": 5.420112799998606
   },
   "pivot_revision": "349e2a55f5538a3e73b32a06c6bdd8e9e87011e8",
-  "plan_sha256": "67f4f8387208743ea6f5eb4cb085957b3f933c63904d94e9a9ca06a11aeaea3c",
+  "plan_sha256": "d69b5c3930edb2ecc0e1fad8be248475b908b4be318f8129f55a5102ab4a9183",
   "readiness_receipt": {
     "path": "results/opal_context_contrast_v1/confirmation-readiness-check-20261014",
     "sha256": "232a8a504b70b80f4507375e2b8cd8c6d3a4eaab5021412abb81e23d6e39d578"
