@@ -1,0 +1,172 @@
+{
+  "candidate_contract_id": "opal_context_transfer_confirmation_v1",
+  "gates": {
+    "independent_initiation": {
+      "approved": false,
+      "details": {
+        "cultures": null,
+        "initiation_provenance_reviewed": null
+      },
+      "evidence": [],
+      "reviewed_at": null,
+      "reviewer": null
+    },
+    "independent_references": {
+      "approved": false,
+      "details": {
+        "independently_measured": null,
+        "reference_matches": null,
+        "shared_reference_covariance_retained": null
+      },
+      "evidence": [],
+      "reviewed_at": null,
+      "reviewer": null
+    },
+    "interval_validation": {
+      "approved": false,
+      "details": {
+        "claim_specific_support_reviewed": null,
+        "coverage_validation": null,
+        "estimand": null,
+        "null_type_i_validation": null,
+        "shared_reference_covariance_retained": null
+      },
+      "evidence": [],
+      "reviewed_at": null,
+      "reviewer": null
+    },
+    "literal_interventions": {
+      "approved": false,
+      "details": {
+        "assignment_equivalence_reviewed": null,
+        "assignments": null
+      },
+      "evidence": [],
+      "reviewed_at": null,
+      "reviewer": null
+    },
+    "measurement_counts": {
+      "approved": false,
+      "details": {
+        "campaign_costs": null,
+        "counts": null,
+        "counts_supported_by_review": null
+      },
+      "evidence": [],
+      "reviewed_at": null,
+      "reviewer": null
+    },
+    "owner_arrangements": {
+      "approved": false,
+      "details": {
+        "compute_arrangements_reviewed": null,
+        "laboratory_arrangements_reviewed": null,
+        "measurement_owner": null,
+        "registration_arrangements_reviewed": null
+      },
+      "evidence": [],
+      "reviewed_at": null,
+      "reviewer": null
+    },
+    "pilot_covariance": {
+      "approved": false,
+      "details": {
+        "covariance_method": null,
+        "empirical_covariance_reviewed": null,
+        "pilot_id": null,
+        "shared_reference_covariance_retained": null
+      },
+      "evidence": [],
+      "reviewed_at": null,
+      "reviewer": null
+    },
+    "power_review": {
+      "approved": false,
+      "details": {
+        "assay_cost_reviewed": null,
+        "biological_collaborator": null,
+        "empirical_power_reviewed": null,
+        "functional_endpoint": null,
+        "margin_metric": null,
+        "sample_size_by_context": null,
+        "useful_margin": null
+      },
+      "evidence": [],
+      "reviewed_at": null,
+      "reviewer": null
+    },
+    "pretreatment_contexts": {
+      "approved": false,
+      "details": {
+        "contexts": null,
+        "definitions_frozen_before_treatment": null
+      },
+      "evidence": [],
+      "reviewed_at": null,
+      "reviewer": null
+    },
+    "prospective_information": {
+      "approved": false,
+      "details": {
+        "allowed_query_references": null,
+        "bridge_pair_ids": null,
+        "freeze_record": null,
+        "global_exclusion_context_ids": null,
+        "held_query_pair_ids": null,
+        "query_outcomes_unscored": null
+      },
+      "evidence": [],
+      "reviewed_at": null,
+      "reviewer": null
+    },
+    "randomization": {
+      "approved": false,
+      "details": {
+        "plate_block_assignments": null,
+        "randomized_assignment_reviewed": null
+      },
+      "evidence": [],
+      "reviewed_at": null,
+      "reviewer": null
+    },
+    "release_rights": {
+      "approved": false,
+      "details": {
+        "license_id": null,
+        "permitted_uses": null,
+        "redistribution_review_completed": null,
+        "research_use_authorized": null
+      },
+      "evidence": [],
+      "reviewed_at": null,
+      "reviewer": null
+    },
+    "source_context_graph": {
+      "approved": false,
+      "details": {
+        "crossed_support_reviewed": null,
+        "held_context_ids": null,
+        "pair_context_edges": null,
+        "source_context_ids": null
+      },
+      "evidence": [],
+      "reviewed_at": null,
+      "reviewer": null
+    },
+    "transfer_calibration": {
+      "approved": false,
+      "details": {
+        "bridge_count": null,
+        "bridge_use": null,
+        "equal_comparator_budget_reviewed": null,
+        "prediction_centering_rule": null,
+        "target_operator_fit": null
+      },
+      "evidence": [],
+      "reviewed_at": null,
+      "reviewer": null
+    }
+  },
+  "schema": "context_contrast_measurement_readiness_v1",
+  "status": "unreviewed_template"
+}

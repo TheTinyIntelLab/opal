@@ -1,0 +1,41 @@
+{
+  "excluded_assets": [
+    "expression_data",
+    "obs_metadata",
+    "pseudobulk_differential_expression",
+    "weights"
+  ],
+  "fetched": [
+    {
+      "bytes": 263750,
+      "path": "revision.json",
+      "sha256": "d648cf0f3a0ca3fa2ed7e57c135c4887e6ccc80bfdebd772490aae5efd2218fe",
+      "url": "https://huggingface.co/api/datasets/tahoebio/Tahoe-100M/revision/main"
+    },
+    {
+      "bytes": 1927,
+      "path": "metadata_tree.json",
+      "sha256": "c48968d22bf4dd250acbcf4998022e3427cbe326d08ec2c83c49365da069ebc0",
+      "url": "https://huggingface.co/api/datasets/tahoebio/Tahoe-100M/tree/349e2a55f5538a3e73b32a06c6bdd8e9e87011e8/metadata"
+    },
+    {
+      "bytes": 65636,
+      "path": "sample_metadata.parquet",
+      "sha256": "33167f0ce28cff8357c503cda67d1c7fea200bff6918ee1de3c4f3549175b9d3",
+      "url": "https://huggingface.co/datasets/tahoebio/Tahoe-100M/resolve/349e2a55f5538a3e73b32a06c6bdd8e9e87011e8/metadata/sample_metadata.parquet"
+    },
+    {
+      "bytes": 19040,
+      "path": "cell_line_metadata.parquet",
+      "sha256": "67641f5bdd3fb077978ff1fec4d0d617490674bcd42850515ae3997194c29d4d",
+      "url": "https://huggingface.co/datasets/tahoebio/Tahoe-100M/resolve/349e2a55f5538a3e73b32a06c6bdd8e9e87011e8/metadata/cell_line_metadata.parquet"
+    },
+    {
+      "bytes": 19330,
+      "path": "source_card.md",
+      "sha256": "c81f4f62eac32cbbf949913c052ebbf3313db61ba3636e42f206d00929fca95c",
+      "url": "https://huggingface.co/datasets/tahoebio/Tahoe-100M/raw/349e2a55f5538a3e73b32a06c6bdd8e9e87011e8/README.md"
+    }
+  ],
+  "revision": "349e2a55f5538a3e73b32a06c6bdd8e9e87011e8"
+}
