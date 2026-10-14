@@ -1,0 +1,109 @@
+{
+  "coupled_compound_draws": 2000,
+  "primary": "gene mean squared full-response error, equal held compound identities, separate target contexts",
+  "targets": {
+    "A549": {
+      "candidate_relative_gain": 0.026002545850283942,
+      "conditional_paired_loss_bounds": [
+        0.00033989323754605506,
+        0.00191089345898571
+      ],
+      "fallback_counts": {
+        "affine": 0,
+        "kernel": 0,
+        "offset": 0,
+        "pca_concat": 0,
+        "pca_difference": 0,
+        "pca_mean": 0,
+        "shuffled_concat": 0,
+        "source_mean": 0,
+        "target_mean": 0,
+        "zero": 0
+      },
+      "mse": {
+        "affine": 0.04857619471813431,
+        "kernel": 0.04687266447033143,
+        "offset": 0.05285468483321232,
+        "pca_concat": 0.03816696511577452,
+        "pca_difference": 0.0382572985149672,
+        "pca_mean": 0.03966040292476705,
+        "selector": 0.03918589823121628,
+        "shuffled_concat": 0.05311202445781523,
+        "source_mean": 0.055951898201698345,
+        "target_mean": 0.050511580311628994,
+        "zero": 0.05444886377786424
+      },
+      "population": 96,
+      "spending_filter_passed": false
+    },
+    "K562": {
+      "candidate_relative_gain": 0.06736699424636505,
+      "conditional_paired_loss_bounds": [
+        -0.0007439997450185815,
+        0.006307453312263824
+      ],
+      "fallback_counts": {
+        "affine": 0,
+        "kernel": 0,
+        "offset": 0,
+        "pca_concat": 0,
+        "pca_difference": 0,
+        "pca_mean": 0,
+        "shuffled_concat": 0,
+        "source_mean": 0,
+        "target_mean": 0,
+        "zero": 0
+      },
+      "mse": {
+        "affine": 0.03418626229716629,
+        "kernel": 0.04553621935397418,
+        "offset": 0.051265118027144146,
+        "pca_concat": 0.033168070955826794,
+        "pca_difference": 0.034787233476942535,
+        "pca_mean": 0.033614231698537334,
+        "selector": 0.035563904291618535,
+        "shuffled_concat": 0.051521430321026934,
+        "source_mean": 0.05500553674357885,
+        "target_mean": 0.035128137641582936,
+        "zero": 0.03764005121412289
+      },
+      "population": 96,
+      "spending_filter_passed": false
+    },
+    "MCF7": {
+      "candidate_relative_gain": 0.023708325612063152,
+      "conditional_paired_loss_bounds": [
+        -0.0005295559552468268,
+        0.003343809475789418
+      ],
+      "fallback_counts": {
+        "affine": 0,
+        "kernel": 0,
+        "offset": 0,
+        "pca_concat": 0,
+        "pca_difference": 0,
+        "pca_mean": 0,
+        "shuffled_concat": 0,
+        "source_mean": 0,
+        "target_mean": 0,
+        "zero": 0
+      },
+      "mse": {
+        "affine": 0.053607199066538845,
+        "kernel": 0.04916785560480291,
+        "offset": 0.055578702912957294,
+        "pca_concat": 0.043002163473329406,
+        "pca_difference": 0.038256364844436404,
+        "pca_mean": 0.04443351129042052,
+        "selector": 0.04404643059185013,
+        "shuffled_concat": 0.05560400270063268,
+        "source_mean": 0.057617556119412404,
+        "target_mean": 0.055705788887181536,
+        "zero": 0.05768157477634376
+      },
+      "population": 96,
+      "spending_filter_passed": false
+    }
+  },
+  "uncertainty": "2000 paired whole-compound resamples coupling all target contexts; exposed-measurement conditional sensitivity, no independent culture or refitting interval"
+}

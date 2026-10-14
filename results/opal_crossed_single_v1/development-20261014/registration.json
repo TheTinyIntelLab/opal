@@ -1,0 +1,147 @@
+{
+  "code_sha256": {
+    "src\\crossed_single.py": "32add8dcad8c76896ddde44750547865480fe7f754bc680a4a3f73a68d9763bc",
+    "tools\\prepare_state_source.py": "f0380b5e84d9ff5ba604df778ed4541a0df96be30ab3681e6404a3a1dd7333fb",
+    "tools\\run_crossed_single.py": "ed2061e9476756d7c89e2c7f58a98b72846a0c5f05c5c1ffe652baf2167223aa"
+  },
+  "config": {
+    "alignment_seed": 20261015,
+    "budget": {
+      "cpu_seconds": 7200,
+      "downloads": false,
+      "failure_reserve_bytes": 10000000,
+      "gpu": false,
+      "installs": false,
+      "ram_bytes": 8000000000,
+      "reserve_bytes": 1073741824,
+      "retained_bytes": 1000000000,
+      "scratch_bytes": 2000000000,
+      "threads": 1,
+      "workers": 1
+    },
+    "candidate": "pca_concat",
+    "checkpoint_policy": "retain every inner/final state, attempt, inference bank, scale, basis and prediction; content addressed without pickle",
+    "compound_selection": "first 96 lexicographic shared compound names at exact dose/time; fixed before response scoring",
+    "condition_limit": 100000000,
+    "contexts": [
+      "A549",
+      "K562",
+      "MCF7"
+    ],
+    "dose_nM": 1000,
+    "duration_hours": 24,
+    "experiment_id": "opal_crossed_single_v1",
+    "families": [
+      "zero",
+      "source_mean",
+      "target_mean",
+      "offset",
+      "affine",
+      "pca_concat",
+      "pca_mean",
+      "pca_difference",
+      "kernel",
+      "shuffled_concat"
+    ],
+    "genes": 512,
+    "inner_folds": 3,
+    "learned_fit_invocations": 612,
+    "logical_invocations": 684,
+    "normalization": "per-cell human-gene total to 10000, log2(1+x), equal well means, matched line/plate vehicle subtraction, equal available plates within line",
+    "outer_folds": 3,
+    "panel": "existing preparer control-only panel, query vehicles permitted; no treated outcomes choose genes",
+    "pca_constructions": 360,
+    "penalties": [
+      0.1,
+      1,
+      10
+    ],
+    "prepared_compounds": 96,
+    "primary": "gene mean squared full-response error, equal held compound identities, separate target contexts",
+    "primary_metadata_sha256": "860ba5c21846e2cfe97c39c805895982ef9db4b108cdf8b841a4a91be65024c2",
+    "rank_tolerance": 1e-10,
+    "representation_rank": 16,
+    "scope": "exposed single-response feasibility; three observed target contexts, no pairs, no unseen-context or biological confirmation claim",
+    "selection": "inner full-response gene MSE; finite ties by family ID then penalty; unsupported required fits do not advance",
+    "selector_excludes": [
+      "pca_concat",
+      "shuffled_concat"
+    ],
+    "sensitivity_draws": 2000,
+    "sensitivity_seed": 20261016,
+    "source_sha256": "603ed16c5e25401c8a7f5bb0b2b045179701017d65dcfc6aeea71722a66cd10a",
+    "spending_filter": "candidate at least 5 percent better than locked reference selector in every observed target, positive conditional paired lower bound, better than mean/difference/kernel/alignment controls, no unsupported candidate or required control",
+    "split_seed": 20261014,
+    "stopping": "one finite registered run; no extra doses, ranks, endpoints or seeds after query scores; failures preserve full population with locked-reference fallback and block nomination",
+    "uncertainty": "2000 paired whole-compound resamples coupling all target contexts; exposed-measurement conditional sensitivity, no independent culture or refitting interval"
+  },
+  "config_sha256": "5f1da55b986818aff0c2041c757838bb55e393a1989b13edb805a0ff79ca36bc",
+  "evidence": "exposed single-response development only",
+  "independent_confirmation": false,
+  "owner_execution_authorized": true,
+  "primary_provenance": {
+    "annotation_mismatches": 0,
+    "condition_mismatches": {
+      "cell_type": 0,
+      "dose": 0,
+      "plate_oligo": 0,
+      "replicate": 0,
+      "time_point": 0,
+      "well_oligo": 0
+    },
+    "culture_plate_equals_existing_plate_oligo_cells": 763546,
+    "elapsed_seconds": 8.02381630000309,
+    "eligible_24h_line_culture_well_catalog_dose_conditions": 4608,
+    "expression_matrix_access": false,
+    "harmonized_sha256": "603ed16c5e25401c8a7f5bb0b2b045179701017d65dcfc6aeea71722a66cd10a",
+    "interpretation": "Culture plate aliases existing plate strata; sample/run and rep1/rep2 identifiers alone do not establish independently initiated cultures. Randomized independently treated wells are documented, but no pair responses or sealed states are supplied.",
+    "line_culture_control_strata": 48,
+    "line_replicate_sample_records": [
+      [
+        "A549",
+        "rep1",
+        "Chem3_Screen2"
+      ],
+      [
+        "A549",
+        "rep2",
+        "Chem3_Screen2"
+      ],
+      [
+        "K562",
+        "rep1",
+        "Chem3_Screen2"
+      ],
+      [
+        "K562",
+        "rep2",
+        "Chem3_Screen2"
+      ],
+      [
+        "MCF7",
+        "rep1",
+        "Chem3_Screen2"
+      ],
+      [
+        "MCF7",
+        "rep2",
+        "Chem3_Screen2"
+      ]
+    ],
+    "matched_cells": 799317,
+    "missing": [
+      "Independently initiated culture provenance for the claimed biological sampling model",
+      "Matched pair responses",
+      "Sealed independent states and global pairs"
+    ],
+    "original_samples": [
+      "Chem3_Screen2"
+    ],
+    "primary_rows": 799317,
+    "primary_sha256": "860ba5c21846e2cfe97c39c805895982ef9db4b108cdf8b841a4a91be65024c2",
+    "provenance": "Primary GEO pData restores sample/catalog/culture nomenclature. Primary metadata not redistributed.",
+    "reagent_mapping_count": 189,
+    "source_cells": 799317,
+    "status": "completed_metadata_provenance_only"
+  }
+}
