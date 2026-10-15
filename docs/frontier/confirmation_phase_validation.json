@@ -1,0 +1,97 @@
+{
+  "aggregates_recovered": false,
+  "biological_confirmation": false,
+  "commands": [
+    {
+      "command": ".venv/Scripts/python.exe -m pytest -q tests/test_gxe_reconstruction.py",
+      "exit_status": 0,
+      "passed": 2
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m pytest -q tests/test_confirmation_planning.py tests/test_gxe_reconstruction.py",
+      "exit_status": 0,
+      "passed": 4,
+      "scope": "before adding the third aggregate-integrity fixture; final suite covers it"
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools/reconstruct_gxe_measurements.py --output results/opal_gxe_reconstruction_v1/replay-20261015",
+      "exit_status": 1,
+      "status": "failed_bounded_CPU_stop"
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools/plan_confirmation_power.py --output results/opal_evidence_audit_v1/confirmation-power-sensitivity-20261015.json",
+      "empirical_power": false,
+      "exit_status": 0
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m pytest -q",
+      "elapsed_seconds": 50.89,
+      "exit_status": 0,
+      "passed": 381
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m build --no-isolation --outdir tmp/confirmation-phase-package-20261015",
+      "exit_status": 0
+    },
+    {
+      "command": "tools/vendor/tectonic.exe --only-cached --untrusted --keep-logs --keep-intermediates --outdir tmp/confirmation-phase-paper-20261015 paper/main.tex",
+      "exit_status": 0
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools/build_docs.py --output tmp/confirmation-phase-docs-release-20261015",
+      "exit_status": 0
+    }
+  ],
+  "date": "2026-10-15",
+  "direct_wheel_import": true,
+  "documentation": {
+    "build_manifest_sha256": "c319cf954a7a59695b6c5dc8225dfe6b89cf492a806d3e9d36e20702cb22102a",
+    "documents": 88,
+    "historical_root_snapshot": "docs/frontier/historical/plan-20261015-before-confirmation-phase.md.txt; exact text preserved without rebasing its relative links",
+    "unavailable_links": 0
+  },
+  "external_messages_sent": false,
+  "gate_definitions_sha256": "93ba5999e927a522632be28e9f1e58649fe118a555a084140e1339d4d18cf5d2",
+  "gates_passed": 0,
+  "gates_total": 14,
+  "initial_head": "7a91090",
+  "manuscript": {
+    "last_page_visually_inspected": true,
+    "missing_reference_or_character_warnings": false,
+    "overfull_warnings": 0,
+    "pages": 47,
+    "sha256": "1c8126710138909d0eb35fae50ab62d559aba4d69dc48428ddf6cbd62ff50047"
+  },
+  "original_evidence_package_sha256": "4f5e0ca1ca1ca027a0132d3f01be95083e8cd0ab080590623d5f7270c31829ed",
+  "owner_or_reviewer_attestations_created": false,
+  "panel_selection_replayed": false,
+  "power_sensitivity_sha256": "208fc2eee567b502cd6171e66e45ffca9331d80cb60caab255e01d1800e0b421",
+  "predictor_sweep": false,
+  "purchases": false,
+  "raw_reacquisition_required": false,
+  "readiness_register_sha256": "62cd7d9376d0c829a1c9c46b6268fe6a8b4e4f0378ec21bd40c4b2e1eb3e21b0",
+  "real_aggregate_replay_executed": false,
+  "reconstruction_resource": {
+    "acceptance_created": false,
+    "continuous_peak_measured": false,
+    "cpu_limit_seconds": 300,
+    "cpu_seconds": 300.109375,
+    "downloads": 0,
+    "fitting": false,
+    "peak_sampled_rss_bytes": 272678912,
+    "ram_limit_bytes": 1000000000,
+    "retained_bytes": 4820,
+    "retained_limit_bytes": 10000000,
+    "status": "reconstruction_failed",
+    "threads": 1,
+    "wall_seconds": 300.6780463999894
+  },
+  "restricted_data_requests": false,
+  "schema": "opal-biological-phase-validation-v1",
+  "scientific_models_fit": 0,
+  "software": {
+    "python": "3.14.0"
+  },
+  "tests_log_sha256": "d764bf3509df56b2b83afe7c6c960546816a92f2969f0d7c5152e5019168c6be",
+  "wheel_sha256": "d028dea63ad70ef8456a3c56fa6ca187505fcfdf639ecae94d120685f410ec65"
+}

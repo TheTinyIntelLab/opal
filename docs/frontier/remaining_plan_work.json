@@ -2,6 +2,18 @@
   "authoritative_plan": "plan.md",
   "complete_scientific_plan": false,
   "complete_software_implementation": false,
+  "confirmation_phase": {
+    "aggregate_recovered": false,
+    "collaboration_sent": false,
+    "gates_passed": 0,
+    "gates_total": 14,
+    "next_operation_requires_supplied_acceptance": true,
+    "power_sensitivity": "assumption_labelled_not_empirical",
+    "prospective_protocol": "docs/frontier/prospective_confirmation_protocol.md",
+    "raw_reacquisition_needed": false,
+    "reconstruction_status": "failed_bounded_CPU_stop"
+  },
+  "context_contrast_decision": "pause_pending_independent_biological_evidence",
   "current_audit": "docs/frontier/evidence_audit_20261015.md",
   "date": "2026-10-15",
   "executed_single_response_pivot": {
@@ -128,7 +140,7 @@
     "wall_seconds": 5.420112799998606
   },
   "pivot_revision": "349e2a55f5538a3e73b32a06c6bdd8e9e87011e8",
-  "plan_sha256": "1dfa6f7871bc3d64da965eab00087f97e0ff53ad823a9a76d9ef624579e1a6a4",
+  "plan_sha256": "9e761745329a96e35e7966af22aa9c16664e0501f1260613c16c8f9789944d29",
   "readiness_receipt": {
     "path": "results/opal_context_contrast_v1/confirmation-readiness-check-20261014",
     "sha256": "232a8a504b70b80f4507375e2b8cd8c6d3a4eaab5021412abb81e23d6e39d578"
