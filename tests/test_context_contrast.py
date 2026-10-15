@@ -377,3 +377,14 @@ def test_separated_roles_mutation_fallback_and_evaluator_freeze(tmp_path, monkey
     assert result["fallback_pairs"] == 36
     assert not decision["development_nominated"] and not decision["independent_biological_confirmation"]
     assert len(decision["gates"]) == 5 and not decision["frontier_claim"]
+
+
+def test_state_loading_preserves_fortran_matrix_layout(tmp_path):
+    # LAPACK/SVD bases are column-major. Forcing C order on load can select
+    # a different BLAS reduction path, violating exact same-runtime replay.
+    matrix = np.asfortranarray(np.arange(48., dtype=np.float64).reshape(8, 6))
+    save_state(tmp_path / "layout", {"basis": matrix})
+    restored = load_state(tmp_path / "layout")["basis"]
+    np.testing.assert_array_equal(restored, matrix)
+    assert restored.strides == matrix.strides
+    assert restored.flags.f_contiguous

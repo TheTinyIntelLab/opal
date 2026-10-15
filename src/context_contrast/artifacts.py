@@ -53,7 +53,10 @@ def load_state(path):
         if not asset.is_relative_to(path.parent) or sha256(asset) != record["sha256"]:
             raise ContractError("State asset mismatch")
         with np.load(asset, allow_pickle=False) as archive:
-            arrays[key] = archive["value"].copy()
+            # Keep the NPY layout: SVD bases are commonly column-major.
+            # A default C-order copy can change BLAS summation and break
+            # bitwise replay despite identical serialized float values.
+            arrays[key] = archive["value"].copy(order="K")
         if array_hash(arrays[key]) != key:
             raise ContractError("Array content mismatch")
     def unpack(v):
