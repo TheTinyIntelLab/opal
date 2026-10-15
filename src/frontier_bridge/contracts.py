@@ -35,7 +35,7 @@ def fingerprint(value):
     return hashlib.sha256(json.dumps(value, sort_keys=True, separators=(",", ":"), allow_nan=False).encode()).hexdigest()
 
 
-def load_config(path):
+def load_config(path, root=None):
     cfg = read_json(path)
     fixed = dict(experiment_id=EXPERIMENT_ID, schema_version=1,
                  role="exposed_public_development",
@@ -58,8 +58,12 @@ def load_config(path):
     maxima = dict(workers=1, threads=1, cpu_core_hours=24,
                   new_retained_bytes=60_000_000, artifact_cap_bytes=3_000_000_000)
     if resources.get("amendment"):
-        root = Path(__file__).resolve().parents[2]
-        amendment_path = checked_asset(root, resources["amendment"])
+        # Configurations live in <research-root>/configs/experiments, while
+        # this module may be imported from an installed wheel. Never resolve
+        # research authorization records relative to site-packages. An
+        # explicitly supplied root supports separately located config files.
+        asset_root = Path(root).resolve() if root is not None else Path(path).resolve().parents[2]
+        amendment_path = checked_asset(asset_root, resources["amendment"])
         amendment = read_json(amendment_path)
         authorization = amendment.get("authorization_basis")
         if amendment.get("experiment_id") != EXPERIMENT_ID or not isinstance(authorization, str) or not authorization.strip():

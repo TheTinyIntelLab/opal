@@ -311,3 +311,10 @@ def test_preparation_rejects_duplicate_alias_and_nonfinite_outcomes_before_write
     with pytest.raises(ContractError, match="Duplicate canonical"):
         prepare_banks(banks, genes, cfg, tmp_path, {}, synthetic_case="transfer")
     assert not list(tmp_path.iterdir())
+
+
+def test_resource_amendment_resolves_from_config_tree_not_installed_module(tmp_path, monkeypatch):
+    from opal.frontier_bridge import contracts
+    monkeypatch.setattr(contracts, "__file__", str(tmp_path / "site-packages/opal/frontier_bridge/contracts.py"))
+    cfg = contracts.load_config(CONFIG)
+    assert cfg["resources"]["amendment"]["path"] == "docs/frontier/resource_amendment_20261012.json"
