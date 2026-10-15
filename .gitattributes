@@ -57,3 +57,10 @@ configs/experiments/opal_gxe_reconstruction_v2.json -text
 src/gxe_streaming.py -text
 tools/reconstruct_gxe_measurements_v2.py -text whitespace=cr-at-eol
 tools/verify_gxe_panel.py -text
+configs/experiments/opal_external_repeat_diagnostic_v1.json -text
+src/external_repeat.py -text
+tools/run_external_repeat_diagnostic.py -text
+tools/replay_external_repeat_diagnostic.py -text
+tools/review_external_sources.py -text
+results/opal_external_validation_v1/** -text whitespace=-blank-at-eof,-blank-at-eol,cr-at-eol
+docs/frontier/outreach_register.json -text
