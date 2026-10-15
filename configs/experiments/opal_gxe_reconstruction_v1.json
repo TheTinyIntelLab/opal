@@ -1,0 +1,21 @@
+{
+  "experiment_id": "opal_gxe_reconstruction_v1",
+  "purpose": "bounded recovery of fixed-panel aggregates and exact historical endpoint replay, not a new scientific experiment",
+  "historical_run": "results/opal_gxe_measurement_v1/technical-a4-20261014",
+  "input": "data/raw/gxe-measurement-20261014",
+  "panel": "reuse the exact frozen 512-gene panel; do not reselect genes or refit models",
+  "normalization": "preserve historical full-library per-cell totals and coordinate summation order; 10000-scaled condition count sums",
+  "retention": "uncompressed safe NPZ condition sums, support, cell-library denominators and cell-to-condition membership; axes and source hashes in JSON",
+  "comparison": "all 66 rows, support, exclusions, strata and endpoints must match; report bitwise equality separately from tolerance",
+  "cpu_seconds": 300,
+  "ram_bytes": 1000000000,
+  "retained_bytes": 10000000,
+  "reserve_bytes": 1073741824,
+  "threads": 1,
+  "workers": 1,
+  "downloads": false,
+  "installs": false,
+  "fitting": false,
+  "independent_confirmation": false,
+  "authorization_scope": "current owner request permits feasible bounded measurement reconstruction; no acceptance or reviewer attestation is created"
+}
