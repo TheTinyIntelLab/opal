@@ -66,6 +66,11 @@
       "command": ".venv/Scripts/python.exe tools/opal_context_contrast.py readiness --input results/opal_context_contrast_v1/confirmation-readiness-20261014 --output results/opal_external_validation_v1/ci-closure-readiness-20261015.json",
       "exit_status": 0,
       "result": "0/14 gates passed"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m pytest -q tests/test_sources.py",
+      "exit_status": 0,
+      "result": "8 passed in 0.79s with existing local data dependencies"
     }
   ],
   "tests_weakened": false,
@@ -82,13 +87,22 @@
   "pdf_review_note": "Line wrapping hyphenated randomization; text check dehyphenated and visual inspection passed. Earlier ad hoc literal-string assertions failed, not compilation.",
   "new_download_bytes": 343009,
   "package_sha256": {
-    "opal_research-0.1.3.dev0-py3-none-any.whl": "15e39cb2ef0d0d03116f3bc539b52a7e58c725dffdb563128a0ab6693d9eba71",
-    "opal_research-0.1.3.dev0.tar.gz": "1109cc44eee84d899252807001aa0a2c435f91fd9d66a1148638cbfd5c921d1a"
+    "opal_research-0.1.3.dev0-py3-none-any.whl": "212a2941766456cc90440573d5923587479b0487c2623d2d21cc666794958eb2",
+    "opal_research-0.1.3.dev0.tar.gz": "bd5829627f6d601d1f2d6cfc8815522058d5bb62b678aa0ae3f38b0643d9cf10"
   },
   "workflow_coverage_repair": {
     "previous_explicit_test_files": 30,
     "actual_test_files": 51,
     "change": "Run full pytest suite once instead of curated file lists; keep installed-wheel, clean install and rehearsal checks",
     "scientific_checks_removed": false
+  },
+  "expanded_suite_dependency_failure": {
+    "run": 38692392123,
+    "head": "9db01a74d76ec48da0ebed955c62026e9a567818",
+    "conclusion": "failure",
+    "step": "python -m pytest -q",
+    "exit_status": 2,
+    "error": "ModuleNotFoundError: pyarrow during tests/test_sources.py collection",
+    "repair": "Install the wheel with existing [data] extra on CI host (PyArrow, AnnData, pandas, h5py and threadpoolctl); preserve isolated base dependency check; no local installation or test removal"
   }
 }
