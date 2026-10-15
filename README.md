@@ -4,6 +4,8 @@
   <p>Observed-single combinatorial response prediction</p>
 </div>
 
+Primary-paper follow-up resolves experiment-level GSE95153 doses, but culture/reference lineage remains unverified and all 14 confirmation gates remain failed. Exact outreach correspondence is retained only in ignored local custody; [the sanitized status](docs/frontier/outreach_status.md) records sends and the latest mailbox check.
+
 
 <div align="center">
   <a href="https://thetinyintelligencelab.vercel.app/"><img src="images/lab_badge.svg" alt="The Tiny Intelligence Lab" /></a>
@@ -13,10 +15,10 @@
 </div>
 
 <p align="center">
-  <a href="#2-model-downloads">Models</a> Â·
-  <a href="#3-evaluation-results">Evaluation</a> Â·
-  <a href="#5-quick-start">Quick start</a> Â·
-  <a href="#8-license">License</a> Â·
+  <a href="#2-model-downloads">Models</a> ·
+  <a href="#3-evaluation-results">Evaluation</a> ·
+  <a href="#5-quick-start">Quick start</a> ·
+  <a href="#8-license">License</a> ·
   <a href="#9-citation">Citation</a>
 </p>
 

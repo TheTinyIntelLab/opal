@@ -1,5 +1,7 @@
 # Opal research plan
 
+Primary-paper follow-up resolves experiment-level GSE95153 doses, but culture/reference lineage remains unverified and all 14 confirmation gates remain failed. Exact outreach correspondence is retained only in ignored local custody; [the sanitized status](docs/frontier/outreach_status.md) records sends and the latest mailbox check.
+
 Authoritative forward-looking plan, 15 October 2026. The earlier repository closeout is complete; the separately authorized external-validation phase has now executed public-source review, a bounded descriptive measurement diagnostic and four initial inquiries. The former council plan and preceding evidence-audit plan are preserved in `docs/frontier/historical/`; root `PLAN.md` is not a second active file. Frozen scientific requirements, original failures and old results are unchanged.
 
 ## Verified position and selected objective
