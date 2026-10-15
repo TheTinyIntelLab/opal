@@ -1,20 +1,21 @@
 {
   "authoritative_plan": "plan.md",
   "complete_scientific_plan": false,
-  "complete_software_implementation": false,
+  "complete_software_implementation": true,
   "confirmation_phase": {
-    "aggregate_recovered": false,
+    "aggregate_recovered": true,
     "collaboration_sent": false,
     "gates_passed": 0,
     "gates_total": 14,
     "next_operation_requires_supplied_acceptance": true,
+    "next_operation_scope": "future biological/scientific campaign, not the completed recovery",
     "power_sensitivity": "assumption_labelled_not_empirical",
     "prospective_protocol": "docs/frontier/prospective_confirmation_protocol.md",
     "raw_reacquisition_needed": false,
-    "reconstruction_status": "failed_bounded_CPU_stop"
+    "reconstruction_status": "raw_recovery_panel_and_exact_endpoint_replay_complete"
   },
   "context_contrast_decision": "pause_pending_independent_biological_evidence",
-  "current_audit": "docs/frontier/evidence_audit_20261015.md",
+  "current_audit": "docs/frontier/workstream_closeout.md",
   "date": "2026-10-15",
   "executed_single_response_pivot": {
     "complete_population": true,
@@ -140,7 +141,7 @@
     "wall_seconds": 5.420112799998606
   },
   "pivot_revision": "349e2a55f5538a3e73b32a06c6bdd8e9e87011e8",
-  "plan_sha256": "9e761745329a96e35e7966af22aa9c16664e0501f1260613c16c8f9789944d29",
+  "plan_sha256": "e2686e906b2270e6155298a7362bde4987d87ba445f86dfe39f67219883e9424",
   "readiness_receipt": {
     "path": "results/opal_context_contrast_v1/confirmation-readiness-check-20261014",
     "sha256": "232a8a504b70b80f4507375e2b8cd8c6d3a4eaab5021412abb81e23d6e39d578"
@@ -152,8 +153,9 @@
     "sha256": "21579e708e38dbe40885c2436e1b718a83db9868eb5590cb4f45ed21ebc1f5c3",
     "status": "source_ineligible"
   },
+  "repository_workstream_closed": true,
   "schema": "opal_remaining_plan_work_v1",
-  "software_status": "SC01?SC08 implemented; real-data execution, aggregate replay and complete resource profiling not certified",
+  "software_status": "SC01-SC08 and computational recovery/replay complete within scope; biological scientific gates remain unpassed",
   "source_qualification_receipt": {
     "path": "results/opal_context_contrast_v1/single-response-qualification-20261014/decision.json",
     "sha256": "00ed856b3c960477468eceb74bcc21ef640fcf7e596b6264dffe6ed3cb028255"

@@ -1,6 +1,8 @@
 # Official GxE measurement acquisition and technical pilot
 
-The commands below document the frozen, completed historical invocation. Do not execute another scientific run under the current plan: the finite study is closed, and its legacy wrapper automatically generated an owner-authorization receipt. A future version must consume an actual supplied acceptance; GxE must also retain processed aggregates and profile transient memory. See `plan.md` and `evidence_audit_20261015.md`.
+Current replay status: operational recovery v2 now retains the historical aggregates, reproduces all 66 metric rows exactly and reproduces the full reference-only panel. It changes no dose/time/assignment/normalization rule. See `workstream_closeout.md` and `reproducibility_closeout.md`; old acquisition/execution commands below are historical provenance, not a request for new downloading/fitting.
+
+The commands below document the frozen, completed historical invocation. Do not execute another scientific run under the current plan: the finite study is closed, and its legacy wrapper automatically generated an owner-authorization receipt. Any future scientific campaign must consume an actual supplied acceptance. The earlier aggregate-retention and transient-memory gaps are now resolved by operational recovery v2. Root `plan.md` and `workstream_closeout.md` give the current decision.
 
 `opal_gxe_measurement_v1` obtains and checks real public chemical-combination measurements rather than generating missing provenance. Its numeric registration is `configs/experiments/opal_gxe_measurement_v1.json`. This is a technical measurement-reliability pilot, with no predictor training, candidate nomination, independent confirmation or frontier claim. The earlier rank-16 probe remains closed. The original TNF pair protocol and its minima remain unchanged.
 

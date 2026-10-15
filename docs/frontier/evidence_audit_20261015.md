@@ -1,5 +1,7 @@
 # Evidence audit, 15 October 2026
 
+Current closeout supersedes the computational-recovery status in this earlier audit: full raw-to-aggregate, reference-only panel and exact 66-row endpoint replay are now complete. See [the final workstream audit](workstream_closeout.md) and its validation receipt. The original audit below is preserved, including its partial-verification findings and missing biological evidence.
+
 This audit began on clean `main` at `140870b`. Commit subjects and filenames were discovery aids, not evidence of scientific completion. Bounded reproduction used retained banks and states, with no fitting, source reprocessing, downloads, installations or acceptance/reviewer creation. The original attempts and frozen scientific configurations remain unchanged.
 
 | Claim | Evidence inspected | Verification result | Remaining issue | Next action |

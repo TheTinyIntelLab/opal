@@ -1,10 +1,16 @@
 # Active implementation handoff: second council
 
-Current biological-evidence phase: use root `plan.md`, `confirmation_readiness_20261015.md` and `prospective_confirmation_protocol.md`. All 14 transfer-readiness gates fail. A fixed-panel GxE recovery stopped at 300.109375 CPU seconds without complete aggregates; no retry, raw reacquisition or predictor sweep follows. Context-contrast is paused pending actual biological evidence, source repair and supplied operation acceptance. The unsent collaboration brief and resource plan identify exact external dependencies.
+## Final workstream status, 15 October 2026
 
-## Evidence-audited current status, 15 October 2026
+Repository engineering and numerical recovery are complete; see `docs/frontier/workstream_closeout.md` and root `plan.md`. Version-2 GxE recovery and all 66 endpoint rows replay exactly; the original reference-only 512-gene panel reproduces. Recorded recovery/panel CPU totals are 100.3125 seconds within the original envelope. Context-contrast remains paused with zero qualified genetic pairs and 0/14 biological readiness gates. Earlier failed-attempt/status paragraphs below are dated historical snapshots, not a current computational backlog or authorization to run another predictor.
 
-Root `plan.md` is the sole forward-looking plan. See `docs/frontier/evidence_audit_20261015.md` for verified artifacts, bounded reproduction and remaining issues. SC01?SC08 software exists but real successor fitting/evaluation remains unrun. Crossed-single selections/predictions/statistics reproduced and its spending filter failed. GxE raw custody and row summaries verified; biological independence and processed-aggregate replay remain unestablished. The next objective is independent culture/reference precision, subject to actual records and reviewed protocol/margin/power/rights. No new scientific fitting, acquisition, acceptance file or reviewer attestation was created in this audit.
+## Earlier dated status and frozen specification
+
+Earlier biological-evidence phase, superseded computational status: use root `plan.md`, `confirmation_readiness_20261015.md` and `prospective_confirmation_protocol.md`. All 14 transfer-readiness gates fail. A fixed-panel GxE recovery stopped at 300.109375 CPU seconds without complete aggregates; no retry, raw reacquisition or predictor sweep follows. Context-contrast is paused pending actual biological evidence, source repair and supplied operation acceptance. The unsent collaboration brief and resource plan identify exact external dependencies.
+
+## Earlier audit snapshot, 15 October 2026
+
+Root `plan.md` is the sole forward-looking plan. See `docs/frontier/evidence_audit_20261015.md` for verified artifacts, bounded reproduction and remaining issues. SC01-SC08 software exists but real successor fitting/evaluation remains unrun. Crossed-single selections/predictions/statistics reproduced and its spending filter failed. GxE raw custody and row summaries verified; biological independence and processed-aggregate replay remain unestablished. The next objective is independent culture/reference precision, subject to actual records and reviewed protocol/margin/power/rights. No new scientific fitting, acquisition, acceptance file or reviewer attestation was created in this audit.
 
 ## Historical status and implementation specification
 

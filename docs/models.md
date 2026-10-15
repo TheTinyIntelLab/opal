@@ -1,5 +1,7 @@
 # Prepared model references
 
+Current 0.1.3.dev0 is a local research/code snapshot, not a new weight release. Context-contrast remains source-ineligible and paused; no evaluated successor weights exist. GxE computational recovery is complete, but produces measurement aggregates, not a nominated predictor. Read [workstream closeout](frontier/workstream_closeout.md) for current status. Model/version references below describe historical assets and their own input/rights contracts.
+
 The current research successor is the unrun [fixed-context contrast pipeline](frontier/context_contrast_implementation.md). It has a separate protocol and reference-only gene panel, and requires authorized preparation before any model can be fitted. Existing Base/deployment/reference checkpoints remain historical assets; the successor refits Base inside each permitted fold and never loads query-exposed deployment weights. No successor biological weights or evaluated scores are available.
 
 The 0.1.2.dev1 successor adds a pure-sum option to the existing neural correction and response-source exclusion checks across fitting, preprocessing, pretraining and calibration. It retains the state/context implementations and original schedules. None of the new pair or learned-state components passed the matched development gate, so historical reference models remain the practical references.

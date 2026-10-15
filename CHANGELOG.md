@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased 0.1.3.dev0 workstream closeout
+
+Completes exact GxE aggregate/endpoint recovery and reference-panel reproduction inside the original CPU/memory/retention envelope using the existing C parser. Retains the failed v1 attempt, adds progress/finalization reserve and strict manifest/array checks, extends critical CI checks, and excludes private historical plans from source distributions. Aligns manuscript, README, citation and handoffs; independent biology and source-qualified context-contrast remain unestablished. No public release, predictor sweep, institutional agreement or publication is implied.
+
 ## Context-contrast implementation, 13 October 2026
 
 Adds the separately named `opal_context_contrast_v1` qualification, count streaming, isolated roles, nested contrast/reference/control models, safe complete inference states, sealed evaluation, five gates and confirmation-readiness checks. Small fixtures validate software only. No source preparation, scientific training, biological scoring, installation or download was run. The frozen bridge configuration, historical results and failed attempts remain unchanged; its research retirement supplies no biological failure finding. The full resource inventory and later-authorization commands are in `docs/frontier/context_contrast_implementation.md`.

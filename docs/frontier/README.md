@@ -4,6 +4,10 @@
 
 The sole forward-looking plan is [root plan.md](../../plan.md). The [evidence audit](../frontier/evidence_audit_20261015.md) and [independent precision protocol](../frontier/measurement_precision_next.md) supersede the dated program below. No predictor is nominated; the next objective is actual independent culture/reference precision, with rights, lineage, margin/power and assay-cost review still missing.
 
+## Current evidence and reproduction
+
+[The closed workstream](workstream_closeout.md) records successful full GxE recovery/panel/endpoint replay and the preserved earlier failure. [Reproduction](reproducibility_closeout.md) specifies required local assets and fixture-only checks. The authoritative root plan selects independent reference/culture precision as the next scientific objective. Context-contrast is paused; no model is nominated and readiness remains 0/14. Source incompatibility is not biological failure.
+
 ## Historical program snapshot
 
 The current successor is the implemented, unrun [`opal_context_contrast_v1` pipeline](context_contrast_implementation.md). Its [active council plan](PLAN.md), [contract](experiment_contract.md) and [handoff](implementation_handoff.md) fix a two-observed-context diagnostic with globally withheld pairs and no target bridges. The guide supplies executable commands, the full resource inventory, software validation and remaining authorization/evidence requirements. Preparation, scientific fitting and biological scoring have not run; independent biological confirmation and frontier superiority remain unestablished.

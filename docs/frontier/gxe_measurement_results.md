@@ -1,5 +1,7 @@
 # Official GxE measurement pilot results
 
+Current computational closeout: all 66 historical metric rows now replay exactly from recovered count sums and full-library denominators; a new reference-only pass reproduces the original 512-gene panel. Recovery and panel verification used 100.3125 recorded CPU seconds combined. The technical values and biological limitations below are unchanged. See [workstream closeout](workstream_closeout.md).
+
 The official [GSM7056151](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7056151) raw measurements and assignment records are now acquired locally, with frozen custody hashes. The corrected technical pilot actually completed full-library count processing, reference-only 512-gene selection and disjoint-cell-partition measurement comparisons. No predictive model was fit. This is a chemical star-screen technical readout, not TNF genetic confirmation or a frontier comparison.
 
 | Cell origin | Supported / declared | Response-half MSE | Zero-response MSE | Residual-half MSE | Zero-residual MSE |

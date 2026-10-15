@@ -1,4 +1,6 @@
-# Bounded GxE reconstruction, 15 October 2026
+# Historical bounded GxE reconstruction failure
+
+Current resolution: the original failure below is preserved. A separate version-2 recovery now completes in 56.65625 CPU seconds, all 66 rows replay exactly, and the panel reproduces in 43.65625 additional seconds. No larger envelope was required. See `workstream_closeout.md` and `reproducibility_closeout.md`; the following next-step proposals describe the earlier state.
 
 The five raw files, source axes, hash/sample labels, frozen 512-gene panel and normalization/assignment code remain available. No data reacquisition is required. The missing processed aggregates are deterministically reconstructible conditional on the recorded hash-field interpretation and fixed panel. This does not infer independent cultures or repair source biology.
 
