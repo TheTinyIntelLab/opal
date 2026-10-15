@@ -1,5 +1,7 @@
 # Local release audit, 15 October 2026
 
+Current external-validation phase: see [source decisions](external_validation_sources.md) and [outreach status](outreach_status.md). Four source-specific inquiries were pursued in five send attempts; one address bounced and was rerouted. Delivery of the other four, substantive responses, agreements and biological validation are not established. The bounded GSE95153 repeat diagnostic is complete and descriptive; context-contrast stays paused and readiness remains 0/14. Earlier no-contact statements below describe the preceding dated closeout.
+
 This checkout is a local review artifact, not a published successor biological predictor. Root `plan.md` governs forward work; `evidence_audit_20261015.md` records verification scope and unresolved issues.
 
 | Asset | Evidence available | Remaining restriction |

@@ -1,0 +1,150 @@
+{
+  "additional_source_metadata_and_supplement_bytes": 192649,
+  "artifact_hash_scope": "Raw recorded code/config/result/PDF bytes; manuscript inputs are additionally bound in current_build_manifest.json. Private register hash identifies exact sent messages, not a release permission.",
+  "artifact_sha256": {
+    "configs/experiments/opal_external_repeat_diagnostic_v1.json": "c3eb712c4702626fdcb4dece885d625ed227e391cfd49b5ae7597eb94f30d45d",
+    "docs/frontier/external_validation_gates.json": "9da05e2831171b97af14e3b9fd91143dc5d438e16097408802f0241fdabf319a",
+    "docs/frontier/outreach_register.json": "c84df09c92cfff7782d001163be4b1c73416da6ec0047e907a0a18850a2f230f",
+    "paper/current_build_manifest.json": "878b2fd2347a698bf4e011951682c78e42ad7b86c457c6b0253f174c7972658c",
+    "paper/evidence/external_repeat_measurement.tex": "d00e22735745eedae3436c63b08150b92345ab936fc69260e804a3e230d58fa4",
+    "paper/main.pdf": "6b689690b1c117bede09fce11a170bd2d019cf7c522d6a5226fb7e148e458782",
+    "paper/main.tex": "b217a09dab75180cc883778213051cbcca19a9922483eed4ee2318ee5eb6387c",
+    "paper/references.bib": "acb43ee60033166d26a5a9691b21ac16a5b946d1fc447fc9902646db27fbaa56",
+    "results/opal_external_validation_v1/local_source_inventory.json": "41c910eba43aa9e3f3b0851b4d161fe621ab569e39632880333847febc59e210",
+    "results/opal_external_validation_v1/metadata-review-20261015/metadata_counts.json": "c1c95dbfa5263e59ecfd2943cba70ab701d55d38a28ca97cf0e5239d8cd1c5a5",
+    "results/opal_external_validation_v1/new_claim_map.json": "62dc2f9354601cd93eafa6738be62f399ed911e6a210fe0af7236bf205aba37c",
+    "results/opal_external_validation_v1/outreach_receipt.json": "fb1a13a0ccda66a612592f706f6de0b4fa3a56ad240b0424b936c4631e9e5284",
+    "results/opal_external_validation_v1/package_checks.json": "99aa15378fa139bb4b4a4b48cc6255d77140b87a507bef7c70a6ec2e01a1bd24",
+    "results/opal_external_validation_v1/repeat-diagnostic-20261015/registration.json": "07a5a5ee118c0ffdbf5508f996c7e59bb9edad888d17a073dcd86a1856646b44",
+    "results/opal_external_validation_v1/repeat-diagnostic-20261015/report.json": "280eb4098bc0a70056ca77258cc9072142648e93d0c8f34f704bbaeeddd4b933",
+    "results/opal_external_validation_v1/repeat-diagnostic-20261015/resource_ledger.json": "8b66f4315f370989274399224761f3b373241293e80046d5a8011009c9c5067c",
+    "results/opal_external_validation_v1/repeat-replay-20261015.json": "976ffb12dbaffd308e89a06180b12cf8936976028184ec428eb15738e090528e",
+    "results/opal_external_validation_v1/tnf_source_version_review.json": "0d4723b2d788d61480027b04ce659b2e37855ffa66151f846b6bc452faf915a1",
+    "src/external_repeat.py": "a350df23a371ed1e49f6e3e246603aaecace2fd2da9d439b22b4bbee2fdba7c9",
+    "tools/replay_external_repeat_diagnostic.py": "fe63d357292812d646a647e4e757017afb5f9c41587e009f1fcdadb6aba2bb95",
+    "tools/review_external_sources.py": "32afa10f3a474de7ba662185b0da9906da727631f8acae0e7416bd70037cb248",
+    "tools/run_external_repeat_diagnostic.py": "385579e7a3119414a8b4a8fb8a242fee6a76b053b7c2aed53c232cc695170df1"
+  },
+  "available_disk_bytes_after_operations": 12410781696,
+  "base_commit": "8a5574b",
+  "biological_confirmation": false,
+  "clean_dependency_install": false,
+  "context_contrast": "paused_source_ineligible",
+  "counts_downloaded_compressed_bytes": 367523,
+  "date": "2026-10-15",
+  "dependencies_installed": false,
+  "documentation": {
+    "additional_render_commands": [
+      {
+        "command": ".venv/Scripts/python.exe tools/build_docs.py --output tmp/external-validation-docs-closeout-20261015",
+        "documents": 96,
+        "exit_status": 0,
+        "unavailable_local_links": 0
+      },
+      {
+        "command": ".venv/Scripts/python.exe tools/build_docs.py --output tmp/external-validation-docs-reviewed-20261015",
+        "documents": 96,
+        "exit_status": 0,
+        "unavailable_local_links": 0
+      }
+    ],
+    "command": ".venv/Scripts/python.exe tools/build_docs.py --output tmp/external-validation-docs-20261015",
+    "documents": 96,
+    "exit_status": 0,
+    "unavailable_local_links": 0
+  },
+  "full_tests": {
+    "command": ".venv/Scripts/python.exe -m pytest -q",
+    "elapsed_seconds": 49.04,
+    "exit_status": 0,
+    "passed": 394
+  },
+  "gpu_work": false,
+  "large_archives_downloaded": false,
+  "limitations": [
+    "Source repeat labels do not establish independent initiations or cross-arm pairing.",
+    "Within-arm dispersion does not estimate candidate paired-loss SD or justify a useful margin/power.",
+    "Local scope is not independent preregistration; study narrative was exposed and the new count table is now exposed.",
+    "Data export rights, actual host capacity, quotes, funding and institutional approvals are unresolved.",
+    "No predictor training, original raw recovery, expensive historical fit or protected evaluator was rerun.",
+    "Gmail SENT does not establish delivery, a reply or an agreement. No background mailbox monitoring is scheduled.",
+    "An initial PDF text-search assertion encountered a typeset fi ligature; Unicode-normalized verification passed, with no compilation failure."
+  ],
+  "manuscript": {
+    "command": "tools/vendor/tectonic.exe --only-cached --untrusted --keep-logs --keep-intermediates --outdir tmp/external-validation-paper-20261015 paper/main.tex",
+    "exit_status": 0,
+    "missing_reference_or_citation_warnings": false,
+    "new_table_visually_inspected": true,
+    "pages": 48
+  },
+  "metadata_downloaded_compressed_bytes": 161154,
+  "outreach": {
+    "collaboration_established": false,
+    "delivery_confirmed": false,
+    "fallback_sent_utc": "2026-10-15T03:43:35Z",
+    "known_delivery_failures": 1,
+    "last_checked_before_utc": "2026-10-15T03:46:21Z",
+    "last_pending_thread_check_utc": "2026-10-15T03:46:21Z",
+    "messages_sent": 5,
+    "other_delivery_unverified": 4,
+    "private_register": "docs/frontier/outreach_register.json",
+    "private_sender_profile_committed": false,
+    "response_scope": "substantive human replies; one automatic failure notification retained",
+    "responses_observed": 0,
+    "send_readback_verified": true,
+    "source_specific_inquiries": 4
+  },
+  "package": {
+    "command": ".venv/Scripts/python.exe -m build --no-isolation --outdir tmp/external-validation-package-release-20261015",
+    "content_and_existing_dependency_wheel_imports": "passed",
+    "exit_status": 0,
+    "final_review_command": ".venv/Scripts/python.exe -m build --no-isolation --outdir tmp/external-validation-package-reviewed-20261015",
+    "final_review_exit_status": 0,
+    "private_register_excluded": true
+  },
+  "predictor_fitting": false,
+  "published_or_pushed": false,
+  "remote_ci": "not_run",
+  "schema": "opal-external-validation-receipt-v1",
+  "scientific_operations": [
+    {
+      "command": ".venv/Scripts/python.exe tools/review_external_sources.py --input data/source_audits/opal_external_validation_20261015 --output results/opal_external_validation_v1/metadata-review-20261015",
+      "exit_status": 0,
+      "operation": "source metadata review",
+      "samples_by_source": {
+        "GSE186341": 1728,
+        "GSE221321": 4,
+        "GSE95153": 15
+      }
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools/run_external_repeat_diagnostic.py --input data/source_audits/opal_external_validation_20261015 --output results/opal_external_validation_v1/repeat-diagnostic-20261015",
+      "exit_status": 0,
+      "operation": "source-labelled repeat diagnostic",
+      "source_genes": 15471,
+      "source_samples": 15
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools/replay_external_repeat_diagnostic.py --input data/source_audits/opal_external_validation_20261015 --run results/opal_external_validation_v1/repeat-diagnostic-20261015 --output results/opal_external_validation_v1/repeat-replay-20261015.json",
+      "exit_status": 0,
+      "maximum_absolute_difference": 2.7755575615628914e-17,
+      "operation": "independent summary replay"
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools/opal_context_contrast.py readiness --input results/opal_context_contrast_v1/confirmation-readiness-20261014 --output results/opal_external_validation_v1/readiness-20261015.json",
+      "exit_status": 0,
+      "operation": "readiness reporting",
+      "passed": 0,
+      "total": 14
+    }
+  ],
+  "scope": "Public metadata, source-labelled descriptive repeat calculation, independent summary replay and three authorized initial inquiries; no predictor or independent biological confirmation",
+  "targeted_tests": {
+    "command": ".venv/Scripts/python.exe -m pytest -q tests/test_external_repeat.py",
+    "elapsed_seconds": 0.07,
+    "exit_status": 0,
+    "passed": 4
+  },
+  "tnf_source_version_relationship": "Both deposit records share concept 14740508 and same publisher data.zip size/MD5; no archive reacquisition, no independent archive byte comparison",
+  "total_local_source_payload_bytes": 721326
+}

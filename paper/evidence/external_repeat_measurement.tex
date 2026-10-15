@@ -1,0 +1,18 @@
+\section{Public repeat-measurement follow-up}
+A separate bounded analysis examined the public M93-047 BET/MEK count table from GSE95153 \citep{echevarria2018}. The local descriptive scope was recorded before count acquisition, after exposure to the published narrative and sample metadata; this is not independent preregistration. All 15 deposited samples and 15,471 source gene rows were retained. RSEM-derived counts were transformed per column as $\log_2(1+10^6 x_g/\sum_h x_h)$, preserving fractional counts. The endpoint is gene-average within-condition sample variance with denominator $n-1$ for the three reported repeats.
+
+\begin{table}[htbp]\centering\small
+\caption{Source-labelled repeat dispersion on the log2(1+CPM) scale. These are descriptive sample variances, not variance of candidate prediction loss or verified culture-level uncertainty.}
+\begin{tabular}{lr}\toprule
+Source condition & Mean gene sample variance \\\midrule
+Untreated & 0.1242018830 \\
+DMSO & 0.0822794323 \\
+JQ-1 & 0.0590103575 \\
+PD901 & 0.0815654953 \\
+JQ-1 + PD901 & 0.1336417949 \\\bottomrule
+\end{tabular}
+\end{table}
+
+An independent CSV-reader and centered-sum implementation reproduced all five variance and fifteen within-arm pairwise-difference summaries to within $2.78\times10^{-17}$ absolute difference. Repeat numbers were not paired across treatment arms, untreated was not substituted for vehicle, and no treatment contrast, predictor fit, confidence interval or power estimate was calculated. The single pair and single context cannot validate a general combinatorial predictor. Culture initiation, cross-arm batch matching, literal dose/vehicle records and source-specific derivative rights remain unresolved. The table is now expression-exposed and cannot later be called untouched confirmation data. It supplies neither an independently verified biological covariance estimate nor a useful-effect margin.
+
+Public source review additionally inspected complete metadata for PANACEA GSE186341 and compressed Perturb-seq GSE221321. The former's own design specifies two repeats per drug--cell-line pair for single-agent profiles, and the latter's four deposited screens represent different pooling/perturbation modalities rather than four demonstrated biological replicates. Neither qualifies the frozen context-contrast procedure. Four source-specific custodian inquiries were pursued in five sends. One inactive-mailbox failure was retained and the inquiry rerouted once; no other delivery, substantive answer, agreement or new biological evidence is established. Context-contrast remains paused and all fourteen transfer-readiness gates remain unsatisfied.

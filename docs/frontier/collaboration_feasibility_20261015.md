@@ -1,5 +1,7 @@
 # Biological evidence feasibility, 15 October 2026
 
+Current external-validation phase: see [source decisions](external_validation_sources.md) and [outreach status](outreach_status.md). Four source-specific inquiries were pursued in five send attempts; one address bounced and was rerouted. Delivery of the other four, substantive responses, agreements and biological validation are not established. The bounded GSE95153 repeat diagnostic is complete and descriptive; context-contrast stays paused and readiness remains 0/14. Earlier no-contact statements below describe the preceding dated closeout.
+
 No laboratory has agreed to collaborate. These are capability leads verified from public institutional pages, not endorsements, quotes or available capacity. A biological partner must supply independent culture/perturbation design; a sequencing facility alone cannot certify independence or a useful margin.
 
 | Verified lead | Published capability and access route | What remains unknown for Opal |

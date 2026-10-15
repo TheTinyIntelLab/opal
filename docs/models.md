@@ -1,5 +1,7 @@
 # Prepared model references
 
+Current external-validation phase: see [source decisions](frontier/external_validation_sources.md) and [outreach status](frontier/outreach_status.md). Four source-specific inquiries were pursued in five send attempts; one address bounced and was rerouted. Delivery of the other four, substantive responses, agreements and biological validation are not established. The bounded GSE95153 repeat diagnostic is complete and descriptive; context-contrast stays paused and readiness remains 0/14. Earlier no-contact statements below describe the preceding dated closeout.
+
 Current 0.1.3.dev0 is a local research/code snapshot, not a new weight release. Context-contrast remains source-ineligible and paused; no evaluated successor weights exist. GxE computational recovery is complete, but produces measurement aggregates, not a nominated predictor. Read [workstream closeout](frontier/workstream_closeout.md) for current status. Model/version references below describe historical assets and their own input/rights contracts.
 
 The current research successor is the unrun [fixed-context contrast pipeline](frontier/context_contrast_implementation.md). It has a separate protocol and reference-only gene panel, and requires authorized preparation before any model can be fitted. Existing Base/deployment/reference checkpoints remain historical assets; the successor refits Base inside each permitted fold and never loads query-exposed deployment weights. No successor biological weights or evaluated scores are available.

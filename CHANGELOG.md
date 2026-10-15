@@ -1,5 +1,9 @@
 # Changelog
 
+## External evidence phase, 15 October 2026
+
+Adds source-specific public metadata review, a small unpaired within-condition repeat diagnostic with independent numerical replay, and four truthful initial custodian inquiries under explicit owner authorization. Records sent messages without claiming delivery or collaboration, keeps private correspondence out of distributions, and preserves every frozen scientific protocol. No new predictor, biological confirmation or readiness-gate promotion.
+
 ## Unreleased 0.1.3.dev0 workstream closeout
 
 Completes exact GxE aggregate/endpoint recovery and reference-panel reproduction inside the original CPU/memory/retention envelope using the existing C parser. Retains the failed v1 attempt, adds progress/finalization reserve and strict manifest/array checks, extends critical CI checks, and excludes private historical plans from source distributions. Aligns manuscript, README, citation and handoffs; independent biology and source-qualified context-contrast remain unestablished. No public release, predictor sweep, institutional agreement or publication is implied.

@@ -1,5 +1,7 @@
 # Active implementation handoff: second council
 
+Current external-validation phase: see [source decisions](external_validation_sources.md) and [outreach status](outreach_status.md). Four source-specific inquiries were pursued in five send attempts; one address bounced and was rerouted. Delivery of the other four, substantive responses, agreements and biological validation are not established. The bounded GSE95153 repeat diagnostic is complete and descriptive; context-contrast stays paused and readiness remains 0/14. Earlier no-contact statements below describe the preceding dated closeout.
+
 ## Final workstream status, 15 October 2026
 
 Repository engineering and numerical recovery are complete; see `docs/frontier/workstream_closeout.md` and root `plan.md`. Version-2 GxE recovery and all 66 endpoint rows replay exactly; the original reference-only 512-gene panel reproduces. Recorded recovery/panel CPU totals are 100.3125 seconds within the original envelope. Context-contrast remains paused with zero qualified genetic pairs and 0/14 biological readiness gates. Earlier failed-attempt/status paragraphs below are dated historical snapshots, not a current computational backlog or authorization to run another predictor.

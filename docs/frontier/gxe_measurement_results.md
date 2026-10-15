@@ -1,5 +1,7 @@
 # Official GxE measurement pilot results
 
+Current external-validation phase: see [source decisions](external_validation_sources.md) and [outreach status](outreach_status.md). Four source-specific inquiries were pursued in five send attempts; one address bounced and was rerouted. Delivery of the other four, substantive responses, agreements and biological validation are not established. The bounded GSE95153 repeat diagnostic is complete and descriptive; context-contrast stays paused and readiness remains 0/14. Earlier no-contact statements below describe the preceding dated closeout.
+
 Current computational closeout: all 66 historical metric rows now replay exactly from recovered count sums and full-library denominators; a new reference-only pass reproduces the original 512-gene panel. Recovery and panel verification used 100.3125 recorded CPU seconds combined. The technical values and biological limitations below are unchanged. See [workstream closeout](workstream_closeout.md).
 
 The official [GSM7056151](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7056151) raw measurements and assignment records are now acquired locally, with frozen custody hashes. The corrected technical pilot actually completed full-library count processing, reference-only 512-gene selection and disjoint-cell-partition measurement comparisons. No predictive model was fit. This is a chemical star-screen technical readout, not TNF genetic confirmation or a frontier comparison.

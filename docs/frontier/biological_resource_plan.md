@@ -1,5 +1,7 @@
 # Measurement recovery and confirmation resources
 
+Current external-validation phase: see [source decisions](external_validation_sources.md) and [outreach status](outreach_status.md). Four source-specific inquiries were pursued in five send attempts; one address bounced and was rerouted. Delivery of the other four, substantive responses, agreements and biological validation are not established. The bounded GSE95153 repeat diagnostic is complete and descriptive; context-contrast stays paused and readiness remains 0/14. Earlier no-contact statements below describe the preceding dated closeout.
+
 Measured on 15 October 2026. Limits are not ownership/reviewer attestations. Source caches stay in place; no drive, cloud storage, compression ratio or budget increase is assumed available.
 
 ## Current measured resolution

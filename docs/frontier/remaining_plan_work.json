@@ -16,6 +16,18 @@
   },
   "context_contrast_decision": "pause_pending_independent_biological_evidence",
   "current_audit": "docs/frontier/workstream_closeout.md",
+  "current_external_phase": {
+    "gates_passed": 0,
+    "gates_total": 14,
+    "inquiry_routes": 4,
+    "known_delivery_failures": 1,
+    "new_predictor_fit": false,
+    "nominal_repeat_diagnostic": "completed_not_biological_confirmation",
+    "send_attempts": 5,
+    "source_review": "docs/frontier/external_validation_sources.md",
+    "status": "initial_outreach_sent_awaiting_real_replies",
+    "substantive_replies": 0
+  },
   "date": "2026-10-15",
   "executed_single_response_pivot": {
     "complete_population": true,
@@ -141,7 +153,7 @@
     "wall_seconds": 5.420112799998606
   },
   "pivot_revision": "349e2a55f5538a3e73b32a06c6bdd8e9e87011e8",
-  "plan_sha256": "e2686e906b2270e6155298a7362bde4987d87ba445f86dfe39f67219883e9424",
+  "plan_sha256": "b7b6980959bef496f9ea37b91af9db04e9710eab930a040c28c3fe179277d371",
   "readiness_receipt": {
     "path": "results/opal_context_contrast_v1/confirmation-readiness-check-20261014",
     "sha256": "232a8a504b70b80f4507375e2b8cd8c6d3a4eaab5021412abb81e23d6e39d578"

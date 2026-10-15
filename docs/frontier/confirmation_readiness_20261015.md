@@ -1,5 +1,7 @@
 # Confirmation readiness, 15 October 2026
 
+Current external-validation phase: see [source decisions](external_validation_sources.md) and [outreach status](outreach_status.md). Four source-specific inquiries were pursued in five send attempts; one address bounced and was rerouted. Delivery of the other four, substantive responses, agreements and biological validation are not established. The bounded GSE95153 repeat diagnostic is complete and descriptive; context-contrast stays paused and readiness remains 0/14. Earlier no-contact statements below describe the preceding dated closeout.
+
 The actual existing evidence package was rechecked against the unchanged `src/context_contrast/readiness.py`. **Zero of 14 gates pass.** A document or analytic sensitivity table does not supply its underlying evidence. The exact required fields and current validation reasons are retained in `results/opal_evidence_audit_v1/confirmation-blockers-20261015.json`. Every gate also requires a genuine reviewer/date, approved judgment, hashed source files inside the package, and the function's semantic checks. No approvals are created here.
 
 | Gate and exact required details | Available evidence / failure | Smallest legitimate action | Required party; blocker type |

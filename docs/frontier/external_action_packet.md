@@ -1,6 +1,10 @@
 # External action packet
 
-Repository work is complete for this workstream. These actions require real people, evidence or decisions; no request has been sent. The primary scientific objective is independent culture/reference precision before any predictor nomination or confirmation campaign. The prospective protocol and brief are ready for owner review, not approved or commissioned assays.
+Current external-validation phase: see [source decisions](external_validation_sources.md) and [outreach status](outreach_status.md). Four source-specific inquiries were pursued in five send attempts; one address bounced and was rerouted. Delivery of the other four, substantive responses, agreements and biological validation are not established. The bounded GSE95153 repeat diagnostic is complete and descriptive; context-contrast stays paused and readiness remains 0/14. Earlier no-contact statements below describe the preceding dated closeout.
+
+## Earlier closeout packet
+
+Repository work was complete for the preceding workstream. These actions require real people, evidence or decisions; no request has been sent. The primary scientific objective is independent culture/reference precision before any predictor nomination or confirmation campaign. The prospective protocol and brief are ready for owner review, not approved or commissioned assays.
 
 | Question and why it matters | Minimum evidence and request | Route/owner action | What can proceed; what must wait |
 | --- | --- | --- | --- |
@@ -14,4 +18,4 @@ The verified institutional pages describe capabilities and inquiry routes only. 
 
 The supplied brief can be sent by the owner after review, with the current source-record checklist, precision design, prospective protocol, actual technical results and resource ledger attached. It must not suggest Opal has a confirmed effect, a nominated model, funding or an established collaboration.
 
-For original GxE records, the inspected primary paper publishes correspondence routes `jm5200@columbia.edu` and `coletrap@uw.edu` on its cover. These are publication-time routes, not verified current deliverability or an agreement. The source is [McFaline-Figueroa et al., Cell Genomics 4, 100487, 2024](https://cole-trapnell-lab.github.io/pdfs/papers/mcfaline-sci-plex-gxe.pdf), DOI `10.1016/j.xgen.2023.100487`. Ask specifically for independently initiated culture/reference lineage, the full deposited hash-table schema and raw/derived export terms. No email was sent.
+For original GxE records, the inspected primary paper publishes correspondence routes `jm5200@columbia.edu` and `coletrap@uw.edu` on its cover. These are publication-time routes, not verified current deliverability or an agreement. The source is [McFaline-Figueroa et al., Cell Genomics 4, 100487, 2024](https://cole-trapnell-lab.github.io/pdfs/papers/mcfaline-sci-plex-gxe.pdf), DOI `10.1016/j.xgen.2023.100487`. Ask specifically for independently initiated culture/reference lineage, the full deposited hash-table schema and raw/derived export terms. No email was sent in that earlier closeout. The current phase has now sent the source-specific Columbia inquiry recorded in outreach status.
