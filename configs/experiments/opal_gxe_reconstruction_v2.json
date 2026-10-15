@@ -1,0 +1,20 @@
+{
+  "experiment_id": "opal_gxe_reconstruction_v2",
+  "purpose": "operational C-parser optimization of exact fixed-panel historical measurement recovery; scientific estimator unchanged",
+  "historical_run": "results/opal_gxe_measurement_v1/technical-a4-20261014",
+  "input": "data/raw/gxe-measurement-20261014",
+  "parent_config": "configs/experiments/opal_gxe_reconstruction_v1.json",
+  "cpu_seconds": 300,
+  "wall_seconds": 600,
+  "ram_bytes": 1000000000,
+  "retained_bytes": 10000000,
+  "reserve_bytes": 1073741824,
+  "threads": 1,
+  "workers": 1,
+  "downloads": false,
+  "installs": false,
+  "fitting": false,
+  "panel_reselection": false,
+  "independent_confirmation": false,
+  "authorization_scope": "current owner explicitly authorizes optimizing and completing reconstruction within the existing resource envelope; no owner acceptance or scientific attestation is manufactured"
+}
