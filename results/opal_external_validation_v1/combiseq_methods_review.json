@@ -1,0 +1,65 @@
+{
+  "schema": "opal-combiseq-methods-review-v1",
+  "date": "2026-10-15",
+  "primary_article": "https://doi.org/10.1038/s41467-022-32197-0",
+  "acquired_sources": [
+    {
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-32197-0/MediaObjects/41467_2022_32197_MOESM2_ESM.pdf",
+      "file": "41467_2022_32197_MOESM2_ESM.pdf",
+      "bytes": 330849,
+      "sha256": "ff5406b9c32e34e535439212fa37241bf6c1472b66c437cc69cf6ecabe007808"
+    },
+    {
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-32197-0/MediaObjects/41467_2022_32197_MOESM4_ESM.xlsx",
+      "file": "41467_2022_32197_MOESM4_ESM.xlsx",
+      "bytes": 12160,
+      "sha256": "7fe9ee4531b774f0e94acfb5b3681727165736ee12a6f350df3e6c4e3914f4d5"
+    }
+  ],
+  "download_cap_bytes_per_file": 2000000,
+  "total_download_bytes": 343009,
+  "reporting_summary": {
+    "pages_visually_inspected": [
+      1,
+      2
+    ],
+    "author_declared_biological_replicates_per_combination": 3,
+    "applies_to_small_and_large_screens": true,
+    "randomization_performed": false,
+    "line": "Sample size and Randomization, page 2",
+    "authenticated_K562_ATCC_CCL243": true,
+    "culture_initiation_dates_and_parent_lineage_provided": false
+  },
+  "main_text": {
+    "large_screen_incubation_hours": 12,
+    "repeated_processing_cycles": 3,
+    "GR35_used_for_drug_assignment": true
+  },
+  "supplementary_workbook": {
+    "drug_rows": 36,
+    "columns": [
+      "Drug",
+      "GR35",
+      "logD value",
+      "Drug Class",
+      "Targets",
+      "ChEMBL ID",
+      "Provider"
+    ],
+    "explicit_GR35_unit_in_header": false,
+    "per_run_culture_reference_map": false,
+    "final_droplet_constituent_dose_map": false
+  },
+  "qualification": "promising but missing identifiable evidence; not qualified for independent predictive confirmation",
+  "missing_evidence": [
+    "Run-to-initiation/date/stock/treatment-preparation mapping",
+    "Control and single-reference lineage relative to pair cultures",
+    "Final constituent concentrations and units after device mixing, per condition and run",
+    "Reviewed claim-specific reuse/export conditions"
+  ],
+  "frozen_randomization_gate_passes": false,
+  "ready_for_independent_predictive_evaluation": false,
+  "gate_changes": 0,
+  "expression_acquired": false,
+  "fitting_performed": false
+}

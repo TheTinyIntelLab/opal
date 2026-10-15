@@ -4,7 +4,7 @@
   <p>Observed-single combinatorial response prediction</p>
 </div>
 
-Primary-paper follow-up resolves experiment-level GSE95153 doses, but culture/reference lineage remains unverified and all 14 confirmation gates remain failed. Exact outreach correspondence is retained only in ignored local custody; [the sanitized status](docs/frontier/outreach_status.md) records sends and the latest mailbox check.
+Combi-seq authors report three biological replicates and no randomization; initiation/reference lineage remains unverified. Primary-paper follow-up resolves experiment-level GSE95153 doses, but culture/reference lineage remains unverified and all 14 confirmation gates remain failed. Exact outreach correspondence is retained only in ignored local custody; [the sanitized status](docs/frontier/outreach_status.md) records sends and the latest mailbox check.
 
 
 <div align="center">

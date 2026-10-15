@@ -17,7 +17,7 @@
         "reviewed evidence files missing",
         "cultures must be a nonempty list"
       ],
-      "evidence_state": "Merten, Villanueva and McFaline-Figueroa were asked to distinguish culture initiation from processing repeats; no reply/lineage yet.",
+      "evidence_state": "Merten, Villanueva and McFaline-Figueroa were asked to distinguish culture initiation from processing repeats; no reply/lineage yet. Combi-seq reporting summary declares three biological replicates, but no run-to-initiation/parent/reference map establishes the required independence.",
       "resolving_route": "Custodian response, then laboratory records",
       "next_action": "Obtain initiation/date/stock lineage and review actual independence.",
       "definition_source": "src/context_contrast/readiness.py",
@@ -60,7 +60,7 @@
         "randomized_assignment_reviewed must be explicitly true",
         "reviewed evidence files missing"
       ],
-      "evidence_state": "Well/sample labels are retained; actual randomization/block schedule and review absent.",
+      "evidence_state": "Well/sample labels are retained; actual randomization/block schedule and review absent. Combi-seq reporting summary explicitly states no randomization, so that screen cannot satisfy this frozen requirement.",
       "resolving_route": "Custodian or assay operator/statistician",
       "next_action": "Obtain allocation/blinding record and dependence structure.",
       "definition_source": "src/context_contrast/readiness.py",
@@ -82,7 +82,7 @@
         "reviewed evidence files missing",
         "assignments must be a nonempty list"
       ],
-      "evidence_state": "Original TNF author Anna Shcherbina was directly contacted through the primary paper email for guide/vector, stimulus and equivalence records. Zenodo same-concept/archive-listing relationship was resolved from API metadata; the supplemental methods do not contain the missing literal assignments. Other source-specific chemical dose inquiries are sent, with no reply. The publication-listed insitro mailbox returned SMTP 550 5.2.1; one inquiry was rerouted to first author Seowon Chang, verified through Brown directory. No substantive reply.",
+      "evidence_state": "Original TNF author Anna Shcherbina was directly contacted through the primary paper email for guide/vector, stimulus and equivalence records. Zenodo same-concept/archive-listing relationship was resolved from API metadata; the supplemental methods do not contain the missing literal assignments. Other source-specific chemical dose inquiries are sent, with no reply. The publication-listed insitro mailbox returned SMTP 550 5.2.1; one inquiry was rerouted to first author Seowon Chang, verified through Brown directory. No substantive reply. Supplementary Combi-seq GR35 values have no explicit header unit or condition-specific final mixing map; they are not accepted as final constituent concentrations.",
       "resolving_route": "Original source custodian and assay PI",
       "next_action": "Obtain the actual original TNF assignment/equivalence records and review them; preserve zero qualification until then. No source relabeling or cache replacement.",
       "definition_source": "src/context_contrast/readiness.py",
@@ -388,5 +388,6 @@
   "standard_changed": false,
   "reviewer_attestation_created": false,
   "definition_hash_scope": "definition_source_sha256 records observed Windows worktree bytes; definition_git_sha256 records canonical committed bytes. The difference is CRLF versus LF, with identical requirements.",
-  "public_outreach_status": "docs/frontier/outreach_status.md"
+  "public_outreach_status": "docs/frontier/outreach_status.md",
+  "latest_public_provenance_review": "results/opal_external_validation_v1/combiseq_methods_review.json"
 }

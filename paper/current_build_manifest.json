@@ -1,6 +1,6 @@
 {
   "biological_phase": "0/14 readiness; exact aggregate, panel and endpoint reproduction complete; prospective biological protocol unapproved",
-  "command": "tools/vendor/tectonic.exe --only-cached --untrusted --keep-logs --keep-intermediates --outdir tmp/push-paper-20261015 paper/main.tex",
+  "command": "tools/vendor/tectonic.exe --only-cached --untrusted --keep-logs --keep-intermediates --outdir tmp/ci-provenance-paper paper/main.tex",
   "compiler": "tools/vendor/tectonic.exe",
   "confirmation_readiness_status": "measurement_not_ready",
   "date": "2026-10-15",
@@ -42,7 +42,7 @@
     "evidence/dose_results.pdf": "81e8f0ba21f4c690fe47e414e1211847b5b3a044c84b79e2cc9dddd32de899b2",
     "evidence/dose_results.tex": "8fd94c3c10231562f37c4dabf15de00ded0f8046666a4b6c3605e642021a78cc",
     "evidence/evidence_audit.tex": "52731ada130ef40c0583a932fbf739bd530d1e350935106a481d6e99e7355cc8",
-    "evidence/external_repeat_measurement.tex": "0df7afcfa63b297c610fd104583c8fd813552114e9290823909b5919f7f518ac",
+    "evidence/external_repeat_measurement.tex": "0f2785bcd4ef46d577efc151e7cc0241546f07a6f10c26ad063ee7b8687ada6b",
     "evidence/gxe_measurement.tex": "4ad88ae12ffe728702c2692e62353481c084f56cf3067ffbd3fc3cb97718a67d",
     "evidence/identity_results.pdf": "2088ee5fd4565f31f7d45e6b9475d2643efb24bd8a36a68486edda54b58fde2e",
     "evidence/identity_results.tex": "aa8ba6f29e540b408f67327c3a69f462034786ff7807a9fd2e1635b6e9247f24",
@@ -93,17 +93,17 @@
     "evidence/wessels-log2-primary-residual_spectrum.pdf": "762f31401413435074a5c36c6a53e86cdda0f1880627a919d1b3a7582d9a0519",
     "evidence/wessels-log2-primary-sample_efficiency.pdf": "8fca9623e62b99fbd4de8e4e82fd814a1a0d46713904e05f5cfd4b933835a4de",
     "main.tex": "b217a09dab75180cc883778213051cbcca19a9922483eed4ee2318ee5eb6387c",
-    "references.bib": "acb43ee60033166d26a5a9691b21ac16a5b946d1fc447fc9902646db27fbaa56"
+    "references.bib": "8459338b6ec4ab8ec885d381886986f3965e7148e11de2a21a33f886918c76e5"
   },
   "only_cached": true,
   "owner_execution_authorized": true,
   "pdf_pages": 48,
-  "pdf_sha256": "368c6aaf2a134b87f3965591ad49664618f0c4dc883c5611e2403dc1b1e431f1",
+  "pdf_sha256": "281613d67b30a81d585e1d35f33dcda10fa1cc988ff60b8f7a407a9293670337",
   "scientific_fitting": false,
   "scientific_fitting_during_compile": false,
   "single_response_qualification_status": "metadata_only_unqualified",
   "source_preparation_status": "source_ineligible",
-  "source_revision_basis": "880ffca plus sanitized unpublished evidence commits and pre-push provenance clarification; exact input hashes identify source",
+  "source_revision_basis": "d68857f plus Combi-seq reporting-summary evidence; exact input hashes identify source",
   "status": "compiled_offline",
   "warnings": [
     "existing underfull vertical boxes",
