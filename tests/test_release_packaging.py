@@ -12,6 +12,8 @@ def test_source_rejects_private_and_external_inputs():
                  'tools/external/CPA/model.py', 'tools/vendor/key.json',
                  'data/raw/source.json', 'results/state/model.npz', '../README.md', 'C:/README.md', 'src/../README.md', 'src\\cli.py']:
         assert not module.allowed_source(name), name
+    assert not module.allowed_source('docs/frontier/historical/plan-20261015-before-confirmation-phase.md.txt')
+    assert not module.allowed_source('docs/frontier/historical/plan-20261015-before-evidence-audit.md')
     for name in ['README.md', 'src/cli.py', 'configs/releases/v0.1.0.json', 'paper/main.pdf']:
         assert module.allowed_source(name), name
 

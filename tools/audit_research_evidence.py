@@ -19,6 +19,8 @@ from opal.context_contrast.artifacts import load_state, load_npz
 from opal.contextual.contracts import ReferenceBank
 from opal.crossed_single import predict, grouped_folds, menu, FAMILIES
 from opal.evidence_audit import checked_losses, conditional_bounds, measurement_summary
+from opal.gxe_aggregate_validation import load_recovery
+from opal.gxe_reconstruction import reconstruct_metrics
 
 
 def audit(root, check):
@@ -194,6 +196,25 @@ def audit(root, check):
         raise ValueError('Measurement summary mismatch')
     result['gxe'] = dict(summary=summary, raw_hashes_verified=5, aggregates_retained=False,
         measurement_errors_recomputed=False, status='custody and reported-row summaries verified; raw transformation replay incomplete')
+    recovery = root/'results/opal_gxe_reconstruction_v2/recovery-20261015'
+    if recovery.exists():
+        arrays, axes = load_recovery(recovery)
+        actual = reconstruct_metrics(arrays['normalized_count_sums'], arrays['partition_support'],
+                                     axes['group_keys'], axes['contexts'], axes['drugs'])
+        if actual != read_json(gxe/'technical-a4-20261014/metrics.json'):
+            raise ValueError('Recovered GxE endpoint mismatch')
+        result['gxe'].update(aggregates_retained=True, measurement_errors_recomputed=True,
+            recovery_manifest_sha256=sha256(recovery/'manifest.json'), status='fixed-panel source recovery and exact all-row endpoint replay complete')
+        panel = root/'results/opal_gxe_reconstruction_v2/panel-verification-20261015'
+        if panel.exists():
+            panel_record = read_json(panel/'decision.json')
+            panel_registration = read_json(panel/'registration.json')
+            verify(root/'tools/verify_gxe_panel.py', panel_registration['code_sha256'])
+            verify(panel/'reference_variance.npz', panel_record['variance_sha256'])
+            if panel_record['selected_genes'] != axes['panel_genes'] or panel_record['panel_selection_replayed'] is not True:
+                raise ValueError('Reproduced reference-panel mismatch')
+            result['gxe'].update(panel_selection_replayed=True, panel_verification_sha256=sha256(panel/'decision.json'),
+                status='raw-to-fixed-panel recovery, reference-only panel reproduction and exact endpoint replay complete')
     protocol = read_json(root/'configs/experiments/opal_context_contrast_v1.json')
     verify(root/protocol['raw_path'], protocol['raw_sha256'])
     result['verified_files'] = len(hashes)

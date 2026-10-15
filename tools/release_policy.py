@@ -22,6 +22,8 @@ def public_name(name):
 def allowed_source(name):
     if not public_name(name):return False
     path=PurePosixPath(name)
+    if tuple(p.casefold() for p in path.parts[:3]) == ('docs', 'frontier', 'historical'):
+        return False
     if len(path.parts)==1:
         return path.suffix in {'.md','.toml','.cff','.in','.py'} or name in {'LICENSE','.gitignore','.gitattributes','pytest.ini'} or (path.name.startswith('requirements') and path.suffix=='.txt')
     return path.parts[0] in {'src','tools','tests','configs','docs','paper','images','.github'} and path.suffix in {

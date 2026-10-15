@@ -2,7 +2,8 @@ import gzip
 import numpy as np
 import pytest
 from opal.gxe_reconstruction import coordinates, reconstruct_metrics
-from opal.gxe_aggregate_validation import validate_aggregates
+from opal.gxe_aggregate_validation import validate_aggregates, load_recovery
+from opal.artifacts import write_json, sha256
 from opal.gxe_measurement import matrix_blocks
 
 
@@ -46,3 +47,24 @@ def test_recovered_membership_and_denominator_integrity():
         validate_aggregates(sums, support+1, total, mapping)
     with pytest.raises(ValueError, match='denominator'):
         validate_aggregates(sums, support, total*0, mapping)
+    with pytest.raises(ValueError, match='integer support'):
+        validate_aggregates(sums, support.astype(float), total, mapping)
+
+
+def test_manifest_cannot_omit_primary_arrays_or_silently_change_bytes(tmp_path):
+    np.savez(tmp_path/'aggregates.npz', normalized_count_sums=np.ones((2, 2, 3)),
+             partition_support=np.ones((2, 2), dtype=int), full_library_totals=np.ones(4),
+             cell_condition_index=np.array([0, 0, 1, 1]))
+    write_json(tmp_path/'axes.json', dict(group_keys=[['a'], ['b']], panel_genes=['x', 'y', 'z']))
+    for name in ('metrics.json', 'registration.json', 'decision.json'):
+        write_json(tmp_path/name, {})
+    records = [dict(path=p.name, bytes=p.stat().st_size, sha256=sha256(p)) for p in tmp_path.iterdir()]
+    write_json(tmp_path/'manifest.json', dict(files=records))
+    assert load_recovery(tmp_path)[0]['cell_condition_index'].tolist() == [0, 0, 1, 1]
+    write_json(tmp_path/'manifest.json', dict(files=[r for r in records if r['path'] != 'aggregates.npz']))
+    with pytest.raises(ValueError, match='required asset'):
+        load_recovery(tmp_path)
+    write_json(tmp_path/'manifest.json', dict(files=records))
+    (tmp_path/'axes.json').write_text('{}')
+    with pytest.raises(ValueError, match='hash/path/size'):
+        load_recovery(tmp_path)
