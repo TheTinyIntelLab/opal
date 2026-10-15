@@ -1,0 +1,164 @@
+{
+  "compressed_metadata_bytes": 161154,
+  "expression_opened_by_this_command": false,
+  "helper_sha256": "a350df23a371ed1e49f6e3e246603aaecace2fd2da9d439b22b4bbee2fdba7c9",
+  "independent_biological_qualification": false,
+  "sources": {
+    "GSE186341": {
+      "characteristics": {
+        "age": {
+          "42": 136,
+          "50": 184,
+          "52": 304,
+          "56": 320,
+          "62": 184,
+          "69": 160,
+          "75": 136,
+          "NA": 304
+        },
+        "cell line": {
+          "AsPC-1": 184,
+          "DU145": 160,
+          "EFO-21": 160,
+          "HCC1143": 184,
+          "HF2597": 184,
+          "HSTS": 136,
+          "KRJ1": 136,
+          "LNCaP": 184,
+          "NCI-H1793": 120,
+          "PANC-1": 160,
+          "U87 MG": 120
+        },
+        "provider": {
+          "ATCC": 1112,
+          "Broad Inst": 136,
+          "Califano Lab": 136,
+          "DSMZ": 160,
+          "Henry Ford Fnd": 184
+        },
+        "sex": {
+          "NA": 184,
+          "female": 648,
+          "male": 896
+        },
+        "treatment": {
+          "AEE788": 22,
+          "AZD5363": 22,
+          "Afatinib": 22,
+          "Bafetinib": 22,
+          "Bosutinib": 22,
+          "Cabozantinib": 22,
+          "Cediranib": 22,
+          "Crenolanib": 22,
+          "Crizotinib": 22,
+          "DMSO": 512,
+          "Dacomitinib": 22,
+          "Dasatinib": 22,
+          "Dovitinib": 22,
+          "Foretinib": 22,
+          "Gefitinib": 22,
+          "Icotinib": 22,
+          "Imatinib": 22,
+          "KW2449": 22,
+          "Lapatinib": 22,
+          "Linifanib": 22,
+          "MGCD265": 22,
+          "MK2206": 22,
+          "Neratinib": 22,
+          "Nilotinib": 22,
+          "Osimertinib": 22,
+          "Ponatinib": 22,
+          "Quizartinib": 22,
+          "Regorafenib": 22,
+          "Sorafenib": 22,
+          "Sunitinib": 22,
+          "Tivantinib": 22,
+          "UNTREATED": 512,
+          "Vandetanib": 22,
+          "Varlitinib": 22
+        },
+        "vendor id": {
+          "ACC 235": 160,
+          "CRL-1469": 160,
+          "CRL-1682": 184,
+          "CRL-1740": 184,
+          "CRL-2321": 184,
+          "CRL-5896": 120,
+          "HTB-14": 120,
+          "HTB-81": 160,
+          "NA": 456
+        }
+      },
+      "independent_initiation_verified": false,
+      "pairing_inferred": false,
+      "receipt": {
+        "accession": "GSE186341",
+        "bytes": 154101,
+        "decoded_bytes": 10581286,
+        "sha256": "78568a56394d250f968a892cc2b5d0220b832c8ae70952564ba70aeb4a53a8b6",
+        "status": "metadata_acquired",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186341/soft/GSE186341_family.soft.gz",
+        "wall_seconds": 1.5295519000210334
+      },
+      "role": "metadata counts, not source or biological qualification",
+      "sample_count": 1728
+    },
+    "GSE221321": {
+      "characteristics": {
+        "cell line": {
+          "Cas9-expressing THP-1": 2,
+          "dCas9-KRAB-expressing THP-1": 2
+        },
+        "cell type": {
+          "Macrophage": 4
+        },
+        "treatment": {
+          "3 hours LPS": 4
+        }
+      },
+      "independent_initiation_verified": false,
+      "pairing_inferred": false,
+      "receipt": {
+        "accession": "GSE221321",
+        "bytes": 3563,
+        "decoded_bytes": 23594,
+        "sha256": "152ed49ba70a99f331f5576a81f6908c270a549f65d92d87d61eef91975c7983",
+        "status": "metadata_acquired",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221321/soft/GSE221321_family.soft.gz",
+        "wall_seconds": 0.7568841000029352
+      },
+      "role": "metadata counts, not source or biological qualification",
+      "sample_count": 4
+    },
+    "GSE95153": {
+      "characteristics": {
+        "replicate": {
+          "1": 5,
+          "2": 5,
+          "3": 5
+        },
+        "treatment": {
+          "DMSO": 3,
+          "JQ-1 (BET inhibitor)": 3,
+          "JQ-1+PD901": 3,
+          "PD901 (MEK inhibitor)": 3,
+          "untreated": 3
+        }
+      },
+      "independent_initiation_verified": false,
+      "pairing_inferred": false,
+      "receipt": {
+        "accession": "GSE95153",
+        "bytes": 3490,
+        "decoded_bytes": 43263,
+        "sha256": "3d5acaf095cad358810f78425a34de3ced341a7b3849ae279fa7acf33ca59ddd",
+        "status": "metadata_acquired",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE95nnn/GSE95153/soft/GSE95153_family.soft.gz",
+        "wall_seconds": 1.0158632000093348
+      },
+      "role": "metadata counts, not source or biological qualification",
+      "sample_count": 15
+    }
+  },
+  "tool_sha256": "32afa10f3a474de7ba662185b0da9906da727631f8acae0e7416bd70037cb248"
+}

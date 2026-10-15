@@ -1,0 +1,50 @@
+{
+  "claims": [
+    {
+      "claim": "within_condition_gene_mean_sample_variance",
+      "condition": "DMSO",
+      "value": 0.08227943229131073,
+      "paper_value": "0.0822794323",
+      "source": "results/opal_external_validation_v1/repeat-diagnostic-20261015/report.json",
+      "pointer": "/conditions/DMSO/mean_gene_sample_variance"
+    },
+    {
+      "claim": "within_condition_gene_mean_sample_variance",
+      "condition": "JQ1",
+      "value": 0.05901035750838853,
+      "paper_value": "0.0590103575",
+      "source": "results/opal_external_validation_v1/repeat-diagnostic-20261015/report.json",
+      "pointer": "/conditions/JQ1/mean_gene_sample_variance"
+    },
+    {
+      "claim": "within_condition_gene_mean_sample_variance",
+      "condition": "JQPD",
+      "value": 0.13364179492019745,
+      "paper_value": "0.1336417949",
+      "source": "results/opal_external_validation_v1/repeat-diagnostic-20261015/report.json",
+      "pointer": "/conditions/JQPD/mean_gene_sample_variance"
+    },
+    {
+      "claim": "within_condition_gene_mean_sample_variance",
+      "condition": "PD901",
+      "value": 0.08156549529779908,
+      "paper_value": "0.0815654953",
+      "source": "results/opal_external_validation_v1/repeat-diagnostic-20261015/report.json",
+      "pointer": "/conditions/PD901/mean_gene_sample_variance"
+    },
+    {
+      "claim": "within_condition_gene_mean_sample_variance",
+      "condition": "untr",
+      "value": 0.12420188301653229,
+      "paper_value": "0.1242018830",
+      "source": "results/opal_external_validation_v1/repeat-diagnostic-20261015/report.json",
+      "pointer": "/conditions/untr/mean_gene_sample_variance"
+    }
+  ],
+  "all_conditions_reported": true,
+  "exact_source_counts": {
+    "genes": 15471,
+    "samples": 15
+  },
+  "scope": "Every new empirical manuscript table cell and source dimension; descriptive, no predictive inference"
+}
