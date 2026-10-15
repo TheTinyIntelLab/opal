@@ -1,0 +1,399 @@
+{
+  "common_requirements": [
+    "approved review from actual reviewer, reviewer ID/date",
+    "nonempty evidence files inside package with exact SHA256",
+    "all required fields present; all required reviewed/retained flags explicitly true",
+    "semantic constraints in validate_readiness remain unchanged"
+  ],
+  "date": "2026-10-15",
+  "definition_sha256": "93ba5999e927a522632be28e9f1e58649fe118a555a084140e1339d4d18cf5d2",
+  "definition_source": "src/context_contrast/readiness.py",
+  "gate_scope": "frozen source-conditioned unseen-context transfer contract; a narrower observed-context confirmation needs separate claim-specific registration, not dummy bridge fields",
+  "gates": [
+    {
+      "additional_types": [],
+      "current_evidence": "GxE RT and sci-Plex well labels exist; no independent culture initiation records.",
+      "id": "independent_initiation",
+      "passed": false,
+      "primary_blocker_type": "scientific",
+      "required_details": [
+        "cultures",
+        "initiation_provenance_reviewed"
+      ],
+      "required_party": "assay PI or culture laboratory",
+      "smallest_action": "Obtain signed culture/initiation/date/parent-stock lineage and reviewed independence.",
+      "validation_reasons": [
+        "review approval missing",
+        "reviewer missing",
+        "reviewed_at missing",
+        "cultures missing",
+        "initiation_provenance_reviewed must be explicitly true",
+        "reviewed evidence files missing",
+        "cultures must be a nonempty list"
+      ]
+    },
+    {
+      "additional_types": [],
+      "current_evidence": "Named cell origins/TNF labels exist; no prospective pretreatment freeze for a new independent campaign.",
+      "id": "pretreatment_contexts",
+      "passed": false,
+      "primary_blocker_type": "scientific",
+      "required_details": [
+        "contexts",
+        "definitions_frozen_before_treatment"
+      ],
+      "required_party": "biological PI",
+      "smallest_action": "Freeze actual pretreatment context definitions and IDs before assignment.",
+      "validation_reasons": [
+        "review approval missing",
+        "reviewer missing",
+        "reviewed_at missing",
+        "contexts missing",
+        "definitions_frozen_before_treatment must be explicitly true",
+        "reviewed evidence files missing",
+        "contexts must be a nonempty list"
+      ]
+    },
+    {
+      "additional_types": [],
+      "current_evidence": "Historical treatment labels exist; no new culture/block randomization record.",
+      "id": "randomization",
+      "passed": false,
+      "primary_blocker_type": "scientific",
+      "required_details": [
+        "plate_block_assignments",
+        "randomized_assignment_reviewed"
+      ],
+      "required_party": "assay operator and statistician",
+      "smallest_action": "Supply reproducible allocation, blinding and plate/block schedule before dosing.",
+      "validation_reasons": [
+        "review approval missing",
+        "reviewer missing",
+        "reviewed_at missing",
+        "plate_block_assignments missing",
+        "randomized_assignment_reviewed must be explicitly true",
+        "reviewed evidence files missing"
+      ]
+    },
+    {
+      "additional_types": [],
+      "current_evidence": "GxE fixed micromolar/time labels traceable; genetic TNF exact assignment equivalence remains absent.",
+      "id": "literal_interventions",
+      "passed": false,
+      "primary_blocker_type": "scientific",
+      "required_details": [
+        "assignments",
+        "assignment_equivalence_reviewed"
+      ],
+      "required_party": "source custodian and assay PI",
+      "smallest_action": "Supply original reagent lot/guide/dose/time/vehicle/assay map and equivalence review for selected source.",
+      "validation_reasons": [
+        "review approval missing",
+        "reviewer missing",
+        "reviewed_at missing",
+        "assignments missing",
+        "assignment_equivalence_reviewed must be explicitly true",
+        "reviewed evidence files missing",
+        "assignments must be a nonempty list"
+      ]
+    },
+    {
+      "additional_types": [],
+      "current_evidence": "GxE disjoint cells are technical partitions sharing reference lineage, not independent reference cultures.",
+      "id": "independent_references",
+      "passed": false,
+      "primary_blocker_type": "scientific",
+      "required_details": [
+        "reference_matches",
+        "independently_measured",
+        "shared_reference_covariance_retained"
+      ],
+      "required_party": "assay laboratory",
+      "smallest_action": "Acquire separately initiated reference cultures with matched control/singles and shared-covariance record.",
+      "validation_reasons": [
+        "review approval missing",
+        "reviewer missing",
+        "reviewed_at missing",
+        "reference_matches missing",
+        "independently_measured must be explicitly true",
+        "shared_reference_covariance_retained must be explicitly true",
+        "reviewed evidence files missing",
+        "reference_matches must be a nonempty list"
+      ]
+    },
+    {
+      "additional_types": [],
+      "current_evidence": "66 GxE rows, 47 supported, 19 unsupported; no commissioned cultures, bridge workload or costs.",
+      "id": "measurement_counts",
+      "passed": false,
+      "primary_blocker_type": "financial",
+      "required_details": [
+        "counts",
+        "counts_supported_by_review",
+        "campaign_costs"
+      ],
+      "required_party": "lab project manager and owner",
+      "smallest_action": "Review complete observed source support and prospective campaign ledger with actual quote.",
+      "validation_reasons": [
+        "review approval missing",
+        "reviewer missing",
+        "reviewed_at missing",
+        "counts missing",
+        "counts_supported_by_review must be explicitly true",
+        "campaign_costs missing",
+        "reviewed evidence files missing",
+        "counts.contexts must be an observed positive integer",
+        "counts.cultures must be an observed positive integer",
+        "counts.pairs must be an observed positive integer",
+        "counts.genes must be an observed positive integer",
+        "counts.control_outcomes must be an observed positive integer",
+        "counts.single_outcomes must be an observed positive integer",
+        "counts.bridge_outcomes must be an observed positive integer",
+        "campaign_costs.distinct_bridge_identities missing",
+        "campaign_costs.repeated_bridge_outcomes missing",
+        "campaign_costs.control_outcomes missing",
+        "campaign_costs.single_outcomes missing",
+        "campaign_costs.assay_cost missing",
+        "campaign_costs.currency missing"
+      ]
+    },
+    {
+      "additional_types": [],
+      "current_evidence": "Source-specific CC-BY records exist; GxE raw redistribution and new campaign permissions unresolved.",
+      "id": "release_rights",
+      "passed": false,
+      "primary_blocker_type": "legal",
+      "required_details": [
+        "license_id",
+        "permitted_uses",
+        "research_use_authorized",
+        "redistribution_review_completed"
+      ],
+      "required_party": "rights holder and institutional research office",
+      "smallest_action": "Record permitted research/export/derivative uses, institutional conditions and source-specific review.",
+      "validation_reasons": [
+        "review approval missing",
+        "reviewer missing",
+        "reviewed_at missing",
+        "license_id missing",
+        "permitted_uses missing",
+        "research_use_authorized must be explicitly true",
+        "redistribution_review_completed must be explicitly true",
+        "reviewed evidence files missing",
+        "permitted_uses must be a nonempty list"
+      ]
+    },
+    {
+      "additional_types": [
+        "technical"
+      ],
+      "current_evidence": "Existing outcomes exposed; no untouched query/bridge sets or prospective freeze.",
+      "id": "prospective_information",
+      "passed": false,
+      "primary_blocker_type": "scientific",
+      "required_details": [
+        "held_query_pair_ids",
+        "bridge_pair_ids",
+        "global_exclusion_context_ids",
+        "allowed_query_references",
+        "freeze_record",
+        "query_outcomes_unscored"
+      ],
+      "required_party": "owner, independent evaluator and statistician",
+      "smallest_action": "Register new disjoint identities, source exclusions and query information; hash predictions before evaluator access.",
+      "validation_reasons": [
+        "review approval missing",
+        "reviewer missing",
+        "reviewed_at missing",
+        "held_query_pair_ids missing",
+        "bridge_pair_ids missing",
+        "global_exclusion_context_ids missing",
+        "allowed_query_references missing",
+        "freeze_record missing",
+        "query_outcomes_unscored must be explicitly true",
+        "reviewed evidence files missing",
+        "held_query_pair_ids must be a nonempty list",
+        "bridge_pair_ids must be a nonempty list",
+        "global_exclusion_context_ids must be a nonempty list",
+        "nonempty held query and bridge identities required"
+      ]
+    },
+    {
+      "additional_types": [],
+      "current_evidence": "Technical half errors exist; no independent-culture covariance estimate.",
+      "id": "pilot_covariance",
+      "passed": false,
+      "primary_blocker_type": "scientific",
+      "required_details": [
+        "pilot_id",
+        "covariance_method",
+        "shared_reference_covariance_retained",
+        "empirical_covariance_reviewed"
+      ],
+      "required_party": "assay PI and biostatistician",
+      "smallest_action": "Obtain nonquery culture/reference pilot and covariance including shared-reference components.",
+      "validation_reasons": [
+        "review approval missing",
+        "reviewer missing",
+        "reviewed_at missing",
+        "pilot_id missing",
+        "covariance_method missing",
+        "shared_reference_covariance_retained must be explicitly true",
+        "empirical_covariance_reviewed must be explicitly true",
+        "reviewed evidence files missing"
+      ]
+    },
+    {
+      "additional_types": [],
+      "current_evidence": "Analytic standardized sensitivity possible; biological SD, useful margin, functional endpoint and quote absent.",
+      "id": "power_review",
+      "passed": false,
+      "primary_blocker_type": "scientific",
+      "required_details": [
+        "useful_margin",
+        "margin_metric",
+        "functional_endpoint",
+        "sample_size_by_context",
+        "empirical_power_reviewed",
+        "assay_cost_reviewed",
+        "biological_collaborator"
+      ],
+      "required_party": "biological collaborator and statistician",
+      "smallest_action": "Set utility-based margin before outcomes, estimate pilot variance and review finite sample size/cost.",
+      "validation_reasons": [
+        "review approval missing",
+        "reviewer missing",
+        "reviewed_at missing",
+        "useful_margin missing",
+        "margin_metric missing",
+        "functional_endpoint missing",
+        "sample_size_by_context missing",
+        "empirical_power_reviewed must be explicitly true",
+        "assay_cost_reviewed must be explicitly true",
+        "biological_collaborator missing",
+        "reviewed evidence files missing",
+        "reviewed useful margin must be finite and positive",
+        "reviewed sample size requires positive culture counts per context"
+      ]
+    },
+    {
+      "additional_types": [
+        "technical"
+      ],
+      "current_evidence": "Conditional compound resampling is not culture-level interval validation.",
+      "id": "interval_validation",
+      "passed": false,
+      "primary_blocker_type": "scientific",
+      "required_details": [
+        "estimand",
+        "coverage_validation",
+        "null_type_i_validation",
+        "shared_reference_covariance_retained",
+        "claim_specific_support_reviewed"
+      ],
+      "required_party": "biostatistician",
+      "smallest_action": "Validate null/type-I and interval coverage under reviewed culture/reference design and missingness.",
+      "validation_reasons": [
+        "review approval missing",
+        "reviewer missing",
+        "reviewed_at missing",
+        "estimand missing",
+        "coverage_validation missing",
+        "null_type_i_validation missing",
+        "shared_reference_covariance_retained must be explicitly true",
+        "claim_specific_support_reviewed must be explicitly true",
+        "reviewed evidence files missing",
+        "coverage_validation needs empirical result, reviewed criterion, replicates and passed=true",
+        "null_type_i_validation needs empirical result, reviewed criterion, replicates and passed=true"
+      ]
+    },
+    {
+      "additional_types": [],
+      "current_evidence": "Repository work authorized; no actual lab, commissioned culture, compute contract or registration arrangements.",
+      "id": "owner_arrangements",
+      "passed": false,
+      "primary_blocker_type": "authorization",
+      "required_details": [
+        "measurement_owner",
+        "laboratory_arrangements_reviewed",
+        "compute_arrangements_reviewed",
+        "registration_arrangements_reviewed"
+      ],
+      "required_party": "owner and institution",
+      "smallest_action": "Obtain genuine supplied operation acceptance and documented laboratory/compute/registration arrangements.",
+      "validation_reasons": [
+        "review approval missing",
+        "reviewer missing",
+        "reviewed_at missing",
+        "measurement_owner missing",
+        "laboratory_arrangements_reviewed must be explicitly true",
+        "compute_arrangements_reviewed must be explicitly true",
+        "registration_arrangements_reviewed must be explicitly true",
+        "reviewed evidence files missing"
+      ]
+    },
+    {
+      "additional_types": [],
+      "current_evidence": "TNF has two observed contexts and no qualified pairs; GxE three origins are exposed chemical-star data.",
+      "id": "source_context_graph",
+      "passed": false,
+      "primary_blocker_type": "scientific",
+      "required_details": [
+        "source_context_ids",
+        "held_context_ids",
+        "pair_context_edges",
+        "crossed_support_reviewed"
+      ],
+      "required_party": "source custodian and assay PI",
+      "smallest_action": "For the transfer contract, supply at least three qualified source contexts, fresh disjoint held contexts and connected edges.",
+      "validation_reasons": [
+        "review approval missing",
+        "reviewer missing",
+        "reviewed_at missing",
+        "source_context_ids missing",
+        "held_context_ids missing",
+        "pair_context_edges missing",
+        "crossed_support_reviewed must be explicitly true",
+        "reviewed evidence files missing",
+        "at least three distinct source contexts required for splitting, not power",
+        "fresh held contexts must be disjoint from source selection",
+        "connected crossed source graph required"
+      ]
+    },
+    {
+      "additional_types": [],
+      "current_evidence": "No actual four-identity prospective bridge allocation or reviewed shared-intercept calibration.",
+      "id": "transfer_calibration",
+      "passed": false,
+      "primary_blocker_type": "scientific",
+      "required_details": [
+        "bridge_count",
+        "bridge_use",
+        "target_operator_fit",
+        "equal_comparator_budget_reviewed",
+        "prediction_centering_rule"
+      ],
+      "required_party": "statistician and assay PI",
+      "smallest_action": "For transfer only, freeze four distinct nonquery bridges, equal comparator labels and exact centering; fit no target operator.",
+      "validation_reasons": [
+        "review approval missing",
+        "reviewer missing",
+        "reviewed_at missing",
+        "bridge_count missing",
+        "bridge_use missing",
+        "target_operator_fit missing",
+        "equal_comparator_budget_reviewed must be explicitly true",
+        "prediction_centering_rule missing",
+        "reviewed evidence files missing",
+        "exactly four globally nonquery calibration identities required",
+        "bridges supply shared intercept only; no target eta operator",
+        "source-predicted correction must be centered over bridges",
+        "four distinct actual prospective bridge identities required"
+      ]
+    }
+  ],
+  "gates_passed": 0,
+  "package_sha256": "4f5e0ca1ca1ca027a0132d3f01be95083e8cd0ab080590623d5f7270c31829ed",
+  "schema": "opal-confirmation-blocker-register-v1",
+  "status": "measurement_not_ready"
+}

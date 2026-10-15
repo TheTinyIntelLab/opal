@@ -1,0 +1,81 @@
+{
+  "acceptance_created": false,
+  "code_sha256": "57c4a37f9c4d458f97bc78d3221666b64cc80e002aa2765d7d05b835751ba40f",
+  "config": {
+    "authorization_scope": "current owner request permits feasible bounded measurement reconstruction; no acceptance or reviewer attestation is created",
+    "comparison": "all 66 rows, support, exclusions, strata and endpoints must match; report bitwise equality separately from tolerance",
+    "cpu_seconds": 300,
+    "downloads": false,
+    "experiment_id": "opal_gxe_reconstruction_v1",
+    "fitting": false,
+    "historical_run": "results/opal_gxe_measurement_v1/technical-a4-20261014",
+    "independent_confirmation": false,
+    "input": "data/raw/gxe-measurement-20261014",
+    "installs": false,
+    "normalization": "preserve historical full-library per-cell totals and coordinate summation order; 10000-scaled condition count sums",
+    "panel": "reuse the exact frozen 512-gene panel; do not reselect genes or refit models",
+    "purpose": "bounded recovery of fixed-panel aggregates and exact historical endpoint replay, not a new scientific experiment",
+    "ram_bytes": 1000000000,
+    "reserve_bytes": 1073741824,
+    "retained_bytes": 10000000,
+    "retention": "uncompressed safe NPZ condition sums, support, cell-library denominators and cell-to-condition membership; axes and source hashes in JSON",
+    "threads": 1,
+    "workers": 1
+  },
+  "config_sha256": "4db712a1c6fa5e3ed45a81b884fecd2f321780fe79ca6fd51b025fa290688f82",
+  "frozen_panel_sha256": "ff251e67a990d880b38752463712691e6b81fb27b7af000a63049cbee9cd9fba",
+  "helper_sha256": "01542ee7d0579e57fe86d83de0af00b349816e90e9252691f8da586471920984",
+  "historical_registration_sha256": "2bb0820c1558f682a509ed4d23221af3a8b897fb269ae36189dc83a17be9c521",
+  "reviewer_attestation_created": false,
+  "scientific_models_fit": 0,
+  "source_receipts": {
+    "files": [
+      {
+        "bytes": 832570,
+        "identity_scope": "official HTTPS endpoint, exact advertised size and frozen acquired SHA256; gzip CRC checked during decoding",
+        "last_modified": "Wed, 22 Feb 2023 12:59:16 GMT",
+        "path": "cells.txt.gz",
+        "publisher_checksum_available": false,
+        "sha256": "5704448d55cca51021586c593921e050dad350c2afc0329f5f7eb6a16edbf5aa",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7056nnn/GSM7056151/suppl/GSM7056151_sciPlex_4_cell.annotations.txt.gz"
+      },
+      {
+        "bytes": 430158,
+        "identity_scope": "official HTTPS endpoint, exact advertised size and frozen acquired SHA256; gzip CRC checked during decoding",
+        "last_modified": "Wed, 22 Feb 2023 12:59:16 GMT",
+        "path": "genes.txt.gz",
+        "publisher_checksum_available": false,
+        "sha256": "cbeed4e110b3593b4d8ec8fb481f66697b730cca0f9d1730cc20d5fe10a05990",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7056nnn/GSM7056151/suppl/GSM7056151_sciPlex_4_gene.annotations.txt.gz"
+      },
+      {
+        "bytes": 19793477,
+        "identity_scope": "official HTTPS endpoint, exact advertised size and frozen acquired SHA256; gzip CRC checked during decoding",
+        "last_modified": "Wed, 22 Feb 2023 12:59:22 GMT",
+        "path": "hashes.txt.gz",
+        "publisher_checksum_available": false,
+        "sha256": "3825a8db558af63a846d72e237bcd1b719b8fd1eaaeec36cc3defcf01767cd5c",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7056nnn/GSM7056151/suppl/GSM7056151_sciPlex_4_hashTable.out.txt.gz"
+      },
+      {
+        "bytes": 3335,
+        "identity_scope": "official HTTPS endpoint, exact advertised size and frozen acquired SHA256; gzip CRC checked during decoding",
+        "last_modified": "Wed, 22 Feb 2023 12:59:22 GMT",
+        "path": "sample_sheet.txt.gz",
+        "publisher_checksum_available": false,
+        "sha256": "ffb4083bcff9e8cb283c89817d7d4e534f753c075b94f5ffa90d8de8dc6fed9c",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7056nnn/GSM7056151/suppl/GSM7056151_sciPlex_4_hash_sample_sheet.txt.gz"
+      },
+      {
+        "bytes": 590579159,
+        "identity_scope": "official HTTPS endpoint, exact advertised size and frozen acquired SHA256; gzip CRC checked during decoding",
+        "last_modified": "Wed, 22 Feb 2023 12:59:15 GMT",
+        "path": "counts.mtx.gz",
+        "publisher_checksum_available": false,
+        "sha256": "1710e238558182026e0b66e05f1b8d5853fc89f941a9751def32d6dc35147455",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7056nnn/GSM7056151/suppl/GSM7056151_sciPlex_4_UMI.count.matrix.gz"
+      }
+    ],
+    "total_download_bytes": 611638699
+  }
+}

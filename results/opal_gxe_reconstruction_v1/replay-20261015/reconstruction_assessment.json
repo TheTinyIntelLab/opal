@@ -1,0 +1,40 @@
+{
+  "aggregate_recovered": false,
+  "all_66_metric_rows_replayed": false,
+  "current_free_bytes": 12878336000,
+  "failure": {
+    "partial_assets_retained": true,
+    "reason": "Bounded reconstruction CPU/RAM/process stop",
+    "status": "failed_bounded_reconstruction"
+  },
+  "panel_selection_replayed": false,
+  "partial_count_progress_known": false,
+  "raw_reacquisition_needed": false,
+  "raw_triplet_samples_retained_locally_not_committed": true,
+  "required_next_action": "genuine supplied longer-run acceptance or reviewed persistent-checkpoint envelope; no retry performed",
+  "resources": {
+    "acceptance_created": false,
+    "continuous_peak_measured": false,
+    "cpu_limit_seconds": 300,
+    "cpu_seconds": 300.109375,
+    "downloads": 0,
+    "fitting": false,
+    "peak_sampled_rss_bytes": 272678912,
+    "ram_limit_bytes": 1000000000,
+    "retained_bytes": 4820,
+    "retained_limit_bytes": 10000000,
+    "status": "reconstruction_failed",
+    "threads": 1,
+    "wall_seconds": 300.6780463999894
+  },
+  "source_probe": {
+    "compressed_bytes_consumed": 786480,
+    "compressed_total_bytes": 590579159,
+    "cpu_seconds": 0.25,
+    "entries": 250000,
+    "projected_one_pass_cpu_seconds": 187.728600536568,
+    "scope": "bounded integer-parser resource probe, not scientific outcome calculation"
+  },
+  "source_projection_was_not_bound": true,
+  "status": "raw_inputs_available_but_recovery_exceeded_bounded_CPU"
+}
