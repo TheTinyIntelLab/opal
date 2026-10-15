@@ -1,7 +1,7 @@
 """Portable archive policy shared by packager, validator and membership tests."""
 from pathlib import PurePosixPath
 
-PRIVATE_NAMES={'plan.md','outreach.md','context.md','roadmap.md','opal_next_master_plan.md','build_evidence_demo.py'}
+PRIVATE_NAMES={'plan.md','outreach.md','outreach_register.json','context.md','roadmap.md','opal_next_master_plan.md','build_evidence_demo.py'}
 DENIED_PARTS={'web','vendor','external','__pycache__','raw','prepared','sealed','custodian','source_snapshots'}
 COMPACT_CSV_NAMES={'comparisons.csv','coverage.csv','summary.csv','scores.csv'}
 
