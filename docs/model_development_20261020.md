@@ -1,0 +1,62 @@
+﻿# Model development decision, 20 October 2026
+
+Outcome: **FAILED HYPOTHESIS**. The implemented hierarchical gene-local composition model improves substantially over literal additivity, but loses to simpler matched calibration or profile kernels. Close this candidate. Its failure is evidence against this particular response law, not proof that biological interaction prediction is impossible.
+
+## What the research established
+
+Three specialist reviews inspected official papers and source, with pinned revisions and explicit licensing/availability limits: [architecture evidence](research_20261020_architectures.md), [data/evaluation evidence](research_20261020_data.md), and [first-principles assessment](research_20261020_identifiability.md). No external implementation code or pretrained weights entered the new model.
+
+TxPert does evaluate observed-single Norman doubles, but its strongest model uses proprietary PxMap/TxMap graphs and reports only a slight gain over additive Pearson delta. Public released entry points cover inference rather than a complete double-model training recipe. [Official TxPert source](https://github.com/valence-labs/TxPert/tree/08d82eea86746b044cf7531f4ec8c5f60e1cb73f) has noncommercial terms. [GEARS](https://github.com/snap-stanford/GEARS/tree/f374e43e197b295016d80395d7a54ddb81cc6769), MIT licensed, learns GO/coexpression representations but explicitly needs combination supervision; it trains with fourth-power errors and selects on DE-gene MSE. [CPA](https://github.com/theislab/cpa/tree/fbd7c0250edc23eff003a10c99655579c53afd63), BSD licensed, supports count likelihoods and perturbation/covariate embeddings, but its Norman tutorial holds out only two pairs and validates on random cells from known conditions. Those information and selection contracts cannot supply matched Opal scores.
+
+The [2025 critical benchmark](https://www.nature.com/articles/s41592-025-02772-6) makes strong simple baselines essential. The [October 2026 calibrated-metric study](https://www.nature.com/articles/s41587-026-03307-w) reports PRESAGE beating additive on 15/18 Wessels metrics, with different normalization, population and endpoints. This supports a response-sensitive secondary metric, not importing those scores or changing the primary endpoint after a loss. scPerturBench's broad method/dataset count likewise does not establish superiority on a matched observed-single task. The full newer benchmark recommends five 24 GB GPUs, 384 GB RAM and 2 TB storage; that is a whole-framework budget, not a minimum for each model.
+
+More general response-evidence approaches are scientifically interesting. PIE trains evidence-conditioned gene-query heads for DE and fold change, with an eight-GPU cross-dataset recipe and noncommercial share-alike terms. State uses cell-set representations at much greater data scale. Tahoe supplies 100.6 million cells across 50 cell lines and approximately 1,100 drugs, but its raw release is about 337.6 GB and current DE export spans 1,026 large shards. DE summary statistics are not interchangeable with matched expression means. Neither a pretrained embedding nor a larger single-perturbation corpus identifies arbitrary double interactions.
+
+## Direction choice from first principles
+
+Write a pair effect as a sum of single effects plus an interaction. For any observed singles there are infinitely many interaction functions that agree on those singles, so pair evidence or justified restrictions must supply the missing information. Under independent arm-mean errors, measured additive-feature error and residual-label error have covariance -Var(single A error) - Var(single B error) - 2 Var(control error). A fitted attenuation law can therefore correct measurement error without recovering causal antagonism. Shared singles and controls also make pair errors dependent.
+
+Improving the observed-single task has narrow but immediate value: two coherent local fitting banks and exact provenance already exist. Their 88 and 110 pair labels are small compared with ten thousand genes, making a shared low-dimensional composition rule testable. A general identity-only predictor adds main-effect and context extrapolation to this missing interaction information, while compatible pretraining extraction is presently unfunded/unprofiled. Cell-distribution prediction requires actual cell-level targets and a different evaluation contract. Cross-context rank-16, bilinear and noise-aware alternatives already have unfavorable local results. These facts selected a bounded composition test rather than making the old architecture compulsory.
+
+## Implemented hypothesis
+
+For gene g, features are the sum s=a+b, same-sign signed overlap sign(s) min(abs(a),abs(b)) when ab>0, and opposite-sign signed overlap when ab<0. The prediction is a gene intercept plus a gene-specific linear combination of these features. Train-centered gene covariance fits are shrunk toward pooled slopes through a positive diagonal regularizer estimated from training features. A tiny positive floor handles constant features. Exact opposing effects have zero overlap, so this model cannot express an arbitrary equal-and-opposite interaction.
+
+The model is independently implemented in src/models/composition.py with fit/predict/save/load and safe numeric checkpoints. Gene count is validated; callers must enforce gene order and assay identity using the saved schema. This is predictive response calibration, not causal discovery. Matched affine and pooled-overlap models remove the nonlinear features and gene-specific slopes respectively, testing the two proposed advantages.
+
+## Data and locked evaluation
+
+Only data/prepared/norman-log2/profiles.npz and wessels-expanded-protected-log2/profiles.npz were read. They contain 88 pairs/105 singles/10,623 genes and 110 pairs/28 singles/10,590 genes. The complete preparations have 126 and 158 eligible pairs; separate historical evaluator responses were excluded. Both local sources have prior development exposure. Gene panels, original QC, log2 scales and source contracts were unchanged, and no raw expression or weights are committed.
+
+The protocol was frozen and the initial implementation committed at 538423e before scoring. Five outer and three inner folds use seed 20261020 under pair and partner holdouts. All held pair labels are globally excluded from fitting and selection. The finite menu includes additivity, no change, shared residual mean, 67 profile-kernel configurations, nine reduced-rank residual ridge configurations, three affine penalties, three composition penalties and one pooled-overlap fit. Each fold chooses its reference inside training data. This is not an exact official GEARS/CPA/TxPert reproduction; prior official adaptation results remain separate historical evidence.
+
+Primary MSE averages genes and pairs equally. The secondary uses outer-training response-variance gene weights. Conditional paired bootstrap uses 2,000 draws. Its intervals condition on shared references and deposited pairs and are not biological prediction intervals. Promotion required a 2% gain across both datasets and protocols plus a below-zero random-split loss-difference upper bound. No criterion changed after outcomes were inspected.
+
+## Quantitative result and failure analysis
+
+| Source / holdout | Additive | Kernel | Affine ablation | Pooled overlap | Composition | Selected baseline |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Norman / pair | .00827860 | .00620155 | .00608876 | .00634816 | .00621337 | .00608876 |
+| Norman / partner | .00827860 | .00673369 | .00632210 | .00644660 | .00634312 | .00632210 |
+| Wessels / pair | .02469173 | .00711547 | .00844173 | .00970153 | .00850956 | .00711547 |
+| Wessels / partner | .02469173 | .01370019 | .00919508 | .01034119 | .00928111 | .00919508 |
+
+Composition is worse than the locked reference selector by 2.05%, 0.33%, 19.59% and 0.94% respectively. The random-pair 95% conditional loss-difference intervals are [0.0000517, 0.0002180] for Norman and [0.0008875, 0.0018585] for Wessels, both favoring the reference. These are within-source conditional intervals only. All fold losses, every baseline family, selection histories, coverage and secondary scores are retained in [aggregate results](../results/composition-20261020/results.json).
+
+The important ablation is affine calibration: it beats composition in all four settings. Hierarchy helps against pooled overlap, but the overlap terms do not earn their added freedom. Wessels' kernel is strong on random pairs and deteriorates on partner holdouts, indicating an extrapolation/support limitation. Composition does not solve it. Closed-form fitting reaches the stated regularized solution, synthetic recovery passes, symmetry is exact, and checkpoint replay is exact; there is no evidence that longer optimization would rescue this hypothesis. Limited pair supervision and noise remain plausible restrictions, but this experiment cannot separate their biological contributions without repeated measurements.
+
+The evidence-backed decision is to close the overlap law. Keep affine calibration as the relevant reference on these Norman and partner-held Wessels splits, and the kernel on random-held Wessels. Do not select a universal default from exposed outer outcomes. A next candidate must bring compatible additional pair-response information or an explicitly justified new endpoint and data extraction, rather than a larger residual network.
+
+## Compute, operational failure and reproducibility
+
+The successful compact run took 33.491 seconds with one numerical worker/BLAS thread. Windows OS peak working set was 494,342,144 bytes, about 471 MiB; the retained-artifact estimate was 66,131,599 bytes, about 63 MiB. The registered limits were one hour, 2 GiB RSS and 128 MiB outputs. Resource checks occur at fold/finalization boundaries rather than enforcing an instantaneous process kill. Actual resource use stayed well below those limits.
+
+The first attempt finished all fits but failed its final storage check, retaining 246 MB of baseline prediction arrays. It remains preserved. The only replay change retained gene-level arrays for composition and the selected reference, while preserving every baseline scalar and tuning record. Every fold record and score reproduced exactly. [The protocol](../results/composition-20261020/protocol.json) pins the compact runner; [the artifact manifest](../results/composition-20261020/artifact_manifest.json) hashes checkpoints, schemas and predictions. Final all-development refits contain 42,492 and 42,360 fitted gene coefficients/intercepts, have no evaluation score and reproduce after load with zero maximum absolute difference. Source-specific weights stay local under existing source terms.
+
+The aggregate's final FAILED HYPOTHESIS adjudication replaces the raw runner's conservative default INSUFFICIENT EVIDENCE label; neither raw scores nor the immutable local summary was edited. Independent evidence remains insufficient even though this particular development hypothesis failed.
+
+## Repository reset and delivery checks
+
+plan.md is the sole forward plan. Six individually inspected obsolete plan/dispatch/handoff files were removed. The former README is a closed dated engineering record; ignored private context/roadmap snapshots were preserved verbatim outside the active tree, since the roadmap contained unique historical scientific specifications. Historical experiment contracts, failures, source provenance, licenses, measurement records, tests and private correspondence protections remain. [The cleanup audit](../results/composition-20261020/planning_audit.json) records exact dispositions.
+
+Validation and remote/CI receipts are recorded separately in results/composition-20261020/validation.json after execution. The first full local test invocation passed 395 tests and hit three existing free-volume guards on D:, so it was rerun on E: without changing those guards. The shared host environment's pip check reports pre-existing datasets/fsspec and platformio/click/starlette conflicts; no unrelated dependency versions were changed. A fresh heavyweight dependency installation is inappropriate under the storage constraint, so installed-wheel import/replay and hosted clean CI provide the package checks.

@@ -1,0 +1,2970 @@
+{
+  "artifact_bytes": 66131599,
+  "attempts": [
+    {
+      "name": "composition-v1",
+      "preserved": true,
+      "retained_bytes": 246831216,
+      "status": "storage_cap_failure_after_all_fits"
+    },
+    {
+      "change": "prediction retention only; candidate and selected reference arrays instead of nine arrays; no fitting/split/menu/metric change",
+      "name": "composition-v1-compact",
+      "status": "completed"
+    }
+  ],
+  "classification": "FAILED HYPOTHESIS",
+  "code": {
+    "configs/experiments/composition_20261020.json": "5d717ffd1b8bd2ac504cbbc5b20191dea4ca1a01e2d79850cff7bb19ab52c043",
+    "src/models/composition.py": "98eebaeb56d6e98ea793dad0242f5e112e2e3035b6359539c72f98e9ad15f432",
+    "src/models/kernel.py": "b9181607392ad5eaf5c8fec3e966fc2c2eba5c368e113ba51b9efc0ca0a42000",
+    "src/splits/__init__.py": "1d126d96d7ad88e59d1f621ba0bf79d486c107b39e2997591ccc5b826017ed44",
+    "tools/improve_residual_model.py": "998e03fc6413cf55557bb1264009a10f1c307dce552065dbeacb1f2eb02f49eb",
+    "tools/study_composition.py": "7618011af60f748436396642c005b83e0eff4e93d7e4645e5c47bb91aa6d6678"
+  },
+  "datasets": {
+    "norman-log2": {
+      "deployment": {
+        "alpha": 1.0,
+        "checkpoint_sha256": "13942e7a85e585b6dcacf68d1cf0d4fd7731aa6214bdff157ed4f8ec951d7f52",
+        "gene_order_sha256": "0fd9fc58d9cf235102dcfe21adc81422ecae1b13d0ed831bbe603a6b0e6b9631",
+        "parameters": 42492,
+        "replay_max_abs": 0.0,
+        "score": null,
+        "training_pairs": 88
+      },
+      "partner": {
+        "conditional_pair_bootstrap_loss_difference_95": [
+          -7.191033286261955e-06,
+          5.6621366557569887e-05
+        ],
+        "coverage": [
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          1,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          1
+        ],
+        "covered_pairs": 88,
+        "effect_weighted_mse_per_occurrence": {
+          "additive": 0.0508957140147686,
+          "affine": 0.03704089235961428,
+          "composition": 0.036953670890065494,
+          "kernel": 0.0357208769824206,
+          "no_change": 0.287048465013504,
+          "pooled": 0.0413223372911525,
+          "reduced_rank": 0.0385258564461432,
+          "selected_baseline": 0.03704089235961428,
+          "shared_residual_mean": 0.049407432228326796
+        },
+        "folds": [
+          {
+            "baseline_selection": {
+              "additive": 0.008272014723883735,
+              "affine": 0.006449502096188705,
+              "kernel": 0.007609806471023632,
+              "no_change": 0.021005819903479682,
+              "pooled": 0.0064879983630552526,
+              "reduced_rank": 0.007725183787342913,
+              "shared_residual_mean": 0.008655726081795163
+            },
+            "fold": 0,
+            "kernel_selected": {
+              "config": {
+                "alpha": 1,
+                "bandwidth": 1,
+                "kind": "global_plus_pair"
+              },
+              "index": 40,
+              "mse": 0.007609806471023632
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.007738134022296202
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.006856521357139132
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.006496244375546271
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.006597634897136696
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.006484656765118149
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.006449502096188705
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.0064879983630552526
+              }
+            ],
+            "mse": {
+              "additive": 0.007974930107593536,
+              "affine": 0.00636532591709316,
+              "composition": 0.006330224934517078,
+              "kernel": 0.006736581977973663,
+              "no_change": 0.02110583335161209,
+              "pooled": 0.006479393107935769,
+              "reduced_rank": 0.007027507968057994,
+              "selected_baseline": 0.00636532591709316,
+              "shared_residual_mean": 0.007871217094361782
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.008099673153261594,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.0081510312818525,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.008331253397950104,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007813349502970132,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.0077828904219489296,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007725183787342913,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.00807386216207858,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.008050814210240167,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.008032156350159638,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 32,
+            "train_pairs": 56
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.00745675804055467,
+              "affine": 0.0065073063779514505,
+              "kernel": 0.007317598736536465,
+              "no_change": 0.01915677895351332,
+              "pooled": 0.006579380034228167,
+              "reduced_rank": 0.007396185671421477,
+              "shared_residual_mean": 0.0077701554614670425
+            },
+            "fold": 1,
+            "kernel_selected": {
+              "config": {
+                "alpha": 1,
+                "bandwidth": 0.25,
+                "kind": "global_plus_pair"
+              },
+              "index": 20,
+              "mse": 0.007317598736536465
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.007405407142506696
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.006775242332038867
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.0065568305111459585
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.006732129835807083
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.006581521719879942
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.0065073063779514505
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.006579380034228167
+              }
+            ],
+            "mse": {
+              "additive": 0.0095916036516428,
+              "affine": 0.00663161296654867,
+              "composition": 0.006640029528596535,
+              "kernel": 0.007769056262411439,
+              "no_change": 0.022971196100115776,
+              "pooled": 0.006662675361607839,
+              "reduced_rank": 0.007939616971324026,
+              "selected_baseline": 0.00663161296654867,
+              "shared_residual_mean": 0.009259333834052086
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.007773379750331017,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.007814680358659593,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.00803313213634243,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007591998411022337,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007484699429546023,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007396185671421477,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007648877506640369,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007602270417583054,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007578565452855098,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 32,
+            "train_pairs": 56
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.008444031502338165,
+              "affine": 0.006798805724785431,
+              "kernel": 0.007867359601128577,
+              "no_change": 0.020793749931010793,
+              "pooled": 0.006928254714346814,
+              "reduced_rank": 0.007996689163034847,
+              "shared_residual_mean": 0.008581229029817785
+            },
+            "fold": 2,
+            "kernel_selected": {
+              "config": {
+                "alpha": 0.001,
+                "bandwidth": 0.25,
+                "kind": "global_plus_pair_10"
+              },
+              "index": 22,
+              "mse": 0.007867359601128577
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.007439840740334136
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.00701052872406549
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.006871260354643533
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.006907281916993458
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.00680868750889068
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.006798805724785431
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.006928254714346814
+              }
+            ],
+            "mse": {
+              "additive": 0.007719730958342552,
+              "affine": 0.006066420220627771,
+              "composition": 0.006044059110800823,
+              "kernel": 0.0064788985345343416,
+              "no_change": 0.02036057971417904,
+              "pooled": 0.006212540738709281,
+              "reduced_rank": 0.0067584620801858335,
+              "selected_baseline": 0.006066420220627771,
+              "shared_residual_mean": 0.00755641283467412
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.00833468116990984,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.008496826005152105,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.008679853731985803,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.008136313930361795,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.00808060454834608,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007996689163034847,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.008227803690100396,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.008200942343808852,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.008180406919959025,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 34,
+            "train_pairs": 54
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.008559054516731425,
+              "affine": 0.006992169845183082,
+              "kernel": 0.0075452001243083424,
+              "no_change": 0.022488574398324846,
+              "pooled": 0.007121367098747069,
+              "reduced_rank": 0.007732679459419885,
+              "shared_residual_mean": 0.008469924013665382
+            },
+            "fold": 3,
+            "kernel_selected": {
+              "config": {
+                "alpha": 1,
+                "bandwidth": 1,
+                "kind": "global_plus_pair"
+              },
+              "index": 40,
+              "mse": 0.0075452001243083424
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.007440282045392027
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.007056875602109309
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.006964741436231041
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.007054427066435822
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.006992169845183082
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.006994525187905894
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.007121367098747069
+              }
+            ],
+            "mse": {
+              "additive": 0.007589910179376602,
+              "affine": 0.00532860563312777,
+              "composition": 0.005485889848827401,
+              "kernel": 0.00639072697018739,
+              "no_change": 0.018387263640761375,
+              "pooled": 0.005448865008128294,
+              "reduced_rank": 0.006504185424122087,
+              "selected_baseline": 0.00532860563312777,
+              "shared_residual_mean": 0.007566472515463829
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.0080923669528773,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.008121586955463956,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.008314788967885957,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007926510266468399,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.0078066705635503756,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007732679459419885,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.008107402227318981,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.00806377565610187,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.008043620515221592,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 31,
+            "train_pairs": 57
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.008104129998307478,
+              "affine": 0.0059553173714285345,
+              "kernel": 0.007068286876127255,
+              "no_change": 0.01892499484513935,
+              "pooled": 0.006026464923547112,
+              "reduced_rank": 0.007174078905598275,
+              "shared_residual_mean": 0.008152800641561809
+            },
+            "fold": 4,
+            "kernel_selected": {
+              "config": {
+                "alpha": 1,
+                "bandwidth": 1,
+                "kind": "global_plus_pair"
+              },
+              "index": 40,
+              "mse": 0.007068286876127255
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.0067038030052463315
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.0061551667022613065
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.0060081149065697205
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.0060294249586372705
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.005956304163233316
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.0059553173714285345
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.006026464923547112
+              }
+            ],
+            "mse": {
+              "additive": 0.008117325603961945,
+              "affine": 0.0071023012888816,
+              "composition": 0.007081143905231694,
+              "kernel": 0.007374000612661057,
+              "no_change": 0.022350197657942772,
+              "pooled": 0.007258468425778372,
+              "reduced_rank": 0.007560281826335368,
+              "selected_baseline": 0.0071023012888816,
+              "shared_residual_mean": 0.008123506791889668
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.00758388016181891,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.007737564757010199,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.007914318282155927,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007308280933697948,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.00724792603724574,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007174078905598275,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.0075764230775419725,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007543590106145961,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007524226739080903,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 31,
+            "train_pairs": 57
+          }
+        ],
+        "mse": {
+          "additive": 0.00827860157062382,
+          "affine": 0.006322101863592135,
+          "composition": 0.0063431193757699685,
+          "kernel": 0.0067336925774193175,
+          "no_change": 0.020694576608336443,
+          "pooled": 0.006446602232407253,
+          "reduced_rank": 0.006988630139965568,
+          "selected_baseline": 0.006322101863592135,
+          "shared_residual_mean": 0.008120404425336602
+        },
+        "uncertainty_scope": "conditional pair sampling only; shared singles/control and dependent folds, not biological calibration"
+      },
+      "random": {
+        "conditional_pair_bootstrap_loss_difference_95": [
+          5.1724802403332365e-05,
+          0.00021801961034492005
+        ],
+        "coverage": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "covered_pairs": 88,
+        "effect_weighted_mse_per_occurrence": {
+          "additive": 0.05350742827762257,
+          "affine": 0.03680777848915853,
+          "composition": 0.03677457263732488,
+          "kernel": 0.03168306658013994,
+          "no_change": 0.2885972423986955,
+          "pooled": 0.04104422845002602,
+          "reduced_rank": 0.035394833871493725,
+          "selected_baseline": 0.03680777848915853,
+          "shared_residual_mean": 0.050877476957711304
+        },
+        "folds": [
+          {
+            "baseline_selection": {
+              "additive": 0.008154730073043279,
+              "affine": 0.006082401601610346,
+              "kernel": 0.006418798572738852,
+              "no_change": 0.0208767546074731,
+              "pooled": 0.006314500726637704,
+              "reduced_rank": 0.006695203127919836,
+              "shared_residual_mean": 0.007928896163191115
+            },
+            "fold": 0,
+            "kernel_selected": {
+              "config": {
+                "alpha": 1,
+                "bandwidth": 1,
+                "kind": "global_plus_pair"
+              },
+              "index": 40,
+              "mse": 0.006418798572738852
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.00661693380558818
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.006283494652181616
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.006213645669040883
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.006082401601610346
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.006118270863757106
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.0061902559194979235
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.006314500726637704
+              }
+            ],
+            "mse": {
+              "additive": 0.008760325610637665,
+              "affine": 0.006388404946464244,
+              "composition": 0.006478804604012445,
+              "kernel": 0.0064522650689178285,
+              "no_change": 0.01998610608279705,
+              "pooled": 0.00663417752303723,
+              "reduced_rank": 0.006979624000025724,
+              "selected_baseline": 0.006388404946464244,
+              "shared_residual_mean": 0.008451990783214569
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.007322354399838025,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.007263864612873494,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.007351613226486016,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007006349303344501,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.006864136646999031,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.006695203127919836,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007285768304734229,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007228285437736061,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.0071628595802952265,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 18,
+            "train_pairs": 70
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.008467490971088409,
+              "affine": 0.006131335545356163,
+              "kernel": 0.006851842219808013,
+              "no_change": 0.020946372832570757,
+              "pooled": 0.006348890953963279,
+              "reduced_rank": 0.007132468008032138,
+              "shared_residual_mean": 0.00819269312279565
+            },
+            "fold": 1,
+            "kernel_selected": {
+              "config": {
+                "alpha": 1,
+                "bandwidth": 0.25,
+                "kind": "global_plus_pair"
+              },
+              "index": 20,
+              "mse": 0.006851842219808013
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.00646235331166592
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.006231049191743091
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.006240640348008366
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.006131335545356163
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.0061738562638481605
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.006239545190127649
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.006348890953963279
+              }
+            ],
+            "mse": {
+              "additive": 0.0075440313667058945,
+              "affine": 0.006144913109812287,
+              "composition": 0.006185820395505008,
+              "kernel": 0.00581866793342035,
+              "no_change": 0.01971537061035633,
+              "pooled": 0.006495877410367198,
+              "reduced_rank": 0.006234768436034782,
+              "selected_baseline": 0.006144913109812287,
+              "shared_residual_mean": 0.007593868300318718
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.007839277403368308,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.007820747609958554,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.007888122921233446,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.0073604699695920175,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007203546285305275,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007132468008032138,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007462048389864795,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007395425330532766,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007359839538455889,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 18,
+            "train_pairs": 70
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.008725210385663169,
+              "affine": 0.006548560164273717,
+              "kernel": 0.0071704732233708645,
+              "no_change": 0.021400314569473267,
+              "pooled": 0.006711350288668099,
+              "reduced_rank": 0.007454140422310632,
+              "shared_residual_mean": 0.008465016101087844
+            },
+            "fold": 2,
+            "kernel_selected": {
+              "config": {
+                "alpha": 1,
+                "bandwidth": 1,
+                "kind": "global_plus_pair"
+              },
+              "index": 40,
+              "mse": 0.0071704732233708645
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.00683175346039909
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.006618748954370371
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.006613655648498278
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.006548560164273717
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.006563414312464595
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.006609459284594261
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.006711350288668099
+              }
+            ],
+            "mse": {
+              "additive": 0.006541789975017309,
+              "affine": 0.004910937472244804,
+              "composition": 0.0050589250547142485,
+              "kernel": 0.005244150818319062,
+              "no_change": 0.017950037494301796,
+              "pooled": 0.005193674100335097,
+              "reduced_rank": 0.00558867330107452,
+              "selected_baseline": 0.004910937472244804,
+              "shared_residual_mean": 0.006448206026107073
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.008149317738626073,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.008176383472369127,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.008290150174551675,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007645468376827868,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007531229402489204,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007454140422310632,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007724822892309737,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007669192970785686,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007627162023649861,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 18,
+            "train_pairs": 70
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.008081320515820677,
+              "affine": 0.006164090375315843,
+              "kernel": 0.00653856243818838,
+              "no_change": 0.020485877990722656,
+              "pooled": 0.006401071199433436,
+              "reduced_rank": 0.006900652218087547,
+              "shared_residual_mean": 0.007922961468427954
+            },
+            "fold": 3,
+            "kernel_selected": {
+              "config": {
+                "alpha": 1,
+                "bandwidth": 1,
+                "kind": "global_plus_pair"
+              },
+              "index": 40,
+              "mse": 0.00653856243818838
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.006357567968363784
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.006247710855716145
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.006267783837698052
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.006164090375315843
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.006211631067922234
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.006277867121757598
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.006401071199433436
+              }
+            ],
+            "mse": {
+              "additive": 0.009102541022002697,
+              "affine": 0.0060512409049993205,
+              "composition": 0.006298384552766809,
+              "kernel": 0.006097295099522383,
+              "no_change": 0.021566201001405716,
+              "pooled": 0.00624759053974837,
+              "reduced_rank": 0.006459019786759654,
+              "selected_baseline": 0.0060512409049993205,
+              "shared_residual_mean": 0.00867390539497137
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.007469215200961897,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.007421600567838549,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.007426210816244008,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007189793298597175,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.007027932495012486,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.006900652218087547,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007369009970118852,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007315605294479673,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.00726374200225758,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 17,
+            "train_pairs": 71
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.00797146243948332,
+              "affine": 0.006103691933941368,
+              "kernel": 0.006475610604961024,
+              "no_change": 0.01977961625851376,
+              "pooled": 0.006247481468262396,
+              "reduced_rank": 0.006722813477736924,
+              "shared_residual_mean": 0.00793336184931473
+            },
+            "fold": 4,
+            "kernel_selected": {
+              "config": {
+                "alpha": 1,
+                "bandwidth": 1,
+                "kind": "global_plus_pair"
+              },
+              "index": 40,
+              "mse": 0.006475610604961024
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.006493021807784826
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.0062051483305076895
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.006150382861831406
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.006103691933941368
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.006119213590881709
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.006162721089936313
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.006247481468262396
+              }
+            ],
+            "mse": {
+              "additive": 0.009561358951032162,
+              "affine": 0.006996677953838753,
+              "composition": 0.007098826249576811,
+              "kernel": 0.007459471046036992,
+              "no_change": 0.02451588399708271,
+              "pooled": 0.0072118550347608805,
+              "reduced_rank": 0.00795117217751438,
+              "selected_baseline": 0.006996677953838753,
+              "shared_residual_mean": 0.00908399187028408
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.007179743296795688,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.007078910504511529,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.007142141927939552,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.00701757157244814,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.006861080619323903,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.006722813477736924,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.0074171813110769326,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007343368278779881,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.007295099054007411,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 17,
+            "train_pairs": 71
+          }
+        ],
+        "mse": {
+          "additive": 0.00827860157062382,
+          "affine": 0.006088763864927627,
+          "composition": 0.006213369143363775,
+          "kernel": 0.006201551514162951,
+          "no_change": 0.020694576608336443,
+          "pooled": 0.006348155651976917,
+          "reduced_rank": 0.00662986871205783,
+          "selected_baseline": 0.006088763864927627,
+          "shared_residual_mean": 0.008031561332966336
+        },
+        "uncertainty_scope": "conditional pair sampling only; shared singles/control and dependent folds, not biological calibration"
+      }
+    },
+    "wessels-expanded-protected-log2": {
+      "deployment": {
+        "alpha": 0.1,
+        "checkpoint_sha256": "321e0ba4a21368c6bc8e0a9146917bf854ddbba7333107364edb08a0f3f9b03f",
+        "gene_order_sha256": "a369d058c0e863b12e0669733eb5edbb9475b2f594816692b82455dc65d08bc2",
+        "parameters": 42360,
+        "replay_max_abs": 0.0,
+        "score": null,
+        "training_pairs": 110
+      },
+      "partner": {
+        "conditional_pair_bootstrap_loss_difference_95": [
+          5.925953818530804e-05,
+          0.00011671004756473758
+        ],
+        "coverage": [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1
+        ],
+        "covered_pairs": 110,
+        "effect_weighted_mse_per_occurrence": {
+          "additive": 0.08865813603336375,
+          "affine": 0.05225596847425114,
+          "composition": 0.053306842194982725,
+          "kernel": 0.059746411228515664,
+          "no_change": 0.22594253436318307,
+          "pooled": 0.08771055103116936,
+          "reduced_rank": 0.062058021020685895,
+          "selected_baseline": 0.05225596847425114,
+          "shared_residual_mean": 0.08581131142809846
+        },
+        "folds": [
+          {
+            "baseline_selection": {
+              "additive": 0.02578848289205786,
+              "affine": 0.010127080093501346,
+              "kernel": 0.01868404707992797,
+              "no_change": 0.01974970319879642,
+              "pooled": 0.01105688403857905,
+              "reduced_rank": 0.018829776212326527,
+              "shared_residual_mean": 0.025146757608787807
+            },
+            "fold": 0,
+            "kernel_selected": {
+              "config": {
+                "alpha": 0.001,
+                "bandwidth": 0.25,
+                "kind": "global_plus_pair"
+              },
+              "index": 17,
+              "mse": 0.01868404707992797
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.010728428846840714
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.010241018324386904
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.010428726726678836
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.010229075782166317
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.010127080093501346
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.01047328554587119
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.01105688403857905
+              }
+            ],
+            "mse": {
+              "additive": 0.022622771898245794,
+              "affine": 0.00829091340384512,
+              "composition": 0.008346108863552392,
+              "kernel": 0.014060095783924002,
+              "no_change": 0.020715353822142117,
+              "pooled": 0.00927087080039802,
+              "reduced_rank": 0.014572011022150342,
+              "selected_baseline": 0.00829091340384512,
+              "shared_residual_mean": 0.021970403395453836
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.020754093525200173,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.019182965978618207,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.018829776212326527,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.020793479592429387,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.01922534777520397,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.01890470718464674,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.022475203663832835,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.02194468881766859,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.02186738782371301,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 40,
+            "train_pairs": 70
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.019859911937584084,
+              "affine": 0.007682979020669055,
+              "kernel": 0.014162774523207258,
+              "no_change": 0.017715489837430282,
+              "pooled": 0.008699301810712573,
+              "reduced_rank": 0.014317467200026275,
+              "shared_residual_mean": 0.018823183966754344
+            },
+            "fold": 1,
+            "kernel_selected": {
+              "config": {
+                "alpha": 0.001,
+                "bandwidth": 0.25,
+                "kind": "global_plus_pair"
+              },
+              "index": 17,
+              "mse": 0.014162774523207258
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.008355691372948835
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.008006259108885253
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.008121424255200288
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.007682979020669055
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.007717955156710344
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.008079502103844952
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.008699301810712573
+              }
+            ],
+            "mse": {
+              "additive": 0.03326061070679371,
+              "affine": 0.012311764612679126,
+              "composition": 0.012590327266105771,
+              "kernel": 0.02610210025506908,
+              "no_change": 0.025281036290901105,
+              "pooled": 0.013447363804899401,
+              "reduced_rank": 0.026292040752843804,
+              "selected_baseline": 0.012311764612679126,
+              "shared_residual_mean": 0.032202222636212884
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.016591006247354087,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.015035599513569295,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.014317467200026275,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.016610705220243722,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.015132436500971439,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.01442472904307354,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.017728502290015137,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.017261413626603127,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.017090974467988,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 40,
+            "train_pairs": 70
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.027159218452231817,
+              "affine": 0.010054499079546511,
+              "kernel": 0.01886002862567818,
+              "no_change": 0.02160128824245211,
+              "pooled": 0.01087643017325718,
+              "reduced_rank": 0.01907250848640619,
+              "shared_residual_mean": 0.026244233011654194
+            },
+            "fold": 2,
+            "kernel_selected": {
+              "config": {
+                "alpha": 0.1,
+                "bandwidth": 1,
+                "kind": "global_plus_pair"
+              },
+              "index": 39,
+              "mse": 0.01886002862567818
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.010676097729097325
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.010196575780525578
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.010389748343660389
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.010105688942574053
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.010054499079546511
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.01042073519834233
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.01087643017325718
+              }
+            ],
+            "mse": {
+              "additive": 0.020449545500365426,
+              "affine": 0.008033426638648944,
+              "composition": 0.008182498957414594,
+              "kernel": 0.011306961677116647,
+              "no_change": 0.018726783367362047,
+              "pooled": 0.009373369504089764,
+              "reduced_rank": 0.01146612767569432,
+              "selected_baseline": 0.008033426638648944,
+              "shared_residual_mean": 0.019164112987161537
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.021809288688563775,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.020056400716564116,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.01907250848640619,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.021801832251790332,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.020115242384911535,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.019205040941554594,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.023424445272325716,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.022867611017541548,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.022652814883370394,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 40,
+            "train_pairs": 70
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.026384015199807757,
+              "affine": 0.009722797917839704,
+              "kernel": 0.01822852254764189,
+              "no_change": 0.02233858547629651,
+              "pooled": 0.01066088246632815,
+              "reduced_rank": 0.018394755199033136,
+              "shared_residual_mean": 0.025364023617680784
+            },
+            "fold": 3,
+            "kernel_selected": {
+              "config": {
+                "alpha": 0.001,
+                "bandwidth": 0.25,
+                "kind": "global_plus_pair"
+              },
+              "index": 17,
+              "mse": 0.01822852254764189
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.010207307528892913
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.009810803700218555
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.010059628979606943
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.009747348055262435
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.009722797917839704
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.010117852584909994
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.01066088246632815
+              }
+            ],
+            "mse": {
+              "additive": 0.02216287302225499,
+              "affine": 0.008787844904636844,
+              "composition": 0.00878367711377485,
+              "kernel": 0.014639807880320084,
+              "no_change": 0.017558970500144735,
+              "pooled": 0.00997688496547443,
+              "reduced_rank": 0.015074283919122525,
+              "selected_baseline": 0.008787844904636844,
+              "shared_residual_mean": 0.020989260136388604
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.020720257224781984,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.019368405462374488,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.018394755199033136,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.020698472842854716,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.01942137036268516,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.018541568700019936,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.022469954881248866,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.022057963531815702,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.021857764790119583,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 38,
+            "train_pairs": 72
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.025074377993790697,
+              "affine": 0.009395766442592926,
+              "kernel": 0.017918725643356632,
+              "no_change": 0.021214239690103755,
+              "pooled": 0.01041496469799014,
+              "reduced_rank": 0.018047868771169207,
+              "shared_residual_mean": 0.024525200338822103
+            },
+            "fold": 4,
+            "kernel_selected": {
+              "config": {
+                "alpha": 0.001,
+                "bandwidth": 0.25,
+                "kind": "global_plus_pair"
+              },
+              "index": 17,
+              "mse": 0.017918725643356632
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.010032492643015884
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.009539518523880254
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.009709093891375684
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.009481542494715518
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.009395766442592926
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.009731385858969053
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.01041496469799014
+              }
+            ],
+            "mse": {
+              "additive": 0.023980395884287724,
+              "affine": 0.008988922979689376,
+              "composition": 0.009008833341625515,
+              "kernel": 0.015005675068712577,
+              "no_change": 0.019750622857026074,
+              "pooled": 0.010038623957985743,
+              "reduced_rank": 0.015303723636213214,
+              "selected_baseline": 0.008988922979689376,
+              "shared_residual_mean": 0.0226737507283862
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.02041415775156633,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.018752536443439265,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.018047868771169207,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.02040146009103425,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.018889368405037937,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.018224523185980453,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.02192135476376206,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.021427401472230555,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.02128161385085791,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "affine",
+            "test_pairs": 41,
+            "train_pairs": 69
+          }
+        ],
+        "mse": {
+          "additive": 0.02469173347258911,
+          "affine": 0.009195080747623296,
+          "composition": 0.009281105893787894,
+          "kernel": 0.013700186708673961,
+          "no_change": 0.020436797456246113,
+          "pooled": 0.010341189940334266,
+          "reduced_rank": 0.013605997833259019,
+          "selected_baseline": 0.009195080747623296,
+          "shared_residual_mean": 0.02351926942993149
+        },
+        "uncertainty_scope": "conditional pair sampling only; shared singles/control and dependent folds, not biological calibration"
+      },
+      "random": {
+        "conditional_pair_bootstrap_loss_difference_95": [
+          0.000887455225261409,
+          0.001858465282519692
+        ],
+        "coverage": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "covered_pairs": 110,
+        "effect_weighted_mse_per_occurrence": {
+          "additive": 0.09480632595415799,
+          "affine": 0.049943489585181286,
+          "composition": 0.0486267341925291,
+          "kernel": 0.03211730405427278,
+          "no_change": 0.25374597389594805,
+          "pooled": 0.0865307704680965,
+          "reduced_rank": 0.04507802933599493,
+          "selected_baseline": 0.03211730405427278,
+          "shared_residual_mean": 0.08263514197113307
+        },
+        "folds": [
+          {
+            "baseline_selection": {
+              "additive": 0.023698259364705196,
+              "affine": 0.008121753498703345,
+              "kernel": 0.00784597933937148,
+              "no_change": 0.01926574227780895,
+              "pooled": 0.009297951582831416,
+              "reduced_rank": 0.009508675985610181,
+              "shared_residual_mean": 0.020978861443983685
+            },
+            "fold": 0,
+            "kernel_selected": {
+              "config": {
+                "alpha": 0.1,
+                "bandwidth": 1,
+                "kind": "global_plus_pair"
+              },
+              "index": 39,
+              "mse": 0.00784597933937148
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.008272614373636765
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.008273461164990295
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.008656122400110934
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.008121753498703345
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.008250117040505656
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.008704494433280396
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.009297951582831416
+              }
+            ],
+            "mse": {
+              "additive": 0.028665629904124763,
+              "affine": 0.010027459459449838,
+              "composition": 0.01003462316245162,
+              "kernel": 0.009081950116702712,
+              "no_change": 0.025121018169994756,
+              "pooled": 0.011500362244637727,
+              "reduced_rank": 0.012104884439782694,
+              "selected_baseline": 0.009081950116702712,
+              "shared_residual_mean": 0.025705465079650703
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.01569018595100289,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.013217506730036736,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.009508675985610181,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.015630689421188667,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.013356021745918302,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.010056002593019787,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.01733542953488952,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.01632544831774869,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.01530952189619663,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "kernel",
+            "test_pairs": 22,
+            "train_pairs": 88
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.024842842365550545,
+              "affine": 0.008722100295735084,
+              "kernel": 0.008021825357818169,
+              "no_change": 0.02094785388069663,
+              "pooled": 0.009948131346664245,
+              "reduced_rank": 0.010351438616006927,
+              "shared_residual_mean": 0.02198631300801511
+            },
+            "fold": 1,
+            "kernel_selected": {
+              "config": {
+                "alpha": 0.1,
+                "bandwidth": 1,
+                "kind": "global_plus_pair"
+              },
+              "index": 39,
+              "mse": 0.008021825357818169
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.008848574866767532
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.008851922906085436
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.009266367512392707
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.008722100295735084
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.008851925779549831
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.00933603522593389
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.009948131346664245
+              }
+            ],
+            "mse": {
+              "additive": 0.02408729790074339,
+              "affine": 0.007646694256597572,
+              "composition": 0.0077115616340512885,
+              "kernel": 0.005951458256456554,
+              "no_change": 0.018392571758444037,
+              "pooled": 0.008865888722402734,
+              "reduced_rank": 0.008577108737475955,
+              "selected_baseline": 0.005951458256456554,
+              "shared_residual_mean": 0.020887373402130288
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.015821583003914383,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.013805734114144892,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.010351438616006927,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.015848787780866253,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.013963975510005234,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.010721046019008832,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.017654360780290257,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.016855632959856814,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.015791992878107165,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "kernel",
+            "test_pairs": 22,
+            "train_pairs": 88
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.025222294079372983,
+              "affine": 0.00850558882193726,
+              "kernel": 0.007956914784214534,
+              "no_change": 0.020625498408215617,
+              "pooled": 0.009795763976614143,
+              "reduced_rank": 0.010195796790655777,
+              "shared_residual_mean": 0.022424053518404395
+            },
+            "fold": 2,
+            "kernel_selected": {
+              "config": {
+                "alpha": 0.1,
+                "bandwidth": 1,
+                "kind": "global_plus_pair"
+              },
+              "index": 39,
+              "mse": 0.007956914784214534
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.008658883573193589
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.008659796852377033
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.009088166696837513
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.00850558882193726
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.008645236812379008
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.009151954559255526
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.009795763976614143
+              }
+            ],
+            "mse": {
+              "additive": 0.02256949104545364,
+              "affine": 0.008860606155928905,
+              "composition": 0.008875189114614228,
+              "kernel": 0.00696808367022541,
+              "no_change": 0.019681993648368076,
+              "pooled": 0.010083070352211424,
+              "reduced_rank": 0.009586082141897795,
+              "selected_baseline": 0.00696808367022541,
+              "shared_residual_mean": 0.020122141237045945
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.016567433583268294,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.01385111444943108,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.010195796790655777,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.016475747261701045,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.01392310745070926,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.010540950077166546,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.018086687844362036,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.017043841265150406,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.01594800760964813,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "kernel",
+            "test_pairs": 22,
+            "train_pairs": 88
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.024813192572609277,
+              "affine": 0.008788123837032898,
+              "kernel": 0.0082057572099977,
+              "no_change": 0.02066241840596306,
+              "pooled": 0.010128965221032028,
+              "reduced_rank": 0.010504220042791734,
+              "shared_residual_mean": 0.022287745879319462
+            },
+            "fold": 3,
+            "kernel_selected": {
+              "config": {
+                "alpha": 0.1,
+                "bandwidth": 1,
+                "kind": "global_plus_pair"
+              },
+              "index": 39,
+              "mse": 0.0082057572099977
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.008912545453613642
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.008919353270457786
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.009371904772644867
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.008788123837032898
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.008921692165321404
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.00944165304680712
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.010128965221032028
+              }
+            ],
+            "mse": {
+              "additive": 0.024205897072508455,
+              "affine": 0.0075469378104090195,
+              "composition": 0.00762177892714854,
+              "kernel": 0.006899128222166308,
+              "no_change": 0.01953431365737832,
+              "pooled": 0.008454423401256596,
+              "reduced_rank": 0.00997227238383987,
+              "selected_baseline": 0.006899128222166308,
+              "shared_residual_mean": 0.021283121357610325
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.016021452226765612,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.013844325016740761,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.010504220042791734,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.01602031432427324,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.013909391341716214,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.010789229090946725,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.017947358022590246,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.016977541729992277,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.01598348995804466,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "kernel",
+            "test_pairs": 22,
+            "train_pairs": 88
+          },
+          {
+            "baseline_selection": {
+              "additive": 0.02488207898070756,
+              "affine": 0.008643173836137902,
+              "kernel": 0.008262237589535343,
+              "no_change": 0.020682474308546295,
+              "pooled": 0.00980042021681634,
+              "reduced_rank": 0.010965002743903092,
+              "shared_residual_mean": 0.022132802209676023
+            },
+            "fold": 4,
+            "kernel_selected": {
+              "config": {
+                "alpha": 0.1,
+                "bandwidth": 1,
+                "kind": "global_plus_pair"
+              },
+              "index": 39,
+              "mse": 0.008262237589535343
+            },
+            "local_search": [
+              {
+                "alpha": 0.1,
+                "family": "composition",
+                "mse": 0.008783737401362608
+              },
+              {
+                "alpha": 1.0,
+                "family": "composition",
+                "mse": 0.008765362530063462
+              },
+              {
+                "alpha": 10.0,
+                "family": "composition",
+                "mse": 0.009160384876178686
+              },
+              {
+                "alpha": 0.1,
+                "family": "affine",
+                "mse": 0.008643173836137902
+              },
+              {
+                "alpha": 1.0,
+                "family": "affine",
+                "mse": 0.008763441071430112
+              },
+              {
+                "alpha": 10.0,
+                "family": "affine",
+                "mse": 0.00923081514788504
+              },
+              {
+                "alpha": 1.0,
+                "family": "pooled",
+                "mse": 0.00980042021681634
+              }
+            ],
+            "mse": {
+              "additive": 0.02393035144011532,
+              "affine": 0.008126973180698941,
+              "composition": 0.008304649432068564,
+              "kernel": 0.006676728126131371,
+              "no_change": 0.01945409004704537,
+              "pooled": 0.00960387885466567,
+              "reduced_rank": 0.008906528491222006,
+              "selected_baseline": 0.006676728126131371,
+              "shared_residual_mean": 0.02108421007174243
+            },
+            "rank_search": [
+              {
+                "alpha": 0.1,
+                "mse": 0.016709569965762675,
+                "rank": 4
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.014365126058450483,
+                "rank": 8
+              },
+              {
+                "alpha": 0.1,
+                "mse": 0.010965002743903092,
+                "rank": 16
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.016647536987394043,
+                "rank": 4
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.014454281828875714,
+                "rank": 8
+              },
+              {
+                "alpha": 1.0,
+                "mse": 0.01140194290351394,
+                "rank": 16
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.018232044351279456,
+                "rank": 4
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.017302372255566034,
+                "rank": 8
+              },
+              {
+                "alpha": 10.0,
+                "mse": 0.016330245694194237,
+                "rank": 16
+              }
+            ],
+            "selected_baseline": "kernel",
+            "test_pairs": 22,
+            "train_pairs": 88
+          }
+        ],
+        "mse": {
+          "additive": 0.02469173347258911,
+          "affine": 0.008441734172616854,
+          "composition": 0.008509560454066848,
+          "kernel": 0.00711546967833647,
+          "no_change": 0.020436797456246113,
+          "pooled": 0.00970152471503483,
+          "reduced_rank": 0.009829375238843665,
+          "selected_baseline": 0.00711546967833647,
+          "shared_residual_mean": 0.021816462229635937
+        },
+        "uncertainty_scope": "conditional pair sampling only; shared singles/control and dependent folds, not biological calibration"
+      }
+    }
+  },
+  "decision": "close overlap candidate; retain source/split-appropriate affine or kernel reference; require new compatible pair evidence before another architecture search",
+  "exact_fold_replay": true,
+  "peak_rss_bytes": 494342144,
+  "protocol_sha256": "e075da846abaa3984b2d487e93f7c4692c690e8ac5302ff4f56f013a43cd2a60",
+  "raw_summary_sha256": "9b6ac996523e20e6efeaa3ae1c23126627ab5770a0f8571e384fb0e3b60cc642",
+  "runner_default_classification": "INSUFFICIENT EVIDENCE",
+  "scope": "exposed development only; read profiles.npz, never evaluator responses",
+  "status": "completed",
+  "wall_seconds": 33.49118730000919
+}

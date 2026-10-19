@@ -176,7 +176,11 @@ def run(output):
                 'conditional_pair_bootstrap_loss_difference_95': bootstrap(delta,config['seed'],config['bootstrap_draws']),
                 'uncertainty_scope': 'conditional pair sampling only; shared singles/control and dependent folds, not biological calibration',
                 'folds': details}
-            np.savez_compressed(output / f'{name}-{kind}-predictions.npz', **predictions, coverage=coverage)
+            # Retain only the hypothesis and its selected reference at gene level;
+            # all baseline scalar scores and selection histories remain in JSON.
+            np.savez_compressed(output / f'{name}-{kind}-predictions.npz',
+                                composition=predictions['composition'],
+                                selected_baseline=predictions['selected_baseline'], coverage=coverage)
         # Final development-only refit selected by CV, never outer scoring.
         all_indices = np.arange(len(y)); cv = fold_sets(pairs,'random',config['seed'],config['inner_folds'])
         final_scores = []

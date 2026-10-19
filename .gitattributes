@@ -6,6 +6,10 @@
 *.pdf binary
 *.zip binary
 
+# Registered composition code/data hashes bind these exact bytes.
+configs/experiments/composition_20261020.json -text
+results/composition-20261020/** -text
+
 # Downloaded CI reports retain the bytes hashed in their provenance ledger.
 results/replicated_fixed_state_v1/ci-*/**/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 
