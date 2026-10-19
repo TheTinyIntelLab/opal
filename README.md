@@ -1,4 +1,4 @@
-﻿# Opal
+# Opal
 
 Opal is The Tiny Intelligence Lab's research codebase for predicting biological perturbation responses. The current objective is a competitive specialized model for population-average double-perturbation effects given matched measured singles and examples of other pairs. Independent biological confirmation is still absent.
 
@@ -15,7 +15,7 @@ The first-principles reset is governed by the sole authoritative [plan.md](plan.
 | Expanded Wessels, 110 fitting pairs | Pair | 0.008510 | 0.007115 |
 | Expanded Wessels, 110 fitting pairs | Partner | 0.009281 | 0.009195 |
 
-These are new development folds, not the historical neural comparison or independent confirmation. Each baseline is selected inside its outer training population. Historical evaluator response files were not read. Both datasets already have research exposure, and their units differ, so do not pool these scores. [The decision report](docs/model_development_20261020.md) explains uncertainty, ablations, resources and the decision to close this candidate. [Aggregate results and the frozen protocol](results/composition-20261020/) retain all comparisons and selection histories.
+These are new development folds, not the historical neural comparison or independent confirmation. Each baseline is selected inside its outer training population. Partner folds overlap, so primary MSE scores each pair after averaging its leak-free predictions across those folds; it is not the mean single-fit fold loss. Historical evaluator response files were not read. Both datasets already have research exposure, and their units differ, so do not pool these scores. [The decision report](docs/model_development_20261020.md) explains uncertainty, ablations, resources and the decision to close this candidate. [Aggregate results and the frozen protocol](results/composition-20261020/) retain all comparisons and selection histories.
 
 The experiment completed in 33.5 seconds on one CPU/BLAS worker, with about 471 MiB peak working set and 63 MiB retained artifacts. A first attempt exceeded its output cap by retaining every baseline's prediction arrays; its unchanged compact replay reproduced all fold scores exactly. Neither overlap features nor more model capacity earned promotion. The next model requires additional compatible pair-response evidence or a separately justified endpoint and dataset extraction, rather than another local architecture sweep.
 

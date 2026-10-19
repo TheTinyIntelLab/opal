@@ -39,5 +39,25 @@
     "unavailable_links": 0
   },
   "fit_replay": "all twenty fold records exactly equal between full-retention and compact attempts",
-  "remote_verification": "pending push"
+  "remote_verification": {
+    "remote": "https://github.com/TheTinyIntelLab/opal.git",
+    "branch": "main",
+    "verified_private": true,
+    "verified_pushed_head": "bebb9c2761a136db5943bef2759086ab7780207f",
+    "remote_head_matched": true,
+    "ci_run": "https://github.com/TheTinyIntelLab/opal/actions/runs/39318415604",
+    "ci_at_check": "in_progress; clean installs running on four OS/python jobs",
+    "final_delivery_head": "reported in final handoff after this receipt commit"
+  },
+  "preserved_scratch_relocations": [
+    {
+      "from": "tmp/ci-amendment-docs",
+      "to": "D:/opal-research-20261020/preserved-ci-amendment-docs"
+    },
+    {
+      "from": "tmp/python-runtime",
+      "to": "D:/opal-research-20261020/preserved-python-runtime"
+    }
+  ],
+  "scientific_review": "numbers verified; overlapping partner ensemble aggregation clarified; no further fitting needed"
 }

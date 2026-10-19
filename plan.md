@@ -22,7 +22,7 @@ configs/experiments/composition_20261020.json is the executable registration. to
 
 Baselines are additivity, no change, shared residual mean, the existing finite profile-kernel menu, reduced-rank residual ridge, pooled overlap and gene-wise affine calibration. Each outer fold selects its strongest reference by inner MSE. Matched affine and pooled ablations test overlap features and hierarchy separately. Penalties are 0.1, 1 and 10; no post-score rescue search. Kernel reference normalization can access all measured singles, matching the declared observed-single information contract.
 
-Primary endpoint is equal-pair all-gene MSE. Secondary MSE uses training-only response-variance gene weights. Conditional pair-bootstrap intervals describe deposited-pair sampling, not independent cultures or calibrated prediction intervals. Shared singles/controls and overlapping partner folds limit uncertainty interpretation. Preserve fold results, coverage, all baseline scores, replay, checkpoint hashes, runtime, memory and storage. Final development refits have no evaluation score.
+Primary endpoint is equal-pair all-gene MSE; overlapping partner-fold predictions are averaged per pair before scoring, as frozen in the runner. Secondary MSE uses training-only response-variance gene weights. Conditional pair-bootstrap intervals describe deposited-pair sampling, not independent cultures or calibrated prediction intervals. Shared singles/controls and overlapping partner folds limit uncertainty interpretation. Preserve fold results, coverage, all baseline scores, replay, checkpoint hashes, runtime, memory and storage. Final development refits have no evaluation score.
 
 Promotion requires at least 2% lower primary MSE than the inner-selected strongest baseline in both sources and both protocols, plus a below-zero conditional random-split bootstrap upper bound. A loss rejects the hypothesis; a partial/small gain remains baseline-level or insufficient evidence. Published metrics cannot populate matched comparison tables or establish state of the art here.
 
@@ -34,7 +34,7 @@ One numerical worker, one BLAS thread, at most one hour wall time, 2 GiB process
 2. Implement candidate, ablations, safe checkpoints and frozen registration; review/test before scoring: complete.
 3. Commit protocol, profile, train/evaluate unchanged, retain results and make one continuation decision: complete. FAILED HYPOTHESIS; close overlap law. The compact retention-only replay matched every fold exactly.
 4. Remove individually audited obsolete planning dispatches; preserve scientific specifications, provenance, custody and negative evidence. Update README: complete; audit in results/composition-20261020/planning_audit.json.
-5. Run targeted/full tests, package/data checks and replay within available storage; commit lowercase batches, push origin/main, verify remote head and CI: pending.
+5. Run targeted/full tests, package/data checks and replay within available storage; commit lowercase batches, push origin/main, verify remote head and CI: local checks and push complete. All 398 tests pass; wheel/sdist, installed replay and all documentation links pass. Hosted clean-install CI is checked at delivery; its actual status is reported in the final handoff.
 
 ## Continuation and termination
 
