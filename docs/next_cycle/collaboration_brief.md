@@ -1,3 +1,5 @@
+> Closed scientific record. Dated execution and authorization statements below describe historical work. New model development follows [root plan.md](../../plan.md).
+
 # Crossed combination-response measurement brief
 
 ## Current direction, 15 October 2026
@@ -10,7 +12,7 @@ The sole forward-looking plan is [root plan.md](../../plan.md). The [evidence au
 
 The second-council `opal_context_contrast_v1` pipeline is implemented, with software checks only. The active plan/contract and [implementation guide](../frontier/context_contrast_implementation.md) supersede the historical bridge instructions below. SC01–SC08 now have executable qualification, preparation, contrast/reference/control fitting, sealed evaluation and readiness components. The fixed-context diagnostic uses both observed TNF contexts in training and no target bridges. Its numerical preparation, fitting and biological scoring require separate owner acceptance; independent confirmation remains unqualified. Frozen bridge configuration/results, old thresholds and failed attempts remain unchanged.
 
-This is a reviewable laboratory design brief, not a sent message, collaboration agreement, assay order or powered study. The active program is [../frontier/PLAN.md](../frontier/PLAN.md). The previous fixed-state brief is preserved at [../frontier/historical/collaboration_brief_before_frontier_20261011.md](../frontier/historical/collaboration_brief_before_frontier_20261011.md).
+This is a reviewable laboratory design brief, not a sent message, collaboration agreement, assay order or powered study. The active program is [../../plan.md](../../plan.md). The previous fixed-state brief is preserved at [../frontier/historical/collaboration_brief_before_frontier_20261011.md](../frontier/historical/collaboration_brief_before_frontier_20261011.md).
 
 The scientific question is whether a sparse pair screen in a new pretreatment-defined context reveals reproducible composition information that transfers to globally unmeasured pairs beyond shared expression calibration. We need crossed pair/context measurements and independently initiated cultures, not additional sample labels or cells from one culture.
 

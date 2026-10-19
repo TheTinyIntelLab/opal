@@ -1,10 +1,12 @@
+> Closed scientific record. Dated execution and authorization statements below describe historical work. New model development follows [root plan.md](../../plan.md).
+
 # Current planning scope
 
 ## Current successor status, 13 October 2026
 
 The second-council `opal_context_contrast_v1` pipeline is implemented, with software checks only. The active plan/contract and [implementation guide](../frontier/context_contrast_implementation.md) supersede the historical bridge instructions below. SC01–SC08 now have executable qualification, preparation, contrast/reference/control fitting, sealed evaluation and readiness components. The fixed-context diagnostic uses both observed TNF contexts in training and no target bridges. Its numerical preparation, fitting and biological scoring require separate owner acceptance; independent confirmation remains unqualified. Frozen bridge configuration/results, old thresholds and failed attempts remain unchanged.
 
-The active successor strategy is [the frontier plan](../frontier/PLAN.md), with a separately frozen bridge-information proposal. The analysis below records the earlier model-series rationale and evidence; it does not authorize another v2 grid or repeat the completed negative variance experiment.
+The active successor strategy is [the frontier plan](../../plan.md), with a separately frozen bridge-information proposal. The analysis below records the earlier model-series rationale and evidence; it does not authorize another v2 grid or repeat the completed negative variance experiment.
 
 # Historical assessment and research basis for the Opal model series
 

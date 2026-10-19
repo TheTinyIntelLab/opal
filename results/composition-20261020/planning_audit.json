@@ -1,0 +1,49 @@
+{
+  "removed": [
+    {
+      "path": "docs/frontier/PLAN.md",
+      "reason": "duplicate obsolete plan index"
+    },
+    {
+      "path": "docs/next_cycle/model_series_v2_plan.md",
+      "reason": "duplicate obsolete plan index"
+    },
+    {
+      "path": "docs/next_cycle/agent_prompt_benchmark_pivot.md",
+      "reason": "superseded dispatch pointer"
+    },
+    {
+      "path": "docs/next_cycle/agent_prompt_model_series.md",
+      "reason": "completed dispatch; protocols and model guides retained"
+    },
+    {
+      "path": "docs/next_cycle/agent_prompt_model_series_v2.md",
+      "reason": "superseded dispatch; frozen experiment contract retained"
+    },
+    {
+      "path": "docs/next_cycle/opal_information_custody_handoff.md",
+      "reason": "obsolete custody summary; actual measurement and outreach records retained"
+    }
+  ],
+  "local_private_preservation": [
+    {
+      "name": "context.md",
+      "sha256": "d949dd53bc4dc2d82664c3325d91f1946c53643839670f761779e4f557b2350c",
+      "bytes": 13764,
+      "disposition": "preserved verbatim outside active codebase; contains historical protocol"
+    },
+    {
+      "name": "roadmap.md",
+      "sha256": "a11d976d93c3d5f000dc63e8bd5da8adf086f7d685f453517e42a8841c799e98",
+      "bytes": 61698,
+      "disposition": "preserved verbatim outside active codebase; contains historical protocol"
+    }
+  ],
+  "retained": [
+    "scientific protocols and historical snapshots",
+    "implementation and resource receipts",
+    "outreach provenance without private correspondence",
+    "all results, models, tests, licenses, manifests and experimental configurations"
+  ],
+  "authority": "plan.md"
+}

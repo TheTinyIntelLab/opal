@@ -1,3 +1,5 @@
+> Closed scientific record. Dated execution and authorization statements below describe historical work. New model development follows [root plan.md](../../plan.md).
+
 # Active planning update, 11 October 2026
 
 ## Final workstream status, 15 October 2026
@@ -48,7 +50,7 @@ Read-only source hashing matches the existing 3,142,132,144-byte cache. There is
 
 The dated council proposal and historical sections below remain preserved as specifications/evidence, rather than permission to execute numerical work. Current implementation details and validation receipts take precedence for software status; the scientific equations, seeds, ranks, penalties and stopping rules remain fixed.
 
-The frontier investigation produced the new [integrated plan](../frontier/PLAN.md), [experiment contract](../frontier/experiment_contract.md), [coding handoff](../frontier/implementation_handoff.md) and seven specialist reports with actual [cross-examination](../frontier/cross_examination.md). This is planning completion, not successor model training. `opal_information_v1` remains complete negative, Base remains a reference, and no new biological or frontier result is claimed. The next proposed experiment supplies four target-context bridge pair outcomes and tests globally excluded pairs against equally informed calibration references. Historical status paragraphs below retain their original snapshots and are not a second active backlog.
+The frontier investigation produced the new [integrated plan](../../plan.md), [experiment contract](../frontier/experiment_contract.md), [coding handoff](../frontier/implementation_handoff.md) and seven specialist reports with actual [cross-examination](../frontier/cross_examination.md). This is planning completion, not successor model training. `opal_information_v1` remains complete negative, Base remains a reference, and no new biological or frontier result is claimed. The next proposed experiment supplies four target-context bridge pair outcomes and tests globally excluded pairs against equally informed calibration references. Historical status paragraphs below retain their original snapshots and are not a second active backlog.
 
 # Historical execution record, 8 October 2026
 

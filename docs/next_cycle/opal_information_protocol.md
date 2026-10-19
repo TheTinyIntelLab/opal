@@ -1,10 +1,12 @@
+> Closed scientific record. Dated execution and authorization statements below describe historical work. New model development follows [root plan.md](../../plan.md).
+
 # Completed measured-single information protocol
 
 ## Current successor status, 13 October 2026
 
 The second-council `opal_context_contrast_v1` pipeline is implemented, with software checks only. The active plan/contract and [implementation guide](../frontier/context_contrast_implementation.md) supersede the historical bridge instructions below. SC01–SC08 now have executable qualification, preparation, contrast/reference/control fitting, sealed evaluation and readiness components. The fixed-context diagnostic uses both observed TNF contexts in training and no target bridges. Its numerical preparation, fitting and biological scoring require separate owner acceptance; independent confirmation remains unqualified. Frozen bridge configuration/results, old thresholds and failed attempts remain unchanged.
 
-Status update, 11 October 2026: this finite study has executed and failed its advancement gate. Its protocol body below is retained as historical evidence, not an active training instruction. The next proposed information contract is [../frontier/experiment_contract.md](../frontier/experiment_contract.md), governed by the [frontier plan](../frontier/PLAN.md).
+Status update, 11 October 2026: this finite study has executed and failed its advancement gate. Its protocol body below is retained as historical evidence, not an active training instruction. The next proposed information contract is [../frontier/experiment_contract.md](../frontier/experiment_contract.md), governed by the [frontier plan](../../plan.md).
 
 This finite study tests projected variance as an added input for mean-response prediction on exposed PertSpectra data. It is development, with no biological confirmation claim. The immutable execution freeze records configuration, implementation and input hashes before any fit or score. An implementation defect requires a preserved amendment; it cannot justify a wider menu.
 

@@ -1,4 +1,4 @@
-﻿# Opal model development
+# Opal model development
 
 Authoritative forward plan, 20 October 2026. This supersedes former planning and dispatch documents. Historical protocols, source terms, private-data restrictions and results remain scientific records. The engineering workstream is closed. Current authorization covers research, fitting, cleanup, tests, commits and normal push, not external communication, purchases or publication.
 
@@ -31,9 +31,9 @@ Promotion requires at least 2% lower primary MSE than the inner-selected stronge
 One numerical worker, one BLAS thread, at most one hour wall time, 2 GiB process RSS and 128 MiB new experiment artifacts. Active environment is CPU-only. Inspect first-fold resource use before continuing. C: began full; inspected temporary documentation/runtime folders were preserved on D: to allow small edits. Outputs use D:/opal-research-20261020/. Do not delete scientific artifacts for space.
 
 1. Primary-source/code/license investigation and prior-negative audit: complete.
-2. Implement candidate, ablations, safe checkpoints and frozen registration; review/test before scoring: in progress.
-3. Commit protocol, profile, train/evaluate unchanged, retain results and make one continuation decision: pending.
-4. Remove individually audited obsolete planning dispatches; preserve scientific specifications, provenance, custody and negative evidence. Update README: pending.
+2. Implement candidate, ablations, safe checkpoints and frozen registration; review/test before scoring: complete.
+3. Commit protocol, profile, train/evaluate unchanged, retain results and make one continuation decision: complete. FAILED HYPOTHESIS; close overlap law. The compact retention-only replay matched every fold exactly.
+4. Remove individually audited obsolete planning dispatches; preserve scientific specifications, provenance, custody and negative evidence. Update README: complete; audit in results/composition-20261020/planning_audit.json.
 5. Run targeted/full tests, package/data checks and replay within available storage; commit lowercase batches, push origin/main, verify remote head and CI: pending.
 
 ## Continuation and termination
@@ -41,3 +41,7 @@ One numerical worker, one BLAS thread, at most one hour wall time, 2 GiB process
 A successful development result earns a prospective external-data experiment after verifying source terms, intervention compatibility and independent measurement lineage. It does not earn another local hyperparameter sweep. A failed overlap/hierarchy hypothesis closes this candidate and retains the strongest simple reference. Before the next model, require relevant additional pair evidence or a separately justified response-evidence endpoint with a feasible compatible extraction. Large atlas downloads, foundation training and more graph capacity are not the default next step.
 
 Independent biological confirmation remains absent. Existing outreach and qualification records are historical evidence, not active monitoring assignments. No new split, synthetic fixture or edited plan supplies independent cultures, causal identification or calibrated biological uncertainty.
+
+## Executed decision
+
+Composition MSE loses to the nested reference selector on every source/protocol: Norman pair 0.006213 versus 0.006089, Norman partner 0.006343 versus 0.006322, Wessels pair 0.008510 versus 0.007115, Wessels partner 0.009281 versus 0.009195. The affine ablation wins throughout. Do not expand this architecture. See [the decision report](docs/model_development_20261020.md) for conditional intervals, exact replay, the first storage-cap failure and measured compute. A new compatible pair-evidence source or separately justified endpoint is required before the next candidate.
