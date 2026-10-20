@@ -1,0 +1,18 @@
+{
+  "helper_sha256": "f3cf3cbb03f2cc73d26d14bc9b6a574925ea35ba3f7c208f51852eca7ecca7f2",
+  "registered_utc": "2026-10-20T21:01:40.853143+00:00",
+  "native_worker_pid": 28188,
+  "native_attempt": "E:/opal-research-next-20261021/native-block-v6",
+  "family_attempt": "E:/opal-research-next-20261021/family-v1",
+  "order": [
+    "wait for complete native selection and process exit",
+    "family select all30",
+    "native score",
+    "native replay",
+    "family score",
+    "family replay"
+  ],
+  "wait_limit_seconds": 6000,
+  "scope": "local bounded command orchestration only; registered scientific drivers enforce their own custody, caps and refusal semantics",
+  "syntax_validation": "PowerShell parser passed; no numerical experiment performed by syntax check"
+}
