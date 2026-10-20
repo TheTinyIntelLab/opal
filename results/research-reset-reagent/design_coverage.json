@@ -1,0 +1,54 @@
+{
+  "code_sha256": "07cd477976dd47d31d13109ed47e181ced2a567830288d6fdfdbab6f25a5b5aa",
+  "confirms_predictive_performance": false,
+  "eligibility": "at least two ordered constructs by design, before observed QC/single matching/splits",
+  "evidence": "design metadata only; no response/count access or numerical historical activity use",
+  "library_sha256": "c5bb66b0f3bbd1d1677ce862b5188a6a9201c47cf68e27af56e4a9a62d52a9a6",
+  "primary_changed": false,
+  "strata": {
+    "both_mismatched": {
+      "construct_count_histogram": {
+        "1": 28680,
+        "2": 2160,
+        "4": 36
+      },
+      "degree_histogram": {
+        "9": 240,
+        "248": 9
+      },
+      "designed_pairs": 30876,
+      "genes": 249,
+      "two_construct_pairs": 2196
+    },
+    "mixed": {
+      "construct_count_histogram": {
+        "2": 96120,
+        "4": 9009,
+        "8": 198
+      },
+      "degree_histogram": {
+        "249": 299,
+        "547": 249
+      },
+      "designed_pairs": 105327,
+      "genes": 548,
+      "two_construct_pairs": 105327
+    },
+    "perfect_perfect": {
+      "construct_count_histogram": {
+        "1": 28680,
+        "2": 69600,
+        "4": 46225,
+        "8": 5220,
+        "16": 153
+      },
+      "degree_histogram": {
+        "308": 240,
+        "547": 308
+      },
+      "designed_pairs": 149878,
+      "genes": 548,
+      "two_construct_pairs": 121198
+    }
+  }
+}

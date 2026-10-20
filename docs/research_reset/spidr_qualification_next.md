@@ -207,3 +207,11 @@ initiation lineage or reuse terms. Qualify those metadata first, then register a
 distinct KO-growth endpoint with target/NT singles, a fixed final-time rule and
 canonical-pair grouping. Neither source currently qualifies independent
 confirmation of an Opal predictor.
+
+## Later label-blind design decision, 21 October 2026
+
+The all-stratum audit in [design_coverage.json](../../results/research-reset-reagent/design_coverage.json) uses the same hash-verified allowlist parser after its three tests passed. Perfect/perfect has 121,198 designed pairs with at least two constructs across 548 genes; mixed has 105,327 across 548 genes; both-mismatched has 2,196 across 249 genes. Perfect/perfect excludes the 28,680 mutual pairs among 240 single-perfect-guide genes. These remain design counts before observed T0/control matching and QC, not biological results.
+
+The sole forward plan now prospectively replaces the nine-hub both-mismatched primary with perfect/perfect, while responses are still closed. Mixed and both-mismatched are secondary stress tests. This supersedes the earlier primary specification documented above; it neither retroactively changes a scored experiment nor qualifies the normalized count endpoint. The existing raw adapter retains its original hardcoded primary and needs a newly registered successor. Exact-guide information, aggregation and QC must be equal across comparators before source access.
+
+Reproduce with `python tools/audit_spidr_design.py --library C:/Users/USER/Desktop/opal-research-reset-20261020/sources/41586_2025_8815_MOESM4_ESM.zip --output <new-json-path>`. Historical activity columns are discarded without numeric conversion or use; source response counts remain unopened.

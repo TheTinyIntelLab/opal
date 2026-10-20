@@ -1,5 +1,7 @@
 # Exact-guide scalar-screen adapter
 
+Historical contract note, 21 October 2026: this raw-count adapter retains the original both-mismatched primary. The later metadata-only [design decision](spidr_qualification_next.md) and authoritative root plan supersede that future primary with perfect/perfect. Actual normalized SPIDR ingestion remains blocked pending a separately registered endpoint/role contract and equal-information tests.
+
 Q1 now has an executable source-neutral contract and synthetic aggregation QA in
 [reagent_screen.py](../../src/reagent_screen.py). It does **not** have a qualified
 parser for SPIDR's real response table. No response/count table was acquired,
