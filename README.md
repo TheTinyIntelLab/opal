@@ -97,6 +97,10 @@ A fixed reference-replacement check rejects a simple rescue: adding the unchange
 
 The scientific interpretation is that **some pair-aligned predictive signal survives within-study infection changes, while reliable cross-study unseen-pair prediction remains unestablished**. Jointly validated assay-local references and residuals, with graph-matched evaluation, are the next falsifiable requirements; neither a larger architecture nor a post-result rescue is justified by these results. The [updated paper](paper/main.pdf) and its [source-bound aggregate evidence](paper/evidence/model_development_20261020.json) preserve the exact scores, comparator exception, conditional uncertainty and exposure limits.
 
+### Locally supervised missing-block development
+
+A later preregistered experiment withheld complete within-gene-fold pair blocks in six already exposed growth tasks. Fixed rank-eight completion reduced MSE by **13.3-35.9%** against validation-selected calibrated/simple references, passed both infection-target checks, and beat all three stratified residual-label controls in every task. Exact prediction and scientific-JSON replay passed, with an independent arithmetic audit. This is local learning with measured singles and substantial source-local pair supervision among training-supported genes. It does not reverse the failed frozen-weight external result or establish untouched-source confirmation. The [exact results](docs/research_reset/block_results.md), [independent review](docs/research_reset/block_independent_review.md) and [plan](plan.md) define the limits. A separately frozen native NAIAD comparator is still running; no native superiority claim is made here.
+
 ### Closed expression candidate
 
 Hierarchical gene-local composition loses to inner-selected affine or kernel references on both sources and holdout protocols. The candidate is closed; adding capacity without compatible new pair evidence is not justified.
