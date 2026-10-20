@@ -1,0 +1,35 @@
+{
+  "scope": "synthetic software/resource qualification, not biological performance",
+  "completed_utc": "2026-10-20T16:04:46.242415+00:00",
+  "fit_seconds": 232.33605510000052,
+  "total_seconds": 232.48638349999965,
+  "peak_rss_bytes": 503033856,
+  "parameter_count": 209539,
+  "model_args": {
+    "model_type": "both",
+    "p_dropout": 0.1,
+    "d_embed": 128,
+    "d_pheno_hid": 256
+  },
+  "config": {
+    "seed": 20261022,
+    "epochs": 100,
+    "batch_size": 1024
+  },
+  "best_epoch": 99,
+  "exact_numerical_replay": true,
+  "metrics_keys": [
+    "train_loss",
+    "val_loss"
+  ],
+  "estimated_30_fit_seconds": 6970.081653000016,
+  "passes_30_fit_one_hour_estimate": false,
+  "source_worktree_bytes": 18307114,
+  "prerequisite_returncode": 0,
+  "code_hashes": {
+    "src/naiad_reference.py": "2e9794793373b47e057a674def8d607081b486a10001581c9e8578ec0f1994ab",
+    "tools/qualify_naiad.py": "f033bd21affb20c5becf89b351b587ba6bb8227d5e3f0085f7eccb488de28706",
+    "tests/test_naiad_reference.py": "b9667a52efb17e8e4761ce19321a1a778ad6dc469e47c70a93889c048ec44f8b",
+    "docs/research_reset/naiad_protocol.md": "10af267d98d08108337dd582c237af293d5be878faba0dc0862e4c432b97bb57"
+  }
+}

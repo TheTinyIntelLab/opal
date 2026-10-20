@@ -1,0 +1,253 @@
+{
+  "id": "naiad-native-resource-v3-prebiology",
+  "status": "proposal for parent registration; no biological fits",
+  "written_utc": "2026-10-20T16:07:29.383238+00:00",
+  "source_metadata_sha256": "13f361f83002ffdce85da4bc73fcc8660728514a7150d78f2eae1d26be43c881",
+  "source_metadata_path": "C:\\Users\\USER\\Desktop\\opal-research-next-20261020\\block-v1\\protocol.json",
+  "profile_sha256": "2b86c38538f064df1a44f2060fc4149f203ad5688d32ea9d6d5a37b5f75650c8",
+  "folds": {
+    "environment1": [
+      {
+        "train": 37614,
+        "validation": 9501,
+        "test": 1711,
+        "rows": 47115,
+        "batches_per_epoch": 47
+      },
+      {
+        "train": 37766,
+        "validation": 9520,
+        "test": 1540,
+        "rows": 47286,
+        "batches_per_epoch": 47
+      },
+      {
+        "train": 37157,
+        "validation": 9391,
+        "test": 2278,
+        "rows": 46548,
+        "batches_per_epoch": 47
+      },
+      {
+        "train": 37892,
+        "validation": 9556,
+        "test": 1378,
+        "rows": 47448,
+        "batches_per_epoch": 48
+      },
+      {
+        "train": 36663,
+        "validation": 9237,
+        "test": 2926,
+        "rows": 45900,
+        "batches_per_epoch": 46
+      }
+    ],
+    "environment2": [
+      {
+        "train": 37616,
+        "validation": 9501,
+        "test": 1711,
+        "rows": 47117,
+        "batches_per_epoch": 47
+      },
+      {
+        "train": 37768,
+        "validation": 9520,
+        "test": 1540,
+        "rows": 47288,
+        "batches_per_epoch": 47
+      },
+      {
+        "train": 37159,
+        "validation": 9391,
+        "test": 2278,
+        "rows": 46550,
+        "batches_per_epoch": 47
+      },
+      {
+        "train": 37894,
+        "validation": 9556,
+        "test": 1378,
+        "rows": 47450,
+        "batches_per_epoch": 48
+      },
+      {
+        "train": 36665,
+        "validation": 9237,
+        "test": 2926,
+        "rows": 45902,
+        "batches_per_epoch": 46
+      }
+    ],
+    "horlbeck_Jurkat": [
+      {
+        "train": 62717,
+        "validation": 15779,
+        "test": 2970,
+        "rows": 78496,
+        "batches_per_epoch": 78
+      },
+      {
+        "train": 62739,
+        "validation": 15757,
+        "test": 2970,
+        "rows": 78496,
+        "batches_per_epoch": 78
+      },
+      {
+        "train": 62564,
+        "validation": 15792,
+        "test": 3110,
+        "rows": 78356,
+        "batches_per_epoch": 78
+      },
+      {
+        "train": 61910,
+        "validation": 15608,
+        "test": 3948,
+        "rows": 77518,
+        "batches_per_epoch": 77
+      },
+      {
+        "train": 62520,
+        "validation": 15734,
+        "test": 3212,
+        "rows": 78254,
+        "batches_per_epoch": 78
+      }
+    ],
+    "horlbeck_K562": [
+      {
+        "train": 62717,
+        "validation": 15779,
+        "test": 2970,
+        "rows": 78496,
+        "batches_per_epoch": 78
+      },
+      {
+        "train": 62739,
+        "validation": 15757,
+        "test": 2970,
+        "rows": 78496,
+        "batches_per_epoch": 78
+      },
+      {
+        "train": 62564,
+        "validation": 15792,
+        "test": 3110,
+        "rows": 78356,
+        "batches_per_epoch": 78
+      },
+      {
+        "train": 61910,
+        "validation": 15608,
+        "test": 3948,
+        "rows": 77518,
+        "batches_per_epoch": 77
+      },
+      {
+        "train": 62520,
+        "validation": 15734,
+        "test": 3212,
+        "rows": 78254,
+        "batches_per_epoch": 78
+      }
+    ],
+    "parp2022": [
+      {
+        "train": 112676,
+        "validation": 28009,
+        "test": 3916,
+        "rows": 140685,
+        "batches_per_epoch": 139
+      },
+      {
+        "train": 109836,
+        "validation": 27422,
+        "test": 7343,
+        "rows": 137258,
+        "batches_per_epoch": 135
+      },
+      {
+        "train": 111217,
+        "validation": 27618,
+        "test": 5766,
+        "rows": 138835,
+        "batches_per_epoch": 136
+      },
+      {
+        "train": 111497,
+        "validation": 27756,
+        "test": 5348,
+        "rows": 139253,
+        "batches_per_epoch": 137
+      },
+      {
+        "train": 110457,
+        "validation": 27501,
+        "test": 6643,
+        "rows": 137958,
+        "batches_per_epoch": 135
+      }
+    ],
+    "parp2023": [
+      {
+        "train": 111291,
+        "validation": 27684,
+        "test": 3898,
+        "rows": 138975,
+        "batches_per_epoch": 137
+      },
+      {
+        "train": 108513,
+        "validation": 27109,
+        "test": 7251,
+        "rows": 135622,
+        "batches_per_epoch": 133
+      },
+      {
+        "train": 109861,
+        "validation": 27297,
+        "test": 5715,
+        "rows": 137158,
+        "batches_per_epoch": 135
+      },
+      {
+        "train": 110154,
+        "validation": 27435,
+        "test": 5284,
+        "rows": 137589,
+        "batches_per_epoch": 135
+      },
+      {
+        "train": 109171,
+        "validation": 27199,
+        "test": 6503,
+        "rows": 136370,
+        "batches_per_epoch": 134
+      }
+    ]
+  },
+  "total_train_validation_rows": 2630547,
+  "total_batches_per_epoch_across_fits": 2604,
+  "estimates_seconds": {
+    "row_scaled": 4449.085773714356,
+    "batch_scaled": 4481.504351706677,
+    "conservative_margin_and_setup": 5661.880439633346,
+    "thirty_largest": 6970.081653000016
+  },
+  "method": "Scale measured max-profile fit by total rows and minibatches; take larger estimate, add25% and2s setup perfit. Not a measured complete run.",
+  "proposed_native_only_wall_seconds": 7200,
+  "rss_bytes": 2147483648,
+  "threads": 1,
+  "fits_within_proposed_cap": true,
+  "unchanged_method": {
+    "epochs": 100,
+    "seed": 20261022,
+    "batch_size": 1024,
+    "native_defaults": true,
+    "no_biological_capacity_selection": true
+  },
+  "stop": "Stop and record incomplete full roster at cap; no epoch/width reduction or outcome-based subset selection."
+}

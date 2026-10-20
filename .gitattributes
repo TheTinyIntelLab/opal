@@ -85,3 +85,21 @@ tools/reset_reference_swap.py -text
 tests/test_reset_reference_swap.py -text
 docs/research_reset/reference_swap_protocol.md -text
 results/research-reset-*/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Next-stage registrations preserve exact code and prerequisite bytes.
+src/block_completion.py -text
+src/scalar_screen.py -text
+src/naiad_reference.py -text
+src/reagent_screen.py -text
+tools/study_block_completion.py -text
+tools/study_native_blocks.py -text
+tools/qualify_naiad.py -text
+tests/test_block_completion.py -text
+tests/test_scalar_screen.py -text
+tests/test_block_study.py -text
+tests/test_naiad_reference.py -text
+tests/test_native_block_study.py -text
+tests/test_reagent_screen.py -text
+docs/research_reset/block_protocol.md -text
+docs/research_reset/native_block_protocol.md -text
+docs/research_reset/naiad_protocol.md -text

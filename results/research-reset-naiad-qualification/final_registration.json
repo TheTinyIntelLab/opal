@@ -1,0 +1,52 @@
+{
+  "id": "naiad-native-final-prebiology-v3",
+  "written_utc": "2026-10-20T16:07:34.272745+00:00",
+  "scope": "synthetic prerequisite tests and metadata-only resource amendment; zero biological fits",
+  "revision": "9207e9e855e865160a196a6989392f6db622b0d6",
+  "canonical_lf_source_hashes": {
+    "naiad/__init__.py": "0d9a4f1d3d15a0fc13e2c108e18f7d0f9b583db6ed7ef82620a1e2cae4a3c4b3",
+    "naiad/active_learning.py": "4a8b65928be6eca9760993a694b5ceac0c0802720734532c6f8d420c17749572",
+    "naiad/models.py": "829064ba164f5ffb81b5a8f4d4baa0bb6c1de6d72498ca1d0c6525aa54976059",
+    "naiad/naiad.py": "02692a0d2dc2871c1502db1235c77937b276c3001001d65ccc1bcced73512c4c",
+    "naiad/utils.py": "81851b7424fc1c18d3afe11ab3edea7f936afa03c782aacc9b3a232ff4514145"
+  },
+  "actual_checkout_hashes": {
+    "naiad/__init__.py": "ebdd38c70ebbc919854a4c32607e23d61a6153f0bc15f8f15e5a9bd192d45628",
+    "naiad/active_learning.py": "9b10d098779c44dd40b5ab6a020ecf7861b6f0ebf101810b92e786d99419d309",
+    "naiad/models.py": "9d93ae89651adba44c059a0a9b07dfd5b29d70051c47d19d6d7a83148d761c6a",
+    "naiad/naiad.py": "8d1a30698b2afcbe22870bcb0d2ab9c3386a529669c887c46ba42408dde0fb98",
+    "naiad/utils.py": "4b9f60323ac972f8d4f217882b94766c9fabf4a16c102c4bcb62bf05469581b4"
+  },
+  "code_hashes": {
+    "src/naiad_reference.py": "aaba116dc9b3f0b6e289dcd907bb4a65ee1fcd25beca9d6c1fb221650f228296",
+    "tools/qualify_naiad.py": "f033bd21affb20c5becf89b351b587ba6bb8227d5e3f0085f7eccb488de28706",
+    "tests/test_naiad_reference.py": "eb1cbeb1cfa1a6cd992e7ab69e5b5fa0c9f1e02377d0722c008451ac32fe1bcc",
+    "docs/research_reset/naiad_protocol.md": "82548794d5e1fd48d3a5181d5845b8f666caad7a50c0d84024f4c43f93942a5f",
+    "results/research-reset-naiad-qualification/freeze_final.py": "ac2a87484a283ef789023ddd995731380f909888327602d89ed06c5eb83b82e3"
+  },
+  "dependencies": {
+    "torch": "2.9.1",
+    "numpy": "2.4.0",
+    "pandas": "2.3.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "tqdm": "4.67.1",
+    "openpyxl": "3.1.5",
+    "psutil": "7.2.2",
+    "threadpoolctl": "3.6.0"
+  },
+  "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "tests_command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "tests/test_naiad_reference.py",
+    "-q"
+  ],
+  "tests_returncode": 0,
+  "tests_output_sha256": "74c9e554e10b08378e25afaf7a41a9fcc648d63133fc09481548df2410b07307",
+  "profile_scope": "Measured v2 predates final train-row permutation/queried-single validation/newline portability changes; exact old bytes preserved v2/frozen. Native architecture/trainer/epochs/shapes unchanged; timing remains an estimate for final wrapper.",
+  "resource_amendment_sha256": "6e0cb217f65765e87532475bbc150c5f78d2be3880cd183eef76ff096261a796"
+}

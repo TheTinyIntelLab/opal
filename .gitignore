@@ -192,3 +192,7 @@ results/opal_frontier_bridge_v1/continuation-tests-20261012-a4/test_cli_template
 
 # Private correspondence must never enter Git, even in this private repository.
 /docs/frontier/outreach_register.json
+
+# Optional native-comparator synthetic states remain local; compact receipts are tracked.
+results/research-reset-naiad-qualification/**/*.npz
+results/research-reset-naiad-qualification/**/synthetic_model/

@@ -1,0 +1,1084 @@
+{
+  "code": {
+    "docs/research_reset/block_protocol.md": "c88393ea12808d6b818b411031416cf87252cdebc0dd77da0db4360cd5e9e702",
+    "src/block_completion.py": "e2320c802884346fb2c70b3e3830f7d6054491d8e20c2656c66282bef1f6d4cb",
+    "src/models/fitness.py": "631881826d198ed785ee24d77e8d7b39e8dda8e2956308f6bbc95ae694d8958b",
+    "src/scalar_screen.py": "43f7e9d80d818a93d1ab9680e04d1e80499b7385c19b002cf4ea62d340eca724",
+    "tests/test_block_completion.py": "5ea51e9a7b54d80b0ae2d9a6a4d0d7ec47162a6646c25e950b04b0153d7b7a62",
+    "tests/test_block_study.py": "ff374bef14d56aad33dc590563b801e6c4b224347300d218403798d943951d93",
+    "tests/test_scalar_screen.py": "9930cf82ce5c9bff2f178a401ff4390f25ac5980fc5dbd923226040ff3d983d3",
+    "tools/study_block_completion.py": "13b8a2f686e2b5a521cfd4c65f3d20a7eb2f41d4a5bdaacd4d6f02a7d37233ab"
+  },
+  "config": {
+    "artifact_bytes": 134217728,
+    "bootstrap_draws": 2000,
+    "control_seeds": [
+      20261023,
+      20261024,
+      20261025
+    ],
+    "minimum_permutable_fraction": 0.8,
+    "penalty": 0.01,
+    "rank": 8,
+    "reference_alphas": [
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "relative_gain_gate": 0.05,
+    "reserve_bytes": 1073741824,
+    "rss_bytes": 2147483648,
+    "seed": 20261022,
+    "steps": 500,
+    "wall_seconds": 3600
+  },
+  "created_utc": "2026-10-20T16:05:16.628705+00:00",
+  "environment": {
+    "packages": {
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.8",
+      "numpy": "2.4.0",
+      "pytest": "9.0.2",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.16.3",
+      "torch": "2.9.1"
+    },
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python": "3.14.0"
+  },
+  "evidence": "exploratory reused outcomes; missing blocks among train-supported genes, not cold genes or confirmation",
+  "files": {
+    "C:\\Users\\USER\\Desktop\\opal-external-validation-20261020\\prepared-v2\\environment1.npz": "90c65f4e4e17f2a6fa04267a7d08d80cf18e7953b833323d897d2d588ac74f47",
+    "C:\\Users\\USER\\Desktop\\opal-external-validation-20261020\\prepared-v2\\environment2.npz": "39b0844bc8ae040d4465f3700c066f2a0def7e1079f6303b9cbb63560d6292f0",
+    "C:\\Users\\USER\\Desktop\\opal-external-validation-20261020\\prepared-v2\\parp2022.npz": "0b3cf899fcf7b138482c6b1093fa0c72b0962ed006102b075f0135fef7158b81",
+    "C:\\Users\\USER\\Desktop\\opal-external-validation-20261020\\prepared-v2\\parp2023.npz": "1392657b02f7421b2b89f3a3c153bb5bfed17cc4569e470870c158bdff5c6f62",
+    "C:\\Users\\USER\\Desktop\\opal-next-data-20261020\\prepared\\profiles.npz": "7a0a6a4c7f79e79983071deb59b18d52493f4333133dfa89c100d6720b12cb94",
+    "C:\\Users\\USER\\Desktop\\opal-research-next-20261020\\block-v1\\assignments.npz": "b8e19397878eb7d224e2238a94550fd5edf8f20d6d293d514ac5ee7b8af5b522"
+  },
+  "original": "C:\\Users\\USER\\Desktop\\opal-next-data-20261020",
+  "panels": {
+    "environment1": {
+      "context": "K562_environment1",
+      "exclusions": {
+        "excluded_pairs": 0,
+        "input_pairs": 48826,
+        "low_count_pairs": 0,
+        "missing_or_low_count_local_single_pairs": 0,
+        "nonfinite_target_pairs": 0
+      },
+      "folds": [
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9974477588132078,
+              "permutable_fraction": 0.999893656617217,
+              "permutation_sha256": "311b2b37d0de9541bcf1c6d0542a311ee166e603c5a1fb1d76fae0f86bd64019",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9977933748072526,
+              "permutable_fraction": 0.999893656617217,
+              "permutation_sha256": "32051f769bbf91305b974b0147b7f61f2f1aa3ac43b9abe37eeca8d0c8190ac9",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9977667889615569,
+              "permutable_fraction": 0.999893656617217,
+              "permutation_sha256": "53e6a78a1f28a161dc75ea18836ceecc707bc42e92b35c12b2caf81582486412",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 59,
+          "test_pairs": 1711,
+          "train_pairs": 37614,
+          "unsupported_query_genes": [],
+          "validation_pairs": 9501
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9973785945029922,
+              "permutable_fraction": 0.9999470423131918,
+              "permutation_sha256": "8419159bec04347efd6ef9866b1bd3399f18138299bed5a0b489656c2781e625",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9976963406238416,
+              "permutable_fraction": 0.9999470423131918,
+              "permutation_sha256": "28c0d8d64bafc2bf3cf72dd3fda81762053a1941172d6940909e7c3cc930759d",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9975904252502251,
+              "permutable_fraction": 0.9999470423131918,
+              "permutation_sha256": "1cdcfe522da098e8e49db94ccdcbbaf6da657336ff3e3ce64f4c0e27312bbf8e",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 56,
+          "test_pairs": 1540,
+          "train_pairs": 37766,
+          "unsupported_query_genes": [],
+          "validation_pairs": 9520
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9976047581882284,
+              "permutable_fraction": 0.9999192615119628,
+              "permutation_sha256": "74616c526ac7fc30b81aaad98b3d80c2bb8a06f22d37b362a9c88a69dcc804ae",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9980353634577603,
+              "permutable_fraction": 0.9999192615119628,
+              "permutation_sha256": "76f4b9f4e42e9d4c8c324a91995eb81b42c7efa1afb6c5421c7c400b44140153",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9977124095056114,
+              "permutable_fraction": 0.9999192615119628,
+              "permutation_sha256": "c62f2f24f7e6803cf6bc6d051d2a58e06783dba7279509829b8031cc7f31e0dc",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 68,
+          "test_pairs": 2278,
+          "train_pairs": 37157,
+          "unsupported_query_genes": [],
+          "validation_pairs": 9391
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9977303916393961,
+              "permutable_fraction": 0.9999208276153277,
+              "permutation_sha256": "d4ee6f90c2ab44225a2c6c4dceb555d64d467ca5a7825fa8f4b096503286e6e1",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9978359548189591,
+              "permutable_fraction": 0.9999208276153277,
+              "permutation_sha256": "53c1f4544ae051d384f594fa0890944ef825f6ffdffdce48131ec3aef6e937e6",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9982054259474296,
+              "permutable_fraction": 0.9999208276153277,
+              "permutation_sha256": "0cde78d736a214ab3649dd9d49a3954252074de98f78f0394b6e4d30c489f848",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 53,
+          "test_pairs": 1378,
+          "train_pairs": 37892,
+          "unsupported_query_genes": [],
+          "validation_pairs": 9556
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9976270354308158,
+              "permutable_fraction": 0.9999727245451818,
+              "permutation_sha256": "8308e15c16d0800f2a8c5b123cc5a86e98c9a83fbe747c7dca44bb7e7cbc6927",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.998036167253089,
+              "permutable_fraction": 0.9999727245451818,
+              "permutation_sha256": "2f50630da5a99a58ad75a81735ab1e7f2be6fffc84d207a5425f07a0d23c258f",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9975724845211794,
+              "permutable_fraction": 0.9999727245451818,
+              "permutation_sha256": "3274f372978c89cdee3998a25979471012ee752278dbca1954e142d9e5026c57",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 77,
+          "test_pairs": 2926,
+          "train_pairs": 36663,
+          "unsupported_query_genes": [],
+          "validation_pairs": 9237
+        }
+      ],
+      "genes": 313,
+      "pairs": 48826,
+      "source": "environmental",
+      "units": "gamma"
+    },
+    "environment2": {
+      "context": "K562_environment2",
+      "exclusions": {
+        "excluded_pairs": 0,
+        "input_pairs": 48828,
+        "low_count_pairs": 0,
+        "missing_or_low_count_local_single_pairs": 0,
+        "nonfinite_target_pairs": 0
+      },
+      "folds": [
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9978200765631646,
+              "permutable_fraction": 0.9998139089749043,
+              "permutation_sha256": "554c663aa82b127ad5880aeecd3e923b93006756ded622c18272a1b90b0b3d2f",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9975276478094428,
+              "permutable_fraction": 0.9998139089749043,
+              "permutation_sha256": "b28954f285a2bd83e9565b78b3ffad4f41bf8cd76ecabc30ee232136d5451a76",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9979795831561038,
+              "permutable_fraction": 0.9998139089749043,
+              "permutation_sha256": "bc86608913c4f964805842a332e802ae28dbe6a854f61445cf2d49bcd91f6206",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 59,
+          "test_pairs": 1711,
+          "train_pairs": 37616,
+          "unsupported_query_genes": [],
+          "validation_pairs": 9501
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9978553272611734,
+              "permutable_fraction": 0.9998676127938996,
+              "permutation_sha256": "ea8fa6b88e88c319e80733e4bd03e082c58396c71ec6aacb1df4c66c5ee94e6d",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9980671467909341,
+              "permutable_fraction": 0.9998676127938996,
+              "permutation_sha256": "ca1789a37ea6d7e6b33fb3ce3bdb12ba903dc7e380984042bd11187d7ad36147",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9979082821436136,
+              "permutable_fraction": 0.9998676127938996,
+              "permutation_sha256": "29aa33976d18c280b80139523d32a334aec161f027f58b725686b892b3c8aa6b",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 56,
+          "test_pairs": 1540,
+          "train_pairs": 37768,
+          "unsupported_query_genes": [],
+          "validation_pairs": 9520
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9979547350574558,
+              "permutable_fraction": 0.999973088619177,
+              "permutation_sha256": "4f0dbeb345d0d059ac3e9acfa89f4feede329d640fde97a82eb0ffcbe1216e6f",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.997847089534164,
+              "permutable_fraction": 0.999973088619177,
+              "permutation_sha256": "3a22df3aab455ad210bfecec3ccb37a4c8d0973375ab0604b18dbe263e0ca597",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9979278236766328,
+              "permutable_fraction": 0.999973088619177,
+              "permutation_sha256": "3771a3f3f1958919b3bb11ece37303c9ba0b6923640a19813e93a0922a1f2287",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 68,
+          "test_pairs": 2278,
+          "train_pairs": 37159,
+          "unsupported_query_genes": [],
+          "validation_pairs": 9391
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.997888847838708,
+              "permutable_fraction": 0.9998944423919354,
+              "permutation_sha256": "d731816b4171b7ad255022edf78e8e554c393777d442dd88eae3177fef7f2e94",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9976249538185464,
+              "permutable_fraction": 0.9998944423919354,
+              "permutation_sha256": "92b72955d264b7106fd8d7ed31cf641972e15301b82b9cfb1388f26c73e3c468",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9979152372407242,
+              "permutable_fraction": 0.9998944423919354,
+              "permutation_sha256": "ced9b02058d2f64c8d8e184541a0b822bec582b5d97d075435d4431a12f6808c",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 53,
+          "test_pairs": 1378,
+          "train_pairs": 37894,
+          "unsupported_query_genes": [],
+          "validation_pairs": 9556
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9980090004091096,
+              "permutable_fraction": 0.999890904132006,
+              "permutation_sha256": "100ab1dc28b41404e93bf4a0b70a5ad903568ec31a142402bdd1e28c12a5ecc9",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9980635483431065,
+              "permutable_fraction": 0.999890904132006,
+              "permutation_sha256": "e9ce9644bdb1a59245a7ac0e8eb34fa2576ea21de6859bddf59f423b7afe7d8d",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.997599890904132,
+              "permutable_fraction": 0.999890904132006,
+              "permutation_sha256": "4d609a81259bb2efa13f6263e1a1527bbdd5b4d0540914e80934ef5240fd1119",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 77,
+          "test_pairs": 2926,
+          "train_pairs": 36665,
+          "unsupported_query_genes": [],
+          "validation_pairs": 9237
+        }
+      ],
+      "genes": 313,
+      "pairs": 48828,
+      "source": "environmental",
+      "units": "gamma"
+    },
+    "horlbeck_Jurkat": {
+      "context": "Jurkat",
+      "exclusions": {
+        "excluded_pairs": 0,
+        "input_pairs": 81466
+      },
+      "folds": [
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9993143804710046,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "6093f879774129d569726574c2dad3f3779f31d3c93199afc8d25a2a9925e054",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.999346269751423,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "0b5bf38a6e01aa9343e35a40cf1d759e1721e95a52e528de51b697ea3bc0e040",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9991071001482852,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "304338b44ee3509163b70dd94ef6f32c127db63d07fed6b2c35a2c9fbeb15b2e",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 81,
+          "test_pairs": 2970,
+          "train_pairs": 62717,
+          "unsupported_query_genes": [],
+          "validation_pairs": 15779
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9989958399081911,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "d4d7004984fab553ae7e5190c42ae55a2d802b1a058b66bf912e7607ec5228c2",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9991711694480307,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "ce61d952992b5dd2e5de8159161eb1f256694809449bce142444c22e701aa292",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9991711694480307,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "7c856f0073f1e036f7b88d9b84d2e4e0a5c6b04712019319aa5a649e0bd609f4",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 84,
+          "test_pairs": 2970,
+          "train_pairs": 62739,
+          "unsupported_query_genes": [],
+          "validation_pairs": 15757
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9992967201585576,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "4b3d568a63592a237c4e85f8901581360b0244331e34d1830aec6e0bb45073a0",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9993446710568378,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "d58f707ff3303129afd0ce9abbc12dd0de88e38b6144045ad90261a5eadc8452",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9991848347292372,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "43af3066c147cb18184b1326b4148776f5c72df3bb80200a17ad7d2f40494c73",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 83,
+          "test_pairs": 3110,
+          "train_pairs": 62564,
+          "unsupported_query_genes": [],
+          "validation_pairs": 15792
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9991439185915038,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "0b06767ee2132068ae5a3ede871f1d862d0789b123e09918a4288220b032aec6",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9990631561944758,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "19e7bc696745036bf36081fe6c847c9af7164dc8ceaae314fe628943a19f1868",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9987239541269585,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "1049310d8da150d9c2f0a55fc3be62e7a8a2991bd8b217e424e10f7061b35a60",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 94,
+          "test_pairs": 3948,
+          "train_pairs": 61910,
+          "unsupported_query_genes": [],
+          "validation_pairs": 15608
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9992482405630199,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "697eea27b01929229165d6beedd10c01757591aa2ce77c889f9695c8ed030679",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9990243122200896,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "49384d55f096d667c7920f42010950d2b58ff77b0048b4e4e58cbbe982a1b580",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9991682661548305,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "fa58247f5cec56fd0782a19ff05759a45386d14e34b2974117828f3ddc7cf047",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 85,
+          "test_pairs": 3212,
+          "train_pairs": 62520,
+          "unsupported_query_genes": [],
+          "validation_pairs": 15734
+        }
+      ],
+      "genes": 427,
+      "pairs": 81466,
+      "source": "Horlbeck 2018",
+      "units": "gamma"
+    },
+    "horlbeck_K562": {
+      "context": "K562",
+      "exclusions": {
+        "excluded_pairs": 0,
+        "input_pairs": 81466
+      },
+      "folds": [
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9993143804710046,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "6093f879774129d569726574c2dad3f3779f31d3c93199afc8d25a2a9925e054",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.999346269751423,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "0b5bf38a6e01aa9343e35a40cf1d759e1721e95a52e528de51b697ea3bc0e040",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9991071001482852,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "304338b44ee3509163b70dd94ef6f32c127db63d07fed6b2c35a2c9fbeb15b2e",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 81,
+          "test_pairs": 2970,
+          "train_pairs": 62717,
+          "unsupported_query_genes": [],
+          "validation_pairs": 15779
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9989958399081911,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "d4d7004984fab553ae7e5190c42ae55a2d802b1a058b66bf912e7607ec5228c2",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9991711694480307,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "ce61d952992b5dd2e5de8159161eb1f256694809449bce142444c22e701aa292",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9991711694480307,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "7c856f0073f1e036f7b88d9b84d2e4e0a5c6b04712019319aa5a649e0bd609f4",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 84,
+          "test_pairs": 2970,
+          "train_pairs": 62739,
+          "unsupported_query_genes": [],
+          "validation_pairs": 15757
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9992967201585576,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "4b3d568a63592a237c4e85f8901581360b0244331e34d1830aec6e0bb45073a0",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9993446710568378,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "d58f707ff3303129afd0ce9abbc12dd0de88e38b6144045ad90261a5eadc8452",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9991848347292372,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "43af3066c147cb18184b1326b4148776f5c72df3bb80200a17ad7d2f40494c73",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 83,
+          "test_pairs": 3110,
+          "train_pairs": 62564,
+          "unsupported_query_genes": [],
+          "validation_pairs": 15792
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9991439185915038,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "0b06767ee2132068ae5a3ede871f1d862d0789b123e09918a4288220b032aec6",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9990631561944758,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "19e7bc696745036bf36081fe6c847c9af7164dc8ceaae314fe628943a19f1868",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9987239541269585,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "1049310d8da150d9c2f0a55fc3be62e7a8a2991bd8b217e424e10f7061b35a60",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 94,
+          "test_pairs": 3948,
+          "train_pairs": 61910,
+          "unsupported_query_genes": [],
+          "validation_pairs": 15608
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9992482405630199,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "697eea27b01929229165d6beedd10c01757591aa2ce77c889f9695c8ed030679",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9990243122200896,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "49384d55f096d667c7920f42010950d2b58ff77b0048b4e4e58cbbe982a1b580",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9991682661548305,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "fa58247f5cec56fd0782a19ff05759a45386d14e34b2974117828f3ddc7cf047",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 85,
+          "test_pairs": 3212,
+          "train_pairs": 62520,
+          "unsupported_query_genes": [],
+          "validation_pairs": 15734
+        }
+      ],
+      "genes": 427,
+      "pairs": 81466,
+      "source": "Horlbeck 2018",
+      "units": "gamma"
+    },
+    "parp2022": {
+      "context": "K562_parp2022",
+      "exclusions": {
+        "excluded_pairs": 0,
+        "input_pairs": 144601,
+        "low_count_pairs": 0,
+        "missing_or_low_count_local_single_pairs": 0,
+        "nonfinite_target_pairs": 0
+      },
+      "folds": [
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9992367496183748,
+              "permutable_fraction": 0.9999556249778125,
+              "permutation_sha256": "e97251f458e6dcdb5a65e14d31c923640e3cdd4ca544cf16d7704c3182685645",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9989882494941248,
+              "permutable_fraction": 0.9999556249778125,
+              "permutation_sha256": "23ad07f5c0ad032fc7dacc8e95710da22f26ad77700ac738f8a649dc74ade0b8",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9990681245340622,
+              "permutable_fraction": 0.9999556249778125,
+              "permutation_sha256": "90960f9384fd7ccccffd98a9279e139a44319014c1155b632482d1415b64d974",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 89,
+          "test_pairs": 3916,
+          "train_pairs": 112676,
+          "unsupported_query_genes": [],
+          "validation_pairs": 28009
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9991805965257292,
+              "permutable_fraction": 0.9999726865508577,
+              "permutation_sha256": "24d3e086d34f4e03866489d945962aef08b3d3562f69236bac3014ed9c557023",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9991259696274446,
+              "permutable_fraction": 0.9999726865508577,
+              "permutation_sha256": "4396bec94af61a17efb731199fb478b0e20177c2a83d09cd1f36840c92796f54",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9991441785935394,
+              "permutable_fraction": 0.9999726865508577,
+              "permutation_sha256": "0ec7afb2ab54a8463f946ce13e94f5e9de45cc5a0a374a9b40d4d488730e444b",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 122,
+          "test_pairs": 7343,
+          "train_pairs": 109836,
+          "unsupported_query_genes": [],
+          "validation_pairs": 27422
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9991997626262172,
+              "permutable_fraction": 0.9999730257065017,
+              "permutation_sha256": "c529a5f0fdf169d31afc819c5a1e2f661855c972852db7a15d9ac09b1eba528c",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9990109425717292,
+              "permutable_fraction": 0.9999730257065017,
+              "permutation_sha256": "8af5236f07bc990c4497480d0f5288230e497e59afe32aa07a562e6a580a9c72",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9990469082963935,
+              "permutable_fraction": 0.9999730257065017,
+              "permutation_sha256": "d74150f04cabd1db5ff8f3ec4da42d87d1f6ed61e369ec93f48b04de7293bc66",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 108,
+          "test_pairs": 5766,
+          "train_pairs": 111217,
+          "unsupported_query_genes": [],
+          "validation_pairs": 27618
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.999031364072576,
+              "permutable_fraction": 0.9999820622976403,
+              "permutation_sha256": "28bdf96de854a53383b65acf98373276dfe5cb63f323a15ca81a68ab5d572a54",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9991838345426335,
+              "permutable_fraction": 0.9999820622976403,
+              "permutation_sha256": "e9b08c002e50aa4f55a0ecfa6d7a1aa586d86c4787050b1aec9e9e8e2bcda3dc",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9990582706261155,
+              "permutable_fraction": 0.9999820622976403,
+              "permutation_sha256": "91f07339a429b9587f3bf8f88757051537ca447e7644da9402a58f011bb64bd4",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 104,
+          "test_pairs": 5348,
+          "train_pairs": 111497,
+          "unsupported_query_genes": [],
+          "validation_pairs": 27756
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9991399368079886,
+              "permutable_fraction": 0.999981893406484,
+              "permutation_sha256": "1be1f38f51c78428ca0f47161ed685e29bb731fbfc5337f8a9526e72a722b032",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9989226576857962,
+              "permutable_fraction": 0.999981893406484,
+              "permutation_sha256": "89fcacf1a6cad230e5018ee0f5c57e11fe5348423ebcb51e601a688cde5328d6",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9990494038404085,
+              "permutable_fraction": 0.999981893406484,
+              "permutation_sha256": "febec5ee0cc0b15bb00f5180f460f2cb853946c811ad52c9d61cd9893a1f7f77",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 116,
+          "test_pairs": 6643,
+          "train_pairs": 110457,
+          "unsupported_query_genes": [],
+          "validation_pairs": 27501
+        }
+      ],
+      "genes": 539,
+      "pairs": 144601,
+      "source": "PARPi",
+      "units": "gamma"
+    },
+    "parp2023": {
+      "context": "K562_parp2023",
+      "exclusions": {
+        "excluded_pairs": 0,
+        "input_pairs": 142873,
+        "low_count_pairs": 0,
+        "missing_or_low_count_local_single_pairs": 0,
+        "nonfinite_target_pairs": 0
+      },
+      "folds": [
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.999038556576902,
+              "permutable_fraction": 0.9999910145474477,
+              "permutation_sha256": "b34cb1e47c6bf7130fb3b94cd5d6b67e3fd314e45e395cb9122f56bced0e195f",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9991463820075298,
+              "permutable_fraction": 0.9999910145474477,
+              "permutation_sha256": "e879ac891723aa0886f01b3d855aee67f71b9bad9b1791130d598619432ccc9d",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9988947893360649,
+              "permutable_fraction": 0.9999910145474477,
+              "permutation_sha256": "18e89cc9b325cd7bee9ab2514bbcdbb486dd5f7b75315ed21ec4dbfa03efa653",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 89,
+          "test_pairs": 3898,
+          "train_pairs": 111291,
+          "unsupported_query_genes": [],
+          "validation_pairs": 27684
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9988941417157391,
+              "permutable_fraction": 0.9999907845142978,
+              "permutation_sha256": "91ac424eafef4b4f8a67f5f7b6063050031d550549c9b44f408d4cb46a050422",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9989862965727608,
+              "permutable_fraction": 0.9999907845142978,
+              "permutation_sha256": "84bd8b5d87e1c39896caf1d92b45cf21288ddf1d79b94abfc457e072cc860ced",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.998995512058463,
+              "permutable_fraction": 0.9999907845142978,
+              "permutation_sha256": "4dcb757081dac6b73507fb0d3dc17c505bfbecad5c506c04cd46859746c59b57",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 121,
+          "test_pairs": 7251,
+          "train_pairs": 108513,
+          "unsupported_query_genes": [],
+          "validation_pairs": 27109
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9989350178862381,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "0d8e490f3054c860ccb18d860f8c2b994c08871eb9fb2e4983750bc71c9bf77f",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9990897588771266,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "60ff1adddd2ad07da634b1750e6be92db5e61ed27dc2a593aa5627a16fa6c469",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9990260419985254,
+              "permutable_fraction": 1.0,
+              "permutation_sha256": "990190110b44d91f5b593919cf4b557bd6ddb602d22e9ca39966368104b563a7",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 108,
+          "test_pairs": 5715,
+          "train_pairs": 109861,
+          "unsupported_query_genes": [],
+          "validation_pairs": 27297
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.9991103364380776,
+              "permutable_fraction": 0.9999909218003885,
+              "permutation_sha256": "833132fac6ceb3f03df0380258500d60c1ed855031442affc0f4a0d39eb84ae5",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9990467890407975,
+              "permutable_fraction": 0.9999909218003885,
+              "permutation_sha256": "eabb0ec8f6c8f0875770ad4d5d331e51e98a25e8597ade33cbf3ff78cdbd8889",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9992828222306952,
+              "permutable_fraction": 0.9999909218003885,
+              "permutation_sha256": "4f1a417dccf78305358968c7ee1d4ac7379dc0179279c4566f2afc781ccb054a",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 104,
+          "test_pairs": 5284,
+          "train_pairs": 110154,
+          "unsupported_query_genes": [],
+          "validation_pairs": 27435
+        },
+        {
+          "controls": [
+            {
+              "moved_fraction": 0.998919126874353,
+              "permutable_fraction": 0.9999908400582572,
+              "permutation_sha256": "59eb9bf2bb866d6af797f662a485e82aa8f6b9673bf19298feeae7c8364d38a4",
+              "seed": 20261023,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.9990748458839802,
+              "permutable_fraction": 0.9999908400582572,
+              "permutation_sha256": "4e88a278e4960d8b3e916ffb2950ce4e05f2a93447d5054dc414d9b8b8e1f91c",
+              "seed": 20261024,
+              "sufficient": true
+            },
+            {
+              "moved_fraction": 0.998919126874353,
+              "permutable_fraction": 0.9999908400582572,
+              "permutation_sha256": "999619d0802c3251f03317b58ffce94f662d9286c8ad3ec4a5d0b23c9639c405",
+              "seed": 20261025,
+              "sufficient": true
+            }
+          ],
+          "eligible": true,
+          "test_genes": 115,
+          "test_pairs": 6503,
+          "train_pairs": 109171,
+          "unsupported_query_genes": [],
+          "validation_pairs": 27199
+        }
+      ],
+      "genes": 537,
+      "pairs": 142873,
+      "source": "PARPi",
+      "units": "gamma"
+    }
+  },
+  "prepared": "C:\\Users\\USER\\Desktop\\opal-external-validation-20261020\\prepared-v2"
+}
