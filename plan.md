@@ -1,6 +1,6 @@
 # Opal research plan after external validation
 
-Updated 20 October 2026. This is the sole authoritative forward plan. Frozen protocols and dated reports record evidence, not parallel backlogs. The previous plan is preserved in [the archive](docs/frontier/historical/plan-before-research-reset-20261020.md.txt). Keep historical models, negative results, provenance and reproducibility assets.
+Updated 21 October 2026. This is the sole authoritative forward plan. Frozen protocols and dated reports record evidence, not parallel backlogs. The previous plan is preserved in [the archive](docs/frontier/historical/plan-before-research-reset-20261020.md.txt). Keep historical models, negative results, provenance and reproducibility assets.
 
 ## Decision and first capability
 
