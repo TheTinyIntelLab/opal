@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "seed": 20261021,
+  "objective": "predict measured mean double-CRISPRi growth gamma for new pairs of supported genes in K562 and Jurkat",
+  "split": "60/20/20 train/validation/test canonical gene pairs; same assignment in both contexts, all guides/orientations grouped",
+  "candidate": "joint shared-plus-private symmetric indefinite low-rank residual completion",
+  "ranks": [8, 16],
+  "penalties": [0.001, 0.01],
+  "steps": 500,
+  "validation_interval": 25,
+  "learning_rate": 0.03,
+  "reference_alphas": [1.0, 100.0, 10000.0],
+  "reference_families": ["zero", "additive", "minimum", "calibration", "node", "independent", "pooled"],
+  "primary": "mean context-normalized test MSE, using training-only target variances; also require per-context raw MSE gains",
+  "secondary": ["per-context raw MSE and Pearson correlation", "replicate agreement MSE as descriptive measurement diagnostic"],
+  "promotion": "at least 2 percent lower test MSE than validation-selected strongest reference in BOTH contexts; paired conditional bootstrap loss-difference upper bounds below zero",
+  "bootstrap_draws": 2000,
+  "resource_caps": {"threads": 1, "wall_seconds": 3600, "rss_bytes": 2147483648, "experiment_bytes": 67108864},
+  "no_rescue": "one fixed menu and seed; no retuning after test scoring; no expression, cold-gene or independent-lab claim"
+}

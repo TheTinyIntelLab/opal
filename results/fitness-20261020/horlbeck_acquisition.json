@@ -1,0 +1,52 @@
+{
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE116nnn/GSE116198/suppl/GSE116198_sgRNA_pair_phenotypes.txt.gz",
+  "bytes": 112096990,
+  "sha256": "ba9772f3b0e929bcf5b23bebf17d4caab86c7f2ccd50dbd62fbc47e40c2aac21",
+  "download_seconds": 79.83951340001659,
+  "study_doi": "10.1016/j.cell.2018.06.010",
+  "geo": "GSE116198",
+  "dataset_doi": "10.17632/rdzk59n6j4.1",
+  "dataset_license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_evidence": "Mendeley study dataset page explicitly lists CC BY4.0, independently DataCite rightsList includes CC BY4 with expired 2018-07-19 embargo. GEO underlying deposition has no separate explicit license inspected yet.",
+  "dataset_url": "https://data.mendeley.com/datasets/rdzk59n6j4/1",
+  "acquired_utc": "2026-10-20",
+  "guide_metadata": {
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE116nnn/GSE116198/suppl/GSE116198_GImap_sgRNA_sequences_barcodes.txt.gz",
+    "bytes": 36505,
+    "sha256": "84a785108a5bf830ce2ee569e14757fe5c31738ba6d88c95206f38a0b1bbc150",
+    "rows": 1022,
+    "negative_control_prefix": "negative_control-"
+  },
+  "schema": {
+    "format": "gzip tsv",
+    "header_rows": 3,
+    "blank_row_after_header": true,
+    "pair_separator": "++",
+    "gene_parser": "name.split(\"_\")[0], matching official generatePhenotypeMatrix",
+    "numeric_columns": "Jurkat then K562; each Barcode Sequencing then Triple Sequencing then sgRNA Sequencing; each Replicate 1, Replicate 2, Replicate average",
+    "triple_sequencing_columns_zero_based_including_pair_id": {
+      "Jurkat": [
+        4,
+        5,
+        6
+      ],
+      "K562": [
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "primary_methods_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6426455/",
+  "methods_findings": [
+    "Replicate infections independent. Gamma is endpoint/T0 log2 enrichment, negative-control centered and divided by cell doublings.",
+    "Single-guide response obtained from pairs with negative control in other position.",
+    "Published GI scores fit quadratic expectation against all pairs for each query, normalize by negative-control/query variance and symmetrize; avoid as model input and use raw growth phenotype target to avoid global pair-derived label construction.",
+    "All guide variants and ordered orientations for a gene pair must share split.",
+    "Gene panel enriched for growth-essential genes, so cannot claim genome-wide or cross-cell-type generalization."
+  ],
+  "author_code_url": "https://github.com/mhorlbeck/GImap_tools",
+  "author_code_license": "MIT (checked repository LICENSE)",
+  "license_scope_caveat": "CC BY4 is verified for author Mendeley dataset, whose description includes raw read counts and intermediate processing files. GEO is author-linked deposition for the same study. Exact file identity against Mendeley could not be proven because Mendeley API returns Cloudflare403. Do not claim the GEO file itself explicitly carries a CC license. Use as publicly deposited research data with attribution; raw dataset is kept outside git."
+}
