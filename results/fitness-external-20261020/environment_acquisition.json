@@ -1,0 +1,113 @@
+{
+  "files": [
+    {
+      "filename": "GSE312636_GI_expt1_counts.txt.gz",
+      "bytes": 8996156,
+      "sha256": "105353899a4b91bc5446bfacc20ee91a13ff6bf17f8d53805fc8bb543f2a1403"
+    },
+    {
+      "filename": "GSE312636_GI_expt2_counts.txt.gz",
+      "bytes": 11452826,
+      "sha256": "f9f5c85fc81e366709fd5d42f1c3c85388f00ab19624e14ebede53f72e09080b"
+    },
+    {
+      "filename": "mmc3.xlsx",
+      "bytes": 31773,
+      "sha256": "2ea501e7e9af13c40e89f10b310ac914084068a8ff5aa848a99e66b2fa5c8b8d"
+    },
+    {
+      "filename": "call_genetic_interactions.ipynb",
+      "bytes": 55611,
+      "sha256": "97b3dae8dbfbc6f06e02b5a3f11d2b4530b7824e4dec7e5bd0ba8c85ae687a6c"
+    }
+  ],
+  "article": "https://doi.org/10.1016/j.molcel.2026.01.025",
+  "article_license": "CC-BY-4.0 verified JATS; counts independently publicly deposited GEO, not broad license assertion",
+  "samples": {
+    "expt1_rep1": {
+      "t0": "GSM9350639",
+      "reference": "GSM9350641",
+      "doublings": 9.632926829
+    },
+    "expt1_rep2": {
+      "t0": "GSM9350640",
+      "reference": "GSM9350642",
+      "doublings": 9.559756098
+    },
+    "expt2_rep1": {
+      "t0": "GSM9350645",
+      "reference": "GSM9350647",
+      "doublings": 5.761137265
+    },
+    "expt2_rep2": {
+      "t0": "GSM9350646",
+      "reference": "GSM9350648",
+      "doublings": 6.324829553
+    }
+  },
+  "model_supported_target_genes": [
+    "AURKA",
+    "BOD1L1",
+    "C14orf2",
+    "CDK1",
+    "CENPK",
+    "CENPM",
+    "COG3",
+    "COQ2",
+    "COX6C",
+    "CTNNBL1",
+    "CYB5B",
+    "DAP3",
+    "DDX23",
+    "DMAP1",
+    "ELP4",
+    "ERH",
+    "GINS4",
+    "HBS1L",
+    "HCCS",
+    "HUS1",
+    "ICT1",
+    "IMPDH2",
+    "LEO1",
+    "LUC7L3",
+    "MAPKAP1",
+    "MAX",
+    "MED23",
+    "METAP2",
+    "METTL17",
+    "MINOS1",
+    "MTERFD1",
+    "MTOR",
+    "NDUFA8",
+    "NDUFA9",
+    "NFE2L1",
+    "OPA1",
+    "PDSS2",
+    "PITRM1",
+    "POLA1",
+    "POLE",
+    "PPP2R1A",
+    "PPP2R2A",
+    "PRIM2",
+    "PRMT5",
+    "RBM17",
+    "RFC4",
+    "RFC5",
+    "ROMO1",
+    "RPA1",
+    "RRM2",
+    "SEC22B",
+    "SFXN1",
+    "SLC7A1",
+    "SNRNP70",
+    "TFB1M",
+    "TIMELESS",
+    "TIPIN",
+    "TMEM261",
+    "TRNAU1AP",
+    "TRRAP",
+    "UBA3",
+    "VPS29",
+    "ZNF574"
+  ]
+}

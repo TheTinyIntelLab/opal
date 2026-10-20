@@ -1,0 +1,108 @@
+{
+  "cohorts": {
+    "environment1": {
+      "coverage_filter": "guide mean replicate T0 median >35 in both orientations; construct both T0 >50",
+      "double_nt_controls": 167,
+      "doublings": [
+        9.632926829,
+        9.559756098
+      ],
+      "excluded_guides": 2,
+      "genes": 313,
+      "input_constructs": 407044,
+      "missing_required_count_constructs": 0,
+      "native_filter": false,
+      "nt_log2_centers": [
+        1.260841941708751,
+        1.446194658197561
+      ],
+      "output_sha256": "90c65f4e4e17f2a6fa04267a7d08d80cf18e7953b833323d897d2d588ac74f47",
+      "pairs": 48826,
+      "retained_constructs": 399897,
+      "singles": 313,
+      "source_path": "environment/GSE312636_GI_expt1_counts.txt.gz",
+      "source_sha256": "105353899a4b91bc5446bfacc20ee91a13ff6bf17f8d53805fc8bb543f2a1403"
+    },
+    "environment2": {
+      "coverage_filter": "guide mean replicate T0 median >35 in both orientations; construct both T0 >50",
+      "double_nt_controls": 169,
+      "doublings": [
+        5.761137265,
+        6.324829553
+      ],
+      "excluded_guides": 2,
+      "genes": 313,
+      "input_constructs": 407044,
+      "missing_required_count_constructs": 2023,
+      "native_filter": false,
+      "nt_log2_centers": [
+        0.8914740957554398,
+        0.9046332846952998
+      ],
+      "output_sha256": "39b0844bc8ae040d4465f3700c066f2a0def7e1079f6303b9cbb63560d6292f0",
+      "pairs": 48828,
+      "retained_constructs": 402938,
+      "singles": 313,
+      "source_path": "environment/GSE312636_GI_expt2_counts.txt.gz",
+      "source_sha256": "f9f5c85fc81e366709fd5d42f1c3c85388f00ab19624e14ebede53f72e09080b"
+    },
+    "parp2022": {
+      "coverage_filter": "guide mean replicate T0 median >35 in both orientations; construct both T0 >50",
+      "double_nt_controls": 3011,
+      "doublings": [
+        7.19,
+        7.73
+      ],
+      "excluded_guides": 16,
+      "genes": 543,
+      "input_constructs": 1301881,
+      "missing_required_count_constructs": 0,
+      "native_filter": true,
+      "nt_log2_centers": [
+        0.7805927335901364,
+        0.7041179005207786
+      ],
+      "output_sha256": "0b3cf899fcf7b138482c6b1093fa0c72b0962ed006102b075f0135fef7158b81",
+      "pairs": 144601,
+      "retained_constructs": 1219918,
+      "singles": 539,
+      "source_path": "parp/screen2022_raw_counts.zip",
+      "source_sha256": "e72067bdc280ea8ed41c5a629273068eadc939db5194e6590b395526340e052e"
+    },
+    "parp2023": {
+      "coverage_filter": "guide mean replicate T0 median >35 in both orientations; construct both T0 >50",
+      "double_nt_controls": 2962,
+      "doublings": [
+        8.04,
+        7.98
+      ],
+      "excluded_guides": 30,
+      "genes": 543,
+      "input_constructs": 1301881,
+      "missing_required_count_constructs": 0,
+      "native_filter": true,
+      "nt_log2_centers": [
+        0.7650428127101523,
+        0.7531086652022474
+      ],
+      "output_sha256": "1392657b02f7421b2b89f3a3c153bb5bfed17cc4569e470870c158bdff5c6f62",
+      "pairs": 142873,
+      "retained_constructs": 1153489,
+      "singles": 537,
+      "source_path": "parp/screen2023_raw_counts.zip",
+      "source_sha256": "1b3ecdc668e4bf693987dc00e9eb93ae8e5f1d5e5f78f694fbfe7096519dbb96"
+    }
+  },
+  "environment_filter_departure": "Official environmental pipeline uses endpoint coverage; prespecified T0-only filter avoids conditioning inclusion on external outcomes.",
+  "normalization": "pseudocount10 after T0 QC; all surviving construct fractions; NT+NT median centered log2 reference/T0 per population doubling",
+  "pair_eligibility": "different target genes; >=2 ordered guide observations in each of two biological replicates; no outcome-magnitude or correlation filtering",
+  "preparer_sha256": "358c5db865f9d44590b839168c8ed336266594a0966a78fa6588bba4e6c9c3f3",
+  "replication": "two independent infections per cohort; guide pairs, orientations and technical sequencing repeats are not biological replicates",
+  "scoring_performed": false,
+  "seconds": 23.978945700000622,
+  "sources": {
+    "environment": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE312636",
+    "parp": "https://github.com/simpsondl/parpi-manuscript/tree/a66c13fecbaab0cf026a380343b7d6a9f860afb3"
+  },
+  "target": "mean ordered-guide reference gamma within each independent infection replicate"
+}

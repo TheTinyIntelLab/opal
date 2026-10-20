@@ -1,0 +1,119 @@
+{
+  "source_repository": "https://github.com/simpsondl/parpi-manuscript",
+  "source_commit": "a66c13fecbaab0cf026a380343b7d6a9f860afb3",
+  "source_license": "CC BY 4.0; repository README explicitly describes code and data; LICENSE root applies Work",
+  "article": "https://doi.org/10.1101/2023.08.19.553986",
+  "article_license": "CC BY-NC-ND 4.0; article distinct from explicitly licensed repository data",
+  "source_accession": "GSE284018",
+  "normalization": "filter guide mean across R1/R2 of within-position median T0 count <=35 in either position; filter constructs with T0 R1 or R2 <=50; add10 pseudocount to surviving counts; normalize fractions over allsurvivors; compute log2(DMSO/T0); subtract NT+NTmedian; divide doublings",
+  "doublings": {
+    "2022": [
+      7.19,
+      7.73
+    ],
+    "2023": [
+      8.04,
+      7.98
+    ]
+  },
+  "biological_replicates": "two independently transduced R1/R2 within each2022 and2023 screen; 2022three sequencingrepeatsmergedcountsaretechnical",
+  "downloads": {
+    "2022": "https://raw.githubusercontent.com/simpsondl/parpi-manuscript/a66c13fecbaab0cf026a380343b7d6a9f860afb3/manuscript_data/counts/screen2022_raw_counts.zip",
+    "2023": "https://raw.githubusercontent.com/simpsondl/parpi-manuscript/a66c13fecbaab0cf026a380343b7d6a9f860afb3/manuscript_data/counts/screen2023_raw_counts.zip"
+  },
+  "files": {
+    "config_config.yaml": {
+      "bytes": 1352,
+      "sha256": "614eecb2959f3ca91aa2c3ddca14601de55098541b0056ac00ded522aac252d3"
+    },
+    "GSE284018.soft": {
+      "bytes": 4045,
+      "sha256": "9cad3c1a609fd0f49ad41c5b3059efcc06bcebb7d72059497e317b918834f6ce"
+    },
+    "GSE284018_sgRNA_reference_library.fasta.gz": {
+      "bytes": 17165,
+      "sha256": "fd121321ab2c2e5642d61e00c893cd9dcee8ccac1d8e4aa189bf30d7dd279f18"
+    },
+    "GSM8676222.soft": {
+      "bytes": 9864,
+      "sha256": "d7506cbed44920d72a0d186a354b4163e6653325bf6ef4b9c94f0eba308dc0d5"
+    },
+    "gsm8676224.html": {
+      "bytes": 21321,
+      "sha256": "891f0246725226fa8c234b83fe6d8fa65613b1bd81bcbc121622951ab30d115a"
+    },
+    "GSM8676224.soft": {
+      "bytes": 9923,
+      "sha256": "a3e01992d26fa1c82f7b4acb023e0f78f93aed8a9b3f379dc9bc8c26229b5e14"
+    },
+    "GSM8676228.soft": {
+      "bytes": 9864,
+      "sha256": "9d57a8b9df227fb8245cf704b18fa45447894591f9bdf9c7141f5bd60dfec21e"
+    },
+    "GSM8676230.soft": {
+      "bytes": 9923,
+      "sha256": "2d7f08180c63d90e05ab051f58d93638417eb0c52b09d51ddd23c24b8e88fc96"
+    },
+    "guides.fasta": {
+      "bytes": 54757,
+      "sha256": "648c03676bdd0fb3bd0f6bbecd60734a971ed9c8f95d141324d3e8fe600a90fc"
+    },
+    "LICENSE": {
+      "bytes": 1011,
+      "sha256": "3b65c5c72094dc1b214a27570afeeba4023e4c3da62f5b08bc0b1694c7797612"
+    },
+    "map.html": {
+      "bytes": 256961,
+      "sha256": "32627256690bcc5ef8bbe87f68e0a03bc46782703a2d4c834b13984f938f8b3d"
+    },
+    "metadata_overlap.json": {
+      "bytes": 416,
+      "sha256": "0efd5f8957511be3c7d14212226f93618c4764079f240aab4195e100c7e2db3c"
+    },
+    "PMC10462155.xml": {
+      "bytes": 335537,
+      "sha256": "6f2b4c1f01d3ece27e1b5f83cedb8a6bdd89eb0113f67c51cf7ca2e52fd21723"
+    },
+    "README.md": {
+      "bytes": 5229,
+      "sha256": "2d6e68c4f720e997faff365cfd64ba71ae6f1e7f1f68fbe08a80ed76cf3f5091"
+    },
+    "screen2022_raw_counts.zip": {
+      "bytes": 29626213,
+      "sha256": "e72067bdc280ea8ed41c5a629273068eadc939db5194e6590b395526340e052e"
+    },
+    "screen2023_raw_counts.zip": {
+      "bytes": 28617180,
+      "sha256": "1b3ecdc668e4bf693987dc00e9eb93ae8e5f1d5e5f78f694fbfe7096519dbb96"
+    },
+    "tree.json": {
+      "bytes": 14594,
+      "sha256": "d597692a81c5bd88bf1f805c7e1a228d448733a7a7b2964fd68853ca778c229b"
+    },
+    "workflow_rules_preprocess.smk": {
+      "bytes": 2961,
+      "sha256": "42b8d1c26693d406857dc02a42c371df21ad46f7880772997d69b91d27dbd41f"
+    },
+    "workflow_scripts_apply_correlation_filter.R": {
+      "bytes": 6048,
+      "sha256": "810bd483d063811911e505153b550ceb54b8d66d42ddc16767da8b42c6435457"
+    },
+    "workflow_scripts_apply_filters.R": {
+      "bytes": 4181,
+      "sha256": "75c8f4a9805dd682582100a7be45d2202b8f85f29952d1396fca19a5e2b3d12e"
+    },
+    "workflow_scripts_calculate_gene_level_scores.R": {
+      "bytes": 2429,
+      "sha256": "df3729ecf55c9feb9531cbf13d7a2e77f478d6e94fe0c6fcace3897ebe78d7e9"
+    },
+    "workflow_scripts_calculate_phenotypes.R": {
+      "bytes": 4011,
+      "sha256": "3611103ba99f105f7951e122e03b83b0c531e0f20104ad567f0758f8b38f5329"
+    },
+    "workflow_scripts_helper_functions.R": {
+      "bytes": 22802,
+      "sha256": "4400bba42c8d67d2077b6b626f521cfbf7330cd7539bbc6027baa59bb217cac5"
+    }
+  },
+  "not_scored": true
+}

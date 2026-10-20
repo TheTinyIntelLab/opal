@@ -1,0 +1,36 @@
+{
+  "objective": "zero-shot K562 untreated/DMSO measured growth gamma source transfer",
+  "cohorts": [
+    "environment1",
+    "environment2",
+    "parp2022",
+    "parp2023"
+  ],
+  "independence": "four cohorts from two later studies with two independently transduced infections each; shared lab lineage, not independent laboratories",
+  "model": "unchanged validation-selected K562 independent completion; original singles and coefficients; no external fitting or normalization regression",
+  "primary_population": "distinct supported-gene pairs absent from entire original eligible bank; minimum 50 pairs and 10 genes per cohort",
+  "other_strata": "original test previously scored; original validation selection-exposed; original train repeatability only",
+  "coverage": "whole-library filtering before gene selection; mean across infections of each guide's within-position median T0 count must exceed 35 in BOTH positions; both construct T0 counts must exceed 50; common construct panel across infections; at least two distinct ordered guide constructs per canonical pair",
+  "normalization": "add 10 to counts, log2 reference endpoint/T0, subtract surviving negative-negative median per infection, divide author reference cumulative doublings; sequencing fraction normalization cancels after control centering",
+  "environment_deviation": "T0-only coverage replaces author's endpoint-count guide filter, declared before scoring to avoid selecting on depletion; not exact published-score reproduction",
+  "aggregation": "equal ordered guide construct weights within infection, then equal infection weights; orientations and technical reads are not biological replicates",
+  "baselines": [
+    "frozen original calibrated main effects",
+    "original single sum",
+    "original single minimum",
+    "zero"
+  ],
+  "secondary": "external measured single sum and minimum, extra-information assay-shift diagnostic only, no fitted calibration",
+  "metrics": "MSE primary on mean of two infection gamma targets; MAE/bias/Pearson and each infection separately; replicate disagreement descriptive only",
+  "uncertainty": "2000 pair-resampling and gene-resampling draws seed 20261020; resample unique genes with replacement and edge weight multiplicity(a)*multiplicity(b); discard zero-total draws and record actual count; conditional on measured cultures, not biological-population intervals",
+  "success": "all four cohorts qualify; in every cohort completion mean-target MSE at least 2% below frozen main effects, lower MSE in each infection, gene-resampling upper 95% loss-difference bound below zero, and no mean-target loss to other frozen simple baselines",
+  "failure": "no rescue tuning, no retraining, no primary-panel expansion; evaluate assay-shift diagnostics and identify a falsifiable next hypothesis only",
+  "budget": {
+    "workers": 1,
+    "wall_seconds": 3600,
+    "peak_rss_bytes": 2147483648,
+    "new_artifact_bytes": 134217728
+  },
+  "distribution": "raw counts, derived numeric banks and model assets local only; source rights remain separate",
+  "missing_counts": "Blank required T0/reference counts are unavailable, never zero-imputed; exclude incomplete constructs before normalization; record exclusions and possible dropout bias."
+}

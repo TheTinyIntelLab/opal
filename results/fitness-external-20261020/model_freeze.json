@@ -1,0 +1,24 @@
+{
+  "purpose": "pre-external-scoring freeze; existing K562 predictor without refitting or external single replacement",
+  "files": {
+    "C:\\Users\\USER\\Desktop\\opal-next-data-20261020\\fitness-reference-model\\manifest.json": "4c4b89ff448ed032a66040c6b6cffd78657b9999054ef8759ff809e6fb9133f9",
+    "C:\\Users\\USER\\Desktop\\opal-next-data-20261020\\fitness-reference-model\\independent-r16-p0.01.npz": "6b7845a2b0342340d46bc996d8f5e98d3110956582e03f53638e0fb0b37c69d1",
+    "C:\\Users\\USER\\Desktop\\opal-next-data-20261020\\fitness-reference-model\\independent-r8-p0.01.npz": "62916073d0ec43d80f2cefa6b8a25d09f55f48a50763380a1e1dd0035acec0cf",
+    "C:\\Users\\USER\\Desktop\\opal-next-data-20261020\\fitness-reference-model\\reference.npz": "c085752f39c1fb771fd8feedcde66de4848f3a52e86ebbd6ef1439ad5aaf2070",
+    "C:\\Users\\USER\\Desktop\\opal-next-data-20261020\\fitness-v1\\protocol.json": "a10d4ec40bee3d15e3b5edf8c0043cc8b74ba844c94b9ddad29f81ca8819a068",
+    "C:\\Users\\USER\\Desktop\\opal-next-data-20261020\\fitness-v1\\results.json": "1867d9147d9b1233ddbc210898ca4fb548ac902bc45dcc16c28191d0aa361629",
+    "C:\\Users\\USER\\Desktop\\opal-next-data-20261020\\fitness-v1\\assignment.npz": "fe1bc4656ddecf73600ab3304ee04b497be34dbcc37e0c8ddd5babad27a6550f",
+    "C:\\Users\\USER\\Desktop\\opal-next-data-20261020\\prepared\\profiles.npz": "7a0a6a4c7f79e79983071deb59b18d52493f4333133dfa89c100d6720b12cb94",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\src\\models\\fitness.py": "631881826d198ed785ee24d77e8d7b39e8dda8e2956308f6bbc95ae694d8958b",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\src\\models\\fitness_inference.py": "d3803d2900d315cf4fe8851127129f52f81d8f38452c7be6b8025a30f4c53318"
+  },
+  "source_commit": "1fc0086e8e3c6bb3398a7fdd594a1988dc8b6afa",
+  "baseline_information": "unchanged original singles and calibrated reference coefficients; no external pair labels or singles used to fit",
+  "strata": [
+    "absent_original_eligible_bank",
+    "original_test",
+    "original_validation",
+    "original_train"
+  ],
+  "restrictions": "validation pair labels influenced checkpoint selection; original-test pairs were previously scored; train pairs only repeatability"
+}
