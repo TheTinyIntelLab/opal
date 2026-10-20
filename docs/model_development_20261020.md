@@ -116,3 +116,65 @@ The original runner stored residual checkpoints and reference predictions, but n
 The next evidence needed is an independent compatible growth screen, preferably with repeat-level measurements and overlapping genes, to test whether the within-source completion gain survives. New-gene prediction would require separately sourced gene features and a node-held split. Neither objective is silently added to this experiment, and the failed expression candidate remains closed.
 
 Validation for this follow-up passes all 401 tests in 54.10 seconds, wheel/sdist builds, installed-wheel composite replay, original frozen source hashes, data hashes and 93 rendered documents with zero missing local links. Hosted CI and final remote head are checked at delivery; the exact verification receipt is in results/fitness-20261020/validation.json.
+
+## Independent external reference-growth validation
+
+Outcome: **FAILED HYPOTHESIS** for superiority of the unchanged K562 predictor after source transfer. Registration b963598 froze original model assets, reference coefficients, singles, split assignments, preprocessing, external panels and predictions before external outcomes were scored. No model was retrained, selected or recalibrated. The within-source K562/Jurkat results above remain unchanged.
+
+### Qualified sources and rights
+
+Three specialist investigations inspected primary methods, count schemas, source terms, guide overlap and biological replication before bounded downloads. The environmental source is Herken et al., [Large-scale mapping of environmental-genetic interactions](https://doi.org/10.1016/j.molcel.2026.01.025), [GSE312636](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE312636). The final 2026 article and earlier preprint describe the same study, not separate validation sources. Its two reference experiments are kept separate. The article and supplement are CC BY 4.0; the [author software archive](https://zenodo.org/records/17822522) separately grants CC BY 4.0. These licenses do not automatically relicense GEO counts. Public author-deposited counts are analyzed locally with attribution under GEO's reuse policy; no unrestricted raw redistribution is claimed.
+
+The PARPi source is Simpson et al.'s [2023 preprint](https://doi.org/10.1101/2023.08.19.553986), [GSE284018](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE284018), and the updated [official code and data repository](https://github.com/simpsondl/parpi-manuscript/tree/a66c13fecbaab0cf026a380343b7d6a9f860afb3). The originally linked repository is unavailable. The replacement explicitly covers code and data with CC BY 4.0. The article's CC BY-NC-ND terms are separate; no peer-reviewed publication was verified. The later repository contains fresh 2022 and 2023 infections and updated count filters, so its pinned year-specific configuration takes precedence over older preprint thresholds and duplicated GEO processing text. Three sequencing runs in 2022 are merged technical counts, never six additional biological measurements.
+
+The two environmental count gzips total 20,448,982 bytes. PARPi count ZIPs total 58,243,393 bytes and are streamed without extracting roughly 400 MB of text. Exact hashes, source URLs, accessions and doubling constants are in the [acquisition receipts](../results/fitness-external-20261020/). Qualification preceded acquisition; no large cell atlas or pretrained assets were downloaded.
+
+The original GSE116198 mirror caveat remains. Mendeley and DataCite corroborate CC BY 4.0 for the author dataset, but the Mendeley file API still returns 403, preventing byte-equivalence verification. [GEO's disclaimer](https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html) places no NCBI restrictions while preserving possible submitter rights. Raw counts, banks and model assets remain local, and all source attributions remain separate from Opal's code license.
+
+### Estimand, inclusion and locked comparisons
+
+Only untreated/DMSO gamma is compatible with the existing reference-growth predictor. Drug tau, sensitization rho and globally fitted GI scores are excluded. Gamma is negative-control-centered log2 endpoint/T0 enrichment per population doubling. Reference doubling counts are 9.632926829/9.559756098 and 5.761137265/6.324829553 in environmental experiments 1/2; 7.19/7.73 and 8.04/7.98 in PARPi 2022/2023. Different guides, vectors, growth windows and depletion floors remain real assay shifts. New infections supply independent biological measurements, but shared laboratory lineage precludes an independent-laboratory claim.
+
+Whole-library coverage filtering precedes gene selection. Each guide's mean of replicate-specific T0 medians must exceed 35 in both positions; constructs must exceed 50 in both T0 measurements. Pseudocount ten is added after filtering, fractions normalized, NT+NT median subtracted per infection and author doublings applied. Fraction normalization cancels algebraically after control centering. The environmental authors instead filter guide endpoint counts; our prespecified T0-only harmonization avoids selecting on depletion and is not a reproduction of published environmental scores.
+
+The environmental second count table contains 2,023 constructs with missing required count entries. Missing values are not assumed zero; incomplete constructs are excluded and counted. This complete-case rule may still select against unobserved dropouts and limits interpretation. An initial preparation stopped on those blank entries before any scoring; its partial output remains local. The revised finite preparation was tested and committed before external scoring. No performance-directed exclusion occurred.
+
+At least two distinct ordered guide constructs are required per canonical gene pair, on a common panel across infections. Guides and reciprocal orientations have equal weights within each infection; two infections then receive equal weights. They are subsamples, not extra biological replicates. The resulting supported panels contain 56 environmental and 90 PARPi genes. Only 12 environmental genes have both guides exactly sequence-matched to 2018. Gene labels follow guide prefixes, avoiding the supplement's REV3/REV3L annotation discrepancy.
+
+The primary stratum contains pairs absent from the entire original eligible bank, with minimum 50 pairs and ten genes per cohort. Absence from that bank does not prove absence from the original raw low-coverage measurements. Original test pairs are previously scored, validation pairs influenced selection, and training pairs measure repeatability; every stratum stays separate. Frozen original singles and coefficients define completion and calibrated main effects. Original-single sum/minimum and zero share the same information access. External-single sum/minimum are an explicitly extra-information diagnostic and never replace predictor inputs.
+
+Primary loss is MSE against the mean of two infection targets, with individual infection MSE, MAE, bias, Pearson and replicate disagreement retained. Two thousand pair-resampling and gene-resampling draws use seed 20261020. Gene resampling draws genes with replacement and weights edges by the product of endpoint multiplicities, recording nonempty draws. These are conditional intervals over measured genes/pairs and cultures, not precise uncertainty over biological populations. Shared pairs across cohorts do not become independent observations.
+
+Promotion required all four cohorts to qualify, at least 2% MSE improvement over frozen main effects in every cohort, improvement in each infection, a below-zero upper gene-resampling 95% loss-difference bound and no loss to the other frozen simple references. No panel, baseline or threshold changed after scores.
+
+### Measured external result
+
+| Cohort | Strict novel pairs / genes | Completion MSE | Frozen main-effect MSE | Original-single minimum MSE | Completion gain |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Environmental 1 | 130 / 17 | 0.0710602 | 0.0695619 | 0.0358322 | -2.15% |
+| Environmental 2 | 130 / 17 | 0.0504016 | 0.0493793 | 0.0255072 | -2.07% |
+| PARPi 2022 | 423 / 30 | 0.1060987 | 0.1048554 | 0.0670913 | -1.19% |
+| PARPi 2023 | 411 / 30 | 0.1067118 | 0.1055719 | 0.0672618 | -1.08% |
+
+All four panels qualify and all four fail promotion. Gene-resampling completion-minus-main-effect intervals are [-0.002278, 0.005191], [-0.001911, 0.004077], [-0.001419, 0.003735] and [-0.001494, 0.003670]. They do not establish a reliable difference between completion and main effects, while the simple minimum reference is materially better. PARPi zero also outperforms completion on these novel panels. The conclusion is failed external superiority, not evidence that completion is significantly worse than main effects in every cohort.
+
+Original-test overlap contains 274/275/700/695 pairs. Completion MSE is 0.0375358/0.0292173/0.0799036/0.0783411 versus main effects 0.0375071/0.0296422/0.0797896/0.0782436. There is no consistent gain there either. Original-train overlap contains 861/861/2142/2116 pairs; it remains separately labeled repeatability. Full metrics for every stratum, baseline and infection are in [results.json](../results/fitness-external-20261020/results.json).
+
+### Failure diagnosis and decision
+
+The locked extra-information diagnostic is informative. External-single minimum MSE is 0.0058373/0.0091450/0.0025262/0.0023423 on the same novel panels. These are not same-information wins by Opal, but they show that externally measured perturbation strength carries information absent from the frozen inputs.
+
+Post-primary descriptive checks find original/external single correlations of 0.161/0.308/-0.030/-0.038, and original versus remeasured pair correlations of 0.100/0.259/-0.057/-0.100. Original mean singles are -0.318 in the environmental overlap and -0.338 in PARPi, versus approximately -0.232/-0.245 and -0.170/-0.169 externally. This is more than an interaction-specific error. Sequencing, control centering, duration, reagents and effective knockdown may contribute; this evaluation cannot identify their separate causal contributions.
+
+Among the 66 environmental pairs whose genes have both guides sequence-matched, completion still loses to main effects and minimum. Only nine strict novel pairs occur in that subset, too few for confirmation. This diagnostic weakens an explanation based solely on changed guide sequences but cannot establish a universal assay effect. Replicate disagreement MSE across supported panels is 0.003121/0.002559/0.001252/0.000687, far smaller than source-transfer error; it is not a biological noise ceiling.
+
+Retain the original assets and restrict their demonstrated validity to the original assay. No external promotion, rescue fit or architecture sweep is justified. A concrete falsifiable improvement would adapt response strength using independently measured singles or reagent-aware features in a separate adaptation screen, then evaluate untouched pairs or screens against the new assay's minimum/main-effect references. These exposed cohorts cannot serve as untouched confirmation for such a change. That hypothesis is not implemented or claimed successful here.
+
+### Reproducibility and completion
+
+The frozen evaluation took 0.569 seconds, 0.563 CPU seconds and 257,626,112 bytes peak working set, approximately 246 MiB. Preparation runtime and exclusions are retained in preparation.json; preparation peak memory was not independently recorded. Source acquisition, derived banks, frozen prediction arrays and failed partial preparation remain local. Scientific outputs are immutable, and all original model hashes verified before scoring.
+
+Local validation passes all 410 tests in 49.61 seconds, wheel/sdist builds, and the existing documentation build with 93 documents and zero unavailable local links. The system Python initially lacked the installed package; execution and successful validation used the project's existing .venv, without changing dependencies. The existing README was edited in place. plan.md closes this finite experiment and remains the sole authoritative forward plan. Final remote and CI checks are recorded at delivery.
+
+
+To reproduce the external evaluation, acquire the hash-matched count files from the recorded URLs, then use `tools/prepare_external_fitness.py --source-root SOURCE --output PREPARED`, `tools/evaluate_external_fitness.py freeze --original ORIGINAL --prepared PREPARED --output NEW_RUN`, and `tools/evaluate_external_fitness.py run --output NEW_RUN`. Freeze refuses existing runs and verifies original assets. Registration must precede scoring. `tools/diagnose_external_fitness.py` separately reproduces descriptive checks using `--original`, `--prepared`, `--evaluation` and a fresh `--output` JSON path. The original local model and source banks are required, not redistributed. Preparation took 23.98 seconds; the diagnostic replay exactly reproduces its receipt. Installed-wheel inference also reproduces all four frozen external prediction panels within 1e-14, without fitting.

@@ -1,6 +1,6 @@
 # Opal model development
 
-Sole authoritative forward plan, updated 20 October 2026. The completed engineering workstream and historical scientific records remain closed and preserved. Current authorization covers public-data acquisition, numerical work, tests, commits and normal push. It does not authorize purchases, external correspondence or publication.
+Sole authoritative forward plan, updated 20 October 2026. Status: the finite model-development and external-validation experiments are complete; unchanged-model external superiority failed. The completed engineering workstream and historical scientific records remain closed and preserved. Current authorization covers public-data acquisition, numerical work, tests, commits and normal push. It does not authorize purchases, external correspondence or publication.
 
 ## Audit and decision
 
@@ -49,9 +49,9 @@ The overlap-expression candidate remains FAILED HYPOTHESIS and closed; see docs/
 
 The shared/private candidate failed its locked promotion rule: K562 MSE 0.00136626 versus 0.00137593 for the selected reference, Jurkat 0.00045576 versus 0.00042630. Retain independent-context completion. It improves on calibrated main effects by 26.44% and 14.82%, but is baseline-level relative to completion references. Named-gene inference assets are exported locally with verified replay; no factor retraining occurred. The finite run took 18.72 seconds and about 916 MiB peak working set. All 401 tests, wheel/sdist, installed composite replay and documentation checks pass. Results and all baseline scores are in results/fitness-20261020/. Do not reopen this grid.
 
-## Independent external validation, active execution
+## Independent external validation, completed
 
-The next and only active experiment evaluates the retained K562 predictor unchanged on reference growth from GSE312636 environmental experiments 1/2 and the CC BY 4.0 official PARPi repository's 2022/2023 screens, GSE284018. These are four cohorts from two later studies with two independently transduced infections each, sharing laboratory lineage with the original screen. They can establish cross-screen transfer, not cross-laboratory or Jurkat validation. Drug response, sensitization and globally fitted GI scores are excluded.
+The completed external experiment evaluated the retained K562 predictor unchanged on reference growth from GSE312636 environmental experiments 1/2 and the CC BY 4.0 official PARPi repository's 2022/2023 screens, GSE284018. These are four cohorts from two later studies with two independently transduced infections each, sharing laboratory lineage with the original screen. They can establish cross-screen transfer, not cross-laboratory or Jurkat validation. Drug response, sensitization and globally fitted GI scores are excluded.
 
 The executable contract is configs/experiments/fitness_external_20261020.json. Freeze all existing model assets, original assignment, preprocessing/evaluation code, external banks and predictions before scoring. No training, checkpoint selection, external-single replacement, outcome-fitted scale or intercept is allowed. The primary population contains supported-gene pairs absent from the entire original eligible bank, with at least 50 pairs and ten genes per cohort. Original test, validation and training overlaps remain separate, respectively previously scored, selection-exposed and repeatability strata.
 
@@ -62,3 +62,16 @@ Compare frozen completion against original calibrated main effects, original sin
 Success requires all four cohorts to qualify and, in each, at least 2% mean-target MSE gain over frozen main effects, lower MSE in both infections, a below-zero gene-resampling upper 95% loss-difference bound, and no loss to the other frozen simple references. A missing primary panel stays insufficient; no expansion after scoring. A loss closes unchanged-model source-transfer superiority and permits only a concrete failure diagnosis, not a rank/architecture sweep.
 
 Budget: one numerical worker, one hour, 2 GiB peak process memory and 128 MiB new numeric outputs. Counts acquired after metadata qualification total approximately 79 MB compressed and stay local. Preserve all failed preparations and prior results. Milestones are qualification and rights checks, tested preprocessing and committed registration, frozen scoring and assay-shift diagnosis, then existing-document updates, tests/builds, normal push and remote/CI verification. Record actual completion below.
+
+
+## External outcome and closure
+
+Registration b963598 preceded all external scoring. All four strict novel panels qualified: environmental experiments 1/2 each have 130 pairs across 17 genes; PARPi 2022 has 423 pairs and 2023 has 411, each across 30 genes. These panels overlap, so they are not independent pair samples. No existing predictor was retrained or recalibrated.
+
+Outcome: **FAILED HYPOTHESIS** for unchanged-model external superiority. Novel-pair completion MSE is 0.0710602, 0.0504016, 0.1060987 and 0.1067118; frozen main-effect MSE is 0.0695619, 0.0493793, 0.1048554 and 0.1055719, respectively. Completion loses by 2.15%, 2.07%, 1.19% and 1.08%. All gene-resampling loss-difference intervals include zero. Original-single minimum also beats completion in every cohort. There is no external promotion.
+
+Training-overlap repeatability and original test/validation strata were scored separately and remain in results/fitness-external-20261020/results.json. Post-primary diagnostics show original/external single correlations from -0.038 to 0.308 and large same-pair measurement disagreement. Environmental pairs whose genes have both guides sequence-matched still do not rescue completion, but only nine strict novel pairs occur there, insufficient for confirmation. External measured-single minimum MSE is 0.00584, 0.00915, 0.00253 and 0.00234 on the strict novel panels, a separately labeled extra-information diagnostic, not a corrected-model score.
+
+Retain original assets and within-source findings, but restrict their supported use to the source assay. Source/reagent/growth-window/depletion-floor shift is consistent with the failure; these observations cannot uniquely attribute causality or prove that interactions never transfer. A falsifiable next improvement would require assay-specific single calibration or reagent-aware response mapping learned in a separate adaptation screen, then tested on untouched external pairs/screens. No such adaptation is fitted here, and these exposed cohorts cannot silently become new confirmation data. No architecture or hyperparameter search is queued.
+
+Qualification, preprocessing, committed registration, frozen scoring and descriptive diagnosis are complete. Counts and derived banks remain local; results, protocol, source receipts and model hashes are preserved. Scoring took 0.57 seconds and about 246 MiB peak working set; preparation took 23.98 seconds. Local validation passes 410 tests, wheel/sdist and the documentation link build. Final push, remote-head and hosted CI verification are recorded at delivery. This finite plan is scientifically complete; a new experiment needs a new evidence-backed registration rather than continuation of this closed test.

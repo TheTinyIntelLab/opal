@@ -1,0 +1,23 @@
+{
+  "build": "wheel and sdist built successfully; PowerShell native stderr emitted existing setuptools license deprecation warning",
+  "diagnostic_replay": "exact JSON equality",
+  "hosted_ci": "checked separately after final normal push",
+  "installed_wheel": {
+    "external_prediction_max_abs_error": {
+      "environment1": 0.0,
+      "environment2": 0.0,
+      "parp2022": 2.220446049250313e-16,
+      "parp2023": 5.551115123125783e-17
+    },
+    "module": "C:\\Users\\USER\\Desktop\\opal-external-validation-20261020\\installed\\opal\\__init__.py"
+  },
+  "no_retraining": true,
+  "preparation_failure": "initial blank count parse stopped before scoring; partial preparation retained; missing counts never zero-imputed",
+  "registration_commit": "b963598",
+  "source_rights": "local-only raw data, banks and models; no raw redistribution",
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m pytest -q --basetemp C:/Users/USER/Desktop/opal-external-validation-20261020/full-tests",
+    "passed": 410,
+    "seconds": 49.61
+  }
+}

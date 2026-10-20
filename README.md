@@ -1,6 +1,6 @@
 # Opal
 
-Opal is The Tiny Intelligence Lab's research codebase for predicting biological perturbation responses. The current executed task predicts measured double-CRISPRi growth effects from matched single growth and other pairs in K562 and Jurkat. This functional endpoint follows the closed expression experiment; it does not establish improved transcriptomic prediction. Independent biological confirmation is still absent.
+Opal is The Tiny Intelligence Lab's research codebase for predicting biological perturbation responses. The current executed task predicts measured double-CRISPRi growth effects from matched single growth and other pairs in K562 and Jurkat. This functional endpoint follows the closed expression experiment; it does not establish improved transcriptomic prediction. The frozen predictor failed independent cross-screen superiority testing, so its supported use remains within the original assay.
 
 The first-principles reset is governed by the sole authoritative [plan.md](plan.md). Three specialist investigations inspected [official architectures and licenses](docs/research_20261020_architectures.md), [data and evaluation](docs/research_20261020_data.md), and [identifiability and measurement error](docs/research_20261020_identifiability.md). Existing neural, kernel, bilinear and transfer results informed the choice; model complexity is not a selection criterion.
 
@@ -35,7 +35,17 @@ python tools/study_fitness.py run --output /path/to/new-run
 python tools/export_fitness.py --run /path/to/new-run --output /path/to/new-model
 ```
 
-The source URLs and acquisition hashes are in results/fitness-20261020/horlbeck_acquisition.json. No repeat run is needed to use the existing assets. The next scientific test is an independent compatible growth screen, not another rank/seed search.
+The source URLs and acquisition hashes are in results/fitness-20261020/horlbeck_acquisition.json. No repeat run is needed to use the existing assets. The independent screen test below is complete; no repeat fit or rank/seed search is justified.
+
+## Independent external validation
+
+The unchanged K562 predictor was frozen before evaluation on untreated/DMSO growth from the environmental GSE312636 and PARPi GSE284018 studies. Four cohorts each retain two independent infection replicates; they share laboratory lineage and do not establish independent-laboratory validation. Strict novel panels contain 130/130/423/411 supported-gene pairs absent from the entire original eligible bank, before any retraining or external calibration.
+
+**FAILED HYPOTHESIS** for unchanged-model external superiority. Completion MSE is 0.0710602/0.0504016/0.1060987/0.1067118, versus frozen main effects 0.0695619/0.0493793/0.1048554/0.1055719. Completion loses by 1.08-2.15%, and original-single minimum performs better in every cohort. Conditional gene-resampling intervals include zero. Overlapping original training, validation and test pairs are reported separately, not relabeled as novel generalization.
+
+External measured singles are much more informative than original singles, indicating a substantial source/reagent/assay shift. Their minimum baseline is an extra-information diagnostic, not an adapted Opal result. No model was refitted. Preserve the within-source predictor and close this transfer claim; any assay-adaptation hypothesis needs separate adaptation data and untouched confirmation data.
+
+[The existing research report](docs/model_development_20261020.md#independent-external-reference-growth-validation) explains qualification, terms, replicate handling, failure diagnosis and limits. [Frozen protocol and results](results/fitness-external-20261020/) preserve the quantitative record. Raw counts, derived banks and model assets stay local. The existing README is updated in place.
 
 ## Closed expression candidate
 

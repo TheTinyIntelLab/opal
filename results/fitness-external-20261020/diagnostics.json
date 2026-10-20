@@ -1,0 +1,83 @@
+{
+  "cohorts": {
+    "environment1": {
+      "both_reagents_matched_genes": {
+        "completion_mse": 0.057836157680123186,
+        "main_effect_mse": 0.05702160945671742,
+        "minimum_mse": 0.03209041204697576,
+        "novel_pairs": 9,
+        "pairs": 66
+      },
+      "external_single_mean": -0.23192950621296055,
+      "original_single_mean": -0.31829419806330517,
+      "remeasured_old_pairs": {
+        "mse": 0.040100158491549284,
+        "new_mean": -0.33659119823615885,
+        "old_mean": -0.4830498216720682,
+        "pairs": 1409,
+        "pearson": 0.10023302578662446
+      },
+      "replicate_disagreement_mse": 0.0031208667685356873,
+      "single_difference_mse": 0.02671286505445312,
+      "single_median_absolute_ratio": 0.7454375405222381,
+      "single_pearson": 0.16138928057723148,
+      "supported_singles": 56
+    },
+    "environment2": {
+      "both_reagents_matched_genes": {
+        "completion_mse": 0.04743884332472283,
+        "main_effect_mse": 0.04732278477430725,
+        "minimum_mse": 0.024589702089214762,
+        "novel_pairs": 9,
+        "pairs": 66
+      },
+      "external_single_mean": -0.2449258850882031,
+      "original_single_mean": -0.31829419806330517,
+      "remeasured_old_pairs": {
+        "mse": 0.03151936487596048,
+        "new_mean": -0.36871763014551606,
+        "old_mean": -0.48296913746600634,
+        "pairs": 1410,
+        "pearson": 0.25918303864983755
+      },
+      "replicate_disagreement_mse": 0.0025591227995633947,
+      "single_difference_mse": 0.02303551826298994,
+      "single_median_absolute_ratio": 0.752168799440739,
+      "single_pearson": 0.30785657920180914,
+      "supported_singles": 56
+    },
+    "parp2022": {
+      "external_single_mean": -0.17005426796567505,
+      "original_single_mean": -0.3381180492027882,
+      "remeasured_old_pairs": {
+        "mse": 0.08300376172502497,
+        "new_mean": -0.23164260459644723,
+        "old_mean": -0.4875778570995304,
+        "pairs": 3575,
+        "pearson": -0.05747202677816126
+      },
+      "replicate_disagreement_mse": 0.0012515525367147835,
+      "single_difference_mse": 0.04941346929323194,
+      "single_median_absolute_ratio": 0.5056666736415772,
+      "single_pearson": -0.030399396803546343,
+      "supported_singles": 90
+    },
+    "parp2023": {
+      "external_single_mean": -0.16920216202013372,
+      "original_single_mean": -0.3381180492027882,
+      "remeasured_old_pairs": {
+        "mse": 0.08255325280458074,
+        "new_mean": -0.231068540413656,
+        "old_mean": -0.4863679265762379,
+        "pairs": 3536,
+        "pearson": -0.09960775319792044
+      },
+      "replicate_disagreement_mse": 0.0006867819371293066,
+      "single_difference_mse": 0.04969760878423735,
+      "single_median_absolute_ratio": 0.5142639527608147,
+      "single_pearson": -0.038454384295518666,
+      "supported_singles": 90
+    }
+  },
+  "label": "post-primary descriptive diagnosis only; no fitting, tuning or primary-result replacement"
+}
