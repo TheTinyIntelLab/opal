@@ -1,0 +1,229 @@
+{
+  "beats_shuffled_control_all_directions": true,
+  "completed_utc": "2026-10-20T11:17:53.352307+00:00",
+  "contexts": [
+    {
+      "all_reference_cross_replicate_mse": {
+        "additive": 0.06794803971634092,
+        "calibration": 0.005321677454950321,
+        "minimum": 0.007265880330156156,
+        "node": 0.004520430580963455,
+        "zero": 0.24060914126836508
+      },
+      "baseline_cross_replicate_mse": 0.004520430580963455,
+      "candidate_cross_replicate_mse": 0.004330892889946074,
+      "context": "K562",
+      "gene_multiplier_95_loss_difference": [
+        -0.00031342117397468186,
+        -5.651624002883616e-05
+      ],
+      "name": "rep1-aligned",
+      "negative_control": false,
+      "relative_gain": 0.041929123259976,
+      "same_replicate_baseline_mse": 0.003323466493451854,
+      "same_replicate_candidate_mse": 0.0029965961205532803,
+      "source_replicate": 1,
+      "target_infection_additive_single_mse": 0.04527175575934625,
+      "target_infection_minimum_single_mse": 0.009574427768501195,
+      "target_replicate": 2
+    },
+    {
+      "all_reference_cross_replicate_mse": {
+        "additive": 0.005321650110604996,
+        "calibration": 0.0016497471036728134,
+        "minimum": 0.0030488311555583237,
+        "node": 0.0017150364889717867,
+        "zero": 0.0661693260485419
+      },
+      "baseline_cross_replicate_mse": 0.0017150364889717867,
+      "candidate_cross_replicate_mse": 0.0016525404751805432,
+      "context": "Jurkat",
+      "gene_multiplier_95_loss_difference": [
+        -8.822793012879588e-05,
+        -3.850818069527034e-05
+      ],
+      "name": "rep1-aligned",
+      "negative_control": false,
+      "relative_gain": 0.03644004905616416,
+      "same_replicate_baseline_mse": 0.0008197156849363185,
+      "same_replicate_candidate_mse": 0.0007443028977357639,
+      "source_replicate": 1,
+      "target_infection_additive_single_mse": 0.005166914546864201,
+      "target_infection_minimum_single_mse": 0.0023320278120007596,
+      "target_replicate": 2
+    },
+    {
+      "all_reference_cross_replicate_mse": {
+        "additive": 0.06794803971634092,
+        "calibration": 0.005321677454950321,
+        "minimum": 0.007265880330156156,
+        "node": 0.004520430580963455,
+        "zero": 0.24060914126836508
+      },
+      "baseline_cross_replicate_mse": 0.004520430580963455,
+      "candidate_cross_replicate_mse": 0.004850925212199444,
+      "context": "K562",
+      "gene_multiplier_95_loss_difference": [
+        0.00026702333454289455,
+        0.00039548249796895243
+      ],
+      "name": "rep1-shuffled",
+      "negative_control": true,
+      "relative_gain": -0.07311131656965952,
+      "same_replicate_baseline_mse": 0.003323466493451854,
+      "same_replicate_candidate_mse": 0.0036428970865177096,
+      "source_replicate": 1,
+      "target_infection_additive_single_mse": 0.04527175575934625,
+      "target_infection_minimum_single_mse": 0.009574427768501195,
+      "target_replicate": 2
+    },
+    {
+      "all_reference_cross_replicate_mse": {
+        "additive": 0.005321650110604996,
+        "calibration": 0.0016497471036728134,
+        "minimum": 0.0030488311555583237,
+        "node": 0.0017150364889717867,
+        "zero": 0.0661693260485419
+      },
+      "baseline_cross_replicate_mse": 0.0017150364889717867,
+      "candidate_cross_replicate_mse": 0.0017308842134913813,
+      "context": "Jurkat",
+      "gene_multiplier_95_loss_difference": [
+        6.3741987365576394e-06,
+        2.5081085964240476e-05
+      ],
+      "name": "rep1-shuffled",
+      "negative_control": true,
+      "relative_gain": -0.009240459093144748,
+      "same_replicate_baseline_mse": 0.0008197156849363185,
+      "same_replicate_candidate_mse": 0.0008377974277378776,
+      "source_replicate": 1,
+      "target_infection_additive_single_mse": 0.005166914546864201,
+      "target_infection_minimum_single_mse": 0.0023320278120007596,
+      "target_replicate": 2
+    },
+    {
+      "all_reference_cross_replicate_mse": {
+        "additive": 0.032257197449801996,
+        "calibration": 0.00683688651925572,
+        "minimum": 0.01879993936133363,
+        "node": 0.0057359791210650525,
+        "zero": 0.2842758670289616
+      },
+      "baseline_cross_replicate_mse": 0.0057359791210650525,
+      "candidate_cross_replicate_mse": 0.005269932970850844,
+      "context": "K562",
+      "gene_multiplier_95_loss_difference": [
+        -0.0006248305400282618,
+        -0.00031773349914243523
+      ],
+      "name": "rep2-aligned",
+      "negative_control": false,
+      "relative_gain": 0.08124962458504792,
+      "same_replicate_baseline_mse": 0.0021144510145607674,
+      "same_replicate_candidate_mse": 0.0017578452982640485,
+      "source_replicate": 2,
+      "target_infection_additive_single_mse": 0.049354401006047745,
+      "target_infection_minimum_single_mse": 0.012576061246177906,
+      "target_replicate": 1
+    },
+    {
+      "all_reference_cross_replicate_mse": {
+        "additive": 0.007074958297521114,
+        "calibration": 0.0018518777022939368,
+        "minimum": 0.0025371738263766483,
+        "node": 0.001744245720273182,
+        "zero": 0.062255401786153956
+      },
+      "baseline_cross_replicate_mse": 0.001744245720273182,
+      "candidate_cross_replicate_mse": 0.0016890879576804416,
+      "context": "Jurkat",
+      "gene_multiplier_95_loss_difference": [
+        -7.678263109822224e-05,
+        -3.527858449269994e-05
+      ],
+      "name": "rep2-aligned",
+      "negative_control": false,
+      "relative_gain": 0.03162270198037331,
+      "same_replicate_baseline_mse": 0.0007941221600938662,
+      "same_replicate_candidate_mse": 0.0007381557772092951,
+      "source_replicate": 2,
+      "target_infection_additive_single_mse": 0.005286925664662491,
+      "target_infection_minimum_single_mse": 0.002198505969529191,
+      "target_replicate": 1
+    },
+    {
+      "all_reference_cross_replicate_mse": {
+        "additive": 0.032257197449801996,
+        "calibration": 0.00683688651925572,
+        "minimum": 0.01879993936133363,
+        "node": 0.0057359791210650525,
+        "zero": 0.2842758670289616
+      },
+      "baseline_cross_replicate_mse": 0.0057359791210650525,
+      "candidate_cross_replicate_mse": 0.0059197827698176195,
+      "context": "K562",
+      "gene_multiplier_95_loss_difference": [
+        0.00012895273360822936,
+        0.00024353484379819207
+      ],
+      "name": "rep2-shuffled",
+      "negative_control": true,
+      "relative_gain": -0.03204398845831902,
+      "same_replicate_baseline_mse": 0.0021144510145607674,
+      "same_replicate_candidate_mse": 0.0022901657094439812,
+      "source_replicate": 2,
+      "target_infection_additive_single_mse": 0.049354401006047745,
+      "target_infection_minimum_single_mse": 0.012576061246177906,
+      "target_replicate": 1
+    },
+    {
+      "all_reference_cross_replicate_mse": {
+        "additive": 0.007074958297521114,
+        "calibration": 0.0018518777022939368,
+        "minimum": 0.0025371738263766483,
+        "node": 0.001744245720273182,
+        "zero": 0.062255401786153956
+      },
+      "baseline_cross_replicate_mse": 0.001744245720273182,
+      "candidate_cross_replicate_mse": 0.0017640401970603708,
+      "context": "Jurkat",
+      "gene_multiplier_95_loss_difference": [
+        9.724518795067028e-06,
+        2.863916426541285e-05
+      ],
+      "name": "rep2-shuffled",
+      "negative_control": true,
+      "relative_gain": -0.011348445094128579,
+      "same_replicate_baseline_mse": 0.0007941221600938662,
+      "same_replicate_candidate_mse": 0.0008134828160952058,
+      "source_replicate": 2,
+      "target_infection_additive_single_mse": 0.005286925664662491,
+      "target_infection_minimum_single_mse": 0.002198505969529191,
+      "target_replicate": 1
+    }
+  ],
+  "development_gate": true,
+  "predictions_sha256": "696ca552b3aad85b72114a5ea2b277420c6890d33540e891d432443fa445fb78",
+  "protocol_sha256": "308fe0f8652b6e024f89151abd7a07258ffa5c8e9dc09fa8ada5dc12299d5193",
+  "residual_agreement": [
+    {
+      "context": "K562",
+      "raw_replicate_pearson": 0.8792044535647301,
+      "replicate_difference_mse": 0.003401781831392838,
+      "residual_cross_product": 0.0010180678383098919,
+      "residual_pearson": 0.38405057191907305
+    },
+    {
+      "context": "Jurkat",
+      "raw_replicate_pearson": 0.9382663312266531,
+      "replicate_difference_mse": 0.0012258388414684346,
+      "residual_cross_product": 0.00019399950178087497,
+      "residual_pearson": 0.24047729446323093
+    }
+  ],
+  "scope": "exploratory within-source held-pair cross-infection-replicate diagnosis; no external confirmation",
+  "selection_sha256": "6e34a1a9dd09d2689d55259b3ba6940c63976f1f186b847625336cb441b735d9",
+  "uncertainty": "dyadic node-multiplier sensitivity conditional on two deposited infections, not independent-culture uncertainty",
+  "wall_seconds": 9.766816299998027
+}

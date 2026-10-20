@@ -1,0 +1,21 @@
+# Exploratory support diagnostic, frozen before subgroup losses
+
+This no-fit diagnostic asks whether original random held-pair completion gains persist in genes resembling those used by the failed external bank-novel panels. Every outcome source has prior exposure. It cannot confirm external transfer, train an adapted predictor or establish an entirely block-held capability.
+
+Before computing subgroup losses, run synthetic tests, then `tools/reset_support.py freeze`. Freeze records code, test, protocol, original numeric-bank, original assignment, historical prediction, retained-model and external panel hashes. It computes subgroup definitions from identities and original TRAIN degrees only. `run` rejects changed hashes and completed output directories. Use one CPU worker, a 600-second wall limit and 2 GiB peak working set. Abort rather than expand the experiment or tune a model when a check fails.
+
+The evaluation unit is each of the original 16,294 canonical TEST pairs. Original train and validation assignments remain fixed. Reconstruct the retained independent completion predictions in K562 and Jurkat through `FitnessPredictor` and require maximum absolute difference at most 1e-12 against the historical saved `baseline` predictions for every original test pair. This saved baseline is the independently completed predictor retained after the joint-sharing comparison. The historical joint candidate is not the subject of this diagnostic. Frozen main effects are the retained full predictor minus its original residual checkpoint output, without a new fit.
+
+Define each gene's degree as its original TRAIN canonical-pair incidence. Use all active training genes to compute linear 1/3 and 2/3 quantiles, with ties assigned to the higher bin. Freeze the thresholds and gene-bin counts before evaluating outcomes. Report all pairs, minimum-endpoint-degree tertiles, and all six unordered endpoint-tertile combinations, including empty groups. Separately define a gene set as the union of endpoint identities from the four frozen external `absent_original_eligible_bank` panels. Report pairs with exactly zero, one or two endpoints in this set, including empty groups. This set is an exposed-cohort-derived exploratory descriptor, not an independent subgroup hypothesis.
+
+For each context and group report pair and gene counts, completion MSE, original-main-effect MSE and relative gain `1 - completion_mse/main_effect_mse`. Undefined values are JSON null. A group with at least 50 pairs and ten genes additionally receives a paired 2,000-draw endpoint-multiplicity gene bootstrap, seed 20261021. Resample unique genes with replacement, weight each edge by the product of endpoint multiplicities, discard zero-total draws and record actual draw count. Resample the per-pair squared-loss difference jointly, never candidate and reference independently. These intervals condition on deposited cultures and genes; they are not biological-population intervals. Overlapping groups and two contexts produce descriptive comparisons with no multiplicity-adjusted claim, p-value, model selection or promotion.
+
+The primary interpretation is whether local-assay random-holdout gains disappear in the low-support subgroup. Even persistent gains would not establish transport of the missing clique: observed training edges remain inside most subgroup-defined blocks, and original jointly eligible pairs need not represent original excluded pairs. If the union-gene block has no held edges, report the absence as an identifiability limit; do not substitute a favorable group. Any future entire-block-held experiment requires its own training protocol and cannot be inferred from this replay.
+
+```powershell
+.venv/Scripts/python.exe -m pytest -q tests/test_reset_support.py
+.venv/Scripts/python.exe tools/reset_support.py freeze --original C:/Users/USER/Desktop/opal-next-data-20261020 --external C:/Users/USER/Desktop/opal-external-validation-20261020 --output results/research-reset-support/v1
+.venv/Scripts/python.exe tools/reset_support.py run --output results/research-reset-support/v1
+```
+
+Only aggregate JSON and the written report enter Git. Model assets, source responses and per-pair predictions remain local. No unlicensed dataset or private correspondence is added.

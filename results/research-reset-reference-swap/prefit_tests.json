@@ -1,0 +1,21 @@
+{
+  "code": {
+    "docs/research_reset/reference_swap_protocol.md": "a57808079092fb04e7f8ceb1f114bebba0abad04321408f60b9dcaa88e446307",
+    "tests/test_reset_reference_swap.py": "d8b12beb1e188d9fafab5d325338a85293191d52c132f7455405ace4ff400a9e",
+    "tools/reset_diagnostics.py": "766730ae8c4f50b02ac2f7adb462e53723bbcee9e41cfe3d9bebd63f942ab12f",
+    "tools/reset_reference_swap.py": "16185bb433a1bc3be1657b842166df299d74d3633e1e67ae765da151b082a3b3"
+  },
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "tests/test_reset_reference_swap.py",
+    "-q"
+  ],
+  "completed_utc": "2026-10-20T11:23:11.554266+00:00",
+  "protocol_sha256": "49031602d5adb3f2a98495ae526e425d714aceb81eb014cc30a782ed3b1b7aa9",
+  "returncode": 0,
+  "started_utc": "2026-10-20T11:23:09.161097+00:00",
+  "stderr": "",
+  "stdout": "......                                                                   [100%]\n6 passed in 1.45s\n"
+}

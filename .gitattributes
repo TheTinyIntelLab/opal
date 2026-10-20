@@ -70,3 +70,18 @@ tools/replay_external_repeat_diagnostic.py -text
 tools/review_external_sources.py -text
 results/opal_external_validation_v1/** -text whitespace=-blank-at-eof,-blank-at-eol,cr-at-eol
 docs/frontier/outreach_register.json -text
+
+# Reset registrations bind exact protocol, implementation and receipt bytes.
+tools/reset_diagnostics.py -text
+tests/test_reset_diagnostics.py -text
+docs/research_reset/diagnostic_protocol.md -text
+tools/reset_development.py -text
+tests/test_reset_development.py -text
+docs/research_reset/development_protocol.md -text
+tools/reset_support.py -text
+tests/test_reset_support.py -text
+docs/research_reset/support_protocol.md -text
+tools/reset_reference_swap.py -text
+tests/test_reset_reference_swap.py -text
+docs/research_reset/reference_swap_protocol.md -text
+results/research-reset-*/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
