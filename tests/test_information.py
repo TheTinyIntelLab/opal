@@ -103,7 +103,22 @@ def test_process_failure_and_child_accounting(tmp_path,monkeypatch):
     sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'tools'))
     import measure_information_process as monitor
     monkeypatch.setattr(monitor,'OUT',tmp_path)
-    child='sum(i*i for i in range(2000000))'
+    # A sampled monitor explicitly may miss short-lived children. Keep this
+    # fixture alive until its memory sample is observed, rather than depending
+    # on a CPU loop taking longer than scheduling/receipt I/O on the runner.
+    acknowledgement=tmp_path/'child-observed'
+    original_memory_info=monitor.psutil.Process.memory_info
+    def acknowledge_child(process):
+        memory=original_memory_info(process)
+        if (tmp_path/f'{process.pid}.ready').exists():
+            acknowledgement.touch()
+        return memory
+    monkeypatch.setattr(monitor.psutil.Process,'memory_info',acknowledge_child)
+    child=(f'import os,time; from pathlib import Path; sum(i*i for i in range(2000000)); '
+           f'Path({str(tmp_path)!r},str(os.getpid())+".ready").touch(); '
+           f'ack=Path({str(acknowledgement)!r}); deadline=time.monotonic()+10\n'
+           'while not ack.exists() and time.monotonic()<deadline: time.sleep(.005)\n'
+           'assert ack.exists(), "monitor did not observe child"')
     code=f'import subprocess,sys; subprocess.run([sys.executable,"-c",{child!r}]); sys.exit(3)'
     assert monitor.run([sys.executable,'-c',code],'failure-fixture',30)==3
     record=json.loads((tmp_path/'receipts/failure-fixture.json').read_text())

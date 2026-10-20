@@ -21,6 +21,18 @@
     "missing_links": 0
   },
   "local_clean_dependencies": "existing dependencies reused; clean hosted CI checked at delivery",
-  "remote": "pending delivery push",
-  "no_factor_retraining_for_export": true
+  "remote": {
+    "remote": "https://github.com/TheTinyIntelLab/opal.git",
+    "branch": "main",
+    "verified_pushed_head": "db7714fbbc46602e53286ed6e808609b0698bb41",
+    "matched": true
+  },
+  "no_factor_retraining_for_export": true,
+  "ci_initial": {
+    "run": "https://github.com/TheTinyIntelLab/opal/actions/runs/39366363611",
+    "status": "failed",
+    "reason": "existing process-accounting fixture child finished before sampled observation; model tests passed",
+    "repair": "fixture waits for actual memory observation acknowledgement; production monitor and frozen scientific code unchanged",
+    "targeted_tests_after_repair": 4
+  }
 }
