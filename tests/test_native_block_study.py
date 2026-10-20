@@ -69,6 +69,7 @@ def test_full_synthetic_lifecycle_with_mock_native_training(tmp_path, monkeypatc
     # source. Here a small numerical stand-in tests runner ordering and custody.
     monkeypatch.setattr(m, 'TASKS', ('toy',))
     monkeypatch.setattr(m, 'load_official', lambda source: None)
+    monkeypatch.setattr(m, 'dependencies', lambda: {'synthetic-native': 'test'})
     monkeypatch.setattr(m.block, 'signature', lambda: {})
     screen, splits = synthetic()
     block_run, output = tmp_path/'block', tmp_path/'native'
