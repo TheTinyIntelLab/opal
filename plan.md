@@ -1,4 +1,4 @@
-﻿# Opal model development
+# Opal model development
 
 Sole authoritative forward plan, updated 20 October 2026. The completed engineering workstream and historical scientific records remain closed and preserved. Current authorization covers public-data acquisition, numerical work, tests, commits and normal push. It does not authorize purchases, external correspondence or publication.
 
@@ -37,10 +37,14 @@ Primary loss is mean context-normalized test MSE using training-only target vari
 One numerical worker and one BLAS/PyTorch thread. At most one hour wall time, 2 GiB peak process RSS and 64 MiB new experiment artifacts, separate from the acquired 112 MB source. Outputs use C:/Users/USER/Desktop/opal-next-data-20261020/. C: now has several GiB free; do not delete existing scientific artifacts. Record first-fit runtime/memory before automatically continuing within caps. Save safe numeric checkpoints and exact replay receipts, with reference/schema assets required for full growth predictions.
 
 1. Audit plan, acquire/qualify public data, stream preparation and verify source terms: complete.
-2. Implement and review masked model, baselines and fixed protocol; test synthetic recovery, symmetry and serialization; freeze and commit before fitting: in progress.
-3. Execute one finite registered fit/evaluation, assess sharing against strong references and measurement disagreement, record a single evidence-backed decision: pending.
-4. Update the existing model-development report and README with actual results; preserve prior negative experiments; run tests, builds, data/replay checks; commit lowercase batches, push verified origin/main and check clean tree/remote/CI: pending.
+2. Implement and review masked model, baselines and fixed protocol; test synthetic recovery, symmetry and serialization; freeze and commit before fitting: complete; registration commit fa517d8.
+3. Execute one finite registered fit/evaluation, assess sharing against strong references and measurement disagreement, record a single evidence-backed decision: complete. Joint sharing fails; retain validation-selected independent references.
+4. Update the existing model-development report and README with actual results; preserve prior negative experiments; run tests, builds, data/replay checks; commit lowercase batches, push verified origin/main and check clean tree/remote/CI: local validation complete; push and hosted CI are verified at delivery.
 
 ## Continuation and termination
 
 The overlap-expression candidate remains FAILED HYPOTHESIS and closed; see docs/model_development_20261020.md and results/composition-20261020/. A successful fitness result earns a separate evaluation on an independent compatible screen, not a claim about expression. A failed sharing result retains the validation-supported independent/simple reference and closes this finite menu. A new attempt requires a specific data or measured failure diagnosis, not a wider rank/seed search. Generalizing to unmeasured genes would require public gene features and a separately locked node-held evaluation; that is not silently included here.
+
+## Executed outcome
+
+The shared/private candidate failed its locked promotion rule: K562 MSE 0.00136626 versus 0.00137593 for the selected reference, Jurkat 0.00045576 versus 0.00042630. Retain independent-context completion. It improves on calibrated main effects by 26.44% and 14.82%, but is baseline-level relative to completion references. Named-gene inference assets are exported locally with verified replay; no factor retraining occurred. The finite run took 18.72 seconds and about 916 MiB peak working set. All 401 tests, wheel/sdist, installed composite replay and documentation checks pass. Results and all baseline scores are in results/fitness-20261020/. Do not reopen this grid.

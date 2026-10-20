@@ -1,0 +1,26 @@
+{
+  "tests": {
+    "passed": 401,
+    "failed": 0,
+    "seconds": 54.1
+  },
+  "build": {
+    "wheel": "passed",
+    "sdist": "passed",
+    "wheel_sha256": "2212d667919f4224ec11e3b8dccb4b4cfadbdfdec725578a9eb4a4381801e01b",
+    "sdist_sha256": "d0dc9cd0106676dbd70b717e2cbeb6e72c5c1dbbfd7be989611bda8addd79cf5"
+  },
+  "installed_wheel_composite_max_abs": {
+    "K562": 2.220446049250313e-16,
+    "Jurkat": 5.551115123125783e-17
+  },
+  "frozen_training_sources_match": true,
+  "data_hash_checks": "passed by preparation, run and export",
+  "docs": {
+    "documents": 93,
+    "missing_links": 0
+  },
+  "local_clean_dependencies": "existing dependencies reused; clean hosted CI checked at delivery",
+  "remote": "pending delivery push",
+  "no_factor_retraining_for_export": true
+}

@@ -1,0 +1,109 @@
+{
+  "run_root": "C:\\Users\\USER\\Desktop\\opal-next-data-20261020\\fitness-v1",
+  "export_root": "C:\\Users\\USER\\Desktop\\opal-next-data-20261020\\fitness-reference-model",
+  "run_files": {
+    "assignment.npz": {
+      "bytes": 18612,
+      "sha256": "fe1bc4656ddecf73600ab3304ee04b497be34dbcc37e0c8ddd5babad27a6550f"
+    },
+    "fit_progress.json": {
+      "bytes": 41091,
+      "sha256": "aa19c57ef038d8d678021e3b0c4a2e14bbea57ee5cad2398787bda200873aa59"
+    },
+    "independent-r16-p0.001.npz": {
+      "bytes": 3313337,
+      "sha256": "3beeed7360df00b4a2d05afe6b2978e8737903d38af6b54b8d58db92a98b042a"
+    },
+    "independent-r16-p0.01.npz": {
+      "bytes": 3335254,
+      "sha256": "6b7845a2b0342340d46bc996d8f5e98d3110956582e03f53638e0fb0b37c69d1"
+    },
+    "independent-r8-p0.001.npz": {
+      "bytes": 3319111,
+      "sha256": "8f068347873c0389e79f32b035bbb0d711178232c99561c2049f1600e168ab2b"
+    },
+    "independent-r8-p0.01.npz": {
+      "bytes": 3338696,
+      "sha256": "62916073d0ec43d80f2cefa6b8a25d09f55f48a50763380a1e1dd0035acec0cf"
+    },
+    "joint-r16-p0.001.npz": {
+      "bytes": 3312785,
+      "sha256": "f6812f9f908205aca0f480c296ef0cf48b686e58cfe2ad7128db8bb3b4ccfc78"
+    },
+    "joint-r16-p0.01.npz": {
+      "bytes": 3328691,
+      "sha256": "87c3f86c28b95c7ca75af65de0aaff3606da6f9c4c7c410cd9d91cb05658ceb1"
+    },
+    "joint-r8-p0.001.npz": {
+      "bytes": 3318354,
+      "sha256": "095e7599db777c9a1a72e93cc936f685706ac138ad9852e8c5b18a0414ba6aa2"
+    },
+    "joint-r8-p0.01.npz": {
+      "bytes": 3335774,
+      "sha256": "466b15c6caa7dc73d301d7fcca6ee7df404a09549ee9de20d445f34110c3a107"
+    },
+    "pooled-r16-p0.001.npz": {
+      "bytes": 3313070,
+      "sha256": "236a6daa159c7049828ab4a31912a0c9676edcd71d189040398319013d2b1f16"
+    },
+    "pooled-r16-p0.01.npz": {
+      "bytes": 3335782,
+      "sha256": "81b61bd35f2ad8155055ff924d473f206d331454d21fb9ac7b9bf447066f6bfc"
+    },
+    "pooled-r8-p0.001.npz": {
+      "bytes": 3313391,
+      "sha256": "f7bbfc1b4ec940818c681b99ee47a6ff4edcfab2e4287fc921674a20a3174b12"
+    },
+    "pooled-r8-p0.01.npz": {
+      "bytes": 3329387,
+      "sha256": "89ffbed49f4240f06a543f6ab9a63629126c644369ccca0abe85dec893716189"
+    },
+    "predictions.npz": {
+      "bytes": 515254,
+      "sha256": "653fef665fe75d59639eac96264b91ee1097116c6f613e40ee57a6e2c19048fe"
+    },
+    "protocol.json": {
+      "bytes": 4287,
+      "sha256": "a10d4ec40bee3d15e3b5edf8c0043cc8b74ba844c94b9ddad29f81ca8819a068"
+    },
+    "reference_and_schema.npz": {
+      "bytes": 1436165,
+      "sha256": "db55eaf825770a4e278f3fb07ae5dc3f294eb1a2cc5983d4b0f0f42f40542ef6"
+    },
+    "results.json": {
+      "bytes": 53997,
+      "sha256": "1867d9147d9b1233ddbc210898ca4fb548ac902bc45dcc16c28191d0aa361629"
+    },
+    "selection.json": {
+      "bytes": 4989,
+      "sha256": "80551aa9059cd0415ad917564445eb1ea34df68909c28cd907a61ad6684e1589"
+    }
+  },
+  "export": {
+    "attribution": "Horlbeck et al Cell 2018; GSE116198; author dataset DOI 10.17632/rdzk59n6j4.1; weights/data local only",
+    "contexts": {
+      "Jurkat": {
+        "checkpoint": "independent-r16-p0.01.npz",
+        "context_index": 1,
+        "reference_alpha": 1.0,
+        "reference_kind": "node"
+      },
+      "K562": {
+        "checkpoint": "independent-r8-p0.01.npz",
+        "context_index": 0,
+        "reference_alpha": 1.0,
+        "reference_kind": "node"
+      }
+    },
+    "files": {
+      "independent-r16-p0.01.npz": "6b7845a2b0342340d46bc996d8f5e98d3110956582e03f53638e0fb0b37c69d1",
+      "independent-r8-p0.01.npz": "62916073d0ec43d80f2cefa6b8a25d09f55f48a50763380a1e1dd0035acec0cf",
+      "reference.npz": "c085752f39c1fb771fd8feedcde66de4848f3a52e86ebbd6ef1439ad5aaf2070"
+    },
+    "refit_scope": "only exact closed-form training reference refit for serialization; no factor retraining or test-driven selection",
+    "scope": "held pairs of supported genes; measured growth gamma, not expression or new contexts",
+    "source_protocol_sha256": "a10d4ec40bee3d15e3b5edf8c0043cc8b74ba844c94b9ddad29f81ca8819a068",
+    "source_result_sha256": "1867d9147d9b1233ddbc210898ca4fb548ac902bc45dcc16c28191d0aa361629"
+  },
+  "raw_data_or_weights_committed": false
+}

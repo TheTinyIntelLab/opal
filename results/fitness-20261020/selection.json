@@ -1,0 +1,215 @@
+{
+  "baseline_per_context": [
+    {
+      "best_step": 300,
+      "checkpoint": "independent-r8-p0.01.npz",
+      "mode": "independent",
+      "penalty": 0.01,
+      "rank": 8
+    },
+    {
+      "best_step": 200,
+      "checkpoint": "independent-r16-p0.01.npz",
+      "mode": "independent",
+      "penalty": 0.01,
+      "rank": 16
+    }
+  ],
+  "baseline_validation_normalized_mse": [
+    [
+      17.464609803855378,
+      4.0630696064594485
+    ],
+    [
+      3.095206748043727,
+      0.31001154415452165
+    ],
+    [
+      0.6785214051277142,
+      0.12301656681361187
+    ],
+    [
+      0.18961153539643905,
+      0.041449065603430514
+    ],
+    [
+      0.18962620152568896,
+      0.0414519619397204
+    ],
+    [
+      0.19537219276193543,
+      0.04386410192118614
+    ],
+    [
+      0.12335510850277363,
+      0.03154229997622772
+    ],
+    [
+      0.12338973795669879,
+      0.031542489878069846
+    ],
+    [
+      0.12974076523930683,
+      0.03363165152429578
+    ],
+    [
+      0.10301605490424695,
+      0.031297500272746824
+    ],
+    [
+      0.08994850473543069,
+      0.02697617089339087
+    ],
+    [
+      0.11440577992575382,
+      0.035091022146265506
+    ],
+    [
+      0.09218742853462539,
+      0.026963350920797213
+    ],
+    [
+      0.10606090142846801,
+      0.04669465857315753
+    ],
+    [
+      0.0983960779884487,
+      0.03520727994462223
+    ],
+    [
+      0.1130210298407229,
+      0.05360775644584727
+    ],
+    [
+      0.09942771619976909,
+      0.03506731852516746
+    ]
+  ],
+  "candidate": {
+    "best_step": 125,
+    "checkpoint": "joint-r8-p0.01.npz",
+    "checkpoint_sha256": "466b15c6caa7dc73d301d7fcca6ee7df404a09549ee9de20d445f34110c3a107",
+    "history": [
+      {
+        "step": 25,
+        "training_objective": 0.05938161909580231,
+        "validation_mse": 0.061489398936081685
+      },
+      {
+        "step": 50,
+        "training_objective": 0.057537347078323364,
+        "validation_mse": 0.059862189867106216
+      },
+      {
+        "step": 75,
+        "training_objective": 0.05723032355308533,
+        "validation_mse": 0.0595743405366853
+      },
+      {
+        "step": 100,
+        "training_objective": 0.05715944245457649,
+        "validation_mse": 0.059322127592084786
+      },
+      {
+        "step": 125,
+        "training_objective": 0.057129599153995514,
+        "validation_mse": 0.05921325010523185
+      },
+      {
+        "step": 150,
+        "training_objective": 0.057110078632831573,
+        "validation_mse": 0.059250779313470836
+      },
+      {
+        "step": 175,
+        "training_objective": 0.05709533393383026,
+        "validation_mse": 0.05932800012489893
+      },
+      {
+        "step": 200,
+        "training_objective": 0.05708639323711395,
+        "validation_mse": 0.05936299366890462
+      },
+      {
+        "step": 225,
+        "training_objective": 0.057081837207078934,
+        "validation_mse": 0.05935901171085536
+      },
+      {
+        "step": 250,
+        "training_objective": 0.0570794977247715,
+        "validation_mse": 0.05934559453847725
+      },
+      {
+        "step": 275,
+        "training_objective": 0.057077907025814056,
+        "validation_mse": 0.059335540304218726
+      },
+      {
+        "step": 300,
+        "training_objective": 0.0570768304169178,
+        "validation_mse": 0.059328256058103976
+      },
+      {
+        "step": 325,
+        "training_objective": 0.05707620084285736,
+        "validation_mse": 0.05932491463174233
+      },
+      {
+        "step": 350,
+        "training_objective": 0.05707578361034393,
+        "validation_mse": 0.059325464472782884
+      },
+      {
+        "step": 375,
+        "training_objective": 0.057075515389442444,
+        "validation_mse": 0.05932729437458341
+      },
+      {
+        "step": 400,
+        "training_objective": 0.05707535892724991,
+        "validation_mse": 0.05932896510592094
+      },
+      {
+        "step": 425,
+        "training_objective": 0.057075273245573044,
+        "validation_mse": 0.05933001765215081
+      },
+      {
+        "step": 450,
+        "training_objective": 0.05707522854208946,
+        "validation_mse": 0.05933044719816073
+      },
+      {
+        "step": 475,
+        "training_objective": 0.05707520991563797,
+        "validation_mse": 0.059330388660049437
+      },
+      {
+        "step": 500,
+        "training_objective": 0.05707520246505737,
+        "validation_mse": 0.05933003706308491
+      }
+    ],
+    "mode": "joint",
+    "parameters": 14944,
+    "penalty": 0.01,
+    "rank": 8,
+    "validation_normalized_mse": [
+      0.08980606235244597,
+      0.02862043786067921
+    ]
+  },
+  "reference": [
+    {
+      "alpha": 1.0,
+      "context": "K562",
+      "kind": "node"
+    },
+    {
+      "alpha": 1.0,
+      "context": "Jurkat",
+      "kind": "node"
+    }
+  ]
+}

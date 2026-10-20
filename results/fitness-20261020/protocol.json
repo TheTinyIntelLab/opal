@@ -1,0 +1,98 @@
+{
+  "access": "test responses used only in final scoring after all validation selections are frozen",
+  "assignment_sha256": "fe1bc4656ddecf73600ab3304ee04b497be34dbcc37e0c8ddd5babad27a6550f",
+  "code": {
+    "configs/experiments/fitness_completion_20261020.json": "269fdc63a41efed0b3d201938ac0ae4a788901348a52ed5e1178578ad06a4f9e",
+    "src/models/fitness.py": "631881826d198ed785ee24d77e8d7b39e8dda8e2956308f6bbc95ae694d8958b",
+    "tools/prepare_fitness.py": "6ab2c2c5f086cc568253ae4aec444914dedf1f779e31bb3cb93a08f624de7558",
+    "tools/study_fitness.py": "940a5dfe7e9b58bac47ab54de30bdfb3d77a4aa8fc8bf4c522e627898737e6fc"
+  },
+  "config": {
+    "bootstrap_draws": 2000,
+    "candidate": "joint shared-plus-private symmetric indefinite low-rank residual completion",
+    "learning_rate": 0.03,
+    "no_rescue": "one fixed menu and seed; no retuning after test scoring; no expression, cold-gene or independent-lab claim",
+    "objective": "predict measured mean double-CRISPRi growth gamma for new pairs of supported genes in K562 and Jurkat",
+    "penalties": [
+      0.001,
+      0.01
+    ],
+    "primary": "mean context-normalized test MSE, using training-only target variances; also require per-context raw MSE gains",
+    "promotion": "at least 2 percent lower test MSE than validation-selected strongest reference in BOTH contexts; paired conditional bootstrap loss-difference upper bounds below zero",
+    "ranks": [
+      8,
+      16
+    ],
+    "reference_alphas": [
+      1.0,
+      100.0,
+      10000.0
+    ],
+    "reference_families": [
+      "zero",
+      "additive",
+      "minimum",
+      "calibration",
+      "node",
+      "independent",
+      "pooled"
+    ],
+    "resource_caps": {
+      "experiment_bytes": 67108864,
+      "rss_bytes": 2147483648,
+      "threads": 1,
+      "wall_seconds": 3600
+    },
+    "schema": 1,
+    "secondary": [
+      "per-context raw MSE and Pearson correlation",
+      "replicate agreement MSE as descriptive measurement diagnostic"
+    ],
+    "seed": 20261021,
+    "split": "60/20/20 train/validation/test canonical gene pairs; same assignment in both contexts, all guides/orientations grouped",
+    "steps": 500,
+    "validation_interval": 25
+  },
+  "data_root": "C:\\Users\\USER\\Desktop\\opal-next-data-20261020\\prepared",
+  "environment": {
+    "packages": {
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.8",
+      "numpy": "2.4.0",
+      "pytest": "9.0.2",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.16.3",
+      "torch": "2.9.1"
+    },
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python": "3.14.0"
+  },
+  "information": "matched singles, train pair growth in both contexts, gene identities; no GI scores, GI correlations, knowledge graphs or expression",
+  "preparation": {
+    "contexts": [
+      "K562",
+      "Jurkat"
+    ],
+    "eligibility": "single counts >=20 and pair counts >=4 in every context and replicate; no magnitude filter",
+    "eligible_single_genes": 427,
+    "genes": 467,
+    "input": "measured gene-negative-control growth means; no published GI scores or correlations",
+    "pairs": 81466,
+    "preparer_sha256": "6ab2c2c5f086cc568253ae4aec444914dedf1f779e31bb3cb93a08f624de7558",
+    "profiles_sha256": "7a0a6a4c7f79e79983071deb59b18d52493f4333133dfa89c100d6720b12cb94",
+    "seconds": 9.834081099979812,
+    "source_licensing": "Author dataset CC BY 4.0; GEO mirror exact identity not verified; public research reuse with attribution, no raw redistribution",
+    "source_rows": 922455,
+    "source_sha256": "ba9772f3b0e929bcf5b23bebf17d4caab86c7f2ccd50dbd62fbc47e40c2aac21",
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE116nnn/GSE116198/suppl/GSE116198_sgRNA_pair_phenotypes.txt.gz",
+    "target": "mean measured gamma over guide pairs/orientations and two infection replicates"
+  },
+  "profiles_sha256": "7a0a6a4c7f79e79983071deb59b18d52493f4333133dfa89c100d6720b12cb94",
+  "scope": "within-source held-pair prediction; new endpoint, not transcriptomic model improvement or independent biological confirmation",
+  "split_counts": {
+    "test": 16294,
+    "train": 48879,
+    "validation": 16293
+  }
+}

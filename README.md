@@ -1,10 +1,43 @@
 # Opal
 
-Opal is The Tiny Intelligence Lab's research codebase for predicting biological perturbation responses. The current objective is a competitive specialized model for population-average double-perturbation effects given matched measured singles and examples of other pairs. Independent biological confirmation is still absent.
+Opal is The Tiny Intelligence Lab's research codebase for predicting biological perturbation responses. The current executed task predicts measured double-CRISPRi growth effects from matched single growth and other pairs in K562 and Jurkat. This functional endpoint follows the closed expression experiment; it does not establish improved transcriptomic prediction. Independent biological confirmation is still absent.
 
 The first-principles reset is governed by the sole authoritative [plan.md](plan.md). Three specialist investigations inspected [official architectures and licenses](docs/research_20261020_architectures.md), [data and evaluation](docs/research_20261020_data.md), and [identifiability and measurement error](docs/research_20261020_identifiability.md). Existing neural, kernel, bilinear and transfer results informed the choice; model complexity is not a selection criterion.
 
-## Current candidate result
+## Current measured-growth result
+
+A new public screen supplied 81,466 canonical pairs in both contexts, with 48,879 training, 16,293 validation and 16,294 globally held test pairs. Validation-selected independent-context completion reduces test MSE by 26.44% in K562 and 14.82% in Jurkat relative to calibrated gene-main-effect references. The joint shared/private candidate fails its stronger-reference promotion criterion, so the independent models are retained. This is BASELINE-LEVEL relative to completion references, with no frontier or independent-laboratory claim.
+
+| Growth context | Main-effect MSE | Selected completion MSE | Joint candidate MSE |
+| --- | ---: | ---: | ---: |
+| K562 | 0.00187049 | 0.00137593 | 0.00136626 |
+| Jurkat | 0.00050049 | 0.00042630 | 0.00045576 |
+
+The [existing decision report](docs/model_development_20261020.md#executed-follow-up-measured-growth-pair-completion) records actual acquisition, licensing qualifications, fixed splits, conditional uncertainty, all baselines and the continuation decision. [Frozen evidence](results/fitness-20261020/) records the new experiment. Source data and model assets remain local with attribution. The official author dataset is CC BY 4.0; exact equivalence to the acquired GEO mirror remains unverified, so no unrestricted raw-data redistribution is claimed.
+
+The experiment used 18.72 seconds, one CPU worker, about 916 MiB peak working set and 40 MiB run artifacts. Named-gene inference uses the retained independent-context references:
+
+```python
+from opal.models.fitness_inference import FitnessPredictor
+
+model = FitnessPredictor("C:/Users/USER/Desktop/opal-next-data-20261020/fitness-reference-model")
+growth = model.predict([("AARS2", "AATF")], context="K562")
+```
+
+These are measured-growth predictions for supported genes in the two trained contexts. Unknown genes, new contexts and identical-gene pairs are refused. Raw expression, biological mechanisms and calibrated uncertainty are not outputs.
+
+To reproduce a NEW registered run after acquiring the hash-matched official source:
+
+```sh
+python tools/prepare_fitness.py --source /path/to/GSE116198_sgRNA_pair_phenotypes.txt.gz --output /path/to/new-prepared
+python tools/study_fitness.py freeze --data /path/to/new-prepared --output /path/to/new-run
+python tools/study_fitness.py run --output /path/to/new-run
+python tools/export_fitness.py --run /path/to/new-run --output /path/to/new-model
+```
+
+The source URLs and acquisition hashes are in results/fitness-20261020/horlbeck_acquisition.json. No repeat run is needed to use the existing assets. The next scientific test is an independent compatible growth screen, not another rank/seed search.
+
+## Closed expression candidate
 
 **FAILED HYPOTHESIS.** Hierarchical gene-local composition learned signed overlap and cancellation terms from measured singles, with gene coefficients shrunk toward a pooled response law. Nested development evaluation did not improve over matched affine calibration or existing kernels.
 

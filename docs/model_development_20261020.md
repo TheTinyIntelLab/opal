@@ -1,4 +1,6 @@
-# Model development decision, 20 October 2026
+# Model development decisions, 20 October 2026
+
+The original expression experiment below remains unchanged. The appended execution records a new measured-growth endpoint, newly acquired public data, and a separate locked test; it is not a rerun or a revised interpretation of the expression results.
 
 Outcome: **FAILED HYPOTHESIS**. The implemented hierarchical gene-local composition model improves substantially over literal additivity, but loses to simpler matched calibration or profile kernels. Close this candidate. Its failure is evidence against this particular response law, not proof that biological interaction prediction is impossible.
 
@@ -60,3 +62,57 @@ The aggregate's final FAILED HYPOTHESIS adjudication replaces the raw runner's c
 plan.md is the sole forward plan. Six individually inspected obsolete plan/dispatch/handoff files were removed. The former README is a closed dated engineering record; ignored private context/roadmap snapshots were preserved verbatim outside the active tree, since the roadmap contained unique historical scientific specifications. Historical experiment contracts, failures, source provenance, licenses, measurement records, tests and private correspondence protections remain. [The cleanup audit](../results/composition-20261020/planning_audit.json) records exact dispositions.
 
 Validation and remote/CI receipts are recorded separately in results/composition-20261020/validation.json after execution. The first full local test invocation passed 395 tests and hit three existing free-volume guards on D:. All 398 tests then passed on E: in 58.77 seconds without changing those guards. Wheel/sdist builds, installed-wheel fresh-refit replay and package private-data exclusions passed; the documentation build rendered 93 documents with zero missing local links. The shared host environment's pip check reports pre-existing datasets/fsspec and platformio/click/starlette conflicts; no unrelated dependency versions were changed. A fresh heavyweight dependency installation is inappropriate under the storage constraint, so installed-wheel import/replay and hosted clean CI provide the package checks.
+
+
+## Executed follow-up: measured-growth pair completion
+
+The plan audit found one material forward gap. Its completed composition experiment had a concrete objective, architecture, data, baselines, splits, compute and decision criteria, but its continuation requirement named neither an acquisition route nor an executable experiment. plan.md now specifies the executed functional task below. No duplicate roadmap or new research report was created.
+
+### Data actually obtained and qualified
+
+The official GSE116198 pair-phenotype gzip was downloaded successfully, 112,096,990 bytes in about 80 seconds. The source is Horlbeck et al., [Mapping the Genetic Landscape of Human Cells](https://doi.org/10.1016/j.cell.2018.06.010), with the [author dataset](https://data.mendeley.com/datasets/rdzk59n6j4/1) explicitly CC BY 4.0, corroborated by DataCite. The Mendeley file API returned 403, so acquisition used the official GEO deposition. Exact file-byte equivalence with Mendeley remains unverified, and GEO has no separately verified license. This qualification is retained rather than silently relabeling the mirror; local scientific analysis uses attribution, with raw data and trained data-derived assets excluded from git.
+
+The public NCI-ALMANAC compact archive was also downloaded as a practical fallback. It was not mixed with genetic growth measurements. The preferred source succeeded, so no drug-model or alternate-endpoint search was run.
+
+Preparation streams 922,455 ordered guide-pair rows and uses only the triple-sequencing gamma columns. Gamma measures control-centered growth normalized by replicate doublings. Matched singles come from gene/negative-control pairs. Published GI scores and GI correlations are excluded because they incorporate global pair outcomes during construction. Eligibility depends only on observation counts: at least 20 single observations and four ordered guide-pair observations in each context and infection replicate. This yields 81,466 canonical pairs among 427 supported genes in K562 and Jurkat, from 467 parsed genes. Equal guide/orientation weights are used, not inverse-variance weighting. The shared-coverage panel is enriched for growth-related genes and cannot represent the whole genome.
+
+The complete [acquisition and preparation receipts](../results/fitness-20261020/) retain source URLs, SHA256 hashes, license evidence, counts and exclusions. Preparation took 9.83 seconds. No historical expression evaluator files were accessed.
+
+### Locked task and actual implementation
+
+The target is the measured mean double-CRISPRi growth effect, given matched single growth and other measured gene-pair effects in the same two contexts. This is a functional endpoint change, not a claim of improved expression prediction or general cell simulation. It replaces approximately one hundred expression pair labels per source with over eighty thousand compatible pairs and supplies measured infection replicates without a large atlas extraction.
+
+The candidate fits an initial calibrated gene-main-effect reference, then a symmetric indefinite low-rank residual matrix with common factors and context-private factors. References include zero, measured-single additivity, minimum single effect, scalar calibration, calibrated gene-main-effect ridge, independent-context completion and pooled-only completion. Joint, independent and pooled factorizations have equal parameter budgets, 4 * 467 * rank. Common rank r plus private rank r/2 per context tests whether sharing helps at equal size.
+
+The protocol and implementation were committed at fa517d8 before fitting. Seed 20261021 fixes 48,879 training, 16,293 validation and 16,294 test canonical pairs, identically in both contexts. Every guide variant and orientation remains with its pair. All query genes have substantial training-pair support. No held pair can supply a label through the other context.
+
+Reference scalers and coefficients use training data only. Validation chooses the reference per context, completion mode/rank/penalty and checkpoint every 25 steps. The fixed grid is ranks 8/16 and penalties 0.001/0.01, one initialization seed, Adam learning rate 0.03 and 500 steps maximum. All selections were persisted before computing test losses. Candidate selection uses context-balanced validation MSE normalized by training-only target variances; the strongest non-joint reference is selected independently per context by validation. No settings changed after test scoring.
+
+### Actual result and decision
+
+| Context | Additive MSE | Calibrated main-effect MSE | Selected independent completion MSE | Joint candidate MSE |
+| --- | ---: | ---: | ---: | ---: |
+| K562 | 0.04631078 | 0.00187049 | 0.00137593 | 0.00136626 |
+| Jurkat | 0.00486848 | 0.00050049 | 0.00042630 | 0.00045576 |
+
+Independent completion improves over the validation-selected calibrated main-effect reference by 26.44% and 14.82%. Those gains support retaining a fitted specialized growth predictor. They do not establish novelty over matrix completion, improvement on expression, or superiority to published functional-screen predictors under matched evaluation.
+
+The cross-context sharing hypothesis is **FAILED HYPOTHESIS**. The joint candidate gains only 0.70% in K562 and loses 6.91% in Jurkat against the strongest validation-selected reference. Its mean normalized MSE is 0.06060042 versus 0.05997171. K562's conditional loss-difference interval is [-0.00002059, 0.00000117], and Jurkat's is [0.00002373, 0.00003533]. Both-context 2% superiority and below-zero upper bounds were required, so promotion fails. These pair-bootstrap intervals condition on this deposited screen and shared references; they do not cover unseen genes, independent cultures or another laboratory.
+
+The joint winner is rank 8, penalty 0.01, step 125. Validation selects independent rank 8/penalty 0.01/step 300 for K562 and rank 16/penalty 0.01/step 200 for Jurkat. These choices were not changed to the best test-performing configurations. Full histories and all reference scores are retained in [results.json](../results/fitness-20261020/results.json).
+
+The practical outcome is a **BASELINE-LEVEL specialized predictor relative to the strong completion reference**, with a measured improvement over single/main-effect calibration on this task. Retain the independent-context models and close the shared/private menu. Pooled-only completion is also weaker, consistent with harmful sharing of some context-specific structure. Increasing optimization steps or sweeping ranks is not justified by this test.
+
+Infection-replicate disagreement MSE is 0.00575468 in K562 and 0.00210994 in Jurkat. These are descriptive discrepancies, not a biological noise ceiling: the target averages replicates and guides, and shared normalization/control errors remain. High full-growth correlations, 0.953 and 0.986 for the selected reference, partly reflect main effects; they do not establish mechanistic interaction recovery.
+
+### Usable models, cost and verification
+
+The finite experiment took 18.72 wall seconds and 18.48 CPU seconds with one numerical/BLAS/PyTorch thread. Peak Windows working set was 960,188,416 bytes, about 916 MiB. It retained 41,914,030 bytes before the final receipt, under the 64 MiB experiment cap. Every first-fit/resource check passed; no failed numerical attempt or rescue grid occurred. All completion checkpoints replay exactly after numeric save/load.
+
+The named-gene FitnessPredictor API combines the correct observed-single/main-effect reference with each validation-selected independent completion checkpoint. It accepts new pairs of supported gene names in K562 or Jurkat and refuses unknown genes, unsupported training genes, identical-gene pairs, new contexts and modified assets. It does not return calibrated intervals. The complete assets remain local at C:/Users/USER/Desktop/opal-next-data-20261020/fitness-reference-model. See the README for use.
+
+The original runner stored residual checkpoints and reference predictions, but not reference coefficients for arbitrary supported pair queries. Export therefore repeated only the exact closed-form training-reference fit to serialize coefficients, with no factor retraining, no new selection and no test labels in fitting. Composite predictions reproduce the locked test reference to at most 5.6e-17. The export receipt and manifest document this specific replay reason.
+
+The next evidence needed is an independent compatible growth screen, preferably with repeat-level measurements and overlapping genes, to test whether the within-source completion gain survives. New-gene prediction would require separately sourced gene features and a node-held split. Neither objective is silently added to this experiment, and the failed expression candidate remains closed.
+
+Validation for this follow-up passes all 401 tests in 54.10 seconds, wheel/sdist builds, installed-wheel composite replay, original frozen source hashes, data hashes and 93 rendered documents with zero missing local links. Hosted CI and final remote head are checked at delivery; the exact verification receipt is in results/fitness-20261020/validation.json.
