@@ -1,5 +1,7 @@
 # Model development decisions, 20 October 2026
 
+The [subsequent research reset](research_reset/summary.md) adds exploratory replication, support, reference-swap and source-qualification findings. This report preserves the original outcomes; later diagnosis does not replace failed external validation. The [root plan](../plan.md) is the sole forward plan.
+
 The original expression experiment below remains unchanged. The appended execution records a new measured-growth endpoint, newly acquired public data, and a separate locked test; it is not a rerun or a revised interpretation of the expression results.
 
 Outcome: **FAILED HYPOTHESIS**. The implemented hierarchical gene-local composition model improves substantially over literal additivity, but loses to simpler matched calibration or profile kernels. Close this candidate. Its failure is evidence against this particular response law, not proof that biological interaction prediction is impossible.

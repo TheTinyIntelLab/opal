@@ -23,7 +23,7 @@
 
 Opal is The Tiny Intelligence Lab's research codebase for predicting biological responses to intervention pairs. The current **0.1.3.dev0 research snapshot** includes a trained double-CRISPRi growth predictor for K562 and Jurkat, alongside the preserved expression models and evaluation framework. The private 0.1.2 release is historical; the updated paper covers expression, growth, external validation and the later exploratory diagnostics.
 
-The growth predictor improves on calibrated main effects within its training screen, and a later exploratory cross-infection test retains some pair-aligned signal. **Its frozen predictions still failed external superiority testing**. The current [plan](plan.md), [research report](docs/model_development_20261020.md) and [external results](results/fitness-external-20261020/) record that limit. No frontier-performance or independently validated transfer claim is established.
+The growth predictor improves on calibrated main effects within its training screen, and a later exploratory cross-infection test retains some pair-aligned signal. **Its frozen predictions still failed external superiority testing**. The [research reset](docs/research_reset/summary.md), [forward plan](plan.md) and [external results](results/fitness-external-20261020/) record that limit. Opal now targets assay-conditioned pair prediction with measured singles and an explicit local pair-training budget. No frontier-performance or independently validated transfer claim is established.
 
 ## 1. Introduction
 

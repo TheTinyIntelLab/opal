@@ -1,5 +1,7 @@
 # Closed frontier research record
 
+The October 20 [research reset](../research_reset/summary.md) and [root plan](../../plan.md) govern new work. All programs and forward-looking language below are preserved historical snapshots, not active experiment queues.
+
 The current model-development objective and failed composition candidate are documented in [the decision report](../model_development_20261020.md). The dated records below preserve earlier findings; they do not supply an active backlog.
 
 ## Closed direction, 15 October 2026
