@@ -7,7 +7,7 @@
 <div align="center">
   <a href="https://thetinyintelligencelab.vercel.app/"><img src="images/lab_badge.svg" alt="The Tiny Intelligence Lab" /></a>
   <img src="images/status_badge.svg" alt="Private GitHub release" />
-  <a href="paper/main.pdf"><img src="images/paper_badge.svg" alt="Research preprint draft" /></a>
+  <a href="paper/main.pdf"><img src="images/paper_badge.svg" alt="Updated research preprint draft" /></a>
   <a href="LICENSE"><img src="images/license_badge.svg" alt="Code license: MIT" /></a>
 </div>
 
@@ -19,11 +19,11 @@
   <a href="#9-citation">Citation</a>
 </p>
 
-<p align="center"><a href="paper/main.pdf">Read the preprint draft</a></p>
+<p align="center"><a href="paper/main.pdf">Read the updated preprint draft</a></p>
 
-Opal is The Tiny Intelligence Lab's research codebase for predicting biological responses to intervention pairs. The current **0.1.3.dev0 research snapshot** includes a trained double-CRISPRi growth predictor for K562 and Jurkat, alongside the preserved expression models and evaluation framework. The private 0.1.2 release and expression preprint draft remain historical snapshots.
+Opal is The Tiny Intelligence Lab's research codebase for predicting biological responses to intervention pairs. The current **0.1.3.dev0 research snapshot** includes a trained double-CRISPRi growth predictor for K562 and Jurkat, alongside the preserved expression models and evaluation framework. The private 0.1.2 release is historical; the updated paper covers expression, growth, external validation and the later exploratory diagnostics.
 
-The growth predictor improves on calibrated main effects within its training screen, but **its frozen predictions failed external superiority testing**. The completed [plan](plan.md), [research report](docs/model_development_20261020.md) and [external results](results/fitness-external-20261020/) record that limit. No frontier-performance or independently validated transfer claim is established.
+The growth predictor improves on calibrated main effects within its training screen, and a later exploratory cross-infection test retains some pair-aligned signal. **Its frozen predictions still failed external superiority testing**. The current [plan](plan.md), [research report](docs/model_development_20261020.md) and [external results](results/fitness-external-20261020/) record that limit. No frontier-performance or independently validated transfer claim is established.
 
 ## 1. Introduction
 
@@ -72,9 +72,9 @@ Independent completion improves on main effects by **26.44% in K562 and 14.82% i
 
 ### Independent K562 source transfer
 
-The existing predictor was frozen before scoring untreated/DMSO growth from two external studies, comprising four cohorts with two infection replicates each. Strict novel pairs are absent from the entire original eligible bank. Training, validation and original-test overlaps are reported separately.
+The existing predictor was frozen before scoring untreated/DMSO growth from two external studies, comprising four cohorts with two infection replicates each. Bank-novel pairs are absent from the original eligible fitting bank, not necessarily from the raw screen. A later audit finds that all 509 unique pairs across these panels occur in the raw table but fail the original joint-context coverage rule. Training, validation and original-test overlaps are reported separately.
 
-| External cohort | Strict novel pairs | Completion MSE | Frozen main-effect MSE | Original-single minimum MSE |
+| External cohort | Bank-novel pairs | Completion MSE | Frozen main-effect MSE | Original-single minimum MSE |
 | --- | ---: | ---: | ---: | ---: |
 | Environmental 1 | 130 | 0.0710602 | 0.0695619 | 0.0358322 |
 | Environmental 2 | 130 | 0.0504016 | 0.0493793 | 0.0255072 |
@@ -83,7 +83,19 @@ The existing predictor was frozen before scoring untreated/DMSO growth from two 
 
 **FAILED HYPOTHESIS for unchanged-model external superiority.** Completion has 1.08-2.15% higher MSE than frozen main effects; conditional gene-resampling intervals include zero, and original-single minimum performs better in every cohort. No retraining or external calibration occurred. These studies share laboratory lineage, so they do not establish independent-laboratory validation.
 
-External measured singles give much stronger simple predictions than the original singles, consistent with substantial assay/reagent shift. That is an extra-information diagnostic, not an adapted Opal result. [The full report](docs/model_development_20261020.md#independent-external-reference-growth-validation) records source rights, endpoint compatibility, coverage filtering, replication, uncertainty and failure diagnosis; [the locked protocol and outputs](results/fitness-external-20261020/) preserve the evidence.
+External measured singles give much stronger simple predictions than the original singles, consistent with substantial assay/reagent shift. The panels also concentrate on a sparse block of the original gene-pair graph, so source shift and support shift are confounded. These are explanatory diagnostics, not an adapted Opal result or proof of a single failure mechanism. [The full report](docs/model_development_20261020.md#independent-external-reference-growth-validation) records source rights, endpoint compatibility, coverage filtering, replication, uncertainty and failure diagnosis; [the locked protocol and outputs](results/fitness-external-20261020/) preserve the evidence.
+
+### What the latest diagnostics establish
+
+A fixed exploratory cross-infection test fits and selects on one original infection, then scores the same 16,294 held-out pairs on the other. Aligned rank-8 completion reduces MSE over source-validation-selected gene main effects by **4.19% and 8.12% in K562**, and **3.64% and 3.16% in Jurkat**, across the two directions. Every aligned fit beats its shuffled-residual control, but a calibrated-single baseline slightly outperforms one Jurkat fit. This supports some within-study pair-associated information, not superiority to every simple comparator or independent confirmation. The two directions reuse the same pairs, guides and study.
+
+The graph audit adds a separate limit. Completion still helps on ordinary held pairs involving low-degree genes, but only four original test pairs have both endpoints in the 37-gene union of external bank-novel genes. Random-pair success therefore does not establish prediction across the external missing block. The four external panels contain 509 unique pairs, not 1,094 independent observations.
+
+A same-pair residual-transfer diagnostic also finds repeatable information between external cohorts, but it supplies a measured source response for the very pair being predicted. That is a different information contract from unseen-pair completion. Reusing exposed cohorts for these diagnostics cannot turn them into untouched confirmation.
+
+A fixed reference-replacement check rejects a simple rescue: adding the unchanged old correction to assay-local minimum singles raises PARPi MSE by **23.91% and 25.80%**, while the two environmental gains have conditional intervals crossing zero. Better local singles therefore do not establish that the old residual transports. No correction weight was tuned.
+
+The scientific interpretation is that **some pair-aligned predictive signal survives within-study infection changes, while reliable cross-study unseen-pair prediction remains unestablished**. Jointly validated assay-local references and residuals, with graph-matched evaluation, are the next falsifiable requirements; neither a larger architecture nor a post-result rescue is justified by these results. The [updated paper](paper/main.pdf) and its [source-bound aggregate evidence](paper/evidence/model_development_20261020.json) preserve the exact scores, comparator exception, conditional uncertainty and exposure limits.
 
 ### Closed expression candidate
 
@@ -183,7 +195,7 @@ The output follows the manifest's fixed gene order and effect scale. EmeraldBay 
 
 **Which model is retained?** Independent-context growth completion is retained for the original K562/Jurkat assay. Its within-source gains survive the locked test; its unchanged K562 external-superiority hypothesis fails. The shared/private growth candidate and hierarchical expression-composition candidate are closed.
 
-**What does the 0.1.2 release contain?** Historical code, comparative evidence and kernel references in a private GitHub release. The current source is 0.1.3.dev0; the new local growth assets are not part of that release. The expression preprint draft does not report the newer growth experiments.
+**What does the 0.1.2 release contain?** Historical code, comparative evidence and kernel references in a private GitHub release. The current source is 0.1.3.dev0; the new local growth assets are not part of that release. The updated preprint now reports the growth experiments and exploratory diagnostics separately from the preserved historical expression studies.
 
 **Does the model learn biological interactions?** The evidence does not establish transferable mechanistic interaction recovery. Residuals contain measurement error and shared distortion as well as potential pair-specific effects, so comparison with strong simple references remains essential.
 
@@ -191,7 +203,7 @@ The output follows the manifest's fixed gene order and effect scale. EmeraldBay 
 
 ## 7. Limitations
 
-Within-source pair completion is easier than transfer across screens. Guide choice, effective knockdown, growth window, normalization and depletion floors can change the response even in K562. The external studies show substantial source mismatch; the matched-guide subset is too small to establish novel-pair transfer. Shared laboratory lineage also limits claims of biological independence.
+Within-source pair completion is easier than transfer across screens. Guide choice, effective knockdown, growth window, normalization and depletion floors can change the response even in K562. The external studies show substantial source mismatch and graph-support shift; the matched-guide subset is too small to establish bank-novel transfer. Positive cross-infection development and same-pair residual reuse do not overturn the frozen external failure. Shared laboratory lineage also limits claims of biological independence.
 
 The expression banks have limited pair supervision, repeated splits share data, and several context-transfer and uncertainty hypotheses failed. Conditional pair/gene intervals are not biological prediction intervals. Passing tests, exact replay and safe exports do not establish mechanisms, clinical usefulness or frontier performance.
 

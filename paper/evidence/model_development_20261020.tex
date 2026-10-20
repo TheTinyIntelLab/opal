@@ -1,0 +1,119 @@
+\section{From expression composition to measured-growth prediction}
+\label{sec:growth}
+The experiments below are subsequent, separately registered studies. Their functional endpoint and information access differ from the historical expression benchmark. They are not revisions to its protected test scores, and growth improvements cannot be interpreted as expression improvements. Compact source-bound aggregate records accompany this section.
+
+\subsection{First-principles restriction and the failed expression continuation}
+Given measured singles $s_i,s_j$, write a combination response as $y_{ij}=s_i+s_j+\eta_{ij}$. Arbitrarily many interaction functions $\eta$ agree on the same singles. Pair supervision, additional measurements or justified structural restrictions must therefore supply the missing information. Under independent arm-estimation errors, additive-feature error and residual-target error have covariance $-\operatorname{Var}(\epsilon_i)-\operatorname{Var}(\epsilon_j)-2\operatorname{Var}(\epsilon_0)$ when each single contrast shares a control error $\epsilon_0$. Attenuating additivity may consequently correct measurement error without identifying causal antagonism.
+
+A finite hierarchical composition test used signed same-sign and opposing-sign single-effect overlap, gene-specific slopes shrunk toward pooled coefficients, and training-fitted intercepts. Five outer and three inner folds compared it with affine calibration, reduced-rank regression and profile kernels on 88 Norman and 110 expanded Wessels fitting pairs. All these sources were already exposed development. Partner folds overlap; repeated held predictions were averaged per pair for the primary endpoint. No historical protected expression test was reopened.
+
+\begin{table}[htbp]\centering\small
+\begin{tabular}{llrr}\toprule
+Source & Holdout & Composition MSE & Inner-selected reference MSE\\\midrule
+Norman & Pair & 0.00621337 & 0.00608876\\
+Norman & Partner & 0.00634312 & 0.00632210\\
+Wessels & Pair & 0.00850956 & 0.00711547\\
+Wessels & Partner & 0.00928111 & 0.00919508\\\bottomrule
+\end{tabular}
+\caption{The hierarchical expression-composition candidate fails all four registered comparisons. Affine calibration beats composition in every setting; the strongest reference is the Wessels kernel under random-pair holdout and affine elsewhere. These are development scores, not independent confirmation.}
+\label{tab:composition-update}\end{table}
+
+The candidate was closed rather than expanded after its loss. Its result rejects this overlap law, not the existence of biological interactions. Additional pair-response supervision motivated a separate functional task instead of a larger expression network on the same small pair banks.
+
+\subsection{Growth data, reference and symmetric completion}
+Horlbeck et al.'s double-CRISPRi screen \citep{horlbeck2018}, GEO GSE116198, supplies measured growth gamma for K562 and Jurkat. We use triple-sequencing gamma, averaging ordered guide constructs within each infection and then the two infections equally. Singles come from gene/negative-control constructs. Published genetic-interaction scores and correlations are excluded because their global construction uses pair outcomes beyond the fitting partition. The deposited gamma normalization remains a shared upstream technical dependency.
+
+Eligibility requires at least 20 finite single observations and four finite ordered pair observations in each context and infection. The resulting bank has 81,466 canonical distinct-gene pairs and 427 supported genes in a 467-gene schema. This coverage rule does not threshold observed effect size, but missing finite phenotypes can still depend on depletion. The population is enriched for growth-related genes, not a genome-wide sample. Seed 20261021 fixes 48,879 training, 16,293 validation and 16,294 test pairs in both contexts. All guides, orientations and contexts for one pair stay together, and every query gene has training-pair support.
+
+Let $c$ index cell context. A training-fitted reference $b_c(i,j)$ adds a ridge-calibrated correction to the observed-single sum, using its sum, absolute difference, product and optional gene-incidence terms. The completion prediction is
+\begin{equation}
+\widehat y_{ij,c}=b_c(i,j)+M_{ij,c},\qquad
+M_c=\tfrac12(U_cV_c^{\mathsf T}+V_cU_c^{\mathsf T}).
+\end{equation}
+Unlike a positive-semidefinite factorization, this symmetric indefinite matrix permits positive and negative residual structure. A sharing candidate replaces $M_c$ by a common symmetric matrix plus context-private factors. Independent, pooled-only and common/private alternatives have equal factor parameter budgets within each registered rank comparison. The joint rank-$r$ model uses shared rank $r$ and private rank $r/2$; independent models use rank $r$ per context, and pooled-only uses rank $2r$.
+
+Training-only scales and coefficients are fitted before validation selects references, ranks 8/16, penalties 0.001/0.01 and checkpoints every 25 steps. Adam uses learning rate 0.03, one fixed initialization and a 500-step cap. Baselines include zero, original-single sum and minimum, scalar calibration, calibrated gene main effects, independent completion and pooled-only completion. No test outcome participates in selection. The joint model must improve at least 2\% over the validation-selected strongest non-joint reference in both contexts with below-zero upper conditional loss-difference bounds; test-best alternatives are not retrospectively promoted.
+
+\begin{table}[htbp]\centering\small
+\begin{tabular}{lrrr}\toprule
+Context & Main-effect MSE & Independent MSE & Joint MSE\\\midrule
+K562 & 0.00187049 & 0.00137593 & 0.00136626\\
+Jurkat & 0.00050049 & 0.00042630 & 0.00045576\\\bottomrule
+\end{tabular}
+\caption{Locked within-source growth test. Independent completion improves over calibrated main effects by 26.44\% and 14.82\%. Joint sharing gains only 0.70\% in K562 and loses 6.91\% in Jurkat against the stronger completion reference, failing promotion. MSE units are growth gamma squared and cannot be pooled with expression MSE.}
+\label{tab:growth-internal}\end{table}
+
+Validation retains independent rank 8, penalty 0.01, step 300 for K562 and rank 16, penalty 0.01, step 200 for Jurkat. The joint winner uses rank 8, penalty 0.01, step 125. The finite fit took 18.72 seconds and about 916 MiB peak working set on one numerical thread. Independent completion is a specialized within-source predictor; the common/private hypothesis is failed relative to that strong reference, not a newly competitive architecture.
+
+\subsection{Frozen external reference-growth evaluation}
+The retained K562 predictor was frozen before scoring reference growth in the environmental screen of Herken et al. \citep{herken2026}, GSE312636, and the PARPi screen of Simpson et al. \citep{simpson2023}, GSE284018. Environmental experiments 1/2 and PARPi 2022/2023 remain four cohorts from two studies, each retaining two infection replicates. They share laboratory lineage and cannot count as four independent laboratories or studies. Three sequencing runs in PARPi 2022 are technical reads merged before analysis.
+
+Only untreated/DMSO gamma is compared with the frozen predictor. Drug response, sensitization and globally fitted interaction scores are different endpoints. Whole-library filtering requires each guide's mean of infection-specific median T0 counts to exceed 35 in both positions and each construct to exceed 50 in both T0 samples. Add ten to surviving counts, form log2 endpoint/T0 enrichment, subtract the double-negative-control median per infection and divide by author-supplied reference population doublings. Sequencing-fraction normalization cancels after this centering. The environmental authors use endpoint-based guide coverage; our registered T0-only harmonization deliberately differs to avoid excluding strong observed depletion. It is not exact published-score reproduction. Environmental experiment 2 has 2,023 incomplete constructs, excluded rather than zero-imputed; missingness may nevertheless be response-dependent.
+
+Canonical pair targets average at least two distinct ordered guide constructs within each infection, then weight infections equally. Guide orientations are subsamples, not biological replicates. The primary panel contains supported-gene pairs absent from the entire original eligible bank, with at least 50 pairs and ten genes per cohort. This is \emph{bank-novel}, not necessarily never measured. Original test, validation and training overlaps remain separate as previously scored, selection-exposed and repeatability strata.
+
+The model and same-information references retain original singles and coefficients. No external single replaces an input, and no intercept, scale, factor or checkpoint is fitted to external outcomes. MSE against mean infection targets is primary; infection-specific errors, bias, MAE and Pearson correlation are retained. Two thousand conditional pair and gene-resampling draws use seed 20261020. Gene resampling weights each edge by the product of resampled endpoint multiplicities. These intervals describe sensitivity conditional on measured panels and cultures, not population-level uncertainty from two infections. Promotion requires at least 2\% mean-target MSE gain over frozen main effects in every qualifying cohort, improvement in each infection, below-zero upper gene-resampling bounds and no loss to the other fixed simple references.
+
+\begin{table}[htbp]\centering\small
+\begin{tabular}{lrrrr}\toprule
+Cohort & Pairs / genes & Completion & Main effects & Original minimum\\\midrule
+Environmental 1 & 130 / 17 & 0.0710602 & 0.0695619 & 0.0358322\\
+Environmental 2 & 130 / 17 & 0.0504016 & 0.0493793 & 0.0255072\\
+PARPi 2022 & 423 / 30 & 0.1060987 & 0.1048554 & 0.0670913\\
+PARPi 2023 & 411 / 30 & 0.1067118 & 0.1055719 & 0.0672618\\\bottomrule
+\end{tabular}
+\caption{Frozen K562 external bank-novel MSE. All panels qualify and all fail promotion. Completion MSE is 2.15\%, 2.07\%, 1.19\% and 1.08\% higher than frozen main effects. The panels overlap; their summed rows are not independent pair samples.}
+\label{tab:growth-external}\end{table}
+
+Completion-minus-main-effect gene-resampling bounds are $[-0.002278,0.005191]$, $[-0.001911,0.004077]$, $[-0.001419,0.003735]$ and $[-0.001494,0.003670]$. All include zero, so this is failed superiority, not established general harm from completion. Original-single minimum is substantially better in every cohort, and zero also beats completion on the two PARPi bank-novel panels. Original-test overlap shows no consistent completion gain either. The original within-source results are preserved; no failed source-transfer claim is rescued by post-result tuning.
+
+\subsection{What the graph and assay audits change}
+The four bank-novel panels comprise only 509 unique pairs. Environmental panels are identical sets of 130; PARPi 2023's 411 are a subset of 2022's 423. Environmental overlap with PARPi is 44 or 38 pairs. All 509 occur in the original raw Horlbeck table, but fail the joint-context finite-coverage rule. Some exclusions from K562 evaluation arise solely from Jurkat coverage. Thus ``bank-novel'' describes training eligibility, not the absence of original biological measurement.
+
+These panels are nearly complete subgraphs among 17 or 30 genes, while their endpoint genes have low original eligible degree, median 285 versus 426 over all active genes. The external test therefore combines source shift with a graph-support shift. A no-fit audit on the exposed original test uses training-degree tertiles fixed before subgroup losses: 8,270 pairs touching the lowest tertile still show gains of 21.08\% in K562 and 14.40\% in Jurkat; the 112 lowest/lowest pairs show 14.07\% and 14.40\%. This weakens a sole explanation based on low degree, but does not simulate an entirely missing gene block. Only four original test pairs have both endpoints in the 37-gene union of external bank-novel genes, too few for the registered descriptive-interval minimum. Neither subgroup replay nor the external result identifies a causal graph-support contribution.
+
+Original/external single-effect Pearson correlations are 0.161, 0.308, $-0.030$ and $-0.038$, with large mean changes. A positive scalar rescaling alone cannot repair those centered correlations. External measured-single minimum MSE is 0.00584, 0.00915, 0.00253 and 0.00234 on the same primary panels. This is extra information, not a fair same-input score for adapted Opal. Opposite-infection single-to-pair checks and count-threshold sensitivities retain their exploratory role. Reagent choice, perturbation strength, duration, cell state, depletion floors, normalization and informative missingness remain confounded.
+
+A later no-fit diagnostic adds a measured source-cohort residual for the \emph{same} pair to target-cohort minimum singles. For 130 environmental and 411 PARPi matched pairs, residual correlations are 0.722 and 0.845; the fixed transfer improves minimum-single MSE in both directions. Cross-study overlaps contain only 38 or 44 pairs and have wider conditional bounds. All twelve directed point estimates improve on minimum, but four bounds include zero. This does not predict an unseen combination: its source input includes that combination's measured response. Edge shuffling also destroys gene-associated structure, so aligned/shuffled differences cannot uniquely identify pair-specific biology. Reused exposed outcomes, overlapping panels and this additional label access prohibit a new confirmatory or model-promotion claim.
+
+\subsection{Local-reference replacement does not transport the old correction}
+A separate frozen no-fit diagnostic gives the predictor external minimum singles, while retaining exactly the old completion correction $\widehat y^{\rm old}_{ij}-b^{\rm old}(i,j)$ with unit weight. Minimum is computed within infection before infection averaging; no source pair outcome supplies the correction, and no external coefficient or checkpoint is selected. This is an exposed successor diagnostic with extra information, not a revision to the equal-input external test.
+
+\begin{table}[htbp]\centering\small
+\begin{tabular}{lrrr}\toprule
+Cohort & Local minimum & Minimum + old correction & Gain (\%)\\\midrule
+Environmental 1 & 0.00583726 & 0.00580404 & 0.57\\
+Environmental 2 & 0.00914504 & 0.00871926 & 4.66\\
+PARPi 2022 & 0.00252622 & 0.00313029 & $-23.91$\\
+PARPi 2023 & 0.00234228 & 0.00294654 & $-25.80$\\\bottomrule
+\end{tabular}
+\caption{Exploratory reference replacement at fixed correction weight one. Environmental conditional paired gene-resampling bounds include zero; both PARPi loss-difference intervals are entirely positive. No correction-weight rescue is fitted.}
+\label{tab:growth-reference-swap}\end{table}
+
+The PARPi loss-difference bounds are $[0.000225,0.001051]$ and $[0.000265,0.001011]$, conditional on these cultures and genes. Losses persist in both opposite-infection directions. Adding the correction to local additive singles also raises primary MSE in all four cohorts. Thus better local main effects alone do not make the historical correction transportable at unit weight. The correction/reference decomposition is dependent on its source calibration; the result rejects this direct transplant, not all assay adaptation or the existence of interactions.
+
+\subsection{Cross-infection held-pair development retains a limited signal}
+An explicitly exploratory continuation reuses the original pair split to ask whether residual alignment predicts the opposite deposited infection. Source-infection singles and training pairs fit fixed-alpha references; source-infection validation selects the reference and checkpoint. Opposite-infection pair outcomes enter only final scoring. One rank-8 independent completion uses penalty 0.01, 500 steps and seed 20261022. A matched negative control applies one fixed shared permutation to training residual pair labels, preserving cross-context residual covariance while breaking pair alignment. Ten reference fits and four completion fits take 9.77 seconds; no rank, penalty or seed search occurs.
+
+\begin{table}[htbp]\centering\small
+\begin{tabular}{llrrrr}\toprule
+Context & Infection & Selected node & Aligned & Shuffled & Gain (\%)\\\midrule
+K562 & $1\to2$ & 0.00452043 & 0.00433089 & 0.00485093 & 4.19\\
+Jurkat & $1\to2$ & 0.00171504 & 0.00165254 & 0.00173088 & 3.64\\
+K562 & $2\to1$ & 0.00573598 & 0.00526993 & 0.00591978 & 8.12\\
+Jurkat & $2\to1$ & 0.00174425 & 0.00168909 & 0.00176404 & 3.16\\\bottomrule
+\end{tabular}
+\caption{Exposed-source held-pair cross-infection MSE. Reference selection uses source validation only; the same canonical test pairs occur in both directions. Gains pass the registered development gate relative to selected node effects, but are not four independent confirmations or consistent superiority to every simple reference.}
+\label{tab:growth-infections}\end{table}
+
+Two thousand positive gene-node multiplier draws assign independent Exp(1) weights to genes and endpoint-product weights to edges, unlike the discrete gene resampling in the external test. All four aligned-minus-node upper bounds are below zero, and every aligned fit beats its shuffled control. These are conditional dyadic sensitivity bounds with no formal biological-population coverage guarantee. Importantly, the calibrated-single reference on Jurkat $1\to2$ has MSE 0.00164975, slightly better than aligned completion's 0.00165254. This post-scoring comparator disclosure is not used to refit a replacement, but prevents claiming universal simple-baseline superiority.
+
+After separately fitted node references, residual infection correlations are 0.384 in K562 and 0.240 in Jurkat, versus raw response correlations 0.879 and 0.938. Raw-growth repeatability is therefore not evidence that interaction residuals are equally reliable. The aligned gains support useful within-study pair-associated structure after this reference adjustment; shared guides, common processing and incomplete main-effect calibration remain alternative explanations. A passed exploratory gate permits an untouched-source experiment, not architecture promotion or reversal of the external failure.
+
+\subsection{Scientific decision and exposure boundary}
+The expression-overlap and cross-context-sharing hypotheses are closed, and unchanged-model external superiority is failed. Independent completion remains a source-conditional reference. The later infection experiment is promising only as exposed development relative to its source-selected node baseline; the stronger calibrated comparison qualifies that result. None of these studies demonstrates transferable mechanisms, unseen-gene prediction, improved expression from growth training, calibrated biological uncertainty or frontier performance.
+
+The next falsifiable improvement concerns jointly validated assay-local reference and residual prediction with graph-matched support, not an indiscriminate architecture expansion. The fixed reference-replacement result rules out assuming that the old residual can simply be added to better local singles. Development should first test incremental pair prediction above minimum, additive and calibrated-single/main-effect references, with a negative control and an explicit missing-block task when that is the intended use. A subsequent compatible source must remain outside selection. Original test sets, all four external cohorts and the repeated diagnostic panels are already exposed; repartitioning or a newly frozen comparison cannot make them untouched. The present revision reports existing evidence and performs no biological fitting.
+
+
+Metadata-only follow-up identifies SPIDR \citep{fielden2025} as a possible future source, not an executed accuracy result. Its library shares 41 supported genes and 820 distinct supported pairs, 136 absent from the original eligible bank, before observed coverage is known. The broad screen is RPE-1 TP53-knockout T14/T0 log-fold change, with deliberate guide mismatches and cultures split after transduction. It is not interchangeable with K562 per-doubling gamma. Response Table 8 was not opened in this qualification. Any use requires a separately registered context/endpoint task and an outcome-independent guide/coverage rule; library overlap does not certify usable response supervision.
