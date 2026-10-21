@@ -1,0 +1,52 @@
+{
+  "note": "Exposed development sources; local pair supervision and measured singles. Point estimates, no pooled cross-source score. Native and selector are shown only when their complete receipts are supplied. The selector was proposed after Q2 test exposure. This is not independent confirmation.",
+  "code_sha256": "6868981968bf8ebacc04dd165ceaf0f8026ce61b7068a7cf5d2c32f50f72e90b",
+  "inputs": {
+    "block": {
+      "path": "C:\\Users\\USER\\Desktop\\opal-research-next-20261020\\block-v2\\results.json",
+      "sha256": "f34ec5adc9e97802667dd43e41c2bbb5abc4056913110a73da4cd58c915cabe4"
+    },
+    "native": {
+      "path": "E:\\opal-research-next-20261021\\native-block-v6\\results.json",
+      "sha256": "0b642043ddad69b367c98f2ee956099b323569cfd06ec16ace93923cb5828482"
+    },
+    "family": {
+      "path": "E:\\opal-research-next-20261021\\family-v1\\results.json",
+      "sha256": "59f769c2775955709c5e95feb48d90ba2ff71caf320a49b7239a9be706e819bb"
+    }
+  },
+  "baseline_mse": [
+    0.0018656418356246718,
+    0.0005009162998320582,
+    0.0005450429006015583,
+    0.0007248761005929065,
+    0.0003095503277684733,
+    0.00030161626937119646
+  ],
+  "mse": {
+    "Rank-eight completion": [
+      0.0013418626513990082,
+      0.0004341567404863752,
+      0.0003655341517065346,
+      0.00046475313111452585,
+      0.00021159725552219704,
+      0.00022298166618172846
+    ],
+    "Native NAIAD, symmetric inference": [
+      0.001498573929549316,
+      0.00045825641627892006,
+      0.0003840918002220012,
+      0.00046588175713299044,
+      0.0002026861903515702,
+      0.00022301821343446906
+    ],
+    "Validation family selector": [
+      0.0013418626513990082,
+      0.0004341567404863752,
+      0.0003655341517065346,
+      0.0004534048010342638,
+      0.00020944392620992188,
+      0.00022298166618172846
+    ]
+  }
+}

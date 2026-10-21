@@ -1,0 +1,402 @@
+{
+  "full_suite_before_tail": {
+    "tests": 518,
+    "errors": 0,
+    "failures": 0,
+    "seconds": 62.764,
+    "junit_sha256": "5e5a4bfcabc5b01ff330796d3deb21293ef8eb6db25a416047a3a929ad9f9aef"
+  },
+  "failed_invocation": {
+    "reason": "Explicit pytest basetemp parent did not exist; created parent and reran successfully",
+    "result": "301 passed, 217 setup errors"
+  },
+  "historical_installed_replay": {
+    "receipt_sha256": "c96313f02741482329023a72ec8c326f331246ff8c8576953105e8d2a85fc7fa",
+    "result": {
+      "dependency_install": "wheel installed without dependencies; host dependency closure reused",
+      "development_composite_max_abs": {
+        "rep1-aligned": 0.0,
+        "rep1-shuffled": 0.0,
+        "rep2-aligned": 0.0,
+        "rep2-shuffled": 0.0
+      },
+      "external_frozen_max_abs": {
+        "environment1": 0.0,
+        "environment2": 0.0,
+        "parp2022": 0.0,
+        "parp2023": 0.0
+      },
+      "fitting": false,
+      "frozen_hash_counts": {
+        "development_code": 4,
+        "fitness-external-20261020": 22,
+        "research-reset-diagnostics": 26,
+        "research-reset-reference-swap": 27,
+        "research-reset-support/v1": 17
+      },
+      "module": "C:\\Users\\USER\\Desktop\\opal-research-next-20261021\\installed-verified\\opal\\__init__.py",
+      "original_test_max_abs": {
+        "Jurkat": 3.469446951953614e-17,
+        "K562": 5.551115123125783e-17
+      },
+      "original_test_pairs": 16294,
+      "selection_and_prerequisite_order_verified": true,
+      "status": "passed"
+    }
+  },
+  "assay": {
+    "receipt_sha256": "89555ff1ba7641645f30dbe132be1d0adb883625c9b9684466227461b9821e3c",
+    "result": {
+      "schema": "opal-synthetic-assay-rehearsal-v1",
+      "commands": [
+        {
+          "command": "prepare",
+          "returncode": 0
+        },
+        {
+          "command": "query-references",
+          "returncode": 0
+        },
+        {
+          "command": "prepare-sealed",
+          "returncode": 0
+        },
+        {
+          "command": "diagnose",
+          "returncode": 0
+        },
+        {
+          "command": "freeze",
+          "returncode": 0
+        },
+        {
+          "command": "evaluate",
+          "returncode": 0
+        }
+      ],
+      "synthetic_only": true,
+      "original_integer_counts": true,
+      "exact_reference_lineage_verified": true,
+      "query_outcomes_absent": true,
+      "query_and_custodian_reference_transforms_agree": true,
+      "restoration_pass": true,
+      "scientific_confirmation_claimed": false,
+      "development_pairs": 88,
+      "confirmation_pairs": 24,
+      "query_reference_rows": 40,
+      "protocol_sha256": "ca17eaca2de9397a07f37ae28c2d9e2790cc0709ac989a38f971132a521242ef",
+      "code_sha256": "822522da16ce0c2887b521a9430ebf2f6669d051a2e8d88d96e82bcdecd776c9"
+    }
+  },
+  "native_tail_prefit_tests": 37,
+  "preliminary_build": {
+    "opal_research-0.1.3.dev0-py3-none-any.whl": {
+      "bytes": 267173,
+      "sha256": "972deb5f3ed2f9c20c0849cd553c2f3fd368e6d7cd419d2efd046015648cccab",
+      "forbidden_assets": []
+    },
+    "opal_research-0.1.3.dev0.tar.gz": {
+      "bytes": 1245198,
+      "sha256": "b2e0db30ced717d1e62f990069fb0ae79fed1056898141b88152fbbc84e5702d",
+      "forbidden_assets": []
+    }
+  },
+  "full_suite": {
+    "tests": 526,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "seconds": 79.291,
+    "warnings": 4,
+    "junit_sha256": "76883ef0b61ee6c0d7ed760a939c965a7e0eb8bc6ded5f79cc8f39827f90f9ea",
+    "command": ".venv/Scripts/python.exe -m pytest -q --basetemp C:\\Users\\USER\\Desktop\\opal-research-next-20261021\\tests-final --junitxml C:\\Users\\USER\\Desktop\\opal-research-next-20261021\\tests-final.xml"
+  },
+  "build_verified": {
+    "returncode": 0,
+    "log_sha256": "4010f011a0470700d14f9ff50062f42523183e59731df3bd3919ac8b7a9f5776",
+    "warning": "Existing setuptools project.license table deprecation",
+    "earlier_shell_status": "A redirected PowerShell invocation reported1 despite a successful build log; direct subprocess capture confirmed zero before final installation.",
+    "opal_research-0.1.3.dev0-py3-none-any.whl": {
+      "bytes": 267320,
+      "sha256": "b7f6244305ad7dd3aa5d32d849de461e92341c6465445b3496eafcae6138f4bd",
+      "excluded_assets_verified": true
+    },
+    "opal_research-0.1.3.dev0.tar.gz": {
+      "bytes": 1253714,
+      "sha256": "83d8d1baff664a6746f002cc76600f4a3e90e4b27910450f0632612f16dd6e02",
+      "excluded_assets_verified": true
+    }
+  },
+  "model_series_source_identity": {
+    "python_modules": 96,
+    "preliminary_and_final_installed_source_byte_equal": true
+  },
+  "block_native_installed_replay": {
+    "receipt_sha256": "399cef3e7fdd8c25a0c0600a2fb5f15e8626f212b3f617ce0b09df5dd5cdbf18",
+    "result": {
+      "block": {
+        "environment1": {
+          "arrays": 18,
+          "exact": true,
+          "pairs": 9833
+        },
+        "environment2": {
+          "arrays": 18,
+          "exact": true,
+          "pairs": 9833
+        },
+        "horlbeck_Jurkat": {
+          "arrays": 18,
+          "exact": true,
+          "pairs": 16210
+        },
+        "horlbeck_K562": {
+          "arrays": 18,
+          "exact": true,
+          "pairs": 16210
+        },
+        "parp2022": {
+          "arrays": 18,
+          "exact": true,
+          "pairs": 29016
+        },
+        "parp2023": {
+          "arrays": 18,
+          "exact": true,
+          "pairs": 28651
+        }
+      },
+      "installed_module": "C:\\Users\\USER\\Desktop\\opal-research-next-20261021\\installed-verified\\opal\\__init__.py",
+      "native": {
+        "environment1": {
+          "exact": true,
+          "pairs": 9833
+        },
+        "environment2": {
+          "exact": true,
+          "pairs": 9833
+        },
+        "horlbeck_Jurkat": {
+          "exact": true,
+          "pairs": 16210
+        },
+        "horlbeck_K562": {
+          "exact": true,
+          "pairs": 16210
+        },
+        "parp2022": {
+          "exact": true,
+          "pairs": 29016
+        },
+        "parp2023": {
+          "exact": true,
+          "pairs": 28651
+        }
+      },
+      "status": "exact installed-wheel numerical replay"
+    }
+  },
+  "model_series_v1": {
+    "receipt_sha256": "320f4966fe8782472d40ba7d6701a49cfabadc78885f1c966813e7b0c8b78f5d",
+    "result": {
+      "dependency_install": "Host dependency closure reused; not a fresh dependency installation",
+      "outside_checkout": true,
+      "package_path": "C:\\Users\\USER\\Desktop\\opal-research-next-20261021\\installed\\opal\\__init__.py",
+      "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+      "records": [
+        {
+          "api_cli_max_abs": 0.0,
+          "checkpoint_model_sha256": "41c700da93770fd2d06d4a031bd8777be7237744e789a8c0f5f4c596d0c82636",
+          "cli_train_predict_evaluate": "passed",
+          "evaluation": {
+            "freeze_sha256": "c21e92a44777a325c40de61decc103105b5c3c9c1fa9cba82575b45e2dcb0516",
+            "mse": 0.00838833548244327,
+            "pair_mse": [
+              0.008784557417640466,
+              0.0083179547443633,
+              0.008062494285326044
+            ],
+            "per_stratum": {
+              "synthetic": 0.00838833548244327
+            }
+          },
+          "model": "Opal-Base",
+          "source_refit_max_abs": 0.0
+        },
+        {
+          "api_cli_max_abs": 0.0,
+          "checkpoint_model_sha256": "2056cab6631730d6135f642482da8d39b701a3905a50d866c67b31a737d016dd",
+          "cli_train_predict_evaluate": "passed",
+          "evaluation": {
+            "freeze_sha256": "f780025c936cb278dac719ebfc047b902e06e293d59432d413baacd993a43c89",
+            "mse": 0.009592994898229084,
+            "pair_mse": [
+              0.015215365932954594,
+              0.007103350384912192,
+              0.0064602683768204645
+            ],
+            "per_stratum": {
+              "synthetic": 0.009592994898229084
+            }
+          },
+          "model": "Opal-Interaction",
+          "source_refit_max_abs": 0.0
+        },
+        {
+          "api_cli_max_abs": 0.0,
+          "checkpoint_model_sha256": "dc518d23d7c9acdcd2f2467c65df6e998fee55436cb6cdaa230823ae67803c76",
+          "cli_train_predict_evaluate": "passed",
+          "evaluation": {
+            "freeze_sha256": "085057541b3dcbd3cb58091bd4fa32d3ccdcdcfa946287b1caf40748ab10947c",
+            "mse": 0.008901162695783237,
+            "pair_mse": [
+              0.0127044393900102,
+              0.007386173629257966,
+              0.006612875068081547
+            ],
+            "per_stratum": {
+              "synthetic": 0.008901162695783237
+            }
+          },
+          "model": "Opal-Guard",
+          "source_refit_max_abs": 0.0
+        }
+      ],
+      "source": "synthetic engineering",
+      "status": "verified",
+      "synthetic": true
+    }
+  },
+  "model_series_v2": {
+    "receipt_sha256": "2011e529451d52af4399c2280efa878bc8f68af2d07405516b8c7aac199261c5",
+    "result": {
+      "dependency_install": "Host dependency closure reused; not a fresh dependency installation",
+      "outside_checkout": true,
+      "package_path": "C:\\Users\\USER\\Desktop\\opal-research-next-20261021\\installed\\opal\\__init__.py",
+      "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+      "records": [
+        {
+          "api_cli_max_abs": 0.0,
+          "checkpoint_model_sha256": "173859da2372bc8c019f743870086bed603b603837d0fd4c221718119d6ebaad",
+          "cli_train_predict_evaluate": "passed",
+          "evaluation": {
+            "freeze_sha256": "01539ec7a5ba9dae4e910a0528a0252f5d25cff9ac0f3e1297227fd07f63f5ee",
+            "mse": 0.007059294024169812,
+            "pair_mse": [
+              0.004557768206146887,
+              0.008854603388592777,
+              0.007765510477769774
+            ],
+            "per_stratum": {
+              "synthetic": 0.007059294024169812
+            }
+          },
+          "model": "Opal-Base",
+          "source_refit_max_abs": 0.0
+        },
+        {
+          "api_cli_max_abs": 0.0,
+          "checkpoint_model_sha256": "28f7698d760e561fda711590874b2585d356b97954f7335db3621cf4e7ac5920",
+          "cli_train_predict_evaluate": "passed",
+          "evaluation": {
+            "freeze_sha256": "20fff516892224f3a1a863b8984183a9395b203ad45c38fb3079652178db20af",
+            "mse": 0.007059294024169812,
+            "pair_mse": [
+              0.004557768206146887,
+              0.008854603388592777,
+              0.007765510477769774
+            ],
+            "per_stratum": {
+              "synthetic": 0.007059294024169812
+            }
+          },
+          "model": "Opal-Interaction",
+          "source_refit_max_abs": 0.0
+        },
+        {
+          "api_cli_max_abs": 0.0,
+          "checkpoint_model_sha256": "5247b556113910ced78253909d3d3afa2e674c07422e53b37ff5aef3d8d89071",
+          "cli_train_predict_evaluate": "passed",
+          "evaluation": {
+            "freeze_sha256": "8a82096e551edab14139dbc2160ac3a32b32f2f09d88487df74561dec094e4ed",
+            "mse": 0.007059294024169812,
+            "pair_mse": [
+              0.004557768206146887,
+              0.008854603388592777,
+              0.007765510477769774
+            ],
+            "per_stratum": {
+              "synthetic": 0.007059294024169812
+            }
+          },
+          "model": "Opal-Guard",
+          "source_refit_max_abs": 0.0
+        }
+      ],
+      "source": "synthetic engineering",
+      "status": "verified",
+      "synthetic": true
+    }
+  },
+  "documentation": {
+    "documents": 123,
+    "unavailable_links": 0,
+    "receipt_sha256": "4d3f47ea9b4f5d1b66ea508b5c0640b2fa9b789f14b5d8c5138f9fc7d3b6a9e0",
+    "command": ".venv/Scripts/python.exe tools/build_docs.py --output C:\\Users\\USER\\Desktop\\opal-research-next-20261021\\docs-delivery"
+  },
+  "native": {
+    "results_sha256": "0b642043ddad69b367c98f2ee956099b323569cfd06ec16ace93923cb5828482",
+    "replay": {
+      "completed_utc": "2026-10-21T02:02:02.168549+00:00",
+      "resources": {
+        "cpu_seconds": 5187.890625,
+        "peak_rss_bytes": 602046464,
+        "wall_seconds": 5194.409838100015
+      },
+      "results_sha256": "0b642043ddad69b367c98f2ee956099b323569cfd06ec16ace93923cb5828482",
+      "status": "exact native predictions and scientific JSON replay"
+    }
+  },
+  "family": {
+    "results_sha256": "59f769c2775955709c5e95feb48d90ba2ff71caf320a49b7239a9be706e819bb",
+    "replay": {
+      "resources": {
+        "cpu_seconds": 28.890625,
+        "peak_rss_bytes": 531910656,
+        "wall_seconds": 29.355084800015902
+      },
+      "results_sha256": "59f769c2775955709c5e95feb48d90ba2ff71caf320a49b7239a9be706e819bb",
+      "status": "exact family predictions and scientific JSON replay"
+    }
+  },
+  "independent_review": {
+    "path": "docs/research_reset/native_independent_review.md",
+    "sha256": "2807adac074d36ccbfc5eaab372a5e9d1e584cb3d6c495628577ebf1096a30f8",
+    "hashes_verified": 723,
+    "validation_choices": 30,
+    "direct_native_test_folds": 30,
+    "independent_primary_intervals": 30,
+    "discrepancies": 0
+  },
+  "hygiene": {
+    "staged_files_reviewed": 64,
+    "credential_pattern_matches": 0,
+    "restricted_asset_extensions": 0,
+    "scientific_raw_and_weights_outside_git": true,
+    "plot_code_git_index_matches_file": true
+  },
+  "prior_hosted_ci": {
+    "commit": "637b8706f347dba461363f150b4d261d8c187279",
+    "url": "https://github.com/TheTinyIntelLab/opal/actions/runs/39529045881",
+    "status": "success",
+    "jobs": 4
+  },
+  "final_hosted_ci": "Checked live after the delivery push and reported with that commit; not claimed through a self-referential committed receipt.",
+  "uncompleted_science": [
+    "processed-gamma guide/arm outcome diagnosis",
+    "flexible singles-only successor",
+    "pair-label budget experiments",
+    "qualified reserved-source test",
+    "independent biological or prospective validation"
+  ]
+}

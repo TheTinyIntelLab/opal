@@ -1,5 +1,7 @@
 # Reset delivery validation
 
+This note records the first wave on 20 October 2026. The [21 October continuation checks](validation_next.md) supersede its software/native-execution status.
+
 The complete suite passes **436 tests in 47.35 seconds** on Windows/Python 3.14, with temporary files on `E:/opal-research-reset-20261020-validation/full-tests-final`. An initial run passed 433 tests and failed three existing one-GiB disk-reserve guards after C: filled; the first relocated attempt lacked its parent directory and produced fixture setup errors. Creating the temporary parent and rerunning the full unchanged suite resolved those environmental failures. No guard or test was weakened.
 
 Wheel and sdist builds pass, with the existing setuptools license-table deprecation warning. Package-only installation and prediction replay pass outside the checkout using host dependencies; this is not a fresh dependency installation. Four new development composites replay exactly, all four historical external prediction arrays replay exactly, and original 16,294-pair predictions differ by at most 5.56e-17. The verifier separately binds development code, data, assignment, checkpoint, selection and prerequisite ordering hashes.

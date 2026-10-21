@@ -43,3 +43,8 @@ The plan retains chemical growth and better-replicated expression as contingent 
 Compact receipts are under `results/research-reset-*`. Their local numerical dependencies remain outside Git or ignored. A machine without the original licensed sources must acquire and prepare hash-matched inputs before biological replay; synthetic tests cannot substitute for those data. The historical plan is archived, and older frontier programs are closed records.
 
 Delivery checks and exact commands are recorded in `results/research-reset-validation/validation.json` and [the validation note](validation.md). The concurrent paper/README update at `af79135` was preserved when this reset resumed. No source counts, model weights, credentials or private correspondence are added by this reset.
+
+
+## Continuation completed, 21 October 2026
+
+The six-task missing-block experiment and thirty-fold native comparator are complete. Completion retains broad development value; the fixed native recipe improves on completion only on PARPi2022, while beating registered simple references throughout. The pre-native-score validation-family selector makes small gains in two tasks and is unchanged elsewhere. [The complete native/family report](native_results.md), [block results](block_results.md) and [authoritative plan](../../plan.md) supersede the first-wave software/status statements above. All evidence remains exploratory; guide/arm aggregation, flexible singles-only structure and label cost remain unresolved, and SPIDR responses remain unopened.
