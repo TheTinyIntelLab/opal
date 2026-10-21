@@ -1,0 +1,117 @@
+{
+  "checks": {
+    "Jurkat_all_qualified_matched_mean_vs_historical": true,
+    "Jurkat_all_qualified_min_jensen": true,
+    "Jurkat_all_qualified_mse": true,
+    "Jurkat_bootstrap_exact": true,
+    "Jurkat_qualified_block_test_matched_mean_vs_historical": true,
+    "Jurkat_qualified_block_test_min_jensen": true,
+    "Jurkat_qualified_block_test_mse": true,
+    "Jurkat_split_count": true,
+    "Jurkat_sum_commutes": true,
+    "K562_all_qualified_matched_mean_vs_historical": true,
+    "K562_all_qualified_min_jensen": true,
+    "K562_all_qualified_mse": true,
+    "K562_bootstrap_exact": true,
+    "K562_qualified_block_test_matched_mean_vs_historical": true,
+    "K562_qualified_block_test_min_jensen": true,
+    "K562_qualified_block_test_mse": true,
+    "K562_split_count": true,
+    "K562_sum_commutes": true,
+    "all_finite_constructs_kept": true,
+    "array_hash": true,
+    "bank_hash": true,
+    "code_hashes": true,
+    "fresh_attempt_no_failure": true,
+    "frozen_before_run": true,
+    "guide_identity_sequence": true,
+    "library_hash": true,
+    "no_exclusions": true,
+    "prerequisite_chain": true,
+    "prior_disk_failure_preserved": true,
+    "resources_within_frozen_caps": true,
+    "result_hash": true,
+    "roster_exact": true,
+    "same_c_e_frozen_recipe": true,
+    "same_c_e_scientific_json": true,
+    "target_exact": true
+  },
+  "control_names": [
+    "negative_control-10016",
+    "negative_control-10029",
+    "negative_control-1003",
+    "negative_control-10041",
+    "negative_control-10042",
+    "negative_control-10044",
+    "negative_control-10056",
+    "negative_control-10057",
+    "negative_control-10081",
+    "negative_control-10094",
+    "negative_control-10095",
+    "negative_control-10100",
+    "negative_control-10114",
+    "negative_control-10115",
+    "negative_control-10130",
+    "negative_control-10899",
+    "negative_control-10909",
+    "negative_control-10927"
+  ],
+  "inputs": {
+    "E:\\opal-wave2-20261021\\q1b-v2\\prepared.npz": "015d179d99e3143e99e9ecd215435a043d29d4b4e61922ee3ca2bb8aacc96bd6",
+    "E:\\opal-wave2-20261021\\q1b-v2\\registration.json": "89e9548387e0f5fbdc1bf80647f6ced39c12a0019957c852cd5d15066db10a04",
+    "E:\\opal-wave2-20261021\\q1b-v2\\results.json": "5405ed26992fe1cba87c450207ec11f79624d99f9a212f53fabe0d8cae1d891e"
+  },
+  "interpretation": "16 finite negative-control partners per supported exact-guide/arm/context/infection; identities of unused metadata controls were not reconstructed from the large phenotype file.",
+  "metadata_controls": 18,
+  "passed": true,
+  "raw_source_limitation": "No raw gzip rescan; reviewed frozen source hash and code, audited saved arrays against original bank. Full exact raw replay is separately recorded by runner.",
+  "raw_source_rehashed": false,
+  "registration_timestamp_note": "Fresh attempt timestamp differs; all other registration fields including recipe, code, inputs and dependencies are exact.",
+  "seconds": 0.6032415000081528,
+  "summary": {
+    "Jurkat": {
+      "all_pair_construct_counts": {
+        "12": 34780,
+        "18": 5402,
+        "4": 50715,
+        "6": 17464,
+        "8": 54571
+      },
+      "construct_min_mse": 0.0010772867967001876,
+      "control_support": {
+        "0": 784,
+        "16": 3304
+      },
+      "gain_percent": 42.53783541913534,
+      "historical_min_mse": 0.0018747758713199125,
+      "mean_first_min_mse": 0.0018747758713199125,
+      "paired_loss_interval": [
+        -0.0009803308356937093,
+        -0.0006301810459332782
+      ],
+      "sum_commutation_max": 2.7755575615628914e-16
+    },
+    "K562": {
+      "all_pair_construct_counts": {
+        "12": 36301,
+        "18": 5699,
+        "4": 47922,
+        "6": 16565,
+        "8": 56445
+      },
+      "construct_min_mse": 0.006615318419545617,
+      "control_support": {
+        "0": 682,
+        "16": 3406
+      },
+      "gain_percent": 33.33753183518956,
+      "historical_min_mse": 0.009923602593277051,
+      "mean_first_min_mse": 0.009923602593277047,
+      "paired_loss_interval": [
+        -0.0038684957981965566,
+        -0.0027748377755567348
+      ],
+      "sum_commutation_max": 6.106226635438361e-16
+    }
+  }
+}

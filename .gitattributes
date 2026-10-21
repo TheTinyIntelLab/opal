@@ -149,3 +149,11 @@ tools/study_label_budget.py -text whitespace=blank-at-eol,blank-at-eof,space-bef
 tests/test_label_budget.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 
 docs/research_reset/label_budget_protocol.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+tools/audit_gamma_control_partners.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+tests/test_gamma_control_partners.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+docs/research_reset/gamma_control_partners_protocol.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+tools/audit_flexible_results.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
