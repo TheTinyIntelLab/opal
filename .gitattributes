@@ -1,9 +1,4 @@
 * text=auto
-# Wave-three registrations bind exact local bytes, including failed attempts.
-tools/wave3*.py -text whitespace=cr-at-eol
-tests/test_wave3*.py -text whitespace=cr-at-eol
-docs/research_reset/wave3*protocol*.md -text whitespace=cr-at-eol
-results/research-wave3-*/** -text whitespace=-blank-at-eof,-blank-at-eol,cr-at-eol
 *.py text eol=lf
 *.tex text eol=lf
 *.bib text eol=lf
@@ -166,3 +161,9 @@ tools/audit_flexible_results.py -text whitespace=blank-at-eol,blank-at-eof,space
 tools/audit_label_budget.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 tools/verify_wave2_delivery.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 tools/plot_label_budget_results.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Wave-three registrations bind exact local bytes, including failed attempts.
+tools/wave3*.py -text whitespace=cr-at-eol
+tests/test_wave3*.py -text whitespace=cr-at-eol
+docs/research_reset/wave3*protocol*.md -text whitespace=cr-at-eol
+results/research-wave3-*/** -text whitespace=-blank-at-eof,-blank-at-eol,cr-at-eol
