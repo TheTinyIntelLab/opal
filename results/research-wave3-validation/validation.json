@@ -1,0 +1,598 @@
+{
+  "status": "local validation passed; strongest-reference experiment stopped, not scientifically passed",
+  "source_response_access": false,
+  "source_response_header_access": false,
+  "full_suite": {
+    "summary": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "666",
+      "time": "88.810",
+      "timestamp": "2026-10-21T23:43:51.693383+05:30",
+      "hostname": "DESKTOP-117COCF"
+    },
+    "log": {
+      "path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\tests.log",
+      "bytes": 3260,
+      "sha256": "118633085f79f97fadabba7d6589933780929265fb286a8b618e47b6cd66fa01"
+    },
+    "xml": {
+      "path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\tests.xml",
+      "bytes": 87273,
+      "sha256": "664a54dc441431c74b4aadfd29e7587469e6b3b65817494a29cb95759847c0c1"
+    },
+    "warnings": 4
+  },
+  "initial_suite": {
+    "summary": {
+      "name": "pytest",
+      "errors": "0",
+      "failures": "4",
+      "skipped": "0",
+      "tests": "666",
+      "time": "89.353",
+      "timestamp": "2026-10-21T23:41:10.831647+05:30",
+      "hostname": "DESKTOP-117COCF"
+    },
+    "log": {
+      "path": "E:\\opal-wave3-20261021\\delivery\\tests.log",
+      "bytes": 44274,
+      "sha256": "c356d583598f9927ccb501767881b78f3635b79b4fac69a5c6fe531f548bd1cd"
+    },
+    "xml": {
+      "path": "E:\\opal-wave3-20261021\\delivery\\tests.xml",
+      "bytes": 107874,
+      "sha256": "435471368c42ec5e17fce4449ed42735c93083049c52d041dc938cd697698eb1"
+    },
+    "reason": "E volume below unchanged disk reserve"
+  },
+  "build": {
+    "wheel": {
+      "path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\dist-verified\\opal_research-0.1.3.dev0-py3-none-any.whl",
+      "bytes": 274285,
+      "sha256": "35b58930e2e2275a8164aaa696c12bb53186ed84d96dfc0510b46377355daceb"
+    },
+    "sdist": {
+      "path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\dist-verified\\opal_research-0.1.3.dev0.tar.gz",
+      "bytes": 1470990,
+      "sha256": "89eaf13added6e7b69ab46ead3c1ba90117348e0791cb8827dadeb8df86c47aa"
+    },
+    "log": {
+      "path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\build-verified.log",
+      "bytes": 173894,
+      "sha256": "6bcf32e62a9cc65de6483937e45d1d1528ac72756ed085f4c51969bd99a803a8"
+    },
+    "installed_module_byte_identity": 99,
+    "restricted_assets_absent": true
+  },
+  "installed": {
+    "host_dependencies_reused": true,
+    "receipts": {
+      "historical-installed.json": {
+        "path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\historical-installed.json",
+        "bytes": 942,
+        "sha256": "203295295beac9ca67ef6734a5a0f05c961d744db1c51cc3c983025f78bd1b6a",
+        "receipt": {
+          "dependency_install": "wheel installed without dependencies; host dependency closure reused",
+          "development_composite_max_abs": {
+            "rep1-aligned": 0.0,
+            "rep1-shuffled": 0.0,
+            "rep2-aligned": 0.0,
+            "rep2-shuffled": 0.0
+          },
+          "external_frozen_max_abs": {
+            "environment1": 0.0,
+            "environment2": 0.0,
+            "parp2022": 0.0,
+            "parp2023": 0.0
+          },
+          "fitting": false,
+          "frozen_hash_counts": {
+            "development_code": 4,
+            "fitness-external-20261020": 22,
+            "research-reset-diagnostics": 26,
+            "research-reset-reference-swap": 27,
+            "research-reset-support/v1": 17
+          },
+          "module": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\installed\\opal\\__init__.py",
+          "original_test_max_abs": {
+            "Jurkat": 3.469446951953614e-17,
+            "K562": 5.551115123125783e-17
+          },
+          "original_test_pairs": 16294,
+          "selection_and_prerequisite_order_verified": true,
+          "status": "passed"
+        }
+      },
+      "block-installed.json": {
+        "path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\block-installed.json",
+        "bytes": 1224,
+        "sha256": "20d4874e86db2e970a632e6d996ef0195e897cb585cc5411f02e8374119f5cbc",
+        "receipt": {
+          "block": {
+            "environment1": {
+              "arrays": 18,
+              "exact": true,
+              "pairs": 9833
+            },
+            "environment2": {
+              "arrays": 18,
+              "exact": true,
+              "pairs": 9833
+            },
+            "horlbeck_Jurkat": {
+              "arrays": 18,
+              "exact": true,
+              "pairs": 16210
+            },
+            "horlbeck_K562": {
+              "arrays": 18,
+              "exact": true,
+              "pairs": 16210
+            },
+            "parp2022": {
+              "arrays": 18,
+              "exact": true,
+              "pairs": 29016
+            },
+            "parp2023": {
+              "arrays": 18,
+              "exact": true,
+              "pairs": 28651
+            }
+          },
+          "installed_module": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\installed\\opal\\__init__.py",
+          "native": {
+            "environment1": {
+              "exact": true,
+              "pairs": 9833
+            },
+            "environment2": {
+              "exact": true,
+              "pairs": 9833
+            },
+            "horlbeck_Jurkat": {
+              "exact": true,
+              "pairs": 16210
+            },
+            "horlbeck_K562": {
+              "exact": true,
+              "pairs": 16210
+            },
+            "parp2022": {
+              "exact": true,
+              "pairs": 29016
+            },
+            "parp2023": {
+              "exact": true,
+              "pairs": 28651
+            }
+          },
+          "status": "exact installed-wheel numerical replay"
+        }
+      },
+      "wave2-installed-retry.json": {
+        "path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\wave2-installed-retry.json",
+        "bytes": 2101,
+        "sha256": "3f37be61ea0823cf2cf56f4282f27416675c104831109b3215f05e8e9a76a040",
+        "receipt": {
+          "budget": {
+            "20000__environment1": {
+              "exact": true,
+              "pairs": 9833
+            },
+            "20000__environment2": {
+              "exact": true,
+              "pairs": 9833
+            },
+            "20000__horlbeck_Jurkat": {
+              "exact": true,
+              "pairs": 16210
+            },
+            "20000__horlbeck_K562": {
+              "exact": true,
+              "pairs": 16210
+            },
+            "20000__parp2022": {
+              "exact": true,
+              "pairs": 29016
+            },
+            "20000__parp2023": {
+              "exact": true,
+              "pairs": 28651
+            },
+            "5000__environment1": {
+              "exact": true,
+              "pairs": 9833
+            },
+            "5000__environment2": {
+              "exact": true,
+              "pairs": 9833
+            },
+            "5000__horlbeck_Jurkat": {
+              "exact": true,
+              "pairs": 16210
+            },
+            "5000__horlbeck_K562": {
+              "exact": true,
+              "pairs": 16210
+            },
+            "5000__parp2022": {
+              "exact": true,
+              "pairs": 29016
+            },
+            "5000__parp2023": {
+              "exact": true,
+              "pairs": 28651
+            }
+          },
+          "dependencies": "Host closure reused; not a fresh dependency installation",
+          "flexible": {
+            "environment1": {
+              "exact": true,
+              "pairs": 9833
+            },
+            "environment2": {
+              "exact": true,
+              "pairs": 9833
+            },
+            "horlbeck_Jurkat": {
+              "exact": true,
+              "pairs": 16210
+            },
+            "horlbeck_K562": {
+              "exact": true,
+              "pairs": 16210
+            },
+            "parp2022": {
+              "exact": true,
+              "pairs": 29016
+            },
+            "parp2023": {
+              "exact": true,
+              "pairs": 28651
+            }
+          },
+          "installed_module": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\installed\\opal\\__init__.py",
+          "partners": {
+            "exact": true,
+            "results_sha256": "980e8d40b9c768232ad633cd9a72d52aa4817abc6872d60fc61f8895bb9b8e43"
+          },
+          "q1b": {
+            "arrays": 9,
+            "exact": true,
+            "results_sha256": "5405ed26992fe1cba87c450207ec11f79624d99f9a212f53fabe0d8cae1d891e"
+          },
+          "resources": {
+            "cpu_seconds": 43.640625,
+            "peak_bytes": 574042112,
+            "wall_seconds": 49.492013799987035
+          },
+          "status": "all installed APIs replay exactly"
+        }
+      },
+      "wave3-installed.json": {
+        "path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\wave3-installed.json",
+        "bytes": 806,
+        "sha256": "53ebb6d934b186add481d96b61214886cf0d7ca92374b1f3d946519505e79bf7",
+        "receipt": {
+          "dependency_install": "package-only; existing host closure reused",
+          "evaluator_archive_and_scientific_manifest": "exact",
+          "installed_module": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\installed\\opal\\__init__.py",
+          "nuisance_v1": {
+            "horlbeck_Jurkat": {
+              "checkpoint_predictions_exact": true,
+              "metrics_exact": true,
+              "pairs": 16210
+            },
+            "horlbeck_K562": {
+              "checkpoint_predictions_exact": true,
+              "metrics_exact": true,
+              "pairs": 16210
+            }
+          },
+          "passed": true,
+          "reserved_response_or_header_access": false,
+          "script_sha256": "28d8d07f65db7d877af54b090400c3c5598477a3f1d3c16cb9fc565919356680",
+          "strongest_reference": "v2 stopped before completion fits and test scoring; identical fitted baseline state verified"
+        }
+      },
+      "assay/verification.json": {
+        "path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\assay\\verification.json",
+        "bytes": 1035,
+        "sha256": "89555ff1ba7641645f30dbe132be1d0adb883625c9b9684466227461b9821e3c",
+        "receipt": {
+          "schema": "opal-synthetic-assay-rehearsal-v1",
+          "commands": [
+            {
+              "command": "prepare",
+              "returncode": 0
+            },
+            {
+              "command": "query-references",
+              "returncode": 0
+            },
+            {
+              "command": "prepare-sealed",
+              "returncode": 0
+            },
+            {
+              "command": "diagnose",
+              "returncode": 0
+            },
+            {
+              "command": "freeze",
+              "returncode": 0
+            },
+            {
+              "command": "evaluate",
+              "returncode": 0
+            }
+          ],
+          "synthetic_only": true,
+          "original_integer_counts": true,
+          "exact_reference_lineage_verified": true,
+          "query_outcomes_absent": true,
+          "query_and_custodian_reference_transforms_agree": true,
+          "restoration_pass": true,
+          "scientific_confirmation_claimed": false,
+          "development_pairs": 88,
+          "confirmation_pairs": 24,
+          "query_reference_rows": 40,
+          "protocol_sha256": "ca17eaca2de9397a07f37ae28c2d9e2790cc0709ac989a38f971132a521242ef",
+          "code_sha256": "822522da16ce0c2887b521a9430ebf2f6669d051a2e8d88d96e82bcdecd776c9"
+        }
+      },
+      "series-v1/verification.json": {
+        "path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\series-v1\\verification.json",
+        "bytes": 2360,
+        "sha256": "50d840a4d4f45c720c9838c83ca61a478711c5c6a0a2664d754293d522d8c36d",
+        "receipt": {
+          "dependency_install": "Host dependency closure reused; not a fresh dependency installation",
+          "outside_checkout": true,
+          "package_path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\installed\\opal\\__init__.py",
+          "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+          "records": [
+            {
+              "api_cli_max_abs": 0.0,
+              "checkpoint_model_sha256": "41c700da93770fd2d06d4a031bd8777be7237744e789a8c0f5f4c596d0c82636",
+              "cli_train_predict_evaluate": "passed",
+              "evaluation": {
+                "freeze_sha256": "c21e92a44777a325c40de61decc103105b5c3c9c1fa9cba82575b45e2dcb0516",
+                "mse": 0.00838833548244327,
+                "pair_mse": [
+                  0.008784557417640466,
+                  0.0083179547443633,
+                  0.008062494285326044
+                ],
+                "per_stratum": {
+                  "synthetic": 0.00838833548244327
+                }
+              },
+              "model": "Opal-Base",
+              "source_refit_max_abs": 0.0
+            },
+            {
+              "api_cli_max_abs": 0.0,
+              "checkpoint_model_sha256": "2056cab6631730d6135f642482da8d39b701a3905a50d866c67b31a737d016dd",
+              "cli_train_predict_evaluate": "passed",
+              "evaluation": {
+                "freeze_sha256": "f780025c936cb278dac719ebfc047b902e06e293d59432d413baacd993a43c89",
+                "mse": 0.009592994898229084,
+                "pair_mse": [
+                  0.015215365932954594,
+                  0.007103350384912192,
+                  0.0064602683768204645
+                ],
+                "per_stratum": {
+                  "synthetic": 0.009592994898229084
+                }
+              },
+              "model": "Opal-Interaction",
+              "source_refit_max_abs": 0.0
+            },
+            {
+              "api_cli_max_abs": 0.0,
+              "checkpoint_model_sha256": "dc518d23d7c9acdcd2f2467c65df6e998fee55436cb6cdaa230823ae67803c76",
+              "cli_train_predict_evaluate": "passed",
+              "evaluation": {
+                "freeze_sha256": "085057541b3dcbd3cb58091bd4fa32d3ccdcdcfa946287b1caf40748ab10947c",
+                "mse": 0.008901162695783237,
+                "pair_mse": [
+                  0.0127044393900102,
+                  0.007386173629257966,
+                  0.006612875068081547
+                ],
+                "per_stratum": {
+                  "synthetic": 0.008901162695783237
+                }
+              },
+              "model": "Opal-Guard",
+              "source_refit_max_abs": 0.0
+            }
+          ],
+          "source": "synthetic engineering",
+          "status": "verified",
+          "synthetic": true
+        }
+      },
+      "series-v2/verification.json": {
+        "path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\series-v2\\verification.json",
+        "bytes": 2365,
+        "sha256": "08e705877324b9ba36d16bf769107f5024c8e093893eb17641a6e5696cb90f14",
+        "receipt": {
+          "dependency_install": "Host dependency closure reused; not a fresh dependency installation",
+          "outside_checkout": true,
+          "package_path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\installed\\opal\\__init__.py",
+          "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+          "records": [
+            {
+              "api_cli_max_abs": 0.0,
+              "checkpoint_model_sha256": "173859da2372bc8c019f743870086bed603b603837d0fd4c221718119d6ebaad",
+              "cli_train_predict_evaluate": "passed",
+              "evaluation": {
+                "freeze_sha256": "01539ec7a5ba9dae4e910a0528a0252f5d25cff9ac0f3e1297227fd07f63f5ee",
+                "mse": 0.007059294024169812,
+                "pair_mse": [
+                  0.004557768206146887,
+                  0.008854603388592777,
+                  0.007765510477769774
+                ],
+                "per_stratum": {
+                  "synthetic": 0.007059294024169812
+                }
+              },
+              "model": "Opal-Base",
+              "source_refit_max_abs": 0.0
+            },
+            {
+              "api_cli_max_abs": 0.0,
+              "checkpoint_model_sha256": "28f7698d760e561fda711590874b2585d356b97954f7335db3621cf4e7ac5920",
+              "cli_train_predict_evaluate": "passed",
+              "evaluation": {
+                "freeze_sha256": "20fff516892224f3a1a863b8984183a9395b203ad45c38fb3079652178db20af",
+                "mse": 0.007059294024169812,
+                "pair_mse": [
+                  0.004557768206146887,
+                  0.008854603388592777,
+                  0.007765510477769774
+                ],
+                "per_stratum": {
+                  "synthetic": 0.007059294024169812
+                }
+              },
+              "model": "Opal-Interaction",
+              "source_refit_max_abs": 0.0
+            },
+            {
+              "api_cli_max_abs": 0.0,
+              "checkpoint_model_sha256": "5247b556113910ced78253909d3d3afa2e674c07422e53b37ff5aef3d8d89071",
+              "cli_train_predict_evaluate": "passed",
+              "evaluation": {
+                "freeze_sha256": "8a82096e551edab14139dbc2160ac3a32b32f2f09d88487df74561dec094e4ed",
+                "mse": 0.007059294024169812,
+                "pair_mse": [
+                  0.004557768206146887,
+                  0.008854603388592777,
+                  0.007765510477769774
+                ],
+                "per_stratum": {
+                  "synthetic": 0.007059294024169812
+                }
+              },
+              "model": "Opal-Guard",
+              "source_refit_max_abs": 0.0
+            }
+          ],
+          "source": "synthetic engineering",
+          "status": "verified",
+          "synthetic": true
+        }
+      }
+    }
+  },
+  "documentation": {
+    "manifest": {
+      "path": "C:\\Users\\USER\\Desktop\\opal-wave3-delivery-20261021\\docs-verified\\build_manifest.json",
+      "bytes": 134260,
+      "sha256": "998cd38f3e8a0de25cd146d42a9a1df8d4d0d65a4cb6b015a61f44c8ebe72f04"
+    },
+    "documents": 145,
+    "unavailable_links": 0,
+    "initial_build": "145 documents, one pending validation.json link; fixed before verified build"
+  },
+  "commands": [
+    {
+      "command": ".venv/Scripts/python.exe -m pytest -q --basetemp E:/opal-wave3-20261021/delivery/tests --junitxml E:/opal-wave3-20261021/delivery/tests.xml",
+      "returncode": 1,
+      "reason": "four unchanged writable-volume reserve failures"
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m pytest -q --basetemp C:/Users/USER/Desktop/opal-wave3-delivery-20261021/tests --junitxml C:/Users/USER/Desktop/opal-wave3-delivery-20261021/tests.xml",
+      "returncode": 0
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m build --outdir C:/Users/USER/Desktop/opal-wave3-delivery-20261021/dist-verified",
+      "returncode": 0
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m pip install --no-deps --target C:/Users/USER/Desktop/opal-wave3-delivery-20261021/installed E:/opal-wave3-20261021/delivery/dist/opal_research-0.1.3.dev0-py3-none-any.whl",
+      "returncode": 0
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools/verify_reset_delivery.py --installed C:/Users/USER/Desktop/opal-wave3-delivery-20261021/installed --output C:/Users/USER/Desktop/opal-wave3-delivery-20261021/historical-installed.json",
+      "returncode": 0
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools/verify_block_delivery.py --installed C:/Users/USER/Desktop/opal-wave3-delivery-20261021/installed --block-run C:/Users/USER/Desktop/opal-research-next-20261020/block-v2 --native-run E:/opal-research-next-20261021/native-block-v6 --output C:/Users/USER/Desktop/opal-wave3-delivery-20261021/block-installed.json",
+      "returncode": 0
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools/verify_wave2_delivery.py --installed C:/Users/USER/Desktop/opal-wave3-delivery-20261021/installed --q1b E:/opal-wave2-20261021/q1b-v2 --partners E:/opal-wave2-20261021/q1b-partners-v2 --flexible E:/opal-wave2-20261021/q2b-v1 --budget C:/Users/USER/Desktop/opal-wave2-20261021/q3b-v3 --output C:/Users/USER/Desktop/opal-wave3-delivery-20261021/wave2-installed-retry.json",
+      "returncode": 0,
+      "prior_attempt": "wave2-installed.json failed writable-volume reserve before receipt; no scientific refit"
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools/verify_wave3_delivery.py --installed C:/Users/USER/Desktop/opal-wave3-delivery-20261021/installed --prior E:/opal-wave3-20261021/nuisance-v1 --stopped E:/opal-wave3-20261021/flexible-nuisance-v2 --output C:/Users/USER/Desktop/opal-wave3-delivery-20261021/wave3-installed.json",
+      "returncode": 0
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools/rehearse_replicated_assay.py --output C:/Users/USER/Desktop/opal-wave3-delivery-20261021/assay",
+      "returncode": 0,
+      "environment": {
+        "PYTHONPATH": "C:/Users/USER/Desktop/opal-wave3-delivery-20261021/installed"
+      },
+      "limitation": "controller imports checkout; subprocess CLI uses installed package"
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools/check_installed_series.py --require-installed --synthetic --output C:/Users/USER/Desktop/opal-wave3-delivery-20261021/series-v1",
+      "returncode": 0,
+      "environment": {
+        "PYTHONPATH": "C:/Users/USER/Desktop/opal-wave3-delivery-20261021/installed"
+      }
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools/check_installed_series.py --require-installed --synthetic --config configs/experiments/opal_model_series_v2.json --output C:/Users/USER/Desktop/opal-wave3-delivery-20261021/series-v2",
+      "returncode": 0,
+      "environment": {
+        "PYTHONPATH": "C:/Users/USER/Desktop/opal-wave3-delivery-20261021/installed"
+      }
+    },
+    {
+      "command": ".venv/Scripts/python.exe tools/build_docs.py --output C:/Users/USER/Desktop/opal-wave3-delivery-20261021/docs-verified",
+      "returncode": 0
+    }
+  ],
+  "diff_hygiene": {
+    "files_inspected": 14,
+    "credential_pattern_matches": 0,
+    "scope": "new/modified closeout files plus distribution membership; registered wave-three artifacts preserved"
+  },
+  "scientific_stop": {
+    "v1": {
+      "error": "ValueError('Strong-reference validation equivalence failed')",
+      "resources": {
+        "cpu_seconds": 41.59375,
+        "peak_rss_bytes": 405213184,
+        "wall_seconds": 41.64301820000401
+      }
+    },
+    "v2": {
+      "error": "ValueError('Strong-reference validation equivalence failed')",
+      "resources": {
+        "cpu_seconds": 27.546875,
+        "peak_rss_bytes": 953970688,
+        "wall_seconds": 27.564091099979123
+      }
+    },
+    "strong_reference_results": null
+  },
+  "ci": {
+    "prior_head": "505af4d9dd6a77f73b0e8952c9f4ed8cc12725a6",
+    "prior_run": 39563342465,
+    "prior_conclusion": "success",
+    "delivery_head": "to be reported after push; not established by local receipt"
+  }
+}

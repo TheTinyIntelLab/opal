@@ -107,6 +107,8 @@ Exact-guide/arm matching retains every original pair and infection target. Apply
 
 The frozen pair-label-budget test nominates neither 5,000 nor 20,000 labels per fitted model. All tasks retain full test coverage, but the 20,000-label policy misses the required 5% gain in original K562 and Jurkat; only four later cohorts pass. The 5,000-label policy passes none. [Budget results](docs/research_reset/label_budget_results.md) preserve this negative result: dense local completion remains a development ceiling, with no established low-label or physical assay-savings capability.
 
+A guide/arm polynomial nuisance reference leaves completion gains of 27.74% in K562 and 12.62% in Jurkat on the exposed original blocks. That comparison omitted the stronger nonlinear-single reference. The subsequently registered strongest-reference discriminator stopped at its numerical replay prerequisite before completion fitting or test scoring, so it supplies no result. [Wave-three closeout](docs/research_reset/wave3_closeout.md) preserves both facts. Technical pair effects remain observationally confounded with biological interactions, and [SPIDR qualification](docs/research_reset/wave3_source_decision.md) remains blocked with response values and headers unopened.
+
 
 ### Closed expression candidate
 
