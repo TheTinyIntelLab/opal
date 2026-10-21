@@ -51,3 +51,10 @@ For a new output directory, run these commands in order, commit the registration
 ```
 
 An independent numerical check loads `prepared.npz` and the frozen original bank, reconstructs historical singles as `bank['singles'][c][:, pairs].transpose(1, 0, 2)`, computes each prediction using the protocol formulas and verifies MSE against `results.json`. Recover the original block-test union from `block_assignments` on the unchanged genes/pairs and accession. Reproduce the interval by drawing active-gene multiplicities 2,000 times with NumPy generator seed 20261022 and weighting each paired loss difference by the product of its two endpoint multiplicities. No fitting or access to another biological source is needed.
+
+
+## Registered control-identity follow-up
+
+A separately registered seven-test sidecar subsequently resolved the 18-versus-16 control discrepancy. `negative_control-10016` and `negative_control-10909` occur in the guide metadata but are absent from every ordered construct identity in the phenotype source. The other 16 controls are observed and each contributes to 6,710 finite target-single cells across guide, arm, context and infection. There are no observed control identities with entirely unavailable single measurements. This establishes absence from the deposited phenotype table, without explaining the original experimental or processing cause.
+
+The sidecar retains a uint32 control-identity bitset for every guide/arm/context/infection and exactly reconstructs every Q1b support count. Both source streaming and exact replay pass. Registration and seven passing synthetic prerequisites preceded streaming; no new losses, models, thresholds or QC changes were introduced. Full bitsets stay outside Git at `E:/opal-wave2-20261021/q1b-partners-v1/partners.npz`; [compact receipts](../../results/research-wave2-reagent/q1b-partners-v1/results.json) and the [sidecar protocol](gamma_control_partners_protocol.md) retain the identities, hashes, guards and reproduction commands. This resolves the earlier audit's identity limitation while preserving its biological non-claims.

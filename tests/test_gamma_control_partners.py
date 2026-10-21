@@ -42,6 +42,11 @@ def test_duplicate_construct_and_guide_library_rejected(tmp_path):
 
 
 def synthetic_registration(out,monkeypatch):
+    from types import SimpleNamespace
+    # The lifecycle fixture represents a small standalone process. Its guard
+    # must not inherit the peak working set of earlier ML tests in pytest.
+    monkeypatch.setattr(runner.psutil, 'Process', lambda: SimpleNamespace(
+        memory_info=lambda: SimpleNamespace(rss=1024, peak_wset=1024)))
     monkeypatch.setattr(runner,'signature',lambda:{'frozen':'recipe'})
     monkeypatch.setitem(runner.CONFIG,'reserve',0)
     source=out/'source';source.write_text('source')
@@ -81,3 +86,21 @@ def test_replay_rejects_array_change(tmp_path,monkeypatch):
 def test_resource_caps(tmp_path,monkeypatch):
     guard=runner.Guard(tmp_path);monkeypatch.setitem(runner.CONFIG,'seconds',-1)
     with pytest.raises(RuntimeError,match='Time'):guard.check()
+
+
+def test_actual_memory_disk_and_artifact_limits_remain_enforced(tmp_path, monkeypatch):
+    from types import SimpleNamespace
+    monkeypatch.setattr(runner.psutil, 'Process', lambda: SimpleNamespace(
+        memory_info=lambda: SimpleNamespace(rss=300*1024**2, peak_wset=300*1024**2)))
+    with pytest.raises(RuntimeError, match='Memory'):
+        runner.Guard(tmp_path).check()
+    monkeypatch.setattr(runner.psutil, 'Process', lambda: SimpleNamespace(
+        memory_info=lambda: SimpleNamespace(rss=1024, peak_wset=1024)))
+    monkeypatch.setattr(runner.shutil, 'disk_usage', lambda path: SimpleNamespace(free=0))
+    with pytest.raises(RuntimeError, match='reserve'):
+        runner.Guard(tmp_path).check()
+    monkeypatch.setattr(runner.shutil, 'disk_usage', lambda path: SimpleNamespace(free=2*1024**3))
+    monkeypatch.setitem(runner.CONFIG, 'artifacts', 3)
+    (tmp_path/'fixture').write_bytes(b'four')
+    with pytest.raises(RuntimeError, match='Artifact'):
+        runner.Guard(tmp_path).check()

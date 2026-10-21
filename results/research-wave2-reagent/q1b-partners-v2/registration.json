@@ -1,0 +1,41 @@
+{
+  "code": {
+    "docs/research_reset/gamma_control_partners_protocol.md": "43a0f54b412960ac7fcba9890c8c81393c68c7b4d05d6b1502c5d35a636f22d4",
+    "src/artifacts.py": "8f89d789aad1ac4a4117aa675f7d80eeb5a35637db0c9132bfcb3bf04b2ba5df",
+    "src/processed_gamma.py": "d47ca1eb02881d05fdd5fad47a427e73685e1415f2668acaa4a8183eab4f462a",
+    "tests/test_gamma_control_partners.py": "d266dbd9b45867537ad7decb02514628258499f55d5db0fec84d274c4c66813c",
+    "tests/test_processed_gamma.py": "31b8db28d526f449f6d3e1e4be45090dd8b38d2cbe81cba9c1dee9ef53273fe9",
+    "tools/audit_gamma_control_partners.py": "7d47cd613ab6bca406ac342ecf1c795c7ed00a89a684186175b53eedb1df7286"
+  },
+  "config": {
+    "artifacts": 5242880,
+    "memory": 268435456,
+    "reserve": 1073741824,
+    "seconds": 180
+  },
+  "environment": {
+    "packages": {
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.8",
+      "numpy": "2.4.0",
+      "pytest": "9.0.2",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.16.3",
+      "torch": "2.9.1"
+    },
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python": "3.14.0"
+  },
+  "frozen_at": "2026-10-21T07:15:09.054175+00:00",
+  "inputs": {
+    "C:\\Users\\USER\\Desktop\\opal-next-data-20261020\\GSE116198_GImap_sgRNA_sequences_barcodes.txt.gz": "84a785108a5bf830ce2ee569e14757fe5c31738ba6d88c95206f38a0b1bbc150",
+    "C:\\Users\\USER\\Desktop\\opal-next-data-20261020\\GSE116198_sgRNA_pair_phenotypes.txt.gz": "ba9772f3b0e929bcf5b23bebf17d4caab86c7f2ccd50dbd62fbc47e40c2aac21",
+    "E:\\opal-wave2-20261021\\q1b-v2\\prepared.npz": "015d179d99e3143e99e9ecd215435a043d29d4b4e61922ee3ca2bb8aacc96bd6",
+    "E:\\opal-wave2-20261021\\q1b-v2\\registration.json": "89e9548387e0f5fbdc1bf80647f6ced39c12a0019957c852cd5d15066db10a04",
+    "E:\\opal-wave2-20261021\\q1b-v2\\replay.json": "b2d4b1708591985b7ab122b03a1c684e682d55f670f33f114827bb5a3e0e0b3d",
+    "E:\\opal-wave2-20261021\\q1b-v2\\results.json": "5405ed26992fe1cba87c450207ec11f79624d99f9a212f53fabe0d8cae1d891e"
+  },
+  "q1b": "E:\\opal-wave2-20261021\\q1b-v2",
+  "version": "q1b-partners-v1"
+}
