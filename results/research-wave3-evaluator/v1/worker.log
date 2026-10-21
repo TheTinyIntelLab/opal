@@ -1,0 +1,29 @@
+.......F........                                                         [100%]
+================================== FAILURES ===================================
+____ test_processed_gamma_unequal_orientation_and_missing_control_support _____
+tests\test_wave3_evaluator_v1.py:179: in test_processed_gamma_unequal_orientation_and_missing_control_support
+    np.testing.assert_array_equal(out['means'][:, :, 0, 3], -2.5)
+E   AssertionError: 
+E   Arrays are not equal
+E   
+E   Mismatched elements: 4 / 4 (100%)
+E   Mismatch at indices:
+E    [0, 0]: -3.25 (ACTUAL), -2.5 (DESIRED)
+E    [0, 1]: -3.25 (ACTUAL), -2.5 (DESIRED)
+E    [1, 0]: -3.25 (ACTUAL), -2.5 (DESIRED)
+E    [1, 1]: -3.25 (ACTUAL), -2.5 (DESIRED)
+E   Max absolute difference among violations: 0.75
+E   Max relative difference among violations: 0.3
+E    ACTUAL: array([[-3.25, -3.25],
+E          [-3.25, -3.25]])
+E    DESIRED: array(-2.5)
+=========================== short test summary info ===========================
+FAILED tests/test_wave3_evaluator_v1.py::test_processed_gamma_unequal_orientation_and_missing_control_support
+1 failed, 15 passed in 1.49s
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\wave3_evaluator_v1.py", line 230, in <module>
+    {'freeze': freeze, 'run': run, 'worker': worker}[args.action](args.output)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\wave3_evaluator_v1.py", line 178, in worker
+    raise RuntimeError('Prerequisite failure; preserve v1, register successor')
+RuntimeError: Prerequisite failure; preserve v1, register successor

@@ -1,0 +1,69 @@
+{
+  "checks": [
+    "Q1b sum/abs/min covariate reconstruction",
+    "all test MSEs",
+    "all selected validation penalties/families",
+    "both primary conditional intervals"
+  ],
+  "limitation": "read-only audit by same workstream; not independent biological evidence or optimizer replay",
+  "passed": true,
+  "records": [
+    {
+      "fold": 0,
+      "task": "horlbeck_K562",
+      "winner": "nuisance_nodes"
+    },
+    {
+      "fold": 1,
+      "task": "horlbeck_K562",
+      "winner": "nuisance_nodes"
+    },
+    {
+      "fold": 2,
+      "task": "horlbeck_K562",
+      "winner": "nuisance_nodes"
+    },
+    {
+      "fold": 3,
+      "task": "horlbeck_K562",
+      "winner": "nuisance_nodes"
+    },
+    {
+      "fold": 4,
+      "task": "horlbeck_K562",
+      "winner": "nuisance_nodes"
+    },
+    {
+      "fold": 0,
+      "task": "horlbeck_Jurkat",
+      "winner": "nuisance_nodes"
+    },
+    {
+      "fold": 1,
+      "task": "horlbeck_Jurkat",
+      "winner": "nuisance_nodes"
+    },
+    {
+      "fold": 2,
+      "task": "horlbeck_Jurkat",
+      "winner": "nuisance_nodes"
+    },
+    {
+      "fold": 3,
+      "task": "horlbeck_Jurkat",
+      "winner": "nuisance_nodes"
+    },
+    {
+      "fold": 4,
+      "task": "horlbeck_Jurkat",
+      "winner": "nuisance_nodes"
+    }
+  ],
+  "resources_including_audit": {
+    "cpu_seconds": 135.171875,
+    "peak_rss_bytes": 424529920,
+    "wall_seconds": 135.74662249998073
+  },
+  "results_sha256": "4625edfecb3af666677215691066d76e8cb700993d579798fbf89e6c5c99978d",
+  "script_sha256": "29e295c2699c7026520de86015f49265102db5c067d993c3fe245ef1f94dc010"
+}

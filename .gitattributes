@@ -1,4 +1,9 @@
 * text=auto
+# Wave-three registrations bind exact local bytes, including failed attempts.
+tools/wave3*.py -text
+tests/test_wave3*.py -text
+docs/research_reset/wave3*protocol*.md -text
+results/research-wave3-*/** -text whitespace=-blank-at-eof,-blank-at-eol,cr-at-eol
 *.py text eol=lf
 *.tex text eol=lf
 *.bib text eol=lf

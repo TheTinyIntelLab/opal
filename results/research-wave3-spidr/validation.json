@@ -1,0 +1,63 @@
+{
+  "checks": "all registration bindings, historical coverage histograms, construct accounting, exact-arm design availability, independent split arithmetic, no duplicate pairs, null observed eligibility, source blocked, caps, root plan/README baseline bytes",
+  "files": {
+    "docs/research_reset/wave3_spidr_protocol.md": {
+      "bytes": 5078,
+      "sha256": "29d1ba0dd69a0f06e6a7304621e78532ba91ca2682caf40963005c57a15ac987"
+    },
+    "docs/research_reset/wave3_spidr_protocol_v2.md": {
+      "bytes": 1467,
+      "sha256": "1b6574ab7f8c07f978ed1da48e960656dd46496d612ace9f488a5184f0eafb1e"
+    },
+    "docs/research_reset/wave3_spidr_results.md": {
+      "bytes": 10388,
+      "sha256": "7c2207500ea6476c77fb1fb1d3e2a54ed1d9e2090fab0afe405686bee6be3ffb"
+    },
+    "results/research-wave3-spidr/metadata-v1/failure.json": {
+      "bytes": 153,
+      "sha256": "ca6a99ebfc349e7eac5d9f0a01ec6dcbc07e5d0011c5276b9357ad554b90f316"
+    },
+    "results/research-wave3-spidr/metadata-v1/registration.json": {
+      "bytes": 3179,
+      "sha256": "bc04d6184183fc10fce6f6dcbbcec6c17c59b9d00c30c2667f877946500a460c"
+    },
+    "results/research-wave3-spidr/metadata-v2/primary_design_splits.tsv": {
+      "bytes": 2553894,
+      "sha256": "57951c837cf0584ca08c24c015123c0a7a25b060f71b593f48dba3b39af7ef4f"
+    },
+    "results/research-wave3-spidr/metadata-v2/qualification.json": {
+      "bytes": 5787,
+      "sha256": "fe918ff0a869ed677bfc43b452ddd2aa31827f56aae3023a8cc723c9d271cd63"
+    },
+    "results/research-wave3-spidr/metadata-v2/registration.json": {
+      "bytes": 3532,
+      "sha256": "4f56967b5d63bb656c96de61f1068e59843865b7d0957d29bd632d9d12b9cdaa"
+    },
+    "tests/test_wave3_spidr_qualification.py": {
+      "bytes": 4762,
+      "sha256": "d3da0fa15b990e3e62a473ef396328d9c30683c96c926190d24cbd7045bfcdfc"
+    },
+    "tests/test_wave3_spidr_qualification_v2.py": {
+      "bytes": 5781,
+      "sha256": "fc9bc332b90d39fd48c2b33bcd0b373649f9906df7896172256c6c6fd07ad8b8"
+    },
+    "tools/wave3_spidr_qualification.py": {
+      "bytes": 15943,
+      "sha256": "d769eab5cca2391c1c115d104a9f8eeb559fe6a70553edc75fb5da7417a7de7a"
+    },
+    "tools/wave3_spidr_qualification_v2.py": {
+      "bytes": 16213,
+      "sha256": "0137110a768ea8b59e9f2941a3d9278a60569d18b5a86e63ec4b0dd30c5d7be4"
+    }
+  },
+  "final_focused_pytest": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_wave3_spidr_qualification.py tests/test_wave3_spidr_qualification_v2.py tests/test_spidr_metadata.py tests/test_source_readiness.py tests/test_reagent_screen.py -q",
+    "passed": 78,
+    "seconds": 0.15
+  },
+  "owned_bytes_excluding_this_receipt": 2626177,
+  "passed": true,
+  "result_bytes_before_this_receipt": 2566545,
+  "scope": "no commit/push, no full suite or model fits, no response/header access; other workstreams excluded",
+  "validated_utc": "2026-10-21T18:04:03.588263+00:00"
+}

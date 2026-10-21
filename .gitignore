@@ -196,3 +196,7 @@ results/opal_frontier_bridge_v1/continuation-tests-20261012-a4/test_cli_template
 # Optional native-comparator synthetic states remain local; compact receipts are tracked.
 results/research-reset-naiad-qualification/**/*.npz
 results/research-reset-naiad-qualification/**/synthetic_model/
+
+# Wave-three numerical states and full design assignments remain local.
+results/research-wave3-*/**/*.npz
+results/research-wave3-*/**/*.tsv

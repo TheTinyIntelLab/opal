@@ -1,0 +1,67 @@
+{
+  "biological_inputs": false,
+  "caps": {
+    "output_bytes": 104857600,
+    "rss_bytes": 1073741824,
+    "wall_seconds": 1800
+  },
+  "code": {
+    "docs/research_reset/wave3_evaluator_protocol_v3.md": "c3840ad98f4f32bb950d25ca9ceb031666e173b02d256809efa5c38a05141b4c",
+    "src/artifacts.py": "8f89d789aad1ac4a4117aa675f7d80eeb5a35637db0c9132bfcb3bf04b2ba5df",
+    "src/block_completion.py": "e4b19ba22831d08dc9792d0c9c3792fdf29220bf4d1477665cfc86e86d8d0480",
+    "src/flexible_singles.py": "c6ce75522152086a47895c611fbca73cb71a19a3395daafce5de76ca3f7e3bdd",
+    "src/models/fitness.py": "631881826d198ed785ee24d77e8d7b39e8dda8e2956308f6bbc95ae694d8958b",
+    "src/processed_gamma.py": "d47ca1eb02881d05fdd5fad47a427e73685e1415f2668acaa4a8183eab4f462a",
+    "src/scalar_screen.py": "43f7e9d80d818a93d1ab9680e04d1e80499b7385c19b002cf4ea62d340eca724",
+    "src/splits/__init__.py": "1d126d96d7ad88e59d1f621ba0bf79d486c107b39e2997591ccc5b826017ed44",
+    "tests/test_wave3_evaluator_v3.py": "14f7a37e26b6a259f636d41c9b1aa3ab5f697ea1c92c109ce177670515c420f7",
+    "tools/study_block_completion.py": "dc7c57c45818940ae9371e98a99e7652c399da9297f4b2261fbcfe32f7f98d53",
+    "tools/wave3_evaluator_v3.py": "bc92d2cec437b908ebb0ed2cad2b9af139a506977c343c9f951487d0b858bf71"
+  },
+  "created_utc": "2026-10-21T18:01:54.505144+00:00",
+  "environment": {
+    "packages": {
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.8",
+      "numpy": "2.4.0",
+      "pytest": "9.0.2",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.16.3",
+      "torch": "2.9.1"
+    },
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python": "3.14.0"
+  },
+  "head": "505af4d9dd6a77f73b0e8952c9f4ed8cc12725a6",
+  "inputs": {
+    "inputs.npz": "7a7eaf2dabf2c467132916484d3acf6ec71a8a1aabe26e65b3613fd5a04aa3a6"
+  },
+  "prior_evidence": {
+    "results\\research-wave3-evaluator\\v1\\failure.json": "70f9e6d68394b13dc5dbc1f8b3d4aa150349827e62bf0afca601cc4122aeee2f",
+    "results\\research-wave3-evaluator\\v1\\inputs.npz": "3e5a38a49dc44300039dcf2d4b4950accf79c972da54cdd6977825ad3b089c6e",
+    "results\\research-wave3-evaluator\\v1\\protocol.json": "04cfeefbfe318ab35d71d8637b949ef6ec984242d4fc957da0e35e7350d2b86b",
+    "results\\research-wave3-evaluator\\v1\\resources.json": "825b8c46f92750f9e10aec4ca2b96ce1c7db3d2c11ef28e3b2236650e8de81c3",
+    "results\\research-wave3-evaluator\\v1\\started.json": "4a61f828f341c66bd3dae38176d7fb602e59aeded8f633110f0dd9098132e230",
+    "results\\research-wave3-evaluator\\v1\\tests.json": "f7b4fdee4505814fdc41d23ed9c015331ca10d9a0aba64037c2967fe0a7d1c87",
+    "results\\research-wave3-evaluator\\v1\\worker.log": "6b77b8aec855ce26e3ebe397e09709c806570c796da87456f60ba7500d02a880",
+    "results\\research-wave3-evaluator\\v2\\failure.json": "70f9e6d68394b13dc5dbc1f8b3d4aa150349827e62bf0afca601cc4122aeee2f",
+    "results\\research-wave3-evaluator\\v2\\inputs.npz": "7a7eaf2dabf2c467132916484d3acf6ec71a8a1aabe26e65b3613fd5a04aa3a6",
+    "results\\research-wave3-evaluator\\v2\\protocol.json": "2d6ee44ab4b75e87eaf155487101cb2a75ba252fd0da8f1f4e990f0de2e4f754",
+    "results\\research-wave3-evaluator\\v2\\resources.json": "438f41b99e20931ea2abdc384cb5a4cf1731846757767c605d2e06098dbeb97e",
+    "results\\research-wave3-evaluator\\v2\\started.json": "682f0f2287283717b1e4f29e0fefaa8a99e71c709016af5bb54b621b55ff6ebe",
+    "results\\research-wave3-evaluator\\v2\\tests.json": "992b9a2eb7ffcb7449d6d7971008965e0ea980973c6b2d1348f0139b3ec9e825",
+    "results\\research-wave3-evaluator\\v2\\worker.log": "35c6bed6fc43fb6f35c185311c3e79a143212bf11caeb70d7ed6114214cd8607"
+  },
+  "seed": 310021,
+  "uncertainty": {
+    "draws": 512,
+    "mechanisms": [
+      "iid",
+      "gene",
+      "cohort",
+      "global"
+    ],
+    "trials": 128
+  }
+}

@@ -1,0 +1,289 @@
+"""Independent cases for actual scalar evaluator implementations, synthetic only."""
+import copy
+import hashlib
+import importlib.util
+import itertools
+import json
+from pathlib import Path
+
+import numpy as np
+import pytest
+
+from opal.block_completion import ScalarCompletion, ScalarReference
+from opal.flexible_singles import FlexibleSingles
+from opal.scalar_screen import (pair_assignments, block_assignments, paired_gene_uncertainty,
+                                split_report, metrics, residual_permutations)
+from opal.splits import random_pair_split, partner_splits
+from opal.processed_gamma import collect_singles, aggregate
+from opal.artifacts import write_json
+
+ROOT = Path(__file__).resolve().parents[1]
+spec = importlib.util.spec_from_file_location('wave3_audit', ROOT/'tools/wave3_evaluator_v2.py')
+audit = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(audit)
+
+
+def test_independent_hashes_blocks_source_and_label_isolation():
+    d = audit.fixture()
+    names = d['genes'][d['pairs']]
+    h = lambda text: int(hashlib.sha256(text.encode()).hexdigest()[:8], 16)
+    buckets = np.array([h(f"opal-reset-v2|{d['accession']}|{a}|{b}") % 10 for a, b in names])
+    np.testing.assert_array_equal(d['split'], np.where(buckets < 6, 0, np.where(buckets < 8, 1, 2)))
+    node_folds = np.array([h('opal-reset-block-v2|'+g) % 5 for g in d['genes']])
+    seen = set()
+    for fold, split in enumerate(block_assignments(d)):
+        expected = (node_folds[d['pairs']] == fold).all(1)
+        np.testing.assert_array_equal(split == 2, expected)
+        ids = set(np.flatnonzero(expected))
+        assert not seen.intersection(ids)
+        seen.update(ids)
+        assert not np.any(expected[split == 0]) and not np.any(expected[split == 1])
+    altered = dict(d, responses=np.full(len(names), np.nan), interaction=np.full(len(names), 1e99))
+    np.testing.assert_array_equal(pair_assignments(d), pair_assignments(altered))
+    other = dict(d, accession='another-source')
+    assert np.any(pair_assignments(other) != d['split'])
+    # Source-keyed hashing does not exclude entire sources from training.
+    assert set(pair_assignments(other)) == {0, 1, 2}
+
+
+def test_construct_orientation_groups_and_cold_incident_exclusion():
+    names = audit.fixture()['genes'][audit.fixture()['pairs']]
+    variants = np.repeat(names, 3, axis=0)
+    variants[1::3] = variants[1::3, ::-1]
+    split = random_pair_split(variants)
+    role = np.full(len(variants), -1)
+    role[split['development']], role[split['test']] = 0, 1
+    assert np.all(role.reshape(-1, 3) == role.reshape(-1, 3)[:, :1])
+    for cold in partner_splits(variants):
+        held = set(cold['held_targets'])
+        for i in cold['development']:
+            assert not held.intersection(variants[i])
+        for i in cold['test']:
+            assert held.intersection(variants[i])
+        assert set(cold['development']).isdisjoint(cold['test'])
+        assert len(cold['development'])+len(cold['test']) == len(variants)
+
+
+def test_direct_dense_ridge_and_validation_selection_sentinel():
+    d = audit.fixture()
+    p, s = d['pairs'], d['singles']
+    tr, va, te = [np.flatnonzero(d['split'] == k) for k in range(3)]
+    y = d['additive']+d['interaction']
+    a, b = s[p[tr]].T
+    x = np.column_stack([a+b, abs(a-b), a*b])
+    z = (x-x.mean(0))/np.maximum(x.std(0), 1e-8)
+    residual = y[tr]-a-b
+    coef = np.linalg.solve(z.T@z+10*np.eye(3), z.T@(residual-residual.mean()))
+    model = ScalarReference('calibration', 10).fit(s, p[tr], y[tr])
+    np.testing.assert_allclose(model.coefficient, coef, atol=1e-12, rtol=1e-12)
+    changed = y.copy()
+    changed[te] = 1e50
+    def fit_select(target):
+        models = [ScalarReference('calibration', alpha).fit(s, p[tr], target[tr]) for alpha in [1, 10, 100, 1000]]
+        choice = int(np.argmin([np.mean((m.predict(p[va])-target[va])**2) for m in models]))
+        return choice, models[choice].predict(p[te])
+    i, pred = fit_select(y)
+    j, pred_changed = fit_select(changed)
+    assert i == j
+    np.testing.assert_array_equal(pred, pred_changed)
+
+
+def test_flexible_transform_excludes_unqueried_genes_and_held_labels():
+    d = audit.fixture()
+    p = d['pairs']
+    tr = np.flatnonzero((p < 25).all(1) & (d['split'] == 0))
+    changed = d['singles'].copy()
+    changed[25:] = 1e90
+    y = d['additive']+d['interaction']
+    a = FlexibleSingles(centers=16).fit(d['singles'], p[tr], y[tr])
+    b = FlexibleSingles(centers=16).fit(changed, p[tr], y[tr])
+    for name in ('input_center', 'input_scale', 'centers', 'whitener', 'center', 'coefficient'):
+        np.testing.assert_array_equal(getattr(a, name), getattr(b, name))
+    with pytest.raises(ValueError, match='support'):
+        a.predict(np.array([[0, 29]]))
+
+
+def test_completion_scale_symmetry_checkpoint_choice_and_sparse_support(tmp_path):
+    d = audit.fixture()
+    p, y = d['pairs'], d['interaction']
+    tr, va, te = [np.flatnonzero(d['split'] == k) for k in range(3)]
+    models = [ScalarCompletion(rank=2, steps=50, seed=310021).fit(p[tr], y[tr]*scale, 31,
+        float(y[tr].std())*scale, (p[va], y[va]*scale)) for scale in [1., .01, 100.]]
+    for scale, m in zip([1., .01, 100.], models):
+        assert m.best_step == min(m.history, key=lambda h: h['validation_mse'])['step']
+        np.testing.assert_allclose(m.predict(p[te])/scale, models[0].predict(p[te]), atol=1e-14)
+        np.testing.assert_array_equal(m.predict(p[te]), m.predict(p[te, ::-1]))
+        with pytest.raises(ValueError, match='support'):
+            m.predict(np.array([[0, 30]]))
+    m = models[0]
+    m.save(tmp_path/'model.npz')
+    restored = ScalarCompletion.load(tmp_path/'model.npz')
+    np.testing.assert_array_equal(restored.predict(p[te]), m.predict(p[te]))
+
+
+def test_uncertainty_matches_independent_multinomial_reconstruction():
+    pairs = np.array([[0, 1], [0, 2], [1, 2], [2, 3]])
+    delta = np.array([-2., 1., -1., 7.])
+    result = paired_gene_uncertainty(delta, pairs, draws=97, seed=51)
+    rng = np.random.default_rng(51)
+    values = []
+    for _ in range(97):
+        selected = rng.integers(4, size=4).tolist()
+        counts = [selected.count(g) for g in range(4)]
+        weights = np.array([counts[a]*counts[b] for a, b in pairs])
+        if sum(weights):
+            values.append(sum(w*v for w, v in zip(weights, delta))/sum(weights))
+    np.testing.assert_array_equal(result['interval'], np.quantile(values, [.025, .975]))
+    assert result['discarded_empty_draws'] == 97-len(values)
+
+
+def test_equal_pair_metric_is_not_construct_weighted_and_gate_replicates():
+    m = audit.load_study()
+    pairs = np.array(list(itertools.combinations(range(12), 2)))
+    y = np.zeros(len(pairs))
+    screen = dict(pairs=pairs, responses=y, replicates=np.column_stack((y+.8, y-.8)))
+    ids = np.arange(len(pairs))
+    controls = {f'shuffled-{s}': y+2 for s in m.CONFIG['control_seeds']}
+    result = m.evaluate_arrays(screen, ids, y, y+.5, controls, {'zeroish': y+.5}, True)
+    assert result['candidate']['mse'] < result['selected_simple']['mse']
+    assert not result['passes_gate']  # candidate loses against infection 1
+    counts = np.ones(len(pairs))
+    counts[0] = 1000
+    pred = y.copy()
+    pred[0] = 2
+    assert metrics(y, pred)['mse'] == 4/len(pairs)
+    assert metrics(y, pred)['mse'] != np.average(pred**2, weights=counts)
+    screen['replicates'] = np.column_stack((y, y))
+    threshold = m.evaluate_arrays(screen, ids, y+np.sqrt(.95), y+1., controls, {'one': y+1}, True)
+    assert threshold['relative_gain'] == pytest.approx(.05)
+    # floating arithmetic is left intact; no historical tolerance is introduced.
+    lower = m.evaluate_arrays(screen, ids, y+np.sqrt(.950001), y+1., controls, {'one': y+1}, True)
+    assert not lower['passes_gate']
+
+
+def test_processed_gamma_unequal_orientation_and_missing_control_support():
+    genes = np.array(['A', 'B', 'C'])
+    pair = np.array([[0, 1], [0, 2]])
+    def g(i, name, control=False):
+        return dict(index=i, gene=name, control=control)
+    a, b, c, nt1, nt2 = [g(i, n, i > 2) for i, n in enumerate(['A', 'B', 'C', 'NT1', 'NT2'])]
+    a2, a3 = g(5, 'A'), g(6, 'A')
+    def row(a, b, value):
+        return a, b, np.full((2, 2), value, dtype=float)
+    controls = [row(gene, nt, value) for gene, value in [(a, -2), (b, -1)] for nt in [nt1, nt2]]
+    controls += [row(nt, gene, value) for gene, value in [(a, -4), (b, -3)] for nt in [nt1, nt2]]
+    controls += [row(gene, nt, -2) for gene in [a2, a3] for nt in [nt1, nt2]]
+    singles, _, _ = collect_singles(iter(controls), 7)
+    # Three constructs in one orientation versus one reciprocal construct.
+    doubles = [row(guide, b, v) for guide, v in zip([a, a2, a3], [1, 2, 3])]+[row(b, a, 10), row(a, c, 5), row(a2, c, 6)]
+    out, _ = aggregate(iter(doubles), genes, pair, singles)
+    np.testing.assert_array_equal(out['means'][:, :, 0, 0], 4.)
+    np.testing.assert_array_equal(out['means'][:, :, 0, 3], -3.25)
+    assert np.isnan(out['means'][:, :, 1]).all()
+    np.testing.assert_array_equal(out['missing_matched_single_counts'][:, :, 1], 2)
+    sparse = dict(audit.fixture(), counts=np.full((435, 2), 8))
+    split = np.where((sparse['pairs'] == 0).any(1), 2, 0)
+    assert split_report(sparse, split)['unsupported_query_genes'] == ['G000']
+    # Distinct guide identities preserve actual unequal construct/orientation support.
+
+
+def checkpoint_payload():
+    return dict(rank=2, penalty=.01, steps=25, seed=1, format_version=2,
+        normalized_upper=np.zeros(6, np.float32), support=np.ones(3, bool),
+        scale=1., best_step=25, parameter_count=12)
+
+
+@pytest.mark.parametrize('mutation', ['nan_operator', 'nan_scale', 'negative_scale'])
+def test_reproduce_unvalidated_completion_checkpoint_defect(tmp_path, mutation):
+    payload = checkpoint_payload()
+    if mutation == 'nan_operator':
+        payload['normalized_upper'][1] = np.nan
+    else:
+        payload['scale'] = np.nan if mutation == 'nan_scale' else -1.
+    np.savez(tmp_path/'bad.npz', **payload)
+    # Deliberately records acceptance in historical loader, not desired behavior.
+    loaded = ScalarCompletion.load(tmp_path/'bad.npz')
+    if mutation == 'negative_scale':
+        assert loaded.scale < 0
+    else:
+        assert not np.isfinite(loaded.predict(np.array([[0, 1]]))).all()
+
+
+@pytest.mark.parametrize('mutation', ['format', 'length', 'object', 'truncated'])
+def test_checkpoint_existing_malformed_refusals(tmp_path, mutation):
+    payload = checkpoint_payload()
+    if mutation == 'format':
+        payload['format_version'] = 900
+    elif mutation == 'length':
+        payload['normalized_upper'] = np.zeros(5, np.float32)
+    elif mutation == 'object':
+        payload['normalized_upper'] = np.array([object()]*6)
+    np.savez(tmp_path/'bad.npz', **payload)
+    if mutation == 'truncated':
+        data = (tmp_path/'bad.npz').read_bytes()
+        (tmp_path/'bad.npz').write_bytes(data[:len(data)//2])
+    with pytest.raises(Exception):
+        ScalarCompletion.load(tmp_path/'bad.npz')
+
+
+def test_atomic_json_interrupted_write_preserves_previous_and_no_temp(tmp_path, monkeypatch):
+    import opal.artifacts as artifacts
+    path = tmp_path/'receipt.json'
+    write_json(path, {'state': 'frozen'})
+    before = path.read_bytes()
+    def interrupt(*args):
+        raise OSError('synthetic interruption before replace')
+    monkeypatch.setattr(artifacts.os, 'replace', interrupt)
+    with pytest.raises(OSError, match='interruption'):
+        write_json(path, {'state': 'partial'})
+    assert path.read_bytes() == before
+    assert list(tmp_path.iterdir()) == [path]
+
+
+@pytest.mark.parametrize('mutation', ['nan_operator', 'nan_scale', 'negative_scale', 'support', 'step', 'parameters', 'metadata_float'])
+def test_strict_successor_rejects_invalid_checkpoint(tmp_path, mutation):
+    payload = checkpoint_payload()
+    if mutation == 'nan_operator':
+        payload['normalized_upper'][1] = np.nan
+    elif mutation in ('nan_scale', 'negative_scale'):
+        payload['scale'] = np.nan if mutation == 'nan_scale' else -1.
+    elif mutation == 'support':
+        payload['support'] = np.ones(3, int)
+    elif mutation == 'step':
+        payload['best_step'] = 26
+    elif mutation == 'metadata_float':
+        payload['rank'] = 2.5
+    else:
+        payload['parameter_count'] = 11
+    np.savez(tmp_path/'bad.npz', **payload)
+    with pytest.raises(ValueError):
+        audit.strict_load_completion(tmp_path/'bad.npz')
+
+
+def test_strict_successor_preserves_valid_predictions_and_rejects_tamper(tmp_path):
+    path = tmp_path/'valid.npz'
+    np.savez(path, **checkpoint_payload())
+    expected = audit.digest(path)
+    original = ScalarCompletion.load(path)
+    restored = audit.strict_load_completion(path, expected)
+    np.testing.assert_array_equal(original.matrix, restored.matrix)
+    with path.open('ab') as stream:
+        stream.write(b'drift')
+    with pytest.raises(ValueError, match='hash'):
+        audit.strict_load_completion(path, expected)
+
+
+def test_process_tree_resource_accounting_includes_scientific_child():
+    from types import SimpleNamespace
+    class Process:
+        def __init__(self, rss, cpu, children=()):
+            self.rss, self.cpu, self.descendants = rss, cpu, children
+        def memory_info(self):
+            return SimpleNamespace(rss=self.rss, peak_wset=self.rss+3)
+        def cpu_times(self):
+            return SimpleNamespace(user=self.cpu, system=1.)
+        def children(self, recursive):
+            assert recursive
+            return self.descendants
+    launcher = Process(5, 0, [Process(1000, 9)])
+    assert audit.process_tree_usage(launcher) == (1005, 1011, 11.)

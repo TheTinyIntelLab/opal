@@ -1,0 +1,75 @@
+{
+  "additive_null": {
+    "additive_mse": 0.0,
+    "candidate_and_control_mse": {
+      "20261023": 0.0,
+      "20261024": 0.0,
+      "20261025": 0.0,
+      "aligned": 0.0
+    },
+    "controls": [
+      {
+        "moved_fraction": 0.8884615384615384,
+        "permutable_fraction": 0.9923076923076923,
+        "seed": 20261023,
+        "sufficient": true
+      },
+      {
+        "moved_fraction": 0.9,
+        "permutable_fraction": 0.9923076923076923,
+        "seed": 20261024,
+        "sufficient": true
+      },
+      {
+        "moved_fraction": 0.85,
+        "permutable_fraction": 0.9923076923076923,
+        "seed": 20261025,
+        "sufficient": true
+      }
+    ],
+    "pairs": 90,
+    "ratio_to_unmodeled_interaction": null,
+    "reference_alpha": 100.0,
+    "reference_kind": "additive",
+    "reference_mse": 0.0
+  },
+  "signed_low_rank": {
+    "additive_mse": 2.0370909919831592,
+    "candidate_and_control_mse": {
+      "20261023": 1.8096032305971999,
+      "20261024": 1.9892914303731872,
+      "20261025": 1.977375312550783,
+      "aligned": 0.42576877346054837
+    },
+    "controls": [
+      {
+        "moved_fraction": 0.8884615384615384,
+        "permutable_fraction": 0.9923076923076923,
+        "seed": 20261023,
+        "sufficient": true
+      },
+      {
+        "moved_fraction": 0.9,
+        "permutable_fraction": 0.9923076923076923,
+        "seed": 20261024,
+        "sufficient": true
+      },
+      {
+        "moved_fraction": 0.85,
+        "permutable_fraction": 0.9923076923076923,
+        "seed": 20261025,
+        "sufficient": true
+      }
+    ],
+    "pairs": 90,
+    "ratio_to_unmodeled_interaction": 0.20900822552165516,
+    "reference_alpha": 1000.0,
+    "reference_kind": "calibration",
+    "reference_mse": 2.0384662439602277
+  },
+  "technical_confounding": {
+    "biological_interaction": 0,
+    "interpretation": "same fitted predictions; recovery is not causal identification",
+    "observationally_identical_to": "signed_low_rank"
+  }
+}
