@@ -131,3 +131,21 @@ tools/check_source_readiness.py -text whitespace=blank-at-eol,blank-at-eof,space
 tests/test_source_readiness.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 
 results/research-wave2-*/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+src/flexible_singles.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+tools/study_flexible_singles.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+tests/test_flexible_singles.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+tests/test_flexible_study.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+docs/research_reset/flexible_singles_protocol.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+src/label_budget.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+tools/study_label_budget.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+tests/test_label_budget.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+docs/research_reset/label_budget_protocol.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
