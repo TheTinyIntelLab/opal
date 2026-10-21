@@ -1,0 +1,287 @@
+{
+  "code_sha256": "42c8aef7fbb5b9cf4d8e15cf90516832c567b67de8b1c1fb81aebc9ddd37eb8f",
+  "fits": 0,
+  "protocol": "metadata-only-source-v1",
+  "requests": [
+    {
+      "bytes": 228206,
+      "metadata_facts": {
+        "license_mentions_ccby4": true,
+        "license_mentions_text_mining": false,
+        "normalized_table8_method": true
+      },
+      "sha256": "4bed7fdb1bcecc9d6737322b51188036c8b636a4bccf9927181491f519681e99",
+      "status": "fetched",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12018271/fullTextXML"
+    },
+    {
+      "bytes": 187138,
+      "metadata_facts": {
+        "license_mentions_ccby4": false,
+        "license_mentions_text_mining": true,
+        "normalized_table8_method": false
+      },
+      "sha256": "4968f2c38d2d877c80d23d8ae6aae10d151e94c4b6bc13d9f0e4cfea046377b8",
+      "status": "fetched",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12266356"
+    },
+    {
+      "bytes": 9313,
+      "metadata_facts": {
+        "license_paths": [],
+        "paths": 40,
+        "repository_pin": "218cf1bb8c83204da846256951ba5f6b0092890b"
+      },
+      "sha256": "3bff79be8da84a5602e119eb91e1a56e10abf74a4642cc3dfb62c2d7a87cedb9",
+      "status": "fetched",
+      "url": "https://api.github.com/repos/samsonfong/SCHEMATIC/git/trees/218cf1bb8c83204da846256951ba5f6b0092890b?recursive=1"
+    },
+    {
+      "bytes": 996,
+      "metadata_facts": {
+        "readme_only": true
+      },
+      "sha256": "84a1681c190798d44c34b938f158c60857a57f29955a945123b12bff33a13f32",
+      "status": "fetched",
+      "url": "https://raw.githubusercontent.com/samsonfong/SCHEMATIC/218cf1bb8c83204da846256951ba5f6b0092890b/README.md"
+    },
+    {
+      "bytes": 20206,
+      "metadata_facts": {
+        "five_field_count_index": true,
+        "partner_median_code": true,
+        "plasmid_reference": true
+      },
+      "sha256": "51103dbf99a3e6a7a4f7255ddb1eaa2700d3e6d465de1284ff02c2d4dda2d755",
+      "status": "fetched",
+      "url": "https://raw.githubusercontent.com/samsonfong/SCHEMATIC/218cf1bb8c83204da846256951ba5f6b0092890b/src/decipher/scores/fitness.py"
+    },
+    {
+      "bytes": 743,
+      "metadata_facts": {
+        "run_accessions": [
+          "SRR25050632",
+          "SRR25050633",
+          "SRR25050634",
+          "SRR25050635"
+        ],
+        "runs": 4
+      },
+      "sha256": "ee516afe120621e5bd3e241e5d09d7c83adea7bf44e08aa0c7e3549218fc9bf0",
+      "status": "fetched",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA988447&result=read_run&fields=run_accession,sample_accession,experiment_accession,experiment_title&format=tsv"
+    },
+    {
+      "bytes": 6741,
+      "metadata_facts": {
+        "run_accessions": [
+          "SRR13679198",
+          "SRR13679199",
+          "SRR13679200",
+          "SRR13679201",
+          "SRR13679202",
+          "SRR13679203",
+          "SRR13679204",
+          "SRR13679205",
+          "SRR13679206",
+          "SRR13679207",
+          "SRR13679208",
+          "SRR13679209",
+          "SRR13679210",
+          "SRR13679211",
+          "SRR13679212",
+          "SRR13679213",
+          "SRR13679214",
+          "SRR13679215",
+          "SRR13679216",
+          "SRR13679217",
+          "SRR13679218",
+          "SRR13679219",
+          "SRR13679220",
+          "SRR13679221",
+          "SRR13679222",
+          "SRR13679223",
+          "SRR13679224",
+          "SRR13679225",
+          "SRR13679226",
+          "SRR13679227",
+          "SRR13679228",
+          "SRR13679229",
+          "SRR13679230",
+          "SRR13679231",
+          "SRR13679232",
+          "SRR13679233",
+          "SRR13679234",
+          "SRR13679235",
+          "SRR13679236",
+          "SRR13679237",
+          "SRR13679238",
+          "SRR13679239",
+          "SRR13679240",
+          "SRR13679241",
+          "SRR13679242",
+          "SRR13679243",
+          "SRR13679244",
+          "SRR13679245",
+          "SRR13679246",
+          "SRR13679247",
+          "SRR13679248",
+          "SRR13679249",
+          "SRR13679250",
+          "SRR13679251",
+          "SRR13679252",
+          "SRR13679253"
+        ],
+        "runs": 56
+      },
+      "sha256": "118ee6837564931a2065f482c35bb472e28e4b2e05a60ce20559e940daa12134",
+      "status": "fetched",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA701256&result=read_run&fields=run_accession,sample_accession,experiment_accession,experiment_title&format=tsv"
+    }
+  ],
+  "resources": {
+    "cpu_seconds": 0.21875,
+    "fetched_bytes": 453343,
+    "max_outputs_bytes": 52428800,
+    "max_rss_bytes": 1073741824,
+    "max_transfer_bytes": 26214400,
+    "max_wall_seconds": 1800,
+    "sampled_peak_rss_bytes": 33251328,
+    "wall_seconds": 8.072193500003777
+  },
+  "response_access": false,
+  "response_header_access": false,
+  "sources": {
+    "schematic": {
+      "assessment": {
+        "blockers": [
+          "adapter",
+          "construct_aggregation",
+          "controls",
+          "development_gates",
+          "evaluator",
+          "ordered_linkage",
+          "rights",
+          "sample_mapping",
+          "units"
+        ],
+        "checklist_complete": true,
+        "limitation": "Checklist validation does not certify source or authorize access",
+        "qualification": "blocked",
+        "response_access_authorized": false
+      },
+      "checks": {
+        "adapter": {
+          "evidence": "SCHEMATIC source review; no response asset opened",
+          "resolution": "Qualify a distinct KO-growth task",
+          "status": "blocked"
+        },
+        "construct_aggregation": {
+          "evidence": "SCHEMATIC source review; no response asset opened",
+          "resolution": "Qualify a distinct KO-growth task",
+          "status": "blocked"
+        },
+        "controls": {
+          "evidence": "Published singles use all-partner medians and would leak pair outcomes",
+          "resolution": "Use explicit target/NT constructs with exact ordered guide singles",
+          "status": "blocked"
+        },
+        "development_gates": {
+          "evidence": "SCHEMATIC source review; no response asset opened",
+          "resolution": "Qualify a distinct KO-growth task",
+          "status": "blocked"
+        },
+        "evaluator": {
+          "evidence": "SCHEMATIC source review; no response asset opened",
+          "resolution": "Qualify a distinct KO-growth task",
+          "status": "blocked"
+        },
+        "ordered_linkage": {
+          "evidence": "Pipeline expects a five-field pair index; actual response schema not inspected",
+          "resolution": "Obtain metadata-only guide axes/key schema, overlap and sample map",
+          "status": "blocked"
+        },
+        "rights": {
+          "evidence": "Pinned source tree has no LICENSE; manuscript is not article-wide CC BY",
+          "resolution": "Establish supplement-specific rights; do not vendor unlicensed pipeline",
+          "status": "blocked"
+        },
+        "sample_mapping": {
+          "evidence": "56 ENA runs have symbolic time/culture names, not elapsed-day/initiation proof",
+          "resolution": "Obtain actual columns, elapsed times and initiation lineage",
+          "status": "blocked"
+        },
+        "units": {
+          "evidence": "Fitness pipeline uses plasmid-relative LFC and global pair transformations",
+          "resolution": "Freeze train-safe endpoint independent of globally processed GI scores",
+          "status": "blocked"
+        }
+      }
+    },
+    "spidr": {
+      "assessment": {
+        "blockers": [
+          "adapter",
+          "construct_aggregation",
+          "controls",
+          "development_gates",
+          "evaluator",
+          "ordered_linkage",
+          "sample_mapping",
+          "units"
+        ],
+        "checklist_complete": true,
+        "limitation": "Checklist validation does not certify source or authorize access",
+        "qualification": "blocked",
+        "response_access_authorized": false
+      },
+      "checks": {
+        "adapter": {
+          "evidence": "Existing tested adapter accepts raw integer counts only",
+          "resolution": "Implement distinct normalized input contract and synthetic full-design resource rehearsal",
+          "status": "not_run"
+        },
+        "construct_aggregation": {
+          "evidence": "Perfect/perfect primary has 121198 designed two-construct pairs, not observed eligibility",
+          "resolution": "Register equal construct/culture aggregation, missingness and pair grouping",
+          "status": "blocked"
+        },
+        "controls": {
+          "evidence": "Library has 15 NT guides and 225 NT/NT designs; observed coverage unknown",
+          "resolution": "Verify role and exact-guide/arm matching with schema, then preregister QC",
+          "status": "blocked"
+        },
+        "development_gates": {
+          "evidence": "Q1b/Q2b/Q3b precede Q6 in plan.md",
+          "resolution": "Complete gates and freeze full learning procedure, budget, splits and uncertainty before access",
+          "status": "not_run"
+        },
+        "evaluator": {
+          "evidence": "No qualified real-source equal-information evaluator",
+          "resolution": "Test identical populations, guide information, train-only transforms, leakage, serialization and replay",
+          "status": "not_run"
+        },
+        "ordered_linkage": {
+          "evidence": "Library has ordered sgRNAs; actual count key linkage unopened",
+          "resolution": "Obtain response-free key/schema companion and test exact library joins",
+          "status": "blocked"
+        },
+        "rights": {
+          "evidence": "Article/supplement CC BY 4.0 absent item exception; no exception visible in article Table 8 credit",
+          "resolution": "Record attribution and check any item notice before supplement-only ingestion; no FASTQ route",
+          "status": "supported"
+        },
+        "sample_mapping": {
+          "evidence": "ENA four runs map two cultures and T0/T14; unopened count columns not mapped",
+          "resolution": "Obtain a schema-only sample-column map and modified-function invocation",
+          "status": "blocked"
+        },
+        "units": {
+          "evidence": "SPIDR methods identify median-ratio normalized Table 8; raw adapter rejects it",
+          "resolution": "Register a normalized endpoint and actual invocation/pseudocount semantics",
+          "status": "blocked"
+        }
+      }
+    }
+  }
+}

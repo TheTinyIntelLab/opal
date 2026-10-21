@@ -115,3 +115,19 @@ docs/research_reset/block_family_protocol.md -text whitespace=blank-at-eol,blank
 tools/resume_native_tail.py -text
 tests/test_native_tail.py -text
 docs/research_reset/native_tail_protocol.md -text
+
+src/processed_gamma.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+tools/study_reagent_gamma.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+tests/test_processed_gamma.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+tests/test_reagent_gamma_study.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+docs/research_reset/reagent_gamma_protocol.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+tools/check_source_readiness.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+tests/test_source_readiness.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+results/research-wave2-*/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

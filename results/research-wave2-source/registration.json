@@ -1,0 +1,25 @@
+{
+  "acceptance": "11 synthetic exposure/checklist tests pass; structural facts and hashes recorded; missing evidence leaves gate blocked. No checklist authorizes response opening.",
+  "code": {
+    "tests/test_source_readiness.py": "8ea21cd9de2b655934d8a629256870040346ce20aaab8680315a5d4b95750e5a",
+    "tools/check_source_readiness.py": "42c8aef7fbb5b9cf4d8e15cf90516832c567b67de8b1c1fb81aebc9ddd37eb8f"
+  },
+  "limits": {
+    "cpu_seconds": 1800,
+    "outputs_bytes": 52428800,
+    "rss_bytes": 1073741824,
+    "transfer_bytes": 26214400,
+    "wall_seconds": 1800
+  },
+  "network": "Fixed allowlist of two article XML, two ENA metadata reports and three pinned SCHEMATIC code/tree/README URLs; response URL and redirect rejected before open",
+  "prerequisite_tests": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_source_readiness.py -q",
+    "passed": 11,
+    "seconds": 0.03
+  },
+  "protocol": "metadata-only-source-v1",
+  "registered_utc": "2026-10-21T06:41:11.624332+00:00",
+  "response_access": false,
+  "response_header_access": false,
+  "selection": "No fitting, model selection, endpoint scoring or output-dependent source choice"
+}
