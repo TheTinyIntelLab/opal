@@ -1,0 +1,35 @@
+# B independent initial proposal
+
+22 October 2026. SPIDR stays blocked for response and header access. This proposal precedes code changes and diagnostic execution. Reading frozen records and code is inspection, not a new qualification run. Both SPIDR and Shen remain metadata-only throughout this workstream.
+
+## Evidence and competing explanations
+
+I read root plan.md, wave3_closeout.md, validation.json, wave3_spidr_results.md, wave3_source_decision.md, the metadata-v2 receipt and existing source-readiness/parser code. The numerical discriminator failed twice before completion fits or test scoring. The exact 1e-12 prerequisite remains binding, with no scientific successor authorized here.
+
+SPIDR has 121,198 perfect/perfect designed two-construct pairs across 548 genes, exact-arm target/NT design support and 225 NT/NT designs. These facts do not establish observed support. Its cultures share transduction. The source is a prospective adapted normalized-count T14/T0 LFC task, not gamma transfer or independently initiated replicate confirmation.
+
+H1: the missing schema/invocation is documented in response-free official processing metadata. H2: archive sample titles and function defaults only resemble the required matrix contract, and the actual mapping or invocation differs. A bounded official metadata review after root freeze distinguishes these: an exact response-free actual-column/ordered-key map plus actual call/reference semantics supports H1; absence, ambiguity or contradiction leaves H2 unresolved and stops qualification. No header inspection can be used to settle it.
+
+H3: every primary double has usable exact guide/arm/time/culture target-NT measurements. H4: metadata design support hides missingness, survival selection or mismatched controls. Existing design receipts cannot distinguish them. Postfreeze metadata can establish only designed linkage and matching rules; observed availability remains unknown until a separately authorized successor. No missingness percentages or observed eligibility will be inferred here.
+
+H5: published normalized values can support a train-safe endpoint without re-normalization. H6: unknown reference sets, centering or count-scale semantics make a guessed adapter incomparable. Require documented input units, actual normalization flag/call, reference-set rule, pseudocount application/order, culture/time grouping and NT centering. A function signature is insufficient. If established, register a separate normalized-unit adapter in a successor; otherwise stop. Never round normalized counts, import raw T0 > 50 or import activity/GEMINI/GI filters.
+
+H7: Shen is an alternative dense supported-gene source with independently initiated experiments and exact measured gene/scramble singles. H8: replicate labels mask shared initiation, scrambled controls have unqualified roles, or published all-partner fits leak held doubles. D independently checks primary methods/rights and proposes discriminating metadata evidence. Dense design alone cannot pass these gates.
+
+## Methods and executable scope after freeze
+
+Before execution, root must write results/research-wave4/freeze.json binding reviewed proposals and the authorized scope. I will inspect its contents rather than treating existence alone as permission. Official metadata/construct/control mappings are allowed only within its explicit scope. No new response asset, response header, HEAD/range request or redirected response URL is permitted. No new scientific fits, completion fitting, test scoring or budget selection is permitted.
+
+Implement a new standalone response-free qualification contract and focused adversarial tests, leaving frozen tools and receipts untouched. The input is a small hand-reviewed evidence manifest, never a response path/URL. Each mandatory gate carries supported/blocked/unknown status, exact provenance and the supported claim. Unknown, missing or contradictory evidence blocks. The output always denies response authorization, even when metadata gates pass. Keep design eligibility, observed eligibility and initiation independence separate.
+
+Mandatory gates cover item-specific rights/attribution/exception, ordered construct and sample/time/culture mappings, normalization invocation/reference/centering and endpoint units, exact guide sequence/transcript/mismatch/arm matching, explicit NT versus scramble/safe-editing roles, measured-single design with observed coverage unknown, initiation lineage, and evaluator compatibility. Evaluator evidence must cover identical information, train-only transforms, validation-only selection, construct-first prediction then equal-construct/equal-culture aggregation and equal-pair scoring, canonical pair assignment across every orientation/stratum, strict states, deterministic arithmetic and a future full-design resource rehearsal. Source-local unique-label union and separately charged singles/controls remain successor prerequisites, not values selected here.
+
+Tests use synthetic metadata only. Expected passes are complete, provenance-backed metadata contracts that still deny access. Expected failures include missing evidence, explicit unknown, incompatible units, raw-threshold carryover, fake independence from split cultures, target-name-only matching, all-partner singles and evaluator claims without supporting evidence. Failure means the contract rejects an unsupported qualification, not a negative biological result. Numerical evaluator replay, if separately authorized for this workstream, must satisfy max absolute difference <= 1e-12 without tolerance relaxation; otherwise it stays not run.
+
+## Limits and stopping rules
+
+One bounded metadata review, at most six official article/rights/metadata pages and no asset crawling, with failed requests preserved. Local metadata tests have a 120-second wall limit, one numerical thread, 512 MiB working-set budget and 10 MiB outputs. These are cooperative limits, not an interrupting watchdog. Any response exposure, scope drift, contradictory mapping or resource breach stops the stage and gets a failure receipt. Metadata review can demonstrate missing evidence but cannot prove the absent companion does not exist.
+
+Go means only that the metadata-only engineering report is reviewable. Source access remains no-go until every required gate passes, source-specific evaluator/resource/budget/procedure registration is complete, D critiques the final SPIDR decision and root explicitly authorizes a separate successor. The historical 5% paired-MSE, negative upper conditional gene sensitivity bound, no infection loss, shuffle and all-reference gates remain unchanged. Split cultures and conditional bounds do not establish biological replication. Frozen old records and failed attempts are preserved; no commits are made by B or D.
+
+D taskId: node:delegated-task:command%3Amcp%3Abd460bff-b58e-4ef0-9dca-2fd3fe3fed9d%3Adelegate-task%3Aopal-wave4-D-20261022. D uses codex/gpt-6.1-sol with reasoningEffort medium and serviceTier default, verified from the delegation response. D must independently critique this draft and remain active to critique the revised final decision.

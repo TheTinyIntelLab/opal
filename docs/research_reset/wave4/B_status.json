@@ -1,0 +1,14 @@
+{
+  "worker": "B",
+  "phase": "independent_draft_saved_waiting_for_D_critique",
+  "draft": "docs/research_reset/wave4/B_initial.md",
+  "child_taskId": "node:delegated-task:command%3Amcp%3Abd460bff-b58e-4ef0-9dca-2fd3fe3fed9d%3Adelegate-task%3Aopal-wave4-D-20261022",
+  "child_provider": "codex",
+  "child_model": "gpt-6.1-sol",
+  "child_options": {"reasoningEffort": "medium", "serviceTier": "default"},
+  "code_changes": false,
+  "diagnostics_executed": false,
+  "response_access": false,
+  "response_header_access": false,
+  "experiments_require": "root results/research-wave4/freeze.json with explicit scope"
+}

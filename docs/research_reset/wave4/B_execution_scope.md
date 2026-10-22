@@ -1,0 +1,9 @@
+# Proposed B execution surface for root freeze
+
+No execution yet. Proposed new files are `tools/wave4_source_contract.py` and `tests/test_wave4_source_contract.py`; both consume synthetic or hand-reviewed response-free metadata only. No network client, count parser or response path exists in this module. Existing frozen modules remain unchanged.
+
+The validator should reject duplicate sample-column identities, duplicate ordered construct keys, unknown time/culture/initiation links, gene-name-only singles matching, wrong-arm or wrong-culture/time controls, and all-partner-derived singles. A complete fixture still returns response_access_authorized=false. This tests actual metadata structures rather than trusting a row of checklist booleans. Fixture column identifiers are invented synthetic metadata and never real reserved headers.
+
+Proposed focused command after implementation and freeze is `.venv/Scripts/python.exe -m pytest tests/test_wave4_source_contract.py tests/test_source_readiness.py tests/test_wave3_spidr_qualification_v2.py tests/test_spidr_metadata.py -q`. Root owns the eventual complete suite/build/install checks. A report-generation command may be frozen as `.venv/Scripts/python.exe tools/wave4_source_contract.py --output results/research-wave4/source-contract.json`; it uses a built-in reviewed snapshot based solely on old receipts, refuses overwrite, verifies the freeze and writes an explicit blocked source decision.
+
+All scientific computation is excluded. Numerical replay is A/C's scope, exact absolute 1e-12 and rtol zero. B does not need saved numerical state, original profiles or new biological source files. A 120-second command wall budget, one numerical thread, 512 MiB working set and 10 MiB outputs apply. The report records time, CPU, memory, bytes and failures, distinguishing cooperative checks from watchdog limits.

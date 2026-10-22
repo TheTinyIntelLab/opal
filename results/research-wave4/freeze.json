@@ -1,0 +1,71 @@
+{
+  "schema": "opal-wave4-freeze-v1",
+  "created_utc": "2026-10-22T17:33:53.763440+00:00",
+  "head": "45795c6971ad45c603edcd0c532228344668c361",
+  "authorized_scopes": [
+    "numerical_saved_state",
+    "fixed_state_synthetic",
+    "metadata_only",
+    "delivery"
+  ],
+  "scope": {
+    "numerical_saved_state": true,
+    "synthetic": true,
+    "metadata_only": true,
+    "source_response_access": false,
+    "source_response_header_access": false,
+    "biological_fit": false,
+    "test_scoring": false
+  },
+  "numerical": {
+    "authorized": true,
+    "saved_state_only": true,
+    "synthetic_no_fit": true,
+    "absolute_tolerance": 1e-12,
+    "relative_tolerance": 0,
+    "wall_seconds": 300,
+    "peak_bytes": 2147483648,
+    "output_bytes": 26214400,
+    "reserve_bytes": 1073741824,
+    "threads": 1,
+    "successor_authorized": false
+  },
+  "metadata": {
+    "authorized": true,
+    "metadata_only": true,
+    "response_access_authorized": false,
+    "response_header_access_authorized": false,
+    "wall_seconds": 120,
+    "peak_bytes": 536870912,
+    "output_bytes": 10485760,
+    "max_official_pages_per_reviewer": 6
+  },
+  "delivery": {
+    "authorized": true,
+    "synthetic_test_fitting_authorized": true,
+    "historical_read_only_replay_authorized": true,
+    "serialize_memory_intensive": true,
+    "output": "C:/Users/USER/Desktop/opal-wave4-delivery-20261022"
+  },
+  "successor_authorized": false,
+  "files": {
+    "docs\\research_reset\\wave4\\root_initial.md": "6f173d657cf03b8afc8f259fc5a897d14b21ac5e9711dfc4c67b7b90364af4df",
+    "docs\\research_reset\\wave4\\A_initial.md": "c9f679ca293d3ea156b1243daef97b19dac59cb85703ea26a9f8453d35f208b2",
+    "docs\\research_reset\\wave4\\A_revised.md": "7a8e1c2de920ec432c26a5aa7def67637e578d5784733d6790a937e8a617ff08",
+    "docs\\research_reset\\wave4\\A_execution_scope.md": "fbc1d3995db845888c8b40598782db165fe69350ebf7251acfc1ddf7b08fe826",
+    "docs\\research_reset\\wave4\\C_independent_notes.md": "2955fcba7ffa3c0dd99009000a4d41db3661c1bdccce3bb0f68dc16e6df061e5",
+    "docs\\research_reset\\wave4\\C_critique.md": "77aa73eed2d2f15df7b2104647c85724a748d3c40983a5c72b43c0c02d468fe4",
+    "docs\\research_reset\\wave4\\C_revision_review.md": "6423d3b3f561d75e64da77bfce005f04bacd34c3d340f5c80ed5a6e4deeb02f8",
+    "docs\\research_reset\\wave4\\B_initial.md": "3bdb2dd651402aeed0da9de55014946d58d3445a7c303cc6464a98fc976f0e91",
+    "docs\\research_reset\\wave4\\B_revised.md": "113e4d8cf846ff48e04201d1358f2c8797af50a5a5b9d67fe25fe303b117a126",
+    "docs\\research_reset\\wave4\\B_execution_scope.md": "56d9df71e1cf391346dd1696747cd1850c44415e1144b15b014bc94c8f045041",
+    "docs\\research_reset\\wave4\\D_initial.md": "eee5870d121e200184929ca130820627b678a39996a2020a3560f6d9753ad501",
+    "docs\\research_reset\\wave4\\D_critique_B.md": "3dd326ee470f9802f3329b799a053609c25b4d17f566fd586d0459773b95914d",
+    "docs\\research_reset\\wave4\\D_to_B.md": "d32d260860a42f4217a61ef62df5e70a34616481ba671d56d6a577d8ffe371bb",
+    "docs\\research_reset\\wave4\\root_final_review.md": "cddd7a8a25ca2ddb4fd58036535c9e5b50fe5f7f4f016eb2a6c34e11f14764eb",
+    "docs\\research_reset\\wave4\\experiment_matrix.md": "c9d2a5647ba43e1854ec37f1dd26cffbcfc8b1f307ddff7e815f429b9e9d1804",
+    "tools/validate_wave4_delivery.py": "f0b09bda7348b786bf556c43a8c40bcdb546bd219241309e845f73c156508638",
+    "results/research-wave4/custody-before.json": "3b6f127b4cfcd58ac43659583f04c4cc665b203493213b835d80cb795bc1c983",
+    "results/research-wave4/initial-state.json": "5c5f0a5509a2384a7cde287fb39730dd4cbde49cdf4f977f222afdff1417ba73"
+  }
+}
