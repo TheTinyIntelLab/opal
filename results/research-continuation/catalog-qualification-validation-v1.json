@@ -1,0 +1,21 @@
+{
+  "schema": "opal-catalog-qualification-validation-v1",
+  "created_utc": "2026-10-22T23:45:15.662742+00:00",
+  "protocol_and_prior_plan_hashes_pass": true,
+  "operational_records_bytes_before_this_receipt": 21063,
+  "production_or_historical_scoped_changes": [],
+  "credential_pattern_hits": [],
+  "source_assets_acquired": 0,
+  "scientific_fits_or_scores": 0,
+  "documentation": {
+    "documents": 227,
+    "unavailable_links": 0
+  },
+  "checks_not_repeated": "No runtime/package changes. Full local suite and installed/build replays remain at starting commit 0026e83; the new documentation commit will trigger hosted integrity validation. No actual metadata contract can be tested before candidate access/qualification.",
+  "operational_failure": "First plan-update command refused a CRLF-only text lookup before writing plan.md; prior plan bytes were already preserved. Corrected using universal-newline text reading and verified the archive remained unchanged.",
+  "receipt_transcription_correction": {
+    "cached_source_lookups[2]": "readRDS('ENCORE"
+  },
+  "local_free_bytes": 1010393088,
+  "source_qualified": false
+}

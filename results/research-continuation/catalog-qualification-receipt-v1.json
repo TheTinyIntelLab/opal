@@ -1,0 +1,76 @@
+{
+  "schema": "opal-catalog-qualification-receipt-v1",
+  "closed_utc": "2026-10-22T23:43:11.587932+00:00",
+  "freeze_sha256": "f69fb8736c86cfdd9c164bd69190e941dcd3851b8134e40fe0a903a969d8f270",
+  "requests": [
+    {
+      "url": "https://api.figshare.com/v2/articles/25533091",
+      "result": "inaccessible through managed web tool"
+    },
+    {
+      "url": "https://api.github.com/repos/ibarrioh/DualGuide_COLO1/tags",
+      "result": "inaccessible through managed web tool"
+    },
+    {
+      "url": "https://github.com/ibarrioh/DualGuide_COLO1/releases",
+      "result": "release metadata available; Release2 points to cfb5eb9"
+    },
+    {
+      "url": "https://doi.org/10.6084/m9.figshare.25533091.v1",
+      "result": "inaccessible through managed web tool"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ibarrioh/DualGuide_COLO1/cfb5eb9a39ff1ec43642fba9485270ae200e81ae/Analysis/ENCORE/input/readme.txt",
+      "result": "pure input-role documentation available"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ibarrioh/DualGuide_COLO1/cfb5eb9a39ff1ec43642fba9485270ae200e81ae/Analysis/ENCORE/scripts/Rscript_final.R",
+      "result": "source view available; cached metadata-role lookups; no code execution"
+    },
+    {
+      "url": "https://figshare.com/articles/dataset/25533091",
+      "result": "inaccessible through managed web tool"
+    },
+    {
+      "url": "https://github.com/ibarrioh/DualGuide_COLO1/releases/tag/Release2",
+      "result": "confirms release commit prefix"
+    }
+  ],
+  "searches": [
+    "site:figshare.com \"25533091\" library metadata",
+    "site:github.com/ibarrioh/DualGuide_COLO1 \"sample\" \"COLO1\""
+  ],
+  "cached_source_lookups": [
+    "IDs_colo1",
+    "COLO1_RUNMERGED",
+    "readRDS(ENCORE",
+    "normaliz"
+  ],
+  "web_requests": 8,
+  "search_count": 2,
+  "elapsed_wall_seconds": 201.705515,
+  "local_free_bytes_at_close": 998731776,
+  "local_source_assets_acquired": 0,
+  "archives_opened": 0,
+  "rds_objects_opened": 0,
+  "response_tables_or_headers_opened": false,
+  "pair_response_values_opened": false,
+  "biological_fits": 0,
+  "new_biological_scores": 0,
+  "incidental_exposure": "Source text contains a hard-coded aggregate QC performance annotation and plotted gene selections. Numeric annotation not reproduced in this receipt; exclude both from task/subset/threshold selection. This is not whole-study blindness.",
+  "metadata_candidate_from_prior_tree": {
+    "path": "Analysis/ENCORE/input/IDs_colo1.rds",
+    "type": "blob",
+    "sha": "b88d727fdc3f34109d07a94cfae44aad99405990",
+    "size": 277295
+  },
+  "candidate_body_verified": false,
+  "source_qualified_for_ingestion": false,
+  "remaining_blockers": [
+    "local acquisition reserve unavailable",
+    "actual annotation schema/contents unverified",
+    "full ordered-guide/control joins unverified",
+    "original sample/time/initiation provenance absent",
+    "raw-to-endpoint normalization invocation and train-safe processing absent"
+  ]
+}
