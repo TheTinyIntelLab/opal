@@ -1,9 +1,9 @@
 # Opal forward plan
 
-Updated 21 October 2026 after wave three. This is the sole authoritative forward
+Updated 22 October 2026 after wave four. This is the sole authoritative forward
 plan. Frozen protocols and reports record completed or stopped work, not competing
 backlogs. The exact prior plan is preserved in
-[the closeout archive](results/research-wave3-validation/plan-before-closeout.md.txt).
+[the wave-four archive](results/research-wave4/plan-before-wave4.md.txt).
 
 ## Decision
 
@@ -36,6 +36,8 @@ savings remain unestablished.
 | Strong-reference reagent discriminator | Registered nested flexible-reference comparison stopped twice at numerical-equivalence prerequisite, before completion fits or test scoring; no scientific result, no further fit in this branch | [Closeout](docs/research_reset/wave3_closeout.md), [protocol](docs/research_reset/wave3_flexible_nuisance_protocol.md), [arithmetic amendment](docs/research_reset/wave3_flexible_nuisance_protocol_v2.md) |
 | Synthetic evaluator | Additive null and signed low-rank recovery pass; pair-technical confounding is observationally identical; interval calibration is conditional only, and historical loader accepts invalid numerical states | [Evaluator audit](docs/research_reset/wave3_evaluator_results_v1.md) |
 | Independent-source qualification | SPIDR design matching passes, endpoint/schema/evaluator qualification does not; responses and headers remain reserved | [SPIDR report](docs/research_reset/wave3_spidr_results.md), [source decision](docs/research_reset/wave3_source_decision.md) |
+| Wave-four numerical diagnosis | Exact v2 discrepancy reproduced without fitting or outcome scoring; first divergence at batch-dependent kernel-whitener multiplication; tested fixed-order candidate fails frozen compatibility, so no scientific successor | [Diagnosis](docs/research_reset/wave4/A_diagnosis_summary.md), [independent review](docs/research_reset/wave4/C_results_review.md) |
+| Wave-four source contracts | Metadata structure and evidence-scope checks added; both sources remain blocked, with no response/header access or source-local experiment | [Source report](docs/research_reset/wave4/B_results.md) |
 
 Preserve all models, registrations, exposure records, failed attempts, negative
 results and raw-source hashes. Existing biological assets stay outside Git.
@@ -55,12 +57,24 @@ registered second-failure stop. Do not reinterpret that software failure as
 support for or against completion, and do not launch another biological fit,
 relax the threshold or select a more favorable nuisance representation here.
 
-The next engineering prerequisite is a deterministic, batch-consistent replay
-contract for the existing flexible map, demonstrated using saved state and
-synthetic arithmetic before any separately justified scientific continuation.
-This is a numerical correctness issue, not evidence for another architecture.
-Historical source bytes and scores stay unchanged; an eventual successor needs
-its own documented rationale and registration rather than an overwritten run.
+Wave four reproduced the exact 1.245199382493567e-8 discrepancy. Coordinates,
+distances and kernels match; kernel-whitener multiplication first differs by
+3.045525368217594e-11, amplified by small saved feature scales. Causal feature
+swaps reproduce the failed gate, while addition grouping contributes only about
+1e-16. The historical predictor itself varies with caller partitioning. A tested
+fixed-order contraction misses the immutable validation vector by
+4.660858310412408e-8. The cause is identified on the inspected stack, but no
+repair meets the frozen compatibility and invariance requirements. No new
+strongest-reference scientific experiment is justified or authorized.
+
+The next numerical decision must explicitly choose a prospective replay contract
+before implementation. Preserving a fixed legacy query schedule and defining a
+new caller-invariant predictor are different versioned engineering questions.
+Do not change the historical target, floors, tolerance or fitted state to turn
+either into another scientific retry. Historical source bytes and scores remain
+unchanged. Any later scientific continuation still requires a separately
+justified registration and independent reviews, with the same population,
+comparison, threshold and information budget.
 
 If a qualified nuisance comparison removes completion's advantage, simplify the
 predictor and close its biological-interaction interpretation. If an advantage
@@ -73,7 +87,7 @@ its cause.
 
 ## Source qualification boundary
 
-SPIDR remains the preferred CRISPRi candidate. Its normalized-count endpoint is
+SPIDR remains a CRISPRi candidate. Its normalized-count endpoint is
 T14/T0 LFC, not measured per-doubling gamma. The perfect/perfect primary is a
 metadata-only role, with 121,198 two-construct designed pairs across 548 genes;
 observed eligibility remains unknown. Mixed and both-mismatched are secondary and
@@ -116,6 +130,19 @@ its all-partner fitted singles. SCHEMATIC remains blocked; isolated paralog pane
 need graph-support checks; NCI-ALMANAC is a separate drug/dose endpoint.
 
 ## Evaluation and delivery rules
+
+Ranked next decisions are: first define and review a versioned numerical replay
+contract without a biological fit; second obtain Shen's response-free ordered
+construct/sample/initiation map and exact supplement-item rights, because its
+dense design could support a separate knockout task; third obtain SPIDR's actual
+schema/invocation companion for a prospectively restricted within-initiation
+question. Neither source is qualified today. A future sealed protocol must bind
+endpoint/QC, exact singles/control matching, source-local unique-label budget,
+train-only preprocessing, validation selection, all predictions and the unchanged
+scientific gate before custodian scoring. An observed-support check belongs to
+authorized nonadaptive ingestion after those prerequisites, not a hidden header
+inspection now. No further rank, architecture, budget or nuisance sweep follows
+the current stops.
 
 Use identical test pairs, labels and permitted measurements across comparators.
 TRAIN alone fits transforms; VALIDATION alone selects penalties/checkpoints.

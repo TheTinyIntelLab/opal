@@ -1,0 +1,20 @@
+{
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_wave4_numerical_replay.py"
+  ],
+  "code": {
+    "tests/test_wave4_numerical_replay.py": "4ba528c6664bdc01882de3f1a97ae15b78b45b27b3ccee9d18598d4f2cce23e3",
+    "tools/wave4_numerical_diagnosis.py": "ce073c7f02abb3b1b0807d90efa33a17ae5f2fce99c1f49758d9e8448c271ae1"
+  },
+  "change": "synthetic no-overwrite fixture replaces Windows-local real freeze; diagnostic unchanged",
+  "returncode": 0,
+  "stdout": ".............                                                            [100%]\n13 passed in 1.37s\n",
+  "stderr": "",
+  "wall_seconds": 2.753798999998253,
+  "biological_fit": false,
+  "scoring": false
+}

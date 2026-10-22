@@ -1,0 +1,27 @@
+[
+  {
+    "command": [
+      "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+      "-m",
+      "build",
+      "--outdir",
+      "C:\\Users\\USER\\Desktop\\opal-wave4-delivery-20261022\\dist-final"
+    ],
+    "returncode": 0,
+    "wall_seconds": 10.896097099990584,
+    "log": "C:\\Users\\USER\\Desktop\\opal-wave4-delivery-20261022\\final-build.log",
+    "sha256": "3acdf3cca51664a881fc92eb47ad76c55c5aaec3a7effae762332e221f5b9df1"
+  },
+  {
+    "command": [
+      "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+      "tools/build_docs.py",
+      "--output",
+      "C:\\Users\\USER\\Desktop\\opal-wave4-delivery-20261022\\docs-final"
+    ],
+    "returncode": 0,
+    "wall_seconds": 1.066479100001743,
+    "log": "C:\\Users\\USER\\Desktop\\opal-wave4-delivery-20261022\\final-docs.log",
+    "sha256": "ec9fe91067968c582895b81f3c61b274365fd6bf848e982dfb5c5d6a0b31d81e"
+  }
+]

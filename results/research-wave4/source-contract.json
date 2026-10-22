@@ -1,0 +1,301 @@
+{
+  "actual_source_mapping_validated": false,
+  "code_sha256": "0cbc500a4d6723bd20f05dee6dbc5e99694e585818bf89669682a0d71529ec57",
+  "fits": 0,
+  "freeze_sha256": "b71ea9cf875703f44ad2452efb303c44814095a81dd15864af5848f0855399ce",
+  "new_source_outcome_access": false,
+  "protocol": "wave4-source-evidence-contract-v1",
+  "requests": [],
+  "resources": {
+    "cpu_seconds": 0.0,
+    "guard": "cooperative stage checks; not interrupting watchdog",
+    "network_bytes": 0,
+    "peak_rss_bytes": 23089152,
+    "wall_seconds": 0.0007212000200524926
+  },
+  "response_access": false,
+  "response_header_access": false,
+  "scores": 0,
+  "sources": {
+    "shen2017": {
+      "assessment": {
+        "blockers": [
+          "budget",
+          "controls",
+          "endpoint",
+          "evaluator",
+          "independent_initiation_claim",
+          "invocation",
+          "lineage",
+          "normalization",
+          "ordered_key",
+          "procedure",
+          "resources",
+          "rights",
+          "sample_columns",
+          "single_design"
+        ],
+        "independent_initiations_documented": false,
+        "limitation": "Evidence classification and consistency do not certify source truth or authorize access",
+        "observed_eligibility": null,
+        "observed_single_availability": null,
+        "response_access_authorized": false,
+        "response_header_access_authorized": false,
+        "status": "blocked"
+      },
+      "design_evidence": "73-gene dense design; 657 gene/scramble designs do not prove both-arm observed singles",
+      "endpoint": "separate prospective knockout control-based growth slope, not published all-partner fitness",
+      "evidence": {
+        "budget": {
+          "artifact": "docs/research_reset/wave3_source_decision.md",
+          "claim": "budget",
+          "kind": "existing_review",
+          "locator": "A suitable alternative design, with a separate endpoint",
+          "scope": "unresolved_prerequisite",
+          "status": "not_run"
+        },
+        "controls": {
+          "artifact": "docs/research_reset/wave3_source_decision.md",
+          "claim": "controls",
+          "kind": "existing_review",
+          "locator": "A suitable alternative design, with a separate endpoint",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        },
+        "endpoint": {
+          "artifact": "docs/research_reset/wave3_source_decision.md",
+          "claim": "endpoint",
+          "kind": "existing_review",
+          "locator": "A suitable alternative design, with a separate endpoint",
+          "scope": "unresolved_prerequisite",
+          "status": "not_run"
+        },
+        "evaluator": {
+          "artifact": "docs/research_reset/wave3_source_decision.md",
+          "claim": "evaluator",
+          "kind": "existing_review",
+          "locator": "A suitable alternative design, with a separate endpoint",
+          "scope": "unresolved_prerequisite",
+          "status": "not_run"
+        },
+        "invocation": {
+          "artifact": "docs/research_reset/wave3_source_decision.md",
+          "claim": "invocation",
+          "kind": "existing_review",
+          "locator": "A suitable alternative design, with a separate endpoint",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        },
+        "lineage": {
+          "artifact": "docs/research_reset/wave3_source_decision.md",
+          "claim": "lineage",
+          "kind": "existing_review",
+          "locator": "A suitable alternative design, with a separate endpoint",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        },
+        "normalization": {
+          "artifact": "docs/research_reset/wave3_source_decision.md",
+          "claim": "normalization",
+          "kind": "existing_review",
+          "locator": "A suitable alternative design, with a separate endpoint",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        },
+        "ordered_key": {
+          "artifact": "docs/research_reset/wave3_source_decision.md",
+          "claim": "ordered_key",
+          "kind": "existing_review",
+          "locator": "A suitable alternative design, with a separate endpoint",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        },
+        "procedure": {
+          "artifact": "docs/research_reset/wave3_source_decision.md",
+          "claim": "procedure",
+          "kind": "existing_review",
+          "locator": "A suitable alternative design, with a separate endpoint",
+          "scope": "unresolved_prerequisite",
+          "status": "not_run"
+        },
+        "resources": {
+          "artifact": "docs/research_reset/wave3_source_decision.md",
+          "claim": "resources",
+          "kind": "existing_review",
+          "locator": "A suitable alternative design, with a separate endpoint",
+          "scope": "unresolved_prerequisite",
+          "status": "not_run"
+        },
+        "rights": {
+          "artifact": "docs/research_reset/wave3_source_decision.md",
+          "claim": "rights",
+          "kind": "existing_review",
+          "locator": "A suitable alternative design, with a separate endpoint",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        },
+        "sample_columns": {
+          "artifact": "docs/research_reset/wave3_source_decision.md",
+          "claim": "sample_columns",
+          "kind": "existing_review",
+          "locator": "A suitable alternative design, with a separate endpoint",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        },
+        "single_design": {
+          "artifact": "docs/research_reset/wave3_source_decision.md",
+          "claim": "single_design",
+          "kind": "existing_review",
+          "locator": "A suitable alternative design, with a separate endpoint",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        }
+      },
+      "forbidden_priors": [
+        "all_partner_fitted_singles",
+        "absolute_fitness_probe_ranks",
+        "derived_weights"
+      ]
+    },
+    "spidr": {
+      "assessment": {
+        "blockers": [
+          "budget",
+          "controls",
+          "endpoint",
+          "evaluator",
+          "independent_initiation_claim",
+          "invocation",
+          "normalization",
+          "ordered_key",
+          "procedure",
+          "resources",
+          "rights",
+          "sample_columns",
+          "single_design"
+        ],
+        "independent_initiations_documented": false,
+        "limitation": "Evidence classification and consistency do not certify source truth or authorize access",
+        "observed_eligibility": null,
+        "observed_single_availability": null,
+        "response_access_authorized": false,
+        "response_header_access_authorized": false,
+        "status": "blocked"
+      },
+      "design_evidence": "121198 perfect/perfect two-construct designed pairs; observed eligibility unknown",
+      "endpoint": "normalized T14/T0 LFC, not per-doubling gamma",
+      "evidence": {
+        "budget": {
+          "artifact": "docs/research_reset/wave3_spidr_results.md",
+          "claim": "budget",
+          "kind": "existing_review",
+          "locator": "Official metadata review and unresolved blockers",
+          "scope": "unresolved_prerequisite",
+          "status": "not_run"
+        },
+        "controls": {
+          "artifact": "docs/research_reset/wave3_spidr_results.md",
+          "claim": "controls",
+          "kind": "existing_review",
+          "locator": "Official metadata review and unresolved blockers",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        },
+        "endpoint": {
+          "artifact": "docs/research_reset/wave3_spidr_results.md",
+          "claim": "endpoint",
+          "kind": "existing_review",
+          "locator": "Official metadata review and unresolved blockers",
+          "scope": "unresolved_prerequisite",
+          "status": "not_run"
+        },
+        "evaluator": {
+          "artifact": "docs/research_reset/wave3_spidr_results.md",
+          "claim": "evaluator",
+          "kind": "existing_review",
+          "locator": "Official metadata review and unresolved blockers",
+          "scope": "unresolved_prerequisite",
+          "status": "not_run"
+        },
+        "invocation": {
+          "artifact": "docs/research_reset/wave3_spidr_results.md",
+          "claim": "invocation",
+          "kind": "existing_review",
+          "locator": "Official metadata review and unresolved blockers",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        },
+        "lineage": {
+          "artifact": "docs/research_reset/wave3_spidr_results.md",
+          "claim": "lineage",
+          "kind": "initiation_record",
+          "locator": "Rights and Lineage blockers: two split cultures after common transduction",
+          "scope": "culture_initiation",
+          "status": "supported"
+        },
+        "normalization": {
+          "artifact": "docs/research_reset/wave3_spidr_results.md",
+          "claim": "normalization",
+          "kind": "existing_review",
+          "locator": "Official metadata review and unresolved blockers",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        },
+        "ordered_key": {
+          "artifact": "docs/research_reset/wave3_spidr_results.md",
+          "claim": "ordered_key",
+          "kind": "existing_review",
+          "locator": "Official metadata review and unresolved blockers",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        },
+        "procedure": {
+          "artifact": "docs/research_reset/wave3_spidr_results.md",
+          "claim": "procedure",
+          "kind": "existing_review",
+          "locator": "Official metadata review and unresolved blockers",
+          "scope": "unresolved_prerequisite",
+          "status": "not_run"
+        },
+        "resources": {
+          "artifact": "docs/research_reset/wave3_spidr_results.md",
+          "claim": "resources",
+          "kind": "existing_review",
+          "locator": "Official metadata review and unresolved blockers",
+          "scope": "unresolved_prerequisite",
+          "status": "not_run"
+        },
+        "rights": {
+          "artifact": "docs/research_reset/wave3_spidr_results.md",
+          "claim": "rights",
+          "kind": "existing_review",
+          "locator": "Official metadata review and unresolved blockers",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        },
+        "sample_columns": {
+          "artifact": "docs/research_reset/wave3_spidr_results.md",
+          "claim": "sample_columns",
+          "kind": "existing_review",
+          "locator": "Official metadata review and unresolved blockers",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        },
+        "single_design": {
+          "artifact": "docs/research_reset/wave3_spidr_results.md",
+          "claim": "single_design",
+          "kind": "existing_review",
+          "locator": "Official metadata review and unresolved blockers",
+          "scope": "unresolved_prerequisite",
+          "status": "unknown"
+        }
+      },
+      "forbidden_priors": [
+        "activity",
+        "GEMINI",
+        "GI",
+        "outcome_selected_guides"
+      ]
+    }
+  }
+}
