@@ -1,0 +1,48 @@
+{
+  "schema": "opal-shen-code-landing-receipt-v1",
+  "closed_utc": "2026-10-22T23:48:29.649385+00:00",
+  "freeze_sha256": "c34627498172bc645c3a445d1c4c9f747aa765f17e16be078d514e2a84520403",
+  "navigation_attempts": [
+    {
+      "tool": "web.open",
+      "url": "http://ideker.ucsd.edu/papers/rsasik2017/",
+      "result": "URL https://ideker.ucsd.edu/papers/rsasik2017/ is not accessible via this tool."
+    },
+    {
+      "tool": "web.open",
+      "url": "https://ideker.ucsd.edu/papers/rsasik2017/",
+      "result": "URL https://ideker.ucsd.edu/papers/rsasik2017/ is not accessible via this tool."
+    },
+    {
+      "tool": "t3.preview_open",
+      "url": "https://ideker.ucsd.edu/papers/rsasik2017/",
+      "result_url": "chrome-error://chromewebdata/",
+      "available": true
+    },
+    {
+      "tool": "t3.preview_navigate",
+      "url": "http://ideker.ucsd.edu/papers/rsasik2017/",
+      "result": "Preview automation navigate failed: Navigation to http://ideker.ucsd.edu/papers/rsasik2017/ failed: ERR_NAME_NOT_RESOLVED"
+    }
+  ],
+  "snapshot_observation": "Preview snapshot failed: Preview automation snapshot timed out after 15000ms.",
+  "agent_owned_tab": "tab_1_7b9517f0-33cd-420c-9ab2-3d79b9b8944f",
+  "tab_close_requested": true,
+  "max_navigation_attempts": 4,
+  "searches": 0,
+  "elapsed_wall_seconds": 84.716333,
+  "local_source_assets": 0,
+  "reserved_response_access": false,
+  "incidental_outcome_exposure": false,
+  "fits": 0,
+  "scores": 0,
+  "source_qualified": false,
+  "http_status_obtained": false,
+  "inference": "Access/DNS failure in the tested tools/environment. Does not prove permanent source loss or absence of metadata.",
+  "free_disk_bytes": {
+    "C:/": 1005957120,
+    "D:/": 582864896,
+    "E:/": 770940928,
+    "F:/": 442949632
+  }
+}
