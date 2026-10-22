@@ -1,0 +1,39 @@
+{
+  "world": "technical_persistent",
+  "seed": 6102,
+  "noise": 0.0,
+  "input_sha256": "6f4130338fbf9019b256d9d41dd74dd28c139898b133443ab7bc02ea5e834a36",
+  "reference_grid_validation_mse": [
+    0.17287816323660435,
+    0.1651216651816881,
+    0.10100413472406888,
+    0.12382553102258081,
+    0.10120096958243928,
+    0.10119756748049291,
+    0.10116686918009085,
+    0.10101072461446932,
+    0.11275360868442574,
+    0.11259762551629506,
+    0.11111569362249576,
+    0.10508179753746823
+  ],
+  "reference_choice": 2,
+  "reference_kind": "additive",
+  "reference_alpha": 100.0,
+  "reference_sha256": "9249ffcde653e685710153b3b469dc7e0b1cfc964f2bc298e58b0850f8966e64",
+  "checkpoints": {
+    "aligned": {
+      "sha256": "473bb3c967513579aa3d68b06090ea38495a1ed87222f32d7bec5bbf89391b3d",
+      "best_step": 400
+    },
+    "shuffled": {
+      "sha256": "fd5b5447f9bf9fa029336e391155c583ab5efccf13893cdb3bed0763c59bd8da",
+      "best_step": 25
+    }
+  },
+  "exact_replays": {
+    "aligned": true,
+    "shuffled": true
+  },
+  "prediction_sha256": "fc3ff308e6adeb5310f394211f76836662d7254be950e55dcf5f7b436bf890ae"
+}

@@ -1,0 +1,39 @@
+{
+  "world": "additive",
+  "seed": 6103,
+  "noise": 0.1,
+  "input_sha256": "490e832bb79884fa8a60a873c382eb721e2dbe7a2d5b2cc5a1bf4978b472bf66",
+  "reference_grid_validation_mse": [
+    0.06570293805522294,
+    0.06535674755780074,
+    0.009110296706333157,
+    0.03831206051714521,
+    0.00878429836165655,
+    0.008786177970210784,
+    0.008809888612173297,
+    0.008977810919853557,
+    0.0065440526907852474,
+    0.006538469486703882,
+    0.006503627048645292,
+    0.0070473188637201626
+  ],
+  "reference_choice": 10,
+  "reference_kind": "node",
+  "reference_alpha": 100.0,
+  "reference_sha256": "760beda860c41f742f02e327a45b1d5e9ef4d7b52be8bd79ef1c9b93822692d5",
+  "checkpoints": {
+    "aligned": {
+      "sha256": "56ad4c5a6367c444c013e030d1ec877b2687686ca064ca5d7a4eb2683a7a899a",
+      "best_step": 25
+    },
+    "shuffled": {
+      "sha256": "a97d5ee355cfde4f1d72adeb1b73f5b0d1b462b9376fad420b2ce1d98cef3a8f",
+      "best_step": 25
+    }
+  },
+  "exact_replays": {
+    "aligned": true,
+    "shuffled": true
+  },
+  "prediction_sha256": "7f0dee4c3772805167b5e4307d4850e779c0e03d073688df9ad4c44fddbdf680"
+}

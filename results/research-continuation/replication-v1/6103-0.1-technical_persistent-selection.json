@@ -1,0 +1,39 @@
+{
+  "world": "technical_persistent",
+  "seed": 6103,
+  "noise": 0.1,
+  "input_sha256": "74e560f1b0339680626072ace49082e2bd55246d48b42c566ccffec3b579df46",
+  "reference_grid_validation_mse": [
+    0.16161579783281324,
+    0.16105055175037647,
+    0.0996560564032333,
+    0.13303723667883363,
+    0.09976317669501211,
+    0.0997610922642976,
+    0.09974338553681496,
+    0.09969539161256008,
+    0.09779337114139959,
+    0.09774291943952094,
+    0.09734183562962676,
+    0.09697735561177871
+  ],
+  "reference_choice": 11,
+  "reference_kind": "node",
+  "reference_alpha": 1000.0,
+  "reference_sha256": "7d4e387a9e62014c00130e837d490aaf2255bf9fe437f1fc4a6da2621ed475ad",
+  "checkpoints": {
+    "aligned": {
+      "sha256": "39a287ed4c03a8aec072852ca2e68b6969fbc86d310c1d57b6573f483cb33452",
+      "best_step": 75
+    },
+    "shuffled": {
+      "sha256": "8d6841cc814d9ad1188e35a99ce0d60b5edac433e698a2093811adec962fe3ee",
+      "best_step": 25
+    }
+  },
+  "exact_replays": {
+    "aligned": true,
+    "shuffled": true
+  },
+  "prediction_sha256": "8eec49f0f16fc2ad0ceaab64735c487b00be8359803053ef88d3479da3b8ae9a"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "opal-synthetic-replication-freeze-v1",
+  "created_utc": "2026-10-22T23:15:30.542003+00:00",
+  "code_and_protocol_sha256": {
+    "docs/research_reset/continuation/replication_protocol_v1.md": "74abf96253548cdc84bb601a2cf99ff690bdbdb314549d515d5b0bbfb1d703f8",
+    "src/block_completion.py": "e4b19ba22831d08dc9792d0c9c3792fdf29220bf4d1477665cfc86e86d8d0480",
+    "src/evaluation_contracts.py": "48ae48683ff70d92a20ad7d57cb44a57bb64e7f29abe2117e12187200183628a",
+    "src/models/fitness.py": "631881826d198ed785ee24d77e8d7b39e8dda8e2956308f6bbc95ae694d8958b"
+  },
+  "synthetic_only": true,
+  "biological_access": false,
+  "tool_binding": "after authoring, before execution",
+  "cells": 30,
+  "max_wall_seconds": 600,
+  "max_peak_bytes": 2147483648,
+  "max_artifact_bytes": 10485760
+}

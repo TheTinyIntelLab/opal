@@ -1,0 +1,39 @@
+{
+  "world": "technical_redrawn",
+  "seed": 6102,
+  "noise": 0.1,
+  "input_sha256": "ab04ad105aaceebbca069f00192aaf765ad8d30506ead56af70eb69460a1d80b",
+  "reference_grid_validation_mse": [
+    0.17417529968747208,
+    0.1644934927998323,
+    0.1043575149464055,
+    0.12380059533896483,
+    0.10268427232524074,
+    0.10268977224434703,
+    0.10275289898601504,
+    0.10331428807034178,
+    0.11362686409134819,
+    0.11341185556030592,
+    0.11161327087214563,
+    0.10568413351381611
+  ],
+  "reference_choice": 4,
+  "reference_kind": "calibration",
+  "reference_alpha": 1.0,
+  "reference_sha256": "2c78798dd7f388bc33ff52fa144a0cf62b885f3a04ffcc1be384807911bcd378",
+  "checkpoints": {
+    "aligned": {
+      "sha256": "f67a32966834af318385bc191e09843e2c8fd0d234d09498a52186ab1489fee5",
+      "best_step": 400
+    },
+    "shuffled": {
+      "sha256": "b7f831206994eea55aa442eddf946999efed83610e140e82f78582e9cd84145a",
+      "best_step": 25
+    }
+  },
+  "exact_replays": {
+    "aligned": true,
+    "shuffled": true
+  },
+  "prediction_sha256": "668625d3b95b5717bc46095be7d4113cd7a979a7850b3decc122481e5ffdaa78"
+}

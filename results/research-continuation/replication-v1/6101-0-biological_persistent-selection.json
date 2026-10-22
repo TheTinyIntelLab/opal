@@ -1,0 +1,39 @@
+{
+  "world": "biological_persistent",
+  "seed": 6101,
+  "noise": 0.0,
+  "input_sha256": "056b0675bbb1afcc2240ee22d5dc6c28260d52df39b399e673fb2ecee69d2398",
+  "reference_grid_validation_mse": [
+    0.16293869540232278,
+    0.16305466767765628,
+    0.08758382251848852,
+    0.12106215416729262,
+    0.08814988354765896,
+    0.08810814116657602,
+    0.0878477022803471,
+    0.08753220632009215,
+    0.09807815120355225,
+    0.09789122497937074,
+    0.09630511213557832,
+    0.09066518253722587
+  ],
+  "reference_choice": 7,
+  "reference_kind": "calibration",
+  "reference_alpha": 1000.0,
+  "reference_sha256": "745b8630965c2a67c11bba293534e78a70de9c9d131032488c10e1d7ea02c9b0",
+  "checkpoints": {
+    "aligned": {
+      "sha256": "10cbc9b7bc82706147f3998446fcc783deb276a711cb9fb919acbdbc4d272316",
+      "best_step": 400
+    },
+    "shuffled": {
+      "sha256": "4e3dd985777b75bc740f391e1e015eea4c1a7a22e1076a074d66714966af4053",
+      "best_step": 25
+    }
+  },
+  "exact_replays": {
+    "aligned": true,
+    "shuffled": true
+  },
+  "prediction_sha256": "31c4d0aa23cc50c0d1254d72e0541b6665d206f1d532383cd3ff63537be84a18"
+}

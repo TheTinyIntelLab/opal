@@ -1,0 +1,395 @@
+........................................................................ [  8%]
+........................................................................ [ 16%]
+...................F.................F.............................F.... [ 24%]
+......................F................................................. [ 32%]
+...............................................F........................ [ 40%]
+........................................................................ [ 48%]
+........................................................................ [ 56%]
+........................................................................ [ 64%]
+........................................................................ [ 72%]
+........................................................................ [ 80%]
+........................................................................ [ 88%]
+........................................................................ [ 96%]
+....................................                                     [100%]
+================================== FAILURES ===================================
+_____ test_one_fold_test_sentinels_leave_its_models_and_choices_unchanged _____
+
+campaign = namespace(args=namespace(block_run=WindowsPath('C:/Users/USER/Desktop/code/opal-continuation-tests-20261023/test_one_f..., 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0,
+       0, 0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2], dtype=int8)])
+
+    def test_one_fold_test_sentinels_leave_its_models_and_choices_unchanged(campaign):
+        c = campaign
+        qualify(c)
+        with threadpool_limits(limits=1):
+>           m.fit(c.out)
+
+tests\test_flexible_study.py:112: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tools\study_flexible_singles.py:122: in fit
+    guard.check()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <tools.study_block_completion.Guard object at 0x0000023569219480>
+
+    def check(self):
+        elapsed = time.monotonic()-self.started
+        info = psutil.Process().memory_info()
+        self.peak = max(self.peak, getattr(info, 'peak_wset', info.rss))
+        if (elapsed+self.consumed.get('wall_seconds', 0) > self.config['wall_seconds'] or
+                time.process_time()-self.cpu+self.consumed.get('cpu_seconds', 0) > self.config['wall_seconds']):
+            raise RuntimeError('Registered CPU/wall cap reached')
+        if self.peak > self.config['rss_bytes']:
+            raise RuntimeError('Registered process-memory cap reached')
+        if elapsed-self.last_disk >= 2:
+            self.last_disk = elapsed
+            if shutil.disk_usage(self.output).free < self.config['reserve_bytes']:
+>               raise RuntimeError('Registered writable-volume reserve reached')
+E               RuntimeError: Registered writable-volume reserve reached
+
+tools\study_block_completion.py:69: RuntimeError
+__________ test_strict_cli_replay_binds_hashes_and_refuses_overwrite __________
+
+tmp_path = WindowsPath('C:/Users/USER/Desktop/code/opal-continuation-tests-20261023/test_strict_cli_replay_binds_h0')
+
+    def test_strict_cli_replay_binds_hashes_and_refuses_overwrite(tmp_path):
+        state = dict(query=dict(singles=np.ones((4, 2, 20), dtype=np.float64), pair_ids=np.repeat('["A","B"]', 4)),
+                     model=dict(kind="reference", reference=dict(family="additive", alpha=1)))
+        checkpoint = save_state(tmp_path / "checkpoint", state)
+        predictions = tmp_path / "predictions.npz"
+        np.savez_compressed(predictions, prediction=predict_checkpoint(state))
+        code = ROOT / "src/frontier_bridge/workflow.py"
+        manifest_path = tmp_path / "run_manifest.json"
+        write_json(manifest_path, dict(code_hashes={str(code): sha256(code)},
+                                       predictions=dict(path=str(predictions), sha256=sha256(predictions)),
+                                       checkpoints=[dict(**checkpoint, prediction_key="prediction")]))
+        write_json(tmp_path / "prediction_freeze.json", dict(run_manifest_sha256=sha256(manifest_path)))
+        output = tmp_path / "replay"
+        command = [sys.executable, str(ROOT / "tools/run_frontier_bridge.py"), "--replay", str(manifest_path), "--output", str(output)]
+>       subprocess.run(command, check=True, capture_output=True)
+
+tests\test_frontier_bridge.py:256: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+input = None, capture_output = True, timeout = None, check = True
+popenargs = (['C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe', 'C:\\Users\\USER\\Desktop\\code...output', 'C:\\Users\\USER\\Desktop\\code\\opal-continuation-tests-20261023\\test_strict_cli_replay_binds_h0\\replay'],)
+kwargs = {'stderr': -1, 'stdout': -1}
+process = <Popen: returncode: 1 args: ['C:\\Users\\USER\\Desktop\\code\\thetinyintella...>
+stdout = b'', stderr = b'Writable-volume free-space reserve reached\r\n'
+retcode = 1
+
+    def run(*popenargs,
+            input=None, capture_output=False, timeout=None, check=False, **kwargs):
+        """Run command with arguments and return a CompletedProcess instance.
+    
+        The returned instance will have attributes args, returncode, stdout and
+        stderr. By default, stdout and stderr are not captured, and those attributes
+        will be None. Pass stdout=PIPE and/or stderr=PIPE in order to capture them,
+        or pass capture_output=True to capture both.
+    
+        If check is True and the exit code was non-zero, it raises a
+        CalledProcessError. The CalledProcessError object will have the return code
+        in the returncode attribute, and output & stderr attributes if those streams
+        were captured.
+    
+        If timeout (seconds) is given and the process takes too long,
+         a TimeoutExpired exception will be raised.
+    
+        There is an optional argument "input", allowing you to
+        pass bytes or a string to the subprocess's stdin.  If you use this argument
+        you may not also use the Popen constructor's "stdin" argument, as
+        it will be used internally.
+    
+        By default, all communication is in bytes, and therefore any "input" should
+        be bytes, and the stdout and stderr will be bytes. If in text mode, any
+        "input" should be a string, and stdout and stderr will be strings decoded
+        according to locale encoding, or by "encoding" if set. Text mode is
+        triggered by setting any of text, encoding, errors or universal_newlines.
+    
+        The other arguments are the same as for the Popen constructor.
+        """
+        if input is not None:
+            if kwargs.get('stdin') is not None:
+                raise ValueError('stdin and input arguments may not both be used.')
+            kwargs['stdin'] = PIPE
+    
+        if capture_output:
+            if kwargs.get('stdout') is not None or kwargs.get('stderr') is not None:
+                raise ValueError('stdout and stderr arguments may not be used '
+                                 'with capture_output.')
+            kwargs['stdout'] = PIPE
+            kwargs['stderr'] = PIPE
+    
+        with Popen(*popenargs, **kwargs) as process:
+            try:
+                stdout, stderr = process.communicate(input, timeout=timeout)
+            except TimeoutExpired as exc:
+                process.kill()
+                if _mswindows:
+                    # Windows accumulates the output in a single blocking
+                    # read() call run on child threads, with the timeout
+                    # being done in a join() on those threads.  communicate()
+                    # _after_ kill() is required to collect that and add it
+                    # to the exception.
+                    exc.stdout, exc.stderr = process.communicate()
+                else:
+                    # POSIX _communicate already populated the output so
+                    # far into the TimeoutExpired exception.
+                    process.wait()
+                raise
+            except:  # Including KeyboardInterrupt, communicate handled that.
+                process.kill()
+                # We don't call process.wait() as .__exit__ does that for us.
+                raise
+            retcode = process.poll()
+            if check and retcode:
+>               raise CalledProcessError(retcode, process.args,
+                                         output=stdout, stderr=stderr)
+E               subprocess.CalledProcessError: Command '['C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe', 'C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\run_frontier_bridge.py', '--replay', 'C:\\Users\\USER\\Desktop\\code\\opal-continuation-tests-20261023\\test_strict_cli_replay_binds_h0\\run_manifest.json', '--output', 'C:\\Users\\USER\\Desktop\\code\\opal-continuation-tests-20261023\\test_strict_cli_replay_binds_h0\\replay']' returned non-zero exit status 1.
+
+C:\Python314\Lib\subprocess.py:577: CalledProcessError
+____________ test_cli_template_is_not_ready_and_refuses_overwrite _____________
+
+tmp_path = WindowsPath('C:/Users/USER/Desktop/code/opal-continuation-tests-20261023/test_cli_template_is_not_ready0')
+
+    def test_cli_template_is_not_ready_and_refuses_overwrite(tmp_path):
+        root = Path(__file__).parents[1]
+        output = tmp_path / "template"
+        command = [sys.executable, str(root / "tools/check_frontier_readiness.py"), "--template", "--output", str(output)]
+>       subprocess.run(command, check=True, capture_output=True)
+
+tests\test_frontier_readiness.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+input = None, capture_output = True, timeout = None, check = True
+popenargs = (['C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe', 'C:\\Users\\USER\\Desktop\\code...tput', 'C:\\Users\\USER\\Desktop\\code\\opal-continuation-tests-20261023\\test_cli_template_is_not_ready0\\template'],)
+kwargs = {'stderr': -1, 'stdout': -1}
+process = <Popen: returncode: 1 args: ['C:\\Users\\USER\\Desktop\\code\\thetinyintella...>
+stdout = b''
+stderr = b'Traceback (most recent call last):\r\n  File "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\check_fr...pace reserve reached")\r\nopal.frontier_bridge.contracts.ContractError: Writable-volume free-space reserve reached\r\n'
+retcode = 1
+
+    def run(*popenargs,
+            input=None, capture_output=False, timeout=None, check=False, **kwargs):
+        """Run command with arguments and return a CompletedProcess instance.
+    
+        The returned instance will have attributes args, returncode, stdout and
+        stderr. By default, stdout and stderr are not captured, and those attributes
+        will be None. Pass stdout=PIPE and/or stderr=PIPE in order to capture them,
+        or pass capture_output=True to capture both.
+    
+        If check is True and the exit code was non-zero, it raises a
+        CalledProcessError. The CalledProcessError object will have the return code
+        in the returncode attribute, and output & stderr attributes if those streams
+        were captured.
+    
+        If timeout (seconds) is given and the process takes too long,
+         a TimeoutExpired exception will be raised.
+    
+        There is an optional argument "input", allowing you to
+        pass bytes or a string to the subprocess's stdin.  If you use this argument
+        you may not also use the Popen constructor's "stdin" argument, as
+        it will be used internally.
+    
+        By default, all communication is in bytes, and therefore any "input" should
+        be bytes, and the stdout and stderr will be bytes. If in text mode, any
+        "input" should be a string, and stdout and stderr will be strings decoded
+        according to locale encoding, or by "encoding" if set. Text mode is
+        triggered by setting any of text, encoding, errors or universal_newlines.
+    
+        The other arguments are the same as for the Popen constructor.
+        """
+        if input is not None:
+            if kwargs.get('stdin') is not None:
+                raise ValueError('stdin and input arguments may not both be used.')
+            kwargs['stdin'] = PIPE
+    
+        if capture_output:
+            if kwargs.get('stdout') is not None or kwargs.get('stderr') is not None:
+                raise ValueError('stdout and stderr arguments may not be used '
+                                 'with capture_output.')
+            kwargs['stdout'] = PIPE
+            kwargs['stderr'] = PIPE
+    
+        with Popen(*popenargs, **kwargs) as process:
+            try:
+                stdout, stderr = process.communicate(input, timeout=timeout)
+            except TimeoutExpired as exc:
+                process.kill()
+                if _mswindows:
+                    # Windows accumulates the output in a single blocking
+                    # read() call run on child threads, with the timeout
+                    # being done in a join() on those threads.  communicate()
+                    # _after_ kill() is required to collect that and add it
+                    # to the exception.
+                    exc.stdout, exc.stderr = process.communicate()
+                else:
+                    # POSIX _communicate already populated the output so
+                    # far into the TimeoutExpired exception.
+                    process.wait()
+                raise
+            except:  # Including KeyboardInterrupt, communicate handled that.
+                process.kill()
+                # We don't call process.wait() as .__exit__ does that for us.
+                raise
+            retcode = process.poll()
+            if check and retcode:
+>               raise CalledProcessError(retcode, process.args,
+                                         output=stdout, stderr=stderr)
+E               subprocess.CalledProcessError: Command '['C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe', 'C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\check_frontier_readiness.py', '--template', '--output', 'C:\\Users\\USER\\Desktop\\code\\opal-continuation-tests-20261023\\test_cli_template_is_not_ready0\\template']' returned non-zero exit status 1.
+
+C:\Python314\Lib\subprocess.py:577: CalledProcessError
+___ test_limits_cannot_silently_raise_old_envelope_and_reserve_is_effective ___
+
+tmp_path = WindowsPath('C:/Users/USER/Desktop/code/opal-continuation-tests-20261023/test_limits_cannot_silently_ra0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000002356AC06E40>
+
+    def test_limits_cannot_silently_raise_old_envelope_and_reserve_is_effective(tmp_path, monkeypatch):
+        cfg = limits()
+        for key in ('cpu_seconds', 'ram_bytes', 'retained_bytes', 'wall_seconds'):
+            changed = copy.deepcopy(cfg)
+            changed[key] += 1
+            with pytest.raises(ValueError):
+                validate_limits(changed)
+        clock = [0.]
+        monkeypatch.setattr('opal.gxe_streaming.time.process_time', lambda: clock[0])
+        guard = RuntimeGuard(tmp_path, cfg)
+>       guard.check(phase='fixture')
+
+tests\test_gxe_streaming.py:55: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <opal.gxe_streaming.RuntimeGuard object at 0x000002356905BA10>
+progress = {'phase': 'fixture'}, cpu = 0.0, wall = 2.3999979021027684e-05
+memory = pmem(rss=487538688, vms=2079002624, num_page_faults=4826653, peak_wset=488783872, wset=487538688, peak_paged_pool=1131...3352, peak_nonpaged_pool=99896, nonpaged_pool=97352, pagefile=2079002624, peak_pagefile=2111602688, private=2079002624)
+os_peak = 488783872, size = 0
+
+    def check(self, **progress):
+        self.progress.update(progress)
+        cpu, wall = time.process_time()-self.start, time.monotonic()-self.wall
+        memory = self.process.memory_info()
+        self.peak_sampled = max(self.peak_sampled, memory.rss)
+        os_peak = getattr(memory, 'peak_wset', 0)
+        self.os_peak_available |= bool(os_peak)
+        self.peak_os = max(self.peak_os, os_peak)
+        size = sum(p.stat().st_size for p in self.output.rglob('*') if p.is_file())
+        if wall-self.last_report >= 5:
+            write_json(self.output/'progress.json', dict(self.progress, cpu_seconds=cpu, wall_seconds=wall,
+                peak_sampled_rss_bytes=self.peak_sampled, partial_state_resumable=False))
+            print(json.dumps(dict(self.progress, cpu_seconds=round(cpu, 3))), flush=True)
+            self.last_report = wall
+        if cpu >= self.config['cpu_seconds']-self.finalization_reserve or wall >= self.config['wall_seconds']-5:
+            raise RuntimeError('Recovery CPU/wall stop with finalization reserve')
+        if max(self.peak_sampled, self.peak_os) > self.config['ram_bytes'] or self.process.children(recursive=True):
+            raise RuntimeError('Recovery memory/process stop')
+        if size > self.config['retained_bytes']-100000 or shutil.disk_usage(self.output).free < self.config['reserve_bytes']:
+>           raise RuntimeError('Recovery output/failure/volume reserve stop')
+E           RuntimeError: Recovery output/failure/volume reserve stop
+
+src\gxe_streaming.py:72: RuntimeError
+---------------------------- Captured stdout call -----------------------------
+{"phase": "fixture", "coordinate_entries": 0, "selected_coordinate_entries": 0, "cpu_seconds": 0.0}
+___________ test_full_synthetic_lifecycle_with_mock_native_training ___________
+
+tmp_path = WindowsPath('C:/Users/USER/Desktop/code/opal-continuation-tests-20261023/test_full_synthetic_lifecycle_0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000002356E6B09F0>
+
+    def test_full_synthetic_lifecycle_with_mock_native_training(tmp_path, monkeypatch):
+        # Native architecture training is separately tested against the real pinned
+        # source. Here a small numerical stand-in tests runner ordering and custody.
+        monkeypatch.setattr(m, 'TASKS', ('toy',))
+        monkeypatch.setattr(m, 'load_official', lambda source: None)
+        monkeypatch.setattr(m, 'dependencies', lambda: {'synthetic-native': 'test'})
+        monkeypatch.setattr(m.block, 'signature', lambda: {})
+        screen, splits = synthetic()
+        block_run, output = tmp_path/'block', tmp_path/'native'
+        block_run.mkdir()
+        np.savez(block_run/'assignments.npz', **{f'toy__{i}': split for i, split in enumerate(splits)})
+        bp = dict(code={}, files={}, original='unused', prepared='unused',
+                  panels={'toy': {'folds': [dict(eligible=True) for _ in range(5)]}})
+        m.write_json(block_run/'protocol.json', bp)
+        monkeypatch.setattr(m.block, 'preconditions', lambda path: bp)
+        monkeypatch.setattr(m, 'load_screen_roster', lambda *args: {'toy': screen})
+        monkeypatch.setattr(m, 'block_assignments', lambda s: splits)
+        m.freeze(SimpleNamespace(output=output, block_run=block_run, source=tmp_path))
+        assert not (output/'selection.json').exists()
+        protocol = m.read_json(output/'protocol.json')
+        m.write_json(output/'prefit_tests.json', dict(code=m.signature(), dependencies=m.dependencies(), returncode=0,
+            protocol_sha256=m.sha256(output/'protocol.json'), started_utc=m.now()))
+        with pytest.raises(FileNotFoundError):
+            m.fit(output)  # A complete Q2 comparison must already exist.
+        m.write_json(block_run/'selection.json', {'frozen': True})
+        m.write_json(block_run/'prefit_tests.json', {'passed': True})
+        ids = np.arange(5)
+        np.savez(block_run/'toy_predictions.npz', **q2_arrays(screen, ids))
+        m.write_json(block_run/'results.json', dict(protocol_sha256=m.sha256(block_run/'protocol.json'),
+            selection_sha256=m.sha256(block_run/'selection.json'), tasks={'toy': {}},
+            prediction_hashes={'toy': m.sha256(block_run/'toy_predictions.npz')}))
+        calls = []
+        class MockNative:
+            def __init__(self, split):
+                self.fit_rows = {key: np.flatnonzero(split == label).tolist() for key, label in [('train', 0), ('val', 1)]}
+                self.best_epoch, self.parameter_count = 1, 1
+                self.model_args, self.training_metrics = {'model_type': 'both'}, {'train_loss': [.1], 'val_loss': [.1]}
+            def predict(self, pairs):
+                return pairs.sum(1)/10+.05
+            def save(self, dest):
+                dest.mkdir(parents=True)
+                m.write_json(dest/'metadata.json', dict(fit_rows=self.fit_rows))
+                np.savez(dest/'state.npz', state=np.array([1.]))
+        def fit_native(source, genes, pairs, singles, targets, split, config, check):
+            assert config.epochs == 100
+            assert np.isnan(targets[split == 2]).all() and np.isfinite(targets[split != 2]).all()
+            assert not (output/'results.json').exists()
+            calls.append(1)
+            check()
+            return MockNative(split)
+        def load(source, dest):
+            rows = m.read_json(dest/'metadata.json')['fit_rows']
+            split = np.full(len(screen['pairs']), 2)
+            for key, label in [('train', 0), ('val', 1)]:
+                split[rows[key]] = label
+            return MockNative(split)
+        monkeypatch.setattr(m, 'fit_native', fit_native)
+        monkeypatch.setattr(m.NativeNAIAD, 'load', load)
+>       m.fit(output)
+
+tests\test_native_block_study.py:125: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tools\study_native_blocks.py:144: in fit
+    guard.check()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <tools.study_block_completion.Guard object at 0x00000235691FE550>
+
+    def check(self):
+        elapsed = time.monotonic()-self.started
+        info = psutil.Process().memory_info()
+        self.peak = max(self.peak, getattr(info, 'peak_wset', info.rss))
+        if (elapsed+self.consumed.get('wall_seconds', 0) > self.config['wall_seconds'] or
+                time.process_time()-self.cpu+self.consumed.get('cpu_seconds', 0) > self.config['wall_seconds']):
+            raise RuntimeError('Registered CPU/wall cap reached')
+        if self.peak > self.config['rss_bytes']:
+            raise RuntimeError('Registered process-memory cap reached')
+        if elapsed-self.last_disk >= 2:
+            self.last_disk = elapsed
+            if shutil.disk_usage(self.output).free < self.config['reserve_bytes']:
+>               raise RuntimeError('Registered writable-volume reserve reached')
+E               RuntimeError: Registered writable-volume reserve reached
+
+tools\study_block_completion.py:69: RuntimeError
+============================== warnings summary ===============================
+tests/test_naiad_reference.py::test_native_no_resplit_test_sentinels_replay_and_numerical_serialization
+tests/test_naiad_reference.py::test_native_no_resplit_test_sentinels_replay_and_numerical_serialization
+tests/test_naiad_reference.py::test_native_batch_guard_interrupts
+tests/test_naiad_reference.py::test_native_unqueried_missing_single_stays_missing_and_is_not_an_input
+  C:\Users\USER\Desktop\opal-research-next-20261020\NAIAD\naiad\utils.py:230: UserWarning: warmup_steps is not an int. Coercing into an int now...
+    warnings.warn('warmup_steps is not an int. Coercing into an int now...', UserWarning)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_flexible_study.py::test_one_fold_test_sentinels_leave_its_models_and_choices_unchanged
+FAILED tests/test_frontier_bridge.py::test_strict_cli_replay_binds_hashes_and_refuses_overwrite
+FAILED tests/test_frontier_readiness.py::test_cli_template_is_not_ready_and_refuses_overwrite
+FAILED tests/test_gxe_streaming.py::test_limits_cannot_silently_raise_old_envelope_and_reserve_is_effective
+FAILED tests/test_native_block_study.py::test_full_synthetic_lifecycle_with_mock_native_training
+5 failed, 895 passed, 4 warnings in 82.02s (0:01:22)

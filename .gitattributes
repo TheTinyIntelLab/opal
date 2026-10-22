@@ -182,3 +182,9 @@ tools/wave5*.py -text whitespace=cr-at-eol
 tests/test_wave5*.py -text whitespace=cr-at-eol
 src/evaluation_contracts.py -text whitespace=cr-at-eol
 src/flexible_prediction.py -text whitespace=cr-at-eol
+
+# Continuation registrations and receipts retain their frozen byte hashes.
+docs/research_reset/continuation/** -text whitespace=cr-at-eol
+results/research-continuation/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+tools/continuation_*.py -text whitespace=cr-at-eol
+tools/verify_continuation_*.py -text whitespace=cr-at-eol
