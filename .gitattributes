@@ -167,3 +167,10 @@ tools/wave3*.py -text whitespace=cr-at-eol
 tests/test_wave3*.py -text whitespace=cr-at-eol
 docs/research_reset/wave3*protocol*.md -text whitespace=cr-at-eol
 results/research-wave3-*/** -text whitespace=-blank-at-eof,-blank-at-eol,cr-at-eol
+
+# Wave-four frozen proposals, custody records and diagnostics bind local bytes.
+docs/research_reset/wave4/** -text whitespace=cr-at-eol
+results/research-wave4/** -text whitespace=cr-at-eol
+tools/wave4*.py -text whitespace=cr-at-eol
+tools/validate_wave4_delivery.py -text whitespace=cr-at-eol
+tests/test_wave4*.py -text whitespace=cr-at-eol
