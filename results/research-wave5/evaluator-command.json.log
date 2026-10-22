@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\wave5_evaluator_experiments.py", line 247, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\wave5_evaluator_experiments.py", line 232, in main
+    if hashes != {name:digest(ROOT/name) for name in names}:
+                       ~~~~~~^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\wave5_evaluator_experiments.py", line 21, in digest
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+                          ~~~~^^^^^^
+  File "C:\Python314\Lib\pathlib\__init__.py", line 150, in __init__
+    raise TypeError(
+    ...<2 lines>...
+        f"not {type(path).__name__!r}")
+TypeError: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'ndarray'

@@ -1,0 +1,20 @@
+﻿{
+    "started_utc":  "2026-10-22T19:32:42.2646708Z",
+    "freeze_sha256":  "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea",
+    "authorization_sha256":  "6b4c05f6090ea55b15f75584b4feffa41181e0a2b4a05071d85faa8bd4b615e2",
+    "bound_files_verified":  20,
+    "urls":  [
+                 "https://pmc.ncbi.nlm.nih.gov/articles/PMC5449203/",
+                 "https://www.nature.com/articles/nmeth.4225",
+                 "https://pmc.ncbi.nlm.nih.gov/about/copyright/"
+             ],
+    "method":  "GET",
+    "automatic_redirects":  false,
+    "timeout_seconds":  30,
+    "request_cap":  8,
+    "active_seconds_cap":  900,
+    "retained_bytes_cap":  20971520,
+    "source_response_access":  false,
+    "source_response_header_access":  false,
+    "notes":  "Primary article and rights text only. Never follow supplement links. HTTP transport status is not a reserved response table header."
+}

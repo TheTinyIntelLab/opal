@@ -1,0 +1,19 @@
+{
+  "worker": "B",
+  "freeze_sha256": "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea",
+  "authorization_verified_before_requests": true,
+  "request_count": 2,
+  "cap": 8,
+  "requests": [
+    {"sequence": 1, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12018271/", "tool": "web.run open", "result": "Checking your browser - reCAPTCHA; three lines, no article content", "retry": false, "source_asset": false, "response_header_access": false},
+    {"sequence": 2, "url": "https://www.nature.com/articles/s41586-025-08815-4", "tool": "web.run open", "result": "Failed to fetch: (500) Redirected to https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https://www.nature.com/articles/s41586-025-08815-4 which is not accessible via this tool. (non-retryable error)", "retry": false, "source_asset": false, "response_header_access": false}
+  ],
+  "new_spidr_documentary_evidence": false,
+  "raw_page_hashes": null,
+  "raw_page_bytes": null,
+  "limits": "web tool does not expose per-request timeout setting, exact timestamp, raw body or transfer measurements; two calls completed within tool wall times 4.5 and 3.1 seconds which also include local work",
+  "redirect_note": "Nature tool reported an identity-provider redirect error; no manual follow, download link, supplement link, response asset, HEAD or range request was issued",
+  "failure_policy": "Both routes stopped after first failure; no retry or search expansion",
+  "source_response_access": false,
+  "source_response_header_access": false
+}

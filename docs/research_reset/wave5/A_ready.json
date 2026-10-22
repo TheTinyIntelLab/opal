@@ -1,0 +1,18 @@
+{
+  "worker": "A",
+  "phase": "revised_ready_for_root_freeze",
+  "child_taskId": "node:delegated-task:command%3Amcp%3Ac047cd2e-dbbf-47d9-b073-18b92f274326%3Adelegate-task%3Awave5-A-C-20261023",
+  "child_brief": "C independent adversarial numerical reviewer; independent C_initial before A plan; critique both reproductions, arithmetic, conditioning and legacy/prospective distinction; own frozen synthetic C1-C5 and final review; no further delegation",
+  "child_provider": "codex",
+  "child_model": "gpt-6.1-sol",
+  "child_options": {"reasoningEffort": "medium", "serviceTier": "default"},
+  "files": ["docs/research_reset/wave5/A_initial.md", "docs/research_reset/wave5/A_revised.md", "docs/research_reset/wave5/C_initial.md", "docs/research_reset/wave5/C_critique.md"],
+  "planned_command": ".venv/Scripts/python.exe tools/wave5_numerical_matrix.py --freeze results/research-wave5/freeze.json --authorization docs/research_reset/wave5/EXECUTION_AUTHORIZED.json --output results/research-wave5/numerical-source",
+  "planned_test": ".venv/Scripts/python.exe -m pytest -q tests/test_wave5_numerical_matrix.py",
+  "planned_C_mode": "root resolved C-owned tools/wave5_counterexamples.py; C owns authoring, execution receipt and review",
+  "resources": {"max_processes": 1, "threads": [1, 2], "peak_bytes": 2147483648, "wall_seconds_per_diagnostic": 120, "cpu_seconds_per_diagnostic": 120, "suite_seconds": 1200, "output_bytes": 104857600, "reserve_bytes": 1073741824},
+  "requires": ["root freeze.json", "root EXECUTION_AUTHORIZED.json", "root numerical slot", "postfreeze authored code/test hash binding", "root install-ready signal for installed runs"],
+  "experimental_code_authored": false,
+  "experiments_started": false,
+  "implementation_authorized": false
+}

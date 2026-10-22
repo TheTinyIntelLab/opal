@@ -1,0 +1,35 @@
+{
+  "authorization_sha256": "6b4c05f6090ea55b15f75584b4feffa41181e0a2b4a05071d85faa8bd4b615e2",
+  "commands": [
+    [
+      ".venv/Scripts/python.exe",
+      "-m",
+      "pytest",
+      "tests/test_wave5_source_contract.py",
+      "tests/test_wave4_source_contract.py",
+      "-q"
+    ],
+    [
+      ".venv/Scripts/python.exe",
+      "tools/wave5_source_contract.py",
+      "--output",
+      "results/research-wave5/source-contract.json"
+    ]
+  ],
+  "created_utc": "2026-10-22T19:35:23.329630+00:00",
+  "files": {
+    "docs/research_reset/wave3_source_decision.md": "9f1978cd630a8acfd3ddfa2bcd4e106b52fce5feebbaba5408740d63416427fd",
+    "docs/research_reset/wave3_spidr_results.md": "7c2207500ea6476c77fb1fb1d3e2a54ed1d9e2090fab0afe405686bee6be3ffb",
+    "docs/research_reset/wave4/B_results.md": "d17c115697c39174457a500c93c30195eb258bf4fa6a90d794c5ea23e07b8f85",
+    "docs/research_reset/wave5/B_revised.md": "58cc6d2a46dd7d01f520938eb8ebf307237cfa70ef050dcdbb832d36074fae9e",
+    "tests/test_wave4_source_contract.py": "88a1e1552479c7ae82af9a7683344af5a064a35ddf260d3fa642b69c4f754780",
+    "tests/test_wave5_source_contract.py": "3ce276d7584f68602e872e34c6ee1b999bf3a72d97c0abd8db7c87997c23e3a7",
+    "tools/wave4_source_contract.py": "0cbc500a4d6723bd20f05dee6dbc5e99694e585818bf89669682a0d71529ec57",
+    "tools/wave5_source_contract.py": "8b1ab94ea407761575ed42b51909ddcbdcc95cae8513f9c1056a28af9686fdc1"
+  },
+  "freeze_sha256": "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea",
+  "production_implementation": false,
+  "response_access": false,
+  "response_header_access": false,
+  "schema": "wave5-B-experiment-binding-v1"
+}

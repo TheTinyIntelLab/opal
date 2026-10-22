@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\wave5_numerical_matrix.py", line 550, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\wave5_numerical_matrix.py", line 477, in main
+    controller(args)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\wave5_numerical_matrix.py", line 389, in controller
+    raise RuntimeError('Disk reserve')
+RuntimeError: Disk reserve

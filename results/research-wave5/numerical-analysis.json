@@ -1,0 +1,323 @@
+{
+  "schema": "opal-wave5-root-numerical-synthesis-v1",
+  "input_archive_sha256": "b4412939e27a1c449ad675cb56b1477a5035d71f3d10027766f3883887ed58ca",
+  "histories": {
+    "v1": {
+      "status": "reproduced",
+      "max_abs": 1.2463305998355878e-08,
+      "first_stage": "whitened",
+      "state_max": {
+        "center": 5.308583649942867e-16,
+        "scale": 4.5102810375396984e-17,
+        "coefficient": 2.537461466205898e-09
+      },
+      "map_only": 1.2451993880446821e-08,
+      "state_only": 1.6299223082327785e-09,
+      "signed_reconstruction_residual": -4.867096478984655e-17
+    },
+    "v2": {
+      "status": "reproduced",
+      "max_abs": 1.245199382493567e-08,
+      "first_stage": "whitened",
+      "state_max": {
+        "center": 0.0,
+        "scale": 0.0,
+        "coefficient": 0.0
+      },
+      "map_only": 1.2451993880446821e-08,
+      "state_only": 0.0,
+      "signed_reconstruction_residual": -4.867096478984655e-17
+    }
+  },
+  "candidates": [
+    {
+      "configuration": "ascending_dot-float64-t1-r1.json",
+      "legacy_max_abs": 4.440892098500626e-16,
+      "first_unequal_stage": "dot",
+      "max_self_abs": 5.103748923485085e-08,
+      "self_exact": false,
+      "self_atol": false,
+      "legacy_atol": true,
+      "resources": {
+        "wall_seconds": 3.168627299979562,
+        "cpu_seconds": 3.171875,
+        "os_peak_working_set_bytes": 561946624
+      },
+      "reference_digest_identity": null
+    },
+    {
+      "configuration": "ascending_joint-float64-t1-r1.json",
+      "legacy_max_abs": 4.660858310412408e-08,
+      "first_unequal_stage": "whitened",
+      "max_self_abs": 0.0,
+      "self_exact": true,
+      "self_atol": true,
+      "legacy_atol": false,
+      "resources": {
+        "wall_seconds": 7.94970659998944,
+        "cpu_seconds": 7.9375,
+        "os_peak_working_set_bytes": 562724864
+      },
+      "reference_digest_identity": null
+    },
+    {
+      "configuration": "ascending_white-float64-t1-r1.json",
+      "legacy_max_abs": 4.660858310412408e-08,
+      "first_unequal_stage": "whitened",
+      "max_self_abs": 4.440892098500626e-16,
+      "self_exact": false,
+      "self_atol": true,
+      "legacy_atol": false,
+      "resources": {
+        "wall_seconds": 7.693049699999392,
+        "cpu_seconds": 7.625,
+        "os_peak_working_set_bytes": 562806784
+      },
+      "reference_digest_identity": null
+    },
+    {
+      "configuration": "einsum_false_dot-float64-t1-r1.json",
+      "legacy_max_abs": 4.440892098500626e-16,
+      "first_unequal_stage": "dot",
+      "max_self_abs": 5.103748923485085e-08,
+      "self_exact": false,
+      "self_atol": false,
+      "legacy_atol": true,
+      "resources": {
+        "wall_seconds": 2.454863499995554,
+        "cpu_seconds": 2.46875,
+        "os_peak_working_set_bytes": 561999872
+      },
+      "reference_digest_identity": null
+    },
+    {
+      "configuration": "einsum_false_joint-float64-t1-r1.json",
+      "legacy_max_abs": 4.660858310412408e-08,
+      "first_unequal_stage": "whitened",
+      "max_self_abs": 4.440892098500626e-16,
+      "self_exact": false,
+      "self_atol": true,
+      "legacy_atol": false,
+      "resources": {
+        "wall_seconds": 2.5393846000079066,
+        "cpu_seconds": 2.53125,
+        "os_peak_working_set_bytes": 561078272
+      },
+      "reference_digest_identity": null
+    },
+    {
+      "configuration": "einsum_false_white-float64-t1-r1.json",
+      "legacy_max_abs": 4.660858310412408e-08,
+      "first_unequal_stage": "whitened",
+      "max_self_abs": 4.440892098500626e-16,
+      "self_exact": false,
+      "self_atol": true,
+      "legacy_atol": false,
+      "resources": {
+        "wall_seconds": 2.585101799981203,
+        "cpu_seconds": 2.578125,
+        "os_peak_working_set_bytes": 561233920
+      },
+      "reference_digest_identity": null
+    },
+    {
+      "configuration": "einsum_true_dot-float64-t1-r1.json",
+      "legacy_max_abs": 0.0,
+      "first_unequal_stage": null,
+      "max_self_abs": 5.103748923485085e-08,
+      "self_exact": false,
+      "self_atol": false,
+      "legacy_atol": true,
+      "resources": {
+        "wall_seconds": 3.000916499993764,
+        "cpu_seconds": 2.984375,
+        "os_peak_working_set_bytes": 561074176
+      },
+      "reference_digest_identity": null
+    },
+    {
+      "configuration": "einsum_true_joint-float64-t1-r1.json",
+      "legacy_max_abs": 1.245199382493567e-08,
+      "first_unequal_stage": "whitened",
+      "max_self_abs": 5.103748923485085e-08,
+      "self_exact": false,
+      "self_atol": false,
+      "legacy_atol": false,
+      "resources": {
+        "wall_seconds": 3.241194300004281,
+        "cpu_seconds": 3.21875,
+        "os_peak_working_set_bytes": 562417664
+      },
+      "reference_digest_identity": null
+    },
+    {
+      "configuration": "einsum_true_white-float64-t1-r1.json",
+      "legacy_max_abs": 1.245199382493567e-08,
+      "first_unequal_stage": "whitened",
+      "max_self_abs": 5.103748923485085e-08,
+      "self_exact": false,
+      "self_atol": false,
+      "legacy_atol": false,
+      "resources": {
+        "wall_seconds": 2.738790599978529,
+        "cpu_seconds": 2.734375,
+        "os_peak_working_set_bytes": 561278976
+      },
+      "reference_digest_identity": null
+    },
+    {
+      "configuration": "legacy-float32-t1-r1.json",
+      "legacy_max_abs": 32.77243791527193,
+      "first_unequal_stage": "ordered",
+      "max_self_abs": 30.22039031982422,
+      "self_exact": false,
+      "self_atol": false,
+      "legacy_atol": false,
+      "resources": {
+        "wall_seconds": 1.2125400000077207,
+        "cpu_seconds": 1.1875,
+        "os_peak_working_set_bytes": 481656832
+      },
+      "reference_digest_identity": null
+    },
+    {
+      "configuration": "legacy-float64-t1-r1.json",
+      "legacy_max_abs": 0.0,
+      "first_unequal_stage": null,
+      "max_self_abs": 5.103748923485085e-08,
+      "self_exact": false,
+      "self_atol": false,
+      "legacy_atol": true,
+      "resources": {
+        "wall_seconds": 2.384860200021649,
+        "cpu_seconds": 2.375,
+        "os_peak_working_set_bytes": 561602560
+      },
+      "reference_digest_identity": true
+    },
+    {
+      "configuration": "legacy-float64-t1-r2.json",
+      "legacy_max_abs": 0.0,
+      "first_unequal_stage": null,
+      "max_self_abs": 5.103748923485085e-08,
+      "self_exact": false,
+      "self_atol": false,
+      "legacy_atol": true,
+      "resources": {
+        "wall_seconds": 2.4424438000132795,
+        "cpu_seconds": 2.4375,
+        "os_peak_working_set_bytes": 561807360
+      },
+      "reference_digest_identity": true
+    },
+    {
+      "configuration": "legacy-float64-t1-r3.json",
+      "legacy_max_abs": 0.0,
+      "first_unequal_stage": null,
+      "max_self_abs": 5.103748923485085e-08,
+      "self_exact": false,
+      "self_atol": false,
+      "legacy_atol": true,
+      "resources": {
+        "wall_seconds": 2.4482150000112597,
+        "cpu_seconds": 2.453125,
+        "os_peak_working_set_bytes": 561303552
+      },
+      "reference_digest_identity": true
+    },
+    {
+      "configuration": "legacy-float64-t2-r2.json",
+      "legacy_max_abs": 0.0,
+      "first_unequal_stage": null,
+      "max_self_abs": 3.486650296258276e-08,
+      "self_exact": false,
+      "self_atol": false,
+      "legacy_atol": true,
+      "resources": {
+        "wall_seconds": 0.776527600013651,
+        "cpu_seconds": 0.78125,
+        "os_peak_working_set_bytes": 563052544
+      },
+      "reference_digest_identity": false
+    },
+    {
+      "configuration": "legacy-float64-t2-r3.json",
+      "legacy_max_abs": 0.0,
+      "first_unequal_stage": null,
+      "max_self_abs": 3.486650296258276e-08,
+      "self_exact": false,
+      "self_atol": false,
+      "legacy_atol": true,
+      "resources": {
+        "wall_seconds": 0.7815043999871705,
+        "cpu_seconds": 0.8125,
+        "os_peak_working_set_bytes": 562225152
+      },
+      "reference_digest_identity": false
+    },
+    {
+      "configuration": "legacy-longdouble-t1-r1.json",
+      "legacy_max_abs": 4.660858310412408e-08,
+      "first_unequal_stage": "whitened",
+      "max_self_abs": 0.0,
+      "self_exact": true,
+      "self_atol": true,
+      "legacy_atol": false,
+      "resources": {
+        "wall_seconds": 1.416588199994294,
+        "cpu_seconds": 1.421875,
+        "os_peak_working_set_bytes": 561328128
+      },
+      "reference_digest_identity": null
+    },
+    {
+      "configuration": "matmul_dot-float64-t1-r1.json",
+      "legacy_max_abs": 0.0,
+      "first_unequal_stage": null,
+      "max_self_abs": 5.103748923485085e-08,
+      "self_exact": false,
+      "self_atol": false,
+      "legacy_atol": true,
+      "resources": {
+        "wall_seconds": 2.396182999975281,
+        "cpu_seconds": 2.40625,
+        "os_peak_working_set_bytes": 562167808
+      },
+      "reference_digest_identity": null
+    },
+    {
+      "configuration": "matmul_joint-float64-t1-r1.json",
+      "legacy_max_abs": 0.0,
+      "first_unequal_stage": null,
+      "max_self_abs": 5.103748923485085e-08,
+      "self_exact": false,
+      "self_atol": false,
+      "legacy_atol": true,
+      "resources": {
+        "wall_seconds": 2.418674899992766,
+        "cpu_seconds": 2.40625,
+        "os_peak_working_set_bytes": 562319360
+      },
+      "reference_digest_identity": null
+    },
+    {
+      "configuration": "matmul_white-float64-t1-r1.json",
+      "legacy_max_abs": 0.0,
+      "first_unequal_stage": null,
+      "max_self_abs": 5.103748923485085e-08,
+      "self_exact": false,
+      "self_atol": false,
+      "legacy_atol": true,
+      "resources": {
+        "wall_seconds": 2.45800759998383,
+        "cpu_seconds": 2.453125,
+        "os_peak_working_set_bytes": 561713152
+      },
+      "reference_digest_identity": null
+    }
+  ],
+  "thread_target_caveat": "Tool reconstructed reference inside selected thread pool. Both thread2 canonical legacy output digests equal one-thread history target; compatibility max0 establishes exact reference identity transitively for these runs, without asserting universal thread invariance.",
+  "no_candidate_passes_both": true,
+  "root_execution_of_C": true,
+  "independent_C_final_review": false
+}

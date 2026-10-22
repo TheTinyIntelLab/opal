@@ -1,0 +1,27 @@
+{
+  "command": [
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/.venv/Scripts/python.exe",
+    "tools/wave5_evaluator_experiments_v2.py",
+    "--output",
+    "results/research-wave5/evaluator-experiments-v2.json"
+  ],
+  "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+  "pythonpath": null,
+  "started_utc": "2026-10-22T22:31:07.730910+00:00",
+  "bound_sha256": {
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\wave5_run_check.py": "57a2173eda688cd58f30be5cdbd24487f26c324e1bf0b0d2304c26c23ee2d30b",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\research-wave5\\freeze.json": "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\wave5_evaluator_experiments_v2.py": "2e14066b2c5f70085f6b24675264846129c080e3327f292de7ddc5c25d5dbf33",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\docs\\research_reset\\wave5\\root_evaluator_amendment.md": "946ec90d90f07a96ff300e174e92e9763663decd13740cc5aa95588fa5efb8c9",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\src\\scalar_screen.py": "43f7e9d80d818a93d1ab9680e04d1e80499b7385c19b002cf4ea62d340eca724",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\src\\block_completion.py": "e4b19ba22831d08dc9792d0c9c3792fdf29220bf4d1477665cfc86e86d8d0480",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\wave3_evaluator_v3.py": "bc92d2cec437b908ebb0ed2cad2b9af139a506977c343c9f951487d0b858bf71"
+  },
+  "caps": {
+    "timeout_seconds": 1200.0,
+    "peak_bytes": 2147483648
+  },
+  "sampling_seconds": 0.05,
+  "timeout_enforcement": "sampled external watchdog; kills process tree",
+  "cpu_measurement": "sampled sum across live process tree; may miss process-exit tail"
+}

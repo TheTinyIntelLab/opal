@@ -1,0 +1,279 @@
+{
+  "E1_metrics": [
+    {
+      "case": "ordinary",
+      "observed": {
+        "mse": 2.0,
+        "mae": 1.3333333333333333,
+        "bias": 0.0,
+        "pearson": 0.737043474095502,
+        "target_variance": 1.5555555555555554,
+        "pairs": 3
+      },
+      "float64_mse_oracle": 2.0,
+      "matches_oracle": true,
+      "returns_finite": true
+    },
+    {
+      "case": "unsigned",
+      "observed": {
+        "mse": 1.0,
+        "mae": 128.0,
+        "bias": 128.0,
+        "pearson": -1.0,
+        "target_variance": 16256.25,
+        "pairs": 2
+      },
+      "float64_mse_oracle": 65025.0,
+      "matches_oracle": false,
+      "returns_finite": true
+    },
+    {
+      "case": "signed",
+      "observed": {
+        "mse": 0.0,
+        "mae": -9.223372036854776e+18,
+        "bias": -9.223372036854776e+18,
+        "pearson": -0.9999999999999999,
+        "target_variance": 2.1267647932558654e+37,
+        "pairs": 2
+      },
+      "float64_mse_oracle": 8.507059173023462e+37,
+      "matches_oracle": false,
+      "returns_finite": true
+    },
+    {
+      "case": "finite_extreme",
+      "observed": {
+        "mse": "inf",
+        "mae": "inf",
+        "bias": "nan",
+        "pearson": "nan",
+        "target_variance": "inf",
+        "pairs": 2
+      },
+      "float64_mse_oracle": "unrepresentable",
+      "matches_oracle": false,
+      "returns_finite": false
+    },
+    {
+      "case": "constant",
+      "observed": {
+        "mse": 1.0,
+        "mae": 1.0,
+        "bias": 1.0,
+        "pearson": null,
+        "target_variance": 0.0,
+        "pairs": 3
+      },
+      "float64_mse_oracle": 1.0,
+      "matches_oracle": true,
+      "returns_finite": true
+    }
+  ],
+  "E1_scaling": {
+    "0.01": {
+      "mse": 0.00019999999999999144,
+      "expected": 0.0002
+    },
+    "1.0": {
+      "mse": 2.0,
+      "expected": 2.0
+    },
+    "100.0": {
+      "mse": 20000.0,
+      "expected": 20000.0
+    }
+  },
+  "E2_recovery": {
+    "additive_only": {
+      "selection": {
+        "reference_alpha": 10,
+        "checkpoint_steps": {
+          "aligned": 400,
+          "shuffled": 400
+        },
+        "hashes": {
+          "additive_only-aligned.npz": "d8787b66322e7dfc7cf89af980c6acf068a8c398489bff66b78d2ec556673d35",
+          "additive_only-shuffled.npz": "d8787b66322e7dfc7cf89af980c6acf068a8c398489bff66b78d2ec556673d35"
+        }
+      },
+      "reference_mse": 0.0,
+      "additive_truth_mse": 0.0,
+      "candidates": {
+        "aligned": 0.0,
+        "shuffled": 0.0
+      },
+      "exact_replays": {
+        "aligned": true,
+        "shuffled": true
+      }
+    },
+    "signed_low_rank": {
+      "selection": {
+        "reference_alpha": 10,
+        "checkpoint_steps": {
+          "aligned": 400,
+          "shuffled": 25
+        },
+        "hashes": {
+          "signed_low_rank-aligned.npz": "222318392c088b8aa215558955d5ca40f8ce7bc5b96a6bd14ae1a204c36fa361",
+          "signed_low_rank-shuffled.npz": "23fa75b1a3744e8ef8fca0d187b7a163b41afee6d9d5b3b29b6cdabdab433733"
+        }
+      },
+      "reference_mse": 2.3825525156962835,
+      "additive_truth_mse": 2.16488235263055,
+      "candidates": {
+        "aligned": 0.011102809268209838,
+        "shuffled": 3.033135430888118
+      },
+      "exact_replays": {
+        "aligned": true,
+        "shuffled": true
+      }
+    },
+    "structured": {
+      "selection": {
+        "reference_alpha": 10,
+        "checkpoint_steps": {
+          "aligned": 400,
+          "shuffled": 25
+        },
+        "hashes": {
+          "structured-aligned.npz": "740f2f9ac5f23208b987115b61883e82372d1ce43d3fcea76fe76883c565264a",
+          "structured-shuffled.npz": "130fc707ac72e567ac9164df751c2cd23394ccd2d64356c45065440c1745d6f0"
+        }
+      },
+      "reference_mse": 0.24105593229791056,
+      "additive_truth_mse": 0.24367977528089887,
+      "candidates": {
+        "aligned": 2.7521043766346365e-05,
+        "shuffled": 0.31166291133166074
+      },
+      "exact_replays": {
+        "aligned": true,
+        "shuffled": true
+      }
+    }
+  },
+  "E3_identifiability": {
+    "biological_and_technical_observables_exactly_equal": true,
+    "construction": "world1 biological interaction=signal, technical=0; world2 biological=0, technical=same signal",
+    "guide_arm_alias": "fixed guide/arm per gene permits the same gene/pair-indexed nuisance function",
+    "biological_validation": false
+  },
+  "E4_splits": {
+    "repeated_orientation_groups_together": true,
+    "cold_gene_incident_exclusion": true,
+    "block_test_disjoint_from_train_validation": true,
+    "source_keyed_hash_is_source_holdout": false,
+    "source_keyed_roles": {
+      "S1": [
+        0,
+        1,
+        2
+      ],
+      "S2": [
+        0,
+        1,
+        2
+      ]
+    },
+    "context_holdout_oracle": "entire context/source excluded from train and validation, not merely included in hash"
+  },
+  "E6_uncertainty": {
+    "exact_independent_interval": true,
+    "discarded_empty_draws": 12,
+    "independent_empty_draws": 12,
+    "refuses_dependent_duplicate_pairs": true,
+    "fixed_global_effect_interval": [
+      1.0,
+      1.0
+    ],
+    "limitation": "conditional gene resampling cannot estimate independent global-effect variation"
+  },
+  "E7_checkpoints": {
+    "mutations": {
+      "nan_operator": {
+        "accepted": false,
+        "error_type": "ValueError",
+        "reason": "Finite operator required"
+      },
+      "negative_scale": {
+        "accepted": false,
+        "error_type": "ValueError",
+        "reason": "Positive finite scale required"
+      },
+      "nan_scale": {
+        "accepted": false,
+        "error_type": "ValueError",
+        "reason": "Positive finite scale required"
+      },
+      "scale_vector": {
+        "accepted": false,
+        "error_type": "TypeError",
+        "reason": "only 0-dimensional arrays can be converted to Python scalars"
+      },
+      "penalty_vector": {
+        "accepted": false,
+        "error_type": "TypeError",
+        "reason": "only 0-dimensional arrays can be converted to Python scalars"
+      },
+      "bool_penalty": {
+        "accepted": true
+      },
+      "support_int": {
+        "accepted": false,
+        "error_type": "ValueError",
+        "reason": "Boolean gene support vector required"
+      },
+      "best_step": {
+        "accepted": false,
+        "error_type": "ValueError",
+        "reason": "Invalid checkpoint selection step"
+      },
+      "parameter_count": {
+        "accepted": false,
+        "error_type": "ValueError",
+        "reason": "Invalid parameter count"
+      },
+      "rank_float": {
+        "accepted": false,
+        "error_type": "ValueError",
+        "reason": "Integer scalar metadata required"
+      },
+      "upper_float64": {
+        "accepted": false,
+        "error_type": "ValueError",
+        "reason": "Invalid symmetric checkpoint layout"
+      }
+    },
+    "valid_exact_replay": true,
+    "hash_tamper_refused": true
+  },
+  "E5_E8_supplement": "Bound historical synthetic test_wave3_evaluator_v3 covers missing exact controls, unequal constructs, held-label/train transforms and output scaling; see separate pytest receipt. C covers feature arithmetic extremes.",
+  "schema": "opal-wave5-synthetic-evaluator-v1",
+  "seed": 510023,
+  "synthetic_only": true,
+  "biological_fits": 0,
+  "biological_scores": 0,
+  "source_response_access": false,
+  "resources": {
+    "wall_seconds": 1.4382304000027943,
+    "cpu_seconds": 1.25,
+    "lifetime_peak_bytes": 284672000
+  },
+  "resource_enforcement": "cooperative checks, caller timeout1200s; OS lifetime peak includes imports",
+  "code_sha256": {
+    "tools/wave5_evaluator_experiments_v2.py": "2e14066b2c5f70085f6b24675264846129c080e3327f292de7ddc5c25d5dbf33",
+    "tools/wave3_evaluator_v3.py": "bc92d2cec437b908ebb0ed2cad2b9af139a506977c343c9f951487d0b858bf71",
+    "src/scalar_screen.py": "43f7e9d80d818a93d1ab9680e04d1e80499b7385c19b002cf4ea62d340eca724",
+    "src/block_completion.py": "e4b19ba22831d08dc9792d0c9c3792fdf29220bf4d1477665cfc86e86d8d0480",
+    "src/flexible_singles.py": "c6ce75522152086a47895c611fbca73cb71a19a3395daafce5de76ca3f7e3bdd",
+    "src/models/fitness.py": "631881826d198ed785ee24d77e8d7b39e8dda8e2956308f6bbc95ae694d8958b",
+    "src/splits/__init__.py": "1d126d96d7ad88e59d1f621ba0bf79d486c107b39e2997591ccc5b826017ed44",
+    "src/processed_gamma.py": "d47ca1eb02881d05fdd5fad47a427e73685e1415f2668acaa4a8183eab4f462a",
+    "tests/test_wave3_evaluator_v3.py": "14f7a37e26b6a259f636d41c9b1aa3ab5f697ea1c92c109ce177670515c420f7"
+  },
+  "freeze_sha256": "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea"
+}

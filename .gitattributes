@@ -174,3 +174,11 @@ results/research-wave4/** -text whitespace=cr-at-eol
 tools/wave4*.py -text whitespace=cr-at-eol
 tools/validate_wave4_delivery.py -text whitespace=cr-at-eol
 tests/test_wave4*.py -text whitespace=cr-at-eol
+
+# Wave-five registrations retain exact proposal, code and receipt bytes.
+docs/research_reset/wave5/** -text whitespace=cr-at-eol
+results/research-wave5/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+tools/wave5*.py -text whitespace=cr-at-eol
+tests/test_wave5*.py -text whitespace=cr-at-eol
+src/evaluation_contracts.py -text whitespace=cr-at-eol
+src/flexible_prediction.py -text whitespace=cr-at-eol

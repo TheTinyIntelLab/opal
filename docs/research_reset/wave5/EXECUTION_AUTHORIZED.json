@@ -1,0 +1,25 @@
+{
+  "schema": "opal-wave5-execution-authorization-v1",
+  "freeze_sha256": "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea",
+  "scope": {
+    "experimental_tool_authoring": true,
+    "saved_state_no_fit_validation_arithmetic": true,
+    "synthetic_fitting": true,
+    "historical_delivery_replay": true,
+    "source_primary_narrative_metadata_only": true,
+    "biological_fitting": false,
+    "new_biological_scoring": false,
+    "reserved_response_access": false,
+    "reserved_response_header_access": false,
+    "scientific_successor": false,
+    "production_implementation": false
+  },
+  "numerical_slot": "A",
+  "A_numerical_slot_authorized": true,
+  "B_source_authorized": true,
+  "D_source_authorized": true,
+  "C_numerical_slot_authorized": false,
+  "root_synthetic_slot_authorized": false,
+  "new_tool_binding_required": true,
+  "implementation_authorized": false
+}

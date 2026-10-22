@@ -1,0 +1,35 @@
+{
+  "command": [
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/.venv/Scripts/python.exe",
+    "tools/validate_wave4_delivery.py",
+    "--output",
+    "E:/opal-wave5-delivery-20261023"
+  ],
+  "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+  "pythonpath": null,
+  "started_utc": "2026-10-22T22:43:46.114624+00:00",
+  "bound_sha256": {
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\wave5_run_check.py": "57a2173eda688cd58f30be5cdbd24487f26c324e1bf0b0d2304c26c23ee2d30b",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\research-wave5\\freeze.json": "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\validate_wave4_delivery.py": "f0b09bda7348b786bf556c43a8c40bcdb546bd219241309e845f73c156508638",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\src\\flexible_prediction.py": "b687a1d9ede499409bc67f5f941ff3e8994762b62d981e9f57b731730d65283d",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\src\\evaluation_contracts.py": "48ae48683ff70d92a20ad7d57cb44a57bb64e7f29abe2117e12187200183628a"
+  },
+  "caps": {
+    "timeout_seconds": 900.0,
+    "peak_bytes": 2147483648
+  },
+  "sampling_seconds": 0.05,
+  "timeout_enforcement": "sampled external watchdog; kills process tree",
+  "cpu_measurement": "sampled sum across live process tree; may miss process-exit tail",
+  "returncode": 1,
+  "stopped": null,
+  "wall_seconds": 144.84567239999888,
+  "sampled_cpu_seconds": 62.1875,
+  "sampled_tree_peak_bytes": 736940032,
+  "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\research-wave5\\delivery-command.json.log",
+  "log_sha256": "34c7eb023405622bc295c3096a9aecbe41c46a302a4efb41b0863a2f945e03ce",
+  "log_bytes": 159,
+  "bound_drift": [],
+  "passed": false
+}

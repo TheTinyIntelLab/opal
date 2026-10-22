@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "tests/test_wave5_source_contract.py",
+    "tests/test_wave4_source_contract.py",
+    "-q"
+  ],
+  "binding_sha256": "4a09a3f1d3d9ccfe98d3561fc26580179c3eba50b6c9316baab0be3094d71ede",
+  "wall_limit": 120,
+  "memory_limit": 536870912,
+  "guard": "interrupting subprocess wall timeout; sampled memory cap",
+  "launch_correction_only": true
+}

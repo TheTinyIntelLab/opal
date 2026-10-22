@@ -1,0 +1,6 @@
+{
+  "error": "FileNotFoundError [WinError 2] CreateProcess could not resolve relative slash-separated interpreter",
+  "experiment_started": false,
+  "correction": "resolve interpreter to sys.executable; preserve original start and empty log",
+  "code_changed": false
+}

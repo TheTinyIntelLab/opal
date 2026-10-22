@@ -1,0 +1,19 @@
+{
+  "worker": "B",
+  "ready_for_root_freeze": true,
+  "child_taskId": "node:delegated-task:command%3Amcp%3A5c83a979-c332-45af-82c1-94fc290f51a2%3Adelegate-task%3Awave5-B-child-D-20261023",
+  "child_provider": "codex",
+  "child_model": "gpt-6.1-sol",
+  "child_options": {"reasoningEffort": "medium", "serviceTier": "default"},
+  "files": ["docs/research_reset/wave5/B_initial.md", "docs/research_reset/wave5/B_revised.md", "docs/research_reset/wave5/D_initial.md", "docs/research_reset/wave5/D_critique.md", "docs/research_reset/wave5/D_ready.json"],
+  "owned_experiment_files": ["tools/wave5_source_contract.py", "tests/test_wave5_source_contract.py"],
+  "planned_commands": [".venv/Scripts/python.exe -m pytest tests/test_wave5_source_contract.py tests/test_wave4_source_contract.py -q", ".venv/Scripts/python.exe tools/wave5_source_contract.py --output results/research-wave5/source-contract.json"],
+  "resources": {"wall_seconds_per_command": 120, "peak_bytes": 536870912, "output_bytes": 10485760, "threads": 1, "fixture_rows": 512, "primary_requests_per_reviewer": 8, "request_timeout_seconds": 30, "automatic_retries": 0},
+  "requires_before_experiments": ["results/research-wave5/freeze.json", "docs/research_reset/wave5/EXECUTION_AUTHORIZED.json"],
+  "requires_before_product_implementation": "docs/research_reset/wave5/IMPLEMENTATION_AUTHORIZED.json",
+  "browsing_started": false,
+  "experiments_run": false,
+  "response_access": false,
+  "response_header_access": false,
+  "scientific_successor_authorized": false
+}

@@ -1,0 +1,115 @@
+........................................................................ [  8%]
+........................................................................ [ 16%]
+........................................................................ [ 24%]
+........................................................................ [ 32%]
+...............................................F........................ [ 40%]
+........................................................................ [ 48%]
+........................................................................ [ 56%]
+........................................................................ [ 64%]
+........................................................................ [ 72%]
+........................................................................ [ 80%]
+........................................................................ [ 88%]
+........................................................................ [ 96%]
+....................................                                     [100%]
+================================== FAILURES ===================================
+___________ test_full_synthetic_lifecycle_with_mock_native_training ___________
+
+tmp_path = WindowsPath('C:/Users/USER/Desktop/opal-wave5-tests-final-20261023/test_full_synthetic_lifecycle_0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x00000270E8313070>
+
+    def test_full_synthetic_lifecycle_with_mock_native_training(tmp_path, monkeypatch):
+        # Native architecture training is separately tested against the real pinned
+        # source. Here a small numerical stand-in tests runner ordering and custody.
+        monkeypatch.setattr(m, 'TASKS', ('toy',))
+        monkeypatch.setattr(m, 'load_official', lambda source: None)
+        monkeypatch.setattr(m, 'dependencies', lambda: {'synthetic-native': 'test'})
+        monkeypatch.setattr(m.block, 'signature', lambda: {})
+        screen, splits = synthetic()
+        block_run, output = tmp_path/'block', tmp_path/'native'
+        block_run.mkdir()
+        np.savez(block_run/'assignments.npz', **{f'toy__{i}': split for i, split in enumerate(splits)})
+        bp = dict(code={}, files={}, original='unused', prepared='unused',
+                  panels={'toy': {'folds': [dict(eligible=True) for _ in range(5)]}})
+        m.write_json(block_run/'protocol.json', bp)
+        monkeypatch.setattr(m.block, 'preconditions', lambda path: bp)
+        monkeypatch.setattr(m, 'load_screen_roster', lambda *args: {'toy': screen})
+        monkeypatch.setattr(m, 'block_assignments', lambda s: splits)
+        m.freeze(SimpleNamespace(output=output, block_run=block_run, source=tmp_path))
+        assert not (output/'selection.json').exists()
+        protocol = m.read_json(output/'protocol.json')
+        m.write_json(output/'prefit_tests.json', dict(code=m.signature(), dependencies=m.dependencies(), returncode=0,
+            protocol_sha256=m.sha256(output/'protocol.json'), started_utc=m.now()))
+        with pytest.raises(FileNotFoundError):
+            m.fit(output)  # A complete Q2 comparison must already exist.
+        m.write_json(block_run/'selection.json', {'frozen': True})
+        m.write_json(block_run/'prefit_tests.json', {'passed': True})
+        ids = np.arange(5)
+        np.savez(block_run/'toy_predictions.npz', **q2_arrays(screen, ids))
+        m.write_json(block_run/'results.json', dict(protocol_sha256=m.sha256(block_run/'protocol.json'),
+            selection_sha256=m.sha256(block_run/'selection.json'), tasks={'toy': {}},
+            prediction_hashes={'toy': m.sha256(block_run/'toy_predictions.npz')}))
+        calls = []
+        class MockNative:
+            def __init__(self, split):
+                self.fit_rows = {key: np.flatnonzero(split == label).tolist() for key, label in [('train', 0), ('val', 1)]}
+                self.best_epoch, self.parameter_count = 1, 1
+                self.model_args, self.training_metrics = {'model_type': 'both'}, {'train_loss': [.1], 'val_loss': [.1]}
+            def predict(self, pairs):
+                return pairs.sum(1)/10+.05
+            def save(self, dest):
+                dest.mkdir(parents=True)
+                m.write_json(dest/'metadata.json', dict(fit_rows=self.fit_rows))
+                np.savez(dest/'state.npz', state=np.array([1.]))
+        def fit_native(source, genes, pairs, singles, targets, split, config, check):
+            assert config.epochs == 100
+            assert np.isnan(targets[split == 2]).all() and np.isfinite(targets[split != 2]).all()
+            assert not (output/'results.json').exists()
+            calls.append(1)
+            check()
+            return MockNative(split)
+        def load(source, dest):
+            rows = m.read_json(dest/'metadata.json')['fit_rows']
+            split = np.full(len(screen['pairs']), 2)
+            for key, label in [('train', 0), ('val', 1)]:
+                split[rows[key]] = label
+            return MockNative(split)
+        monkeypatch.setattr(m, 'fit_native', fit_native)
+        monkeypatch.setattr(m.NativeNAIAD, 'load', load)
+>       m.fit(output)
+
+tests\test_native_block_study.py:125: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tools\study_native_blocks.py:144: in fit
+    guard.check()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <tools.study_block_completion.Guard object at 0x00000270E2EF2D50>
+
+    def check(self):
+        elapsed = time.monotonic()-self.started
+        info = psutil.Process().memory_info()
+        self.peak = max(self.peak, getattr(info, 'peak_wset', info.rss))
+        if (elapsed+self.consumed.get('wall_seconds', 0) > self.config['wall_seconds'] or
+                time.process_time()-self.cpu+self.consumed.get('cpu_seconds', 0) > self.config['wall_seconds']):
+            raise RuntimeError('Registered CPU/wall cap reached')
+        if self.peak > self.config['rss_bytes']:
+            raise RuntimeError('Registered process-memory cap reached')
+        if elapsed-self.last_disk >= 2:
+            self.last_disk = elapsed
+            if shutil.disk_usage(self.output).free < self.config['reserve_bytes']:
+>               raise RuntimeError('Registered writable-volume reserve reached')
+E               RuntimeError: Registered writable-volume reserve reached
+
+tools\study_block_completion.py:69: RuntimeError
+============================== warnings summary ===============================
+tests/test_naiad_reference.py::test_native_no_resplit_test_sentinels_replay_and_numerical_serialization
+tests/test_naiad_reference.py::test_native_no_resplit_test_sentinels_replay_and_numerical_serialization
+tests/test_naiad_reference.py::test_native_batch_guard_interrupts
+tests/test_naiad_reference.py::test_native_unqueried_missing_single_stays_missing_and_is_not_an_input
+  C:\Users\USER\Desktop\opal-research-next-20261020\NAIAD\naiad\utils.py:230: UserWarning: warmup_steps is not an int. Coercing into an int now...
+    warnings.warn('warmup_steps is not an int. Coercing into an int now...', UserWarning)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_native_block_study.py::test_full_synthetic_lifecycle_with_mock_native_training
+1 failed, 899 passed, 4 warnings in 89.08s (0:01:29)

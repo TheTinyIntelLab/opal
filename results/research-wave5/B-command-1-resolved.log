@@ -1,0 +1,45 @@
+........................................................................ [ 44%]
+.......F................................................................ [ 88%]
+..................                                                       [100%]
+================================== FAILURES ===================================
+___________ test_portable_synthetic_authorization_and_custody_drift ___________
+
+tmp_path = WindowsPath('C:/Users/USER/AppData/Local/Temp/pytest-of-USER/pytest-384/test_portable_synthetic_author0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000001E8EFEFE9E0>
+
+    def test_portable_synthetic_authorization_and_custody_drift(tmp_path, monkeypatch):
+        monkeypatch.setattr(q, "ROOT", tmp_path)
+        p = tmp_path/"docs/research_reset/wave5/B_revised.md"
+        p.parent.mkdir(parents=True)
+        p.write_text("synthetic proposal")
+        scope = dict(source_primary_narrative_metadata_only=True, reserved_response_access=False,
+                     reserved_response_header_access=False, biological_fitting=False, new_biological_scoring=False, scientific_successor=False)
+        f, a = tmp_path/"freeze.json", tmp_path/"authorization.json"
+        f.write_text(json.dumps(dict(schema="opal-wave5-plan-freeze-v1", permissions=scope, files={str(p.relative_to(tmp_path)): q.digest(p)})))
+        a.write_text(json.dumps(dict(schema="opal-wave5-execution-authorization-v1", freeze_sha256=q.digest(f), B_source_authorized=True, scope=scope)))
+>       assert q.verify_authorization(f, a)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_wave5_source_contract.py:202: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+freeze_path = WindowsPath('C:/Users/USER/AppData/Local/Temp/pytest-of-USER/pytest-384/test_portable_synthetic_author0/freeze.json')
+authorization_path = WindowsPath('C:/Users/USER/AppData/Local/Temp/pytest-of-USER/pytest-384/test_portable_synthetic_author0/authorization.json')
+
+    def verify_authorization(freeze_path, authorization_path):
+        f = json.loads(Path(freeze_path).read_text(encoding="utf-8"))
+        a = json.loads(Path(authorization_path).read_text(encoding="utf-8"))
+        if f.get("schema") != "opal-wave5-plan-freeze-v1" or a.get("schema") != "opal-wave5-execution-authorization-v1" or a.get("freeze_sha256") != digest(freeze_path) or a.get("B_source_authorized") is not True:
+            raise ValueError("Root authorization mismatch")
+        for scope in (f.get("permissions", {}), a.get("scope", {})):
+            if any(scope.get(k) is not False for k in ("reserved_response_access", "reserved_response_header_access", "biological_fitting", "new_biological_scoring", "scientific_successor")) or scope.get("source_primary_narrative_metadata_only") is not True:
+                raise ValueError("Unsafe authorization scope")
+        required = "docs/research_reset/wave5/B_revised.md"
+        if required not in f.get("files", {}):
+>           raise ValueError("Revised proposal not bound")
+E           ValueError: Revised proposal not bound
+
+tools\wave5_source_contract.py:181: ValueError
+=========================== short test summary info ===========================
+FAILED tests/test_wave5_source_contract.py::test_portable_synthetic_authorization_and_custody_drift
+1 failed, 161 passed in 0.21s
