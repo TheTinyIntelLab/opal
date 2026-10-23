@@ -1,0 +1,26 @@
+{
+  "command": [
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/.venv/Scripts/python.exe",
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/tools/wave5_completion_installed.py",
+    "--installed",
+    "C:/Users/USER/Desktop/opal-wave5-completion-installed-20261023",
+    "--output",
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/results/research-wave5-completion/outside-completion.json"
+  ],
+  "cwd": "C:\\Users\\USER\\Desktop",
+  "pythonpath": null,
+  "started_utc": "2026-10-23T03:53:50.620035+00:00",
+  "bound_sha256": {
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\wave5_run_check.py": "57a2173eda688cd58f30be5cdbd24487f26c324e1bf0b0d2304c26c23ee2d30b",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\research-wave5\\freeze.json": "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\wave5_completion_installed.py": "e3c517d60253ea3d46fab44489d3b6e181f5d5016a59c27a795f93500e764087",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\src\\evaluation_precision.py": "a381e763ab470d79db371d0e2469e73d8abbddd047389c9a51fcf1411812d08c"
+  },
+  "caps": {
+    "timeout_seconds": 120.0,
+    "peak_bytes": 536870912
+  },
+  "sampling_seconds": 0.05,
+  "timeout_enforcement": "sampled external watchdog; kills process tree",
+  "cpu_measurement": "sampled sum across live process tree; may miss process-exit tail"
+}

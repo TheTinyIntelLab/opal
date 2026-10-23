@@ -1,0 +1,448 @@
+{
+  "schema": "opal-wave5-completion-validation-v1",
+  "passed_with_preserved_operational_failures": true,
+  "local_full_suite": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "931",
+    "time": "91.644",
+    "timestamp": "2026-10-23T09:19:54.783380+05:30",
+    "hostname": "DESKTOP-117COCF"
+  },
+  "warnings": 4,
+  "primary_delivery_commands": [
+    {
+      "name": "tests",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "--basetemp",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\tests",
+        "--junitxml",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\tests.xml"
+      ],
+      "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+      "installed_pythonpath": false,
+      "started_unix": 1792727394.0095162,
+      "returncode": 0,
+      "wall_seconds": 93.78396964073181,
+      "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\tests.log",
+      "log_sha256": "cf6b81fa1afaafa77547c5e343cd0e1c365890ba12aeb0d51fb5f04ab4c64039"
+    },
+    {
+      "name": "build",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "build",
+        "--outdir",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\dist"
+      ],
+      "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+      "installed_pythonpath": false,
+      "started_unix": 1792727487.7983994,
+      "returncode": 0,
+      "wall_seconds": 12.794239282608032,
+      "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\build.log",
+      "log_sha256": "a9ae130075912544838ec78afa58dd4566c6b0dba44b8541c0e14ab0effb970e"
+    },
+    {
+      "name": "install",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "install",
+        "--no-deps",
+        "--target",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\installed",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\dist\\opal_research-0.1.3.dev0-py3-none-any.whl"
+      ],
+      "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+      "installed_pythonpath": false,
+      "started_unix": 1792727500.5982587,
+      "returncode": 0,
+      "wall_seconds": 1.2938716411590576,
+      "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\install.log",
+      "log_sha256": "e6290189d8d8b46373ed187cdfd5914fad2855e339c6242f8a04e3a08da0373f"
+    },
+    {
+      "name": "historical",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\verify_reset_delivery.py",
+        "--installed",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\installed",
+        "--output",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\historical.json"
+      ],
+      "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+      "installed_pythonpath": false,
+      "started_unix": 1792727501.897137,
+      "returncode": 0,
+      "wall_seconds": 1.8120348453521729,
+      "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\historical.log",
+      "log_sha256": "0b1248dce8826d6518d1176e9d5dd455aa0af0c1f4b91ebf7c867c6f02108530"
+    },
+    {
+      "name": "block",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\verify_block_delivery.py",
+        "--installed",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\installed",
+        "--block-run",
+        "C:/Users/USER/Desktop/opal-research-next-20261020/block-v2",
+        "--native-run",
+        "E:/opal-research-next-20261021/native-block-v6",
+        "--output",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\block.json"
+      ],
+      "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+      "installed_pythonpath": false,
+      "started_unix": 1792727503.7139392,
+      "returncode": 0,
+      "wall_seconds": 8.63856053352356,
+      "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\block.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "wave2",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\verify_wave2_delivery.py",
+        "--installed",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\installed",
+        "--q1b",
+        "E:/opal-wave2-20261021/q1b-v2",
+        "--partners",
+        "E:/opal-wave2-20261021/q1b-partners-v2",
+        "--flexible",
+        "E:/opal-wave2-20261021/q2b-v1",
+        "--budget",
+        "C:/Users/USER/Desktop/opal-wave2-20261021/q3b-v3",
+        "--output",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\wave2.json"
+      ],
+      "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+      "installed_pythonpath": false,
+      "started_unix": 1792727512.3529322,
+      "returncode": 0,
+      "wall_seconds": 46.119386434555054,
+      "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\wave2.log",
+      "log_sha256": "f35491f0fc871c78068a1657092ad5135ecb52317e3837c45dc42edeb52cbb82"
+    },
+    {
+      "name": "wave3",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\verify_wave3_delivery.py",
+        "--installed",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\installed",
+        "--prior",
+        "E:/opal-wave3-20261021/nuisance-v1",
+        "--stopped",
+        "E:/opal-wave3-20261021/flexible-nuisance-v2",
+        "--output",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\wave3.json"
+      ],
+      "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+      "installed_pythonpath": false,
+      "started_unix": 1792727558.4765136,
+      "returncode": 0,
+      "wall_seconds": 2.5059707164764404,
+      "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\wave3.log",
+      "log_sha256": "c025f6f82bde1686d016881bf5604e2ba50efb94c4fb570d7cf32f8cdf26dfe6"
+    },
+    {
+      "name": "assay",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\rehearse_replicated_assay.py",
+        "--output",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\assay"
+      ],
+      "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+      "installed_pythonpath": true,
+      "started_unix": 1792727560.987266,
+      "returncode": 0,
+      "wall_seconds": 4.869128465652466,
+      "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\assay.log",
+      "log_sha256": "89555ff1ba7641645f30dbe132be1d0adb883625c9b9684466227461b9821e3c"
+    },
+    {
+      "name": "series-v1",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\check_installed_series.py",
+        "--require-installed",
+        "--synthetic",
+        "--config",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\configs\\experiments\\opal_model_series_v1.json",
+        "--output",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\series-v1"
+      ],
+      "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+      "installed_pythonpath": true,
+      "started_unix": 1792727565.8615522,
+      "returncode": 1,
+      "wall_seconds": 1.550724744796753,
+      "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\series-v1.log",
+      "log_sha256": "6f8f23caed4beabb8d3288ef59071217375e4a9e7d08e566e6a8b28658baaf02"
+    },
+    {
+      "name": "series-v2",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\check_installed_series.py",
+        "--require-installed",
+        "--synthetic",
+        "--config",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\configs\\experiments\\opal_model_series_v2.json",
+        "--output",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\series-v2"
+      ],
+      "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+      "installed_pythonpath": true,
+      "started_unix": 1792727567.417618,
+      "returncode": 1,
+      "wall_seconds": 1.5619471073150635,
+      "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\series-v2.log",
+      "log_sha256": "6f8f23caed4beabb8d3288ef59071217375e4a9e7d08e566e6a8b28658baaf02"
+    },
+    {
+      "name": "docs",
+      "command": [
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\build_docs.py",
+        "--output",
+        "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\docs"
+      ],
+      "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+      "installed_pythonpath": false,
+      "started_unix": 1792727568.981025,
+      "returncode": 0,
+      "wall_seconds": 1.1437697410583496,
+      "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\wave5-completion-delivery\\docs.log",
+      "log_sha256": "841f87441ab4a80f3c0e0ac21a78a1125760328389ca1a24364ce52df0229648"
+    }
+  ],
+  "delivery_failures": {
+    "series-v1": "inside-checkout installed target; corrected with same wheel outside",
+    "series-v2": "inside-checkout installed target; corrected with same wheel outside"
+  },
+  "launcher_failures": [
+    {
+      "start_receipt": "installed-completion-command.json.started.json",
+      "error": "WinError267 nonexistent working directory; subprocess never started",
+      "corrected_receipt": "installed-completion-command-v2.json"
+    },
+    {
+      "start_receipt": "installed-continuation-command.json.started.json",
+      "error": "WinError267 nonexistent working directory; subprocess never started",
+      "corrected_receipt": "installed-continuation-command-v2.json"
+    },
+    {
+      "start_receipt": "installed-evaluation-command.json.started.json",
+      "error": "WinError267 nonexistent working directory; subprocess never started",
+      "corrected_receipt": "installed-evaluation-command-v2.json"
+    },
+    {
+      "start_receipt": "installed-prediction-command.json.started.json",
+      "error": "WinError267 nonexistent working directory; subprocess never started",
+      "corrected_receipt": "installed-prediction-command-v2.json"
+    }
+  ],
+  "hygiene_initial_failure": "first inline rule incorrectly rejected legitimate opal/data/*.py package code; corrected content/path classification, no artifact change",
+  "ledger_initial_failure": "v1 validator assumed history keys at top level; corrected to histories field, failed bytes preserved as validation-tool-v1.py.txt",
+  "outer_delivery_watchdog": {
+    "configured_seconds": 1800,
+    "registered_per_child_seconds": 900,
+    "actual_wall_seconds": 176.24576950000483,
+    "limitation": "outer orchestrator allowed1800; every actual command and total finished below900; child timeouts unchanged"
+  },
+  "extra_command_receipts": {
+    "A-numerical-command.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 2.4769554999948014,
+      "sampled_cpu_seconds": 2.109375,
+      "sampled_tree_peak_bytes": 255827968,
+      "bound_drift": []
+    },
+    "A-tests-command.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 0.9763965999882203,
+      "sampled_cpu_seconds": 0.84375,
+      "sampled_tree_peak_bytes": 83877888,
+      "bound_drift": []
+    },
+    "B-metadata-command.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 0.2895786000008229,
+      "sampled_cpu_seconds": 0.1875,
+      "sampled_tree_peak_bytes": 38969344,
+      "bound_drift": []
+    },
+    "B-tests-command.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 1.714856000005966,
+      "sampled_cpu_seconds": 1.4375,
+      "sampled_tree_peak_bytes": 83767296,
+      "bound_drift": []
+    },
+    "C-root-command.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 1.5682353000156581,
+      "sampled_cpu_seconds": 1.375,
+      "sampled_tree_peak_bytes": 216813568,
+      "bound_drift": []
+    },
+    "delivery-command.json": {
+      "passed": false,
+      "returncode": 1,
+      "wall_seconds": 176.24576950000483,
+      "sampled_cpu_seconds": 69.46875,
+      "sampled_tree_peak_bytes": 739360768,
+      "bound_drift": []
+    },
+    "installed-completion-command-v2.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 2.5394054999924265,
+      "sampled_cpu_seconds": 2.15625,
+      "sampled_tree_peak_bytes": 256917504,
+      "bound_drift": []
+    },
+    "installed-continuation-command-v2.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 1.7108383000013418,
+      "sampled_cpu_seconds": 1.5,
+      "sampled_tree_peak_bytes": 215678976,
+      "bound_drift": []
+    },
+    "installed-evaluation-command-v2.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 1.5297176000021864,
+      "sampled_cpu_seconds": 1.25,
+      "sampled_tree_peak_bytes": 211165184,
+      "bound_drift": []
+    },
+    "installed-prediction-command-v2.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 6.286919100006344,
+      "sampled_cpu_seconds": 6.046875,
+      "sampled_tree_peak_bytes": 286498816,
+      "bound_drift": []
+    },
+    "outside-completion-command.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 2.7044330000062473,
+      "sampled_cpu_seconds": 2.484375,
+      "sampled_tree_peak_bytes": 256581632,
+      "bound_drift": []
+    },
+    "outside-continuation-command.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 1.6950102999981027,
+      "sampled_cpu_seconds": 1.4375,
+      "sampled_tree_peak_bytes": 215597056,
+      "bound_drift": []
+    },
+    "outside-evaluation-command.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 1.5260930999938864,
+      "sampled_cpu_seconds": 1.234375,
+      "sampled_tree_peak_bytes": 211152896,
+      "bound_drift": []
+    },
+    "outside-history-command.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 3.8239719000121113,
+      "sampled_cpu_seconds": 3.640625,
+      "sampled_tree_peak_bytes": 955174912,
+      "bound_drift": []
+    },
+    "outside-install-command.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 1.3105563999852166,
+      "sampled_cpu_seconds": 0.890625,
+      "sampled_tree_peak_bytes": 64929792,
+      "bound_drift": []
+    },
+    "precision-tests-command.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 2.5344600999960676,
+      "sampled_cpu_seconds": 2.015625,
+      "sampled_tree_peak_bytes": 242401280,
+      "bound_drift": []
+    },
+    "root-evaluator-command.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 1.6194464000000153,
+      "sampled_cpu_seconds": 1.46875,
+      "sampled_tree_peak_bytes": 213696512,
+      "bound_drift": []
+    },
+    "series-v1-outside-command.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 18.76991800000542,
+      "sampled_cpu_seconds": 3.4375,
+      "sampled_tree_peak_bytes": 541458432,
+      "bound_drift": []
+    },
+    "series-v2-outside-command.json": {
+      "passed": true,
+      "returncode": 0,
+      "wall_seconds": 17.960975199996028,
+      "sampled_cpu_seconds": 3.640625,
+      "sampled_tree_peak_bytes": 540422144,
+      "bound_drift": []
+    }
+  },
+  "artifacts": {
+    "opal_research-0.1.3.dev0-py3-none-any.whl": {
+      "sha256": "cde7311f088a587ba90948b6da933e4dfdb0fe61100d68d4df08cf4b5ef69118",
+      "bytes": 279671,
+      "members": 108,
+      "forbidden_members": []
+    },
+    "opal_research-0.1.3.dev0.tar.gz": {
+      "sha256": "0b6884ee2fb6081fd600f7f8fccb909e4f51990dd1e0daf1960d1ab03424998d",
+      "bytes": 1682356,
+      "members": 807,
+      "forbidden_members": []
+    }
+  },
+  "protected_files": 233,
+  "protected_drift": [],
+  "prior_plan_archived_exact": true,
+  "freeze_files_unchanged": true,
+  "biological_fits": 0,
+  "new_biological_scores": 0,
+  "reserved_response_access": false,
+  "reserved_response_header_access": false,
+  "source_network_requests": 0,
+  "independent_execution_review": "blocked at provider usage limit; root fallback disclosed",
+  "free_disk_bytes": 5773795328,
+  "final_remote_ci": "pending commit/push; final verification recorded externally to avoid recursive commit"
+}

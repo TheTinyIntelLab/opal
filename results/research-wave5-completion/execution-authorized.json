@@ -1,0 +1,85 @@
+{
+  "schema": "opal-wave5-completion-authorization-v1",
+  "authorized": true,
+  "freeze_sha256": "60088cd67148e8cb0998915f5c2d0ab66689a67802ce8b691c6e52d7a375ffec",
+  "allowed_agents": [
+    "root",
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "scopes": {
+    "A": [
+      "A1",
+      "A2"
+    ],
+    "C": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "B": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "D": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "root": [
+      "A1",
+      "A2",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "R1",
+      "V1"
+    ]
+  },
+  "commands": {
+    "A": "tools/wave5_completion_numerical.py plus focused numerical tests",
+    "C": "tools/wave5_completion_C_review.py",
+    "B": "tools/wave5_completion_metadata.py plus completion/wave5/wave4 source tests",
+    "D": "independent bound metadata CLI/tests plus local documentary reconciliation",
+    "root": "tools/wave5_completion_evaluator.py; root-attributed fallback commands; full delivery/replays"
+  },
+  "new_code_binding_required": true,
+  "root_fallback_is_independent_validation": false,
+  "source_access_authorized": false,
+  "reserved_header_access_authorized": false,
+  "numerical_serialization": "A then bound tuple handoff then C",
+  "production_changes": "only after all experiments finish or explicit blockers, with implementation_decision.md"
+}

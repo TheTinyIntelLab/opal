@@ -1,0 +1,30 @@
+{
+  "worker_status": {
+    "A": "failed before execution; provider usage limit",
+    "B": "failed before execution; provider usage limit",
+    "C": "failed before execution; provider usage limit",
+    "D": "failed before execution; provider usage limit"
+  },
+  "exact_workers": 4,
+  "hierarchy": {
+    "root": [
+      "A",
+      "B"
+    ],
+    "A": [
+      "C"
+    ],
+    "B": [
+      "D"
+    ]
+  },
+  "independent_proposals_critiques_revisions": true,
+  "independent_execution": false,
+  "execution_attribution": "root fallback",
+  "parent_status_read": true,
+  "child_status_read": "read-only t3_thread_read after task_status correctly rejected ownership",
+  "no_replacement_workers": true,
+  "cleanup_windows_command": "cleanmgr /d C: followed by cleanmgr /d C: /verylowdisk",
+  "windows_cleanup_observation": "Disk Space Notification remains; attributable freed bytes not established",
+  "disk_free_bytes": 5909618688
+}

@@ -1,0 +1,38 @@
+{
+  "command": [
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/.venv/Scripts/python.exe",
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/tools/check_installed_series.py",
+    "--require-installed",
+    "--synthetic",
+    "--config",
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/configs/experiments/opal_model_series_v2.json",
+    "--output",
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/tmp/wave5-completion-series-v2"
+  ],
+  "cwd": "C:\\Users\\USER\\Desktop",
+  "pythonpath": "C:\\Users\\USER\\Desktop\\opal-wave5-completion-installed-20261023",
+  "started_utc": "2026-10-23T03:53:40.434909+00:00",
+  "bound_sha256": {
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\wave5_run_check.py": "57a2173eda688cd58f30be5cdbd24487f26c324e1bf0b0d2304c26c23ee2d30b",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\research-wave5\\freeze.json": "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\check_installed_series.py": "4fb20daa84658a2d5eeb7df01801c13cb33288ae7db92ac32d2175e73b24fee4",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\configs\\experiments\\opal_model_series_v2.json": "4e02ba233c83f8182ad3cc2616b1d1edd90a865faa2a9ed4799211007445a2ab"
+  },
+  "caps": {
+    "timeout_seconds": 900.0,
+    "peak_bytes": 2147483648
+  },
+  "sampling_seconds": 0.05,
+  "timeout_enforcement": "sampled external watchdog; kills process tree",
+  "cpu_measurement": "sampled sum across live process tree; may miss process-exit tail",
+  "returncode": 0,
+  "stopped": null,
+  "wall_seconds": 17.960975199996028,
+  "sampled_cpu_seconds": 3.640625,
+  "sampled_tree_peak_bytes": 540422144,
+  "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\research-wave5-completion\\series-v2-outside-command.json.log",
+  "log_sha256": "c662b6fee74cc5b46b8e303d6ebc3712b4e2f42d101c83d513b15f3074600dcc",
+  "log_bytes": 63,
+  "bound_drift": [],
+  "passed": true
+}

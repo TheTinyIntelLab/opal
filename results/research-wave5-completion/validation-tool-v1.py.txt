@@ -1,0 +1,56 @@
+"""Assemble delivery evidence without rerunning or altering scientific results."""
+import hashlib
+import json
+from pathlib import Path
+import shutil
+import tarfile
+import xml.etree.ElementTree as ET
+import zipfile
+
+ROOT=Path(__file__).resolve().parents[1]
+OUT=ROOT/'results/research-wave5-completion'
+
+
+def main():
+    sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
+    initial=json.loads((OUT/'initial-state.json').read_text(encoding='utf8'))
+    drift=[p for p,h in initial['protected_sha256'].items() if p!='plan.md' and sha(ROOT/p)!=h]
+    assert not drift,drift
+    assert sha(OUT/'plan-before-completion.md.txt')==initial['protected_sha256']['plan.md']
+    freeze=json.loads((OUT/'freeze.json').read_text(encoding='utf8'))
+    assert all(sha(p)==h for p,h in freeze['sha256'].items())
+    delivery=ROOT/'tmp/wave5-completion-delivery'
+    commands=json.loads((delivery/'commands.json').read_text(encoding='utf8'))
+    assert {c['name'] for c in commands if c['returncode']!=0}=={'series-v1','series-v2'}
+    for version in (1,2):assert json.loads((OUT/f'series-v{version}-outside-command.json').read_text())['passed']
+    test=ET.parse(delivery/'tests.xml').getroot().find('testsuite').attrib
+    assert test['tests']=='931' and test['failures']==test['errors']=='0'
+    artifacts={}
+    for p in sorted((delivery/'dist').iterdir()):
+        if p.suffix=='.whl':
+            with zipfile.ZipFile(p) as z:names=z.namelist()
+        else:
+            with tarfile.open(p) as z:names=z.getnames()
+        # opal/data/*.py is legitimate package code, not an acquired data bank.
+        bad=[n for n in names if any(x in Path(n).parts for x in ('results','.venv','.git','vendor','external')) or Path(n).suffix in ('.npz','.npy','.rds','.h5ad')]
+        assert not bad,bad
+        artifacts[p.name]=dict(sha256=sha(p),bytes=p.stat().st_size,members=len(names),forbidden_members=bad)
+    with zipfile.ZipFile(delivery/'dist/opal_research-0.1.3.dev0-py3-none-any.whl') as z:
+        assert 'opal/evaluation_precision.py' in z.namelist()
+    launchers=[]
+    for p in OUT.glob('installed-*-command.json.started.json'):
+        final=Path(str(p).removesuffix('.started.json'))
+        if not final.exists():launchers.append(dict(start_receipt=p.name,error='WinError267 nonexistent working directory; subprocess never started',corrected_receipt=final.stem+'-v2.json'))
+    assert len(launchers)==4
+    receipts={}
+    for p in OUT.glob('*command*.json'):
+        x=json.loads(p.read_text(encoding='utf8'))
+        if 'passed' in x:receipts[p.name]={k:x.get(k) for k in ('passed','returncode','wall_seconds','sampled_cpu_seconds','sampled_tree_peak_bytes','bound_drift')}
+    history=json.loads((OUT/'outside-history.json').read_text(encoding='utf8'))
+    for k in ('v1','v2'):assert history[k]['status']=='reproduced'
+    ledger=dict(schema='opal-wave5-completion-validation-v1',passed_with_preserved_operational_failures=True,local_full_suite=test,warnings=4,primary_delivery_commands=commands,delivery_failures={'series-v1':'inside-checkout installed target; corrected with same wheel outside','series-v2':'inside-checkout installed target; corrected with same wheel outside'},launcher_failures=launchers,hygiene_initial_failure='first inline rule incorrectly rejected legitimate opal/data/*.py package code; corrected content/path classification, no artifact change',outer_delivery_watchdog=dict(configured_seconds=1800,registered_per_child_seconds=900,actual_wall_seconds=receipts['delivery-command.json']['wall_seconds'],limitation='outer orchestrator allowed1800; every actual command and total finished below900; child timeouts unchanged'),extra_command_receipts=receipts,artifacts=artifacts,protected_files=len(initial['protected_sha256']),protected_drift=drift,prior_plan_archived_exact=True,freeze_files_unchanged=True,biological_fits=0,new_biological_scores=0,reserved_response_access=False,reserved_response_header_access=False,source_network_requests=0,independent_execution_review='blocked at provider usage limit; root fallback disclosed',free_disk_bytes=shutil.disk_usage(ROOT).free,final_remote_ci='pending commit/push; final verification recorded externally to avoid recursive commit')
+    with (OUT/'validation.json').open('x',encoding='utf8') as f:json.dump(ledger,f,indent=2)
+    print(json.dumps(dict(tests=test['tests'],protected_drift=drift,artifacts=artifacts)))
+
+
+if __name__=='__main__':main()

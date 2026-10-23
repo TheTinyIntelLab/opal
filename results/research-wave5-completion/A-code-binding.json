@@ -1,0 +1,32 @@
+{
+  "executor": "root after A provider failure",
+  "scope": [
+    "A1",
+    "A2"
+  ],
+  "commands": [
+    [
+      "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+      "tools/wave5_completion_numerical.py",
+      "--output",
+      "results/research-wave5-completion/A-numerical.json"
+    ],
+    [
+      "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "tests/test_wave5_completion_numerical.py",
+      "-q"
+    ]
+  ],
+  "sha256": {
+    "tools/wave5_completion_numerical.py": "0556547728b2b5b50c7518f3185096912b0eec4a42703f17b3833d6b4f5d3184",
+    "tools/wave5_completion_common.py": "b47c330c5a9cb3b45b2d8da75fff4ff5ad6ff38687542d66254f830df3bae2d1",
+    "tests/test_wave5_completion_numerical.py": "aa5ebe749ac6dce90e7e2800f80ec84125763da081650a92825d527af14cdcc1",
+    "src/flexible_prediction.py": "b687a1d9ede499409bc67f5f941ff3e8994762b62d981e9f57b731730d65283d",
+    "src/flexible_singles.py": "c6ce75522152086a47895c611fbca73cb71a19a3395daafce5de76ca3f7e3bdd",
+    "src/models/fitness.py": "631881826d198ed785ee24d77e8d7b39e8dda8e2956308f6bbc95ae694d8958b",
+    "results/research-wave5-completion/freeze.json": "60088cd67148e8cb0998915f5c2d0ab66689a67802ce8b691c6e52d7a375ffec",
+    "results/research-wave5-completion/execution-authorized.json": "40e8d355e57b110ebc15d21a5d8b6788a057a65db6682bade28b6be9857f05eb"
+  }
+}

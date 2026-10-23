@@ -1,0 +1,20 @@
+{
+  "executor": "root",
+  "scope": "R1",
+  "command": [
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.venv\\Scripts\\python.exe",
+    "tools/wave5_completion_evaluator.py",
+    "--output",
+    "results/research-wave5-completion/root-evaluator.json"
+  ],
+  "sha256": {
+    "tools/wave5_completion_evaluator.py": "4475acb804ccd26d039f8ddd17c1f12a2d605d84a4e58bba70dd543df060c483",
+    "tools/wave5_completion_common.py": "b47c330c5a9cb3b45b2d8da75fff4ff5ad6ff38687542d66254f830df3bae2d1",
+    "tools/wave5_run_check.py": "57a2173eda688cd58f30be5cdbd24487f26c324e1bf0b0d2304c26c23ee2d30b",
+    "src/evaluation_contracts.py": "48ae48683ff70d92a20ad7d57cb44a57bb64e7f29abe2117e12187200183628a",
+    "src/block_completion.py": "e4b19ba22831d08dc9792d0c9c3792fdf29220bf4d1477665cfc86e86d8d0480",
+    "src/scalar_screen.py": "43f7e9d80d818a93d1ab9680e04d1e80499b7385c19b002cf4ea62d340eca724",
+    "results/research-wave5-completion/freeze.json": "60088cd67148e8cb0998915f5c2d0ab66689a67802ce8b691c6e52d7a375ffec",
+    "results/research-wave5-completion/execution-authorized.json": "40e8d355e57b110ebc15d21a5d8b6788a057a65db6682bade28b6be9857f05eb"
+  }
+}

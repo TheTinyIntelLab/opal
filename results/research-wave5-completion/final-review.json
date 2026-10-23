@@ -1,0 +1,29 @@
+{
+  "staged_files_read": 128,
+  "staged_bytes": 4141486,
+  "credential_pattern_findings": [],
+  "manual_scope_review": "new versioned precision wrappers, invented metadata tools/tests, numerical synthetic/allowed-state receipts, proposals and documentation only; no raw source assets, correspondence or upstream article/code copies",
+  "final_artifacts": {
+    "opal_research-0.1.3.dev0-py3-none-any.whl": {
+      "sha256": "0daebd9ed37ea614ff6b8c1787421a0f23076a4567d9a015d7fdd098e5310962",
+      "bytes": 279671,
+      "members": 108,
+      "forbidden_members": []
+    },
+    "opal_research-0.1.3.dev0.tar.gz": {
+      "sha256": "da800a7b8885da9bc754918d8446c6d41e3a6f87c65bee1e5bb018dee2980661",
+      "bytes": 1685458,
+      "members": 809,
+      "forbidden_members": []
+    }
+  },
+  "final_wheel_python_members_identical_to_tested_wheel": true,
+  "doc_manifest": {
+    "path": "tmp/wave5-completion-docs-verified/build_manifest.json",
+    "sha256": "03754af727d66440e1e53ffdb8b4446779e0a42ea7019f45e3c58c448ba0a032",
+    "documents": 250,
+    "unavailable_links": 0
+  },
+  "whitespace_check": "git diff --cached --check passed",
+  "implementation_review": "v2/historical code unchanged; IEEE underflow refusal in opt-in wrappers; no scientific continuation"
+}
