@@ -28,6 +28,8 @@ The [completion closeout](docs/research_reset/wave5_completion/closeout.md) exte
 
 Exactly four workers in the new completion round published independent proposals, child critiques and parent revisions before freeze. All four then failed at the provider usage limit before execution. Root executed the frozen constructions with explicit fallback attribution; independent final execution/review remains unavailable. The new synthetic metadata consistency tool separates documentary basis from identity, concrete construct assignments, a declared common-control-anchor policy, semantic readiness and an aggregate row ceiling. It cannot qualify actual source content or grant access.
 
+The [custody correction](docs/research_reset/wave5_completion/custody_note.md) preserves the original pre-execution receipt bytes through Git and adds a portable regression for all 35 repository-owned freeze dependencies. The final full local suite passes 932 tests.
+
 ## Next justified decisions
 
 1. Independently review the new engineering contract and strict evaluator APIs before choosing them for any future scientific registration. C supplied an independent proposal, critique and static tooling review, but provider limits prevented its final independent execution/results review. Root executed C's frozen constructions and completed integration; do not describe that as independent C validation. Preserve the two-failure scientific stop. No architecture, rank, feature, budget, seed or nuisance rescue sweep follows.

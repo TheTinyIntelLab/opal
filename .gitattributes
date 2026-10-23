@@ -188,3 +188,8 @@ docs/research_reset/continuation/** -text whitespace=cr-at-eol
 results/research-continuation/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
 tools/continuation_*.py -text whitespace=cr-at-eol
 tools/verify_continuation_*.py -text whitespace=cr-at-eol
+
+# Completion proposals and receipts retain their pre-execution byte hashes.
+docs/research_reset/wave5_completion/** -text whitespace=cr-at-eol
+results/research-wave5-completion/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+src/evaluation_precision.py -text whitespace=cr-at-eol

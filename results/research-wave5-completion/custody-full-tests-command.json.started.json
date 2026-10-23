@@ -1,0 +1,30 @@
+{
+  "command": [
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/.venv/Scripts/python.exe",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "--basetemp",
+    "tmp/wave5-custody-tests",
+    "--junitxml",
+    "tmp/wave5-custody-tests.xml"
+  ],
+  "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+  "pythonpath": null,
+  "started_utc": "2026-10-23T04:05:17.598143+00:00",
+  "bound_sha256": {
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\wave5_run_check.py": "57a2173eda688cd58f30be5cdbd24487f26c324e1bf0b0d2304c26c23ee2d30b",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\research-wave5\\freeze.json": "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\.gitattributes": "518ef4d50980f52e93435dfe90a8513190fd2e6d025597bdcdf7c61dfe451cc3",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tests\\test_wave5_freeze_custody.py": "190d08265a253a4dbb3a298f17ef7658cb1395b5a54446b502db1f2380e0be6c",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\src\\evaluation_precision.py": "a381e763ab470d79db371d0e2469e73d8abbddd047389c9a51fcf1411812d08c"
+  },
+  "caps": {
+    "timeout_seconds": 900.0,
+    "peak_bytes": 2147483648
+  },
+  "sampling_seconds": 0.05,
+  "timeout_enforcement": "sampled external watchdog; kills process tree",
+  "cpu_measurement": "sampled sum across live process tree; may miss process-exit tail"
+}

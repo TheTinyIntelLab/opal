@@ -1,0 +1,9 @@
+# Completion Git-byte custody correction
+
+The post-push byte comparison found that Git's text normalization changed the committed completion freeze from its pre-execution SHA256 60088cd67148e8cb0998915f5c2d0ab66689a67802ce8b691c6e52d7a375ffec to 97a7cb835c66cf4f590c91e90558033ea41899ddfa1c023e1b5299dc8b151a52 in 224b362. The original working-tree freeze, proposals, authorization and receipts remained unchanged and still verified against every pre-execution hash. No experimental result, protocol, tolerance or input was recomputed or edited.
+
+Explicit -text attributes now preserve completion proposal/receipt bytes, matching the repository's established policy for previous waves. The correction stages the original working-tree bytes, without rewriting the failed commit or historical frozen records. A portable regression checks authorization-to-freeze identity and all 35 repository-owned freeze dependencies. The external saved checkpoint remains separately hash-checked by the no-fit tools; a hosted checkout does not acquire it.
+
+The successor commit must verify Git blob bytes as well as working-tree bytes, then rerun full local validation and hosted CI. Earlier validation receipts stay historical. Updated test/build/documentation/custody facts are recorded in a separate custody-release receipt. This correction repairs byte custody, not a scientific numerical gate.
+
+The corrected working tree passed a single full invocation of 932 tests with four unchanged NAIAD warnings, in 89.68 seconds. Staged Git blobs match the pre-execution freeze and all 35 repository-owned dependencies exactly. The [custody release receipt](../../../results/research-wave5-completion/custody-release.json) records final build, documentation and byte checks separately from the earlier 931-test ledger. Final hosted CI is verified for the successor commit after push.
