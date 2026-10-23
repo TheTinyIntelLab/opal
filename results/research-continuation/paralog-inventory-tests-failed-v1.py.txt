@@ -1,0 +1,44 @@
+"""Untrusted-container safeguards tested with invented archives only."""
+import gzip
+import io
+import tarfile
+
+import pytest
+
+from tools.continuation_paralog_inventory_v1 import BoundedReader,inventory
+
+
+def archive(tmp_path,name='METADATA/design.csv',kind=tarfile.REGTYPE,size=0):
+    path=tmp_path/'invented.tar.gz'
+    with tarfile.open(path,'w:gz') as stream:
+        member=tarfile.TarInfo(name);member.type=kind;member.size=size
+        if kind in (tarfile.SYMTYPE,tarfile.LNKTYPE):member.linkname='../../outside'
+        stream.addfile(member)
+    return path
+
+
+def test_inventory_lists_members_without_extracting_or_opening_bodies(tmp_path):
+    result=inventory(archive(tmp_path))
+    assert result['member_bodies_opened']==result['extracted_files']==0
+    assert result['members']==[dict(name='METADATA/design.csv',kind='regular',bytes=0)]
+    assert not (tmp_path/'METADATA').exists()
+
+
+@pytest.mark.parametrize('name',['../outside','/absolute','C:/outside','METADATA\\outside'])
+def test_archive_paths_never_escape_quarantine(tmp_path,name):
+    with pytest.raises(ValueError,match='path'):inventory(archive(tmp_path,name))
+
+
+@pytest.mark.parametrize('kind',[tarfile.SYMTYPE,tarfile.LNKTYPE,tarfile.FIFOTYPE])
+def test_no_link_or_special_member_is_accepted(tmp_path,kind):
+    with pytest.raises(ValueError,match='special'):inventory(archive(tmp_path,kind=kind))
+
+
+def test_declared_member_cap_is_checked_before_body(tmp_path):
+    with pytest.raises(ValueError,match='size cap'):inventory(archive(tmp_path,size=16*1024**2+1))
+
+
+def test_stream_skip_is_bounded_even_without_member_extraction():
+    reader=BoundedReader(io.BytesIO(b'x'*100),limit=20)
+    assert len(reader.read(10))==10
+    with pytest.raises(ValueError,match='Decompression'):reader.read(20)

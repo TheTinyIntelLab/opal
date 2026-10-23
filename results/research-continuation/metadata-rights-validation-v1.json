@@ -1,0 +1,47 @@
+{
+  "schema": "opal-metadata-rights-validation-v1",
+  "full_local_suite": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "942",
+    "time": "89.755",
+    "timestamp": "2026-10-23T10:03:29.814825+05:30",
+    "hostname": "DESKTOP-117COCF"
+  },
+  "warnings": 4,
+  "focused_container_tests": {
+    "v1": "9 passed,1 fixture-construction failure",
+    "v2": "10 passed"
+  },
+  "metadata_access": "registered downloadHTTP403, no redirect/body/inventory; not a source-absence claim",
+  "source_requests": 10,
+  "upstream_code_executed": false,
+  "source_archives_acquired": 0,
+  "response_tables_or_headers_opened": false,
+  "biological_fits": 0,
+  "new_biological_scores": 0,
+  "artifacts": {
+    "opal_research-0.1.3.dev0-py3-none-any.whl": {
+      "sha256": "16f2162fee8deae80de1dc8b3ce65b1a03e5bdb7f1726b20ffec8c433dee2445",
+      "bytes": 279671,
+      "members": 108,
+      "forbidden_members": []
+    },
+    "opal_research-0.1.3.dev0.tar.gz": {
+      "sha256": "159d102a8b8c8d4060bf3932cdb932a4b53bf22f954d21e86cd2fc3a0ea698c1",
+      "bytes": 1698854,
+      "members": 819,
+      "forbidden_members": []
+    }
+  },
+  "all_wheel_members_identical_to_28bd1a2_tested_build": true,
+  "installed_replay_reuse": "byte-identical wheel contents preserve prior installed historical replay and rehearsal evidence; not claimed rerun in this metadata-only follow-up",
+  "custody_verifier": "metadata-rights-verification-v1.json",
+  "pre_audit_plan_archived_exact": true,
+  "old_tracked_changes": "plan.md only; no historical protocol,source,module orreceipt edits",
+  "free_disk_bytes": 5740572672,
+  "goal_status": "active, objective unachieved; current rights/access results are progress, not a blocked-goal audit turn",
+  "hosted_ci": "final pushed commit verified separately after delivery"
+}

@@ -1,0 +1,324 @@
+{
+  "schema": "opal-metadata-rights-receipt-v1",
+  "closed_utc": "2026-10-23T04:23:45.399756+00:00",
+  "freeze_sha256": "360001fa7c57b970b84550f51aea4821d373f3050ea62615f589f9752a612843",
+  "tool_sha256": "d3802ba2b4a7dff6fddf1fa4825388c07e70d6db45a24d6bc778a6350472c4cb",
+  "requests": [
+    {
+      "name": "colo1-deposit",
+      "url": "https://zenodo.org/api/records/17191951",
+      "method": "GET",
+      "purpose": "primary rights and input-role documentation only",
+      "status": 200,
+      "content_type": "application/json",
+      "path": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\metadata-rights-v1\\colo1-deposit.json",
+      "bytes": 4070,
+      "sha256": "56687276a5beb071194c9ec33bc9656d5b60b1a73528b9c0f8f729bf2e28b13c",
+      "selected_catalog": {
+        "title": "ibarrioh/DualGuide_COLO1: Release2-final",
+        "version": "Release2",
+        "license": {
+          "id": "cc-by-4.0"
+        },
+        "related_identifiers": [
+          {
+            "identifier": "https://github.com/ibarrioh/DualGuide_COLO1/tree/Release2",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+          }
+        ],
+        "description": "<p>This release has the last changes done during the review process</p>",
+        "files": [
+          {
+            "key": "ibarrioh/DualGuide_COLO1-Release2.zip",
+            "size": 89422914,
+            "checksum": "md5:174cd1597901fac463a092dbbbf4c71d",
+            "links": {
+              "self": "https://zenodo.org/api/records/17191951/files/ibarrioh/DualGuide_COLO1-Release2.zip/content"
+            }
+          }
+        ]
+      },
+      "elapsed_seconds": 0.8049266999878455
+    },
+    {
+      "name": "colo1-readme",
+      "url": "https://raw.githubusercontent.com/ibarrioh/DualGuide_COLO1/cfb5eb9a39ff1ec43642fba9485270ae200e81ae/README.md",
+      "method": "GET",
+      "purpose": "primary rights and input-role documentation only",
+      "status": 200,
+      "content_type": "text/plain",
+      "path": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\metadata-rights-v1\\colo1-readme.txt",
+      "bytes": 16908,
+      "sha256": "af3ff422035e1e50a189b560b07ca0132e92b06f2afc4506e045f40cef5e6161",
+      "selected_documentary_lines": [
+        "<li> <strong>Notes1, Notes2 or Notes</strong>: These are the annotations of the pairs in the library. Most of the libraries have Notes1 and Notes2 but the Pilot library contains only Notes</li>",
+        "The library contains the Notes field and the an extra Scaffold field compared to the other libraries. The remaining fields are the same. The annotations of the vectors that are in the Notes field is as follows: ",
+        "The format of this annotation category is as follows:",
+        "Notice that the position of the GIpair genes are the same in the singleton version. If the gene is in the first position than in the singleton version it is also in the first position. A total of 2872 vectors are in the GIpairs annotation. All the vectors are using the wildtype scaffold. ",
+        "This annotation corresponds to the positive control guides. Here essential genes are paired with non-targeting regions as well as intergenic regions. The main fitness effect is coming from the essential genes so we need to observe a reduction at the fitness of the cells. This guides are designed in bot positions, meaning all the vectors have their flipped positions in the ScaffoldPosition category. The structure of the guide pairs are as follows: ",
+        "There are total of 100136 Vectors in the library and all the vectors are designed using Wildtype Scaffold. As we described above this is an anchored library where a set of 40 anchor genes are paired with 404 library genes. The annotation categories for the COLO1 library is under the (Notes) field and can be described as follows: "
+      ],
+      "elapsed_seconds": 0.42977039999095723
+    },
+    {
+      "name": "colo1-input-roles",
+      "url": "https://raw.githubusercontent.com/ibarrioh/DualGuide_COLO1/cfb5eb9a39ff1ec43642fba9485270ae200e81ae/Analysis/ENCORE/input/readme.txt",
+      "method": "GET",
+      "purpose": "primary rights and input-role documentation only",
+      "status": 200,
+      "content_type": "text/plain",
+      "path": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\metadata-rights-v1\\colo1-input-roles.txt",
+      "bytes": 1056,
+      "sha256": "58d43658409964dd4ece4987750dab0e569ed198da4b13e9a42b75a8fc1761c6",
+      "selected_documentary_lines": [
+        "##IDs_colo1.rds: row annotation for all previous tables"
+      ],
+      "elapsed_seconds": 0.4145367999735754
+    },
+    {
+      "name": "paralog-deposit-v4",
+      "url": "https://api.figshare.com/v2/articles/25954027/versions/4",
+      "method": "GET",
+      "purpose": "primary rights and input-role documentation only",
+      "status": 200,
+      "content_type": "application/json",
+      "path": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\metadata-rights-v1\\paralog-deposit-v4.json",
+      "bytes": 11834,
+      "sha256": "f782b4b45bd67f14908eabb771bcaa9554674e48abc6a03cd9a3ce741648d755",
+      "selected_catalog": {
+        "title": "A compendium of synthetic lethal gene pairs defined by extensive combinatorial pan-cancer CRISPR screening",
+        "version": 4,
+        "license": {
+          "value": 3,
+          "name": "MIT",
+          "url": "https://opensource.org/licenses/MIT"
+        },
+        "description": "<p dir=\"ltr\">To be confirmed</p>",
+        "references": [],
+        "related_materials": [],
+        "url_public_html": "https://figshare.com/articles/dataset/A_compendium_of_synthetic_lethal_gene_pairs_defined_by_extensive_combinatorial_pan-cancer_CRISPR_screening/25954027/4",
+        "files": [
+          {
+            "id": 46763992,
+            "name": "METADATA.tar.gz",
+            "size": 1141797,
+            "download_url": "https://ndownloader.figshare.com/files/46763992",
+            "computed_md5": "c6852831c477ca7d0a6d83a56e6c4ad8"
+          },
+          {
+            "id": 46763995,
+            "name": "DATA.tar.gz",
+            "size": 438415220,
+            "download_url": "https://ndownloader.figshare.com/files/46763995",
+            "computed_md5": "9ab69e60afe229028dafe17d7ce6a833"
+          },
+          {
+            "id": 47729842,
+            "name": "Plate_1_target_list.xlsx",
+            "size": 11332,
+            "download_url": "https://ndownloader.figshare.com/files/47729842",
+            "computed_md5": "9b8e79ad7b74688ebe23809657bd6c41"
+          },
+          {
+            "id": 47729845,
+            "name": "Plate_4_target_list.xlsx",
+            "size": 11288,
+            "download_url": "https://ndownloader.figshare.com/files/47729845",
+            "computed_md5": "f26d727edfe40d87178c1d20f436311f"
+          },
+          {
+            "id": 47729839,
+            "name": "Plate_3_target_list.xlsx",
+            "size": 11286,
+            "download_url": "https://ndownloader.figshare.com/files/47729839",
+            "computed_md5": "f8c0097822090fa2e111fcbcd1506902"
+          },
+          {
+            "id": 47729848,
+            "name": "Plate_2_target_list.xlsx",
+            "size": 11297,
+            "download_url": "https://ndownloader.figshare.com/files/47729848",
+            "computed_md5": "441948548d0fadcd1a1d554e77ee5171"
+          },
+          {
+            "id": 47729878,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 563916598,
+            "download_url": "https://ndownloader.figshare.com/files/47729878",
+            "computed_md5": ""
+          },
+          {
+            "id": 47729854,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 234494294,
+            "download_url": "https://ndownloader.figshare.com/files/47729854",
+            "computed_md5": "89873e50a1ba59e72b3c101a58508fb6"
+          },
+          {
+            "id": 47729884,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 665101715,
+            "download_url": "https://ndownloader.figshare.com/files/47729884",
+            "computed_md5": ""
+          },
+          {
+            "id": 47729896,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 833915209,
+            "download_url": "https://ndownloader.figshare.com/files/47729896",
+            "computed_md5": "e89683f94bb52a6d5a804b8b85dd9339"
+          },
+          {
+            "id": 47729902,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 1010028841,
+            "download_url": "https://ndownloader.figshare.com/files/47729902",
+            "computed_md5": "c1faa9995c1392b384fc7fd5f74ba245"
+          },
+          {
+            "id": 47729890,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 782933097,
+            "download_url": "https://ndownloader.figshare.com/files/47729890",
+            "computed_md5": ""
+          },
+          {
+            "id": 47729872,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 475053391,
+            "download_url": "https://ndownloader.figshare.com/files/47729872",
+            "computed_md5": ""
+          },
+          {
+            "id": 47729866,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 408007577,
+            "download_url": "https://ndownloader.figshare.com/files/47729866",
+            "computed_md5": ""
+          },
+          {
+            "id": 47729875,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 501145054,
+            "download_url": "https://ndownloader.figshare.com/files/47729875",
+            "computed_md5": ""
+          },
+          {
+            "id": 47729881,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 617715685,
+            "download_url": "https://ndownloader.figshare.com/files/47729881",
+            "computed_md5": ""
+          },
+          {
+            "id": 47729860,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 337821734,
+            "download_url": "https://ndownloader.figshare.com/files/47729860",
+            "computed_md5": "287a97994751deb6777a60981b8b2937"
+          },
+          {
+            "id": 47729857,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 312855613,
+            "download_url": "https://ndownloader.figshare.com/files/47729857",
+            "computed_md5": "7604f8271af6bd3e7c1f6e195aa784dc"
+          },
+          {
+            "id": 47729905,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 958793641,
+            "download_url": "https://ndownloader.figshare.com/files/47729905",
+            "computed_md5": "cab6d14c9c24f2c0446149f8ea636211"
+          },
+          {
+            "id": 47729899,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 921270730,
+            "download_url": "https://ndownloader.figshare.com/files/47729899",
+            "computed_md5": "042ab60c635e53a84e2ce7f7315933a1"
+          },
+          {
+            "id": 47729863,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 353261572,
+            "download_url": "https://ndownloader.figshare.com/files/47729863",
+            "computed_md5": "90008f7105a754d0c161b833d30406eb"
+          },
+          {
+            "id": 47993605,
+            "name": "pancan_pcawg_2020_clinical_data.tsv",
+            "size": 1070775,
+            "download_url": "https://ndownloader.figshare.com/files/47993605",
+            "computed_md5": "7f3905677a9f52ce039c1917b043455c"
+          },
+          {
+            "id": 47729893,
+            "name": "Objects_Population - Cells Final.txt",
+            "size": 781834716,
+            "download_url": "https://ndownloader.figshare.com/files/47729893",
+            "computed_md5": "19a73f3ad26c03d93f7311bf27ba87ab"
+          },
+          {
+            "id": 47993560,
+            "name": "pancan_pcawg_cna.tsv",
+            "size": 166711,
+            "download_url": "https://ndownloader.figshare.com/files/47993560",
+            "computed_md5": "0eaf832c42344d38ec38f1a81eb145b3"
+          }
+        ]
+      },
+      "elapsed_seconds": 0.9012542999989819
+    },
+    {
+      "name": "paralog-readme",
+      "url": "https://raw.githubusercontent.com/team113sanger/harle_dgCRISPR_paralogs/fe14bb800f2766235096a655c2fb5da572808a8a/README.md",
+      "method": "GET",
+      "purpose": "primary rights and input-role documentation only",
+      "status": 200,
+      "content_type": "text/plain",
+      "path": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\metadata-rights-v1\\paralog-readme.txt",
+      "bytes": 2130,
+      "sha256": "7787d72d6ea2c9cd078b9175666a332a6ed2801eec3a4f64751ac3b8b3d37de5",
+      "selected_documentary_lines": [
+        "[![DOI](https://zenodo.org/badge/628953602.svg)](https://doi.org/10.5281/zenodo.15827200)",
+        "2. Download the datasets from [Figshare](https://doi.org/10.6084/m9.figshare.25954027.v4).",
+        "curl -k -o dnld.zip -O https://figshare.com/ndownloader/articles/25954027/versions/4?folder_path=dnld",
+        "unzip -j dnld.zip 'DATA.tar.gz' 'METADATA.tar.gz' && rm dnld.zip",
+        "Initial data required for the analysis of the CRISPR screen can be found in the `DATA` and `METADATA` directories. Python Notebooks which detail the analyses can be found in `JupyterNotebooks`. These rely on R and Bash scripts in the `SCRIPTS` directory.",
+        "2. Download the datasets from [Figshare](https://doi.org/10.6084/m9.figshare.25954027.v4).",
+        "curl -k -o dnld.zip -O https://figshare.com/ndownloader/articles/25954027/versions/4?folder_path=imaging_data"
+      ],
+      "elapsed_seconds": 0.39126000000396743
+    },
+    {
+      "name": "paralog-license",
+      "url": "https://raw.githubusercontent.com/team113sanger/harle_dgCRISPR_paralogs/fe14bb800f2766235096a655c2fb5da572808a8a/LICENSE",
+      "method": "GET",
+      "purpose": "primary rights and input-role documentation only",
+      "status": 200,
+      "content_type": "text/plain",
+      "path": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\metadata-rights-v1\\paralog-license.txt",
+      "bytes": 1097,
+      "sha256": "52fd648e5f0ae6602222974fbef18b591722596e43dded5d6bdccac1e6a523c0",
+      "selected_rights": {
+        "mit_title": false,
+        "permission_grant": true,
+        "copyright_lines": [
+          "Copyright 2023 Wellcome Sanger Institute, Genome Research Limited"
+        ]
+      },
+      "elapsed_seconds": 0.3868496000068262
+    }
+  ],
+  "wall_seconds": 1.320812100020703,
+  "source_assets_acquired": 0,
+  "archive_or_rds_objects_opened": 0,
+  "response_tables_or_headers_opened": false,
+  "fits": 0,
+  "scores": 0,
+  "timeout_enforcement": "30s transport timeout plus cooperative total/stream checks; external120s process-tree watchdog",
+  "source_code_executed": false
+}

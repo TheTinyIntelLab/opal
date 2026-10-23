@@ -1,0 +1,12 @@
+{
+  "freeze_sha256": "90343bfb38f6f71a15ce8288bfef772e805ed8099f349c000feffb6b7091b438",
+  "code_sha256": {
+    "tools/continuation_paralog_inventory_v1.py": "7d70177b967b8a33013410cebe3a68aa5cb8e7e3c110875cf101b6a0b955c2e6",
+    "tools/continuation_metadata_rights_v1.py": "d3802ba2b4a7dff6fddf1fa4825388c07e70d6db45a24d6bc778a6350472c4cb",
+    "tests/test_continuation_paralog_inventory.py": "2f1b2bda8868cf1d441f5f76b4492ca92e6d0e104bb748429f43efaa539a0108"
+  },
+  "commands": [
+    "tools/continuation_paralog_inventory_v1.py",
+    "-m pytest tests/test_continuation_paralog_inventory.py -q"
+  ]
+}

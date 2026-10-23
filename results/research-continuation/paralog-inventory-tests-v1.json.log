@@ -1,0 +1,48 @@
+........F.                                                               [100%]
+================================== FAILURES ===================================
+_______________ test_declared_member_cap_is_checked_before_body _______________
+
+tmp_path = WindowsPath('C:/Users/USER/AppData/Local/Temp/pytest-of-USER/pytest-390/test_declared_member_cap_is_ch0')
+
+    def test_declared_member_cap_is_checked_before_body(tmp_path):
+>       with pytest.raises(ValueError,match='size cap'):inventory(archive(tmp_path,size=16*1024**2+1))
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_continuation_paralog_inventory.py:38: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\test_continuation_paralog_inventory.py:16: in archive
+    stream.addfile(member)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <tarfile.TarFile object at 0x0000029C5712B410>
+tarinfo = <TarInfo 'METADATA/design.csv' at 0x29c57002740>, fileobj = None
+
+    def addfile(self, tarinfo, fileobj=None):
+        """Add the TarInfo object 'tarinfo' to the archive. If 'tarinfo' represents
+           a non zero-size regular file, the 'fileobj' argument should be a binary file,
+           and tarinfo.size bytes are read from it and added to the archive.
+           You can create TarInfo objects directly, or by using gettarinfo().
+        """
+        self._check("awx")
+    
+        if fileobj is None and tarinfo.isreg() and tarinfo.size != 0:
+>           raise ValueError("fileobj not provided for non zero-size regular file")
+E           ValueError: fileobj not provided for non zero-size regular file
+
+C:\Python314\Lib\tarfile.py:2351: ValueError
+
+During handling of the above exception, another exception occurred:
+
+tmp_path = WindowsPath('C:/Users/USER/AppData/Local/Temp/pytest-of-USER/pytest-390/test_declared_member_cap_is_ch0')
+
+    def test_declared_member_cap_is_checked_before_body(tmp_path):
+>       with pytest.raises(ValueError,match='size cap'):inventory(archive(tmp_path,size=16*1024**2+1))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: Regex pattern did not match.
+E         Expected regex: 'size cap'
+E         Actual message: 'fileobj not provided for non zero-size regular file'
+
+tests\test_continuation_paralog_inventory.py:38: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_continuation_paralog_inventory.py::test_declared_member_cap_is_checked_before_body
+1 failed, 9 passed in 0.16s

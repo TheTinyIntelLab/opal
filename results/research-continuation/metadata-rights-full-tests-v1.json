@@ -1,0 +1,40 @@
+{
+  "command": [
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/.venv/Scripts/python.exe",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "--basetemp",
+    "tmp/metadata-rights-tests-v1",
+    "--junitxml",
+    "tmp/metadata-rights-tests-v1.xml"
+  ],
+  "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+  "pythonpath": null,
+  "started_utc": "2026-10-23T04:33:29.028195+00:00",
+  "bound_sha256": {
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\wave5_run_check.py": "57a2173eda688cd58f30be5cdbd24487f26c324e1bf0b0d2304c26c23ee2d30b",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\research-wave5\\freeze.json": "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\continuation_metadata_rights_v1.py": "d3802ba2b4a7dff6fddf1fa4825388c07e70d6db45a24d6bc778a6350472c4cb",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\continuation_paralog_inventory_v1.py": "7d70177b967b8a33013410cebe3a68aa5cb8e7e3c110875cf101b6a0b955c2e6",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tests\\test_continuation_paralog_inventory.py": "1950b1127615279863e177e103ad942d10f09698e4c69212d96abe0c05dd2bd7"
+  },
+  "caps": {
+    "timeout_seconds": 900.0,
+    "peak_bytes": 2147483648
+  },
+  "sampling_seconds": 0.05,
+  "timeout_enforcement": "sampled external watchdog; kills process tree",
+  "cpu_measurement": "sampled sum across live process tree; may miss process-exit tail",
+  "returncode": 0,
+  "stopped": null,
+  "wall_seconds": 91.8842002999736,
+  "sampled_cpu_seconds": 67.890625,
+  "sampled_tree_peak_bytes": 714117120,
+  "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\research-continuation\\metadata-rights-full-tests-v1.json.log",
+  "log_sha256": "5e0eb779e76e0d445319abe7928ad4ec2fec40aa5d1ddcf2fdd3212e7bee187d",
+  "log_bytes": 1953,
+  "bound_drift": [],
+  "passed": true
+}

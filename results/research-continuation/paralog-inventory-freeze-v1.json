@@ -1,0 +1,28 @@
+{
+  "schema": "opal-paralog-inventory-freeze-v1",
+  "created_utc": "2026-10-23T04:26:46.165938+00:00",
+  "files_sha256": {
+    "docs/research_reset/continuation/paralog_inventory_v1.md": "bfd4063285cf496d8aa731a11736a96d6556ff74c69c9ae265a5da2117320d1c",
+    "results/research-continuation/metadata-rights-receipt-v1.json": "bcd1a7a9183bf25c99fc6732cceb42e45b3b563da081ab66077aa5463e013725",
+    "results/research-continuation/metadata-rights-freeze-v1.json": "360001fa7c57b970b84550f51aea4821d373f3050ea62615f589f9752a612843",
+    "results/research-continuation/documentary-fetch-v1.json": "5dd9e01a368ee9c7ca4016c16e0f0ae3b15ccfe47e32206a6a5ce53508d14e57"
+  },
+  "asset": {
+    "figshare_file_id": 46763992,
+    "size": 1141797,
+    "md5": "c6852831c477ca7d0a6d83a56e6c4ad8"
+  },
+  "asset_acquisition": "metadata archive only; inventory headers only; zero member bodies",
+  "initial_gets": 4,
+  "redirect_hops": 2,
+  "forbidden": [
+    "other_assets",
+    "member_bodies",
+    "response_headers",
+    "response_values",
+    "upstream_code_execution",
+    "fits",
+    "scores"
+  ],
+  "worker": "root, no independent validation"
+}
