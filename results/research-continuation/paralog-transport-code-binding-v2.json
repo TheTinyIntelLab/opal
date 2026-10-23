@@ -1,0 +1,13 @@
+{
+  "freeze_sha256": "f218b2a5aef6202290a0d54ca74ca4972d2e2ef025cccc9f08143ca2657387d5",
+  "code_sha256": {
+    "tools/continuation_paralog_transport_v2.py": "49422460d0dfba12e5fde1976ae016a6f2fbcce2bacecb9047d60aae5a8eff68",
+    "tests/test_continuation_transport_v2.py": "d4977a69b797cf9f397e6ff18e165318314cd437a2bb83ca863743611b4e9bed"
+  },
+  "commands": [
+    "-m pytest tests/test_continuation_transport_v2.py -q",
+    "tools/continuation_paralog_transport_v2.py"
+  ],
+  "source_requests_authorized": 1,
+  "body_bytes_authorized": 0
+}
