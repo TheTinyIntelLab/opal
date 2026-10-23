@@ -1,0 +1,13 @@
+{
+  "freeze_sha256": "9a4f4054977d50552854eae2d4c8ff3f6215e6cb1d0b10089031b1bc5ba9eceb",
+  "code_sha256": {
+    "tools/continuation_colo1_zip_directory_v1.py": "1a3cc349d1d0618398806b0a98aba4727866fd8c7b9d9fd9ffc63ee468d8b68b",
+    "tests/test_continuation_colo1_zip_directory_v1.py": "130186eb0c3b0b32e07faf60bf4a17738b1d28c845adf843bb4ed0eaa360d0a1"
+  },
+  "commands": [
+    "-m pytest tests/test_continuation_colo1_zip_directory_v1.py -q",
+    "tools/continuation_colo1_zip_directory_v1.py"
+  ],
+  "maximum_source_gets": 2,
+  "member_body_requests": 0
+}

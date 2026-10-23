@@ -1,0 +1,215 @@
+{
+  "schema": "opal-padding-synthesis-v1",
+  "configs": [
+    {
+      "file": "cell-00.json",
+      "config": {
+        "tile": 128,
+        "joint": false,
+        "threads": 1,
+        "repeat": 1
+      },
+      "legacy_max_abs": 1.245199382493567e-08,
+      "legacy_max_relative": 2.982666268745859e-08,
+      "affected_rows": [
+        15778
+      ],
+      "first_stage": "whitened",
+      "self_max_abs": 3.3306690738754696e-16,
+      "self_exact": false,
+      "self_atol": true,
+      "legacy_atol": false,
+      "prediction_sha256": "1089292898c0cc5b592348f6cc372a45c40165542f4500ef0405f080b7e293f8"
+    },
+    {
+      "file": "cell-01.json",
+      "config": {
+        "tile": 128,
+        "joint": false,
+        "threads": 1,
+        "repeat": 2
+      },
+      "legacy_max_abs": 1.245199382493567e-08,
+      "legacy_max_relative": 2.982666268745859e-08,
+      "affected_rows": [
+        15778
+      ],
+      "first_stage": "whitened",
+      "self_max_abs": 3.3306690738754696e-16,
+      "self_exact": false,
+      "self_atol": true,
+      "legacy_atol": false,
+      "prediction_sha256": "1089292898c0cc5b592348f6cc372a45c40165542f4500ef0405f080b7e293f8"
+    },
+    {
+      "file": "cell-02.json",
+      "config": {
+        "tile": 128,
+        "joint": true,
+        "threads": 1,
+        "repeat": 1
+      },
+      "legacy_max_abs": 1.245199382493567e-08,
+      "legacy_max_relative": 2.982666268745859e-08,
+      "affected_rows": [
+        15778
+      ],
+      "first_stage": "whitened",
+      "self_max_abs": 0.0,
+      "self_exact": true,
+      "self_atol": true,
+      "legacy_atol": false,
+      "prediction_sha256": "2f757c4b3d77ab71eeb8464719fcc19ddb702cd22b523095c3eb0182da0d29ba"
+    },
+    {
+      "file": "cell-03.json",
+      "config": {
+        "tile": 128,
+        "joint": true,
+        "threads": 1,
+        "repeat": 2
+      },
+      "legacy_max_abs": 1.245199382493567e-08,
+      "legacy_max_relative": 2.982666268745859e-08,
+      "affected_rows": [
+        15778
+      ],
+      "first_stage": "whitened",
+      "self_max_abs": 0.0,
+      "self_exact": true,
+      "self_atol": true,
+      "legacy_atol": false,
+      "prediction_sha256": "2f757c4b3d77ab71eeb8464719fcc19ddb702cd22b523095c3eb0182da0d29ba"
+    },
+    {
+      "file": "cell-04.json",
+      "config": {
+        "tile": 2048,
+        "joint": false,
+        "threads": 1,
+        "repeat": 1
+      },
+      "legacy_max_abs": 1.245199382493567e-08,
+      "legacy_max_relative": 2.982666268745859e-08,
+      "affected_rows": [
+        15778
+      ],
+      "first_stage": "whitened",
+      "self_max_abs": 3.3306690738754696e-16,
+      "self_exact": false,
+      "self_atol": true,
+      "legacy_atol": false,
+      "prediction_sha256": "1089292898c0cc5b592348f6cc372a45c40165542f4500ef0405f080b7e293f8"
+    },
+    {
+      "file": "cell-05.json",
+      "config": {
+        "tile": 2048,
+        "joint": false,
+        "threads": 1,
+        "repeat": 2
+      },
+      "legacy_max_abs": 1.245199382493567e-08,
+      "legacy_max_relative": 2.982666268745859e-08,
+      "affected_rows": [
+        15778
+      ],
+      "first_stage": "whitened",
+      "self_max_abs": 3.3306690738754696e-16,
+      "self_exact": false,
+      "self_atol": true,
+      "legacy_atol": false,
+      "prediction_sha256": "1089292898c0cc5b592348f6cc372a45c40165542f4500ef0405f080b7e293f8"
+    },
+    {
+      "file": "cell-06.json",
+      "config": {
+        "tile": 2048,
+        "joint": true,
+        "threads": 1,
+        "repeat": 1
+      },
+      "legacy_max_abs": 1.245199382493567e-08,
+      "legacy_max_relative": 2.982666268745859e-08,
+      "affected_rows": [
+        15778
+      ],
+      "first_stage": "whitened",
+      "self_max_abs": 0.0,
+      "self_exact": true,
+      "self_atol": true,
+      "legacy_atol": false,
+      "prediction_sha256": "2f757c4b3d77ab71eeb8464719fcc19ddb702cd22b523095c3eb0182da0d29ba"
+    },
+    {
+      "file": "cell-07.json",
+      "config": {
+        "tile": 2048,
+        "joint": true,
+        "threads": 1,
+        "repeat": 2
+      },
+      "legacy_max_abs": 1.245199382493567e-08,
+      "legacy_max_relative": 2.982666268745859e-08,
+      "affected_rows": [
+        15778
+      ],
+      "first_stage": "whitened",
+      "self_max_abs": 0.0,
+      "self_exact": true,
+      "self_atol": true,
+      "legacy_atol": false,
+      "prediction_sha256": "2f757c4b3d77ab71eeb8464719fcc19ddb702cd22b523095c3eb0182da0d29ba"
+    },
+    {
+      "file": "cell-08.json",
+      "config": {
+        "tile": 2048,
+        "joint": true,
+        "threads": 2,
+        "repeat": 1
+      },
+      "legacy_max_abs": 1.245199382493567e-08,
+      "legacy_max_relative": 2.982666268745859e-08,
+      "affected_rows": [
+        15778
+      ],
+      "first_stage": "whitened",
+      "self_max_abs": 0.0,
+      "self_exact": true,
+      "self_atol": true,
+      "legacy_atol": false,
+      "prediction_sha256": "2f757c4b3d77ab71eeb8464719fcc19ddb702cd22b523095c3eb0182da0d29ba"
+    },
+    {
+      "file": "cell-09.json",
+      "config": {
+        "tile": 2048,
+        "joint": true,
+        "threads": 2,
+        "repeat": 2
+      },
+      "legacy_max_abs": 1.245199382493567e-08,
+      "legacy_max_relative": 2.982666268745859e-08,
+      "affected_rows": [
+        15778
+      ],
+      "first_stage": "whitened",
+      "self_max_abs": 0.0,
+      "self_exact": true,
+      "self_atol": true,
+      "legacy_atol": false,
+      "prediction_sha256": "2f757c4b3d77ab71eeb8464719fcc19ddb702cd22b523095c3eb0182da0d29ba"
+    }
+  ],
+  "all_process_repeats_bitwise": true,
+  "all_joint_baselines_across_tiles_threads_bitwise": true,
+  "both_histories_exact_in_all_ten_jobs": true,
+  "passing_legacy_and_invariance_candidates": 0,
+  "tail_configurations": 1008,
+  "tail_whitening_observations": 3024,
+  "filler_or_layout_signature_differences_at_fixed_thread_shape_query": 6,
+  "fit": false,
+  "score": false,
+  "production_change_decision": "No production predictor change: all candidates fail unchanged legacy compatibility; retain separate fixed-order contract and historical failures."
+}

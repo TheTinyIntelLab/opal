@@ -1,0 +1,38 @@
+{
+  "schema": "opal-colo1-zip-directory-v1",
+  "freeze_sha256": "9a4f4054977d50552854eae2d4c8ff3f6215e6cb1d0b10089031b1bc5ba9eceb",
+  "code_binding_sha256": "50766ac2949bc0d2440e4d3234452a542d9926741ffa0bf27a12f347c0df2aa4",
+  "requests": [
+    {
+      "label": "eocd",
+      "url": "https://zenodo.org/api/records/17191951/files/ibarrioh/DualGuide_COLO1-Release2.zip/content",
+      "range": [
+        89422892,
+        89422913
+      ],
+      "body_bytes_read": 0,
+      "observed_utc": "2026-10-23T05:47:57.182301+00:00",
+      "status": 206,
+      "content_type": "application/octet-stream",
+      "content_range": "bytes 89422892-89422913/89422914",
+      "content_length": "22",
+      "content_encoding": null,
+      "error": "ValueError: Strong nonempty ETag required",
+      "elapsed_seconds": 0.700799000042025
+    }
+  ],
+  "descriptor": null,
+  "entries": [],
+  "stopped": "ValueError: Strong nonempty ETag required",
+  "row_annotation_candidates": [],
+  "documented_size_candidate_present": false,
+  "wall_seconds": 0.7038499999907799,
+  "structural_body_bytes_read": 0,
+  "archive_catalog_md5_verified": false,
+  "whole_archive_downloaded": false,
+  "member_bodies_opened": 0,
+  "response_tables_or_headers_opened": false,
+  "source_qualified": false,
+  "fits": 0,
+  "scores": 0
+}

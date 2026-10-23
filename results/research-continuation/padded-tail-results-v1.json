@@ -1,0 +1,99 @@
+{
+  "schema": "opal-padded-tail-diagnostic-v1",
+  "executor": "root; no independent execution",
+  "freeze_sha256": "fcc4874c1ba7b00eadbcbe77424b3e4cbe340680565bdbe853fd918cdab6b1ec",
+  "code_binding_sha256": "57fbf7158ff727c6a708faa832cc81fb281174a00a63628d1f6c6945faed58cb",
+  "configurations": 1008,
+  "whitening_observations": 3024,
+  "cases_gzip_sha256": "b036868582e7bcb33d5ab095dcf49093898f04c56b0d761c6235c4311334cd54",
+  "cases_uncompressed_sha256": "fd354068df243a82ceabe04fb97e11a20221b55ae67d217f46349ced7118586c",
+  "case_path": "results\\research-continuation\\padded-tail-cases-v1.json.gz",
+  "validation_positions": [
+    0,
+    7889,
+    15778
+  ],
+  "reference_whitening_sha256": [
+    "e61eea67344277155a635aac771727a8250f5d3c9db691c95b6cdb6098f01cf0",
+    "75467d2d405b9df3bbb26c7d5c049cda51a70bed57b65ec76d6681046ba153e0",
+    "6685cb0349c88c8d3b7ec37a1c8544ca7d1a3e4bc184cc731729018ffb4cad7b"
+  ],
+  "reference_to_rounded_product_fsum_max_abs": [
+    2.4714120165887516e-11,
+    2.0050608065280564e-11,
+    2.883837613154583e-11
+  ],
+  "oracle_limit": "math.fsum of float64-rounded products, not exact unrounded products",
+  "maximum_whitening_delta": 3.368635837435728e-11,
+  "bitwise_equal_observations": 1818,
+  "threadpools": [
+    {
+      "requested": 1,
+      "pools": [
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 1,
+          "prefix": "libscipy_openblas",
+          "filepath": "C:\\Users\\USER\\AppData\\Roaming\\Python\\Python314\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+          "version": "0.3.30",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libiomp",
+          "filepath": "C:\\Users\\USER\\AppData\\Roaming\\Python\\Python314\\site-packages\\torch\\lib\\libiomp5md.dll",
+          "version": null
+        },
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libiomp",
+          "filepath": "C:\\Users\\USER\\AppData\\Roaming\\Python\\Python314\\site-packages\\torch\\lib\\libiompstubs5md.dll",
+          "version": null
+        }
+      ]
+    },
+    {
+      "requested": 2,
+      "pools": [
+        {
+          "user_api": "blas",
+          "internal_api": "openblas",
+          "num_threads": 2,
+          "prefix": "libscipy_openblas",
+          "filepath": "C:\\Users\\USER\\AppData\\Roaming\\Python\\Python314\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll",
+          "version": "0.3.30",
+          "threading_layer": "pthreads",
+          "architecture": "Haswell"
+        },
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 2,
+          "prefix": "libiomp",
+          "filepath": "C:\\Users\\USER\\AppData\\Roaming\\Python\\Python314\\site-packages\\torch\\lib\\libiomp5md.dll",
+          "version": null
+        },
+        {
+          "user_api": "openmp",
+          "internal_api": "openmp",
+          "num_threads": 1,
+          "prefix": "libiomp",
+          "filepath": "C:\\Users\\USER\\AppData\\Roaming\\Python\\Python314\\site-packages\\torch\\lib\\libiompstubs5md.dll",
+          "version": null
+        }
+      ]
+    }
+  ],
+  "wall_seconds": 0.5936740000033751,
+  "cpu_seconds": 0.671875,
+  "outcome_arrays_loaded": false,
+  "fits": 0,
+  "scores": 0,
+  "production_implementation_changed": false
+}
