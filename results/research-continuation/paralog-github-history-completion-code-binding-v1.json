@@ -1,0 +1,13 @@
+{
+  "freeze_sha256": "5662d4db9ced837aa249e7489a8f71bb307e8b953f157e0cd13d3dd19d0c51b8",
+  "code_sha256": {
+    "tools/continuation_paralog_github_history_completion_v1.py": "b3cf2cb49947873c8c4e57bc640cd22ad14d891ab9187934ce4444a83b3f2133",
+    "tests/test_continuation_github_history_completion_v1.py": "48e9a4ce73fa4b0abb3919f13517d716e72c1614a9503ac88aad71bbf39dcc37"
+  },
+  "commands": [
+    "-m pytest tests/test_continuation_github_history_completion_v1.py -q",
+    "tools/continuation_paralog_github_history_completion_v1.py"
+  ],
+  "maximum_source_requests": 6,
+  "failed_endpoint_retries": 0
+}

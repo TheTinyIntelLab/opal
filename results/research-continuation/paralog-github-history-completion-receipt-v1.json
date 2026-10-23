@@ -1,0 +1,2851 @@
+{
+  "schema": "opal-paralog-github-history-completion-v1",
+  "freeze_sha256": "5662d4db9ced837aa249e7489a8f71bb307e8b953f157e0cd13d3dd19d0c51b8",
+  "code_binding_sha256": "98a55facbc150cdebde4a4f583cc311cf2a518b6542433d6c7c2e39589965468",
+  "descriptor": {
+    "url": "https://api.github.com/repos/team113sanger/harle_dgCRISPR_paralogs/git/commits/a1f64b8cd3e4517c5268c39f89f568193142f62c",
+    "observed_utc": "2026-10-23T05:28:47.275904+00:00",
+    "status": 200,
+    "bytes": 872,
+    "sha256": "b5bf8a0e8984a98566f6e7810d6422e8c83d8c0d1cc45dfcd363d813b712ba02",
+    "commit_sha": "a1f64b8cd3e4517c5268c39f89f568193142f62c",
+    "tree_sha": "4b825dc642cb6eb9a060e54bf8d69288fbee4904",
+    "parent_shas": [],
+    "empty_tree_by_git_identity": true,
+    "elapsed_seconds": 0.4316180999740027
+  },
+  "remaining_fixed_identities": [
+    "b7bb2c81e6d533441386bc3b7ce018b041b00920",
+    "bb4ec6cff0598ec17847ffdf637b8e8427a9cded",
+    "c2e9dcad221fc86ea646dbfbefb2a5206831aa3b",
+    "ced1b6bcf46939c02aa65736ab27b2e57a0a5083",
+    "d81ce919a10af4fb5362a659a8109394248489ce"
+  ],
+  "trees": [
+    {
+      "kind": "tree",
+      "url": "https://api.github.com/repos/team113sanger/harle_dgCRISPR_paralogs/git/trees/b7bb2c81e6d533441386bc3b7ce018b041b00920?recursive=1",
+      "observed_utc": "2026-10-23T05:28:47.710047+00:00",
+      "status": 200,
+      "pagination_advertised": false,
+      "bytes": 29335,
+      "sha256": "970da2e646c658d0540b542dcd84264e208d5150114e64817aa8f38d804551b8",
+      "tree_sha": "b7bb2c81e6d533441386bc3b7ce018b041b00920",
+      "entries": [
+        {
+          "path": ".github",
+          "type": "tree",
+          "sha": "80084bd72855321e548f96bd54d20a527c2a26e1"
+        },
+        {
+          "path": ".github/workflows",
+          "type": "tree",
+          "sha": "0ed75143f7535532d879cca0c627934d138b9e28"
+        },
+        {
+          "path": ".github/workflows/docker-image.yml",
+          "type": "blob",
+          "sha": "23e74868c5ba4bbd9aefcc3881441273bb87db28",
+          "size": 982
+        },
+        {
+          "path": "Dockerfile",
+          "type": "blob",
+          "sha": "5ece079e4db212a170e99d4eea5ae64afcfe80bc",
+          "size": 3182
+        },
+        {
+          "path": "INSTALL_README.md",
+          "type": "blob",
+          "sha": "e42ded20978e995c9370d9986b4f9150be053dce",
+          "size": 1487
+        },
+        {
+          "path": "MANUSCRIPT",
+          "type": "tree",
+          "sha": "2f0689f845662c8a95d63e053f692d5ae3b1bff4"
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS",
+          "type": "tree",
+          "sha": "beec84b34b526f20af3c1d7bab17cdfa1ed9b873"
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/CMP_total_copy_number.png",
+          "type": "blob",
+          "sha": "59753fc0e50c9ac58d7880393b2963ef906af3c8",
+          "size": 315481
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/DepMap_relative_copy_number.png",
+          "type": "blob",
+          "sha": "bdac7533b38ab358d44a6b53f5ee4e6034d04eb9",
+          "size": 792214
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F2__heatmap_without_total_hits_portrait.png",
+          "type": "blob",
+          "sha": "a82823c6784fd3f5b92e081aaae7a7ad50e7d413",
+          "size": 443239
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F4B__pie_chart_frequency_of_all_pairs.png",
+          "type": "blob",
+          "sha": "ad257365570136f89f990d2972ee6b4b12974941",
+          "size": 221561
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F4C__pie_chart_hit_frequency_altered_colours.png",
+          "type": "blob",
+          "sha": "67fb6928e22cbf06179ebc7c4feefc6ce4257d65",
+          "size": 259278
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F5A__median_GI_of_hits_per_pair_v_total_hits.png",
+          "type": "blob",
+          "sha": "23fda1206e33ef2e50665ed1892fad8536920cbd",
+          "size": 101873
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F5B__GI_range_of_hits_per_cell_line.png",
+          "type": "blob",
+          "sha": "68d1e70b771c70696dbdd1b0f1ece62aa58a38dd",
+          "size": 158127
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F5C__cell_line_ranking_of_hits_in_more_than_50pct_ of_lines.png",
+          "type": "blob",
+          "sha": "9d85e9bcd55806eff3b13ebeae6aa9cc4973b3a5",
+          "size": 220067
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/control_correlation_normalised_counts.png",
+          "type": "blob",
+          "sha": "58f3065671d90b994d2c100c13a4a899c6fd5cf4",
+          "size": 752996
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/gini_index_per_sample.png",
+          "type": "blob",
+          "sha": "81783c8d1afab65841d6b7e98a5e5da06a274e7a",
+          "size": 183863
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/median_normalised_counts_per_sample.png",
+          "type": "blob",
+          "sha": "449b0ca9ee034c3e45beb05448795c84059eb859",
+          "size": 186647
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/normalised_LFC_NNMD.png",
+          "type": "blob",
+          "sha": "183f82eb61bd7290badc9a10adae0042cef94268",
+          "size": 148091
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/total_hits_per_cell_line.png",
+          "type": "blob",
+          "sha": "f4eb1fa40f87d1d88ec5dbbdb15f9944d1586744",
+          "size": 65896
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/total_read_pairs_per_sample.png",
+          "type": "blob",
+          "sha": "a7008ba12e6138dc616ee1c22a338cc9597b0785",
+          "size": 208701
+        },
+        {
+          "path": "MANUSCRIPT/README.md",
+          "type": "blob",
+          "sha": "bd0cb821416d3968f86b6f1551a3a9a689b77f60",
+          "size": 2744
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS",
+          "type": "tree",
+          "sha": "df98a1ba2d54a224b6d3fce1df26e53823e2c4b5"
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F2__heatmap_of_hits_with_gi_and_waterfall.R",
+          "type": "blob",
+          "sha": "ad3a2566d4051e3fba71dd1370f11038aa74f91d",
+          "size": 9070
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4A__gi_of_hits.R",
+          "type": "blob",
+          "sha": "19a5429fff5ae76ed698b5ff9a8318179ad94f32",
+          "size": 1270
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4B__pie_all_gene_pairs.R",
+          "type": "blob",
+          "sha": "e21978ad8a09224c88948556e08e5190256ba113",
+          "size": 1982
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4C__number_of_times_a_hit_pie.R",
+          "type": "blob",
+          "sha": "b8dba18474e8f7792df1eb911ab433a4eb0d7961",
+          "size": 2064
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F5A__correlation_of_median_hit_GI_with_number_of_hits.R",
+          "type": "blob",
+          "sha": "7fec604260d254c635e63bbeeeac4f588b795cfd",
+          "size": 1514
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F5B__range_of_GI_scores.R",
+          "type": "blob",
+          "sha": "7e12880cfd3c4102f22195c99a4ba7e11c3cac18",
+          "size": 1648
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F5C__ranking_of_top_50percent_hits.R",
+          "type": "blob",
+          "sha": "0343e0664dcc63fc59bda30d162c51c9e6d6ad8e",
+          "size": 1716
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/prepare_data.R",
+          "type": "blob",
+          "sha": "4506c909c56bf808102ebf26679e3acce9d316d5",
+          "size": 3055
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis",
+          "type": "tree",
+          "sha": "a2df005cbbe2481a1414e8ddafa557ae5440c16b"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/.gitignore",
+          "type": "blob",
+          "sha": "72a7cab3f7d43f8cf05f39cb3d0ca9bead672f03",
+          "size": 135
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks",
+          "type": "tree",
+          "sha": "dcc5be3fed7ebb85ea07f0dad0aa17128aefcf3a"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/01_Data_Preparation.ipynb",
+          "type": "blob",
+          "sha": "bf9c0bec34516d07f5b35c86d4f1b3a0f3fdb7a4",
+          "size": 23581
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/02_Quality_Control.ipynb",
+          "type": "blob",
+          "sha": "83ccb2e76d0a6f6e31e5409ae375763830625114",
+          "size": 37348
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/03_Singles_Analyses.ipynb",
+          "type": "blob",
+          "sha": "3936072bcdea33d22611574449ab9484b8532dfb",
+          "size": 22439
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/04_Bassik_Analysis.ipynb",
+          "type": "blob",
+          "sha": "f8ccbd61223c32b5f40ff5e8ea585971034db31a",
+          "size": 9582
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/06_Postprocessing.ipynb",
+          "type": "blob",
+          "sha": "7eea3baad0a520ed01fea3c7222d4bbbf412ed18",
+          "size": 13239
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/README.md",
+          "type": "blob",
+          "sha": "cf9ec993ccd4609f4234437217c25659f82606eb",
+          "size": 163
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS",
+          "type": "tree",
+          "sha": "52e75766ce5b9ee5435162af411c92e6827b834a"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC",
+          "type": "tree",
+          "sha": "9616dd13083f3a4f69d468fd0e0a8bde11d365fd"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/01_pycroquet_statistics.R",
+          "type": "blob",
+          "sha": "b0ce138f628f48bfc3c34de09b49f8af6bb828a1",
+          "size": 6086
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/02_library_statistics.R",
+          "type": "blob",
+          "sha": "3e5e4f6f486d3be9302c68e78087fe864f78d2ad",
+          "size": 7704
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/03_control_samples.R",
+          "type": "blob",
+          "sha": "562c9d331c703636f6d540e437c1c4227512de99",
+          "size": 7489
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/04_sample_correlation_and_pca.R",
+          "type": "blob",
+          "sha": "40f02ebaab4985d8c66071e1e4d1ec16fa190bf7",
+          "size": 7661
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/05_sample_essentiality.R",
+          "type": "blob",
+          "sha": "be21add7c743ffbce84aa7c2db2b7958fc30c5a8",
+          "size": 7027
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/06_remove_samples.R",
+          "type": "blob",
+          "sha": "6d1bb8db19761bba28ae9b97be821bcaefd28064",
+          "size": 8283
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/07_scale_lfcs.R",
+          "type": "blob",
+          "sha": "3bab4f884e4006c5b42f33c499f8bfc93aca2e59",
+          "size": 9752
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/08_convert_scaled_lfcs_to_scaled_counts.R",
+          "type": "blob",
+          "sha": "617b42c5a21efd2eb484f991f2d07ec7a53fc89b",
+          "size": 7934
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/helper.R",
+          "type": "blob",
+          "sha": "7913c538db6212d4f11c63fbcc54e5dfdea9fa38",
+          "size": 31691
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide",
+          "type": "tree",
+          "sha": "7a27f3de7352297791d6101ea26dfc0fdb549b8c"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik",
+          "type": "tree",
+          "sha": "0383734a3d85acbf9d0e7e35826f8e0de07ab1e6"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/01_get_obs_vs_pred_values_by_chunk.R",
+          "type": "blob",
+          "sha": "7774d93203d5e92e0462a52e7d71b29df6fec556",
+          "size": 5632
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/01_get_obs_vs_pred_values_by_chunk.sh",
+          "type": "blob",
+          "sha": "bc1420b1f751752bfb1c5459283a7a66921dac14",
+          "size": 2479
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/02_merge_pred_vs_obs_chunks.R",
+          "type": "blob",
+          "sha": "fcc90d4f3d6c649540516334634f52ecd5e9abfd",
+          "size": 3905
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/02_merge_pred_vs_obs_chunks.sh",
+          "type": "blob",
+          "sha": "2602fa9dc8c2102a0602078a05c8c576682fb6e0",
+          "size": 2740
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/03_run_bassik_analysis.R",
+          "type": "blob",
+          "sha": "356a930724ab3b2a4a42ddb5c1d04dc0724d3f97",
+          "size": 25149
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/03_run_bassik_analysis.sh",
+          "type": "blob",
+          "sha": "0c0afba3b939eaa3e87f97290cb118e3489de45a",
+          "size": 1080
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/helper.R",
+          "type": "blob",
+          "sha": "4b2a0a1164f70d25f5cbe0eaedbf16d08d29eadb",
+          "size": 3491
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing",
+          "type": "tree",
+          "sha": "76c35021845b60619d21ef4e11abfcdc89bdfe69"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/01_download_depmap_relative_copy_number.R",
+          "type": "blob",
+          "sha": "45263b3938aaa18ca47e93ca6bbad0f988b89843",
+          "size": 7063
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/02_download_cmp_total_copy_number.R",
+          "type": "blob",
+          "sha": "f34d8c4ad08996c0aaa0bf327a92320331551591",
+          "size": 8542
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/03_download_depmap_expression.R",
+          "type": "blob",
+          "sha": "763a716d6b27c86a8fd123783a803ad67e60755c",
+          "size": 6447
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/04_download_common_essentials.R",
+          "type": "blob",
+          "sha": "7bdbb237ecaef09e61fbf94cdb51f8589b9806a3",
+          "size": 8417
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/05_download_depmap_depletion_probabilities.R",
+          "type": "blob",
+          "sha": "91c255fb26ce4ae7443e97b80a78cd8804180cb1",
+          "size": 7372
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/06_download_ccle_mutations.R",
+          "type": "blob",
+          "sha": "2b665e2bdc56936638d71ac03045405b6ab522fe",
+          "size": 5387
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/07_combine_intermediate_datasets.R",
+          "type": "blob",
+          "sha": "cd6da6c95c9d622bc7b38f8dc9843cd24e1ea133",
+          "size": 10068
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/08_build_binary_results_matrix.R",
+          "type": "blob",
+          "sha": "01faecbbb3ec49205df28c87cde5396d9b77ff13",
+          "size": 7881
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/09_summary_plots.R",
+          "type": "blob",
+          "sha": "29386df2d76e173bed56ddd2f67a008b8599d856",
+          "size": 6750
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/helper.R",
+          "type": "blob",
+          "sha": "d7d3ba1b4776c7f40f687ed6c6a73a1a3d97d14a",
+          "size": 4986
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing",
+          "type": "tree",
+          "sha": "b6ce81aa1a75ca62709b7760f4de5fdc664636b1"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/00_prepare_libraries.R",
+          "type": "blob",
+          "sha": "62bdba0ad86c6b59ea9b93382969d22cb8bd3254",
+          "size": 5606
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/01_merge_counts_by_sample.R",
+          "type": "blob",
+          "sha": "8a68dc00c51a0e2a2dbd4be6c5a1bcfed97b1f18",
+          "size": 6359
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/02_remove_user_defined_guides.R",
+          "type": "blob",
+          "sha": "ded6087d857adfd4d9ad88a559615c4213a931f9",
+          "size": 4654
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/03_bagel_normalisation.R",
+          "type": "blob",
+          "sha": "4d8a13ce941707ef85060cfe29e022bf4b0575b2",
+          "size": 4411
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/04_filter_low_count_guides.R",
+          "type": "blob",
+          "sha": "91bcab12d2fb9f3b8f081b2834872abac7cb842d",
+          "size": 6362
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/05_convert_counts_to_lfcs.R",
+          "type": "blob",
+          "sha": "34ae1f6c04eafdee0d865c3e026ff2f15b8c1bb4",
+          "size": 6947
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/helper.R",
+          "type": "blob",
+          "sha": "aa02d92e0039959df70a46f8d2804ea54b2d5059",
+          "size": 20354
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/quantification",
+          "type": "tree",
+          "sha": "b588d860d2cfd7651550a2693d0ec9e805c98cf8"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/quantification/pycroquet_lsf_jobscript.sh",
+          "type": "blob",
+          "sha": "a3db9b77c4d84270b33a8a77e6bc2167814e1af7",
+          "size": 739
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide",
+          "type": "tree",
+          "sha": "61b1516e223c2725034308caf258ff80619b5719"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/00_prepare_libraries_and_matrices.R",
+          "type": "blob",
+          "sha": "87c7fc18b0b2ead5f998bac28f7c83672f60139d",
+          "size": 14861
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/01_collate_single_guide_results.R",
+          "type": "blob",
+          "sha": "4f1c2f0745217fbe984eb98a832fb83ee35d9929",
+          "size": 12302
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/BAGEL2_bsub_commands_A.sh",
+          "type": "blob",
+          "sha": "f057bf3c761426dbfbac1879f1cfe689bb7c2104",
+          "size": 47193
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/BAGEL2_bsub_commands_B.sh",
+          "type": "blob",
+          "sha": "85daddcf263dcab24ecb233dc16d087aa254b930",
+          "size": 47193
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/BAGEL2_bsub_commands_combined.sh",
+          "type": "blob",
+          "sha": "1398861aec49b575b0bdb1e2e6d0b02b5d75b219",
+          "size": 49083
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/MAGeCK_bsub_commands_A.sh",
+          "type": "blob",
+          "sha": "5ec3a3d211b4d7709b58618b808bec3d08c679d1",
+          "size": 19344
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/MAGeCK_bsub_commands_B.sh",
+          "type": "blob",
+          "sha": "269483feeacf0d283b63ea9ac279e80123ff284c",
+          "size": 19344
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/MAGeCK_bsub_commands_combined.sh",
+          "type": "blob",
+          "sha": "9e63de8aedc87dedb334a923508acd9cad1dfa4e",
+          "size": 20289
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/helper.R",
+          "type": "blob",
+          "sha": "5d59379e3e32bf355a7063f7095fd785f8940ff4",
+          "size": 11960
+        },
+        {
+          "path": "imaging_analysis",
+          "type": "tree",
+          "sha": "b7db182fe98a9affdb2970e6e9e81b54c306e766"
+        },
+        {
+          "path": "imaging_analysis/DATA",
+          "type": "tree",
+          "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e"
+        },
+        {
+          "path": "imaging_analysis/DATA/.gitkeep",
+          "type": "blob",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0
+        },
+        {
+          "path": "imaging_analysis/PLOTS",
+          "type": "tree",
+          "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e"
+        },
+        {
+          "path": "imaging_analysis/PLOTS/.gitkeep",
+          "type": "blob",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS",
+          "type": "tree",
+          "sha": "795c2a7b0d0e4b2c988fb27286ba86f1ad146e34"
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS/helper.R",
+          "type": "blob",
+          "sha": "64eecde7a7f3ecf811637881cf3225991a9ffa92",
+          "size": 23434
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS/imaging_analysis.R",
+          "type": "blob",
+          "sha": "d5d4164a4b12ff1ae95da0e593e963bad72da356",
+          "size": 24596
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS/scaling_raw_data.R",
+          "type": "blob",
+          "sha": "ba53b27f537fa28881930d20281320cee04bda48",
+          "size": 13517
+        },
+        {
+          "path": "requirements.txt",
+          "type": "blob",
+          "sha": "501b16e7c5556351876f76caac881cef70c84556",
+          "size": 173
+        }
+      ],
+      "truncated": false,
+      "entry_count": 101,
+      "elapsed_seconds": 0.5025722999707796
+    },
+    {
+      "kind": "tree",
+      "url": "https://api.github.com/repos/team113sanger/harle_dgCRISPR_paralogs/git/trees/bb4ec6cff0598ec17847ffdf637b8e8427a9cded?recursive=1",
+      "observed_utc": "2026-10-23T05:28:47.711897+00:00",
+      "status": 200,
+      "pagination_advertised": false,
+      "bytes": 33899,
+      "sha256": "8a7db89048395a14608cd609954f50a8a368624230a3e770d47ec4352ca6f67d",
+      "tree_sha": "bb4ec6cff0598ec17847ffdf637b8e8427a9cded",
+      "entries": [
+        {
+          "path": ".github",
+          "type": "tree",
+          "sha": "80084bd72855321e548f96bd54d20a527c2a26e1"
+        },
+        {
+          "path": ".github/workflows",
+          "type": "tree",
+          "sha": "0ed75143f7535532d879cca0c627934d138b9e28"
+        },
+        {
+          "path": ".github/workflows/docker-image.yml",
+          "type": "blob",
+          "sha": "23e74868c5ba4bbd9aefcc3881441273bb87db28",
+          "size": 982
+        },
+        {
+          "path": ".gitignore",
+          "type": "blob",
+          "sha": "16707707fe58ce284ed502823bca5fb0bf881d15",
+          "size": 30
+        },
+        {
+          "path": "Dockerfile",
+          "type": "blob",
+          "sha": "5ece079e4db212a170e99d4eea5ae64afcfe80bc",
+          "size": 3182
+        },
+        {
+          "path": "INSTALL_README.md",
+          "type": "blob",
+          "sha": "e42ded20978e995c9370d9986b4f9150be053dce",
+          "size": 1487
+        },
+        {
+          "path": "MANUSCRIPT",
+          "type": "tree",
+          "sha": "ef365e548be77d1792ee0330e975ec21b8b9ca78"
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS",
+          "type": "tree",
+          "sha": "45af81358391f5d3173fe166d932922a9815b522"
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/CMP_total_copy_number.png",
+          "type": "blob",
+          "sha": "59753fc0e50c9ac58d7880393b2963ef906af3c8",
+          "size": 315481
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/DepMap_relative_copy_number.png",
+          "type": "blob",
+          "sha": "bdac7533b38ab358d44a6b53f5ee4e6034d04eb9",
+          "size": 792214
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/EF6D__Slc25a28_IMPC.png",
+          "type": "blob",
+          "sha": "0832cbfd4dcc8a41366fc4e8b7c54f6f36ea5acf",
+          "size": 397410
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F2__heatmap_without_total_hits_portrait.png",
+          "type": "blob",
+          "sha": "a82823c6784fd3f5b92e081aaae7a7ad50e7d413",
+          "size": 443239
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F4A__all_gi_scores.png",
+          "type": "blob",
+          "sha": "62ee248ebab0233415455c9e2bb960ccc54b0fac",
+          "size": 806462
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F4B__pie_chart_frequency_of_all_pairs.png",
+          "type": "blob",
+          "sha": "ad257365570136f89f990d2972ee6b4b12974941",
+          "size": 221561
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F4C__pie_chart_hit_frequency_altered_colours.png",
+          "type": "blob",
+          "sha": "67fb6928e22cbf06179ebc7c4feefc6ce4257d65",
+          "size": 259278
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F4D__pie_chart_of_hits_by_cancer_type.png",
+          "type": "blob",
+          "sha": "87e29c06576aa7d6896e1658afe885343eec46ca",
+          "size": 292897
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F5A__median_GI_of_hits_per_pair_v_total_hits.png",
+          "type": "blob",
+          "sha": "23fda1206e33ef2e50665ed1892fad8536920cbd",
+          "size": 101873
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F5B__GI_range_of_hits_per_cell_line.png",
+          "type": "blob",
+          "sha": "68d1e70b771c70696dbdd1b0f1ece62aa58a38dd",
+          "size": 158127
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F5C__cell_line_ranking_of_hits_in_more_than_50pct_ of_lines.png",
+          "type": "blob",
+          "sha": "9d85e9bcd55806eff3b13ebeae6aa9cc4973b3a5",
+          "size": 220067
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F6A__A549_top_hits_for_imaging_GI_scores.png",
+          "type": "blob",
+          "sha": "7c349e18afe8ff193173fdb36cdde18c3b406d31",
+          "size": 71408
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F7B__top_hits_GTEX_expression_tumour.png",
+          "type": "blob",
+          "sha": "9ab1e6b4ee7095466f3bd4a03d6202ece033f6d6",
+          "size": 263967
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F7C__top_hits_GTEX_expression_normal.png",
+          "type": "blob",
+          "sha": "fe6e3f6499947e2602cb8a0e5f120933048cadca",
+          "size": 178834
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/control_correlation_normalised_counts.png",
+          "type": "blob",
+          "sha": "58f3065671d90b994d2c100c13a4a899c6fd5cf4",
+          "size": 752996
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/gini_index_per_sample.png",
+          "type": "blob",
+          "sha": "81783c8d1afab65841d6b7e98a5e5da06a274e7a",
+          "size": 183863
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/median_normalised_counts_per_sample.png",
+          "type": "blob",
+          "sha": "449b0ca9ee034c3e45beb05448795c84059eb859",
+          "size": 186647
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/normalised_LFC_NNMD.png",
+          "type": "blob",
+          "sha": "183f82eb61bd7290badc9a10adae0042cef94268",
+          "size": 148091
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/total_hits_per_cell_line.png",
+          "type": "blob",
+          "sha": "f4eb1fa40f87d1d88ec5dbbdb15f9944d1586744",
+          "size": 65896
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/total_read_pairs_per_sample.png",
+          "type": "blob",
+          "sha": "a7008ba12e6138dc616ee1c22a338cc9597b0785",
+          "size": 208701
+        },
+        {
+          "path": "MANUSCRIPT/README.md",
+          "type": "blob",
+          "sha": "56737b03caa27e2205bbd25179177637be330344",
+          "size": 3513
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS",
+          "type": "tree",
+          "sha": "0ef39390f878836538b390f1835a0d2228206951"
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/EF6D__Slc25a28_IMPC.R",
+          "type": "blob",
+          "sha": "302630ec4489e59c0342e339d15d3e6010fc9b07",
+          "size": 1282
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F2__heatmap_of_hits_with_gi_and_waterfall.R",
+          "type": "blob",
+          "sha": "ad3a2566d4051e3fba71dd1370f11038aa74f91d",
+          "size": 9070
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4A__gi_of_hits.R",
+          "type": "blob",
+          "sha": "66983183bc8622f740196d289d786487113c87e7",
+          "size": 1260
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4B__pie_all_gene_pairs.R",
+          "type": "blob",
+          "sha": "e21978ad8a09224c88948556e08e5190256ba113",
+          "size": 1982
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4C__number_of_times_a_hit_pie.R",
+          "type": "blob",
+          "sha": "b8dba18474e8f7792df1eb911ab433a4eb0d7961",
+          "size": 2064
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4D__pie_chart_of_hits_by_cancer_type.R",
+          "type": "blob",
+          "sha": "a0c99e34fe03e9f4fcbd49579f85e6e1200c62fa",
+          "size": 1572
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F5A__correlation_of_median_hit_GI_with_number_of_hits.R",
+          "type": "blob",
+          "sha": "7fec604260d254c635e63bbeeeac4f588b795cfd",
+          "size": 1514
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F5B__range_of_GI_scores.R",
+          "type": "blob",
+          "sha": "7e12880cfd3c4102f22195c99a4ba7e11c3cac18",
+          "size": 1648
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F5C__ranking_of_top_50percent_hits.R",
+          "type": "blob",
+          "sha": "0343e0664dcc63fc59bda30d162c51c9e6d6ad8e",
+          "size": 1716
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F6A__A549_top_hits_for_imaging_GI_scores.R",
+          "type": "blob",
+          "sha": "304ee6c424ab633b8482377ed2041ce8d7e00f4d",
+          "size": 1501
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F7BC__PCAWG_GTEx_hit_CNV.R",
+          "type": "blob",
+          "sha": "2b28afd12a585d08706302ac87aca33338d62fce",
+          "size": 4541
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/prepare_data.R",
+          "type": "blob",
+          "sha": "50eb21ef2b54d6e6aeef6d317250624fd5478010",
+          "size": 3135
+        },
+        {
+          "path": "README.md",
+          "type": "blob",
+          "sha": "2b703eae7b2616826040124a3a1c8c13e18f89a4",
+          "size": 2038
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis",
+          "type": "tree",
+          "sha": "abd680de1b5a752c402b9f260249ea25e2103107"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/.gitignore",
+          "type": "blob",
+          "sha": "e8068b878d295384dc6fd507b6048f6ff69020b0",
+          "size": 159
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks",
+          "type": "tree",
+          "sha": "dcc5be3fed7ebb85ea07f0dad0aa17128aefcf3a"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/01_Data_Preparation.ipynb",
+          "type": "blob",
+          "sha": "bf9c0bec34516d07f5b35c86d4f1b3a0f3fdb7a4",
+          "size": 23581
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/02_Quality_Control.ipynb",
+          "type": "blob",
+          "sha": "83ccb2e76d0a6f6e31e5409ae375763830625114",
+          "size": 37348
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/03_Singles_Analyses.ipynb",
+          "type": "blob",
+          "sha": "3936072bcdea33d22611574449ab9484b8532dfb",
+          "size": 22439
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/04_Bassik_Analysis.ipynb",
+          "type": "blob",
+          "sha": "f8ccbd61223c32b5f40ff5e8ea585971034db31a",
+          "size": 9582
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/06_Postprocessing.ipynb",
+          "type": "blob",
+          "sha": "7eea3baad0a520ed01fea3c7222d4bbbf412ed18",
+          "size": 13239
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/README.md",
+          "type": "blob",
+          "sha": "cf9ec993ccd4609f4234437217c25659f82606eb",
+          "size": 163
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS",
+          "type": "tree",
+          "sha": "52e75766ce5b9ee5435162af411c92e6827b834a"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC",
+          "type": "tree",
+          "sha": "9616dd13083f3a4f69d468fd0e0a8bde11d365fd"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/01_pycroquet_statistics.R",
+          "type": "blob",
+          "sha": "b0ce138f628f48bfc3c34de09b49f8af6bb828a1",
+          "size": 6086
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/02_library_statistics.R",
+          "type": "blob",
+          "sha": "3e5e4f6f486d3be9302c68e78087fe864f78d2ad",
+          "size": 7704
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/03_control_samples.R",
+          "type": "blob",
+          "sha": "562c9d331c703636f6d540e437c1c4227512de99",
+          "size": 7489
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/04_sample_correlation_and_pca.R",
+          "type": "blob",
+          "sha": "40f02ebaab4985d8c66071e1e4d1ec16fa190bf7",
+          "size": 7661
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/05_sample_essentiality.R",
+          "type": "blob",
+          "sha": "be21add7c743ffbce84aa7c2db2b7958fc30c5a8",
+          "size": 7027
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/06_remove_samples.R",
+          "type": "blob",
+          "sha": "6d1bb8db19761bba28ae9b97be821bcaefd28064",
+          "size": 8283
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/07_scale_lfcs.R",
+          "type": "blob",
+          "sha": "3bab4f884e4006c5b42f33c499f8bfc93aca2e59",
+          "size": 9752
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/08_convert_scaled_lfcs_to_scaled_counts.R",
+          "type": "blob",
+          "sha": "617b42c5a21efd2eb484f991f2d07ec7a53fc89b",
+          "size": 7934
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/helper.R",
+          "type": "blob",
+          "sha": "7913c538db6212d4f11c63fbcc54e5dfdea9fa38",
+          "size": 31691
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide",
+          "type": "tree",
+          "sha": "7a27f3de7352297791d6101ea26dfc0fdb549b8c"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik",
+          "type": "tree",
+          "sha": "0383734a3d85acbf9d0e7e35826f8e0de07ab1e6"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/01_get_obs_vs_pred_values_by_chunk.R",
+          "type": "blob",
+          "sha": "7774d93203d5e92e0462a52e7d71b29df6fec556",
+          "size": 5632
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/01_get_obs_vs_pred_values_by_chunk.sh",
+          "type": "blob",
+          "sha": "bc1420b1f751752bfb1c5459283a7a66921dac14",
+          "size": 2479
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/02_merge_pred_vs_obs_chunks.R",
+          "type": "blob",
+          "sha": "fcc90d4f3d6c649540516334634f52ecd5e9abfd",
+          "size": 3905
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/02_merge_pred_vs_obs_chunks.sh",
+          "type": "blob",
+          "sha": "2602fa9dc8c2102a0602078a05c8c576682fb6e0",
+          "size": 2740
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/03_run_bassik_analysis.R",
+          "type": "blob",
+          "sha": "356a930724ab3b2a4a42ddb5c1d04dc0724d3f97",
+          "size": 25149
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/03_run_bassik_analysis.sh",
+          "type": "blob",
+          "sha": "0c0afba3b939eaa3e87f97290cb118e3489de45a",
+          "size": 1080
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/helper.R",
+          "type": "blob",
+          "sha": "4b2a0a1164f70d25f5cbe0eaedbf16d08d29eadb",
+          "size": 3491
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing",
+          "type": "tree",
+          "sha": "76c35021845b60619d21ef4e11abfcdc89bdfe69"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/01_download_depmap_relative_copy_number.R",
+          "type": "blob",
+          "sha": "45263b3938aaa18ca47e93ca6bbad0f988b89843",
+          "size": 7063
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/02_download_cmp_total_copy_number.R",
+          "type": "blob",
+          "sha": "f34d8c4ad08996c0aaa0bf327a92320331551591",
+          "size": 8542
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/03_download_depmap_expression.R",
+          "type": "blob",
+          "sha": "763a716d6b27c86a8fd123783a803ad67e60755c",
+          "size": 6447
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/04_download_common_essentials.R",
+          "type": "blob",
+          "sha": "7bdbb237ecaef09e61fbf94cdb51f8589b9806a3",
+          "size": 8417
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/05_download_depmap_depletion_probabilities.R",
+          "type": "blob",
+          "sha": "91c255fb26ce4ae7443e97b80a78cd8804180cb1",
+          "size": 7372
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/06_download_ccle_mutations.R",
+          "type": "blob",
+          "sha": "2b665e2bdc56936638d71ac03045405b6ab522fe",
+          "size": 5387
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/07_combine_intermediate_datasets.R",
+          "type": "blob",
+          "sha": "cd6da6c95c9d622bc7b38f8dc9843cd24e1ea133",
+          "size": 10068
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/08_build_binary_results_matrix.R",
+          "type": "blob",
+          "sha": "01faecbbb3ec49205df28c87cde5396d9b77ff13",
+          "size": 7881
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/09_summary_plots.R",
+          "type": "blob",
+          "sha": "29386df2d76e173bed56ddd2f67a008b8599d856",
+          "size": 6750
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/helper.R",
+          "type": "blob",
+          "sha": "d7d3ba1b4776c7f40f687ed6c6a73a1a3d97d14a",
+          "size": 4986
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing",
+          "type": "tree",
+          "sha": "b6ce81aa1a75ca62709b7760f4de5fdc664636b1"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/00_prepare_libraries.R",
+          "type": "blob",
+          "sha": "62bdba0ad86c6b59ea9b93382969d22cb8bd3254",
+          "size": 5606
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/01_merge_counts_by_sample.R",
+          "type": "blob",
+          "sha": "8a68dc00c51a0e2a2dbd4be6c5a1bcfed97b1f18",
+          "size": 6359
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/02_remove_user_defined_guides.R",
+          "type": "blob",
+          "sha": "ded6087d857adfd4d9ad88a559615c4213a931f9",
+          "size": 4654
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/03_bagel_normalisation.R",
+          "type": "blob",
+          "sha": "4d8a13ce941707ef85060cfe29e022bf4b0575b2",
+          "size": 4411
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/04_filter_low_count_guides.R",
+          "type": "blob",
+          "sha": "91bcab12d2fb9f3b8f081b2834872abac7cb842d",
+          "size": 6362
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/05_convert_counts_to_lfcs.R",
+          "type": "blob",
+          "sha": "34ae1f6c04eafdee0d865c3e026ff2f15b8c1bb4",
+          "size": 6947
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/helper.R",
+          "type": "blob",
+          "sha": "aa02d92e0039959df70a46f8d2804ea54b2d5059",
+          "size": 20354
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/quantification",
+          "type": "tree",
+          "sha": "b588d860d2cfd7651550a2693d0ec9e805c98cf8"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/quantification/pycroquet_lsf_jobscript.sh",
+          "type": "blob",
+          "sha": "a3db9b77c4d84270b33a8a77e6bc2167814e1af7",
+          "size": 739
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide",
+          "type": "tree",
+          "sha": "61b1516e223c2725034308caf258ff80619b5719"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/00_prepare_libraries_and_matrices.R",
+          "type": "blob",
+          "sha": "87c7fc18b0b2ead5f998bac28f7c83672f60139d",
+          "size": 14861
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/01_collate_single_guide_results.R",
+          "type": "blob",
+          "sha": "4f1c2f0745217fbe984eb98a832fb83ee35d9929",
+          "size": 12302
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/BAGEL2_bsub_commands_A.sh",
+          "type": "blob",
+          "sha": "f057bf3c761426dbfbac1879f1cfe689bb7c2104",
+          "size": 47193
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/BAGEL2_bsub_commands_B.sh",
+          "type": "blob",
+          "sha": "85daddcf263dcab24ecb233dc16d087aa254b930",
+          "size": 47193
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/BAGEL2_bsub_commands_combined.sh",
+          "type": "blob",
+          "sha": "1398861aec49b575b0bdb1e2e6d0b02b5d75b219",
+          "size": 49083
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/MAGeCK_bsub_commands_A.sh",
+          "type": "blob",
+          "sha": "5ec3a3d211b4d7709b58618b808bec3d08c679d1",
+          "size": 19344
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/MAGeCK_bsub_commands_B.sh",
+          "type": "blob",
+          "sha": "269483feeacf0d283b63ea9ac279e80123ff284c",
+          "size": 19344
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/MAGeCK_bsub_commands_combined.sh",
+          "type": "blob",
+          "sha": "9e63de8aedc87dedb334a923508acd9cad1dfa4e",
+          "size": 20289
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/helper.R",
+          "type": "blob",
+          "sha": "5d59379e3e32bf355a7063f7095fd785f8940ff4",
+          "size": 11960
+        },
+        {
+          "path": "imaging_analysis",
+          "type": "tree",
+          "sha": "665d53552aa35c66b7ab65155ee264be9efe8ae8"
+        },
+        {
+          "path": "imaging_analysis/PLOTS",
+          "type": "tree",
+          "sha": "0bf1d76bd996474892322ccc3ae1935939c0f7f1"
+        },
+        {
+          "path": "imaging_analysis/PLOTS/.gitkeep",
+          "type": "blob",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0
+        },
+        {
+          "path": "imaging_analysis/PLOTS/barplot_of_average_classified_cells_scaled_data.png",
+          "type": "blob",
+          "sha": "8730a5348bec5af8e3f400e2a1a7f462c8618eca",
+          "size": 212612
+        },
+        {
+          "path": "imaging_analysis/PLOTS/barplot_of_average_classified_cells_scaled_data_top_hits_only.png",
+          "type": "blob",
+          "sha": "8730a5348bec5af8e3f400e2a1a7f462c8618eca",
+          "size": 212612
+        },
+        {
+          "path": "imaging_analysis/PLOTS/combined_percentage_classified_figure.png",
+          "type": "blob",
+          "sha": "d21423bcd5603078a9b5856638157bd82060dd07",
+          "size": 355868
+        },
+        {
+          "path": "imaging_analysis/PLOTS/fold_change_classified_cells_scaled_fc_to_averaged_controls_minus_parentals.png",
+          "type": "blob",
+          "sha": "3d2bf2804ba81508dc8e6dc1b8aebaaed432e030",
+          "size": 428430
+        },
+        {
+          "path": "imaging_analysis/RESULTS",
+          "type": "tree",
+          "sha": "434d3d36bda2d136a7a5576a3ac22ff7189b8924"
+        },
+        {
+          "path": "imaging_analysis/RESULTS/all_plate_labels.tsv",
+          "type": "blob",
+          "sha": "3e3c617754d36250c51c31d2ee88a1c57a02b3c2",
+          "size": 11205
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS",
+          "type": "tree",
+          "sha": "10126032006cbb369b867b36e65a7130cce40b4c"
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS/helper.R",
+          "type": "blob",
+          "sha": "0782ab07b990bf728bad83a8813617f0af77b736",
+          "size": 16527
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS/imaging_analysis.R",
+          "type": "blob",
+          "sha": "0aabb3bedc6322241101ccda1c6d7330d98425e3",
+          "size": 25642
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS/processing_data.R",
+          "type": "blob",
+          "sha": "f131d2a415efdaf38720ad8377cf8932bc9069c1",
+          "size": 2984
+        },
+        {
+          "path": "requirements.txt",
+          "type": "blob",
+          "sha": "501b16e7c5556351876f76caac881cef70c84556",
+          "size": 173
+        }
+      ],
+      "truncated": false,
+      "entry_count": 117,
+      "elapsed_seconds": 0.5000979999895208
+    },
+    {
+      "kind": "tree",
+      "url": "https://api.github.com/repos/team113sanger/harle_dgCRISPR_paralogs/git/trees/c2e9dcad221fc86ea646dbfbefb2a5206831aa3b?recursive=1",
+      "observed_utc": "2026-10-23T05:28:47.713334+00:00",
+      "status": 200,
+      "pagination_advertised": false,
+      "bytes": 1884,
+      "sha256": "d8f22dc1ba854dedd35a7e08d42ab2b4bc1e18fbb6cb20c6d7af85683334abef",
+      "tree_sha": "c2e9dcad221fc86ea646dbfbefb2a5206831aa3b",
+      "entries": [
+        {
+          "path": ".github",
+          "type": "tree",
+          "sha": "80084bd72855321e548f96bd54d20a527c2a26e1"
+        },
+        {
+          "path": ".github/workflows",
+          "type": "tree",
+          "sha": "0ed75143f7535532d879cca0c627934d138b9e28"
+        },
+        {
+          "path": ".github/workflows/docker-image.yml",
+          "type": "blob",
+          "sha": "23e74868c5ba4bbd9aefcc3881441273bb87db28",
+          "size": 982
+        },
+        {
+          "path": "build",
+          "type": "tree",
+          "sha": "a930781dffa3c654f6f01f524b7a6d0cab2568ab"
+        },
+        {
+          "path": "build/Dockerfile",
+          "type": "blob",
+          "sha": "4e0f064cad8142430a52514bd92f3716cdedc216",
+          "size": 3079
+        },
+        {
+          "path": "build/README.md",
+          "type": "blob",
+          "sha": "e42ded20978e995c9370d9986b4f9150be053dce",
+          "size": 1487
+        },
+        {
+          "path": "build/requirements.txt",
+          "type": "blob",
+          "sha": "501b16e7c5556351876f76caac881cef70c84556",
+          "size": 173
+        }
+      ],
+      "truncated": false,
+      "entry_count": 7,
+      "elapsed_seconds": 0.48504900000989437
+    },
+    {
+      "kind": "tree",
+      "url": "https://api.github.com/repos/team113sanger/harle_dgCRISPR_paralogs/git/trees/ced1b6bcf46939c02aa65736ab27b2e57a0a5083?recursive=1",
+      "observed_utc": "2026-10-23T05:28:47.750358+00:00",
+      "status": 200,
+      "pagination_advertised": false,
+      "bytes": 35531,
+      "sha256": "0d0ce46f7056571f61e8a01397475b6e033a8fb7f8bc4f124bcf81a7c87d5195",
+      "tree_sha": "ced1b6bcf46939c02aa65736ab27b2e57a0a5083",
+      "entries": [
+        {
+          "path": ".github",
+          "type": "tree",
+          "sha": "80084bd72855321e548f96bd54d20a527c2a26e1"
+        },
+        {
+          "path": ".github/workflows",
+          "type": "tree",
+          "sha": "0ed75143f7535532d879cca0c627934d138b9e28"
+        },
+        {
+          "path": ".github/workflows/docker-image.yml",
+          "type": "blob",
+          "sha": "23e74868c5ba4bbd9aefcc3881441273bb87db28",
+          "size": 982
+        },
+        {
+          "path": ".gitignore",
+          "type": "blob",
+          "sha": "16707707fe58ce284ed502823bca5fb0bf881d15",
+          "size": 30
+        },
+        {
+          "path": "Dockerfile",
+          "type": "blob",
+          "sha": "5ece079e4db212a170e99d4eea5ae64afcfe80bc",
+          "size": 3182
+        },
+        {
+          "path": "INSTALL_README.md",
+          "type": "blob",
+          "sha": "e42ded20978e995c9370d9986b4f9150be053dce",
+          "size": 1487
+        },
+        {
+          "path": "LICENSE",
+          "type": "blob",
+          "sha": "86a2588a75e159d971f5c7c8e7569582d357b8f4",
+          "size": 1097
+        },
+        {
+          "path": "MANUSCRIPT",
+          "type": "tree",
+          "sha": "c63f0adc27565fbc8248b0cc41956200575ba3ad"
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS",
+          "type": "tree",
+          "sha": "7e8c0669524f62b903fccb53031fc515a6f639ab"
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/CMP_total_copy_number.png",
+          "type": "blob",
+          "sha": "59753fc0e50c9ac58d7880393b2963ef906af3c8",
+          "size": 315481
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/DepMap_relative_copy_number.png",
+          "type": "blob",
+          "sha": "bdac7533b38ab358d44a6b53f5ee4e6034d04eb9",
+          "size": 792214
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/EF6D__Slc25a28_IMPC.png",
+          "type": "blob",
+          "sha": "0832cbfd4dcc8a41366fc4e8b7c54f6f36ea5acf",
+          "size": 397410
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F2__heatmap_without_total_hits_portrait.png",
+          "type": "blob",
+          "sha": "a82823c6784fd3f5b92e081aaae7a7ad50e7d413",
+          "size": 443239
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F4A__all_gi_scores.png",
+          "type": "blob",
+          "sha": "62ee248ebab0233415455c9e2bb960ccc54b0fac",
+          "size": 806462
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F4B__pie_chart_frequency_of_all_pairs.png",
+          "type": "blob",
+          "sha": "ad257365570136f89f990d2972ee6b4b12974941",
+          "size": 221561
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F4C__pie_chart_hit_frequency_altered_colours.png",
+          "type": "blob",
+          "sha": "67fb6928e22cbf06179ebc7c4feefc6ce4257d65",
+          "size": 259278
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F4D__pie_chart_of_hits_by_cancer_type.png",
+          "type": "blob",
+          "sha": "87e29c06576aa7d6896e1658afe885343eec46ca",
+          "size": 292897
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F5A__median_GI_of_hits_per_pair_v_total_hits.png",
+          "type": "blob",
+          "sha": "23fda1206e33ef2e50665ed1892fad8536920cbd",
+          "size": 101873
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F5B__GI_range_of_hits_per_cell_line.png",
+          "type": "blob",
+          "sha": "68d1e70b771c70696dbdd1b0f1ece62aa58a38dd",
+          "size": 158127
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F5C__cell_line_ranking_of_hits_in_more_than_50pct_ of_lines.png",
+          "type": "blob",
+          "sha": "9d85e9bcd55806eff3b13ebeae6aa9cc4973b3a5",
+          "size": 220067
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F6A__A549_top_hits_for_imaging_GI_scores.png",
+          "type": "blob",
+          "sha": "7c349e18afe8ff193173fdb36cdde18c3b406d31",
+          "size": 71408
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F7A__CNV_for_top_hits.png",
+          "type": "blob",
+          "sha": "7566d6051597223be8a26367c5bf61eded35582b",
+          "size": 565216
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F7B__top_hits_GTEX_expression_tumour.png",
+          "type": "blob",
+          "sha": "9ab1e6b4ee7095466f3bd4a03d6202ece033f6d6",
+          "size": 263967
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F7C__top_hits_GTEX_expression_normal.png",
+          "type": "blob",
+          "sha": "fe6e3f6499947e2602cb8a0e5f120933048cadca",
+          "size": 178834
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F7D__screen_hits_GTEX_expression_tumour_normal.pdf",
+          "type": "blob",
+          "sha": "369ae3291e7e4a6cef443ff9734c29618074239b",
+          "size": 51234
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/control_correlation_normalised_counts.png",
+          "type": "blob",
+          "sha": "58f3065671d90b994d2c100c13a4a899c6fd5cf4",
+          "size": 752996
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/gini_index_per_sample.png",
+          "type": "blob",
+          "sha": "81783c8d1afab65841d6b7e98a5e5da06a274e7a",
+          "size": 183863
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/median_normalised_counts_per_sample.png",
+          "type": "blob",
+          "sha": "449b0ca9ee034c3e45beb05448795c84059eb859",
+          "size": 186647
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/normalised_LFC_NNMD.png",
+          "type": "blob",
+          "sha": "183f82eb61bd7290badc9a10adae0042cef94268",
+          "size": 148091
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/total_hits_per_cell_line.png",
+          "type": "blob",
+          "sha": "f4eb1fa40f87d1d88ec5dbbdb15f9944d1586744",
+          "size": 65896
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/total_read_pairs_per_sample.png",
+          "type": "blob",
+          "sha": "a7008ba12e6138dc616ee1c22a338cc9597b0785",
+          "size": 208701
+        },
+        {
+          "path": "MANUSCRIPT/README.md",
+          "type": "blob",
+          "sha": "0d2b796a57b72b096d240f29860123abf53ff11b",
+          "size": 3748
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS",
+          "type": "tree",
+          "sha": "ed930747d3b40bea027cdaa123cf553ff231e2fe"
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/EF6D__Slc25a28_IMPC.R",
+          "type": "blob",
+          "sha": "302630ec4489e59c0342e339d15d3e6010fc9b07",
+          "size": 1282
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F2__heatmap_of_hits_with_gi_and_waterfall.R",
+          "type": "blob",
+          "sha": "ad3a2566d4051e3fba71dd1370f11038aa74f91d",
+          "size": 9070
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4A__gi_of_hits.R",
+          "type": "blob",
+          "sha": "66983183bc8622f740196d289d786487113c87e7",
+          "size": 1260
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4B__pie_all_gene_pairs.R",
+          "type": "blob",
+          "sha": "e21978ad8a09224c88948556e08e5190256ba113",
+          "size": 1982
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4C__number_of_times_a_hit_pie.R",
+          "type": "blob",
+          "sha": "b8dba18474e8f7792df1eb911ab433a4eb0d7961",
+          "size": 2064
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4D__pie_chart_of_hits_by_cancer_type.R",
+          "type": "blob",
+          "sha": "a0c99e34fe03e9f4fcbd49579f85e6e1200c62fa",
+          "size": 1572
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F5A__correlation_of_median_hit_GI_with_number_of_hits.R",
+          "type": "blob",
+          "sha": "7fec604260d254c635e63bbeeeac4f588b795cfd",
+          "size": 1514
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F5B__range_of_GI_scores.R",
+          "type": "blob",
+          "sha": "7e12880cfd3c4102f22195c99a4ba7e11c3cac18",
+          "size": 1648
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F5C__ranking_of_top_50percent_hits.R",
+          "type": "blob",
+          "sha": "0343e0664dcc63fc59bda30d162c51c9e6d6ad8e",
+          "size": 1716
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F6A__A549_top_hits_for_imaging_GI_scores.R",
+          "type": "blob",
+          "sha": "304ee6c424ab633b8482377ed2041ce8d7e00f4d",
+          "size": 1501
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F7A__PCAWG_PanCan_hit_CNV.R",
+          "type": "blob",
+          "sha": "f6a11f489a7a5d313e583a5473decbfde1a88723",
+          "size": 3189
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F7BC__PCAWG_GTEx_hit_CNV.R",
+          "type": "blob",
+          "sha": "5f10ad62e3d2b9c810b18b93e77cb429e4fcd6a8",
+          "size": 9592
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/PerformTissueAnalysis.ipynb",
+          "type": "blob",
+          "sha": "d52b75a901f0c8dde75a5d113d87a162d5608bc2",
+          "size": 21657
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/draw_heatmap_binary.ipynb",
+          "type": "blob",
+          "sha": "089f29b4af27adb5de10456edd77dec307c8de7f",
+          "size": 146569
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/prepare_data.R",
+          "type": "blob",
+          "sha": "50eb21ef2b54d6e6aeef6d317250624fd5478010",
+          "size": 3135
+        },
+        {
+          "path": "README.md",
+          "type": "blob",
+          "sha": "a7e5dfafa582e50b4db0fd7163bc8e496d9af81e",
+          "size": 2130
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis",
+          "type": "tree",
+          "sha": "abd680de1b5a752c402b9f260249ea25e2103107"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/.gitignore",
+          "type": "blob",
+          "sha": "e8068b878d295384dc6fd507b6048f6ff69020b0",
+          "size": 159
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks",
+          "type": "tree",
+          "sha": "dcc5be3fed7ebb85ea07f0dad0aa17128aefcf3a"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/01_Data_Preparation.ipynb",
+          "type": "blob",
+          "sha": "bf9c0bec34516d07f5b35c86d4f1b3a0f3fdb7a4",
+          "size": 23581
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/02_Quality_Control.ipynb",
+          "type": "blob",
+          "sha": "83ccb2e76d0a6f6e31e5409ae375763830625114",
+          "size": 37348
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/03_Singles_Analyses.ipynb",
+          "type": "blob",
+          "sha": "3936072bcdea33d22611574449ab9484b8532dfb",
+          "size": 22439
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/04_Bassik_Analysis.ipynb",
+          "type": "blob",
+          "sha": "f8ccbd61223c32b5f40ff5e8ea585971034db31a",
+          "size": 9582
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/06_Postprocessing.ipynb",
+          "type": "blob",
+          "sha": "7eea3baad0a520ed01fea3c7222d4bbbf412ed18",
+          "size": 13239
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/README.md",
+          "type": "blob",
+          "sha": "cf9ec993ccd4609f4234437217c25659f82606eb",
+          "size": 163
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS",
+          "type": "tree",
+          "sha": "52e75766ce5b9ee5435162af411c92e6827b834a"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC",
+          "type": "tree",
+          "sha": "9616dd13083f3a4f69d468fd0e0a8bde11d365fd"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/01_pycroquet_statistics.R",
+          "type": "blob",
+          "sha": "b0ce138f628f48bfc3c34de09b49f8af6bb828a1",
+          "size": 6086
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/02_library_statistics.R",
+          "type": "blob",
+          "sha": "3e5e4f6f486d3be9302c68e78087fe864f78d2ad",
+          "size": 7704
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/03_control_samples.R",
+          "type": "blob",
+          "sha": "562c9d331c703636f6d540e437c1c4227512de99",
+          "size": 7489
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/04_sample_correlation_and_pca.R",
+          "type": "blob",
+          "sha": "40f02ebaab4985d8c66071e1e4d1ec16fa190bf7",
+          "size": 7661
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/05_sample_essentiality.R",
+          "type": "blob",
+          "sha": "be21add7c743ffbce84aa7c2db2b7958fc30c5a8",
+          "size": 7027
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/06_remove_samples.R",
+          "type": "blob",
+          "sha": "6d1bb8db19761bba28ae9b97be821bcaefd28064",
+          "size": 8283
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/07_scale_lfcs.R",
+          "type": "blob",
+          "sha": "3bab4f884e4006c5b42f33c499f8bfc93aca2e59",
+          "size": 9752
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/08_convert_scaled_lfcs_to_scaled_counts.R",
+          "type": "blob",
+          "sha": "617b42c5a21efd2eb484f991f2d07ec7a53fc89b",
+          "size": 7934
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/helper.R",
+          "type": "blob",
+          "sha": "7913c538db6212d4f11c63fbcc54e5dfdea9fa38",
+          "size": 31691
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide",
+          "type": "tree",
+          "sha": "7a27f3de7352297791d6101ea26dfc0fdb549b8c"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik",
+          "type": "tree",
+          "sha": "0383734a3d85acbf9d0e7e35826f8e0de07ab1e6"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/01_get_obs_vs_pred_values_by_chunk.R",
+          "type": "blob",
+          "sha": "7774d93203d5e92e0462a52e7d71b29df6fec556",
+          "size": 5632
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/01_get_obs_vs_pred_values_by_chunk.sh",
+          "type": "blob",
+          "sha": "bc1420b1f751752bfb1c5459283a7a66921dac14",
+          "size": 2479
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/02_merge_pred_vs_obs_chunks.R",
+          "type": "blob",
+          "sha": "fcc90d4f3d6c649540516334634f52ecd5e9abfd",
+          "size": 3905
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/02_merge_pred_vs_obs_chunks.sh",
+          "type": "blob",
+          "sha": "2602fa9dc8c2102a0602078a05c8c576682fb6e0",
+          "size": 2740
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/03_run_bassik_analysis.R",
+          "type": "blob",
+          "sha": "356a930724ab3b2a4a42ddb5c1d04dc0724d3f97",
+          "size": 25149
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/03_run_bassik_analysis.sh",
+          "type": "blob",
+          "sha": "0c0afba3b939eaa3e87f97290cb118e3489de45a",
+          "size": 1080
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/helper.R",
+          "type": "blob",
+          "sha": "4b2a0a1164f70d25f5cbe0eaedbf16d08d29eadb",
+          "size": 3491
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing",
+          "type": "tree",
+          "sha": "76c35021845b60619d21ef4e11abfcdc89bdfe69"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/01_download_depmap_relative_copy_number.R",
+          "type": "blob",
+          "sha": "45263b3938aaa18ca47e93ca6bbad0f988b89843",
+          "size": 7063
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/02_download_cmp_total_copy_number.R",
+          "type": "blob",
+          "sha": "f34d8c4ad08996c0aaa0bf327a92320331551591",
+          "size": 8542
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/03_download_depmap_expression.R",
+          "type": "blob",
+          "sha": "763a716d6b27c86a8fd123783a803ad67e60755c",
+          "size": 6447
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/04_download_common_essentials.R",
+          "type": "blob",
+          "sha": "7bdbb237ecaef09e61fbf94cdb51f8589b9806a3",
+          "size": 8417
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/05_download_depmap_depletion_probabilities.R",
+          "type": "blob",
+          "sha": "91c255fb26ce4ae7443e97b80a78cd8804180cb1",
+          "size": 7372
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/06_download_ccle_mutations.R",
+          "type": "blob",
+          "sha": "2b665e2bdc56936638d71ac03045405b6ab522fe",
+          "size": 5387
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/07_combine_intermediate_datasets.R",
+          "type": "blob",
+          "sha": "cd6da6c95c9d622bc7b38f8dc9843cd24e1ea133",
+          "size": 10068
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/08_build_binary_results_matrix.R",
+          "type": "blob",
+          "sha": "01faecbbb3ec49205df28c87cde5396d9b77ff13",
+          "size": 7881
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/09_summary_plots.R",
+          "type": "blob",
+          "sha": "29386df2d76e173bed56ddd2f67a008b8599d856",
+          "size": 6750
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/helper.R",
+          "type": "blob",
+          "sha": "d7d3ba1b4776c7f40f687ed6c6a73a1a3d97d14a",
+          "size": 4986
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing",
+          "type": "tree",
+          "sha": "b6ce81aa1a75ca62709b7760f4de5fdc664636b1"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/00_prepare_libraries.R",
+          "type": "blob",
+          "sha": "62bdba0ad86c6b59ea9b93382969d22cb8bd3254",
+          "size": 5606
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/01_merge_counts_by_sample.R",
+          "type": "blob",
+          "sha": "8a68dc00c51a0e2a2dbd4be6c5a1bcfed97b1f18",
+          "size": 6359
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/02_remove_user_defined_guides.R",
+          "type": "blob",
+          "sha": "ded6087d857adfd4d9ad88a559615c4213a931f9",
+          "size": 4654
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/03_bagel_normalisation.R",
+          "type": "blob",
+          "sha": "4d8a13ce941707ef85060cfe29e022bf4b0575b2",
+          "size": 4411
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/04_filter_low_count_guides.R",
+          "type": "blob",
+          "sha": "91bcab12d2fb9f3b8f081b2834872abac7cb842d",
+          "size": 6362
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/05_convert_counts_to_lfcs.R",
+          "type": "blob",
+          "sha": "34ae1f6c04eafdee0d865c3e026ff2f15b8c1bb4",
+          "size": 6947
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/helper.R",
+          "type": "blob",
+          "sha": "aa02d92e0039959df70a46f8d2804ea54b2d5059",
+          "size": 20354
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/quantification",
+          "type": "tree",
+          "sha": "b588d860d2cfd7651550a2693d0ec9e805c98cf8"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/quantification/pycroquet_lsf_jobscript.sh",
+          "type": "blob",
+          "sha": "a3db9b77c4d84270b33a8a77e6bc2167814e1af7",
+          "size": 739
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide",
+          "type": "tree",
+          "sha": "61b1516e223c2725034308caf258ff80619b5719"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/00_prepare_libraries_and_matrices.R",
+          "type": "blob",
+          "sha": "87c7fc18b0b2ead5f998bac28f7c83672f60139d",
+          "size": 14861
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/01_collate_single_guide_results.R",
+          "type": "blob",
+          "sha": "4f1c2f0745217fbe984eb98a832fb83ee35d9929",
+          "size": 12302
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/BAGEL2_bsub_commands_A.sh",
+          "type": "blob",
+          "sha": "f057bf3c761426dbfbac1879f1cfe689bb7c2104",
+          "size": 47193
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/BAGEL2_bsub_commands_B.sh",
+          "type": "blob",
+          "sha": "85daddcf263dcab24ecb233dc16d087aa254b930",
+          "size": 47193
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/BAGEL2_bsub_commands_combined.sh",
+          "type": "blob",
+          "sha": "1398861aec49b575b0bdb1e2e6d0b02b5d75b219",
+          "size": 49083
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/MAGeCK_bsub_commands_A.sh",
+          "type": "blob",
+          "sha": "5ec3a3d211b4d7709b58618b808bec3d08c679d1",
+          "size": 19344
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/MAGeCK_bsub_commands_B.sh",
+          "type": "blob",
+          "sha": "269483feeacf0d283b63ea9ac279e80123ff284c",
+          "size": 19344
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/MAGeCK_bsub_commands_combined.sh",
+          "type": "blob",
+          "sha": "9e63de8aedc87dedb334a923508acd9cad1dfa4e",
+          "size": 20289
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/helper.R",
+          "type": "blob",
+          "sha": "5d59379e3e32bf355a7063f7095fd785f8940ff4",
+          "size": 11960
+        },
+        {
+          "path": "imaging_analysis",
+          "type": "tree",
+          "sha": "665d53552aa35c66b7ab65155ee264be9efe8ae8"
+        },
+        {
+          "path": "imaging_analysis/PLOTS",
+          "type": "tree",
+          "sha": "0bf1d76bd996474892322ccc3ae1935939c0f7f1"
+        },
+        {
+          "path": "imaging_analysis/PLOTS/.gitkeep",
+          "type": "blob",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0
+        },
+        {
+          "path": "imaging_analysis/PLOTS/barplot_of_average_classified_cells_scaled_data.png",
+          "type": "blob",
+          "sha": "8730a5348bec5af8e3f400e2a1a7f462c8618eca",
+          "size": 212612
+        },
+        {
+          "path": "imaging_analysis/PLOTS/barplot_of_average_classified_cells_scaled_data_top_hits_only.png",
+          "type": "blob",
+          "sha": "8730a5348bec5af8e3f400e2a1a7f462c8618eca",
+          "size": 212612
+        },
+        {
+          "path": "imaging_analysis/PLOTS/combined_percentage_classified_figure.png",
+          "type": "blob",
+          "sha": "d21423bcd5603078a9b5856638157bd82060dd07",
+          "size": 355868
+        },
+        {
+          "path": "imaging_analysis/PLOTS/fold_change_classified_cells_scaled_fc_to_averaged_controls_minus_parentals.png",
+          "type": "blob",
+          "sha": "3d2bf2804ba81508dc8e6dc1b8aebaaed432e030",
+          "size": 428430
+        },
+        {
+          "path": "imaging_analysis/RESULTS",
+          "type": "tree",
+          "sha": "434d3d36bda2d136a7a5576a3ac22ff7189b8924"
+        },
+        {
+          "path": "imaging_analysis/RESULTS/all_plate_labels.tsv",
+          "type": "blob",
+          "sha": "3e3c617754d36250c51c31d2ee88a1c57a02b3c2",
+          "size": 11205
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS",
+          "type": "tree",
+          "sha": "10126032006cbb369b867b36e65a7130cce40b4c"
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS/helper.R",
+          "type": "blob",
+          "sha": "0782ab07b990bf728bad83a8813617f0af77b736",
+          "size": 16527
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS/imaging_analysis.R",
+          "type": "blob",
+          "sha": "0aabb3bedc6322241101ccda1c6d7330d98425e3",
+          "size": 25642
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS/processing_data.R",
+          "type": "blob",
+          "sha": "f131d2a415efdaf38720ad8377cf8932bc9069c1",
+          "size": 2984
+        },
+        {
+          "path": "requirements.txt",
+          "type": "blob",
+          "sha": "501b16e7c5556351876f76caac881cef70c84556",
+          "size": 173
+        }
+      ],
+      "truncated": false,
+      "entry_count": 123,
+      "elapsed_seconds": 0.5075271999812685
+    },
+    {
+      "kind": "tree",
+      "url": "https://api.github.com/repos/team113sanger/harle_dgCRISPR_paralogs/git/trees/d81ce919a10af4fb5362a659a8109394248489ce?recursive=1",
+      "observed_utc": "2026-10-23T05:28:48.258059+00:00",
+      "status": 200,
+      "pagination_advertised": false,
+      "bytes": 35234,
+      "sha256": "30a3ae982b6f8393ed51c8e4ebea6bb2c39d7f5886a1b36d1e64b1a6d33830f2",
+      "tree_sha": "d81ce919a10af4fb5362a659a8109394248489ce",
+      "entries": [
+        {
+          "path": ".github",
+          "type": "tree",
+          "sha": "80084bd72855321e548f96bd54d20a527c2a26e1"
+        },
+        {
+          "path": ".github/workflows",
+          "type": "tree",
+          "sha": "0ed75143f7535532d879cca0c627934d138b9e28"
+        },
+        {
+          "path": ".github/workflows/docker-image.yml",
+          "type": "blob",
+          "sha": "23e74868c5ba4bbd9aefcc3881441273bb87db28",
+          "size": 982
+        },
+        {
+          "path": ".gitignore",
+          "type": "blob",
+          "sha": "16707707fe58ce284ed502823bca5fb0bf881d15",
+          "size": 30
+        },
+        {
+          "path": "Dockerfile",
+          "type": "blob",
+          "sha": "5ece079e4db212a170e99d4eea5ae64afcfe80bc",
+          "size": 3182
+        },
+        {
+          "path": "INSTALL_README.md",
+          "type": "blob",
+          "sha": "e42ded20978e995c9370d9986b4f9150be053dce",
+          "size": 1487
+        },
+        {
+          "path": "LICENSE",
+          "type": "blob",
+          "sha": "86a2588a75e159d971f5c7c8e7569582d357b8f4",
+          "size": 1097
+        },
+        {
+          "path": "MANUSCRIPT",
+          "type": "tree",
+          "sha": "1071345860d90c7791236c57c968ceab72f081ec"
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS",
+          "type": "tree",
+          "sha": "e48b636df516bbeb8035e536f4157a0971ab5b78"
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/CMP_total_copy_number.png",
+          "type": "blob",
+          "sha": "59753fc0e50c9ac58d7880393b2963ef906af3c8",
+          "size": 315481
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/DepMap_relative_copy_number.png",
+          "type": "blob",
+          "sha": "bdac7533b38ab358d44a6b53f5ee4e6034d04eb9",
+          "size": 792214
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/EF6D__Slc25a28_IMPC.png",
+          "type": "blob",
+          "sha": "0832cbfd4dcc8a41366fc4e8b7c54f6f36ea5acf",
+          "size": 397410
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F2__heatmap_without_total_hits_portrait.png",
+          "type": "blob",
+          "sha": "a82823c6784fd3f5b92e081aaae7a7ad50e7d413",
+          "size": 443239
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F4A__all_gi_scores.png",
+          "type": "blob",
+          "sha": "62ee248ebab0233415455c9e2bb960ccc54b0fac",
+          "size": 806462
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F4B__pie_chart_frequency_of_all_pairs.png",
+          "type": "blob",
+          "sha": "ad257365570136f89f990d2972ee6b4b12974941",
+          "size": 221561
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F4C__pie_chart_hit_frequency_altered_colours.png",
+          "type": "blob",
+          "sha": "67fb6928e22cbf06179ebc7c4feefc6ce4257d65",
+          "size": 259278
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F4D__pie_chart_of_hits_by_cancer_type.png",
+          "type": "blob",
+          "sha": "87e29c06576aa7d6896e1658afe885343eec46ca",
+          "size": 292897
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F5A__median_GI_of_hits_per_pair_v_total_hits.png",
+          "type": "blob",
+          "sha": "23fda1206e33ef2e50665ed1892fad8536920cbd",
+          "size": 101873
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F5B__GI_range_of_hits_per_cell_line.png",
+          "type": "blob",
+          "sha": "68d1e70b771c70696dbdd1b0f1ece62aa58a38dd",
+          "size": 158127
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F5C__cell_line_ranking_of_hits_in_more_than_50pct_ of_lines.png",
+          "type": "blob",
+          "sha": "9d85e9bcd55806eff3b13ebeae6aa9cc4973b3a5",
+          "size": 220067
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F6A__A549_top_hits_for_imaging_GI_scores.png",
+          "type": "blob",
+          "sha": "7c349e18afe8ff193173fdb36cdde18c3b406d31",
+          "size": 71408
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F7A__CNV_for_top_hits.png",
+          "type": "blob",
+          "sha": "7566d6051597223be8a26367c5bf61eded35582b",
+          "size": 565216
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F7B__top_hits_GTEX_expression_tumour.png",
+          "type": "blob",
+          "sha": "9ab1e6b4ee7095466f3bd4a03d6202ece033f6d6",
+          "size": 263967
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/F7C__top_hits_GTEX_expression_normal.png",
+          "type": "blob",
+          "sha": "fe6e3f6499947e2602cb8a0e5f120933048cadca",
+          "size": 178834
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/control_correlation_normalised_counts.png",
+          "type": "blob",
+          "sha": "58f3065671d90b994d2c100c13a4a899c6fd5cf4",
+          "size": 752996
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/gini_index_per_sample.png",
+          "type": "blob",
+          "sha": "81783c8d1afab65841d6b7e98a5e5da06a274e7a",
+          "size": 183863
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/median_normalised_counts_per_sample.png",
+          "type": "blob",
+          "sha": "449b0ca9ee034c3e45beb05448795c84059eb859",
+          "size": 186647
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/normalised_LFC_NNMD.png",
+          "type": "blob",
+          "sha": "183f82eb61bd7290badc9a10adae0042cef94268",
+          "size": 148091
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/total_hits_per_cell_line.png",
+          "type": "blob",
+          "sha": "f4eb1fa40f87d1d88ec5dbbdb15f9944d1586744",
+          "size": 65896
+        },
+        {
+          "path": "MANUSCRIPT/PLOTS/total_read_pairs_per_sample.png",
+          "type": "blob",
+          "sha": "a7008ba12e6138dc616ee1c22a338cc9597b0785",
+          "size": 208701
+        },
+        {
+          "path": "MANUSCRIPT/README.md",
+          "type": "blob",
+          "sha": "0d2b796a57b72b096d240f29860123abf53ff11b",
+          "size": 3748
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS",
+          "type": "tree",
+          "sha": "513afe611cc273438caf4f8a3a6134cdc1e1d711"
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/EF6D__Slc25a28_IMPC.R",
+          "type": "blob",
+          "sha": "302630ec4489e59c0342e339d15d3e6010fc9b07",
+          "size": 1282
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F2__heatmap_of_hits_with_gi_and_waterfall.R",
+          "type": "blob",
+          "sha": "ad3a2566d4051e3fba71dd1370f11038aa74f91d",
+          "size": 9070
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4A__gi_of_hits.R",
+          "type": "blob",
+          "sha": "66983183bc8622f740196d289d786487113c87e7",
+          "size": 1260
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4B__pie_all_gene_pairs.R",
+          "type": "blob",
+          "sha": "e21978ad8a09224c88948556e08e5190256ba113",
+          "size": 1982
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4C__number_of_times_a_hit_pie.R",
+          "type": "blob",
+          "sha": "b8dba18474e8f7792df1eb911ab433a4eb0d7961",
+          "size": 2064
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F4D__pie_chart_of_hits_by_cancer_type.R",
+          "type": "blob",
+          "sha": "a0c99e34fe03e9f4fcbd49579f85e6e1200c62fa",
+          "size": 1572
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F5A__correlation_of_median_hit_GI_with_number_of_hits.R",
+          "type": "blob",
+          "sha": "7fec604260d254c635e63bbeeeac4f588b795cfd",
+          "size": 1514
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F5B__range_of_GI_scores.R",
+          "type": "blob",
+          "sha": "7e12880cfd3c4102f22195c99a4ba7e11c3cac18",
+          "size": 1648
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F5C__ranking_of_top_50percent_hits.R",
+          "type": "blob",
+          "sha": "0343e0664dcc63fc59bda30d162c51c9e6d6ad8e",
+          "size": 1716
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F6A__A549_top_hits_for_imaging_GI_scores.R",
+          "type": "blob",
+          "sha": "304ee6c424ab633b8482377ed2041ce8d7e00f4d",
+          "size": 1501
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F7A__PCAWG_PanCan_hit_CNV.R",
+          "type": "blob",
+          "sha": "f6a11f489a7a5d313e583a5473decbfde1a88723",
+          "size": 3189
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/F7BC__PCAWG_GTEx_hit_CNV.R",
+          "type": "blob",
+          "sha": "2b28afd12a585d08706302ac87aca33338d62fce",
+          "size": 4541
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/PerformTissueAnalysis.ipynb",
+          "type": "blob",
+          "sha": "d52b75a901f0c8dde75a5d113d87a162d5608bc2",
+          "size": 21657
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/draw_heatmap_binary.ipynb",
+          "type": "blob",
+          "sha": "089f29b4af27adb5de10456edd77dec307c8de7f",
+          "size": 146569
+        },
+        {
+          "path": "MANUSCRIPT/SCRIPTS/prepare_data.R",
+          "type": "blob",
+          "sha": "50eb21ef2b54d6e6aeef6d317250624fd5478010",
+          "size": 3135
+        },
+        {
+          "path": "README.md",
+          "type": "blob",
+          "sha": "a7e5dfafa582e50b4db0fd7163bc8e496d9af81e",
+          "size": 2130
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis",
+          "type": "tree",
+          "sha": "abd680de1b5a752c402b9f260249ea25e2103107"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/.gitignore",
+          "type": "blob",
+          "sha": "e8068b878d295384dc6fd507b6048f6ff69020b0",
+          "size": 159
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks",
+          "type": "tree",
+          "sha": "dcc5be3fed7ebb85ea07f0dad0aa17128aefcf3a"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/01_Data_Preparation.ipynb",
+          "type": "blob",
+          "sha": "bf9c0bec34516d07f5b35c86d4f1b3a0f3fdb7a4",
+          "size": 23581
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/02_Quality_Control.ipynb",
+          "type": "blob",
+          "sha": "83ccb2e76d0a6f6e31e5409ae375763830625114",
+          "size": 37348
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/03_Singles_Analyses.ipynb",
+          "type": "blob",
+          "sha": "3936072bcdea33d22611574449ab9484b8532dfb",
+          "size": 22439
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/04_Bassik_Analysis.ipynb",
+          "type": "blob",
+          "sha": "f8ccbd61223c32b5f40ff5e8ea585971034db31a",
+          "size": 9582
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/JupyterNotebooks/06_Postprocessing.ipynb",
+          "type": "blob",
+          "sha": "7eea3baad0a520ed01fea3c7222d4bbbf412ed18",
+          "size": 13239
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/README.md",
+          "type": "blob",
+          "sha": "cf9ec993ccd4609f4234437217c25659f82606eb",
+          "size": 163
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS",
+          "type": "tree",
+          "sha": "52e75766ce5b9ee5435162af411c92e6827b834a"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC",
+          "type": "tree",
+          "sha": "9616dd13083f3a4f69d468fd0e0a8bde11d365fd"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/01_pycroquet_statistics.R",
+          "type": "blob",
+          "sha": "b0ce138f628f48bfc3c34de09b49f8af6bb828a1",
+          "size": 6086
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/02_library_statistics.R",
+          "type": "blob",
+          "sha": "3e5e4f6f486d3be9302c68e78087fe864f78d2ad",
+          "size": 7704
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/03_control_samples.R",
+          "type": "blob",
+          "sha": "562c9d331c703636f6d540e437c1c4227512de99",
+          "size": 7489
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/04_sample_correlation_and_pca.R",
+          "type": "blob",
+          "sha": "40f02ebaab4985d8c66071e1e4d1ec16fa190bf7",
+          "size": 7661
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/05_sample_essentiality.R",
+          "type": "blob",
+          "sha": "be21add7c743ffbce84aa7c2db2b7958fc30c5a8",
+          "size": 7027
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/06_remove_samples.R",
+          "type": "blob",
+          "sha": "6d1bb8db19761bba28ae9b97be821bcaefd28064",
+          "size": 8283
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/07_scale_lfcs.R",
+          "type": "blob",
+          "sha": "3bab4f884e4006c5b42f33c499f8bfc93aca2e59",
+          "size": 9752
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/08_convert_scaled_lfcs_to_scaled_counts.R",
+          "type": "blob",
+          "sha": "617b42c5a21efd2eb484f991f2d07ec7a53fc89b",
+          "size": 7934
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/QC/helper.R",
+          "type": "blob",
+          "sha": "7913c538db6212d4f11c63fbcc54e5dfdea9fa38",
+          "size": 31691
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide",
+          "type": "tree",
+          "sha": "7a27f3de7352297791d6101ea26dfc0fdb549b8c"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik",
+          "type": "tree",
+          "sha": "0383734a3d85acbf9d0e7e35826f8e0de07ab1e6"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/01_get_obs_vs_pred_values_by_chunk.R",
+          "type": "blob",
+          "sha": "7774d93203d5e92e0462a52e7d71b29df6fec556",
+          "size": 5632
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/01_get_obs_vs_pred_values_by_chunk.sh",
+          "type": "blob",
+          "sha": "bc1420b1f751752bfb1c5459283a7a66921dac14",
+          "size": 2479
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/02_merge_pred_vs_obs_chunks.R",
+          "type": "blob",
+          "sha": "fcc90d4f3d6c649540516334634f52ecd5e9abfd",
+          "size": 3905
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/02_merge_pred_vs_obs_chunks.sh",
+          "type": "blob",
+          "sha": "2602fa9dc8c2102a0602078a05c8c576682fb6e0",
+          "size": 2740
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/03_run_bassik_analysis.R",
+          "type": "blob",
+          "sha": "356a930724ab3b2a4a42ddb5c1d04dc0724d3f97",
+          "size": 25149
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/Bassik/03_run_bassik_analysis.sh",
+          "type": "blob",
+          "sha": "0c0afba3b939eaa3e87f97290cb118e3489de45a",
+          "size": 1080
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/dual_guide/helper.R",
+          "type": "blob",
+          "sha": "4b2a0a1164f70d25f5cbe0eaedbf16d08d29eadb",
+          "size": 3491
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing",
+          "type": "tree",
+          "sha": "76c35021845b60619d21ef4e11abfcdc89bdfe69"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/01_download_depmap_relative_copy_number.R",
+          "type": "blob",
+          "sha": "45263b3938aaa18ca47e93ca6bbad0f988b89843",
+          "size": 7063
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/02_download_cmp_total_copy_number.R",
+          "type": "blob",
+          "sha": "f34d8c4ad08996c0aaa0bf327a92320331551591",
+          "size": 8542
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/03_download_depmap_expression.R",
+          "type": "blob",
+          "sha": "763a716d6b27c86a8fd123783a803ad67e60755c",
+          "size": 6447
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/04_download_common_essentials.R",
+          "type": "blob",
+          "sha": "7bdbb237ecaef09e61fbf94cdb51f8589b9806a3",
+          "size": 8417
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/05_download_depmap_depletion_probabilities.R",
+          "type": "blob",
+          "sha": "91c255fb26ce4ae7443e97b80a78cd8804180cb1",
+          "size": 7372
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/06_download_ccle_mutations.R",
+          "type": "blob",
+          "sha": "2b665e2bdc56936638d71ac03045405b6ab522fe",
+          "size": 5387
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/07_combine_intermediate_datasets.R",
+          "type": "blob",
+          "sha": "cd6da6c95c9d622bc7b38f8dc9843cd24e1ea133",
+          "size": 10068
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/08_build_binary_results_matrix.R",
+          "type": "blob",
+          "sha": "01faecbbb3ec49205df28c87cde5396d9b77ff13",
+          "size": 7881
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/09_summary_plots.R",
+          "type": "blob",
+          "sha": "29386df2d76e173bed56ddd2f67a008b8599d856",
+          "size": 6750
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/postprocessing/helper.R",
+          "type": "blob",
+          "sha": "d7d3ba1b4776c7f40f687ed6c6a73a1a3d97d14a",
+          "size": 4986
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing",
+          "type": "tree",
+          "sha": "b6ce81aa1a75ca62709b7760f4de5fdc664636b1"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/00_prepare_libraries.R",
+          "type": "blob",
+          "sha": "62bdba0ad86c6b59ea9b93382969d22cb8bd3254",
+          "size": 5606
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/01_merge_counts_by_sample.R",
+          "type": "blob",
+          "sha": "8a68dc00c51a0e2a2dbd4be6c5a1bcfed97b1f18",
+          "size": 6359
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/02_remove_user_defined_guides.R",
+          "type": "blob",
+          "sha": "ded6087d857adfd4d9ad88a559615c4213a931f9",
+          "size": 4654
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/03_bagel_normalisation.R",
+          "type": "blob",
+          "sha": "4d8a13ce941707ef85060cfe29e022bf4b0575b2",
+          "size": 4411
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/04_filter_low_count_guides.R",
+          "type": "blob",
+          "sha": "91bcab12d2fb9f3b8f081b2834872abac7cb842d",
+          "size": 6362
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/05_convert_counts_to_lfcs.R",
+          "type": "blob",
+          "sha": "34ae1f6c04eafdee0d865c3e026ff2f15b8c1bb4",
+          "size": 6947
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/preprocessing/helper.R",
+          "type": "blob",
+          "sha": "aa02d92e0039959df70a46f8d2804ea54b2d5059",
+          "size": 20354
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/quantification",
+          "type": "tree",
+          "sha": "b588d860d2cfd7651550a2693d0ec9e805c98cf8"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/quantification/pycroquet_lsf_jobscript.sh",
+          "type": "blob",
+          "sha": "a3db9b77c4d84270b33a8a77e6bc2167814e1af7",
+          "size": 739
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide",
+          "type": "tree",
+          "sha": "61b1516e223c2725034308caf258ff80619b5719"
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/00_prepare_libraries_and_matrices.R",
+          "type": "blob",
+          "sha": "87c7fc18b0b2ead5f998bac28f7c83672f60139d",
+          "size": 14861
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/01_collate_single_guide_results.R",
+          "type": "blob",
+          "sha": "4f1c2f0745217fbe984eb98a832fb83ee35d9929",
+          "size": 12302
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/BAGEL2_bsub_commands_A.sh",
+          "type": "blob",
+          "sha": "f057bf3c761426dbfbac1879f1cfe689bb7c2104",
+          "size": 47193
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/BAGEL2_bsub_commands_B.sh",
+          "type": "blob",
+          "sha": "85daddcf263dcab24ecb233dc16d087aa254b930",
+          "size": 47193
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/BAGEL2_bsub_commands_combined.sh",
+          "type": "blob",
+          "sha": "1398861aec49b575b0bdb1e2e6d0b02b5d75b219",
+          "size": 49083
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/MAGeCK_bsub_commands_A.sh",
+          "type": "blob",
+          "sha": "5ec3a3d211b4d7709b58618b808bec3d08c679d1",
+          "size": 19344
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/MAGeCK_bsub_commands_B.sh",
+          "type": "blob",
+          "sha": "269483feeacf0d283b63ea9ac279e80123ff284c",
+          "size": 19344
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/MAGeCK_bsub_commands_combined.sh",
+          "type": "blob",
+          "sha": "9e63de8aedc87dedb334a923508acd9cad1dfa4e",
+          "size": 20289
+        },
+        {
+          "path": "combinatorial_crispr_screen_analysis/SCRIPTS/single_guide/helper.R",
+          "type": "blob",
+          "sha": "5d59379e3e32bf355a7063f7095fd785f8940ff4",
+          "size": 11960
+        },
+        {
+          "path": "imaging_analysis",
+          "type": "tree",
+          "sha": "665d53552aa35c66b7ab65155ee264be9efe8ae8"
+        },
+        {
+          "path": "imaging_analysis/PLOTS",
+          "type": "tree",
+          "sha": "0bf1d76bd996474892322ccc3ae1935939c0f7f1"
+        },
+        {
+          "path": "imaging_analysis/PLOTS/.gitkeep",
+          "type": "blob",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0
+        },
+        {
+          "path": "imaging_analysis/PLOTS/barplot_of_average_classified_cells_scaled_data.png",
+          "type": "blob",
+          "sha": "8730a5348bec5af8e3f400e2a1a7f462c8618eca",
+          "size": 212612
+        },
+        {
+          "path": "imaging_analysis/PLOTS/barplot_of_average_classified_cells_scaled_data_top_hits_only.png",
+          "type": "blob",
+          "sha": "8730a5348bec5af8e3f400e2a1a7f462c8618eca",
+          "size": 212612
+        },
+        {
+          "path": "imaging_analysis/PLOTS/combined_percentage_classified_figure.png",
+          "type": "blob",
+          "sha": "d21423bcd5603078a9b5856638157bd82060dd07",
+          "size": 355868
+        },
+        {
+          "path": "imaging_analysis/PLOTS/fold_change_classified_cells_scaled_fc_to_averaged_controls_minus_parentals.png",
+          "type": "blob",
+          "sha": "3d2bf2804ba81508dc8e6dc1b8aebaaed432e030",
+          "size": 428430
+        },
+        {
+          "path": "imaging_analysis/RESULTS",
+          "type": "tree",
+          "sha": "434d3d36bda2d136a7a5576a3ac22ff7189b8924"
+        },
+        {
+          "path": "imaging_analysis/RESULTS/all_plate_labels.tsv",
+          "type": "blob",
+          "sha": "3e3c617754d36250c51c31d2ee88a1c57a02b3c2",
+          "size": 11205
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS",
+          "type": "tree",
+          "sha": "10126032006cbb369b867b36e65a7130cce40b4c"
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS/helper.R",
+          "type": "blob",
+          "sha": "0782ab07b990bf728bad83a8813617f0af77b736",
+          "size": 16527
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS/imaging_analysis.R",
+          "type": "blob",
+          "sha": "0aabb3bedc6322241101ccda1c6d7330d98425e3",
+          "size": 25642
+        },
+        {
+          "path": "imaging_analysis/SCRIPTS/processing_data.R",
+          "type": "blob",
+          "sha": "f131d2a415efdaf38720ad8377cf8932bc9069c1",
+          "size": 2984
+        },
+        {
+          "path": "requirements.txt",
+          "type": "blob",
+          "sha": "501b16e7c5556351876f76caac881cef70c84556",
+          "size": 173
+        }
+      ],
+      "truncated": false,
+      "entry_count": 122,
+      "elapsed_seconds": 0.4766638000146486
+    }
+  ],
+  "stopped": null,
+  "wall_seconds": 1.4599709000322036,
+  "requests": 6,
+  "failed_tree_retries": 0,
+  "repository_blobs_opened": 0,
+  "response_tables_or_headers_opened": false,
+  "source_qualified": false,
+  "fits": 0,
+  "scores": 0
+}

@@ -1,0 +1,26 @@
+{
+  "command": [
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/.venv/Scripts/python.exe",
+    "-B",
+    "-m",
+    "pytest",
+    "tests/test_continuation_github_history_completion_v1.py",
+    "-q"
+  ],
+  "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+  "pythonpath": null,
+  "started_utc": "2026-10-23T05:28:38.632994+00:00",
+  "bound_sha256": {
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\wave5_run_check.py": "57a2173eda688cd58f30be5cdbd24487f26c324e1bf0b0d2304c26c23ee2d30b",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\research-wave5\\freeze.json": "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\continuation_paralog_github_history_completion_v1.py": "b3cf2cb49947873c8c4e57bc640cd22ad14d891ab9187934ce4444a83b3f2133",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tests\\test_continuation_github_history_completion_v1.py": "48e9a4ce73fa4b0abb3919f13517d716e72c1614a9503ac88aad71bbf39dcc37"
+  },
+  "caps": {
+    "timeout_seconds": 60.0,
+    "peak_bytes": 536870912
+  },
+  "sampling_seconds": 0.05,
+  "timeout_enforcement": "sampled external watchdog; kills process tree",
+  "cpu_measurement": "sampled sum across live process tree; may miss process-exit tail"
+}
