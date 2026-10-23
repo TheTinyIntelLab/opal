@@ -1,0 +1,21 @@
+{
+  "schema": "opal-zenodo-documentation-observations-v1",
+  "search_query": "site:help.zenodo.org published record files immutable new version",
+  "primary_pages": [
+    {
+      "url": "https://help.zenodo.org/docs/deposit/manage-files/",
+      "facts": [
+        "Published file corrections are supported within 30 days; exceptional later changes can involve support.",
+        "A DOI alone is not a cryptographic byte identity."
+      ]
+    },
+    {
+      "url": "https://help.zenodo.org/docs/deposit/manage-versions/",
+      "facts": [
+        "Versions have separate records, files and persistent identifiers."
+      ]
+    }
+  ],
+  "scope": "Documentation-only observations from the separately frozen one-query/two-page menu. Web-service raw response hashes, timings and peak memory were not retained; no invented measurements. Not a reconstruction of the prior rejected ETag.",
+  "source_bodies_opened": false
+}

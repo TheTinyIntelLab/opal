@@ -1,0 +1,14 @@
+{
+  "freeze_sha256": "07223caa0ae3492f9cfe20e7c039007225da23f9b36f74b7234a93733bd83fea",
+  "code_sha256": {
+    "tools/continuation_colo1_annotation_acquisition_v1.py": "728cce13b12e62bdacb8917c7dfd2313fcd252e28dc429e3e64f89751f923119",
+    "tests/test_continuation_colo1_annotation_acquisition_v1.py": "bdcef197af0202561aec7f5a87f89b38fa49aa5deb43da9736d07c7ef4ff4704",
+    "tools/continuation_colo1_validator_v2.py": "6c1d2c6dd2b4ce2f8cb85be7e7a36639e84b0cc728b8b59c5529edef227a17d1"
+  },
+  "commands": [
+    "-m pytest tests/test_continuation_colo1_annotation_acquisition_v1.py -q",
+    "tools/continuation_colo1_annotation_acquisition_v1.py"
+  ],
+  "source_gets": 1,
+  "deserialization_authorized": false
+}

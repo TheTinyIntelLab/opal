@@ -1,0 +1,74 @@
+{
+  "schema": "opal-colo1-validator-diagnostic-v2",
+  "freeze_sha256": "2fb8ee72fe1fb88291aefa341b4275841706baf324d1df098de2d52add48e08c",
+  "code_binding_sha256": "000b218eff4716ca7ae8f3040b84db2a2fc9cb2b2b97a342ffde27ce123ebae9",
+  "requests": [
+    {
+      "kind": "file-catalog",
+      "url": "https://zenodo.org/api/records/17191951/files",
+      "observed_utc": "2026-10-23T06:26:19.600468+00:00",
+      "body_bytes_read": 980,
+      "status": 200,
+      "transport_fields": {
+        "Content-Type": {
+          "value": "application/json",
+          "truncated": false
+        },
+        "Content-Length": {
+          "value": "980",
+          "truncated": false
+        },
+        "Vary": {
+          "value": "Accept-Encoding",
+          "truncated": false
+        }
+      },
+      "etag_class": "absent",
+      "raw_sha256": "0eea2dcc981415b40d23c20832fe8af9b53ca6fedb72c80eaf92a37119514408",
+      "selected_catalog": {
+        "top_level_fields": [
+          "default_preview",
+          "enabled",
+          "entries",
+          "links",
+          "order"
+        ],
+        "entries_is_mapping": false
+      },
+      "elapsed_seconds": 0.5874435000005178
+    },
+    {
+      "kind": "range-headers",
+      "url": "https://zenodo.org/api/records/17191951/files/ibarrioh/DualGuide_COLO1-Release2.zip/content",
+      "observed_utc": "2026-10-23T06:26:19.600731+00:00",
+      "body_bytes_read": 0,
+      "status": 206,
+      "transport_fields": {
+        "Accept-Ranges": {
+          "value": "bytes",
+          "truncated": false
+        },
+        "Content-Type": {
+          "value": "application/octet-stream",
+          "truncated": false
+        },
+        "Content-Length": {
+          "value": "22",
+          "truncated": false
+        },
+        "Content-Range": {
+          "value": "bytes 89422892-89422913/89422914",
+          "truncated": false
+        }
+      },
+      "etag_class": "absent",
+      "elapsed_seconds": 0.6423549000173807
+    }
+  ],
+  "archive_body_bytes_read": 0,
+  "current_observation_not_v1_reconstruction": true,
+  "source_qualified": false,
+  "response_tables_or_headers_opened": false,
+  "fits": 0,
+  "scores": 0
+}

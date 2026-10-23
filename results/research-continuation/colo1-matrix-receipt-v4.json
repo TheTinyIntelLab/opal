@@ -1,0 +1,55 @@
+{
+  "schema": "opal-colo1-matrix-receipt-v4",
+  "freeze_sha256": "8c37d8cc997e61c66e541fe003798d59c8d29a09712d24d115b603f22a81a4de",
+  "code_binding_sha256": "0ad09c86ef6ebd0fefbb7cd44424f685beffe5e296b5d6fd8a7101869d738ba8",
+  "annotation_sha256": "13746b0357683c690b3066da194d58451ed2bb500cd5ea66f5c44efaa2ed0870",
+  "source_gets": 0,
+  "response_objects_opened": 0,
+  "fits": 0,
+  "scores": 0,
+  "independent_review": false,
+  "decompressed_bytes": 10519604,
+  "observed_schema": {
+    "root_kind": "STR",
+    "dimensions": [
+      78920,
+      7
+    ],
+    "column_names": [
+      "ID",
+      "Note",
+      "MyNote",
+      "sgRNA1_ID",
+      "sgRNA2_ID",
+      "Gene1",
+      "Gene2"
+    ],
+    "storage_length": 552440,
+    "storage_order": "R column-major",
+    "serialized_node_kinds": {
+      "CHAR": 552449,
+      "INT": 1,
+      "LIST": 2,
+      "NILVALUE": 2,
+      "STR": 2,
+      "SYM": 2,
+      "VEC": 1
+    },
+    "gate": {
+      "passed": false,
+      "issues": [
+        "unknown_field"
+      ],
+      "unknown_fields": [
+        "Note",
+        "MyNote",
+        "sgRNA1_ID",
+        "sgRNA2_ID",
+        "Gene1",
+        "Gene2"
+      ]
+    }
+  },
+  "status": "matrix_gate_refused_aggregation",
+  "source_qualified_for_response_ingestion": false
+}

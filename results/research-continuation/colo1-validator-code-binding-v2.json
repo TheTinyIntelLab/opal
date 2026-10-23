@@ -1,0 +1,13 @@
+{
+  "freeze_sha256": "2fb8ee72fe1fb88291aefa341b4275841706baf324d1df098de2d52add48e08c",
+  "code_sha256": {
+    "tools/continuation_colo1_validator_v2.py": "6c1d2c6dd2b4ce2f8cb85be7e7a36639e84b0cc728b8b59c5529edef227a17d1",
+    "tests/test_continuation_colo1_validator_v2.py": "5e7cdd556e8dcddf4b6411475c675f926c53a9b426bffd829e38715f5779f179"
+  },
+  "commands": [
+    "-m pytest tests/test_continuation_colo1_validator_v2.py -q",
+    "tools/continuation_colo1_validator_v2.py"
+  ],
+  "archive_body_bytes": 0,
+  "source_gets": 2
+}

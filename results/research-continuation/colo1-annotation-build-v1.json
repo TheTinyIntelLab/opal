@@ -1,0 +1,35 @@
+{
+  "command": [
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/.venv/Scripts/python.exe",
+    "-B",
+    "-m",
+    "build",
+    "--outdir",
+    "tmp/colo1-annotation-dist-v1"
+  ],
+  "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+  "pythonpath": null,
+  "started_utc": "2026-10-23T07:03:57.213043+00:00",
+  "bound_sha256": {
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\wave5_run_check.py": "57a2173eda688cd58f30be5cdbd24487f26c324e1bf0b0d2304c26c23ee2d30b",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\research-wave5\\freeze.json": "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\docs\\research_reset\\continuation\\colo1_annotation_results_v1.md": "64e0714090348ac290df27c561509f72ddd09d59a20e71bba0a7e52d1795e64d"
+  },
+  "caps": {
+    "timeout_seconds": 180.0,
+    "peak_bytes": 1073741824
+  },
+  "sampling_seconds": 0.05,
+  "timeout_enforcement": "sampled external watchdog; kills process tree",
+  "cpu_measurement": "sampled sum across live process tree; may miss process-exit tail",
+  "returncode": 0,
+  "stopped": null,
+  "wall_seconds": 12.271181099989917,
+  "sampled_cpu_seconds": 1.84375,
+  "sampled_tree_peak_bytes": 145522688,
+  "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\research-continuation\\colo1-annotation-build-v1.json.log",
+  "log_sha256": "4afa1549d39940bf01140b94c735506d79307d862a4cfb8c01474805bedc60ed",
+  "log_bytes": 108856,
+  "bound_drift": [],
+  "passed": true
+}
