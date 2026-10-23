@@ -1,0 +1,75 @@
+{
+  "schema": "opal-colo1-provenance-interpretation-v1",
+  "source_receipt_sha256": "dd521303b8746706df6b208b322c9e2c4d5ed6f88fd4c50f4263a41156774f10",
+  "metadata_source_view_sha256": "ac6e581005526b095999682152b175387c733ac667dcf1e31dda29064e47c53a",
+  "source_code_executed": false,
+  "readRDS_annotation_lines": [
+    917,
+    941,
+    1126,
+    2234,
+    2287
+  ],
+  "facts": [
+    {
+      "lines": [
+        917,
+        941,
+        1126,
+        2234,
+        2287
+      ],
+      "fact": "The selected code imports the already prepared annotation object."
+    },
+    {
+      "lines": [
+        932,
+        933,
+        935,
+        936,
+        2235,
+        2241,
+        2242
+      ],
+      "fact": "Note is used to select named single/control classes; Gene2 supplies anchor-single labels and Gene1 library-single labels in the displayed aggregation."
+    },
+    {
+      "lines": [
+        960,
+        963,
+        964,
+        967,
+        968
+      ],
+      "fact": "MyNote is used for combination/singleton category selection, with constituent labels distinguished by position."
+    },
+    {
+      "lines": [
+        1617,
+        1977
+      ],
+      "fact": "The code concatenates two guide-label fields of an anot object. This alone does not bind them to WGE IDs, sequences, the acquired matrix, or actual measured support."
+    },
+    {
+      "lines": [
+        100,
+        101,
+        1584,
+        1585
+      ],
+      "fact": "Some anot processing substitutes guide-class labels for blank target labels. The projection does not establish that the acquired matrix was created by those statements."
+    }
+  ],
+  "not_established": [
+    "exact seven-column object creation/renaming",
+    "78920-row selection lineage",
+    "guide-label-to-sequence map",
+    "actual invocation",
+    "sample/time/culture/initiation provenance",
+    "observed eligible response support"
+  ],
+  "projection_scope": "156 exact-symbol source lines only, not a complete script audit or repository-wide absence proof. Literal example selectors are exposed documentary context and cannot choose a scientific subset.",
+  "source_qualified": false,
+  "fits": 0,
+  "scores": 0
+}

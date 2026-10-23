@@ -1,0 +1,32 @@
+........................................................................ [  6%]
+........................................................................ [ 13%]
+..............x......................................................... [ 19%]
+........................................................................ [ 26%]
+........................................................................ [ 33%]
+........................................................................ [ 39%]
+........................................................................ [ 46%]
+........................................................................ [ 52%]
+........................................................................ [ 59%]
+........................................................................ [ 66%]
+........................................................................ [ 72%]
+........................................................................ [ 79%]
+........................................................................ [ 85%]
+........................................................................ [ 92%]
+........................................................................ [ 99%]
+.........                                                                [100%]
+============================== warnings summary ===============================
+tests/test_continuation_colo1_zip_directory_v1.py::test_unsafe_or_ambiguous_names_refused[names1]
+  C:\Python314\Lib\zipfile\__init__.py:1708: UserWarning: Duplicate name: 'same'
+    return self._open_to_write(zinfo, force_zip64=force_zip64)
+
+tests/test_naiad_reference.py::test_native_no_resplit_test_sentinels_replay_and_numerical_serialization
+tests/test_naiad_reference.py::test_native_no_resplit_test_sentinels_replay_and_numerical_serialization
+tests/test_naiad_reference.py::test_native_batch_guard_interrupts
+tests/test_naiad_reference.py::test_native_unqueried_missing_single_stays_missing_and_is_not_an_input
+  C:\Users\USER\Desktop\opal-research-next-20261020\NAIAD\naiad\utils.py:230: UserWarning: warmup_steps is not an int. Coercing into an int now...
+    warnings.warn('warmup_steps is not an int. Coercing into an int now...', UserWarning)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+XFAIL tests/test_continuation_colo1_schema_v1.py::test_bounded_decompression_and_nested_refusal[compress0] - Frozen v1 gzip filename/fileobj defect; v2 has passing regression coverage
+1088 passed, 1 xfailed, 5 warnings in 93.41s (0:01:33)
