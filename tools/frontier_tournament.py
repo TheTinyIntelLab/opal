@@ -104,7 +104,7 @@ def freeze(root, pilot):
     if (ROOT/'tests/test_frontier_tournament_independent.py').exists():
         files.append(ROOT/'tests/test_frontier_tournament_independent.py')
     write(root/'code-binding.json',dict(protocol_sha256=digest(root/'protocol.json'),
-          files={str(p.relative_to(ROOT)):digest(p) for p in files},
+          files={p.relative_to(ROOT).as_posix():digest(p) for p in files},
           environment=dict(python=sys.version,numpy=np.__version__,torch=torch.__version__,
                            threads=torch.get_num_threads()),
           utc=datetime.now(timezone.utc).isoformat()))
@@ -188,12 +188,12 @@ def fit(root, qualification=None):
             save_arrays(runroot/'queries.npz',pairs=qp,singles=singles,supported=supported,degree=degree)
             save_arrays(runroot/'predictions.npz',**outputs)
             write(runroot/'selection.json',result)
-            cellrecord['procedures'].append(str(runroot.relative_to(root)))
+            cellrecord['procedures'].append(runroot.relative_to(root).as_posix())
         manifest['cells'].append(cellrecord)
         budget.check()
         print(json.dumps(dict(fitted_cell=index,world=cell['world'],seed=cell['seed'],mask=cell['mask'])),flush=True)
     for path in directory.rglob('*'):
-        if path.is_file(): manifest['files'][str(path.relative_to(root))] = digest(path)
+        if path.is_file(): manifest['files'][path.relative_to(root).as_posix()] = digest(path)
     write(root/'all-predictions-sealed.json',manifest)
     budget.finish('fit')
 
@@ -205,7 +205,7 @@ def verify_seal(root):
     for name,expected in manifest['files'].items():
         if digest(root/name) != expected: raise ValueError('Sealed artifact drift: '+name)
     expected_files = set(manifest['files'])
-    actual_files = {str(p.relative_to(root)) for p in (root/'models').rglob('*') if p.is_file()}
+    actual_files = {p.relative_to(root).as_posix() for p in (root/'models').rglob('*') if p.is_file()}
     if actual_files != expected_files: raise ValueError('Unsealed roster artifact')
     return protocol,manifest
 
