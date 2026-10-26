@@ -257,3 +257,5 @@ The preprint hasn't been submitted to arXiv. Until an identifier exists, don't c
 ## 10. Contact
 
 Read [The Tiny Intelligence Lab](https://thetinyintelligencelab.vercel.app/) for project updates. Once the repository is public, use [GitHub issues](https://github.com/TheTinyIntelLab/opal/issues) for reproducible code or evidence problems.
+
+The [full-plan completion audit](docs/frontier_execution/plan_completion_audit.md) separates completed modeling from remaining source blockers. Follow-up work adds guide/arm and held-gene prerequisite guards, source-free arithmetic checks, exact-item/custody inventories and a passing isolated historical budget replay. These checks leave COLO1 unqualified and the all-task biological promotion gate failed.

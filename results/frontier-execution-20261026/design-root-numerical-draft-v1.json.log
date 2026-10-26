@@ -1,0 +1,22 @@
+..FF                                                                     [100%]
+================================== FAILURES ===================================
+______ test_finite_inputs_cannot_silently_create_nonfinite_train_scaler _______
+
+    def test_finite_inputs_cannot_silently_create_nonfinite_train_scaler():
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests\test_frontier_design_contracts_review.py:43: Failed
+________ test_declared_contrast_refuses_finite_constants_that_overflow ________
+
+    def test_declared_contrast_refuses_finite_constants_that_overflow():
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests\test_frontier_design_contracts_review.py:48: Failed
+=========================== short test summary info ===========================
+FAILED tests/test_frontier_design_contracts_review.py::test_finite_inputs_cannot_silently_create_nonfinite_train_scaler
+FAILED tests/test_frontier_design_contracts_review.py::test_declared_contrast_refuses_finite_constants_that_overflow
+2 failed, 2 passed in 0.10s

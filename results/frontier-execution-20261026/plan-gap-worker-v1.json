@@ -1,0 +1,23 @@
+{
+  "taskId": "node:delegated-task:command%3Amcp%3Aba96fcc2-2ff0-45e5-9f3e-8b17b2f237e5%3Adelegate-task%3Aopal-plan-gap-contracts-20261026-v1",
+  "status": "completed",
+  "providerInstanceId": "cursor",
+  "model": "grok-4.7",
+  "options": {
+    "contextWindow": "256k",
+    "reasoning_effort": "high",
+    "fastMode": true
+  },
+  "authored": [
+    "src/frontier_design_contracts.py",
+    "tests/test_frontier_design_contracts.py",
+    "docs/frontier_execution/design_contracts.md"
+  ],
+  "worker_focused_result": "18 passed including root initial two-case review file; no source access or model fitting",
+  "root_review": "Found and reproduced cross-TEST canonical partition hole; worker corrected it. Root subsequently added two overflow regressions and finite calculated-output guards.",
+  "root_authored": "metadata/custody inventories, static processing projections, isolated historical budget verifier and root review tests",
+  "final_focused_result": "44 passed",
+  "root_focused_receipt": "design-focused-v1.json",
+  "historical_frozen_files_unchanged": true,
+  "new_biological_result": false
+}

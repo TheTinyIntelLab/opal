@@ -23,3 +23,7 @@ No all-task model is promoted, and no new independent biological source is quali
 ## Committed-byte custody
 
 The final Git-object audit found120 unique bound files byte-exact in Git and14 historical working files whose recorded CRLF bytes differ from their LF Git blobs. Every difference is explained exactly by replacing LF with CRLF; there are no unexplained differences. The experiment bindings correctly hash the actual executed/installed working bytes. `committed-custody-v1.json` records both hashes and the reversible reconstruction for a new scratch checkout. Historical source blobs, working files, checkpoints and tolerances are unchanged. New frozen frontier files retain their exact bytes through Git attributes. This is a pinned-stack reconstruction record, not a claim that the original bindings match every platform checkout without reconstruction.
+
+## Follow-up after65f32b3
+
+The [completion audit](plan_completion_audit.md) closes remaining executable gaps. In particular, the available historical budget branch now replays all1020 checkpoints independently of the missing E: reagent/flexible prerequisites. Earlier statements about the combined verifier describe that preserved command, not the availability of the budget assets. Native/reagent/flexible/wave-three missing-custody blockers persist. New design guards and static processing projections do not alter the frozen models, biological scores or failed gate.

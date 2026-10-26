@@ -1,0 +1,348 @@
+{
+  "reviewed_files": 68,
+  "bytes": 821820,
+  "findings": [],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 11140,
+      "sha256": "e89e437d6964795bdf9c618579b59b3b3ea51d291d01c6648cd82c49d6f08ad8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 27617,
+      "sha256": "2709628c3dc174e684ee13c528cca06fbefa5289afcba70921d6b22d8138d1ec"
+    },
+    {
+      "path": "docs/frontier_execution/budget_replay_isolation.md",
+      "bytes": 1335,
+      "sha256": "941c001866356c2cd88954c11483bb0b28f42358a95c672fe916b644ffb46db5"
+    },
+    {
+      "path": "docs/frontier_execution/delivery.md",
+      "bytes": 5671,
+      "sha256": "d7af7e93a5601494ec7b6a4658f8ed19ca6bbdad006df4f37a8c38a5c45fc4a6"
+    },
+    {
+      "path": "docs/frontier_execution/design_contracts.md",
+      "bytes": 5495,
+      "sha256": "b2bf320acd5172d4aa1737a4990f01f66fe2bf5e0c29ba5aac1f4691b577804f"
+    },
+    {
+      "path": "docs/frontier_execution/exposure_ledger.md",
+      "bytes": 3600,
+      "sha256": "14b272588c940e7d0ad70f1f8d1ddbc044d232047162118cf57eae23290c604c"
+    },
+    {
+      "path": "docs/frontier_execution/item_rights_ledger.md",
+      "bytes": 3892,
+      "sha256": "309875965d311b1438f920a1679bdb13b2fd93f424fdad8d2ec58f295ad84b85"
+    },
+    {
+      "path": "docs/frontier_execution/method_cards.md",
+      "bytes": 5719,
+      "sha256": "7585bf81c26598e372e8dc0cdac4c64847deab7e1b77991d65ad91ed44d09909"
+    },
+    {
+      "path": "docs/frontier_execution/plan_completion_audit.md",
+      "bytes": 5982,
+      "sha256": "b4e13ee8cf26baf4a7a4e2f6c62f7b7ce9a1bf9bc37a79f7705060bb5716f2c0"
+    },
+    {
+      "path": "docs/frontier_execution/processing_projection_v10.md",
+      "bytes": 1281,
+      "sha256": "463597d10045ff451b6c332a8ba5a1236b0bb7a71bea6b5ed8cc945fcee39e1c"
+    },
+    {
+      "path": "docs/frontier_execution/processing_projection_v9.md",
+      "bytes": 1468,
+      "sha256": "842a9c2a553e1bba9a3535b006207467c0a698074c974f1d058b6804b81fa75b"
+    },
+    {
+      "path": "docs/frontier_execution/processing_results_v10.md",
+      "bytes": 2917,
+      "sha256": "b27bd1e64425d167d10c54fc545d15cf5c7dc666d8e2a5671b27118668e43431"
+    },
+    {
+      "path": "plan.md",
+      "bytes": 40036,
+      "sha256": "f356afc07c443ecb89d497f22d16641fe275517e5e27677a967ab17e2c6ce688"
+    },
+    {
+      "path": "results/frontier-execution-20261026/design-focused-v1.json",
+      "bytes": 2051,
+      "sha256": "a74d2347c8c84c9cf2509da5b13f5ee71fed1a4875317e3e8f137a5e43d57812"
+    },
+    {
+      "path": "results/frontier-execution-20261026/design-focused-v1.json.log",
+      "bytes": 101,
+      "sha256": "c4876b4ed75bcbf82e57f3e776112e74fc54789c0534b5785acda9ebfacd2091"
+    },
+    {
+      "path": "results/frontier-execution-20261026/design-focused-v1.json.started.json",
+      "bytes": 1617,
+      "sha256": "47748411c31b4e303e19e47a18a47386712319f1aa374777f904cc7f8dbecd51"
+    },
+    {
+      "path": "results/frontier-execution-20261026/design-root-numerical-draft-v1.json",
+      "bytes": 1417,
+      "sha256": "de26801233fcb2cbfb2ca3f782d8fe920fd03f3ec4954d98d5b5ac0fc8f7ac25"
+    },
+    {
+      "path": "results/frontier-execution-20261026/design-root-numerical-draft-v1.json.log",
+      "bytes": 1216,
+      "sha256": "4a22bf5991c7ad52af89c33d18f2e7e69e672f985e2cc454abb0c6ed67e2d5f3"
+    },
+    {
+      "path": "results/frontier-execution-20261026/design-root-numerical-draft-v1.json.started.json",
+      "bytes": 968,
+      "sha256": "fd4ae4caccfc64c44839db5f43e9a1d1dd550ab4107db1e6d45334f11cda12db"
+    },
+    {
+      "path": "results/frontier-execution-20261026/design-root-review-draft-v1.json",
+      "bytes": 1413,
+      "sha256": "7d6cb6f93de7c723497541102fdbd049dd6715a9a7ae240c3567612ef2b197c0"
+    },
+    {
+      "path": "results/frontier-execution-20261026/design-root-review-draft-v1.json.log",
+      "bytes": 863,
+      "sha256": "7d2aa985facf8ea4c09a7ef63618557149e92494a997ec37d7478b47c417b1e0"
+    },
+    {
+      "path": "results/frontier-execution-20261026/design-root-review-draft-v1.json.started.json",
+      "bytes": 968,
+      "sha256": "d1d14a183a5bb2aa989b89afa24bc5adec06be1181e2ffde064ff6f22aaa8c25"
+    },
+    {
+      "path": "results/frontier-execution-20261026/isolated-budget-predictions-v1.json",
+      "bytes": 1544,
+      "sha256": "7459e57825167c4dd57009ad4157efa00a4a24d4b6a9a816779777d1dd975ca6"
+    },
+    {
+      "path": "results/frontier-execution-20261026/isolated-budget-replay-v1.json",
+      "bytes": 1979,
+      "sha256": "f1529b3e309d6d2419041e022b64f681c23183d66124779c5ce9d280ef75e273"
+    },
+    {
+      "path": "results/frontier-execution-20261026/isolated-budget-replay-v1.json.log",
+      "bytes": 65,
+      "sha256": "ca83e6b67b2ff2ce7ded970c87dae41266020d06afd3a869803c993b39f172f4"
+    },
+    {
+      "path": "results/frontier-execution-20261026/isolated-budget-replay-v1.json.started.json",
+      "bytes": 1535,
+      "sha256": "fd9da7191a0330c310f085d7b298d6da9cf55a97c0380dddc55fad9f03f05989"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-environment-inventory-v1.json",
+      "bytes": 2806,
+      "sha256": "e96fcf992448df03bc85ee89e5d24a5440fa34c0590ddade8a603079ebce97bb"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-gap-build-v1.json",
+      "bytes": 1413,
+      "sha256": "8900ac0dc7dc184dbbf9ec894e6850ca243f4c2719630f5c380916ca05c1b42c"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-gap-build-v1.json.log",
+      "bytes": 117898,
+      "sha256": "94fe4a12c2a2c8c0af17e766335092eb3fb99f91b390f160d6990611c5081982"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-gap-build-v1.json.started.json",
+      "bytes": 976,
+      "sha256": "fe8c2c4ee4ac24629915a779a55a7f35a491f7e9e215e1a3ada6608a81706a22"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-gap-build-v2.json",
+      "bytes": 1416,
+      "sha256": "18597c36b1d6b6c526ed76e0b2241f0ec930d16258ee351609de1ae4794ef961"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-gap-build-v2.json.log",
+      "bytes": 117901,
+      "sha256": "62e069c95cf1d3b5df811303b8684dd4422507cad802153326c13d144707967e"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-gap-build-v2.json.started.json",
+      "bytes": 979,
+      "sha256": "2a416876740903c0425f48a63701d7e6e09f317f4d07c9671766806abead63f8"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-gap-custody-v1.json",
+      "bytes": 17057,
+      "sha256": "c4d0ac7e9ed506175272f0a81d22e442fb1a2c289802c0668a4b2a0fde1ff82e"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-gap-final-packaging-v1.json",
+      "bytes": 693,
+      "sha256": "adae41fce4fdbb58ec59e546fa12d9d3633fab91032e604cabf5b47b4ef45b1f"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-gap-full-tests-v1.json",
+      "bytes": 1357,
+      "sha256": "82fd8dbd19b008fe0a76bc2b373e678e0eb3b8605020b8acb07c19a9a8af36c3"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-gap-full-tests-v1.json.log",
+      "bytes": 2984,
+      "sha256": "d842b0fcb8f40b4887745352399b75ea90907826959727b23e71b509adb3d146"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-gap-full-tests-v1.json.started.json",
+      "bytes": 913,
+      "sha256": "e7a5f0dc55c92a5f48a26a470e759ac1fa1e1edb171acf2d4bf7ecbbb3fe6d0b"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-gap-installed-v1.json",
+      "bytes": 1360,
+      "sha256": "f37942f6d4994614fb48443e9da5eabf838a87f0cbad1827c28e41d5b3d27bf4"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-gap-worker-v1.json",
+      "bytes": 1125,
+      "sha256": "a2241688792dd449909c16f89f8c2f6a0a7c70cd1dd98c5a8e60050dbd04988b"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-inventory-v1.json",
+      "bytes": 1430,
+      "sha256": "7d45603e5baf5a74aabf450f3f7022ff2d5b144702acdad5abd4bd6e2dfbf823"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-inventory-v1.json.log",
+      "bytes": 157,
+      "sha256": "b57d00b16e060e3eaa8857eafd93942e00352f55a1a59f11eed9636cccdf5fd2"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-inventory-v1.json.started.json",
+      "bytes": 996,
+      "sha256": "16405142f3bf33575628e89e5f645837eef07213801fed164d474093dcc168a4"
+    },
+    {
+      "path": "results/frontier-execution-20261026/plan-inventory-v1/inventory.json",
+      "bytes": 313605,
+      "sha256": "cf921d536482f5f9fdf9f1b55dce2ec88b0f306d7a61c332d5711f8903f63bf6"
+    },
+    {
+      "path": "results/frontier-execution-20261026/processing-projection-v10.json",
+      "bytes": 734,
+      "sha256": "ec31d8cbb97ab757d4062ca2aa1dd114050d9680b03df5b237f0f9236070360d"
+    },
+    {
+      "path": "results/frontier-execution-20261026/processing-projection-v9.json",
+      "bytes": 1626,
+      "sha256": "f6908d3b7761b61e209ba150c42479470b741edf3eab4c2735793e4745dfee0d"
+    },
+    {
+      "path": "results/frontier-execution-20261026/processing-v10-command.json",
+      "bytes": 1880,
+      "sha256": "81a778c955fcab5bbc9a82b4a4c2d35578ad40b855b205e52c9dbd4ffcdbf98b"
+    },
+    {
+      "path": "results/frontier-execution-20261026/processing-v10-command.json.log",
+      "bytes": 58,
+      "sha256": "572950d8f27eb577d69d11eb35dd79a1d48d8a499901ca7f611270ad02e89076"
+    },
+    {
+      "path": "results/frontier-execution-20261026/processing-v10-command.json.started.json",
+      "bytes": 1446,
+      "sha256": "6882fe0e31dde4bc2f08446c7c0037cf098b9fa9f4a77159dafdd12d8c73c019"
+    },
+    {
+      "path": "results/frontier-execution-20261026/processing-v10-fixtures.json",
+      "bytes": 1439,
+      "sha256": "71d729ec1a04fd3648337299e04f170030de9e8ab8eecb6c7a69350a9d74d6bf"
+    },
+    {
+      "path": "results/frontier-execution-20261026/processing-v10-fixtures.json.log",
+      "bytes": 101,
+      "sha256": "64b0e22ae4e145f5cdfb246ea318e4c151e23aa15d3b66d0676ed5e34a97bf24"
+    },
+    {
+      "path": "results/frontier-execution-20261026/processing-v10-fixtures.json.started.json",
+      "bytes": 998,
+      "sha256": "a4dbe83a4d00872a860d4eb0ff049031b3a830b9fb28ed39d73ad69da3f751b5"
+    },
+    {
+      "path": "results/frontier-execution-20261026/processing-v9-command.json",
+      "bytes": 1878,
+      "sha256": "207f17532595e390a362719c062fc19b692f625dcf35b33d925a869a512b2879"
+    },
+    {
+      "path": "results/frontier-execution-20261026/processing-v9-command.json.log",
+      "bytes": 57,
+      "sha256": "cf5117174ef848b67788ea67cc45e023f855a39f111a0f89f92170a19722ceb7"
+    },
+    {
+      "path": "results/frontier-execution-20261026/processing-v9-command.json.started.json",
+      "bytes": 1442,
+      "sha256": "3263e961f1d99949a5899183dd151f65779dbde410f311b55dbe3f62b67eb6b7"
+    },
+    {
+      "path": "results/frontier-execution-20261026/processing-v9-fixtures.json",
+      "bytes": 1394,
+      "sha256": "847d9415d9b31b81971a8884289cece7a6c630483f281552282aa004414e7eb0"
+    },
+    {
+      "path": "results/frontier-execution-20261026/processing-v9-fixtures.json.log",
+      "bytes": 101,
+      "sha256": "f40fde58b8932e7584a1877faaa259b15c867a17091a480ddef53ffa794b22f2"
+    },
+    {
+      "path": "results/frontier-execution-20261026/processing-v9-fixtures.json.started.json",
+      "bytes": 955,
+      "sha256": "f18f305700958a3794049f1cf664dda5406c8e5c5632c139e7e90f423c68cf80"
+    },
+    {
+      "path": "results/frontier-execution-20261026/release-custody-routing-v1.json",
+      "bytes": 5710,
+      "sha256": "87230aac4116cdaddad05ea0000b0f2ebdb9c29a72e300f5971ef76154335f2c"
+    },
+    {
+      "path": "src/frontier_design_contracts.py",
+      "bytes": 44802,
+      "sha256": "0d84b40143d8a2df18de82d3dc3673b140556e18d1ad2ba91ecd526c1ae29e51"
+    },
+    {
+      "path": "tests/test_colo1_processing_v10.py",
+      "bytes": 807,
+      "sha256": "539396d65c24cf392bd55e131f8e61ead3eab71b3bc282cbb91e4f63969a7640"
+    },
+    {
+      "path": "tests/test_colo1_processing_v9.py",
+      "bytes": 1002,
+      "sha256": "1dca80d3c1dfcd3ff04979edb36ed24f9f8ea038d96d6ffc7ab6c299123cfee4"
+    },
+    {
+      "path": "tests/test_frontier_design_contracts.py",
+      "bytes": 19895,
+      "sha256": "b42dfe42982f738b28312fd87e6cd4b62a860d705d9e87dad94ab8cec9691895"
+    },
+    {
+      "path": "tests/test_frontier_design_contracts_review.py",
+      "bytes": 2241,
+      "sha256": "6b0dc4ba7ac7f24fd154a702021d2b4e6d2b5b00f248b4396b581223dce7471f"
+    },
+    {
+      "path": "tools/colo1_frontier_processing_v10.py",
+      "bytes": 2491,
+      "sha256": "6afd10ba26a00df751317f3eaeb40d13231c3c0850597e889a33fd170320ea58"
+    },
+    {
+      "path": "tools/colo1_frontier_processing_v9.py",
+      "bytes": 2565,
+      "sha256": "8b5fda8488cb142349b3836f5c1b76df4a93129494916ca7f08e6ad37288eb46"
+    },
+    {
+      "path": "tools/frontier_plan_inventory.py",
+      "bytes": 5184,
+      "sha256": "6790dba48915c568eb9efc186f664eddfcd510971a235d0e0f86cc84f8b9f4b0"
+    },
+    {
+      "path": "tools/verify_budget_delivery.py",
+      "bytes": 6058,
+      "sha256": "d3ed5f7ce8c5ae6e137f9005e5d9b5f0019b6993c4bf6e14e990b3238858e55b"
+    }
+  ],
+  "scope": "Authored code/tests/docs, factual item/custody metadata and compact receipts; no upstream code copy, response arrays or weights"
+}

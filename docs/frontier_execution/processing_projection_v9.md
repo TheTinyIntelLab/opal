@@ -1,0 +1,7 @@
+# Cached processing-code projection v9
+
+Registered before projection on26 October2026. Authorize one static, local view of the already acquired `tmp/colo1-annotation-provenance-v1/Rscript_final.R`, exactly87060 bytes with SHA256 `a5ca73f871273ba1b370fdea4e3969e9badf58698a085cfc486dd5fa08e08127`. No network request, R execution, source import, response table/header/value, annotation deserialization or supplementary body is authorized.
+
+Expose only individual non-comment executable lines containing one of the v4 operation symbols: `read.table`, `readRDS`, `filter`, `rowSums`, `colSums`, `sweep`, `log2`, `scale`, `mean`, `median`, `is.na`, `na.omit`, `count`, or `normaliz`. Exclude console/table-like outputs, rendering calls, outcome literals and numeric-vector literals. No neighboring lines. Cap128 lines and16KiB; exceeding either cap refuses the projection, without broadening it. This is source-code inspection of documentary implementation, never proof the script generated the acquired objects or ran on deposited inputs.
+
+Run invented-string guard fixtures before accessing the cached source. Preserve only hashes/counts and a factual processing summary in Git; matched upstream code remains in ignored local quarantine. Actual control/reference membership, guide sequences, sample/initiation joins and missing measured-support evidence cannot be inferred from this projection. All response gates and the failed model-promotion result remain unchanged.

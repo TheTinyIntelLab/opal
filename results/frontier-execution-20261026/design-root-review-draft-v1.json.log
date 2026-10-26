@@ -1,0 +1,15 @@
+F.                                                                       [100%]
+================================== FAILURES ===================================
+_______ test_public_split_cannot_put_a_guide_variant_in_test_and_train ________
+
+    def test_public_split_cannot_put_a_guide_variant_in_test_and_train():
+        declared = library()
+        split = design.DesignSplit(design.CONTRACT, ('train', 'test', 'validation'), ())
+>       with pytest.raises(ValueError):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE <class 'ValueError'>
+
+tests\test_frontier_design_contracts_review.py:25: Failed
+=========================== short test summary info ===========================
+FAILED tests/test_frontier_design_contracts_review.py::test_public_split_cannot_put_a_guide_variant_in_test_and_train
+1 failed, 1 passed in 0.09s
