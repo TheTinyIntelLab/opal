@@ -1,0 +1,13 @@
+# Root implementation coordination
+
+Root owns `src/frontier_tournament.py`, `tools/frontier_tournament.py` and `tests/test_frontier_tournament.py`. C may independently add `tests/test_frontier_tournament_independent.py` and a review report without editing root files. A/B/D should not run numerical workloads concurrently with root's monitored jobs. No worker commits or pushes.
+
+Provisional interface for review, not yet implemented or frozen:
+
+- `make_world(world, seed, noise, mask='complete', genes=60)` returns a synthetic-only dictionary with `pairs`, `singles`, `features`, `observed`, `truth`, `train`, `validation`, `test`, and `available`. Pair arrays use canonical integer endpoints; observed/truth are two-initiation by pair arrays. No source file is accepted.
+- `budget_rows(data, fraction)` returns selected TRAIN and VALIDATION indices using outcome-independent prefixes and availability masks, with nominal/actual counts reported separately.
+- `fit_models(singles, features, train_pairs, train_targets, validation_pairs, validation_targets, seed)` returns a collection of fitted candidate records with validation MSE and configuration. No TEST inputs or targets belong in this API.
+- Candidate predictors accept only query pairs and refuse unsupported genes. `save(path)` and matching `load(path)` provide safe non-pickle checkpoints under a separately versioned contract. Symmetry, duplicate occurrences and saved prediction replay are tested.
+- A lifecycle tool freezes protocol/code/environment, generates/fits/persists predictions, then seals the complete roster before TEST scoring. Scoring and replay are separate phases. C can test poisoning/split/support/causal-alias behavior when implementation is available.
+
+Implementation is now available for C's independent tests. `features` is exactly `singles[:,None]`; extra features are refused. `make_world` retains construct tensors and independent target streams. `budget_rows` returns train indices, validation indices, then an accounting dict. `fit_models` returns record dictionaries with `family`, `config`, `model`, `validation_mse`; optional `controls=False`, `completion_steps=5`, `neural_steps=5` are fixture-only speed settings, never the registered experiment. `Predictor.load(path, expected_sha256=None)` loads array checkpoints. `.predict` refuses queries where either gene has fewer than two distinct TRAIN partners. `pair_kernel` and `gene_kernel` are public for PSD/identity-distinction tests. `select_records` returns family selections, simple selection, full policy. Root is writing lifecycle tool next. Do not run numerical tests until root coordinates the slot; author tests and static review now.

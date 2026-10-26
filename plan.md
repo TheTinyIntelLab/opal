@@ -2,7 +2,7 @@
 
 Updated 26 October 2026 for The Tiny Intelligence Project. This file is the sole authoritative forward plan. The previous plan is preserved byte-for-byte in [the historical archive](docs/frontier/historical/plan-before-frontier-directive-20261026.md.txt). Existing protocols, source restrictions, negative results, checkpoints and failed receipts remain binding historical records.
 
-This pass writes and commits the plan only. All unchecked work below is future execution, including worker launches, literature review, source qualification, new tests and experiments. The candidate matrix is a bounded proposal, not an executed tournament or a frozen scientific registration. Independent proposals, critiques, resource qualification and source-specific registration must precede the relevant execution.
+Execution began on 26 October 2026 after planning commit `6037bfe`. The planning version is preserved in [the pre-execution archive](docs/frontier/historical/plan-before-frontier-execution-20261026.md.txt). Progress and exact attribution are recorded under [the execution directory](docs/frontier_execution/experiment_matrix.md) and `results/frontier-execution-20261026/`. All unchecked items remain pending; a written proposal or passing software check is not an experiment result or source qualification.
 
 ## Objective and scientific claim
 
@@ -29,7 +29,7 @@ The following evidence constrains the research program.
 
 ## Execution order and four-worker hierarchy
 
-Execution uses exactly four delegated workers beneath root, arranged `root>A>C` and `root>B>D`. Root integrates and implements across streams but is not a fifth delegated worker. No workers are launched during this planning-only pass.
+The initial proposal round used exactly four delegated workers beneath root, arranged `root>A>C` and `root>B>D`. All four wrote independent proposals, C/D critiqued their parents, and both parents revised before root's matrix registration. A later failed with a provider capacity error; B/C/D completed their proposal/review work. Root wrote the initial implementation. The user then explicitly authorized Cursor Grok 4.7 at 256k/high for further implementation and tests, with root review. Those additional, separately attributed test and source-continuation tasks do not erase A's failure or constitute the initial four workers' implementation endorsement.
 
 1. **Establish custody and resources.** Root verifies local and remote HEAD, dirty files, instructions, historical hashes, assets and compute before any mutation or acquisition. Root inventories assets without reading reserved contents and records each asset's exposure class and rights status.
 2. **Start the four streams together.** A owns COLO1 source qualification and delegates C to framework and synthetic falsification. B owns architecture and primary-literature research and delegates D to compute, reproducibility and independent critique. Source blockers must not idle B, C or root's implementation work.
@@ -172,7 +172,7 @@ The finite tournament ends when its registered roster completes or a declared va
 - [ ] Run the existing documentation builder and local-link checks. Validate new commands against actual paths and existing CLI help before recording them as reproducible commands. Reject restricted data, raw responses, credentials and unlicensed source material from Git/distributions.
 - [ ] Review the complete diff, custody hashes and claims, then commit and push completed execution work using repository conventions and the requested GitHub account. Verify the delivered remote SHA, clean working tree and all four hosted jobs for that SHA. If authentication or CI is blocked, report the exact state instead of claiming delivery.
 
-This planning-only pass commits the rewritten plan and its historical archive. Full scientific execution checks, package builds, hosted CI and a push belong to the later execution delivery; no experiment or biological result is implied by the planning commit.
+The earlier planning commit contained no experiments. Execution receipts must distinguish the initial clean baseline, new fixture checks, pilot qualification, frozen evaluation, installed replay, final engineering checks and remote delivery. No biological result follows from the planning or engineering commits.
 
 ## Required execution report and next action
 

@@ -193,3 +193,12 @@ tools/verify_continuation_*.py -text whitespace=cr-at-eol
 docs/research_reset/wave5_completion/** -text whitespace=cr-at-eol
 results/research-wave5-completion/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
 src/evaluation_precision.py -text whitespace=cr-at-eol
+
+# Frontier registrations, independent reviews and execution receipts bind bytes.
+docs/frontier_execution/** -text whitespace=cr-at-eol
+results/frontier-execution-20261026/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+src/frontier_tournament.py -text whitespace=cr-at-eol
+tools/frontier*.py -text whitespace=cr-at-eol
+tools/colo1_frontier*.py -text whitespace=cr-at-eol
+tests/test_frontier_tournament*.py -text whitespace=cr-at-eol
+tests/test_colo1_frontier*.py -text whitespace=cr-at-eol
