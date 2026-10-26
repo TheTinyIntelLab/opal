@@ -1,0 +1,35 @@
+{
+  "command": [
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/.venv/Scripts/python.exe",
+    "tools/frontier_growth.py",
+    "profile",
+    "--output",
+    "tmp/frontier-execution-20261026/growth-v1"
+  ],
+  "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+  "pythonpath": "C:\\Users\\USER\\AppData\\Local\\Temp\\opal-frontier-installed-2j1v1ggb",
+  "started_utc": "2026-10-26T09:33:13.957253+00:00",
+  "bound_sha256": {
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\wave5_run_check.py": "57a2173eda688cd58f30be5cdbd24487f26c324e1bf0b0d2304c26c23ee2d30b",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\research-wave5\\freeze.json": "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\frontier-execution-20261026\\growth-v1\\protocol.json": "1d6a5ce3376197a52ac619e80accafdaa2bf3fadf9e6856157c8711af98db8f0",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\frontier-execution-20261026\\growth-v1\\code-binding.json": "78b9b52a90f1cc483f37ff417d80035bd0ccd4062d9bf35851c60585ad26db8a"
+  },
+  "caps": {
+    "timeout_seconds": 600.0,
+    "peak_bytes": 2147483648
+  },
+  "sampling_seconds": 0.05,
+  "timeout_enforcement": "sampled external watchdog; kills process tree",
+  "cpu_measurement": "sampled sum across live process tree; may miss process-exit tail",
+  "returncode": 0,
+  "stopped": null,
+  "wall_seconds": 212.7179330000654,
+  "sampled_cpu_seconds": 211.59375,
+  "sampled_tree_peak_bytes": 676524032,
+  "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\frontier-execution-20261026\\growth-profile-v1.json.log",
+  "log_sha256": "6426c898aa08d28152e921fd8d8d40c877e350cac3f767c7aabb31d28480b5f4",
+  "log_bytes": 201,
+  "bound_drift": [],
+  "passed": true
+}

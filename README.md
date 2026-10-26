@@ -116,6 +116,12 @@ A [licensed COLO1 native annotation audit](docs/research_reset/continuation/colo
 
 A later [30-cell synthetic replication experiment](docs/research_reset/continuation/replication_results_v1.md) recovers persistent low-rank pair structure across simulated initiations, with 88.07%-91.33% lower MSE in three noisy cases against its fixed reference menu. Persistent technical structure produces identical success, while additive noise, unpredictable edges and redrawn technical effects expose failures. This is software and experimental-design evidence, with no new biological scoring or promotion.
 
+### Frontier architecture tournament
+
+A separately registered synthetic tournament now compares strong single-effect references, completion, an identity/single pair kernel and a small symmetric composition network under identical label budgets. All96 cells and192 procedures ran, with6,912 candidate instances including fixed references,5,376 exact checkpoint replays and32,256 independently recomputed MSE values. Completion works well on persistent low-rank structure, while the network wins on structured partner curves at the larger budget; low-label neural performance and technical-shift transfer expose substantial failures. The [full results](docs/frontier_execution/synthetic_results.md) retain every fixed reference and negative control. These are synthetic recovery results, with no new biological validation or promotion.
+
+The [new research API](docs/frontier_execution/model.md) keeps historical contracts unchanged. The completed [six-task exposed-growth tournament](docs/frontier_execution/growth_results.md) selected completion in all30 folds, with MSE gains of5.80%,4.11%,25.14%,28.75%,17.56% and13.95% over validation-selected simple references. The all-task promotion gate **failed** because Jurkat missed5%; the kernel and small composition network did not beat completion. All840 saved checkpoints replayed exactly from an external installed package. These are source-local fits on already exposed cohorts, not independent biological confirmation. Both failed storage qualifications remain preserved; reversible packing qualified under unchanged caps. COLO1 remains unqualified after its documented mapping-archive route returned403 without a body read.
+
 ### Closed expression candidate
 
 Hierarchical gene-local composition loses to inner-selected affine or kernel references on both sources and holdout protocols. The candidate is closed; adding capacity without compatible new pair evidence is not justified.

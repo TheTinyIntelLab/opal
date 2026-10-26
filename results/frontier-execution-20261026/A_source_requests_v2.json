@@ -1,0 +1,78 @@
+{
+  "registration_sha256": "162985c16da07b7eab6b80b09213b42b5faa96dabc3d54cdae6874b979cd9cf1",
+  "code_sha256": "a66c7bf31ab0d243199e55345ac12f123b5ad7a7fb0341a7125ef0cc81de3dbd",
+  "requests": [
+    {
+      "url": "https://raw.githubusercontent.com/ibarrioh/DualGuide_COLO1/cfb5eb9a39ff1ec43642fba9485270ae200e81ae/README.md",
+      "status": 200,
+      "mime": "text/plain",
+      "bytes": 16908,
+      "sha256": "af3ff422035e1e50a189b560b07ca0132e92b06f2afc4506e045f40cef5e6161",
+      "git_blob_sha1": "a99658a5bf15566e2a16a492409be17db43ad524",
+      "path": "README.md",
+      "outcome": "verified_documentation",
+      "wall_seconds": 0.42426600004546344
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ibarrioh/DualGuide_COLO1/cfb5eb9a39ff1ec43642fba9485270ae200e81ae/Analysis/readme.txt",
+      "status": 200,
+      "mime": "text/plain",
+      "bytes": 441,
+      "sha256": "57f42f9a180dbb71fda3f4d602e4ba2a6f499efb4aac9e560eb1d68ae6cdea92",
+      "git_blob_sha1": "fb7023d87aa99ada8ef325845c6b1550e5b2443f",
+      "path": "Analysis/readme.txt",
+      "outcome": "verified_documentation",
+      "wall_seconds": 0.38053960003890097
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ibarrioh/DualGuide_COLO1/cfb5eb9a39ff1ec43642fba9485270ae200e81ae/Analysis/ENCORE/readme.txt",
+      "status": 200,
+      "mime": "text/plain",
+      "bytes": 168,
+      "sha256": "3b45686eacc95d178b3e37fc8d7fba5c09235b17a6a6ee7b3840c4d238f2e565",
+      "git_blob_sha1": "24ee24b87d1a7780878f372281421730fb2ea39a",
+      "path": "Analysis/ENCORE/readme.txt",
+      "outcome": "verified_documentation",
+      "wall_seconds": 0.4022100999718532
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ibarrioh/DualGuide_COLO1/cfb5eb9a39ff1ec43642fba9485270ae200e81ae/Analysis/ENCORE/input/readme.txt",
+      "status": 200,
+      "mime": "text/plain",
+      "bytes": 1056,
+      "sha256": "58d43658409964dd4ece4987750dab0e569ed198da4b13e9a42b75a8fc1761c6",
+      "git_blob_sha1": "98c9e228bd1700faecadc31af54b576168c68172",
+      "path": "Analysis/ENCORE/input/readme.txt",
+      "outcome": "verified_documentation",
+      "wall_seconds": 0.40097019996028394
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41467-025-67256-9&format=json",
+      "status": 200,
+      "mime": "application/json",
+      "bytes": 1153,
+      "sha256": "a90f301863a0adad04753ed1637fb8f38a2b005d001aba14146db685ee7ba2f7",
+      "outcome": "projected_article_catalog",
+      "articles": [
+        {
+          "id": "41353404",
+          "source": "MED",
+          "pmid": "41353404",
+          "pmcid": "PMC12808759",
+          "doi": "10.1038/s41467-025-67256-9",
+          "title": "A next-generation dual guide CRISPR system for genetic interaction library screening.",
+          "authorString": "Burgold T, Karakoc E, Gon\u00e7alves E, Barrio-Hernandez I, Dwane L, Silva R, Souster E, Sharma M, Beck A, Koh GCC, Zalmas LP, Garnett MJ, Bassett AR.",
+          "journalTitle": "Nat Commun",
+          "pubYear": "2025",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "hasSuppl": "Y"
+        }
+      ],
+      "wall_seconds": 0.8119186999974772
+    }
+  ],
+  "wall_seconds": 2.4200529999798164,
+  "response_data_opened": false,
+  "upstream_executed": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "opal-frontier-growth-v2",
+  "model_contract": "opal-frontier-synthetic-v1",
+  "synthetic_only": false,
+  "biological_access": "fit stage only, after qualified forecast",
+  "tasks": [
+    "horlbeck_K562",
+    "horlbeck_Jurkat",
+    "environment1",
+    "environment2",
+    "parp2022",
+    "parp2023"
+  ],
+  "folds": 5,
+  "train_labels": 16000,
+  "validation_labels": 4000,
+  "budget": "opal-budget-v1|accession|geneA|geneB full sha256 prefix inside original block split",
+  "support": "two distinct TRAIN partners; fixed measured single sum fallback",
+  "collapse": "drop genes absent from the eligible pair roster; fail if an eligible gene single is nonfinite",
+  "fit_seed": 261401,
+  "profile_seed": 261501,
+  "profile_genes": [
+    467,
+    600
+  ],
+  "profile_worlds": [
+    "additive",
+    "lowrank"
+  ],
+  "profile_queries": 10000,
+  "max_eligible_genes": 600,
+  "packing_contract": "opal-frontier-packing-v1",
+  "completion_storage": "exact float64 bitwise-symmetric upper triangle; non-completion checkpoints remain on the original predictor contract",
+  "profile_reuse": "qualify-packed reads a finished v1 synthetic profile and does not refit",
+  "raw_completion_bytes": 345600000,
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20261022,
+  "program_cap": {
+    "wall_seconds": 7200,
+    "cpu_seconds": 7200,
+    "rss_bytes": 2147483648,
+    "artifact_bytes": 536870912,
+    "reserve_bytes": 1107296256
+  },
+  "profile_cap": {
+    "wall_seconds": 600,
+    "cpu_seconds": 600,
+    "rss_bytes": 2147483648,
+    "artifact_bytes": 67108864,
+    "reserve_bytes": 1107296256
+  },
+  "primary": "validation-selected full policy on the equal-infection mean; infections are score-only",
+  "gate": "all six tasks; one failure fails the program; no rescue",
+  "data_paths": {
+    "original": "C:/Users/USER/Desktop/opal-next-data-20261020",
+    "prepared": "C:/Users/USER/Desktop/opal-external-validation-20261020/prepared-v2",
+    "historical_block_output": "C:/Users/USER/Desktop/opal-research-next-20261020/block-v2"
+  },
+  "utc": "2026-10-26T10:14:19.689774+00:00"
+}

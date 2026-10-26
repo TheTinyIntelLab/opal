@@ -1,0 +1,9 @@
+# COLO1 primary companion routing registration v2
+
+Frozen 2026-10-26 before these requests. V1 returned 3,038 bytes of HTTP-200 HTML with no article sections, methods or supplement links. It did not obtain article methods. Permit local extraction of only HTML title and challenge-status markers from that cached page, never other prose.
+
+Authorize exactly five new GETs, no redirects/retries, 30 seconds each, maximum 128 KiB per item and 640 KiB total. Four are pure repository documentation at pinned cfb5eb9a39ff1ec43642fba9485270ae200e81ae from raw.githubusercontent.com/ibarrioh/DualGuide_COLO1/: README.md, Analysis/readme.txt, Analysis/ENCORE/readme.txt, Analysis/ENCORE/input/readme.txt. The pinned cached tree identifies these documentation items; verify each Git blob and byte size before decoding. Documentation is allowed for companion routes, invocation and roles, never as permission to open listed data. Raw bytes stay in ignored tmp/colo1_frontier_v2. Do not execute code or request linked data.
+
+The fifth request is https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41467-025-67256-9&format=json . This exact-DOI primary article index route can resolve a documented public manuscript identifier when the publisher page fails. Select only id/source/pmid/pmcid/doi/title/authorString/journalTitle/pubYear/isOpenAccess/inEPMC/hasSuppl fields. Do not request abstracts, supplements or response assets. An accession would justify a later separately frozen methods-only article request.
+
+Limits are 180 seconds overall, 256 MiB memory target, 1 GiB disk reserve. Retain each exact URL/status/bytes/hash and errors. Item rights are not inferred from GitHub hosting; existing Zenodo deposit association is documentary evidence and each documentation blob must be identified independently. No exhausted endpoint menu is reopened, no response header/value is authorized, no biology or numerical experiment is run.

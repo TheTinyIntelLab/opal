@@ -1,0 +1,63 @@
+{
+  "root_not_independent": true,
+  "refits": 0,
+  "response_array_reads": 0,
+  "gain_identity_rounding_comparison": {
+    "rtol": 1e-14,
+    "atol": 1e-15
+  },
+  "historical_tolerances_unchanged": true,
+  "aggregate_checks": [
+    {
+      "task": "horlbeck_K562",
+      "arithmetic_consistent": true,
+      "all_fixed_references": 16,
+      "shuffle_controls": 3,
+      "passes": true,
+      "failed_criteria": []
+    },
+    {
+      "task": "horlbeck_Jurkat",
+      "arithmetic_consistent": true,
+      "all_fixed_references": 16,
+      "shuffle_controls": 3,
+      "passes": false,
+      "failed_criteria": [
+        "mse_gain"
+      ]
+    },
+    {
+      "task": "environment1",
+      "arithmetic_consistent": true,
+      "all_fixed_references": 16,
+      "shuffle_controls": 3,
+      "passes": true,
+      "failed_criteria": []
+    },
+    {
+      "task": "environment2",
+      "arithmetic_consistent": true,
+      "all_fixed_references": 16,
+      "shuffle_controls": 3,
+      "passes": true,
+      "failed_criteria": []
+    },
+    {
+      "task": "parp2022",
+      "arithmetic_consistent": true,
+      "all_fixed_references": 16,
+      "shuffle_controls": 3,
+      "passes": true,
+      "failed_criteria": []
+    },
+    {
+      "task": "parp2023",
+      "arithmetic_consistent": true,
+      "all_fixed_references": 16,
+      "shuffle_controls": 3,
+      "passes": true,
+      "failed_criteria": []
+    }
+  ],
+  "program_gate_consistent": true
+}

@@ -1,0 +1,50 @@
+{
+  "registration_sha256": "88f788279528d92171838e977d40ee3d68ecddd5bd7490cbcf93ef1a8f5b193a",
+  "code_sha256": "11b2aa17ed6b867f94ad7562f890f4fc8518bd1e0bea69eec7ce3a907c12051d",
+  "requests": [
+    {
+      "url": "https://api.figshare.com/v2/articles/25533091/versions/1",
+      "status": 200,
+      "mime": "application/json",
+      "bytes": 2393,
+      "sha256": "ce45ad2a2461a8e2465d3a5a4e31952c4c5d3ab343e76241d404255455799caf",
+      "outcome": "projected_catalog",
+      "catalog": {
+        "version": 1,
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "id": 25533091,
+        "title": "MAPPING.zip",
+        "doi": "10.6084/m9.figshare.25533091.v1",
+        "url": "https://api.figshare.com/v2/articles/25533091",
+        "files": [
+          {
+            "id": 45433417,
+            "name": "MAPPING.zip",
+            "size": 1153775580,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/45433417",
+            "computed_md5": "45c84b5ec11dc17bf5967968c7097ea0"
+          }
+        ]
+      },
+      "wall_seconds": 0.7869000999489799
+    },
+    {
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP183979&result=read_run&fields=study_accession,sample_accession,experiment_accession,run_accession,sample_alias,experiment_alias,run_alias,library_name,library_strategy,library_source,library_selection,library_layout,instrument_platform,instrument_model&format=tsv",
+      "status": 200,
+      "mime": "text/plain",
+      "bytes": 7451,
+      "sha256": "3ebfa8eef43f85c56a435fd6bc41d82c6824201bf6401307cb2d7f38747947fa",
+      "outcome": "refused",
+      "error": "ValueError('metadata schema')",
+      "wall_seconds": 5.049593199975789
+    }
+  ],
+  "wall_seconds": 5.837612499948591,
+  "response_data_opened": false,
+  "upstream_executed": false
+}

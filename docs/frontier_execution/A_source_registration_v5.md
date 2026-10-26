@@ -1,0 +1,3 @@
+# Cached availability-node correction v5
+
+Frozen 2026-10-26 before corrected local projection, zero requests. V4 found Data availability and Code availability title nodes but no matching sec node. Permit their immediate parent nodes regardless of XML tag, exact title match only, excluding table/figure/supplementary bodies, at most 8 KiB combined. Permit immediate supplementary-material parent nodes' label/title/caption/paragraph metadata descriptions and media destinations, at most 4 KiB combined, excluding binary bodies and tables. This corrects a parser selector, without authorizing any linked file. Retain output hash and source hash. No response data, upstream execution or study outputs may be projected.

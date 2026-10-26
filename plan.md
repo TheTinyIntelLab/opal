@@ -4,6 +4,8 @@ Updated 26 October 2026 for The Tiny Intelligence Project. This file is the sole
 
 Execution began on 26 October 2026 after planning commit `6037bfe`. The planning version is preserved in [the pre-execution archive](docs/frontier/historical/plan-before-frontier-execution-20261026.md.txt). Progress and exact attribution are recorded under [the execution directory](docs/frontier_execution/experiment_matrix.md) and `results/frontier-execution-20261026/`. All unchecked items remain pending; a written proposal or passing software check is not an experiment result or source qualification.
 
+The [execution checkpoint](docs/frontier_execution/execution_status.md) and [growth results](docs/frontier_execution/growth_results.md) record the completed96-cell/192-procedure synthetic tournament and30-procedure six-task exposed-growth comparison. Completion was selected in all growth folds, but the all-task gate failed because Jurkat gained4.11%, below5%. All840 growth and5376 synthetic checkpoints replayed exactly. COLO1 remains unqualified, and no independent biological confirmation or frontier-performance result is established. Two failed storage qualifications remain preserved; a lossless byte-shuffle successor passed the unchanged resource caps. Final delivery verification is recorded separately from scientific acceptance.
+
 ## Objective and scientific claim
 
 Find the strongest reproducible predictor of genetic perturbation-pair growth outcomes from measured constituent singles and a declared budget of local pair supervision. Compare simple references, completion and distinct interaction architectures under the same information and evaluation contracts. A defensible positive result is the objective, but a failed registered comparison remains a failed comparison.
@@ -51,7 +53,7 @@ Start with the [paper](https://www.nature.com/articles/s41467-025-67256-9), [ana
 - [ ] Audit processing code through a prospectively allowlisted, response-free projection. Determine actual invocation, exact counting and filter order, reference membership, sum normalization, scaling, centering, endpoint, zero handling and missingness rules. Separate the reported pyCROQUET v1.6.0, exact counting, fewer-than-10-count exclusion, million-count scaling and day-14/day-3 or plasmid comparisons from verified execution. Do not execute the study script or open embedded output blocks.
 - [ ] Reconcile the reported 40-anchor by 404-library design and 100,136 designed vectors with the actual 78,920-row annotation. Resolve whether the dimensions describe guides, targets, orientations or another design unit before proposing coverage. Record annotation-level connectivity and potential singleton matches without claiming measured eligibility.
 - [ ] Establish whether both-arm constituent measurements and appropriate controls could support the intended endpoint. Non-essential-target controls remain perturbations. A target-versus-non-essential contrast may be a legitimate separate task only with an explicit reference intervention, identifiable assumptions and prospective registration.
-- [ ] Publish a prerequisite ledger that marks each requirement passed, failed or unknown and links the primary evidence. Source qualification cannot pass through guessed fields, a synthetic metadata validator or favorable annotation counts.
+- [x] Publish a prerequisite ledger that marks each requirement passed, failed or unknown and links the primary evidence. Source qualification cannot pass through guessed fields, a synthetic metadata validator or favorable annotation counts.
 
 Response-bearing files, including `COLO1_RUNMERGED_EXACT_ANNOTATED.txt` and processed count/LFC/QC/score objects, remain sealed. Do not read their headers, values, response-derived filters, mixed archive bodies or notebook outputs during qualification. A filename catalog is not permission to inspect a member.
 
@@ -59,10 +61,10 @@ For inaccessible companions, retain the exact endpoint, status/error, access cla
 
 ## Workstream B: architecture and primary-literature research
 
-- [ ] Review recent functional genetic-interaction prediction and perturbation-composition methods alongside additive, low-rank, kernel, graph and regularized neural approaches. Include the pinned native NAIAD comparator and relevant graph/network methods when primary papers and implementations justify their applicability. Published expression results are not growth-screen validation.
+- [x] Review recent functional genetic-interaction prediction and perturbation-composition methods alongside additive, low-rank, kernel, graph and regularized neural approaches. Include the pinned native NAIAD comparator and relevant graph/network methods when primary papers and implementations justify their applicability. Published expression results are not growth-screen validation.
 - [ ] For every shortlisted method, record the primary paper/code revision, endpoint, train/validation/test construction, label budget, external features, unsupported-gene behavior, preprocessing, uncertainty and actual compute. Separate author-reported claims from this program's inference and reproduction results.
-- [ ] Audit whether claimed pair prediction uses held-pair outcomes indirectly through partner fitness, global interaction scores, pretrained source overlap, all-data preprocessing or outcome-selected genes. Reject information leakage or define a separate task before comparison.
-- [ ] Produce independently written model proposals and D's critique, then recommend a compact menu that can run on measured hardware. Favor a simple model when extra capacity lacks a specific recoverable signal or a feasible budget.
+- [x] Audit whether claimed pair prediction uses held-pair outcomes indirectly through partner fitness, global interaction scores, pretrained source overlap, all-data preprocessing or outcome-selected genes. Reject information leakage or define a separate task before comparison.
+- [x] Produce independently written model proposals and D's critique, then recommend a compact menu that can run on measured hardware. Favor a simple model when extra capacity lacks a specific recoverable signal or a feasible budget.
 
 Graph and pretrained methods are conditional entrants. Their exact metadata, licenses, training provenance and overlap must be qualified before use. Every method in a comparison track receives the same available features and local outcome budget; a graph-informed track needs feature-matched baselines and a graph ablation. No model receives privileged partner fitness, global pair outcomes or unavailable features.
 
@@ -73,8 +75,8 @@ Audit `src/models/fitness.py`, `src/scalar_screen.py`, `src/flexible_singles.py`
 - [ ] Specify a shared candidate interface with explicit singles, guide/arm metadata, TRAIN labels, VALIDATION labels, support and missingness masks. Keep TEST labels outside all model and selector objects. Every prediction records support or an explicit abstention reason.
 - [ ] Test source-specific endpoint arithmetic against hand oracles, zero versus missingness, train-only reference sets/scalers, canonical-pair grouping, guide/orientation grouping, shared-control dependence and deterministic tie-breaking.
 - [ ] Add meaningful leakage probes that poison inaccessible labels and verify unchanged fits/selections, exclude every incident outcome in held-gene splits, and reject outcome-derived eligibility or held-double-derived singles.
-- [ ] Version new APIs/checkpoints and declare replay precision before experiments. Preserve historical vectors, states, tolerances and strict expected failures. New fixed-order arithmetic cannot be represented as passing legacy compatibility.
-- [ ] Save inputs, selections, checkpoints and predictions before TEST scoring; test tamper, overwrite, partial-run and resource-stop refusal. Verify installed-package replay outside the checkout.
+- [x] Version new APIs/checkpoints and declare replay precision before experiments. Preserve historical vectors, states, tolerances and strict expected failures. New fixed-order arithmetic cannot be represented as passing legacy compatibility.
+- [x] Save inputs, selections, checkpoints and predictions before TEST scoring; test tamper, overwrite, partial-run and resource-stop refusal. Verify installed-package replay outside the checkout.
 
 The proposed synthetic evaluation has eight base worlds, each at noise levels 0 and 0.1 and three evaluation seeds, for 48 cells. The final generator equations and seed streams must be frozen after critique and before evaluation generation.
 
@@ -120,11 +122,11 @@ An uncertainty wrapper is fitted/calibrated using TRAIN/VALIDATION only and appl
 
 ## Workstream D: compute, reproducibility and critique
 
-- [ ] Measure CPU, RAM, GPU/CUDA/VRAM if present, writable-volume space, Python/package versions and numerical thread behavior. Verify paths before use; historical C: or E: locations are references, not evidence that assets still exist.
+- [x] Measure CPU, RAM, GPU/CUDA/VRAM if present, writable-volume space, Python/package versions and numerical thread behavior. Verify paths before use; historical C: or E: locations are references, not evidence that assets still exist.
 - [ ] Inventory historical checkpoint hashes and environment manifests without rewriting them. Prefer the installed environment when adequate; estimate dependency and disk costs before creating another one. No unrelated cleanup or source deletion is authorized by this plan.
-- [ ] Independently challenge B's model parity, baseline strength, null controls, sample dependence, support requirements and proposed success claims. Review C's code-binding, replay and resource-enforcement design and report unresolved objections to root.
-- [ ] Profile synthetic workloads at actual source dimensions, including basis/embedding capacity, checkpoint serialization, scoring and installed replay. Forecast the full registered run with a 25% allowance before biological fitting.
-- [ ] Record exact commands, UTC times, environment/code/input hashes, exit codes, wall/CPU use, sampled process-tree memory, disk growth and enforcement limits. Preserve failures and interrupted attempts under unique run IDs.
+- [x] Independently challenge B's model parity, baseline strength, null controls, sample dependence, support requirements and proposed success claims. Review C's code-binding, replay and resource-enforcement design and report unresolved objections to root.
+- [x] Profile synthetic workloads at actual source dimensions, including basis/embedding capacity, checkpoint serialization, scoring and installed replay. Forecast the full registered run with a 25% allowance before biological fitting.
+- [x] Record exact commands, UTC times, environment/code/input hashes, exit codes, wall/CPU use, sampled process-tree memory, disk growth and enforcement limits. Preserve failures and interrupted attempts under unique run IDs.
 
 Proposed caps are one numerical process with one BLAS/Torch thread, 2 GiB process-tree memory and a 1 GiB free-disk reserve plus the next stage's declared working-space requirement. Independent metadata/literature work may run concurrently, but profiles and numerical experiments must not compete with another numerical worker.
 
@@ -164,12 +166,12 @@ The finite tournament ends when its registered roster completes or a declared va
 
 ## Implementation and delivery checklist
 
-- [ ] Create a versioned research directory and machine-readable registration for proposals, critique responses, candidate inputs, source gates, resources and exposure. Use new run IDs; never overwrite historical plans, results or interrupted receipts.
-- [ ] Implement only the interfaces, candidates, synthetic generators and safeguards justified by review. Keep historical prediction/evaluator behavior unchanged and label new APIs/checkpoints separately.
-- [ ] Run focused contract, arithmetic, leakage, serialization, null, support and lifecycle tests before experiments, then execute every feasible registered synthetic cell and separately authorized biological task.
-- [ ] Update this plan, README, model documentation, source qualification reports and experiment receipts to match actual execution. Distinguish pending work from failures and completed evidence; include all-reference scores and rejected candidates.
+- [x] Create a versioned research directory and machine-readable registration for proposals, critique responses, candidate inputs, source gates, resources and exposure. Use new run IDs; never overwrite historical plans, results or interrupted receipts.
+- [x] Implement only the interfaces, candidates, synthetic generators and safeguards justified by review. Keep historical prediction/evaluator behavior unchanged and label new APIs/checkpoints separately.
+- [x] Run focused contract, arithmetic, leakage, serialization, null, support and lifecycle tests before experiments, then execute every feasible registered synthetic cell and separately authorized biological task.
+- [x] Update this plan, README, model documentation, source qualification reports and experiment receipts to match actual execution. Distinguish pending work from failures and completed evidence; include all-reference scores and rejected candidates.
 - [ ] Run the full relevant pytest suite, preserve the strict expected historical failure, build wheel/sdist, inspect distribution contents and replay installed packages outside the checkout. Revalidate original, external, reset, block, native, reagent, flexible, budget and wave-three replays where applicable, both synthetic model series, count-assay rehearsal and numerical installed acceptance. Historical replay must not launch a new biological fit.
-- [ ] Run the existing documentation builder and local-link checks. Validate new commands against actual paths and existing CLI help before recording them as reproducible commands. Reject restricted data, raw responses, credentials and unlicensed source material from Git/distributions.
+- [x] Run the existing documentation builder and local-link checks. Validate new commands against actual paths and existing CLI help before recording them as reproducible commands. Reject restricted data, raw responses, credentials and unlicensed source material from Git/distributions.
 - [ ] Review the complete diff, custody hashes and claims, then commit and push completed execution work using repository conventions and the requested GitHub account. Verify the delivered remote SHA, clean working tree and all four hosted jobs for that SHA. If authentication or CI is blocked, report the exact state instead of claiming delivery.
 
 The earlier planning commit contained no experiments. Execution receipts must distinguish the initial clean baseline, new fixture checks, pilot qualification, frozen evaluation, installed replay, final engineering checks and remote delivery. No biological result follows from the planning or engineering commits.
@@ -179,3 +181,11 @@ The earlier planning commit contained no experiments. Execution receipts must di
 The execution report must distinguish engineering acceptance, source qualification, experiments actually executed, best model versus every registered baseline, evidence for and against the hypothesis, uncertainty/confounding/generalization limits, resource use/reproducibility and remaining blockers. Report numerical compatibility independently from prospective invariance and accuracy. Name any review that did not run and any claim the source cannot support.
 
 The first execution action is fresh custody/resource verification followed by the four-worker proposal phase. The most valuable source action is obtaining COLO1's exact guide-sequence/control and sample/initiation companions with annotation/processing lineage. The most valuable independent modeling action is the bounded synthetic comparison of flexible main effects, completion, explicit pair kernels and regularized composition under identical local supervision. Neither action waits for an unsupported claim of biological eligibility.
+
+## Execution outcome and next evidence
+
+The finite architecture tournament and registered exposed-growth program are complete, with no all-task promotion. Their immutable registrations remain separate from this live plan. The original proposal hierarchy completed independent proposals/critiques/revisions; A later hit provider capacity, C did not conduct a post-implementation audit, and explicitly authorized Cursor Grok rounds supplied source, test, adapter, packing and result-review work. Root implemented the core tournament, reviewed delegated code and ran the recorded experiments. The exposure ledger retains historical summary-table reads.
+
+No further tuning on these scored tasks can rescue their registered gate. The next scientific step requires the missing primary COLO1 mappings, provenance and sample/culture/initiation evidence, or a separately qualified independent source. The failed403 route is exhausted and responses remain sealed. Historical numerical compatibility remains unresolved, unchanged at its original tolerance. Missing E: custody paths prevent some fresh historical installed replays; those blockers are recorded without deleting or substituting historical assets.
+
+Checklist scope: unchecked COLO1 items require missing evidence. Broad guide/held-gene tests and complete historical custody/replay are not marked complete merely because the scoped tournament passed its checks. Engineering replay blockers and the pilot ordering exception are detailed in [delivery](docs/frontier_execution/delivery.md).

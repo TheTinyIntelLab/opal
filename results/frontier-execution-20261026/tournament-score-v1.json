@@ -1,0 +1,34 @@
+{
+  "command": [
+    "C:/Users/USER/Desktop/code/thetinyintellab/opal/.venv/Scripts/python.exe",
+    "tools/frontier_tournament.py",
+    "score",
+    "--output",
+    "tmp/frontier-execution-20261026/tournament-v1"
+  ],
+  "cwd": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal",
+  "pythonpath": null,
+  "started_utc": "2026-10-26T09:30:04.072092+00:00",
+  "bound_sha256": {
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tools\\wave5_run_check.py": "57a2173eda688cd58f30be5cdbd24487f26c324e1bf0b0d2304c26c23ee2d30b",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\research-wave5\\freeze.json": "c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea",
+    "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\frontier-execution-20261026\\tournament-v1\\all-predictions-sealed.json": "2324827d4ba7b9339e611bfb4f5cf53375250180280a3dc7e14b60ab573566ca"
+  },
+  "caps": {
+    "timeout_seconds": 500.0,
+    "peak_bytes": 2147483648
+  },
+  "sampling_seconds": 0.05,
+  "timeout_enforcement": "sampled external watchdog; kills process tree",
+  "cpu_measurement": "sampled sum across live process tree; may miss process-exit tail",
+  "returncode": 0,
+  "stopped": null,
+  "wall_seconds": 10.29680729995016,
+  "sampled_cpu_seconds": 10.0,
+  "sampled_tree_peak_bytes": 272711680,
+  "log": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\results\\frontier-execution-20261026\\tournament-score-v1.json.log",
+  "log_sha256": "31509e8db79ccaa6e4cb6866b7d207178aea33f3759bc20f0cece0855435aa5f",
+  "log_bytes": 62,
+  "bound_drift": [],
+  "passed": true
+}

@@ -1,0 +1,17 @@
+{'frozen': True, 'output': 'C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\frontier-execution-20261026\\growth-v2', 'banks_opened': False}
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\frontier_growth_v2.py", line 1499, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\frontier_growth_v2.py", line 1477, in main
+    qualify_packed(root, args.prior_profile.resolve())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\frontier_growth_v2.py", line 1363, in qualify_packed
+    procedures.append(_pack_procedure(prior, root, measurement, guard))
+                      ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\frontier_growth_v2.py", line 1282, in _pack_procedure
+    guard.check()
+    ~~~~~~~~~~~^^
+  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\frontier_growth_v2.py", line 459, in check
+    raise RuntimeError(f'Artifact cap: bytes={size}')
+RuntimeError: Artifact cap: bytes=67365779

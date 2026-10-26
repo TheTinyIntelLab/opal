@@ -1,0 +1,135 @@
+{
+  "original_hierarchy": "root>A>C and root>B>D",
+  "original_exact_workers": 4,
+  "additional_round_authorization": "User explicitly authorized Cursor Grok 4.7 256k high implementation/test delegation after A capacity failure.",
+  "launches": {
+    "A": {
+      "taskId": "node:delegated-task:command%3Amcp%3A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%3Adelegate-task%3Aopal-frontier-20261026-A-v1",
+      "childThreadId": "thread:delegated-task:command%3Amcp%3A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%3Adelegate-task%3Aopal-frontier-20261026-A-v1",
+      "childRunId": "run:thread:thread%3Adelegated-task%3Acommand%253Amcp%253A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%253Adelegate-task%253Aopal-frontier-20261026-A-v1:ordinal:1",
+      "childNodeId": "node:delegated-task:command%3Amcp%3A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%3Adelegate-task%3Aopal-frontier-20261026-A-v1",
+      "status": "running",
+      "workState": "working",
+      "hasPendingChildRuns": false,
+      "latestTerminalRunId": null,
+      "latestTerminalStatus": null,
+      "latestTerminalSummary": null,
+      "latestTerminalResultContextTransferId": null,
+      "providerInstanceId": "codex",
+      "model": "gpt-6.1-sol",
+      "options": [
+        {
+          "id": "reasoningEffort",
+          "value": "medium"
+        },
+        {
+          "id": "serviceTier",
+          "value": "default"
+        }
+      ],
+      "summary": null,
+      "resultContextTransferId": null,
+      "hasPendingQuestion": false,
+      "pendingApproval": null,
+      "waitTimedOut": false
+    },
+    "B": {
+      "taskId": "node:delegated-task:command%3Amcp%3A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%3Adelegate-task%3Aopal-frontier-20261026-B-v1",
+      "childThreadId": "thread:delegated-task:command%3Amcp%3A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%3Adelegate-task%3Aopal-frontier-20261026-B-v1",
+      "childRunId": "run:thread:thread%3Adelegated-task%3Acommand%253Amcp%253A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%253Adelegate-task%253Aopal-frontier-20261026-B-v1:ordinal:1",
+      "childNodeId": "node:delegated-task:command%3Amcp%3A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%3Adelegate-task%3Aopal-frontier-20261026-B-v1",
+      "status": "running",
+      "workState": "working",
+      "hasPendingChildRuns": false,
+      "latestTerminalRunId": null,
+      "latestTerminalStatus": null,
+      "latestTerminalSummary": null,
+      "latestTerminalResultContextTransferId": null,
+      "providerInstanceId": "codex",
+      "model": "gpt-6.1-sol",
+      "options": [
+        {
+          "id": "reasoningEffort",
+          "value": "medium"
+        },
+        {
+          "id": "serviceTier",
+          "value": "default"
+        }
+      ],
+      "summary": null,
+      "resultContextTransferId": null,
+      "hasPendingQuestion": false,
+      "pendingApproval": null,
+      "waitTimedOut": false
+    },
+    "Grok_tests": {
+      "taskId": "node:delegated-task:command%3Amcp%3A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%3Adelegate-task%3Aopal-frontier-20261026-grok-tests-v1",
+      "childThreadId": "thread:delegated-task:command%3Amcp%3A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%3Adelegate-task%3Aopal-frontier-20261026-grok-tests-v1",
+      "childRunId": "run:thread:thread%3Adelegated-task%3Acommand%253Amcp%253A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%253Adelegate-task%253Aopal-frontier-20261026-grok-tests-v1:ordinal:1",
+      "childNodeId": "node:delegated-task:command%3Amcp%3A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%3Adelegate-task%3Aopal-frontier-20261026-grok-tests-v1",
+      "status": "running",
+      "workState": "working",
+      "hasPendingChildRuns": false,
+      "latestTerminalRunId": null,
+      "latestTerminalStatus": null,
+      "latestTerminalSummary": null,
+      "latestTerminalResultContextTransferId": null,
+      "providerInstanceId": "cursor",
+      "model": "grok-4.7",
+      "options": [
+        {
+          "id": "contextWindow",
+          "value": "256k"
+        },
+        {
+          "id": "reasoning_effort",
+          "value": "high"
+        },
+        {
+          "id": "fastMode",
+          "value": true
+        }
+      ],
+      "summary": null,
+      "resultContextTransferId": null,
+      "hasPendingQuestion": false,
+      "pendingApproval": null,
+      "waitTimedOut": false
+    },
+    "Grok_source": {
+      "taskId": "node:delegated-task:command%3Amcp%3A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%3Adelegate-task%3Aopal-frontier-20261026-grok-source-v1",
+      "childThreadId": "thread:delegated-task:command%3Amcp%3A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%3Adelegate-task%3Aopal-frontier-20261026-grok-source-v1",
+      "childRunId": "run:thread:thread%3Adelegated-task%3Acommand%253Amcp%253A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%253Adelegate-task%253Aopal-frontier-20261026-grok-source-v1:ordinal:1",
+      "childNodeId": "node:delegated-task:command%3Amcp%3A28f7cfce-2a3a-4696-89db-2ead34a9dfc3%3Adelegate-task%3Aopal-frontier-20261026-grok-source-v1",
+      "status": "running",
+      "workState": "working",
+      "hasPendingChildRuns": false,
+      "latestTerminalRunId": null,
+      "latestTerminalStatus": null,
+      "latestTerminalSummary": null,
+      "latestTerminalResultContextTransferId": null,
+      "providerInstanceId": "cursor",
+      "model": "grok-4.7",
+      "options": [
+        {
+          "id": "contextWindow",
+          "value": "256k"
+        },
+        {
+          "id": "reasoning_effort",
+          "value": "high"
+        },
+        {
+          "id": "fastMode",
+          "value": true
+        }
+      ],
+      "summary": null,
+      "resultContextTransferId": null,
+      "hasPendingQuestion": false,
+      "pendingApproval": null,
+      "waitTimedOut": false
+    }
+  }
+}

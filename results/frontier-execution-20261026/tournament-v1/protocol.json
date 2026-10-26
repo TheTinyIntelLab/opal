@@ -1,0 +1,598 @@
+{
+  "contract": "opal-frontier-synthetic-v1",
+  "synthetic_only": true,
+  "biological_access": false,
+  "pilot": false,
+  "cells": [
+    {
+      "world": "additive",
+      "seed": 261101,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "additive",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "additive",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "additive",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "lowrank",
+      "seed": 261101,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "lowrank",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "lowrank",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "lowrank",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "nonlinear_single",
+      "seed": 261101,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "nonlinear_single",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "nonlinear_single",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "nonlinear_single",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "partner_curve",
+      "seed": 261101,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "partner_curve",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "partner_curve",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "partner_curve",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "sparse",
+      "seed": 261101,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "sparse",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "sparse",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "sparse",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "guide_batch",
+      "seed": 261101,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "guide_batch",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "guide_batch",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "guide_batch",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "technical_persistent",
+      "seed": 261101,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "technical_persistent",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "technical_persistent",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "technical_persistent",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "technical_redrawn",
+      "seed": 261101,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "technical_redrawn",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "technical_redrawn",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "technical_redrawn",
+      "seed": 261101,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "additive",
+      "seed": 261102,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "additive",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "additive",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "additive",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "lowrank",
+      "seed": 261102,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "lowrank",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "lowrank",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "lowrank",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "nonlinear_single",
+      "seed": 261102,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "nonlinear_single",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "nonlinear_single",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "nonlinear_single",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "partner_curve",
+      "seed": 261102,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "partner_curve",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "partner_curve",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "partner_curve",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "sparse",
+      "seed": 261102,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "sparse",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "sparse",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "sparse",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "guide_batch",
+      "seed": 261102,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "guide_batch",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "guide_batch",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "guide_batch",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "technical_persistent",
+      "seed": 261102,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "technical_persistent",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "technical_persistent",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "technical_persistent",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "technical_redrawn",
+      "seed": 261102,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "technical_redrawn",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "technical_redrawn",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "technical_redrawn",
+      "seed": 261102,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "additive",
+      "seed": 261103,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "additive",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "additive",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "additive",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "lowrank",
+      "seed": 261103,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "lowrank",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "lowrank",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "lowrank",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "nonlinear_single",
+      "seed": 261103,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "nonlinear_single",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "nonlinear_single",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "nonlinear_single",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "partner_curve",
+      "seed": 261103,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "partner_curve",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "partner_curve",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "partner_curve",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "sparse",
+      "seed": 261103,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "sparse",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "sparse",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "sparse",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "guide_batch",
+      "seed": 261103,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "guide_batch",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "guide_batch",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "guide_batch",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "technical_persistent",
+      "seed": 261103,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "technical_persistent",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "technical_persistent",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "technical_persistent",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "input_quality"
+    },
+    {
+      "world": "technical_redrawn",
+      "seed": 261103,
+      "noise": 0.0,
+      "mask": "complete"
+    },
+    {
+      "world": "technical_redrawn",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "complete"
+    },
+    {
+      "world": "technical_redrawn",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "independent"
+    },
+    {
+      "world": "technical_redrawn",
+      "seed": 261103,
+      "noise": 0.1,
+      "mask": "input_quality"
+    }
+  ],
+  "budgets": [
+    0.25,
+    1.0
+  ],
+  "seed_fit": 261401,
+  "bootstrap_seed": 261301,
+  "cap_seconds": 7200,
+  "artifact_cap_bytes": 268435456,
+  "primary": "observed equal-construct then equal-canonical-pair MSE",
+  "fit_information": "selected initiation-one TRAIN/VALIDATION only; identities and measured singles",
+  "support": "two distinct observed TRAIN partners; fixed measured single sum fallback",
+  "uncertainty": "VALIDATION absolute residual 90% empirical order statistic, diagnostic only",
+  "boundary": "all predictions/checkpoints sealed before any TEST scoring",
+  "utc": "2026-10-26T09:17:52.210674+00:00"
+}
