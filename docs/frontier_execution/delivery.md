@@ -19,3 +19,7 @@ The original four-worker hierarchy produced proposals/critiques/revisions. A lat
 ## What remains
 
 No all-task model is promoted, and no new independent biological source is qualified. A primary guide-ID/sequence/target/control companion, annotation construction lineage and time/culture/initiation join can unlock COLO1 qualification; the already failed endpoint is not retried. Source-specific registration must precede any response header or value access. More fitting on these now-scored development tasks cannot rescue the failed registered question. Missing historical custody is the separate engineering blocker. Commit, remote SHA, clean-tree and hosted-check verification are recorded at delivery time, separately from scientific acceptance.
+
+## Committed-byte custody
+
+The final Git-object audit found120 unique bound files byte-exact in Git and14 historical working files whose recorded CRLF bytes differ from their LF Git blobs. Every difference is explained exactly by replacing LF with CRLF; there are no unexplained differences. The experiment bindings correctly hash the actual executed/installed working bytes. `committed-custody-v1.json` records both hashes and the reversible reconstruction for a new scratch checkout. Historical source blobs, working files, checkpoints and tolerances are unchanged. New frozen frontier files retain their exact bytes through Git attributes. This is a pinned-stack reconstruction record, not a claim that the original bindings match every platform checkout without reconstruction.
