@@ -76,3 +76,7 @@ The program has no all-task positive result, no independently confirmed new biol
 The finite registered menu and stopping rule are exhausted. Further outcome-driven tuning on these tasks would be development work requiring a new question, not rescue of this failed gate. The next highest-value evidence is a primary COLO1 companion establishing both-arm guide sequence/target/control mapping, annotation lineage and sample/time/culture/initiation keys, followed by source-specific qualification and registration. The registered mapping archive route returned HTTP 403 with zero body reads; it is closed to speculative retries. COLO1 responses remain sealed. Missing old E: custody paths separately block some historical package replays.
 
 See [registration](growth_registration.md), [packing amendment](growth_packing_registration.md), [byte-shuffle amendment](growth_shuffle_registration.md), [synthetic results](synthetic_results.md), and [aggregate ledger](../../results/frontier-execution-20261026/growth-v3/results.json).
+
+## Independent review and root response
+
+The [independent code/aggregate audit](Grok_results_review.md) confirms the failed gate and exact exported hash. Root accepts its [limitations](root_results_response.md): task and fold dependence, unequal validation checkpoint opportunities, pooled rather than per-block test reporting, pre-fit snapshot flags and the manual rather than automatic review-stamp requirement. The finished exposure state is explicit in the separate run-closeout receipt. No frozen artifact is rewritten.
