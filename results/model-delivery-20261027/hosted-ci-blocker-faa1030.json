@@ -1,0 +1,138 @@
+{
+  "utc": "2026-10-27T01:32:19.493444+00:00",
+  "commit": "faa10303aaa24095b8d603ea6654541608a75acf",
+  "run": {
+    "conclusion": "failure",
+    "headSha": "faa10303aaa24095b8d603ea6654541608a75acf",
+    "jobs": [
+      {
+        "completedAt": "2026-10-27T01:31:06Z",
+        "conclusion": "cancelled",
+        "databaseId": 121955046649,
+        "name": "installed-wheel (windows-latest, 3.11)",
+        "startedAt": "2026-10-27T01:31:04Z",
+        "status": "completed",
+        "steps": [],
+        "url": "https://github.com/TheTinyIntelLab/opal/actions/runs/40433030527/job/121955046649"
+      },
+      {
+        "completedAt": "2026-10-27T01:31:06Z",
+        "conclusion": "cancelled",
+        "databaseId": 121955046851,
+        "name": "installed-wheel (ubuntu-latest, 3.11)",
+        "startedAt": "2026-10-27T01:31:04Z",
+        "status": "completed",
+        "steps": [],
+        "url": "https://github.com/TheTinyIntelLab/opal/actions/runs/40433030527/job/121955046851"
+      },
+      {
+        "completedAt": "2026-10-27T01:31:06Z",
+        "conclusion": "failure",
+        "databaseId": 121955046909,
+        "name": "installed-wheel (windows-latest, 3.14)",
+        "startedAt": "2026-10-27T01:31:04Z",
+        "status": "completed",
+        "steps": [],
+        "url": "https://github.com/TheTinyIntelLab/opal/actions/runs/40433030527/job/121955046909"
+      },
+      {
+        "completedAt": "2026-10-27T01:31:06Z",
+        "conclusion": "cancelled",
+        "databaseId": 121955047004,
+        "name": "installed-wheel (ubuntu-latest, 3.14)",
+        "startedAt": "2026-10-27T01:31:04Z",
+        "status": "completed",
+        "steps": [],
+        "url": "https://github.com/TheTinyIntelLab/opal/actions/runs/40433030527/job/121955047004"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/TheTinyIntelLab/opal/actions/runs/40433030527"
+  },
+  "annotations": {
+    "121955047004": [
+      {
+        "path": ".github",
+        "blob_href": "https://github.com/TheTinyIntelLab/opal/blob/faa10303aaa24095b8d603ea6654541608a75acf/.github",
+        "start_line": 1,
+        "start_column": null,
+        "end_line": 1,
+        "end_column": null,
+        "annotation_level": "failure",
+        "title": "",
+        "message": "The strategy configuration was canceled because \"installed-wheel.windows-latest_3_14\" failed",
+        "raw_details": ""
+      },
+      {
+        "path": ".github",
+        "blob_href": "https://github.com/TheTinyIntelLab/opal/blob/faa10303aaa24095b8d603ea6654541608a75acf/.github",
+        "start_line": 1,
+        "start_column": null,
+        "end_line": 1,
+        "end_column": null,
+        "annotation_level": "notice",
+        "title": "",
+        "message": "\"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748\"",
+        "raw_details": ""
+      }
+    ],
+    "121955046909": [
+      {
+        "path": ".github",
+        "blob_href": "https://github.com/TheTinyIntelLab/opal/blob/faa10303aaa24095b8d603ea6654541608a75acf/.github",
+        "start_line": 1,
+        "start_column": null,
+        "end_line": 1,
+        "end_column": null,
+        "annotation_level": "failure",
+        "title": "",
+        "message": "The job was not started because recent account payments have failed or your spending limit needs to be increased. Please check the 'Billing & plans' section in your settings",
+        "raw_details": ""
+      }
+    ],
+    "121955046851": [
+      {
+        "path": ".github",
+        "blob_href": "https://github.com/TheTinyIntelLab/opal/blob/faa10303aaa24095b8d603ea6654541608a75acf/.github",
+        "start_line": 1,
+        "start_column": null,
+        "end_line": 1,
+        "end_column": null,
+        "annotation_level": "failure",
+        "title": "",
+        "message": "The strategy configuration was canceled because \"installed-wheel.windows-latest_3_14\" failed",
+        "raw_details": ""
+      },
+      {
+        "path": ".github",
+        "blob_href": "https://github.com/TheTinyIntelLab/opal/blob/faa10303aaa24095b8d603ea6654541608a75acf/.github",
+        "start_line": 1,
+        "start_column": null,
+        "end_line": 1,
+        "end_column": null,
+        "annotation_level": "notice",
+        "title": "",
+        "message": "\"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748\"",
+        "raw_details": ""
+      }
+    ],
+    "121955046649": [
+      {
+        "path": ".github",
+        "blob_href": "https://github.com/TheTinyIntelLab/opal/blob/faa10303aaa24095b8d603ea6654541608a75acf/.github",
+        "start_line": 1,
+        "start_column": null,
+        "end_line": 1,
+        "end_column": null,
+        "annotation_level": "failure",
+        "title": "",
+        "message": "The strategy configuration was canceled because \"installed-wheel.windows-latest_3_14\" failed",
+        "raw_details": ""
+      }
+    ]
+  },
+  "classification": "external GitHub billing/spending-limit blocker; no job steps executed",
+  "local_validation": "1220 passed, 1 xfailed; wheel/sdist and 17176 installed API predictions passed",
+  "automatic_retry": false,
+  "remedy": "Repository/account owner must resolve GitHub Billing & plans, then rerun Release integrity for the delivered commit. No workflow or gate was weakened."
+}

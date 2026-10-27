@@ -1,0 +1,12 @@
+{
+  "attempts": [
+    "series-v1-rehearsal.json",
+    "series-v2-rehearsal.json"
+  ],
+  "passed": true,
+  "process_lifetimes_overlapped": true,
+  "resource_qualification": false,
+  "scope": "synthetic installed-package engineering rehearsals; no biological data",
+  "cause": "Root started the second command after the first exec returned a live session",
+  "correction": "Preserve both receipts and rerun each under the single-process lease, waiting for completion before starting the next."
+}
