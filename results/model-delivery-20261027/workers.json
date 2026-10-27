@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-27T01:07:34.629456+00:00",
+  "provider": "cursor",
+  "model": "grok-4.7",
+  "options": {
+    "contextWindow": "256k",
+    "reasoning_effort": "high",
+    "fastMode": true
+  },
+  "workers": [
+    {
+      "taskId": "node:delegated-task:command%3Amcp%3A6e5a13a4-c910-439c-9bc7-bbc5698165c3%3Adelegate-task%3Aopal-model-delivery-api-20261027-v1",
+      "role": "new frozen checkpoint bundle/API implementation"
+    },
+    {
+      "taskId": "node:delegated-task:command%3Amcp%3A6e5a13a4-c910-439c-9bc7-bbc5698165c3%3Adelegate-task%3Aopal-model-delivery-source-20261027-v1",
+      "role": "independent primary source qualification"
+    }
+  ],
+  "root_role": "registration, alternative source investigation, code review, all numerical export/replay and delivery checks",
+  "new_biological_fit_authorized": false
+}

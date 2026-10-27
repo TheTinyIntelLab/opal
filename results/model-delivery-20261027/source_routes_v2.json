@@ -1,0 +1,836 @@
+{
+  "schema": "opal-model-delivery-source-routes-v2-20261027",
+  "qualification": "unqualified",
+  "worker": "source_routes_v2",
+  "owns": [
+    "docs/model_delivery/source_routes_v2.md",
+    "results/model-delivery-20261027/source_routes_v2.json"
+  ],
+  "colo1_response_access": false,
+  "alternative_response_access": false,
+  "response_tables_opened": false,
+  "response_headers_opened": false,
+  "count_tables_opened": false,
+  "outcome_filters_opened": false,
+  "archive_members_opened": 0,
+  "fits": 0,
+  "code_edits": false,
+  "cap_requests": 6,
+  "cap_bytes": 2097152,
+  "retained_requests": 6,
+  "retained_bytes": 370929,
+  "unsaved_sequence": false,
+  "closed_not_requested": [
+    "https://ndownloader.figshare.com/files/45433417",
+    "https://ndownloader.figshare.com/files/46763992",
+    "http://ideker.ucsd.edu/papers/rsasik2017/",
+    "boonelab supplement billmanncostanzo2026",
+    "https://data.mendeley.com/datasets/bpcpfns6vb/1",
+    "thecellmap.org Costanzo 2016",
+    "dryad 10.5061/dryad.3r2280gfd",
+    "HAP1 Europe PMC PMC13281610 and Zenodo concept 15320010",
+    "Horlbeck GSE116198 response objects",
+    "exposed Opal growth banks GSE312636 and GSE284018",
+    "paralog Figshare DATA/METADATA archives and harle_dgCRISPR response objects"
+  ],
+  "starting_point": {
+    "doi": "10.1093/nar/gkag161",
+    "pmcid_from_prior_index_only": "PMC12464814",
+    "prior_body_requested": false
+  },
+  "requests": [
+    {
+      "n": 1,
+      "phase": "response_saved",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12464814/fullTextXML",
+      "purpose": "Ajmal primary article text for license, data availability, code availability, and named screen identities. No supplement file and no deposited response object.",
+      "utc_planned": "2026-10-27T01:15:00Z",
+      "counted": true,
+      "utc_counted": "2026-10-27T01:13:30Z",
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12464814/fullTextXML",
+      "content_type": "application/xml",
+      "declared_content_length": null,
+      "utc_response": "2026-10-27T01:13:36Z",
+      "status": 200,
+      "bytes": 98552,
+      "sha256": "90dbefa1a43d5a1080952ca235945e9b6f7ecb00e2e3e9408ce6af8ac2f6208a",
+      "truncated": false,
+      "error": null,
+      "wall_seconds": 6.257,
+      "body_saved_in_git": false,
+      "body_path_local_ignored": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\model-delivery-20261027\\source-routes-v2\\request-01-body.xml",
+      "extract_summary": {
+        "section_title_count": 27,
+        "availability_titles": [
+          "Data availability",
+          "Data Availability Statement"
+        ],
+        "url_count": 118,
+        "accession_count": 0,
+        "doi_count": 61,
+        "table_count": 2,
+        "figure_count": 7,
+        "table_cells_copied": false
+      },
+      "article_aggregates": "Manuscript XML was parsed for section titles, availability prose, links, and bibliographic tokens. Table cells were not copied. Published aggregate numbers inside the article, if present, were exposed to this parse and are not transcribed here."
+    },
+    {
+      "n": 2,
+      "phase": "response_saved",
+      "url": "https://api.crossref.org/works/10.1093/nar/gkag161",
+      "purpose": "Resolve the prior index DOI against the manuscript DOI 10.1093/nargab/lqaf129. Metadata only.",
+      "utc_planned": "2026-10-27T01:16:28Z",
+      "counted": true,
+      "utc_counted": "2026-10-27T01:16:39Z",
+      "final_url": "https://api.crossref.org/works/10.1093/nar/gkag161",
+      "content_type": "application/json",
+      "declared_content_length": null,
+      "utc_response": "2026-10-27T01:16:40Z",
+      "status": 200,
+      "bytes": 30060,
+      "sha256": "333342b599df432c6fb6b8044484c9b573e257a509a027391d974fd981774bed",
+      "truncated": false,
+      "error": null,
+      "wall_seconds": 1.098,
+      "body_saved_in_git": false,
+      "body_path_local_ignored": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\model-delivery-20261027\\source-routes-v2\\request-02-body.bin"
+    },
+    {
+      "n": 3,
+      "phase": "response_saved",
+      "url": "https://api.github.com/repos/cancergenetics/Benchmarking-GI-Scores/readme",
+      "purpose": "Ajmal code-availability README via the GitHub API. Documentation only; do not follow linked count or score files.",
+      "utc_planned": "2026-10-27T01:17:10Z",
+      "counted": true,
+      "utc_counted": "2026-10-27T01:17:13Z",
+      "final_url": "https://api.github.com/repos/cancergenetics/Benchmarking-GI-Scores/readme",
+      "content_type": "application/json; charset=utf-8",
+      "declared_content_length": null,
+      "utc_response": "2026-10-27T01:17:14Z",
+      "status": 200,
+      "bytes": 9921,
+      "sha256": "649203eddbfcdd5e932fc008e8ba1cc36155e92f87526ffa800d956d5231d0c4",
+      "truncated": false,
+      "error": null,
+      "wall_seconds": 0.579,
+      "body_saved_in_git": false,
+      "body_path_local_ignored": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\model-delivery-20261027\\source-routes-v2\\request-03-body.bin"
+    },
+    {
+      "n": 4,
+      "phase": "response_saved",
+      "url": "https://api.figshare.com/v2/articles/27868350",
+      "purpose": "Catalog Ajmal supplementary deposit 10.6084/m9.figshare.27868350: title, license, file names and sizes. Do not download file bodies.",
+      "utc_planned": "2026-10-27T01:17:49Z",
+      "counted": true,
+      "utc_counted": "2026-10-27T01:17:53Z",
+      "final_url": "https://api.figshare.com/v2/articles/27868350",
+      "content_type": "application/json",
+      "declared_content_length": 22475,
+      "utc_response": "2026-10-27T01:17:54Z",
+      "status": 200,
+      "bytes": 22475,
+      "sha256": "9a7f7ffa9bc4f105e82f660686da873d37ed33cca817f96a07b62b091c3e604e",
+      "truncated": false,
+      "error": null,
+      "wall_seconds": 0.906,
+      "body_saved_in_git": false,
+      "body_path_local_ignored": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\model-delivery-20261027\\source-routes-v2\\request-04-body.bin"
+    },
+    {
+      "n": 5,
+      "phase": "response_saved",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178179&targ=self&form=text&view=brief",
+      "purpose": "Parrish GEO series record only. Confirm the named raw-count supplement, sample identifiers, and design prose. Do not request supplementary file bodies.",
+      "utc_planned": "2026-10-27T01:18:30Z",
+      "counted": true,
+      "utc_counted": "2026-10-27T01:18:33Z",
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178179&targ=self&form=text&view=brief",
+      "content_type": "geo/text",
+      "declared_content_length": null,
+      "utc_response": "2026-10-27T01:18:35Z",
+      "status": 200,
+      "bytes": 3251,
+      "sha256": "339ecb4ce69f733a65d4de6946b2aeac1ccb99aa612c8cca05a978a815dced63",
+      "truncated": false,
+      "error": null,
+      "wall_seconds": 1.281,
+      "body_saved_in_git": false,
+      "body_path_local_ignored": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\model-delivery-20261027\\source-routes-v2\\request-05-body.bin"
+    },
+    {
+      "n": 6,
+      "phase": "response_saved",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8534300/fullTextXML",
+      "purpose": "Parrish primary article for license, data availability, guide-map location, matched-single design, and sample or initiation prose. No supplement file.",
+      "utc_planned": "2026-10-27T01:19:02Z",
+      "counted": true,
+      "utc_counted": "2026-10-27T01:19:06Z",
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8534300/fullTextXML",
+      "content_type": "application/xml",
+      "declared_content_length": null,
+      "utc_response": "2026-10-27T01:19:07Z",
+      "status": 200,
+      "bytes": 206670,
+      "sha256": "de53952de7f16cee8809b9a128bed1394f5ca4faddcd966ebaa610d503afe8e9",
+      "truncated": false,
+      "error": null,
+      "wall_seconds": 1.496,
+      "body_saved_in_git": false,
+      "body_path_local_ignored": "C:\\Users\\USER\\Desktop\\code\\thetinyintellab\\opal\\tmp\\model-delivery-20261027\\source-routes-v2\\request-06-body.bin"
+    }
+  ],
+  "ajmal_article": {
+    "requested_via": "PMC12464814 fullTextXML",
+    "index_doi": "10.1093/nar/gkag161",
+    "index_doi_string_in_xml": false,
+    "article_doi": "10.1093/nargab/lqaf129",
+    "pmid": "41018953",
+    "pmcid": "PMC12464814",
+    "journal": "NAR Genomics and Bioinformatics",
+    "title": "Benchmarking genetic interaction scoring methods for identifying synthetic lethality from combinatorial CRISPR screens",
+    "copyright": "The Author(s) 2025. Published by Oxford University Press.",
+    "license": "Creative Commons Attribution License",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "data_availability": "All analysis and code for reproducing the results of the study are publicly available at https://figshare.com/s/f3bff98db72e1039414b and https://github.com/cancergenetics/Benchmarking-GI-Scores. The results of applying each scoring method to each screen are available at https://figshare.com/s/59ee190b1879fe3eb191.",
+    "code_repository": "https://github.com/cancergenetics/Benchmarking-GI-Scores",
+    "not_requested": [
+      {
+        "url": "https://figshare.com/s/f3bff98db72e1039414b",
+        "reason": "Private Figshare share named as analysis and code. GitHub is the code endpoint still to be catalogued. Share link not requested."
+      },
+      {
+        "url": "https://figshare.com/s/59ee190b1879fe3eb191",
+        "reason": "Article says this is the results of applying each scoring method. Outcome-derived. Not requested."
+      }
+    ],
+    "screen_accessions_in_xml": [],
+    "design_prose": "Five CDKO studies. Each uses constructs targeting pairs of genes and constructs targeting single genes along with a non-targeting control. All screens are pooled. Read counts are measured at an early and a later time point. This is the article sentence, not a file inventory.",
+    "table1_caption": "List of CDKO datasets used in this study, along with their details",
+    "table1_rows": [
+      {
+        "study": "Dede",
+        "approach": "enCas12a",
+        "lines": "A549, HT29, OVCAR8",
+        "gene_pairs_published": 400,
+        "early": "Plasmid pool",
+        "late": "10 population doublings",
+        "citation": "10.1186/s13059-020-02173-2"
+      },
+      {
+        "study": "CHyMErA",
+        "approach": "Cas9-Cas12a",
+        "lines": "HAP1, RPE1",
+        "gene_pairs_published": 672,
+        "early": "Day 2",
+        "late": "Day 18 (HAP1), Day 24 (RPE1)",
+        "citation_primary": "10.1038/s41587-020-0437-z",
+        "citation_protocol": "10.1038/s41596-021-00595-1"
+      },
+      {
+        "study": "Ito",
+        "approach": "Cas9",
+        "lines": "Meljuso, GI1, MEL202, PK1, MEWO, HS944T, IPC298, A549, HSC5, HS936T, PATU8988S",
+        "gene_pairs_published": 5065,
+        "early": "Plasmid",
+        "late": "Day 21",
+        "citation": "10.1038/s41588-021-00967-z"
+      },
+      {
+        "study": "Parrish",
+        "approach": "Cas9",
+        "lines": "PC9, HeLa",
+        "gene_pairs_published": 1030,
+        "early": "Immediately post-infection and puromycin selection",
+        "late": "12 population doublings",
+        "citation": "10.1016/j.celrep.2021.109597"
+      },
+      {
+        "study": "Thompson",
+        "approach": "Cas9",
+        "lines": "MEWO, A375, RPE",
+        "gene_pairs_published": 1191,
+        "early": "Day 7 read counts from wild-type A375 cells (Cas9-negative) transduced with the library under similar screening conditions",
+        "late": "Day 28",
+        "citation": "10.1038/s41467-021-21478-9"
+      }
+    ],
+    "benchmark_labels": "De Kegel et al. 10.1016/j.cels.2021.08.006 and Koferle et al. 10.1016/j.celrep.2022.110636. External synthetic-lethality labels from single-gene CRISPR resources, including a DepMap AVANA subset. Not a growth-count endpoint.",
+    "exposure": "The manuscript XML was read, including two article tables and results prose. Published library sizes, scoring-method descriptions, and aggregate performance statements were exposed. Performance numbers and scoring thresholds are not transcribed. No deposited count file, response header, or outcome matrix was requested.",
+    "held_closed": {
+      "CHyMErA": "Table 1 names HAP1. That route stays closed.",
+      "Thompson_deposit_not_equated": "Thompson 2021 is a Sanger paralog screen. Identity with closed Figshare 25954027 was not established by this article, and that deposit was not requested.",
+      "Horlbeck_CellMap_Dryad_COLO1": "Not the five Table 1 datasets. Their closed endpoints were not requested."
+    },
+    "authors": [
+      "Hamda Ajmal",
+      "Sutanu Nandi",
+      "Narod Kebabci",
+      "Colm J Ryan"
+    ]
+  },
+  "index_doi_resolution": {
+    "doi": "10.1093/nar/gkag161",
+    "crossref_status": 200,
+    "title": "A novel Dual-guide CRISPR-Cas13 strategy improves specificity for single-nucleotide variant detection",
+    "container": "Nucleic Acids Research",
+    "issued": "2026-02-24",
+    "publisher": "Oxford University Press (OUP)",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "license_content_version": "vor",
+    "authors_first": [
+      "Araceli Aguilar-Gonzalez",
+      "Ismael Martos-Jamai",
+      "Iris Ramos-Hernandez"
+    ],
+    "same_work_as_ajmal": false,
+    "ajmal_article_doi": "10.1093/nargab/lqaf129",
+    "design_from_crossref_abstract": "Two RNA guides, dcrRNA and dtracrRNA, cooperatively recognize one RNA target for Cas13 cis and trans cleavage. Named assays are analytical RNA detection, including SARS-CoV-2, KRAS G12D/G12C, and Leishmania sequence discrimination.",
+    "decision": "blocked_before_file_inventory",
+    "missing_for_pair_growth": [
+      "two-gene perturbations",
+      "growth endpoint",
+      "matched single-gene growth measurements",
+      "raw count endpoint of a pooled growth screen",
+      "sample or initiation keys for a growth screen"
+    ],
+    "exposure": "Crossref abstract was read. It states analytical detection claims. No performance number was transcribed and no paper body, supplement, or data file was requested."
+  },
+  "ajmal_code_readme": {
+    "api": "https://api.github.com/repos/cancergenetics/Benchmarking-GI-Scores/readme",
+    "path": "README.md",
+    "git_blob_sha": "48e5d4a526057018e265df4af5ea5a2f62e80843",
+    "size": 6546,
+    "html_url": "https://github.com/cancergenetics/Benchmarking-GI-Scores/blob/main/README.md",
+    "license_sentence": "The MIT license applies to the entire repo except for subfolders that have their own license file.",
+    "license_file_requested": false,
+    "supplementary_data_doi": "10.6084/m9.figshare.27868350",
+    "supplementary_private_link_not_requested": "https://figshare.com/s/183520dde2e683ea9053",
+    "count_files_opened": false,
+    "named_inputs": [
+      {
+        "path": "InputData/Chymera/Chymera.csv",
+        "role": "raw read counts",
+        "source_doi": "10.1038/s41587-020-0437-z",
+        "opened": false,
+        "note": "CHyMErA includes HAP1. Not requested."
+      },
+      {
+        "path": "InputData/Dede/counts.txt",
+        "role": "raw read counts",
+        "source_doi": "10.1186/s13059-020-02173-2",
+        "opened": false
+      },
+      {
+        "path": "InputData/Ito/Count_data_ParalogV1.xlsx",
+        "role": "raw read counts",
+        "source_doi": "10.1038/s41588-021-00967-z",
+        "opened": false
+      },
+      {
+        "path": "InputData/Parrish/GSE178179_pgPEN_counts_PC9.txt",
+        "role": "raw read counts",
+        "source_doi": "10.1016/j.celrep.2021.109597",
+        "accession_in_filename": "GSE178179",
+        "opened": false
+      },
+      {
+        "path": "InputData/Thompson/raw_counts",
+        "role": "raw read counts",
+        "source_doi": "10.1038/s41467-021-21478-9",
+        "opened": false
+      },
+      {
+        "path": "InputData/Thompson/Guide_sequences.xlsx",
+        "role": "guide sequences",
+        "source_doi": "10.1038/s41467-021-21478-9",
+        "opened": false
+      }
+    ],
+    "outcome_or_label_inputs_not_requested": [
+      "InputData/TPM DepMap 24Q2 figshare 25880521",
+      "InputData/SLKB_calculated_scores",
+      "InputData/Benchmarks/deKegel_output.csv",
+      "InputData/Benchmarks/Koferle.xlsx",
+      "InputData/Parrish/GSE120703_d.expr expression TPM"
+    ]
+  },
+  "ajmal_figshare_27868350": {
+    "url": "https://api.figshare.com/v2/articles/27868350",
+    "doi": "10.6084/m9.figshare.27868350.v2",
+    "version": 2,
+    "status": "public",
+    "published_date": "2025-02-28T16:07:27Z",
+    "defined_type_name": "dataset",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "file_count": 55,
+    "file_bytes_sum": 33756509,
+    "files_opened": 0,
+    "description_class": "Deposit text says the dataset includes CRISPR studies scored for genetic interaction, and that each scoring method except zdLFC applies default filtering, with results stored with and without those filters.",
+    "readme_raw_count_names_present": {
+      "Chymera.csv": false,
+      "counts.txt": false,
+      "Count_data_ParalogV1.xlsx": false,
+      "GSE178179_pgPEN_counts_PC9.txt": false,
+      "Guide_sequences.xlsx": false
+    },
+    "files": [
+      {
+        "id": 52694546,
+        "name": "ChymeraHAP1.csv",
+        "size": 36303,
+        "opened": false
+      },
+      {
+        "id": 52694549,
+        "name": "DeDe_zdLFC.csv",
+        "size": 28925,
+        "opened": false
+      },
+      {
+        "id": 52694552,
+        "name": "ITO.csv",
+        "size": 1153105,
+        "opened": false
+      },
+      {
+        "id": 52694555,
+        "name": "Parrish_Hela.csv",
+        "size": 34461,
+        "opened": false
+      },
+      {
+        "id": 52694558,
+        "name": "Thompson_zdLFC.csv",
+        "size": 154749,
+        "opened": false
+      },
+      {
+        "id": 52694561,
+        "name": "ChymeraRPE1.csv",
+        "size": 36317,
+        "opened": false
+      },
+      {
+        "id": 52694564,
+        "name": "Parrish_PC9.csv",
+        "size": 34434,
+        "opened": false
+      },
+      {
+        "id": 52694576,
+        "name": "Gemini_Chymera_HAP1_sensitive_lethality.csv",
+        "size": 62641,
+        "opened": false
+      },
+      {
+        "id": 52694567,
+        "name": "Gemini_Chymera_HAP1_Strong.csv",
+        "size": 62753,
+        "opened": false
+      },
+      {
+        "id": 52694621,
+        "name": "Gemini_Chymera_RPE1_sensitive_lethality.csv",
+        "size": 35863,
+        "opened": false
+      },
+      {
+        "id": 52694570,
+        "name": "Gemini_Chymera_RPE1_Strong.csv",
+        "size": 35911,
+        "opened": false
+      },
+      {
+        "id": 52694573,
+        "name": "Gemini_Dede_Sensitive_Lethality.csv",
+        "size": 28676,
+        "opened": false
+      },
+      {
+        "id": 52694579,
+        "name": "Gemini_Dede_Sensitive_Recovery.csv",
+        "size": 4,
+        "opened": false
+      },
+      {
+        "id": 52694582,
+        "name": "Gemini_Dede_Strong.csv",
+        "size": 28756,
+        "opened": false
+      },
+      {
+        "id": 52694618,
+        "name": "Gemini_ITO_S.csv",
+        "size": 1125983,
+        "opened": false
+      },
+      {
+        "id": 52694585,
+        "name": "Gemini_ITO_Sensitive.csv",
+        "size": 1103310,
+        "opened": false
+      },
+      {
+        "id": 52694591,
+        "name": "Gemini_ITO_sensitive_recovery.csv",
+        "size": 4,
+        "opened": false
+      },
+      {
+        "id": 52694588,
+        "name": "Gemini_ITO_Strong.csv",
+        "size": 1105032,
+        "opened": false
+      },
+      {
+        "id": 52694648,
+        "name": "Gemini_Parrish_HeLa_Sensitive.csv",
+        "size": 35632,
+        "opened": false
+      },
+      {
+        "id": 52694600,
+        "name": "Gemini_Parrish_HeLa_Strong.csv",
+        "size": 35734,
+        "opened": false
+      },
+      {
+        "id": 52694594,
+        "name": "Gemini_Parrish_PC9_Sensitive.csv",
+        "size": 36071,
+        "opened": false
+      },
+      {
+        "id": 52694597,
+        "name": "Gemini_Parrish_PC9_Strong.csv",
+        "size": 36183,
+        "opened": false
+      },
+      {
+        "id": 52694606,
+        "name": "Gemini_Thompson_Sensitive.csv",
+        "size": 148646,
+        "opened": false
+      },
+      {
+        "id": 52694633,
+        "name": "Gemini_Thompson_Strong.csv",
+        "size": 148808,
+        "opened": false
+      },
+      {
+        "id": 52694603,
+        "name": "Gemini_Chymera_HAP1_sensitive_lethality.csv",
+        "size": 58975,
+        "opened": false
+      },
+      {
+        "id": 52694615,
+        "name": "Gemini_Chymera_HAP1_Strong.csv",
+        "size": 62753,
+        "opened": false
+      },
+      {
+        "id": 52694639,
+        "name": "Gemini_Chymera_RPE1_sensitive_lethality.csv",
+        "size": 33292,
+        "opened": false
+      },
+      {
+        "id": 52694609,
+        "name": "Gemini_Chymera_RPE1_Strong.csv",
+        "size": 36601,
+        "opened": false
+      },
+      {
+        "id": 52694651,
+        "name": "Gemini_Dede_Sensitive_Lethality.csv",
+        "size": 28795,
+        "opened": false
+      },
+      {
+        "id": 52694612,
+        "name": "Gemini_Dede_Strong.csv",
+        "size": 29160,
+        "opened": false
+      },
+      {
+        "id": 52694654,
+        "name": "Gemini_ITO_Sensitive.csv",
+        "size": 1051311,
+        "opened": false
+      },
+      {
+        "id": 52694624,
+        "name": "Gemini_ITO_sensitive_recovery.csv",
+        "size": 299674,
+        "opened": false
+      },
+      {
+        "id": 52694627,
+        "name": "Gemini_ITO_Strong.csv",
+        "size": 1105032,
+        "opened": false
+      },
+      {
+        "id": 52694630,
+        "name": "Gemini_Parrish_HeLa_Sensitive.csv",
+        "size": 33388,
+        "opened": false
+      },
+      {
+        "id": 52694657,
+        "name": "Gemini_Parrish_HeLa_Strong.csv",
+        "size": 35734,
+        "opened": false
+      },
+      {
+        "id": 52694636,
+        "name": "Gemini_Parrish_PC9_Sensitive.csv",
+        "size": 34107,
+        "opened": false
+      },
+      {
+        "id": 52694645,
+        "name": "Gemini_Parrish_PC9_Strong.csv",
+        "size": 36183,
+        "opened": false
+      },
+      {
+        "id": 52694642,
+        "name": "Gemini_Thompson_Sensitive.csv",
+        "size": 123402,
+        "opened": false
+      },
+      {
+        "id": 52694660,
+        "name": "Gemini_Thompson_Strong.csv",
+        "size": 148808,
+        "opened": false
+      },
+      {
+        "id": 52694924,
+        "name": "chymera_orthrus.tsv",
+        "size": 453017,
+        "opened": false
+      },
+      {
+        "id": 52694939,
+        "name": "dede_orthrus.tsv",
+        "size": 195575,
+        "opened": false
+      },
+      {
+        "id": 52694936,
+        "name": "ito_orthrus.tsv",
+        "size": 9074639,
+        "opened": false
+      },
+      {
+        "id": 52694927,
+        "name": "parrish_orthrus.tsv",
+        "size": 335880,
+        "opened": false
+      },
+      {
+        "id": 52694930,
+        "name": "thompson_orthrus.tsv",
+        "size": 595261,
+        "opened": false
+      },
+      {
+        "id": 52694933,
+        "name": "chymera_orthrus.tsv",
+        "size": 265636,
+        "opened": false
+      },
+      {
+        "id": 52694945,
+        "name": "combn_gene_calls.tsv",
+        "size": 347651,
+        "opened": false
+      },
+      {
+        "id": 52694942,
+        "name": "dede_orthrus.tsv",
+        "size": 195463,
+        "opened": false
+      },
+      {
+        "id": 52694951,
+        "name": "ito_orthrus.tsv",
+        "size": 9074639,
+        "opened": false
+      },
+      {
+        "id": 52694954,
+        "name": "parrish_orthrus.tsv",
+        "size": 335880,
+        "opened": false
+      },
+      {
+        "id": 52694948,
+        "name": "thompson_orthrus.tsv",
+        "size": 539056,
+        "opened": false
+      },
+      {
+        "id": 52694960,
+        "name": "Chymera_Parrish.csv",
+        "size": 86532,
+        "opened": false
+      },
+      {
+        "id": 52694963,
+        "name": "Dede_Parrish.csv",
+        "size": 75121,
+        "opened": false
+      },
+      {
+        "id": 52694966,
+        "name": "ito_parrish.csv",
+        "size": 3245794,
+        "opened": false
+      },
+      {
+        "id": 52694972,
+        "name": "Parrish_Parrish.csv",
+        "size": 92765,
+        "opened": false
+      },
+      {
+        "id": 52694969,
+        "name": "Thompson_parrish.csv",
+        "size": 218084,
+        "opened": false
+      }
+    ],
+    "decision": "outcome_score_deposit_not_a_raw_count_endpoint"
+  },
+  "parrish_geo_series": {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178179&targ=self&form=text&view=brief",
+    "accession": "GSE178179",
+    "title": "Discovery of synthetic lethal and tumor suppressive paralog pairs in the human genome",
+    "status": "Public on Aug 31 2021",
+    "pubmed_id": "34469736",
+    "pmid_matches_ajmal_reference": true,
+    "overall_design": "Paired guide RNA CRISPR screen to identify genetic interactions among human duplicate gene pairs (paralogs)",
+    "summary_design_clause": "pgPEN targets duplicated human paralogs in single-knockout and double-knockout configurations and was applied to two cell lineages.",
+    "summary_contains_published_hit_rate": true,
+    "hit_rate_transcribed": false,
+    "sample_ids": [
+      "GSM5381351",
+      "GSM5381352",
+      "GSM5381353",
+      "GSM5381354",
+      "GSM5381355",
+      "GSM5381356",
+      "GSM5381357",
+      "GSM5381358",
+      "GSM5381359",
+      "GSM5381360",
+      "GSM5381361",
+      "GSM5381362"
+    ],
+    "sample_characteristics_present": false,
+    "platforms": [
+      "GPL16791",
+      "GPL19604"
+    ],
+    "platforms_opened": false,
+    "supplementary_file": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE178nnn/GSE178179/suppl/GSE178179_pgPEN_counts.txt.gz",
+    "supplementary_file_requested": false,
+    "readme_filename": "GSE178179_pgPEN_counts_PC9.txt",
+    "readme_filename_equals_series_supplement": false,
+    "relations": [
+      "BioProject:PRJNA737515",
+      "SRA:SRP324035"
+    ],
+    "sra_or_bioproject_requested": false,
+    "license_field": null,
+    "contact": "Alice Berger, Fred Hutchinson Cancer Center"
+  },
+  "deposited_score_files_opened": false,
+  "parrish_screen": {
+    "decision": "distinct_unqualified",
+    "study": "Parrish, Thomas, Gabel, Kamlapurkar, Bradley, Berger",
+    "title": "Discovery of synthetic lethal and tumor suppressor paralog pairs in the human genome",
+    "doi": "10.1016/j.celrep.2021.109597",
+    "pmid": "34469736",
+    "pmcid": "PMC8534300",
+    "article_license": "CC BY-NC-ND 4.0",
+    "article_license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "geo": "GSE178179",
+    "geo_status": "Public on Aug 31 2021",
+    "geo_license_field": null,
+    "named_supplement_not_requested": "GSE178179_pgPEN_counts.txt.gz",
+    "readme_count_filename": "GSE178179_pgPEN_counts_PC9.txt",
+    "filenames_match": false,
+    "key_resources_crispr_row": "Raw and analyzed CRISPR screen data | This paper | GEO: GSE178179",
+    "key_resources_rnaseq_row": "PC9 and HeLa RNA-seq data | Thomas et al., 2020 | GEO: GSE120703",
+    "rnaseq_opened": false,
+    "addgene_library": "171172",
+    "addgene_requested": false,
+    "counting_code_zenodo": "10.5281/zenodo.5081113",
+    "counting_code_requested": false,
+    "design": {
+      "library": "pgPEN",
+      "source_guides": "Brunello sgRNA sequences",
+      "pairs": 1030,
+      "genes": 2060,
+      "pgrnas": 33170,
+      "dko": "16 four-by-four double-knockout pgRNAs per paralog pair",
+      "singles": "16 single-knockout pgRNAs per family: one targeting sgRNA paired with a non-targeting control, for each paralog",
+      "double_nontargeting": 500,
+      "guide_position": "The sgRNA for a given gene is described as occupying the same site in every pgRNA",
+      "map_named": "Table S1",
+      "map_requested": false,
+      "lines": [
+        "PC9-Cas9",
+        "HeLa/iCas9"
+      ],
+      "moi": "about 0.3",
+      "selection": "puromycin 1.0 microgram per milliliter for 48-72 hours",
+      "pc9_samples": "Split into three biological replicates after infection and before puromycin selection. Early gDNA after selection. Endpoint after about 12 population doublings.",
+      "hela_samples": "Kept pooled through puromycin selection, giving one early sample. Doxycycline induction, then split into three biological replicates, then about 12 population doublings.",
+      "analysis_baseline": "MAGeCK compares plasmid-pool abundance with early and late time points.",
+      "geo_sample_ids": [
+        "GSM5381351",
+        "GSM5381352",
+        "GSM5381353",
+        "GSM5381354",
+        "GSM5381355",
+        "GSM5381356",
+        "GSM5381357",
+        "GSM5381358",
+        "GSM5381359",
+        "GSM5381360",
+        "GSM5381361",
+        "GSM5381362"
+      ],
+      "geo_sample_characteristics": false
+    },
+    "relations_not_requested": [
+      "PRJNA737515",
+      "SRP324035",
+      "GPL16791",
+      "GPL19604"
+    ],
+    "score_processing_read_in_methods": "Methods scale log-fold changes using double non-targeting and pan-essential single-knockout medians, then unexpressed-gene medians, then residual genetic-interaction scores. Those published scores were not opened.",
+    "exposure": "Parrish article XML, including results prose and the key-resources table, was read. Published rates, correlations, and test statistics were exposed and are not transcribed."
+  },
+  "missing": [
+    "Item-level rights for GSE178179_pgPEN_counts.txt.gz. The article states CC BY-NC-ND 4.0. The GEO series record has no license field.",
+    "Response-free construct map for the 33,170 pgRNAs. The article names Table S1. That supplement was not requested.",
+    "Sample characteristics binding GSM5381351-GSM5381362 to cell line, plasmid, early, or late time, and replicate.",
+    "Member inventory showing whether GSE178179 stores raw counts separately from analyzed scores. The key-resources row says raw and analyzed data share this accession. The gzip was not opened.",
+    "License and annotation role of Zenodo 10.5281/zenodo.5081113. The counting-code record was not requested."
+  ],
+  "next_action": "Catalog Table S1 and the Zenodo 5081113 record at names, sizes, and license only. Then request GEO sample characteristics for GSM5381351-GSM5381362. Stop before GSE178179_pgPEN_counts.txt.gz, any series matrix, and every Ajmal score file.",
+  "exposure": "Six primary documents were read: Ajmal full text, Crossref for the index DOI, the Ajmal README, the Ajmal Figshare catalog, the GSE178179 series record, and the Parrish full text. Article tables of dataset identity, scoring-method descriptions, and the Parrish key-resources table were read. Published aggregate performance statements were exposed and are not transcribed. No deposited count file, score file, response header, or archive member was opened."
+}

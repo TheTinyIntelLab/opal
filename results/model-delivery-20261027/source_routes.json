@@ -1,0 +1,299 @@
+{
+  "schema": "opal-model-delivery-source-routes-20261027",
+  "qualification": "unqualified",
+  "colo1_response_access": false,
+  "alternative_response_access": false,
+  "fits": 0,
+  "archive_members_opened": 0,
+  "response_tables_opened": 0,
+  "retained_requests": 20,
+  "retained_bytes": 100632,
+  "cap_requests": 20,
+  "cap_bytes": 5242880,
+  "discarded_attempt": "An earlier process followed this metadata sequence, received Crossref HTTP 400 for DOI 10.1002/advs.77130, and raised AttributeError during local projection before writing a receipt. Those bodies were not saved and are not evidence.",
+  "closed_not_requested": [
+    "https://ndownloader.figshare.com/files/45433417",
+    "https://ndownloader.figshare.com/files/46763992",
+    "http://ideker.ucsd.edu/papers/rsasik2017/",
+    "boonelab supplement billmanncostanzo2026",
+    "https://data.mendeley.com/datasets/bpcpfns6vb/1",
+    "thecellmap.org Costanzo 2016",
+    "dryad 3r2280gfd"
+  ],
+  "alternative_blocker": {
+    "source": "Purman et al., DICE",
+    "doi": "10.1177/25731599261448141",
+    "pmid": "42136104",
+    "decision": "blocked_before_file_inventory",
+    "primary_design": [
+      "DICE expresses two guides from the same lentiviral construct that target the same gene.",
+      "Named genome-wide readouts are essential genes and PD-L1 expression in interferon-gamma-activated THP1 cells."
+    ],
+    "data_links": ["PMID 42136104 only"],
+    "license": null,
+    "isOpenAccess": "N",
+    "hasSuppl": "N",
+    "missing": [
+      "two perturbation arms",
+      "constituent singles",
+      "growth-pair endpoint",
+      "sample or initiation keys",
+      "rights-bearing data object"
+    ]
+  },
+  "accessed_nonmatch": {
+    "source": "Li et al., dual-line insect CRISPR",
+    "doi": "10.1002/advs.77130",
+    "pmcid": "PMC13460280",
+    "decision": "single-gene insect concordance screen; no screen accession in data links",
+    "license_from_core": "cc by",
+    "data_links": ["PMC13460280"]
+  },
+  "index_only_next_candidate": {
+    "source": "Ajmal, Nandi, Kebabci, Ryan",
+    "doi": "10.1093/nar/gkag161",
+    "pmcid": "PMC12464814",
+    "title": "Benchmarking genetic interaction scoring methods for identifying synthetic lethality from combinatorial CRISPR screens.",
+    "isOpenAccess": "Y",
+    "hasSuppl": "Y",
+    "body_requested": false,
+    "qualification": "not_assessed"
+  },
+  "colo1": {
+    "decision": "unqualified",
+    "figshare_article": {
+      "url": "https://api.figshare.com/v2/articles/25533091",
+      "status": 200,
+      "bytes": 2391,
+      "sha256": "9826e7b753cc80f67bb457a8822c483fbd742400ebc195fe86a8576c83f82fe7",
+      "id": 25533091,
+      "version": 1,
+      "title": "MAPPING.zip",
+      "description": "Mapping files resulting from sequencing to measure fitness after dual CRISPR KO",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "files": [
+        {
+          "id": 45433417,
+          "name": "MAPPING.zip",
+          "size": 1153775580,
+          "computed_md5": "45c84b5ec11dc17bf5967968c7097ea0",
+          "download_matches_closed_45433417": true,
+          "download_requested": false,
+          "members_named": false
+        }
+      ]
+    },
+    "figshare_versions": {
+      "url": "https://api.figshare.com/v2/articles/25533091/versions",
+      "status": 200,
+      "bytes": 83,
+      "sha256": "ca5bcc6f9edfdee8ce550ccc1c47268cde058de54d9f42b296de1fc97b205c41",
+      "version_count": 1
+    },
+    "datacite": {
+      "url": "https://api.datacite.org/dois/10.6084/m9.figshare.25533091.v1",
+      "status": 200,
+      "bytes": 5271,
+      "sha256": "91572b5e24e778b5cb416e8e3ee69c6d63326d295c4f12e0b1fabd52240e53fa",
+      "rights": "Creative Commons Attribution 4.0 International",
+      "rights_uri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "related": [
+        {
+          "relation": "IsIdenticalTo",
+          "id": "10.6084/m9.figshare.25533091"
+        }
+      ]
+    },
+    "annotation_commit": {
+      "url": "https://api.github.com/repos/ibarrioh/DualGuide_COLO1/commits?path=Analysis%2FENCORE%2Finput%2FIDs_colo1.rds&sha=cfb5eb9a39ff1ec43642fba9485270ae200e81ae&per_page=5",
+      "status": 200,
+      "bytes": 3289,
+      "sha256": "dad20222a2bcd46b58515487bd2550d119048444857993b45257ec6ac5b9c586",
+      "commits": [
+        {
+          "sha": "4a14cf0252e32dff69e0c234539beb5e8cff22db",
+          "date": "2024-04-02T10:47:33Z",
+          "message": "updates in folder s and readme"
+        }
+      ]
+    },
+    "github_repository": {
+      "url": "https://api.github.com/repos/ibarrioh/DualGuide_COLO1",
+      "status": 200,
+      "bytes": 5290,
+      "sha256": "930f322c9a8538ca6f88249d5f4137cd119aff253ff5193a51fd081e2cf0af4e",
+      "default_branch": "main",
+      "license": null,
+      "pushed_at": "2025-09-24T10:56:12Z"
+    },
+    "github_branch": {
+      "url": "https://api.github.com/repos/ibarrioh/DualGuide_COLO1/branches/main",
+      "status": 200,
+      "bytes": 4739,
+      "sha256": "762687fcc2714d1a9939b56379221596c1a566b51b4162d12ebf019344188f23",
+      "sha": "cfb5eb9a39ff1ec43642fba9485270ae200e81ae",
+      "matches_existing_pin": true
+    },
+    "ena_project": {
+      "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB102587?includeLinks=false",
+      "status": 200,
+      "bytes": 3268,
+      "sha256": "99db92ddeccc7abc01b941f94582a06f280e42f474464c3432f9a6debfb9bdf4",
+      "title": "ENCORE_Pilot__New_Targets_for_Effective_Combination_Therapies_in_Tumors_with_Unmet_Medical_Need",
+      "attributes": []
+    },
+    "biostudies_search": {
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=ERP183979&pageSize=5",
+      "status": 200,
+      "bytes": 318,
+      "sha256": "71da85a9c850a80308095c1aa758d78cca3dd05d2fe14858452ff562a6134c4c",
+      "hitCount": 0
+    },
+    "zenodo_versions": {
+      "url": "https://zenodo.org/api/records/17191951/versions?size=10",
+      "status": 200,
+      "bytes": 7890,
+      "sha256": "4b23d4b2da9ea161c5e1e2bfa583b66e37955c18bbf48366479e786e86515a4b",
+      "records": [
+        {
+          "id": 17191951,
+          "doi": "10.5281/zenodo.17191951",
+          "license": "cc-by-4.0",
+          "file": "ibarrioh/DualGuide_COLO1-Release2.zip",
+          "size": 89422914,
+          "opened": false
+        },
+        {
+          "id": 10912780,
+          "doi": "10.5281/zenodo.10912780",
+          "license": "cc-by-4.0",
+          "file": "ibarrioh/DualGuide_COLO1-Releas1.1.zip",
+          "size": 62144079,
+          "opened": false
+        }
+      ]
+    },
+    "zenodo_10912780": {
+      "url": "https://zenodo.org/api/records/10912780",
+      "status": 200,
+      "bytes": 3683,
+      "sha256": "0233c58c27c8edc140fe670b8bdcfa7f044b1509ea61b06d5346c571b9ed2c02",
+      "title": "ibarrioh/DualGuide_COLO1: DualGuide_V1.1",
+      "publication_date": "2024-04-03",
+      "description": "No description provided.",
+      "rights": "cc-by-4.0",
+      "file": {
+        "key": "ibarrioh/DualGuide_COLO1-Releas1.1.zip",
+        "size": 62144079,
+        "catalog_md5": "05885d1549bcbae37fad466e5c4dc592",
+        "opened": false
+      },
+      "related_not_opened": "https://github.com/ibarrioh/DualGuide_COLO1/tree/Releas1.1"
+    },
+    "figshare_search": {
+      "url": "https://api.figshare.com/v2/articles/search?page_size=10",
+      "query": "DualGuide COLO1",
+      "status": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "result": []
+    },
+    "crispy_listing": {
+      "url": "https://api.github.com/repos/EmanuelGoncalves/crispy/contents/notebooks/dualguide",
+      "status": 200,
+      "bytes": 6871,
+      "sha256": "78b4db4d6e639f1e2068aa0a4044c4be78409dc8831fb447d3b45d4c2179d574",
+      "opened": ["Library2Composition.py"],
+      "unopened": [
+        {"name": "GILibsRepresentation.py", "size": 5465, "git_blob": "871c58287e9c949622dcf85b6a2d6309a43499fc"},
+        {"name": "LibRepresentation.py", "size": 4434, "git_blob": "39ed2171cacc8cedcfd345defe3e61fd91909e10"},
+        {"name": "LibraryGICoreadComposition.py", "size": 10464, "git_blob": "e9c46587f7e22416d1346316eddcf99aec7c2a53"},
+        {"name": "ParseFASTQ.py", "size": 5234, "git_blob": "4d0658b80b3ebeaed7f604a2ee55025b449ca650"},
+        {"name": "ParseFASTQPlot.py", "size": 9413, "git_blob": "d2ced0e9bfb442f835fd715eb601cb0e83cc832f"},
+        {"name": "PilotComparisons.py", "size": 21573, "git_blob": "e164366b2598ee4a9f2020b87c916e574f3c335a"}
+      ]
+    },
+    "pilot_design_code": {
+      "url": "https://raw.githubusercontent.com/EmanuelGoncalves/crispy/master/notebooks/dualguide/Library2Composition.py",
+      "status": 200,
+      "bytes": 13937,
+      "sha256": "ef4f5eec055ee85808658c19de226e093c7b1ba0bd34c55b4a564376e56afffd",
+      "lines": 485,
+      "executed": false,
+      "source_reproduced": false,
+      "function_names": [
+        "pair_sgrnas",
+        "get_nontargeting_sgrnas",
+        "get_intergenic_sgrnas",
+        "get_nonessential_sgrnas",
+        "generate_guides_gi",
+        "generate_negative_controls",
+        "generate_copy_number",
+        "generate_vector_position",
+        "generate_anchors",
+        "generate_cut_distance",
+        "generate_oligo",
+        "generate_nonessential_controls"
+      ],
+      "symbols_present": ["ADAD1", "CYLC2", "KLK12", "HT-29", "anchor", "nontargeting", "sequence", "sgRNA", "guide"],
+      "rights": "unknown; crispy LICENSE endpoint was not requested"
+    }
+  },
+  "literature_indexes": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3Adual+AND+TITLE%3ACRISPR+AND+%28%22genetic+interaction%22+OR+fitness+OR+proliferation%29%29+AND+FIRST_PDATE%3A%5B2018-01-01+TO+2026-12-31%5D&format=json&pageSize=12&resultType=lite",
+      "status": 200,
+      "bytes": 10564,
+      "sha256": "736f0971287d4c1532b96c7fc4c0629e854e8165a36338cddba8b78fe370cc5b",
+      "hitCount": 46
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1002%2Fadvs.77130&format=json&pageSize=1&resultType=core",
+      "status": 200,
+      "bytes": 8836,
+      "sha256": "3c24a9341b1c5e8baba4acc1c5db2c6b3d2fcdfc41bde81276991dae5d78627a"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC/PMC13460280/datalinks?format=json",
+      "status": 200,
+      "bytes": 1354,
+      "sha256": "8260523629118999a02509e3f113065316d458bcbc33436e4ea9ebbc3a203f7d"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1002/advs.77130?select=DOI,title,author,license,relation,URL",
+      "status": 400,
+      "bytes": 164,
+      "sha256": "9502ce5835fa5af7a5ff134099c4496e895c35eae1d28742859ea41325497df9",
+      "retried": false
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE%3A%22genetic+interaction%22+OR+TITLE%3A%22genetic+interactions%22+OR+TITLE%3A%22combinatorial+CRISPR%22+OR+TITLE%3A%22dual-guide%22+OR+TITLE%3A%22dual+guide%22%29+AND+FIRST_PDATE%3A%5B2016-01-01+TO+2026-12-31%5D&format=json&pageSize=20&resultType=lite",
+      "status": 200,
+      "bytes": 16090,
+      "sha256": "eaab43b3465a06b28f1bfd742253f88e2356b66afebfca111896132e8b328d88",
+      "hitCount": 740
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1177%2F25731599261448141&format=json&pageSize=1&resultType=core",
+      "status": 200,
+      "bytes": 6519,
+      "sha256": "9c1fa76198f0b99d23702ce4592be132997580aface27460934a9449bc89f365"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/42136104/datalinks?format=json",
+      "status": 200,
+      "bytes": 73,
+      "sha256": "1fc6563fe4675dfe0c92191cf0cec06d48c958e4ba52a8d00762f50c5a3e0332"
+    }
+  ],
+  "missing": [
+    "COLO1 both-arm guide, sequence, target, and control join",
+    "IDs_colo1.rds generation, invocation, selection, and QC",
+    "culture, transduction, and initiation keys",
+    "member names and member rights for MAPPING.zip and DualGuide_COLO1-Releas1.1.zip",
+    "DICE pair-growth endpoint, accessions, and license",
+    "Ajmal et al. data-availability and rights statements"
+  ],
+  "next_action": "Catalog names and sizes for Zenodo 10912780, then read LibraryGICoreadComposition.py and GILibsRepresentation.py only if they remain library-construction code. Do not request Figshare file 45433417. For pair growth, read the data-availability and license statements of 10.1093/nar/gkag161 and stop if the primary data are the closed paralog deposit, the exposed Horlbeck matrices, or the root HAP1, CellMap, or Dryad routes."
+}

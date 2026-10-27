@@ -1,0 +1,11 @@
+{
+  "attempt": "training-reproduction-v1",
+  "failure": "FileNotFoundError: [WinError 2] The system cannot find the file specified",
+  "cause": "relative .venv/Scripts/python.exe passed to Windows subprocess.Popen",
+  "fit_started": false,
+  "correction": "verified absolute interpreter in training-reproduction-v2",
+  "preserved": [
+    "training-reproduction-v1.json.started.json",
+    "training-reproduction-v1.json.log"
+  ]
+}

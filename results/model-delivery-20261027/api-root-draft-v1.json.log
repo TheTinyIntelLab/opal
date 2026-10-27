@@ -1,0 +1,53 @@
+FF........                                                               [100%]
+================================== FAILURES ===================================
+__________ test_duplicate_orientation_never_creates_a_second_partner __________
+
+    def test_duplicate_orientation_never_creates_a_second_partner():
+        pairs = np.array([[0, 1], [1, 0], [0, 1]], dtype=np.int64)
+        try:
+            degree, support = train_degree_support(pairs, np.arange(3), 3)
+        except ValueError:
+            return  # Rejecting a duplicated canonical TRAIN key is also safe.
+>       assert degree.tolist() == [1, 1, 0]
+E       assert [3, 3, 0] == [1, 1, 0]
+E         
+E         At index 0 diff: 3 != 1
+E         Use -v to get more diff
+
+tests\test_trained_growth_review.py:16: AssertionError
+____ test_unsupported_inputs_cannot_reach_prediction[pair0-malformed_name] ____
+
+pair = (' A ', 'B'), reason = 'malformed_name'
+
+    @pytest.mark.parametrize(('pair', 'reason'), [
+        ((' A ', 'B'), 'malformed_name'),
+        (('A', ''), 'malformed_name'),
+        (('A', None), 'malformed_name'),
+        (('A', 'UNKNOWN'), 'unknown_gene'),
+        (('A', 'DROPPED'), 'absent_gene'),
+        (('A', 'C'), 'unsupported_gene'),
+        (('A', 'A'), 'self_pair'),
+    ])
+    def test_unsupported_inputs_cannot_reach_prediction(pair, reason):
+>       result = fixture_model().predict([pair])[0]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_trained_growth_review.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\trained_growth.py:216: in predict
+    values = self._model.predict(query)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <test_trained_growth_review._NeverPredict object at 0x000002BF87441160>
+pairs = array([[0, 1]])
+
+    def predict(self, pairs):
+>       raise AssertionError('An unsupported input reached the numerical predictor')
+E       AssertionError: An unsupported input reached the numerical predictor
+
+tests\test_trained_growth_review.py:24: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_trained_growth_review.py::test_duplicate_orientation_never_creates_a_second_partner
+FAILED tests/test_trained_growth_review.py::test_unsupported_inputs_cannot_reach_prediction[pair0-malformed_name]
+2 failed, 8 passed in 1.21s

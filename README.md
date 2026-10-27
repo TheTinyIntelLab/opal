@@ -46,6 +46,8 @@ This is independent research by **Arjun Vijay Prakash** at [The Tiny Intelligenc
 
 The current growth assets remain local under the source-data terms; they are not included in the package or offered as a new public download. The historical private 0.1.2 release and its reference models remain unchanged.
 
+The [trained growth delivery](docs/model_delivery/trained_growth.md) provides a named-gene API and lossless local bundles for all six source-local tournament tasks. Its fixed fold-0 models retain their original validation selection. A separately registered [training reproduction](docs/model_delivery/training_reproduction.md) reruns the unchanged recipe and checks exact states and predictions. The [benchmark ledger](results/model-delivery-20261027/benchmark.json) retains every registered comparator and the failed all-task gate; its pooled five-fold scores are not scores of a single exported checkpoint.
+
 | Model | Inputs and output | Evidence and availability |
 | --- | --- | --- |
 | Growth completion, K562 / Jurkat | Supported gene identities, original measured singles and other training pairs; predicts double-CRISPRi gamma | Retained independent-context models; within-source gains, failed K562 external superiority; local assets |

@@ -211,3 +211,13 @@ tests/test_frontier_packing_v2.py -text whitespace=cr-at-eol
 tests/test_colo1_frontier*.py -text whitespace=cr-at-eol
 tests/test_colo1_processing*.py -text whitespace=cr-at-eol
 tests/test_frontier_design_contracts.py -text whitespace=cr-at-eol
+
+# Trained-model delivery receipts bind the bytes used for export and replay.
+docs/model_delivery/** -text whitespace=cr-at-eol
+results/model-delivery-20261027/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+src/trained_growth.py -text whitespace=cr-at-eol
+tools/export_trained_growth.py -text whitespace=cr-at-eol
+tools/report_trained_growth_benchmark.py -text whitespace=cr-at-eol
+tools/retrain_frozen_growth.py -text whitespace=cr-at-eol
+tools/verify_trained_growth_delivery.py -text whitespace=cr-at-eol
+tests/test_trained_growth*.py -text whitespace=cr-at-eol
