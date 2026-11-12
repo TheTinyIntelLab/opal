@@ -1,7 +1,0 @@
-# D documentary handoff
-
-D_source_report.md and D_source_receipt.json contain the completed authorized investigation. Four bounded primary GET attempts, no retries or followed redirects, no responses or reserved headers. Both sources remain blocked. No further critique round or children.
-
-New primary Shen findings for B: Methods explicitly says both guide positions were not required after functional testing, so neither 657 designed singles nor the word exhaustive establishes both-arm matched singles. Twelve non-targeters were designed, three selected for target pairing, and 600 negative controls reported; do not invent a three-by-three actual control map. Actual ordered guide/arm/sample/initiation keys remain unresolved. Published fitness uses relative-frequency growth modeling, time-specific low-count deletion, all-partner robust guide fits, absolute-fitness rank weights and replicate pooling. A control-relative zero-preserving per-initiation slope remains a separate proposed endpoint requiring qualification. Article narrative provides limited academic-use permission subject to full terms; publisher article 303 and linked terms 301 were not followed, so exact supplement rights remain unresolved.
-
-Raw primary article/rights text is outside Git at C:/Users/USER/Desktop/opal-wave5-D-documentary-20261023 with hashes in D_source_receipt.json. Only D reports and receipts are in checkout. No implementation proposed; B/root own subsequent experiment and implementation decisions.
