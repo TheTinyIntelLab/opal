@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.0
+
+First research source release. Finalizes the manuscript and documentation and retains the six-task growth benchmark and failed promotion/transfer findings. GitHub contains code, paper and compact evidence; model weights have a separate Hugging Face delivery. No new biological training or validation was performed for this release.
+
+
 ## External evidence phase, 15 October 2026
 
 Adds source-specific public metadata review, a small unpaired within-condition repeat diagnostic with independent numerical replay, and four truthful initial custodian inquiries under explicit owner authorization. Records sent messages without claiming delivery or collaboration, keeps private correspondence out of distributions, and preserves every frozen scientific protocol. No new predictor, biological confirmation or readiness-gate promotion.
