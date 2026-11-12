@@ -72,7 +72,7 @@ Opal does not establish biological discovery, causal understanding, frontier-lev
 - [Documentation index](docs/README.md): installation, API, findings, reproduction and archived evidence.
 - [Paper](paper/main.pdf) and [LaTeX source](paper/main.tex): methods, results and limitations.
 - [Reproducibility](docs/reproduction.md): public checks and licensed local replay.
-- [Release notes](RELEASE_NOTES.md) and [checklist](RELEASE_CHECKLIST.md): scope and outstanding blockers.
+- [Release notes](RELEASE_NOTES.md): capabilities, research findings and limitations.
 - `src/`, `tests/`, `configs/` and `tools/`: implementation, tests, frozen configurations and utilities.
 - `results/` and [data registries](data/README.md): compact evidence and provenance.
 
@@ -80,6 +80,6 @@ Current ledgers and runtime-required contracts stay in the active tree. Older pr
 
 ## License and citation
 
-Original Opal code is [MIT licensed](LICENSE). Source data and external/model-derived assets have separate terms in [third-party notices](THIRD_PARTY_NOTICES.md). GitHub excludes raw biological data, trained checkpoints, private correspondence and local plans. [Distribution policy](docs/distribution.md) defines the separate Hugging Face model release.
+Original Opal code is [MIT licensed](LICENSE). Source data and external/model-derived assets have separate terms in [third-party notices](THIRD_PARTY_NOTICES.md). GitHub excludes raw biological data, trained checkpoints, private correspondence and local plans.
 
 Use [CITATION.cff](CITATION.cff) to cite Opal, and cite the source studies for the data you use. Arjun Vijay Prakash is responsible for the research and final text; the manuscript discloses AI assistance. No public DOI or arXiv identifier is claimed.

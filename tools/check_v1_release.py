@@ -11,9 +11,9 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 ACTIVE_DOCS = (
-    'README.md', 'RELEASE_NOTES.md', 'RELEASE_CHECKLIST.md', 'docs/README.md',
+    'README.md', 'RELEASE_NOTES.md', 'docs/README.md',
     'docs/installation.md', 'docs/usage.md', 'docs/research.md', 'docs/reproduction.md',
-    'docs/evidence.md', 'docs/models.md', 'docs/distribution.md', 'docs/archive/README.md',
+    'docs/evidence.md', 'docs/models.md', 'docs/archive/README.md',
     'docs/frontier/README.md',
     'results/README.md',
 )

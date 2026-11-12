@@ -19,4 +19,4 @@ Opal supports assay-local prediction among training-supported genes. It establis
 
 The six retained growth checkpoints replayed 17,176 predictions exactly during release preparation, with no new fits, scores or test-target access. [Reproducibility](docs/reproduction.md) separates source-free checks from local biological replay. The public checkout lacks assets needed to regenerate every historical biological score. [Validation](results/release-v1.0.0/validation.json) records release checks.
 
-Original code is [MIT licensed](LICENSE); [third-party notices](THIRD_PARTY_NOTICES.md) preserve external terms. [Distribution policy](docs/distribution.md) describes GitHub versus Hugging Face scope. No new model-hosting URL, archive DOI or arXiv identifier is claimed.
+Original code is [MIT licensed](LICENSE); [third-party notices](THIRD_PARTY_NOTICES.md) preserve external terms. No new model-hosting URL, archive DOI or arXiv identifier is claimed.
