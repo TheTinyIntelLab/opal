@@ -76,7 +76,7 @@ Opal does not establish biological discovery, causal understanding, frontier-lev
 - `src/`, `tests/`, `configs/` and `tools/`: implementation, tests, frozen configurations and utilities.
 - `results/` and [data registries](data/README.md): compact evidence and provenance.
 
-Dated protocols and negative findings are archived in place because custody manifests and reproduction tools bind their paths and bytes. They are evidence, not current forward plans. [The archive index](docs/archive/README.md) explains that distinction.
+Current ledgers and runtime-required contracts stay in the active tree. Older protocols, negative findings and computational records are consolidated in [verified archives](docs/archive/README.md), with original paths and hashes available for restoration. Local builds, model banks and unfinished research are kept outside the checkout.
 
 ## License and citation
 

@@ -2,6 +2,10 @@
 
 A public checkout supports code tests, synthetic engineering checks and aggregate evidence replay. Biological replay also requires exact source data or preserved local bundles, which are not included.
 
+The active tree keeps current ledgers and runtime-required contracts. Before reproducing an older workflow, restore its original documents and result records from the [scientific archive](archive/README.md) into a separate source copy. This preserves the old paths and hashes without repopulating the active checkout with historical clutter.
+
+The full historical collection is distributed with the GitHub research source/evidence, rather than the lightweight Python wheel or source distribution. Use the repository archive for historical verification, and the Python packages for installation.
+
 ## Source-free verification
 
 Install [the dependencies](installation.md), then run:
