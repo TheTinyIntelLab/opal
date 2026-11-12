@@ -1,0 +1,100 @@
+{
+  "version": "1.0.0",
+  "status": "passed",
+  "scope": "GitHub source release; separate Hugging Face model delivery",
+  "biological_training_runs": 0,
+  "new_biological_scores": 0,
+  "preservation": {
+    "preexisting_files": 178,
+    "content_hashes_unchanged": true,
+    "approved_generated_files_deleted": 5624,
+    "local_plan_preserved": true
+  },
+  "tests": {
+    "passed": 1218,
+    "skipped": 3,
+    "expected_failures": 1,
+    "failed": 0,
+    "seconds": 80.18,
+    "skips": "Pinned optional NAIAD source is unavailable",
+    "expected_failure": "Frozen v1 gzip filename/fileobj defect; successor covered",
+    "population": "All tracked release tests in explicit source snapshot; unrelated uncommitted next-phase work excluded"
+  },
+  "install": {
+    "clean_venv": true,
+    "host_dependencies_reused": false,
+    "pip_check": "passed",
+    "wheel_import_verified": true,
+    "python_modules_identical_to_tested_wheel": 107,
+    "compatibility_fixes": [
+      "scipy<1.18 for AnnData backed sparse slicing",
+      "data extra pandas<3 for AnnData string-index serialization"
+    ]
+  },
+  "engineering_checks": {
+    "cli_help": "passed",
+    "installed_quickstart": "passed",
+    "model_series_v1": "passed",
+    "model_series_v2": "passed",
+    "synthetic_assay_rehearsal": "passed",
+    "aggregate_benchmark_replay": "exact JSON match"
+  },
+  "growth_replay": {
+    "passed": true,
+    "installed_wheel": true,
+    "tasks": 6,
+    "queries": 17176,
+    "exact": true,
+    "test_targets_opened": false
+  },
+  "reference_examples": {
+    "passed": true,
+    "models": 2,
+    "orientation_atol": 1e-10
+  },
+  "paper": {
+    "compiled": true,
+    "pages": 18,
+    "visual_review": "Rebuilt PDF matches previously inspected text and layout on all 18 pages",
+    "standalone_source_compiled": true,
+    "unresolved_citations": 0,
+    "pdf_sha256": "edb6ea82dd784b5e7055859e83b846f4f75e34603cf1297175eb05227e09fb67"
+  },
+  "documentation": {
+    "active_documents": 12,
+    "active_local_links": 81,
+    "active_broken_links": 0,
+    "historical_unavailable_references": 27,
+    "historical_policy": "Frozen paths/bytes retained; local-plan/asset references documented separately"
+  },
+  "distribution": {
+    "github_weights": false,
+    "raw_biological_data": false,
+    "huggingface_uploaded": false,
+    "private_repository_visibility_unchanged": true,
+    "credential_pattern_findings": 0
+  },
+  "packages": [
+    {
+      "name": "opal_research-1.0.0-py3-none-any.whl",
+      "bytes": 305164,
+      "sha256": "75c2e9e2ef13bc9c911a8f5bc2fcdcd6f9beae40fb3712439c2c41f5a6a76837"
+    },
+    {
+      "name": "opal_research-1.0.0.tar.gz",
+      "bytes": 2021333,
+      "sha256": "1b4a532d51aafcf5cdf664e96ff335be9c7bd0a1f9d8420fbaf7ca3436aa9e05"
+    }
+  ],
+  "nested_package_archives_checked": true,
+  "source_archive_review": "passed; source/evidence membership and per-file hashes verified, nested archives inspected",
+  "limitations": [
+    "No independent biological confirmation",
+    "The failed Jurkat and frozen external-transfer gates remain failed",
+    "Public visibility/history review and Hugging Face model release remain separate steps"
+  ],
+  "source_archive_files": 1108,
+  "evidence_archive_files": 3162,
+  "model_files_in_source_recipe": 0,
+  "history_preparation": "All builds and release checks completed before split commits"
+}

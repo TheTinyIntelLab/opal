@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "manifest_sha256": "fa8490abe83e5a5d0d0f8456639d11df16a2a6ca3ed440fb40bfd74459488e72",
+  "installed": true,
+  "checkpoint_tasks": 6,
+  "queries": 17176,
+  "new_fits": 0,
+  "new_scores": 0,
+  "test_targets_opened": false,
+  "per_query_uncertainty": "unavailable",
+  "wall_seconds": 0.47694729999784613,
+  "tasks": [
+    {
+      "task": "horlbeck_K562",
+      "queries": 2970,
+      "exact": true,
+      "reversed_queries": 20,
+      "unsupported_checks": 4,
+      "selected_policy": "I0--rank8-penalty0.01",
+      "original_checkpoint_sha256": "949064fa973d9881358e992e07a87c1c47a577e7b6f87aea3e73374501e6a659"
+    },
+    {
+      "task": "horlbeck_Jurkat",
+      "queries": 2970,
+      "exact": true,
+      "reversed_queries": 20,
+      "unsupported_checks": 4,
+      "selected_policy": "I0--rank8-penalty0.01",
+      "original_checkpoint_sha256": "20dfe8b9781a88f30a205fca1fca6bc491009204e74b42e8b79becd70d29bffb"
+    },
+    {
+      "task": "environment1",
+      "queries": 1711,
+      "exact": true,
+      "reversed_queries": 20,
+      "unsupported_checks": 4,
+      "selected_policy": "I0--rank8-penalty0.01",
+      "original_checkpoint_sha256": "5e5959acdb1e4da41dccc82eb523721ffb0dee4eaa11ae97a94ceeff886716f5"
+    },
+    {
+      "task": "environment2",
+      "queries": 1711,
+      "exact": true,
+      "reversed_queries": 20,
+      "unsupported_checks": 4,
+      "selected_policy": "I0--rank8-penalty0.01",
+      "original_checkpoint_sha256": "7949adf0e3b1094add3d0d32920ecfa4382adb58815ea11ea582d64e804c4330"
+    },
+    {
+      "task": "parp2022",
+      "queries": 3916,
+      "exact": true,
+      "reversed_queries": 20,
+      "unsupported_checks": 4,
+      "selected_policy": "I0--rank8-penalty0.01",
+      "original_checkpoint_sha256": "7766c89ab0f520f280b95499d4cdc5e9c3d9695175fbda54a8f7cf94bdf1ff46"
+    },
+    {
+      "task": "parp2023",
+      "queries": 3898,
+      "exact": true,
+      "reversed_queries": 20,
+      "unsupported_checks": 4,
+      "selected_policy": "I0--rank8-penalty0.01",
+      "original_checkpoint_sha256": "556d5bb5917c9da95032759f2f5a4e5dd371ca92abb22d8f7241d3aa675f4a7c"
+    }
+  ]
+}
