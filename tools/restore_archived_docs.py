@@ -8,9 +8,9 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def restore(output, archive_root=ROOT / 'docs/archive'):
+def _restore(output, archive_root, manifest_name, prefixes):
     output, archive_root = Path(output).resolve(), Path(archive_root)
-    manifest = json.loads((archive_root / 'retired-documents.json').read_text())
+    manifest = json.loads((archive_root / manifest_name).read_text())
     archive = archive_root / manifest['archive']
     if hashlib.sha256(archive.read_bytes()).hexdigest() != manifest['archive_sha256']:
         raise ValueError('Historical archive checksum mismatch')
@@ -21,7 +21,7 @@ def restore(output, archive_root=ROOT / 'docs/archive'):
             raise ValueError('Historical archive membership mismatch')
         for record in records:
             destination = (output / record['path']).resolve()
-            if not destination.is_relative_to(output) or not record['path'].startswith('docs/'):
+            if not destination.is_relative_to(output) or not record['path'].startswith(prefixes):
                 raise ValueError('Historical path escapes output directory')
             if destination.exists() or destination.is_symlink():
                 raise FileExistsError('Refusing to overwrite: ' + str(destination))
@@ -37,11 +37,21 @@ def restore(output, archive_root=ROOT / 'docs/archive'):
                 private_documents_omitted=len(manifest['files'])-len(records))
 
 
+def restore(output, archive_root=ROOT / 'docs/archive'):
+    return _restore(output, archive_root, 'retired-documents.json', ('docs/',))
+
+
+def restore_research(output, archive_root=ROOT / 'docs/archive'):
+    return _restore(output, archive_root, 'research-records.json', ('docs/', 'results/'))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--research', action='store_true', help='Restore the full historical research collection')
     args = parser.parse_args()
-    print(json.dumps(restore(args.output)))
+    restore_selected = restore_research if args.research else restore
+    print(json.dumps(restore_selected(args.output)))
 
 
 if __name__ == '__main__':

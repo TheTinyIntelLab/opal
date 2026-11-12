@@ -43,6 +43,7 @@ def main():
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--dist', type=Path, default=ROOT / 'dist')
     p.add_argument('--config', type=Path, default=ROOT / 'configs/releases/v1.0.0.json')
+    p.add_argument('--arxiv-source', type=Path, help='Standalone TeX bundle stored outside the checkout')
     p.add_argument('--allow-dirty', action='store_true', help='Local validation only; never upload these assets')
     args = p.parse_args()
     dirty = subprocess.check_output(['git', 'status', '--porcelain'], cwd=ROOT, text=True).strip()
@@ -93,7 +94,7 @@ def main():
     for name in [f"opal_research-{config['version']}-py3-none-any.whl", f"opal_research-{config['version']}.tar.gz"]:
         shutil.copyfile(args.dist / name, assets / name)
     shutil.copyfile(ROOT / 'paper/main.pdf', assets / (prefix + '-manuscript.pdf'))
-    arxiv_source = ROOT / 'releases/arxiv' / (prefix + '-arxiv-source.zip')
+    arxiv_source = args.arxiv_source or ROOT / 'releases/arxiv' / (prefix + '-arxiv-source.zip')
     if not arxiv_source.is_file():
         raise FileNotFoundError('Build the standalone arXiv source bundle before packaging')
     shutil.copyfile(arxiv_source, assets / arxiv_source.name)

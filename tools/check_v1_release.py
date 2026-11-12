@@ -15,24 +15,30 @@ ACTIVE_DOCS = (
     'docs/installation.md', 'docs/usage.md', 'docs/research.md', 'docs/reproduction.md',
     'docs/evidence.md', 'docs/models.md', 'docs/distribution.md', 'docs/archive/README.md',
     'docs/frontier/README.md',
+    'results/README.md',
 )
 FORBIDDEN_SUFFIXES = {'.npz', '.npy', '.pt', '.pth', '.h5ad', '.h5', '.parquet', '.xlsx'}
 PRIVATE_NAMES = {'plan.md', 'outreach.md', 'outreach_register.json', 'context.md', 'roadmap.md',
                  'release_cleanup_plan.md', 'release_deletions.json', 'opal_repository_audit.md'}
 
 
-def inspect_member(name, payload):
+def inspect_member(name, payload, synthetic_hashes=None, history_hashes=None):
     path = Path(name)
-    if path.suffix.lower() in FORBIDDEN_SUFFIXES or path.name.casefold() in PRIVATE_NAMES:
+    synthetic = (name.startswith('results/research-continuation/replication-v1/')
+                 and path.suffix == '.npz' and synthetic_hashes is not None
+                 and synthetic_hashes.get(name) == hashlib.sha256(payload).hexdigest())
+    if (path.suffix.lower() in FORBIDDEN_SUFFIXES and not synthetic) or path.name.casefold() in PRIVATE_NAMES:
         raise ValueError('Private/model/data member: ' + name)
-    if {'raw', 'prepared', 'custodian', 'sealed'} & set(path.parts):
+    historical_metadata = (path.suffix == '.json' and history_hashes is not None
+                           and history_hashes.get(name) == hashlib.sha256(payload).hexdigest())
+    if {'raw', 'prepared', 'custodian', 'sealed'} & set(path.parts) and not historical_metadata:
         raise ValueError('Private data directory: ' + name)
     # A harmless-looking outer ZIP must not conceal model/reference arrays.
     if path.suffix.lower() in {'.zip', '.whl'}:
         with zipfile.ZipFile(io.BytesIO(payload)) as archive:
             for member in archive.infolist():
                 if not member.is_dir():
-                    inspect_member(member.filename, archive.read(member))
+                    inspect_member(member.filename, archive.read(member), synthetic_hashes, history_hashes)
 
 
 def check(artifacts=None):
@@ -73,6 +79,10 @@ def check(artifacts=None):
                     raise ValueError(f'Broken active anchor {name}: {target}')
             links.append(dict(source=name, target=target))
     inspected = []
+    history = json.loads((ROOT / 'docs/archive/research-records.json').read_text())
+    synthetic_hashes = {r['path']: r['sha256'] for r in history['files']
+                        if r['kind'] == 'synthetic_engineering_state'}
+    history_hashes = {r['path']: r['sha256'] for r in history['files']}
     if artifacts:
         for path in sorted(Path(artifacts).iterdir()):
             if path.suffix in {'.zip', '.whl'}:
@@ -81,12 +91,12 @@ def check(artifacts=None):
                         raise ValueError('Archive CRC failure')
                     for member in archive.infolist():
                         if not member.is_dir():
-                            inspect_member(member.filename, archive.read(member))
+                            inspect_member(member.filename, archive.read(member), synthetic_hashes, history_hashes)
             elif path.name.endswith('.tar.gz'):
                 with tarfile.open(path) as archive:
                     for member in archive.getmembers():
                         if member.isfile():
-                            inspect_member(member.name, archive.extractfile(member).read())
+                            inspect_member(member.name, archive.extractfile(member).read(), synthetic_hashes, history_hashes)
             else:
                 continue
             inspected.append(dict(name=path.name, bytes=path.stat().st_size,

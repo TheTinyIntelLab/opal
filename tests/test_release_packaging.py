@@ -42,4 +42,6 @@ def test_v1_keeps_weights_separate_from_source_release():
     assert module.allowed_source('docs/archive/development-records.zip')
     assert module.allowed_evidence('docs/archive/development-records.zip')
     assert module.allowed_evidence('docs/archive/retired-documents.json')
+    assert module.allowed_source('docs/archive/research-records.zip')
+    assert module.allowed_evidence('docs/archive/research-records.json')
     assert not module.allowed_source('docs/archive/unreviewed-models.zip')
