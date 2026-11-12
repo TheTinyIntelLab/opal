@@ -4,18 +4,12 @@
   "scope": "GitHub source release; separate Hugging Face model delivery",
   "biological_training_runs": 0,
   "new_biological_scores": 0,
-  "preservation": {
-    "preexisting_files": 178,
-    "content_hashes_unchanged": true,
-    "approved_generated_files_deleted": 5624,
-    "local_plan_preserved": true
-  },
   "tests": {
-    "passed": 1221,
+    "passed": 1223,
     "skipped": 3,
     "expected_failures": 1,
     "failed": 0,
-    "seconds": 83.36,
+    "seconds": 79.73,
     "skips": "Pinned optional NAIAD source is unavailable",
     "expected_failure": "Frozen v1 gzip filename/fileobj defect; successor covered",
     "population": "All tracked release tests in explicit source snapshot; unrelated uncommitted next-phase work excluded"
@@ -61,11 +55,11 @@
     "pdf_sha256": "edb6ea82dd784b5e7055859e83b846f4f75e34603cf1297175eb05227e09fb67"
   },
   "documentation": {
-    "active_documents": 13,
-    "active_local_links": 91,
+    "active_documents": 14,
+    "active_local_links": 92,
     "active_broken_links": 0,
-    "historical_unavailable_references": 41,
-    "historical_policy": "Frozen paths/bytes retained; local-plan/asset references documented separately",
+    "historical_unavailable_references": 65,
+    "historical_policy": "Historical references are restored from checksummed archives into a separate source copy",
     "retired_loose_documents": 81,
     "public_historical_archive_records": 71,
     "private_records_outside_repository": 11,
@@ -81,13 +75,13 @@
   "packages": [
     {
       "name": "opal_research-1.0.0-py3-none-any.whl",
-      "bytes": 305164,
-      "sha256": "1853a176ccbaf441eaa7147e9ea4532139c94366c6b427b8bf0df8938122b6ef"
+      "bytes": 305207,
+      "sha256": "5f05b8cc3b0faf47344f389d8a4ff912f78b88a64509c87abf98e5aeb6381042"
     },
     {
       "name": "opal_research-1.0.0.tar.gz",
-      "bytes": 2073321,
-      "sha256": "e3cf78ed13fed889e2c0ef31c2a7bf93164d624c82d2fcb2b2660c5ac169d355"
+      "bytes": 1637498,
+      "sha256": "ea476a32fe3c3c332f068345d6241cf0cd6347c2e9da72a77312796a6e3fa019"
     }
   ],
   "nested_package_archives_checked": true,
@@ -97,8 +91,29 @@
     "The failed Jurkat and frozen external-transfer gates remain failed",
     "Public visibility/history review and Hugging Face model release remain separate steps"
   ],
-  "source_archive_files": 1041,
-  "evidence_archive_files": 3166,
+  "source_archive_files": 813,
+  "evidence_archive_files": 181,
   "model_files_in_source_recipe": 0,
-  "history_preparation": "All builds and release checks completed before split commits"
+  "repository_layout": {
+    "status": "passed",
+    "historical_records_consolidated": 3992,
+    "history_archive_sha256": "d549cb0e05e7d0756c57e70c3fe36064e733de7ea32bc0421bd5f810334498d2",
+    "biological_data_in_checkout": false,
+    "biological_checkpoints_in_checkout": false,
+    "local_builds_in_checkout": false,
+    "unfinished_research_in_checkout": false,
+    "original_file_bytes_preserved": true,
+    "synthetic_engineering_states_archived": 150,
+    "tests": {
+      "passed": 1223,
+      "skipped": 3,
+      "expected_failures": 1,
+      "failed": 0,
+      "seconds": 79.73
+    },
+    "frozen_dependencies_verified": 35,
+    "active_documents": 14,
+    "active_links_checked": 92,
+    "active_broken_links": 0
+  }
 }
