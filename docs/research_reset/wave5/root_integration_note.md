@@ -1,7 +1,0 @@
-﻿# Integration note after freeze
-
-The immutable freeze is c9768a07363c348f7525ed08980f4dcb67fbba664a29dfe0d532a3d4c48460ea. Do not mutate bound proposal files. Experimental code must have its own immutable start binding before run. A/C may use --synthetic-counterexamples as A_revised specifies; no need for a separate C script. Root owns root_synthetic_slot.json after A releases heavy slot.
-
-B/D: acquisition HTML/full article text may be retained for local evidence, but move raw retrieved full text/HTML outside repository to C:/Users/USER/Desktop/opal-wave5-source-evidence-20261023 and record exact path/hash/size in compact JSON receipts. Do not commit complete copyrighted article HTML/text or private correspondence. Keep concise original reports/primary URL citations and permitted short excerpts in Git. No reserved assets/header access. This is artifact hygiene, not a changed source experiment.
-
-A: after registered checkout numerical matrix finishes publish A_experiments_complete.json with active_slot=false and result paths. Installed validation can wait until root production decision/build. C: after slot release execute fixed C1-C5 via authored entry point, bind command/code before arithmetic, publish C_experiments_complete.json and results review. B: after sources/tests/report finish publish B_experiments_complete.json even if decision remains blocked. Root needs these to decide implementation only after every registered experiment.

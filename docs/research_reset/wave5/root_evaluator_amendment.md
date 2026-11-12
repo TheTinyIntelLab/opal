@@ -1,5 +1,0 @@
-﻿# Experimental evaluator successor registration
-
-The first E1-E8 command completed its numerical calculations but failed before publishing results: E4 reused `names` for a synthetic gene-pair array, shadowing the list of code paths used by the final custody check. The failure receipt/log and original script are preserved unchanged. No completed metric/recovery result is claimed from that attempt.
-
-Authorize a versioned experiment tool wave5_evaluator_experiments_v2.py that only renames the code-path list to code_names and binds its own successor filename. Keep all fixtures, seed510023, splits, hyperparameters, metrics, corruption menu, tolerances and acceptance unchanged. Use evaluator-experiments-v2.json with a fresh start/command binding. This is a tooling correction and repeated synthetic experiment, not a new candidate, outcome-selected method or biological fit. Production changes remain prohibited until all registered work finishes. Root owns the correction after worker provider exhaustion; no replacement worker.

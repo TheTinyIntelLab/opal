@@ -1,3 +1,0 @@
-﻿# Resource placement amendment
-
-Both C: and E: were below the unchanged 1 GiB reserve, so no E: numerical run was attempted. The prior placement proposal is superseded. Root losslessly archived the newly generated source receipts, verified every member SHA256 before reclaiming duplicate loose copies, and retained summary.json plus the archive/member manifest. Historical artifacts/code were untouched. Use new C: output numerical-1-resolved and numerical-2, archiving each successful run before the next. Never lower the reserve; stop again if capacity is insufficient. The original installed preflight failure remains preserved. ZIP contains generated JSON/text receipts only, not models, response arrays or source assets.

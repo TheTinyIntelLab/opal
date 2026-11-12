@@ -1,9 +1,0 @@
-# Shen code-landing inspection results
-
-The [registered inspection](shen_code_landing_v1.md) completed its four navigation attempts without acquiring local source assets or opening responses. Both HTTP and HTTPS URLs were inaccessible through the web service. A separate managed-browser attempt reached `chrome-error://chromewebdata/`; its snapshot timed out. The final registered HTTP navigation returned `ERR_NAME_NOT_RESOLVED`. The agent-owned error tab was closed afterward. [The receipt](../../../results/research-continuation/shen-code-landing-receipt-v1.json) preserves exact tool observations.
-
-This verifies an access blocker in the tested environment, not an HTTP 404, server-side deletion, permanent loss of the source or absence of metadata. No directory listing, rights statement, actual guide/arm/control map or sample/initiation companion was obtained. There was no incidental outcome exposure, and no alternate archive, NDEx network or reserved supplement was opened.
-
-Shen remains unqualified on the previously documented grounds: actual constituent-guide/arm/control and sample/time/initiation maps, exact supplement-item rights and train-safe endpoint provenance are missing. The primary methods' population/partner-derived fitness and pooled replicate outputs remain inadmissible substitutes. Further retries of the same unresolved hostname are not a scientific experiment and are not justified by these observations alone. A separately documented primary metadata mirror or restored source access would be needed to change this next action; acquiring outcomes would not resolve it safely.
-
-The local acquisition/fit reserve also remained unavailable on every drive. The pending storage question remains relevant to the isolated COLO1 annotation route, but more disk space would not cure Shen's missing provenance or qualify a fit. No model, score, tolerance, historical failure or source-access restriction changed.
