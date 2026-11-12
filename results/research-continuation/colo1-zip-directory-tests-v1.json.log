@@ -1,8 +1,0 @@
-.......................                                                  [100%]
-============================== warnings summary ===============================
-tests/test_continuation_colo1_zip_directory_v1.py::test_unsafe_or_ambiguous_names_refused[names1]
-  C:\Python314\Lib\zipfile\__init__.py:1708: UserWarning: Duplicate name: 'same'
-    return self._open_to_write(zinfo, force_zip64=force_zip64)
-
--- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-23 passed, 1 warning in 0.05s
