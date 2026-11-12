@@ -14,6 +14,7 @@ ACTIVE_DOCS = (
     'README.md', 'RELEASE_NOTES.md', 'RELEASE_CHECKLIST.md', 'docs/README.md',
     'docs/installation.md', 'docs/usage.md', 'docs/research.md', 'docs/reproduction.md',
     'docs/evidence.md', 'docs/models.md', 'docs/distribution.md', 'docs/archive/README.md',
+    'docs/frontier/README.md',
 )
 FORBIDDEN_SUFFIXES = {'.npz', '.npy', '.pt', '.pth', '.h5ad', '.h5', '.parquet', '.xlsx'}
 PRIVATE_NAMES = {'plan.md', 'outreach.md', 'outreach_register.json', 'context.md', 'roadmap.md',

@@ -1,8 +1,8 @@
 {
-  "active_documents": 12,
-  "active_local_links": 81,
+  "active_documents": 13,
+  "active_local_links": 91,
   "active_unavailable": 0,
-  "historical_rendered_documents": 343,
+  "historical_rendered_documents": 293,
   "historical_unavailable_references": [
     {
       "source": "docs/engineering_record_20261015.md",
@@ -10,7 +10,15 @@
     },
     {
       "source": "docs/engineering_record_20261015.md",
+      "target": "../docs/frontier/outreach_status.md"
+    },
+    {
+      "source": "docs/engineering_record_20261015.md",
       "target": "../plan.md"
+    },
+    {
+      "source": "docs/engineering_record_20261015.md",
+      "target": "../docs/frontier/outreach_status.md"
     },
     {
       "source": "docs/engineering_record_20261015.md",
@@ -21,20 +29,64 @@
       "target": "../plan.md"
     },
     {
-      "source": "docs/frontier/README.md",
-      "target": "../../plan.md"
+      "source": "docs/engineering_record_20261015.md",
+      "target": "../docs/next_cycle/execution_status.md"
     },
     {
-      "source": "docs/frontier/README.md",
-      "target": "../../plan.md"
+      "source": "docs/frontier/collaboration_feasibility_20261015.md",
+      "target": "outreach_status.md"
     },
     {
-      "source": "docs/frontier/README.md",
-      "target": "../../plan.md"
+      "source": "docs/frontier/confirmation_readiness_20261015.md",
+      "target": "outreach_status.md"
     },
     {
-      "source": "docs/frontier/README.md",
-      "target": "../../plan.md"
+      "source": "docs/frontier/context_contrast_implementation.md",
+      "target": "remaining_plan_work.md"
+    },
+    {
+      "source": "docs/frontier/context_contrast_implementation.md",
+      "target": "authorized_execution_status.md"
+    },
+    {
+      "source": "docs/frontier/crossed_repeatability_pilot.md",
+      "target": "remaining_plan_work.md"
+    },
+    {
+      "source": "docs/frontier/current_state_audit.md",
+      "target": "historical/plan_before_frontier_20261011.md"
+    },
+    {
+      "source": "docs/frontier/experiment_contract.md",
+      "target": "authorized_execution_status.md"
+    },
+    {
+      "source": "docs/frontier/external_action_packet.md",
+      "target": "outreach_status.md"
+    },
+    {
+      "source": "docs/frontier/gxe_measurement_results.md",
+      "target": "outreach_status.md"
+    },
+    {
+      "source": "docs/frontier/gxe_measurement_results.md",
+      "target": "measurement_records_request.md"
+    },
+    {
+      "source": "docs/frontier/implementation_completion.md",
+      "target": "remaining_plan_work.md"
+    },
+    {
+      "source": "docs/frontier/implementation_completion.md",
+      "target": "authorized_execution_status.md"
+    },
+    {
+      "source": "docs/frontier/release_audit_20261015.md",
+      "target": "outreach_status.md"
+    },
+    {
+      "source": "docs/frontier_execution/delivery.md",
+      "target": "plan_completion_audit.md"
     },
     {
       "source": "docs/model_development_20261020.md",
@@ -53,12 +105,8 @@
       "target": "../../plan.md"
     },
     {
-      "source": "docs/next_cycle/execution_status.md",
-      "target": "../../plan.md"
-    },
-    {
-      "source": "docs/next_cycle/execution_status.md",
-      "target": "../../plan.md"
+      "source": "docs/next_cycle/collaboration_brief.md",
+      "target": "../frontier/historical/collaboration_brief_before_frontier_20261011.md"
     },
     {
       "source": "docs/next_cycle/model_series_protocol.md",
@@ -79,6 +127,14 @@
     {
       "source": "docs/next_cycle/opal_information_protocol.md",
       "target": "../../plan.md"
+    },
+    {
+      "source": "docs/research_reset/continuation/closeout_v1.md",
+      "target": "root_proposal_v1.md"
+    },
+    {
+      "source": "docs/research_reset/continuation/source_discovery_v1.md",
+      "target": "root_proposal_v1.md"
     },
     {
       "source": "docs/research_reset/native_results.md",
@@ -113,5 +169,5 @@
       "target": "../../plan.md"
     }
   ],
-  "note": "Frozen historical records retain their bytes. Missing references are dated local plans/assets, not active v1 navigation."
+  "note": "Active v1 navigation is checked. Frozen retired references can be restored with tools/restore_archived_docs.py; private local-plan links are intentionally unavailable."
 }

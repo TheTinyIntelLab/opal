@@ -22,7 +22,7 @@ def public_name(name):
 
 def allowed_source(name):
     if not public_name(name):return False
-    if name == 'docs/archive/pre-v1-documentation.zip':return True
+    if name in {'docs/archive/pre-v1-documentation.zip', 'docs/archive/development-records.zip'}:return True
     path=PurePosixPath(name)
     if tuple(p.casefold() for p in path.parts[:3]) == ('docs', 'frontier', 'historical'):
         return False
@@ -34,7 +34,8 @@ def allowed_source(name):
 
 def allowed_evidence(name):
     if not public_name(name):return False
-    if name == 'docs/archive/pre-v1-documentation.zip':return True
+    if name in {'docs/archive/pre-v1-documentation.zip', 'docs/archive/development-records.zip'}:return True
+    if name in {'docs/archive/pre-v1-documentation.json', 'docs/archive/retired-documents.json'}:return True
     path=PurePosixPath(name)
     return path.parts[0] in {'results','data','paper'} and (
         path.suffix in {'.json','.md','.tex','.pdf'} or path.name in COMPACT_CSV_NAMES) and not any(
