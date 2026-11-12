@@ -1,0 +1,58 @@
+{
+  "source": "results/model-delivery-20261027/benchmark.json",
+  "source_sha256": "91ca0a5ba807b97a1c88d36cd3fe8d5f962aa8e632416678da74a1a81908beed",
+  "program": {
+    "passes": false,
+    "failed_tasks": [
+      "horlbeck_Jurkat"
+    ],
+    "biological_confirmation": false,
+    "rescue": false
+  },
+  "tasks": [
+    {
+      "task": "horlbeck_K562",
+      "pairs": 16210,
+      "simple_mse": 0.0019009192850677667,
+      "completion_mse": 0.00179069073630258,
+      "gain_percent": 5.798696958416993
+    },
+    {
+      "task": "horlbeck_Jurkat",
+      "pairs": 16210,
+      "simple_mse": 0.0005076301478664769,
+      "completion_mse": 0.00048677524488219704,
+      "gain_percent": 4.108286923448324
+    },
+    {
+      "task": "environment1",
+      "pairs": 9833,
+      "simple_mse": 0.000551581712410178,
+      "completion_mse": 0.00041289809803034423,
+      "gain_percent": 25.142895650735998
+    },
+    {
+      "task": "environment2",
+      "pairs": 9833,
+      "simple_mse": 0.0007273528322556272,
+      "completion_mse": 0.0005182655633921145,
+      "gain_percent": 28.746333222502564
+    },
+    {
+      "task": "parp2022",
+      "pairs": 29016,
+      "simple_mse": 0.0003080972426132568,
+      "completion_mse": 0.0002540043024513511,
+      "gain_percent": 17.55709973354309
+    },
+    {
+      "task": "parp2023",
+      "pairs": 28651,
+      "simple_mse": 0.00030294051295264463,
+      "completion_mse": 0.0002606792965509468,
+      "gain_percent": 13.95033499804763
+    }
+  ],
+  "new_fits": 0,
+  "new_scores": 0
+}
