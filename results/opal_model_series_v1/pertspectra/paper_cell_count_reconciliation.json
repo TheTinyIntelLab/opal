@@ -1,9 +1,0 @@
-{
-  "author_metadata_condition_context_at_least_50": 65648,
-  "deposited_cells": 73015,
-  "expression_used_for_reconciliation": false,
-  "matches_paper_count": true,
-  "method": "Reconstruct published utils gene-label conversion, retain nan/intergenic/self labels as author does, and condition+TNF category>=50 used in author training script. Metadata calculation only; not copied into Opal input eligibility, endpoint or benchmark.",
-  "own_scope": "Exclude nan, intergenic, ambiguous and self-pairs; per-SampleIndex minimum 10; reference-supported complete panel separately by TNF; differs from author pooled filters.",
-  "paper_filtered_cells": 65648
-}

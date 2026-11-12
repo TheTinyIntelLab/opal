@@ -1,7 +1,0 @@
-{
-  "classification": "unsupported Python3.10 diagnostic only",
-  "return_code": 1,
-  "scores": null,
-  "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"D:\\opal-model-series-20261010-v2\\native\\TxPert\\gspp\\models\\txpert.py\", line 9, in <module>\n    from gspp.data.graphmodule import GSPGraph\n  File \"D:\\opal-model-series-20261010-v2\\native\\TxPert\\gspp\\data\\graphmodule.py\", line 2, in <module>\n    from omegaconf import DictConfig, OmegaConf\nModuleNotFoundError: No module named 'omegaconf'\n",
-  "stdout": ""
-}
