@@ -17,7 +17,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--tectonic')
-    parser.add_argument('--config', type=Path, default=ROOT / 'configs/releases/v0.1.2.json')
+    parser.add_argument('--config', type=Path, default=ROOT / 'configs/releases/v1.0.0.json')
     parser.add_argument('--cache-directory', type=Path)
     args = parser.parse_args()
     paper = ROOT / 'paper'
@@ -64,7 +64,7 @@ def main():
               'files': sources, 'bundle_sha256': hashlib.sha256(args.output.read_bytes()).hexdigest(),
               'extracted_source_compiled': True, 'compiler': binary,
               'arxiv_server_compiler_tested': False, 'abstract': abstract,
-              'title': 'Opal: an observed-single benchmark for combinatorial perturbation prediction',
+              'title': re.search(r'\\title\{([^}]+)\}', (paper / 'main.tex').read_text())[1],
               'authors': ['Arjun Vijay Prakash'], 'temporary_compile_directory': str(outside)}
     args.output.with_suffix('.json').write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps({'source_bundle': str(args.output), 'files': len(sources),

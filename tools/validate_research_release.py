@@ -49,7 +49,10 @@ def main():
             continue
         for name in names:
             assert public_name(name.rstrip('/')), name
-    for archive_name,field in [(prefix+'-research-source.zip','source_files'),(prefix+'-evidence.zip','evidence_files'),(prefix+'-reference-models.zip','model_files')]:
+    archives = [(prefix+'-research-source.zip','source_files'),(prefix+'-evidence.zip','evidence_files')]
+    if manifest['model_files']:
+        archives.append((prefix+'-reference-models.zip','model_files'))
+    for archive_name,field in archives:
         with zipfile.ZipFile(assets/archive_name) as archive:
             assert set(archive.namelist())==set(manifest[field]), 'Archive membership differs from manifest'
             for name,digest in manifest[field].items():
@@ -59,6 +62,31 @@ def main():
     wheel = assets / f'opal_research-{version}-py3-none-any.whl'
     subprocess.run([sys.executable, '-m', 'pip', 'install', '--no-deps', '--target', str(installed), str(wheel)],
                    check=True, capture_output=True, text=True)
+    if not manifest['model_files']:
+        # Source-only releases must work without reaching for private weights.
+        env = dict(os.environ)
+        env['PYTHONPATH'] = str(installed)
+        checked = subprocess.run([sys.executable, '-c',
+            'import json,opal;print(json.dumps({"version":opal.__version__,"module":opal.__file__}))'],
+            cwd=outside, env=env, capture_output=True, text=True, check=True)
+        imported = json.loads(checked.stdout)
+        assert imported['version'] == version
+        assert Path(imported['module']).resolve().is_relative_to(installed.resolve())
+        subprocess.run([sys.executable, '-c', 'from opal.cli import main;main()', '--help'],
+                       cwd=outside, env=env, capture_output=True, text=True, check=True)
+        with zipfile.ZipFile(assets / (prefix + '-research-source.zip')) as archive:
+            archive.extractall(outside / 'source')
+        subprocess.run([sys.executable, str(outside / 'source/tools/report_trained_growth_benchmark.py'),
+                       '--source', str(ROOT / 'results/frontier-execution-20261026/growth-v3/results.json'),
+                       '--output', str(outside / 'benchmark.json')],
+                       cwd=outside, env=env, capture_output=True, text=True, check=True)
+        report = dict(status='passed', asset_hashes_verified=True, source_only=True,
+                      installed=imported, cli_help='passed', aggregate_replay='passed',
+                      model_weights_included=False, dependencies_reused=True,
+                      temporary_validation_directory=str(outside))
+        (assets.parent / (assets.name + '-validation.json')).write_text(json.dumps(report, indent=2)+'\n')
+        print(json.dumps(report, indent=2))
+        return
     with zipfile.ZipFile(assets / (prefix + '-reference-models.zip')) as archive:
         archive.extractall(outside)
     with zipfile.ZipFile(assets / (prefix + '-research-source.zip')) as archive:
