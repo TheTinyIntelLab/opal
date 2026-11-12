@@ -1,6 +1,18 @@
 # Historical scientific archive
 
-Dated research records are preserved at their original paths because frozen custody manifests and executable reproduction tools bind those paths and bytes. Their old current-status and future-work statements describe their own dates, rather than a v1 roadmap. Failed hypotheses and unfavorable scores remain part of the release evidence.
+Scientific protocols, results and files used directly by reproduction tools remain at their original paths. Superseded planning, coordination and status documents have been removed from the public folders. Failed hypotheses and unfavorable scores remain part of the release evidence.
+
+## Retired planning and coordination
+
+[development-records.zip](development-records.zip) preserves 71 historical documents under their original repository-relative names and bytes. This replaces loose copies of superseded plans, proposals, agent handoffs and status snapshots. The [retirement manifest](retired-documents.json) records each disposition and SHA-256 checksum. Eleven private planning/contact documents are backed up outside the repository and are absent from the public archive.
+
+For a historical custody audit, restore the public records into a new directory:
+
+```bash
+python tools/restore_archived_docs.py --output ../opal-historical-docs
+```
+
+The [restoration tool](../../tools/restore_archived_docs.py) verifies archive membership and every file hash before writing, and refuses to overwrite existing files. To replay an old frozen experiment, overlay the restored files onto a separate copy of its source revision. Do not reintroduce the obsolete plans into the active release checkout. Runtime-required proposals and source-attempt records remain in place so current tools continue to work.
 
 | Record | Contents and role |
 | --- | --- |
