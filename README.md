@@ -21,8 +21,6 @@
 
 <p align="center"><a href="paper/main.pdf">Read the research preprint</a></p>
 
-Opal v1.0.0 is the first research release from [The Tiny Intelligence Lab](https://github.com/TheTinyIntelLab).
-
 Opal predicts population-mean expression changes or double-CRISPRi growth from measured single perturbations and a declared set of other pair outcomes. Its strongest retained results concern missing pairs within an assay, among genes already supported by training pairs. Reliable cross-study biological generalization is not established.
 
 ## How it works
