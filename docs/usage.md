@@ -1,6 +1,6 @@
 # Prediction and model availability
 
-The GitHub source release contains the inference code and evidence, with no trained checkpoint files. Model assets are reserved for a separate Hugging Face release. No model-hosting URL is claimed before that release exists.
+The GitHub source release contains inference code and evidence. Download trained models separately from [Opal Growth](https://huggingface.co/TheTinyIntelLab/opal-growth), [Opal Norman](https://huggingface.co/TheTinyIntelLab/opal-norman) and [Opal EmeraldBay](https://huggingface.co/TheTinyIntelLab/opal-emeraldbay). Preserve each repository's file layout and check its manifest and model-specific license notices.
 
 ## Growth prediction
 
@@ -39,4 +39,4 @@ result = model.predict("TARGET_A", "TARGET_B")
 
 Replace the placeholder targets with exact supported names. Contextual checkpoints also require the registered `context` argument. Output effects use the manifest's gene order and expression scale; an unknown target, unsupported context or mismatched supplied gene order is rejected. The [historical model cards](model_cards/opal-base.md) describe the separate source-specific model-series contracts.
 
-Norman and EmeraldBay reference models have recorded CC BY 4.0 source provenance in [third-party notices](../THIRD_PARTY_NOTICES.md). The six growth models have verified local replay, with third-party reference-data distribution details recorded for the later Hugging Face release. Code availability, checkpoint availability and biological generalization are separate claims.
+Norman and EmeraldBay reference models have recorded CC BY 4.0 source provenance in [third-party notices](../THIRD_PARTY_NOTICES.md). The growth release records maintainer authorization for original Opal contributions, separate upstream reference terms and remaining source-license scope uncertainty in its [license notice](https://huggingface.co/TheTinyIntelLab/opal-growth/blob/main/LICENSE.md). Code availability, checkpoint availability and biological generalization are separate claims.

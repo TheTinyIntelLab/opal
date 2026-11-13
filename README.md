@@ -47,9 +47,9 @@ The package is named `opal-research`; its import is `opal`. Install from this ch
 
 ## Use
 
-GitHub supplies code, the paper and compact evidence. Model weights will have a separate Hugging Face release; no public v1 model URL is announced here. A package installation alone does not supply biological models or datasets.
+GitHub supplies code, the paper and compact evidence. Download trained models separately from [Opal Growth](https://huggingface.co/TheTinyIntelLab/opal-growth), [Opal Norman](https://huggingface.co/TheTinyIntelLab/opal-norman) and [Opal EmeraldBay](https://huggingface.co/TheTinyIntelLab/opal-emeraldbay). A package installation alone does not supply biological models or datasets. Each model card records its source terms and limitations.
 
-With the retained local growth bundle:
+With a downloaded growth bundle:
 
 ```python
 from opal.trained_growth import TrainedGrowth
