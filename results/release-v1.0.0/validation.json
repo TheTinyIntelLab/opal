@@ -1,0 +1,126 @@
+{
+  "version": "1.0.0",
+  "status": "passed",
+  "scope": "GitHub source release; separate Hugging Face model delivery",
+  "biological_training_runs": 0,
+  "new_biological_scores": 0,
+  "tests": {
+    "passed": 1223,
+    "skipped": 3,
+    "expected_failures": 1,
+    "failed": 0,
+    "seconds": 79.73,
+    "skips": "Pinned optional NAIAD source is unavailable",
+    "expected_failure": "Frozen v1 gzip filename/fileobj defect; successor covered",
+    "population": "All tracked release tests in explicit source snapshot; unrelated uncommitted next-phase work excluded"
+  },
+  "install": {
+    "clean_venv": true,
+    "host_dependencies_reused": false,
+    "pip_check": "passed",
+    "wheel_import_verified": true,
+    "python_modules_identical_to_tested_wheel": 107,
+    "compatibility_fixes": [
+      "scipy<1.18 for AnnData backed sparse slicing",
+      "data extra pandas<3 for AnnData string-index serialization"
+    ]
+  },
+  "engineering_checks": {
+    "cli_help": "passed",
+    "installed_quickstart": "passed",
+    "model_series_v1": "passed",
+    "model_series_v2": "passed",
+    "synthetic_assay_rehearsal": "passed",
+    "aggregate_benchmark_replay": "exact JSON match"
+  },
+  "growth_replay": {
+    "passed": true,
+    "installed_wheel": true,
+    "tasks": 6,
+    "queries": 17176,
+    "exact": true,
+    "test_targets_opened": false
+  },
+  "reference_examples": {
+    "passed": true,
+    "models": 2,
+    "orientation_atol": 1e-10
+  },
+  "paper": {
+    "compiled": true,
+    "pages": 18,
+    "visual_review": "Rebuilt PDF matches previously inspected text and layout on all 18 pages",
+    "standalone_source_compiled": true,
+    "unresolved_citations": 0,
+    "pdf_sha256": "edb6ea82dd784b5e7055859e83b846f4f75e34603cf1297175eb05227e09fb67"
+  },
+  "documentation": {
+    "active_documents": 12,
+    "active_local_links": 82,
+    "active_broken_links": 0,
+    "historical_unavailable_references": 65,
+    "historical_policy": "Historical references are restored from checksummed archives into a separate source copy",
+    "retired_loose_documents": 81,
+    "public_historical_archive_records": 71,
+    "private_records_outside_repository": 11,
+    "restoration_and_original_freeze_hashes": "passed"
+  },
+  "distribution": {
+    "github_weights": false,
+    "raw_biological_data": false,
+    "huggingface_uploaded": false,
+    "private_repository_visibility_unchanged": true,
+    "credential_pattern_findings": 0
+  },
+  "packages": [
+    {
+      "name": "opal_research-1.0.0-py3-none-any.whl",
+      "bytes": 305207,
+      "sha256": "5f05b8cc3b0faf47344f389d8a4ff912f78b88a64509c87abf98e5aeb6381042"
+    },
+    {
+      "name": "opal_research-1.0.0.tar.gz",
+      "bytes": 1637498,
+      "sha256": "ea476a32fe3c3c332f068345d6241cf0cd6347c2e9da72a77312796a6e3fa019"
+    }
+  ],
+  "nested_package_archives_checked": true,
+  "source_archive_review": "passed; source/evidence membership and per-file hashes verified, nested archives inspected",
+  "limitations": [
+    "No independent biological confirmation",
+    "The failed Jurkat and frozen external-transfer gates remain failed",
+    "Public visibility/history review and Hugging Face model release remain separate steps"
+  ],
+  "source_archive_files": 813,
+  "evidence_archive_files": 181,
+  "model_files_in_source_recipe": 0,
+  "repository_layout": {
+    "status": "passed",
+    "historical_records_consolidated": 3992,
+    "history_archive_sha256": "d549cb0e05e7d0756c57e70c3fe36064e733de7ea32bc0421bd5f810334498d2",
+    "biological_data_in_checkout": false,
+    "biological_checkpoints_in_checkout": false,
+    "local_builds_in_checkout": false,
+    "unfinished_research_in_checkout": false,
+    "original_file_bytes_preserved": true,
+    "synthetic_engineering_states_archived": 150,
+    "tests": {
+      "passed": 1223,
+      "skipped": 3,
+      "expected_failures": 1,
+      "failed": 0,
+      "seconds": 79.73
+    },
+    "frozen_dependencies_verified": 35,
+    "active_documents": 12,
+    "active_links_checked": 82,
+    "active_broken_links": 0
+  },
+  "package_build_revision": "0c083bae8e4a898b5806c9c169d85a93229479c9",
+  "documentation_revision_checks": {
+    "packaging_archive_and_custody_tests_passed": 9,
+    "active_documents": 12,
+    "active_links_checked": 82,
+    "broken_links": 0
+  }
+}

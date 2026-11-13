@@ -200,3 +200,8 @@ results/research-reset-naiad-qualification/**/synthetic_model/
 # Wave-three numerical states and full design assignments remain local.
 results/research-wave3-*/**/*.npz
 results/research-wave3-*/**/*.tsv
+
+# Private operational cleanup records; published release notes stay tracked.
+/RELEASE_CLEANUP_PLAN.md
+/RELEASE_DELETIONS.json
+/OPAL_REPOSITORY_AUDIT.md

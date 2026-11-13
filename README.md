@@ -6,258 +6,101 @@
 
 <div align="center">
   <a href="https://thetinyintelligencelab.vercel.app/"><img src="images/lab_badge.svg" alt="The Tiny Intelligence Lab" /></a>
-  <img src="images/status_badge.svg" alt="Private GitHub release" />
-  <a href="paper/main.pdf"><img src="images/paper_badge.svg" alt="Updated research preprint draft" /></a>
+  <img src="images/status_badge.svg" alt="Version 1.0.0" />
+  <a href="paper/main.pdf"><img src="images/paper_badge.svg" alt="Research preprint draft" /></a>
   <a href="LICENSE"><img src="images/license_badge.svg" alt="Code license: MIT" /></a>
 </div>
 
 <p align="center">
-  <a href="#2-model-downloads">Models</a> &middot;
-  <a href="#3-evaluation-results">Evaluation</a> &middot;
-  <a href="#5-quick-start">Quick start</a> &middot;
-  <a href="#8-license">License</a> &middot;
-  <a href="#9-citation">Citation</a>
+  <a href="#use">Models</a> &middot;
+  <a href="#results">Evaluation</a> &middot;
+  <a href="#install">Quick start</a> &middot;
+  <a href="#license">License</a> &middot;
+  <a href="#citation">Citation</a>
 </p>
 
-<p align="center"><a href="paper/main.pdf">Read the updated preprint draft</a></p>
+<p align="center"><a href="paper/main.pdf">Read the research preprint</a></p>
 
-Opal is The Tiny Intelligence Lab's research codebase for predicting biological responses to intervention pairs. The current **0.1.3.dev0 research snapshot** includes a trained double-CRISPRi growth predictor for K562 and Jurkat, alongside the preserved expression models and evaluation framework. The private 0.1.2 release is historical; the updated paper covers expression, growth, external validation and the later exploratory diagnostics.
+Opal v1.0.0 is the first research release from [The Tiny Intelligence Lab](https://github.com/TheTinyIntelLab).
 
-The growth predictor improves on calibrated main effects within its training screen, and a later exploratory cross-infection test retains some pair-aligned signal. **Its frozen predictions still failed external superiority testing**. The [research reset](docs/research_reset/summary.md), [forward plan](plan.md) and [external results](results/fitness-external-20261020/) record that limit. Opal now targets assay-conditioned pair prediction with measured singles and an explicit local pair-training budget. No frontier-performance or independently validated transfer claim is established.
+Opal predicts population-mean expression changes or double-CRISPRi growth from measured single perturbations and a declared set of other pair outcomes. Its strongest retained results concern missing pairs within an assay, among genes already supported by training pairs. Reliable cross-study biological generalization is not established.
 
-## 1. Introduction
+## How it works
 
-Opal studies what measured single perturbations and other observed pairs can tell us about an unmeasured combination. Its expression models predict population-mean responses from matched singles and controls using an additive reference plus a symmetric correction:
+Expression models add a fitted symmetric correction to measured single effects. The code includes neural, regression and residual-kernel comparisons. Growth models combine a calibrated single/main-effect reference with a symmetric learned gene-pair residual matrix. Historical "rank 8" refers to factor width: that signed symmetric operator has algebraic rank at most 16, rather than a verified biological dimension.
 
-```text
-predicted pair effect = measured effect A + measured effect B + correction(A, B)
-correction(A, B) = correction(B, A)
-```
+<img src="images/opal_overview.svg" alt="Measured singles feed an additive reference and a symmetric residual correction." width="100%">
 
-<img src="images/opal_overview.svg" alt="Measured singles feed an additive reference and a symmetric residual correction, producing a population-mean pair prediction." width="100%" />
+Models require source-specific controls, endpoint definitions, gene order and information-access contracts. Growth lookup factors do not support arbitrary unseen genes, and good growth prediction does not establish good expression prediction or a causal interaction.
 
-The newer growth model predicts measured double-CRISPRi gamma using observed single growth, a calibrated gene-main-effect reference and symmetric low-rank residual completion. Gamma is control-centered log2 enrichment per population doubling. This functional endpoint has much denser pair supervision than the expression experiments; success on growth does not establish improved expression prediction.
+## Install
 
-The codebase retains neural heads, regression, residual kernels and explicit simple references. Model selection follows matched information access and locked evaluations. [Earlier scientific and engineering work](docs/engineering_record_20261015.md) remains preserved, while [plan.md](plan.md) is the sole authoritative forward plan.
+Use Python 3.11–3.14. From this repository:
 
-This is independent research by **Arjun Vijay Prakash** at [The Tiny Intelligence Lab](https://thetinyintelligencelab.vercel.app/). AI assistance and author responsibility are disclosed in the manuscript.
-
-## 2. Model downloads
-
-The current growth assets remain local under the source-data terms; they are not included in the package or offered as a new public download. The historical private 0.1.2 release and its reference models remain unchanged.
-
-The [trained growth delivery](docs/model_delivery/trained_growth.md) provides a named-gene API and lossless local bundles for all six source-local tournament tasks. Its fixed fold-0 models retain their original validation selection. A separately registered [training reproduction](docs/model_delivery/training_reproduction.md) reruns the unchanged recipe and checks exact states and predictions. The [benchmark ledger](results/model-delivery-20261027/benchmark.json) retains every registered comparator and the failed all-task gate; its pooled five-fold scores are not scores of a single exported checkpoint.
-
-| Model | Inputs and output | Evidence and availability |
-| --- | --- | --- |
-| Growth completion, K562 / Jurkat | Supported gene identities, original measured singles and other training pairs; predicts double-CRISPRi gamma | Retained independent-context models; within-source gains, failed K562 external superiority; local assets |
-| Hierarchical expression composition | Matched single-expression effects; predicts population-mean double effects | Closed failed hypothesis against matched affine/kernel references; local assets |
-| Norman residual kernel | Registered K562 single-effect profiles; fixed-gene population-mean pair effect | Historical exploratory reference; private release |
-| EmeraldBay contextual kernel | Exact-dose singles and controls in supported contexts | Historical chemical pilot; independent D-SPIN superiority gate failed; private release |
-
-Growth inference combines the original observed-single/main-effect reference with the validation-selected completion checkpoint. It refuses unknown genes, genes without training support, identical-gene pairs and untrained contexts. It does not return calibrated biological prediction intervals.
-
-The [historical model guide](docs/models.md), [first model series](docs/next_cycle/opal_model_series.md) and [second model series](docs/next_cycle/opal_model_series_v2.md) document the earlier APIs and checkpoints. Evaluation weights and all-development deployment refits have separate roles; later refits do not acquire new evaluation scores. Raw data, restricted weights and external embedding banks are excluded from Git and distributions.
-
-## 3. Evaluation results
-
-### Measured-growth pair completion
-
-The Horlbeck screen supplies 81,466 eligible canonical pairs in both K562 and Jurkat. A locked canonical-pair split assigns 48,879 to training, 16,293 to validation and 16,294 to test, keeping every guide variant and orientation with its pair. Every query gene has training-pair support.
-
-| Growth context | Calibrated main-effect MSE | Retained independent completion MSE | Joint shared/private MSE |
-| --- | ---: | ---: | ---: |
-| K562 | 0.00187049 | 0.00137593 | 0.00136626 |
-| Jurkat | 0.00050049 | 0.00042630 | 0.00045576 |
-
-Independent completion improves on main effects by **26.44% in K562 and 14.82% in Jurkat**. The joint shared/private candidate fails its stronger-reference promotion rule, so independent completion is retained. These are within-source missing-pair results among supported genes, not unseen-gene or independent-screen confirmation. [Frozen results and selections](results/fitness-20261020/) preserve every baseline and the failed sharing hypothesis.
-
-### Independent K562 source transfer
-
-The existing predictor was frozen before scoring untreated/DMSO growth from two external studies, comprising four cohorts with two infection replicates each. Bank-novel pairs are absent from the original eligible fitting bank, not necessarily from the raw screen. A later audit finds that all 509 unique pairs across these panels occur in the raw table but fail the original joint-context coverage rule. Training, validation and original-test overlaps are reported separately.
-
-| External cohort | Bank-novel pairs | Completion MSE | Frozen main-effect MSE | Original-single minimum MSE |
-| --- | ---: | ---: | ---: | ---: |
-| Environmental 1 | 130 | 0.0710602 | 0.0695619 | 0.0358322 |
-| Environmental 2 | 130 | 0.0504016 | 0.0493793 | 0.0255072 |
-| PARPi 2022 | 423 | 0.1060987 | 0.1048554 | 0.0670913 |
-| PARPi 2023 | 411 | 0.1067118 | 0.1055719 | 0.0672618 |
-
-**FAILED HYPOTHESIS for unchanged-model external superiority.** Completion has 1.08-2.15% higher MSE than frozen main effects; conditional gene-resampling intervals include zero, and original-single minimum performs better in every cohort. No retraining or external calibration occurred. These studies share laboratory lineage, so they do not establish independent-laboratory validation.
-
-External measured singles give much stronger simple predictions than the original singles, consistent with substantial assay/reagent shift. The panels also concentrate on a sparse block of the original gene-pair graph, so source shift and support shift are confounded. These are explanatory diagnostics, not an adapted Opal result or proof of a single failure mechanism. [The full report](docs/model_development_20261020.md#independent-external-reference-growth-validation) records source rights, endpoint compatibility, coverage filtering, replication, uncertainty and failure diagnosis; [the locked protocol and outputs](results/fitness-external-20261020/) preserve the evidence.
-
-### What the latest diagnostics establish
-
-A fixed exploratory cross-infection test fits and selects on one original infection, then scores the same 16,294 held-out pairs on the other. Aligned rank-8 completion reduces MSE over source-validation-selected gene main effects by **4.19% and 8.12% in K562**, and **3.64% and 3.16% in Jurkat**, across the two directions. Every aligned fit beats its shuffled-residual control, but a calibrated-single baseline slightly outperforms one Jurkat fit. This supports some within-study pair-associated information, not superiority to every simple comparator or independent confirmation. The two directions reuse the same pairs, guides and study.
-
-The graph audit adds a separate limit. Completion still helps on ordinary held pairs involving low-degree genes, but only four original test pairs have both endpoints in the 37-gene union of external bank-novel genes. Random-pair success therefore does not establish prediction across the external missing block. The four external panels contain 509 unique pairs, not 1,094 independent observations.
-
-A same-pair residual-transfer diagnostic also finds repeatable information between external cohorts, but it supplies a measured source response for the very pair being predicted. That is a different information contract from unseen-pair completion. Reusing exposed cohorts for these diagnostics cannot turn them into untouched confirmation.
-
-A fixed reference-replacement check rejects a simple rescue: adding the unchanged old correction to assay-local minimum singles raises PARPi MSE by **23.91% and 25.80%**, while the two environmental gains have conditional intervals crossing zero. Better local singles therefore do not establish that the old residual transports. No correction weight was tuned.
-
-The scientific interpretation is that **some pair-aligned predictive signal survives within-study infection changes, while reliable cross-study unseen-pair prediction remains unestablished**. Jointly validated assay-local references and residuals, with graph-matched evaluation, are the next falsifiable requirements; neither a larger architecture nor a post-result rescue is justified by these results. The [updated paper](paper/main.pdf) and its [source-bound aggregate evidence](paper/evidence/model_development_20261020.json) preserve the exact scores, comparator exception, conditional uncertainty and exposure limits.
-
-### Locally supervised missing-block development
-
-A later preregistered experiment withheld complete within-gene-fold pair blocks in six already exposed growth tasks. Fixed rank-eight completion reduced MSE by **13.3-35.9%** against validation-selected calibrated/simple references, passed both infection-target checks, and beat all three stratified residual-label controls in every task. Exact prediction and scientific-JSON replay passed, with an independent arithmetic audit. This is local learning with measured singles and substantial source-local pair supervision among training-supported genes. It does not reverse the failed frozen-weight external result or establish untouched-source confirmation. The [exact results](docs/research_reset/block_results.md), [independent review](docs/research_reset/block_independent_review.md) and [plan](plan.md) define the limits. The completed fixed native NAIAD comparator beats the simple policy in all six tasks, but has lower MSE than completion only on PARPi 2022. The validation-family selector chooses completion in 27 folds and native in three, with small improvements in two tasks. [Native results](docs/research_reset/native_results.md) preserve this mixed outcome; neither method is promoted as a frontier model. The completed reagent and flexible-single diagnostics below constrain two explanations, but do not identify molecular interactions.
-
-### Guide matching and nonlinear-single diagnostics
-
-Exact-guide/arm matching retains every original pair and infection target. Applying minimum before guide aggregation improves that simple baseline, but remains worse than calibrated/node references. A separately frozen 64-center nonlinear-single comparison also leaves a completion advantage in all six development tasks, including against the version with additive gene effects. [Guide diagnostics](docs/research_reset/reagent_gamma_results.md) and [flexible-single results](docs/research_reset/flexible_singles_results.md) record the controls and independent replays. These results narrow two explanations for local prediction while leaving technical pair effects and biological mechanism unresolved.
-
-The frozen pair-label-budget test nominates neither 5,000 nor 20,000 labels per fitted model. All tasks retain full test coverage, but the 20,000-label policy misses the required 5% gain in original K562 and Jurkat; only four later cohorts pass. The 5,000-label policy passes none. [Budget results](docs/research_reset/label_budget_results.md) preserve this negative result: dense local completion remains a development ceiling, with no established low-label or physical assay-savings capability.
-
-A guide/arm polynomial nuisance reference leaves completion gains of 27.74% in K562 and 12.62% in Jurkat on the exposed original blocks, but it omitted the stronger nonlinear-single reference. That stronger comparison stopped twice before completion fitting or test scoring. Wave four reproduced the exact numerical mismatch and localized it to batch-dependent kernel-whitener multiplication, amplified by small saved feature scales. Wave Five reproduced both historical failures and tested batching, ordering, layouts, contractions, precision and threads without fitting. No candidate passed both legacy compatibility and batch invariance. A separately versioned fixed-order float64 predictor passed the registered invariance controls but differs from legacy by `4.660858310412408e-08`, so the strongest-reference scientific question remains unanswered. [Wave-four closeout](docs/research_reset/wave4_closeout.md) preserves the diagnosis; [Wave-five closeout](docs/research_reset/wave5_closeout.md) records the broader experiments, opt-in prediction/evaluation contracts and source decisions. SPIDR and Shen 2017 remain unqualified, with their response tables and headers unopened. No biological interaction or independent confirmation is established.
-
-
-The [Wave Five completion audit](docs/research_reset/wave5_completion/closeout.md) adds nine synthetic numerical stress cells and explicit metadata-policy tests. Caller invariance survives these controls, but exact arithmetic counterexamples still show that determinism does not establish accuracy. Optional `opal.evaluation_precision.metrics_v3` and `strict_load_completion_v3` refuse IEEE underflow that can silently erase nonzero loss or checkpoint entries under v2. They preserve accepted v2 replay and do not change historical scores or source-access restrictions.
-
-A [licensed COLO1 native annotation audit](docs/research_reset/continuation/colo1_native_metadata_results_v5.md) verifies 78,920 unique construct IDs and consistent opaque guide-label-to-target-label assignments. These descriptive checks do not establish sequence identity, sample/initiation provenance or response eligibility; COLO1 remains unqualified for response ingestion.
-
-A later [30-cell synthetic replication experiment](docs/research_reset/continuation/replication_results_v1.md) recovers persistent low-rank pair structure across simulated initiations, with 88.07%-91.33% lower MSE in three noisy cases against its fixed reference menu. Persistent technical structure produces identical success, while additive noise, unpredictable edges and redrawn technical effects expose failures. This is software and experimental-design evidence, with no new biological scoring or promotion.
-
-### Frontier architecture tournament
-
-A separately registered synthetic tournament now compares strong single-effect references, completion, an identity/single pair kernel and a small symmetric composition network under identical label budgets. All96 cells and192 procedures ran, with6,912 candidate instances including fixed references,5,376 exact checkpoint replays and32,256 independently recomputed MSE values. Completion works well on persistent low-rank structure, while the network wins on structured partner curves at the larger budget; low-label neural performance and technical-shift transfer expose substantial failures. The [full results](docs/frontier_execution/synthetic_results.md) retain every fixed reference and negative control. These are synthetic recovery results, with no new biological validation or promotion.
-
-The [new research API](docs/frontier_execution/model.md) keeps historical contracts unchanged. The completed [six-task exposed-growth tournament](docs/frontier_execution/growth_results.md) selected completion in all30 folds, with MSE gains of5.80%,4.11%,25.14%,28.75%,17.56% and13.95% over validation-selected simple references. The all-task promotion gate **failed** because Jurkat missed5%; the kernel and small composition network did not beat completion. All840 saved checkpoints replayed exactly from an external installed package. These are source-local fits on already exposed cohorts, not independent biological confirmation. Both failed storage qualifications remain preserved; reversible packing qualified under unchanged caps. COLO1 remains unqualified after its documented mapping-archive route returned403 without a body read.
-
-### Closed expression candidate
-
-Hierarchical gene-local composition loses to inner-selected affine or kernel references on both sources and holdout protocols. The candidate is closed; adding capacity without compatible new pair evidence is not justified.
-
-| Development source | Holdout | Composition MSE | Selected baseline MSE |
-| --- | --- | ---: | ---: |
-| Norman, 88 fitting pairs | Pair | 0.006213 | 0.006089 |
-| Norman, 88 fitting pairs | Partner | 0.006343 | 0.006322 |
-| Wessels, 110 fitting pairs | Pair | 0.008510 | 0.007115 |
-| Wessels, 110 fitting pairs | Partner | 0.009281 | 0.009195 |
-
-These are development folds on previously exposed sources, separate from the historical primary comparison below. [Composition results](results/composition-20261020/) retain the protocol, negative result and reproducibility records.
-
-### Historical primary expression results
-
-| Dataset | Held pairs | Additive MSE | Selected neural MSE | Selected simple-reference MSE |
-| --- | ---: | ---: | ---: | ---: |
-| Norman | 38 | 0.008515040 | 0.007169187 | 0.007268184, reduced-rank |
-| Wessels | 18 | 0.013936912 | 0.005423558 | 0.004214949, global correction |
-
-<img src="images/opal_results.svg" alt="Historical expression additive comparisons and the separate D-SPIN transfer test, normalized within each evaluation population." width="100%" />
-
-The Norman advantage over its selected reference is inconclusive, and Wessels favors the simpler global correction. The figure and table describe earlier expression experiments, not the new growth model. [The evidence guide](docs/evidence.md), [closed engineering record](docs/engineering_record_20261015.md) and [manuscript draft](paper/main.pdf) preserve the broader neural, kernel, dose, state and transfer comparisons. Scores across different endpoints and populations are not directly comparable.
-
-## 4. Training and reproduction details
-
-Current runs freeze source hashes, canonical-pair assignments, model selection and evaluation code before scoring. Training-only scalers and references prevent held-pair outcomes from entering fitting; validation selects configurations and checkpoints before the final test. External validation freezes existing assets and predictions without fitting to external outcomes.
-
-The finite growth study took 18.72 seconds with one CPU worker and about 916 MiB peak working set. External preparation took 23.98 seconds; scoring took 0.57 seconds and about 246 MiB peak working set. The delivered code passed 410 tests, wheel/sdist builds, installed-wheel prediction replay and documentation checks. These verify computation, not biological usefulness.
-
-After acquiring the hash-matched official source, a new registered growth run uses:
-
-```sh
-python tools/prepare_fitness.py --source /path/to/GSE116198_sgRNA_pair_phenotypes.txt.gz --output /path/to/new-prepared
-python tools/study_fitness.py freeze --data /path/to/new-prepared --output /path/to/new-run
-python tools/study_fitness.py run --output /path/to/new-run
-python tools/export_fitness.py --run /path/to/new-run --output /path/to/new-model
-```
-
-No repeat run is required to use existing assets. [Acquisition and preparation receipts](results/fitness-20261020/) identify source bytes and terms; [the report](docs/model_development_20261020.md#independent-external-reference-growth-validation) includes external-evaluation commands. Earlier expression reproduction remains in [the reproduction guide](docs/reproduction.md). Source-specific data downloads and optional dependencies are required; biological studies are not installation checks.
-
-## 5. Quick start
-
-### Installation
-
-Use Python 3.11 through 3.14. From this checkout:
-
-```powershell
+```bash
 python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install --upgrade pip
-.\.venv\Scripts\python.exe -m pip install -e ".[dev]"
-.\.venv\Scripts\opal.exe --help
+# Activate the environment for your shell, then:
+python -m pip install ".[data,dev]"
+python -c "import opal; print(opal.__version__)"
+opal --help
 ```
 
-On Linux/macOS, use `.venv/bin/python` and `.venv/bin/opal`. The package's normal installation includes PyTorch and other declared dependencies; its download size isn't the size of the fitted kernel head.
+The package is named `opal-research`; its import is `opal`. Install from this checkout; no v1 PyPI publication is implied. [Installation](docs/installation.md) covers CPU Torch and the recorded numerical environment.
 
-### Synthetic execution check
+## Use
 
-```powershell
-.\.venv\Scripts\opal.exe reproduce --config configs/experiments/release_quickstart.json --output results/synthetic/my-quickstart
-.\.venv\Scripts\python.exe -m pytest -q
-```
+GitHub supplies code, the paper and compact evidence. Model weights will have a separate Hugging Face release; no public v1 model URL is announced here. A package installation alone does not supply biological models or datasets.
 
-This runs two small synthetic scenarios and the software checks. It doesn't establish biological accuracy. Use a new output directory for each run; existing evidence isn't overwritten. `main.py` without arguments starts a much larger research workflow.
-
-### Growth inference
-
-With the retained local asset directory available:
+With the retained local growth bundle:
 
 ```python
-from opal.models.fitness_inference import FitnessPredictor
+from opal.trained_growth import TrainedGrowth
 
-model = FitnessPredictor("C:/Users/USER/Desktop/opal-next-data-20261020/fitness-reference-model")
-growth = model.predict([("AARS2", "AATF")], context="K562")
+bundle = TrainedGrowth.load(
+    "path/to/trained-growth",
+    expected_manifest_sha256="fa8490abe83e5a5d0d0f8456639d11df16a2a6ca3ed440fb40bfd74459488e72",
+)
+model = bundle.model("horlbeck_K562")
+genes = [g for g, ok in zip(model.gene_names(), model.support()) if ok]
+print(bundle.predict("horlbeck_K562", [(genes[0], genes[1])], context="K562"))
 ```
 
-Use the exact source-assay contract and supported genes. External superiority failed, so these predictions do not establish transferable biological accuracy.
+That hash identifies the retained October 27 bundle. Unknown or unsupported genes, self-pairs and incorrect contexts produce explicit abstentions. Calibrated per-query uncertainty is unavailable. [Prediction and model availability](docs/usage.md) describes expression inference and the full contracts.
 
-### Historical expression-reference inference
+## Results
 
-Extract the reference-model ZIP from the historical private release, then:
+The latest retained benchmark pools five disjoint held-out blocks per task, with 16,000 training and 4,000 validation pair labels per fitted procedure. Test genes have training support. Scores describe the procedure, not the single exported fold-0 checkpoint.
 
-```python
-from opal import load_model
+| Growth task | Selected simple MSE | Completion MSE | MSE reduction |
+| --- | ---: | ---: | ---: |
+| K562 | 0.00190091929 | 0.00179069074 | 5.80% |
+| Jurkat | 0.000507630148 | 0.000486775245 | 4.11% |
+| Environmental 1 | 0.000551581712 | 0.000412898098 | 25.14% |
+| Environmental 2 | 0.000727352832 | 0.000518265563 | 28.75% |
+| PARPi 2022 | 0.000308097243 | 0.000254004302 | 17.56% |
+| PARPi 2023 | 0.000302940513 | 0.000260679297 | 13.95% |
 
-model = load_model("models/norman-kernel")
-prediction = model.predict("AHR", "KLF1")
-effect, genes = prediction["effect"], prediction["genes"]
-```
+**The all-task promotion criterion failed:** Jurkat did not reach the registered 5% threshold. Earlier frozen-weight K562 transfer also failed on four external cohorts, with 1.08–2.15% higher MSE than frozen main effects. Later local fitting on exposed sources does not reverse that result. [Research findings](docs/research.md) links the original ledgers and relevant negative experiments.
 
-The output follows the manifest's fixed gene order and effect scale. EmeraldBay uses `model.predict(a, b, context=context)` with registered contexts and both measured singles available. Check support metadata before interpreting a query.
+## Limitations
 
-## 6. FAQ
+Opal does not establish biological discovery, causal understanding, frontier-level superiority, reliable independent-study transfer or calibrated biological prediction intervals. Pair supervision is substantial, technical pair effects remain confounded with biological interactions, and folds/cohorts are not independent biological replications. Restricted data and historical numerical assets limit what a public checkout can reproduce.
 
-**Why is the package called `opal-research`, but imports use `opal`?** Distribution names and Python import names serve different purposes. Setuptools maps `src/` to the installed `opal` package.
+## Documentation and repository
 
-**Which model is retained?** Independent-context growth completion is retained for the original K562/Jurkat assay. Its within-source gains survive the locked test; its unchanged K562 external-superiority hypothesis fails. The shared/private growth candidate and hierarchical expression-composition candidate are closed.
+- [Documentation index](docs/README.md): installation, API, findings, reproduction and archived evidence.
+- [Paper](paper/main.pdf) and [LaTeX source](paper/main.tex): methods, results and limitations.
+- [Reproducibility](docs/reproduction.md): public checks and licensed local replay.
+- [Release notes](RELEASE_NOTES.md): capabilities, research findings and limitations.
+- `src/`, `tests/`, `configs/` and `tools/`: implementation, tests, frozen configurations and utilities.
+- `results/` and [data registries](data/README.md): compact evidence and provenance.
 
-**What does the 0.1.2 release contain?** Historical code, comparative evidence and kernel references in a private GitHub release. The current source is 0.1.3.dev0; the new local growth assets are not part of that release. The updated preprint now reports the growth experiments and exploratory diagnostics separately from the preserved historical expression studies.
+Current ledgers and runtime-required contracts stay in the active tree. Older protocols, negative findings and computational records are consolidated in [verified archives](docs/archive/README.md), with original paths and hashes available for restoration. Local builds, model banks and unfinished research are kept outside the checkout.
 
-**Does the model learn biological interactions?** The evidence does not establish transferable mechanistic interaction recovery. Residuals contain measurement error and shared distortion as well as potential pair-specific effects, so comparison with strong simple references remains essential.
+## License
 
-**Can it predict new genes or arbitrary contexts?** The growth model requires genes supported by original pair training and one of its trained contexts. Earlier missing-single/state experiments do not establish general-purpose transfer.
+Original Opal code is [MIT licensed](LICENSE). Source data and external/model-derived assets have separate terms in [third-party notices](THIRD_PARTY_NOTICES.md). GitHub excludes raw biological data, trained checkpoints, private correspondence and local plans.
 
-## 7. Limitations
+## Citation
 
-Within-source pair completion is easier than transfer across screens. Guide choice, effective knockdown, growth window, normalization and depletion floors can change the response even in K562. The external studies show substantial source mismatch and graph-support shift; the matched-guide subset is too small to establish bank-novel transfer. Positive cross-infection development and same-pair residual reuse do not overturn the frozen external failure. Shared laboratory lineage also limits claims of biological independence.
-
-The expression banks have limited pair supervision, repeated splits share data, and several context-transfer and uncertainty hypotheses failed. Conditional pair/gene intervals are not biological prediction intervals. Passing tests, exact replay and safe exports do not establish mechanisms, clinical usefulness or frontier performance.
-
-Raw data and model assets remain local under source-specific terms. The Horlbeck author dataset is CC BY 4.0, but exact identity with the acquired GEO mirror remains unverified. Opal's code license does not resolve external dataset rights.
-
-## 8. License
-
-Original Opal code is [MIT](LICENSE). Dataset-derived Norman and EmeraldBay reference content retains CC BY 4.0 terms; [third-party notices](THIRD_PARTY_NOTICES.md) document attribution and exclusions. Template provenance and permission are recorded in the third-party notices. An Opal code license doesn't relicense external sources or pretrained resources.
-
-## 9. Citation
-
-The preprint hasn't been submitted to arXiv. Until an identifier exists, don't cite a fabricated arXiv number or describe it as peer reviewed. The following citation identifies the current development snapshot:
-
-```bibtex
-@software{prakash_opal_2026,
-  author = {Prakash, Arjun Vijay},
-  title = {Opal: observed-single combinatorial response prediction},
-  year = {2026},
-  version = {0.1.3.dev0},
-  url = {https://github.com/TheTinyIntelLab/opal}
-}
-```
-
-[CITATION.cff](CITATION.cff) supplies structured software metadata. Add the actual arXiv identifier and archival DOI only after they're assigned.
-
-## 10. Contact
-
-Read [The Tiny Intelligence Lab](https://thetinyintelligencelab.vercel.app/) for project updates. Once the repository is public, use [GitHub issues](https://github.com/TheTinyIntelLab/opal/issues) for reproducible code or evidence problems.
-
-The [full-plan completion audit](docs/frontier_execution/plan_completion_audit.md) separates completed modeling from remaining source blockers. Follow-up work adds guide/arm and held-gene prerequisite guards, source-free arithmetic checks, exact-item/custody inventories and a passing isolated historical budget replay. These checks leave COLO1 unqualified and the all-task biological promotion gate failed.
+Use [CITATION.cff](CITATION.cff) to cite Opal, and cite the source studies for the data you use. Arjun Vijay Prakash is responsible for the research and final text; the manuscript discloses AI assistance. No public DOI or arXiv identifier is claimed.

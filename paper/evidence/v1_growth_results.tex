@@ -1,0 +1,12 @@
+\begin{table}[htbp]\centering\small
+\begin{tabular}{lrrrr}\toprule
+Task & Test pairs & Simple MSE & Completion MSE & Gain\\\midrule
+K562 & 16,210 & 0.00190091929 & 0.00179069074 & 5.80\%\\
+Jurkat & 16,210 & 0.000507630148 & 0.000486775245 & 4.11\%\\
+Environmental 1 & 9,833 & 0.000551581712 & 0.000412898098 & 25.14\%\\
+Environmental 2 & 9,833 & 0.000727352832 & 0.000518265563 & 28.75\%\\
+PARPi 2022 & 29,016 & 0.000308097243 & 0.000254004302 & 17.56\%\\
+PARPi 2023 & 28,651 & 0.000302940513 & 0.000260679297 & 13.95\%\\
+\bottomrule\end{tabular}
+\caption{Six-task assay-local development, pooled over five disjoint test blocks. Coverage is 100\% on each registered population. Gains compare the selected policy to validation-selected simple references. Jurkat fails the unchanged 5\% all-task criterion. Scores are not measurements of a single exported fold-0 checkpoint.}
+\label{tab:v1-growth}\end{table}

@@ -27,3 +27,21 @@ def test_evidence_keeps_negative_reports_but_excludes_banks():
                  'results/state/resume/optimizer.pt', 'results/next/demo-v1/summary.json',
                  '../results/test.json', 'results/PLAN.md', 'results/raw/summary.json','results/measurements.csv']:
         assert not module.allowed_evidence(name), name
+
+
+def test_v1_keeps_weights_separate_from_source_release():
+    import json
+    root = Path(__file__).parents[1]
+    recipe = json.loads((root / 'configs/releases/v1.0.0.json').read_text())
+    assert recipe['version'] == '1.0.0' and recipe['models'] == {}
+    for name in ['RELEASE_CLEANUP_PLAN.md', 'RELEASE_DELETIONS.json', 'OPAL_REPOSITORY_AUDIT.md',
+                 'src/checkpoint.npz', 'paper/model.pt', 'results/growth/checkpoint.npz']:
+        assert not module.allowed_source(name), name
+        assert not module.allowed_evidence(name), name
+    assert module.allowed_source('docs/archive/pre-v1-documentation.zip')
+    assert module.allowed_source('docs/archive/development-records.zip')
+    assert module.allowed_evidence('docs/archive/development-records.zip')
+    assert module.allowed_evidence('docs/archive/retired-documents.json')
+    assert module.allowed_source('docs/archive/research-records.zip')
+    assert module.allowed_evidence('docs/archive/research-records.json')
+    assert not module.allowed_source('docs/archive/unreviewed-models.zip')

@@ -1,4 +1,4 @@
-include README.md LICENSE CITATION.cff CHANGELOG.md THIRD_PARTY_NOTICES.md
+include README.md LICENSE CITATION.cff CHANGELOG.md THIRD_PARTY_NOTICES.md RELEASE_NOTES.md
 recursive-include src *.py
 recursive-include configs *.json *.yaml *.yml
 recursive-include docs *.md
@@ -24,3 +24,7 @@ global-exclude [cC][oO][nN][tT][eE][xX][tT].[mM][dD] [rR][oO][aA][dD][mM][aA][pP
 recursive-include .github *.yml
 prune docs/frontier/historical
 exclude docs/frontier/outreach_register.json
+
+recursive-include docs/archive *.json *.zip
+exclude docs/archive/research-records.zip
+exclude docs/archive/research-records.json

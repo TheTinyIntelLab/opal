@@ -1,4 +1,0 @@
-{
-  "reason": "Full-suite synthetic lifecycle tests inherited the process peak from earlier ML tests and exceeded the standalone 256MiB guard. Fix only synthetic memory emulation; add explicit cap tests. Scientific code/config unchanged. Preserve completed v1 identity results and replay; re-register v2 before rerun.",
-  "old_tests_sha256": "a9380e8e7bcbe888fc3d8b4072133126ad8ab3c5d0dfa43ec63509cd38f6aa80"
-}

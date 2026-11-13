@@ -1,7 +1,8 @@
 """Package frozen research assets without refitting or accessing evaluator outcomes.
 
-Run after committing the release files. Models are local, separately licensed
-exports; source/evidence paths come from the Git index, never a workspace glob.
+Run after committing the release files. Source/evidence membership comes from
+the Git index. The v1 GitHub recipe excludes weights; historical model recipes
+retain their separately licensed exports for reproducibility.
 """
 import argparse
 import hashlib
@@ -41,16 +42,17 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--dist', type=Path, default=ROOT / 'dist')
-    p.add_argument('--config', type=Path, default=ROOT / 'configs/releases/v0.1.2.json')
+    p.add_argument('--config', type=Path, default=ROOT / 'configs/releases/v1.0.0.json')
+    p.add_argument('--arxiv-source', type=Path, help='Standalone TeX bundle stored outside the checkout')
     p.add_argument('--allow-dirty', action='store_true', help='Local validation only; never upload these assets')
     args = p.parse_args()
     dirty = subprocess.check_output(['git', 'status', '--porcelain'], cwd=ROOT, text=True).strip()
     if dirty and not args.allow_dirty:
         raise ValueError('Commit release inputs before creating final assets')
     args.output.mkdir(parents=True, exist_ok=False)
-    command = ['git', 'ls-files', '-z']
-    if args.allow_dirty:
-        command += ['--cached', '--others', '--exclude-standard']
+    # Even local review builds must not collect unrelated untracked research.
+    # Stage the intended release files explicitly before packaging.
+    command = ['git', 'ls-files', '--cached', '-z']
     tracked = set(subprocess.check_output(command, cwd=ROOT).decode().split('\0'))
     source = {n: ROOT / n for n in tracked if n and (ROOT / n).is_file() and allowed_source(n)}
     evidence = {n: ROOT / n for n in tracked if n and (ROOT / n).is_file() and allowed_evidence(n)}
@@ -62,12 +64,18 @@ def main():
     if config['version']!=project['version'] or config['tag']!='v'+config['version']:
         raise ValueError('Release recipe/package/tag version mismatch')
     prefix = 'opal-' + config['version']
-    models = {n: ROOT / n for n in ['LICENSE', 'THIRD_PARTY_NOTICES.md', 'docs/models.md']}
+    models = ({n: ROOT / n for n in ['LICENSE', 'THIRD_PARTY_NOTICES.md', 'docs/models.md']}
+              if config['models'] else {})
     for label, directory in config['models'].items():
         if not safe_archive_name(label) or '/' in label:raise ValueError('Unsafe model label')
         directory = (ROOT / directory).resolve()
         if not directory.is_relative_to(ROOT):raise ValueError('Model directory escapes repository')
         manifest = json.loads((directory / 'manifest.json').read_text())
+        expected = config.get('model_manifest_sha256', {}).get(label)
+        if config['version'] == '1.0.0' and expected is None:
+            raise ValueError('v1 model requires a reviewed manifest hash')
+        if expected is not None and digest(directory / 'manifest.json') != expected:
+            raise ValueError('Reviewed model manifest hash mismatch')
         files = {'manifest.json', *manifest['files']}
         for name in files:
             if not safe_archive_name(name) or Path(name).name != name or Path(name).suffix not in {'.npz', '.json'}:
@@ -81,11 +89,12 @@ def main():
         if not path.resolve().is_relative_to(ROOT) or path.is_symlink():raise ValueError('Release input escapes repository')
     archive(assets / (prefix + '-research-source.zip'), source)
     archive(assets / (prefix + '-evidence.zip'), evidence)
-    archive(assets / (prefix + '-reference-models.zip'), models)
+    if models:
+        archive(assets / (prefix + '-reference-models.zip'), models)
     for name in [f"opal_research-{config['version']}-py3-none-any.whl", f"opal_research-{config['version']}.tar.gz"]:
         shutil.copyfile(args.dist / name, assets / name)
     shutil.copyfile(ROOT / 'paper/main.pdf', assets / (prefix + '-manuscript.pdf'))
-    arxiv_source = ROOT / 'releases/arxiv' / (prefix + '-arxiv-source.zip')
+    arxiv_source = args.arxiv_source or ROOT / 'releases/arxiv' / (prefix + '-arxiv-source.zip')
     if not arxiv_source.is_file():
         raise FileNotFoundError('Build the standalone arXiv source bundle before packaging')
     shutil.copyfile(arxiv_source, assets / arxiv_source.name)
@@ -94,7 +103,7 @@ def main():
         'commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
         'dirty_inputs': bool(dirty), 'raw_datasets_included': False,
         'private_plan_included': False, 'model_data_license': config['model_data_license'],
-        'excluded_weights': ['Wessels', 'D-SPIN', 'native CPA/GEARS', 'external priors', 'learned state'],
+        'excluded_weights': config.get('excluded_weights', ['Wessels', 'D-SPIN', 'native CPA/GEARS', 'external priors', 'learned state']),
         'source_files': {n: digest(f) for n, f in sorted(source.items())},
         'evidence_files': {n: digest(f) for n, f in sorted(evidence.items())},
         'model_files': {n: digest(f) for n, f in sorted(models.items())},

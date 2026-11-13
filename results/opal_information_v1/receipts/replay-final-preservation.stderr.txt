@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\verify_information.py", line 83, in <module>
-    if __name__=='__main__':run()
-                            ~~~^^
-  File "C:\Users\USER\Desktop\code\thetinyintellab\opal\tools\verify_information.py", line 77, in run
-    if mismatches:raise ValueError('Historical evidence changed: '+str(mismatches))
-                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ValueError: Historical evidence changed: ['paper\\main.pdf']

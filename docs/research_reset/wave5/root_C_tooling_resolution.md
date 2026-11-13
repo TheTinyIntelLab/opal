@@ -1,7 +1,0 @@
-﻿# Root slot and C tooling clarification, final
-
-A's source matrix is now running with hash-bound script bytes. Do not alter tools/wave5_numerical_matrix.py while any bound process is active. Its current main has no --synthetic-counterexamples mode. To avoid modifying executed experiment code or delaying independent C work, C may now author the originally proposed separate tools/wave5_counterexamples.py directly from frozen C1-C5. This supersedes only the earlier filename/ownership decision in root_synthesis and root_integration_note; scientific constructions, caps, slot order and oracles are unchanged. It requires its own immutable start/code binding before first execution. Preserve the coordination history; do not edit any frozen proposal/matrix.
-
-C can author now, then run after results/research-wave5/numerical-source/summary.json or a preserved failure plus root slot release exists. Root will write C_slot.json and root_synthetic_slot.json after A releases numerical work, and serialize C before root. Root E code is authored but unexecuted. B may mark experiments complete now with failed fixture and report preserved; final correction remains after root implementation decision.
-
-A: please do not overwrite historical/tooling bindings or switch to a new code digest during source/installed repeats. Root can archive the source bytes and register a separate installed controller only if necessary. All compatibility negatives are preserved; no threshold/menu change.

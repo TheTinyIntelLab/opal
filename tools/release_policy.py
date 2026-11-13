@@ -1,7 +1,8 @@
 """Portable archive policy shared by packager, validator and membership tests."""
 from pathlib import PurePosixPath
 
-PRIVATE_NAMES={'plan.md','outreach.md','outreach_register.json','context.md','roadmap.md','opal_next_master_plan.md','build_evidence_demo.py'}
+PRIVATE_NAMES={'plan.md','outreach.md','outreach_register.json','context.md','roadmap.md','opal_next_master_plan.md','build_evidence_demo.py',
+               'release_cleanup_plan.md','release_deletions.json','opal_repository_audit.md'}
 DENIED_PARTS={'web','vendor','external','__pycache__','raw','prepared','sealed','custodian','source_snapshots'}
 COMPACT_CSV_NAMES={'comparisons.csv','coverage.csv','summary.csv','scores.csv'}
 
@@ -21,6 +22,7 @@ def public_name(name):
 
 def allowed_source(name):
     if not public_name(name):return False
+    if name in {'docs/archive/pre-v1-documentation.zip', 'docs/archive/development-records.zip', 'docs/archive/research-records.zip'}:return True
     path=PurePosixPath(name)
     if tuple(p.casefold() for p in path.parts[:3]) == ('docs', 'frontier', 'historical'):
         return False
@@ -32,6 +34,8 @@ def allowed_source(name):
 
 def allowed_evidence(name):
     if not public_name(name):return False
+    if name in {'docs/archive/pre-v1-documentation.zip', 'docs/archive/development-records.zip', 'docs/archive/research-records.zip'}:return True
+    if name in {'docs/archive/pre-v1-documentation.json', 'docs/archive/retired-documents.json', 'docs/archive/research-records.json'}:return True
     path=PurePosixPath(name)
     return path.parts[0] in {'results','data','paper'} and (
         path.suffix in {'.json','.md','.tex','.pdf'} or path.name in COMPACT_CSV_NAMES) and not any(
