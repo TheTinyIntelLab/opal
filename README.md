@@ -1,8 +1,27 @@
-<p align="center"><img src="images/logo.png" width="140" alt="Opal logo"></p>
+<div align="center">
+  <img src="images/logo.png" width="160" alt="Opal logo" />
+  <h1>Opal</h1>
+  <p>Observed-single combinatorial response prediction</p>
+</div>
 
-# Opal
+<div align="center">
+  <a href="https://thetinyintelligencelab.vercel.app/"><img src="images/lab_badge.svg" alt="The Tiny Intelligence Lab" /></a>
+  <img src="images/status_badge.svg" alt="Version 1.0.0" />
+  <a href="paper/main.pdf"><img src="images/paper_badge.svg" alt="Research preprint draft" /></a>
+  <a href="LICENSE"><img src="images/license_badge.svg" alt="Code license: MIT" /></a>
+</div>
 
-Observed-single prediction of combinatorial perturbation responses. Opal v1.0.0 is the first research release from [The Tiny Intelligence Lab](https://github.com/TheTinyIntelLab).
+<p align="center">
+  <a href="#use">Models</a> &middot;
+  <a href="#results">Evaluation</a> &middot;
+  <a href="#install">Quick start</a> &middot;
+  <a href="#license">License</a> &middot;
+  <a href="#citation">Citation</a>
+</p>
+
+<p align="center"><a href="paper/main.pdf">Read the research preprint</a></p>
+
+Opal v1.0.0 is the first research release from [The Tiny Intelligence Lab](https://github.com/TheTinyIntelLab).
 
 Opal predicts population-mean expression changes or double-CRISPRi growth from measured single perturbations and a declared set of other pair outcomes. Its strongest retained results concern missing pairs within an assay, among genes already supported by training pairs. Reliable cross-study biological generalization is not established.
 
@@ -78,8 +97,10 @@ Opal does not establish biological discovery, causal understanding, frontier-lev
 
 Current ledgers and runtime-required contracts stay in the active tree. Older protocols, negative findings and computational records are consolidated in [verified archives](docs/archive/README.md), with original paths and hashes available for restoration. Local builds, model banks and unfinished research are kept outside the checkout.
 
-## License and citation
+## License
 
 Original Opal code is [MIT licensed](LICENSE). Source data and external/model-derived assets have separate terms in [third-party notices](THIRD_PARTY_NOTICES.md). GitHub excludes raw biological data, trained checkpoints, private correspondence and local plans.
+
+## Citation
 
 Use [CITATION.cff](CITATION.cff) to cite Opal, and cite the source studies for the data you use. Arjun Vijay Prakash is responsible for the research and final text; the manuscript discloses AI assistance. No public DOI or arXiv identifier is claimed.

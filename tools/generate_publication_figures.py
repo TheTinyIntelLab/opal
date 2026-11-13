@@ -109,7 +109,7 @@ def badges():
     from urllib.request import urlopen, Request
     from urllib.parse import quote
     specs = [('lab', 'Website', 'The Tiny Intelligence Lab', '536af5'),
-             ('status', 'Status', 'Publication paused', '7289da'),
+             ('status', 'Version', '1.0.0', '7289da'),
              ('license', 'Code_License', 'MIT', 'f5de53'),
              ('paper', 'Paper', 'Preprint draft', '536af5')]
     sources = {}
